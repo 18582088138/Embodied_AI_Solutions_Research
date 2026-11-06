@@ -1,0 +1,45 @@
+{
+  "id": "NVIDIA_Thermal_Guide_AGX_Orin_v1_3",
+  "url": "https://developer.nvidia.com/downloads/jetson-agx-orin-series-thermal-design-guide",
+  "retrieved_at_utc": "2026-11-03T05:24:24.212190+00:00",
+  "final_url": "https://developer.nvidia.com/login",
+  "status": 200,
+  "headers": {
+    "Cache-Control": "max-age=0, private, must-revalidate",
+    "Content-Length": "11366",
+    "Content-Security-Policy": "default-src 'self' https: data: blob:; connect-src 'self' https: data: https://typesense.svc.nvidia.com wss://*.nvidiagrid.net:* *.nvidiagrid.net https://developer.nvidia.com:*; frame-ancestors 'self' nvidia.lookbookhq.com nvidia.pathfactory.com resources.nvidia.com www.nvidia.com www.nvidia.cn; font-src 'self' https: data: https://developer.nvidia.com:*; img-src 'self' https: data: https://developer.nvidia.com:*; object-src https://www.youtube.com; script-src 'self' https: 'unsafe-inline' 'unsafe-eval' https://assets.adobedtm.com https://munchkin.marketo.net http://www.youtube.com/iframe_api https://developer.nvidia.com:*; style-src 'self' https: 'unsafe-inline' https://developer.nvidia.com:*; worker-src 'self' https: blob: https://developer.nvidia.com https://developer.nvidia.com:*",
+    "Content-Type": "text/html; charset=utf-8",
+    "ETag": "W/\"9b207b33a81a4c5510be94d628f43e3e\"",
+    "Link": "<https://developer.nvidia.com/assets/application-f36cbb000aafb7aefb19b5586265f541071aff08be57728cdf8c1d77d7bb00fa.css>; rel=preload; as=style; nopush,<https://developer.nvidia.com/assets/one-trust-bea625cf16a072ce5fdb0707a19f2645daf63c05eb1a016db72773eba008fc07.css>; rel=preload; as=style; nopush,<https://cdn.cookielaw.org/scripttemplates/otSDKStub.js>; rel=preload; as=script; nopush,<https://images.nvidia.com/aem-dam/Solutions/ot-js/ot-custom.js>; rel=preload; as=script; nopush,<https://assets.adobedtm.com/5d4962a43b79/c1061d2c5e7b/launch-191c2462b890.min.js>; rel=preload; as=script; nopush,<https://developer.nvidia.com/assets/bootstrap/5.1.3/bootstrap.bundle.min-51ad1d8cab4ebd9873a0429f5e67ca717a71fd96daf8025bc04a88848e5b375c.js>; rel=preload; as=script; nopush,<https://developer.nvidia.com/assets/nv-gallery-widget-d1571cad15d961fd3ba013f57119be04a2adf32aa31b16be44a0f10f4671c37b.js>; rel=preload; as=script; nopush",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Server": "Heroku",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-Request-Id": "48ede3be-5636-bd18-9563-c008f11d1c1b",
+    "X-Runtime": "0.020864",
+    "X-Xss-Protection": "0",
+    "X-EdgeConnect-MidMile-RTT": "0",
+    "X-EdgeConnect-Origin-MEX-Latency": "219",
+    "Date": "Tue, 03 Nov 2026 05:24:26 GMT",
+    "Connection": "close",
+    "Set-Cookie": "nv_country_code=CN; path=/; SameSite=Lax; secure",
+    "x-ak-request-id": "0.28d73017.1793683465.18c8a056",
+    "x-property-version": "us-135"
+  },
+  "sha256": "9b207b33a81a4c5510be94d628f43e3ec0adb2f68136f3ae661f168928cd0cbc",
+  "bytes": 11366,
+  "file": "_Evidence/NVIDIA_Thermal_Guide_AGX_Orin_v1_3.html",
+  "links": [
+    "/"
+  ],
+  "images": [
+    "https://developer.nvidia.com/assets/logo-white-cd8e2d122102f15a8774e941e9998a98f0f8baa119313b9b3ee6fbad50392f96.svg",
+    "https://developer.nvidia.com/assets/icon-forum-9a7c35d12ab88d9fc752015b910637f0b9471dd90ae08d435f92e06dc76178cc.png",
+    "https://developer.nvidia.com/assets/icon-software-5b5a2e0b18881df0b4f24aaaab2e4c067b72df585991e0a397b42e30a4815951.png",
+    "https://developer.nvidia.com/assets/icon-bug-e621110be37e5d8ae8b7af451074ebdfd0b436540823f66f9d2ed608d045b03b.png"
+  ],
+  "tables": [],
+  "text_chars": 264
+}

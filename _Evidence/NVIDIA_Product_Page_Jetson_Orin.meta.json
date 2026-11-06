@@ -1,0 +1,1349 @@
+{
+  "id": "NVIDIA_Product_Page_Jetson_Orin",
+  "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+  "retrieved_at_utc": "2026-11-03T05:19:51.421964+00:00",
+  "final_url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Server": "Apache",
+    "Last-Modified": "Fri, 30 Oct 2026 22:44:13 GMT",
+    "Edge-Cache-Tag": "/en-us/autonomous-machines/embedded-systems/jetson-orin/this/,/en-us/autonomous-machines/embedded-systems/jetson-orin/,/en-us/autonomous-machines/embedded-systems/,/en-us/autonomous-machines/,/en-us/",
+    "ETag": "\"9de1e-65f16890b3cbd\"",
+    "Content-Security-Policy": "frame-ancestors 'self' *.awsapps.nvidia.com *.nvidia.com https://widget.stackla.com https://app-sj14.marketo.com https://www.youtube.com https://www.quadro-selector.com http://player.youku.com https://player.youku.com https://live.nvidia-china.com https://www.google.com *.nvidia.cn https://events.rainfocus.com https://www.twitch.tv https://store.nvidia.ru https://store.nvidia.in *.geforcenow.com https://salespro.hpe.com https://hpe.seismic.com https://cms.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://cms.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://events.rainfocus.com https://docs.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://docs.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://nvfile;",
+    "ServerID": "prod-web04",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Access-Control-Allow-Origin": "*",
+    "Vary": "Accept-Encoding",
+    "Date": "Tue, 03 Nov 2026 05:19:51 GMT",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Set-Cookie": "c_code=CN; Domain=nvidia.com; Path=/; Secure",
+    "nv-defunct-locale-redirection": "executed",
+    "AK_EC_TYPE": "LOCALE_ERD_POLICY",
+    "Akamai-Cache-Status": "Hit from child",
+    "x-cdn-version": "v458",
+    "x-cdn": "akam"
+  },
+  "sha256": "d16160a165021a545881547e22dcd21214e7582739dd726b01f8de8d3b934d18",
+  "bytes": 646686,
+  "file": "_Evidence/NVIDIA_Product_Page_Jetson_Orin.html",
+  "links": [
+    "https://www.nvidia.com",
+    "#page-content",
+    "https://www.nvidia.com/en-us/",
+    "https://www.nvidia.com/en-us/industries/robotics/",
+    "https://www.nvidia.com/en-us/edge-computing/",
+    "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics-platform/",
+    "https://www.nvidia.com/en-us/research/robotics/",
+    "https://developer.nvidia.com/isaac",
+    "https://developer.nvidia.com/isaac/ros",
+    "https://developer.nvidia.com/isaac/lab",
+    "https://developer.nvidia.com/isaac/sim",
+    "https://developer.nvidia.com/project-gr00t",
+    "https://developer.nvidia.com/osmo",
+    "https://developer.nvidia.com/newton-physics",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-series/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-tx2/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/",
+    "https://www.nvidia.com/en-us/edge-computing/products/igx/",
+    "https://developer.nvidia.com/embedded-computing",
+    "https://developer.nvidia.com/metropolis",
+    "https://docs.nvidia.com/igx-orin/index.html",
+    "https://nvidianews.nvidia.com/search?q=robotics",
+    "https://blogs.nvidia.com/blog/category/robotics/",
+    "https://developer.nvidia.com/blog/search-posts/?categories=Robotics",
+    "https://marketplace.nvidia.com/en-us/enterprise/robotics-edge/",
+    "#",
+    "https://www.nvidia.com/en-us/account/edit-profile/",
+    "/",
+    "http://www.enable-javascript.com/",
+    "https://store.nvidia.com/jetson/store/",
+    "#introduction",
+    "#features",
+    "#software",
+    "#tech-specs",
+    "#videos",
+    "#resources",
+    "#jetson-partner-ecosystem",
+    "#platforms",
+    "https://blogs.nvidia.com/?p=93325&preview=true",
+    "https://www.nvidia.com/en-us/edge-computing/space-computing/",
+    "https://nvidianews.nvidia.com/news/nvidia-announces-jetson-orin-nano-2-robotics-computer-to-redefine-entry-level-edge-ai",
+    "#notifyme",
+    "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
+    "https://developer.nvidia.com/embedded/downloads#?search=Data%20Sheet&tx=$product,jetson_agx_orin,jetson_orin_nx,jetson_orin_nano",
+    "https://developer.nvidia.com/embedded/community/support-resources",
+    "https://docs.nvidia.com/jetson/agx-orin-devkit/user-guide/latest/index.html",
+    "https://developer.nvidia.com/embedded/learn/getting-started-jetson",
+    "https://developer.nvidia.com/embedded/jetpack",
+    "https://www.jetson-ai-lab.com/",
+    "https://www.nvidia.com/en-us/deep-learning-ai/industries/robotics/",
+    "https://developer.nvidia.com/isaac-ros",
+    "https://developer.nvidia.com/embedded/develop/software",
+    "https://blogs.nvidia.com/blog/jetson-generative-ai-edge-oss/",
+    "https://developer.nvidia.com/deep-learning-accelerator",
+    "#orin-compute-comparison",
+    "#video-1",
+    "#video-2",
+    "#video-3",
+    "#video-4",
+    "https://resources.nvidia.com/l/en-us-jetson-success-stories",
+    "https://developer.nvidia.com/blog/tag/jetson/",
+    "https://forums.developer.nvidia.com/c/agx-autonomous-machines/jetson-embedded-systems/70",
+    "https://www.nvidia.com/en-us/lp/embedded-computing/robotics-edge-ai-tech-brief/",
+    "https://www.nvidia.com/en-us/lp/autonomous-machines/embedded-ai-jetson-solutions-ebook/",
+    "https://developer.nvidia.com/embedded/jetson-partner-products?t1_supported-jetson=Orin",
+    "https://developer.nvidia.com/embedded/jetson-partner-supported-cameras?t1_supported-jetson-products=Orin",
+    "https://ngc.nvidia.com/catalog/models",
+    "https://www.nvidia.com/en-us/clara/holoscan/",
+    "https://www.nvidia.com/en-us/about-nvidia/privacy-policy/?deeplink=visiting-our-website",
+    "https://developer.nvidia.com/isaac/lab-arena",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/product-development/",
+    "https://developer.nvidia.com/developer-program",
+    "https://developer.nvidia.com/humanoid-robot-program/",
+    "https://developer.nvidia.com/embedded/ecosystem",
+    "https://resources.nvidia.com/l/en-us-jetson-success-stories?",
+    "https://forums.developer.nvidia.com/c/agx-autonomous-machines/isaac/67",
+    "https://forums.developer.nvidia.com/c/accelerated-computing/intelligent-video-analytics/metropolis-microservices-for-jetson/672",
+    "https://developer.nvidia.com/embedded/community/jetson-projects",
+    "https://www.facebook.com/NVIDIARobotics",
+    "https://www.instagram.com/nvidiarobotics/",
+    "https://www.linkedin.com/showcase/nvidiarobotics",
+    "https://x.com/NVIDIARobotics",
+    "https://www.nvidia.com/en-us/about-nvidia/privacy-policy/",
+    "https://www.nvidia.com/en-us/about-nvidia/privacy-center/",
+    "https://www.nvidia.com/en-us/about-nvidia/terms-of-service/",
+    "https://www.nvidia.com/en-us/about-nvidia/accessibility/",
+    "https://www.nvidia.com/en-us/about-nvidia/company-policies/",
+    "https://www.nvidia.com/en-us/product-security/",
+    "https://www.nvidia.com/en-us/contact/"
+  ],
+  "images": [
+    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_copy/nv_container/nv_teaser.coreimg.jpeg/1787666714936/jetson-agx-orin-family-v1-2c50-d-2x.jpeg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_copy/nv_container/nv_teaser_copy.coreimg.jpeg/1787666715029/jetson-orin-developer-kits-2c50-d-2x.jpeg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_1336425203/nv_image.coreimg.jpeg/1787666715871/jetson-orin-nano-super-dev-kit-ari.jpeg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_1736846491/nv_image.coreimg.jpeg/1787666716022/jetson-agx-orin-developer-kit-assets-2c50-d-2x.jpeg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_copy_1594721673/nv_container/nv_teaser.coreimg.jpeg/1787666716551/nvidia-jetson-agx-orin-3c33-d-2x.jpeg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_copy_1594721673/nv_container/nv_teaser_copy.coreimg.jpeg/1787666716561/nvidia-jetson-orin-nx-3c33-d-2x.jpeg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_copy_1594721673/nv_container/nv_teaser_copy_1995786452.coreimg.jpeg/1787666716572/nvidia-jetson-orin-nano-3c33-d-2x.jpeg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container/nv_container_copy/nv_teaser.coreimg.jpeg/1787666716776/nvidia-software-ari.jpeg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container/nv_container_copy/nv_teaser_copy.coreimg.jpeg/1787666716817/nvidia-jetson-oss-ari.jpeg",
+    "https://img.youtube.com/vi_webp/VWdJ4BCtam8/maxresdefault.webp",
+    "https://img.youtube.com/vi_webp/eFgsOeHMAW4/maxresdefault.webp",
+    "https://www.nvidia.com/content/dam/en-zz/Solutions/gtcf22/embedded-systems/jetson-orin/generative-ai-jetson-orin-ari.jpg",
+    "https://img.youtube.com/vi_webp/t5YwqZqLjys/maxresdefault.webp",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_copy_15/nv_container/nv_teaser.coreimg.jpeg/1787666718447/jetson-resources-support-2c50-d.jpeg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_copy_15/nv_container/nv_teaser_copy.coreimg.jpeg/1787666718490/jetson-resources-success-stories-4c25-d-2x.jpeg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_copy_15/nv_container/nv_teaser_copy_1186191272.coreimg.jpeg/1787666718533/jetson-resources-blogs-news-4c25-d-2x.jpeg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_copy_15/nv_container/nv_teaser_copy_1595881015.coreimg.jpeg/1787666718577/jetson-resources-forum-4c25-d-2x.jpeg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_1167582/nv_image.coreimg.jpeg/1787666719112/nvidia-jetson-partner-ecosystem-v1-2c50-d-2x.jpeg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_1167582_1911793909/nv_image_copy.coreimg.jpeg/1787666719294/pretrained-models-2c50-d-2x.jpeg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_copy_15_880656104/nv_container/nv_teaser.coreimg.jpeg/1787666719683/nv-isaac-for-robotics-3c33-d-2x.jpeg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_copy_15_880656104/nv_container/nv_teaser_copy.coreimg.jpeg/1787666719726/nvidia-metropolis-ari.jpeg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/_jcr_content/root/responsivegrid/nv_container_copy_15_880656104/nv_container/nv_teaser_copy_1840770239.coreimg.jpeg/1787666719769/nvidia-holoscan-ari.jpeg"
+  ],
+  "tables": [
+    [
+      [
+        {
+          "rowspan": "2",
+          "colspan": "1",
+          "text": ""
+        },
+        {
+          "rowspan": "1",
+          "colspan": "4",
+          "text": "Jetson AGX Orin series"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "Jetson Orin NX series"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "Jetson Orin Nano series"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin Developer Kit"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin 64GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin Industrial"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin 32GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin NX 16GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin NX 8GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano Super Developer Kit"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano 8GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano 4GB"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "AI Performance"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "275 TOPS"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "248 TOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "241 TOPS"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "157 TOPS"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "117 TOPS"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "67 TOPS"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "67 TOPS"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "34 TOPS"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "GPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "2048-core NVIDIA Ampere architecture GPU with 64 Tensor Cores"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1792-core NVIDIA Ampere c GPU with 56 Tensor Cores"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "1024-core NVIDIA Ampere architecture GPU with 32 Tensor Cores"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "1024-core NVIDIA Ampere architecture GPU with 32 Tensor Cores"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "512-core NVIDIA Ampere architecture GPU with 16 Tensor Cores"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "GPU Max Frequency"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "1.3 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.2 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.3 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1173MHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1173MHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1020MHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1020MHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1020MHz"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "12-core Arm® Cortex®-A78AE v8.2 64-bit CPU 3MB L2 + 6MB L3"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "8-core Arm® Cortex®-A78AE v8.2 64-bit CPU 2MB L2 + 4MB L3"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "8-core Arm® Cortex®-A78AE v8.2 64-bit CPU 2MB L2 + 4MB L3"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "6-core Arm® Cortex®-A78AE v8.2 64-bit CPU 1.5MB L2 + 4MB L3"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "6-core Arm® Cortex®-A78AE v8.2 64-bit CPU 1.5MB L2 + 4MB L3"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CPU Max Frequency"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "2.2 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2.0 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2.2 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "2 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.7 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.7 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.7 GHz"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "DL Accelerator"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "5",
+          "text": "2x NVDLA v2"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x NVDLA v2"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "-"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "DLA Max Frequency"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "1.6 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "1.4 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "1.23 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "-"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Vision Accelerator"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "6",
+          "text": "1x PVA v2"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "-"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Safety Cluster Engine"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "5",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "-"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Memory"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "64GB 256-bit LPDDR5 204.8GB/s"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "64GB 256-bit LPDDR5 (+ ECC) 204.8GB/s"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "32GB 256-bit LPDDR5 204.8GB/s"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "16GB 128-bit LPDDR5 102.4GB/s"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "8GB 128-bit LPDDR5 102.4GB/s"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "8GB 128-bit LPDDR5 102 GB/s"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "8GB 128-bit LPDDR5 102 GB/s"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4GB 64-bit LPDDR5 51 GB/s"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Storage"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "4",
+          "text": "64GB eMMC 5.1"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "- (Supports external NVMe)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "- (SD Card Slot & external NVMe via M.2 Key M)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "- (Supports external NVMe)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Video Encode"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "2x 4K60 (H.265) 4x 4K30 (H.265) 8x 1080p60 (H.265) 16x 1080p30 (H.265)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x 4K60 (H.265) 3x 4K30 (H.265) 7x 1080p60 (H.265) 15x 1080p30 (H.265)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "1x 4K60 (H.265) 3x 4K30 (H.265) 6x 1080p60 (H.265) 12x 1080p30 (H.265)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "1080p30 supported by 1-2 CPU cores"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Video Decode"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "1x 8K30 (H.265) 3x 4K60 (H.265) 7x 4K30 (H.265) 11x 1080p60 (H.265) 22x 1080p30 (H.265)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x 8K30 (H.265) 3x 4K60 (H.265) 7x 4K30 (H.265) 11x 1080p60 (H.265) 23x 1080p30 (H.265)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "1x 8K30 (H.265) 2x 4K60 (H.265) 4x 4K30 (H.265) 9x 1080p60 (H.265) 18x 1080p30 (H.265)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "1x 4K60 (H.265) 2x 4K30 (H.265) 5x 1080p60 (H.265) 11x 1080p30 (H.265)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CSI Camera"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "16-lane MIPI CSI-2 connector"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "Up to 6 cameras (16 via virtual channels) 16 lanes MIPI CSI-2 D-PHY 2.1 (up to 40Gbps) | C-PHY 2.0 (up to 164Gbps)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "Up to 4 cameras (8 via virtual channels***) 8 lanes MIPI CSI-2 D-PHY 2.1 (up to 20Gbps)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x MIPI CSI-2 22-pin Camera Connectors"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "Up to 4 cameras (8 via virtual channels***) 8 lanes MIPI CSI-2 D-PHY 2.1 (up to 20Gbps)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "PCIe*"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "x16 PCIe slot supporting x8 PCIe Gen4 M.2 Key M slot with x4 PCIe Gen4 M.2 Key E slot with x1 PCIe Gen4"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "Up to 2 x8 + 1 x4 + 2 x1 (PCIe Gen4, Root Port, & Endpoint)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "1 x4 + 3 x1 (PCIe Gen4, Root Port, & Endpoint)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "M.2 Key M slot with x4 PCIe Gen3 M.2 Key M slot with x2 PCIe Gen3 M.2 Key E slot"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "1 x4 + 3 x1 (PCIe Gen3, Root Port, & Endpoint)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "USB*"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "USB Type-C connector: 2x USB 3.2 Gen2 USB Type-A connector: 2x USB 3.2 Gen2, 2x USB 3.2 Gen1 USB Micro-B connector: USB 2.0"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "3x USB 3.2 Gen2 (10 Gbps) 4x USB 2.0"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "3x USB 3.2 Gen2 (10 Gbps) 3x USB 2.0"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "USB Type-A Connector: 4x USB 3.2 Gen2 USB Type-C Connector for UFP"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "3x USB 3.2 Gen2 (10 Gbps) 3x USB 2.0"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Networking*"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "RJ45 connector with up to 10 GbE"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "1x GbE 1x 10GbE"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "1x GbE"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1xGbE Connector"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "1x GbE"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Display"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x DisplayPort 1.4a (+MST) connector"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "1x 8K60 multi-mode DP 1.4a (+MST)/eDP 1.4a/HDMI 2.1"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "1x 8K30 multi-mode DP 1.4a (+MST)/eDP 1.4a/HDMI 2.1"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x DisplayPort 1.2 (+MST) connector"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "1x 4K30 multi-mode DP 1.2 (+MST)/eDP 1.4/HDMI 1.4**"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Other I/O"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "40-pin header (UART, SPI, I2S, I2C, CAN, PWM, DMIC, GPIO) 12-pin automation header 10-pin audio panel header 10-pin JTAG header 4-pin fan header 2-pin RTC batter backup connector microSD slot DC power jack Power, Force Recovery, and Reset buttons"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "4x UART, 3x SPI, 4x I2S, 8x I2C, 2x CAN, PWM, DMIC & DSPK, GPIOs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "3x UART, 2x SPI, 2x I2S, 4x I2C, 1x CAN, DMIC & DSPK, PWM, GPIOs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "40-Pin Expansion Header(UART, SPI, I2S, I2C, GPIO) 12-pin button header 4-pin fan header microSD Slot DC power jack"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "3x UART, 2x SPI, 2x I2S, 4x I2C, 1x CAN, DMIC & DSPK, PWM, GPIOs"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Power"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "15W - 60W"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "15W-75W"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "15W - 60W"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "10W - 15W - 25W - 40W"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "10W - 15W - 25W - 40W"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "7W - 15W - 25W"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "7W - 15W - 25W"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "7W - 10W - 25W"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Mechanical"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "110mm x 110mm x 71.65mm (Height includes feet, carrier board, module, and thermal solution)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "100mm x 87mm 699-pin Molex Mirror Mezz Connector Integrated Thermal Transfer Plate"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "69.6mm x 45mm 260-pin SO-DIMM connector"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "100 mm x 79 mmx 21 mm (Height includes feet, carrier board, module, and thermal solution)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "69.6mm x 45mm 260-pin SO-DIMM connector"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "2",
+          "colspan": "1",
+          "text": ""
+        },
+        {
+          "rowspan": "1",
+          "colspan": "4",
+          "text": "Jetson AGX Orin series"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "Jetson Orin NX series"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "Jetson Orin Nano series"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin Developer Kit"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin 64GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin Industrial"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin 32GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin NX 16GB (Super)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin NX 8GB (Super)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano Super Developer Kit"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano 8GB (Super)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano 4GB (Super)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Overall AI Performance"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "275 SPARSE INT8 TOPS"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "248 SPARSE INT8 TOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "200 SPARSE INT8 TOPS"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "157 SPARSE INT8TOPS"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "117 SPARSE INT8 TOPS"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "67 SPARSE INT8 TOPS"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "34 SPARSE INT8 TOPS"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "GPU Tensor Core INT8 Performance"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "170 SPARSE INT8 TOPs | 85 DENSE INT8 TOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "156 SPARSE INT8 TOPs | 78 DENSE INT8 TOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "108 SPARSE INT8 TOPs | 54 DENSE INT8 TOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "77 SPARSE INT8 TOPs | 38 DENSE INT8 TOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "77 SPARSE INT8 TOPs | 38 DENSE INT8 TOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "67 SPARSE INT8 TOPs 33 DENSE INT8 TOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "34 SPARSE INT8 TOPs 17 DENSE INT8 TOPs"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "GPU Tensor Core FP16 Performance"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "85 SPARSE FP16 TFLOPs | 43 DENSE FP16 TFLOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "78 SPARSE FP16 TFLOPs | 39 DENSE FP16 TFLOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "54 SPARSE FP16 TFLOPs | 27 DENSE FP16 TFLOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "38 SPARSE FP16 TFLOPs | 19 DENSE FP16 TFLOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "38 SPARSE FP16 TFLOPs | 19 DENSE FP16 TFLOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "33 SPARSE FP16 TFLOPs 17 DENSE FP16 TFLOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "17 SPARSE FP16 TFLOPs 8.5 DENSE FP16 TFLOPs"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "DLA INT8 Performance"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "105 SPARSE INT8 TOPs | 52.5 DENSE INT8 TOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "92 SPARSE INT8 TOPs | 46 DENSE INT8 TOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "92 SPARSE INT8 TOPs | 46 DENSE INT8 TOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "80 SPARSE INT8 TOPs | 40 DENSE INT8 TOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "40 SPARSE INT8 TOPs | 20 DENSE INT8 TOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "~"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "~"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "GPU CUDA Core Performance"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "5.3 FP32 TFLOPs | 10.6 FP16 TFLOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4.8 FP32 TFLOPs | 9.6 FP16 TFLOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "3.8 FP32 TFLOPs | 7.6 FP16 TFLOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2.4 FP32 TFLOPs | 4.8 FP16 TFLOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2.4 FP32 TFLOPs | 4.8 FP16 TFLOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "2.1 FP32 TFLOPs 4.2 FP16 TFLOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.04 FP32 TFLOPs 2.08 FP16 TFLOPs"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": ""
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin Commercial"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin Industrial"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Mechanical Shock"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Non-Operational: 140G, 2 ms"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Non-Operational: 140G, 2 ms Operational 50G, 11 ms"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Vibration"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Non-Operational: 3G"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Non-Operational: 3G Operational: 5G"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Temperature"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-25°C - 80°C at TTP Surface"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-40°C - 85°C at TTP Surface"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Humidity"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "85°C, 85% RH, 168 hours"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": ": 85°C / 85% RH, 1000 hours, Power ON"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Temperature Endurance"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-20°C, 24 hours 45°C, 168 hours (operational)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-40°C, 72 hours 85°C, 1000 hours (operational)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "ECC"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "N/A"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Inline DRAM ECC Supported"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Underfill"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "N/A"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SoC Corner Bonding & Component Underfill"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Operating Lifetime"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "5 Years"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "10 Years"
+        }
+      ]
+    ]
+  ],
+  "text_chars": 28993
+}

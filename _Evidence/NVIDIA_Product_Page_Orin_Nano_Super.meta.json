@@ -1,0 +1,270 @@
+{
+  "id": "NVIDIA_Product_Page_Orin_Nano_Super",
+  "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/",
+  "retrieved_at_utc": "2026-11-03T05:26:45.680076+00:00",
+  "final_url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Server": "Apache",
+    "Last-Modified": "Fri, 30 Oct 2026 23:33:44 GMT",
+    "Edge-Cache-Tag": "/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/this/,/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/,/en-us/autonomous-machines/embedded-systems/jetson-orin/,/en-us/autonomous-machines/embedded-systems/,/en-us/autonomous-machines/,/en-us/",
+    "ETag": "\"486f7-65f173a258224\"",
+    "Content-Security-Policy": "frame-ancestors 'self' *.awsapps.nvidia.com *.nvidia.com https://widget.stackla.com https://app-sj14.marketo.com https://www.youtube.com https://www.quadro-selector.com http://player.youku.com https://player.youku.com https://live.nvidia-china.com https://www.google.com *.nvidia.cn https://events.rainfocus.com https://www.twitch.tv https://store.nvidia.ru https://store.nvidia.in *.geforcenow.com https://salespro.hpe.com https://hpe.seismic.com https://cms.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://cms.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://events.rainfocus.com https://docs.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://docs.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://nvfile;",
+    "ServerID": "prod-web04",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Access-Control-Allow-Origin": "*",
+    "Vary": "Accept-Encoding",
+    "Date": "Tue, 03 Nov 2026 05:26:46 GMT",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Set-Cookie": "c_code=CN; Domain=nvidia.com; Path=/; Secure",
+    "nv-defunct-locale-redirection": "executed",
+    "AK_EC_TYPE": "LOCALE_ERD_POLICY",
+    "Akamai-Cache-Status": "Hit from child",
+    "x-cdn-version": "v458",
+    "x-cdn": "akam"
+  },
+  "sha256": "bea441992cfeff7325b36715b46e2602381d1c86fdea402d131873cb1b4b694b",
+  "bytes": 296695,
+  "file": "_Evidence/NVIDIA_Product_Page_Orin_Nano_Super.html",
+  "links": [
+    "https://www.nvidia.com",
+    "#page-content",
+    "https://www.nvidia.com/en-us/",
+    "https://www.nvidia.com/en-us/industries/robotics/",
+    "https://www.nvidia.com/en-us/edge-computing/",
+    "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics-platform/",
+    "https://www.nvidia.com/en-us/research/robotics/",
+    "https://developer.nvidia.com/isaac",
+    "https://developer.nvidia.com/isaac/ros",
+    "https://developer.nvidia.com/isaac/lab",
+    "https://developer.nvidia.com/isaac/sim",
+    "https://developer.nvidia.com/project-gr00t",
+    "https://developer.nvidia.com/osmo",
+    "https://developer.nvidia.com/newton-physics",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-series/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-tx2/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/",
+    "https://www.nvidia.com/en-us/edge-computing/products/igx/",
+    "https://developer.nvidia.com/embedded-computing",
+    "https://developer.nvidia.com/metropolis",
+    "https://docs.nvidia.com/igx-orin/index.html",
+    "https://nvidianews.nvidia.com/search?q=robotics",
+    "https://blogs.nvidia.com/blog/category/robotics/",
+    "https://developer.nvidia.com/blog/search-posts/?categories=Robotics",
+    "https://marketplace.nvidia.com/en-us/enterprise/robotics-edge/",
+    "#",
+    "https://www.nvidia.com/en-us/account/edit-profile/",
+    "/",
+    "http://www.enable-javascript.com/",
+    "https://store.nvidia.com/jetson/store/",
+    "https://developer.nvidia.com/embedded/jetpack",
+    "https://dam-cdn.nvd.orangelogic.com/AssetLink/2ug686w80406gxf6q8uv7r3l7265m2n8.pdf",
+    "https://www.youtube.com/watch?v=S9L2WGf1KrM",
+    "#specs",
+    "#introduction",
+    "#highlights",
+    "#workloads",
+    "#benefits",
+    "#performance",
+    "#specifications",
+    "#community",
+    "#get-started",
+    "https://www.nvidia.com/en-us/solutions/ai/",
+    "https://blogs.nvidia.com/blog/jetson-generative-ai-supercomputer/",
+    "https://developer.nvidia.com/blog/nvidia-jetson-orin-nano-developer-kit-gets-a-super-boost/",
+    "https://marketplace.nvidia.com/en-us/enterprise/robotics-edge/?category=developer_kit&page=1&limit=15",
+    "https://www.jetson-ai-lab.com/",
+    "https://www.jetson-ai-lab.com/community_articles.html",
+    "https://developer.nvidia.com/isaac/lab-arena",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/product-development/",
+    "https://developer.nvidia.com/developer-program",
+    "https://developer.nvidia.com/humanoid-robot-program/",
+    "https://developer.nvidia.com/embedded/ecosystem",
+    "https://resources.nvidia.com/l/en-us-jetson-success-stories?",
+    "https://forums.developer.nvidia.com/c/agx-autonomous-machines/isaac/67",
+    "https://forums.developer.nvidia.com/c/agx-autonomous-machines/jetson-embedded-systems/70",
+    "https://forums.developer.nvidia.com/c/accelerated-computing/intelligent-video-analytics/metropolis-microservices-for-jetson/672",
+    "https://developer.nvidia.com/embedded/community/jetson-projects",
+    "https://www.facebook.com/NVIDIARobotics",
+    "https://www.instagram.com/nvidiarobotics/",
+    "https://www.linkedin.com/showcase/nvidiarobotics",
+    "https://x.com/NVIDIARobotics",
+    "https://www.nvidia.com/en-us/about-nvidia/privacy-policy/",
+    "https://www.nvidia.com/en-us/about-nvidia/privacy-center/",
+    "https://www.nvidia.com/en-us/about-nvidia/terms-of-service/",
+    "https://www.nvidia.com/en-us/about-nvidia/accessibility/",
+    "https://www.nvidia.com/en-us/about-nvidia/company-policies/",
+    "https://www.nvidia.com/en-us/product-security/",
+    "https://www.nvidia.com/en-us/contact/"
+  ],
+  "images": [
+    "/content/dam/en-zz/Solutions/autonomous-machines/embedded-systems/nano-super-developer-kit/jetson-orin-nano-super-developer-kit-bbm-d.jpg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/_jcr_content/root/responsivegrid/nv_container_1945470626/nv_image.coreimg.png/1757426328971/her-social-back-to-school-jetson-1200x675.png",
+    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/_jcr_content/root/responsivegrid/nv_container/nv_container_1736220/nv_container_copy/nv_image.coreimg.svg/1734442406862/m48-nim.svg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/_jcr_content/root/responsivegrid/nv_container/nv_container_1736220/nv_container_copy_co_95768892/nv_image.coreimg.svg/1734442407570/m48-return-on-investment-cost-finance.svg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/_jcr_content/root/responsivegrid/nv_container/nv_container_1736220/nv_container_copy_co_509252153/nv_image.coreimg.svg/1734442408277/m48-monitor-performance.svg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/_jcr_content/root/responsivegrid/nv_container_1046524045/nv_container_copy/nv_container/nv_container/nv_image.coreimg.svg/1734442409996/performance-large-language-models-chart.svg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/_jcr_content/root/responsivegrid/nv_container_1046524045/nv_container_copy/nv_container_copy/nv_container/nv_image_copy.coreimg.svg/1734442410307/performance-vision-language-models-chart.svg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/_jcr_content/root/responsivegrid/nv_container_1046524045/nv_container_copy/nv_container_copy_co/nv_container/nv_image_copy_copy.coreimg.svg/1734442410617/performance-vision-transformers-chart.svg",
+    "/content/dam/en-zz/Solutions/autonomous-machines/embedded-systems/nano-super-developer-kit/jetson-community-bbm-d.jpg"
+  ],
+  "tables": [
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "AI Performance"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "67 INT8 TOPS"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "GPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVIDIA Ampere architecture with 1024 CUDA cores and 32 tensor cores"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "6-core Arm® Cortex®-A78AE v8.2 64-bit CPU 1.5MB L2 + 4MB L3"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Memory"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "8GB 128-bit LPDDR5 102 GB/s"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Storage"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Supports SD card slot and external NVMe"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Power"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "7W–25W"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "AI Performance"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "67 INT8 TOPS"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "GPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVIDIA Ampere architecture with 1024 CUDA cores and 32 tensor cores"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "6-core Arm® Cortex®-A78AE v8.2 64-bit CPU 1.5MB L2 + 4MB L3"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Memory"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "8GB 128-bit LPDDR5 102 GB/s"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Storage"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Supports SD card slot and external NVMe"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Power"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "7W–25W"
+        }
+      ]
+    ]
+  ],
+  "text_chars": 7539
+}

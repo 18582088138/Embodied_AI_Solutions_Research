@@ -1,0 +1,1675 @@
+[
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/01_Hardware_Platform.md",
+    "object": "NVIDIA",
+    "dimension": "硬件平台",
+    "sources": [
+      "nv-thor",
+      "nv-orin"
+    ],
+    "body_chars": 544,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/02_Software_Stack.md",
+    "object": "NVIDIA",
+    "dimension": "软件栈",
+    "sources": [
+      "nv-jetpack",
+      "nv-gr00t",
+      "nv-thor"
+    ],
+    "body_chars": 444,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/03_Sensor_Integration.md",
+    "object": "NVIDIA",
+    "dimension": "传感器接入",
+    "sources": [
+      "nv-thor",
+      "orbbec-sdk",
+      "orbbec-timestamp"
+    ],
+    "body_chars": 444,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/04_AI_Capabilities.md",
+    "object": "NVIDIA",
+    "dimension": "AI 能力",
+    "sources": [
+      "nv-gr00t",
+      "nv-thor",
+      "nv-orin"
+    ],
+    "body_chars": 432,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/05_Simulation_Environment.md",
+    "object": "NVIDIA",
+    "dimension": "仿真环境",
+    "sources": [
+      "nv-isaac",
+      "isaaclab"
+    ],
+    "body_chars": 353,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/06_Robot_Integration.md",
+    "object": "NVIDIA",
+    "dimension": "机器人本体适配",
+    "sources": [
+      "unitree-g1",
+      "nv-gr00t"
+    ],
+    "body_chars": 329,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/07_Ecosystem.md",
+    "object": "NVIDIA",
+    "dimension": "生态建设",
+    "sources": [
+      "nv-jetpack",
+      "isaaclab",
+      "nv-gr00t",
+      "orbbec-sdk"
+    ],
+    "body_chars": 358,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/08_Proprietary_Technologies.md",
+    "object": "NVIDIA",
+    "dimension": "独有技术与生态",
+    "sources": [
+      "nv-thor",
+      "nv-orin",
+      "nv-jetpack"
+    ],
+    "body_chars": 350,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/09_SWOT_Analysis.md",
+    "object": "NVIDIA",
+    "dimension": "SWOT 分析",
+    "sources": [
+      "nv-jetpack",
+      "isaaclab",
+      "nv-gr00t",
+      "nv-thor",
+      "nv-orin",
+      "orbbec-sdk"
+    ],
+    "body_chars": 377,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/01_Hardware_Platform.md",
+    "object": "Intel",
+    "dimension": "硬件平台",
+    "sources": [
+      "intel-robotics",
+      "legacy-system-requirements"
+    ],
+    "body_chars": 455,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/02_Software_Stack.md",
+    "object": "Intel",
+    "dimension": "软件栈",
+    "sources": [
+      "intel-robotics",
+      "intel-openvino",
+      "intel-pi05"
+    ],
+    "body_chars": 431,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/03_Sensor_Integration.md",
+    "object": "Intel",
+    "dimension": "传感器接入",
+    "sources": [
+      "orbbec-sdk",
+      "orbbec-ros2",
+      "orbbec-timestamp",
+      "legacy-sensors-gmsl",
+      "legacy-sensors-lidar"
+    ],
+    "body_chars": 397,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/04_AI_Capabilities.md",
+    "object": "Intel",
+    "dimension": "AI 能力",
+    "sources": [
+      "intel-pi05",
+      "intel-openvino"
+    ],
+    "body_chars": 361,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/05_Simulation_Environment.md",
+    "object": "Intel",
+    "dimension": "仿真环境",
+    "sources": [
+      "legacy-simulation",
+      "intel-robotics",
+      "mujoco",
+      "nv-isaac"
+    ],
+    "body_chars": 347,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/06_Robot_Integration.md",
+    "object": "Intel",
+    "dimension": "机器人本体适配",
+    "sources": [
+      "intel-robotics",
+      "legacy-system-requirements"
+    ],
+    "body_chars": 314,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/07_Ecosystem.md",
+    "object": "Intel",
+    "dimension": "生态建设",
+    "sources": [
+      "intel-robotics",
+      "intel-openvino",
+      "intel-pi05"
+    ],
+    "body_chars": 300,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/08_Proprietary_Technologies.md",
+    "object": "Intel",
+    "dimension": "独有技术与生态",
+    "sources": [
+      "intel-openvino",
+      "intel-robotics"
+    ],
+    "body_chars": 273,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/09_SWOT_Analysis.md",
+    "object": "Intel",
+    "dimension": "SWOT 分析",
+    "sources": [
+      "intel-robotics",
+      "intel-openvino",
+      "intel-pi05"
+    ],
+    "body_chars": 341,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/01_Hardware_Platform.md",
+    "object": "Qualcomm",
+    "dimension": "硬件平台",
+    "sources": [
+      "thundercomm-iq10",
+      "thundercomm-iq10-waic",
+      "thundercomm-rb5"
+    ],
+    "body_chars": 474,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/02_Software_Stack.md",
+    "object": "Qualcomm",
+    "dimension": "软件栈",
+    "sources": [
+      "thundercomm-iq10"
+    ],
+    "body_chars": 360,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/03_Sensor_Integration.md",
+    "object": "Qualcomm",
+    "dimension": "传感器接入",
+    "sources": [
+      "thundercomm-iq10",
+      "thundercomm-rb5"
+    ],
+    "body_chars": 337,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/04_AI_Capabilities.md",
+    "object": "Qualcomm",
+    "dimension": "AI 能力",
+    "sources": [
+      "thundercomm-iq10-waic",
+      "thundercomm-iq10"
+    ],
+    "body_chars": 350,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/05_Simulation_Environment.md",
+    "object": "Qualcomm",
+    "dimension": "仿真环境",
+    "sources": [
+      "thundercomm-iq10",
+      "thundercomm-iq10-waic",
+      "mujoco",
+      "nv-isaac"
+    ],
+    "body_chars": 289,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/06_Robot_Integration.md",
+    "object": "Qualcomm",
+    "dimension": "机器人本体适配",
+    "sources": [
+      "thundercomm-iq10-waic",
+      "thundercomm-iq10"
+    ],
+    "body_chars": 287,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/07_Ecosystem.md",
+    "object": "Qualcomm",
+    "dimension": "生态建设",
+    "sources": [
+      "thundercomm-iq10",
+      "thundercomm-iq10-waic",
+      "thundercomm-robotics",
+      "thundercomm-rb5"
+    ],
+    "body_chars": 316,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/08_Proprietary_Technologies.md",
+    "object": "Qualcomm",
+    "dimension": "独有技术与生态",
+    "sources": [
+      "thundercomm-iq10",
+      "thundercomm-rb5"
+    ],
+    "body_chars": 267,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/09_SWOT_Analysis.md",
+    "object": "Qualcomm",
+    "dimension": "SWOT 分析",
+    "sources": [
+      "thundercomm-iq10",
+      "thundercomm-iq10-waic",
+      "thundercomm-rb5",
+      "thundercomm-robotics"
+    ],
+    "body_chars": 388,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/01_Hardware_Platform.md",
+    "object": "Arm（IP/架构层）",
+    "dimension": "硬件平台",
+    "sources": [
+      "nv-thor",
+      "nv-orin",
+      "rk3588",
+      "horizon-s100-doc"
+    ],
+    "body_chars": 392,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/02_Software_Stack.md",
+    "object": "Arm（IP/架构层）",
+    "dimension": "软件栈",
+    "sources": [
+      "arm-kleidi",
+      "rk3588",
+      "horizon-can"
+    ],
+    "body_chars": 308,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/03_Sensor_Integration.md",
+    "object": "Arm（IP/架构层）",
+    "dimension": "传感器接入",
+    "sources": [
+      "rk3588",
+      "nv-thor",
+      "orbbec-sdk"
+    ],
+    "body_chars": 302,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/04_AI_Capabilities.md",
+    "object": "Arm（IP/架构层）",
+    "dimension": "AI 能力",
+    "sources": [
+      "arm-kleidi",
+      "nv-thor",
+      "rk-rknn",
+      "horizon-tros-doc"
+    ],
+    "body_chars": 330,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/05_Simulation_Environment.md",
+    "object": "Arm（IP/架构层）",
+    "dimension": "仿真环境",
+    "sources": [
+      "mujoco",
+      "isaaclab"
+    ],
+    "body_chars": 251,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/06_Robot_Integration.md",
+    "object": "Arm（IP/架构层）",
+    "dimension": "机器人本体适配",
+    "sources": [
+      "nv-thor",
+      "rk3588",
+      "horizon-s100-doc"
+    ],
+    "body_chars": 299,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/07_Ecosystem.md",
+    "object": "Arm（IP/架构层）",
+    "dimension": "生态建设",
+    "sources": [
+      "arm-kleidi",
+      "rk3588",
+      "nv-thor"
+    ],
+    "body_chars": 248,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/08_Proprietary_Technologies.md",
+    "object": "Arm（IP/架构层）",
+    "dimension": "独有技术与生态",
+    "sources": [
+      "arm-kleidi",
+      "nv-thor",
+      "horizon-s100-doc"
+    ],
+    "body_chars": 242,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/09_SWOT_Analysis.md",
+    "object": "Arm（IP/架构层）",
+    "dimension": "SWOT 分析",
+    "sources": [
+      "nv-thor",
+      "rk3588",
+      "horizon-s100-doc",
+      "arm-kleidi"
+    ],
+    "body_chars": 303,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/01_Hardware_Platform.md",
+    "object": "瑞芯微 Rockchip",
+    "dimension": "硬件平台",
+    "sources": [
+      "rk3588"
+    ],
+    "body_chars": 349,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/02_Software_Stack.md",
+    "object": "瑞芯微 Rockchip",
+    "dimension": "软件栈",
+    "sources": [
+      "rk-rknn",
+      "rk-zoo",
+      "rk-llm",
+      "rk3588"
+    ],
+    "body_chars": 367,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/03_Sensor_Integration.md",
+    "object": "瑞芯微 Rockchip",
+    "dimension": "传感器接入",
+    "sources": [
+      "rk3588",
+      "orbbec-sdk"
+    ],
+    "body_chars": 347,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/04_AI_Capabilities.md",
+    "object": "瑞芯微 Rockchip",
+    "dimension": "AI 能力",
+    "sources": [
+      "rk-zoo",
+      "rk-llm"
+    ],
+    "body_chars": 339,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/05_Simulation_Environment.md",
+    "object": "瑞芯微 Rockchip",
+    "dimension": "仿真环境",
+    "sources": [
+      "rk-rknn",
+      "rk-llm",
+      "nv-isaac"
+    ],
+    "body_chars": 282,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/06_Robot_Integration.md",
+    "object": "瑞芯微 Rockchip",
+    "dimension": "机器人本体适配",
+    "sources": [
+      "rk3588"
+    ],
+    "body_chars": 239,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/07_Ecosystem.md",
+    "object": "瑞芯微 Rockchip",
+    "dimension": "生态建设",
+    "sources": [
+      "rk-rknn",
+      "rk-zoo",
+      "rk-llm"
+    ],
+    "body_chars": 269,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/08_Proprietary_Technologies.md",
+    "object": "瑞芯微 Rockchip",
+    "dimension": "独有技术与生态",
+    "sources": [
+      "rk3588",
+      "rk-rknn",
+      "rk-llm"
+    ],
+    "body_chars": 236,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/09_SWOT_Analysis.md",
+    "object": "瑞芯微 Rockchip",
+    "dimension": "SWOT 分析",
+    "sources": [
+      "rk3588",
+      "rk-rknn",
+      "rk-llm"
+    ],
+    "body_chars": 289,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/01_Hardware_Platform.md",
+    "object": "华为 / 海思 / 昇腾（分业务核验）",
+    "dimension": "硬件平台",
+    "sources": [
+      "huawei-cann",
+      "huawei-mindspore"
+    ],
+    "body_chars": 328,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/02_Software_Stack.md",
+    "object": "华为 / 海思 / 昇腾（分业务核验）",
+    "dimension": "软件栈",
+    "sources": [
+      "huawei-cann",
+      "huawei-mindspore"
+    ],
+    "body_chars": 317,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/03_Sensor_Integration.md",
+    "object": "华为 / 海思 / 昇腾（分业务核验）",
+    "dimension": "传感器接入",
+    "sources": [
+      "huawei-cann",
+      "huawei-mindspore"
+    ],
+    "body_chars": 297,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/04_AI_Capabilities.md",
+    "object": "华为 / 海思 / 昇腾（分业务核验）",
+    "dimension": "AI 能力",
+    "sources": [
+      "huawei-mindspore",
+      "huawei-cann",
+      "huawei-cloudmodelarts"
+    ],
+    "body_chars": 343,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/05_Simulation_Environment.md",
+    "object": "华为 / 海思 / 昇腾（分业务核验）",
+    "dimension": "仿真环境",
+    "sources": [
+      "huawei-cann",
+      "huawei-cloudmodelarts",
+      "mujoco"
+    ],
+    "body_chars": 283,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/06_Robot_Integration.md",
+    "object": "华为 / 海思 / 昇腾（分业务核验）",
+    "dimension": "机器人本体适配",
+    "sources": [
+      "huawei-cann"
+    ],
+    "body_chars": 224,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/07_Ecosystem.md",
+    "object": "华为 / 海思 / 昇腾（分业务核验）",
+    "dimension": "生态建设",
+    "sources": [
+      "huawei-mindspore",
+      "huawei-cann",
+      "huawei-cloudmodelarts"
+    ],
+    "body_chars": 274,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/08_Proprietary_Technologies.md",
+    "object": "华为 / 海思 / 昇腾（分业务核验）",
+    "dimension": "独有技术与生态",
+    "sources": [
+      "huawei-cann",
+      "huawei-mindspore",
+      "huawei-cloudmodelarts"
+    ],
+    "body_chars": 251,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/09_SWOT_Analysis.md",
+    "object": "华为 / 海思 / 昇腾（分业务核验）",
+    "dimension": "SWOT 分析",
+    "sources": [
+      "huawei-mindspore",
+      "huawei-cann",
+      "huawei-cloudmodelarts"
+    ],
+    "body_chars": 291,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/01_Hardware_Platform.md",
+    "object": "寒武纪 Cambricon",
+    "dimension": "硬件平台",
+    "sources": [
+      "cambricon-mlu220-som",
+      "cambricon-mlu220-m2"
+    ],
+    "body_chars": 392,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/02_Software_Stack.md",
+    "object": "寒武纪 Cambricon",
+    "dimension": "软件栈",
+    "sources": [
+      "cambricon-neuware",
+      "cambricon-magicmind",
+      "cambricon-torch",
+      "cambricon-mlu220-som",
+      "cambricon-mlu220-m2"
+    ],
+    "body_chars": 411,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/03_Sensor_Integration.md",
+    "object": "寒武纪 Cambricon",
+    "dimension": "传感器接入",
+    "sources": [
+      "cambricon-mlu220-som",
+      "cambricon-mlu220-m2"
+    ],
+    "body_chars": 306,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/04_AI_Capabilities.md",
+    "object": "寒武纪 Cambricon",
+    "dimension": "AI 能力",
+    "sources": [
+      "cambricon-neuware",
+      "cambricon-magicmind",
+      "cambricon-torch",
+      "cambricon-mlu220-som",
+      "cambricon-mlu220-m2"
+    ],
+    "body_chars": 392,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/05_Simulation_Environment.md",
+    "object": "寒武纪 Cambricon",
+    "dimension": "仿真环境",
+    "sources": [
+      "cambricon",
+      "cambricon-torch",
+      "isaaclab",
+      "mujoco"
+    ],
+    "body_chars": 231,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/06_Robot_Integration.md",
+    "object": "寒武纪 Cambricon",
+    "dimension": "机器人本体适配",
+    "sources": [
+      "cambricon"
+    ],
+    "body_chars": 193,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/07_Ecosystem.md",
+    "object": "寒武纪 Cambricon",
+    "dimension": "生态建设",
+    "sources": [
+      "cambricon-mlu220-som",
+      "cambricon-mlu220-m2",
+      "cambricon-neuware",
+      "cambricon-magicmind",
+      "cambricon-torch"
+    ],
+    "body_chars": 326,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/08_Proprietary_Technologies.md",
+    "object": "寒武纪 Cambricon",
+    "dimension": "独有技术与生态",
+    "sources": [
+      "cambricon-mlu220-som",
+      "cambricon-magicmind"
+    ],
+    "body_chars": 287,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/09_SWOT_Analysis.md",
+    "object": "寒武纪 Cambricon",
+    "dimension": "SWOT 分析",
+    "sources": [
+      "cambricon-mlu220-som",
+      "cambricon-mlu220-m2",
+      "cambricon-neuware",
+      "cambricon-magicmind",
+      "cambricon-torch"
+    ],
+    "body_chars": 365,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/01_Hardware_Platform.md",
+    "object": "地平线 / 地瓜机器人 D-Robotics",
+    "dimension": "硬件平台",
+    "sources": [
+      "horizon-s100-doc",
+      "horizon-tros-doc"
+    ],
+    "body_chars": 367,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/02_Software_Stack.md",
+    "object": "地平线 / 地瓜机器人 D-Robotics",
+    "dimension": "软件栈",
+    "sources": [
+      "horizon-tros-doc",
+      "horizon-zerocopy",
+      "horizon-can",
+      "horizon-x5-doc",
+      "horizon-s100-doc"
+    ],
+    "body_chars": 379,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/03_Sensor_Integration.md",
+    "object": "地平线 / 地瓜机器人 D-Robotics",
+    "dimension": "传感器接入",
+    "sources": [
+      "horizon-x5-doc",
+      "horizon-s100-doc",
+      "horizon-zerocopy"
+    ],
+    "body_chars": 335,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/04_AI_Capabilities.md",
+    "object": "地平线 / 地瓜机器人 D-Robotics",
+    "dimension": "AI 能力",
+    "sources": [
+      "horizon-tros-doc",
+      "horizon-s100-doc"
+    ],
+    "body_chars": 344,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/05_Simulation_Environment.md",
+    "object": "地平线 / 地瓜机器人 D-Robotics",
+    "dimension": "仿真环境",
+    "sources": [
+      "horizon-tros-doc",
+      "mujoco",
+      "isaaclab"
+    ],
+    "body_chars": 253,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/06_Robot_Integration.md",
+    "object": "地平线 / 地瓜机器人 D-Robotics",
+    "dimension": "机器人本体适配",
+    "sources": [
+      "horizon-s100-doc"
+    ],
+    "body_chars": 259,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/07_Ecosystem.md",
+    "object": "地平线 / 地瓜机器人 D-Robotics",
+    "dimension": "生态建设",
+    "sources": [
+      "horizon-s100-doc",
+      "horizon-can",
+      "horizon-tros-doc"
+    ],
+    "body_chars": 262,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/08_Proprietary_Technologies.md",
+    "object": "地平线 / 地瓜机器人 D-Robotics",
+    "dimension": "独有技术与生态",
+    "sources": [
+      "horizon-s100-doc",
+      "horizon-tros-doc",
+      "horizon-zerocopy"
+    ],
+    "body_chars": 238,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/09_SWOT_Analysis.md",
+    "object": "地平线 / 地瓜机器人 D-Robotics",
+    "dimension": "SWOT 分析",
+    "sources": [
+      "horizon-s100-doc",
+      "horizon-tros-doc",
+      "horizon-zerocopy",
+      "horizon-can"
+    ],
+    "body_chars": 318,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/01_Hardware_Platform.md",
+    "object": "摩尔线程 Moore Threads",
+    "dimension": "硬件平台",
+    "sources": [
+      "moorethreads",
+      "moore-musa"
+    ],
+    "body_chars": 271,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/02_Software_Stack.md",
+    "object": "摩尔线程 Moore Threads",
+    "dimension": "软件栈",
+    "sources": [
+      "moore-musa",
+      "moorethreads"
+    ],
+    "body_chars": 279,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/03_Sensor_Integration.md",
+    "object": "摩尔线程 Moore Threads",
+    "dimension": "传感器接入",
+    "sources": [
+      "moore-musa"
+    ],
+    "body_chars": 243,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/04_AI_Capabilities.md",
+    "object": "摩尔线程 Moore Threads",
+    "dimension": "AI 能力",
+    "sources": [
+      "moore-musa"
+    ],
+    "body_chars": 318,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/05_Simulation_Environment.md",
+    "object": "摩尔线程 Moore Threads",
+    "dimension": "仿真环境",
+    "sources": [
+      "moorethreads",
+      "moore-musa",
+      "isaaclab"
+    ],
+    "body_chars": 251,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/06_Robot_Integration.md",
+    "object": "摩尔线程 Moore Threads",
+    "dimension": "机器人本体适配",
+    "sources": [
+      "moorethreads",
+      "moore-musa"
+    ],
+    "body_chars": 218,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/07_Ecosystem.md",
+    "object": "摩尔线程 Moore Threads",
+    "dimension": "生态建设",
+    "sources": [
+      "moorethreads",
+      "moore-musa"
+    ],
+    "body_chars": 222,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/08_Proprietary_Technologies.md",
+    "object": "摩尔线程 Moore Threads",
+    "dimension": "独有技术与生态",
+    "sources": [
+      "moore-musa",
+      "moorethreads"
+    ],
+    "body_chars": 223,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/09_SWOT_Analysis.md",
+    "object": "摩尔线程 Moore Threads",
+    "dimension": "SWOT 分析",
+    "sources": [
+      "moorethreads",
+      "moore-musa"
+    ],
+    "body_chars": 280,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "02_Core_Components/10_Actuators_and_Reducers/01_Hardware_Specs.md",
+    "object": "执行器与减速器：绿的谐波、汇川技术、鸣志电器",
+    "dimension": "硬件规格",
+    "sources": [
+      "inovance2",
+      "moons2"
+    ],
+    "body_chars": 390,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "02_Core_Components/10_Actuators_and_Reducers/02_Interface_and_Communication.md",
+    "object": "执行器与减速器：绿的谐波、汇川技术、鸣志电器",
+    "dimension": "接口与通信",
+    "sources": [
+      "inovance2",
+      "moons2"
+    ],
+    "body_chars": 431,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "02_Core_Components/10_Actuators_and_Reducers/03_Software_Drivers.md",
+    "object": "执行器与减速器：绿的谐波、汇川技术、鸣志电器",
+    "dimension": "软件驱动",
+    "sources": [
+      "inovance2",
+      "moons2"
+    ],
+    "body_chars": 353,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "02_Core_Components/10_Actuators_and_Reducers/04_Sim_to_Real_Support.md",
+    "object": "执行器与减速器：绿的谐波、汇川技术、鸣志电器",
+    "dimension": "仿真支持",
+    "sources": [
+      "moons2",
+      "mujoco",
+      "isaaclab"
+    ],
+    "body_chars": 353,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "02_Core_Components/10_Actuators_and_Reducers/05_Market_Position.md",
+    "object": "执行器与减速器：绿的谐波、汇川技术、鸣志电器",
+    "dimension": "市场地位",
+    "sources": [
+      "inovance2",
+      "moons2"
+    ],
+    "body_chars": 351,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "02_Core_Components/11_Sensors_and_Vision/01_Hardware_Specs.md",
+    "object": "传感器与视觉：奥比中光、柯力传感、速腾聚创",
+    "dimension": "硬件规格",
+    "sources": [
+      "orbbec-gemini335",
+      "robosense-ac1",
+      "robosense"
+    ],
+    "body_chars": 502,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "02_Core_Components/11_Sensors_and_Vision/02_Interface_and_Communication.md",
+    "object": "传感器与视觉：奥比中光、柯力传感、速腾聚创",
+    "dimension": "接口与通信",
+    "sources": [
+      "orbbec-gemini335",
+      "orbbec-timestamp",
+      "robosense-driver",
+      "robosense-ac1"
+    ],
+    "body_chars": 458,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "02_Core_Components/11_Sensors_and_Vision/03_Software_Drivers.md",
+    "object": "传感器与视觉：奥比中光、柯力传感、速腾聚创",
+    "dimension": "软件驱动",
+    "sources": [
+      "orbbec-sdk",
+      "orbbec-ros2",
+      "robosense-driver",
+      "robosense-ac1"
+    ],
+    "body_chars": 512,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "02_Core_Components/11_Sensors_and_Vision/04_Sim_to_Real_Support.md",
+    "object": "传感器与视觉：奥比中光、柯力传感、速腾聚创",
+    "dimension": "仿真支持",
+    "sources": [
+      "orbbec-sdk",
+      "orbbec-gemini335",
+      "robosense-ac1"
+    ],
+    "body_chars": 383,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "02_Core_Components/11_Sensors_and_Vision/05_Market_Position.md",
+    "object": "传感器与视觉：奥比中光、柯力传感、速腾聚创",
+    "dimension": "市场地位",
+    "sources": [
+      "orbbec-gemini335",
+      "orbbec-sdk",
+      "robosense-driver",
+      "robosense-ac1"
+    ],
+    "body_chars": 379,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "02_Core_Components/12_Dexterous_Hands/01_Hardware_Specs.md",
+    "object": "灵巧手与微型传动：兆威机电、因时机器人、强脑科技",
+    "dimension": "硬件规格",
+    "sources": [
+      "zhaowei",
+      "inspire-rh56",
+      "brainco",
+      "brainco-revo2"
+    ],
+    "body_chars": 424,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "02_Core_Components/12_Dexterous_Hands/02_Interface_and_Communication.md",
+    "object": "灵巧手与微型传动：兆威机电、因时机器人、强脑科技",
+    "dimension": "接口与通信",
+    "sources": [
+      "zhaowei",
+      "inspire-rh56",
+      "brainco"
+    ],
+    "body_chars": 378,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "02_Core_Components/12_Dexterous_Hands/03_Software_Drivers.md",
+    "object": "灵巧手与微型传动：兆威机电、因时机器人、强脑科技",
+    "dimension": "软件驱动",
+    "sources": [
+      "inspire-rh56",
+      "brainco"
+    ],
+    "body_chars": 327,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "02_Core_Components/12_Dexterous_Hands/04_Sim_to_Real_Support.md",
+    "object": "灵巧手与微型传动：兆威机电、因时机器人、强脑科技",
+    "dimension": "仿真支持",
+    "sources": [
+      "inspire-rh56",
+      "zhaowei",
+      "brainco"
+    ],
+    "body_chars": 324,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "02_Core_Components/12_Dexterous_Hands/05_Market_Position.md",
+    "object": "灵巧手与微型传动：兆威机电、因时机器人、强脑科技",
+    "dimension": "市场地位",
+    "sources": [
+      "inspire-rh56",
+      "zhaowei",
+      "brainco"
+    ],
+    "body_chars": 302,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "03_Robot_Manufacturers/13_Full_Stack_Integrators/01_Computing_Platform_Selection.md",
+    "object": "全栈整机：宇树科技、智元机器人、优必选",
+    "dimension": "算力平台选型",
+    "sources": [
+      "unitree-g1",
+      "unitree-unifolm",
+      "agibot",
+      "agibot-go1",
+      "agibot-aimrt",
+      "gr00t-n16",
+      "ubtech"
+    ],
+    "body_chars": 455,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "03_Robot_Manufacturers/13_Full_Stack_Integrators/02_Core_Component_Supply_Chain.md",
+    "object": "全栈整机：宇树科技、智元机器人、优必选",
+    "dimension": "核心零部件供应链",
+    "sources": [
+      "unitree-g1",
+      "agibot-go1",
+      "ubtech"
+    ],
+    "body_chars": 354,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "03_Robot_Manufacturers/13_Full_Stack_Integrators/03_Software_Architecture.md",
+    "object": "全栈整机：宇树科技、智元机器人、优必选",
+    "dimension": "软件架构",
+    "sources": [
+      "unitree-sdk",
+      "unitree-ros",
+      "unitree-unifolm",
+      "agibot-go1",
+      "agibot-aimrt",
+      "ubtech"
+    ],
+    "body_chars": 420,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "03_Robot_Manufacturers/13_Full_Stack_Integrators/04_Commercial_Deployment.md",
+    "object": "全栈整机：宇树科技、智元机器人、优必选",
+    "dimension": "商业化落地",
+    "sources": [
+      "unitree-g1",
+      "agibot",
+      "agibot-go1",
+      "ubtech"
+    ],
+    "body_chars": 400,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "03_Robot_Manufacturers/13_Full_Stack_Integrators/05_SWOT_Analysis.md",
+    "object": "全栈整机：宇树科技、智元机器人、优必选",
+    "dimension": "SWOT 与技术栈",
+    "sources": [
+      "unitree-g1",
+      "unitree-sdk",
+      "unitree-ros",
+      "unitree-unifolm",
+      "agibot",
+      "agibot-go1",
+      "agibot-aimrt",
+      "ubtech"
+    ],
+    "body_chars": 589,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots/01_Computing_Platform_Selection.md",
+    "object": "垂直场景整机：云深处、傅利叶、具微科技",
+    "dimension": "算力平台选型",
+    "sources": [
+      "deeprobotics",
+      "fourier-index",
+      "fourier-client",
+      "fourier-lerobot"
+    ],
+    "body_chars": 488,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots/02_Core_Component_Supply_Chain.md",
+    "object": "垂直场景整机：云深处、傅利叶、具微科技",
+    "dimension": "核心零部件供应链",
+    "sources": [
+      "deeprobotics",
+      "fourier-index",
+      "fourier-models"
+    ],
+    "body_chars": 405,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots/03_Software_Architecture.md",
+    "object": "垂直场景整机：云深处、傅利叶、具微科技",
+    "dimension": "软件架构",
+    "sources": [
+      "deeprobotics",
+      "fourier-client",
+      "fourier-models",
+      "fourier-mujoco",
+      "fourier-lerobot"
+    ],
+    "body_chars": 442,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots/04_Commercial_Deployment.md",
+    "object": "垂直场景整机：云深处、傅利叶、具微科技",
+    "dimension": "商业化落地",
+    "sources": [
+      "deeprobotics",
+      "fourier-gr1",
+      "fourier-index"
+    ],
+    "body_chars": 405,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots/05_SWOT_Analysis.md",
+    "object": "垂直场景整机：云深处、傅利叶、具微科技",
+    "dimension": "SWOT 与技术栈",
+    "sources": [
+      "deeprobotics",
+      "fourier-index",
+      "fourier-client",
+      "fourier-models",
+      "fourier-mujoco"
+    ],
+    "body_chars": 518,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "04_AI_Models/15_Open_Source_VLA_Models/01_Model_Architecture.md",
+    "object": "开源 VLA：OpenVLA、π0.5、GR00T N1.6/N1.7",
+    "dimension": "模型架构",
+    "sources": [
+      "openvla",
+      "openvla-paper",
+      "openpi",
+      "pi05",
+      "gr00t-n16",
+      "nv-gr00t"
+    ],
+    "body_chars": 522,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "04_AI_Models/15_Open_Source_VLA_Models/02_Multimodal_Capabilities.md",
+    "object": "开源 VLA：OpenVLA、π0.5、GR00T N1.6/N1.7",
+    "dimension": "多模态能力",
+    "sources": [
+      "openvla",
+      "openvla-paper",
+      "openpi",
+      "gr00t-n16",
+      "nv-gr00t"
+    ],
+    "body_chars": 394,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "04_AI_Models/15_Open_Source_VLA_Models/03_Hardware_Deployment.md",
+    "object": "开源 VLA：OpenVLA、π0.5、GR00T N1.6/N1.7",
+    "dimension": "硬件部署与算力需求",
+    "sources": [
+      "openvla",
+      "openpi",
+      "intel-pi05",
+      "gr00t-n16",
+      "nv-gr00t"
+    ],
+    "body_chars": 769,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "04_AI_Models/15_Open_Source_VLA_Models/04_Sim_to_Real_Performance.md",
+    "object": "开源 VLA：OpenVLA、π0.5、GR00T N1.6/N1.7",
+    "dimension": "仿真到现实迁移",
+    "sources": [
+      "openvla",
+      "openvla-paper",
+      "pi05",
+      "openpi",
+      "gr00t-n16",
+      "nv-gr00t"
+    ],
+    "body_chars": 421,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "04_AI_Models/15_Open_Source_VLA_Models/05_Ecosystem_and_Fine_tuning.md",
+    "object": "开源 VLA：OpenVLA、π0.5、GR00T N1.6/N1.7",
+    "dimension": "生态与微调",
+    "sources": [
+      "openvla",
+      "openpi",
+      "openpi-license",
+      "nv-gr00t",
+      "gr00t-n16"
+    ],
+    "body_chars": 483,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "04_AI_Models/16_Domestic_Open_Source_Models/01_Model_Architecture.md",
+    "object": "国产开源模型：智元GO-1、宇树UnifoLM-VLA-0、优必选Thinker",
+    "dimension": "模型架构",
+    "sources": [
+      "go1-architecture",
+      "agibot-go1",
+      "go1-blog",
+      "unitree-unifolm",
+      "unitree-config2",
+      "unitree-architecture",
+      "ubtech"
+    ],
+    "body_chars": 571,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "04_AI_Models/16_Domestic_Open_Source_Models/02_Multimodal_Capabilities.md",
+    "object": "国产开源模型：智元GO-1、宇树UnifoLM-VLA-0、优必选Thinker",
+    "dimension": "多模态能力",
+    "sources": [
+      "go1-architecture",
+      "agibot-go1",
+      "unitree-unifolm",
+      "unitree-config2",
+      "ubtech",
+      "go1-blog"
+    ],
+    "body_chars": 452,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "04_AI_Models/16_Domestic_Open_Source_Models/03_Hardware_Deployment.md",
+    "object": "国产开源模型：智元GO-1、宇树UnifoLM-VLA-0、优必选Thinker",
+    "dimension": "硬件部署与算力需求",
+    "sources": [
+      "agibot-go1",
+      "unitree-unifolm",
+      "ubtech"
+    ],
+    "body_chars": 497,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "04_AI_Models/16_Domestic_Open_Source_Models/04_Sim_to_Real_Performance.md",
+    "object": "国产开源模型：智元GO-1、宇树UnifoLM-VLA-0、优必选Thinker",
+    "dimension": "仿真到现实迁移",
+    "sources": [
+      "go1-architecture",
+      "go1-blog",
+      "unitree-unifolm",
+      "ubtech"
+    ],
+    "body_chars": 357,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "04_AI_Models/16_Domestic_Open_Source_Models/05_Ecosystem_and_Fine_tuning.md",
+    "object": "国产开源模型：智元GO-1、宇树UnifoLM-VLA-0、优必选Thinker",
+    "dimension": "生态与微调",
+    "sources": [
+      "agibot-go1",
+      "go1-architecture",
+      "unitree-unifolm",
+      "ubtech"
+    ],
+    "body_chars": 466,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "04_AI_Models/17_Closed_Source_Models/01_Model_Architecture.md",
+    "object": "闭源模型：Helix、Gemini Robotics",
+    "dimension": "模型架构",
+    "sources": [
+      "helix",
+      "gemini-paper"
+    ],
+    "body_chars": 396,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "04_AI_Models/17_Closed_Source_Models/02_Multimodal_Capabilities.md",
+    "object": "闭源模型：Helix、Gemini Robotics",
+    "dimension": "多模态能力",
+    "sources": [
+      "helix",
+      "gemini-paper"
+    ],
+    "body_chars": 313,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "04_AI_Models/17_Closed_Source_Models/03_Hardware_Deployment.md",
+    "object": "闭源模型：Helix、Gemini Robotics",
+    "dimension": "硬件部署与算力需求",
+    "sources": [
+      "helix",
+      "gemini-paper"
+    ],
+    "body_chars": 384,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "04_AI_Models/17_Closed_Source_Models/04_Sim_to_Real_Performance.md",
+    "object": "闭源模型：Helix、Gemini Robotics",
+    "dimension": "仿真到现实迁移",
+    "sources": [
+      "helix",
+      "gemini-paper"
+    ],
+    "body_chars": 305,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "04_AI_Models/17_Closed_Source_Models/05_Ecosystem_and_Fine_tuning.md",
+    "object": "闭源模型：Helix、Gemini Robotics",
+    "dimension": "生态与微调",
+    "sources": [
+      "helix",
+      "gemini-paper"
+    ],
+    "body_chars": 308,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "05_Software_and_OS/18_Robot_Operating_Systems/01_Architecture_and_Communication.md",
+    "object": "机器人操作系统：ROS 2、AGIROS、智元灵渠",
+    "dimension": "架构与通信机制",
+    "sources": [
+      "ros-middleware-rst",
+      "ros-realtime-rst",
+      "ros-release-rst",
+      "agibot-aimrt",
+      "aimrt-readme-cn",
+      "horizon-tros-doc"
+    ],
+    "body_chars": 558,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "05_Software_and_OS/18_Robot_Operating_Systems/02_Hardware_Abstraction.md",
+    "object": "机器人操作系统：ROS 2、AGIROS、智元灵渠",
+    "dimension": "硬件抽象与兼容性",
+    "sources": [
+      "ros-release-rst",
+      "orbbec-ros2",
+      "robosense-driver",
+      "inspire-rh56",
+      "horizon-tros-doc",
+      "rk-rknn",
+      "huawei-cann"
+    ],
+    "body_chars": 521,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "05_Software_and_OS/18_Robot_Operating_Systems/03_AI_Model_Integration.md",
+    "object": "机器人操作系统：ROS 2、AGIROS、智元灵渠",
+    "dimension": "AI 模型集成",
+    "sources": [
+      "ros-middleware-rst",
+      "openpi",
+      "gr00t-n16",
+      "unitree-unifolm",
+      "agibot-aimrt",
+      "horizon-tros-doc"
+    ],
+    "body_chars": 508,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "05_Software_and_OS/18_Robot_Operating_Systems/04_Development_Toolchain.md",
+    "object": "机器人操作系统：ROS 2、AGIROS、智元灵渠",
+    "dimension": "开发工具链",
+    "sources": [
+      "ros-realtime-rst",
+      "ros-release-rst",
+      "lerobot",
+      "nv-gr00t",
+      "openpi",
+      "agibot-aimrt",
+      "horizon-zerocopy"
+    ],
+    "body_chars": 457,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "05_Software_and_OS/18_Robot_Operating_Systems/05_SWOT_Analysis.md",
+    "object": "机器人操作系统：ROS 2、AGIROS、智元灵渠",
+    "dimension": "SWOT 分析",
+    "sources": [
+      "ros-middleware-rst",
+      "orbbec-ros2",
+      "robosense-driver",
+      "agibot-aimrt",
+      "horizon-tros-doc",
+      "horizon-zerocopy"
+    ],
+    "body_chars": 475,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "05_Software_and_OS/19_Simulation_Training_Platforms/01_Architecture_and_Communication.md",
+    "object": "仿真与训练：Isaac Sim/Isaac Lab、格物、MuJoCo",
+    "dimension": "架构与通信机制",
+    "sources": [
+      "nv-isaac",
+      "isaaclab",
+      "mujoco",
+      "agibot-sim"
+    ],
+    "body_chars": 424,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "05_Software_and_OS/19_Simulation_Training_Platforms/02_Hardware_Abstraction.md",
+    "object": "仿真与训练：Isaac Sim/Isaac Lab、格物、MuJoCo",
+    "dimension": "硬件抽象与兼容性",
+    "sources": [
+      "nv-isaac",
+      "isaaclab",
+      "mujoco",
+      "fourier-models",
+      "fourier-mujoco"
+    ],
+    "body_chars": 460,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "05_Software_and_OS/19_Simulation_Training_Platforms/03_AI_Model_Integration.md",
+    "object": "仿真与训练：Isaac Sim/Isaac Lab、格物、MuJoCo",
+    "dimension": "AI 模型集成",
+    "sources": [
+      "nv-gr00t",
+      "openpi",
+      "openvla"
+    ],
+    "body_chars": 448,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "05_Software_and_OS/19_Simulation_Training_Platforms/04_Development_Toolchain.md",
+    "object": "仿真与训练：Isaac Sim/Isaac Lab、格物、MuJoCo",
+    "dimension": "开发工具链",
+    "sources": [
+      "nv-isaac",
+      "isaaclab",
+      "mujoco",
+      "lerobot",
+      "fourier-models",
+      "fourier-mujoco"
+    ],
+    "body_chars": 401,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "05_Software_and_OS/19_Simulation_Training_Platforms/05_SWOT_Analysis.md",
+    "object": "仿真与训练：Isaac Sim/Isaac Lab、格物、MuJoCo",
+    "dimension": "SWOT 分析",
+    "sources": [
+      "nv-isaac",
+      "isaaclab",
+      "mujoco"
+    ],
+    "body_chars": 370,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "05_Software_and_OS/20_Full_Stack_Cloud_Platforms/01_Architecture_and_Communication.md",
+    "object": "全栈开发与云：华为云、Microsoft Azure",
+    "dimension": "架构与通信机制",
+    "sources": [
+      "huawei-cloudmodelarts",
+      "azure-iot",
+      "azure-digitaltwins"
+    ],
+    "body_chars": 361,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "05_Software_and_OS/20_Full_Stack_Cloud_Platforms/02_Hardware_Abstraction.md",
+    "object": "全栈开发与云：华为云、Microsoft Azure",
+    "dimension": "硬件抽象与兼容性",
+    "sources": [
+      "huawei-cloudmodelarts",
+      "huawei-cann",
+      "azure-iot",
+      "azure-digitaltwins"
+    ],
+    "body_chars": 347,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "05_Software_and_OS/20_Full_Stack_Cloud_Platforms/03_AI_Model_Integration.md",
+    "object": "全栈开发与云：华为云、Microsoft Azure",
+    "dimension": "AI 模型集成",
+    "sources": [
+      "huawei-cloudmodelarts",
+      "azure-iot",
+      "openpi",
+      "unitree-unifolm"
+    ],
+    "body_chars": 358,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "05_Software_and_OS/20_Full_Stack_Cloud_Platforms/04_Development_Toolchain.md",
+    "object": "全栈开发与云：华为云、Microsoft Azure",
+    "dimension": "开发工具链",
+    "sources": [
+      "huawei-cloudmodelarts",
+      "azure-iot",
+      "azure-digitaltwins",
+      "lerobot"
+    ],
+    "body_chars": 336,
+    "status": "first_round_with_gaps"
+  },
+  {
+    "path": "05_Software_and_OS/20_Full_Stack_Cloud_Platforms/05_SWOT_Analysis.md",
+    "object": "全栈开发与云：华为云、Microsoft Azure",
+    "dimension": "SWOT 分析",
+    "sources": [
+      "huawei-cloudmodelarts",
+      "azure-iot",
+      "azure-digitaltwins"
+    ],
+    "body_chars": 317,
+    "status": "first_round_with_gaps"
+  }
+]

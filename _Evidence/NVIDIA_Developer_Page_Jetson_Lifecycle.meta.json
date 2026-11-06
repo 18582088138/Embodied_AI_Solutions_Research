@@ -1,0 +1,450 @@
+{
+  "id": "NVIDIA_Developer_Page_Jetson_Lifecycle",
+  "url": "https://developer.nvidia.com/embedded/lifecycle",
+  "retrieved_at_utc": "2026-11-03T05:19:56.224175+00:00",
+  "final_url": "https://developer.nvidia.com/embedded/lifecycle",
+  "status": 200,
+  "headers": {
+    "Cache-Control": "max-age=0, private, must-revalidate",
+    "Content-Length": "49430",
+    "Content-Security-Policy": "default-src 'self' https: data: blob:; connect-src 'self' https: data: https://typesense.svc.nvidia.com wss://*.nvidiagrid.net:* *.nvidiagrid.net https://developer.nvidia.com:*; frame-ancestors 'self' nvidia.lookbookhq.com nvidia.pathfactory.com resources.nvidia.com www.nvidia.com www.nvidia.cn; font-src 'self' https: data: https://developer.nvidia.com:*; img-src 'self' https: data: https://developer.nvidia.com:*; object-src https://www.youtube.com; script-src 'self' https: 'unsafe-inline' 'unsafe-eval' https://assets.adobedtm.com https://munchkin.marketo.net http://www.youtube.com/iframe_api https://developer.nvidia.com:*; style-src 'self' https: 'unsafe-inline' https://developer.nvidia.com:*; worker-src 'self' https: blob: https://developer.nvidia.com https://developer.nvidia.com:*",
+    "Content-Type": "text/html; charset=utf-8",
+    "ETag": "W/\"0931f20e3714b49e74894dd1d8078587\"",
+    "Link": "<https://developer.nvidia.com/assets/devzone3/vars-cd3a0769a3c2f2d9ea6b83ac53ce86bceef4c719e4dbd22ed41d48d01f200901.css>; rel=preload; as=style; nopush,<https://developer.nvidia.com/assets/devzone3/old/fonts-910bdb814ac830981904d69eea803431bc3a5b00aac30ffc85d12983c6511741.css>; rel=preload; as=style; nopush,<https://developer.nvidia.com/assets/devzone3/old/ballistiq-twitterfeed-61a757e5494e5598582c3610822f4cc0d00c0f1c3d70d478b0004dcebebf2368.css>; rel=preload; as=style; nopush,<https://developer.nvidia.com/assets/devzone3/old/application-a780279f5932e2d3fe01da14ba98d5c320956ec365747dfca2719798ce778ae6.css>; rel=preload; as=style; nopush,<https://developer.nvidia.com/assets/devzone3/old/embedded/embedded-bde5659f6ab1dd4f9edcf851e8c12fb3c44ed2de1542a3bd9131d207afdb0d7d.css>; rel=preload; as=style; nopush,<https://developer.nvidia.com/assets/devzone3/old/overrides-cbc02aeca05448d7c77b2b63dc1faa3f5e58c17afd5afe4a5122591949c5d734.css>; rel=preload; as=style; nopush",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Server": "Heroku",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-Request-Id": "7b9e57e8-0b4b-404b-c95a-ce02b4cfa026",
+    "X-Runtime": "0.052860",
+    "X-Xss-Protection": "0",
+    "X-EdgeConnect-MidMile-RTT": "0",
+    "X-EdgeConnect-Origin-MEX-Latency": "248",
+    "Date": "Tue, 03 Nov 2026 05:19:57 GMT",
+    "Connection": "close",
+    "Set-Cookie": "nv_country_code=CN; path=/; SameSite=Lax; secure",
+    "x-ak-request-id": "0.43d73017.1793683196.1484b7c1",
+    "x-property-version": "us-135"
+  },
+  "sha256": "0931f20e3714b49e74894dd1d80785874536424cb6a217bdc76740f837cf723f",
+  "bytes": 49430,
+  "file": "_Evidence/NVIDIA_Developer_Page_Jetson_Lifecycle.html",
+  "links": [
+    "/embedded/jetson/jetson-ruggedized-systems",
+    "/embedded/faq",
+    "/embedded/faq#jetson-devkit-not-for-production"
+  ],
+  "images": [],
+  "tables": [
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Commercial Module"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Available through"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson T4000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "January 2036"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson T5000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "August 2035"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin 64GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "January 2032"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin 32GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "January 2032"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin NX 16GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "January 2032"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin NX 8GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "January 2032"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano 8GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "January 2032"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano 4GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "January 2032"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Xavier 32GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "July 2027"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Xavier NX 16GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "July 2027"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Xavier NX 8GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "July 2027"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson TX2 NX"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "July 2027"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Nano"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "January 2027"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Industrial Module"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Available through"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin Industrial"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "July 2033"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Xavier Industrial"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "July 2027"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson TX2i"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "July 2027"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Module"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Date of EOL"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson TX2 4GB/8GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "January 2025"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Xavier 64GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "January 2025"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson TX1"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "January 2021"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Processor"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Available through"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Tegra 2 industrial"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "January 2024"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Tegra 2 commercial"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "January 2024"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Tegra 3 industrial"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "January 2024"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Tegra 3 commercial"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "January 2024"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Tegra K1 industrial"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "January 2024"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Tegra K1 commercial"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "January 2024"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Xavier Developer Kit"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Xavier NX Developer Kit"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson TX2 Developer Kit"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson TX1 Developer Kit"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Nano Developer Kit"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Nano 2GB Developer Kit"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson TK1 Developer Kit"
+        }
+      ]
+    ]
+  ],
+  "text_chars": 2064
+}

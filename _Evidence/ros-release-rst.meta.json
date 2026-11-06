@@ -1,0 +1,11 @@
+{
+  "id": "ros-release-rst",
+  "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Releases/Release-Jazzy-Jalisco.rst",
+  "retrieved_at_utc": "2026-11-03T04:21:18.837528+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Releases/Release-Jazzy-Jalisco.rst",
+  "content_type": "text/plain; charset=utf-8",
+  "content_encoding": "",
+  "sha256": "287d1f56364331b049a81ed5121220bdb48d43e84ea6ea6460676c86f99b88f8",
+  "file": "_Evidence/ros-release-rst.txt"
+}

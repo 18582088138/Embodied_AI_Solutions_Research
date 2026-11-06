@@ -1,0 +1,16 @@
+{
+  "id": "ros2-realtime",
+  "url": "https://docs.ros.org/en/jazzy/Tutorials/Demos/Real-Time-Programming.html",
+  "retrieved_at_utc": "2026-11-03T04:18:31.042704+00:00",
+  "status": 200,
+  "final_url": "https://docs.ros.org/en/jazzy/Tutorials/Demos/Real-Time-Programming.html",
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "e2d4cfbb4a534fe20e9a13dc0399589aa5ad44f01a1f7633b9aba544275b5c47",
+  "file": "_Evidence/ros2-realtime.html",
+  "links": [
+    "https://github.com/TecharoHQ/anubis",
+    "https://techaro.lol",
+    "https://bsky.app/profile/celphase.bsky.social"
+  ],
+  "text_chars": 1528
+}

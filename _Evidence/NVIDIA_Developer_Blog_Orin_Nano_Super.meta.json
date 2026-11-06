@@ -1,0 +1,794 @@
+{
+  "id": "NVIDIA_Developer_Blog_Orin_Nano_Super",
+  "url": "https://developer.nvidia.com/blog/nvidia-jetson-orin-nano-developer-kit-gets-a-super-boost/",
+  "retrieved_at_utc": "2026-11-03T05:27:19.330537+00:00",
+  "final_url": "https://developer.nvidia.com/blog/nvidia-jetson-orin-nano-developer-kit-gets-a-super-boost/",
+  "status": 200,
+  "headers": {
+    "Cache-Control": "public, max-age=60",
+    "Content-Security-Policy": "default-src * 'unsafe-eval' 'unsafe-inline' data: filesystem: blob:; frame-ancestors 'self' nvidia.lookbookhq.com nvidia.pathfactory.com *.nvidia.com *.nvidia.cn",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Link": "<https://developer-blogs.nvidia.com/wp-json/>; rel=\"https://api.w.org/\"",
+    "Server": "nginx",
+    "Strict-Transport-Security": "max-age=300",
+    "X-Pantheon-Styx-Hostname": "styx-us-a-75b4b7ff76-kwf22",
+    "X-Styx-Req-Id": "3dbf6c17-d747-11f1-b2c5-4efed9f79369",
+    "X-Served-By": "cache-chi-kmdw8640029-CHI, cache-hkg-vhhh8650080-HKG",
+    "X-Cache-Hits": "0, 0",
+    "X-Timer": "S1793683640.273297,VS0,VE1916",
+    "X-EdgeConnect-MidMile-RTT": "0",
+    "X-EdgeConnect-Origin-MEX-Latency": "1917",
+    "Vary": "Accept-Encoding",
+    "Date": "Tue, 03 Nov 2026 05:27:22 GMT",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "x-ak-request-id": "0.35d73017.1793683639.11aea9c9",
+    "x-property-version": "us-135"
+  },
+  "sha256": "dfd4968689e51c31ce112c296860365a36036305129c0c228c2d5f9351c31af9",
+  "bytes": 309788,
+  "file": "_Evidence/NVIDIA_Developer_Blog_Orin_Nano_Super.html",
+  "links": [
+    "/",
+    "/blog",
+    "https://forums.developer.nvidia.com/",
+    "https://docs.nvidia.com/",
+    "https://developer.nvidia.com/downloads",
+    "https://www.nvidia.com/en-us/training/",
+    "https://developer.nvidia.com/login",
+    "https://developer.nvidia.com/blog",
+    "https://developer.nvidia.com/email-signup",
+    "#main-content-end",
+    "https://developer.nvidia.com/blog/category/robotics/",
+    "https://developer.nvidia.com/blog/author/suhash/",
+    "https://developer.nvidia.com/blog/author/leelak/",
+    "https://developer.nvidia.com/blog/author/dfranklin/",
+    "#entry-content-comments",
+    "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdeveloper.nvidia.com%2Fblog%2Fnvidia-jetson-orin-nano-developer-kit-gets-a-super-boost%2F",
+    "https://twitter.com/intent/tweet?text=NVIDIA+Jetson+Orin+Nano+Developer+Kit+Gets+a+%E2%80%9CSuper%E2%80%9D+Boost+%7C+NVIDIA+Technical+Blog+https%3A%2F%2Fdeveloper.nvidia.com%2Fblog%2Fnvidia-jetson-orin-nano-developer-kit-gets-a-super-boost%2F",
+    "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdeveloper.nvidia.com%2Fblog%2Fnvidia-jetson-orin-nano-developer-kit-gets-a-super-boost%2F",
+    "https://www.reddit.com/submit?url=https%3A%2F%2Fdeveloper.nvidia.com%2Fblog%2Fnvidia-jetson-orin-nano-developer-kit-gets-a-super-boost%2F&title=NVIDIA+Jetson+Orin+Nano+Developer+Kit+Gets+a+%E2%80%9CSuper%E2%80%9D+Boost+%7C+NVIDIA+Technical+Blog",
+    "mailto:?subject=I'd like to share a link with you&body=https%3A%2F%2Fdeveloper.nvidia.com%2Fblog%2Fnvidia-jetson-orin-nano-developer-kit-gets-a-super-boost%2F",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/",
+    "https://developer.nvidia.com/embedded/jetpack",
+    "https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit#intro",
+    "https://www.jetson-ai-lab.com/",
+    "https://www.nvidia.com/en-us/agreements/trustworthy-ai/terms/",
+    "https://www.nvidia.com/en-us/glossary/generative-ai/",
+    "https://www.nvidia.com/en-us/glossary/large-language-models/",
+    "#the_new_jetson_orin_nano_super_developer_kit ",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit",
+    "#jetson_orin_nano_super_developer_kit_configuration ",
+    "#runs_a_wide_range_of_llms_vlms_and_vits",
+    "https://www.nvidia.com/en-us/ai-data-science/products/riva/",
+    "https://developer.nvidia.com/blog/how-to-prune-and-distill-llama-3-1-8b-to-an-nvidia-llama-3-1-minitron-4b-model/",
+    "https://developer.nvidia.com/blog/fine-tune-and-align-llms-easily-with-nvidia-nemo-customizer/",
+    "https://research.nvidia.com/labs/dir/cosmos-tokenizer/",
+    "https://developer.nvidia.com/blog/visual-language-intelligence-and-edge-ai-2-0/",
+    "https://docs.nvidia.com/jetson/jps/workflows/vlm_workflow.html",
+    "#getting_started_with_jetson_orin_nano_super_developer_kit",
+    "#experience_generative_ai_on_jetson_orin_nano_super_developer_kit",
+    "#hugging_face_lerobot",
+    "https://blogs.nvidia.com/blog/hugging-face-lerobot-open-source-robotics/",
+    "https://www.jetson-ai-lab.com/lerobot.html",
+    "#generative_ai–driven_chatbot_with_ollama",
+    "https://www.jetson-ai-lab.com/tutorial-intro.html",
+    "https://ollama.com/",
+    "https://docs.openwebui.com/",
+    "#advancing_generative_ai_with_jetson_ai_lab",
+    "https://www.jetson-ai-lab.com/vit/tutorial_nanoowl.html",
+    "https://www.jetson-ai-lab.com/tutorial_nanodb.html",
+    "#all_jetson_orin_nano_series_and_jetson_orin_nx_series_modules_gets_a_super_performance_boost ",
+    "https://developer.nvidia.com/embedded/lifecycle",
+    "#jumpstart_your_generative_ai_developer_today",
+    "https://www.nvidia.com/en-us/industries/robotics/robotics-stay-informed/",
+    "https://www.linkedin.com/showcase/nvidiarobotics",
+    "https://www.instagram.com/nvidiarobotics/",
+    "https://x.com/NVIDIARobotics",
+    "https://www.facebook.com/NVIDIARobotics",
+    "https://forums.developer.nvidia.com/c/agx-autonomous-machines/55",
+    "https://discord.gg/w9VvuYdq",
+    "https://www.youtube.com/@NVIDIADeveloper/",
+    "https://developer.nvidia.com/blog/category/generative-ai/",
+    "https://developer.nvidia.com/blog/category/edge-computing/",
+    "https://developer.nvidia.com/blog/recent-posts/?industry=Manufacturing",
+    "https://developer.nvidia.com/blog/recent-posts/?products=JetPack",
+    "https://developer.nvidia.com/blog/recent-posts/?products=Jetson+Orin",
+    "https://developer.nvidia.com/blog/recent-posts/?learning_levels=Intermediate+Technical",
+    "https://developer.nvidia.com/blog/recent-posts/?content_types=Deep+dive",
+    "https://developer.nvidia.com/blog/tag/large-language-models/",
+    "https://forums.developer.nvidia.com/c/agx-autonomous-machines/jetson-embedded-systems/70",
+    "http://github.com/dusty-nv",
+    "https://developer.nvidia.com/blog/nvidia-jetpack-6-2-brings-super-mode-to-nvidia-jetson-orin-nano-and-jetson-orin-nx-modules/",
+    "https://developer.nvidia.com/blog/bringing-generative-ai-to-life-with-jetson/",
+    "https://developer.nvidia.com/blog/take-ai-learning-to-the-edge-with-jetson/",
+    "https://developer.nvidia.com/blog/develop-ai-powered-robots-smart-vision-systems-and-more-with-nvidia-jetson-orin-nano-developer-kit/",
+    "https://developer.nvidia.com/blog/jetson-agx-orin-32gb-module-now-available/",
+    "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples/",
+    "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/",
+    "https://developer.nvidia.com/blog/developing-nvidia-holoscan-applications-with-cli-skills-and-ai-coding-agents/",
+    "https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation/",
+    "https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super/"
+  ],
+  "images": [
+    "https://developer-blogs.nvidia.com/wp-content/themes/nvidia/dist/images/nvidia-logo_28b633c7.svg",
+    "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20142%2032%22%3E%3C/svg%3E",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2024/12/jetson-orin-tech-blog-nano-super-jhh-special-1920x1080-1.gif",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2024/12/Figure-1.-LLM-performance-boost-on-Jetson-Orin-Nano-Super-Developer-Kit.png",
+    "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20710%20669%22%3E%3C/svg%3E",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2024/12/vision-language-models.png",
+    "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20574%20438%22%3E%3C/svg%3E",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2024/12/vision-transformers-625x441.png",
+    "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20625%20441%22%3E%3C/svg%3E",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2024/12/power-mode-selection.png",
+    "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20337%20378%22%3E%3C/svg%3E",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2024/12/hugging-face-lerobot-625x469.png",
+    "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20625%20469%22%3E%3C/svg%3E",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2024/12/chatbot-example-1024x606.png",
+    "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201024%20606%22%3E%3C/svg%3E",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2024/12/computer-vision-example.gif",
+    "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20600%20566%22%3E%3C/svg%3E",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2024/12/image-similarity-search-examples.gif",
+    "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20600%20338%22%3E%3C/svg%3E",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2024/12/Table-5.-Jetson-Orin-Nano-Super-and-Orin-NX-Super-module-specifications-1.png",
+    "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20866%20625%22%3E%3C/svg%3E",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/cropped-suhas-sheshadri-131x131.webp",
+    "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20131%20131%22%3E%3C/svg%3E",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2022/04/Leela-Karumbunathan-131x131.jpg",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2024/05/Dustin-Franklin-131x131.jpg",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2025/01/jetpack-6-2-featured-660x370.png",
+    "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20660%20370%22%3E%3C/svg%3E",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2023/10/V2-R2-960x540.jpg",
+    "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20658%20370%22%3E%3C/svg%3E",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2023/06/Jumpstart-your-Generative-AI-Journey-with-Jetson-Orin-660x370.jpg",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2023/03/jetson-orin-nano-developer-kit-3d-render-.png",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2022/07/Jetson-AGX-Orin-Module-3D-Render_1920.png",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/din-deploy-featured-660x370-png.webp",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/image5-6-660x370.png",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/image6-2-660x370.jpg",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Cosmos-World-Models-Robot.gif",
+    "https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/Alpamayo-2-Super-Traffic.gif",
+    "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E"
+  ],
+  "tables": [
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": ""
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVIDIA Jetson Orin Nano Developer Kit (original)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVIDIA Jetson Orin Nano Super Developer Kit"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "GPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVIDIA Ampere architecture1,024 CUDA Cores32 Tensor Cores635 MHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVIDIA Ampere architecture1,024 CUDA Cores32 Tensor Cores1,020 MHz"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "AI PERF"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "40 INT8 TOPS (Sparse)20 INT8 TOPS (Dense)10 FP16 TFLOPs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "67 TOPS (Sparse)33 TOPS (Dense)17 FP16 TFLOPs"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "6-core Arm Cortex-A78AE v8.2 64-bit CPU1.5 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "6-core Arm Cortex-A78AE v8.2 64-bit CPU1.7 GHz"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Memory"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "8GB 128-bit LPDDR5 68 GB/s"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "8GB 128-bit LPDDR5 102 GB/s"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "MODULE POWER"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "7W | 15W"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "7W | 15W | 25W"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Model"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano (original)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano Super"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Perf Gain (X)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Llama 3.1 8B"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "14"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "19.14"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.37"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Llama 3.2 3B"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "27.7"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "43.07"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.55"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Qwen2.5 7B"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "14.2"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "21.75"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.53"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Gemma 2 2B"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "21.5"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "34.97"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.63"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Gemma 2 9B"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "7.2"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "9.21"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.28"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Phi 3.5 3B"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "24.7"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "38.1"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.54"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SmolLM2"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "41"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "64.5"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.57"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Model"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano (original)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano Super"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Perf Gain (X)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "VILA 1.5 3B"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "0.7"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.06"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.51"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "VILA 1.5 8B"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "0.574"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "0.83"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.45"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "LLAVA 1.6 7B"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "0.412"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "0.57"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.38"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Qwen2 VL 2B"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2.8"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4.4"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.57"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "InternVL2.5 4B"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2.5"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "5.1"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2.04"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "PaliGemma2 3B"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "13.7"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "21.6"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.58"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SmolVLM 2B"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "8.1"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "12.9"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.59"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Model"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano (original)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano Super"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Perf Gain (X)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "clip-vit-base-patch32"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "196"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "314"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.60"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "clip-vit-base-patch16"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "95"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "161"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.69"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "DINOv2-base-patch14"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "75"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "126"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.68"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SAM2 base"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4.42"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "6.34"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.43"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Grounding DINO"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4.11"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "6.23"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.52"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "vit-base-patch16-224"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "98"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "158"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.61"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "vit-base-patch32-224"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "171"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "273"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.60"
+        }
+      ]
+    ]
+  ],
+  "text_chars": 17909
+}

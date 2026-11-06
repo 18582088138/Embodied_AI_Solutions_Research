@@ -1,0 +1,33 @@
+{
+  "id": "NVIDIA_Official_Download_Catalog",
+  "url": "https://developer.nvidia.com/embedded/downloads.json",
+  "retrieved_at_utc": "2026-11-03T05:21:22.490661+00:00",
+  "final_url": "https://developer.nvidia.com/embedded/downloads.json",
+  "status": 200,
+  "headers": {
+    "Cache-Control": "max-age=0, private, must-revalidate",
+    "Content-Length": "329944",
+    "Content-Security-Policy": "default-src 'self' https: data: blob:; connect-src 'self' https: data: https://typesense.svc.nvidia.com wss://*.nvidiagrid.net:* *.nvidiagrid.net https://developer.nvidia.com:*; frame-ancestors 'self' nvidia.lookbookhq.com nvidia.pathfactory.com resources.nvidia.com www.nvidia.com www.nvidia.cn; font-src 'self' https: data: https://developer.nvidia.com:*; img-src 'self' https: data: https://developer.nvidia.com:*; object-src https://www.youtube.com; script-src 'self' https: 'unsafe-inline' 'unsafe-eval' https://assets.adobedtm.com https://munchkin.marketo.net http://www.youtube.com/iframe_api https://developer.nvidia.com:*; style-src 'self' https: 'unsafe-inline' https://developer.nvidia.com:*; worker-src 'self' https: blob: https://developer.nvidia.com https://developer.nvidia.com:*",
+    "Content-Type": "application/json; charset=utf-8",
+    "ETag": "W/\"b62fad0d1cb176cb46cbe30f33b8df1a\"",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Server": "Heroku",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-Request-Id": "406c82d0-5d07-73c6-5332-aefe4fe75d2f",
+    "X-Runtime": "0.064926",
+    "X-Xss-Protection": "0",
+    "X-EdgeConnect-MidMile-RTT": "7",
+    "X-EdgeConnect-Origin-MEX-Latency": "261",
+    "Date": "Tue, 03 Nov 2026 05:21:23 GMT",
+    "Connection": "close",
+    "Set-Cookie": "nv_country_code=CN; path=/; SameSite=Lax; secure",
+    "x-ak-request-id": "0.35d73017.1793683282.11aad719",
+    "x-property-version": "us-135"
+  },
+  "sha256": "b62fad0d1cb176cb46cbe30f33b8df1a513c111717b085dd2415b316b7246e2b",
+  "bytes": 329944,
+  "file": "_Evidence/NVIDIA_Official_Download_Catalog.json"
+}

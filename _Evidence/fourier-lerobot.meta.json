@@ -1,0 +1,10 @@
+{
+  "id": "fourier-lerobot",
+  "url": "https://raw.githubusercontent.com/FFTAI/fourier-lerobot/main/README.md",
+  "retrieved_at_utc": "2026-11-03T04:20:39.458234+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/FFTAI/fourier-lerobot/main/README.md",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "cc41cc139857fdcd9f887c665c50b277822646b7451a4411bbd8f743580b8129",
+  "file": "_Evidence/fourier-lerobot.txt"
+}

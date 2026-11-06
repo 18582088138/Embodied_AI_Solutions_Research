@@ -1,0 +1,41 @@
+{
+  "research_date": "2026-11-03",
+  "topic_directories": 20,
+  "dimension_markdown_files": 136,
+  "counts_by_layer": {
+    "compute": 81,
+    "components": 15,
+    "robots": 10,
+    "models": 15,
+    "software": 15
+  },
+  "source_records": 142,
+  "new_source_requests": 138,
+  "historical_snapshots_imported": 4,
+  "http_200": 113,
+  "readable_or_limited_primary_sources": 96,
+  "distinct_sources_cited_in_reports": 87,
+  "request_failures": 29,
+  "excluded_200_responses": 17,
+  "graph_nodes": 44,
+  "graph_edges": 28,
+  "broken_local_links": 0,
+  "all_raw_source_hashes_valid": true,
+  "minimum_report_chars": 193,
+  "source_claims_independently_benchmarked": false,
+  "all_requested_metrics_resolved": false,
+  "user_authorized_skips": [
+    "具微科技",
+    "AGIROS",
+    "格物仿真平台"
+  ],
+  "checks": [
+    "exact_136_paths",
+    "20_topic_directories",
+    "report_headings_and_nonempty_content",
+    "local_links",
+    "source_ID_and_content_status",
+    "original_response_SHA256",
+    "graph_nodes_edges_provenance"
+  ]
+}

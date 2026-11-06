@@ -1,0 +1,33 @@
+{
+  "id": "search-thinker",
+  "url": "https://www.bing.com/search?q=%E4%BC%98%E5%BF%85%E9%80%89%20Thinker%20%E5%BC%80%E6%BA%90%20%E6%A8%A1%E5%9E%8B",
+  "retrieved_at_utc": "2026-11-03T04:19:34.994643+00:00",
+  "status": 200,
+  "final_url": "https://cn.bing.com/search?q=%E4%BC%98%E5%BF%85%E9%80%89%20Thinker%20%E5%BC%80%E6%BA%90%20%E6%A8%A1%E5%9E%8B",
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "c9276567e6cd88a5bf2789079401307f52b849fa40ea0de71b3c5071a287007f",
+  "file": "_Evidence/search-thinker.html",
+  "links": [
+    "#",
+    "/?FORM=Z9FD1",
+    "javascript:void(0)",
+    "/?scope=web&FORM=HDRSC1",
+    "/images/search?q=%e4%bc%98%e5%bf%85%e9%80%89+Thinker+%e5%bc%80%e6%ba%90+%e6%a8%a1%e5%9e%8b&FORM=HDRSC2",
+    "/videos/search?q=%e4%bc%98%e5%bf%85%e9%80%89+Thinker+%e5%bc%80%e6%ba%90+%e6%a8%a1%e5%9e%8b&FORM=HDRSC3",
+    "/academic/search?q=%e4%bc%98%e5%bf%85%e9%80%89+Thinker+%e5%bc%80%e6%ba%90+%e6%a8%a1%e5%9e%8b&FORM=HDRSC4",
+    "/dict/search?q=%e4%bc%98%e5%bf%85%e9%80%89+Thinker+%e5%bc%80%e6%ba%90+%e6%a8%a1%e5%9e%8b&FORM=HDRSC6",
+    "/maps?q=%e4%bc%98%e5%bf%85%e9%80%89+Thinker+%e5%bc%80%e6%ba%90+%e6%a8%a1%e5%9e%8b&FORM=HDRSC7",
+    "/travel/search?q=%e4%bc%98%e5%bf%85%e9%80%89+Thinker+%e5%bc%80%e6%ba%90+%e6%a8%a1%e5%9e%8b&m=flights&FORM=FBSCOP",
+    "/search?q=%e4%bc%98%e5%bf%85%e9%80%89+Thinker+%e5%bc%80%e6%ba%90+%e6%a8%a1%e5%9e%8b&FORM=000017&qpvt=%e4%bc%98%e5%bf%85%e9%80%89+Thinker+%e5%bc%80%e6%ba%90+%e6%a8%a1%e5%9e%8b",
+    "/search?q=%e4%bc%98%e5%bf%85%e9%80%89+Thinker+%e5%bc%80%e6%ba%90+%e6%a8%a1%e5%9e%8b&filters=ex1%3a%22ez1%22&FORM=000017",
+    "/search?q=%e4%bc%98%e5%bf%85%e9%80%89+Thinker+%e5%bc%80%e6%ba%90+%e6%a8%a1%e5%9e%8b&filters=ex1%3a%22ez2%22&FORM=000017",
+    "/search?q=%e4%bc%98%e5%bf%85%e9%80%89+Thinker+%e5%bc%80%e6%ba%90+%e6%a8%a1%e5%9e%8b&filters=ex1%3a%22ez3%22&FORM=000017",
+    "/search?q=%e4%bc%98%e5%bf%85%e9%80%89+Thinker+%e5%bc%80%e6%ba%90+%e6%a8%a1%e5%9e%8b&filters=ex1%3a%22ez5_20395_20760%22&FORM=000017",
+    "https://dxzhgl.miit.gov.cn/dxxzsp/xkz/xkzgl/resource/qiyereport.jsp?num=caf04fa4-bd8a-4d9e-80b6-2aa1b86c1509&type=yreport",
+    "https://beian.miit.gov.cn",
+    "https://beian.mps.gov.cn/#/query/webSearch?code=11010802047360",
+    "http://go.microsoft.com/fwlink/?LinkId=521839",
+    "http://go.microsoft.com/fwlink/?LinkID=246338"
+  ],
+  "text_chars": 179
+}

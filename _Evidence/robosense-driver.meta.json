@@ -1,0 +1,10 @@
+{
+  "id": "robosense-driver",
+  "url": "https://raw.githubusercontent.com/RoboSense-LiDAR/rslidar_sdk/main/README.md",
+  "retrieved_at_utc": "2026-11-03T04:18:27.398437+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/RoboSense-LiDAR/rslidar_sdk/main/README.md",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "ec5396ac7012a0f92c7d036d14e774018a27948ae820ee5a6482ad9aa025bd1b",
+  "file": "_Evidence/robosense-driver.txt"
+}

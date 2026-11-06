@@ -1,0 +1,10 @@
+{
+  "id": "rk-zoo",
+  "url": "https://raw.githubusercontent.com/airockchip/rknn_model_zoo/main/README.md",
+  "retrieved_at_utc": "2026-11-03T04:18:24.614903+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/airockchip/rknn_model_zoo/main/README.md",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "1f0081537ce2526472421440bb909026c41e0539125796b6d6e9345df10d8d8a",
+  "file": "_Evidence/rk-zoo.txt"
+}

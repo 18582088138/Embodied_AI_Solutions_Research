@@ -1,0 +1,10 @@
+{
+  "id": "fourier-client",
+  "url": "https://raw.githubusercontent.com/FFTAI/fourier-grx-client/main/README.md",
+  "retrieved_at_utc": "2026-11-03T04:20:39.452225+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/FFTAI/fourier-grx-client/main/README.md",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "b10973cb56731915958a387614c29e823ea863c682ae8d741e62af01b8bca91b",
+  "file": "_Evidence/fourier-client.txt"
+}

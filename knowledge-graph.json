@@ -1,0 +1,565 @@
+{
+  "research_date": "2026-11-03",
+  "scope": "Public-source first round, not runtime certification",
+  "nodes": [
+    {
+      "id": "01_NVIDIA",
+      "label": "NVIDIA",
+      "layer": "compute",
+      "report": "01_Compute_Chips/01_NVIDIA/01_Hardware_Platform.md"
+    },
+    {
+      "id": "02_Intel",
+      "label": "Intel",
+      "layer": "compute",
+      "report": "01_Compute_Chips/02_Intel/01_Hardware_Platform.md"
+    },
+    {
+      "id": "03_Qualcomm",
+      "label": "Qualcomm",
+      "layer": "compute",
+      "report": "01_Compute_Chips/03_Qualcomm/01_Hardware_Platform.md"
+    },
+    {
+      "id": "04_ARM",
+      "label": "Arm（IP/架构层）",
+      "layer": "compute",
+      "report": "01_Compute_Chips/04_ARM/01_Hardware_Platform.md"
+    },
+    {
+      "id": "05_Rockchip",
+      "label": "瑞芯微 Rockchip",
+      "layer": "compute",
+      "report": "01_Compute_Chips/05_Rockchip/01_Hardware_Platform.md"
+    },
+    {
+      "id": "06_Huawei_HiSilicon",
+      "label": "华为 / 海思 / 昇腾（分业务核验）",
+      "layer": "compute",
+      "report": "01_Compute_Chips/06_Huawei_HiSilicon/01_Hardware_Platform.md"
+    },
+    {
+      "id": "07_Cambricon",
+      "label": "寒武纪 Cambricon",
+      "layer": "compute",
+      "report": "01_Compute_Chips/07_Cambricon/01_Hardware_Platform.md"
+    },
+    {
+      "id": "08_Horizon_Robotics",
+      "label": "地平线 / 地瓜机器人 D-Robotics",
+      "layer": "compute",
+      "report": "01_Compute_Chips/08_Horizon_Robotics/01_Hardware_Platform.md"
+    },
+    {
+      "id": "09_Moore_Threads",
+      "label": "摩尔线程 Moore Threads",
+      "layer": "compute",
+      "report": "01_Compute_Chips/09_Moore_Threads/01_Hardware_Platform.md"
+    },
+    {
+      "id": "orbbec",
+      "label": "奥比中光",
+      "layer": "component",
+      "report": "02_Core_Components/11_Sensors_and_Vision/03_Software_Drivers.md"
+    },
+    {
+      "id": "robosense",
+      "label": "速腾聚创",
+      "layer": "component",
+      "report": "02_Core_Components/11_Sensors_and_Vision/03_Software_Drivers.md"
+    },
+    {
+      "id": "inspire",
+      "label": "因时RH56DFX",
+      "layer": "component",
+      "report": "02_Core_Components/12_Dexterous_Hands/01_Hardware_Specs.md"
+    },
+    {
+      "id": "leaderdrive",
+      "label": "绿的谐波",
+      "layer": "component",
+      "report": "02_Core_Components/10_Actuators_and_Reducers/01_Hardware_Specs.md"
+    },
+    {
+      "id": "moons",
+      "label": "鸣志",
+      "layer": "component",
+      "report": "02_Core_Components/10_Actuators_and_Reducers/02_Interface_and_Communication.md"
+    },
+    {
+      "id": "inovance",
+      "label": "汇川",
+      "layer": "component",
+      "report": "02_Core_Components/10_Actuators_and_Reducers/02_Interface_and_Communication.md"
+    },
+    {
+      "id": "keli",
+      "label": "柯力",
+      "layer": "component",
+      "report": "02_Core_Components/11_Sensors_and_Vision/01_Hardware_Specs.md"
+    },
+    {
+      "id": "zhaowei",
+      "label": "兆威",
+      "layer": "component",
+      "report": "02_Core_Components/12_Dexterous_Hands/01_Hardware_Specs.md"
+    },
+    {
+      "id": "brainco",
+      "label": "强脑Revo",
+      "layer": "component",
+      "report": "02_Core_Components/12_Dexterous_Hands/01_Hardware_Specs.md"
+    },
+    {
+      "id": "unitree",
+      "label": "宇树G1/EDU",
+      "layer": "robot",
+      "report": "03_Robot_Manufacturers/13_Full_Stack_Integrators/05_SWOT_Analysis.md"
+    },
+    {
+      "id": "agibot",
+      "label": "智元",
+      "layer": "robot",
+      "report": "03_Robot_Manufacturers/13_Full_Stack_Integrators/05_SWOT_Analysis.md"
+    },
+    {
+      "id": "ubtech",
+      "label": "优必选Walker",
+      "layer": "robot",
+      "report": "03_Robot_Manufacturers/13_Full_Stack_Integrators/05_SWOT_Analysis.md"
+    },
+    {
+      "id": "deep",
+      "label": "云深处",
+      "layer": "robot",
+      "report": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots/05_SWOT_Analysis.md"
+    },
+    {
+      "id": "fourier",
+      "label": "傅利叶",
+      "layer": "robot",
+      "report": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots/05_SWOT_Analysis.md"
+    },
+    {
+      "id": "jv",
+      "label": "具微科技（本轮跳过）",
+      "layer": "robot",
+      "report": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots/05_SWOT_Analysis.md"
+    },
+    {
+      "id": "openvla",
+      "label": "OpenVLA",
+      "layer": "model",
+      "report": "04_AI_Models/15_Open_Source_VLA_Models/03_Hardware_Deployment.md"
+    },
+    {
+      "id": "pi05",
+      "label": "π0.5",
+      "layer": "model",
+      "report": "04_AI_Models/15_Open_Source_VLA_Models/03_Hardware_Deployment.md"
+    },
+    {
+      "id": "gr00t16",
+      "label": "GR00T N1.6",
+      "layer": "model",
+      "report": "04_AI_Models/15_Open_Source_VLA_Models/03_Hardware_Deployment.md"
+    },
+    {
+      "id": "gr00t17",
+      "label": "GR00T N1.7",
+      "layer": "model",
+      "report": "04_AI_Models/15_Open_Source_VLA_Models/03_Hardware_Deployment.md"
+    },
+    {
+      "id": "go1",
+      "label": "GO-1/Air",
+      "layer": "model",
+      "report": "04_AI_Models/16_Domestic_Open_Source_Models/03_Hardware_Deployment.md"
+    },
+    {
+      "id": "unifolm",
+      "label": "UnifoLM-VLA-0",
+      "layer": "model",
+      "report": "04_AI_Models/16_Domestic_Open_Source_Models/03_Hardware_Deployment.md"
+    },
+    {
+      "id": "thinker",
+      "label": "Thinker（开源状态未确认）",
+      "layer": "model",
+      "report": "04_AI_Models/16_Domestic_Open_Source_Models/03_Hardware_Deployment.md"
+    },
+    {
+      "id": "helix",
+      "label": "Helix初代",
+      "layer": "model",
+      "report": "04_AI_Models/17_Closed_Source_Models/03_Hardware_Deployment.md"
+    },
+    {
+      "id": "gemini",
+      "label": "Gemini Robotics / ER",
+      "layer": "model",
+      "report": "04_AI_Models/17_Closed_Source_Models/03_Hardware_Deployment.md"
+    },
+    {
+      "id": "ros2",
+      "label": "ROS 2",
+      "layer": "software",
+      "report": "05_Software_and_OS/18_Robot_Operating_Systems/01_Architecture_and_Communication.md"
+    },
+    {
+      "id": "tros",
+      "label": "TogetheROS.Bot",
+      "layer": "software",
+      "report": "05_Software_and_OS/18_Robot_Operating_Systems/01_Architecture_and_Communication.md"
+    },
+    {
+      "id": "aimrt",
+      "label": "AimRT",
+      "layer": "software",
+      "report": "05_Software_and_OS/18_Robot_Operating_Systems/01_Architecture_and_Communication.md"
+    },
+    {
+      "id": "agiros",
+      "label": "AGIROS（本轮跳过）",
+      "layer": "software",
+      "report": "05_Software_and_OS/18_Robot_Operating_Systems/01_Architecture_and_Communication.md"
+    },
+    {
+      "id": "lingqu",
+      "label": "灵渠（映射待证）",
+      "layer": "software",
+      "report": "05_Software_and_OS/18_Robot_Operating_Systems/01_Architecture_and_Communication.md"
+    },
+    {
+      "id": "isaac",
+      "label": "Isaac Sim/Lab",
+      "layer": "software",
+      "report": "05_Software_and_OS/19_Simulation_Training_Platforms/01_Architecture_and_Communication.md"
+    },
+    {
+      "id": "mujoco",
+      "label": "MuJoCo",
+      "layer": "software",
+      "report": "05_Software_and_OS/19_Simulation_Training_Platforms/01_Architecture_and_Communication.md"
+    },
+    {
+      "id": "gewu",
+      "label": "格物（本轮跳过）",
+      "layer": "software",
+      "report": "05_Software_and_OS/19_Simulation_Training_Platforms/01_Architecture_and_Communication.md"
+    },
+    {
+      "id": "hcloud",
+      "label": "华为云ModelArts/具身服务待证",
+      "layer": "software",
+      "report": "05_Software_and_OS/20_Full_Stack_Cloud_Platforms/01_Architecture_and_Communication.md"
+    },
+    {
+      "id": "azure",
+      "label": "Azure IoT Hub/Digital Twins",
+      "layer": "software",
+      "report": "05_Software_and_OS/20_Full_Stack_Cloud_Platforms/01_Architecture_and_Communication.md"
+    },
+    {
+      "id": "stardust",
+      "label": "星尘智能（补充集成案例）",
+      "layer": "robot",
+      "report": "01_Compute_Chips/03_Qualcomm/06_Robot_Integration.md"
+    }
+  ],
+  "edges": [
+    {
+      "source": "01_NVIDIA",
+      "target": "04_ARM",
+      "relation": "uses_CPU_IP",
+      "status": "verified",
+      "evidence": [
+        "nv-thor",
+        "nv-orin"
+      ],
+      "note": "Thor/Orin具体CPU核；不是所有IP/驱动相同"
+    },
+    {
+      "source": "05_Rockchip",
+      "target": "04_ARM",
+      "relation": "uses_CPU_GPU_IP",
+      "status": "verified",
+      "evidence": [
+        "rk3588"
+      ],
+      "note": "RK3588 A76/A55与Mali"
+    },
+    {
+      "source": "07_Cambricon",
+      "target": "04_ARM",
+      "relation": "uses_CPU_IP",
+      "status": "verified",
+      "evidence": [
+        "cambricon-mlu220-som"
+      ],
+      "note": "MLU220-SOM四核A55；不是全部MLU产品配置"
+    },
+    {
+      "source": "08_Horizon_Robotics",
+      "target": "04_ARM",
+      "relation": "uses_CPU_control_IP",
+      "status": "verified",
+      "evidence": [
+        "horizon-s100-doc"
+      ],
+      "note": "D-Robotics S100应用与控制核"
+    },
+    {
+      "source": "unitree",
+      "target": "01_NVIDIA",
+      "relation": "optional_compute_module",
+      "status": "verified_option",
+      "evidence": [
+        "unitree-g1"
+      ],
+      "note": "仅G1 EDU可选Orin；不代表全系默认"
+    },
+    {
+      "source": "orbbec",
+      "target": "01_NVIDIA",
+      "relation": "SDK_tested_platform",
+      "status": "verified",
+      "evidence": [
+        "orbbec-sdk"
+      ],
+      "note": "指定Jetson ARM64列表；型号/固件仍需核验"
+    },
+    {
+      "source": "orbbec",
+      "target": "02_Intel",
+      "relation": "SDK_x86_route",
+      "status": "qualified",
+      "evidence": [
+        "orbbec-sdk"
+      ],
+      "note": "Linux x64测试范围，不保证每个Intel板卡"
+    },
+    {
+      "source": "orbbec",
+      "target": "ros2",
+      "relation": "official_wrapper",
+      "status": "verified",
+      "evidence": [
+        "orbbec-ros2"
+      ],
+      "note": "按型号与ROS版本"
+    },
+    {
+      "source": "robosense",
+      "target": "ros2",
+      "relation": "official_driver",
+      "status": "verified",
+      "evidence": [
+        "robosense-driver"
+      ],
+      "note": "传统LiDAR SDK范围；AC1单独核验"
+    },
+    {
+      "source": "gr00t17",
+      "target": "01_NVIDIA",
+      "relation": "documented_TensorRT_Thor_benchmark",
+      "status": "vendor_benchmark",
+      "evidence": [
+        "nv-gr00t"
+      ],
+      "note": "约28Hz，batch1 LIBERO/MAXN；非现场验收"
+    },
+    {
+      "source": "gr00t16",
+      "target": "01_NVIDIA",
+      "relation": "documented_torch_compile_Thor_benchmark",
+      "status": "vendor_benchmark",
+      "evidence": [
+        "gr00t-n16"
+      ],
+      "note": "105ms/9.5Hz，指定版本与配置"
+    },
+    {
+      "source": "pi05",
+      "target": "02_Intel",
+      "relation": "official_conversion_tutorial",
+      "status": "verified_path_not_closed_loop",
+      "evidence": [
+        "intel-pi05"
+      ],
+      "note": "ONNX/OpenVINO/NNCF；采样语义与任务结果待证"
+    },
+    {
+      "source": "pi05",
+      "target": "01_NVIDIA",
+      "relation": "official_CUDA_implementation",
+      "status": "verified",
+      "evidence": [
+        "openpi"
+      ],
+      "note": "官方GPU参考；端侧最低需求不泛化"
+    },
+    {
+      "source": "openvla",
+      "target": "01_NVIDIA",
+      "relation": "candidate_Orin_deployment",
+      "status": "analyst_candidate",
+      "evidence": [
+        "openvla",
+        "nv-orin"
+      ],
+      "note": "需内存/量化/闭环PoC，不是官方Orin认证"
+    },
+    {
+      "source": "go1",
+      "target": "agibot",
+      "relation": "model_dataset_project",
+      "status": "verified",
+      "evidence": [
+        "agibot-go1"
+      ],
+      "note": "数据/模型关联，量产默认部署未知"
+    },
+    {
+      "source": "unifolm",
+      "target": "unitree",
+      "relation": "official_model_project",
+      "status": "verified",
+      "evidence": [
+        "unitree-unifolm"
+      ],
+      "note": "公开项目；量产固件默认部署未知"
+    },
+    {
+      "source": "unifolm",
+      "target": "01_NVIDIA",
+      "relation": "CUDA_baseline",
+      "status": "verified",
+      "evidence": [
+        "unitree-unifolm"
+      ],
+      "note": "CUDA12.4依赖不等于所有Jetson都达标"
+    },
+    {
+      "source": "unitree",
+      "target": "ros2",
+      "relation": "official_integration",
+      "status": "verified",
+      "evidence": [
+        "unitree-ros"
+      ],
+      "note": "SDK/DDS到ROS2接口"
+    },
+    {
+      "source": "aimrt",
+      "target": "agibot",
+      "relation": "public_runtime_project",
+      "status": "qualified",
+      "evidence": [
+        "agibot-aimrt"
+      ],
+      "note": "不能自动等同全部灵渠OS"
+    },
+    {
+      "source": "08_Horizon_Robotics",
+      "target": "tros",
+      "relation": "RDK_software_stack",
+      "status": "verified",
+      "evidence": [
+        "horizon-tros-doc"
+      ],
+      "note": "BPU封装/ROS2扩展"
+    },
+    {
+      "source": "tros",
+      "target": "ros2",
+      "relation": "based_on_Foxy_Humble",
+      "status": "verified",
+      "evidence": [
+        "horizon-tros-doc"
+      ],
+      "note": "版本条件"
+    },
+    {
+      "source": "fourier",
+      "target": "mujoco",
+      "relation": "official_model_workflow",
+      "status": "verified",
+      "evidence": [
+        "fourier-models",
+        "fourier-mujoco"
+      ],
+      "note": "型号/分支需确认"
+    },
+    {
+      "source": "gr00t17",
+      "target": "isaac",
+      "relation": "model_simulation_workflow",
+      "status": "verified",
+      "evidence": [
+        "nv-gr00t",
+        "isaaclab"
+      ],
+      "note": "仿真结果不等于现实泛化"
+    },
+    {
+      "source": "hcloud",
+      "target": "06_Huawei_HiSilicon",
+      "relation": "cloud_compute_ecosystem",
+      "status": "qualified",
+      "evidence": [
+        "huawei-cloudmodelarts",
+        "huawei-cann"
+      ],
+      "note": "通用生态，不证明全部端侧适配"
+    },
+    {
+      "source": "helix",
+      "target": "01_NVIDIA",
+      "relation": "embedded_GPU_vendor",
+      "status": "unverified",
+      "evidence": [
+        "helix"
+      ],
+      "note": "初代仅披露双嵌入式GPU；品牌/SKU未知"
+    },
+    {
+      "source": "thinker",
+      "target": "ubtech",
+      "relation": "named_model_in_research_plan",
+      "status": "unverified",
+      "evidence": [],
+      "note": "附件目标，未取得独立开源证据"
+    },
+    {
+      "source": "lingqu",
+      "target": "aimrt",
+      "relation": "complete_product_equivalence",
+      "status": "unverified",
+      "evidence": [
+        "agibot-aimrt"
+      ],
+      "note": "不能因关联而判定相等"
+    },
+    {
+      "source": "stardust",
+      "target": "03_Qualcomm",
+      "relation": "IQ10_IRB10_partner_reported_integration",
+      "status": "vendor_report",
+      "evidence": [
+        "thundercomm-iq10-waic"
+      ],
+      "note": "2026-07-19伙伴单边公告，非独立量产验收"
+    }
+  ],
+  "legend": {
+    "verified": "来源明确的关系",
+    "verified_option": "配置可选，不是全系标配",
+    "vendor_benchmark": "作者/厂商特定测试，未独立复测",
+    "vendor_report": "伙伴/厂商单边集成公告，非独立验收",
+    "qualified": "有限范围关系",
+    "verified_path_not_closed_loop": "开发路径，非闭环性能认证",
+    "analyst_candidate": "分析建议，需PoC",
+    "unverified": "未知关系，不视作事实"
+  }
+}

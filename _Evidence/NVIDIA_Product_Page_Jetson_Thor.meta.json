@@ -1,0 +1,719 @@
+{
+  "id": "NVIDIA_Product_Page_Jetson_Thor",
+  "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+  "retrieved_at_utc": "2026-11-03T05:19:49.915955+00:00",
+  "final_url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Server": "Apache",
+    "Last-Modified": "Fri, 30 Oct 2026 23:29:08 GMT",
+    "Edge-Cache-Tag": "/en-us/autonomous-machines/embedded-systems/jetson-thor/this/,/en-us/autonomous-machines/embedded-systems/jetson-thor/,/en-us/autonomous-machines/embedded-systems/,/en-us/autonomous-machines/,/en-us/",
+    "ETag": "\"87712-65f1729ac88ad\"",
+    "Content-Security-Policy": "frame-ancestors 'self' *.awsapps.nvidia.com *.nvidia.com https://widget.stackla.com https://app-sj14.marketo.com https://www.youtube.com https://www.quadro-selector.com http://player.youku.com https://player.youku.com https://live.nvidia-china.com https://www.google.com *.nvidia.cn https://events.rainfocus.com https://www.twitch.tv https://store.nvidia.ru https://store.nvidia.in *.geforcenow.com https://salespro.hpe.com https://hpe.seismic.com https://cms.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://cms.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://events.rainfocus.com https://docs.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://docs.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://nvfile;",
+    "ServerID": "prod-web01",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Access-Control-Allow-Origin": "*",
+    "Vary": "Accept-Encoding",
+    "Date": "Tue, 03 Nov 2026 05:19:50 GMT",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Set-Cookie": "c_code=CN; Domain=nvidia.com; Path=/; Secure",
+    "nv-defunct-locale-redirection": "executed",
+    "AK_EC_TYPE": "LOCALE_ERD_POLICY",
+    "Akamai-Cache-Status": "Hit from child",
+    "x-cdn-version": "v458",
+    "x-cdn": "akam"
+  },
+  "sha256": "74d4c440b7162381d5a60ea767d00e4c8773bd5646f02474113de93392f7e5a3",
+  "bytes": 554770,
+  "file": "_Evidence/NVIDIA_Product_Page_Jetson_Thor.html",
+  "links": [
+    "https://www.nvidia.com",
+    "#page-content",
+    "https://www.nvidia.com/en-us/",
+    "https://www.nvidia.com/en-us/industries/robotics/",
+    "https://www.nvidia.com/en-us/edge-computing/",
+    "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics-platform/",
+    "https://www.nvidia.com/en-us/research/robotics/",
+    "https://developer.nvidia.com/isaac",
+    "https://developer.nvidia.com/isaac/ros",
+    "https://developer.nvidia.com/isaac/lab",
+    "https://developer.nvidia.com/isaac/sim",
+    "https://developer.nvidia.com/project-gr00t",
+    "https://developer.nvidia.com/osmo",
+    "https://developer.nvidia.com/newton-physics",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-series/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-tx2/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/",
+    "https://www.nvidia.com/en-us/edge-computing/products/igx/",
+    "https://developer.nvidia.com/embedded-computing",
+    "https://developer.nvidia.com/metropolis",
+    "https://docs.nvidia.com/igx-orin/index.html",
+    "https://nvidianews.nvidia.com/search?q=robotics",
+    "https://blogs.nvidia.com/blog/category/robotics/",
+    "https://developer.nvidia.com/blog/search-posts/?categories=Robotics",
+    "https://marketplace.nvidia.com/en-us/enterprise/robotics-edge/",
+    "#",
+    "https://www.nvidia.com/en-us/account/edit-profile/",
+    "/",
+    "http://www.enable-javascript.com/",
+    "https://store.nvidia.com/jetson/store/",
+    "#module-specs",
+    "#dev-kit-specs",
+    "https://www.youtube.com/watch?v=iYT2haVIgSM",
+    "#intro",
+    "#highlights",
+    "#benefits",
+    "#workloads",
+    "#tech-specs",
+    "#get-started",
+    "https://www.jetson-ai-lab.com/",
+    "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
+    "https://blogs.nvidia.com/blog/jetson-thor-physical-ai-edge/",
+    "https://developer.nvidia.com/blog/maximizing-memory-efficiency-to-run-bigger-models-on-nvidia-jetson/",
+    "https://developer.nvidia.com/isaac/gr00t",
+    "https://build.nvidia.com/nvidia/video-search-and-summarization",
+    "https://www.nvidia.com/en-us/technologies/holoscan-sensor-bridge/",
+    "https://dam-cdn.nvd.orangelogic.com/AssetLink/v686u306w26ftuk863xjeimilimtx55e.pdf",
+    "https://www.nvidia.com/en-us/use-cases/humanoid-robots/",
+    "https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/",
+    "https://developer.nvidia.com/holoscan-sdk",
+    "https://blogs.nvidia.com/blog/jetson-generative-ai-edge-oss/",
+    "https://developer.nvidia.com/embedded/pva",
+    "https://developer.nvidia.com/embedded/develop/software",
+    "https://developer.nvidia.com/igx",
+    "https://forums.developer.nvidia.com/c/robotics-edge-computing/jetson-embedded-systems/70",
+    "https://dam-cdn.nvd.orangelogic.com/AssetLink/x20v2h2y15uh0ne54rpb73xh4x7s0m1s.pdf",
+    "https://dam-cdn.nvd.orangelogic.com/AssetLink/2gxa66a03084177dss0h1c168r7x2qcd.pdf",
+    "https://www.nvidia.com/en-us/about-nvidia/privacy-policy/?deeplink=visiting-our-website",
+    "https://developer.nvidia.com/isaac/lab-arena",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/product-development/",
+    "https://developer.nvidia.com/developer-program",
+    "https://developer.nvidia.com/humanoid-robot-program/",
+    "https://developer.nvidia.com/embedded/ecosystem",
+    "https://resources.nvidia.com/l/en-us-jetson-success-stories?",
+    "https://forums.developer.nvidia.com/c/agx-autonomous-machines/isaac/67",
+    "https://forums.developer.nvidia.com/c/agx-autonomous-machines/jetson-embedded-systems/70",
+    "https://forums.developer.nvidia.com/c/accelerated-computing/intelligent-video-analytics/metropolis-microservices-for-jetson/672",
+    "https://developer.nvidia.com/embedded/community/jetson-projects",
+    "https://www.facebook.com/NVIDIARobotics",
+    "https://www.instagram.com/nvidiarobotics/",
+    "https://www.linkedin.com/showcase/nvidiarobotics",
+    "https://x.com/NVIDIARobotics",
+    "https://www.nvidia.com/en-us/about-nvidia/privacy-policy/",
+    "https://www.nvidia.com/en-us/about-nvidia/privacy-center/",
+    "https://www.nvidia.com/en-us/about-nvidia/terms-of-service/",
+    "https://www.nvidia.com/en-us/about-nvidia/accessibility/",
+    "https://www.nvidia.com/en-us/about-nvidia/company-policies/",
+    "https://www.nvidia.com/en-us/product-security/",
+    "https://www.nvidia.com/en-us/contact/"
+  ],
+  "images": [
+    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-thor/_jcr_content/root/responsivegrid/nv_container_copy/nv_container_1143095/nv_container_852351204/nv_image.coreimg.jpeg/1784156864542/jetson-thor-highlights-ari-1920x1080.jpeg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-thor/_jcr_content/root/responsivegrid/nv_container_6294155/nv_container/nv_container/nv_container/nv_image.coreimg.svg/1784156864793/m48-foundational-model-cognition.svg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-thor/_jcr_content/root/responsivegrid/nv_container_6294155/nv_container/nv_container/nv_container_979149526/nv_image_copy.coreimg.svg/1784156864992/m48-foundational-model-cognition.svg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-thor/_jcr_content/root/responsivegrid/nv_container_6294155/nv_container/nv_container/nv_container_597029663/nv_image.coreimg.svg/1784156865195/m48-robot-mimic.svg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-thor/_jcr_content/root/responsivegrid/nv_container_6294155/nv_container/nv_container/nv_container_copy/nv_image_copy.coreimg.svg/1784156865395/m48-speed.svg",
+    "/content/nvidiaGDC/us/en_US/autonomous-machines/embedded-systems/jetson-thor/_jcr_content/root/responsivegrid/nv_container_989545383/nv_image.coreimg.jpeg/1784156865652/jetson-agx-thor-devkit-thumbnail.jpeg"
+  ],
+  "tables": [
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": ""
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Thor Developer Kit"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson T5000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson T4000"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "AI Performance"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "2070 TFLOPS (FP4—Sparse)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1200 TFLOPS (FP4—Sparse)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "GPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "2560-core NVIDIA Blackwell architecture GPU with fifth-gen Tensor Cores Multi-Instance GPU (MIG) with 10 TPCs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1536-core NVIDIA Blackwell architecture GPU with fifth-gen Tensor Cores Multi-Instance GPU (MIG) with six TPCs"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "GPU Max Frequency"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "1.57 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.53 GHz"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "14-core Arm® Neoverse®-V3AE 64-bit CPU 1 MB L2 cache per core 16 MB shared system L3 cache"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "12-core Arm® Neoverse®-V3AE 64-bit CPU 1 MB L2 cache per core 16 MB shared system L3 cache"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CPU Max Frequency"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "2.6 GHz"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Vision Accelerator"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "3",
+          "text": "1x PVA v3"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Memory"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "128 GB 256-bit LPDDR5X 273 GB/s"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "64 GB 256-bit LPDDR5X 273 GB/s"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Storage"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1 TB NVMe M.2 Key M Slot"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "Supports NVMe through PCIe Supports SSD through USB3.2"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Video Encode"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "2X NVENCODE"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1X NVENCODE"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Video Decode"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "2X NVENCODE"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1X NVENCODE"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Camera"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "HSB camera via QSFP slot USB camera"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "Up to 20 cameras via HSB Up to 6 cameras through 16x lanes MIPI CSI-2 Up to 32 cameras using Virtual Channels C-PHY 2.1 (10.25 Gbps) D-PHY 2.1 (40 Gbps)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "PCIe*"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "M.2 Key M slot with x4 PCIe Gen5 M.2 Key E slot with x1 PCIe Gen5"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "Up to Gen5 (x8 lanes) Root port only—C1 (x1) and C3 (x2) Root Point or Endpoint—C2 (x1), C4 (x8), and C5 (x4)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "USB*"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x USB-A (3.2 Gen2) 2x USB-C (3.1)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "xHCI host controller with integrated PHY (up to) 3x USB 3.2 4x USB 2.0"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Networking*"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x 5GbE RJ45 connector 1x QSFP28 (4x 25GbE)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4x 25GbE"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "3x 25GbE"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Display"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x HDMI 2.0b 1x DisplayPort 1.4a"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "4x shared HDMI2.1 VESA DisplayPort 1.4a—HBR3, MST"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Other I/O"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "QSFP connector M.2 Key E expansion slot (WLAN/BT, x1 PCIe, USB2.0, UART, I2C, I2S) M.2 Key M connector (NVMe for storage) PCIe x4 lane, I2C, PCIe x2 lane 2x 13-pin CAN header 2x 6-pin automation header LED JTAG connector (2x 5-pin header) 1x fan connector —12V, PWM, and Tach Audio panel header (2x 5-pin) Microfit power jack RTC backup battery connector 2-pin"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "5x I2S/2x audio hub (AHUB), 2x DMIC, 4x UART, 4x CAN, 3x SPI, 13x I2C, 6x PWM outputs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "5x I2S/2x audio hub (AHUB), 2x DMIC, 4x UART, 3x SPI, 13x I2C, 6x PWM outputs**"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Power"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "40 W–130 W"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "40 W–130 W"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "40 W–70 W"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Mechanical"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "243.19 mm x 112.40 mm x 56.88 mm Thermal Transfer Plate (TTP) and optional fan or heat sink"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "100 mm x 87 mm 699-pin B2B connector Integrated Thermal Transfer Plate (TTP) with heatpipe"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": ""
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson T5000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson T4000"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "AI Performance"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2070 TFLOPS (FP4—Sparse)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1200 TFLOPS (FP4—Sparse)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "GPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2560-core NVIDIA Blackwell architecture GPU with fifth-gen Tensor Cores Multi-Instance GPU (MIG) with 10 TPCs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1536-core NVIDIA Blackwell architecture GPU with fifth-gen Tensor Cores Multi-Instance GPU (MIG) with six TPCs"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "14-core Arm® Neoverse®-V3AE 64-bit CPU 1 MB L2 cache per core 16 MB Shared System L3 Cache"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "12-core Arm® Neoverse®-V3AE 64-bit CPU 64 KB I-Cache, 64 KB D-Cache 1 MB L2 cache per core 16 MB Shared System L3 Cache"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Memory"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "128 GB 256-bit LPDDR5X 273 GB/s"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "64 GB 256-bit LPDDR5X 273 GB/s"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Networking"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4x 25GbE"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "3x 25GbE"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Storage"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "Supports NVMe through PCIe Supports SSD through USB3.2"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Mechanical"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "100 mm x 87 mm 699 pins"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Power"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "40 W–130 W"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "40 W–70 W"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "AI Performance"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2070 TFLOPS (FP4—sparse)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Module"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson T5000"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "GPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2560-core NVIDIA Blackwell architecture GPU with fifth-gen Tensor Cores Multi-Instance GPU (MIG) with 10 TPCs"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "14-core Arm® Neoverse®-V3AE 64-bit CPU 1 MB L2 Cache per core 16 MB Shared System L3 Cache"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Memory"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "128 GB 256-bit LPDDR5X 273 GB/s"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Networking*"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x 5 GbE RJ45 connector 1x QSFP28 (4x 25GbE)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "I/O"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "QSFP connector HDMI port DisplayPort 2x USB-A 3.2 | 2x USB-C 3.1 Gigabit Ethernet 2x 13-pin CAN header Microfit power jack"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Storage"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1 TB NVMe M.2 Key M slot"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Power"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "40 W–130 W"
+        }
+      ]
+    ]
+  ],
+  "text_chars": 16322
+}

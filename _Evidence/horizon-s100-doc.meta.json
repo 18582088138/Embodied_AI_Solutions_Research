@@ -1,0 +1,11 @@
+{
+  "id": "horizon-s100-doc",
+  "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/01_Quick_start/01_hardware_introduction/01_rdk_s100.md",
+  "retrieved_at_utc": "2026-11-03T04:21:18.830711+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/01_Quick_start/01_hardware_introduction/01_rdk_s100.md",
+  "content_type": "text/plain; charset=utf-8",
+  "content_encoding": "",
+  "sha256": "c0b7809dd77a0d76d3da6ba20b416409ec2951cb5135571b3152977399022e4c",
+  "file": "_Evidence/horizon-s100-doc.txt"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "NVIDIA_Datasheet_RTX_PRO_6000_Workstation",
+  "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/data-center/rtx-pro-6000-blackwell-workstation-edition/workstation-blackwell-rtx-pro-6000-workstation-edition-nvidia-us-3519208-web.pdf",
+  "retrieved_at_utc": "2026-11-03T05:26:39.515715+00:00",
+  "final_url": "https://www.nvidia.com/content/dam/en-zz/Solutions/data-center/rtx-pro-6000-blackwell-workstation-edition/workstation-blackwell-rtx-pro-6000-workstation-edition-nvidia-us-3519208-web.pdf",
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/pdf",
+    "Content-Length": "311997",
+    "Server": "Apache",
+    "Last-Modified": "Tue, 14 Jul 2026 06:51:36 GMT",
+    "ETag": "\"4c2bd-6568ca3560e00\"",
+    "Accept-Ranges": "bytes",
+    "Content-Security-Policy": "frame-ancestors 'self' *.awsapps.nvidia.com *.nvidia.com https://widget.stackla.com https://app-sj14.marketo.com https://www.youtube.com https://www.quadro-selector.com http://player.youku.com https://player.youku.com https://live.nvidia-china.com https://www.google.com *.nvidia.cn https://events.rainfocus.com https://www.twitch.tv https://store.nvidia.ru https://store.nvidia.in *.geforcenow.com https://salespro.hpe.com https://hpe.seismic.com https://cms.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://cms.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://events.rainfocus.com https://docs.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://docs.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://nvfile;",
+    "ServerID": "prod-web01",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Access-Control-Allow-Origin": "*",
+    "Edge-Cache-Tag": "/content/,/dam/en-zz/,/dam/en-zz/Solutions/,/dam/en-zz/Solutions/data-center/,damassets,damassets/staticassets",
+    "Date": "Tue, 03 Nov 2026 05:26:40 GMT",
+    "Connection": "close",
+    "nv-defunct-locale-redirection": "executed",
+    "AK_EC_TYPE": "VANITY_ERD_POLICY",
+    "Akamai-Cache-Status": "Hit from child",
+    "x-cdn-version": "v458",
+    "x-cdn": "akam"
+  },
+  "sha256": "a19daec7b413bcbc2abc3893de5b97d4cfefef59cf1cb0f6121c3414037a9ddf",
+  "bytes": 311997,
+  "file": "_Evidence/NVIDIA_Datasheet_RTX_PRO_6000_Workstation.pdf"
+}

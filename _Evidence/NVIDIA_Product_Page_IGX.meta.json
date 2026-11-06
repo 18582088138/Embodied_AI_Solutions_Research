@@ -1,0 +1,1498 @@
+{
+  "id": "NVIDIA_Product_Page_IGX",
+  "url": "https://www.nvidia.com/en-us/edge-computing/products/igx/",
+  "retrieved_at_utc": "2026-11-03T05:24:30.413366+00:00",
+  "final_url": "https://www.nvidia.com/en-us/edge-computing/products/igx/",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Server": "Apache",
+    "Last-Modified": "Mon, 02 Nov 2026 09:44:01 GMT",
+    "Edge-Cache-Tag": "/en-us/edge-computing/products/igx/this/,/en-us/edge-computing/products/igx/,/en-us/edge-computing/products/,/en-us/edge-computing/,/en-us/",
+    "ETag": "W/\"a32b7-65f47fc5ee5b7\"",
+    "Content-Security-Policy": "frame-ancestors 'self' *.awsapps.nvidia.com *.nvidia.com https://widget.stackla.com https://app-sj14.marketo.com https://www.youtube.com https://www.quadro-selector.com http://player.youku.com https://player.youku.com https://live.nvidia-china.com https://www.google.com *.nvidia.cn https://events.rainfocus.com https://www.twitch.tv https://store.nvidia.ru https://store.nvidia.in *.geforcenow.com https://salespro.hpe.com https://hpe.seismic.com https://cms.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://cms.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://events.rainfocus.com https://docs.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://docs.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://nvfile;",
+    "ServerID": "prod-web02",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Access-Control-Allow-Origin": "*",
+    "Vary": "Accept-Encoding",
+    "Date": "Tue, 03 Nov 2026 05:24:31 GMT",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Set-Cookie": "c_code=CN; Domain=nvidia.com; Path=/; Secure",
+    "nv-defunct-locale-redirection": "executed",
+    "AK_EC_TYPE": "LOCALE_ERD_POLICY",
+    "Akamai-Cache-Status": "Miss from child",
+    "x-cdn-version": "v458",
+    "x-cdn": "akam"
+  },
+  "sha256": "05fdfed0e990e124eee86314432c207b89c9534b3cc4d6c3e90b325218cb26be",
+  "bytes": 668343,
+  "file": "_Evidence/NVIDIA_Product_Page_IGX.html",
+  "links": [
+    "https://www.nvidia.com",
+    "#page-content",
+    "https://www.nvidia.com/en-us/",
+    "https://www.nvidia.com/en-us/industries/robotics/",
+    "https://www.nvidia.com/en-us/edge-computing/",
+    "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics-platform/",
+    "https://www.nvidia.com/en-us/research/robotics/",
+    "https://developer.nvidia.com/isaac",
+    "https://developer.nvidia.com/isaac/ros",
+    "https://developer.nvidia.com/isaac/lab",
+    "https://developer.nvidia.com/isaac/sim",
+    "https://developer.nvidia.com/project-gr00t",
+    "https://developer.nvidia.com/osmo",
+    "https://developer.nvidia.com/newton-physics",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-series/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-tx2/",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/",
+    "https://www.nvidia.com/en-us/edge-computing/products/igx/",
+    "https://developer.nvidia.com/embedded-computing",
+    "https://developer.nvidia.com/metropolis",
+    "https://docs.nvidia.com/igx-orin/index.html",
+    "https://nvidianews.nvidia.com/search?q=robotics",
+    "https://blogs.nvidia.com/blog/category/robotics/",
+    "https://developer.nvidia.com/blog/search-posts/?categories=Robotics",
+    "https://marketplace.nvidia.com/en-us/enterprise/robotics-edge/",
+    "#",
+    "https://www.nvidia.com/en-us/account/edit-profile/",
+    "/",
+    "http://www.enable-javascript.com/",
+    "https://marketplace.nvidia.com/en-us/enterprise/robotics-edge/?category=igx_developer_kit&page=1&limit=15",
+    "#introduction",
+    "#benefits",
+    "#products",
+    "#ready-to-get",
+    "#specifications",
+    "#use-cases",
+    "#contact-us",
+    "https://www.nvidia.com/en-us/ai-trust-center/halos/robotics/",
+    "https://blogs.nvidia.com/blog/igx-thor-processor-physical-ai-industrial-medical-edge/",
+    "https://blogs.nvidia.com/blog/gtc-2026-news/#igx-thor",
+    "https://nvidianews.nvidia.com/news/nvidia-announces-halos-for-robotics-the-industrys-first-full-stack-safety-system-for-physical-ai",
+    "https://blogs.nvidia.com/blog/igx-thor-processor-physical-ai-industrial-medical-edge",
+    "https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/",
+    "https://developer.download.nvidia.com/assets/igx/robotics-product-brief-igx-thor-safety-4473375.pdf",
+    "https://marketplace.nvidia.com/en-us/enterprise/robotics-edge/igx-thor-developer-kit/",
+    "https://www.pny.com/professional/hardware/nvidia-igx-thor",
+    "https://www.edomtech.com/en/product-detail/nvidia-igx-thor-dev-kit/",
+    "https://www.arrow.com/en/products/940-25840-0011-000/nvidia.html",
+    "https://www.leadtek.com/eng/products/AI_HPC(37)/NVIDIA_IGX_Thor_Developer_Kit(51047)/detail",
+    "https://www.synnex-grp.com/component/nvidia.html",
+    "https://www.macnica.co.jp/en/business/semiconductor/manufacturers/nvidia/products/148638/",
+    "https://ryoyo-gpu.jp/product/igx/igx_thor_devkit/",
+    "https://marketplace.nvidia.com/en-us/enterprise/robotics-edge/igx-thor-developer-kit-mini/",
+    "https://www.edomtech.com/en/product-detail/nvidia-igx-thor-dev-kit-mini/",
+    "https://www.arrow.com/en/products/940-25160-0081-000/nvidia.html",
+    "https://www.leadtek.com/eng/products/AI_HPC(37)/NVIDIA_IGX_Thor_Developer_Kit_Mini(51046)/detail",
+    "https://ryoyo-gpu.jp/product/igx/igx_thor_devkit_mini/",
+    "https://www.pny.com/professional/support/nvidia-igx-orin",
+    "https://www.leadtek.com/eng/products/AI_HPC(37)/NVIDIA_IGX_Orin_Developer_Kit(40975)/detail",
+    "https://developer.nvidia.com/deep-learning-accelerator",
+    "https://www.nvidia.com/en-us/clara/holoscan/",
+    "https://docs.nvidia.com/holoscan/sensor-bridge/getting-started/introduction#software",
+    "https://developer.nvidia.com/igx",
+    "https://www.nvidia.com/en-us/about-nvidia/privacy-policy/?deeplink=visiting-our-website",
+    "https://developer.nvidia.com/isaac/manipulator",
+    "https://developer.nvidia.com/isaac/perceptor",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/product-development/",
+    "https://developer.nvidia.com/developer-program",
+    "https://developer.nvidia.com/humanoid-robot-program/",
+    "https://developer.nvidia.com/embedded/ecosystem",
+    "https://resources.nvidia.com/l/en-us-jetson-success-stories?",
+    "https://forums.developer.nvidia.com/c/agx-autonomous-machines/isaac/67",
+    "https://forums.developer.nvidia.com/c/agx-autonomous-machines/jetson-embedded-systems/70",
+    "https://forums.developer.nvidia.com/c/accelerated-computing/intelligent-video-analytics/metropolis-microservices-for-jetson/672",
+    "https://developer.nvidia.com/embedded/community/jetson-projects",
+    "https://www.facebook.com/NVIDIARobotics",
+    "https://www.instagram.com/nvidiarobotics/",
+    "https://www.linkedin.com/showcase/nvidiarobotics",
+    "https://x.com/NVIDIARobotics",
+    "https://www.nvidia.com/en-us/about-nvidia/privacy-policy/",
+    "https://www.nvidia.com/en-us/about-nvidia/privacy-center/",
+    "https://www.nvidia.com/en-us/about-nvidia/terms-of-service/",
+    "https://www.nvidia.com/en-us/about-nvidia/accessibility/",
+    "https://www.nvidia.com/en-us/about-nvidia/company-policies/",
+    "https://www.nvidia.com/en-us/product-security/",
+    "https://www.nvidia.com/en-us/contact/"
+  ],
+  "images": [
+    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_328800265/nv_container/nv_teaser_1717858530.coreimg.svg/1793603816047/m48-monitor-performance.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_328800265/nv_container/nv_teaser.coreimg.svg/1793603816059/m48-attention.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_328800265/nv_container/nv_teaser_915373141.coreimg.svg/1793603816071/m48-customer-support-1.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_27999867/nv_image.coreimg.jpeg/1793603816166/full-stack-platform-for-enterprise-edge-ai-new.jpeg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1381163349/nv_container/nv_teaser.coreimg.jpeg/1793603816559/nvidia-igx-t7000-1920x1080.jpeg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1381163349/nv_container/nv_teaser_779898735.coreimg.jpeg/1793603816582/igx-t5000-1920x1080.jpeg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1381163349/nv_container/nv_teaser_1777216765.coreimg.jpeg/1793603816605/igx-thordevkit-1920x1080.jpeg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1381163349/nv_container/nv_teaser_1777216765_565590913.coreimg.jpeg/1793603816628/igx-thor-developer-kit-mini-1920x1080.jpeg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_1/nv_teaser_copy_copy.coreimg.svg/1793603816877/nvidia-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_1/nv_teaser_copy.coreimg.svg/1793603816888/pny-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_1/nv_teaser_811389556_.coreimg.svg/1793603816900/edom-technology-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_1/nv_teaser_811389556__25564685.coreimg.svg/1793603816912/arrow-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_1/nv_teaser_811389556__78745081.coreimg.svg/1793603816924/p05-enterprise-gtc-platinum-partner-logo-leadtek.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_1/nv_teaser_811389556__1356066322.coreimg.svg/1793603816935/synnex-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_1/nv_teaser_811389556__2021780981.coreimg.svg/1793603816946/macnica-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_1/nv_teaser_811389556__1098132891.coreimg.svg/1793603816958/ryoyo-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_2/nv_teaser_copy_copy.coreimg.svg/1793603817047/nvidia-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_2/nv_teaser_copy.coreimg.svg/1793603817059/pny-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_2/nv_teaser_811389556_.coreimg.svg/1793603817071/edom-technology-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_2/nv_teaser_811389556__138757412.coreimg.svg/1793603817083/arrow-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_2/nv_teaser_811389556__1805682370.coreimg.svg/1793603817094/p05-enterprise-gtc-platinum-partner-logo-leadtek.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_2/nv_teaser_811389556__1853698539.coreimg.svg/1793603817106/synnex-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_2/nv_teaser_811389556__2102838860.coreimg.svg/1793603817118/macnica-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_2/nv_teaser_811389556__1301539233.coreimg.svg/1793603817130/ryoyo-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_1772530128052/nv_teaser.coreimg.svg/1793603817192/pny-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_tabs/item_1772530128052/nv_teaser_811389556_.coreimg.svg/1793603817205/p05-enterprise-gtc-platinum-partner-logo-leadtek.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_container_28445504/nv_image.coreimg.svg/1793603817375/adlink-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_container_28445504/nv_image_1059329417.coreimg.svg/1793603817384/advantech-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_container_28445504/nv_image_27114393.coreimg.svg/1793603817392/aetina-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_container_28445504/nv_image_1947856779.coreimg.svg/1793603817401/ahead-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_container_28445504/nv_image_1934555932_.coreimg.svg/1793603817409/asrock-rack-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_container_28445504/nv_image_1934555932__1503535698.coreimg.svg/1793603817418/connect-tech-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_container_28445504/nv_image_1934555932.coreimg.svg/1793603817427/cosmo-primary-logo-black-rgb.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_container_28445504/nv_image_2089005165_.coreimg.svg/1793603817435/curtiss-wright-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_container_28445504/nv_image_2089005165.coreimg.svg/1793603817444/dedicated-computing-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_container_28445504/nv_image_2089005165__1174467219.coreimg.svg/1793603817452/eizo-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_container_28445504/nv_image_2089005165__2095422996.coreimg.svg/1793603817460/inventec-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_container_28445504/nv_image_709396528.coreimg.svg/1793603817469/nvidia-partner-leadtek-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_container_28445504/nv_image_1881284137__1601059032.coreimg.svg/1793603817478/nexcom-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_container_28445504/nv_image_1969265016_.coreimg.svg/1793603817486/one-stop-systems-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_container_28445504/nv_image_1969265016.coreimg.svg/1793603817494/onyx-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_container_28445504/nv_image_1881284137.coreimg.svg/1793603817503/yuan-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1480826813/nv_container_28445504/nv_image_1881284137_.coreimg.svg/1793603817512/wolf-logo.svg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1825155073/nv_container/nv_teaser.coreimg.jpeg/1793603818137/nvidia-holoscan-ari.jpeg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1825155073/nv_container/nv_teaser_194156177.coreimg.jpeg/1793603818160/ai-enterprise-ari.jpeg",
+    "/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1825155073/nv_container/nv_teaser_872417068.coreimg.jpeg/1793603818184/nvdia-isaac-robotics-ari.jpeg"
+  ],
+  "tables": [
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": ""
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "IGX Thor Developer Kit"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "IGX Thor Developer Kit Mini"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "dGPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "With NVIDIA RTX PRO™ 6000 Blackwell Max-Q Workstation Edition"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "–"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "AI Performance"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Up to 5581 TFLOPS (FP4-Sparse)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2070 TFLOPS (FP4-Sparse)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "iGPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2560-core NVIDIA Blackwell architecture GPU with fifth-gen Tensor Cores Multi-Instance GPU (MIG) with 10 TPCs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2560-core NVIDIA Blackwell architecture GPU with fifth-gen Tensor Cores Multi-Instance GPU (MIG) with 10 TPCs"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "iGPU Max Frequency"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.57 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.57 GHz"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "dGPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "24,064-core NVIDIA Blackwell architecture GPU with fifth-gen Tensor Cores"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "–"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "14-core Arm® Neoverse®-V3AE 64-bit CPU 64 KB I-Cache, 64 KB D-Cache 1 MB L2 Cache per core 16 MB Shared System L3 Cache"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "14-core Arm® Neoverse®-V3AE 64-bit CPU 64 KB I-Cache, 64 KB D-Cache 1 MB L2 Cache per core 16 MB Shared System L3 Cache"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CPU Max Frequency"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2.6 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2.6 GHz"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Vision Accelerator"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x PVA v3"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x PVA v3"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Memory"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "128 GB 256-bit LPDDR5X | 273 GB/s 96 GB GDDR7 dGPU memory | 1792 GB/s"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "128 GB 256-bit LPDDR5X 273 GB/s"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Storage"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1 TB M.2 NVMe"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Primary Storage: 1 TB M.2 M NVME Secondary Storage: M2.M UFS3.1"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Video Encode"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x NVEncode (iGPU) 4x NVEncode (dGPU)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x NVEncode"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Video Decode"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x NVDecode (iGPU) 4x NVDecode (dGPU)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x NVDecode"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "PCIe*"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x Gen5 PCIe (x8, x16)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "M.2 Key M slot with x4 PCIe Gen5 (populated with 1 TB NVMe) M.2 Key E slot with x1 PCIe Gen5 (populated with WiFi 6e + Bluetooth Module)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "USB*"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "USB 3.2 Gen2 Type-A stacked connectors USB 3.2 Gen2 Type-C connector"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x USB Type-A 3.2 Gen2 2x USB Type-C 3.1 1x USB Type-C (Debug purpose only)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Networking*"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x RJ45 (1GbE each) 2x QSFP112 (200GbE Each) Supports ConnectX-7"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x 5GBe RJ45 connector 1x QSFP28 (4x 25GbE) Wi-Fi 6E (Populated on M.2 Key E slot with x1 PCIe Gen5)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "ConnectX Support"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Yes"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "No"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Display"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x VESA DisplayPort 1.4a"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x VESA DisplayPort 1.4a"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Other I/O"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x Line-Out and 1x MIC (Audio)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x FSI CAN Header 2x 6-pin automation header 2x 5-pin header JTAG Connector 1x 4-pin Fan Connector: 12 V, PWM, and Tach 2-pin RTC backup battery connector Microfit power jack Power, Force Recovery, and Reset buttons"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "BMC Support"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Yes"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "No"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Safety Support"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Functional Safety Island on SoC Safety MCU on the carrier board"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Functional Safety Island on the SoC Safety MCU on the carrier board"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Power"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "40 W–130 W TMP up to 300 W for dGPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "40 W–130 W"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Mechanical"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "382.7 mm x 262.7 mm x 151.2 mm"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "243.19 mm x 112.40 mm x 56.88 mm (height includes feet, carrier board, module, and thermal solution)"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": ""
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "IGX T7000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "IGX T5000"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "dGPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "With NVIDIA RTX PRO™ 6000 Blackwell Max-Q Workstation Edition"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "With NVIDIA RTX PRO™ 5000 Blackwell"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "–"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "AI Performance"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "up to 5581 TFLOPS (FP4-Sparse)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "up to 4293 TFLOPS (FP4-Sparse)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "up to 2070 TFLOPS (FP4 - sparse)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "iGPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2560-core NVIDIA Blackwell architecture GPU with fifth-gen GEN Tensor cores Multi-Instance GPU with 10 TPCs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2560-core NVIDIA Blackwell architecture GPU with fifth-gen GEN Tensor cores Multi-Instance GPU with 10 TPCs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2560-core NVIDIA Blackwell architecture GPU with fifth-gen Tensor cores Multi-Instance GPU with 10 TPCs"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "iGPU Max Frequency"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.57 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.57 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.57 GHz"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "dGPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "24,064-core NVIDIA Blackwell architecture GPU with fifth-gen Tensor Cores"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "14,080-core NVIDIA Blackwell architecture GPU with fifth-gen Tensor Cores"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "–"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "14-core Arm® Neoverse®-V3AE 64-bit CPU 64 KB I-Cache, 64 KB D-Cache 1 MB L2 Cache per core 16 MB Shared System L3 Cache"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "14-core Arm® Neoverse®-V3AE 64-bit CPU 64 KB I-Cache, 64 KB D-Cache 1 MB L2 Cache per core 16 MB Shared System L3 Cache"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "14-core Arm® Neoverse®-V3AE 64-bit CPU 64 KB I-Cache, 64 KB D-Cache 1 MB L2 Cache per core 16 MB Shared System L3 Cache"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CPU Max Frequency"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2.6 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2.6 GHz"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2.6 GHz"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Vision Accelerator"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x PVA v3"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x PVA v3"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x PVA v3"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Memory"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "128 GB 256-bit LPDDR5X | 273 GB/s 96 GB GDDR7 dGPU memory | 1792 GB/s"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "128 GB 256-bit LPDDR5X | 273 GB/s 48 GB GDDR7 dGPU memory | 1344 GB/s"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "128GB 256-bit LPDDR5X 273GB/s"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Storage"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4x SATA connectors M.2 Key M connector"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4x SATA connectors M.2 Key M connector"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Supports NVMe through PCIe Supports SSD through USB3.2"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Video Encode"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x NVEncode (iGPU) 4x NVEncode (dGPU)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x NVEncode (iGPU) 3x NVEncode (dGPU)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x NVEncode"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Video Decode"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x NVDecode (iGPU) 4x NVDecode (dGPU)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x NVDecode (iGPU) 3x NVDecode (dGPU)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x NVDecode"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "PCIe*"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x Gen5 PCIe (x8, x16)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x Gen5 PCIe (x8, x16)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Up to 8 lanes - Gen5 Root port only - C1 (x1) and C3 (x2) Root Point or Endpoint - C2 (x1), C4 (x8), and C5 (x4)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "USB*"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x USB3.2 Gen2 Type C connector 4x USB3.2 gen2 Type A connectors"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x USB3.2 Gen2 Type C connector 4x USB3.2 gen2 Type-A connectors"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "xHCI host controller with integrated PHY (up to) 3x USB 3.2 4x USB 2.0"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Networking*"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x RJ45 (1GbE each) 2x QSFP112 (200GbE Each) Support for ConnectX-7 M.2 Key E connector (Wi-Fi/BT and 5g) M.2 Key B connector (cellular optional)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x RJ45 (1GbE each) 2x QSFP112 (200GbE Each) Supports ConnectX-7 M.2 Key E connector (Wi-Fi/BT and 5g) M.2 Key B connector (cellular optional)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4x up to 25 Gbps MGBE WiFi 6E (Populated on M.2 Key E slot with x1 PCIe Gen5)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "ConnectX Support"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Yes"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Yes"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "No"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Display"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x VESA DisplayPort 1.4a"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x VESA DisplayPort 1.4a"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x shared HDMI2.1 1x VESA DisplayPort 1.4a"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Other I/O"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x FSI CAN 2x USB header for optional connections via cable 4x COM Ports 1x LPT 1x TPM 2x CAN (1x T5000 CAN, 1x sMCU CAN) 1x GPIO 5x FAN (2x T5000, 2x System, 1x CX-7)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x FSI CAN 2x USB header for optional connections via cable 4x COM Ports 1x LPT 1x TPM 2x CAN (1x T5000 CAN, 1x sMCU CAN) 1x GPIO 5x FAN (2x T5000, 2x System, 1x CX-7)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4x UART 4x CAN 3x SPI 13x I2C 6x PWM outputs"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "BMC Support"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Yes"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Yes"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": ""
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Power"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "40 W-130 W TMP up to 300 W for dGPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "40 W-130 W TMP up to 300 W for dGPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "40 W–130 W"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Mechanical"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "243.84 mm x 198.98 mm x 31.05 mm"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "243.84 mm x 198.98 mm x 31.05 mm"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "100 mm x 87 mm x 15.29 mm 699-pin B2B connector Integrated thermal transferplate (TTP) with heatpipe"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": ""
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "IGX Orin Developer Kit"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "AI Performance"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Up to 1705 TOPs with optional RTX 6000 Ada Generation GPU (Sparse)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SOM (System on Module)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "GPU: 2,048-core NVIDIA Ampere architecture with 64 Tensor Cores CPU: 12-core Arm® Cortex®-A78AE v8.2"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVIDIA ConnectX-7"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVIDIA ConnectX-7 2x 100GbE 32-lane Gen 5 PCIe switch (x8 upstream, x16 Downstream, x8 Downstream)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Safety MCU (sMCU)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Infineon Aurix TC397"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVIDIA BMC (Baseboard Management Controller) Module"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Aspeed AST2600 Microchip ERoT"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "GPU Max Frequency"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.185 GHz"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CPU Max Frequency"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.971 GHz"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "DL Accelerator"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x NVDLA 2.0 Engines"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "DLA Max Frequency"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.4GHz"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Vision Accelerator"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x PVA v2"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Memory"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "64 GB 256-bit LPDDR5 204.8 GB/s"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Storage"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "500 GByte NVMe (PCIe Gen4) (4x SATA 6 Gbps expansion ports)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Optional Discrete GPU Card"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVIDIA RTX A6000 NVIDIA RTX 6000 Ada Generation"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Wireless"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "802.11 a/b/g/n/ac BT 5.0"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Video Encode"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x 4K60 (H.265) 4x 4K30 (H.265) 8x 1,080p60 (H.265) 16x 1,080p30 (H.265)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Video Decode"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x 8K30 (H.265) 3x 4K60 (H.265) 7x 4K30 (H.265) 11x 1,080p60 (H.265) 22x 1,080p30 (H.265)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "HDMI-IN"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "HDMI 2.0b input (up to 4Kp60)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "PCIe"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x PCIe Gen5 expansion slots (from ConnectX-7 PCIe switch) x8 lanes within x16 physical connector x16 lanes within x16 physical connector"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "USB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x USB 3.2 Gen2 Type-C connector 4x USB 3.2 Gen2 Type-A connectors"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Ethernet"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x RJ45 (up to 1GbE) 2x QSFP28 ports (up to 100GbE per port)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Display"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "One DisplayPort 1.4a output"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Audio (AU)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Two 3.5 mm AUX jack (MIC, line-out)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Power"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "100 ~ 240 VAC 100 VAC: 8.5 A 240 VAC: 3.5 A"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Mechanical"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "262.7 x 382 x 151.2 mm 6,700 grams"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": ""
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "IGX Orin 700"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Performance"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Up to 1705 TOPs"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Specs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "IGPU: 2048-core NVIDIA Ampere with 64 Tensor Core CPU: 12-core Arm Cortex A78AE CPU Memory: 64 GB LPDDR5 with ECC Storage: 64 GB eMMC"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Power"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Up to 125 W (without dGPU) 400 W (with dGPU)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "IO Throughput"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2X100 Gb/s"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Optional dGPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Yes"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Integrated Dual 100 Gb/s ConnectX-7"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Yes"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "BMC"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Yes"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Functional Safety"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Yes"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Carrier Board Customization"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "No"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Product Lifecycle and Enterprise SW Support"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "10 years (Until 2033)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Value Prop"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "Same NVIDIA Certification Process to ensure Enterprise-level software support, AI safety, and functional safety for industries"
+        }
+      ]
+    ]
+  ],
+  "text_chars": 23098
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ros2",
+  "url": "https://docs.ros.org/en/jazzy/index.html",
+  "retrieved_at_utc": "2026-11-03T04:18:30.791897+00:00",
+  "status": 200,
+  "final_url": "https://docs.ros.org/en/jazzy/index.html",
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "c9704be1cc55f6661081c8bb4a3d7e0e584bc3f1eeaecade920199507b8acf6e",
+  "file": "_Evidence/ros2.html",
+  "links": [
+    "https://github.com/TecharoHQ/anubis",
+    "https://techaro.lol",
+    "https://bsky.app/profile/celphase.bsky.social"
+  ],
+  "text_chars": 1528
+}

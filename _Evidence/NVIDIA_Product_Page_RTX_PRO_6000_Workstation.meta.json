@@ -1,0 +1,293 @@
+{
+  "id": "NVIDIA_Product_Page_RTX_PRO_6000_Workstation",
+  "url": "https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000/",
+  "retrieved_at_utc": "2026-11-03T05:25:26.060500+00:00",
+  "final_url": "https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000/",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Server": "Apache",
+    "Last-Modified": "Sat, 31 Oct 2026 21:20:14 GMT",
+    "Edge-Cache-Tag": "/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000/this/,/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000/,/en-us/products/workstations/professional-desktop-gpus/,/en-us/products/workstations/,/en-us/products/,/en-us/",
+    "ETag": "\"4b286-65f297a87423c\"",
+    "Content-Security-Policy": "frame-ancestors 'self' *.awsapps.nvidia.com *.nvidia.com https://widget.stackla.com https://app-sj14.marketo.com https://www.youtube.com https://www.quadro-selector.com http://player.youku.com https://player.youku.com https://live.nvidia-china.com https://www.google.com *.nvidia.cn https://events.rainfocus.com https://www.twitch.tv https://store.nvidia.ru https://store.nvidia.in *.geforcenow.com https://salespro.hpe.com https://hpe.seismic.com https://cms.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://cms.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://events.rainfocus.com https://docs.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://docs.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://nvfile;",
+    "ServerID": "prod-web02",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Access-Control-Allow-Origin": "*",
+    "Vary": "Accept-Encoding",
+    "Date": "Tue, 03 Nov 2026 05:25:27 GMT",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Set-Cookie": "c_code=CN; Domain=nvidia.com; Path=/; Secure",
+    "nv-defunct-locale-redirection": "executed",
+    "AK_EC_TYPE": "LOCALE_ERD_POLICY",
+    "Akamai-Cache-Status": "Hit from child",
+    "x-cdn-version": "v458",
+    "x-cdn": "akam"
+  },
+  "sha256": "db4308d47e5985149362341c2cc5bd3ade08bc0d06649c158bfae97fc75e5bc6",
+  "bytes": 307846,
+  "file": "_Evidence/NVIDIA_Product_Page_RTX_PRO_6000_Workstation.html",
+  "links": [
+    "https://www.nvidia.com",
+    "#page-content",
+    "https://www.nvidia.com/en-us/",
+    "https://www.nvidia.com/en-us/products/workstations/",
+    "https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/",
+    "https://www.nvidia.com/en-us/products/workstations/professional-laptops/",
+    "https://www.nvidia.com/en-us/products/workstations/dgx-spark/",
+    "https://www.nvidia.com/en-us/products/workstations/dgx-station/",
+    "https://www.nvidia.com/en-us/products/workstations/dgx-station-for-windows/",
+    "https://www.nvidia.com/en-us/studio/creative-apps/",
+    "https://www.nvidia.com/en-us/software/rtx-enterprise-software/",
+    "https://www.nvidia.com/en-us/products/workstations/product-literature/",
+    "https://www.nvidia.com/en-us/technologies/rtx/",
+    "https://www.nvidia.com/en-us/products/workstations/rendering/",
+    "#",
+    "https://marketplace.nvidia.com/en-us/account/",
+    "https://www.nvidia.com/en-us/account/edit-profile/",
+    "/",
+    "http://www.enable-javascript.com/",
+    "https://marketplace.nvidia.com/en-us/enterprise/laptops-workstations/?category=gpu&gpu=RTX+PRO+6000&page=1&limit=15",
+    "/content/dam/en-zz/Solutions/data-center/rtx-pro-6000-blackwell-workstation-edition/workstation-blackwell-rtx-pro-6000-workstation-edition-nvidia-us-3519208-web.pdf",
+    "#quick-specs",
+    "#overview",
+    "#highlights",
+    "#features",
+    "#workloads",
+    "#specs",
+    "#get-started",
+    "https://nvidianews.nvidia.com/news/nvidia-launches-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds",
+    "https://blogs.nvidia.com/blog/siggraph-news-2026/#mcp",
+    "https://www.nvidia.com/en-us/solutions/ai/agentic-ai/",
+    "https://www.nvidia.com/en-us/products/workstations/ai-workstations/",
+    "https://www.nvidia.com/en-us/high-performance-computing/",
+    "https://www.nvidia.com/en-us/industries/game-development/",
+    "https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000-family/",
+    "https://www.nvidia.com/en-us/contact/sales/",
+    "https://www.nvidia.com/en-us/products/workstations/sign-up/",
+    "https://www.nvidia.com/en-us/design-visualization/desktop-graphics/",
+    "https://www.nvidia.com/en-us/products/workstations/professional-laptops/#performance",
+    "https://www.nvidia.com/en-us/data-center/",
+    "https://www.nvidia.com/en-us/design-visualization/virtual-workstation/",
+    "https://www.nvidia.com/en-us/products/workstations/resources/rtx-embedded/",
+    "https://www.nvidia.com/en-us/design-visualization/rtx-enterprise-software",
+    "https://blogs.nvidia.com/blog/category/pro-graphics/",
+    "https://developer.nvidia.com/blog/tag/workstation/",
+    "https://www.nvidia.com/en-us/case-studies/?page=1",
+    "https://www.nvidia.com/en-us/data-center/virtualization/resources/?ncid=no-ncid",
+    "https://docs.nvidia.com/",
+    "https://www.nvidia.com/en-us/on-demand/",
+    "https://forums.developer.nvidia.com/",
+    "https://forums.developer.nvidia.com/c/gaming-and-visualization-technologies/rtx-pro/774",
+    "https://developer.nvidia.com/omniverse/community",
+    "https://www.nvidia.com/en-us/about-nvidia/#About%20Us",
+    "https://www.nvidia.com/en-us/about-nvidia/careers/",
+    "https://www.nvidia.com/en-us/foundation/",
+    "https://investor.nvidia.com/home/default.aspx",
+    "https://www.nvidia.com/en-us/research/",
+    "https://www.nvidia.com/en-us/sustainability/",
+    "https://www.nvidia.com/en-us/technologies/",
+    "https://www.facebook.com/NVIDIA",
+    "https://www.instagram.com/nvidiaomniverse/",
+    "https://www.linkedin.com/showcase/nvidia-omniverse/",
+    "https://twitter.com/nvidiaomniverse",
+    "https://www.youtube.com/c/nvidiaomniverse",
+    "https://www.nvidia.com/en-us/about-nvidia/privacy-policy/",
+    "https://www.nvidia.com/en-us/about-nvidia/privacy-center/",
+    "https://www.nvidia.com/en-us/about-nvidia/terms-of-service/",
+    "https://www.nvidia.com/en-us/about-nvidia/accessibility/",
+    "https://www.nvidia.com/en-us/about-nvidia/company-policies/",
+    "https://www.nvidia.com/en-us/product-security/",
+    "https://www.nvidia.com/en-us/contact/"
+  ],
+  "images": [
+    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+    "/content/nvidiaGDC/us/en_US/products/workstations/professional-desktop-gpus/rtx-pro-6000/_jcr_content/root/responsivegrid/nv_container_166643292/nv_container/nv_image.coreimg.jpeg/1790954874347/geforce-rtx-50-series-architecture-ari.jpeg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/professional-desktop-gpus/rtx-pro-6000/_jcr_content/root/responsivegrid/nv_container_166643292/nv_container_1503084419/nv_teaser_copy.coreimg.svg/1790954874604/m48-tensor-core-ffffff.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/professional-desktop-gpus/rtx-pro-6000/_jcr_content/root/responsivegrid/nv_container_166643292/nv_container_1503084419/nv_teaser_742831494_.coreimg.svg/1790954874618/m48-render-ffffff.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/professional-desktop-gpus/rtx-pro-6000/_jcr_content/root/responsivegrid/nv_container_166643292/nv_container_1503084419/nv_teaser_742831494__1575421213.coreimg.svg/1790954874632/m48-accelerating-cuda-c---appl-with-multiple-gpus-ffffff.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/professional-desktop-gpus/rtx-pro-6000/_jcr_content/root/responsivegrid/nv_container_166643292/nv_container_1503084419/nv_teaser_copy_copy.coreimg.svg/1790954874646/m48-gpu-chip-ffffff.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/professional-desktop-gpus/rtx-pro-6000/_jcr_content/root/responsivegrid/nv_container_166643292/nv_container_1503084419/nv_teaser_copy_copy_.coreimg.svg/1790954874661/m48-gpu-encoding-ffffff.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/professional-desktop-gpus/rtx-pro-6000/_jcr_content/root/responsivegrid/nv_container_166643292/nv_container_1503084419/nv_teaser_copy_copy__518196318.coreimg.svg/1790954874676/m48-broadcast-ffffff.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/professional-desktop-gpus/rtx-pro-6000/_jcr_content/root/responsivegrid/nv_container_166643292/nv_container_1503084419/nv_teaser_copy_copy__1855798235.coreimg.svg/1790954874690/m48-multi-gpus-ffffff.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/professional-desktop-gpus/rtx-pro-6000/_jcr_content/root/responsivegrid/nv_container_166643292/nv_container_1503084419/nv_teaser_copy_copy__475209526.coreimg.svg/1790954874706/m48-pcie-switch-ffffff.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/professional-desktop-gpus/rtx-pro-6000/_jcr_content/root/responsivegrid/nv_container_166643292/nv_container_1503084419/nv_teaser_copy_copy__547891837.coreimg.svg/1790954874720/m48-display-gaming-no-bezel-ffffff.svg"
+  ],
+  "tables": [
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVIDIA Architecture"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVIDIA Blackwell"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "AI TOPS"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4000"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Tensor Cores"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Fifth Generation"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Ray Tracing Cores"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Fourth Generation"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVIDIA Encoder (NVENC)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4x Ninth Generation"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVIDIA Decoder (NVDEC)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4x Sixth Generation"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Memory Configuration"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "96 GB GDDR7 with error-correcting code (ECC)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Memory Bandwidth"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1792 GB/sec"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Max Power Consumption"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "600 W"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "GPU Memory"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "96GB GDDR7 with error-correction code (ECC)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Display Ports"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4x DisplayPort 2.1"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Max Power Consumption"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "600W"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Form Factor"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "5.4” H x 12.0” L, dual slot"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Thermal"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Double Flow Through"
+        }
+      ]
+    ]
+  ],
+  "text_chars": 11211
+}

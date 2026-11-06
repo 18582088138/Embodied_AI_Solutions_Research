@@ -1,0 +1,10 @@
+{
+  "id": "openpi-license",
+  "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/LICENSE",
+  "retrieved_at_utc": "2026-11-03T04:19:36.792252+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/LICENSE",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+  "file": "_Evidence/openpi-license.txt"
+}

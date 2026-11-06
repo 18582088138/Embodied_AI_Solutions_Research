@@ -1,0 +1,30 @@
+{
+  "id": "helix",
+  "url": "https://www.figure.ai/news/helix",
+  "retrieved_at_utc": "2026-11-03T04:18:30.660716+00:00",
+  "status": 200,
+  "final_url": "https://www.figure.ai/news/helix",
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "808b8df639297a08089753125ec7babc97f394b34cf5a7ab1a3be7a478d0d007",
+  "file": "_Evidence/helix.html",
+  "links": [
+    "/",
+    "/figure",
+    "/helix",
+    "/index-app",
+    "/news",
+    "/careers",
+    "/company",
+    "https://www.figure.ai/careers",
+    "https://twitter.com/figure_robot",
+    "https://www.instagram.com/figure_robot/",
+    "https://www.linkedin.com/company/figure-ai/",
+    "https://www.youtube.com/@figureai",
+    "/terms-and-conditions",
+    "/privacy-policy",
+    "/accessibility-statement",
+    "https://policies.google.com/privacy",
+    "https://policies.google.com/terms"
+  ],
+  "text_chars": 15660
+}

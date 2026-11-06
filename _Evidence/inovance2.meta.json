@@ -1,0 +1,13 @@
+{
+  "id": "inovance2",
+  "url": "https://www.inovance.com/",
+  "retrieved_at_utc": "2026-11-03T04:21:20.183402+00:00",
+  "status": 200,
+  "final_url": "https://www.inovance.com/",
+  "content_type": "text/html",
+  "content_encoding": "gzip",
+  "sha256": "079511927b4da3b5196ab58693f58f9735fc8a7bd8c2a963efa39d88e119f90c",
+  "file": "_Evidence/inovance2.html",
+  "links": [],
+  "text_chars": 30
+}

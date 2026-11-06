@@ -1,0 +1,10 @@
+{
+  "id": "agibot-sim",
+  "url": "https://raw.githubusercontent.com/InternRobotics/InternUtopia/main/README.md",
+  "retrieved_at_utc": "2026-11-03T04:18:31.216484+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/InternRobotics/InternUtopia/main/README.md",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "5eb9356791bb99ff89f3cc00484f34d928e7fa221998a9812aa65760dbac3e55",
+  "file": "_Evidence/agibot-sim.txt"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pi05",
+  "url": "https://www.pi.website/blog/pi05",
+  "retrieved_at_utc": "2026-11-03T04:18:30.511995+00:00",
+  "status": 200,
+  "final_url": "https://www.pi.website/blog/pi05",
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "e8c5ee6480f2a121d197a26dd690f798982cc2c3083f88ca7aba00d00d2ae4ba",
+  "file": "_Evidence/pi05.html",
+  "links": [
+    "/",
+    "/blog",
+    "/join-us",
+    "/download/pi05.pdf",
+    "/blog/pi0",
+    "#long-horizon-videos",
+    "#how-does-it-work",
+    "#training-and-inference",
+    "/research/hirobot",
+    "#generalization-to-new-homes",
+    "/research/fast",
+    "#where-do-we-go-from-here",
+    "mailto:collaborate@physicalintelligence.company",
+    "mailto:research@physicalintelligence.company"
+  ],
+  "text_chars": 17495
+}

@@ -1,0 +1,10 @@
+{
+  "id": "arm-kleidi",
+  "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/main/README.md",
+  "retrieved_at_utc": "2026-11-03T04:18:24.281143+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/ARM-software/kleidiai/main/README.md",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "0b44267ff7a8b14f2f99142dfb5512637f9c69850eaeca25a772f38f23b6600b",
+  "file": "_Evidence/arm-kleidi.txt"
+}

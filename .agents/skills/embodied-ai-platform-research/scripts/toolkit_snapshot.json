@@ -1,0 +1,30 @@
+{
+  "standard_captured_on": "2026-11-04",
+  "basis": "User-approved NVIDIA multidimensional research workflow; product facts must be researched anew",
+  "upstream_tools": {
+    "download_materials.py": {
+      "source_relative_path": "Embodied_AI_Solutions_Research/toolkit/download_materials.py",
+      "sha256": "f8ca89f88b0465aff15629b12bb94c0d6c034070036f056837b74e5dfe858e6d"
+    },
+    "test_download_materials.py": {
+      "source_relative_path": "Embodied_AI_Solutions_Research/toolkit/test_download_materials.py",
+      "sha256": "29ce9666d126a3f85eed171f30c3f9793e605705a57f1490e148a4f01244b407"
+    }
+  },
+  "bundled_scripts_sha256": {
+    "archive_paths.py": "7f664bbbca1e459f500da09c85abee13b5c5304e84efc493486f012bbed7dff7",
+    "bootstrap_research.py": "8f015f3a74bce336b898227572e012460998c518cdbeb4e3cc7b926013897518",
+    "check_report.py": "389665ab390e4155059101a88f4b8f7b63ce582a67a981308befd05dca6094be",
+    "download_materials.py": "cb84017e4d0c51b7eb04d98f5791b176ea4fe494bfde101c421382c628d3fc6a",
+    "organize_repository.py": "7db64015940b38ca9dfa0e216c8cf78f8c0049e52359c817d8422408620ff14e",
+    "prepare_git_sources.py": "07c83ea95f2419eec4efc759d8e52775dff5ac8c0d6f63b458733cd88dbdc0f9",
+    "test_archive_paths.py": "cb36eb67dfab52e4e9682afa63e4b67120b75a7832a5c82bb3e02c5436c1c5ea",
+    "test_bootstrap_research.py": "d601a6242316cda886f3e5c0fe7e2aa3c2e4e36d272c1c8e8163ee9c88572690",
+    "test_check_report.py": "826e4b6925ad5addf80fe2183ffb2c11bdf80211a312ddc71f5cc4125b02c931",
+    "test_download_materials.py": "36816c66e8dba6520b69f24e41899220fabbf625160f12c5040c8e45b5999681",
+    "test_prepare_git_sources.py": "b43686cfaa94664fac2eb12d6b99a0b6fa7ab3c0f523124550cc7689bf601b4e",
+    "verify_repository.py": "f5865e6442b125803422866a8d4d5df23f50e2f1b1011619d58d3d119cb9d4b8"
+  },
+  "repository_packaged_on": "2026-11-06",
+  "repository_note": "Portable JSON paths; original research standard retained."
+}

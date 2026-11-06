@@ -1,0 +1,10 @@
+{
+  "id": "lerobot",
+  "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/README.md",
+  "retrieved_at_utc": "2026-11-03T04:18:31.989899+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/huggingface/lerobot/main/README.md",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "5f4e8c5a628ededdc3204cf126e8398f5761fe166e0b28cc910cd7e6eeea4239",
+  "file": "_Evidence/lerobot.txt"
+}

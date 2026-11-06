@@ -1,0 +1,10 @@
+{
+  "id": "cambricon-torch",
+  "url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/master/README.md",
+  "retrieved_at_utc": "2026-11-03T04:18:25.389283+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/master/README.md",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "f2fe37c83aac32462844cb4c97f95bafc471e317ede7da214e155b4a10e7fe9d",
+  "file": "_Evidence/cambricon-torch.txt"
+}

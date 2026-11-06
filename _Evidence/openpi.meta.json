@@ -1,0 +1,10 @@
+{
+  "id": "openpi",
+  "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md",
+  "retrieved_at_utc": "2026-11-03T04:18:30.045873+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "567fc57766bd736664f50126cab8145af4071ca16cc5e238f2b11e369169c3b5",
+  "file": "_Evidence/openpi.txt"
+}

@@ -1,0 +1,64 @@
+{
+  "organized_on": "2026-11-06 Asia/Shanghai",
+  "projects": [
+    {
+      "project": "01_Compute_Chips/01_NVIDIA",
+      "unique_sources": 480,
+      "hash_checks": 27229,
+      "failed_candidates_preserved": 76
+    },
+    {
+      "project": "01_Compute_Chips/02_Intel",
+      "unique_sources": 225,
+      "hash_checks": 7237,
+      "failed_candidates_preserved": 22
+    },
+    {
+      "project": "01_Compute_Chips/03_Qualcomm",
+      "unique_sources": 136,
+      "hash_checks": 7840,
+      "failed_candidates_preserved": 14
+    },
+    {
+      "project": "01_Compute_Chips/04_ARM",
+      "unique_sources": 244,
+      "hash_checks": 13187,
+      "failed_candidates_preserved": 37
+    },
+    {
+      "project": "01_Compute_Chips/05_Rockchip",
+      "unique_sources": 197,
+      "hash_checks": 30656,
+      "failed_candidates_preserved": 22
+    },
+    {
+      "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+      "unique_sources": 156,
+      "hash_checks": 7185,
+      "failed_candidates_preserved": 9
+    },
+    {
+      "project": "01_Compute_Chips/07_Cambricon",
+      "unique_sources": 111,
+      "hash_checks": 2183,
+      "failed_candidates_preserved": 8
+    },
+    {
+      "project": "01_Compute_Chips/08_Horizon_Robotics",
+      "unique_sources": 222,
+      "hash_checks": 4097,
+      "failed_candidates_preserved": 16
+    },
+    {
+      "project": "01_Compute_Chips/10_AMD",
+      "unique_sources": 364,
+      "hash_checks": 31683,
+      "failed_candidates_preserved": 39
+    }
+  ],
+  "hash_checks": 131297,
+  "unique_files_hashed": 23307,
+  "errors": [],
+  "outcome": "pass",
+  "scope": "Stored successful source/original/dependency byte hashes; failed candidates preserved, not promoted to evidence."
+}

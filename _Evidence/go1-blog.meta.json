@@ -1,0 +1,29 @@
+{
+  "id": "go1-blog",
+  "url": "https://opendrivelab.com/OpenGO1/",
+  "retrieved_at_utc": "2026-11-03T04:19:36.626359+00:00",
+  "status": 200,
+  "final_url": "https://opendrivelab.com/OpenGO1/",
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "a02a017216188b45dd4b0ed9d9ccd6c5ee60d4f10ff7cb5e87df9b2c152384cc",
+  "file": "_Evidence/go1-blog.html",
+  "links": [
+    "/",
+    "/publications/",
+    "/events/",
+    "/recruit/",
+    "https://arxiv.org/abs/2507.06219",
+    "https://arxiv.org/abs/2503.06669",
+    "#data-quality",
+    "#model-training",
+    "#model-evaluation",
+    "#bottom-line",
+    "#",
+    "https://opendrivelab.com/AgiBot-World/",
+    "https://github.com/OpenDriveLab/agibot-world",
+    "https://huggingface.co/agibot-world/GO-1",
+    "https://arxiv.org/abs/2503.11646",
+    "https://github.com/OpenDriveLab/AgiBot-World/blob/main/CONTRIBUTING.md"
+  ],
+  "text_chars": 12509
+}

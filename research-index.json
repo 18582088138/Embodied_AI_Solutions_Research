@@ -1,0 +1,1528 @@
+[
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/01_Hardware_Platform.md",
+    "project": "01_Compute_Chips/01_NVIDIA",
+    "title": "NVIDIA 具身智能硬件平台：产品规格、工程约束与选型依据",
+    "status": "既有深度报告；保留原核验记录",
+    "sha256": "a4011e138ad16620ae3f9871440e6c22651ed830970f3bf8d70f6b84a83f4ebf"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/02_Software_Stack.md",
+    "project": "01_Compute_Chips/01_NVIDIA",
+    "title": "NVIDIA — 软件栈",
+    "status": "既有深度报告；保留原核验记录",
+    "sha256": "e2ec095d6225db2431220a9638bf6e3696c2efb914d8032662f2832daca76e4a"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/03_Sensor_Integration.md",
+    "project": "01_Compute_Chips/01_NVIDIA",
+    "title": "NVIDIA — 传感器接入",
+    "status": "既有深度报告；保留原核验记录",
+    "sha256": "768f850a28c6ecc48bed125aed4d0ab6a3958b77e074809b0646ec51e5eb6133"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/04_AI_Capabilities.md",
+    "project": "01_Compute_Chips/01_NVIDIA",
+    "title": "NVIDIA AI能力：从多模态模型到机器人闭环",
+    "status": "既有深度报告；保留原核验记录",
+    "sha256": "bdc6de293da61ca1ee7a7d844ccdeb58caea106297b864091027552d2e178061"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/05_Simulation_Environment.md",
+    "project": "01_Compute_Chips/01_NVIDIA",
+    "title": "NVIDIA仿真环境：物理、传感器、机器人学习与迁移验证",
+    "status": "既有深度报告；保留原核验记录",
+    "sha256": "2284b604ec95755bfa9552e7ae44fc3d3bc6f94f70e20373948d95602d04734b"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/06_Robot_Integration.md",
+    "project": "01_Compute_Chips/01_NVIDIA",
+    "title": "NVIDIA机器人本体适配：描述、感知、规划、控制和安全",
+    "status": "既有深度报告；保留原核验记录",
+    "sha256": "0a92a4401b9904558bdf4412c3498e82e517e7a9841560225aa162b7c244fb18"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/07_Ecosystem.md",
+    "project": "01_Compute_Chips/01_NVIDIA",
+    "title": "NVIDIA：生态建设、供应链与原型到量产",
+    "status": "既有深度报告；保留原核验记录",
+    "sha256": "c990ba503f6059b443bf06207884c54daa13d10d5ddc28fd8d4afdc5cabba07d"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/08_Core_Technology_Moat.md",
+    "project": "01_Compute_Chips/01_NVIDIA",
+    "title": "NVIDIA：核心技术护城河",
+    "status": "既有深度报告；保留原核验记录",
+    "sha256": "18381bd54413734b41c932dfad6bd75d87cf5563769d69f99cefe464936699d6"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/08A_Compute_and_Deployment.md",
+    "project": "01_Compute_Chips/01_NVIDIA",
+    "title": "NVIDIA核心技术护城河专题A：低精度计算、CUDA与推理部署",
+    "status": "既有深度报告；保留原核验记录",
+    "sha256": "bf4db3dbf85f60d9dad616d7e0a0c79c9df12f70fb208b3a238ed006a663c9e8"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/08B_Sensing_and_Isolation.md",
+    "project": "01_Compute_Chips/01_NVIDIA",
+    "title": "NVIDIA核心技术护城河专题B：视觉引擎、传感器数据流与GPU隔离",
+    "status": "既有深度报告；保留原核验记录",
+    "sha256": "07d31814d7d4c47e18bd08ff0a0bf8b4d60e9da072c37b83e84188714cb11ba0"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/08C_Simulation_Control_and_Safety.md",
+    "project": "01_Compute_Chips/01_NVIDIA",
+    "title": "NVIDIA核心技术护城河专题C：仿真、控制工作流、编排与安全",
+    "status": "既有深度报告；保留原核验记录",
+    "sha256": "a3042432cef2aac2914841a56ec19bc3a1967f0237549e9cab262dcedd5620b3"
+  },
+  {
+    "path": "01_Compute_Chips/01_NVIDIA/09_SWOT_Analysis.md",
+    "project": "01_Compute_Chips/01_NVIDIA",
+    "title": "NVIDIA：具身智能软硬件一体化SWOT与场景选型",
+    "status": "既有深度报告；保留原核验记录",
+    "sha256": "dc39a6c3a505212b3294ef4049d4556bdd71541f477148e9a946f1ae6f8f8c96"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/01_Hardware_Platform.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "Intel 具身智能硬件平台：异构计算、机器人开发系统与工业交付边界",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "9d2932b96e70e41df7e0c5fb7d5df940baaade9b1459e864196391620106040c"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/02_Software_Stack.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "02 Intel 具身智能软件栈总览",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "1607343114bc39f3c02e80d8357f4bd721845d61bf7ec36eea7c2c32e707570d"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/02A_System_BSP_and_Execution.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "02A｜系统、BSP、驱动与执行域：从可启动到可复建的机器人环境",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "b7df28482e08fd81bb19b3e2e064c1b2da8499f5cda7173a30c9604987a65f8c"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/02B_OpenVINO_Compilation_and_Heterogeneous_Runtime.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "02B｜OpenVINO编译、量化与异构推理：图、设备、内存和请求的生命周期",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "2acef2965cade0cfdf3baef5a7742996324e015061cee9a743a06172494c1691"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/02C_Physical_AI_Model_Pipelines.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "02C｜Physical AI模型流程与机器人运行接口：π0.5、RTC和动作契约",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "2fdb0dd88314b01966ba55a0862a58064d7c3e558fb8b56cc544997e8488a435"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/02D_ROS_Perception_and_Navigation.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "02D Intel ROS 感知、空间计算与导航",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "c35a8ac41051250b7a9cdd01b1f7bb08dbccc6d4d358ebf0bfe94d850aaf08a9"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/02E_Control_Simulation_and_Operations.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "02E Intel 实时控制、仿真与运行维护",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "65fe69202c7838534318abfe6627826b6ce6b52df99962ae07a48c3ec5da4c0b"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/02F_Physical_AI_Studio_Data_and_Training.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "02F Physical AI Studio：示教数据、训练、导出与作业生命周期",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "fa696c789add01aabf90438a34346c927c7094ba140a6c76219f05446e92e223"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/03_Sensor_Integration.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "03 Intel 传感器接入：物理链路、时钟与观测数据",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "d695679aa678bbf40a1f61ea2d9f0af83d065845282a43aec93f59f8430eb28b"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/04_AI_Capabilities.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "Intel 04 — AI能力与模型地图",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "26173890806a0c61fad7f30079d57c09525f1f09f68e59d0682c018b8954f000"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/05_Simulation_Environment.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "Intel 05 — 仿真环境、时间与迁移验证",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "79c98391164cbcbaf99b044eca3992d07dcd7063c7ede3f410b49166e8b98770"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/06_Robot_Integration.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "Intel 06 — 本体适配、客户采用与交付证据",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "5221212666f3baef8c239c65b2dba422874bb031836a8df48347d74ddaddab52"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/07_Ecosystem.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "Intel 07 — 生态分工与原型到量产",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "d897f1b7438a1ec7ca05aac303d68c69650f08b9da174b75210392449a4dd649"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/08_Core_Technology_Moat.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "Intel 08 — 核心技术护城河与能力证据地图",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "809b91eedf2cbb283cbe7e57caf1b6a5c2621b98a1f7133b2af4557847e5dc2e"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/08_Proprietary_Technologies.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "Intel — 独有技术与生态",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "452b3bec4cc0982562a393076e2278fbedc1f5e34cd7965fe0a66ada635f0a0b"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/08A_Heterogeneous_Compilation_and_Data_Residency.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "Intel 08A — 异构编译与数据驻留的技术壁垒",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "ccbcb49616e1e8e468223c86edfcf47882cdd2d8ea8db053ba3018ce786d7efd"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/08B_Real_Time_Isolation_and_Control.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "Intel 08B — 时间隔离、控制调度与故障边界",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "1d21f8879d6fe72cbdd6d5759f52b765e1a5b8d9c2d906302843afcfa113b854"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/08C_Policy_Data_and_Deployment_Contracts.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "Intel 08C — 策略数据、部署契约与可复建能力",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "99b0be77f01079dc15daa5bbbc2275fa60ea6603dfcd777e71a6aafdaa2ab325"
+  },
+  {
+    "path": "01_Compute_Chips/02_Intel/09_SWOT_Analysis.md",
+    "project": "01_Compute_Chips/02_Intel",
+    "title": "Intel 09 SWOT与条件选型",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "d459e5a603e74de83c3a2f7535c81b5518e544a3223aa844908ee4458cb9d27f"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/01_Hardware_Platform.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "Qualcomm 具身智能硬件平台深度调研",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "81d6013fe8f5659eb2a8e2f30e85e4ecb429be39bf6dd396cd63d5e838f37afc"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/02_Software_Stack.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "02 Qualcomm具身智能软件栈总览",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "139ee6b0511f7e0f6d6dc67a07636bff12fe9278ba04b9384db8102e89d59c3c"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/02A_Linux_BSP_and_Execution_Domains.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "02A Qualcomm Linux、BSP 与执行域",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "bb90bbb0aa23c1ce71071bc16774ff638f9d86ae908232d2ab9e4ea80aac190a"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/02B_QNN_SNPE_Compilation_and_Runtime.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "02B QAIRT、QNN 与 SNPE：编译产物和运行时契约",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "59da557a0ddbb22975d54986575be8b170128b6084e7068d1646e7e88debc747"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/02C_AI_Hub_and_Generative_AI_Deployment.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "02C Qualcomm AI Hub Workbench 与 Genie 生成式部署",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "16f631068f80780b6e1e24ab341e043ed5e5fa70334f4a8bf7471ee1cd1ccbe3"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/02D_Perception_Multimedia_and_ROS.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "02D Qualcomm IM SDK：感知、多媒体、tensor 与 ROS 交接",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "0e4d08f26eb060a8f5b48687ba55545ea656af02e868d4a890e2b1ba5f453022"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/02E_Robotics_Control_Simulation_and_Operations.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "02E QIR SDK、ROS 控制、仿真交接与运维",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "edc334e7266010362f5fc351b59595c48dd8f967af9719658b0ea7861163ab5c"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/02F_RB6_Cloud_AI_100_Stack.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "02F RB6与Cloud AI 100：独立加速器的软件交接",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "167cfd74cb2633401f9d9d406f114d9057914a6665e26ede1b778cf746517f73"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/03_Sensor_Integration.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "03 Qualcomm传感器接入、时间与数据路径",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "e50d5d9bfdeecb82d32cf6a727968478da18397f2fcf1525d9c6482f173c5ccd"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/04_AI_Capabilities.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "04 Qualcomm AI能力与模型地图",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "16c2e8b71b6d99977dbb77565117682158165e74db116780bc066f5243dccab6"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/05_Simulation_Environment.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "05 Qualcomm仿真环境与仿真到真实交接",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "a4cd731e886bd2cc56301615f9124e64502759a0e2c74db4f3ff5cfe91a094c1"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/06_Robot_Integration.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "06｜Qualcomm 机器人本体适配：从板级接口到商业任务",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "40a9659ff3154e4d789955ee6feda791890faaf420e89d3d9686fce36e21dd41"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/07_Ecosystem.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "07｜Qualcomm生态：伙伴分工、开源资产与量产责任",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "00e3ced5544cab41c8468e3c53b9e72528956d8daf23cf384f86e9e2cf7bd05b"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/08_Core_Technology_Moat.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "08｜Qualcomm核心技术护城河：能力组合、迁移资产和成立条件",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "50abb5e58435f9ac27bf1f4f61f7d9e15dbfe8f9f70431c9ded7749104e6b29c"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/08_Proprietary_Technologies.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "Qualcomm — 独有技术与生态",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "f194e7ffe4a8cb4669cf721b86bca637e64241e7bc929116c5492ae4d9132006"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/08A_Heterogeneous_Compilation.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "08A｜异构编译与部署：数值、内存和缓存构成的工程优势",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "6e4932490db2d005e7faf1507d60ad9581c0f3e51b69edd7c1e16ebcd389d347"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/08B_Sensor_Memory_Pipeline.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "08B｜传感器、共享内存与异构流水线：从局部优化到观测年龄",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "06fa4072b24fb5d314c003f1074c44010d3d9f6210e5472b12dd9167de307502"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/08C_Real_Time_Safety_Domains.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "08C｜实时、安全与多执行域：计算平台能提供哪些保护",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "148ded715c24e00d7636d9f8bc85046633dd03456fec8dafa6522d3bb9549eb6"
+  },
+  {
+    "path": "01_Compute_Chips/03_Qualcomm/09_SWOT_Analysis.md",
+    "project": "01_Compute_Chips/03_Qualcomm",
+    "title": "09｜Qualcomm具身平台SWOT与条件选型",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "dcd4d5821a4eb16a705a556f160e2c207e7e90c90c2f1d9477f396d9757d50dd"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/01_Hardware_Platform.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "Arm 具身智能软硬件平台调研：01 硬件平台",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "d582bb3a91369b5d351a44a69910d47660517d49e40eb99e2cb02133be154cf3"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/02_Software_Stack.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "02 Arm具身智能软件栈：执行层、部署契约与交付边界",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "8a8dcda8a519b806ec511e4d3e66386e1316fb2e5f8554dd6695effa8382b4a4"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/02A_CPU_KleidiAI_ACL.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "02A Arm CPU 推理：KleidiAI 与 Compute Library",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "5fbc12c2a7b93c328acd5c4b523008c79a8110be7d95a51e3d75ee38c1e029d0"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/02B_Ethos_Vela_CMSIS.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "02B Ethos-U、Vela、TFLM 与 CMSIS-NN",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "6fa14c88d689d6fba1911a051f0b7fb6957e56c8d8aceeb65ae30c18d4c6fb4e"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/02C_BSP_Multidomain.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "02C BSP、多执行域通信、可信启动与更新",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "5e991679152eafc6984f2e0fad1e3a715c08974a196bf5711799b52ff075dae9"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/02D_Jetson_ROS_Deployment.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "02D Jetson BSP、TensorRT 与 ROS 部署链",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "1e8dc763467ff8ff1f62b0ef30a205024db7eec9730b50a83b67b5fc6dd4573c"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/02E_TI_TIDL.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "02E TI TIDL：校准、子图卸载与机器人软件接口",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "4fe32d56fb4b9909c9187b35fb055de88913f1fb4bda39b18131218f2c17961b"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/02F_S100_BPU.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "02F S100：Nash模型编译、UCP运行时与TROS/MCU移交",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "58aa479ec892da8719dab2c1a5b132533d76e4412e8ed7187dc2788a06af1185"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/03_Sensor_Integration.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "03 传感器接入：物理接口、buffer与时钟契约",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "7528b0b72e95048923b6aa69ba7bf4a66df0c0ad4aae7b8cd7036e1d5931eafa"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/04_AI_Capabilities.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "04｜Arm 的具身智能 AI 能力与模型地图",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "72c2385c9b0c1fb6c63114205ed663419d8de3e0f6f359d92e38c903a9840000"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/05_Simulation_Environment.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "05｜Arm 平台的仿真路线与虚实验证",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "b0323d5fbb23556c90c11f0dc41a3a1db11c24dbb50c22e59b7f04eb625f0201"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/06_Robot_Integration.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "06｜本体适配、执行契约与实际收益",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "3d948df2fec4f296f2716720e7db883d76b112960edbbfbc8c4694d866eec19b"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/07_Ecosystem.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "07｜Arm 生态的角色、交付资产与量产责任",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "e4416ecc27c1bab948baac0fc528d94a7bf3db85152745eaddb5850055823eb3"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/08_Core_Technology_Moat.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "08｜Arm 具身智能核心技术护城河总览",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "6e4d708b046daef5455383d1dcef45bf59c233117e35b42916a8d3b053d397ba"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/08_Proprietary_Technologies.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "Arm（IP/架构层） — 独有技术与生态",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "94753f5b7057695973c5f579a20345df5f4ac51d51799526fc04d86a93f60663"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/08A_Compute_Asset_Portability.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "08A｜数值、执行格式与编译资产迁移的护城河",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "6e18200c373a75394bf048041a373ba13496a4b09f26a6b716d082449485df0b"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/08B_Memory_Time_Observability.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "08B｜共享内存、时间契约与可观测性的系统价值",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "e1dce213bfa7c0e963c278eb3f5c65334020b9750112e549b1c86aef1f054365"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/08C_Isolation_Trust_Update.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "08C｜混合关键性、可信启动与可恢复更新",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "00300c5b5080374530905075a5c4b6a2fb9846f7bcc742d5b10e1f379995ef04"
+  },
+  {
+    "path": "01_Compute_Chips/04_ARM/09_SWOT_Analysis.md",
+    "project": "01_Compute_Chips/04_ARM",
+    "title": "09｜Arm 具身智能平台 SWOT 与条件选型",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "0eee4ddf7b0d29e024b7def2557e4a8935c78eb358b375b2b406c5de1f9f7bb0"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/01_Hardware_Platform.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "瑞芯微 Rockchip 具身智能硬件平台：芯片、核心板、加速卡与工程选型",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "57dda610a1902dfe7f6ae34b609bf64c4a28e740f535bc73c90eb8f9fc5f4a82"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/02_Software_Stack.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "02 Rockchip 具身智能软件栈总览",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "9a8b99f7fc4e7cf1b14816d4db7f04a54f88671781fedf5a74e1a4029972e216"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/02A_BSP_Multimedia.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "02A｜BSP、GPU 与多媒体缓冲区：先建立可维护的数据底座",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "71458620cbc7930e205bee2f39e1a5eb213042a036034165fb681e4266b4c88f"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/02B_RKNN2_Compiler_Runtime.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "02B｜RKNN-Toolkit2：图转换、量化与运行时的真实边界",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "1398b69b095f02dd85de053d78f72a949edb4695081b347ac8c0a6b2b9e04d00"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/02C_RKLLM.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "02C｜RKLLM：语言推理、多模态分段与会话缓存",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "abe7f8aa2be93601490e5179f84aa84ec99b2c6823c9eccc250a424eb03dd6f9"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/02D_RKNN3_RK182X.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "02D RKNN3 与 RK182X：协处理器编译、传输、会话和多卡",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "b0c8d9d504fff3cc47815141427e9095f052f45e5d2cd165f47e51ccc04cca9b"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/02E_ROS_Control_Operations.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "02E ROS、实时控制与部署运维",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "25a8f759812243af2a3f898581231a1fcc76d43239e83ec4b35668935b6823fb"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/03_Sensor_Integration.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "03 传感器接入：物理接口、采集图与时间一致性",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "d886865788345f84ed42d5403d942a07ebe994a12e8b05d06a4ce1b69e1a3151"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/04_AI_Capabilities.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "04 AI任务、模型地图与动作推理边界",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "4da0515e059604525c9c78122aace2111d4d1d4e5083e083a73ad11c3cf970ce"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/05_Simulation_Environment.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "05 仿真环境：第三方路线、板端执行与sim-to-real",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "c8ba4ec0b5beb6e68b544656e405a118306adb5178a3c68c7f890241d8e1f6f5"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/06_Robot_Integration.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "06 机器人本体适配：产品证据、闭环接口与成熟度",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "68928147685cebf592b56d5cdba31f204b14179a4f5ab8b24ba6f769769853e8"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/07_Ecosystem.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "07 Rockchip 具身智能生态：交付分工与量产责任",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "101ffe70b27cc3b7da67410ce7ea75dd6033aa73701af921c3c9c29736d34792"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/08_Core_Technology_Moat.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "08 Rockchip 核心技术护城河总览",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "32a3edf27ad5e92146bfa0e57280d11483b41ae6a9cdaa5c611f291ae443800d"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/08_Proprietary_Technologies.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "瑞芯微 Rockchip — 独有技术与生态",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "d6b47b97a200bdd94e005cd71f125af68da7f61aad614a488dc0ac75ffbcf6c8"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/08A_Quantization_Compiler.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "08A 量化与编译：压缩优势怎样变成可用模型",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "a615ee9bb3d0afee767ba42f67e7319400c35e0ce4aeb76abf62541c3564e56b"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/08B_Memory_Coprocessor_Multicard.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "08B 内存、协处理器与多卡：容量和时延的不同约束",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "bb84d6db4201eecf31a2f9091f1f936af3f45959489e1fb18e4c5a957678f7f6"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/08C_Perception_RealTime_Trust.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "08C 感知、实时与可信部署：跨域协同的价值和边界",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "db30a8540336cc49708de1babc51eec8fe89f20887c242d60f8b5cf7d404ade2"
+  },
+  {
+    "path": "01_Compute_Chips/05_Rockchip/09_SWOT_Analysis.md",
+    "project": "01_Compute_Chips/05_Rockchip",
+    "title": "09 Rockchip SWOT与条件选型",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "67e38a0ba07ee417ceeb2efb2f9dc7a63508456c75ae77e153548aa3612ad0a1"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/01_Hardware_Platform.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "Huawei / HiSilicon 具身智能硬件平台：端侧计算、视觉前端与工程选型",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "7bdf37b6dea916e2a0eee9bac5cc43757ea90b676bc21147737aefd0bb1b2a4d"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/02_Software_Stack.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "02 华为/海思具身智能软件栈总览",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "1cda43e45ab2b0b15017b1a29a4b2de5c3be50d5f3e69651f913e8bf6232c07e"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/02A_Ascend_CANN_Runtime.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "02A 昇腾 CANN、ATC 与 AscendCL 运行时",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "7732bb0ecb5bfca0af4ff70d9ba61924c8db3398023fdaa162be99517a43359a"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/02B_Framework_Model_Deployment.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "02B 框架适配与模型部署：TorchNPU、MindSpore Lite、YOLO 与 vLLM",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "051e15956169ce63fe8e864df768a1552dcdab0e9352dfb76a2a2f291406e1ed"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/02C_HiSilicon_BSP_MPP_NPU.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "02C 海思 BSP、MPP、SVP 与多执行域",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "fc57cc456d1b3a2fcca454d5078b865e10705ac93dd024ab6d95599b14400019"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/02D_Robot_Integration_Operations.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "02D 机器人集成、数据契约与运维边界",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "1519d8ce2e26625564adb3925f10d356495ad53b12489481a60f4d5b43d2f055"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/02E_CloudRobo_Development_Platform.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "02E CloudRobo云开发平台、R2C与ROS2部署链",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "5b9dd7b4d4eeb29e2b7f527b058aacb9da4a0c9c558e533dbe60c082f4c158fa"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/03_Sensor_Integration.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "03 华为/海思平台的传感器接入、同步与融合",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "46f99eeb699e8c5f8d03fbbf642c20300b68815aa3236941fbd5a637fe7492ee"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/04_AI_Capabilities.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "04 AI能力与模型地图",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "fe25855759d999f038bc31e7a9b61496fb61231b0991bd86775676e483801bbd"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/05_Simulation_Environment.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "05 仿真环境与合成数据",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "13c133ceb1449daa98ecdb68f3ed674b3ad131bacb0789c6c47dcfddbd907066"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/06_Robot_Integration.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "06 机器人本体适配与成熟度",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "b15bac2809230ac796d0ebe8ce2a8796fad3794a54a8beb76f18c6c02f98818e"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/07_Ecosystem.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "07 生态、伙伴与交付责任",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "548092297fbdf13181d207a8c947e2181be8b450399e87c95b7ebec23a16e4db"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/08_Core_Technology_Moat.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "08 核心技术护城河总览",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "adef7f0419658e0d51c31e89361e7f2f799e2a22e2c607af99f615b9752faea6"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/08_Proprietary_Technologies.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "华为 / 海思 / 昇腾（分业务核验） — 独有技术与生态",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "3722d673bf25473e5f8d3b8ac4313fe8291df5494f46370fe2916be5ad9f3640"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/08A_Ascend_Execution_Compilation.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "08A 昇腾编译产物、执行与内存契约",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "60c0df13d5556dc061aafdc62eeec253d9f82ae2c94f3cfed0d7d3411a7f2a11"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/08B_HiSilicon_Media_Memory.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "08B 海思媒体前端、专用加速与内存协同",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "e0f08bbbdd8e130ddf8cee52ebb54ff9491936fa1096e3c243e899dfbc2053a7"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/08C_CloudRobo_Action_Learning.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "08C CloudRobo动作契约、资产血缘与学习闭环",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "034cd8771f9cf1349df11eae922a31919e8b50895ec357191dd258a6b508565a"
+  },
+  {
+    "path": "01_Compute_Chips/06_Huawei_HiSilicon/09_SWOT_Analysis.md",
+    "project": "01_Compute_Chips/06_Huawei_HiSilicon",
+    "title": "09 SWOT、成本与条件选型",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "e0a3518c7e8d134d6047c95078d61d806bf4c121a4d3f6eebdcfce28fd5869f6"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/01_Hardware_Platform.md",
+    "project": "01_Compute_Chips/07_Cambricon",
+    "title": "寒武纪 Cambricon 具身智能硬件平台：规格、系统分工与交付证据",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "40d6291690e36279eb21dcde677ab5631162754d7a20f2fcc95ba99f0af5b7e9"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/02_Software_Stack.md",
+    "project": "01_Compute_Chips/07_Cambricon",
+    "title": "02｜寒武纪 Cambricon 软件栈与具身智能交付边界",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "f7084c6782ab476696047dceaf9ddab95dafbd801d929858070ab2fe0ec4ace8"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/02A_NeuWare_BANG_and_Runtime.md",
+    "project": "01_Compute_Chips/07_Cambricon",
+    "title": "02A 寒武纪 NeuWare、BANG C 与基础执行库",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "b44c94a3aaa7de2763717e0befacbd929dcb82e28e359b5fd9d2dc5fb3c2498c"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/02B_MagicMind_Compilation_and_Quantization.md",
+    "project": "01_Compute_Chips/07_Cambricon",
+    "title": "02B MagicMind：图编译、量化、动态shape与目标推理",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "b2c71f0368c6c5401b7f852ab2fefa0b397733731d1b95ebb00afbbba5fa3747"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/02C_PyTorch_Backend_and_Distributed_Training.md",
+    "project": "01_Compute_Chips/07_Cambricon",
+    "title": "02C｜PyTorch 后端、异步执行与分布式训练",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "b166330e4eb19eabe591a5d31bf3d192af6d85d3e908a88f06b852e11f7e9866"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/02D_CNStream_EasyDK_and_Robot_Handoff.md",
+    "project": "01_Compute_Chips/07_Cambricon",
+    "title": "02D｜CNStream、EasyDK、端侧版本与机器人交接",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "507fe7c1cf37a517ec4058cdebe3e9e284a879e931362e4b2391b62c581b4b4c"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/02E_vLLM_and_Cloud_Operations.md",
+    "project": "01_Compute_Chips/07_Cambricon",
+    "title": "02E｜vLLM-MLU、云端编排与监控运维",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "1ad30b4f5993d9d6d1f31cd3be1d84a681a316d1999739e52d1edbe33d1f5a33"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/03_Sensor_Integration.md",
+    "project": "01_Compute_Chips/07_Cambricon",
+    "title": "寒武纪 Cambricon — 传感器接入",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "a36701e6e68c61af40090ddd8804b23c098de666b608ef3af8474a1a8081064c"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/04_AI_Capabilities.md",
+    "project": "01_Compute_Chips/07_Cambricon",
+    "title": "寒武纪 Cambricon — AI 能力",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "7d38fe97098aee58a9c25c3f5757ef35c6e94e8401584ee3e8c6bbc6d7abc647"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/05_Simulation_Environment.md",
+    "project": "01_Compute_Chips/07_Cambricon",
+    "title": "寒武纪 Cambricon — 仿真环境",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "6effd24b84e08e9efeff9c6a60d4f072eccf57a6311292aa501c5b3cf4a9c05f"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/06_Robot_Integration.md",
+    "project": "01_Compute_Chips/07_Cambricon",
+    "title": "寒武纪 Cambricon — 机器人本体适配",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "183c897de564b10bc1520574918fda7a59a08a40016a4ab737809c0a49b860db"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/07_Ecosystem.md",
+    "project": "01_Compute_Chips/07_Cambricon",
+    "title": "寒武纪 Cambricon — 生态建设",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "fe3489262f089dfd7a659334236a9543399cf227d55b6cf5503ed4a933f79bee"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/08_Proprietary_Technologies.md",
+    "project": "01_Compute_Chips/07_Cambricon",
+    "title": "寒武纪 Cambricon — 独有技术与生态",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "6757cb4fdca2bdd9f365e4560406c1e7434a6221e4306059ac9db724e655f4c1"
+  },
+  {
+    "path": "01_Compute_Chips/07_Cambricon/09_SWOT_Analysis.md",
+    "project": "01_Compute_Chips/07_Cambricon",
+    "title": "寒武纪 Cambricon — SWOT 分析",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "c1b528fa9df9cedc874f13da49a214651fc61050884ca87683b45efb43934699"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/01_Hardware_Platform.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "01 Horizon：硬件平台、计算与接口边界",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "d093ea94dbea447bb0cfae6d9673289729d13b10a0c18e32468fe0db4bdd2121"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/02_Software_Stack.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "02 Horizon / D-Robotics 具身智能软件栈总览",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "18537fc77e95607da61be53c31d860e2895b0777fb469d09cb61b92846d1e8d6"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/02A_BSP_and_Lifecycle.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "02A｜BSP、启动配置、实时内核与升级生命周期",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "8846c1f40abe1d825592fb281e9b760a976b84343f4be1551381ab4ed48f32e0"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/02B_BPU_Compiler_and_Runtime.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "02B BPU 编译、量化与模型运行时",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "fb573ae5290196a8904536f5abc43e8502f079686f36d0e093dba1b20aefc8e8"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/02C_HUCP_and_Multimedia.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "02C HUCP、共享内存、多媒体与VDSP执行域",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "f2c82502384cedf6153b5054ac4638abd154d9dca1949336460e08f6ba6b5457"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/02D_MCU_and_Industrial_Communication.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "02D MCU、FreeRTOS、IPC与工业通信",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "88072dd7f7d007389a824b8fe84ed2f204f0598bc0f30a85d9b56bfce5510b5d"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/02E_TogetheROS_and_Robot_Pipeline.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "02E TogetheROS.Bot、消息生命周期与机器人应用链",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "7638b6c2f40b17dfa28c243d120766365896761773c197b06e63f60571fc52ad"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/03_Sensor_Integration.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "Horizon / D-Robotics：传感器接入与观测时间契约",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "91e215ccc636d741b63ddf76f32353d0bf094ff0ba08165fbe1ca7a19256c527"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/04_AI_Capabilities.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "Horizon / D-Robotics：AI任务地图、模型与部署条件",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "23570c00d0133abea8592a0025e9ffa62ba35ab84a4f0c04ac8c12ef008f67bb"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/05_Simulation_Environment.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "Horizon / D-Robotics：仿真环境、板端联调与Sim-to-Real边界",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "c74de35d75d661be22c5097f1bb1d974417227c94a6373c3737485bdc183cf16"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/06_Robot_Integration.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "Horizon / D-Robotics：机器人本体适配与商业成熟度",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "73c43b62aafcbdccdf070f230053177df2cb9240e35b871f0d672495b585504e"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/07_Ecosystem.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "Horizon / D-Robotics：生态分工、开发工具与量产责任",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "8220c59db1e09e2006dbf7d406f49f7a9843443effb5a55d3000bb2303fe98a2"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/08_Core_Technology_Moat.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "08：核心技术护城河总览",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "0062a82bd1d8d9baf6910c1d8411f4cde07e91de0b54d730925f341ba63864ca"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/08_Proprietary_Technologies.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "地平线 / 地瓜机器人 D-Robotics — 独有技术与生态",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "960aeadd6e5d38dea66658949a56541bb001156903bcccb465136eb995d35a1c"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/08A_Compute_Compilation_and_Quantization.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "08A：BPU计算、编译部署与量化资产",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "b1e36777a4bf6ba0874d2f52ae866b39e7841f46e3391cab3f39b5aa717930bb"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/08B_Sensor_Memory_and_Time.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "08B：传感器、共享内存与观测时间路径",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "98ebedc921ffad652fa7a0b896a89bfcf1f1ecea412185e33041f8c317fc2adc"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/08C_Real_Time_Trust_and_Lifecycle.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "08C：实时域、可信启动与生命周期",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "9becbf102c71e9f8140124287d964f7fedea4bfe5c0696ac879a121375033cac"
+  },
+  {
+    "path": "01_Compute_Chips/08_Horizon_Robotics/09_SWOT_Analysis.md",
+    "project": "01_Compute_Chips/08_Horizon_Robotics",
+    "title": "09：SWOT、商业证据与条件选型",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "6e3f73cb2482aeba1423d35eed74e274c36f71810fdde342ce88cd67d6790fcf"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/01_Hardware_Platform.md",
+    "project": "01_Compute_Chips/09_Moore_Threads",
+    "title": "摩尔线程 Moore Threads — 硬件平台",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "e45fc17315abafd1e22dcee2974dd70c397677d7233097ab5dce64eb8fb1d1ae"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/02_Software_Stack.md",
+    "project": "01_Compute_Chips/09_Moore_Threads",
+    "title": "摩尔线程 Moore Threads — 软件栈",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "065b2c3e0d142a8100c961dcc0ca2c8234c242d67c8fa7573029057783417678"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/03_Sensor_Integration.md",
+    "project": "01_Compute_Chips/09_Moore_Threads",
+    "title": "摩尔线程 Moore Threads — 传感器接入",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "d32a26047ea0d8556f59185f11b24ee4f9e98890e0c49d2b49a2cabd6f2fb852"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/04_AI_Capabilities.md",
+    "project": "01_Compute_Chips/09_Moore_Threads",
+    "title": "摩尔线程 Moore Threads — AI 能力",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "cb043801007cf9a068f20c70fedd08a56f7da1ea39917b20d251bdbdaa595b98"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/05_Simulation_Environment.md",
+    "project": "01_Compute_Chips/09_Moore_Threads",
+    "title": "摩尔线程 Moore Threads — 仿真环境",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "9101a82509e35f6804c8e9b666f408291f04a35caeccf9ab13da5e5aef381e2b"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/06_Robot_Integration.md",
+    "project": "01_Compute_Chips/09_Moore_Threads",
+    "title": "摩尔线程 Moore Threads — 机器人本体适配",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "ffbde77aa6af2e935ac0242cafe5cf21137142d718da0c1c9b853e2d33220ae2"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/07_Ecosystem.md",
+    "project": "01_Compute_Chips/09_Moore_Threads",
+    "title": "摩尔线程 Moore Threads — 生态建设",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "bc200a05d6f4ecbc21c6b9ea7b1b3a7081e2791ab773c02a38eb17547fcbc44b"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/08_Proprietary_Technologies.md",
+    "project": "01_Compute_Chips/09_Moore_Threads",
+    "title": "摩尔线程 Moore Threads — 独有技术与生态",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "ee79693b4316d9e1d43960afc7cdc23a643609b843f052f6e97aaf3479a0defa"
+  },
+  {
+    "path": "01_Compute_Chips/09_Moore_Threads/09_SWOT_Analysis.md",
+    "project": "01_Compute_Chips/09_Moore_Threads",
+    "title": "摩尔线程 Moore Threads — SWOT 分析",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "2640433a2e33effca6c35ed4f92151ab0a8cde65138c1dfe1591d0fddb07df3a"
+  },
+  {
+    "path": "01_Compute_Chips/10_AMD/01_Hardware_Platform.md",
+    "project": "01_Compute_Chips/10_AMD",
+    "title": "AMD 具身智能硬件平台：逐型号规格、数据路径与工程选型",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "e0b8f86bb8bb83a32cbc9265faec248d65ff135ff770104713487ca63896ada8"
+  },
+  {
+    "path": "01_Compute_Chips/10_AMD/02_Software_Stack.md",
+    "project": "01_Compute_Chips/10_AMD",
+    "title": "AMD 具身智能软硬件平台调研：02 软件栈",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "d434ea4ea480100b0dd3dec7970c2f10e083e5c5d1073a5dfe2548ef45d8f344"
+  },
+  {
+    "path": "01_Compute_Chips/10_AMD/02A_GPU_Execution_and_Deployment.md",
+    "project": "01_Compute_Chips/10_AMD",
+    "title": "AMD 软件栈专题 02A：GPU 执行、图编译与模型部署",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "1bf291b8d86ccce39735b75e73d50fc113aa5833193b0946089d1820d069060b"
+  },
+  {
+    "path": "01_Compute_Chips/10_AMD/02B_RyzenAI_Compilation_and_Quantization.md",
+    "project": "01_Compute_Chips/10_AMD",
+    "title": "AMD 软件专题 02B：Ryzen AI 的量化、图分区、编译缓存与部署契约",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "d567f7d47d42759dae37cb3ab2982918dd2fbad4eb897d467d962ec92a7a5984"
+  },
+  {
+    "path": "01_Compute_Chips/10_AMD/02C_Versal_Compiler_and_Runtime.md",
+    "project": "01_Compute_Chips/10_AMD",
+    "title": "AMD 软件专题 02C：Versal Gen2 编译器、张量边界与 VART 执行机制",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "f21f9f9404d0cfdfc3dd23ddf5d9fcb0ae2c55cceb7d38b0d2bcabeffe89e66e"
+  },
+  {
+    "path": "01_Compute_Chips/10_AMD/02D_EDF_BSP_and_Execution_Domains.md",
+    "project": "01_Compute_Chips/10_AMD",
+    "title": "AMD 软件专题 02D：EDF、SHEL、Yocto BSP 与多执行域的一致性交付",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "6d6fdc46dde289ae7b34801d0af52ab178106f2beb85ef27566b86e69b4a3f43"
+  },
+  {
+    "path": "01_Compute_Chips/10_AMD/02E_ROS_Acceleration_and_System_Integration.md",
+    "project": "01_Compute_Chips/10_AMD",
+    "title": "02E｜ROS 加速与系统集成：从构建抽象到帧级数据契约",
+    "status": "深度专题；完成与审阅状态见 progress.json",
+    "sha256": "c1e3a63cf717a88c4e4743ab1eff778bb779ef03e1c2103547375cfa8f18921f"
+  },
+  {
+    "path": "01_Compute_Chips/10_AMD/03_Sensor_Integration.md",
+    "project": "01_Compute_Chips/10_AMD",
+    "title": "AMD 具身智能平台调研 03：传感器接入、数据交接与时间一致性",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "c659a77a2ec4bb7b0e6357742ba66b4b0d8fafd6b60220bb7e854fd940409acf"
+  },
+  {
+    "path": "01_Compute_Chips/10_AMD/04_AI_Capabilities.md",
+    "project": "01_Compute_Chips/10_AMD",
+    "title": "04｜AMD AI 能力、模型地图与部署边界",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "9af4a9ee23545d42882da4924b7438f35fe68755fcab5dc56afaaaa61a5d062b"
+  },
+  {
+    "path": "01_Compute_Chips/10_AMD/05_Simulation_Environment.md",
+    "project": "01_Compute_Chips/10_AMD",
+    "title": "05 AMD 仿真环境：执行后端、物理误差与闭环验证",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "84809f20a3e02660ba1a75b6a67d934a546e84dae57cf9f7afe2d50d484404e3"
+  },
+  {
+    "path": "01_Compute_Chips/10_AMD/06_Robot_Integration.md",
+    "project": "01_Compute_Chips/10_AMD",
+    "title": "06 AMD 机器人本体适配：真机链条与商业成熟度",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "0e7feb6a7d3eb4e0c42ebfecdc0c34d0446946834ec37d1a8bb450fb77178224"
+  },
+  {
+    "path": "01_Compute_Chips/10_AMD/07_Ecosystem.md",
+    "project": "01_Compute_Chips/10_AMD",
+    "title": "07 AMD 具身智能生态：伙伴分工、生产支持与交付责任",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "e5c42d10224d9b298acd33bc4a2a0991c51eaaa0eb937f3661cad27d9e605db9"
+  },
+  {
+    "path": "01_Compute_Chips/10_AMD/08_Core_Technology_Moat.md",
+    "project": "01_Compute_Chips/10_AMD",
+    "title": "08 AMD 核心技术护城河：能力地图与成立条件",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "e2e8278e147b65bb9481c35e4211dff5d1a2b0fcbefde59e910f08157acf3720"
+  },
+  {
+    "path": "01_Compute_Chips/10_AMD/08A_GPU_Memory_and_Execution.md",
+    "project": "01_Compute_Chips/10_AMD",
+    "title": "08A 核心技术专题：CDNA4 数值格式、GPU 数据复用与可控执行",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "8a95be0553aa970f6f782330c310a1d7f87d037e50fcdca534cb140d85b34695"
+  },
+  {
+    "path": "01_Compute_Chips/10_AMD/08B_XDNA_Numerics_and_Dataflow.md",
+    "project": "01_Compute_Chips/10_AMD",
+    "title": "08B 核心技术专题：XDNA 数值路径、IRON 编译与显式数据流",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "13db8769a105d2929775163f970399c8736042d9307459c3a1e1385c2c955180"
+  },
+  {
+    "path": "01_Compute_Chips/10_AMD/08C_Versal_Dataflow_RealTime_and_Lifecycle.md",
+    "project": "01_Compute_Chips/10_AMD",
+    "title": "08C 核心技术专题：Versal 异构数据流、实时执行域与系统生命周期",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "96abd860360f434e94183754c72b7ba268b0aa62bf56a600d1b5575b597c0b17"
+  },
+  {
+    "path": "01_Compute_Chips/10_AMD/09_SWOT_Analysis.md",
+    "project": "01_Compute_Chips/10_AMD",
+    "title": "09 AMD 具身智能平台 SWOT、成本与条件选型",
+    "status": "深度调研已交付；审阅状态见 progress.json",
+    "sha256": "410360fd3a1005b483a9c747c814706d08c4d4ae94899e83946554b79b08f6b7"
+  },
+  {
+    "path": "02_Core_Components/10_Actuators_and_Reducers/01_Hardware_Specs.md",
+    "project": "02_Core_Components/10_Actuators_and_Reducers",
+    "title": "执行器与减速器：绿的谐波、汇川技术、鸣志电器 — 硬件规格",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "9ee8a8981f8f92f067b223b7be37d3c14fbea03c76684ea2fc778cd7ff508699"
+  },
+  {
+    "path": "02_Core_Components/10_Actuators_and_Reducers/02_Interface_and_Communication.md",
+    "project": "02_Core_Components/10_Actuators_and_Reducers",
+    "title": "执行器与减速器：绿的谐波、汇川技术、鸣志电器 — 接口与通信",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "acd1d250a1d195bc8d7f5744a64335c48d8b5101b186d998952e94186232a274"
+  },
+  {
+    "path": "02_Core_Components/10_Actuators_and_Reducers/03_Software_Drivers.md",
+    "project": "02_Core_Components/10_Actuators_and_Reducers",
+    "title": "执行器与减速器：绿的谐波、汇川技术、鸣志电器 — 软件驱动",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "9741c772951dc5050a6ceefea31415f0dcd3e6392b31202456f7b17afddab98b"
+  },
+  {
+    "path": "02_Core_Components/10_Actuators_and_Reducers/04_Sim_to_Real_Support.md",
+    "project": "02_Core_Components/10_Actuators_and_Reducers",
+    "title": "执行器与减速器：绿的谐波、汇川技术、鸣志电器 — 仿真支持",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "38e3669c97cdfcb9f6bbcde5fa3fa402f85b6a15539ddb5701c07288b66915c9"
+  },
+  {
+    "path": "02_Core_Components/10_Actuators_and_Reducers/05_Market_Position.md",
+    "project": "02_Core_Components/10_Actuators_and_Reducers",
+    "title": "执行器与减速器：绿的谐波、汇川技术、鸣志电器 — 市场地位",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "759d3434e6c91c9ef11e3e4529fa0b1525f940d37b4cd865ceb40d25bcd4caef"
+  },
+  {
+    "path": "02_Core_Components/11_Sensors_and_Vision/01_Hardware_Specs.md",
+    "project": "02_Core_Components/11_Sensors_and_Vision",
+    "title": "传感器与视觉：奥比中光、柯力传感、速腾聚创 — 硬件规格",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "0d7f91522946e2d1c21ab8463522f5756866e57b24fc4b1d7bfc6c78784558c2"
+  },
+  {
+    "path": "02_Core_Components/11_Sensors_and_Vision/02_Interface_and_Communication.md",
+    "project": "02_Core_Components/11_Sensors_and_Vision",
+    "title": "传感器与视觉：奥比中光、柯力传感、速腾聚创 — 接口与通信",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "7670915e4561640717aeb6f533202a4630b29e8af3401da574a4cd940ac1c88b"
+  },
+  {
+    "path": "02_Core_Components/11_Sensors_and_Vision/03_Software_Drivers.md",
+    "project": "02_Core_Components/11_Sensors_and_Vision",
+    "title": "传感器与视觉：奥比中光、柯力传感、速腾聚创 — 软件驱动",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "72cbde3a199fdb3c3b3de1bd22d04f5578730a51e3408d38f44215d325f4b064"
+  },
+  {
+    "path": "02_Core_Components/11_Sensors_and_Vision/04_Sim_to_Real_Support.md",
+    "project": "02_Core_Components/11_Sensors_and_Vision",
+    "title": "传感器与视觉：奥比中光、柯力传感、速腾聚创 — 仿真支持",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "2bc3be6406ed9aff6b08767bf496e44b8a766bcd33ab8fa70afbb54c198d20ee"
+  },
+  {
+    "path": "02_Core_Components/11_Sensors_and_Vision/05_Market_Position.md",
+    "project": "02_Core_Components/11_Sensors_and_Vision",
+    "title": "传感器与视觉：奥比中光、柯力传感、速腾聚创 — 市场地位",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "397ba22bf33513209c531c9f682affdabe5cec2cb07886f674025b66f3c2a8d3"
+  },
+  {
+    "path": "02_Core_Components/12_Dexterous_Hands/01_Hardware_Specs.md",
+    "project": "02_Core_Components/12_Dexterous_Hands",
+    "title": "灵巧手与微型传动：兆威机电、因时机器人、强脑科技 — 硬件规格",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "13d56909f8178ec306405cee81962186634c42df72ec46aea2b4c2a97782bb50"
+  },
+  {
+    "path": "02_Core_Components/12_Dexterous_Hands/02_Interface_and_Communication.md",
+    "project": "02_Core_Components/12_Dexterous_Hands",
+    "title": "灵巧手与微型传动：兆威机电、因时机器人、强脑科技 — 接口与通信",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "ce4e6f7d1f1f459d21eab0de36758a1a325ab8fdba03d392d6f67944eae209a6"
+  },
+  {
+    "path": "02_Core_Components/12_Dexterous_Hands/03_Software_Drivers.md",
+    "project": "02_Core_Components/12_Dexterous_Hands",
+    "title": "灵巧手与微型传动：兆威机电、因时机器人、强脑科技 — 软件驱动",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "7750afe472bf345fb495945cb3986f0ead480d5ce7131deeef2373001ec2171b"
+  },
+  {
+    "path": "02_Core_Components/12_Dexterous_Hands/04_Sim_to_Real_Support.md",
+    "project": "02_Core_Components/12_Dexterous_Hands",
+    "title": "灵巧手与微型传动：兆威机电、因时机器人、强脑科技 — 仿真支持",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "04eb29fe2a44ee5b5881a0fd7c3a7d58afe5d21ac79617d5e056b285a69aee54"
+  },
+  {
+    "path": "02_Core_Components/12_Dexterous_Hands/05_Market_Position.md",
+    "project": "02_Core_Components/12_Dexterous_Hands",
+    "title": "灵巧手与微型传动：兆威机电、因时机器人、强脑科技 — 市场地位",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "873993546a5ad6bf4a2afb918e2e5bacb6052b397b85e3f870fae2cc8fa15ca0"
+  },
+  {
+    "path": "03_Robot_Manufacturers/13_Full_Stack_Integrators/01_Computing_Platform_Selection.md",
+    "project": "03_Robot_Manufacturers/13_Full_Stack_Integrators",
+    "title": "全栈整机：宇树科技、智元机器人、优必选 — 算力平台选型",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "1b9861e5d319c825f19127f8de86cb53916e1604989e8f315cfcd7473fa40065"
+  },
+  {
+    "path": "03_Robot_Manufacturers/13_Full_Stack_Integrators/02_Core_Component_Supply_Chain.md",
+    "project": "03_Robot_Manufacturers/13_Full_Stack_Integrators",
+    "title": "全栈整机：宇树科技、智元机器人、优必选 — 核心零部件供应链",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "a428af15b8eb9d1455962e020b10d71166b402d8389d145b6f6ca96efc428a02"
+  },
+  {
+    "path": "03_Robot_Manufacturers/13_Full_Stack_Integrators/03_Software_Architecture.md",
+    "project": "03_Robot_Manufacturers/13_Full_Stack_Integrators",
+    "title": "全栈整机：宇树科技、智元机器人、优必选 — 软件架构",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "e130ac426527981108af501f9a0d0c05692fc0ac92189c69809be9e67cc097af"
+  },
+  {
+    "path": "03_Robot_Manufacturers/13_Full_Stack_Integrators/04_Commercial_Deployment.md",
+    "project": "03_Robot_Manufacturers/13_Full_Stack_Integrators",
+    "title": "全栈整机：宇树科技、智元机器人、优必选 — 商业化落地",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "55a95412ace458eaceec9e9794cf7b63b2584f5daa9a3716c15ed85cda4a40d6"
+  },
+  {
+    "path": "03_Robot_Manufacturers/13_Full_Stack_Integrators/05_SWOT_Analysis.md",
+    "project": "03_Robot_Manufacturers/13_Full_Stack_Integrators",
+    "title": "全栈整机：宇树科技、智元机器人、优必选 — SWOT 与技术栈",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "7ed07fc1a5f8eda3cf47f6504e55417247dc90c403c6fd20253b963c7fd04ffe"
+  },
+  {
+    "path": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots/01_Computing_Platform_Selection.md",
+    "project": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots",
+    "title": "垂直场景整机：云深处、傅利叶、具微科技 — 算力平台选型",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "8361c824c96b8686be2c425b023a15cbbbc8129bcf2071ff4c6d09d2ed6fde52"
+  },
+  {
+    "path": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots/02_Core_Component_Supply_Chain.md",
+    "project": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots",
+    "title": "垂直场景整机：云深处、傅利叶、具微科技 — 核心零部件供应链",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "cd3e9d64055b2acc5470f9cdd98bff617e1161201d9699c18ed9678c3adfa6a6"
+  },
+  {
+    "path": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots/03_Software_Architecture.md",
+    "project": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots",
+    "title": "垂直场景整机：云深处、傅利叶、具微科技 — 软件架构",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "db31df789171aded3d214cd73a40b3d0f307669583d159d7bb93aa1d561b990b"
+  },
+  {
+    "path": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots/04_Commercial_Deployment.md",
+    "project": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots",
+    "title": "垂直场景整机：云深处、傅利叶、具微科技 — 商业化落地",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "f4e543005ffa367b1c026e16accee003ae045bf945f663f90fc590c3c8dd17d3"
+  },
+  {
+    "path": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots/05_SWOT_Analysis.md",
+    "project": "03_Robot_Manufacturers/14_Vertical_Scenario_Robots",
+    "title": "垂直场景整机：云深处、傅利叶、具微科技 — SWOT 与技术栈",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "a11873752466c50fae8f4173d233be9947f065f15525e64164a276b5471cae64"
+  },
+  {
+    "path": "04_AI_Models/15_Open_Source_VLA_Models/01_Model_Architecture.md",
+    "project": "04_AI_Models/15_Open_Source_VLA_Models",
+    "title": "开源 VLA：OpenVLA、π0.5、GR00T N1.6/N1.7 — 模型架构",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "9ad64a409be5cc1dd0a83e2a2c6ecd1b830025bf005f83d9ad4b93be1b1bdf69"
+  },
+  {
+    "path": "04_AI_Models/15_Open_Source_VLA_Models/02_Multimodal_Capabilities.md",
+    "project": "04_AI_Models/15_Open_Source_VLA_Models",
+    "title": "开源 VLA：OpenVLA、π0.5、GR00T N1.6/N1.7 — 多模态能力",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "6ef22070ec6e0d21ce01ab7cc0d60cde6321d9f1d57d354ea2deeea25d951d38"
+  },
+  {
+    "path": "04_AI_Models/15_Open_Source_VLA_Models/03_Hardware_Deployment.md",
+    "project": "04_AI_Models/15_Open_Source_VLA_Models",
+    "title": "开源 VLA：OpenVLA、π0.5、GR00T N1.6/N1.7 — 硬件部署与算力需求",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "806fce918b74137e0b6b96888512cd93842976b8c6c3e456ff280bab3574e42d"
+  },
+  {
+    "path": "04_AI_Models/15_Open_Source_VLA_Models/04_Sim_to_Real_Performance.md",
+    "project": "04_AI_Models/15_Open_Source_VLA_Models",
+    "title": "开源 VLA：OpenVLA、π0.5、GR00T N1.6/N1.7 — 仿真到现实迁移",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "87131ebe636a39bcbcc6a94cb0f73c8c7ee62a17fb64c903b80779359882ebf6"
+  },
+  {
+    "path": "04_AI_Models/15_Open_Source_VLA_Models/05_Ecosystem_and_Fine_tuning.md",
+    "project": "04_AI_Models/15_Open_Source_VLA_Models",
+    "title": "开源 VLA：OpenVLA、π0.5、GR00T N1.6/N1.7 — 生态与微调",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "4fdb63e9aeac714ce348ec2992d9d0833c144e66a1c7e92b5d9e04c498bf7875"
+  },
+  {
+    "path": "04_AI_Models/16_Domestic_Open_Source_Models/01_Model_Architecture.md",
+    "project": "04_AI_Models/16_Domestic_Open_Source_Models",
+    "title": "国产开源模型：智元GO-1、宇树UnifoLM-VLA-0、优必选Thinker — 模型架构",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "1f4bd5ee039405e6d0dcc856d6b6c769a3f350723d8c1f2285f14055ad61b31a"
+  },
+  {
+    "path": "04_AI_Models/16_Domestic_Open_Source_Models/02_Multimodal_Capabilities.md",
+    "project": "04_AI_Models/16_Domestic_Open_Source_Models",
+    "title": "国产开源模型：智元GO-1、宇树UnifoLM-VLA-0、优必选Thinker — 多模态能力",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "0317607e0d5ab6e49f532584f6516d4711656143c6e8c9beb367a0d97132809f"
+  },
+  {
+    "path": "04_AI_Models/16_Domestic_Open_Source_Models/03_Hardware_Deployment.md",
+    "project": "04_AI_Models/16_Domestic_Open_Source_Models",
+    "title": "国产开源模型：智元GO-1、宇树UnifoLM-VLA-0、优必选Thinker — 硬件部署与算力需求",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "b6a5aa923ac65551f17263b8932152b3976dcb89437a43b80d3694268a801d91"
+  },
+  {
+    "path": "04_AI_Models/16_Domestic_Open_Source_Models/04_Sim_to_Real_Performance.md",
+    "project": "04_AI_Models/16_Domestic_Open_Source_Models",
+    "title": "国产开源模型：智元GO-1、宇树UnifoLM-VLA-0、优必选Thinker — 仿真到现实迁移",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "7c2c0339f87b38b7e8b1cebd17f0acd5c6ca0a100c1a0938552f91754289caae"
+  },
+  {
+    "path": "04_AI_Models/16_Domestic_Open_Source_Models/05_Ecosystem_and_Fine_tuning.md",
+    "project": "04_AI_Models/16_Domestic_Open_Source_Models",
+    "title": "国产开源模型：智元GO-1、宇树UnifoLM-VLA-0、优必选Thinker — 生态与微调",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "3d7b84c5bf68b1b1d6475af99438fb6abaf3bf287bd102f69d102a8ed7d99a83"
+  },
+  {
+    "path": "04_AI_Models/17_Closed_Source_Models/01_Model_Architecture.md",
+    "project": "04_AI_Models/17_Closed_Source_Models",
+    "title": "闭源模型：Helix、Gemini Robotics — 模型架构",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "16d46bc483c6720ca693ec41c09ca57c4b45d0ade7ff3257715aea60ab37ac21"
+  },
+  {
+    "path": "04_AI_Models/17_Closed_Source_Models/02_Multimodal_Capabilities.md",
+    "project": "04_AI_Models/17_Closed_Source_Models",
+    "title": "闭源模型：Helix、Gemini Robotics — 多模态能力",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "681fd662057b6cfb551012d6ad12f9a36efc9cb651c2d90309fa31986a907cdf"
+  },
+  {
+    "path": "04_AI_Models/17_Closed_Source_Models/03_Hardware_Deployment.md",
+    "project": "04_AI_Models/17_Closed_Source_Models",
+    "title": "闭源模型：Helix、Gemini Robotics — 硬件部署与算力需求",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "dcefa6cb1cdb6a8a3beb6c461c7a8760c7b86f2b7d3d63fdb06ab01b423ec8bc"
+  },
+  {
+    "path": "04_AI_Models/17_Closed_Source_Models/04_Sim_to_Real_Performance.md",
+    "project": "04_AI_Models/17_Closed_Source_Models",
+    "title": "闭源模型：Helix、Gemini Robotics — 仿真到现实迁移",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "d0f11d9554107a0faef990a04233db741e2c20c59059c60035c61caf231fb868"
+  },
+  {
+    "path": "04_AI_Models/17_Closed_Source_Models/05_Ecosystem_and_Fine_tuning.md",
+    "project": "04_AI_Models/17_Closed_Source_Models",
+    "title": "闭源模型：Helix、Gemini Robotics — 生态与微调",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "8a5a519ad9e59eab7c66e0185addffe5e6969a4759d01099dfc346e12e2b8971"
+  },
+  {
+    "path": "05_Software_and_OS/18_Robot_Operating_Systems/01_Architecture_and_Communication.md",
+    "project": "05_Software_and_OS/18_Robot_Operating_Systems",
+    "title": "机器人操作系统：ROS 2、AGIROS、智元灵渠 — 架构与通信机制",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "6d1d3ada7572b09286ad26a86e0b30d880e35fd71ee6d0c0f5babe16f1957420"
+  },
+  {
+    "path": "05_Software_and_OS/18_Robot_Operating_Systems/02_Hardware_Abstraction.md",
+    "project": "05_Software_and_OS/18_Robot_Operating_Systems",
+    "title": "机器人操作系统：ROS 2、AGIROS、智元灵渠 — 硬件抽象与兼容性",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "6b104c6922589f65661ab3f240c2daf29e62625d4fb4c33ab80c3ce646df46bd"
+  },
+  {
+    "path": "05_Software_and_OS/18_Robot_Operating_Systems/03_AI_Model_Integration.md",
+    "project": "05_Software_and_OS/18_Robot_Operating_Systems",
+    "title": "机器人操作系统：ROS 2、AGIROS、智元灵渠 — AI 模型集成",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "d11f50aefffbde7e9cb2b8f0f14f8640f23b2fb143f550bd0a2d3baa251fd07a"
+  },
+  {
+    "path": "05_Software_and_OS/18_Robot_Operating_Systems/04_Development_Toolchain.md",
+    "project": "05_Software_and_OS/18_Robot_Operating_Systems",
+    "title": "机器人操作系统：ROS 2、AGIROS、智元灵渠 — 开发工具链",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "80d3d670adbed80270610265606d337330ad8d38c6280b70056ed24b43823e47"
+  },
+  {
+    "path": "05_Software_and_OS/18_Robot_Operating_Systems/05_SWOT_Analysis.md",
+    "project": "05_Software_and_OS/18_Robot_Operating_Systems",
+    "title": "机器人操作系统：ROS 2、AGIROS、智元灵渠 — SWOT 分析",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "f5677f5d2d67b60bbd9b23fbd7fa38fd7579487a894b6f11a5116ed511651410"
+  },
+  {
+    "path": "05_Software_and_OS/19_Simulation_Training_Platforms/01_Architecture_and_Communication.md",
+    "project": "05_Software_and_OS/19_Simulation_Training_Platforms",
+    "title": "仿真与训练：Isaac Sim/Isaac Lab、格物、MuJoCo — 架构与通信机制",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "1a34550310e01a92dac9857ca061729d31477c95869f8957c88a1af3a21e13eb"
+  },
+  {
+    "path": "05_Software_and_OS/19_Simulation_Training_Platforms/02_Hardware_Abstraction.md",
+    "project": "05_Software_and_OS/19_Simulation_Training_Platforms",
+    "title": "仿真与训练：Isaac Sim/Isaac Lab、格物、MuJoCo — 硬件抽象与兼容性",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "b0450e775cbafee6d7dafd174e8a921eae45e386bebccd564ed4b3a43bb5892b"
+  },
+  {
+    "path": "05_Software_and_OS/19_Simulation_Training_Platforms/03_AI_Model_Integration.md",
+    "project": "05_Software_and_OS/19_Simulation_Training_Platforms",
+    "title": "仿真与训练：Isaac Sim/Isaac Lab、格物、MuJoCo — AI 模型集成",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "6a4bf8f3c20e950283e8ffa6eb6a003b20afb882e3c22959ed2eb639c2227a7d"
+  },
+  {
+    "path": "05_Software_and_OS/19_Simulation_Training_Platforms/04_Development_Toolchain.md",
+    "project": "05_Software_and_OS/19_Simulation_Training_Platforms",
+    "title": "仿真与训练：Isaac Sim/Isaac Lab、格物、MuJoCo — 开发工具链",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "0f76eb304ac262bbf160268d89e7acdff6e8cb6fb5472c8aaba5d1fa85e9d8dc"
+  },
+  {
+    "path": "05_Software_and_OS/19_Simulation_Training_Platforms/05_SWOT_Analysis.md",
+    "project": "05_Software_and_OS/19_Simulation_Training_Platforms",
+    "title": "仿真与训练：Isaac Sim/Isaac Lab、格物、MuJoCo — SWOT 分析",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "945361483dc026a246e8d1280c1b5546a48dd7f4755e40e88d77a602dec64eaa"
+  },
+  {
+    "path": "05_Software_and_OS/20_Full_Stack_Cloud_Platforms/01_Architecture_and_Communication.md",
+    "project": "05_Software_and_OS/20_Full_Stack_Cloud_Platforms",
+    "title": "全栈开发与云：华为云、Microsoft Azure — 架构与通信机制",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "dfe8d5e64071b70379054fac160e75187e8b0bbfbaceb33c49d740d69159ec35"
+  },
+  {
+    "path": "05_Software_and_OS/20_Full_Stack_Cloud_Platforms/02_Hardware_Abstraction.md",
+    "project": "05_Software_and_OS/20_Full_Stack_Cloud_Platforms",
+    "title": "全栈开发与云：华为云、Microsoft Azure — 硬件抽象与兼容性",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "7b41dc13cb07def58e08482f2b9855167f7bcc18f2329c9a06a393e6aa7d39d9"
+  },
+  {
+    "path": "05_Software_and_OS/20_Full_Stack_Cloud_Platforms/03_AI_Model_Integration.md",
+    "project": "05_Software_and_OS/20_Full_Stack_Cloud_Platforms",
+    "title": "全栈开发与云：华为云、Microsoft Azure — AI 模型集成",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "3a23ea8c5a289c0556ca67aa63df1cd7d490904a244d18386c750c8562eeba3e"
+  },
+  {
+    "path": "05_Software_and_OS/20_Full_Stack_Cloud_Platforms/04_Development_Toolchain.md",
+    "project": "05_Software_and_OS/20_Full_Stack_Cloud_Platforms",
+    "title": "全栈开发与云：华为云、Microsoft Azure — 开发工具链",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "178067f241314604457c7ed84fd89712bcd6f8fd867ed3dae6dc2f009a8d3b30"
+  },
+  {
+    "path": "05_Software_and_OS/20_Full_Stack_Cloud_Platforms/05_SWOT_Analysis.md",
+    "project": "05_Software_and_OS/20_Full_Stack_Cloud_Platforms",
+    "title": "全栈开发与云：华为云、Microsoft Azure — SWOT 分析",
+    "status": "首轮资料；待后续深度调研",
+    "sha256": "5c56fb9f8bd8361a4091b794af36e9c5c914ed237ff17953a48b703637c8a65e"
+  }
+]

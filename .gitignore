@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.reference_download.lock
+*.tmp
+.venv/
+Thumbs.db
+.DS_Store
+# Full reference archives stay local; GitHub carries catalogs and report figures.
+**/reference_metrial/
+/_Evidence/*
+!/_Evidence/SOURCE_REGISTER.md
+!/_Evidence/*.meta.json
+**/research_state/archive_qa/*.html

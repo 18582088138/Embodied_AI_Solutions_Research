@@ -1,0 +1,2611 @@
+{
+  "id": "NVIDIA_Developer_Page_Jetson_FAQ",
+  "url": "https://developer.nvidia.com/embedded/faq",
+  "retrieved_at_utc": "2026-11-03T05:19:54.255678+00:00",
+  "final_url": "https://developer.nvidia.com/embedded/faq",
+  "status": 200,
+  "headers": {
+    "Cache-Control": "max-age=0, private, must-revalidate",
+    "Content-Length": "101871",
+    "Content-Security-Policy": "default-src 'self' https: data: blob:; connect-src 'self' https: data: https://typesense.svc.nvidia.com wss://*.nvidiagrid.net:* *.nvidiagrid.net https://developer.nvidia.com:*; frame-ancestors 'self' nvidia.lookbookhq.com nvidia.pathfactory.com resources.nvidia.com www.nvidia.com www.nvidia.cn; font-src 'self' https: data: https://developer.nvidia.com:*; img-src 'self' https: data: https://developer.nvidia.com:*; object-src https://www.youtube.com; script-src 'self' https: 'unsafe-inline' 'unsafe-eval' https://assets.adobedtm.com https://munchkin.marketo.net http://www.youtube.com/iframe_api https://developer.nvidia.com:*; style-src 'self' https: 'unsafe-inline' https://developer.nvidia.com:*; worker-src 'self' https: blob: https://developer.nvidia.com https://developer.nvidia.com:*",
+    "Content-Type": "text/html; charset=utf-8",
+    "ETag": "W/\"a504d367f5e50f829b51f15ebf993cca\"",
+    "Link": "<https://developer.nvidia.com/assets/devzone3/vars-cd3a0769a3c2f2d9ea6b83ac53ce86bceef4c719e4dbd22ed41d48d01f200901.css>; rel=preload; as=style; nopush,<https://developer.nvidia.com/assets/devzone3/old/fonts-910bdb814ac830981904d69eea803431bc3a5b00aac30ffc85d12983c6511741.css>; rel=preload; as=style; nopush,<https://developer.nvidia.com/assets/devzone3/old/ballistiq-twitterfeed-61a757e5494e5598582c3610822f4cc0d00c0f1c3d70d478b0004dcebebf2368.css>; rel=preload; as=style; nopush,<https://developer.nvidia.com/assets/devzone3/old/application-a780279f5932e2d3fe01da14ba98d5c320956ec365747dfca2719798ce778ae6.css>; rel=preload; as=style; nopush,<https://developer.nvidia.com/assets/devzone3/old/embedded/embedded-bde5659f6ab1dd4f9edcf851e8c12fb3c44ed2de1542a3bd9131d207afdb0d7d.css>; rel=preload; as=style; nopush,<https://developer.nvidia.com/assets/devzone3/old/overrides-cbc02aeca05448d7c77b2b63dc1faa3f5e58c17afd5afe4a5122591949c5d734.css>; rel=preload; as=style; nopush",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Server": "Heroku",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-Request-Id": "e7d0235a-f033-e042-799b-72866aa90f81",
+    "X-Runtime": "0.075238",
+    "X-Xss-Protection": "0",
+    "X-EdgeConnect-MidMile-RTT": "0",
+    "X-EdgeConnect-Origin-MEX-Latency": "272",
+    "Date": "Tue, 03 Nov 2026 05:19:55 GMT",
+    "Connection": "close",
+    "Set-Cookie": "nv_country_code=CN; path=/; SameSite=Lax; secure",
+    "x-ak-request-id": "0.28d73017.1793683194.18c5dc4b",
+    "x-property-version": "us-135"
+  },
+  "sha256": "a504d367f5e50f829b51f15ebf993cca432e0b0ced5433f74b3ef96d13340478",
+  "bytes": 101871,
+  "file": "_Evidence/NVIDIA_Developer_Page_Jetson_FAQ.html",
+  "links": [
+    "#what-is-jetson",
+    "https://www.nvidia.com/en-us/autonomous-machines/",
+    "/embedded",
+    "/embedded/downloads",
+    "#what-is-jetpack",
+    "/embedded/jetpack",
+    "#what-version-jetpack",
+    "https://forums.developer.nvidia.com/t/announcing-end-of-life-for-nvidia-jetpack-4-with-the-release-of-jetpack-4-6-6/314300",
+    "https://www.timesys.com/solutions/linux-os-bsp-maintenance/",
+    "https://www.codethink.co.uk/linux.html",
+    "#running-generative-ai-jetson",
+    "https://www.jetson-ai-lab.com/index.html",
+    "#where-to-buy-jetson",
+    "/embedded/buy",
+    "#jetson-devkit-vs-module",
+    "/embedded/faq#jetson-lifetime",
+    "#jetson-agx-orin-devkit-32gb-64gb",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/#tech-specs",
+    "#differences-orin-nano-and-orin-nano-super-devkits",
+    "#enabling-super-mode-jetson-orin",
+    "/embedded/jetpack-sdk-61",
+    "#jetson-devkit-not-for-production",
+    "#jetson-lifetime",
+    "#jetson-port",
+    "https://docs.nvidia.com/jetson/index.html",
+    "#jetson-agx-xavier-series-nx-series-availability",
+    "/embedded/lifecycle",
+    "#what-systems",
+    "#jetson-partner_products",
+    "/embedded/community/jetson-partner-products",
+    "https://developer.nvidia.com/embedded/jetson-partner-products?t1_hardware-solution=Development+Systems",
+    "#jetson-compatibility",
+    "/embedded/downloads#?search=module%20data%20sheet",
+    "/embedded/downloads#?search=Product%20Design%20Guide",
+    "/embedded/downloads#?search=interface%20comparison%20and%20migration",
+    "#jetson-differences",
+    "https://developer.nvidia.com/embedded/develop/hardware",
+    "#changes_industrial_environment_agx_orin_i",
+    "#jetson-differences-agxi",
+    "#jetson-differences-tx2i",
+    "#jetson-cameras",
+    "https://marketplace.nvidia.com/en-us/enterprise/robotics-edge/?category=cameras&page=1&limit=15",
+    "#jetson-orin-memory-components",
+    "/embedded/downloads#?search=Product%20Marking&tx=$product,jetson_agx_orin,jetson_orin_nx,jetson_orin_nano",
+    "#jetson-lifecycle",
+    "/embedded/community/lifecycle",
+    "#jetson-support",
+    "/embedded/support",
+    "#jetson-warranty",
+    "https://www.nvidia.com/object/manufacturer_warranty.html",
+    "#jetson-prices",
+    "#jetson-module-origin",
+    "#jetson-developer-origin",
+    "#rma-process",
+    "http://nvidia.custhelp.com/app/home",
+    "#jetson-eccn",
+    "mailto:NVClassification@nvidia.com",
+    "#jetson-part-numbers"
+  ],
+  "images": [],
+  "tables": [
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": ""
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson developer kit"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson module"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Operating Lifetime"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "None specified"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "5 or 10 year operating life in a production environment"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Warranty"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1 year warranty for development use only"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "3 year warranty †"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Availability"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "No guarantee of availability. Order quantities may be limited. No notice before EOL."
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Available for at least 5 years (up to 10). Built to forecast. Last Time Buy notice before EOL."
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "BOM"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Several components may be non-production quality. Components may change without notification."
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Production rated components. Any changes are notified via PCN following JEDEC JESD-046 standard."
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Validation"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Basic functional validation in a constrained environment."
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Full functionality and reliability validation across environmental specifications. Tests are listed in the datasheet."
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": ""
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Thor Modules"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin Series Modules"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano Series, Orin NX series Modules"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Xavier Series Modules"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Nano, TX2 NX, Xavier NX Series Modules"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson TX2, TX2 4GB, TX2i Modules"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Thor Modules"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Pin and form-factor compatible"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Form-factor compatible"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Form-factor compatible"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin Series Modules"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Form-factor compatible"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Pin and form-factor compatible"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Pin and form-factor compatible†"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano Series, Orin NX Series Modules"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Pin and form-factor compatible"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Form-factor compatible††"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Xavier Series"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Form-factor compatible"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Pin and form-factor compatible†"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Pin and form-factor compatible"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Nano, TX2 NX, Xavier NX Series Modules"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Form-factor compatible††"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Pin and form-factor compatible"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson TX2, TX2 4GB, TX2i Modules"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Pin and form-factor compatible"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Feature"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin Industrial"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Shock"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Non-Operational: 140G, 2 ms"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Non-Operational: 140G, 2 ms Operational 50G, 11 ms"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Vibration"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Non-Operational: 3G"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Non-Operational: 3G Operational 5G"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Operating Temperature"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Operational: -25°C to 80°C at TTP"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Operational: -40°C to 85°C at TTP"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Humidity"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Biased, 85°C, 85% RH, 168 hours"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "85°C / 85% RH, 1000 hours, Power ON"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Temperature Bias"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-20°C, 24 hours 45°C, 168 hours (operational)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-40°C, 72 hours 85°C, 1000 hours (operational)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Error-Correcting Code"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Inline DRAM ECC"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Operating Lifetime"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "5 Years"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "10 Years"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Max Power"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "60W"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "75W"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Feature"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Xavier"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Xavier Industrial"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Shock"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Non-operational: 340G, 2 ms, Half sine, 6 shocks/axis, 3 axes"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Operational: 50G, 11 ms, Half sine Non-operational: 140G, 2 ms, Half sine, 3-axis, FCT/DPA, extend to 340G"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Vibration"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Non-operational: 10-500 Hz, 5G RMS, 8 hours/axis"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Operational: 10-500 Hz, 5G RMS (random/sinusoidal) Non-operational: 10-1000 Hz, 3G RMS, 3-axis, FCT"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Temperature"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Operational: -25°C to 80°C at TTP"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Operational: -40°C to 85°C at TTP"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Humidity"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Non-operational: 95% RH, -10°C to 65°C, 10cycl/240 hours"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Non-operational: 95% RH, -10°C to 65°C"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Safety Cluster Engine"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2x Arm® Cortex®-R5 in lockstep"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Error-Correcting Code"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Inline DRAM ECC and GPU ECC"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Operating Lifetime"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "5 Years"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "10 Years"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Feature"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson TX2"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson TX2i"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Shock"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "140G, 2ms"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "140G, 2ms"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Vibration"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "10Hz ~200Hz, 1g & 2g RMS"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Random: 5g RMS 10 to 500Hz Sinusoidal: 5g RMS 10 to 500Hz"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Temp Range at module TTP"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-25°C - 80°C"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-40°C - 85°C"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Humidity"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "85°C / 85% RH, 168 hours"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "-10°C to 65°C / 95% RH, 240 hours"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Operating Life"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "5 Years (GB at 35C: MTBF=1,747,520 hours GF at 35C: MTBF=1,066,851 hours)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "10 Years (GB at 45C: 2,505,155 hours Rt=0.9656 GF at 45C: 1,254,624 hours Rt=0.9326)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Misc Env Testing"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "N/A"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Mixed gas flow; dust settling; free fall drop"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "TDP"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "15W"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "20W"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Product"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Warranty"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Developer Kits"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1 Year Warranty †"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson modules Tegra SoCs"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "3 Year Warranty ††"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Product"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Operating Lifetime"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "All Jetson modules (except those listed below) Tegra K1 Soc"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "5 Years"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Xavier Industrial Jetson AGX Orin Industrial Jetson TX2i module Tegra K1 Industrial SoC"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "10 Years"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Product"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "MSRP (USD)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Thor Developer Kit"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "$5499"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson T5000 Module"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson T4000 Module"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin Developer Kit"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "$3499"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin 64GB Module"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "$2999 (1KU+)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin Industrial"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "$3199 (1KU+)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin 32GB Module"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "$1799 (1KU+)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin NX 16GB Module"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "$999 (1KU+)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin NX 8GB Module"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "$649 (1KU+)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano Super Developer Kit"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "$399"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano 8GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "$399 (1KU+)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano 4GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "$349 (1KU+)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Xavier Module"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "$1599 (1KU+)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Xavier Industrial Module"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "$2299 (1KU+)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Xavier NX 16GB Module"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "$899 (1KU+)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Xavier NX Module"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "$599 (1KU+)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson TX2 NX Module"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "$249 (1KU+)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson TX2i Module"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "$999 (1KU+)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Nano Module"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "$199 (1KU+)"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Name"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "P/N"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Origin"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson T5000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13834-0080-001"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China, USA, or Vietnam"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson T4000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13834-0000-001"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China, USA, or Vietnam"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin 64GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13701-0050-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China, USA, or Vietnam"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin Industrial"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13701-0080-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "USA"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin 32GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13701-0040-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China, USA, or Vietnam"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin NX 16GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13767-0000-001"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China, USA, or Vietnam"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin NX 8GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13767-0010-001"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China, USA, or Vietnam"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano 8GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13767-0030-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China, USA, or Vietnam"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano 4GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13767-0040-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China, USA, or Vietnam"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Xavier Industrial"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-82888-0080-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China or USA"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Xavier"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-82888-0040-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China, Taiwan or Vietnam"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Xavier NX 16GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-83668-0030-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China, Taiwan or Vietnam"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Xavier NX"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-83668-0000-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China, Taiwan or Vietnam"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson TX2 NX"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13636-0010-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China or Vietnam"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson TX2i"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-83489-0000-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China or Vietnam"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Nano"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13448-0020-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China, Taiwan or Vietnam"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Name"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "P/N"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Origin"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson T5000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13834-0080-0A1"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "USA"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson T4000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13834-0000-0A1"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "USA"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Orin 64GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13701-0050-0A0"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "USA"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin NX 16GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13767-0000-0A1"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "USA"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin NX 8GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13767-0010-0V1"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "USA or Vietnam"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Xavier Industrial"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-82888-0080-0A0"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "USA"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Xavier"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-82888-0040-0T0"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Taiwan"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Xavier NX"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-83668-0000-0T0"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Taiwan"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Name"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "P/N"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Origin"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson AGX Thor Developer Kit"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-14070-0087-000 945-14070-0085-000 945-14070-0080-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China, USA or Vietnam"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVIDIA Jetson AGX Orin 64GB Developer Kit"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-13730-0057-000 945-13730-0055-000 945-13730-0050-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China, USA or Vietnam"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Jetson Orin Nano Super Developer Kit"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-13766-0007-000 945-13766-0005-000 945-13766-0000-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "China, USA or Vietnam"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13834-0080-001 900-13834-0080-0A1 (Origin – USA)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, CN, JP, EU, UK, RS, UA, SG, MY, VN, HK, KR, IL, PH, MX, IN, AU / NZ, TW"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13834-0000-001 900-13834-0000-0A1 (Origin – USA)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, CN, JP, EU, UK, RS, UA, SG, MY, VN, HK, KR, IL, PH, MX, IN, AU / NZ, TW"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13701-0050-000 900-13701-0050-0A0 (Origin - USA)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, UK, EU*, RS, UA, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13701-0080-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, UK, EU*, RS, UA, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13701-0040-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, UK, EU*, RS, UA, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13767-0000-001 900-13767-0000-0A1 (Origin - USA)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, UK, EU*, RS, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13767-0010-001 900-13767-0010-0V1 (Origin - USA or Vietnam)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, UK, EU*, RS, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13767-0030-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, UK, EU*, RS, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13767-0040-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, UK, EU*, RS, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-82888-0050-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, BR, UK, EU, RS, UA, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-82888-0040-000 900-82888-0000-000† 900-82888-0040-0T0 (Origin - Taiwan)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, BR, UK, EU, RS, UA, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-82888-0080-000 900-82888-0080-0A0 (Origin - USA)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, BR, UK, EU, RS, UA, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-83668-0030-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, BR, UK, EU, RS, UA, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-83668-0000-000 900-83668-0000-0T0 (Origin - Taiwan)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, BR, UK, EU, RS, UA, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13636-0010-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, BR, UK, EU, RS, UA, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-83310-0001-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, UK, EU, CN, SG, HK, AU, TW, JP, KR, NZ"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-83310-A301-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "IL"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-83310-A401-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "IN"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-83489-0080-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, BR, UK, EU, RS, UA, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-83489-0000-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, BR, UK, EU, RS, UA, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "900-13448-0020-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, BR, UK, EU, RS, UA, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CD575M-A1"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CD575M-C-A1"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CD575MI-A1"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CD575MI-C-A1"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-14070-0080-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, CN, TW, JP, TW"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-14070-0085-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "EU, UK, RS, UA, SG, MY, VN, HK, KR, IL"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-14070-0087-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "PH, MX, IN, AU / NZ"
+        }
+      ],
+      []
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-13730-0050-000§"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, CN, TW, JP"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-13730-0055-000§"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "UK, EU*, RS, UA, IL, MY, VN, SG, HK, KR"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-13730-0057-000§"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "IN, AU, PH, NZ"
+        }
+      ],
+      []
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-13766-0000-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, CN, JP, PH"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-13766-0005-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "EU, UK, RS, UA, SG, VN, HK, KR, MY, IL"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-13766-0007-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "IN, TW"
+        }
+      ],
+      []
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-82972-0040-000 945-82972-0000-000†"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, PH, TW, JP"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-82972-0045-000 945-82972-0005-000†"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "UK, EU, IL, MY, SG"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-82972-0046-000 945-82972-0006-000†"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CN, VN, AU, KR, NZ"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-82972-0047-000 945-82972-0007-000†"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "IN"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-83518-0000-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, CN, PH, TW, JP"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-83518-0005-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "BR, UK, EU, RS, UA, IL, VN, SG, HK, KR"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-83518-0007-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "IN, AU, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-13450-0000-100 945-13450-0000-000‡"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, MX, BR, UK, EU, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "SKU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Regions"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-13541-0000-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "US, CA, UK, EU"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "945-13541-0001-000"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "MX, BR, RS, UA, IL, IN, CN, MY, VN, SG, HK, AU, PH, TW, JP, KR, NZ"
+        }
+      ]
+    ]
+  ],
+  "text_chars": 22158
+}

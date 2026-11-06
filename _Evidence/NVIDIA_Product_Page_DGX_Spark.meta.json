@@ -1,0 +1,656 @@
+{
+  "id": "NVIDIA_Product_Page_DGX_Spark",
+  "url": "https://www.nvidia.com/en-us/products/workstations/dgx-spark/",
+  "retrieved_at_utc": "2026-11-03T05:20:00.841153+00:00",
+  "final_url": "https://www.nvidia.com/en-us/products/workstations/dgx-spark/",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Server": "Apache",
+    "Last-Modified": "Fri, 30 Oct 2026 23:31:28 GMT",
+    "Edge-Cache-Tag": "/en-us/products/workstations/dgx-spark/this/,/en-us/products/workstations/dgx-spark/,/en-us/products/workstations/,/en-us/products/,/en-us/",
+    "ETag": "\"ad22c-65f1732091c47\"",
+    "Content-Security-Policy": "frame-ancestors 'self' *.awsapps.nvidia.com *.nvidia.com https://widget.stackla.com https://app-sj14.marketo.com https://www.youtube.com https://www.quadro-selector.com http://player.youku.com https://player.youku.com https://live.nvidia-china.com https://www.google.com *.nvidia.cn https://events.rainfocus.com https://www.twitch.tv https://store.nvidia.ru https://store.nvidia.in *.geforcenow.com https://salespro.hpe.com https://hpe.seismic.com https://cms.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://cms.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://events.rainfocus.com https://docs.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://docs.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://nvfile;",
+    "ServerID": "prod-web03",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Access-Control-Allow-Origin": "*",
+    "Vary": "Accept-Encoding",
+    "Date": "Tue, 03 Nov 2026 05:20:01 GMT",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Set-Cookie": "c_code=CN; Domain=nvidia.com; Path=/; Secure",
+    "nv-defunct-locale-redirection": "executed",
+    "AK_EC_TYPE": "LOCALE_ERD_POLICY",
+    "Akamai-Cache-Status": "Hit from child",
+    "x-cdn-version": "v458",
+    "x-cdn": "akam"
+  },
+  "sha256": "093b3f2fdffdd3a692733353da4adce6ec53721c32ac5c6cf031b03fcd1c1568",
+  "bytes": 709164,
+  "file": "_Evidence/NVIDIA_Product_Page_DGX_Spark.html",
+  "links": [
+    "https://www.nvidia.com",
+    "#page-content",
+    "https://www.nvidia.com/en-us/",
+    "https://www.nvidia.com/en-us/products/workstations/",
+    "https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/",
+    "https://www.nvidia.com/en-us/products/workstations/professional-laptops/",
+    "https://www.nvidia.com/en-us/products/workstations/dgx-spark/",
+    "https://www.nvidia.com/en-us/products/workstations/dgx-station/",
+    "https://www.nvidia.com/en-us/products/workstations/dgx-station-for-windows/",
+    "https://www.nvidia.com/en-us/studio/creative-apps/",
+    "https://www.nvidia.com/en-us/software/rtx-enterprise-software/",
+    "https://www.nvidia.com/en-us/products/workstations/product-literature/",
+    "https://www.nvidia.com/en-us/technologies/rtx/",
+    "https://www.nvidia.com/en-us/products/workstations/rendering/",
+    "#",
+    "https://marketplace.nvidia.com/en-us/account/",
+    "https://www.nvidia.com/en-us/account/edit-profile/",
+    "/",
+    "http://www.enable-javascript.com/",
+    "https://marketplace.nvidia.com/en-us/enterprise/personal-ai-supercomputers/?superchip=GB10&page=1&limit=15",
+    "https://www.nvidia.com/en-us/support/dgx-spark/",
+    "https://dam-cdn.nvd.orangelogic.com/AssetLink/es6d60li4v5hybk461p65is6os33c48h.pdf",
+    "#m-specs",
+    "https://forums.developer.nvidia.com/c/accelerated-computing/dgx-spark-gb10/719",
+    "#overview",
+    "#features",
+    "#workload",
+    "#soft",
+    "#part",
+    "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+    "https://developer.nvidia.com/isaac",
+    "https://www.nvidia.com/en-us/autonomous-machines/intelligent-video-analytics-platform/",
+    "https://developer.nvidia.com/holoscan-sdk",
+    "https://www.nvidia.com/en-us/solutions/ai/agent-safety/",
+    "https://www.nvidia.com/en-us/ai/openshell/",
+    "https://www.nvidia.com/en-us/ai/nemoclaw/",
+    "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/",
+    "https://enterpriseproductregistration.nvidia.com/?LicType=Eval&ProductFamily=NVAIE_DGX_SPARK",
+    "https://developer.nvidia.com/topics/ai/local-ai",
+    "http://build.nvidia.com/spark",
+    "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+    "https://developer.nvidia.com/blog/scaling-autonomous-ai-agents-and-workloads-with-nvidia-dgx-spark/",
+    "https://blogs.nvidia.com/blog/dgx-spark-higher-education/",
+    "https://blogs.nvidia.com/blog/dgx-spark-and-station-open-source-frontier-models/",
+    "https://www.youtube.com/watch?v=e1UTUZ8lfTs",
+    "https://www.youtube.com/watch?v=dMpLCGvE2A0",
+    "https://www.youtube.com/watch?v=AvgZscNZzYw",
+    "https://www.youtube.com/live/euQoPqGXVlk?si=42TpiSHgWIPGJB8N",
+    "https://www.youtube.com/live/wfPZH6Fmlzc?si=bL4hkW_8zuoASl87",
+    "https://www.youtube.com/live/XY6ySMd2Lzs?si=x-rC2opItgRnbY72",
+    "https://www.youtube.com/watch?v=XY6ySMd2Lzs&list=PL5B692fm6--szoycV51n_dI29J8wGP9_-&index=1",
+    "https://www.amazon.com/NVIDIA-DGX-Spark-Cortex-X925-Architecture/dp/B0FWJ16CCH/ref=sr_1_1?crid=2KYSHS50D76VF&dib=eyJ2IjoiMSJ9.hGP4C2WO22eD3Mvy7HQTL4CaHvgOHmJlWNRTa9HkAooHhQ9SNosOwOpjq6Nu0zvOoJ-FGT7zKmPgb22LC0-hwB-Cp7gEICYe7Q_XR1dxkTvY86fAuaroZrhVQ2p5h0bQ11GGLH0UCG5mKG70rjpV3lBNbQUNTkmNOnsOcqGzn7l1rMplxVvk68kR0MnQ_PDezP719Xr2TGWC95Z32b1EkveeqNe8_7g4IeP5BE7Ag98.6za122aibZwyQLt1VopdCLZU118lEJMf5x-LBPsqyjc&dib_tag=se&keywords=dgx+spark&qid=1763996726&s=electronics&sprefix=dgx+spark%2Celectronics%2C140&sr=1-1",
+    "https://www.microcenter.com/site/brands/nvidia-dgx-spark.aspx",
+    "https://www.pny.com/dgx-spark",
+    "https://hub.tdsynnex.com/gcc/vendors/nvidia/nvidia-dgx-spark/",
+    "https://www.bestbuy.com/product/dgx-spark-nvidia-gb10-grace-blackwell-superchip-128-gb-lpddr5x-arm-processor-4tb-nvme-m-2-ssd-storage-gold/JXF2C4R2TS",
+    "https://www.acer.com/us-en/desktops-and-all-in-ones/veriton-workstations/veriton-gn100-ai-mini-workstation",
+    "https://www.asus.com/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10/",
+    "https://www.dell.com/en-us/dt/lp/dell-pro-max-nvidia-ai-dev",
+    "https://www.gigabyte.com/Consumer/ai-top/AI-TOP-ATOM/",
+    "https://www.hp.com/us-en/workstations/zgx-nano-ai-station.html",
+    "https://www.lenovo.com/us/en/workstation-ai/",
+    "https://us.msi.com/Landing/Next-Level-AI-Power-Right-at-Your-Desk",
+    "https://docs.nvidia.com/dgx/dgx-spark/enterprise-manageability.html",
+    "/content/dam/en-zz/Solutions/dgx-spark/nvidia-gb10-superchip-whitepaper.pdf",
+    "https://www.nvidia.com/en-us/about-nvidia/privacy-policy/?deeplink=visiting-our-website",
+    "https://www.nvidia.com/en-us/design-visualization/desktop-graphics/",
+    "https://www.nvidia.com/en-us/products/workstations/professional-laptops/#performance",
+    "https://www.nvidia.com/en-us/data-center/",
+    "https://www.nvidia.com/en-us/design-visualization/virtual-workstation/",
+    "https://www.nvidia.com/en-us/products/workstations/resources/rtx-embedded/",
+    "https://www.nvidia.com/en-us/design-visualization/rtx-enterprise-software",
+    "https://blogs.nvidia.com/blog/category/pro-graphics/",
+    "https://developer.nvidia.com/blog/tag/workstation/",
+    "https://www.nvidia.com/en-us/case-studies/?page=1",
+    "https://www.nvidia.com/en-us/data-center/virtualization/resources/?ncid=no-ncid",
+    "https://docs.nvidia.com/",
+    "https://www.nvidia.com/en-us/on-demand/",
+    "https://forums.developer.nvidia.com/",
+    "https://forums.developer.nvidia.com/c/gaming-and-visualization-technologies/rtx-pro/774",
+    "https://developer.nvidia.com/omniverse/community",
+    "https://www.nvidia.com/en-us/about-nvidia/#About%20Us",
+    "https://www.nvidia.com/en-us/about-nvidia/careers/",
+    "https://www.nvidia.com/en-us/foundation/",
+    "https://investor.nvidia.com/home/default.aspx",
+    "https://www.nvidia.com/en-us/research/",
+    "https://www.nvidia.com/en-us/sustainability/",
+    "https://www.nvidia.com/en-us/technologies/",
+    "https://www.facebook.com/NVIDIA",
+    "https://www.instagram.com/nvidiaomniverse/",
+    "https://www.linkedin.com/showcase/nvidia-omniverse/",
+    "https://twitter.com/nvidiaomniverse",
+    "https://www.youtube.com/c/nvidiaomniverse",
+    "https://www.nvidia.com/en-us/about-nvidia/privacy-policy/",
+    "https://www.nvidia.com/en-us/about-nvidia/privacy-center/",
+    "https://www.nvidia.com/en-us/about-nvidia/terms-of-service/",
+    "https://www.nvidia.com/en-us/about-nvidia/accessibility/",
+    "https://www.nvidia.com/en-us/about-nvidia/company-policies/",
+    "https://www.nvidia.com/en-us/product-security/",
+    "https://www.nvidia.com/en-us/contact/"
+  ],
+  "images": [
+    "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_5347712/nv_image.coreimg.png/1792558737455/nvidia-gb10-grace-blackwell-superchip-2x.png",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_5347712/nv_container_1761985468/nv_container/nv_image.coreimg.svg/1792558738056/m48-gh200.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_5347712/nv_container_1761985468/nv_container_1688607007/nv_image.coreimg.svg/1792558738261/m48-ram-memory.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_5347712/nv_container_1761985468/nv_container_433797746/nv_image.coreimg.svg/1792558738459/m48-cx-7-chip.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_5347712/nv_container_1761985468/nv_container_1895970071/nv_image.coreimg.svg/1792558738694/m48-nim.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_5347712/nv_container_1761985468/nv_container_1895970/nv_image.coreimg.svg/1792558738892/m48-high-connection-density.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container/nv_container/nv_teaser_1208631809.coreimg.svg/1790665012446/nvidia-dgx-spark-workstation-1-stack.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container/nv_container/nv_teaser_1208631809_2132255228.coreimg.svg/1790665012446/nvidia-dgx-spark-workstation-1-stack.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container/nv_container/nv_teaser_1208631809_1939952052.coreimg.svg/1790665012458/nvidia-dgx-spark-workstation-2-stack.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container/nv_container/nv_teaser_1208631809_292195068.coreimg.svg/1790665012458/nvidia-dgx-spark-workstation-2-stack.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container/nv_container/nv_teaser_1208631809_985156646.coreimg.svg/1790665012462/nvidia-dgx-spark-workstation-4-stack.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_developer_software/row0/card0.coreimg.jpeg/1792558739196/corporate-kv-ari.jpeg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_developer_software/row0/card1.coreimg.jpeg/1792558739218/nvidia-openshell-source.jpeg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_developer_software/row0/card2.coreimg.jpeg/1792558739240/nvidia-nemoclaw-source.jpeg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_developer_software/row1/card0.coreimg.png/1792558739307/genai-promo-nemotron-3-super-press-1920x1080.png",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_developer_software/row1/card1.coreimg.jpeg/1792558739331/enterprise-dgx-spark-ari.jpeg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_developer_software/row1/card2.coreimg.jpeg/1792558739352/corporate-kv-ari.jpeg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_playbooks/inner/media.coreimg.png/1792558739420/workstation-dgx-spark-blog-1920x1080-3717203.png",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_section/nv_tabs_resources_10/nv_container_tab3_blogs_8/nv_container_blogs_inner_8/nv_teaser_10.coreimg.jpeg/1792558735614/nvidia-dgx-spark-family-gf-social-thumbnail-1920x1080.jpeg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_section/nv_tabs_resources_10/nv_container_tab3_blogs_8/nv_container_blogs_inner_8/nv_teaser_10_copy.coreimg.jpeg/1792558735668/dgx-spark-resources-blog-workloads-1920x1080.jpeg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_section/nv_tabs_resources_10/nv_container_tab3_blogs_8/nv_container_blogs_inner_8/nv_teaser_8.coreimg.jpeg/1773667583443/dgx-spark-resources-higher-ed-1920x1080.jpeg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_section/nv_tabs_resources_10/nv_container_tab3_blogs_8/nv_container_blogs_inner_8/nv_teaser_9.coreimg.jpeg/1773667601822/dgx-spark-resources-open-ai-1920x1080.jpeg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_section/nv_tabs_resources_10/nv_container_tab2_videos_6/nv_container_videos_inner_6/nv_teaser_4.coreimg.jpeg/1773667588011/dgx-spark-resources-reachy-1920x1080.jpeg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_section/nv_tabs_resources_10/nv_container_tab2_videos_6/nv_container_videos_inner_6/nv_teaser_5.coreimg.jpeg/1773667568771/dgx-spark-resources-hugging-face-1920x1080.jpeg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_section/nv_tabs_resources_10/nv_container_tab2_videos_6/nv_container_videos_inner_6/nv_teaser_6.coreimg.jpeg/1773667572747/dgx-spark-resources-spark-1920x1080.jpeg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_section/nv_tabs_resources_10/nv_container_tab1_docs_4/livestream_cards/livestream0.coreimg.png/1792558736217/workstation-social-dgx-spark-live-5639050-1920x1080.png",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_section/nv_tabs_resources_10/nv_container_tab1_docs_4/livestream_cards/livestream1.coreimg.jpeg/1792558736240/workstation-dgx-spark-livestream-episode-22-1920x1080.jpeg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_section/nv_tabs_resources_10/nv_container_tab1_docs_4/livestream_cards/livestream2.coreimg.jpeg/1792558736264/dgx-spark-livestream-episode-24-ari.jpeg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_1652985696/nv_container/nv_container/nv_container_1651716/nv_teaser_1387515487_766567773.coreimg.svg/1690433952777/amazon-logo.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_1652985696/nv_container/nv_container/nv_container_1651716/nv_teaser.coreimg.svg/1555367831531/arrow-logo.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_1652985696/nv_container/nv_container/nv_container_1651716/nv_teaser_1802627273.coreimg.svg/1589920396829/micro-center-logo.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_1652985696/nv_container/nv_container/nv_container_1651716/nv_teaser_1885755374.coreimg.svg/1752528423111/pny-logo.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_1652985696/nv_container/nv_container/nv_container_1651716/nv_teaser_799429405.coreimg.svg/1668578710576/td-synnex-logo.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_1652985696/nv_container/nv_container/nv_container_1651716/nv_teaser_1387515487.coreimg.svg/1555367831734/ingram-micro-logo.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_1652985696/nv_container/nv_container/nv_container_1651716/nv_teaser_1387515487_771564357.coreimg.svg/1792090271875/best-buy-logo-black.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_1652985696/nv_container/nv_container_711895333/nv_container_3954206/nv_teaser_1208631809.coreimg.svg/1622174855596/acer-logo.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_1652985696/nv_container/nv_container_711895333/nv_container_3954206/nv_teaser_785216766.coreimg.svg/1622174856289/asus-logo.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_1652985696/nv_container/nv_container_711895333/nv_container_3954206/nv_teaser.coreimg.svg/1780359551506/dell-technologies-logo.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_1652985696/nv_container/nv_container_711895333/nv_container_3954206/nv_teaser_166247200.coreimg.svg/1621838302663/gigabyte-logo.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_1652985696/nv_container/nv_container_711895333/nv_container_3954206/nv_teaser_166247200_.coreimg.svg/1632302506691/hp-logo.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_1652985696/nv_container/nv_container_711895333/nv_container_3954206/nv_teaser_166247200__1285714887.coreimg.svg/1660899980693/lenovo-logo.svg",
+    "/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_1652985696/nv_container/nv_container_711895333/nv_container_3954206/nv_teaser_166247200__1264292685.coreimg.svg/1773588264964/msi-logo.svg"
+  ],
+  "tables": [
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Configuration"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "DGX Spark 64 GB*"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "DGX Spark 128 GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Connection"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1 × DGX Spark"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "64 GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "128 GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "–"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "2 × DGX Spark"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "128 GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "256 GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Direct QSFP cable, no switch required"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4 × DGX Spark"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "256 GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "512 GB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "200 GbE switch (QSFP56-DD, RoCE v2)"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Architecture"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVIDIA Grace Blackwell"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "GPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Blackwell Architecture"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CPU"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "20-core Arm, 10 Cortex-X925 + 10 Cortex-A725 Arm"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "CUDA Cores"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Blackwell Generation"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Tensor Cores"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "5th Generation"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "RT Cores"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4th Generation"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Tensor Performance1"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Up to 1 PFLOP FP4"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "System Memory"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "64 GB LPDDR5X* or 128 GB LPDDR5x, coherent unified system memory"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Memory Interface"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "256-bit"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Memory Bandwidth"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "273 GB/s"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Storage"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Up to 4 TB NVME.M2 with self-encryption"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "USB"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "4x USB TypeC"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Ethernet"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x RJ-45 connector 10 GbE"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NIC"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "ConnectX-7 NIC @ 200 Gbps"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Wi-Fi"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "WiFi 7"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Bluetooth"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "BT 5.4"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Audio-output"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "HDMI multichannel audio output"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Power Supply"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "240 Watts"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "GB10 TDP2"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "140 W"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Display Connectors"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x HDMI 2.1a, Up to 3x DisplayPort over USB-C (DP Alt Mode)"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVENC | NVDEC"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1x | 1x"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "OS"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "NVIDIA DGX™ OS"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "System Dimensions"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "150 mm L x 150 mm W x 50.5 mm H"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "System Weight"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "1.2 kg"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Product name"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "NVIDIA DGX Spark 940-54242-0000"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Product description"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "2",
+          "text": "NVIDIA GB10 Grace Blackwell Superchip 20-core Arm: 10 Cortex-X925 + 10 Cortex-A725 Arm, 128 GB LPDDR5x Up to 4 TB NVME.M2"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Quantities declared"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Operating Modedd)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Idle"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Declared mean A-weighted sound power level a), LWA,m (dB)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "35"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "19"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Declared mean A-weighted emission sound pressure level b), LpA,m (dB)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "29"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "13"
+        }
+      ],
+      [
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "Statistical adder for verification c), Kv (dB)"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "3"
+        },
+        {
+          "rowspan": "1",
+          "colspan": "1",
+          "text": "3"
+        }
+      ]
+    ]
+  ],
+  "text_chars": 21350
+}

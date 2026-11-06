@@ -1,0 +1,10 @@
+{
+  "id": "gr00t-bench",
+  "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/scripts/deployment/README.md",
+  "retrieved_at_utc": "2026-11-03T04:19:36.682115+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/scripts/deployment/README.md",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "a2657a360c8752e71896686fb0873721330b555dbed24a023971ca7732605751",
+  "file": "_Evidence/gr00t-bench.txt"
+}

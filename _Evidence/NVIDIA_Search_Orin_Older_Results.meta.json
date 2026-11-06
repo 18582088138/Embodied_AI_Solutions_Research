@@ -1,0 +1,44 @@
+{
+  "id": "NVIDIA_Search_Orin_Older_Results",
+  "url": "https://nvidianews.nvidia.com/helper-search-news?ct=releases&page=2&q=jetson%20orin",
+  "retrieved_at_utc": "2026-11-03T05:27:47.532973+00:00",
+  "final_url": "https://nvidianews.nvidia.com/helper-search-news?ct=releases&page=2&q=jetson%20orin",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Accept-Ranges": "bytes",
+    "Date": "Tue, 03 Nov 2026 05:27:49 GMT",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "sha256": "91da440b39a15c8a6e6993529d8a7e1bb1ed83aa3ce0fa1902d13361cb649c71",
+  "bytes": 15406,
+  "file": "_Evidence/NVIDIA_Search_Orin_Older_Results.html",
+  "links": [
+    "https://blogs.nvidia.com/blog/2023/08/03/goran-vuksic-pit-droid/",
+    "https://blogs.nvidia.com/blog/2023/03/21/isaac-jetson-robotics/",
+    "https://blogs.nvidia.com/blog/2023/03/15/verdant-farm-organics-jetson-orin/",
+    "/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2023",
+    "/news/nvidia-jetson-orin-nano-sets-new-standard-for-entry-level-edge-ai-and-robotics-with-80x-performance-leap",
+    "https://blogs.nvidia.com/blog/2022/09/20/nvidia-isaac-nova-orin/",
+    "https://blogs.nvidia.com/blog/2022/08/19/grace-hopper-nvswitch-hot-chips/",
+    "https://blogs.nvidia.com/blog/2022/08/03/nvidia-jetson-agx-orin-32gb-production-modules/",
+    "/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2023",
+    "https://blogs.nvidia.com/blog/2022/05/23/computex-jetson-orin-agx/"
+  ],
+  "images": [
+    "https://iprsoftwaremedia.com/219/files/202308/64cbdd70ed6ae56ceb8beb1a_pit-droid-mp4/pit-droid-mp4_thmb.jpg?v=6fcf9977-f1f4-47bc-8228-f501dbf2af45",
+    "https://iprsoftwaremedia.com/219/files/20232/64190b25b3aed3668728209e_nvidia-isaac-robotics-platform-in-action/nvidia-isaac-robotics-platform-in-action_thmb.jpg?v=fb2adf1e-54e5-45b5-9dd3-7c70607899ba",
+    "https://iprsoftwaremedia.com/219/files/20232/6411ee4eb3aed37a50b47c7d_verdant-1280x680/verdant-1280x680_thmb.jpg?v=8baf5205-147c-42dc-bb45-06f5b2ae07ee",
+    "/media/themes/64d081263d633229694ae3db/images/NVIDIA-logo-BL.jpg",
+    "https://iprsoftwaremedia.com/219/files/20228/632943b0b3aed3127e5e7704_nvidia-jetson-orin-nano/nvidia-jetson-orin-nano_thmb.jpg?v=390564e5-ab2c-42f9-bc3f-b1ef27b3b436",
+    "https://iprsoftwaremedia.com/219/files/20228/632943eab3aed312815e7c1e_nvidia-isaac-nova-orin-for-amrs/nvidia-isaac-nova-orin-for-amrs_thmb.jpg?v=e8cf00bf-deef-4b32-9d57-aba6d5071189",
+    "https://iprsoftwaremedia.com/219/files/20227/62ffbe39b3aed33041170c45_Grace-and-Grace-Hopper-Supperchips-KV-FINAL/Grace-and-Grace-Hopper-Supperchips-KV-FINAL_thmb.jpg?v=63f31f13-0d57-462e-b621-5f5edbb756ca",
+    "https://iprsoftwaremedia.com/219/files/202208/62ea8fa4ed6ae539c5f91fae_Jetson-AGX-Orin-Module-3D-Render_fullres-1-842x450/Jetson-AGX-Orin-Module-3D-Render_fullres-1-842x450_thmb.jpg?v=c53a5d30-98ca-4a89-a288-c3eb0dc8bd40",
+    "https://iprsoftwaremedia.com/219/files/202205/628c61e1ed6ae555308d7397_jetson-orin-marquee-image-computex-1280x680-1-842x450/jetson-orin-marquee-image-computex-1280x680-1-842x450_thmb.jpg?v=b9d1210a-2bea-4720-a669-88d2d1cfa88f"
+  ],
+  "tables": [],
+  "text_chars": 2958
+}

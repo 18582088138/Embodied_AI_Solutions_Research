@@ -1,0 +1,12 @@
+{
+  "id": "horizon-rdk",
+  "url": "https://d-robotics.github.io/rdk_doc/",
+  "retrieved_at_utc": "2026-11-03T04:18:25.469783+00:00",
+  "status": 200,
+  "final_url": "https://d-robotics.github.io/rdk_doc/",
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "a15ddd584fecbb8ea0903ad7b9fd7a910c140bb1148aaf93db384ed8b6dd233e",
+  "file": "_Evidence/horizon-rdk.html",
+  "links": [],
+  "text_chars": 7
+}

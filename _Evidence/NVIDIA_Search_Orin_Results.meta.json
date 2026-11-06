@@ -1,0 +1,45 @@
+{
+  "id": "NVIDIA_Search_Orin_Results",
+  "url": "https://nvidianews.nvidia.com/helper-search-news?ct=releases&page=1&q=jetson%20orin",
+  "retrieved_at_utc": "2026-11-03T05:27:15.927846+00:00",
+  "final_url": "https://nvidianews.nvidia.com/helper-search-news?ct=releases&page=1&q=jetson%20orin",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Accept-Ranges": "bytes",
+    "Date": "Tue, 03 Nov 2026 05:27:17 GMT",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "sha256": "9e77879453e2634afcfd36c5b5b228f32c10b130250d0aabaab0d8f3f9ad057d",
+  "bytes": 16027,
+  "file": "_Evidence/NVIDIA_Search_Orin_Results.html",
+  "links": [
+    "/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data",
+    "/news/nvidia-announces-jetson-orin-nano-2-robotics-computer-to-redefine-entry-level-edge-ai",
+    "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+    "/news/space-computing",
+    "/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots",
+    "/news/nvidia-blackwell-powered-jetson-thor-now-available-accelerating-the-age-of-general-robotics",
+    "/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2025",
+    "https://blogs.nvidia.com/blog/jetson-generative-ai-supercomputer/",
+    "https://blogs.nvidia.com/blog/deltia-ai-metropolis-jetson/",
+    "https://blogs.nvidia.com/blog/2023/10/26/coral-reef-decline-curee-robot-jetson-isaac-omniverse/"
+  ],
+  "images": [
+    "https://iprsoftwaremedia.com/219/files/202610/60166df62390290b4e42955e120a2b98/6ad7dc703d6332c412cb755d_nvidia-isaac-platform/nvidia-isaac-platform_thmb.jpg?v=ea97245c-b97b-4ba5-a30e-d4aed319c5d8",
+    "https://iprsoftwaremedia.com/219/files/202608/01129f086f93bf1c2014fee1bc8cd4e2/6a8c7ec03d6332d2f389b07b_jetson-orin-nano-2/jetson-orin-nano-2_thmb.jpg?v=14abfacb-ea35-4a1f-a3d4-01693db66823",
+    "https://iprsoftwaremedia.com/219/files/202606/a9230da0e1c9176b8b362929c854a59d/6a1e39863d63327a9b8bdf54_robotics-press-jetson-agentic-ready-cptx26-1920x1080-5180550-842x450/robotics-press-jetson-agentic-ready-cptx26-1920x1080-5180550-842x450_thmb.jpg?v=0d3fb364-db87-4c1d-b5b6-e9e9c8bcdbdd",
+    "https://iprsoftwaremedia.com/219/files/202603/69b739773d6332360e74de41_space-computing/space-computing_thmb.jpg?v=d121f37c-8b1e-4784-a44c-0ecb710c4a3a",
+    "https://iprsoftwaremedia.com/219/files/202601/695aea8f3d63328b7eb8544b_ces-2026-global-robotics-partners/ces-2026-global-robotics-partners_thmb.jpg?v=5fce44ba-1bd9-4171-88ed-b508cdfe0103",
+    "https://iprsoftwaremedia.com/219/files/20257/68ac02723d63324a0c0e40da_jetson-thor/jetson-thor_thmb.png?v=bb527403-9ad7-4f74-8230-4914ff217fb6",
+    "https://iprsoftwaremedia.com/219/files/202502/67bf85d33d633281c6875f53_aabe86db-ce89-4434-b83c-49508297980/aabe86db-ce89-4434-b83c-49508297980_thmb.jpg?v=615f1395-459d-4e22-a907-06dcd0750e3b",
+    "https://iprsoftwaremedia.com/219/files/202412/676183f4ed6ae558368e0577_PXL_20241209_020516521.PORTRAIT-1-842x450/PXL_20241209_020516521.PORTRAIT-1-842x450_thmb.jpg?v=14a32cbe-67fb-4459-98a4-e7fa58065b0e",
+    "https://iprsoftwaremedia.com/219/files/202409/66d878553d6332a8bcc81313_AdobeStock_185213852-842x450/AdobeStock_185213852-842x450_thmb.jpg?v=4e324e12-e53e-4baa-a45a-e361528192b2",
+    "https://iprsoftwaremedia.com/219/files/202310/653a8ea8ed6ae55672e2f461_CUREE-842x450/CUREE-842x450_thmb.jpg?v=63287a9e-0ef4-4053-b826-2f2f8dbd17de"
+  ],
+  "tables": [],
+  "text_chars": 2918
+}

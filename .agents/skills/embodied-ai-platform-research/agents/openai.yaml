@@ -1,0 +1,4 @@
+interface:
+  display_name: "具身智能平台深度调研"
+  short_description: "遵循 NVIDIA 调研实践，逐章完成平台深度分析与可追溯资料归档"
+  default_prompt: "使用 $embodied-ai-platform-research 调研指定具身智能平台，按 01—09 顺序逐章完成报告与资料归档。"

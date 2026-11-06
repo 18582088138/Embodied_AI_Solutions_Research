@@ -1,0 +1,10 @@
+{
+  "id": "rk-llm",
+  "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/README.md",
+  "retrieved_at_utc": "2026-11-03T04:18:24.687980+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/README.md",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "b1f258d927ad3a0ea7033f96865abbc1371127b0176d8e77636d22602f51e0d8",
+  "file": "_Evidence/rk-llm.txt"
+}

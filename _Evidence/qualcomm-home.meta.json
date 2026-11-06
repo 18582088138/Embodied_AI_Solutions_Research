@@ -1,0 +1,12 @@
+{
+  "id": "qualcomm-home",
+  "url": "https://www.qualcomm.com/",
+  "retrieved_at_utc": "2026-11-03T04:20:39.451227+00:00",
+  "status": 200,
+  "final_url": "https://www.qualcomm.com/",
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "04726ea3b623247871a87cb13841cd8c04c00025b08660d5377a9f01817d6104",
+  "file": "_Evidence/qualcomm-home.html",
+  "links": [],
+  "text_chars": 88
+}

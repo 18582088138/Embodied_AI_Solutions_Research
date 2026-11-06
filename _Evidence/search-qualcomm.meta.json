@@ -1,0 +1,33 @@
+{
+  "id": "search-qualcomm",
+  "url": "https://www.bing.com/search?q=site%3Aqualcomm.com%20IQ10%20robotics",
+  "retrieved_at_utc": "2026-11-03T04:19:34.990658+00:00",
+  "status": 200,
+  "final_url": "https://cn.bing.com/search?q=site%3Aqualcomm.com%20IQ10%20robotics",
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "b40cfe38010ff747b1bfbb9b0ef170d27b264df792efe8b62fb7239314caa85d",
+  "file": "_Evidence/search-qualcomm.html",
+  "links": [
+    "#",
+    "/?FORM=Z9FD1",
+    "javascript:void(0)",
+    "/?scope=web&FORM=HDRSC1",
+    "/images/search?q=site%3aqualcomm.com+IQ10+robotics&FORM=HDRSC2",
+    "/videos/search?q=site%3aqualcomm.com+IQ10+robotics&FORM=HDRSC3",
+    "/academic/search?q=site%3aqualcomm.com+IQ10+robotics&FORM=HDRSC4",
+    "/dict/search?q=site%3aqualcomm.com+IQ10+robotics&FORM=HDRSC6",
+    "/maps?q=site%3aqualcomm.com+IQ10+robotics&FORM=HDRSC7",
+    "/travel/search?q=site%3aqualcomm.com+IQ10+robotics&m=flights&FORM=FBSCOP",
+    "/search?q=site%3aqualcomm.com+IQ10+robotics&FORM=000017&qpvt=site%3aqualcomm.com+IQ10+robotics",
+    "/search?q=site%3aqualcomm.com+IQ10+robotics&filters=ex1%3a%22ez1%22&FORM=000017",
+    "/search?q=site%3aqualcomm.com+IQ10+robotics&filters=ex1%3a%22ez2%22&FORM=000017",
+    "/search?q=site%3aqualcomm.com+IQ10+robotics&filters=ex1%3a%22ez3%22&FORM=000017",
+    "/search?q=site%3aqualcomm.com+IQ10+robotics&filters=ex1%3a%22ez5_20395_20760%22&FORM=000017",
+    "https://dxzhgl.miit.gov.cn/dxxzsp/xkz/xkzgl/resource/qiyereport.jsp?num=caf04fa4-bd8a-4d9e-80b6-2aa1b86c1509&type=yreport",
+    "https://beian.miit.gov.cn",
+    "https://beian.mps.gov.cn/#/query/webSearch?code=11010802047360",
+    "http://go.microsoft.com/fwlink/?LinkId=521839",
+    "http://go.microsoft.com/fwlink/?LinkID=246338"
+  ],
+  "text_chars": 207
+}

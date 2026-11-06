@@ -1,0 +1,10 @@
+{
+  "id": "fourier-mujoco",
+  "url": "https://raw.githubusercontent.com/FFTAI/Wiki-GRx-Mujoco/FourierN1/README.md",
+  "retrieved_at_utc": "2026-11-03T04:20:39.545906+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/FFTAI/Wiki-GRx-Mujoco/FourierN1/README.md",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "2003f729dc721c7c878e737ffe4971286cde068745a6da4361b9820a8ab2299a",
+  "file": "_Evidence/fourier-mujoco.txt"
+}

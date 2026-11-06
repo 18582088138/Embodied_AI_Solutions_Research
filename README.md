@@ -1,213 +1,59 @@
-# 具身智能软硬件一体化全景研究
+# 具身智能解决方案研究
 
-研究日期：2026-11-03（Asia/Shanghai）｜首轮公开资料版。
+整理日期：2026-11-06（Asia/Shanghai）。收录已有研究报告与参考材料；各原件保留实际采集时间。
 
-**按附件结构生成20个主题目录、136份分维度Markdown；这不表示所有参数/商业数据已取得。** 具微科技、AGIROS、格物按用户答复注明后本轮跳过，其他未公开字段保留缺口。原有Intel研究文件保持原样。
+从以下类别进入各分项 README，可查阅章节、软件/核心技术专题、原件和核验记录。首轮概览与深度调研分别标记；报告交付不等于用户批准或实机验证。
 
-- [先读：首轮全景结论与候选路线](EXECUTIVE_SUMMARY.md)
 - [研究方法](METHODOLOGY.md)
-- [证据缺口](GAPS_AND_NEXT_STEPS.md)
-- [来源登记](_Evidence/SOURCE_REGISTER.md)
-- [机器可读关系图谱](knowledge-graph.json)
-- [文件/来源索引](research-index.json)
-- [检查记录](validation.json)
+- [持续调研与提交规范](CONTRIBUTING.md)
+- [可复用调研 skill](.agents/skills/embodied-ai-platform-research/SKILL.md)
+- [公共下载与检查工具](toolkit/README.md)
+- [本次整理校验](validation.json)
+- [首轮全景结论（历史快照）](EXECUTIVE_SUMMARY.md)
+- [首轮证据缺口（历史快照）](GAPS_AND_NEXT_STEPS.md)
+- [历史共享证据登记](_Evidence/SOURCE_REGISTER.md)
+- [研究计划与历史索引](docs/history/)
 
-## 01_Compute_Chips/01_NVIDIA
+## [01_Compute_Chips · 算力芯片与计算平台](01_Compute_Chips/README.md)
 
-- [硬件平台](01_Compute_Chips/01_NVIDIA/01_Hardware_Platform.md)
-- [软件栈](01_Compute_Chips/01_NVIDIA/02_Software_Stack.md)
-- [传感器接入](01_Compute_Chips/01_NVIDIA/03_Sensor_Integration.md)
-- [AI 能力](01_Compute_Chips/01_NVIDIA/04_AI_Capabilities.md)
-- [仿真环境](01_Compute_Chips/01_NVIDIA/05_Simulation_Environment.md)
-- [机器人本体适配](01_Compute_Chips/01_NVIDIA/06_Robot_Integration.md)
-- [生态建设](01_Compute_Chips/01_NVIDIA/07_Ecosystem.md)
-- [核心技术护城河](01_Compute_Chips/01_NVIDIA/08_Core_Technology_Moat.md)
-- [SWOT 分析](01_Compute_Chips/01_NVIDIA/09_SWOT_Analysis.md)
+- [01_NVIDIA](01_Compute_Chips/01_NVIDIA/README.md) — 既有 01—09 深度报告；12 份章节/专题。
+- [02_Intel](01_Compute_Chips/02_Intel/README.md) — 01—09 深度调研已交付，审阅状态见分项记录；19 份章节/专题。
+- [03_Qualcomm](01_Compute_Chips/03_Qualcomm/README.md) — 01—09 深度调研已交付，审阅状态见分项记录；19 份章节/专题。
+- [04_ARM](01_Compute_Chips/04_ARM/README.md) — 01—09 深度调研已交付，审阅状态见分项记录；19 份章节/专题。
+- [05_Rockchip](01_Compute_Chips/05_Rockchip/README.md) — 01—09 深度调研已交付，审阅状态见分项记录；18 份章节/专题。
+- [06_Huawei_HiSilicon](01_Compute_Chips/06_Huawei_HiSilicon/README.md) — 01—09 深度调研已交付，审阅状态见分项记录；18 份章节/专题。
+- [07_Cambricon](01_Compute_Chips/07_Cambricon/README.md) — 01—02 深度调研；03—09 为首轮简报；14 份章节/专题。
+- [08_Horizon_Robotics](01_Compute_Chips/08_Horizon_Robotics/README.md) — 01—09 深度调研已交付，审阅状态见分项记录；18 份章节/专题。
+- [09_Moore_Threads](01_Compute_Chips/09_Moore_Threads/README.md) — 首轮资料，待深度调研；9 份章节/专题。
+- [10_AMD](01_Compute_Chips/10_AMD/README.md) — 01—09 深度调研已交付，审阅状态见分项记录；17 份章节/专题。
 
-## 01_Compute_Chips/02_Intel
+## [02_Core_Components · 核心零部件](02_Core_Components/README.md)
 
-- [硬件平台](01_Compute_Chips/02_Intel/01_Hardware_Platform.md)
-- [软件栈](01_Compute_Chips/02_Intel/02_Software_Stack.md)
-- [传感器接入](01_Compute_Chips/02_Intel/03_Sensor_Integration.md)
-- [AI 能力](01_Compute_Chips/02_Intel/04_AI_Capabilities.md)
-- [仿真环境](01_Compute_Chips/02_Intel/05_Simulation_Environment.md)
-- [机器人本体适配](01_Compute_Chips/02_Intel/06_Robot_Integration.md)
-- [生态建设](01_Compute_Chips/02_Intel/07_Ecosystem.md)
-- [独有技术与生态](01_Compute_Chips/02_Intel/08_Proprietary_Technologies.md)
-- [SWOT 分析](01_Compute_Chips/02_Intel/09_SWOT_Analysis.md)
+- [10_Actuators_and_Reducers](02_Core_Components/10_Actuators_and_Reducers/README.md) — 首轮资料，待深度调研；5 份章节/专题。
+- [11_Sensors_and_Vision](02_Core_Components/11_Sensors_and_Vision/README.md) — 首轮资料，待深度调研；5 份章节/专题。
+- [12_Dexterous_Hands](02_Core_Components/12_Dexterous_Hands/README.md) — 首轮资料，待深度调研；5 份章节/专题。
 
-## 01_Compute_Chips/03_Qualcomm
+## [03_Robot_Manufacturers · 机器人厂商与场景](03_Robot_Manufacturers/README.md)
 
-- [硬件平台](01_Compute_Chips/03_Qualcomm/01_Hardware_Platform.md)
-- [软件栈](01_Compute_Chips/03_Qualcomm/02_Software_Stack.md)
-- [传感器接入](01_Compute_Chips/03_Qualcomm/03_Sensor_Integration.md)
-- [AI 能力](01_Compute_Chips/03_Qualcomm/04_AI_Capabilities.md)
-- [仿真环境](01_Compute_Chips/03_Qualcomm/05_Simulation_Environment.md)
-- [机器人本体适配](01_Compute_Chips/03_Qualcomm/06_Robot_Integration.md)
-- [生态建设](01_Compute_Chips/03_Qualcomm/07_Ecosystem.md)
-- [独有技术与生态](01_Compute_Chips/03_Qualcomm/08_Proprietary_Technologies.md)
-- [SWOT 分析](01_Compute_Chips/03_Qualcomm/09_SWOT_Analysis.md)
+- [13_Full_Stack_Integrators](03_Robot_Manufacturers/13_Full_Stack_Integrators/README.md) — 首轮资料，待深度调研；5 份章节/专题。
+- [14_Vertical_Scenario_Robots](03_Robot_Manufacturers/14_Vertical_Scenario_Robots/README.md) — 首轮资料，待深度调研；5 份章节/专题。
 
-## 01_Compute_Chips/04_ARM
+## [04_AI_Models · AI 模型](04_AI_Models/README.md)
 
-- [硬件平台](01_Compute_Chips/04_ARM/01_Hardware_Platform.md)
-- [软件栈](01_Compute_Chips/04_ARM/02_Software_Stack.md)
-- [传感器接入](01_Compute_Chips/04_ARM/03_Sensor_Integration.md)
-- [AI 能力](01_Compute_Chips/04_ARM/04_AI_Capabilities.md)
-- [仿真环境](01_Compute_Chips/04_ARM/05_Simulation_Environment.md)
-- [机器人本体适配](01_Compute_Chips/04_ARM/06_Robot_Integration.md)
-- [生态建设](01_Compute_Chips/04_ARM/07_Ecosystem.md)
-- [独有技术与生态](01_Compute_Chips/04_ARM/08_Proprietary_Technologies.md)
-- [SWOT 分析](01_Compute_Chips/04_ARM/09_SWOT_Analysis.md)
+- [15_Open_Source_VLA_Models](04_AI_Models/15_Open_Source_VLA_Models/README.md) — 首轮资料，待深度调研；5 份章节/专题。
+- [16_Domestic_Open_Source_Models](04_AI_Models/16_Domestic_Open_Source_Models/README.md) — 首轮资料，待深度调研；5 份章节/专题。
+- [17_Closed_Source_Models](04_AI_Models/17_Closed_Source_Models/README.md) — 首轮资料，待深度调研；5 份章节/专题。
 
-## 01_Compute_Chips/05_Rockchip
+## [05_Software_and_OS · 软件与操作系统](05_Software_and_OS/README.md)
 
-- [硬件平台](01_Compute_Chips/05_Rockchip/01_Hardware_Platform.md)
-- [软件栈](01_Compute_Chips/05_Rockchip/02_Software_Stack.md)
-- [传感器接入](01_Compute_Chips/05_Rockchip/03_Sensor_Integration.md)
-- [AI 能力](01_Compute_Chips/05_Rockchip/04_AI_Capabilities.md)
-- [仿真环境](01_Compute_Chips/05_Rockchip/05_Simulation_Environment.md)
-- [机器人本体适配](01_Compute_Chips/05_Rockchip/06_Robot_Integration.md)
-- [生态建设](01_Compute_Chips/05_Rockchip/07_Ecosystem.md)
-- [独有技术与生态](01_Compute_Chips/05_Rockchip/08_Proprietary_Technologies.md)
-- [SWOT 分析](01_Compute_Chips/05_Rockchip/09_SWOT_Analysis.md)
+- [18_Robot_Operating_Systems](05_Software_and_OS/18_Robot_Operating_Systems/README.md) — 首轮资料，待深度调研；5 份章节/专题。
+- [19_Simulation_Training_Platforms](05_Software_and_OS/19_Simulation_Training_Platforms/README.md) — 首轮资料，待深度调研；5 份章节/专题。
+- [20_Full_Stack_Cloud_Platforms](05_Software_and_OS/20_Full_Stack_Cloud_Platforms/README.md) — 首轮资料，待深度调研；5 份章节/专题。
 
-## 01_Compute_Chips/06_Huawei_HiSilicon
+## 下载与复用
 
-- [硬件平台](01_Compute_Chips/06_Huawei_HiSilicon/01_Hardware_Platform.md)
-- [软件栈](01_Compute_Chips/06_Huawei_HiSilicon/02_Software_Stack.md)
-- [传感器接入](01_Compute_Chips/06_Huawei_HiSilicon/03_Sensor_Integration.md)
-- [AI 能力](01_Compute_Chips/06_Huawei_HiSilicon/04_AI_Capabilities.md)
-- [仿真环境](01_Compute_Chips/06_Huawei_HiSilicon/05_Simulation_Environment.md)
-- [机器人本体适配](01_Compute_Chips/06_Huawei_HiSilicon/06_Robot_Integration.md)
-- [生态建设](01_Compute_Chips/06_Huawei_HiSilicon/07_Ecosystem.md)
-- [独有技术与生态](01_Compute_Chips/06_Huawei_HiSilicon/08_Proprietary_Technologies.md)
-- [SWOT 分析](01_Compute_Chips/06_Huawei_HiSilicon/09_SWOT_Analysis.md)
+GitHub 主仓库保存报告、正文图表、来源清单、skill、工具与核验记录。完整 HTML/PDF 原件、网页依赖和媒体保留本地，不纳入 Git 或 LFS；clone 不会自动取得这些原件。
 
-## 01_Compute_Chips/07_Cambricon
+每个分项的 REFERENCES.md / sources.json 保留官方 URL、本地归档路径与 SHA256。拥有原件的工作目录可继续打开本地 reference_metrial/index.html 并复用下载器；后续可连接外部归档而保留同一来源清单。
 
-- [硬件平台](01_Compute_Chips/07_Cambricon/01_Hardware_Platform.md)
-- [软件栈](01_Compute_Chips/07_Cambricon/02_Software_Stack.md)
-- [传感器接入](01_Compute_Chips/07_Cambricon/03_Sensor_Integration.md)
-- [AI 能力](01_Compute_Chips/07_Cambricon/04_AI_Capabilities.md)
-- [仿真环境](01_Compute_Chips/07_Cambricon/05_Simulation_Environment.md)
-- [机器人本体适配](01_Compute_Chips/07_Cambricon/06_Robot_Integration.md)
-- [生态建设](01_Compute_Chips/07_Cambricon/07_Ecosystem.md)
-- [独有技术与生态](01_Compute_Chips/07_Cambricon/08_Proprietary_Technologies.md)
-- [SWOT 分析](01_Compute_Chips/07_Cambricon/09_SWOT_Analysis.md)
-
-## 01_Compute_Chips/08_Horizon_Robotics
-
-- [硬件平台](01_Compute_Chips/08_Horizon_Robotics/01_Hardware_Platform.md)
-- [软件栈](01_Compute_Chips/08_Horizon_Robotics/02_Software_Stack.md)
-- [传感器接入](01_Compute_Chips/08_Horizon_Robotics/03_Sensor_Integration.md)
-- [AI 能力](01_Compute_Chips/08_Horizon_Robotics/04_AI_Capabilities.md)
-- [仿真环境](01_Compute_Chips/08_Horizon_Robotics/05_Simulation_Environment.md)
-- [机器人本体适配](01_Compute_Chips/08_Horizon_Robotics/06_Robot_Integration.md)
-- [生态建设](01_Compute_Chips/08_Horizon_Robotics/07_Ecosystem.md)
-- [独有技术与生态](01_Compute_Chips/08_Horizon_Robotics/08_Proprietary_Technologies.md)
-- [SWOT 分析](01_Compute_Chips/08_Horizon_Robotics/09_SWOT_Analysis.md)
-
-## 01_Compute_Chips/09_Moore_Threads
-
-- [硬件平台](01_Compute_Chips/09_Moore_Threads/01_Hardware_Platform.md)
-- [软件栈](01_Compute_Chips/09_Moore_Threads/02_Software_Stack.md)
-- [传感器接入](01_Compute_Chips/09_Moore_Threads/03_Sensor_Integration.md)
-- [AI 能力](01_Compute_Chips/09_Moore_Threads/04_AI_Capabilities.md)
-- [仿真环境](01_Compute_Chips/09_Moore_Threads/05_Simulation_Environment.md)
-- [机器人本体适配](01_Compute_Chips/09_Moore_Threads/06_Robot_Integration.md)
-- [生态建设](01_Compute_Chips/09_Moore_Threads/07_Ecosystem.md)
-- [独有技术与生态](01_Compute_Chips/09_Moore_Threads/08_Proprietary_Technologies.md)
-- [SWOT 分析](01_Compute_Chips/09_Moore_Threads/09_SWOT_Analysis.md)
-
-## 01_Compute_Chips/10_AMD
-
-- [硬件平台（01审阅稿，等待批准后继续02）](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/10_AMD/01_Hardware_Platform.md)
-
-## 02_Core_Components/10_Actuators_and_Reducers
-
-- [硬件规格](02_Core_Components/10_Actuators_and_Reducers/01_Hardware_Specs.md)
-- [接口与通信](02_Core_Components/10_Actuators_and_Reducers/02_Interface_and_Communication.md)
-- [软件驱动](02_Core_Components/10_Actuators_and_Reducers/03_Software_Drivers.md)
-- [仿真支持](02_Core_Components/10_Actuators_and_Reducers/04_Sim_to_Real_Support.md)
-- [市场地位](02_Core_Components/10_Actuators_and_Reducers/05_Market_Position.md)
-
-## 02_Core_Components/11_Sensors_and_Vision
-
-- [硬件规格](02_Core_Components/11_Sensors_and_Vision/01_Hardware_Specs.md)
-- [接口与通信](02_Core_Components/11_Sensors_and_Vision/02_Interface_and_Communication.md)
-- [软件驱动](02_Core_Components/11_Sensors_and_Vision/03_Software_Drivers.md)
-- [仿真支持](02_Core_Components/11_Sensors_and_Vision/04_Sim_to_Real_Support.md)
-- [市场地位](02_Core_Components/11_Sensors_and_Vision/05_Market_Position.md)
-
-## 02_Core_Components/12_Dexterous_Hands
-
-- [硬件规格](02_Core_Components/12_Dexterous_Hands/01_Hardware_Specs.md)
-- [接口与通信](02_Core_Components/12_Dexterous_Hands/02_Interface_and_Communication.md)
-- [软件驱动](02_Core_Components/12_Dexterous_Hands/03_Software_Drivers.md)
-- [仿真支持](02_Core_Components/12_Dexterous_Hands/04_Sim_to_Real_Support.md)
-- [市场地位](02_Core_Components/12_Dexterous_Hands/05_Market_Position.md)
-
-## 03_Robot_Manufacturers/13_Full_Stack_Integrators
-
-- [算力平台选型](03_Robot_Manufacturers/13_Full_Stack_Integrators/01_Computing_Platform_Selection.md)
-- [核心零部件供应链](03_Robot_Manufacturers/13_Full_Stack_Integrators/02_Core_Component_Supply_Chain.md)
-- [软件架构](03_Robot_Manufacturers/13_Full_Stack_Integrators/03_Software_Architecture.md)
-- [商业化落地](03_Robot_Manufacturers/13_Full_Stack_Integrators/04_Commercial_Deployment.md)
-- [SWOT 与技术栈](03_Robot_Manufacturers/13_Full_Stack_Integrators/05_SWOT_Analysis.md)
-
-## 03_Robot_Manufacturers/14_Vertical_Scenario_Robots
-
-- [算力平台选型](03_Robot_Manufacturers/14_Vertical_Scenario_Robots/01_Computing_Platform_Selection.md)
-- [核心零部件供应链](03_Robot_Manufacturers/14_Vertical_Scenario_Robots/02_Core_Component_Supply_Chain.md)
-- [软件架构](03_Robot_Manufacturers/14_Vertical_Scenario_Robots/03_Software_Architecture.md)
-- [商业化落地](03_Robot_Manufacturers/14_Vertical_Scenario_Robots/04_Commercial_Deployment.md)
-- [SWOT 与技术栈](03_Robot_Manufacturers/14_Vertical_Scenario_Robots/05_SWOT_Analysis.md)
-
-## 04_AI_Models/15_Open_Source_VLA_Models
-
-- [模型架构](04_AI_Models/15_Open_Source_VLA_Models/01_Model_Architecture.md)
-- [多模态能力](04_AI_Models/15_Open_Source_VLA_Models/02_Multimodal_Capabilities.md)
-- [硬件部署与算力需求](04_AI_Models/15_Open_Source_VLA_Models/03_Hardware_Deployment.md)
-- [仿真到现实迁移](04_AI_Models/15_Open_Source_VLA_Models/04_Sim_to_Real_Performance.md)
-- [生态与微调](04_AI_Models/15_Open_Source_VLA_Models/05_Ecosystem_and_Fine_tuning.md)
-
-## 04_AI_Models/16_Domestic_Open_Source_Models
-
-- [模型架构](04_AI_Models/16_Domestic_Open_Source_Models/01_Model_Architecture.md)
-- [多模态能力](04_AI_Models/16_Domestic_Open_Source_Models/02_Multimodal_Capabilities.md)
-- [硬件部署与算力需求](04_AI_Models/16_Domestic_Open_Source_Models/03_Hardware_Deployment.md)
-- [仿真到现实迁移](04_AI_Models/16_Domestic_Open_Source_Models/04_Sim_to_Real_Performance.md)
-- [生态与微调](04_AI_Models/16_Domestic_Open_Source_Models/05_Ecosystem_and_Fine_tuning.md)
-
-## 04_AI_Models/17_Closed_Source_Models
-
-- [模型架构](04_AI_Models/17_Closed_Source_Models/01_Model_Architecture.md)
-- [多模态能力](04_AI_Models/17_Closed_Source_Models/02_Multimodal_Capabilities.md)
-- [硬件部署与算力需求](04_AI_Models/17_Closed_Source_Models/03_Hardware_Deployment.md)
-- [仿真到现实迁移](04_AI_Models/17_Closed_Source_Models/04_Sim_to_Real_Performance.md)
-- [生态与微调](04_AI_Models/17_Closed_Source_Models/05_Ecosystem_and_Fine_tuning.md)
-
-## 05_Software_and_OS/18_Robot_Operating_Systems
-
-- [架构与通信机制](05_Software_and_OS/18_Robot_Operating_Systems/01_Architecture_and_Communication.md)
-- [硬件抽象与兼容性](05_Software_and_OS/18_Robot_Operating_Systems/02_Hardware_Abstraction.md)
-- [AI 模型集成](05_Software_and_OS/18_Robot_Operating_Systems/03_AI_Model_Integration.md)
-- [开发工具链](05_Software_and_OS/18_Robot_Operating_Systems/04_Development_Toolchain.md)
-- [SWOT 分析](05_Software_and_OS/18_Robot_Operating_Systems/05_SWOT_Analysis.md)
-
-## 05_Software_and_OS/19_Simulation_Training_Platforms
-
-- [架构与通信机制](05_Software_and_OS/19_Simulation_Training_Platforms/01_Architecture_and_Communication.md)
-- [硬件抽象与兼容性](05_Software_and_OS/19_Simulation_Training_Platforms/02_Hardware_Abstraction.md)
-- [AI 模型集成](05_Software_and_OS/19_Simulation_Training_Platforms/03_AI_Model_Integration.md)
-- [开发工具链](05_Software_and_OS/19_Simulation_Training_Platforms/04_Development_Toolchain.md)
-- [SWOT 分析](05_Software_and_OS/19_Simulation_Training_Platforms/05_SWOT_Analysis.md)
-
-## 05_Software_and_OS/20_Full_Stack_Cloud_Platforms
-
-- [架构与通信机制](05_Software_and_OS/20_Full_Stack_Cloud_Platforms/01_Architecture_and_Communication.md)
-- [硬件抽象与兼容性](05_Software_and_OS/20_Full_Stack_Cloud_Platforms/02_Hardware_Abstraction.md)
-- [AI 模型集成](05_Software_and_OS/20_Full_Stack_Cloud_Platforms/03_AI_Model_Integration.md)
-- [开发工具链](05_Software_and_OS/20_Full_Stack_Cloud_Platforms/04_Development_Toolchain.md)
-- [SWOT 分析](05_Software_and_OS/20_Full_Stack_Cloud_Platforms/05_SWOT_Analysis.md)
+原件与网页依赖保留既有字节；JSON 路径以仓库根目录为基准，公共工具在加载时解析。部分静态依赖缺失、动态页面限制及未取得证据继续保留在报告和 metadata 中。

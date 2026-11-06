@@ -1,0 +1,12 @@
+{
+  "id": "fourier-gr1",
+  "url": "https://www.fftai.com/",
+  "retrieved_at_utc": "2026-11-03T04:18:29.461385+00:00",
+  "status": 200,
+  "final_url": "https://www.fftai.com/",
+  "content_type": "text/html",
+  "sha256": "4a870ed2e7a314a4212f4c1dc8317a2acc781d8fe9db6fb3fc2051cbcb0f174a",
+  "file": "_Evidence/fourier-gr1.html",
+  "links": [],
+  "text_chars": 24
+}

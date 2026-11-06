@@ -1,0 +1,10 @@
+{
+  "id": "mujoco",
+  "url": "https://raw.githubusercontent.com/google-deepmind/mujoco/main/README.md",
+  "retrieved_at_utc": "2026-11-03T04:18:31.095111+00:00",
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/google-deepmind/mujoco/main/README.md",
+  "content_type": "text/plain; charset=utf-8",
+  "sha256": "1a9f46194b8eece62a5406f0ef7bb0899e2dffa2f0a7da8966d8d156f531c0d7",
+  "file": "_Evidence/mujoco.txt"
+}
