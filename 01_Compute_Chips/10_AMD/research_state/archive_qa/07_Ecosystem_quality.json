@@ -1,0 +1,46 @@
+{
+  "report": "01_Compute_Chips/10_AMD/07_Ecosystem.md",
+  "body_han_chars": 3802,
+  "tables": 4,
+  "sources": 17,
+  "archive_status": {
+    "partial_static": 11,
+    "complete_static": 6
+  },
+  "figures": 3,
+  "file_hash_checks": 1328,
+  "html_visible_text_equal": 13,
+  "page_local_dependencies_checked": 1580,
+  "report_local_links": 40,
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_GPU_Execution_and_Deployment.md": true,
+    "02B_RyzenAI_Compilation_and_Quantization.md": true,
+    "02C_Versal_Compiler_and_Runtime.md": true,
+    "02D_EDF_BSP_and_Execution_Domains.md": true,
+    "02E_ROS_Acceleration_and_System_Integration.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "README.md": true
+  },
+  "errors": [],
+  "warnings": [
+    "静态依赖部分缺失: AMD07_Robotics_Partners（报告应披露）",
+    "静态依赖部分缺失: AMD07_ROS2_Control（报告应披露）",
+    "静态依赖部分缺失: AMD07_Congatec_CRX1（报告应披露）",
+    "静态依赖部分缺失: AMD04_Ryzers_Repo（报告应披露）",
+    "静态依赖部分缺失: AMD04_Ryzers_License（报告应披露）",
+    "静态依赖部分缺失: KRS_V1_Docs（报告应披露）",
+    "静态依赖部分缺失: AMD_ROSS（报告应披露）",
+    "静态依赖部分缺失: AMD05_AUP_Repo（报告应披露）",
+    "静态依赖部分缺失: AMD07_WindRiver_Linux（报告应披露）",
+    "静态依赖部分缺失: AMD07_Distributors（报告应披露）",
+    "静态依赖部分缺失: AMD07_Warranty（报告应披露）"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

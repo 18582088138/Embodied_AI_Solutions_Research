@@ -1,0 +1,6 @@
+{
+  "coverage": "路线关系、资产/physics/render/sensor/ROS/学习与SDG分别研究；完整训练和实物迁移为缺口。",
+  "versions_and_measurements": "旧Vulkan教程与新World、MJX-JAX与Warp、Classic11与Harmonic、O3DE26.05与插件版本分别核对；四平台吞吐保留完整条件。",
+  "maturity_and_licenses": "演示、上游支持与生产验收分开；源码/二进制/资产/数据许可分别约束，资产未全取得。",
+  "figures_opened": "已实际打开3张Genesis原图及2张O3DE截图；确认URDF默认惯量提示和mesh product失败，图不证明吞吐。"
+}

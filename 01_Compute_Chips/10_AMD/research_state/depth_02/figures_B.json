@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "02B_xint8",
+    "source_id": "AMD_Quark_XINT8",
+    "source_url": "https://quark.docs.amd.com/latest/_images/xint8_quantize.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_XINT8--da39f2f8b3488490/assets/images/ad2e8be2b753406258f15fea.png",
+    "original_sha256": "706ff388cd357f6f82d9dac5ba58e42064bc76da8741b3254a1d5629dd8310ce",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02B_xint8.png",
+    "sha256": "706ff388cd357f6f82d9dac5ba58e42064bc76da8741b3254a1d5629dd8310ce",
+    "operation": "官方原PNG无修改复制，完整图无裁剪"
+  },
+  {
+    "slug": "02B_search",
+    "source_id": "AMD_Quark_Search",
+    "source_url": "https://quark.docs.amd.com/latest/_images/auto_search_diagram.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_Search--eceb0738118bf4ec/assets/images/9cf71fa4fbf432a551342629.png",
+    "original_sha256": "2fb7eee660ef79039c6f6987b951153c80fd05a7f833f7e18339648bdf912f2f",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02B_search.png",
+    "sha256": "2fb7eee660ef79039c6f6987b951153c80fd05a7f833f7e18339648bdf912f2f",
+    "operation": "官方原PNG无修改复制，完整图无裁剪"
+  }
+]

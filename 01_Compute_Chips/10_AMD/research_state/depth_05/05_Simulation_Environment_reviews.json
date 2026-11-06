@@ -1,0 +1,362 @@
+[
+  {
+    "source_id": "AMD05_Genesis_Blog",
+    "needle": "gs.init(backend=gs.vulkan)",
+    "claim": "AMD教程选择Vulkan",
+    "location": "初始化",
+    "evidence_type": "事实",
+    "conditions": "2026-02-09，Ubuntu24.04/Max示例",
+    "finding": "不证明ROCm物理后端"
+  },
+  {
+    "source_id": "AMD05_Genesis_Blog",
+    "needle": "dt=0.01",
+    "claim": "时间步设置",
+    "location": "Scene",
+    "evidence_type": "事实",
+    "conditions": "教程设置",
+    "finding": "120step仅对应1.2秒模拟时间"
+  },
+  {
+    "source_id": "AMD05_Genesis_Blog",
+    "needle": "without going through the physics solver",
+    "claim": "直接写DOF绕过物理",
+    "location": "Control Joint Position",
+    "evidence_type": "事实",
+    "conditions": "set_dofs_position",
+    "finding": "与PD运动分开"
+  },
+  {
+    "source_id": "AMD05_Genesis_Blog",
+    "needle": "controller torques",
+    "claim": "step控制动力学链",
+    "location": "Start the Simulation",
+    "evidence_type": "事实",
+    "conditions": "教学场景",
+    "finding": "生成力矩、接触、积分，不是实机验证"
+  },
+  {
+    "source_id": "AMD05_Genesis_Blog",
+    "needle": "n_envs = 9",
+    "claim": "九环境示例",
+    "location": "Parallel Simulation",
+    "evidence_type": "事实",
+    "conditions": "build batch9",
+    "finding": "没有吞吐benchmark"
+  },
+  {
+    "source_id": "AMD05_Genesis_Blog",
+    "needle": "Each environment has its own robot state",
+    "claim": "独立state共享kernel",
+    "location": "Parallel Simulation",
+    "evidence_type": "事实",
+    "conditions": "batch场景",
+    "finding": "需独立reset/done/动作"
+  },
+  {
+    "source_id": "AMD05_Genesis_Repo",
+    "needle": "Quadrants lowers Python kernel code",
+    "claim": "编译后端分层",
+    "location": "Compiler",
+    "evidence_type": "事实",
+    "conditions": "当前主分支",
+    "finding": "不追溯套给旧教程"
+  },
+  {
+    "source_id": "AMD05_Genesis_Repo",
+    "needle": "Apache-2.0 license",
+    "claim": "上游许可标记",
+    "location": "README",
+    "evidence_type": "事实",
+    "conditions": "主仓代码",
+    "finding": "资产/extra许可另核"
+  },
+  {
+    "source_id": "AMD05_Genesis_Docs",
+    "needle": "pip install genesis-world",
+    "claim": "当前安装包",
+    "location": "Getting started",
+    "evidence_type": "事实",
+    "conditions": "当前文档",
+    "finding": "需冻结版本"
+  },
+  {
+    "source_id": "AMD05_Mujoco_Overview",
+    "needle": "MuJoCo",
+    "claim": "MuJoCo上游路线",
+    "location": "Overview",
+    "evidence_type": "事实",
+    "conditions": "stable归档",
+    "finding": "不作为AMD实测"
+  },
+  {
+    "source_id": "Model05_NVIDIA_08_DEEP_MUJOCO_MJX",
+    "needle": "Nvidia and AMD GPUs",
+    "claim": "MJX-JAX支持AMD",
+    "location": "MJX Implementations",
+    "evidence_type": "事实",
+    "conditions": "上游文档",
+    "finding": "不是MJX-Warp支持"
+  },
+  {
+    "source_id": "Model05_NVIDIA_08_DEEP_MUJOCO_MJX",
+    "needle": "specifically for NVIDIA GPUs",
+    "claim": "Warp针对NVIDIA",
+    "location": "MJX Implementations",
+    "evidence_type": "事实",
+    "conditions": "MJX-Warp",
+    "finding": "不套AMD"
+  },
+  {
+    "source_id": "Model05_NVIDIA_08_DEEP_MUJOCO_MJX",
+    "needle": "mjx.put_model",
+    "claim": "设备模型转换",
+    "location": "Minimal example",
+    "evidence_type": "事实",
+    "conditions": "JAX",
+    "finding": "与CPU状态对象分开"
+  },
+  {
+    "source_id": "Model05_NVIDIA_08_DEEP_MUJOCO_MJX",
+    "needle": "650K, 1.8M, 950K and 2.7M",
+    "claim": "单humanoid吞吐四值",
+    "location": "Performance",
+    "evidence_type": "厂商宣称",
+    "conditions": "M3Max/3995WX/A100/8芯片TPU不同batch",
+    "finding": "非AMD GPU性能或同条件排序"
+  },
+  {
+    "source_id": "Model05_NVIDIA_08_DEEP_MUJOCO_COMPUTATION",
+    "needle": "complementarity can be violated",
+    "claim": "接触近似",
+    "location": "Physical realism and soft contacts",
+    "evidence_type": "事实",
+    "conditions": "convex contact",
+    "finding": "不是物理真值"
+  },
+  {
+    "source_id": "Model05_NVIDIA_08_DEEP_MUJOCO_COMPUTATION",
+    "needle": "Euler-integrated filters diverge",
+    "claim": "filter时间常数边界",
+    "location": "Stateful actuators",
+    "evidence_type": "事实",
+    "conditions": "t<h",
+    "finding": "filterexact稳定不证明全系统稳定"
+  },
+  {
+    "source_id": "AMD05_Gazebo_Docs",
+    "needle": "May, 2029",
+    "claim": "Harmonic支持日期",
+    "location": "页头",
+    "evidence_type": "事实",
+    "conditions": "Gazebo项目",
+    "finding": "不是AMD BSP生命周期"
+  },
+  {
+    "source_id": "AMD05_Gazebo_Sensors",
+    "needle": "<update_rate>1</update_rate>",
+    "claim": "IMU教程1Hz",
+    "location": "IMU sensor",
+    "evidence_type": "事实",
+    "conditions": "教程",
+    "finding": "不套真实IMU"
+  },
+  {
+    "source_id": "AMD05_Gazebo_Sensors",
+    "needle": "Not all the tags are supported",
+    "claim": "标签支持有差别",
+    "location": "sensor tags",
+    "evidence_type": "事实",
+    "conditions": "Harmonic",
+    "finding": "逐传感器核验"
+  },
+  {
+    "source_id": "AMD05_Gazebo_ROS",
+    "needle": "bridge",
+    "claim": "ROS需要桥接",
+    "location": "ROS integration",
+    "evidence_type": "事实",
+    "conditions": "ros_gz",
+    "finding": "消息和方向需匹配"
+  },
+  {
+    "source_id": "AMD05_Gazebo_Migration",
+    "needle": "Classic",
+    "claim": "Classic迁移",
+    "location": "migration guide",
+    "evidence_type": "事实",
+    "conditions": "Classic到Gazebo",
+    "finding": "旧包不自动兼容"
+  },
+  {
+    "source_id": "KRS_Install",
+    "needle": "2022.1",
+    "claim": "KRS旧工具链",
+    "location": "Installation",
+    "evidence_type": "事实",
+    "conditions": "该安装说明",
+    "finding": "不称当前EDF兼容"
+  },
+  {
+    "source_id": "AMD05_AUP_Repo",
+    "needle": "Learning",
+    "claim": "AUP教学入口",
+    "location": "README",
+    "evidence_type": "事实",
+    "conditions": "公开仓库",
+    "finding": "不证明量产SLA"
+  },
+  {
+    "source_id": "AMD05_O3DE_Concepts",
+    "needle": "gazebo_msgs",
+    "claim": "组件外部消息依赖",
+    "location": "组件说明",
+    "evidence_type": "事实",
+    "conditions": "25.05起，ROS发行版条件",
+    "finding": "依赖缺失时禁用"
+  },
+  {
+    "source_id": "AMD05_O3DE_Concepts",
+    "needle": "ROS2FrameComponent is a representation",
+    "claim": "frame时空关系",
+    "location": "Frames",
+    "evidence_type": "事实",
+    "conditions": "26.05文档",
+    "finding": "TF2与namespace需匹配"
+  },
+  {
+    "source_id": "AMD05_O3DE_Import",
+    "needle": "Fix URDF",
+    "claim": "URDF修复入口",
+    "location": "Importer",
+    "evidence_type": "事实",
+    "conditions": "当前文档",
+    "finding": "兼容不等于惯量正确"
+  },
+  {
+    "source_id": "AMD05_O3DE_Import",
+    "needle": "prefab",
+    "claim": "资产生成",
+    "location": "Importer",
+    "evidence_type": "事实",
+    "conditions": "source/product链",
+    "finding": "图示product可能失败"
+  },
+  {
+    "source_id": "AMD05_O3DE_Physics",
+    "needle": "PhysX",
+    "claim": "物理引擎",
+    "location": "Physics",
+    "evidence_type": "事实",
+    "conditions": "O3DE",
+    "finding": "不推所有GPU插件兼容"
+  },
+  {
+    "source_id": "AMD05_O3DE_Materials",
+    "needle": "Multiply: The product",
+    "claim": "材料combine",
+    "location": "Physics materials",
+    "evidence_type": "事实",
+    "conditions": "接触材料",
+    "finding": "不等于PBR"
+  },
+  {
+    "source_id": "AMD05_O3DE_Materials",
+    "needle": "available with PhysX 5.1 enabled only",
+    "claim": "柔顺接触版本",
+    "location": "Compliant Contact",
+    "evidence_type": "事实",
+    "conditions": "PhysX5.1 enabled",
+    "finding": "需匹配部署版本"
+  },
+  {
+    "source_id": "AMD05_O3DE_Time",
+    "needle": "/O3DE/ROS2/ClockType",
+    "claim": "三种clock",
+    "location": "Simulation Time Settings",
+    "evidence_type": "事实",
+    "conditions": "ROS2 Gem",
+    "finding": "需统一use_sim_time"
+  },
+  {
+    "source_id": "AMD05_O3DE_Time",
+    "needle": "Does not allow to adjust the time at runtime",
+    "claim": "实时clock不能调",
+    "location": "Realtime Clock",
+    "evidence_type": "事实",
+    "conditions": "realtime",
+    "finding": "与simulation clock分开"
+  },
+  {
+    "source_id": "AMD05_RGL_Repo",
+    "needle": "CUDA and OptiX",
+    "claim": "RGL依赖",
+    "location": "Description",
+    "evidence_type": "事实",
+    "conditions": "RGL库",
+    "finding": "不能认定AMD可用"
+  },
+  {
+    "source_id": "AMD05_RGL_Repo",
+    "needle": "they have not been fully tested yet",
+    "claim": "新build未充分测",
+    "location": "build table",
+    "evidence_type": "事实",
+    "conditions": "development2510及更新",
+    "finding": "expected不等已验证"
+  },
+  {
+    "source_id": "AMD05_O3DE_Robotics",
+    "needle": "robotics",
+    "claim": "产业引擎定位",
+    "location": "industry page",
+    "evidence_type": "事实",
+    "conditions": "公开介绍",
+    "finding": "不采用性能推广作为AMD测量"
+  },
+  {
+    "source_id": "AMD06_XArm_Sim2Real",
+    "needle": "ROCm implementation",
+    "claim": "特定ROCm Warp实现",
+    "location": "Hardware and Software",
+    "evidence_type": "事实",
+    "conditions": "2026-09-29，MI300X/MI355X",
+    "finding": "随案例补丁，不泛化上游支持"
+  },
+  {
+    "source_id": "AMD06_XArm_Sim2Real",
+    "needle": "queried at 40 Hz",
+    "claim": "真实策略调用40Hz",
+    "location": "Policy Controller Architecture",
+    "evidence_type": "事实",
+    "conditions": "RyzenAI300，ONNX小MLP",
+    "finding": "非servo频率，无成功分母"
+  },
+  {
+    "source_id": "AMD06_XArm_Sim2Real",
+    "needle": "orientation-aware caging",
+    "claim": "XArm6奖励适配",
+    "location": "Environment Details",
+    "evidence_type": "事实",
+    "conditions": "可变夹爪方向",
+    "finding": "不是纯视觉VLA"
+  },
+  {
+    "source_id": "AMD06_XArm_JAX",
+    "needle": "AMD Radeon RX 7900 XTX",
+    "claim": "JAX教程测试GPU",
+    "location": "installation",
+    "evidence_type": "事实",
+    "conditions": "Ubuntu24.04/ROCm7.2",
+    "finding": "与后续MI训练分开"
+  },
+  {
+    "source_id": "AMD06_XArm_JAX",
+    "needle": "maxhullvert",
+    "claim": "mesh简化",
+    "location": "Asset Creation",
+    "evidence_type": "事实",
+    "conditions": "XArm7",
+    "finding": "小范围Jacobian不外推大扰动"
+  }
+]

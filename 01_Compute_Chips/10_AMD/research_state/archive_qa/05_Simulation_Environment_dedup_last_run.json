@@ -1,0 +1,35 @@
+{
+  "time_utc": "2026-11-04T08:37:00.098423+00:00",
+  "summary": {
+    "complete_static": 13,
+    "partial_static": 8,
+    "failed": 0
+  },
+  "names": [
+    "AMD05_Genesis_Blog",
+    "AMD05_Genesis_Repo",
+    "AMD05_Genesis_Docs",
+    "Model05_NVIDIA_08_DEEP_MUJOCO_MJX",
+    "AMD05_Gazebo_Docs",
+    "AMD05_O3DE_Concepts",
+    "KRS_Install",
+    "AMD05_AUP_Repo",
+    "AMD05_Mujoco_Overview",
+    "AMD06_XArm_Sim2Real",
+    "Model05_NVIDIA_08_DEEP_MUJOCO_COMPUTATION",
+    "AMD06_XArm_JAX",
+    "AMD05_Gazebo_Sensors",
+    "AMD05_Gazebo_ROS",
+    "AMD05_Gazebo_Migration",
+    "AMD05_O3DE_Import",
+    "AMD05_O3DE_Physics",
+    "AMD05_O3DE_Materials",
+    "AMD05_O3DE_Time",
+    "AMD05_RGL_Repo",
+    "AMD05_O3DE_Robotics"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

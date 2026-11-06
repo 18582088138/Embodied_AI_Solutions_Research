@@ -1,0 +1,41 @@
+{
+  "report": "01_Compute_Chips/10_AMD/05_Simulation_Environment.md",
+  "body_han_chars": 5003,
+  "tables": 3,
+  "sources": 21,
+  "archive_status": {
+    "complete_static": 13,
+    "partial_static": 8
+  },
+  "figures": 6,
+  "file_hash_checks": 1415,
+  "html_visible_text_equal": 21,
+  "page_local_dependencies_checked": 1611,
+  "report_local_links": 52,
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_GPU_Execution_and_Deployment.md": true,
+    "02B_RyzenAI_Compilation_and_Quantization.md": true,
+    "02C_Versal_Compiler_and_Runtime.md": true,
+    "02D_EDF_BSP_and_Execution_Domains.md": true,
+    "02E_ROS_Acceleration_and_System_Integration.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "README.md": true
+  },
+  "errors": [],
+  "warnings": [
+    "静态依赖部分缺失: AMD05_Genesis_Repo（报告应披露）",
+    "静态依赖部分缺失: Model05_NVIDIA_08_DEEP_MUJOCO_MJX（报告应披露）",
+    "静态依赖部分缺失: KRS_Install（报告应披露）",
+    "静态依赖部分缺失: AMD05_AUP_Repo（报告应披露）",
+    "静态依赖部分缺失: AMD05_Mujoco_Overview（报告应披露）",
+    "静态依赖部分缺失: Model05_NVIDIA_08_DEEP_MUJOCO_COMPUTATION（报告应披露）",
+    "静态依赖部分缺失: AMD05_RGL_Repo（报告应披露）",
+    "静态依赖部分缺失: AMD05_O3DE_Robotics（报告应披露）"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

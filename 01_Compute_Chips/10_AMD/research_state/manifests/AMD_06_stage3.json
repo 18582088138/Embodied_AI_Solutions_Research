@@ -1,0 +1,7 @@
+[
+ {"name":"AMD06_GB_Gene01","url":"https://news.gbionics.ai/?article=gene-01-comes-to-life&lang=en","expected":"html","used_by":["06_Robot_Integration"]},
+ {"name":"AMD06_GB_CES","url":"https://news.gbionics.ai/?article=ces-2026&lang=en","expected":"html","used_by":["06_Robot_Integration"]},
+ {"name":"AMD06_GB_Fincantieri","url":"https://news.gbionics.ai/?article=fincantieri&lang=en","expected":"html","used_by":["06_Robot_Integration"]},
+ {"name":"AMD06_GB_Eni","url":"https://news.gbionics.ai/?article=eni&lang=en","expected":"html","used_by":["06_Robot_Integration"]},
+ {"name":"AMD06_GB_Factory","url":"https://news.gbionics.ai/?article=data-factory&lang=en","expected":"html","used_by":["06_Robot_Integration"]}
+]

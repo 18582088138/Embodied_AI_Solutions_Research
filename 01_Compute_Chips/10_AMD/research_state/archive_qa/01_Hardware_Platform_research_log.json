@@ -1,0 +1,144 @@
+{
+  "data_cutoff": "2026-11-04 Asia/Shanghai",
+  "excluded_candidates": [
+    {
+      "source_id": "AMD_K26_DS987",
+      "url": "https://docs.amd.com/api/khub/maps/gX6THsxXsWUzU8xcmObJnQ/attachments/SXafmCH9kPqXjywx_5dRBA-gX6THsxXsWUzU8xcmObJnQ/content?download=true&locationValue=reader",
+      "registry_archive_status": "failed",
+      "reason": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    {
+      "source_id": "AMD_K26_Thermal_UG1090",
+      "url": "https://docs.amd.com/api/khub/maps/9OJPc4Uy0feMWtT2Y_GFhA/attachments/K5DZS0W6GjDxxQ~UAGi7sA-9OJPc4Uy0feMWtT2Y_GFhA/content?download=true&locationValue=reader",
+      "registry_archive_status": "failed",
+      "reason": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    {
+      "source_id": "OpenNav_Full_Report",
+      "url": "https://github.com/open-navigation/opennav_robotics_workload_benchmark/blob/main/docs/Robotics%20Workload%20Platform%20Benchmarking%20Results.pdf?raw=true",
+      "registry_archive_status": "failed",
+      "reason": "PermissionError: redirect destination disallowed; not requested"
+    },
+    {
+      "source_id": "AMD_Kria_Selection",
+      "url": "https://docs.amd.com/v/u/en-US/kria-som-psg",
+      "registry_archive_status": "partial_static",
+      "reason": "导航门户shell，未取得可引用完整文档正文"
+    },
+    {
+      "source_id": "AMD_Versal_DS950",
+      "url": "https://docs.amd.com/v/u/en-US/ds950-versal-overview",
+      "registry_archive_status": "partial_static",
+      "reason": "导航门户shell，未取得可引用完整文档正文"
+    }
+  ],
+  "partial_static": [
+    {
+      "source_id": "AMD_Robotics",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Robotics--1d122095ffc2b0d2/metadata.json"
+    },
+    {
+      "source_id": "AMD_Kria_AI",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_AI--7353530316c6a6c9/metadata.json"
+    },
+    {
+      "source_id": "AMD_Versal_AI_Edge_Gen2",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Versal_AI_Edge_Gen2--b67212c82b7a1fee/metadata.json"
+    },
+    {
+      "source_id": "AMD_Radeon_AI_PRO",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Radeon_AI_PRO--13a5c808eaffbeee/metadata.json"
+    },
+    {
+      "source_id": "AMD_X100",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_X100--4f1c446a039cb382/metadata.json"
+    },
+    {
+      "source_id": "AMD_X199",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_X199--41d273d3f78862f2/metadata.json"
+    },
+    {
+      "source_id": "AMD_P100",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_P100--0eef19c6ba93278c/metadata.json"
+    },
+    {
+      "source_id": "AMD_P100_Blog",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_P100_Blog--3d639f2a265fe194/metadata.json"
+    },
+    {
+      "source_id": "AMD_Kria_AI_Dev",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_AI_Dev--fffec690feed8269/metadata.json"
+    },
+    {
+      "source_id": "AMD_K26C",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_K26C--c1aacc4713c0350b/metadata.json"
+    },
+    {
+      "source_id": "AMD_K24C",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_K24C--075d1504e682e687/metadata.json"
+    },
+    {
+      "source_id": "AMD_K26I",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_K26I--0757b0334feb2277/metadata.json"
+    },
+    {
+      "source_id": "AMD_K24I",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_K24I--4d3fa334daf3e292/metadata.json"
+    },
+    {
+      "source_id": "AMD_KR260",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KR260--38007a715153d4af/metadata.json"
+    },
+    {
+      "source_id": "AMD_KD240",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KD240--0d2d5a82f6ef2d54/metadata.json"
+    },
+    {
+      "source_id": "AMD_VEK385",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VEK385--a629f2c03e80c27d/metadata.json"
+    },
+    {
+      "source_id": "AMD_VEK280",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VEK280--e2db2c2f564c1a06/metadata.json"
+    },
+    {
+      "source_id": "AMD_Ryzen_Embedded",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Ryzen_Embedded--8eb60c1dbd1f1b13/metadata.json"
+    },
+    {
+      "source_id": "AMD_V3000",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_V3000--df7ab46c24809f87/metadata.json"
+    },
+    {
+      "source_id": "AMD_Ryzen_AI_Max_395",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Ryzen_AI_Max_395--6d3fa52ed6236ec2/metadata.json"
+    },
+    {
+      "source_id": "Sapphire_R9700",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Sapphire_R9700--3f934e2d309b3817/metadata.json"
+    },
+    {
+      "source_id": "AMD_MI350X",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MI350X--918e143f4ae59526/metadata.json"
+    },
+    {
+      "source_id": "AMD_MI355X",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MI355X--780b66f499f7b7f7/metadata.json"
+    },
+    {
+      "source_id": "AMD_MI350P",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MI350P--3169e5a40951d92f/metadata.json"
+    },
+    {
+      "source_id": "AMD_Instinct_MI350",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Instinct_MI350--e8aa4d799ac7efbe/metadata.json"
+    },
+    {
+      "source_id": "AMD_KV260",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KV260--758b998a2b6400ac/metadata.json"
+    }
+  ],
+  "visual_review": "7幅已逐张打开。P100汽车频率PDF可视表为3.65，不能采用有误摘要。PSG元数据/门户日期不作为本地PDF正式发布日期。",
+  "check_execution": "首次检查已写出pass QA，但控制台cp1252无法打印中文；使用Python -X utf8重跑，返回0。未改toolkit脚本。",
+  "semantic_review": "人工核对39项关键主张，保留版本、精度、代理、投影、温度、功耗、成熟度与许可边界；没有硬件实机测试。"
+}

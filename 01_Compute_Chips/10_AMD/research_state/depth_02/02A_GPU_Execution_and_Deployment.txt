@@ -1,0 +1,130 @@
+# AMD 软件栈专题 02A：GPU 执行、图编译与模型部署
+
+> 2026-11-04资料快照。本专题补深02中的GPU路线，采用08的“痛点→机制→接口→条件→证据→对标”方法。官方机制、厂商性能宣称和本文分析分别注明；没有安装、编译或运行模型。本节的优化指南主要面向Instinct，不能直接当作X199/R9700的完整支持证明。
+
+## 1. 先分清四种“图”：它们消除的开销不同
+
+具身模型可能同时受Python调度、GPU小kernel启动、矩阵访存、KV缓存和观测排队影响。“启用图优化”不能解释全部变化。HIP Graph组织设备操作依赖；TorchInductor降低框架图并生成融合kernel；MIGraphX导入模型、优化并编译；vLLM组织在线请求、attention后端和缓存。四者的产物、复建条件和错误边界不同。@@AMD_HIP_Graphs@@ @@AMD_Acceleration_Libs@@ @@AMD_MIGraphX_Repo@@ @@AMD_vLLM_Optimization@@
+
+| 层 | 减少什么开销 | 保留/生成的对象 | 仍未解决的问题 |
+|---|---|---|---|
+| HIP Graph | 每次API/kernels提交与依赖设置 | hipGraph_t、hipGraphExec_t | 算子本身慢、输入已过时 |
+| torch.compile | Python框架调度、中间算子与访存 | lowered graph、编译kernel/cache | graph break、动态形状、首次编译 |
+| MIGraphX | 模型图优化与目标执行实现 | program、compiled program、序列化模型 | 图支持与精度验证、目标兼容 |
+| vLLM V1 | 请求调度、attention与KV管理 | scheduler、cache blocks、backend | 上层网络/取消、物理动作安全 |
+
+## 2. HIP线程与内存层级：源码可移植，调优参数不能照搬
+
+![AMD官方HIP线程层级](@@FIG:02A_hip_threads@@)
+
+图表示Grid→Block→Warp的逻辑层级，没有给R9700或MI350的物理CU数量。HIP指南区分CDNA的64线程warp与RDNA的32线程warp；warpSize由架构决定。block通过shared memory与同步协作，多个blocks不应依赖未定义调度顺序。CUDA源码若写死32lane的掩码、shuffle归约或block拆分，HIPIFY改名后仍需数值和边界测试。@@AMD_HIP_Model@@
+
+GPU以SIMT执行一致指令，不同分支通过掩蔽lane推进；寄存器、LDS和驻留wave slots限制可隐藏的访存延迟。**分析：**点云邻域查找、稀疏图遍历和带大量条件的碰撞计算，不会因CU更多自动获得与矩阵乘相同的伸缩性。先看线程是否读取连续地址、是否分支发散、每线程资源是否压低驻留量，再选择block大小；occupancy高只是资源利用的一个条件，不是时延最优的充分条件。@@AMD_HIP_Model@@ @@AMD_HIP_Tuning@@
+
+![AMD官方HIP内存命名空间示意](@@FIG:02A_hip_memory@@)
+
+该图是可见范围示意，不是“Local总在高速片上”的容量/时延保证。global、shared和每线程数据需要结合编译资源报告理解，溢出的局部数据可能增加全局访存。模型的图像编码、attention、layout转换、后处理往往有不同的运算强度。**分析：**以`I=运算次数/搬运字节`和目标持续带宽`B`估计理想上限`P≤min(计算上限,I×B)`，必须注明字节是否含中间写回和权重重复读取；这一上限不是官方实测，也不能使用服务器HBM带宽替代APU共享LPDDR预算。@@AMD_HIP_Model@@ @@AMD_HIP_Tuning@@
+
+## 3. 内存一致性：完成通知、可见性和数据竞争是三件事
+
+Coarse-grained memory通过同步边界和cache flush让其他agent看到更新；fine-grained memory允许更细粒度共享，但常以限制缓存或更重一致性协议换取可见性。HIP文档建议大块顺序数据优先考虑coarse，flags/signals等小同步变量选择fine；这是访问机制建议，具体GPU/驱动能力还需查询。fine-grained不等于可忽略原子、ownership或CPU/GPU并发写竞争。@@AMD_HIP_Coherence@@
+
+| 同步对象 | CPU/设备等待行为 | coarse host内存可见性 | 工程影响 |
+|---|---|---|---|
+| hipStreamSynchronize | CPU等待指定stream | Yes | 限定局部队列，仍阻塞host |
+| hipDeviceSynchronize | CPU等待设备全部streams | Yes | 易把无关感知/语言任务耦合 |
+| hipEventSynchronize | CPU等待指定event | 取决于event release scope | 默认device范围不能随意当system fence |
+| hipStreamWaitEvent | stream等待event，host可继续 | 文档表为No | 表达设备依赖，不替代coarse host发布 |
+
+`hipEventReleaseToSystem`可建立system-scope release，可能涉及较重的cache flush；`hipEventDisableTiming`去除计时记录有利于同步开销。文档的hipHostMalloc默认coherence还受flags与`HIP_HOST_COHERENT`影响；`hipHostMallocMapped`与noncoherent flag的组合规则不同。因此allocator名称不能代替实际内存属性检查。@@AMD_HIP_Coherence@@
+
+**分析设计：**摄像头帧先由producer持有，GPU job引用它，在输出完成且目标消费者可见后才能发布/归还。线程安全队列只保护队列对象，不自动flush设备cache；同一物理DRAM也不自动保证图像格式、跨设备映射与ownership正确。managed memory还要检查HMM、XNACK和设备属性；初次page fault与稳态访存分别计时，避免把大模型“能寻址”解释成持续高带宽。@@AMD_HIP_Memory@@
+
+## 4. HIP Graph：建立、实例化、重放与失效边界
+
+![AMD官方stream操作与graph依赖关系](@@FIG:02A_hip_graph@@)
+
+图左侧通过全设备同步实现A→B/C→D，右侧把依赖显式表达为边。优势是依赖已知后可以减少重复host提交和保留并行关系；图不保证设备真的同时运行B/C。共享CU、带宽和资源不足仍可能串行或互相拖慢。@@AMD_HIP_Graphs@@
+
+`hipGraph_t`是模板，`hipGraphInstantiate`验证/初始化并产生`hipGraphExec_t`，`hipGraphLaunch`在指定stream重放。stream capture期间操作是记入图而非立即执行；普通非HIP host函数默认仍执行，只有通过`hipLaunchHostFunc`关联到stream才形成host node。同步`hipMalloc/hipMemcpy/hipFree`不能直接用于捕获，需预分配或使用相应async调用。图内内存访问必须发生在allocation之后、free之前。@@AMD_HIP_Graphs@@
+
+![AMD官方HIP Graph定性时间线](@@FIG:02A_hip_graph_timing@@)
+
+图展示小kernel等待host launch形成的空洞，**不含setup时间、没有数值刻度、不是特定GPU测试**。分析可写摊销条件：若一次setup为`S`，每次原执行`L`、graph执行`G`，重复`N`次只有`S+N×G<N×L`才有整体收益，即`N>S/(L-G)`且`L>G`。输入变化导致重建、图外copy和host callback还要加入预算，不能从图中估算固定加速倍数。@@AMD_HIP_Graphs@@
+
+ROCm graph-safe表明确区分库：rocBLAS、hipBLAS、RCCL等列支持，hipBLASLt、RPP和部分solver/sparse库有条件，MIOpen、rocDecode、rocJPEG、Composable Kernel等在该表列不支持。此表是库级检查入口；某框架经改写使用的特定kernel是否可捕获仍需trace验证，不能由“支持PyTorch”推出全模型graph-safe。@@AMD_ROCm_GraphSafe@@
+
+## 5. SOMA内存池：复用收益与跨stream依赖
+
+`hipMallocAsync/hipFreeAsync`将分配/释放放入stream顺序；`hipMemPoolCreate`、`hipMallocFromPoolAsync`和pool attributes控制复用/保留。逻辑free不保证物理内存立即返回OS；内存池可保留空闲容量。图内内存也有独立pool统计，`hipDeviceGetGraphMemAttribute`可查询，`hipDeviceGraphMemTrim`归还未被图使用的容量。@@AMD_HIP_Allocator@@ @@AMD_HIP_Graphs@@
+
+**分析：**A stream分配、B stream使用时，需要显式依赖使B访问发生在分配完成后，并使free晚于B的最后使用；“指针拿到了”不证明异步allocation已执行。同一camera buffer可循环复用，但只有job和消费者都完成才可重新填充。释放阈值过小可能增加分配开销，保留过多又压缩KV/workspace；调优应记录pool used/reserved与OOM，而不是只记录最终权重大小。
+
+## 6. 框架编译与attention：避免物化大中间矩阵
+
+FlashAttention通过Q/K/V分块提升片上数据复用，减少attention中的中间数据搬运。AMD指南提供Composable Kernel与Triton后端；环境变量选择的是实现路径，不能给任意head dimension/mask/precision相同支持承诺。PyTorch编译通过TorchInductor降低并融合算子，示例把自回归KV限制为StaticCache和`max_cache_length`以稳定形状。示例`max-autotune-no-cudagraphs`还说明框架编译可与graph重放分开选择。@@AMD_Acceleration_Libs@@
+
+TunableOp在warmup或离线profiling选取rocBLAS/hipBLASLt的GEMM实现，结果表包含PT、ROCm、库和GPU架构Validator。资料里的CSV是PyTorch2.4/ROCm6.1/gfx942历史例子，不能当10.1部署记录。**分析：**保存tuning表和validator，模型/shape/软件升级后重新确认；只保存“已开启TunableOp”无法证明线上命中了同一算法。编译/fusion收益、attention后端收益与数值格式变化应分别做消融。@@AMD_Acceleration_Libs@@
+
+## 7. MIGraphX：program、target、shape与拷贝策略
+
+### 7.1 导入、编译、序列化分别是什么
+
+2026-10-28教程用`migraphx::program`和`onnx_options`导入ONNX，保存MessagePack `.mxr`，再以msgpack或JSON读取。教程明确导入之后还需compile到target并运行；仅有文件扩展名不能证明其已经包含目标优化、调优结果或设备代码。MIGraphX仓库依赖HIP、rocBLAS、MIOpen、Protobuf、MessagePack和SQLite调优数据库；模型引擎是这些执行实现的协作，不是一个独立无依赖的ONNX解释器。@@AMD_MIGraphX_Parse@@ @@AMD_MIGraphX_Repo@@
+
+Python API以`shape`描述dtype、lens、strides和dynamic dims，以`argument`承载buffer，以`program`管理module/instructions，以`target`指定gpu或ref；`run(params)`按输入名传入arguments。`argument_from_pointer`包装外部地址，需要应用保证正确的shape、存储位置和生命周期。API页标2025-10-16，而安装环境已列2.18.0，示例应与实际包签名核对；不能将页面的默认值当成永远不变ABI。@@AMD_MIGraphX_Python@@ @@AMD_MIGraphX@@
+
+### 7.2 三个容易改变时延或精度的编译选项
+
+`compile(target, offload_copy=True, fast_math=True, exhaustive_tune=False)`中，offload_copy会插入输入上传与结果回读指令；设False需要caller满足设备argument契约，并不自动建立相机DMA互操作。fast_math可能用近似数学实现，不能只检查类别top1而忽略策略动作误差。exhaustive_tune增加kernel搜索，setup成本和稳态性能必须分开计时。@@AMD_MIGraphX_Python@@
+
+| 对象/配置 | 解决的问题 | 复建和验证重点 |
+|---|---|---|
+| dynamic_dimension(min,max,optimals) | 表示允许范围与希望优化的形状 | 最小/最大/常见值、越界输入、不同图路径 |
+| lens/strides/packed | 描述实际内存布局 | 不把转置view当紧密存储、正确计算bytes |
+| offload_copy | 由引擎或caller管理host/device输入输出 | 分别测copy、compute、同步与数据驻留 |
+| fast_math | 使用更快的近似数学实现 | 高敏感输出、误差阈值与任务metric |
+| exhaustive tuning | 搜索kernel/tactic实现 | GPU/库/shape、搜索时间、结果cache |
+
+`set_default_dim_value`给未指定维度补一个值，不等于模型支持所有运行时维度；动态shape对象也不保证每个operator都接受整个范围。**分析：**两路相机、可变token长度、动作chunk变化应分别选边界shape并记录编译结果/内存，而不是凭一次导入成功宣称VLA支持。@@AMD_MIGraphX_Parse@@ @@AMD_MIGraphX_Python@@
+
+### 7.3 从编译开关定位实现，而不是只记录“已加速”
+
+2026-10-28调优页提供`MIGRAPHX_SET_GEMM_PROVIDER`、MLIR算子选择、layernorm fusion、fast softmax和flash decoding等开关；GEMM默认provider区分gfx90a与其他架构。`MIGRAPHX_SKIP_BENCHMARKING=1`跳过测候选而取first solution，有利于减少构建时间，但不表示稳态最快。未识别GPU options可能被忽略，复建日志需证明选项被接受、实际lowering/provider命中。@@AMD_MIGraphX_Tune@@
+
+**分析实验设计：**固定ONNX和输入hash，对照拷贝策略、fast_math、MLIR/fusion和GEMM provider，每次只改变一组机制并记录数值误差、首轮/稳态时间、临时内存与GPU架构；`migraphx-driver perf ... -n 50`是文档提供的benchmark入口，不包含完整相机、ROS或动作链。本文未执行这些命令，也未取得目标VLA的性能和workspace数据。@@AMD_MIGraphX_Tune@@
+
+## 8. 在线vLLM：prefill、decode和容量不能只用token/s描述
+
+V1优化指南主要针对MI300X/325X/350X/355X，AITER将linear、RMSNorm、MoE或attention等路径融合，FP4BMM明确需要MI350X/355X；Radeon/fallback的backend另外列出。启动日志应确认实际backend，不凭设置`VLLM_ROCM_USE_AITER=1`认定每层都用了AITER。文档称MHA backend可较legacy实现提高TPS，但不同模型、请求数、GPU等条件不能被抹去，本文不将这些倍数作为机器人端侧排名。@@AMD_vLLM_Optimization@@
+
+**分析：**普通decoder模型KV数据量可粗估为`M_KV≈2×层数×KV heads×head dim×活动tokens×每元素字节`，未包含分页碎片、scale、索引和graph/workspace。GQA用KV heads而非query heads；MLA的cache结构不同，不能套用该式。量化权重不自动量化KV。文档提醒部分MLA的TP会复制KV，DP Attention+EP在高并发下可改其分配；这与Versal DP/TP的AIE blocks含义不同。@@AMD_vLLM_Optimization@@
+
+| 服务旋钮 | 实际控制 | 应分别测什么 |
+|---|---|---|
+| max-num-seqs | 每批sequence并发上限 | 排队时间、活动KV、拒绝/取消 |
+| max-num-batched-tokens | 每轮token工作预算 | prefill对decode干扰、TTFT/TPOT |
+| gpu-memory-utilization | engine的内存预算设置，文档侧重KV预留 | 权重/KV/graph/临时内存和其他进程余量 |
+| graph mode | FULL/PIECEWISE等捕获方式 | 适用batch、图内/图外时间、首轮成本 |
+| TP/PP/DP/EP | 权重/层/请求/专家不同分配 | 通信、cache复制、单请求及并发收益 |
+
+**分析：**机器人远程语言服务应记录输入观测时刻、请求TTL、取消到资源回收的时间，以及失联后的本地状态。首token快不表示整段结构化规划完成快；解码TPS提高不意味着策略实时调用或伺服频率提高。模型卸载/进程重启可能触发新warmup和cache压力，在线感知与语言服务需要在同条件并发测尾时延。
+
+## 9. 隔离与诊断：选择设备不是安全分区
+
+ROCm隔离指南明确环境变量不能隔离不可信应用，因为程序可在runtime初始化前重置变量。Docker限制设备访问比变量强，PCIe passthrough VM进一步分开guest kernel；这仍不自动证明GPU内部带宽、cache、调度和reset故障被分区。不同Instinct/Radeon/APU的驱动、虚拟化和设备复位支持需单列。@@AMD_ROCm_Isolation@@
+
+profiling应先用rocprofv3/API timeline判断launch空洞、同步与copy，再结合kernel counters/roofline和SMI观察内存/热/clock。Counter采集可能增加开销，应把测量模式和正常执行分开。GPU event、host wall time和ROS frame-age分别记录；GPU计时不含Python排队、网络、CPU后处理时，不能写成端到端时延。@@AMD_HIP_Tuning@@
+
+## 10. 与CUDA/TensorRT比较：复用的是问题分解，产物仍需重新构建
+
+CUDA Graphs同样将定义、实例化和重放分开，TensorRT将network/builder/config、engine与execution context分开。两边都依赖版本、图结构和对象生命周期；已有CUDA专用插件、warp假设、数值验证和调优资产影响迁移工作量。机制相似不证明同一模型同功率同延迟，本文没有跨平台共同测量。@@Compare_CUDA_Graphs@@ @@Compare_TRT_Builder@@
+
+| 迁移对象 | 可复用的工作 | 需要重做的工作 |
+|---|---|---|
+| 数学模型/ONNX | 输入输出与验证样本 | 算子、精度、dynamic shape和后端 |
+| kernel算法 | 分块/归约/流水线思路 | warp、intrinsics、LDS/寄存器、编译目标 |
+| GPU graphs | 操作依赖/生命周期设计 | graph-safe调用、捕获/更新条件 |
+| engine/tuning/cache | 构建参数记录 | 目标二进制、库版本、性能与恢复 |
+
+生产发布需固定GPU/SKU、OS/kernel/driver、Core SDK、framework/EP、模型/外部权重、输入shape/dtype、插件和tuning/cache。本文没有验证X199的正式矩阵条目，没有完成目标VLA动态shape/workspace benchmark；这些应作为进入部署实验的输入，不能由本专题的API分析自动放行。代码、组件包、模型权重和数据许可各自核对，MIGraphX仓库MIT也不覆盖整套ROCm或模型。@@AMD_ROCm_Compatibility@@ @@AMD_ROCm_Licenses@@ @@AMD_MIGraphX_Repo@@

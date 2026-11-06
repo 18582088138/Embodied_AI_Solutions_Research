@@ -1,0 +1,8 @@
+[
+ {"name":"KRS_Perception","url":"https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/6_perception.html","expected":"html","used_by":["02E_ROS_Acceleration_and_System_Integration"]},
+ {"name":"KRS_Vitis_Function","url":"https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/vitis_accelerated_function.html","expected":"html","used_by":["02E_ROS_Acceleration_and_System_Integration"]},
+ {"name":"KRS_Faster_Publisher","url":"https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/5_faster_ros2_publisher.html","expected":"html","used_by":["02E_ROS_Acceleration_and_System_Integration"]},
+ {"name":"ROS_REP_2008","url":"https://www.ros.org/reps/rep-2008.html","expected":"html","used_by":["02E_ROS_Acceleration_and_System_Integration"]},
+ {"name":"ROS_REP_2007","url":"https://www.ros.org/reps/rep-2007.html","expected":"html","used_by":["02E_ROS_Acceleration_and_System_Integration"]},
+ {"name":"Compare_ROS_Buffer","url":"https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/nitros_migration.html","expected":"html","used_by":["02E_ROS_Acceleration_and_System_Integration"]}
+]

@@ -1,0 +1,542 @@
+{
+  "data_cutoff": "2026-11-04 Asia/Shanghai",
+  "excluded_candidates": [
+    {
+      "source_id": "KRS_Repository",
+      "url": "https://github.com/ros-acceleration/kria_robotics_stack",
+      "registry_archive_status": "failed",
+      "reason": "错误ros-acceleration候选HTTP404；正确Xilinx/KRS已引用"
+    },
+    {
+      "source_id": "KRS_Docs",
+      "url": "https://xilinx.github.io/KRS/",
+      "registry_archive_status": "complete_static",
+      "reason": "JavaScript redirect，没有实质正文；实际sphinx文档另引用"
+    },
+    {
+      "source_id": "Kria_Ubuntu",
+      "url": "https://xilinx.github.io/kria-apps-docs/ubuntu_support.html",
+      "registry_archive_status": "complete_static",
+      "reason": "redirect壳，无实质正文"
+    },
+    {
+      "source_id": "Kria_BootFW",
+      "url": "https://xilinx.github.io/kria-apps-docs/bootfw.html",
+      "registry_archive_status": "complete_static",
+      "reason": "redirect壳，无实质正文"
+    },
+    {
+      "source_id": "Kria_OpenAMP",
+      "url": "https://xilinx.github.io/kria-apps-docs/openamp.html",
+      "registry_archive_status": "complete_static",
+      "reason": "redirect壳，无实质正文"
+    },
+    {
+      "source_id": "KR260_Perception_Overview",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/ros2_perception_node/ros2_perception_node_landing.html",
+      "registry_archive_status": "partial_static",
+      "reason": "目录导航，无实际部署正文"
+    },
+    {
+      "source_id": "AMD_VitisAI_Gen2_ML_API",
+      "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/misc/runtime/vart_ml_apis.html",
+      "registry_archive_status": "complete_static",
+      "reason": "API链接跳转说明，不能当API实质正文"
+    },
+    {
+      "source_id": "Kria_Apps_Docs",
+      "url": "https://xilinx.github.io/kria-apps-docs/",
+      "registry_archive_status": "complete_static",
+      "reason": "根目录redirect/导航，采用实际KR260部署页"
+    }
+  ],
+  "partial_static": [
+    {
+      "source_id": "AMD_ROCm_Docs",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Docs--99e92032d6c85b28/metadata.json",
+      "missing_dependencies": {
+        "https://rocm.docs.amd.com/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_RyzenAI_Docs",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Docs--e9bfe555a77a6c76/metadata.json",
+      "missing_dependencies": {
+        "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_RyzenAI_Linux",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Linux--340fd1ed1df2691c/metadata.json",
+      "missing_dependencies": {
+        "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_ROCm_Compatibility",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Compatibility--73eb6a67974c1794/metadata.json",
+      "missing_dependencies": {
+        "https://rocm.docs.amd.com/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_Kria_AI_Dev",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_AI_Dev--fffec690feed8269/metadata.json",
+      "missing_dependencies": {
+        "https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://js.qualified.com/qualified.js?token=wTVZrM1NrP9FvcsY": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://static.cloud.coveo.com/atomic/v3.59.2/atomic.esm.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_XRT_Docs",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_XRT_Docs--73f58c3ff923ef14/metadata.json",
+      "missing_dependencies": {
+        "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://xilinx.github.io/XRT/master/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ]
+    },
+    {
+      "source_id": "AMD_Vitis_Product",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Vitis_Product--0d473c7ff82290bd/metadata.json",
+      "missing_dependencies": {
+        "https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://js.qualified.com/qualified.js?token=wTVZrM1NrP9FvcsY": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://static.cloud.coveo.com/atomic/v3.59.2/atomic.esm.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "KRS_Install",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Install--a6a9705f586b43ec/metadata.json",
+      "missing_dependencies": {
+        "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://xilinx.github.io/KRS/sphinx/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ]
+    },
+    {
+      "source_id": "AMD_ROSS",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROSS--0d07cb982567ca67/metadata.json",
+      "missing_dependencies": {
+        "https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://js.qualified.com/qualified.js?token=wTVZrM1NrP9FvcsY": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://static.cloud.coveo.com/atomic/v3.59.2/atomic.esm.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_ROCm_PyTorch",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_PyTorch--f61a7c3ccb57100b/metadata.json",
+      "missing_dependencies": {
+        "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_ROCm_vLLM",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_vLLM--833604b48a069bb4/metadata.json",
+      "missing_dependencies": {
+        "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_ROCm_ORT",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_ORT--076f5318efc9eb58/metadata.json",
+      "missing_dependencies": {
+        "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_MIGraphX",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX--19ac7ddf92b36824/metadata.json",
+      "missing_dependencies": {
+        "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_RyzenAI_Install",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Install--96c9b3d907fbd73e/metadata.json",
+      "missing_dependencies": {
+        "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_RyzenAI_App",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_App--a0a79da08a1587cc/metadata.json",
+      "missing_dependencies": {
+        "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_ROCm_Transition",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Transition--542f64212e19c900/metadata.json",
+      "missing_dependencies": {
+        "https://rocm.docs.amd.com/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_ROCm_Release",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Release--5617e8b9f4682798/metadata.json",
+      "missing_dependencies": {
+        "https://rocm.docs.amd.com/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_HIP_Docs",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Docs--4308e787a86320db/metadata.json",
+      "missing_dependencies": {
+        "https://rocm.docs.amd.com/projects/HIP/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font",
+        "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_HIPIFY_Docs",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIPIFY_Docs--dea51c8601d2ef3c/metadata.json",
+      "missing_dependencies": {
+        "https://rocm.docs.amd.com/projects/HIPIFY/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_HIP_Async",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Async--5cf849602d8959af/metadata.json",
+      "missing_dependencies": {
+        "https://rocm.docs.amd.com/projects/HIP/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_HIP_Memory",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Memory--37f458b46d3d4e56/metadata.json",
+      "missing_dependencies": {
+        "https://rocm.docs.amd.com/projects/HIP/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_RyzenAI_Release",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Release--bc694aec7cba9af1/metadata.json",
+      "missing_dependencies": {
+        "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_RyzenAI_Quantization",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Quantization--8fc3250ab99fc1f3/metadata.json",
+      "missing_dependencies": {
+        "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_Quark_RyzenAI",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_RyzenAI--b4ec993645c01201/metadata.json",
+      "missing_dependencies": {
+        "https://quark.docs.amd.com/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font",
+        "https://quark.docs.amd.com/latest/_static/qk-install-selector.css?v=410c81a9": "ValueError: asset returned HTML rather than image/style/script/font"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_RyzenAI_Compile",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Compile--eab5d9af47172378/metadata.json",
+      "missing_dependencies": {
+        "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_RyzenAI_Ops",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Ops--bde168caf8fe096d/metadata.json",
+      "missing_dependencies": {
+        "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_RyzenAI_LLM",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_LLM--145e705f1425c8a5/metadata.json",
+      "missing_dependencies": {
+        "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_RyzenAI_Server",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Server--73f7f1097aaa3232/metadata.json",
+      "missing_dependencies": {
+        "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ]
+    },
+    {
+      "source_id": "AMD_RyzenAI_Hybrid",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Hybrid--4ca2f1350901715c/metadata.json",
+      "missing_dependencies": {
+        "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_RyzenAI_OGA_Prepare",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_OGA_Prepare--ee2ea8d09f248077/metadata.json",
+      "missing_dependencies": {
+        "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_Vitis_Libraries",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Vitis_Libraries--4e59035d5d9bdbf9/metadata.json",
+      "missing_dependencies": {
+        "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_XRT_Native",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_XRT_Native--6314c5328eb9f0e0/metadata.json",
+      "missing_dependencies": {
+        "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://xilinx.github.io/XRT/master/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ]
+    },
+    {
+      "source_id": "AMD_EDF_Product",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Product--6542148c0f1b7488/metadata.json",
+      "missing_dependencies": {
+        "https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://js.qualified.com/qualified.js?token=wTVZrM1NrP9FvcsY": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://static.cloud.coveo.com/atomic/v3.59.2/atomic.esm.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "KRS_Official_Repo",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Official_Repo--b9864133e62d0a8a/metadata.json",
+      "missing_dependencies": {
+        "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist.",
+        "https://github.com/Xilinx/KRS/raw/main/sphinx/source/docs/imgs/krs.svg": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "KRS_V1_Docs",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_V1_Docs--12b252bae9acef40/metadata.json",
+      "missing_dependencies": {
+        "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://xilinx.github.io/KRS/sphinx/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ]
+    },
+    {
+      "source_id": "KRS_Hardware",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Hardware--6411957b9bdf52ef/metadata.json",
+      "missing_dependencies": {
+        "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://xilinx.github.io/KRS/sphinx/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ]
+    },
+    {
+      "source_id": "KR260_Perception_Deploy",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KR260_Perception_Deploy--52b7aa08d2a0e404/metadata.json",
+      "missing_dependencies": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/media/xilinx-logo.png": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ]
+    },
+    {
+      "source_id": "KRS_Realtime",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Realtime--4e8d6f22b87222a2/metadata.json",
+      "missing_dependencies": {
+        "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://xilinx.github.io/KRS/sphinx/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ]
+    },
+    {
+      "source_id": "KRS_License",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_License--532e4d1d7e1b35c2/metadata.json",
+      "missing_dependencies": {
+        "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_Ross_Repository",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Ross_Repository--b287fa98ab5f5da2/metadata.json",
+      "missing_dependencies": {
+        "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist.",
+        "https://github.com/Xilinx/ross-ai-assistant/raw/main/docs/images/amd-ross-lockup-dark.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://github.com/Xilinx/ross-ai-assistant/raw/main/docs/images/amd-ross-lockup-light.png": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_RyzenAI_Analyzer",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Analyzer--bd299a4f91c66251/metadata.json",
+      "missing_dependencies": {
+        "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_RyzenAI_SMI",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_SMI--50204205c2c56d7a/metadata.json",
+      "missing_dependencies": {
+        "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_ROCm_Licenses",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Licenses--79d59a12ff9a6fe3/metadata.json",
+      "missing_dependencies": {
+        "https://rocm.docs.amd.com/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_HIP_License",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_License--9c42ef4afff326cd/metadata.json",
+      "missing_dependencies": {
+        "https://rocm.docs.amd.com/projects/HIP/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    },
+    {
+      "source_id": "AMD_RyzenAI_Licenses",
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Licenses--ad9f946ca3641851/metadata.json",
+      "missing_dependencies": {
+        "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ]
+    }
+  ],
+  "structural_review": "正文/≤8列表、本地链接、73HTML文本一致、原件/依赖/图哈希已检查；01和README基线一致。首次6幅图证据指向共享asset池，现改为相同哈希的页面自包含asset路径后重跑通过；未改原HTML/PDF/图片。",
+  "semantic_review": "89项关键主张逐项按官方正文、表和API复核；版本/图示旧产物/SDKenv/driver/1.8算子表/1.9beta保留边界。EULA2.1是section编号；segmented无需shell.json、DFX另需。",
+  "visual_review": "9幅逐张实际打开：RyzenAIstack、Vitisflow、XRTlayers、VARTML、async、VEK385system、EDF16/20/24页。无空白/截断/乱码；PDFSept2025仅方法，system图旧ELF/cache由6.3默认.rai正文消歧；HIPforeignObjectSVG未纳入完成图集。",
+  "non_measurements": "没有安装SDK、接受EULA、获取模型权重、构建/刷板/运行模型/机器人实机测试；样例sanity与厂商speedup不算本次实测。",
+  "dedup": "对最终74个引用重新默认运行统一下载器，网络请求（含robots）为0；成功资料复用，无refresh/repair。"
+}

@@ -1,0 +1,4 @@
+[
+ {"name":"AMD04_Ryzers_Molmo_Readme","url":"https://github.com/AMDResearch/Ryzers/blob/main/packages/vla/molmoact2/README.md","expected":"html"},
+ {"name":"AMD04_Ryzers_Molmo_Docker","url":"https://github.com/AMDResearch/Ryzers/blob/main/packages/vla/molmoact2/Dockerfile","expected":"html"}
+]

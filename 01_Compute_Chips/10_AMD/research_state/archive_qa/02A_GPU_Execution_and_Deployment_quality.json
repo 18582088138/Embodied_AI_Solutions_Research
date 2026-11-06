@@ -1,0 +1,42 @@
+{
+  "report": "01_Compute_Chips/10_AMD/02A_GPU_Execution_and_Deployment.md",
+  "body_han_chars": 3362,
+  "tables": 5,
+  "sources": 19,
+  "archive_status": {
+    "partial_static": 17,
+    "complete_static": 2
+  },
+  "figures": 4,
+  "file_hash_checks": 1859,
+  "html_visible_text_equal": 19,
+  "page_local_dependencies_checked": 2156,
+  "report_local_links": 44,
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02_Software_Stack.md": true,
+    "README.md": true
+  },
+  "errors": [],
+  "warnings": [
+    "静态依赖部分缺失: AMD_HIP_Graphs（报告应披露）",
+    "静态依赖部分缺失: AMD_Acceleration_Libs（报告应披露）",
+    "静态依赖部分缺失: AMD_MIGraphX_Repo（报告应披露）",
+    "静态依赖部分缺失: AMD_vLLM_Optimization（报告应披露）",
+    "静态依赖部分缺失: AMD_HIP_Model（报告应披露）",
+    "静态依赖部分缺失: AMD_HIP_Tuning（报告应披露）",
+    "静态依赖部分缺失: AMD_HIP_Coherence（报告应披露）",
+    "静态依赖部分缺失: AMD_HIP_Memory（报告应披露）",
+    "静态依赖部分缺失: AMD_ROCm_GraphSafe（报告应披露）",
+    "静态依赖部分缺失: AMD_HIP_Allocator（报告应披露）",
+    "静态依赖部分缺失: AMD_MIGraphX_Parse（报告应披露）",
+    "静态依赖部分缺失: AMD_MIGraphX_Python（报告应披露）",
+    "静态依赖部分缺失: AMD_MIGraphX（报告应披露）",
+    "静态依赖部分缺失: AMD_MIGraphX_Tune（报告应披露）",
+    "静态依赖部分缺失: AMD_ROCm_Isolation（报告应披露）",
+    "静态依赖部分缺失: AMD_ROCm_Compatibility（报告应披露）",
+    "静态依赖部分缺失: AMD_ROCm_Licenses（报告应披露）"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

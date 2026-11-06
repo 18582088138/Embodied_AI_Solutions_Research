@@ -1,0 +1,87 @@
+{
+  "chapter": "09_SWOT_Analysis",
+  "data_cutoff": "2026-11-04",
+  "completed_at_utc": "2026-11-04T15:04:45.502756+00:00",
+  "summary": {
+    "body_han_chars": 4230,
+    "tables": 4,
+    "sources": 27,
+    "figures": 2,
+    "claim_reviews": 57,
+    "archive_status": {
+      "partial_static": 12,
+      "complete_static": 15
+    },
+    "quality_errors": 0,
+    "dedup_network_requests": 0,
+    "report_sha256": "edfbf2fc07955466eb8281ead7e555500ccee3f185ae1f9a84751b0846d58858"
+  },
+  "manual_review": {
+    "coverage": "市场/采购分母、具体case成熟度、SWOT条件、公开MSRP/交期、系统BOM/TCO敏感性、政策/许可缺口、七场景矩阵与POC至量产放行深入。",
+    "versions_and_measurements": "K24/K26四料号价格/交期按采集时网页核；case年份、policy频率/预测/计划分开；成本示例是明确假设。",
+    "maturity_and_licenses": "不补成功率/份额/收入/ROI；法规和财报定位失败未引用；所有正式出口/安全/维护合同待核。",
+    "figures_opened": "已实际打开Solectrix case PDFp2及congatec cRX1 PDFp2完整渲染；性能责任与optional BOM标记均核查。"
+  },
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_GPU_Execution_and_Deployment.md": true,
+    "02B_RyzenAI_Compilation_and_Quantization.md": true,
+    "02C_Versal_Compiler_and_Runtime.md": true,
+    "02D_EDF_BSP_and_Execution_Domains.md": true,
+    "02E_ROS_Acceleration_and_System_Integration.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08A_GPU_Memory_and_Execution.md": true,
+    "08B_XDNA_Numerics_and_Dataflow.md": true,
+    "08C_Versal_Dataflow_RealTime_and_Lifecycle.md": true,
+    "08_Core_Technology_Moat.md": true,
+    "README.md": true
+  },
+  "final_dedup": {
+    "time_utc": "2026-11-04T15:04:35.283403+00:00",
+    "summary": {
+      "complete_static": 15,
+      "partial_static": 12,
+      "failed": 0
+    },
+    "names": [
+      "AMD_Robotics",
+      "AMD06_XArm_Sim2Real",
+      "AMD04_LeRobot_Blog",
+      "AMD06_Solectrix_PDF",
+      "AMD06_STW_PDF",
+      "AMD06_Robotec_PDF",
+      "AMD06_GB_Factory_PR",
+      "AMD08_MI350_Architecture",
+      "AMD08_CDNA4_Whitepaper",
+      "AMD07_Congatec_CRX1_PDF",
+      "AMD_RyzenAI_Release",
+      "AMD_Versal_Gen2_Brief",
+      "AMD_VAI_Custom_Ops",
+      "AMD08_IRON_Repo",
+      "AMD_EDF_SHEL_XSA",
+      "AMD_EDF_Production",
+      "AMD_VitisAI_Gen2_Output",
+      "AMD_Kria_AI_Dev",
+      "AMD07_WindRiver_Linux",
+      "AMD05_Genesis_Blog",
+      "AMD05_O3DE_Concepts",
+      "AMD_K24C",
+      "AMD_K24I",
+      "AMD_K26C",
+      "AMD_K26I",
+      "AMD_Versal_Gen2_Industrial",
+      "AMD07_ROS2_Control"
+    ],
+    "network_requests_including_robots": 0,
+    "new_assets": 0,
+    "asset_attempts": 0,
+    "tool": "toolkit/download_materials.py"
+  },
+  "method": "官方原文/模型卡/源码→原图实际打开→条件审阅→结构/归档检查→最终去重；未运行硬件/机器人实测"
+}

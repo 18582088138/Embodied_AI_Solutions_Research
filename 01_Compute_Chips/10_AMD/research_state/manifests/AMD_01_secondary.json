@@ -1,0 +1,18 @@
+[
+ {"name":"AMD_Kria_Selection_PDF","url":"https://docs.amd.com/api/khub/documents/lwwUFdfst1gWnYUxm9b4PA/content?Ft-Calling-App=ft%2Fturnkey-portal&Ft-Calling-App-Version=5.4.8","expected":"pdf"},
+ {"name":"AMD_K26_Wiki","url":"https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/1641152513/Kria+K26+SOM","expected":"html"},
+ {"name":"AMD_Versal_Gen2_Brief","url":"https://www.amd.com/content/dam/amd/en/documents/products/adaptive-socs-and-fpgas/versal/versal-ai-edge-gen2-product-brief.pdf","expected":"pdf"},
+ {"name":"AMD_Versal_Gen2_Industrial","url":"https://www.amd.com/content/dam/amd/en/documents/products/adaptive-socs-and-fpgas/versal/versal-ai-edge-gen2-industrial-solution-brief.pdf","expected":"pdf"},
+ {"name":"AMD_Versal_DS950","url":"https://docs.amd.com/v/u/en-US/ds950-versal-overview","expected":"any"},
+ {"name":"AMD_VEK385","url":"https://www.amd.com/en/products/adaptive-socs-and-fpgas/evaluation-boards/vek385.html","expected":"html"},
+ {"name":"AMD_Versal_Gen1_Brief","url":"https://www.amd.com/content/dam/amd/en/documents/products/adaptive-socs-and-fpgas/versal/amd-versal-ai-edge-product-brief.pdf","expected":"pdf"},
+ {"name":"AMD_VEK280","url":"https://www.amd.com/en/products/adaptive-socs-and-fpgas/evaluation-boards/vek280.html","expected":"html"},
+ {"name":"AMD_Embedded_8000_Brief","url":"https://www.amd.com/content/dam/amd/en/documents/products/embedded/ryzen/amd-ryzen-embedded-8000-product-brief.pdf","expected":"pdf"},
+ {"name":"AMD_V3000_Brief","url":"https://www.amd.com/content/dam/amd/en/documents/products/embedded/ryzen/ryzen-embedded-v3000-series-product-brief.pdf","expected":"pdf"},
+ {"name":"AMD_V2000_Brief","url":"https://www.amd.com/content/dam/amd/en/documents/products/embedded/ryzen/v2000-product-brief.pdf","expected":"pdf"},
+ {"name":"AMD_MI355X","url":"https://www.amd.com/en/products/accelerators/instinct/mi350/mi355x.html","expected":"html"},
+ {"name":"AMD_MI350X","url":"https://www.amd.com/en/products/accelerators/instinct/mi350/mi350x.html","expected":"html"},
+ {"name":"AMD_MI350P","url":"https://www.amd.com/en/products/accelerators/instinct/mi350/mi350p.html","expected":"html"},
+ {"name":"OpenNav_Robotics_Benchmark","url":"https://opennav.org/news/opennav-robotics-workload-benchmark","expected":"html"},
+ {"name":"mimik_Agentic_Benchmark","url":"https://www.mimik.com/agentix-compute-benchmarking","expected":"html"}
+]

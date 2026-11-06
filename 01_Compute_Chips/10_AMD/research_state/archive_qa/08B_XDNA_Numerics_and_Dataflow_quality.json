@@ -1,0 +1,44 @@
+{
+  "report": "01_Compute_Chips/10_AMD/08B_XDNA_Numerics_and_Dataflow.md",
+  "body_han_chars": 2945,
+  "tables": 2,
+  "sources": 13,
+  "archive_status": {
+    "partial_static": 7,
+    "complete_static": 6
+  },
+  "figures": 2,
+  "file_hash_checks": 1119,
+  "html_visible_text_equal": 13,
+  "page_local_dependencies_checked": 1312,
+  "report_local_links": 32,
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_GPU_Execution_and_Deployment.md": true,
+    "02B_RyzenAI_Compilation_and_Quantization.md": true,
+    "02C_Versal_Compiler_and_Runtime.md": true,
+    "02D_EDF_BSP_and_Execution_Domains.md": true,
+    "02E_ROS_Acceleration_and_System_Integration.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08A_GPU_Memory_and_Execution.md": true,
+    "README.md": true
+  },
+  "errors": [],
+  "warnings": [
+    "静态依赖部分缺失: AMD08_IRON_Repo（报告应披露）",
+    "静态依赖部分缺失: AMD08_IRON_Architecture（报告应披露）",
+    "静态依赖部分缺失: AMD08_IRON_Devices（报告应披露）",
+    "静态依赖部分缺失: AMD_Quark_A16W8（报告应披露）",
+    "静态依赖部分缺失: AMD_Quark_XINT8（报告应披露）",
+    "静态依赖部分缺失: AMD08_IRON_License（报告应披露）",
+    "静态依赖部分缺失: AMD_RyzenAI_Licenses（报告应披露）"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

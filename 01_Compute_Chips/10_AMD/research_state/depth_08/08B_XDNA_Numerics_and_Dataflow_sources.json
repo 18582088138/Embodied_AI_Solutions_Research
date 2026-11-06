@@ -1,0 +1,255 @@
+[
+  {
+    "source_id": "AMD08_IRON_Repo",
+    "number": "S01",
+    "title": "IRON官方源码与安装说明",
+    "version": "2026-11-04采集main快照；实际release另验",
+    "url": "https://github.com/Xilinx/mlir-aie",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Repo--d8a68a736295ae54/index.html",
+    "sha256": "a5a9378c57002b47a244e74c75306424ea31e07c4f22e0b67c4fdf8877604d0c",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Repo--d8a68a736295ae54/original.response",
+    "original_sha256": "3250816d3bc1936a05bb9b37aae3fcabf618854d25a5fb58e3ad22ccab3cb4c2",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Repo--d8a68a736295ae54/metadata.json",
+    "collected_at": "2026-11-04T09:16:16.877602+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD08_IRON_Latest_Home",
+    "number": "S02",
+    "title": "AMD08_IRON_Latest_Home",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://xilinx.github.io/mlir-aie/latest/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Latest_Home--d3aec3ce521a7f4c/index.html",
+    "sha256": "60112e91a5dc4f04ed8a16a28df7f4acb087dc87b4ef7c8977c08f96e5673888",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Latest_Home--d3aec3ce521a7f4c/original.response",
+    "original_sha256": "efc97885716b42def3711e69b73ec3064464651550d152aa896a3037c48668fc",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Latest_Home--d3aec3ce521a7f4c/metadata.json",
+    "collected_at": "2026-11-04T09:19:02.774654+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD08_IRON_Architecture",
+    "number": "S03",
+    "title": "AMD08_IRON_Architecture",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://github.com/Xilinx/mlir-aie/blob/main/skills/aie-iron-design/references/architecture.md",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Architecture--c23530c876cdd5b8/index.html",
+    "sha256": "489b114f3d91b3238b1ca7527bb173a0ea8c8be17825d80c5fae3a555807ac18",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Architecture--c23530c876cdd5b8/original.response",
+    "original_sha256": "90cbcdf4eba1b5bd8fa6c1689601e2f772b02a837085c9fe1cf1abf6a6a1652f",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Architecture--c23530c876cdd5b8/metadata.json",
+    "collected_at": "2026-11-04T09:16:36.300988+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD08_IRON_Devices",
+    "number": "S04",
+    "title": "AMD08_IRON_Devices",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://github.com/Xilinx/mlir-aie/blob/main/docs/Devices.md",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Devices--194dfcfdf81c0673/index.html",
+    "sha256": "29409c0bb1115ffdfdb592de6d93e7b9d2f521ec1f1c860d74bf98147aafe9a5",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Devices--194dfcfdf81c0673/original.response",
+    "original_sha256": "de985bbd59590b71b7dadc8cb36c23da21477aeecbcdcbb4b4174a9fbe9b4c30",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Devices--194dfcfdf81c0673/metadata.json",
+    "collected_at": "2026-11-04T09:16:32.926880+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_Quark_A16W8",
+    "number": "S05",
+    "title": "AMD_Quark_A16W8",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_a8w8_and_a16w8_quantize.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_A16W8--52bdde32508629c8/index.html",
+    "sha256": "efd43934da1e4d119485d26b777fa593ea89c9b382aca106f9b67fa8188a40a5",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_A16W8--52bdde32508629c8/original.response",
+    "original_sha256": "46847e12449d6fa90ce05f686e14ecc409bc08a18f833cf6de0e0de81aaf4afb",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_A16W8--52bdde32508629c8/metadata.json",
+    "collected_at": "2026-11-04T06:24:49.862379+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://quark.docs.amd.com/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font",
+      "https://quark.docs.amd.com/latest/_static/qk-install-selector.css?v=410c81a9": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_Quark_XINT8",
+    "number": "S06",
+    "title": "AMD_Quark_XINT8",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_xint8_quantize.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_XINT8--da39f2f8b3488490/index.html",
+    "sha256": "b8a646a4a855d3dd6d264f54df400ff29fecb9d921233f6da39416022272f5f4",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_XINT8--da39f2f8b3488490/original.response",
+    "original_sha256": "11f5c57aec584821af9062a05358115fdc57d58541cf6f649d498f7c35bb227d",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_XINT8--da39f2f8b3488490/metadata.json",
+    "collected_at": "2026-11-04T06:24:46.481568+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://quark.docs.amd.com/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font",
+      "https://quark.docs.amd.com/latest/_static/qk-install-selector.css?v=410c81a9": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD08_IRON_Dataflow",
+    "number": "S07",
+    "title": "AMD08_IRON_Dataflow",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://xilinx.github.io/mlir-aie/latest/programming_guide/section-2/section-2a/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Dataflow--637e26cd5aab37a1/index.html",
+    "sha256": "d8625b7c0d6e70b76e45140899270686d1aa595b9daedba92707f8533df437f3",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Dataflow--637e26cd5aab37a1/original.response",
+    "original_sha256": "9b957147bd4bd544916ab459314d7e665e4ae781967ba3dc2d97d02518b4255d",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Dataflow--637e26cd5aab37a1/metadata.json",
+    "collected_at": "2026-11-04T09:19:12.855878+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD08_IRON_Routing",
+    "number": "S08",
+    "title": "AMD08_IRON_Routing",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://xilinx.github.io/mlir-aie/latest/programming_guide/routing/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Routing--ef0c8e12040d0db3/index.html",
+    "sha256": "819de869bce9b42ff91452f01f56c0b7f1c52cd9928f89fec8f1b3cfaf0f66ae",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Routing--ef0c8e12040d0db3/original.response",
+    "original_sha256": "9e96b814756c6b8518e7a0186e852fa0d2a1538a74cb2f7776f7a27d8a3cd82b",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Routing--ef0c8e12040d0db3/metadata.json",
+    "collected_at": "2026-11-04T09:19:22.087227+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD08_IRON_DMA",
+    "number": "S09",
+    "title": "AMD08_IRON_DMA",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://xilinx.github.io/mlir-aie/latest/programming_guide/section-2/section-2d/DMATasks/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_DMA--d111f72ab7a785e8/index.html",
+    "sha256": "d9624dbc83a711e0c73429f5bd7f05f0e8c7a0f34ff2329d45401598568686fa",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_DMA--d111f72ab7a785e8/original.response",
+    "original_sha256": "a33805c6e312f41436d06c2558c913b7604c6478d958902cb7aac445f8d29aef",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_DMA--d111f72ab7a785e8/metadata.json",
+    "collected_at": "2026-11-04T09:19:17.774745+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD08_IRON_Compile",
+    "number": "S10",
+    "title": "AMD08_IRON_Compile",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://xilinx.github.io/mlir-aie/latest/programming_guide/compilation_stages/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Compile--2223a32b0d2cffaf/index.html",
+    "sha256": "deefc08b1b1e63c3d3756159e2c647b2b2ad2166250e5ed3c66ff56be9cba05c",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Compile--2223a32b0d2cffaf/original.response",
+    "original_sha256": "5a7ff1029e027a5a454b94e0f28a23fd0b730b7afa088d2b88034b7668d97741",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Compile--2223a32b0d2cffaf/metadata.json",
+    "collected_at": "2026-11-04T09:19:20.075754+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD08_IRON_License",
+    "number": "S11",
+    "title": "AMD08_IRON_License",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://github.com/Xilinx/mlir-aie/blob/main/LICENSE",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_License--c8bea0c624cf4216/index.html",
+    "sha256": "b0c9c2783ba6aa92c35b1060fad2c9fea0f429dde09675ed6821e8e8233fd664",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_License--c8bea0c624cf4216/original.response",
+    "original_sha256": "3b78f1848a5c68a292a167b689d02e81f2380f4437feda400bee2c8ec81045f7",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_License--c8bea0c624cf4216/metadata.json",
+    "collected_at": "2026-11-04T09:16:39.518259+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_RyzenAI_Licenses",
+    "number": "S12",
+    "title": "Ryzen AI EULA与第三方条款",
+    "version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+    "url": "https://ryzenai.docs.amd.com/en/latest/licenses.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Licenses--ad9f946ca3641851/index.html",
+    "sha256": "f8ce14cc1a0be5428dc8b80a8850a25a33f5a8afcd4663183707897a53af5c78",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Licenses--ad9f946ca3641851/original.response",
+    "original_sha256": "7edec6647e049b32c82e9238ee2bda08e34ec95f091974a0a7fb542cc6affc2f",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Licenses--ad9f946ca3641851/metadata.json",
+    "collected_at": "2026-11-04T05:20:00.086259+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD08_IRON_Paper",
+    "number": "S13",
+    "title": "IRON程序接口论文摘要",
+    "version": "arXiv2504.18430v1，2025-04-25；仅摘要页",
+    "url": "https://arxiv.org/abs/2504.18430",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Paper--e99e08ee5929569d/index.html",
+    "sha256": "f38cd870ee183beb02e599d99a88a783e08af34b0baf81fa9d4900665ad25736",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Paper--e99e08ee5929569d/original.response",
+    "original_sha256": "92ecaf09d8752dddebd4b123bfe7dfde4bf1688175cc4435bad2b20063b84e55",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Paper--e99e08ee5929569d/metadata.json",
+    "collected_at": "2026-11-04T09:19:24.634260+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/dompurify@2.3.5/dist/purify.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  }
+]

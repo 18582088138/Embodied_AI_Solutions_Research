@@ -1,0 +1,7 @@
+{
+  "coverage": "XDNA阵列/数值与量化边界、FIFO/布局/路由、DMA token/queue/BD、JIT/cache/外部artifact、版本/许可/竞品条件逐节深入。",
+  "versions_and_measurements": "AIE2队列4深度及Strix例子取自归档指南；非完整benchmark；约L1/L2是rule-of-thumb；latest/main不当目标SDK。",
+  "maturity_and_licenses": "IRON定位补充主流推理，Apache2+LLVM例外不能泛化专有工具/firmware/模型；Embedded BSP与实机证据未取得。",
+  "figures_opened": "已逐张实际打开官方AcquireRelease.png与ComputeTile.png，读出对象顺序和core/DMA共享memory关系；未裁剪。",
+  "missing_materials": "新增layout/lowering/tracing/XDNA产品页因robots检查连接失败未取得；未列为有效引用；已有官方FIFO/DMA/编译/路由资料支撑本文。"
+}

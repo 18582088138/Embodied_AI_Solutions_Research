@@ -1,0 +1,9 @@
+[
+ {"name":"AMD_VAI_EP_Config","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/ep-config-file.html","expected":"html","used_by":["02C_Versal_Compiler_and_Runtime"]},
+ {"name":"AMD_VAI_Tensor_Formats","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/misc/tensor_formats.html","expected":"html","used_by":["02C_Versal_Compiler_and_Runtime"]},
+ {"name":"AMD_VAI_Quant_Pipeline","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_quantization_pipeline.html","expected":"html","used_by":["02C_Versal_Compiler_and_Runtime"]},
+ {"name":"AMD_VAI_Partition_Analyzer","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/ai_analyzer/partitioning.html","expected":"html","used_by":["02C_Versal_Compiler_and_Runtime"]},
+ {"name":"AMD_VAI_DDR_Profiling","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/ai_analyzer/runtime_ddr_profiling_utility.html","expected":"html","used_by":["02C_Versal_Compiler_and_Runtime"]},
+ {"name":"AMD_VAI_Custom_Ops","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/custom_ops/custom_ops_introduction.html","expected":"html","used_by":["02C_Versal_Compiler_and_Runtime"]},
+ {"name":"AMD_VAI_Custom_Infer","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/custom_ops/custom_ops_running_inference.html","expected":"html","used_by":["02C_Versal_Compiler_and_Runtime"]}
+]

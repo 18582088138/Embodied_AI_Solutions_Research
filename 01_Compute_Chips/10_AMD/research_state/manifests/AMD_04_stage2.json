@@ -1,0 +1,12 @@
+[
+ {"name":"AMD04_MicroWorld2","url":"https://rocm.blogs.amd.com/artificial-intelligence/Micro-World-V2/README.html","expected":"html"},
+ {"name":"AMD04_MicroWorld_Card","url":"https://huggingface.co/amd/Micro-World-2","expected":"html"},
+ {"name":"AMD04_MicroWorld_Data","url":"https://huggingface.co/datasets/amd/Micro-World-Capsaicin","expected":"html"},
+ {"name":"AMD04_MicroWorld_Code","url":"https://github.com/AMD-AGI/Micro-World","expected":"html"},
+ {"name":"AMD04_Molmo2_Collection","url":"https://huggingface.co/collections/allenai/molmoact2-models","expected":"html"},
+ {"name":"AMD04_Ryzers_Molmo","url":"https://github.com/AMDResearch/Ryzers/blob/main/packages/vla/molmoact2","expected":"html"},
+ {"name":"AMD04_Ryzers_LeRobot","url":"https://github.com/AMDResearch/Ryzers/blob/main/packages/robotics/lerobot","expected":"html"},
+ {"name":"AMD04_Ryzers_License","url":"https://github.com/AMDResearch/Ryzers/blob/main/LICENSE","expected":"html"},
+ {"name":"AMD04_GPTOSS_Verified","url":"https://huggingface.co/amd/gpt-oss-20b_rai_1.9.0_npu","expected":"html"},
+ {"name":"AMD04_Videochat_Verified","url":"https://huggingface.co/amd/VideoChat-Flash-Qwen2_5-7B_InternVideo2-1B_rai_1.9.0_npu","expected":"html"}
+]

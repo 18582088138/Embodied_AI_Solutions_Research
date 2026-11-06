@@ -1,0 +1,346 @@
+# AMD 具身智能平台调研 03：传感器接入、数据交接与时间一致性
+
+资料截止：2026-11-04；本章为审阅稿。范围延续01—02，覆盖Kria K26/KR260/KV260及相关KD240参考设计、新Kria AI Robotics Developer Platform，以及向CPU/GPU/NPU交接数据的边界。正文采用“接口→真实链路→驱动与缓冲→时间/标定→性能条件→故障与验证”的深度研究方法。通用Linux API说明与AMD目标BSP绑定能力分别表述；本次没有接板、刷固件或实机测量。
+
+## 1. 核心判断与证据成熟度
+
+AMD在传感器侧最有辨识度的路径，是用可编程逻辑把接收、像素处理、DMA和网络调度做成可定制的数据通路。KR260的IMX547机器视觉参考设计给出了从真实全局快门相机到SLVS-EC、ISP、本地缺陷检测和10GigE发送的完整示例；TSN参考设计另给出ROS消息经DDR、TADMA和网络时槽发送的机制。二者分别回答“怎样取到和搬运图像”与“怎样调度网络交通”，尚不能拼成一个已经验证的多传感器机器人融合平台。@@AMD_MV_Overview@@ @@AMD_TSN_HW@@
+
+目前证据最完整的是指定相机/固件/主机组合和温湿度、CAN、GPS/PTP参考应用。RGB-D、ToF、LiDAR、Radar、六维力、触觉阵列、关节编码器在目标平台上的产品级适配，仍需要具体传感器SKU、桥接器、驱动commit、时间戳语义与并发测试。新X199开发平台页面列出FAKRA、CAN-FD和IMU，但采集时仍有“Notify Me”；网页接口清单不足以证明每种传感器均已交付驱动或完成同步验收。@@AMD_Kria_AI_Dev@@
+
+| 研究对象 | 本章已取得的证据 | 成熟度判断 | 选型时仍须取得 |
+|---|---|---|---|
+| KR260 + FRAMOS IMX547 mono/color | 接线、SLVS-EC/ISP/10GigE框图、部署、已知问题 | 指定版本真实相机参考设计 | 正式IP许可、稳定恢复、目标主机接收、曝光时间戳 |
+| KV260 MIPI/USB视觉 | 板载OnSemi ISP及连接器规格；CSI驱动实现另核 | 板级接口能力；不等所有相机已验收 | sensor/ISP/CSI/DMA联合BSP与模式矩阵 |
+| KR260/KD240 TSN、RS485/CAN | v0.3平台、软件、部署及测试触发点 | 指定板卡的通信/温湿度例 | 目标设备协议、时限统计、联合PL设计 |
+| GPS→系统时钟→PHC→PTP | 硬件接线、Linux组件、部署日志 | 时间分发示例 | GNSS失锁、holdover、相机触发和时间域映射 |
+| X199 + Spartan载板 | 产品页接口与集成方向 | 公开产品规格/厂商主张 | 可取得BSP、桥接芯片、相机清单、数据路径与版本 |
+| Ryzen/Radeon或Versal上的融合应用 | 02已核软件路径；本章复用VART交接API | 运行时机制；无统一传感器验收结论 | 输入布局、设备可见内存、同步/持有期与精度验证 |
+
+## 2. 芯片、SOM、载板、桥接器和传感器各自承担什么
+
+### 2.1 K26不同载板不能交换接口结论
+
+KV260官方列出两路IAS MIPI、一路Raspberry Pi camera、四个USB 3.0/2.0接口及OnSemi AP1302 ISP。“Built-in ISP”在这里是载板上的外部OnSemi器件，不是K26硬化ISP；“Up to 8 interfaces”也不能当八路相机同时采集、同曝或共享时钟的证明。USB插座数量没有回答主控制器/Hub拓扑及上行带宽，IAS两路是否经同一ISP并发、输出模式和聚合限制也必须在实际BSP/接线中验证。@@AMD_KV260@@
+
+KR260给出的SLVS-EC、SFP+、Ethernet和Pmod是另一组板级资源；本章10GigE例使用指定SLVS-EC相机，不经KV260的AP1302。相同K26 SOM不意味着两个载板有相同PHY、引脚、供电、时钟、device tree或PL bitstream。选型应从目标载板原理图和装配版本向上核对，不能从“SOM支持可扩展I/O”跳到“任意传感器即插即用”。@@AMD_KR260@@ @@AMD_MV_Intro@@
+
+### 2.2 新Kria AI平台：明确列出的接口与没有闭合的链条
+
+产品页将Ryzen AI Embedded X199 SOM与Spartan UltraScale+ FPGA载板放在同一平台，列出两组FAKRA x4：一组GMSL2/3，一组GMSL1/2；另列2×CAN-FD、1×RS485、IMU、USB以及PCIe扩展。FAKRA是连接器体系，GMSL是串行链路协议；这不能推出X199 SoC直接接收GMSL，仍需知道serializer/deserializer、输出CSI或PCIe通路、控制隧道、触发分配和驱动。网页“10GigE (x4) QSFP”的写法同样不构成四路各10Gb/s并发实测。@@AMD_Kria_AI_Dev@@
+
+该页面的“determinism and lower latency”“Day 0 support”等表述属于厂商定位，缺具体sensor输入到模型/动作输出的测量条件。合理动作是要求供应商给出所售装配版本的桥接器料号、BSP及支持相机表，取得每路分辨率/帧率/位深、同步模式和热稳定验收，再判断其是否满足本体需求。不能把K26上已核的SLVS-EC或TSN驱动直接套给X199平台。
+
+| 接口路线 | 物理/板级依赖 | 采集与软件层 | 必须单独核验的边界 |
+|---|---|---|---|
+| MIPI CSI-2 | sensor、D/C-PHY、lane routing、时钟与电源 | sensor subdev→CSI Rx→ISP/stream→DMA | lane速率、datatype、VC、模式和BSP |
+| GMSL/FPD-Link | serializer/deserializer、同轴、PoC、连接器 | 控制隧道→桥接输出→CSI/PCIe接收 | FAKRA不等协议；桥接器及driver不能省略 |
+| SLVS-EC | sensor模块/适配板、GT、外部Rx IP | byte/pixel转换→AXIS→ISP或网络 | 指定IMX547两lane例；IP许可与CRC/ECC配置 |
+| USB RGB/RGB-D/ToF | host/Hub、电源、线缆、共享上行 | UVC或厂商SDK→host buffer | 插座数量不等并发；时间戳/深度单位与SDK资格 |
+| Ethernet相机/点云 | PHY/MAC/NIC、封包协议、MTU | socket/专用接收栈→buffer→解析 | GigE Vision、IEEE1722b、RoCE等协议不能互换 |
+| SPI/I2C/UART/RS485/CAN | 控制器、收发器、隔离与电压 | IIO/tty/SocketCAN或设备协议 | 控制通道存在不等测量驱动、触发或本体SDK存在 |
+
+此表是接口分层分析；目标已支持实例以正文对应官方证据为准。对于未取得器件/驱动的路线，仅提出适配检查，未授予兼容标签。
+
+## 3. MIPI、串行桥接与SLVS-EC：从电信号到有效像素
+
+### 3.1 CSI-2接收驱动实际做了什么
+
+本次取得linux-xlnx `master`中`xilinx-csi2rxss.c`的公开快照。它以V4L2 subdev的sink/source两pad参与media链路；通过`xlnx,csi-pxl-format`、`xlnx,en-vcx`和active-lane相关配置，将IP配置、支持的数据类型与V4L2格式协商关联。代码中的VC/VCX容量字段和不同IP版本的feature config，是接收器实现能力，不能换算为某开发板已支持4或16个物理相机。v5/v6与C/D-PHY分支更不能倒推旧KV260 BSP已有同一特性。@@AMD_CSI2_Driver@@
+
+其IRQ路径区分单bit ECC可恢复、双bit ECC不可恢复、CRC、Data ID、SoT和VC同步等错误，并处理短包FIFO。这说明诊断应追踪链路错误计数与丢帧位置，而不只检查`/dev/videoX`是否生成。一个相机能probe但lane配置、datatype或VC路由错误，仍可能得到不完整画面、错行或停流。实际复建要固定内核tag/commit、Rx IP配置、DT、sensor模式表和media pad格式；本次master不是相机例Linux5.15包的来源证明。
+
+接长线GMSL/FPD-Link时，建议把sensor→serializer→线缆/PoC→deserializer→CSI PHY→Rx IP→ISP→DMA逐段验收。控制隧道要处理I2C别名/地址冲突，reset与供电时序要覆盖断线重连，VC映射要把图像与embedded metadata交给正确sink。硬触发线路、帧开始短包、曝光积分窗口和驱动时间戳必须分别测试，不能由CSI VC存在推导多机曝光同步。上述为工程分析，本章没有取得AMD目标板上的FPD-Link器件级实现证据。
+
+### 3.2 IMX547的SLVS-EC不是MIPI相机
+
+官方sensor页描述IMX547全局快门及8/10/12bit模式，两lane最大122fps、单lane65fps；PixelMate通用60pin表可列8lane及XTRIG/XHS/XVS信号，但本例模块只使用相应的1/2lane能力。通用FSA时钟选择表还明确不适用于KR260所用FSM，不能按该表擅自改板。FRAMOS的CRC和ECC接收配置有不同变体，检错与纠错不能混称。@@AMD_MV_Sensor@@
+
+KR260硬件页给出的链条是IMX547→GT wrapper→FRAMOS SLVS Rx→PPI to Video→Video In to AXI4-Stream，再广播到ISP和10GigE两分支。控制面由PL AXI I2C配置sensor，数据面在PL流转。Rx与后续网络模块含第三方IP，不能将开放Linux驱动理解成整个capture网络IP开源。@@AMD_MV_HW@@ @@AMD_MV_Overview@@
+
+![官方SLVS-EC采集链]( @@FIG:MV_Capture@@ )
+
+图1为官方capture图，灰箭头是GT链路，红箭头是AXIS，蓝箭头是AXI-Lite控制。**原图sensor/GT文字写“IMX574”，与产品页、sensor页、部署和驱动的IMX547命名冲突**；本章按多处器件证据研究IMX547，保留原图不修字，不据该图另外认定支持IMX574。图中32/64为总线宽度，不是单像素位深，也不能单独推出sensor速率。@@AMD_MV_HW@@ @@AMD_IMX547_Readme@@
+
+全局快门使同一帧各像素的曝光窗口更一致，但不保证两台相机的曝光窗口对齐，也不提供跨传感器绝对时间。该例虽披露触发相关引脚，未取得目标trigger驱动、FSYNC分配、曝光起止硬件锁存和同步误差测试；应把“具有引脚”和“已实现硬同步”分开。
+
+## 4. 深度案例：KR260真实相机、ISP、DDR与10GigE双路径
+
+### 4.1 两个输出服务不同需求
+
+机器视觉例将原始MONO/BAYER视频向x86主机发送，同时在KR260做ISP与缺陷检测，最后通过DisplayPort显示。两条路径的图像分辨率、格式、处理工作与性能口径不同：原sensor为2472×2128，本地显示/ISP路径缩至1920×1080；host侧看原始Bayer时还要debayer。原始网络帧与本地检测结果不能只靠到达顺序进行匹配，应保留sensor frame counter及几何/时间元数据。@@AMD_MV_Intro@@ @@AMD_MV_Deploy@@
+
+![官方机器视觉顶层架构]( @@FIG:MV_Top@@ )
+
+图2的红箭头显示流式采集分支，绿色AXI-MM箭头显示多个模块访问DDR；缺陷检测不是一个从sensor到结果完全不落DDR的流水线。原图再次写IMX574，命名冲突同图1；图不提供sensor硬件曝光timestamp，也不证明与TSN overlay并发。
+
+### 4.2 ISP：像素语义和总线宽度不能混写
+
+capture IP配置4 pixels per clock、237.6MHz，AXIS为64bit；送入ISP前有64→32bit subset转换。color软ISP依次涉及gain、demosaic、AWB、color correction、gamma和resize；mono路径涉及gain、gamma和resize。color输出在详细说明中为BGR8、每像素24bit、4ppc即96bit；mono为Y8、每像素8bit、4ppc即32bit，之后以补零适配96bit流接口。Framebuffer Write再将AXIS转AXI-MM写PS DDR，并在视频帧传输时生成IRQ。@@AMD_MV_HW@@
+
+![官方mono/color ISP与Framebuffer链路]( @@FIG:MV_ISP@@ )
+
+图3说明mono与color都接到Framebuffer Write，却不代表两者拥有同一有效像素格式。原文对64→32转换写“dropping the least significant bit (LSB) of each data word”，不足以完整解释减半宽度的逐bit映射；高层笼统Y8与详细BGR8、Framebuffer处RGB8也有差异。应以目标bitstream、DT、pad与video node协商的实际格式及像素测试确定有效位/通道序，不自行补出未公开packing。
+
+错误的RGB/BGR顺序、black level或曝光控制会影响模型分布；resize、裁剪、letterbox还会改变检测框/深度映射的几何关系。建议保存原始sensor尺寸、ISP参数、输出stride、色彩变换以及从模型坐标反投影到sensor坐标的矩阵。仅有“RGB8”字符串没有完整说明颜色校准、白平衡策略或输入量化。
+
+### 4.3 本地缺陷检测为何仍可能受DDR限制
+
+硬件加速包含Gaussian+OTSU、Threshold+Median(N=3)、CCA等阶段；CCA两pass仍有DDR读写。官方将其描述为memory-to-memory：每个加速器读内存、处理、再写回，DP再读DDR。因此“用PL”与“消除所有外存搬运”是不同结论。表中的color设计BRAM119/144=82.64%、mono99/144=68.75%，说明所公布设计的资源占用；不能据剩余BRAM直接算可增加几路camera，也不能与另一overlay的资源表相加后宣称可并发。@@AMD_MV_ISP@@ @@AMD_MV_Intro@@
+
+本地缺陷例拍摄显示器上的芒果图、使用遮光和指定距离/亮度，说明真实相机采集链得到了演示；它没有验证自然光、运动模糊、现场分拣、深度定位或抓取成功率。官方Cofilab示例图亦不能作为可自由再训练的数据集开放证明。@@AMD_MV_Deploy@@ @@AMD_MV_ISP@@
+
+### 4.4 10GigE：hardware发送不等通用接收或RDMA
+
+SLVS视频另进入Sensor to Image的GenDC Framebuffer，再到XGigE packet composer、XGMAC和AMD 10G/25G PCS/PMA配置为10G，经SFP+发给host。GenDC描述数据容器，GenICam XML和descriptor描述控制/数据布局；software配置sensor、s2imac网络设备和`gvrd`控制通道，实际stream数据路径在hardware。接口角色是“把板上sensor变成网络视频源”，不能将它称为AMD面向所有Ethernet传感器的GPU RDMA接收框架。@@AMD_MV_HW@@ @@AMD_MV_SW@@
+
+![官方GenDC与10GigE发送链]( @@FIG:MV_10G@@ )
+
+图4由下方SLVS入口向左送往SFP，绿色DDR箭头提示GenDC Framebuffer有外存接口；这里没有给出接收主机GPU地址注册、RoCE queue或GPU frame-complete实现。网络互通必须核对payload、packet/frame ID、容器descriptor、MTU、分包和错误恢复，不能由“都是10GbE”判断协议兼容。
+
+![官方KR260到主机SFP+光纤连接]( @@FIG:MV_Wiring@@ )
+
+图5是原接线照片，host装有NIC，KR260经SFP+连接。相机、SFP+模块、光纤、host10G NIC和显示器是系统额外依赖；图示没有证明所有NIC/模块和交换机均可替代。官方要求host jumbo MTU约9014/Windows9KB；从camera到host的每段MTU都须一致检查。@@AMD_MV_Intro@@ @@AMD_MV_Deploy@@
+
+### 4.5 软件图、驱动和部署必须绑定实际版本
+
+XVIPP负责media/video/subdev节点、链路验证和Framebuffer DMA；sensor subdev提供exposure/gain等控制，ISP subdev提供格式/gamma/gain。软件页media graph实际列出imx547→AXI subset converter→ISP→capture节点，是V4L2逻辑链路；其资产文件名虽含“MIPI-CS-2”，图内并未给出CSI接收器，不能按文件名把本例当MIPI物理接线。该页PS I2C表述与硬件页PL AXI I2C也有差异，应查目标DT与实际节点。DRM PRIME/CMA描述显示侧共享缓冲，不证明CPU/GPU/NPU整条链零拷贝。@@AMD_MV_SW@@
+
+部署页测试组合为K26-BootFW-01.01、Linux5.15.0-1030、mono/color firmware0.12-0xlnx2以及`xilinx/mv-defect-detect:2022.2`。固件通过bit.bin和dtbo装载；配置有60/120选项，默认60。文档家族仍为2022.1，页面更新2026-08-13并不等于这些组件全部升级到2026发行。@@AMD_MV_Deploy@@
+
+| 口径/冲突点 | 原始材料描述 | 本章采用的解释 |
+|---|---|---|
+| 相机产品最大速率 | 2472×2128，up to120fps | 产品标称；不是本次实测 @@AMD_IMX547_Color@@ @@AMD_IMX547_Mono@@ |
+| sensor两lane能力 | 最大122fps，8/10/12bit模式 | 器件/模式说明，不等所有位深在同一应用均验收 @@AMD_MV_Sensor@@ |
+| overview网络像素 | MONO/BAYER8、max122fps | 该页格式与速率表述保留 @@AMD_MV_Overview@@ |
+| deployment验证句 | only2472×2128@122fps—10bpp validated | 与60/120配置及8bit表述冲突，不能强行统一packing @@AMD_MV_Deploy@@ |
+| color支持 | 产品页仍称2022.1例仅mono；教程给color路径 | 页面版本/维护不同，须按可取得color包验证 @@AMD_IMX547_Color@@ @@AMD_MV_HW@@ |
+| ISP是否存在 | issues说无硬化ISP/PL不足；硬件页具体描述软ISP及资源 | 硬化/软实现分开，另保留疑似旧描述冲突 @@AMD_MV_Issues@@ @@AMD_MV_ISP@@ |
+
+官方GStreamer通过`/dev/video0 io-mode=4`及GRAY8/RGB 1080p启动流；启动用的`fakevideosink`不证明真实ROS消费、模型输入或全链零拷贝。带环境变量/命令的demo复建应遵循原版本，不能混入最新Gen2 VART API后称已在K26跑通。
+
+## 5. 从V4L2缓冲到GPU/NPU：零拷贝必须逐段成立
+
+### 5.1 三种内存关系与生命周期
+
+V4L2 MMAP是驱动分配、应用映射；DMABUF importer模式把外部FD交给QBUF；EXPBUF则尝试把V4L2 MMAP buffer导出为DMA-BUF FD。export与import不是同一能力，target是否支持要通过相应ioctl和队列试验确认。multi-plane图像还需各plane的FD/offset/stride/bytesused与sizeimage；把一帧的总字节数或CPU指针传给下游没有完成设备内存适配。@@Linux_V4L2_MMAP@@ @@Linux_V4L2_DMABUF@@ @@Linux_V4L2_Export@@
+
+建议在普通整帧capture模式采用明确所有权：QBUF交给producer→DMA/采集完成→DQBUF取得有效帧→下游消费→所有consumer结束后再QBUF。下游异步提交成功不等消费结束，原buffer过早requeue会被下一帧覆盖；result必须绑定frame ID而非“当前最新header”。保留buffer可减少copy，但不足的ring会阻塞producer，过深ring又可能增加观测年龄。@@Linux_V4L2_DMABUF@@
+
+### 5.2 linux-xlnx源码揭示的时间戳和低延迟陷阱
+
+`xvip_dma_complete()`在回调中递增sequence并以`ktime_get_ns()`填写timestamp；这首先证明软件回调时刻被记录，没有证明timestamp取自曝光开始或sensor硬件计数器。`low_latency_cap`路径可请求descriptor开始的early callback；start streaming还提前返回第一buffer供consumer初始化，稍后由S_CTRL启动DMA。**本次取得的是GitHub页面可见的部分源码，末尾提示“View remainder of file in raw view”**；只核已读函数，不声称完整文件或BSP源码树已审完。@@AMD_Video_DMA_Driver@@
+
+这使“收到buffer done”不在所有模式下等价于“整帧所有像素可安全访问”。工程必须确认实际DMA IP、early callback能力、行级/整帧消费协议和consumer fence；不能在默认整帧算法里未经协商开启early callback。代码另涉及alignment、bytesperline、sizeimage与interleaved DMA，streaming期间不允许更改相关media links，停止需终止DMA并处理queued buffer状态。timestamp、地址共享、完成信号与所有权是四项独立条件。
+
+### 5.3 缓存一致性不等于设备已经完成
+
+DMA-BUF文档要求CPU经mmap访问共享缓冲时用`DMA_BUF_IOCTL_SYNC`标记访问边界；这是缓存一致性条件，不能替代device完成fence、跨设备依赖或buffer持有期。producer/consumer设备不支持相同内存、SG/IOMMU/allocator或布局时，可能仍需要导入失败回退、格式转换或显式copy。@@Linux_DMABUF_Sync@@
+
+对Ryzen/Radeon路径，应验证实际V4L2/USB/网络输入到所用GPU runtime的导入、pinned/共享内存和转换方式，UMA也不能自动消除host API内部复制。对外接PCIe GPU，应另测host→device传输与DMA拓扑。本章未取得X199上从FAKRA到ROCm和NPU的统一buffer交付/完成协议；不把其他Radeon SKU或K26的CMA行为推广过去。相关GPU机制与产品绑定环境沿用[02A专题](@@ROOT@@/02A_GPU_Execution_and_Deployment.md)，本章只限定capture交接所需证据。
+
+### 5.4 VART提供了接口，但不替代采集与模型契约
+
+Gen2 VART应用指南的`vart::VideoFrame`可新分配XRT或NON_CMA内存、包装CMA-backed DMA-BUF FD、包装`xrt::bo*`或外部data pointers；`VideoInfo`携带尺寸、padding和alignment。PreProcess负责resize、颜色转换、normalization与quantization。说明存在避免某些重复搬运的API路径，不证明KR260旧camera demo已兼容该Gen2接口，也不保证任意USB buffer都可无转换作为NPU输入。@@AMD_VitisAI_VART_App@@
+
+模型tensor的dtype、layout和量化scale/zero-point必须与预处理一致。Gen2量化指南明确默认compiled artifact不嵌入每tensor scale/zero-point，Runner读取可能返回默认值，需编译选项或手动提供；ONNX Runtime+EP从ONNX读取的路径又不同。保存了sensor raw8数据并不等完成INT8量化，RGB/BGR、NHWC/硬件布局、resize geometry、CPU fallback和异步job结束时刻都应逐项核验。@@AMD_VAI_Tensor_Formats@@ @@AMD_VAI_Quant_Pipeline@@ @@AMD_VitisAI_Gen2_Async@@
+
+| 交接边界 | 能减少copy的成立条件 | 仍可能存在的成本/风险 | 建议记录 |
+|---|---|---|---|
+| capture→CPU | MMAP/可用DMA-BUF，正确缓存访问 | stride、cache维护、sensor解码 | buffer ID/planes、Q/DQ时间 |
+| capture→PL/XRT | DMA导出/导入、bank及alignment兼容 | 格式转换、early callback、DDR争用 | DMA模式、可见范围、fence |
+| frame→VART模型输入 | CMA/XRT与VideoInfo、tensor布局/scale匹配 | 预处理生成新tensor、CPU分区 | 原frame ID、模型/预处理元数据 |
+| host→GPU/NPU | 目标runtime真实支持相应内存与同步 | 内部copy、PCIe传输、allocator回退 | 每次copy字节数、完成event |
+| 推理结果→ROS融合 | 所有权保持到job结束，几何/时间metadata绑定 | 旧结果配新图、队列堆积 | 测量时刻、结果完成时刻、观测年龄 |
+
+## 6. 非视觉传感器：接口存在之外，还缺哪些适配
+
+### 6.1 RGB-D、ToF、LiDAR和Radar
+
+USB RGB-D/ToF可能由UVC或厂商SDK输出图像、深度、confidence/IR；Ethernet设备可能输出分包测距或点云；PCIe/CSI桥接是另一条路线。本章未取得与AMD目标SKU/BSP绑定的具体RGB-D/ToF型号驱动验证，不能把AP1302 RGB ISP、Gazebo模拟图或USB插座当depth pipeline证明。先明确深度单位、invalid值、是否注册到RGB、内外参、时间差、温度/照明影响及USB共享带宽，再决定可否用于操作距离估计。
+
+LiDAR/Radar应从具体packet格式和measurement timestamp进入解析链，而不是直接把UDP到达时刻写作测量时刻。转动LiDAR一帧含不同时刻的点，若用于运动机器人应核逐点/packet时间、ring/return、deskew所需IMU/pose和丢包策略。Radar还需区分原始ADC/IQ、FFT/目标列表与点云，CPU/GPU可处理的数据阶段取决于传感器SDK，不能由Ethernet带宽推出能够接收所有原始雷达数据。上述是适配设计分析；本章没有建立目标型号的AMD优化支持结论。Linux网络timestamp API能提供software/hardware来源选择，但NIC接收timestamp不是激光发射或雷达chirp时刻。@@Linux_Network_Timestamps@@
+
+### 6.2 IMU：IIO二进制布局和测量时间
+
+I2C/SPI上的IMU还依赖中断/data-ready、FIFO、采样率、scale/offset、饱和范围、轴方向和标定。Linux IIO buffered接口以`scan_index`和`scan_type`说明channel排列与`[be|le]:[f|s|u]bits/storagebits[Xrepeat][>>shift]`；示例`le:s12/16>>4`是12bit有效数据存16bit、右移4，不能按原始16bit有符号值直接解释。enable/length决定采样布局与缓冲策略，timestamp字段的单位和产生位置应从目标driver核验。@@Linux_IIO_Buffer@@
+
+当前Linux文档还把`iio_push_to_buffers_with_timestamp()`标为deprecated并建议`with_ts()`，这只是本次通用文档API状态，不能声称AMD旧BSP已完成迁移。新Kria平台页面列IMU却没有给本章取得的器件型号、IIO driver、硬件timestamp精度或温漂测试。建议将原始轴值/单位转换、bias、covariance、sensor frame和曝光窗口对应关系纳入融合验收；FIFO批量中每sample时间不能全用一次host读取时刻。@@Linux_IIO_Buffer@@ @@AMD_Kria_AI_Dev@@
+
+### 6.3 RS485温湿度：一个真实低速例及其异常
+
+TSN v0.3在KR260经AXI UARTLite、DE控制patch、`uartlite-rs485` DT和Pmod R485接Modbus温湿度sensor，KD240使用不同PS UART路线。Modbus RTU应按实际baud/parity/start/stop配置满足字符间隔和3.5字符帧间静默；官方简化表中的3.5×8不能泛化为28bit通用时长。完整字符包含起止与可选校验，半双工DE换向、timeout与CRC均应进入诊断。@@AMD_TSN_HW@@ @@AMD_TSN_SW@@
+
+官方部署例偶尔读取`0x8000`并显示3276.8°C/%，建议重跑；对机器人融合应判invalid/range/status，禁止当有效环境样本。KD240温湿度支持的章节表述还互有冲突：部署一处说不适用，之后又给KD240命令；在未取得对应固件与实际测试前不能概括全板卡支持。@@AMD_TSN_Deploy@@
+
+### 6.4 CAN、力/触觉与关节状态
+
+KR260示例经AXI Quad SPI连接Pmod CAN的MCP25625并使用mcp251x/SocketCAN；KD240有不同PS CAN连接。SPI10MHz是控制器到器件的SPI配置，不等CAN总线bitrate；该Pmod例为经典CAN，不能赋予CAN-FD能力。新版X199页面列CAN-FD是另一个平台，仍须收发器、bit timing、arbitration/data phase、payload和device协议验证。@@AMD_TSN_HW@@ @@AMD_TSN_SW@@ @@AMD_Kria_AI_Dev@@
+
+Linux SocketCAN定义经典8byte和CAN-FD至64byte的帧结构及`CAN_RAW_FD_FRAMES`，也提供过滤、错误帧、bus-off状态和可配置restart。ABI存在不能证明目标controller支持FD；自动bus-off重启更不等下游设备已恢复健康。力传感器和关节encoder的CANopen/厂商协议、时间同步、计数溢出、单位、滤波和标定需要另外取得，can-utils板间收发例不证明支持任何六维力矩或servo SDK。@@Linux_SocketCAN@@ @@AMD_TSN_Deploy@@
+
+触觉阵列可能有SPI、USB、Ethernet或私有总线；接入后还要保持taxel位置、压力量程、采样扫描顺序、坏点/漂移和空间标定。关节position/velocity/effort还需名称顺序、rad或linear单位、gear ratio、时间差和encoder rollover。建议把这些作为设备契约，而不是用“Pmod可扩展”代替已验证列表。
+
+| 数据类 | 本章目标级证明 | 核心数据契约/缺口 |
+|---|---|---|
+| RGB/mono | KR260 IMX547例；KV260板级MIPI/ISP | 位深/packing、RGB/BGR、曝光、camera mode |
+| RGB-D/ToF | 未取得具体型号在目标BSP的验证 | 单位、invalid/confidence、注册与RGB时间差 |
+| LiDAR/Radar | 通用Ethernet/PCIe路径分析，无目标型号验证 | packet/逐点时间、坐标/deskew、原始或检测层 |
+| IMU | Linux IIO机制；X199接口清单 | 器件/driver、FIFO时刻、scale/bias/轴与温漂 |
+| 温湿度/GPS | 指定Modbus和GPS参考应用 | invalid/CRC、PPS/粗时间关联、失锁策略 |
+| 力、触觉、关节 | 通用SPI/SocketCAN等机制；无具体本体SDK证明 | device协议、单位/顺序、标定、故障/过期样本 |
+
+## 7. 时间一致性：时钟、触发、曝光、传输与配对五层分开
+
+### 7.1 timestamp必须说明“哪一个时刻”
+
+V4L2 `timestamp`可有MONOTONIC、UNKNOWN等clock type，timestamp source flags区分EOF与SOE；sequence还涉及帧序/丢失。不能看到纳秒格式就认定精度到纳秒，不能看到EOF就当曝光开始。当前xvip回调填`ktime_get_ns()`的事实与目标driver最终声明的flags必须一起审查；header字段由应用填写时还需保留来源，不能再次写发布时刻覆盖原测量时间。@@Linux_V4L2_Buffer@@ @@AMD_Video_DMA_Driver@@
+
+建议定义一帧的曝光开始/结束或中点`t_meas`，DMA可用`t_ready`，预处理/推理结束`t_result`，ROS发布`t_pub`和消费`t_use`。观测年龄为`t_use−t_meas`，需先映射到同一时钟域；推理耗时仅`t_result−t_ready`中的一部分。滚动快门还应记录行读出时间并按行模型补偿，全局快门仍有曝光积分窗口。此为分析定义，不能从官方帧率反算这些实测时延。
+
+### 7.2 GPS/PPS怎样进入KR260时钟链
+
+GPS例用UARTLite取得粗时间，PPS经EMIO接PS GPIO，GEM Ethernet提供PHC。UARTLite的baud/parity/data bits多数是hardware build参数，不能假设`stty`可随意改；tty/pps节点应枚举匹配，不写死原例`/dev/pps2`。已测试Digilent Pmod GPS（官方页面标retired）和Adafruit Ultimate GPS，不能把停产模块当稳定量产供货。@@AMD_PTP_HW@@ @@AMD_PTP_Deploy@@
+
+![官方GPS UART与PPS接线架构]( @@FIG:PTP_HW@@ )
+
+图6的PPS直达EMIO GPIO，UART经过AXI UARTLite，两者服务不同信息；没有展示camera FSYNC、曝光边沿锁存或LiDAR clock。GPIO IRQ采集PPS不自动证明硬件edge latch精度，PL100MHz也不能当整个授时系统的误差上界。
+
+software组合为gpsd/PPS工具、chrony、MACB及Linux PTP工具。总体/部署主要使用NMEA，软件页又出现UBX叙述，必须以实际接收器配置和gpsd输出消歧。链条是GPS粗时间+PPS→gpsd SHM/PPS→chrony系统时钟→master `phc2sys` System→PHC→`ptp4l` PHC之间PTP→slave `phc2sys` PHC→System。方向写错会让同一clock被多个servo互相拉扯。@@AMD_PTP_SW@@ @@AMD_PTP_Deploy@@
+
+![官方GPS/PTP软件分层]( @@FIG:PTP_SW@@ )
+
+图7列出用户态、kernel和硬件模块，证明组合关系；它不是同步误差曲线，也不说明所有进程在所有BSP同时兼容。旧例要求boot2022.2 update1以上的条件不替代EDF26.06的TSN版本矩阵。
+
+### 7.3 官方日志不能包装成“纳秒同步保证”
+
+chrony配置示例为NMEA offset0.15、delay0.2，Adafruit同步失败时可调整offset0.3；这是对特定串口/接收器延迟的修正，不是统一常数。示例约需2—3分钟同步。原日志last offset为+0.000013462s（13.462µs）、RMS offset0.001221735s（1.221735ms），GPS last sample又显示1922ns；三者是不同统计/样本，不能选最小数称P99、WCET或多camera纳秒同步。@@AMD_PTP_Deploy@@
+
+Linux PHC API列出external timestamp和periodic output等可选功能，driver未实现可返回EOPNOTSUPP；`/dev/ptpX`存在不保证GEM实现全部特性。网络hardware timestamp的来源PHC与系统MONOTONIC映射也须核对。@@Linux_PTP@@ @@Linux_Network_Timestamps@@
+
+PTP让各节点clock接近，并不使sensor曝光自动同时发生；还需FSYNC/trigger、sensor内部延迟与timestamp语义一致。建议分别测clock offset、trigger到曝光、曝光到buffer、ROS pairing误差；对于GNSS失锁、PTP grandmaster切换、链路非对称、UTC/TAI/闰秒和step/slew，应记录状态与不确定度并停止把失效时间作为正常融合输入。这些是待实施的工程验证，无本次实机结论。
+
+## 8. TSN与ROS：把确定性落实到具体队列和测量点
+
+### 8.1 当前参考版本与硬件调度
+
+本次TSN教程v0.3更新2026-10-23，走EDF26.06/Jazzy；部署列Linux-xlnx6.18.10，KR260 K26-BootFW-01.07、KD240 K24-BootFW-01.06、firmware v1.2和`xilinx/kria-tsn-rs485pmod:0.3-edf-26.06`。这与旧KRS1.0/Humble或相机2022.2容器不同，应独立复建，不能替换名称后称一个已兼容系统。@@AMD_TSN_Intro@@ @@AMD_TSN_Deploy@@
+
+TSN endpoint为100M/1G、三port bridged endpoint，经RGMII/Marvell PHY；PTP、Qbv和frame preemption各有作用。KR260该设计包括802.1CB和Qci，KD240从2026.1禁用CB/Qci以回收K24面积/布线余量，两板仍保留PTP/Qbv/preemption。family标签不能覆盖这项明确差别。@@AMD_TSN_HW@@
+
+![官方KR260 TSN、DMA与低速接口架构]( @@FIG:TSN_HW@@ )
+
+图8的TADMA根据PTP与Qbv配置在相应时槽从DDR fetch scheduled traffic；MCDMA负责BE发送和接收写DDR，AXIS Switch按`tlast`仲裁。**定时fetch不等消息总能及时到DDR**：ROS生成、序列化、内核队列、CPU负载和调度前的等待都在边界之外。DMA200MHz、RTC125MHz等clock不同，不用CPU主频推导整条时限。KR260 Vivado2026.1 BRAM117.5/144=81.60%，也不支持与相机设计直接叠加。@@AMD_TSN_HW@@
+
+### 8.2 ROS QoS不是TSN配置器
+
+Jazzy/FastDDS例将网络接口限定到VLAN40，并设egress map `0:4`映射PCP4，才把对应流量带到配置的priority/class。消息QoS、DDS transport、VLAN/PCP、hardware queue和Qbv gate必须逐层对应；单设reliable、deadline或history并不会自动建立时槽或PTP同步。对sensor数据，过期可靠重传可能增加观测年龄，吞吐与deadline的选择必须按应用容忍度测量。@@AMD_TSN_SW@@
+
+Qbv有周期和gate窗口，错过窗口可能等下一周期；preemption、guard band与最大frame影响可用容量。分析中应把sensor发布周期、burst、大小、CPU jitter和network schedule放在同一预算，给每个流队列/时槽和目标时限，不能仅写“TSN硬实时”。本章只取得参考设计说明，没有取得联合sensor负载下的完整admission控制或最坏执行时间证明。
+
+### 8.3 80—160µs测量到底覆盖哪里
+
+官方用PMOD publisher/listener software trigger连接示波器，称延迟“ideally”80—160µs；ST与BE结果相似，Qbv时槽顺序/长度可能增加等待，CPU负载高也会增大。其测量包含软件读取network packet后触发PMOD的处理，属于应用通信路径，未包含camera曝光、ISP、推理和执行器。原文没有样本数、P99分布或WCET，不能据此宣布机器人感知闭环100µs。@@AMD_TSN_Deploy@@
+
+![官方PMOD应用与网络事件测量引脚]( @@FIG:TSN_Measure@@ )
+
+图9展示MUX0的publisher/listener事件和MUX1的TX/RX ST/BE事件。两组测量端点不同，比较时必须说明使用哪组引脚；图中PTP clock也不能替代camera曝光测点。若实测时钟与network延迟，应先校核探头、引脚、电平和两板同步，再记录每个事件定义、样本数与负载。
+
+## 9. 吞吐、外存与观测年龄：带输入条件的预算
+
+### 9.1 相机payload不等链路线速
+
+以下均为**分析/假设计算，非官方实测**。单路2472×2128=5,260,416pixel；以120fps输入，`R=W×H×f×b`，b是实际存储/传输每像素bit数。packed10/12bit与16bit slot必须分开，不含blanking、协议header、GenDC metadata、重传或host debayer。
+
+| 假设格式 | 2472×2128@120fps有效payload | 改为122fps的payload | 不能由此推出 |
+|---|---|---|---|
+| raw8，8bit/pixel | 5.050Gb/s；631.250MB/s | 5.134Gb/s | host viewer能完整显示所有帧 |
+| packed raw10 | 6.312Gb/s；789.062MB/s | 6.418Gb/s | 教程实际网络采用此packing |
+| packed raw12 | 7.575Gb/s；946.875MB/s | 7.701Gb/s | raw12在该firmware已验证 |
+| raw置于16bit slot | 10.100Gb/s；1,262.500MB/s | 10.269Gb/s | 10GbE可无压缩无开销承载 |
+
+因此“10bpp”与“AXIS64bit/4ppc”等资料需要逐层确认payload packing。120fps×16bit有效payload已经超过10Gb/s线速，仅这一假设就不可能无压缩通过10GbE；它不能反过来证明原例用了某个未公开格式。4ppc×237.6MHz=950.4Mpixel/s是理想active传输容量，不是含blanking、backpressure、DDR仲裁的系统实测帧率。@@AMD_MV_HW@@
+
+### 9.2 DDR遍历和copy的条件计算
+
+1080p RGB8@60fps每次全帧遍历约373.248MB/s。若假设三个memory-to-memory阶段每个完整读写一次，六次遍历约2.239GB/s，还未含capture、display、tiling、缓存miss和CCA额外pass。若假设四路同格式输入，payload约1.493GB/s，单额外copy的读+写约2.986GB/s。此为预算模型，不表示K26已有四路并发，也不把标称DDR带宽当可用带宽；应实测各master并发、读写比例、热状态和buffer alignment。@@AMD_MV_Intro@@ @@AMD_MV_ISP@@
+
+### 9.3 官方fps要保留各自测量口径
+
+| 官方观察 | 已给条件 | 指标含义/局限 |
+|---|---|---|
+| mono配置60，viewer约40—50fps；120约90—100fps | 指定Sphinx host viewer、raw网络流 | GUI观察，含绘制/decimation；非sensor曝光率或丢包率 |
+| color配置60，viewer约25—35fps；120约75—95fps | host raw Bayer debayer/显示 | host处理开销不同；无同条件CPU/负载完整统计 |
+| 本地MV最大60fps；`-o2`约25fps | 本地缺陷检测/显示例 | 不等10GigE原流，也不等真实分拣吞吐 |
+| TSN ideally80—160µs | PMOD software trigger通信例 | 非sensor→动作时延；无P99/WCET |
+
+来源：@@AMD_MV_Deploy@@ @@AMD_MV_Issues@@ @@AMD_TSN_Deploy@@。本章不合并成一个“最高122fps、最低80µs”的平台性能指标。
+
+### 9.4 帧率高但观测可能已经过期
+
+若consumer稳态落后producer，队列可持续加深；较多buffer只延后overflow，不能解决长期服务率不足。条件估算中，前面排队n帧、相机周期1/f时可能增加约n/f等待；例如60fps下积压3帧约50ms，不含曝光/处理。建议分别测sensor生成、DMA可用、模型输入、模型完成及ROS使用时刻，并记录丢帧/丢包、queue depth和age分位数。不得用viewer fps或推理平均耗时替代这些统计。
+
+## 10. 标定、融合与ROS交接：建议采用的最小契约
+
+以下是依据前述驱动与时间边界制定的**工程建议**，不是声称AMD已提供统一sensor SDK。每个观测应携带sensor/frame ID、测量时间及clock domain、曝光/扫描参数、sequence、数据布局/单位、calibration版本和validity/uncertainty。ROS message字段应在选定发行版本逐项核对；本次尝试的ROS在线message文档未成功归档，因此这里不引用其页面，也不以未读取文档给出精确ABI兼容承诺。
+
+相机intrinsics必须对应原始或resize后的实际尺寸；镜头畸变、RGB-depth extrinsics、IMU-body extrinsics、LiDAR-body extrinsics以及时间offset是不同标定。resize/裁剪后继续用旧K，或者把color/mono、camera切换后的结果套到旧calibration，可能得到看似正常但几何错误的融合。建议从sensor模式、曝光/gain、预处理变换到模型输出保留版本，使用checkerboard/已知距离与动态运动留出验证，而不只看demo画面。
+
+配对应按测量时刻和明确容差，监测missing、重复、乱序及timestamp回退；不同传感器频率需要插值/积分模型，而不是把最后一条IMU永远配给当前图。异步模型输出应通过immutable元数据关联原帧，不能从可变“latest frame”重取header。建议把融合允许的时间差、最大观测年龄、数据有效期、失锁状态及降级动作写进应用契约，再检验DDS queue和hardware调度是否符合。
+
+KR260历史ROS perception例在网络上使用Gazebo模拟pinhole输入；它证明该软件/加速通路的示例，不证明本章真实IMX547与ROS capture已经打通。02E中的stream resize/rectify和cv_bridge路径已分析copy及frame association风险，复用[02E深度专题](@@ROOT@@/02E_ROS_Acceleration_and_System_Integration.md)，不把模拟相机benchmark等同多sensor现场验证。@@KR260_Perception_Deploy@@
+
+## 11. 故障恢复与许可是能否从demo进入持续运行的关键
+
+10GigE机器视觉known issues明确capture/网络IP带time-bomb evaluation，过期可出现white screen，需要partner正式license；重载固件只是demo workaround。光纤须boot前接好，不支持该例热插拔，否则可出现external abort/kernel panic；第二次load时IMX547 probe可能失败需reboot。还记录s2imac probe、Framebuffer IRQ停和host TIMEOUT等问题，不能把“load成功一次”当长期无人运行资格。@@AMD_MV_Issues@@
+
+正常卸载要先停止gst-launch/消费者再unload，确认DMA/线程已退出并释放所有buffer。出现断流建议记录sensor link错误、DMA IRQ/sequence、network packet loss/MTU、host queue、driver/firmware及license状态，分清sensor、PL、host、模型job和授时故障；重启策略还要使上层能识别新的stream epoch与calibration，防止旧结果混入新帧。以上为建议运维设计，没有替该版本修复kernel问题。@@AMD_MV_Deploy@@
+
+| 层次 | 已核许可/依赖证据 | 本章结论 |
+|---|---|---|
+| IMX547 sensor Linux module | LICENSE.md为GNU GPL version2；README说明V4L2控制 | 源码许可可读；不等整个PL/IP开放 @@AMD_IMX547_License@@ @@AMD_IMX547_Readme@@ |
+| Vitis Vision ISP module | LICENSE.md为GPLv2；README SPDX GPL-2.0 | driver层许可；不证明所有算法/IP/工具相同条款 @@AMD_ISP_License@@ @@AMD_ISP_Readme@@ |
+| FRAMOS/S2I capture及10GigE IP | evaluation time-bomb、partner licensing | 正式持续运行须核对应IP授权/版本 @@AMD_MV_Issues@@ |
+| Vivado/Vitis、TSN底层指南 | 部分IP指南需要Documentation Lounge访问 | 公开教程不等完整IP交付/许可，未安装或接受协议 @@AMD_TSN_HW@@ |
+| container/BSP/runtime | 原例artifact已列，未下载整个镜像审SBOM | 所有依赖包/二进制许可需随实际交付再核 |
+| 模型、图像资产、机器人SDK | 本章无目标模型/本体SDK完整对象 | 不能因driver GPL而推权重/数据/SDK自由商用 |
+
+对于持续运行，建议测试断线、sensor reset、热插拔（仅支持的组合）、FIFO overflow、bus-off、GNSS/PTP失锁、模型超时和重载。报错恢复时间、错误期间旧数据是否继续被使用、重启后的timestamp连续性与consumer退出行为，比一次平均fps更能决定系统可用性。
+
+## 12. 与NVIDIA做机制对标：先对齐职责和协议
+
+本节复用已归档NVIDIA官方原响应，采集于2026-11-03，分别为Holoscan Sensor Bridge2.7和Jetson Thor r39.2.1 CoE指南；不把其硬件能力套到AMD，也无同条件吞吐/功耗/成本排名。@@Compare_03_HSB@@ @@Compare_03_CoE@@
+
+| 对象 | 核心职责/数据链 | 解决的痛点 | 迁移必须重做 |
+|---|---|---|---|
+| AMD KR260 IMX547/10GigE | SLVS sensor→PL/GenDC/GigE Vision→host | 指定camera前端与网络发送可定制 | Rx/ISP/IP许可、host协议、DDR与时戳 |
+| NVIDIA HSB2.7 | sensor bridge控制I2C/SPI；ConnectX RoCEv2 RDMA至GPU/system memory | 高速sensor数据落到处理内存并通知帧完成 | NIC/RDMA、地址注册、DataChannel帧/包配置 |
+| Jetson Thor SIPL CoE | MGBE IEEE1722b接收→RCE DMA→DRAM/ISP/SIPL | Ethernet camera接收与ISP、状态/控制集成 | camera协议、UDDF/HSL、SIPL配置与supported hardware |
+| AMD TSN v0.3 | ROS/DDR→TADMA/Qbv→1G endpoint | 分布节点网络traffic调度 | DDS/VLAN/PCP/时槽、PTP、联合资源和deadline |
+
+HSB的RoCE write/immediate frame-complete与Linux socket替代路线有不同完成语义；DataChannel需设frame/packet size和目标address。reset会影响board channels及默认IP，shared clock的双sensor还可能共享reset影响。AMD例的GenDC framebuffer与`gvrd`控制面没有给出同类GPU地址注册，因此迁移时要重做接收与consumer ownership，不能只替换相机线缆。@@Compare_03_HSB@@
+
+Thor CoE则以IEEE1722b、MGBE/RCE和SIPL状态通路接收，并使用UDDF/HSL等配置/控制。它与HSB RoCE以及AMD GigE Vision发送是不同协议/分工；CoE页面旧概述中的“only CoE”也不能推断所有最新SIPL只支持CoE。机制比较的可用结论是：AMD提供可编程前端的定制空间，但组合与交付责任要具体核验；NVIDIA在对应产品/版本提供更明确的专用接收/内存/ISP契约，两边都仍须验证真实sensor、timestamp与故障模式。没有相同相机、网络、shape、负载与测点，不给优劣倍数。@@Compare_03_CoE@@
+
+## 13. 可复建版本矩阵与后续实机验证顺序
+
+| 路线 | 固定的已知版本条件 | 当前用途 | 不能跨用的条件 |
+|---|---|---|---|
+| KR260 MV camera | Linux5.15.0-1030、Boot01.01、FW0.12-0xlnx2、container2022.2 | 复建原mono/color例 | 不是EDF26.06/Jazzy或Gen2 VART目标 |
+| KR260 GPS/PTP | 原教程Ubuntu路线、boot2022.2 update1以上、指定GPS接线 | 复建授时示例 | 不套TSN最新BSP；PPS/tty节点需枚举 |
+| TSN v0.3 | EDF26.06/Jazzy、xlnx6.18.10、KRBoot01.07/KDBoot01.06、FWv1.2 | 两板网络/RS485/CAN参考 | KD240 CB/Qci限制；不与相机overlay直接并载 |
+| CSI/video DMA源码 | 2026-11-04 master浮动快照；DMA页面仅部分源码 | 解释已读实现/风险 | 非任何BSP已绑定commit或全源码审计 |
+| Linux API | 本次kernel docs通用快照，站页7.4.0-rc1 | V4L2/IIO/PHC/SocketCAN契约依据 | 不等xlnx5.15/6.18全部实现 |
+| Gen2 VART | 02C已核Gen2指南/运行时条件，CMA/XRT/VideoInfo | 解释frame→tensor交接 | 不支持据此声称K26旧demo直用新API |
+| X199开发平台 | 本次产品页快照、Notify Me、具体BSP未取得 | 跟踪接口与交付方向 | 不归因K26或其他Ryzen型号能力 |
+
+来源对应正文及参考清单。推荐后续实验按以下顺序推进，并保存版本、配置和原始日志；这些实验本次尚未执行。
+
+1. **冻结对象**：目标板SKU/装配、sensor及bridge料号、BSP/kernel commit、DT、bitstream、boot、container digest、license与camera mode。先单独复建原参考例，不同时替换多层。
+2. **验收链路与像素**：检查供电/reset/PHY、pad与video format、lane/VC/datatype、packing/stride和色彩；用已知pattern验证每像素有效位，监控CRC/ECC、sequence及丢包。
+3. **验收buffer交接**：分别试MMAP、EXPBUF/DMABUF、XRT/VART或GPU导入；测每次copy、缓存/完成fence、异步持有与requeue，在停流和超时时检查是否读写已释放buffer。
+4. **验收时间与几何**：测PPS/PHC offset、trigger/曝光/IRQ事件和clock映射；检验static/dynamic标定、RGB-depth/IMU/LiDAR配对及观测年龄，失锁时标invalid。
+5. **验收并发和时限**：真实camera+模型+ROS+network+控制背景负载联合测试，报告resolution/bitdepth/rate/streams、热/功率、样本数、mean/P95/P99/max、drop/age和恢复时间，避免把max当WCET。
+6. **验收持续运行**：只在硬件/版本许可允许的模式下测试故障注入，检查bus-off、断流/失锁/consumer超时、重启epoch、参数/标定恢复与失效告知。相机例已明确不支持的热插拔不能作为正常上线功能。
+
+当前03形成的选型结论是：KR260适合作为有明确IP和BSP边界的可定制camera/通信研究起点；需要多模态、同步和无人长期运行时，要补齐上述目标级证据再放行。新Kria AI平台有面向机器人接口的公开方向，仍需交付级资料验证；本章未把未取得资料解释成厂商一定不支持。03完成后交审，本次未启动04。

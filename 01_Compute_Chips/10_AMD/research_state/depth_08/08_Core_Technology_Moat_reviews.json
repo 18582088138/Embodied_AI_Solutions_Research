@@ -1,0 +1,155 @@
+[
+  {
+    "source_id": "AMD08_CDNA4_Whitepaper",
+    "needle": "typically 32",
+    "claim": "MX块机制",
+    "location": "正文/图/原文",
+    "evidence_type": "事实/条件分析",
+    "conditions": "条件详见专题",
+    "finding": "能力不代替目标SKU完整性能/安全/商业验证"
+  },
+  {
+    "source_id": "AMD08_MI350_Architecture",
+    "needle": "288GB",
+    "claim": "服务器容量",
+    "location": "正文/图/原文",
+    "evidence_type": "事实/条件分析",
+    "conditions": "条件详见专题",
+    "finding": "能力不代替目标SKU完整性能/安全/商业验证"
+  },
+  {
+    "source_id": "AMD08_CK_LDS",
+    "needle": "bank conflicts",
+    "claim": "LDS约束",
+    "location": "正文/图/原文",
+    "evidence_type": "事实/条件分析",
+    "conditions": "条件详见专题",
+    "finding": "能力不代替目标SKU完整性能/安全/商业验证"
+  },
+  {
+    "source_id": "AMD_HIP_Graphs",
+    "needle": "graph",
+    "claim": "提交机制",
+    "location": "正文/图/原文",
+    "evidence_type": "事实/条件分析",
+    "conditions": "条件详见专题",
+    "finding": "能力不代替目标SKU完整性能/安全/商业验证"
+  },
+  {
+    "source_id": "AMD_HIP_Memory",
+    "needle": "first touch",
+    "claim": "迁移成本",
+    "location": "正文/图/原文",
+    "evidence_type": "事实/条件分析",
+    "conditions": "条件详见专题",
+    "finding": "能力不代替目标SKU完整性能/安全/商业验证"
+  },
+  {
+    "source_id": "AMD08_IRON_Latest_Home",
+    "needle": "data movement",
+    "claim": "片上数据流",
+    "location": "正文/图/原文",
+    "evidence_type": "事实/条件分析",
+    "conditions": "条件详见专题",
+    "finding": "能力不代替目标SKU完整性能/安全/商业验证"
+  },
+  {
+    "source_id": "AMD08_IRON_Repo",
+    "needle": "complements mainstream",
+    "claim": "补充主流工具",
+    "location": "正文/图/原文",
+    "evidence_type": "事实/条件分析",
+    "conditions": "条件详见专题",
+    "finding": "能力不代替目标SKU完整性能/安全/商业验证"
+  },
+  {
+    "source_id": "AMD08_IRON_DMA",
+    "needle": "4 on AIE2",
+    "claim": "队列边界",
+    "location": "正文/图/原文",
+    "evidence_type": "事实/条件分析",
+    "conditions": "条件详见专题",
+    "finding": "能力不代替目标SKU完整性能/安全/商业验证"
+  },
+  {
+    "source_id": "AMD08_IRON_Compile",
+    "needle": "cached",
+    "claim": "编译缓存",
+    "location": "正文/图/原文",
+    "evidence_type": "事实/条件分析",
+    "conditions": "条件详见专题",
+    "finding": "能力不代替目标SKU完整性能/安全/商业验证"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Reference",
+    "needle": "System",
+    "claim": "系统汇合",
+    "location": "正文/图/原文",
+    "evidence_type": "事实/条件分析",
+    "conditions": "条件详见专题",
+    "finding": "能力不代替目标SKU完整性能/安全/商业验证"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Output",
+    "needle": ".rai",
+    "claim": "产物版本",
+    "location": "正文/图/原文",
+    "evidence_type": "事实/条件分析",
+    "conditions": "条件详见专题",
+    "finding": "能力不代替目标SKU完整性能/安全/商业验证"
+  },
+  {
+    "source_id": "AMD_VAI_Custom_Ops",
+    "needle": "tiler",
+    "claim": "算子搬运",
+    "location": "正文/图/原文",
+    "evidence_type": "事实/条件分析",
+    "conditions": "条件详见专题",
+    "finding": "能力不代替目标SKU完整性能/安全/商业验证"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Architecture",
+    "needle": "does not take ownership",
+    "claim": "buffer所有权",
+    "location": "正文/图/原文",
+    "evidence_type": "事实/条件分析",
+    "conditions": "条件详见专题",
+    "finding": "能力不代替目标SKU完整性能/安全/商业验证"
+  },
+  {
+    "source_id": "AMD_EDF_Domains",
+    "needle": "reserved-memory",
+    "claim": "资源域描述",
+    "location": "正文/图/原文",
+    "evidence_type": "事实/条件分析",
+    "conditions": "条件详见专题",
+    "finding": "能力不代替目标SKU完整性能/安全/商业验证"
+  },
+  {
+    "source_id": "AMD_TSN_HW",
+    "needle": "QBV schedule",
+    "claim": "网络时序",
+    "location": "正文/图/原文",
+    "evidence_type": "事实/条件分析",
+    "conditions": "条件详见专题",
+    "finding": "能力不代替目标SKU完整性能/安全/商业验证"
+  },
+  {
+    "source_id": "AMD_Versal_Gen2_Industrial",
+    "needle": "certification targeted",
+    "claim": "认证目标",
+    "location": "正文/图/原文",
+    "evidence_type": "事实/条件分析",
+    "conditions": "条件详见专题",
+    "finding": "能力不代替目标SKU完整性能/安全/商业验证"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "obligation for ongoing security maintenance",
+    "claim": "维护责任",
+    "location": "正文/图/原文",
+    "evidence_type": "事实/条件分析",
+    "conditions": "条件详见专题",
+    "finding": "能力不代替目标SKU完整性能/安全/商业验证"
+  }
+]

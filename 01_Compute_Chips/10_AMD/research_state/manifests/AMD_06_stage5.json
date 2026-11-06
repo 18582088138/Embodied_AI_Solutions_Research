@@ -1,0 +1,5 @@
+[
+ {"name":"AMD06_GB_Factory_PR","url":"https://www.prnewswire.com/news-releases/generative-bionics-to-build-europes-largest-physical-ai-data-factory-and-advance-european-humanoid-sovereignty-with-amd-ai-infrastructure-302914868.html","expected":"html","used_by":["06_Robot_Integration"]},
+ {"name":"AMD06_XArm_API","url":"https://github.com/xArm-Developer/xArm-Python-SDK/blob/master/doc/api/xarm_api.md","expected":"html","used_by":["06_Robot_Integration"]},
+ {"name":"AMD06_XArm_License","url":"https://github.com/xArm-Developer/xArm-Python-SDK/blob/master/LICENSE","expected":"html","used_by":["06_Robot_Integration"]}
+]

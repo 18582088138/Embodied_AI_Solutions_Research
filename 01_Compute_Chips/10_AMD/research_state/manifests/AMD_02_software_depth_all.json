@@ -1,0 +1,654 @@
+[
+  {
+    "name": "AMD_HIP_Graphs",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/hipgraph.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_Acceleration_Libs",
+    "url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/optimization/model-acceleration-libs.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_MIGraphX_Repo",
+    "url": "https://github.com/ROCm/AMDMIGraphX/",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_vLLM_Optimization",
+    "url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/optimization/vllm-v1-optimization.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Model",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/understand/programming_model.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Tuning",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/performance_guidelines.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Coherence",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/coherence_control.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Memory",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/unified_memory.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_GraphSafe",
+    "url": "https://rocm.docs.amd.com/en/latest/reference/graph-safe-support.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Allocator",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/stream_ordered_allocator.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_MIGraphX_Parse",
+    "url": "https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/tutorials/parse-load-save-tutorial.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_MIGraphX_Python",
+    "url": "https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/reference/MIGraphX-py.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_MIGraphX",
+    "url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/inference/migraphx.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_MIGraphX_Tune",
+    "url": "https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/how-to/model-performance-tuning.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_Isolation",
+    "url": "https://rocm.docs.amd.com/en/latest/reference/system-optimization/gpu-isolation.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "Compare_CUDA_Graphs",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/cuda-graphs.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "Compare_TRT_Builder",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment",
+      "02B_RyzenAI_Compilation_and_Quantization",
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_Compatibility",
+    "url": "https://rocm.docs.amd.com/en/latest/compatibility/compatibility-matrix.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_Licenses",
+    "url": "https://rocm.docs.amd.com/en/latest/about/license.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Docs",
+    "url": "https://ryzenai.docs.amd.com/en/latest/",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Release",
+    "url": "https://ryzenai.docs.amd.com/en/latest/relnotes.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Ops",
+    "url": "https://ryzenai.docs.amd.com/en/latest/ops_support.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Compile",
+    "url": "https://ryzenai.docs.amd.com/en/latest/modelrun.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Linux",
+    "url": "https://ryzenai.docs.amd.com/en/latest/linux.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_Quark_Schemes",
+    "url": "https://quark.docs.amd.com/latest/onnx/config/quantization_schemes.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_Quark_XINT8",
+    "url": "https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_xint8_quantize.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_Quark_A16W8",
+    "url": "https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_a8w8_and_a16w8_quantize.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_Quark_SmoothQuant",
+    "url": "https://quark.docs.amd.com/latest/onnx/accuracy_algorithms/sq.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_Quark_Search",
+    "url": "https://quark.docs.amd.com/latest/onnx/user_guide_auto_search.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Analyzer",
+    "url": "https://ryzenai.docs.amd.com/en/latest/ai_analyzer.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_App",
+    "url": "https://ryzenai.docs.amd.com/en/latest/app_development.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_Quark_License",
+    "url": "https://quark.docs.amd.com/latest/license.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Licenses",
+    "url": "https://ryzenai.docs.amd.com/en/latest/licenses.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "Compare_TRT_Quant",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization",
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Release",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/release_notes/release_notes_section.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Compile",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/compiling.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VAI_EP_Config",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/ep-config-file.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_CPU_Partition",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/cpu_partition.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Deploy",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_deployment/model-inference.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Architecture",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/ml-architecture-overview.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Output",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/output.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VAI_Partition_Analyzer",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/ai_analyzer/partitioning.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Tenancy",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/multi-tenancy-user-guide.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_VART_App",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_app_guide.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime",
+      "02E_ROS_Acceleration_and_System_Integration"
+    ]
+  },
+  {
+    "name": "AMD_VAI_Tensor_Formats",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/misc/tensor_formats.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VAI_Quant_Pipeline",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_quantization_pipeline.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Quantization",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_quantization/model_quantization.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Async",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/advanced_concepts/async_execution.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VAI_Custom_Ops",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/custom_ops/custom_ops_introduction.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VAI_Custom_Infer",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/custom_ops/custom_ops_running_inference.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VAI_DDR_Profiling",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/ai_analyzer/runtime_ddr_profiling_utility.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Requirements",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/setup_and_installation/system_requirements.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_License",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/license.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Release",
+    "url": "https://edf.docs.amd.com/en/latest/downloads-and-release-notes.html",
+    "expected": "html",
+    "used_by": [
+      "02D_EDF_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Production",
+    "url": "https://edf.docs.amd.com/en/latest/moving-from-amd-software-stacks-to-production-deployment.html",
+    "expected": "html",
+    "used_by": [
+      "02D_EDF_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Overview_PDF",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/products/software-tools/embedded-development-framework-product-overview.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "02D_EDF_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Build_Container",
+    "url": "https://edf.docs.amd.com/en/latest/osdev/build-edf-yocto-with-the-edf-build-container.html",
+    "expected": "html",
+    "used_by": [
+      "02D_EDF_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "AMD_EDF_SHEL_XSA",
+    "url": "https://edf.docs.amd.com/en/latest/shel/using-the-shel-flow-to-create-a-yocto-project-machine-configuration-from-a-xsa-file.html",
+    "expected": "html",
+    "used_by": [
+      "02D_EDF_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Device_Tree",
+    "url": "https://edf.docs.amd.com/en/latest/shel/obtaining-linux-device-trees-from-the-shel-flow.html",
+    "expected": "html",
+    "used_by": [
+      "02D_EDF_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Domains",
+    "url": "https://edf.docs.amd.com/en/latest/osdev/domain-yaml-integration-and-development.html",
+    "expected": "html",
+    "used_by": [
+      "02D_EDF_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Custom_Firmware",
+    "url": "https://edf.docs.amd.com/en/latest/osdev/installing-custom-firmware-into-edf-yocto-linux-images.html",
+    "expected": "html",
+    "used_by": [
+      "02D_EDF_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "AMD_EDF_OpenAMP_Zephyr",
+    "url": "https://edf.docs.amd.com/en/latest/discovery/openamp-rpu-firmware-demo-zephyr.html",
+    "expected": "html",
+    "used_by": [
+      "02D_EDF_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "AMD_EDF_OpenAMP_FreeRTOS",
+    "url": "https://edf.docs.amd.com/en/latest/discovery/openamp-rpu-firmware-demo-freertos.html",
+    "expected": "html",
+    "used_by": [
+      "02D_EDF_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Segmented",
+    "url": "https://edf.docs.amd.com/en/latest/seg/segmented-configuration-or-dynamic-function-exchange.html",
+    "expected": "html",
+    "used_by": [
+      "02D_EDF_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "AMD_EDF_PL_Load",
+    "url": "https://edf.docs.amd.com/en/latest/seg/amd-edf-segmented-configuration-using-amd-yocto-project-recipes.html",
+    "expected": "html",
+    "used_by": [
+      "02D_EDF_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Components",
+    "url": "https://edf.docs.amd.com/en/latest/yocto/building-components-from-source.html",
+    "expected": "html",
+    "used_by": [
+      "02D_EDF_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "Compare_Jetson_OTA",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/SoftwarePackagesAndTheUpdateMechanism.html",
+    "expected": "html",
+    "used_by": [
+      "02D_EDF_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "KRS_Perception",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/6_perception.html",
+    "expected": "html",
+    "used_by": [
+      "02E_ROS_Acceleration_and_System_Integration"
+    ]
+  },
+  {
+    "name": "AMD_Kria_AI_Dev",
+    "url": "https://www.amd.com/en/products/system-on-modules/kria/ai/robotics-developer-platform.html",
+    "expected": "html",
+    "used_by": [
+      "02E_ROS_Acceleration_and_System_Integration"
+    ]
+  },
+  {
+    "name": "KRS_ROS_Centric",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/features/ros2centric.html",
+    "expected": "html",
+    "used_by": [
+      "02E_ROS_Acceleration_and_System_Integration"
+    ]
+  },
+  {
+    "name": "KRS_Vitis_Function",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/vitis_accelerated_function.html",
+    "expected": "html",
+    "used_by": [
+      "02E_ROS_Acceleration_and_System_Integration"
+    ]
+  },
+  {
+    "name": "KRS_Faster_Publisher",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/5_faster_ros2_publisher.html",
+    "expected": "html",
+    "used_by": [
+      "02E_ROS_Acceleration_and_System_Integration"
+    ]
+  },
+  {
+    "name": "KRS_Stream_Rectify_Source",
+    "url": "https://github.com/ros-acceleration/image_pipeline/blob/ros2/image_proc/src/rectify_fpga_streamlined.cpp",
+    "expected": "html",
+    "used_by": [
+      "02E_ROS_Acceleration_and_System_Integration"
+    ]
+  },
+  {
+    "name": "KRS_Stream_Resize_Source",
+    "url": "https://github.com/ros-acceleration/image_pipeline/blob/ros2/image_proc/src/resize_fpga_streamlined.cpp",
+    "expected": "html",
+    "used_by": [
+      "02E_ROS_Acceleration_and_System_Integration"
+    ]
+  },
+  {
+    "name": "KRS_Stream_Rectify_Kernel",
+    "url": "https://github.com/ros-acceleration/image_pipeline/blob/ros2/image_proc/src/image_proc/xf_rectify_accel_streamlined.cpp",
+    "expected": "html",
+    "used_by": [
+      "02E_ROS_Acceleration_and_System_Integration"
+    ]
+  },
+  {
+    "name": "KRS_Stream_Resize_Kernel",
+    "url": "https://github.com/ros-acceleration/image_pipeline/blob/ros2/image_proc/src/image_proc/xf_resize_accel_streamlined.cpp",
+    "expected": "html",
+    "used_by": [
+      "02E_ROS_Acceleration_and_System_Integration"
+    ]
+  },
+  {
+    "name": "KRS_Realtime",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/features/realtime_ros2.html",
+    "expected": "html",
+    "used_by": [
+      "02E_ROS_Acceleration_and_System_Integration"
+    ]
+  },
+  {
+    "name": "KRS_Howto",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/howto.html",
+    "expected": "html",
+    "used_by": [
+      "02E_ROS_Acceleration_and_System_Integration"
+    ]
+  },
+  {
+    "name": "Compare_ROS_Buffer",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/nitros_migration.html",
+    "expected": "html",
+    "used_by": [
+      "02E_ROS_Acceleration_and_System_Integration"
+    ]
+  },
+  {
+    "name": "KRS_Install",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/install.html",
+    "expected": "html",
+    "used_by": [
+      "02E_ROS_Acceleration_and_System_Integration"
+    ]
+  },
+  {
+    "name": "KRS_License",
+    "url": "https://github.com/Xilinx/KRS/blob/main/LICENSE.txt",
+    "expected": "html",
+    "used_by": [
+      "02E_ROS_Acceleration_and_System_Integration"
+    ]
+  }
+]

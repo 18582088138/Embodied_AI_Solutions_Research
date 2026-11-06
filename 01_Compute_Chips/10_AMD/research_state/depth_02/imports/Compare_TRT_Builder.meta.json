@@ -1,0 +1,31 @@
+{
+  "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+  "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_TRT_WORK--9df325c2c44e3de5/original.response",
+  "sha256": "656cc637bc2983dcc18269d41cdb4c44aab96530e4b8213c775bc73321e71eea",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html",
+    "Server": "AmazonS3",
+    "x-amz-replication-status": "COMPLETED",
+    "Last-Modified": "Wed, 28 Oct 2026 21:25:04 GMT",
+    "ETag": "\"1d388fb62bd68f04559354384f786ed5\"",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-version-id": "e5Cpp7jDtv9tj9g2.uPgMA1Nsudqvx4C",
+    "X-Amz-Cf-Pop": "TLV55-P3",
+    "X-Amz-Cf-Id": "V8BGieIMgr0zC5KT9f0brRkrWW2Fhl83fU8qeapjiF1KDJR974wyFQ==",
+    "x-nv-aws-origin": "CloudFront",
+    "Edge-Cache-Tag": "docs.nvidia.com-brightspot-s3-prod",
+    "Vary": "Accept-Encoding",
+    "Date": "Tue, 03 Nov 2026 07:59:38 GMT",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Set-Cookie": "c_code=CN; Domain=nvidia.com; Path=/; Secure",
+    "Expires": "0",
+    "Pragma": "no-cache",
+    "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+    "Content-Security-Policy": "img-src https://* data:;  style-src-elem 'self' 'unsafe-inline' 'unsafe-eval' https://fonts.googleapis.com/ https://cdnjs.cloudflare.com/ https://cdn.jsdelivr.net/ https://cdn.jsdelivr.net/npm/swagger-ui-dist@latest/ https://unpkg.com/ https://stackpath.bootstrapcdn.com/ https://use.fontawesome.com/ https://fontawesome.com https://docscontent.nvidia.com/ https://nvcms.nvidia.com/ https://docs.nvidia.com/ https://www.nvidia.com/ https://hotjar.com/ https://d4j85rjepgcta.cloudfront.net https://copilot-netguru.nvidia.com/;  script-src-elem 'self' 'unsafe-inline' 'unsafe-eval' https://ajax.googleapis.com/ https://cdnjs.cloudflare.com/ https://cdn.jsdelivr.net/ https://unpkg.com https://fast.wistia.com/ https://js.hcaptcha.com/ https://cdnapisec.kaltura.com/ https://static.hotjar.com/ https://script.hotjar.com/ https://t.contentsquare.net/ https://assets.adobedtm.com/ https://images.nvidia.com/ https://docscontent.nvidia.com/ https://cdn.bizible.com/ https://api-prod.nvidia.com/ https://www.googletagmanager.com/ https://googleads.g.doubleclick.net/ https://tbyb.rivaspeech.com/ https://d4j85rjepgcta.cloudfront.net https://cdn.cookieLaw.org https://copilot-netguru.nvidia.com/ https://nvidia.tt.omtrdc.net/rest/v1/delivery https://www.nvidia.com/ https://static.reo.dev/;",
+    "Akamai-Cache-Status": "RefreshHit from child, Hit from parent"
+  },
+  "final_url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+  "retrieved_at_utc": "2026-11-03T07:59:39.340501+00:00"
+}

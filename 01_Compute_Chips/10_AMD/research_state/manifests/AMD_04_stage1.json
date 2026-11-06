@@ -1,0 +1,13 @@
+[
+ {"name":"AMD04_MolmoAct_Blog","url":"https://rocm.blogs.amd.com/artificial-intelligence/molmoact2-ryzers-strix/README.html","expected":"html","used_by":["04_AI_Capabilities"]},
+ {"name":"AMD04_LeRobot_Blog","url":"https://rocm.blogs.amd.com/artificial-intelligence/rocm-lerobot/README.html","expected":"html","used_by":["04_AI_Capabilities"]},
+ {"name":"AMD04_Ryzers_Repo","url":"https://github.com/AMDResearch/Ryzers","expected":"html","used_by":["04_AI_Capabilities"]},
+ {"name":"AMD04_Molmo_Collection","url":"https://huggingface.co/collections/allenai/molmoact","expected":"html","used_by":["04_AI_Capabilities"]},
+ {"name":"AMD04_Vitis_Models","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/supported_models.html","expected":"html","used_by":["04_AI_Capabilities"]},
+ {"name":"AMD04_Ryzen_Collection","url":"https://huggingface.co/collections/amd/ryzen-ai-190-npu","expected":"html","used_by":["04_AI_Capabilities"]},
+ {"name":"AMD04_QwenVL_Card","url":"https://huggingface.co/amd/Qwen3-VL-4B-Instruct_rai_1.9.0_npu","expected":"html","used_by":["04_AI_Capabilities"]},
+ {"name":"AMD04_GPTOSS_Card","url":"https://huggingface.co/amd/gpt-oss-20b-onnx_cpu_rai_1.9.0_npu","expected":"html","used_by":["04_AI_Capabilities"]},
+ {"name":"AMD04_Videochat_Card","url":"https://huggingface.co/amd/Videochat_rai_1.9.0_npu","expected":"html","used_by":["04_AI_Capabilities"]},
+ {"name":"AMD04_EmbeddingGemma_Card","url":"https://huggingface.co/amd/embeddinggemma_npu_rai_1.9.0_npu","expected":"html","used_by":["04_AI_Capabilities"]},
+ {"name":"AMD04_VLM_Readme","url":"https://github.com/amd/RyzenAI-SW/blob/main/LLM-examples/VLM/README.md","expected":"html","used_by":["04_AI_Capabilities"]}
+]

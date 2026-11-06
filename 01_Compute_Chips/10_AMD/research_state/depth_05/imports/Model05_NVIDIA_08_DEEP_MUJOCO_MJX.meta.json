@@ -1,0 +1,11 @@
+{
+  "url": "https://mujoco.readthedocs.io/en/stable/mjx.html",
+  "status": 200,
+  "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_MUJOCO_MJX--63a58dbcc0c84e67/original.response",
+  "sha256": "cf262f7b90455325ea10e6de0df15e559d7338ee2e6303531615e46ebadcd4ec",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "final_url": "https://mujoco.readthedocs.io/en/stable/mjx.html",
+  "retrieved_at_utc": "2026-11-04T02:57:19.349351+00:00"
+}

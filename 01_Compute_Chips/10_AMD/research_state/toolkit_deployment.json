@@ -1,0 +1,11 @@
+{
+  "skill": "embodied-ai-platform-research",
+  "deployed_at_utc": "2026-11-04T04:38:49.501742+00:00",
+  "root": ".",
+  "project": "01_Compute_Chips/10_AMD",
+  "tools": {
+    "download_materials.py": "f8ca89f88b0465aff15629b12bb94c0d6c034070036f056837b74e5dfe858e6d",
+    "test_download_materials.py": "29ce9666d126a3f85eed171f30c3f9793e605705a57f1490e148a4f01244b407",
+    "check_report.py": "c042e3de12f4faff0bb39cc6a44e042d3c829cf50c7e4e09a3c89b5ee002990a"
+  }
+}

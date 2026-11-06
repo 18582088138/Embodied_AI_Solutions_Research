@@ -1,0 +1,29 @@
+{
+  "time_utc": "2026-11-04T06:58:21.450494+00:00",
+  "summary": {
+    "complete_static": 1,
+    "partial_static": 14,
+    "failed": 0
+  },
+  "names": [
+    "KRS_Perception",
+    "AMD_Kria_AI_Dev",
+    "KRS_ROS_Centric",
+    "KRS_Vitis_Function",
+    "KRS_Faster_Publisher",
+    "KRS_Stream_Rectify_Source",
+    "KRS_Stream_Resize_Source",
+    "KRS_Stream_Rectify_Kernel",
+    "KRS_Stream_Resize_Kernel",
+    "KRS_Realtime",
+    "KRS_Howto",
+    "AMD_VitisAI_VART_App",
+    "Compare_ROS_Buffer",
+    "KRS_Install",
+    "KRS_License"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

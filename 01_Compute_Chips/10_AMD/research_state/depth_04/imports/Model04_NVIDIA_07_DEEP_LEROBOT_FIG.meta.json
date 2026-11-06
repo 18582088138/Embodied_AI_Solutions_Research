@@ -1,0 +1,11 @@
+{
+  "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/media/readme/VLA_architecture.jpg",
+  "status": 200,
+  "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/data/07_DEEP_LEROBOT_FIG--55182f0cb8551ce1/original.response",
+  "sha256": "a54f82e318e0a9c0c6bbd1ef099685518f001d5bf3a5f341d6d2090994e7cb43",
+  "headers": {
+    "Content-Type": "image/jpeg"
+  },
+  "final_url": "https://raw.githubusercontent.com/huggingface/lerobot/main/media/readme/VLA_architecture.jpg",
+  "retrieved_at_utc": "2026-11-04T02:49:55.636528+00:00"
+}

@@ -1,0 +1,120 @@
+# 06 AMD 机器人本体适配：真机链条与商业成熟度
+
+数据截止：2026-11-04。研究范围：操作机械臂、移动工业设备、数字孪生与人形合作。本章用具体机器人、设备、芯片和接口核对适配，未开展本体安装、控制或现场验收。
+
+## 1. 先看证据等级，再看品牌名单
+
+公开材料已经支持 AMD 在真实机械臂教学链中完成感知→策略→执行的实例，也支持工业视觉设备的产品采用。它们没有共同证明所有 AMD CPU/GPU/NPU 均拥有完整机器人软件栈，更不能证明某一新模组已经大规模在岗。AMD robotics总页是路线入口；具体采用以技术blog、SDK和客户案例为准。@@AMD_Robotics@@
+
+| 本体/系统 | 硬件关联 | 已证实的状态 | 业务任务 | 未取得的关键字段 |
+|---|---|---|---|---|
+| UFactory XArm-6 | MI300X或MI355X单卡训练→Ryzen AI300 Mini-PC | AMD官方真机迁移演示，2026-09-29 | 绿色块拾取并保持离地0.25m | Mini-PC精确SKU、运行provider、成功分母、P99 |
+| Koch leader/follower | MI200微调→Phoenix iGPU | 官方模仿学习/π0真机教学，2025-07-14 | 把块放进杯 | 真实泛化集、任务成功率、整机功率 |
+| XArm7 MJX教程 | RX7900XTX/ROCm7.2 | 仿真训练教程，2026-03-31 | pick/lift训练 | 同一7轴本体真机验证、训练秒数 |
+| STW HPX.ai-vision | Zynq UltraScale+ MPSoC | 工业视觉控制器产品案例 | 多相机、辅助驾驶、障碍检测 | 精确Zynq型号、车型/台数、认证证书 |
+| Solectrix SXVPU | Kria SOM+额外AI加速器 | 工业视觉设备采用案例 | 四路摄像头处理与机器监控 | SOM/加速器SKU、基准精度/功率、客户机队 |
+| Robotec RoSi HIL | Kria SOM/Vitis Libraries | 官方案例明确做过demo/HIL原型 | 数字孪生与加速感知验证 | 具体本体SKU、部署数量、定量ROI |
+| GENE.01/Data Factory | 厂商称AMD onboard compute；拟用Helios | 本体合作公告；工厂计划2027Q4 | 工业人形数据、训练、验证 | onboard精确芯片、合同金额、交付/在岗证据 |
+
+依据@@AMD06_XArm_Sim2Real@@、@@AMD04_LeRobot_Blog@@、@@AMD06_XArm_JAX@@、@@AMD06_STW_PDF@@、@@AMD06_Solectrix_PDF@@、@@AMD06_Robotec_PDF@@、@@AMD06_GB_Factory_PR@@。产品级采用、公开演示、未来计划分别列出，没有以营销用途名单补齐商业部署。
+
+## 2. XArm-6：把训练、感知和固件放在同一条链上
+
+### 2.1 训练任务和real-to-sim的真实工作量
+
+2026-09 AMD案例在MI300X和MI355X各单卡复现PPO训练，用MuJoCo Playground和随案例补丁提供的ROCm MuJoCo Warp实现。任务不是自由语言操作，而是抓立方体并保持距地0.25m。奖励由MetaWorld的pick/place适配，关键是orientation-aware caging：Sawyer原任务夹爪方向固定，XArm6腕部可转，故以每个policy step的夹爪方向更新两指之间的caging axis。奖励函数随本体几何变化，不能直接复用给七轴、不同手指或软夹爪。@@AMD06_XArm_Sim2Real@@
+
+训练观测包含关节位置/速度、夹爪位姿、指令与实际关节差，以及立方体相对夹爪位姿和目标相对块位姿。后者在仿真为特权信息。动作正文写六个关节角delta加一个夹爪delta，累加到位置目标后clip/scale。与关节绝对角、速度和力矩输出不是同一契约；重复执行delta会不断累积，而重复发送绝对目标通常只是保持目标。部署要在adapter中明确区别，防止掉帧时重复累加造成越限。@@AMD06_XArm_Sim2Real@@
+
+作者先用box/capsule/cylinder近似碰撞几何，重点拟合夹指/指垫；将真实有良好相机视野的home姿态带入仿真；模拟固件重力补偿，逐关节测指令到关节角响应，arm与gripper用不同模型。随后在实测范围随机化块质量、初始关节/块位置及API执行延迟。由此可见官方所谓zero-shot transfer不表示无真机工作：控制动态辨识、home frame和感知标定均已发生，含义是同一训练策略在该真实设置部署。@@AMD06_XArm_Sim2Real@@
+
+### 2.2 双D435i感知替换特权位姿
+
+两台RealSense D435i，一台腕部eye-in-hand、一台场景俯视。腕部近抓取时受手指遮挡，俯视受机械臂遮挡，故按置信度融合而非盲目平均。RGB以HSV阈值找绿色块最大blob和质心，结合块约6cm高度及深度优于桌面的条件，再反投影到机器人base frame；每个相机输出xyz与confidence，可用视图降级为单视图。深度处理通过带ROCm device支持的librealsense构建在AMD GPU运行，官方链接PR15074，但本章未追认该PR已合入所有正式版本。@@AMD06_XArm_Sim2Real@@
+
+![AMD官方：双相机传统感知融合](@@FIG:vision@@)
+
+图中两个Cube Pixel Detector→Centroid Finder→Fusion→`/cube_xyz`。这是一条传统视觉链，策略本身不处理图像；块方向在真机固定为upright，未估计完整6DoF。图支持两视角融合的模块边界，不证明对任意颜色、旋转物体、透明物体或杂乱桌面均能工作。
+
+腕部相机求camera-to-gripper固定变换；场景相机通过机械臂扫已知位置拟合camera-to-base，作者报约4mm residual，内参取出厂标定。该残差是特定标定拟合结果，既不是全过程抓取误差，也不是所有深度像素的精度保证。研究性建议：外参文件应与相机序列号、mount版本和TCP偏置共同记录；换夹爪或相机松动后不能继续使用原矩阵。两路观测还需按采集时刻变换，而不能用当前关节姿态变换旧帧。@@AMD06_XArm_Sim2Real@@
+
+### 2.3 策略到固件：40Hz只是一层频率
+
+小型MLP导出ONNX，policy与vision在RyzenAI300 Mini-PC运行，policy以40Hz调用，经ROS2和xArm SDK送往XArm6。servo_streaming若目标不平滑会停顿/抖动，作者通过历史状态堆叠、平滑奖励、限幅和执行延迟建模缓解。仅凭“RyzenAI”型号名无法断言模型跑在NPU；正文没有ONNX执行provider、精度、CPU/GPU/NPU分工或完整时延分布。@@AMD06_XArm_Sim2Real@@
+
+![AMD官方：策略、阶段机和本体API](@@FIG:controller@@)
+
+逐图核查发现：图写“Action:7 joint+1 gripper”，正文Environment Details写六个关节delta+一个夹爪delta；图又写观测4past frames。保留冲突，不替官方改图；按正文解释XArm6，部署必须从ONNX输出shape、关节名/顺序和SDKaxis字段核验。阶段机REACH/GRASP/LIFT及夹爪确认说明系统还含手工控制逻辑，不能把整个动作归因单个MLP。图中`set_servo_angle_j`、`set_gripper_position`也不是独立安全停机回路。
+
+![AMD官方：真实XArm6拾取演示](@@FIG:real@@)
+
+三帧支持真实手臂接近、抓起绿色块的演示事实；没有试验分母、保持时长统计或人为介入日志，因此不补写100%成功、量产可用、24/7无故障。40Hz是policy调用而非电机内部servo频率，25ms倒数也不是端到端P99/WCET。
+
+### 2.4 SDK对象、单位和故障响应
+
+xArm官方Python SDK支持xArm5/6/7、Lite6等，`XArmAPI`可指定`is_radian`，README列joint/Cartesian命令、state/mode/motion_enable、TCP load/offset、collision sensitivity、error/warn查询、emergency_stop以及回调。不能因为SDK覆盖多个产品就令同一checkpoint跨本体通用。接口包装应冻结SDK/固件版本、轴数、关节顺序、角度单位、夹爪尺度和TCP；先比较FK与真实末端，再逐步开放动作范围。完整API文档候选仅取得GitHub导航，raw下载失败，未把导航壳作为有效来源；这里的API存在性依可读README，不对未读的详细参数或内部watchdog作保证。@@AMD06_XArm_SDK@@
+
+研究性失效方案：camera超过年龄阈值则阻止新策略动作；ONNX异常或超时进入可定义的保持/撤退；SDK断连、state/error变化或目标越限应触发控制侧处理，并确认驱动器实际状态。停止发布ROS消息不等于旧轨迹队列取消，也不等于制动。应测试命令确认、队列长度、错误码、控制器模式和通信watchdog，避免在相机恢复后继续执行旧块位姿。SDK含警示与collision设置不构成整机安全认证；认证还涉及风险评估、保护设备、固件和失效响应。SDK为BSD3-Clause标记，ONNX模型、MuJoCo资产、训练依赖与补丁许可分开。@@AMD06_XArm_License@@ @@AMD06_XArm_SDK@@
+
+官方robotics.zip入口href目前为页内片段，未取得独立ZIP原件，因此这里没有称附件补丁或全部超参数已复建；本章确认的是可读技术正文和实际原图。有附件缺口不等于AMD未研发相应实现。
+
+## 3. Koch/π0：真实模仿学习教学与动作数据契约
+
+AMD 2025-07教程以两个3D打印Koch臂作leader/follower，两个Logitech相机，任务为绿色块入杯。数据成对保存视觉轨迹和关节位置，采集50段、每段约20秒，640×480/15fps；在MI200集群微调约3B的π0，端侧Phoenix iGPU执行。这是预训练基础策略微调，并非从头训练；杯和块位置在采集时变化，说明作者试图防止固定位置过拟合，但没有独立测试物体/任务分母。@@AMD04_LeRobot_Blog@@
+
+复建链条需要区分leader是遥操作输入，follower才执行策略；串口设备名、robot.id、calibration文件、相机top/side名称、checkpoint与训练dataset需一致。训练数据关节的归一化和动作features是模型契约，不能凭“同为机械臂”将其送到XArm或人形关节。教程`--policy.device=cuda`在ROCm Torch中沿用接口命名，不等于实际NVIDIA GPU；设备日志和`torch.version.hip`仍需验证。@@AMD04_LeRobot_Blog@@
+
+15fps在此是相机/数据记录配置，未给策略完整推理/RPC或伺服频率。真实演示支持该块入杯任务的操作路径，不足以证明未知物体、光照或抓握负载的泛化。要从科研原型转成长期运行，应测舵机温升、机械间隙、夹爪力、相机线缆拉扯、急停、关节越限和数据/模型版本回退。3D打印低成本臂很适合迭代数据，机械和安全边界也必须随之收紧。这些为工程分析，未声称AMD已给量产Koch维护服务。
+
+XArm7的2026-03训练教程则为MJX-JAX仿真，八维动作是七关节+夹爪，不能用它解决XArm6图文维数冲突，也不能把XArm6真机表现归因同一7轴checkpoint。@@AMD06_XArm_JAX@@
+
+## 4. 工业移动设备：STW和Solectrix的采用边界
+
+### 4.1 STW HPX.ai-vision
+
+2025版权案例描述STW为农业、建筑、矿业、地勤及robotics提供可重配置视觉控制器，核心为ZynqUltraScale+ MPSoC，支持最多八相机配置。设备工作机器的形状会随附件/臂展改变，固定汽车四相机布置不适用；FPGA可重配置处理链在stereo depth与surround view等用途间调整。这里是工业视觉计算盒，未列具体机器人车型及精确Zynq SKU，不能把新X199或VersalGen2性能套入。@@AMD06_STW_PDF@@
+
+![AMD/STW官方案例第一页](@@FIG:stw@@)
+
+页中“up to8 configurable cameras”是设备功能声明，环境要求-40至+85°C是该案例的需求叙述，未提供独立逐温测试或证书。正文还明确：有驾驶员时作为assistance system，法规允许后面向autonomous operation。障碍检测与紧急制动的用途不自动证明无人化生产系统已正式放行。
+
+分析：这种平台价值是小批量、多变配置复用与接口/环境适配，收益应测每车型软件移植、相机标定和硬件重设计工作量。客户访谈称降低成本，未给开发人月、币种或对照BOM；本章不生成成本降低百分比。相机数、驱动和线束属于控制盒能力，仍需和传感器同步/带宽及车辆安全链联合验收。
+
+### 4.2 Solectrix SXVPU
+
+2024版权案例明确Kria SOM进入SXVPU，四路GMSL2视觉、以太网跨区域连接、IP65/IP67；半集中架构把预压缩图像处理靠近摄像头，同时用额外AI加速器。介绍前段用LVDS描述链路，产品Solution明确GMSL2；两者是不同层次的描述，不能推出Kria芯片原生有GMSL接口。雷达/LiDAR/ToF为可加扩展，文档明确不是最初内建。@@AMD06_Solectrix_PDF@@
+
+原件第二页由客户宣称：AI accelerator超过10TOPS/W；latency-optimized streaming path低于10ms；平台可供货超过10年。条件缺少加速器型号、精度/稀疏、模型、相机配置、功率边界和分位数，且末尾注明AMD未独立核验性能/成本。不能归为Kria单芯片能效、曝光到制动时延或特定SOM的软件支持期限。@@AMD06_Solectrix_PDF@@
+
+采购动作应要求SXVPU完整配置和版本BOM，包括Kria SKU、额外加速器、camera/serializer/线缆、runtime许可与工业保障。只有计算盒与接口采用被确认，没有具体终端客户机队/在岗数量或事故减少对照。因此“提升安全”保留为客户描述，不能量化为人员风险下降或收益。
+
+## 5. Robotec RoSi：HIL合作不是已交付本体名单
+
+AMD2025版权原始案例介绍RoSi为模块化open-core数字孪生工具，用于AMR、机械臂与腿式机器人；Kria与Vitis Libraries帮助快速原型加速感知和HIL。p2客户明确称最终做了使用Kria的demo，具ROS alignment。它说明嵌入式节点可以进入仿真/真实接口一致的验证链，不证明某款机器人已采用某Kria SKU量产。@@AMD06_Robotec_PDF@@
+
+SIL模拟应用，HIL把真实计算硬件放入环路，实际传感器/电机和业务环境可能仍被模拟；“可更便宜集成”“最优性能之一”为客户宣称。原件未给同条件benchmark或台数，p2的数字孪生市场金额和“50%机器人使用ROS”也缺抽样分母，不能作为AMD机器人份额。原件由AMD公开案例页链接，p2残留internal distribution watermark；保留原样和来源，不以此推导另有保密材料。@@AMD06_Robotec_Case@@ @@AMD06_Robotec_PDF@@
+
+## 6. GENE.01：本体采用与数据工厂的不同时间状态
+
+2026-10-21由GenerativeBionics提供、PRNewswire发布的官方新闻稿称AMD compute在GENE.01 onboard，AMDVentures参与种子轮，计划用Helios建设三个设施网络。第一处意大利5000平方米hub拟2027Q4运行。这里厂商提供的稿件是合作事实来源，PRNewswire不是独立审计；“欧洲最大”缺独立设施分母，本章不采为排名。@@AMD06_GB_Factory_PR@@
+
+链条规划为真实本体操作/皮肤信号→数字孪生大量变化→WorldActionModel训练→回到本体验证→机队数据反馈。价值机制在于接触、力、温度、邻近等数据补充video-only学习；但新闻稿没有onboard具体CPU/GPU/FPGA、触觉数据率、控制延迟、每设施GPU数量、合同订单或在岗机队。故本章只写“AMD onboard compute厂商声明”和“Helios基础设施计划”，不把峰值算力、传感器路数或采购额填进去。
+
+厂商新闻门户的GENE.01/Eni/Fincantieri条目可在浏览器读到，但本轮下载器对门户及公开ZIP均返回403，未取得可核原件，未放入有效引用。本章不据搜索摘要补写焊接机器人交付、医院部署或ROI。已成功取得的2026-10新闻稿足以核合作与未来设施计划，其局限单独保留。
+
+## 7. 从已演示到放行：本体任务与维护契约
+
+以下为基于案例机制提出的分析性验收，不是AMD测试结论。必须先把机器人任务写成输入、输出、时间、安全与运营边界，才能判断换芯片是否有益。
+
+| 验收层 | 可交付证据 | 关键失败模式 | 对采用状态的影响 |
+|---|---|---|---|
+| 本体映射 | 型号/轴数/关节名/单位/TCP/夹爪范围；SDK与固件 | 维数、坐标、delta/absolute误配 | 未通过仅可离线演示 |
+| 感知 | 相机序列号/内外参、同步、观察年龄和遮挡回退 | 旧frame用于新姿态、两相机都失效 | 限定任务/光照/物体范围 |
+| 策略 | 模型hash、输入/输出shape、precision、provider、horizon | 不支持算子、超时、重复动作 | 不能以模型名当部署通过 |
+| 控制/保护 | 控制频率、队列、限幅、watchdog、制动确认 | 停发不停车、旧轨迹继续、API报错 | 不能当自主安全系统 |
+| 热/并发 | 目标SKU功率、热稳态、相机+网络+推理同时P99 | 平均快速但温升降频、资源争用 | 仅限定负载部署 |
+| 运营 | 尝试/成功分母、介入、暴露小时、备件与回退 | demo选择性剪辑、任务变化失效 | 决定试点/商业/在岗等级 |
+
+对操作臂，最直接的芯片价值是把完整视觉和策略纳入时延/内存预算；对工业视觉盒，是减少分散处理与重复开发；对HIL，是缩短验证循环；对GENE.01基础设施，是扩充数据与训练规模。这些作用机制不能互相换算：数据中心训练更快不直接降低电机制动距离，视觉盒处理10ms不自动证明策略成功，未来数据工厂也不能归因现有机器人运营收益。
+
+本章尚未取得含具体AMD芯片代际、客户现场、在岗数量、持续时间与量化ROI的完整机队级联合证据。检索已扩大到官方总页、技术blog、本体SDK、客户PDF和厂商新闻稿；该结论是本轮证据覆盖边界，并非断言AMD没有商业客户。后续选型应对具体供应商提出上表所列证据，并把新硬件design-in与既有设备运营分别计账。

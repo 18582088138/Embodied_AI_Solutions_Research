@@ -1,0 +1,128 @@
+# AMD 软件专题 02B：Ryzen AI 的量化、图分区、编译缓存与部署契约
+
+本专题回答“训练模型怎样成为可持续运行的端侧 NPU 应用”。重点是数值表示、编译分区、产物复用和故障可观测性，而非重复 NPU TOPS。研究截止 2026-11-04：Ryzen AI 总览为 1.9.0，但 release 支持段和算子页仍有 1.8 标识；Quark latest 的 API 示例也不自动等于安装包中的接口。下面分别保留这些边界。[S01 Ryzen AI软件总览](https://ryzenai.docs.amd.com/en/latest/) [S02 Ryzen AI release/known issues](https://ryzenai.docs.amd.com/en/latest/relnotes.html) [S03 Ryzen AI算子支持表](https://ryzenai.docs.amd.com/en/latest/ops_support.html)
+
+## 1. 软件架构：模型格式、执行提供者和硬件不是同一层
+
+训练框架导出 ONNX，Quark/Olive 完成转换和压缩，ORT 创建 InferenceSession，VitisAIExecutionProvider 承接 NPU 能运行的子图。CPU EP 可运行其余部分；DirectML/iGPU 是另外一条执行路线。官方总图证明三类硬件和 EP 的对应关系，没有证明任意模型都能同时被三者优化。Linux 页明确本发行只支持 NPU flow，不能从总图把 Windows 的 GPU/hybrid 路线推到 Linux。[S04 Ryzen AI EP编译/运行/缓存](https://ryzenai.docs.amd.com/en/latest/modelrun.html) [S05 Ryzen AI Linux安装与P100支持](https://ryzenai.docs.amd.com/en/latest/linux.html)
+
+![官方 Ryzen AI 模型转换与 EP 分层图](assets/figures/02_ryzen_ai_stack--170eb426cae4.png)
+
+**图1，原站：** [S01 Ryzen AI软件总览](https://ryzenai.docs.amd.com/en/latest/)。图中从训练模型到 ONNX 优化，再到 CPU/DirectML/Vitis AI EP，体现不同软件对象；不表达缓存兼容性、零拷贝或硬实时保证。
+
+模型入口推荐 opset17。加载时首次编译，已有可用 EP context/cache 时避免再次编译；`session.run()` 是完成初始化后的执行接口。这意味着“启动时延”和“单次推理时延”来自不同阶段。应用要保存模型输入名、dtype、shape、归一化、颜色顺序和输出解释；单有 ONNX 后缀不足以定义机器人观测或动作语义。[S04 Ryzen AI EP编译/运行/缓存](https://ryzenai.docs.amd.com/en/latest/modelrun.html)
+
+## 2. 量化的实际机制：scale、zero point 和误差从哪里来
+
+以线性整数量化作**分析示意，非 AMD kernel 的逐指令实现**：`q = clamp(round(x/s)+z, qmin, qmax)`，重建 `x̂ = s(q-z)`。未饱和时的舍入误差随步长 s 增大；越界则出现饱和误差。对称量化把零点约束在对称编码约定中，非对称方案允许移动表示区间；per tensor 用一个标量 scale，per channel 沿指定 axis 保存一维 scale，长度须匹配该维。后者可避免一个离群通道扩大整张权重的量化步长，但引入元数据和目标算子支持条件。Quark 通用文档支持这两类粒度及对称/非对称，不能由此推出每个 Ryzen backend 都支持所有组合。[S06 AMD_Quark_Schemes](https://quark.docs.amd.com/latest/onnx/config/quantization_schemes.html)
+
+| Ryzen 路线 | 官方数值描述 | 解决的问题 | 代价/不能推出的结论 |
+|---|---|---|---|
+| XINT8 | 输入、权重、bias 对称 INT8；power-of-two scale | 面向 NPU 峰值性能的配置 | scale 选择更受限；该描述不能替代内部累加位宽规范 |
+| A8W8 | 对称 INT8 输入/权重，INT32 bias，float scale | 比 XINT8 更灵活的数值范围 | 不保证所有算子都留在 NPU |
+| A16W8 | 对称 INT16 输入、INT8 权重、INT32 bias，float scale | 降低激活量化误差 | 厂商称通常精度更好、性能低于 A8W8，无本任务加速比 |
+| BF16 | Ryzen 编译器的另一条模型路线 | 避免强整数校准约束 | STX/KRK 或更新设备条件，不能套 PHX/HPT |
+
+依据：[S07 AMD_Quark_XINT8](https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_xint8_quantize.html) [S08 AMD_Quark_A16W8](https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_a8w8_and_a16w8_quantize.html) [S04 Ryzen AI EP编译/运行/缓存](https://ryzenai.docs.amd.com/en/latest/modelrun.html)。XINT8 的 `s=2^k` 可将某些重缩放转为移位，是数值结构的分析；本次未取得其每种算子的指令和累加溢出策略，不称“所有转换只需一次移位”。同样，A16 的激活元素存储位数是 A8 的两倍，但总内存还包含权重、workspace、布局补齐和中间张量，不能把整模型 RAM 简单乘二。
+
+Q/DQ 节点描述数值边界，backend 是否融合这些转换由具体图模式决定。对残差相加、Concat 和多路输入，应检查 scale 对齐及数据范围，而不是只统计“量化算子比例”。Quark 示例含 AlignConcat、AlignEltwiseQuantType 等选项，这说明量化具有图结构约束；示例配置名与变量还有不一致，实际编码须依据安装版本的 API 修订，本文不把示例直接宣称可运行。[S08 AMD_Quark_A16W8](https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_a8w8_and_a16w8_quantize.html)
+
+## 3. 校准与精度修复：数据分布比文件名重要
+
+`QConfig.get_default_config("XINT8"/"A8W8")` 生成配置，`ModelQuantizer(...).quantize_model(float_path, quant_path, reader)` 消费校准 reader。reader 的 get_next 必须返回输入名到 tensor 的映射，并正确结束；官方示例的数据加载函数是占位，不能原样得到有效校准。量化过程还自动执行图优化，因此比较必须使用相同前处理和原模型语义，不能只对比文件大小。[S07 AMD_Quark_XINT8](https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_xint8_quantize.html) [S08 AMD_Quark_A16W8](https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_a8w8_and_a16w8_quantize.html)
+
+![官方 XINT8 校准及精度修复流程](assets/figures/02B_xint8--706ff388cd35.png)
+
+**图2，原站：** [S07 AMD_Quark_XINT8](https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_xint8_quantize.html)。图包含校准 reader、目标精度判断和 AdaRound/AdaQuant 支路；修复支路回到输出而没有绘制第二次精度判定。工程验收仍应再次测试，图中的 Successful 不是所有机器人任务通过的承诺。
+
+厂商提供输出 cosine、L2、PSNR 对比，可定位数值变化；这些不是检测 mAP、深度误差或闭环操作成功率。**分析建议：**校准集覆盖亮暗、运动模糊、遮挡、相机曝光、罕见物体及本体状态；评估集与校准/搜索集分离。动作模型特别要检查各关节单位、极值、chunk 末段、停止动作和接触前后的误差。高平均 cosine 可能掩盖一维动作偏差；“量化通过”应以任务阈值和失败样本决定。
+
+SmoothQuant 的 alpha 控制把量化困难从激活迁移到权重，默认0.5。其机制可用等价线性变换 `XW = (XD⁻¹)(DW)` 理解：减少激活离群值，但权重范围可能扩大，必须共同选 scale。该式是机制解释，非对所有非线性层都直接可应用。官方示例主要针对 MatMul/Gemm，演示 opt-125m；段落误写 QuaRot 而代码使用 SmoothQuantConfig，故以具体 API 与 alpha 定义为依据，不能把旋转算法当成同一方法。[S09 AMD_Quark_SmoothQuant](https://quark.docs.amd.com/latest/onnx/accuracy_algorithms/sq.html)
+
+AdaRound/AdaQuant 可作为 PTQ 后的精度修复路线，增加优化时间与数据依赖。官方给出迭代/学习率配置，没有给本体闭环结果；本次未测其收益，也不能保证一次修复后达标。
+
+## 4. AutoSearch：把“试几个量化配置”变成可复查实验
+
+AutoSearch 的对象链是搜索配置→去除无效/重复候选的 search space→采样→ModelQuantizer→Evaluator→stop condition→候选。基本 grid/random 与 advanced FastFT 的 Optuna sampling 属不同配置。内置 evaluator 用 L1/L2 等输出距离；自定义 evaluator 才能纳入测试集、runtime 和任务指标。`AutoSearch(...).search_model()` 返回候选，不等于已替使用者完成 NPU 编译、时延和任务验证。[S10 AMD_Quark_Search](https://quark.docs.amd.com/latest/onnx/user_guide_auto_search.html)
+
+![官方 AutoSearch 数据与反馈流程](assets/figures/02B_search--2fb7eee660ef.png)
+
+**图3，原站：** [S10 AMD_Quark_Search](https://quark.docs.amd.com/latest/onnx/user_guide_auto_search.html)。图有 evaluator 到 stop condition 的反馈、search history 和优先级，也列 TPE。正文进一步区分基本搜索和 advanced FastFT；不能仅凭图宣称所有模式都支持并行或 TPE。
+
+| 搜索机制 | 适用条件 | 资源/复现边界 |
+|---|---|---|
+| grid/random | 明确离散搜索空间和 evaluator | 穷举成本随组合数增长；随机需保留种子与历史 |
+| two_stage_search | 同时有 Calibration/FastFinetune 空间，启 include_fast_ft | 文档称两阶段不并行；停止条件禁用，空间宜小 |
+| advanced_fastft_search | 仅其支持的 NumIterations/LearningRate 参数 | 支持 CPU/GPU 并行另有 n_jobs/search_devices；不推广所有路径 |
+| NumIterLR 联合参数 | 用有效迭代/学习率配对缩小笛卡尔积 | 不适用于 advanced_fastft_search |
+
+依据：[S10 AMD_Quark_Search](https://quark.docs.amd.com/latest/onnx/user_guide_auto_search.html)。两阶段的停止条件差异尤需关注，不能将示例3600秒 time_limit 当所有模式的强制上限。cache_dir 需至少容纳两套完整推理输出，并按指南以空缓存开始；大型多帧/动作张量可能让磁盘成为实验瓶颈。交付应保留 auto_search.log、候选配置、校准集哈希、评估器源码和失败候选原因，而不是只保存最优文件。
+
+## 5. 分区与编译：算子“支持”为什么仍可能跑在 CPU
+
+VAI EP 自动分 CPU/NPU 子图，但算子页的 Y 仅为对应精度下 broad coverage，部分 shape/config 不完全支持，且该表明确写 1.8.0。Analyzer 展示 lowering 后的 primitive、fusion/chaining 和退回 CPU 的 Failsafe 结果；这里是编译映射观测，不是设备运行故障发生后自动无缝接管的承诺。[S03 Ryzen AI算子支持表](https://ryzenai.docs.amd.com/en/latest/ops_support.html) [S11 Ryzen AI NPU Analyzer精度/频率条件](https://ryzenai.docs.amd.com/en/latest/ai_analyzer.html)
+
+**分析模型：** `T = ΣT_CPU + ΣT_NPU + ΣT_boundary + T_schedule`；boundary 包含布局、量化转换、同步及必要搬运。共享 DRAM 不会自动消灭这些代价。“398 个 NPU 节点、2 个 CPU 节点”只是官方 quicktest 示例，不是398/400的时间占比；少数 CPU 层也可能占据关键路径。应逐子图统计耗时与边界张量字节，观察 NPU GOP/MAC 比例和 CPU 理由。[S05 Ryzen AI Linux安装与P100支持](https://ryzenai.docs.amd.com/en/latest/linux.html)
+
+| 参数/目标 | 真实位置 | 工程影响 |
+|---|---|---|
+| INT8 opt_level | EP option：0/1/2/3/65536；最后一种 experimental | 不把65536用于 BF16 optimize_level |
+| BF16 optimize_level | JSON vaiml_config：1/2/3 | init→vaiml_partition，target VAIML |
+| preferred_data_storage | BF16 JSON：auto/vectorized/unvectorized | CNN/Transformer 布局选择；要实测转换边界 |
+| PHX/HPT INT8 | X1，phoenix/4x4.xclbin | 不再使用1x4/Nx4旧文件 |
+| STX/KRK INT8 | X2默认或X1；不设 xclbin | 旧overlay参数不能照搬 |
+
+依据：[S04 Ryzen AI EP编译/运行/缓存](https://ryzenai.docs.amd.com/en/latest/modelrun.html)。不同配置至少保存编译时间、融合/分区报告、workspace、数值误差和稳态时延。所谓 maximum effort 不保证最终 P99 最低；更长编译只表明搜索成本改变。
+
+## 6. 缓存、上下文与应用包装
+
+开发阶段 EP cache 由 cache_dir/cache_key 定位；INT8 需 enable_cache_file_io_in_mem=0 才落盘。厂商明确禁止跨 VAI EP/NPU driver 版本复用目录，升级应换目录或使旧缓存失效。最终应用更推荐 ORT EP context：ep.context_enable 导出，ep.context_file_path 定义产物，embed_mode 控制嵌入。Python 预编译、C++ 部署有官方路径，但生产包还须携带匹配 DLL/库及设备检测逻辑。[S04 Ryzen AI EP编译/运行/缓存](https://ryzenai.docs.amd.com/en/latest/modelrun.html) [S12 Ryzen AI EP应用与兼容表](https://ryzenai.docs.amd.com/en/latest/app_development.html)
+
+context 默认未加密；EP 提供 AES256，运行需同一密钥。文档参数表用 encryption_key，Python 示例却写 encryptionKey，Analyzer 示例 cacheDir/cacheKey 与编译页也不同。保留冲突，实际按绑定 wheel/API 验证；不偷偷把一种拼写当通用。加密保护和软件兼容是独立条件，不能凭密钥相同就跨驱动复用，也不能从加密功能推出硬件密钥隔离或签名升级链。
+
+## 7. 可观测性、版本和许可
+
+Analyzer 当前 BF16-only：visualization 生成编译图数据，profiling 生成 NPU 时间数据，ORT SessionOptions.enable_profiling 才补 CPU 段。时间戳以 cycle 采集、按可编辑 NPU clock 转换，`t = cycles / frequency`；改界面频率不改变已执行工作，也不形成真实墙钟时延测量。需记录采用频率和外部时间基准。INT8 则开启 operator assignment report：落盘缓存并设置 XLNX_ONNX_EP_REPORT_FILE；新版不默认生成。[S11 Ryzen AI NPU Analyzer精度/频率条件](https://ryzenai.docs.amd.com/en/latest/ai_analyzer.html) [S04 Ryzen AI EP编译/运行/缓存](https://ryzenai.docs.amd.com/en/latest/modelrun.html)
+
+Linux 复建边界为 Ubuntu24.04/kernel≥6.10/Python3.12，XRT2.26.89、amdxdna2.26.260102.59；RAM64GB 是推荐值。消费 APU 从 Strix Point、嵌入式从 P100 起，不能外推任意旧嵌入式 SKU。可选 runtime DEB 在1.9为 preview；release 支持段/ops页仍写1.8，安装页/包和硬件应共同核对。[S05 Ryzen AI Linux安装与P100支持](https://ryzenai.docs.amd.com/en/latest/linux.html) [S02 Ryzen AI release/known issues](https://ryzenai.docs.amd.com/en/latest/relnotes.html)
+
+Quark license 页的 MIT 明确作用于“主要包含文档”的仓库，**不能证明所有 Quark wheel、编译二进制均为 MIT**。Ryzen AI EULA 的 Section2.1 是条款编号；Section5规定预生产软件仅 evaluation，2.1.3/2.1.4 分发条款不适用。模型权重、数据集和本体 SDK 仍分别核验；本次未取得安装包逐文件许可，不宣称生产分发已放行。[S13 AMD_Quark_License](https://quark.docs.amd.com/latest/license.html) [S14 Ryzen AI EULA与第三方条款](https://ryzenai.docs.amd.com/en/latest/licenses.html)
+
+## 8. 与 TensorRT 的机制比较及可复建验收
+
+TensorRT 同样把数值边界、图优化和目标执行计划连在一起，显式量化的 Q/DQ 并不独属于一方。区别在 EP 子图/CPU fallback、目标编译产物、插件与数值格式支持。迁移可复用训练模型、校准/评估方法，但不能直接把 TensorRT engine 当 Ryzen context；需要重做算子覆盖、layout、目标版本与精度检查。没有相同本体/模型/功耗测试，本专题只比较机制。[S15 Compare_TRT_Quant](https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html) [S16 Compare_TRT_Builder](https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html)
+
+建议复建实验按以下顺序留证，这是测试方案，**本次未执行**：
+
+1. 固定 exact SKU、OS/BIOS/driver、Ryzen wheel/ORT/Quark 版本、模型及校准/评估集哈希，先运行官方 quicktest证明设备路径，再测实际模型。
+2. 先验 FP32 原始语义，再比较 XINT8/A8W8/A16W8/BF16 可支持路线；输出误差、任务指标、分区和失败样本同时留档。
+3. 清缓存首次编译、复用缓存、EP context冷加载、温热连续调用分别计时；升级环境后验证失效和重建。不得在机器人关键任务路径临时触发未知时长编译。
+4. 在真实相机/状态输入、并发模型和热稳定条件下记录 preprocessing、queue、CPU/NPU、postprocessing、观测年龄，报告样本数、P50/P99和超时；策略调用频率另与控制器/伺服频率区分。
+5. 校验丢输入、shape变化、设备错误、退出重启时的拒绝/降级策略。EP能执行模型不是动作权限或确定性控制证明。
+
+当前缺口包括指定嵌入式 SKU 的完整1.9兼容矩阵、绑定二进制逐文件许可、同模型精度/功耗/P99和机器人任务结果；正文取得成功，静态依赖缺失见附录 metadata。
+
+## 参考资料与本地原件
+
+下表S编号对应正文。原响应/哈希/采集时间和缺失依赖见metadata；partial_static保留可读正文，不保证动态交互/像素保真。既有2026-11-03 NVIDIA响应仅用于机制对标，其他材料采集于2026-11-04。
+
+| 原站来源 | 日期/版本/使用条件 | 本地原件与metadata | 归档状态 |
+|---|---|---|---|
+| [S01 Ryzen AI软件总览](https://ryzenai.docs.amd.com/en/latest/) | 1.9.0；Last modified 2026-11-02为修改时间 | [HTML/PDF](REFERENCES.md#ref-e9bfe555a77a6c76) · [metadata](REFERENCES.md#ref-e9bfe555a77a6c76) | partial_static |
+| [S02 Ryzen AI release/known issues](https://ryzenai.docs.amd.com/en/latest/relnotes.html) | Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标 | [HTML/PDF](REFERENCES.md#ref-bc694aec7cba9af1) · [metadata](REFERENCES.md#ref-bc694aec7cba9af1) | partial_static |
+| [S03 Ryzen AI算子支持表](https://ryzenai.docs.amd.com/en/latest/ops_support.html) | latest路径但正文表明Ryzen AI1.8.0算子；不能当1.9完整表 | [HTML/PDF](REFERENCES.md#ref-bde168caf8fe096d) · [metadata](REFERENCES.md#ref-bde168caf8fe096d) | partial_static |
+| [S04 Ryzen AI EP编译/运行/缓存](https://ryzenai.docs.amd.com/en/latest/modelrun.html) | Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标 | [HTML/PDF](REFERENCES.md#ref-eab5d9af47172378) · [metadata](REFERENCES.md#ref-eab5d9af47172378) | partial_static |
+| [S05 Ryzen AI Linux安装与P100支持](https://ryzenai.docs.amd.com/en/latest/linux.html) | 1.9；XRT 2.26.89/amdxdna 2.26.260102.59；Linux NPU flow | [HTML/PDF](REFERENCES.md#ref-340fd1ed1df2691c) · [metadata](REFERENCES.md#ref-340fd1ed1df2691c) | partial_static |
+| [S06 AMD_Quark_Schemes](https://quark.docs.amd.com/latest/onnx/config/quantization_schemes.html) | Quark通用latest文档，不能替代VitisAI6.3内置Quark0.12 | [HTML/PDF](REFERENCES.md#ref-c20ab50fa21e9a09) · [metadata](REFERENCES.md#ref-c20ab50fa21e9a09) | partial_static |
+| [S07 AMD_Quark_XINT8](https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_xint8_quantize.html) | Quark通用latest文档，不能替代VitisAI6.3内置Quark0.12 | [HTML/PDF](REFERENCES.md#ref-da39f2f8b3488490) · [metadata](REFERENCES.md#ref-da39f2f8b3488490) | partial_static |
+| [S08 AMD_Quark_A16W8](https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_a8w8_and_a16w8_quantize.html) | Quark通用latest文档，不能替代VitisAI6.3内置Quark0.12 | [HTML/PDF](REFERENCES.md#ref-52bdde32508629c8) · [metadata](REFERENCES.md#ref-52bdde32508629c8) | partial_static |
+| [S09 AMD_Quark_SmoothQuant](https://quark.docs.amd.com/latest/onnx/accuracy_algorithms/sq.html) | Quark通用latest文档，不能替代VitisAI6.3内置Quark0.12 | [HTML/PDF](REFERENCES.md#ref-5aca02ace82f0db0) · [metadata](REFERENCES.md#ref-5aca02ace82f0db0) | partial_static |
+| [S10 AMD_Quark_Search](https://quark.docs.amd.com/latest/onnx/user_guide_auto_search.html) | Quark通用latest文档，不能替代VitisAI6.3内置Quark0.12 | [HTML/PDF](REFERENCES.md#ref-eceb0738118bf4ec) · [metadata](REFERENCES.md#ref-eceb0738118bf4ec) | partial_static |
+| [S11 Ryzen AI NPU Analyzer精度/频率条件](https://ryzenai.docs.amd.com/en/latest/ai_analyzer.html) | Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标 | [HTML/PDF](REFERENCES.md#ref-bd299a4f91c66251) · [metadata](REFERENCES.md#ref-bd299a4f91c66251) | partial_static |
+| [S12 Ryzen AI EP应用与兼容表](https://ryzenai.docs.amd.com/en/latest/app_development.html) | 1.9.0 beta描述；兼容表缺1.9，保留1.8驱动行冲突 | [HTML/PDF](REFERENCES.md#ref-a0a79da08a1587cc) · [metadata](REFERENCES.md#ref-a0a79da08a1587cc) | partial_static |
+| [S13 AMD_Quark_License](https://quark.docs.amd.com/latest/license.html) | Quark通用latest文档，不能替代VitisAI6.3内置Quark0.12 | [HTML/PDF](REFERENCES.md#ref-e7cd0f7672820186) · [metadata](REFERENCES.md#ref-e7cd0f7672820186) | partial_static |
+| [S14 Ryzen AI EULA与第三方条款](https://ryzenai.docs.amd.com/en/latest/licenses.html) | Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标 | [HTML/PDF](REFERENCES.md#ref-ad9f946ca3641851) · [metadata](REFERENCES.md#ref-ad9f946ca3641851) | partial_static |
+| [S15 Compare_TRT_Quant](https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html) | NVIDIA官方资料用于机制对标；导入2026-11-03已有原响应或本次取得，不套AMD目标 | [HTML/PDF](REFERENCES.md#ref-f47c2746e3737567) · [metadata](REFERENCES.md#ref-f47c2746e3737567) | complete_static |
+| [S16 Compare_TRT_Builder](https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html) | NVIDIA官方资料用于机制对标；导入2026-11-03已有原响应或本次取得，不套AMD目标 | [HTML/PDF](REFERENCES.md#ref-9df325c2c44e3de5) · [metadata](REFERENCES.md#ref-9df325c2c44e3de5) | complete_static |
+
+[主张、图源与人工核验记录](research_state/evidence/02B_RyzenAI_Compilation_and_Quantization.json) · [完整引用及依赖清单](research_state/depth_02/02B_RyzenAI_Compilation_and_Quantization_sources.json)。本专题未执行SDK安装、模型训练/推理、刷板或机器人闭环测试。

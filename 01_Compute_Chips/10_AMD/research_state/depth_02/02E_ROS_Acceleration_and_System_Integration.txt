@@ -1,0 +1,135 @@
+# 02E｜ROS 加速与系统集成：从构建抽象到帧级数据契约
+
+数据截止：2026-11-04。本文按“痛点→机制/源码→条件→测量→对标→验证”展开。主要证据是 KRS 1.0 文档（页脚更新 2024-01-02）、其链接的 image_pipeline 实现，以及当前 Vitis AI Gen2 和 NVIDIA 文档。源码为本次取得的 `ros2` 浮动分支快照，尚未证明它与历史 benchmark 使用同一 commit。文献核验不能替代目标板测试。
+
+## 1. 为什么兼容 ROS 2 不等于整条链路得到加速
+
+机器人感知链的成本分布在图像转换、内存分配、主机/设备搬运、kernel、消息发布和调度中。KRS 的价值是把 FPGA 产物纳入 ROS 工程，并允许重构节点间的硬件数据通路。它不是把任何既有 ROS 包自动变成高效 FPGA 电路，也没有由一个感知示例证明完整运动控制软件已经交付。@@KRS_Perception@@
+
+**KRS 与新 AMD Robotics Software Suite 必须分开。** 当前 Kria AI Robotics Developer Platform 产品页称 Day 0 支持新 Suite，并仍显示 Notify Me；这支持产品定位与厂商计划，尚不足以识别唯一可下载的 Suite release、ROS 发行版、驱动/BSP、模型清单和本体接口。不能把 K26/KV260 的 KRS 1.0 文档直接套到 Ryzen AI Embedded X199 加 Spartan UltraScale+ 的新平台。@@AMD_Kria_AI_Dev@@
+
+## 2. 三个 pillar 的对象与构建契约
+
+![KRS 官方构建系统图](@@FIG:02E_buildsystem@@)
+
+图中 ①—④连接 examples、ament、colcon 与 firmware，说明软件包和硬件产物如何进入同一工作流；`ament_rocm`、云及省略号是架构表达，不能据图判定具体 GPU、包版本或功能验收状态。原 SVG 完整离线渲染，标签已逐项查看。@@KRS_ROS_Centric@@
+
+第一层 `ament_acceleration` 提供 CMake 前端，`acceleration_kernel(NAME vadd FILE src/vadd.cpp INCLUDE include TARGET kv260)` 描述 kernel 与目标。技术专用的 `ament_vitis` 使用 Vitis、XRT/OpenCL；`vitis_acceleration_kernel` 还接收 CONFIG、TYPE（sw_emu/hw_emu/hw）与 PACKAGE。宏消除了重复构建操作，**同一宏语法不保证同一算法的数值、带宽、ABI 和性能在不同后端一致**；HLS 源码、配置、硬件接口仍需为目标设计。
+
+第二层 `colcon_acceleration` 管理 firmware 选择、platform/board 查询、kernel 编译、SD 镜像、仿真和打包。第三层 `acceleration_firmware_<solution>` 在 `<ros2_workspace_path>/acceleration/firmware/<solution>` 提供供 kernel 编译使用的目标产物。因此可移植的是工程入口与分层组织；目标固件、sysroot、库和部署环境依旧构成具体依赖。`colcon acceleration select kv260` 是工作区目标选择，不能据此认为正在运行的旧应用已经安全停止或新固件已完成线上兼容验证。@@KRS_ROS_Centric@@
+
+感知示例先构建 ROS overlay，再选择 kv260，按 `--mixin kv260 -DNOKERNELS=true` 构建 CPU 产物，随后 `-DNOKERNELS=false` 编译 image_proc/perception_2nodes 的加速部分；目标机通过 `ros2 acceleration select image_proc`、`image_proc_integrated` 或 `image_proc_streamlined` 加载相应产物后 launch。此路径绑定 Humble/Vitis 2022.1/KV260，不应混入 KR260 Ubuntu 示例的 firmware 和 mixin。原文指出硬件构建可能超过一小时，这是示例开发成本提示，不是各模型编译时间的共同结论。@@KRS_Perception@@
+
+## 3. HLS 内核：并行度为什么必须匹配数据入口
+
+Vitis Vision 以底层 HLS 算法、host 可调用 kernel 和完整 pipeline 分层。Resize 的 `xf_resize_config.h`/`xf_config_params.h` 在编译时选择插值与 1/8 pixel per clock 等配置；host 调用 `resize_accel(img_inp,img_out,rows_in,cols_in,rows_out,cols_out)`，再用 XRT 或 OpenCL 管理 buffer 和执行。运行时 rows/cols 参数存在，不代表可以超越模板最大尺寸、像素格式及 kernel 的固定循环。该教学节点用 640×480、CV_8UC3 随机图，500ms wall timer、发布队列深度 10；这只是约 2Hz 输入的流程演示，不能当真实相机的最大吞吐。Stereo Block Matching 小节仍为 TBD。@@KRS_Vitis_Function@@
+
+更直接的优化例是 repeated vector-add：DATA_SIZE=4096，两个输入分别放入 aximm1/aximm2，输出与第一个输入共享 aximm1，内循环 `UNROLL factor=16`。厂商将 16 个 32-bit unsigned int 对应 512-bit m_axi 入口。**分析**：展开提供算术并行的意图，收益需要每周期足够读/写供给、有效 burst、端口调度、缓存及综合时序支持；输入与输出共享 bundle 仍可能竞争。仅见 pragma 不能证明综合后的 II、资源利用和每周期 16 次加法已在所有配置达到。
+
+源码内循环到 `(size/16)*16`，当前 4096 可整除；换任意 size 时必须处理尾部，不能默认为通用 vector-add。外层循环人为重复运算制造负载。厂商案例的 CPU 2.2Hz、纯 offload 1.935Hz、dataflow 6.3Hz、展开后约 10Hz，证明“搬到 FPGA”可能先变慢。最终受 `WallRate=100ms` 限制，10Hz 是发布 cadence，不能推成 kernel 上限或伺服频率。原文“5x”与粗略日志比值 10/2.2≈4.55 不一致，本文不将 5x 当共同条件下的精确实测；短 window=10 日志也不提供 P99、功率或 WCET。@@KRS_Faster_Publisher@@
+
+## 4. 四种 perception graph：优化边界在数据通路
+
+| 方案 | ROS Components / kernel | 中间图像路径 | 优势条件与代价 |
+|---|---|---|---|
+| CPU | 2 / 0 | CPU 计算，ROS 消息连接 | 基线与加速版保持输入、算法和统计范围一致 |
+| offloaded | 2 / 2 | rectify 后回主机，经消息，再进入 resize kernel | 两节点可保留；计算节省可能被搬运与消息成本抵消 |
+| integrated | 1 / 1 | 合并 rectify/resize，减少中间主机往返 | 需要重新组织 component/kernel；损失原图模块粒度 |
+| streamlined | 2 / 2 | 两 kernel 用片上 AXI4-Stream 连接；ROS 仍参与触发 | 保留 components，但依赖特定 stream、尺寸、启动和排空契约 |
+
+四类数量和路径据官方表；不能用一个 rqt 节点名称推导 component 数量。官方 streamlined 注明 resize 同时订阅 raw topic，但从 accelerator 获取计算数据。因而被绕开的重点是两 kernel 间的中间图像消息路径，**整条 ROS/DDS 通信没有消失**。厂商末尾提出后续节点可能获得“exponential acceleration gain”，未给通用证明，本文不采为事实。@@KRS_Perception@@
+
+```mermaid
+flowchart LR
+ R[raw Image + CameraInfo] --> A[Rectify CPU callback]
+ R -. ROS trigger / metadata .-> B[Resize CPU callback]
+ A --> C[image + map_x/map_y 写入设备]
+ C --> D[rectify kernel]
+ D -->|24-bit stream 数据| E[resize kernel]
+ B -. enqueueTask / rows cols .-> E
+ E --> F[设备结果阻塞读回主机]
+ F --> G[Image + CameraInfo 发布]
+```
+
+以上为依据文档与源码整理的**分析示意，非官方图**。它分开 payload 与 trigger，不表示任意输入和错误路径已得到正确关联。@@KRS_Stream_Rectify_Source@@ @@KRS_Stream_Resize_Source@@
+
+### 4.1 host 源码揭示的剩余开销
+
+`ResizeNodeFPGAStreamlined::imageCb` 仍调用 `cv_bridge::toCvCopy`，分配输出 `cl::Buffer`，设置尺寸和输出参数；输入 buffer/write 被注释，因为输入来自 stream。随后 `enqueueTask`、`enqueueReadBuffer(...CL_TRUE...)`、`queue_->finish()`，并用 raw image 的 header/encoding 生成输出消息，按 scale 修改 CameraInfo 的 K/P。这是一条**省去特定中间设备往返的路径**，尚不是相机→加速器→订阅者完整零拷贝。Rectify host 仍逐次分配图像/map buffers，并以阻塞写传输 image、map_x、map_y。固定标定时缓存 map 或复用 buffer 是待验证优化，本文没有把它说成已实现。@@KRS_Stream_Resize_Source@@ @@KRS_Stream_Rectify_Source@@
+
+### 4.2 两 kernel 的尺寸与流协议
+
+本次归档的 rectify 源码使用 XF_8UC3、NPC=XF_NPPC1、HEIGHT=480、WIDTH=640、DWIDTH=24；输入图像/map 是 m_axi，输出为 `hls::stream<ap_axiu<DWIDTH,0,0,0>>`。数据流中先准备 float map，再执行 Array2xfMat/remap；输出循环按 **HEIGHT/WIDTH 常量**发送。resize 源码同样按 HEIGHT/WIDTH 常量读 stream，而 `in_mat(rows_in,cols_in)` 使用运行时尺寸。运行时参数与固定发送/接收计数不匹配时，应检查阻塞、未初始化数据及越界风险。源码模板的 640×480 不足以补齐历史 benchmark 未列出的分辨率与实际编译配置。@@KRS_Stream_Rectify_Kernel@@ @@KRS_Stream_Resize_Kernel@@
+
+rectify 循环只见 `stream_out.data=aux` 后 write，未见 last/keep/strb 显式赋值；resize 只取 `aux.data`。据此不能把示例宣称为已经实现完整可变长度视频帧协议。两个 mat 的 depth=2 与 DATAFLOW 是局部实现设置，不等于整条流具有足够缓冲，也不证明 FPGA 能吞下任意背压。**分析**：应对实际连接和综合报告确认 stream 位宽、帧长、FIFO 深度、生产/消费启动顺序及超时排空；不能拿纯 arithmetic II 替代图级完成时间。
+
+### 4.3 触发与 payload 的帧关联是实质限制
+
+两 host callback 都在没有输出订阅者时提前返回。Rectify 对未标定相机返回，对 zero distortion 则直接发布原图并返回；Resize 接受 raw 触发后可能仍 enqueue 从 stream 取数据的 kernel。**分析风险**：若启动、订阅、标定或丢帧使生产者不写而消费者仍读，阻塞读回/finish 可能无法完成；如果双方独立丢掉不同帧，还可能把第 n 帧 raw header 贴到另一帧 stream 结果。本次仅据代码路径提出可检验风险，未执行示例证明死锁已经发生，也未取得该 launch/firmware 的全套防护实现。应增加共同 frame/epoch、标定版本、长度及 producer-ready 契约，并让 skip/timeout/reset 同时覆盖两端。@@KRS_Stream_Rectify_Source@@ @@KRS_Stream_Resize_Source@@
+
+## 5. 官方性能表的正确读法与 tracing 方法
+
+下表保留厂商报告的原始 ms 数据；括号是相对 CPU 基线的变化。测试在 KV260 quad-core Processing System 与 FPGA 250MHz，workstation 的 Gazebo 经局域网提供数据，文档命令使用 Humble/Vitis 2022.1；integrated/streamlined 明示平均采集 60 秒。没有完整披露分辨率、样本数、warmup、功率、各阶段占时定义及 P99/WCET，不能移植到 KR260/X199/Versal。@@KRS_Perception@@
+
+| 实现 | Accel. Mean / ms | Accel. RMS / ms | Mean / ms | RMS / ms |
+|---|---|---|---|---|
+| CPU baseline | 24.36 | 24.50 | 91.48 | 92.05 |
+| offloaded @250MHz | 24.46（时延增0.41%） | 24.66（时延增0.63%） | 85.80（降6.22%） | 87.87（降4.54%） |
+| integrated @250MHz | 23.90（降1.88%） | 24.05（降1.84%） | 66.82（降26.96%） | 67.82（降26.32%） |
+| streams (resize) @250MHz | 19.14（降21.42%） | 19.28（降21.33%） | 69.15（降24.42%） | 70.18（降23.75%） |
+
+厂商称这些百分比为 speedup；**分析计算** `(91.48−66.82)/91.48≈26.96%` 实际是时延降低，baseline/new≈1.369 才是时延比。不能把 26.96% 当作 1.2696 倍 throughput，也不能把 1000/66.82 当机器人控制频率。stream 方案的 Accel.Mean 最小而总 Mean 高于 integrated，说明局部计算指标和整体指标可能给出不同排序。RMS 是均方根，不是 P99、方差或最坏值；本表也没有独立任务成功率和能耗证据。
+
+官方方法先加 LTTng probes，分别记录 `image_proc_rectify_init/fini`、resize cb_init/init/fini/cb_fini，以及 rclcpp callback_start/end/publish、rcl_publish、rmw_publish。内部 init/fini 指向 CPU↔FPGA 交界，不是天然只计纯 kernel；应核对哪些拷贝/等待落入区间。源码 trace 记录 header stamp 与消息对象指针，`get_msg_size` 通过**实际序列化**消息取得大小；反复 size 计算和 toImageMsg 会扰动被测代码。A/B 测试必须固定 instrumentation，并另测其开销，避免把 trace 成本当生产路径。@@KRS_Perception@@ @@KRS_Stream_Resize_Source@@
+
+**建议测量契约（分析）**：为每个 frame 建立 acquire→callback→write→kernel-complete→read→publish→subscriber 的同帧事件链。主机 duration 用一致单调时钟；header 的 Gazebo sim time、相机硬件时钟和跨机 host 时间不直接相减，需单独校准偏差/漂移。观测年龄 `age=t_consume−t_acquire` 只有在同一可转换时间基准下才成立；必须同时统计队列深度、超时、丢帧、P50/P95/P99和有效帧吞吐。优化只能在输出几何/标定与算法容差验证后进入性能比较。
+
+## 6. 实时性分层：选模块不等于获得端到端保证
+
+![KRS 官方实时干扰分层图](@@FIG:02E_realtime@@)
+
+图列出从 link 到 application 的七类干扰，表达分层排查方法；图中 EtherCAT/CAN、App Store 和各 accelerator 标签不构成特定载板已交付接口或安全功能证明。官方明确所有 over/underlayers 都应 time bounded，而 middleware 的进一步实时增强仍是计划，ROS core 的部分硬件化仍为 ongoing work。@@KRS_Realtime@@
+
+| 层与痛点 | KRS 描述的机制 | 成立条件与不能推出项 |
+|---|---|---|
+| L2 深度流量挤占关键消息 | TSN、FPGA 专用桥接电路 | 需目标 MAC/IP、交换设备和调度配置；ROS QoS 不自动配置 TSN |
+| Linux 网络队列拥塞 | tc | 需队列分类/优先级及 CPU 处理预算；不消除应用阻塞 |
+| 内核/驱动抢占迟到 | PREEMPT_RT 与 Xilinx 内核/驱动路径 | 验证目标驱动临界区、IRQ 和版本；平均时延变小不等于 WCET |
+| LLC noisy neighbor | Xen cache coloring | 需实际 cache/VM 分区与内存压力验证；不代表 DDR/DMA 干扰全隔离 |
+| middleware/core/application | RT-safe 原语与有界下层 | 分配、锁、executor、DDS 和业务库都要检查；文档承认部分未来/进行中工作 |
+
+![KRS 官方 mixed criticality 配置示意](@@FIG:02E_mixedcriticality@@)
+
+图显示 preempt_rt 与三 VM 的组合，图例区分开源、roadmap、blueprint 和 proprietary。图内 `kernel preempt_rt` 与 ROS-centric 正文的 `linux preempt_rt` 命令名称存在差异，应按安装 CLI 的固定版本和 help 核对，不复制成统一命令。正文称 linux 选择预构建内核/modules，hypervisor 组合 dom0/domU/dom0less；**能生成镜像不是混合关键级系统已经通过时限/隔离认证**。图中 ament_rocm/多个 bus 仍需逐对象证据。@@KRS_ROS_Centric@@ @@KRS_Realtime@@
+
+KRS HowTo 包含 2020.2/旧内核/Foxy 时期操作和短 cyclictest 示例；与 KRS 1.0、EDF 26.06.1 的具体环境不能拼接。cyclictest 反映调度唤醒指标，尚不能覆盖相机采集、异步 accelerator、DDS 到 actuator 的整条链。文档引用的 past research“340 倍 slowdown”也不是 KV260 此感知 benchmark 的实测对照，本文不用于平台排名。@@KRS_Howto@@ @@KRS_Realtime@@
+
+## 7. VART→ROS 与动作接口：需要明确补上的契约
+
+VART-X/VART-ML 文档提供 frame 获取、预处理、推理、后处理链；Runner 通过 `get_tensors_info` 区分 CPU 与 HW 张量。VART 可与 ROS 工程连接，但公开 C++ video analytics 例不能自动视为已完成 ROS transport adapter，更不是本体动作 SDK。以下是**建议的集成设计，非 AMD 已交付功能**；编译、layout、量化与内存详见本次 02C。@@AMD_VitisAI_VART_App@@
+
+入口 adapter 应同时携带 frame/epoch、采集时刻、encoding/step、CameraInfo、标定 revision 与相机坐标系。对输入选择 CPU tensor 时确认 runtime 转换的实际代价；对 HW tensor 路径则按 Runner metadata 处理 HCWNC4/8、stride/padding、batch 与 datatype，不能把 packed ROS bgr8 指针直接作为 HW tensor。预处理 stretch/letterbox/panscan 必须保存缩放、padding/crop，后处理才能还原检测框与机器人坐标。
+
+内存环池需要区分 camera/host/DMA/kernel/consumer 的读写所有权：同一物理地址并不自动证明 cache 一致、生命周期或零拷贝；异步 job 未完成不能重新装入下一帧。迟到结果可以对上层标记过期，但仍需等待/管理下游 job 完成和 buffer 回收。将感知输出接规划/动作时进一步规定 frame、关节顺序/单位、horizon、调用时限与 controller 接收条件；上层不再 publish 或 Ctrl-C 不等于电机停止。此处是软件栈接口边界分析，尚未开始03传感器或06本体调研。
+
+## 8. NVIDIA 对标更新：从 NITROS 到 rosidl::Buffer
+
+截至归档的 NVIDIA 官方页（更新 2026-09-21），Isaac ROS 正弃用 NITROS，包括 CUDA with NITROS/PyNITROS；移除属于未来 release 计划，不能写为已全部删除。ROS 2 Lyrical 引入 rosidl::Buffer 和 buffer backend plugins，使标准 message 的 primitive array 字段可使用 CPU/CUDA 等存储。与 KRS 的专用 kernel 间 stream 相比，它主要解决标准消息与 accelerator memory backend 的互操作；两者解决的层次有交集但不是一对一 API。@@Compare_ROS_Buffer@@
+
+| 对比对象 | 核心对象/数据通路 | 工程迁移与验证条件 |
+|---|---|---|
+| KRS 1.0 streamlined | ROS trigger + kernel 间专用 stream | 重构 component/kernel，固定帧/格式/启动协议；主机端拷贝仍存在 |
+| Isaac ROS rosidl::Buffer 路线 | 标准 ROS message + conversion package/backend storage | 支持的 node 接口保留兼容；直接依赖 NITROS 的 custom code 需源码迁移 |
+| VART Runner + 自建 ROS adapter | CPU/HW tensor metadata 与设备 buffer/job | 定义 layout/scale、pool、sync、ownership 及 ROS 元数据；未取得相应统一产品套件 |
+
+NVIDIA 建议多数应用优先 conversion package；仅需直接管理 device pointer、stream、allocation、sync/lifetime 的 custom CUDA 才使用 backend。迁移不能机械改名，type negotiation 与 backend selection/fallback 属不同抽象，还要验证 mutability、ownership、buffer 生命周期和 CPU fallback。**这支持机制与工程责任的比较，不证明 KRS Humble 已具备 Lyrical API，也不证明 AMD 已交付同等 backend 或某方案更快。** 未取得共同任务、板卡、发行版和统计配置，本文不给平台性能排名。@@Compare_ROS_Buffer@@
+
+## 9. 可复建版本、许可与放行证据
+
+KRS install 明示 1.0 只在 Ubuntu22.04 测过，workstation 需 Vitis2022.1、至少32GB RAM、ROS2 Humble、Gazebo Classic11。native 和 QEMU 内部仅构建 CPU binary，工具只支持 x86，不能在 AArch64 KV/KR260 上 native 产生 accelerator。KR260 firmware 例固定 v1.1.1，其他 repos 使用 main/humble/ros2 等浮动分支，应锁定完整 commits、firmware hash、sysroot、XRT、编译参数、kernel配置和 board image。不能把已归档文本当已取得全部可复建二进制；本次未安装 SDK 或接受下载协议。@@KRS_Install@@
+
+KRS repo 的 LICENSE 是 Apache2.0，四个本次读取的 kernel/host 文件亦有独立版权/许可声明；KRS 根许可不能推广到 Vitis 工具、IP、firmware 中每个 binary、模型权重/数据或本体 SDK。当前尚缺这些对象的完整下载物与 SBOM/EULA。图例的“open source”也不能替代具体包的 license 文件。@@KRS_License@@ @@KRS_Stream_Rectify_Kernel@@ @@KRS_Stream_Resize_Kernel@@
+
+建议按以下顺序取得放行证据：①冻结完整版本与安装物，确认 CLI 名称和实际 bitstream；②以同一 frame/calibration/encoding 验证 CPU、offload、integrated、stream 输出等价；③压测 fixed shape、灰度/彩色、零畸变、无订阅者、上下游独立丢帧、队列满及标定切换，检测 stall/错帧，并验证成对取消/排空；④在相同 instrumentation 下测端到端时延、P99、有效吞吐、观测年龄和功率，另测 tracing 扰动；⑤加入 CPU/DDR/DMA/network 并发与热稳态，验证 deadline 与过期结果处置。以上为验证方案，尚无本次实机结果。
+
+本专题的证据缺口包括：新 Robotics Software Suite 的唯一 release/接口；历史 benchmark 的固定 commit、分辨率、样本/warmup及 P99/功率；stream 全套连接/同步与异常恢复；目标 DDS/驱动/TSN 配置的有界时限；模型/本体与生产维护责任。REP2007/2008 原页面本次下载失败，不作为有效引用，也不能据此认定标准不存在。官方部分 performance/trace 外链资源未取得；本文保留有效正文、官方表和逐图核验的三幅静态图，并记录缺失依赖，未声称完整离线动态还原。

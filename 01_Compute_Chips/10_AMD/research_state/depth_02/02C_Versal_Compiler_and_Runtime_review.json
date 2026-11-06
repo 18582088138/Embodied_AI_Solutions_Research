@@ -1,0 +1,326 @@
+[
+  {
+    "source_id": "AMD_VitisAI_Gen2_Compile",
+    "claim": "session触发目标编译",
+    "location": "Model Compilation",
+    "needle": "initializes an ONNX Runtime",
+    "conditions": "Gen2 VAIML device",
+    "finding": "目标板可另用VART",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_CPU_Partition",
+    "claim": "runtime产物不互换",
+    "location": "Compatibility",
+    "needle": "ONNX Runtime does not support CPU partition compilation artifacts",
+    "conditions": "CPU partition",
+    "finding": "不能换runtime加载",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_CPU_Partition",
+    "claim": "CPU执行范围",
+    "location": "CPU Operators",
+    "needle": "specific set of operators",
+    "conditions": "VART编译器CPU集合",
+    "finding": "不是任意runtimefallback",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_CPU_Partition",
+    "claim": "五pass执行序",
+    "location": "Pass Execution Order",
+    "needle": "vaiml_connectivity",
+    "conditions": "init/NPU/CPU/connectivity/cache",
+    "finding": "缺失无法补数据流",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VAI_EP_Config",
+    "claim": "阈值默认",
+    "location": "threshold_gops_percent",
+    "needle": "Default: 2",
+    "conditions": "配置页GOPS单位文本冲突",
+    "finding": "采用output子图运算量占比",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Output",
+    "claim": "阈值计算量定义",
+    "location": "Compilation Settings",
+    "needle": "Minimum share of total model GOPs",
+    "conditions": "百分比，不是per-second measured TOPS",
+    "finding": "按summary核验",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VAI_Partition_Analyzer",
+    "claim": "分区图只是界面示例",
+    "location": "Summary",
+    "needle": "CPU Because",
+    "conditions": "原截图171/170/1，GOP舍入",
+    "finding": "不代表100%时间在NPU",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VAI_EP_Config",
+    "claim": "O2内存/chaining",
+    "location": "Optimization Levels",
+    "needle": "Falls back to DDR",
+    "conditions": "L2 overflow",
+    "finding": "数据驻留需容量/依赖允许",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VAI_EP_Config",
+    "claim": "O3成熟度",
+    "location": "Optimization Levels",
+    "needle": "Early Access (EA)",
+    "conditions": "优化级3",
+    "finding": "不当量产成熟证明",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Output",
+    "claim": "编译wallclock与推理分开",
+    "location": "Example Summary",
+    "needle": "Total: 415.2 s",
+    "conditions": "MyModel summary",
+    "finding": "不是inference latency",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Tenancy",
+    "claim": "DP同步和权重DMA",
+    "location": "Overview",
+    "needle": "single weight DMA channel",
+    "conditions": "4x4 compute block模型复制",
+    "finding": "与vLLM KV复制不同",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Tenancy",
+    "claim": "多实例带宽相位",
+    "location": "Architectural Comparison",
+    "needle": "lock-step",
+    "conditions": "DDR-bound",
+    "finding": "自然OS错峰非确定性保证",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VAI_EP_Config",
+    "claim": "TP自动值",
+    "location": "tp_size",
+    "needle": "resolves tp_size to 6",
+    "conditions": "3858/overlay",
+    "finding": "9块最高配置不等默认",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VAI_EP_Config",
+    "claim": "静态batch串行化",
+    "location": "static_batching",
+    "needle": "runtime serializes the batch internally",
+    "conditions": "override_batch_size",
+    "finding": "batch不自动并行",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VAI_Tensor_Formats",
+    "claim": "HCWNC通道补齐",
+    "location": "HCWNC4",
+    "needle": "zero-padded",
+    "conditions": "ceil(C/x),x4/8",
+    "finding": "地址式分析以stride优先",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VAI_Tensor_Formats",
+    "claim": "HSI请求非保证",
+    "location": "Requesting",
+    "needle": "best-effort",
+    "conditions": "use-hsi-json-file",
+    "finding": "须比对结果",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VAI_Tensor_Formats",
+    "claim": "转换链优先级",
+    "location": "Runtime Transformations",
+    "needle": "takes over entirely",
+    "conditions": "rt_transformations present",
+    "finding": "format字串不决定packing",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VAI_Quant_Pipeline",
+    "claim": "默认scale不嵌入",
+    "location": "Intro",
+    "needle": "does not embed per-tensor quantization scale",
+    "conditions": "VARTget_quant_parameters",
+    "finding": "ORT从源ONNX读",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VAI_Quant_Pipeline",
+    "claim": "编译期scale flags",
+    "location": "Compilation",
+    "needle": "cannot be applied to an already-compiled model",
+    "conditions": "两flags都设置",
+    "finding": "不是runtime补丁",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VAI_Quant_Pipeline",
+    "claim": "输入scale倒数",
+    "location": "Runtime",
+    "needle": "use the reciprocal of the input tensor scale",
+    "conditions": "preprocess",
+    "finding": "postprocess顺序及manual override另核",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Quantization",
+    "claim": "VINT8绑定选项",
+    "location": "Mandatory options",
+    "needle": "Int32Bias",
+    "conditions": "False，Quark0.12",
+    "finding": "不照搬Ryzenbias32",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Quantization",
+    "claim": "SSIM二维限制",
+    "location": "Evaluation",
+    "needle": "at most 2-dimensional",
+    "conditions": "空间张量逐plane",
+    "finding": "flatten改变SSIM",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_VART_App",
+    "claim": "CPU/HW view",
+    "location": "Selecting tensor type",
+    "needle": "Runner converts between the CPU and HW formats internally",
+    "conditions": "CPU view",
+    "finding": "tensor页后文笼统说法不推广CPUview",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_VART_App",
+    "claim": "HW与NONCMA非法",
+    "location": "Advanced Features",
+    "needle": "HW with USER_POINTER_NON_CMA is not supported",
+    "conditions": "构造抛错",
+    "finding": "普通malloc非设备buffer",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_VART_App",
+    "claim": "caller ownership",
+    "location": "Ownership",
+    "needle": "does not take ownership of the buffer",
+    "conditions": "user constructed",
+    "finding": "异步完成前需有效",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_VART_App",
+    "claim": "外层batch与N=1",
+    "location": "Batch buffers",
+    "needle": "N = 1",
+    "conditions": "per slot size",
+    "finding": "不能合为N4 buffer",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Async",
+    "claim": "异步pending不是完成",
+    "location": "Sync/Async",
+    "needle": "StatusCode::JOB_PENDING",
+    "conditions": "wait timeout",
+    "finding": "不得pending后回收",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Async",
+    "claim": "async示例重复输入",
+    "location": "Demonstration",
+    "needle": "same in-memory batch",
+    "conditions": "单输入，默认2槽",
+    "finding": "不是20新帧pipeline",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VAI_Custom_Ops",
+    "claim": "custom op三件套",
+    "location": "Artifacts",
+    "needle": "Python tiler",
+    "conditions": "YAML/CPP/tiler",
+    "finding": "需搬运和计算共同正确",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VAI_Custom_Ops",
+    "claim": "符号绑定",
+    "location": "AIE kernel",
+    "needle": "set_kernel_function_name()",
+    "conditions": "lp_params/tiling",
+    "finding": "不能只注册schema",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VAI_Custom_Infer",
+    "claim": "schema注册时机",
+    "location": "Important",
+    "needle": "before ort.InferenceSession",
+    "conditions": "创建session前",
+    "finding": "板端保留全部路径/产物/reference",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VAI_DDR_Profiling",
+    "claim": "接口与物理DDR观测不同",
+    "location": "Purpose",
+    "needle": "physical DDR device",
+    "conditions": "DDRMC counters",
+    "finding": "CSV示例无同条件性能排名",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Requirements",
+    "claim": "环境绑定",
+    "location": "Software Requirements",
+    "needle": "Version 0.12",
+    "conditions": "Quark0.12，ORT1.28，torch2.5.1",
+    "finding": "通用latest不代替容器",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Requirements",
+    "claim": "评估硅片",
+    "location": "Hardware Requirements",
+    "needle": "pre-production silicon",
+    "conditions": "VEK385 RevA/B",
+    "finding": "不代表量产认证",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_License",
+    "claim": "编译平台许可",
+    "location": "Obtaining License",
+    "needle": "AIE-MLv2 Compiler license",
+    "conditions": "编译及reference各独立",
+    "finding": "未安装/接受许可",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "Compare_TRT_Builder",
+    "claim": "目标编译机制比较",
+    "location": "Architecture",
+    "needle": "execution context",
+    "conditions": "NVIDIA官方",
+    "finding": "不做芯片性能排名",
+    "evidence_type": "分析"
+  }
+]

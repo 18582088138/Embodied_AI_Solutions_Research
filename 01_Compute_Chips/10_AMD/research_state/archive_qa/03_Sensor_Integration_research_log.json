@@ -1,0 +1,885 @@
+{
+  "chapter": "03_Sensor_Integration",
+  "data_cutoff": "2026-11-04",
+  "completed_at_utc": "2026-11-04T07:36:05.527550+00:00",
+  "scope": "用户继续03；不开始04，不覆盖01/02",
+  "summary": {
+    "body_han_chars": 9406,
+    "tables": 10,
+    "sources": 42,
+    "figures": 9,
+    "claim_reviews": 90,
+    "archive_status": {
+      "partial_static": 28,
+      "complete_static": 14
+    },
+    "quality_errors": 0,
+    "dedup_network_requests": 0,
+    "report_sha256": "3a15ab70a5929f398cde4170bd41c682212b24077afa59d8d0784668dcebb9e1"
+  },
+  "method": "官方产品/教程→API/源码→图像实际复核→引用与精确短引→分析独立复算→结构归档检查→最终实际引用去重",
+  "candidates": [
+    {
+      "source_id": "AMD_KR260_10GigE",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage1.json",
+      "used": false,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/10gige_vision_camera_landing.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KR260_10GigE--828f5cf3e0bdb26d/metadata.json"
+    },
+    {
+      "source_id": "AMD_KR260_PTP",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage1.json",
+      "used": false,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/gps_1588_ptp_precision_time_mgmt.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KR260_PTP--41b2adbabca3f1dd/metadata.json"
+    },
+    {
+      "source_id": "AMD_KR260_TSN",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage1.json",
+      "used": false,
+      "status": 200,
+      "archive_status": "complete_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {},
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KR260_TSN--8a90bc9b432fc700/metadata.json"
+    },
+    {
+      "source_id": "AMD_IMX547_Color",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage1.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://www.amd.com/en/products/system-on-modules/kria/k26/kr260-robotics-starter-kit/imx547-camera-kit-color.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://js.qualified.com/qualified.js?token=wTVZrM1NrP9FvcsY": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://static.cloud.coveo.com/atomic/v3.59.2/atomic.esm.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Color--f9f729bb41514f8d/metadata.json"
+    },
+    {
+      "source_id": "AMD_IMX547_Mono",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage1.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://www.amd.com/en/products/system-on-modules/kria/k26/kr260-robotics-starter-kit/imx547-camera-kit-monochrome.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://js.qualified.com/qualified.js?token=wTVZrM1NrP9FvcsY": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://static.cloud.coveo.com/atomic/v3.59.2/atomic.esm.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Mono--c6eb79ab879ec9bf/metadata.json"
+    },
+    {
+      "source_id": "AMD_KV260_Interfaces",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage1.json",
+      "used": false,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://docs.amd.com/r/en-US/ug1089-kv260-starter-kit/Interfaces",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://docs.amd.com/stylesheets/bootstrap.css?v=82aa87e8": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.amd.com/stylesheets/fluidtopicsclient.css?v=1e3dc44d": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.amd.com/stylesheets/customizations.css?v=c1722c84": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.amd.com/scripts/bootstrap.js?v=f70a7ce2": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.amd.com/scripts/fluidtopics.min.js?v=aae0ba6b": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.amd.com/fluidtopicsclient.nocache.js?cb=0c498ff4": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.amd.com/scripts/ft-app-context-dependencies.js?v=f5afa387": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.amd.com/third-party/scripts/momentjs/min/moment.min.js?v=34436994": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.amd.com/internal/api/webapp/splash-image?v=9d225e32": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.amd.com/internal/api/webapp/header/logo?v=c5ea3faf": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.amd.com/scripts/custom.js?v=71a4ae89": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KV260_Interfaces--73a9bf1f1889d671/metadata.json"
+    },
+    {
+      "source_id": "AMD_Wiki_Video",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage1.json",
+      "used": false,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/289833254/Video",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx-wiki.atlassian.net/wiki/download/attachments/18854413/A?version=6&modificationDate=1762167316131&cacheVersion=1&api=v2": "PermissionError: redirect destination disallowed; not requested"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Wiki_Video--dea73578479c9951/metadata.json"
+    },
+    {
+      "source_id": "Linux_V4L2_DMABUF",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage1.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "complete_static",
+      "url": "https://docs.kernel.org/userspace-api/media/v4l/dmabuf.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {},
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_DMABUF--7662313ef95a64cb/metadata.json"
+    },
+    {
+      "source_id": "Linux_V4L2_MMAP",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage1.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "complete_static",
+      "url": "https://docs.kernel.org/userspace-api/media/v4l/mmap.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {},
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_MMAP--918cfd1c10b93e9c/metadata.json"
+    },
+    {
+      "source_id": "Linux_V4L2_Buffer",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage1.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "complete_static",
+      "url": "https://docs.kernel.org/userspace-api/media/v4l/buffer.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {},
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_Buffer--6ec2a6979ded2e53/metadata.json"
+    },
+    {
+      "source_id": "Linux_IIO_Buffer",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage1.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "complete_static",
+      "url": "https://docs.kernel.org/driver-api/iio/buffers.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {},
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_IIO_Buffer--1bbe13646ec11616/metadata.json"
+    },
+    {
+      "source_id": "Linux_PTP",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage1.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "complete_static",
+      "url": "https://docs.kernel.org/driver-api/ptp.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {},
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_PTP--2b352a13474d86b5/metadata.json"
+    },
+    {
+      "source_id": "AMD_MV_Overview",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage2.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/overview.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Overview--5a15284f31bed423/metadata.json"
+    },
+    {
+      "source_id": "AMD_MV_Intro",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage2.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/introduction.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Intro--6adc3e98386eb8c6/metadata.json"
+    },
+    {
+      "source_id": "AMD_MV_Deploy",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage2.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/app_deployment.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Deploy--9e850a52b8c1c098/metadata.json"
+    },
+    {
+      "source_id": "AMD_MV_HW",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage2.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/10gige.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_HW--1171c54d38276ea2/metadata.json"
+    },
+    {
+      "source_id": "AMD_MV_ISP",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage2.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/hw_arch_accel_dd.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_ISP--3de67ef3f75df3f6/metadata.json"
+    },
+    {
+      "source_id": "AMD_MV_SW",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage2.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/sw_arch_platform_dd.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_SW--6de6edf892bbb0e6/metadata.json"
+    },
+    {
+      "source_id": "AMD_MV_App",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage2.json",
+      "used": false,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/sw_arch_accel_dd.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_App--8d730cb20c62ac10/metadata.json"
+    },
+    {
+      "source_id": "AMD_MV_Debug",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage2.json",
+      "used": false,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/debug.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Debug--2d143d3bf08be369/metadata.json"
+    },
+    {
+      "source_id": "AMD_MV_Issues",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage2.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/known_issues.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Issues--711fcf700b2cf88e/metadata.json"
+    },
+    {
+      "source_id": "AMD_PTP_Deploy",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage2.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/src/app_deployment.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/media/xilinx-logo.png": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_Deploy--af8029f4f090bde5/metadata.json"
+    },
+    {
+      "source_id": "AMD_PTP_HW",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage2.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/src/hw_arch_platform.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_HW--f13d0e99858a5776/metadata.json"
+    },
+    {
+      "source_id": "AMD_PTP_SW",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage2.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/src/sw_arch_platform.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_SW--bda8bd44602fb5ae/metadata.json"
+    },
+    {
+      "source_id": "AMD_TSN_Landing",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage2.json",
+      "used": false,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/ros2_multinode_communication_via_tsn_landing.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Landing--f537c66705456f94/metadata.json"
+    },
+    {
+      "source_id": "AMD_TSN_Intro",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage3.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/introduction.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+        "https://github.com/Xilinx/Image-Collateral/blob/main/xilinx-logo.png?raw=true": "PermissionError: redirect destination disallowed; not requested"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Intro--864e8edb679c4b1d/metadata.json"
+    },
+    {
+      "source_id": "AMD_TSN_HW",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage3.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/hw_arch_platform.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+        "https://github.com/Xilinx/Image-Collateral/blob/main/xilinx-logo.png?raw=true": "PermissionError: redirect destination disallowed; not requested"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_HW--5963c5dfcbb51f61/metadata.json"
+    },
+    {
+      "source_id": "AMD_TSN_SW",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage3.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/sw_arch_platform.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+        "https://github.com/Xilinx/Image-Collateral/blob/main/xilinx-logo.png?raw=true": "PermissionError: redirect destination disallowed; not requested"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_SW--868c5a65ce5a4028/metadata.json"
+    },
+    {
+      "source_id": "AMD_TSN_Deploy",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage3.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/app_deployment.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+        "https://github.com/Xilinx/Image-Collateral/blob/main/xilinx-logo.png?raw=true": "PermissionError: redirect destination disallowed; not requested"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Deploy--fba5d3c5749435c3/metadata.json"
+    },
+    {
+      "source_id": "AMD_PTP_Issues",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage3.json",
+      "used": false,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/src/known-issues.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_Issues--08eed4cb2b671e7c/metadata.json"
+    },
+    {
+      "source_id": "AMD_MV_Sensor",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage3.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/sensor.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+        "Embedded external frames/media are not recursively archived; review them separately."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Sensor--2099717cc1b16868/metadata.json"
+    },
+    {
+      "source_id": "AMD_CSI2_Driver",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage3.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://github.com/Xilinx/linux-xlnx/blob/master/drivers/media/platform/xilinx/xilinx-csi2rxss.c",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_CSI2_Driver--ad9c9eb7d28ce8c4/metadata.json"
+    },
+    {
+      "source_id": "AMD_Video_DMA_Driver",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage3.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://github.com/Xilinx/linux-xlnx/blob/master/drivers/media/platform/xilinx/xilinx-dma.c",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Video_DMA_Driver--02b50d77f6328b6e/metadata.json"
+    },
+    {
+      "source_id": "AMD_IMX547_Repo",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage3.json",
+      "used": false,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://github.com/Xilinx/mv-camera-sensor-module",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Repo--e34ec950b22ac17c/metadata.json"
+    },
+    {
+      "source_id": "AMD_ISP_Repo",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage3.json",
+      "used": false,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://github.com/Xilinx/xilinx-isp-module",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ISP_Repo--1d05dca2a2caa2c8/metadata.json"
+    },
+    {
+      "source_id": "AMD_Wiki_Linux",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage3.json",
+      "used": false,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841996/Linux",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://d2mgsob4fppcrd.cloudfront.net/xilinx-wiki.atlassian.net/wiki/s/7.10.6/_/download/resources/com.atlassian.auiplugin:aui-restfultable/images/wait.gif": "HTTPError: HTTP Error 404: Not Found",
+        "https://xilinx-wiki.atlassian.net/wiki/download/attachments/18854413/A?version=6&modificationDate=1762167316131&cacheVersion=1&api=v2": "PermissionError: redirect destination disallowed; not requested"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Wiki_Linux--3ca25d4a5c7385bb/metadata.json"
+    },
+    {
+      "source_id": "Linux_DMABUF_Sync",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage3.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "complete_static",
+      "url": "https://docs.kernel.org/driver-api/dma-buf.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {},
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_DMABUF_Sync--d9042c814da994ac/metadata.json"
+    },
+    {
+      "source_id": "Linux_Network_Timestamps",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage3.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "complete_static",
+      "url": "https://docs.kernel.org/networking/timestamping.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {},
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_Network_Timestamps--931f803098f1b483/metadata.json"
+    },
+    {
+      "source_id": "Linux_SocketCAN",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage3.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "complete_static",
+      "url": "https://docs.kernel.org/networking/can.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {},
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_SocketCAN--40fe80b010ea4757/metadata.json"
+    },
+    {
+      "source_id": "Compare_03_HSB",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage3.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://fern-image-hosting.s3.us-east-1.amazonaws.com/nvidia/NVIDIA_Logo_0.svg": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_03_HSB--766974539088b048/metadata.json"
+    },
+    {
+      "source_id": "Compare_03_CoE",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage3.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "complete_static",
+      "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_03_CoE--acc0a9a82b614a53/metadata.json"
+    },
+    {
+      "source_id": "Linux_V4L2_Export",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage4.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "complete_static",
+      "url": "https://docs.kernel.org/userspace-api/media/v4l/vidioc-expbuf.html",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {},
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_Export--834cff46843ea22e/metadata.json"
+    },
+    {
+      "source_id": "ROS_03_IMU",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage4.json",
+      "used": false,
+      "status": 200,
+      "archive_status": "failed",
+      "url": "https://docs.ros.org/en/jazzy/p/sensor_msgs/msg/Imu.html",
+      "notes": [],
+      "failure_reason": null,
+      "unavailable_assets": {},
+      "metadata_file": null
+    },
+    {
+      "source_id": "ROS_03_PointCloud",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage4.json",
+      "used": false,
+      "status": 200,
+      "archive_status": "failed",
+      "url": "https://docs.ros.org/en/jazzy/p/sensor_msgs/msg/PointCloud2.html",
+      "notes": [],
+      "failure_reason": null,
+      "unavailable_assets": {},
+      "metadata_file": null
+    },
+    {
+      "source_id": "ROS_03_Image",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage4.json",
+      "used": false,
+      "status": 200,
+      "archive_status": "failed",
+      "url": "https://docs.ros.org/en/jazzy/p/sensor_msgs/msg/Image.html",
+      "notes": [],
+      "failure_reason": null,
+      "unavailable_assets": {},
+      "metadata_file": null
+    },
+    {
+      "source_id": "ROS_03_JointState",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage4.json",
+      "used": false,
+      "status": 200,
+      "archive_status": "failed",
+      "url": "https://docs.ros.org/en/jazzy/p/sensor_msgs/msg/JointState.html",
+      "notes": [],
+      "failure_reason": null,
+      "unavailable_assets": {},
+      "metadata_file": null
+    },
+    {
+      "source_id": "ROS_03_Wrench",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage4.json",
+      "used": false,
+      "status": 200,
+      "archive_status": "failed",
+      "url": "https://docs.ros.org/en/jazzy/p/geometry_msgs/msg/WrenchStamped.html",
+      "notes": [],
+      "failure_reason": null,
+      "unavailable_assets": {},
+      "metadata_file": null
+    },
+    {
+      "source_id": "AMD_IMX547_License",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage5.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://github.com/Xilinx/mv-camera-sensor-module/blob/main/LICENSE.md",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_License--a70793bef10e3c26/metadata.json"
+    },
+    {
+      "source_id": "AMD_IMX547_Readme",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage5.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://github.com/Xilinx/mv-camera-sensor-module/blob/main/README.md",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Readme--253f622abc918fe3/metadata.json"
+    },
+    {
+      "source_id": "AMD_ISP_License",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage5.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://github.com/Xilinx/xilinx-isp-module/blob/main/LICENSE.md",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ISP_License--86b637f43077fc3d/metadata.json"
+    },
+    {
+      "source_id": "AMD_ISP_Readme",
+      "stage_manifest": "toolkit/manifests/AMD_03_stage5.json",
+      "used": true,
+      "status": 200,
+      "archive_status": "partial_static",
+      "url": "https://github.com/Xilinx/xilinx-isp-module/blob/main/README.md",
+      "notes": [
+        "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+      ],
+      "failure_reason": null,
+      "unavailable_assets": {
+        "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+      },
+      "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ISP_Readme--725cb58851f7f747/metadata.json"
+    }
+  ],
+  "excluded_candidates": {
+    "AMD_KV260_Interfaces": "取得JS loading壳，未作有效正文引用",
+    "AMD_KR260_TSN": "redirect定位页，转至v0.3深层指南引用",
+    "AMD_Wiki_Video": "目录导航仅定位",
+    "AMD_Wiki_Linux": "目录导航仅定位",
+    "ROS_03_IMU": "原在线文档归档失败；未重试/未有效引用",
+    "ROS_03_PointCloud": "原在线文档归档失败；未重试/未有效引用",
+    "ROS_03_Image": "原在线文档归档失败；未重试/未有效引用",
+    "ROS_03_JointState": "原在线文档归档失败；未重试/未有效引用",
+    "ROS_03_Wrench": "原在线文档归档失败；未重试/未有效引用"
+  },
+  "limits": [
+    "28份partial_static保留已取得可读正文，CSS/字体/脚本等缺失见metadata，不保证像素/动态交互完整",
+    "linux-xlnx DMA页面可见源码不完整，master未绑定BSP",
+    "未下载/安装SDK或整container、未接受协议、未刷板或实测",
+    "ROS在线message页面失败未作有效引用；消息契约仅建议设计",
+    "多sensor目标SKU/driver qualification及同步误差缺口见正文"
+  ],
+  "corrections": [
+    "逐张打开MV Top/Capture发现IMX574误标，按其他器件证据研究IMX547并保留冲突",
+    "实际打开MV_SW media图：文件名含MIPI，图内imx547/subset/ISP/capture逻辑链，无CSI Rx；已纠正按文件名推PHY的初稿",
+    "精确短引避开目录导航，关键framecomplete、DMA、TSN、chrony与GPL证据对照实际正文"
+  ],
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_GPU_Execution_and_Deployment.md": true,
+    "02B_RyzenAI_Compilation_and_Quantization.md": true,
+    "02C_Versal_Compiler_and_Runtime.md": true,
+    "02D_EDF_BSP_and_Execution_Domains.md": true,
+    "02E_ROS_Acceleration_and_System_Integration.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true,
+    "README.md": true
+  },
+  "final_dedup": {
+    "names_count": 42,
+    "network_requests_including_robots": 0,
+    "summary": {
+      "complete_static": 14,
+      "partial_static": 28,
+      "failed": 0
+    }
+  }
+}

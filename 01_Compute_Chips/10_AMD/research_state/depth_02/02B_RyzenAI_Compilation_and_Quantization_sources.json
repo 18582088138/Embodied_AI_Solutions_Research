@@ -1,0 +1,329 @@
+[
+  {
+    "source_id": "AMD_RyzenAI_Docs",
+    "number": "S01",
+    "title": "Ryzen AI软件总览",
+    "version": "1.9.0；Last modified 2026-11-02为修改时间",
+    "url": "https://ryzenai.docs.amd.com/en/latest/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Docs--e9bfe555a77a6c76/index.html",
+    "sha256": "5a32b3b6aec4bf0e8ea3f4da6843dffaee85f1d8dae05ad32027d2f94c38ad17",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Docs--e9bfe555a77a6c76/original.response",
+    "original_sha256": "3c49e811b8a7e91b0ee1443d59254b41f29216e994660260cde57e54a4ee9444",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Docs--e9bfe555a77a6c76/metadata.json",
+    "collected_at": "2026-11-04T05:14:50.135626+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_RyzenAI_Release",
+    "number": "S02",
+    "title": "Ryzen AI release/known issues",
+    "version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+    "url": "https://ryzenai.docs.amd.com/en/latest/relnotes.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Release--bc694aec7cba9af1/index.html",
+    "sha256": "6ed64c028f364adfe4c5d32e97aeb6cd3081cc4c790a1905a89e2723daa40c49",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Release--bc694aec7cba9af1/original.response",
+    "original_sha256": "a4c0dad23e94bf8d1ecb183459569af73213a57167d6b654c31f7cb3105a83b6",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Release--bc694aec7cba9af1/metadata.json",
+    "collected_at": "2026-11-04T05:19:47.283779+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_RyzenAI_Ops",
+    "number": "S03",
+    "title": "Ryzen AI算子支持表",
+    "version": "latest路径但正文表明Ryzen AI1.8.0算子；不能当1.9完整表",
+    "url": "https://ryzenai.docs.amd.com/en/latest/ops_support.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Ops--bde168caf8fe096d/index.html",
+    "sha256": "23142caf6fe0f4d95329b948936c53cf3636db3bef17317afb519ce10e328483",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Ops--bde168caf8fe096d/original.response",
+    "original_sha256": "e83eca1e0d3d1410b4231a2eaa38cb04c6d6e4176588665f16367ffbcabb5f4d",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Ops--bde168caf8fe096d/metadata.json",
+    "collected_at": "2026-11-04T05:19:54.368012+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_RyzenAI_Compile",
+    "number": "S04",
+    "title": "Ryzen AI EP编译/运行/缓存",
+    "version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+    "url": "https://ryzenai.docs.amd.com/en/latest/modelrun.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Compile--eab5d9af47172378/index.html",
+    "sha256": "4bf52ffd04b8926a853d05d90f538f4a1fb3806ab84dd976df02220cd6e7e26e",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Compile--eab5d9af47172378/original.response",
+    "original_sha256": "d1c01567d64608fc5aac516d05a8e07590c96f9931ebea5664efd4258be7f445",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Compile--eab5d9af47172378/metadata.json",
+    "collected_at": "2026-11-04T05:19:48.971821+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_RyzenAI_Linux",
+    "number": "S05",
+    "title": "Ryzen AI Linux安装与P100支持",
+    "version": "1.9；XRT 2.26.89/amdxdna 2.26.260102.59；Linux NPU flow",
+    "url": "https://ryzenai.docs.amd.com/en/latest/linux.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Linux--340fd1ed1df2691c/index.html",
+    "sha256": "f6f973689c4a1d3d10443bd9cb967fd1633e6c6caa897df27b095e704f61a918",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Linux--340fd1ed1df2691c/original.response",
+    "original_sha256": "082513d0e60028720fb3297d6cc707323afe861914320b379821df96cc5ac324",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Linux--340fd1ed1df2691c/metadata.json",
+    "collected_at": "2026-11-04T05:19:45.671319+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_Quark_Schemes",
+    "number": "S06",
+    "title": "AMD_Quark_Schemes",
+    "version": "Quark通用latest文档，不能替代VitisAI6.3内置Quark0.12",
+    "url": "https://quark.docs.amd.com/latest/onnx/config/quantization_schemes.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_Schemes--c20ab50fa21e9a09/index.html",
+    "sha256": "2323f74994412968b4a9adf0307b54bffdb830dd304775e7da6d07ea1dd088b1",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_Schemes--c20ab50fa21e9a09/original.response",
+    "original_sha256": "c0fbff6c5a17dd2cde1deb4b6c23d02b23def5021ecaea0a3541a0cf44e059ea",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_Schemes--c20ab50fa21e9a09/metadata.json",
+    "collected_at": "2026-11-04T06:24:52.843865+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://quark.docs.amd.com/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font",
+      "https://quark.docs.amd.com/latest/_static/qk-install-selector.css?v=410c81a9": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_Quark_XINT8",
+    "number": "S07",
+    "title": "AMD_Quark_XINT8",
+    "version": "Quark通用latest文档，不能替代VitisAI6.3内置Quark0.12",
+    "url": "https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_xint8_quantize.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_XINT8--da39f2f8b3488490/index.html",
+    "sha256": "b8a646a4a855d3dd6d264f54df400ff29fecb9d921233f6da39416022272f5f4",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_XINT8--da39f2f8b3488490/original.response",
+    "original_sha256": "11f5c57aec584821af9062a05358115fdc57d58541cf6f649d498f7c35bb227d",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_XINT8--da39f2f8b3488490/metadata.json",
+    "collected_at": "2026-11-04T06:24:46.481568+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://quark.docs.amd.com/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font",
+      "https://quark.docs.amd.com/latest/_static/qk-install-selector.css?v=410c81a9": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_Quark_A16W8",
+    "number": "S08",
+    "title": "AMD_Quark_A16W8",
+    "version": "Quark通用latest文档，不能替代VitisAI6.3内置Quark0.12",
+    "url": "https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_a8w8_and_a16w8_quantize.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_A16W8--52bdde32508629c8/index.html",
+    "sha256": "efd43934da1e4d119485d26b777fa593ea89c9b382aca106f9b67fa8188a40a5",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_A16W8--52bdde32508629c8/original.response",
+    "original_sha256": "46847e12449d6fa90ce05f686e14ecc409bc08a18f833cf6de0e0de81aaf4afb",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_A16W8--52bdde32508629c8/metadata.json",
+    "collected_at": "2026-11-04T06:24:49.862379+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://quark.docs.amd.com/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font",
+      "https://quark.docs.amd.com/latest/_static/qk-install-selector.css?v=410c81a9": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_Quark_SmoothQuant",
+    "number": "S09",
+    "title": "AMD_Quark_SmoothQuant",
+    "version": "Quark通用latest文档，不能替代VitisAI6.3内置Quark0.12",
+    "url": "https://quark.docs.amd.com/latest/onnx/accuracy_algorithms/sq.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_SmoothQuant--5aca02ace82f0db0/index.html",
+    "sha256": "8207d8c8d3d06cadfef178fabc9984d4648fc3e50e4a4b1cbbfebb44a86aba6e",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_SmoothQuant--5aca02ace82f0db0/original.response",
+    "original_sha256": "12515b021dad8102ab9833d2ec5a7b5171081377da5112c9101716cf7ca16c8f",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_SmoothQuant--5aca02ace82f0db0/metadata.json",
+    "collected_at": "2026-11-04T06:24:54.876884+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://quark.docs.amd.com/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font",
+      "https://quark.docs.amd.com/latest/_static/qk-install-selector.css?v=410c81a9": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_Quark_Search",
+    "number": "S10",
+    "title": "AMD_Quark_Search",
+    "version": "Quark通用latest文档，不能替代VitisAI6.3内置Quark0.12",
+    "url": "https://quark.docs.amd.com/latest/onnx/user_guide_auto_search.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_Search--eceb0738118bf4ec/index.html",
+    "sha256": "03a41bbd54e9e2b2acf4cbd267c883b68c1d4e6271923442276072034d9077b0",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_Search--eceb0738118bf4ec/original.response",
+    "original_sha256": "c7968b814a86b5db078104b8130c827afa2719f5af40d73a98efada786c170a1",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_Search--eceb0738118bf4ec/metadata.json",
+    "collected_at": "2026-11-04T06:24:56.772161+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://quark.docs.amd.com/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font",
+      "https://quark.docs.amd.com/latest/_static/qk-install-selector.css?v=410c81a9": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_RyzenAI_Analyzer",
+    "number": "S11",
+    "title": "Ryzen AI NPU Analyzer精度/频率条件",
+    "version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+    "url": "https://ryzenai.docs.amd.com/en/latest/ai_analyzer.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Analyzer--bd299a4f91c66251/index.html",
+    "sha256": "3b6df113650e2d578ba26c20eeb81b4e470a7ad65df80f22fffbe2d83b88c9d4",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Analyzer--bd299a4f91c66251/original.response",
+    "original_sha256": "8f28a91371a54d11f149dca5da0f48e9be3e45830a40c496416bf477347bff25",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Analyzer--bd299a4f91c66251/metadata.json",
+    "collected_at": "2026-11-04T05:25:58.273077+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_RyzenAI_App",
+    "number": "S12",
+    "title": "Ryzen AI EP应用与兼容表",
+    "version": "1.9.0 beta描述；兼容表缺1.9，保留1.8驱动行冲突",
+    "url": "https://ryzenai.docs.amd.com/en/latest/app_development.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_App--a0a79da08a1587cc/index.html",
+    "sha256": "68860121c2d1915aca210cd9e3b0ff686ef334c85df182a1feece94943ffddfa",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_App--a0a79da08a1587cc/original.response",
+    "original_sha256": "6465834d2129202ebc95eb8ff0b67a1342e8c408bb5cfbea09a09542a500189c",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_App--a0a79da08a1587cc/metadata.json",
+    "collected_at": "2026-11-04T05:19:52.763678+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_Quark_License",
+    "number": "S13",
+    "title": "AMD_Quark_License",
+    "version": "Quark通用latest文档，不能替代VitisAI6.3内置Quark0.12",
+    "url": "https://quark.docs.amd.com/latest/license.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_License--e7cd0f7672820186/index.html",
+    "sha256": "bc63804469941660a6d8b5c3dca8c54a64d8fa3e9bb5c40df488c3328ade0aca",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_License--e7cd0f7672820186/original.response",
+    "original_sha256": "9e5db5ab9a7e0ec112513cd2d4021fe09dc8c551af12132bd7f93e3bf6d39f6a",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_License--e7cd0f7672820186/metadata.json",
+    "collected_at": "2026-11-04T06:25:00.108223+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://quark.docs.amd.com/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font",
+      "https://quark.docs.amd.com/latest/_static/qk-install-selector.css?v=410c81a9": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_RyzenAI_Licenses",
+    "number": "S14",
+    "title": "Ryzen AI EULA与第三方条款",
+    "version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+    "url": "https://ryzenai.docs.amd.com/en/latest/licenses.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Licenses--ad9f946ca3641851/index.html",
+    "sha256": "f8ce14cc1a0be5428dc8b80a8850a25a33f5a8afcd4663183707897a53af5c78",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Licenses--ad9f946ca3641851/original.response",
+    "original_sha256": "7edec6647e049b32c82e9238ee2bda08e34ec95f091974a0a7fb542cc6affc2f",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Licenses--ad9f946ca3641851/metadata.json",
+    "collected_at": "2026-11-04T05:20:00.086259+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Compare_TRT_Quant",
+    "number": "S15",
+    "title": "Compare_TRT_Quant",
+    "version": "NVIDIA官方资料用于机制对标；导入2026-11-03已有原响应或本次取得，不套AMD目标",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Quant--f47c2746e3737567/index.html",
+    "sha256": "3c38adc7f087812ff7f333f0b30b473c595306faa7d803bed7c0509b203909c6",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Quant--f47c2746e3737567/original.response",
+    "original_sha256": "9b157024a8efa589c2ddc51d21cd3c28581e45b418968091765a53e8ca4ed920",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Quant--f47c2746e3737567/metadata.json",
+    "collected_at": "2026-11-04T03:01:38.548394+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Compare_TRT_Builder",
+    "number": "S16",
+    "title": "Compare_TRT_Builder",
+    "version": "NVIDIA官方资料用于机制对标；导入2026-11-03已有原响应或本次取得，不套AMD目标",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Builder--9df325c2c44e3de5/index.html",
+    "sha256": "0b2c6b2c93691260edb6cde5752f66c60226f3def12e74e36f80d9aea96048c6",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Builder--9df325c2c44e3de5/original.response",
+    "original_sha256": "656cc637bc2983dcc18269d41cdb4c44aab96530e4b8213c775bc73321e71eea",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Builder--9df325c2c44e3de5/metadata.json",
+    "collected_at": "2026-11-03T07:59:39.340501+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  }
+]

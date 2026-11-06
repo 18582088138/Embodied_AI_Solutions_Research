@@ -1,0 +1,6 @@
+{
+  "coverage": "任务地图→LLM/VLM制品→π0真实链→Molmo端侧仿真与开环→作者策略对照→MicroWorld五阶段/性能→视觉3D/量化并发→MLOps。未取得全身/导航实物性能、Vitis协议表。",
+  "versions_and_measurements": "逐项分开2025π0和2026Molmo/1.9/6.3；MicroWorld图F/G与Table3冲突保存；kernel、generation、decodedFPS、policy/控制/servo均分开。",
+  "maturity_and_licenses": "AMD示例与作者实现分开；Qwen上游Apache/修改MIT、MicroWorld卡OpenRAIL；数据/上游/模型SDK许可需独立审查，不声称全链无条件商用；Smol导入卡仅引文未补参数。",
+  "figures_opened": "实际打开Koch原照片和MicroWorld Figure2/3/4；检查大图文字/冻结模块；发现Figure4 44.92与Table3 42.49冲突，未篡改官方图；无用动画首帧冒充动作流程。"
+}

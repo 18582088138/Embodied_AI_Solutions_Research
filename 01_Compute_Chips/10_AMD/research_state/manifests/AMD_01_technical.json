@@ -1,0 +1,9 @@
+[
+ {"name":"AMD_K26_DS987","url":"https://docs.amd.com/api/khub/maps/gX6THsxXsWUzU8xcmObJnQ/attachments/SXafmCH9kPqXjywx_5dRBA-gX6THsxXsWUzU8xcmObJnQ/content?download=true&locationValue=reader","expected":"pdf"},
+ {"name":"AMD_K26_Thermal_UG1090","url":"https://docs.amd.com/api/khub/maps/9OJPc4Uy0feMWtT2Y_GFhA/attachments/K5DZS0W6GjDxxQ~UAGi7sA-9OJPc4Uy0feMWtT2Y_GFhA/content?download=true&locationValue=reader","expected":"pdf"},
+ {"name":"AMD_X199","url":"https://www.amd.com/en/products/embedded/ryzen-ai/x100-series/ryzen-ai-embedded-x199.html","expected":"html"},
+ {"name":"AMD_Radeon_AI_PRO","url":"https://www.amd.com/en/products/graphics/workstations/radeon-ai-pro.html","expected":"html"},
+ {"name":"Sapphire_R9700","url":"https://www.sapphiretech.com/en/commercial/radeon-ai-pro-r9700","expected":"html"},
+ {"name":"AMD_R9700_ROCm_Guide","url":"https://www.amd.com/content/dam/amd/en/documents/products/graphics/workstation/radeon-ai-pro-rocm-pytorch-guide.pdf","expected":"pdf"},
+ {"name":"OpenNav_Full_Report","url":"https://github.com/open-navigation/opennav_robotics_workload_benchmark/blob/main/docs/Robotics%20Workload%20Platform%20Benchmarking%20Results.pdf?raw=true","expected":"pdf"}
+]

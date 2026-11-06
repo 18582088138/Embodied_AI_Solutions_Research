@@ -1,0 +1,438 @@
+[
+  {
+    "source_id": "AMD_Versal_Gen2_Brief",
+    "number": "S01",
+    "title": "Versal Gen2产品brief",
+    "version": "©2024；PID3070664；3页；部分预测2024-03",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/products/adaptive-socs-and-fpgas/versal/versal-ai-edge-gen2-product-brief.pdf",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Versal_Gen2_Brief--42bfa84e87fc0e0c/document.pdf",
+    "sha256": "e9c616eb635a233e02bea39ffc66d05ddd5948d666b28a0619ebfd4feb44338e",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Versal_Gen2_Brief--42bfa84e87fc0e0c/original.response",
+    "original_sha256": "e9c616eb635a233e02bea39ffc66d05ddd5948d666b28a0619ebfd4feb44338e",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Versal_Gen2_Brief--42bfa84e87fc0e0c/metadata.json",
+    "collected_at": "2026-11-04T04:49:32.033800+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": []
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Reference",
+    "number": "S02",
+    "title": "VEK385参考系统架构",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/integrated_system_reference%20design/system.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Reference--1f9caa805643de0a/index.html",
+    "sha256": "7887121c06f22e1c0783d20a6c4adbceaabe16970247584fd8a292e257e4c8d0",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Reference--1f9caa805643de0a/original.response",
+    "original_sha256": "1220a46cd4dcd906a95fef04e5892758dc86f181194a648703cba1a926ff75d5",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Reference--1f9caa805643de0a/metadata.json",
+    "collected_at": "2026-11-04T05:27:22.395885+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Output",
+    "number": "S03",
+    "title": "Gen2 .rai/cache与编译报告",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/output.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Output--2c2e1405bc84b31f/index.html",
+    "sha256": "716a467819b7cb8a6b5318b4e59e637d8c4262c53730d51873ff6fcd0d4d1bc4",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Output--2c2e1405bc84b31f/original.response",
+    "original_sha256": "d8f6a0c231788c2b3694fd4d00392ad1aa7c77b81bf9e62280978a09e4ce05ea",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Output--2c2e1405bc84b31f/metadata.json",
+    "collected_at": "2026-11-04T05:27:08.537460+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Tenancy",
+    "number": "S04",
+    "title": "Gen2 DP/TP与资源配置",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/multi-tenancy-user-guide.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Tenancy--02b353db51206eb3/index.html",
+    "sha256": "a4b75d68a945244084c0eeb509f8b021f4264e449ce1da938dd149c8d9ef3f61",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Tenancy--02b353db51206eb3/original.response",
+    "original_sha256": "874b21a03c88d8542deb5c0b0108d48eba165d05add98ac5350cfdefb977ef79",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Tenancy--02b353db51206eb3/metadata.json",
+    "collected_at": "2026-11-04T05:27:30.275463+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VAI_EP_Config",
+    "number": "S05",
+    "title": "AMD_VAI_EP_Config",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/ep-config-file.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_EP_Config--a3cb640b1e9ddc41/index.html",
+    "sha256": "95fcdce73349f240a34e62115da6517b74a6f212f13bd85b517d639cc4861959",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_EP_Config--a3cb640b1e9ddc41/original.response",
+    "original_sha256": "312f3f87ac80e1dcede0cf491f5dfba82ed9b11b5e7fb5efc5d9f4a8ed28712d",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_EP_Config--a3cb640b1e9ddc41/metadata.json",
+    "collected_at": "2026-11-04T06:30:22.644402+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VAI_Custom_Ops",
+    "number": "S06",
+    "title": "AMD_VAI_Custom_Ops",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/custom_ops/custom_ops_introduction.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Custom_Ops--1f320b36f994e3ae/index.html",
+    "sha256": "7fbd96a77df66eafc6182841efc975e05751db6070b7111a5d9f471c2ef9592f",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Custom_Ops--1f320b36f994e3ae/original.response",
+    "original_sha256": "c49857035b2c775395a4473c438de5fd37d38b5a0720f57f92efa52c12fc26f2",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Custom_Ops--1f320b36f994e3ae/metadata.json",
+    "collected_at": "2026-11-04T06:30:36.823751+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VAI_Custom_Infer",
+    "number": "S07",
+    "title": "AMD_VAI_Custom_Infer",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/custom_ops/custom_ops_running_inference.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Custom_Infer--9345ee8f865efba4/index.html",
+    "sha256": "b2e9d254fbc790aeb4e6725749297379c25968f8463669beb80ca284b3881dff",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Custom_Infer--9345ee8f865efba4/original.response",
+    "original_sha256": "46476b63565ff19095eecfcdb4a4f337de197f214ff0539c5950db26d142661d",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Custom_Infer--9345ee8f865efba4/metadata.json",
+    "collected_at": "2026-11-04T06:30:38.656103+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VAI_Tensor_Formats",
+    "number": "S08",
+    "title": "AMD_VAI_Tensor_Formats",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/misc/tensor_formats.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Tensor_Formats--aec125dfb6f54880/index.html",
+    "sha256": "8bd8dbf0d95423d91c1cf827616928cc2aac3ce8836df9b5911ac431027429a8",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Tensor_Formats--aec125dfb6f54880/original.response",
+    "original_sha256": "78286ec9c32202f949aeed90eec21fcb503b66a7f15064a1f9c5726945c3cc54",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Tensor_Formats--aec125dfb6f54880/metadata.json",
+    "collected_at": "2026-11-04T06:30:24.520876+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Architecture",
+    "number": "S09",
+    "title": "Gen2 VART ML张量/所有权/线程模型",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/ml-architecture-overview.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Architectu--b867b657782bdc40/index.html",
+    "sha256": "6804452f0d104344203ed035c5c9ad99a589ae0154431cdeb09f6231ad2e644b",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Architectu--b867b657782bdc40/original.response",
+    "original_sha256": "1e83611558f0fc213718d7f1e94c18b23acaee92d40e48b8bba8e3c961495631",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Architectu--b867b657782bdc40/metadata.json",
+    "collected_at": "2026-11-04T05:27:16.512716+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_VART_App",
+    "number": "S10",
+    "title": "Gen2 VART应用开发与零拷贝",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_app_guide.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_VART_App--ac4eac67a33411e1/index.html",
+    "sha256": "bcd780a59039221a1cc20cc9a4397d12f32aeb7e437dff8674fa64240f772320",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_VART_App--ac4eac67a33411e1/original.response",
+    "original_sha256": "daa55791270a313bbe81fb2f72b37e457b69e7146c296f26f3dd9eb9074e6ff0",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_VART_App--ac4eac67a33411e1/metadata.json",
+    "collected_at": "2026-11-04T05:30:17.882556+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VAI_Quant_Pipeline",
+    "number": "S11",
+    "title": "AMD_VAI_Quant_Pipeline",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_quantization_pipeline.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Quant_Pipeline--9e4369995e24c258/index.html",
+    "sha256": "cf3ec37cf8c828b0e638c28e54c09a5f499fad277072e6b7e7e385719a451b6a",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Quant_Pipeline--9e4369995e24c258/original.response",
+    "original_sha256": "d8fdd679574959ba7b31593bff017a5d77ff1370e5ad5dafcc3b2a743c4745ea",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Quant_Pipeline--9e4369995e24c258/metadata.json",
+    "collected_at": "2026-11-04T06:30:28.706097+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Async",
+    "number": "S12",
+    "title": "Gen2异步执行及样例边界",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/advanced_concepts/async_execution.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Async--a5b950f414554940/index.html",
+    "sha256": "6ce4de6106d4f87d06e1d131693e10c9652adc4903eb783edd956c91ec9a8bab",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Async--a5b950f414554940/original.response",
+    "original_sha256": "1552d78df865eea5e0bcf3f044af30971bab21fb49ecdd65deadd6922e9f6b3e",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Async--a5b950f414554940/metadata.json",
+    "collected_at": "2026-11-04T05:27:26.877502+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_SHEL_XSA",
+    "number": "S13",
+    "title": "XSA到SDT/Yocto machine流程",
+    "version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+    "url": "https://edf.docs.amd.com/en/latest/shel/using-the-shel-flow-to-create-a-yocto-project-machine-configuration-from-a-xsa-file.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_SHEL_XSA--d5517b0dc3c293f5/index.html",
+    "sha256": "e624ed153410fdbdebfed1dd877de12748a531d50e3466d8f29dccfae45dd2ee",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_SHEL_XSA--d5517b0dc3c293f5/original.response",
+    "original_sha256": "ed6987b77e00fe29ce66f5a001c1a230a795f9b332f3f70a3eea550b93015037",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_SHEL_XSA--d5517b0dc3c293f5/metadata.json",
+    "collected_at": "2026-11-04T05:25:19.355995+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_Domains",
+    "number": "S14",
+    "title": "EDF多domain/资源/通信YAML",
+    "version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+    "url": "https://edf.docs.amd.com/en/latest/osdev/domain-yaml-integration-and-development.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Domains--3e5c09c7147686e3/index.html",
+    "sha256": "a436b3bcef28c469debc05f5fabedb444358d4e57cf5c5c8c8db9d08911c6a02",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Domains--3e5c09c7147686e3/original.response",
+    "original_sha256": "3cf160690f05a1393c6ad999e1c38922580560f76e5ba28340ef58b99cdb1aad",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Domains--3e5c09c7147686e3/metadata.json",
+    "collected_at": "2026-11-04T05:25:36.668553+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_OpenAMP_FreeRTOS",
+    "number": "S15",
+    "title": "AMD_EDF_OpenAMP_FreeRTOS",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://edf.docs.amd.com/en/latest/discovery/openamp-rpu-firmware-demo-freertos.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_OpenAMP_FreeRTOS--b61916dd92184f89/index.html",
+    "sha256": "99eab652c5c8a70cd0076136a2a108bb4ad3fe8e16390aca28dde7f983533c9e",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_OpenAMP_FreeRTOS--b61916dd92184f89/original.response",
+    "original_sha256": "be9bb7bd9a49015b9899ff0f63223ecc59fa1bdc8dea8fa08f519a06ce8f4cd2",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_OpenAMP_FreeRTOS--b61916dd92184f89/metadata.json",
+    "collected_at": "2026-11-04T06:40:02.302930+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_OpenAMP_Zephyr",
+    "number": "S16",
+    "title": "AMD_EDF_OpenAMP_Zephyr",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://edf.docs.amd.com/en/latest/discovery/openamp-rpu-firmware-demo-zephyr.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_OpenAMP_Zephyr--0b63b8042e4931e0/index.html",
+    "sha256": "d371d9be178e813a6f82309396203e3fc07b743be13ab4def78fa07785d313ce",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_OpenAMP_Zephyr--0b63b8042e4931e0/original.response",
+    "original_sha256": "461841130f0e2a1608e2116913fd85fd04cebc3e79ec9783dc9c69ae0d76544d",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_OpenAMP_Zephyr--0b63b8042e4931e0/metadata.json",
+    "collected_at": "2026-11-04T06:39:59.700450+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_TSN_HW",
+    "number": "S17",
+    "title": "AMD_TSN_HW",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/hw_arch_platform.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_HW--5963c5dfcbb51f61/index.html",
+    "sha256": "be103ea0b32202d355869bff8ba448cd6e6187891617eace8b0fac7f1da950ea",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_HW--5963c5dfcbb51f61/original.response",
+    "original_sha256": "b711941198f7820ac4198cdc1510911020c71cf9a23dd4a5e5235ef479dbc569",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_HW--5963c5dfcbb51f61/metadata.json",
+    "collected_at": "2026-11-04T07:10:42.267953+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://github.com/Xilinx/Image-Collateral/blob/main/xilinx-logo.png?raw=true": "PermissionError: redirect destination disallowed; not requested"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_TSN_SW",
+    "number": "S18",
+    "title": "AMD_TSN_SW",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/sw_arch_platform.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_SW--868c5a65ce5a4028/index.html",
+    "sha256": "5e758b1aa057681a36d3d4e02e07ed0ff31c322a254cda7421ac5f90f791ee8d",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_SW--868c5a65ce5a4028/original.response",
+    "original_sha256": "e96a3c1a65a54aa123bd925d21788b5d2af3b8d5e9ab2359559964958b7c7a1e",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_SW--868c5a65ce5a4028/metadata.json",
+    "collected_at": "2026-11-04T07:10:45.316723+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://github.com/Xilinx/Image-Collateral/blob/main/xilinx-logo.png?raw=true": "PermissionError: redirect destination disallowed; not requested"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_TSN_Intro",
+    "number": "S19",
+    "title": "AMD_TSN_Intro",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/introduction.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Intro--864e8edb679c4b1d/index.html",
+    "sha256": "db8a3a4ccb9d10ff61508755c1ff629e4bd3034592dfe2afbeab46d4df90f6e4",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Intro--864e8edb679c4b1d/original.response",
+    "original_sha256": "f7fe334c77240a4c421eaa5b3f539f0b1953b1605368795b237fd29bfc4915da",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Intro--864e8edb679c4b1d/metadata.json",
+    "collected_at": "2026-11-04T07:10:37.548375+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://github.com/Xilinx/Image-Collateral/blob/main/xilinx-logo.png?raw=true": "PermissionError: redirect destination disallowed; not requested"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_Versal_Gen2_Industrial",
+    "number": "S20",
+    "title": "AMD_Versal_Gen2_Industrial",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/products/adaptive-socs-and-fpgas/versal/versal-ai-edge-gen2-industrial-solution-brief.pdf",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Versal_Gen2_Industrial--f02e5a12a026db64/document.pdf",
+    "sha256": "f6090e329d3bcf4ba787dc05db48bbb4b7608b76b86e1d912bdca588e96020be",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Versal_Gen2_Industrial--f02e5a12a026db64/original.response",
+    "original_sha256": "f6090e329d3bcf4ba787dc05db48bbb4b7608b76b86e1d912bdca588e96020be",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Versal_Gen2_Industrial--f02e5a12a026db64/metadata.json",
+    "collected_at": "2026-11-04T04:49:34.483980+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": []
+  },
+  {
+    "source_id": "AMD_EDF_Segmented",
+    "number": "S21",
+    "title": "Segmented configuration与DFX区别",
+    "version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+    "url": "https://edf.docs.amd.com/en/latest/seg/segmented-configuration-or-dynamic-function-exchange.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Segmented--6266e36b64ca923a/index.html",
+    "sha256": "4899ae8c459a10e70360cdaa299d07e7172abb10a1f2559470d955ba2ab369e5",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Segmented--6266e36b64ca923a/original.response",
+    "original_sha256": "191be236b0500ec4b22d26236cf287cef2fc49799802883342551ca44e3edde5",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Segmented--6266e36b64ca923a/metadata.json",
+    "collected_at": "2026-11-04T05:25:23.499614+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_PL_Load",
+    "number": "S22",
+    "title": "EDF segmented PL装载与firmware",
+    "version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+    "url": "https://edf.docs.amd.com/en/latest/seg/amd-edf-segmented-configuration-using-amd-yocto-project-recipes.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_PL_Load--66ccb32d4be9da76/index.html",
+    "sha256": "0f6c0508557bdf555528df3e88504743862c21e91f062363283f145949d988cc",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_PL_Load--66ccb32d4be9da76/original.response",
+    "original_sha256": "eaf179834b9acb0203b9141c9cda39a2544b1421efacd507988c97fffc7ea955",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_PL_Load--66ccb32d4be9da76/metadata.json",
+    "collected_at": "2026-11-04T05:25:27.619851+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "number": "S23",
+    "title": "EDF从原型到生产维护指南",
+    "version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+    "url": "https://edf.docs.amd.com/en/latest/moving-from-amd-software-stacks-to-production-deployment.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Production--c93d09e25f993c7a/index.html",
+    "sha256": "cd07c3b9f3ea241d5c623974c6d168774a2e7c4d16df5e08596112984535a3a3",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Production--c93d09e25f993c7a/original.response",
+    "original_sha256": "4e6b2c252d79e4b7079119dd10135d748438170ce9d9466b12cfa13c9c16f6ef",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Production--c93d09e25f993c7a/metadata.json",
+    "collected_at": "2026-11-04T05:25:32.320980+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  }
+]

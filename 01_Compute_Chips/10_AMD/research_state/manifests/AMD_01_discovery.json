@@ -1,0 +1,10 @@
+[
+  {"name":"AMD_Robotics","url":"https://www.amd.com/en/solutions/robotics.html","expected":"html","used_by":["01_Hardware_Platform"]},
+  {"name":"AMD_Kria_K26","url":"https://www.amd.com/en/products/system-on-modules/kria/k26.html","expected":"html","used_by":["01_Hardware_Platform"]},
+  {"name":"AMD_Kria_K24","url":"https://www.amd.com/en/products/system-on-modules/kria/k24.html","expected":"html","used_by":["01_Hardware_Platform"]},
+  {"name":"AMD_KR260","url":"https://www.amd.com/en/products/system-on-modules/kria/k26/kr260-robotics-starter-kit.html","expected":"html","used_by":["01_Hardware_Platform"]},
+  {"name":"AMD_Ryzen_Embedded","url":"https://www.amd.com/en/products/embedded/ryzen.html","expected":"html","used_by":["01_Hardware_Platform"]},
+  {"name":"AMD_Ryzen_AI_Max_395","url":"https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html","expected":"html","used_by":["01_Hardware_Platform"]},
+  {"name":"AMD_Versal_AI_Edge","url":"https://www.amd.com/en/products/adaptive-socs-and-fpgas/versal/ai-edge-series.html","expected":"html","used_by":["01_Hardware_Platform"]},
+  {"name":"AMD_Instinct_MI350","url":"https://www.amd.com/en/products/accelerators/instinct/mi350.html","expected":"html","used_by":["01_Hardware_Platform"]}
+]

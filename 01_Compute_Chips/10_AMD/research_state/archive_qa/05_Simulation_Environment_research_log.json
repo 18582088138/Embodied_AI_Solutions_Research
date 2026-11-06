@@ -1,0 +1,74 @@
+{
+  "chapter": "05_Simulation_Environment",
+  "data_cutoff": "2026-11-04",
+  "completed_at_utc": "2026-11-04T08:37:24.008852+00:00",
+  "summary": {
+    "body_han_chars": 5003,
+    "tables": 3,
+    "sources": 21,
+    "figures": 6,
+    "claim_reviews": 40,
+    "archive_status": {
+      "complete_static": 13,
+      "partial_static": 8
+    },
+    "quality_errors": 0,
+    "dedup_network_requests": 0,
+    "report_sha256": "b1c89fb3e328cd61e548e2818dc1f245e2ce7fe9924f4075ad9a6e28857ed772"
+  },
+  "manual_review": {
+    "coverage": "路线关系、资产/physics/render/sensor/ROS/学习与SDG分别研究；完整训练和实物迁移为缺口。",
+    "versions_and_measurements": "旧Vulkan教程与新World、MJX-JAX与Warp、Classic11与Harmonic、O3DE26.05与插件版本分别核对；四平台吞吐保留完整条件。",
+    "maturity_and_licenses": "演示、上游支持与生产验收分开；源码/二进制/资产/数据许可分别约束，资产未全取得。",
+    "figures_opened": "已实际打开3张Genesis原图及2张O3DE截图；确认URDF默认惯量提示和mesh product失败，图不证明吞吐。"
+  },
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_GPU_Execution_and_Deployment.md": true,
+    "02B_RyzenAI_Compilation_and_Quantization.md": true,
+    "02C_Versal_Compiler_and_Runtime.md": true,
+    "02D_EDF_BSP_and_Execution_Domains.md": true,
+    "02E_ROS_Acceleration_and_System_Integration.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "README.md": true
+  },
+  "final_dedup": {
+    "time_utc": "2026-11-04T08:37:00.098423+00:00",
+    "summary": {
+      "complete_static": 13,
+      "partial_static": 8,
+      "failed": 0
+    },
+    "names": [
+      "AMD05_Genesis_Blog",
+      "AMD05_Genesis_Repo",
+      "AMD05_Genesis_Docs",
+      "Model05_NVIDIA_08_DEEP_MUJOCO_MJX",
+      "AMD05_Gazebo_Docs",
+      "AMD05_O3DE_Concepts",
+      "KRS_Install",
+      "AMD05_AUP_Repo",
+      "AMD05_Mujoco_Overview",
+      "AMD06_XArm_Sim2Real",
+      "Model05_NVIDIA_08_DEEP_MUJOCO_COMPUTATION",
+      "AMD06_XArm_JAX",
+      "AMD05_Gazebo_Sensors",
+      "AMD05_Gazebo_ROS",
+      "AMD05_Gazebo_Migration",
+      "AMD05_O3DE_Import",
+      "AMD05_O3DE_Physics",
+      "AMD05_O3DE_Materials",
+      "AMD05_O3DE_Time",
+      "AMD05_RGL_Repo",
+      "AMD05_O3DE_Robotics"
+    ],
+    "network_requests_including_robots": 0,
+    "new_assets": 0,
+    "asset_attempts": 0,
+    "tool": "toolkit/download_materials.py"
+  },
+  "method": "官方原文/模型卡/源码→原图实际打开→条件审阅→结构/归档检查→最终去重；未运行硬件/机器人实测"
+}

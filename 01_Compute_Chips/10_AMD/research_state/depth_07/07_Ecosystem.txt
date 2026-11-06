@@ -1,0 +1,128 @@
+# 07 AMD 具身智能生态：伙伴分工、生产支持与交付责任
+
+数据截止：2026-11-04。本文沿用 01—06 的具体 SKU、软件栈与本体证据，新增对模块供应商、生产 Linux 和控制中间件的原件核验。判断生态价值的单位是“可交付配置及责任主体”，包括物料、固件、驱动、模型、执行接口和维护合同；伙伴 Logo 只是检索入口。
+
+## 1. 生态关系与支持对象
+
+AMD 机器人伙伴页称其为 validated robotics partners，覆盖计算、AI、感知、融合、实时控制和集成服务，并称有平台互操作性测试。页面没有给出每个 Logo 对应的 BOM、BSP、测试版本和报告，动态目录也未完整归档。因此不能把这一标签解释为任意 X100 模组、相机和 ROS 包组合都已认证，更不能用目录数量推算订单、机器人台数或量产比例。@@AMD07_Robotics_Partners@@。
+
+| 角色/代表对象 | 已取得的支持对象 | 提供的价值与接口 | 尚需交付证据 |
+|---|---|---|---|
+| AMD | ROCm、Ryzen AI、Vitis、EDF 与芯片/SOM | 驱动、编译、参考设计及硬件基础 | 逐 SKU 兼容；完整生产服务条款 |
+| congatec | conga-HPC/cRX1，X100 六种模块变体 | COM-HPC、UEFI、板控制器、散热与载板选项 | 正式量产状态、BIOS/驱动 release、交期 |
+| Solectrix | SXVPU，Kria 加额外加速器 | 四路 GMSL2、图像前处理、工业机盒与定制 | 外部加速器/BSP BOM、全链统计与服务合同 |
+| STW | HPX.ai-vision，Zynq UltraScale+ | 多相机、移动机械场景系统集成 | 目标传感器和环境测试、生产软件与安全证据 |
+| Robotec.ai | RoSi 与 Kria/Vitis HIL demo | 仿真到硬件闭环验证、定制集成 | 原型以外客户交付与机器人运营分母 |
+| Open Navigation / ROS 社区 | Nav2 计算负载文章、ros2_control Jazzy | 自主导航、控制器/硬件插件契约 | 目标平台实时测量和发行版匹配 |
+| Canonical、Wind River、Foundries.io | EDF 官方生产指南列举的商业路线 | 发行版维护、CVE、更新服务或 OTA 集成 | 指定产品、版本、地区及 SLA 的正式合同 |
+
+上表依据 @@AMD07_Congatec_CRX1_PDF@@、@@AMD06_Solectrix_PDF@@、@@AMD06_STW_PDF@@、@@AMD06_Robotec_PDF@@、@@OpenNav_Robotics_Benchmark@@、@@AMD07_ROS2_Control@@ 与 @@AMD_EDF_Production@@。部分支持是芯片、部分是模块、部分是服务，不相互替代。
+
+## 2. congatec：从裸芯片到可询价模块，但必须读到资料末页
+
+### 2.1 订货对象、板级功能与状态
+
+conga-HPC/cRX1 是 120×160mm COM-HPC Client Size C 模块，并非完整机器人控制器。2026-07-08 Preliminary Revision 0.3 datasheet 列出六个订货料号；官网附件日期显示 2026-07-09。末页明确写 **“Product not yet released for Mass Production”**。本次截至日取得的仍是该预发布文件：有料号和询价入口不能据此升级成已经量产供货，也不能反向断定截至日仍无任何出货；须供应商提供更新 release 和书面供货确认。@@AMD07_Congatec_CRX1@@、@@AMD07_Congatec_CRX1_PDF@@。
+
+| 模块料号 | 芯片 | CPU / GPU CU | 板载内存 | 运行温度口径 | 状态依据 |
+|---|---|---|---|---|---|
+| 053700 / X199-128G | X199 | 16 Zen5 / 40 | 128GB LPDDR5x | 商业 0～60°C | Preliminary 0.3 |
+| 053701 / X188-64G | X188 | 12 / 32 | 64GB | 商业 0～60°C | 同上 |
+| 053702 / X168-32G | X168 | 8 / 32 | 32GB | 商业 0～60°C | 同上 |
+| 053710 / X199i-128G | X199i | 16 / 40 | 128GB | 工业 −40～85°C | 同上 |
+| 053711 / X188i-64G | X188i | 12 / 32 | 64GB | 工业 −40～85°C | 同上 |
+| 053712 / X168i-32G | X168i | 8 / 32 | 32GB | 工业 −40～85°C | 同上 |
+
+每款所列处理器 TDP 可配置 45～120W，不是整模块插座输入功率或机器人电池功耗。NPU “up to 50 TOPs” 在本附件没有完整数值格式/稀疏条件，不能做无条件模型吞吐比较。存储、PCIe switch 和 PCIe-SATA 都是 assembly option；官网最多 24 条 PCIe 的表述不能推出原生芯片直连 24 条。两路 2.5GbE 使用 **Intel i226**，以太网驱动与维护也进入 BOM，AMD 品牌不能消除第三方依赖。
+
+![congatec 官方规格页](@@FIG:crxspec@@)
+
+图为 datasheet 第1页，展示模块和板级支持对象。官网总规格的商业 storage 为 −40～85°C，PDF 第1页商业 storage 为 −20～80°C；工业 storage 为 −40～85°C。两者冲突保留，工程规格以正式签版及料号确认，不将 storage 当 operating，也不把 CPU 工业温度套到连接器、SSD和载板。
+
+### 2.2 数据与运维分工
+
+![congatec 官方模块框图](@@FIG:crxblock@@)
+
+图为 PDF 第2页。数据路径由处理器、LPDDR5x、i226、USB hub及可选交换器/SSD，经 COM-HPC 连接器交给载板。板控制器独立连接 GPIO、I²C、UART、fan control 等。它有多级 watchdog、掉电控制、非易失用户数据、制造/板信息、健康监测与 POST 重定向；这些功能便于产测、资产识别与故障诊断，但图没有证明 watchdog 输出已经连接电机安全停机链。
+
+量产适配应冻结模块料号与装配选项、载板 revision、BIOS image、网卡固件/驱动、相机 bridge、ROCm/Ryzen AI包及模型产物，建立兼容表。模块厂负责 UEFI/板控制器接口和板级问题，载板厂负责供电/信号完整性/连接器/现场总线，应用集成商负责 timestamp、数据年龄、动作契约和恢复。COM-HPC机械/引脚规范只能降低更换模块的结构工作，不能保证新处理器的驱动、NPU engine与实时调度二进制兼容。
+
+附件列 Windows11、Windows11 IoT Enterprise、Linux 和 conga-zones（原 RTS Hypervisor）。官网还提供 ctrlX OS、Ubuntu Pro、Kontron OS 等询价选项。**选项不是已经取得支持订阅或逐 SKU 验证报告**。本次公开附件仅定位到 datasheet，没有取得该产品完整用户手册、BIOS升级协议和驱动 release，不以其他 congatec 模块手册补齐。散热 053750/053751 是带 12V 风扇、40mm 总高的主动方案，053754/053755 是13mm heatspreader；065600 为评价载板，065620 为 µATX应用载板，均应独立询价和核验安装空间。@@AMD07_Congatec_CRX1_PDF@@。
+
+## 3. 工业视觉和 HIL 伙伴：缩短接入工作，不承包所有安全指标
+
+Solectrix案例体现一类实际价值：把 Kria、外部 AI 加速器、四路 GMSL2与图像前处理封装为 SXVPU，提供定制变体及工业机盒。原件称 IP65/IP67、低于10ms streaming路径、超过10TOPS/W，并在脚注明确这些性能/成本宣称未由 AMD独立核验。低于10ms缺分辨率、输入路数、统计分位、额外加速器精度及动作端点，不能当避障/制动全链时延。@@AMD06_Solectrix_PDF@@。
+
+![Solectrix 官方案例技术与责任说明](@@FIG:sxvpu@@)
+
+图为案例第2页，原样保留整机宣称和脚注。正文还说雷达/LiDAR/ToF不是最初内建、可按需求添加，客户可定制 cybersecurity 和 functional safety。由此支持“可定制集成”的结论，不能推出交付物已符合某个 SIL/PL等级。伙伴承包视觉前端可以减少桥接、预处理及外壳工作，收益成立条件是目标相机/曝光/触发/算法与其验证配置一致。
+
+STW 的 HPX.ai-vision案例对应有司机时的辅助系统和未来自主目标；最多8路可配置相机不代表每路在最高模式下已并发验证。Robotec的 RoSi 为 open-core HIL路线，案例说最终建了 demo。其价值是把物理仿真、ROS、传感器链和 Kria硬件放入实验闭环，让采集/处理不同频率、错误注入、时间推进得到验证；HIL通过仍需实物执行、现场环境与长时间故障暴露。两者不能扩成 AMD机器人量产客户规模。@@AMD06_STW_PDF@@、@@AMD06_Robotec_PDF@@。
+
+对于采购，至少要求伙伴给“输入到输出端点”的定义、哪个主体维护 serializer/ISP/DMA、哪些本体 SDK和固件被测试、授权IP清单与问题升级路径。外壳IP等级、视觉时延、功能安全和网络安全是四个不同证据对象，不能用单一产品图相互代替。
+
+## 4. 开源软件、训练与控制生态的真实边界
+
+### 4.1 Ryzers、KRS 与开发辅助
+
+Ryzers是可组合 Dockerfile及构建/运行脚本集合，README列 LeRobot、openpi、MolmoAct2、Genesis、O3DE、ROS2、视觉和NPU等包。其价值是共享环境封装，降低研究者重复搭环境的工作。`ryzers build genesis`、`ryzers run`证明构建入口，不等于容器包含宿主 kernel/driver、所有模型权重或完整机器人应用。应冻结仓库 commit、基础image digest、apt/pip解析结果、模型 revision和device挂载，保存实际包的README和Dockerfile；总README不能替代每个包的适配证据。@@AMD04_Ryzers_Repo@@。
+
+Ryzers许可为MIT，要求随复制品保留版权/许可；它只覆盖该仓库软件。容器内ROS包、GPU库、模型代码、权重、数据、O3DE资产和本体SDK应各自核验，MIT不会把这些第三方材料统一再许可。@@AMD04_Ryzers_License@@。KRS是既有 Kria/ROS加速开发资源，02E已核其旧版发行约束；现在的 Jazzy、Lyrical或新的X100平台不能因都叫ROS而继承旧测试结果。@@KRS_V1_Docs@@。
+
+AMD Ross页面把自己定义为面向 Embedded工具的自然语言开发助手，用于解释错误、调试和优化设计。它属于开发效率生态，不是现场任务planner或机器人控制runtime；工具能执行工作流也不证明生成的硬件/控制逻辑通过认证。@@AMD_ROSS@@。AUP learning cloud仓库可作为教学入口，部署课程服务、教程跑通与机器人生产交付应分别记录，不能用培训资源替代BSP支持合同。@@AMD05_AUP_Repo@@。
+
+### 4.2 ros2_control：插件契约和降级需集成商兑现
+
+Jazzy controller manager文档定义周期循环为读取硬件状态→更新controllers→写命令。其线程尝试 `SCHED_FIFO` priority50，需要权限和适当实时配置；设置成功并不自动给GPU推理或整个ROS graph硬实时保证。文档当前默认 `update_rate=100` 只是参数默认值，不是 AMD平台实测100Hz。@@AMD07_ROS2_Control@@。
+
+`fallback_controllers`在update返回ERROR时激活备用控制器，但文档明确其激活取决于当时state/command接口可用性，建议先仿真验证。当前文档 `enforce_command_limits` 默认false，命令限幅必须实际配置；它也不覆盖坐标错误、过期目标或SDK通信中断。`switch_controller`的 strict/best_effort、inactive硬件激活、DEACTIVATE传播和异常处理分别核对，不能只验证模型输出合法。
+
+应用契约应包含关节名字/顺序/单位、command接口模式、采样timestamp、动作有效期、失联停机/保持语义与重新使能流程；慢VLA以带期限的轨迹/目标交给控制层。异步控制器可以减少主循环阻塞，但上次结果是否仍有效需调用者判断。验收要记录主循环抖动、硬件read/write耗时、GPU并发干扰、fallback失败和独立保护端点，不能把控制器切换API当安全功能已接线的证据。
+
+## 5. EDF到生产Linux：支持义务才是量产生态的主轴
+
+### 5.1 AMD实际承诺与内核分支
+
+EDF 26.06.1-rev3生产指南直接写：AMD是硬件厂商，**对Adaptive SoC家族 Versal/Zynq UltraScale+/Zynq-7000，不提供production-grade软件、LTS、合规声明或SLA-backed软件更新**。这句话适用所列家族，不推广全部Ryzen/ROCm产品。硬件生命周期不隐含软件支持期；终端制造商需满足目标市场更新和安全标准。@@AMD_EDF_Production@@。
+
+EDF参考镜像用于评估/原型，没有生产安全更新机制。带package manager不等于AMD运营生产update feed；AMD release通过新镜像/layers提供软件，不能等同已部署设备获得增量安全更新。linux-xlnx是公开源码fork而非有保证的OS产品，维护AMD delta与上游稳定补丁之间的rebase工作需要责任人。
+
+| 内核分支/交付对象 | 官方定位 | 可用价值 | 不应推导 |
+|---|---|---|---|
+| xlnx_rebase_version | 上游加顺序AMD补丁的clean-history | 帮助OSV迁移补丁 | SLA/LTS产品 |
+| xlnx_rebase_version_LTS | 活跃工作分支，AMD更新及上游pull | 自维护/OSV支持基础 | 名含LTS便无限期维护 |
+| …_LTS_AMD-release_update | 特定release短期关键修复 | 临时修复路径 | 持续安全更新的生产基础 |
+| EDF image/layers | 参考评估软件 | 原型、板级功能验证 | 完整OTA、密钥吊销与生产合规 |
+
+指南列2025.1/2025.2基于6.12，2026.1基于6.18；这是AMD选择的kernel base，不是所有包、模块、商用OS同版。分支定期pull不能替代漏洞响应时间合同。
+
+### 5.2 自维护与商业维护如何选择
+
+自维护Yocto/Buildroot保留源和配方选择权，同时承担依赖追踪、AMD硬件补丁delta、CVE分析/回补、发布、现场升级与回退验证。商业OS把部分修复响应集中给OSV，但自定义kernel、非上游驱动、加速器runtime和模型通常需要具体约定。EDF指南列Canonical CertifiedUbuntu、WindRiverLinux、Foundries.io作为路线示例；没有逐目标SKU订阅条款就不能宣称已获得认证或OTA服务。
+
+Wind River官方页称Linux提供10年以上支持、主动CVE保护、zero per-device fees，并列LTS25为Yocto5.2 Walnascar、Linux6.12。页称AMD等平台有pre-validated BSP，并提供SBOM/CVE流程。以上是服务产品宣称，**zero per-device fees不等于零订阅/工程成本，pre-validated AMD BSP不证明cRX1或自研Kria载板已支持**。需要取得目标版本/驱动清单、定制源码支持范围和SLA。@@AMD07_WindRiver_Linux@@。
+
+## 6. 从刷机产测到 OTA、PCN 和现场恢复
+
+以下是基于上述证据推导的交付流程，不宣称AMD已提供一套现成机器人fleet管理系统。
+
+| 阶段 | 应冻结/检验的对象 | 责任与放行证据 |
+|---|---|---|
+| BSP适配 | 模块/载板/BOM、XSA/DT、BIOS、驱动、OS/kernel | 模块/载板/OSV共同签兼容矩阵 |
+| 制造刷机 | image及hash、工厂序列号、校准、设备身份 | 工厂记录、防重复密钥与可追溯批次 |
+| 产测 | 电源、内存、接口环回、相机timestamp、保护链 | 工装脚本版本、合格上下限、结果分母 |
+| 现场升级 | boot/PL/DT/rootfs/runtime/model联合manifest | 原子组合、签名、兼容检查、灰度与健康确认 |
+| 回退恢复 | 断电、存储写坏、模型失败、密钥撤销 | 重启次数、已知良好slot、现场恢复手段 |
+| 生命周期 | PCN/EOL、末单、备件、OS/驱动停止维护 | 每个物料与服务自己的期限及通知义务 |
+
+EDF指南列OSTree、RAUC、Mender、swupdate的Yocto layer作为whole-rootfs更新选择，并明确安全boot/认证需硬件代际配置，OP-TEE/meta-secure-core集成可能有限。因此OTA工作不仅是换rootfs：更新PL可改变buffer布局、DT和DMA；换模型可能改变量化/动作空间；只回退应用而保留不兼容boot/PL不会恢复正确系统。应将验证过的组合视为更新单位，认证签名与抗回退策略配套设计。密钥撤销后的旧镜像能否启动须显式测试，不能为了“可回退”允许任意旧漏洞版本启动。
+
+工厂身份、校准数据和运行数据与可更新镜像应有明确保留/擦除语义。掉电控制和watchdog提供硬件工具，升级是否原子、触发reset后电机是否被独立停机仍是系统集成问题。本文尚未取得目标产品完整刷机工具、boot-slot协议和失败恢复实测，不能写成已经交付的A/B OTA功能。
+
+AMD渠道页要求当前价格和可供货性咨询当地分销商，名单可随时变化、按季度更新，并另给Adaptive SoC/FPGA渠道入口。该页不能当实时库存、地区交期或Kria全部渠道证明。保修页按PIB、tray/OEM、第三方显卡及Adaptive Computing分别导流，故第三方模块/整机不能套用零售处理器保修规则。@@AMD07_Distributors@@、@@AMD07_Warranty@@。采购应分别询价芯片/模块/载板/散热、NRE、OS维护、模型许可、集成及现场服务，并明确RMA入口、备件替换、中文支持和地区升级响应；本研究没有取得这些合同，不编造期限或收费。
+
+## 7. 生态成熟度判断与剩余验证
+
+AMD已形成从GPU模型环境、x86模块、Adaptive SoC传感器前端到仿真/HIL及商业OS路线的生态。证据最强的是公开源码/开发文档、特定演示和具体模块资料；最需要补的是目标组合的release、正式供货、生产维护与本体长期运营数据。OpenNav文章比较的是代表仓库自主应用计算负载，不能把基准中的仓库面积转为某客户在岗部署。@@OpenNav_Robotics_Benchmark@@。
+
+条件选型的动作是先确认伙伴承包边界，再验证目标组合。研究/原型可从Ryzers与参考BSP快速进入；要固定工业视觉路径可询价SXVPU类系统并审查第三方器件；长期自研Kria/Versal产品需预算OSV或自维护团队；X100模块需取得正式状态和完整驱动矩阵。伙伴提供的接口、维护和现场服务若没有随合同明确，开源资源再丰富也不能替代生产支持义务。

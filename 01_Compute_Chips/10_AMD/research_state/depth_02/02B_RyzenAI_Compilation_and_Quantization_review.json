@@ -1,0 +1,245 @@
+[
+  {
+    "source_id": "AMD_RyzenAI_Docs",
+    "claim": "软件1.9与平台分层",
+    "location": "首页",
+    "needle": "1.9",
+    "conditions": "采集2026-11-04",
+    "finding": "首页版本不替代ops/OS支持条件",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_RyzenAI_Compile",
+    "claim": "ONNX入口与opset建议",
+    "location": "Introduction",
+    "needle": "opset 17",
+    "conditions": "RyzenAI latest",
+    "finding": "格式支持不表示全部算子覆盖",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_Quark_Schemes",
+    "claim": "scale粒度及轴",
+    "location": "Quantization Schemes",
+    "needle": "length Di",
+    "conditions": "通用Quark",
+    "finding": "逐通道参数长度匹配axis，不推广每个backend",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_Quark_XINT8",
+    "claim": "XINT8对称和二次幂scale",
+    "location": "Introduction",
+    "needle": "power-of-two scales",
+    "conditions": "input/weight/bias",
+    "finding": "内部累加位宽未知",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_Quark_A16W8",
+    "claim": "A16W8数值规格",
+    "location": "Introduction",
+    "needle": "symmetric INT16",
+    "conditions": "输入16权重8/bias32 float scale",
+    "finding": "总内存不简单翻倍",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_Quark_A16W8",
+    "claim": "A8W8与A16性能精度权衡",
+    "location": "Introduction",
+    "needle": "A8W8 provides better performance",
+    "conditions": "未给本任务测试",
+    "finding": "不量化跨任务收益",
+    "evidence_type": "厂商宣称"
+  },
+  {
+    "source_id": "AMD_Quark_XINT8",
+    "claim": "校准reader为占位",
+    "location": "Example",
+    "needle": "Implement the actual data preprocessing here",
+    "conditions": "输入映射与预处理需补",
+    "finding": "不是可运行成品",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_Quark_XINT8",
+    "claim": "数值距离非任务成功",
+    "location": "Measure accuracy",
+    "needle": "cosine similarity, L2 loss, PSNR",
+    "conditions": "单输入输出示例",
+    "finding": "任务评估需另测",
+    "evidence_type": "分析"
+  },
+  {
+    "source_id": "AMD_Quark_SmoothQuant",
+    "claim": "SQ迁移激活困难",
+    "location": "Arguments",
+    "needle": "migrate from input_tensors to weights",
+    "conditions": "alpha0.5 MatMul/Gemm",
+    "finding": "代码SmoothQuantConfig，文字误写QuaRot",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_Quark_Search",
+    "claim": "AutoSearch组件链",
+    "location": "Overview",
+    "needle": "Stop Condition",
+    "conditions": "候选配置不等NPU部署",
+    "finding": "需task evaluator",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_Quark_Search",
+    "claim": "内置evaluator为输出距离",
+    "location": "Evaluator",
+    "needle": "L1 or L2 norm",
+    "conditions": "默认evaluator",
+    "finding": "不等mAP/任务成功",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_Quark_Search",
+    "claim": "两阶段停止/并行限制",
+    "location": "Two-Stage Search",
+    "needle": "stop conditions for the search process will be disabled",
+    "conditions": "双空间/include_fast_ft",
+    "finding": "time_limit不通用",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_Quark_Search",
+    "claim": "联合参数限制",
+    "location": "Joint-parameter",
+    "needle": "not applicable to the advanced_fastft_search",
+    "conditions": "NumIterLR",
+    "finding": "不同search mode分开",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_Quark_Search",
+    "claim": "cache至少两套输出",
+    "location": "FAQ",
+    "needle": "two full inference outputs",
+    "conditions": "cache空目录",
+    "finding": "磁盘成本需预算",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_RyzenAI_Ops",
+    "claim": "支持表非全面覆盖",
+    "location": "Supported Operators",
+    "needle": "Ryzen AI 1.8.0",
+    "conditions": "Y broad coverage",
+    "finding": "shape/config仍可能unsupported",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_RyzenAI_Compile",
+    "claim": "INT8优化参数",
+    "location": "Options",
+    "needle": "65536",
+    "conditions": "INT8实验值",
+    "finding": "不能套BF16 optimize_level",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_RyzenAI_Compile",
+    "claim": "BF16编译pass和布局",
+    "location": "Config",
+    "needle": "vaiml_partition",
+    "conditions": "init target VAIML",
+    "finding": "CNN/Transformer布局需实测",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_RyzenAI_Compile",
+    "claim": "设备选择xclbin",
+    "location": "Device-Specific",
+    "needle": "xclbin provider option must not be set",
+    "conditions": "STX/KRK",
+    "finding": "PHX/HPT需X1 4x4",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_RyzenAI_Compile",
+    "claim": "缓存跨版本不允许复用",
+    "location": "Cache",
+    "needle": "should not be reused across different versions",
+    "conditions": "EP/NPUdriver",
+    "finding": "升级需要失效和重建",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_RyzenAI_Compile",
+    "claim": "context与加密",
+    "location": "EP Context",
+    "needle": "AES256",
+    "conditions": "同密钥/选项拼写冲突",
+    "finding": "不推出硬件key isolation",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_RyzenAI_Analyzer",
+    "claim": "Analyzer精度限制",
+    "location": "Installation",
+    "needle": "BF16 Models only",
+    "conditions": "当前版本",
+    "finding": "不能用于全部INT8",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_RyzenAI_Analyzer",
+    "claim": "周期到时间转换",
+    "location": "Performance",
+    "needle": "clock frequency",
+    "conditions": "可编辑显示频率",
+    "finding": "不是修改运行时钟或墙钟",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_RyzenAI_Linux",
+    "claim": "嵌入Linux起点",
+    "location": "Introduction",
+    "needle": "Embedded P100",
+    "conditions": "consumer Strix起",
+    "finding": "不推广旧SKU",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_RyzenAI_Linux",
+    "claim": "Linux NPU-only",
+    "location": "Note",
+    "needle": "Linux currently supports NPU only flow",
+    "conditions": "RyzenAI1.9",
+    "finding": "总图不推hybrid",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_Quark_License",
+    "claim": "MIT适用范围",
+    "location": "Note",
+    "needle": "primarily contains documentation",
+    "conditions": "Quark repository",
+    "finding": "不能推出所有wheel MIT",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_RyzenAI_Licenses",
+    "claim": "预生产许可限制",
+    "location": "EULA Section5",
+    "needle": "only for Licensee’s evaluation purposes",
+    "conditions": "preproduction",
+    "finding": "2.1不是版本；分发条款例外",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "Compare_TRT_Quant",
+    "claim": "量化机制对标",
+    "location": "Explicit Quantization",
+    "needle": "QuantizeLinear",
+    "conditions": "NVIDIA快照",
+    "finding": "不比较同任务性能",
+    "evidence_type": "分析"
+  }
+]

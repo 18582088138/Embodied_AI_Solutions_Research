@@ -1,0 +1,33 @@
+{
+  "time_utc": "2026-11-04T06:21:49.197194+00:00",
+  "summary": {
+    "complete_static": 2,
+    "partial_static": 17,
+    "failed": 0
+  },
+  "names": [
+    "AMD_HIP_Graphs",
+    "AMD_Acceleration_Libs",
+    "AMD_MIGraphX_Repo",
+    "AMD_vLLM_Optimization",
+    "AMD_HIP_Model",
+    "AMD_HIP_Tuning",
+    "AMD_HIP_Coherence",
+    "AMD_HIP_Memory",
+    "AMD_ROCm_GraphSafe",
+    "AMD_HIP_Allocator",
+    "AMD_MIGraphX_Parse",
+    "AMD_MIGraphX_Python",
+    "AMD_MIGraphX",
+    "AMD_MIGraphX_Tune",
+    "AMD_ROCm_Isolation",
+    "Compare_CUDA_Graphs",
+    "Compare_TRT_Builder",
+    "AMD_ROCm_Compatibility",
+    "AMD_ROCm_Licenses"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

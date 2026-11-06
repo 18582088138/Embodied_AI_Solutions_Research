@@ -1,0 +1,6 @@
+[
+ {"name":"AMD08_MI350_Architecture","url":"https://rocm.docs.amd.com/en/latest/reference/gpu-arch/mi350.html","expected":"html","used_by":["08A_GPU_Memory_and_Execution"]},
+ {"name":"AMD08_CDNA4_Whitepaper","url":"https://www.amd.com/content/dam/amd/en/documents/instinct-tech-docs/white-papers/amd-cdna-4-architecture-whitepaper.pdf","expected":"pdf","used_by":["08A_GPU_Memory_and_Execution"]},
+ {"name":"AMD08_CK","url":"https://rocm.docs.amd.com/projects/composable_kernel/en/latest","expected":"html","used_by":["08A_GPU_Memory_and_Execution"]},
+ {"name":"AMD08_HipBLASLt","url":"https://rocm.docs.amd.com/projects/hipBLASLt/en/latest","expected":"html","used_by":["08A_GPU_Memory_and_Execution"]}
+]

@@ -1,0 +1,32 @@
+{
+  "time_utc": "2026-11-04T14:56:44.144558+00:00",
+  "summary": {
+    "complete_static": 12,
+    "partial_static": 6,
+    "failed": 0
+  },
+  "names": [
+    "AMD08_CDNA4_Whitepaper",
+    "AMD08_MI350_Architecture",
+    "AMD08_CK_LDS",
+    "AMD_HIP_Graphs",
+    "AMD_HIP_Memory",
+    "AMD08_IRON_Latest_Home",
+    "AMD08_IRON_Repo",
+    "AMD08_IRON_Dataflow",
+    "AMD08_IRON_DMA",
+    "AMD08_IRON_Compile",
+    "AMD_VitisAI_Gen2_Reference",
+    "AMD_VitisAI_Gen2_Output",
+    "AMD_VAI_Custom_Ops",
+    "AMD_VitisAI_Gen2_Architecture",
+    "AMD_EDF_Domains",
+    "AMD_TSN_HW",
+    "AMD_Versal_Gen2_Industrial",
+    "AMD_EDF_Production"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

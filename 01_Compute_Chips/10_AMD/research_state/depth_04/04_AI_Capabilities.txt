@@ -1,0 +1,192 @@
+# 04｜AMD AI 能力、模型地图与部署边界
+
+数据截止：2026-11-04。本章继承 01—03 的 SKU、软件版本和传感器契约，重点调查“模型怎样变成可执行动作”。性能为官方公开测量或厂商演示，本文未安装模型或进行实机验证。模型作者的通用机制、AMD 适配和真实机器人结果分别标注；Hugging Face 上有权重不等于 AMD 全栈认证。
+
+## 1. 结论与证据层级
+
+AMD 已有一条较具体的操作学习链：2025-07 的 ROCm/LeRobot 教程在 MI200 上微调约 3B 的 π0，在 Phoenix AI PC 的集成 GPU 上驱动 Koch 机械臂。2026-09 的 MolmoAct2 教程进一步把语言、视觉、动作专家和仿真评估打包进 Ryzen AI Max+ 395 的 Ryzers 容器；但该文明确指出演示目前都运行在仿真中，DROID 部分属于真实记录数据的开环回放。2026-10 的 Micro-World 2 则提供可核对的模型构造、数据、四步蒸馏及 MI350X 性能表。这三条路径分别证明真实实验教程、端侧仿真部署和世界模型训练推理，成熟度不能互换。@@AMD04_LeRobot_Blog@@ @@AMD04_MolmoAct_Blog@@ @@AMD04_MicroWorld2@@
+
+把 AMD 看作一个覆盖 CPU、GPU、NPU、可编程逻辑和数据中心训练的计算组合，更符合现有证据。它没有在这些材料中给出“一份基础模型在所有端侧 SKU、所有本体、所有运行时上自动通用”的交付承诺。Ryzen AI 1.9 的 NPU 模型、Phoenix 的 ROCm iGPU π0 和 Versal Gen2 的 Vitis AI 模型是不同制品链；它们需要不同的量化、编译和目标系统验证。模型支持、实时性与安全控制必须逐层签收。@@AMD_RyzenAI_Hybrid@@ @@AMD_VitisAI_Gen2_Compile@@
+
+| 证据标签 | 含义 | 本章例子 | 不可据此推出 |
+|---|---|---|---|
+| 平台提供 | AMD 自有制品/模型/运行栈 | Micro-World 2、Ryzen AI NPU 模型卡 | 所有 AMD GPU/NPU 都适用 |
+| 官方适配示例 | AMD 给目标硬件与运行方法 | π0/Phoenix、MolmoAct2/Max+ 395 | 量产认证、成功率、P99 已验证 |
+| 作者实现 | 模型作者给代码、权重和机制 | OpenVLA、openpi、ACT、Diffusion Policy | 作者 benchmark 在 AMD 上复现 |
+| 框架潜在路径 | 有 PyTorch/ONNX 接口可迁移 | 特定视觉、RL、导航/全身策略 | 所有算子、布局、精度已优化 |
+| 未取得证据 | 本章缺目标模型/本体测量 | 多数全身运动基础模型端侧部署 | 官方不存在该能力 |
+
+## 2. 任务地图：语言、感知、操作与控制不是同一个问题
+
+| 任务层 | 输入→输出 | 代表模型/方法 | AMD 证据与适用边界 |
+|---|---|---|---|
+| 语言理解与任务拆解 | 指令/地图摘要→子任务或工具调用 | Qwen3、Llama、GPT-OSS | Ryzen AI 1.9 制品及 OGA 路线；文本正确率不是任务完成率 |
+| 多模态理解 | 图像/视频/语言→描述、定位语义 | Qwen3-VL-4B、VideoChat-Flash | AMD NPU 优化模型卡/官方 VLM 示例；还需外部几何和执行器 |
+| 2D 感知 | RGB→分类/框/分割 | 检测、分割、姿态模型 | Vitis AI/ONNX 编译路径，具体型号须目标支持表与算子验证 |
+| 3D/深度/定位 | 双目/点云/IMU→深度、位姿、地图 | Stereo、重建、SLAM；DINOv2 等可作视觉特征 | KRS 感知前处理有证据；通用 3D 模型全网络部署未核 |
+| 操作 VLA | 相机/语言/本体状态→动作 | π0、π0.5、OpenVLA、MolmoAct2 | π0、MolmoAct2 有 AMD 示例；其余为作者实现/待移植 |
+| 模仿策略 | 观测历史→动作序列 | ACT、Diffusion Policy、SmolVLA | 作者实现与 LeRobot 生态；逐模型 AMD 实测尚不完整 |
+| 世界模型 | 首帧/动作/上下文→未来视频 | Micro-World 2、上游 Wan2.2 | MI350X 官方训练/推理；不能替代接触动力学 |
+| 强化学习/运动/导航 | 状态、目标→速度/关节策略 | MuJoCo 环境中的策略、传统导航栈 | CPU 仿真及 PyTorch 路径可评估；目标全身闭环证据未取得 |
+| 编排与几何控制 | 子任务/目标位姿→轨迹/电机命令 | Agent、状态机、MPC、IK、轨迹优化 | CPU/ROS/本体控制器整合；MPC、IK不是基础模型 |
+
+语言层适合处理低频任务选择与异常解释，感知层需要经过标定的几何与时间戳，操作层需要有明确单位的动作表示，下层控制器需要连续可执行命令和失效处理。这一拆分决定模型如何部署：可把 VLM 放 NPU、策略放 GPU、控制放独立 CPU/RPU，但这是建议的系统分工，不是现成 AMD 机器人产品契约。需要验证共享内存、功率、线程与驱动争用是否改变观测年龄和尾延迟。03 的多相机链不能仅因 04 某模型“能推理”就被视为联合验收通过。
+
+## 3. 语言与多模态：Ryzen AI 1.9 制品需要按卡核对
+
+### 3.1 精确模型、制品与许可
+
+Ryzen AI 1.9 官方集合列出 Qwen3、Llama、Phi、GPT-OSS 及 VLM 制品。这里选择实际取得完整正文的卡做深入调查，失败 URL 不作为来源。部分旧链接名称与集合实际条目不同，已通过集合真实链接重新定位。采集时点反映网页快照，不代表所有模型在 1.9 发布时即同时可用。@@AMD04_Ryzen_Collection@@
+
+| 模型/制品精确名 | 参数与模态 | 格式/机制 | 已核许可信息 | 支持性质 |
+|---|---|---|---|---|
+| Qwen3-VL-4B-Instruct_rai_1.9.0_npu | 名称标称 4B；图像+语言 | ONNX；Quark→OGA builder→NPU 后处理 | 卡头 apache-2.0；AMD 修改部分列 MIT，不覆盖上游全部责任 | AMD 优化制品 |
+| gpt-oss-20b_rai_1.9.0_npu | 名称标称 20B；语言/MoE | 以实际 AMD 卡与 1.9 配置为准 | 卡/上游分别核对，名称不证明所有权重同一精度 | AMD 制品；无机器人成功率 |
+| VideoChat-Flash-Qwen2_5-7B_InternVideo2-1B_rai_1.9.0_npu | 7B 语言骨干+1B 视觉名称；视频/语言 | AMD NPU 制品，需完整视觉/语言子图 | 上游组合组件许可不可只看 AMD 修改许可 | AMD VLM 适配 |
+| Llama/Qwen/Phi 集合其他制品 | 参数按各卡，不由集合统一推定 | NPU/hybrid 是不同输出链 | 本章没有逐一卡核完全部集合 | 集合入口，非全部性能认证 |
+
+Qwen3-VL 卡明确量化方案为 **AWQ / Group 128 / Asymmetric / BFP16 activations / UINT4 weights**；应保留原文的 BFP16 拼写，不能直接替换为自己假设的 BF16。卡还明确说 benchmark scores 尚未提供。因此可以确认制品构建流程与量化描述，不能填入未经给出的吞吐、图像分辨率上限、P99 或功率。4B×4 bit≈2 GB 仅是理想权重载荷的分析量级，未计 scale/zero point、未量化层、视觉模块、KV cache、runtime workspace 与临时张量，不能当实际所需 RAM。@@AMD04_QwenVL_Card@@
+
+GPT-OSS20B 不能简单以“20B×4bit”决定内存。MoE 的每 token 激活参数与驻留总参数不同，权重位宽与 KV cache 位宽也不同；模型名不说明所有矩阵都被压成同一种格式。具体供货 PC 的可用 NPU buffer、CPU 内存和图形内存预留需要测量。VideoChat 则多了视频采样、视觉编码和 token 汇聚，输入视频的文件帧率不等于 runtime 每秒分析帧数。要记录抽帧规则、上下文长度和视觉 token 数，才能比较一次视频问答的延迟。@@AMD04_GPTOSS_Verified@@ @@AMD04_Videochat_Verified@@
+
+### 3.2 NPU-only 与 hybrid 不能按同一设备支持表合并
+
+1.9 文档把 prefill/decode 及 NPU-only/hybrid 路线分开；Strix/Krackan Point 的 OGA 支持不能套到 Phoenix/Hawk Point，更不能把消费 PC 表直接移给 X199 嵌入式 BSP。文档一处更新为 OGA 0.18.0，Compatible API 段仍出现 0.14.0，属于公开版本描述冲突；复建应锁实际随包的 wheel、配置和 ABI，而不以网页“latest”一词解决矛盾。1.9 NPU 模型也不兼容此前 NPU 模型制品。@@AMD_RyzenAI_Hybrid@@ @@AMD04_VLM_Readme@@
+
+部署流程应保存源模型 revision、tokenizer/processor、Quark 配置、校准样本、ONNX 与 external data、OGA config、NPU 后处理产物及目标软件包版本。VLM 的图像处理器是语义的一部分：resize/crop/归一化或 tokenizer 变更可能在模型能正常加载时仍造成语义错误。Server API 只建立服务接口，不能保证 tool call 可执行或任意输出是合法轨迹。建议输出有限任务类型、参数约束与状态机，再由受控动作库执行；同时记录模型拒绝、工具失败和等待人类介入的情况。@@AMD_RyzenAI_OGA_Prepare@@ @@AMD_RyzenAI_Server@@
+
+## 4. π0 专题：从示范到真实 Koch 执行
+
+### 4.1 模型机制与三个版本的边界
+
+AMD 2025-07-14 教程使用约 3B 的 π0，说明其基于 PaliGemma 视觉语言骨干并结合机器人动作生成。模型作者 openpi 当前 README 则区分 π0 的 flow-based VLA、π0-FAST 的离散自回归动作及 π0.5 的改进版本，并提供 PyTorch 与原 JAX 实现。作者后续版本和 README 主分支不能作为 AMD 2025 教程当时已运行 π0.5 的证据。作者的“10k+ 小时预训练”描述也不等于 AMD 本次微调采集量。@@AMD04_LeRobot_Blog@@ @@Model04_NVIDIA_04_EXP_OPENPI_README@@
+
+流匹配动作专家的计算方式与语言逐 token 解码不同：它在观测和指令条件下迭代更新连续动作序列，再把序列交给机器人执行层。动作 chunk 的好处是减少每个动作都重新请求完整策略的开销，代价是执行到后部时观测已经变旧。遇到物体移动、抓取失败或接触变化，执行层必须决定提前终止、重新观察或重规划，不能只循环消费缓存动作。π0-FAST 以离散 token 压缩动作序列，其吞吐特性也不能直接套给 flow head。AMD 教程没有披露本次 chunk 长度、动作下采样、执行策略及完整 denoising 时延，本文不补数字。
+
+### 4.2 数据、训练、目标部署与真实证据
+
+![AMD官方Koch装置照片](@@FIG:koch@@)
+
+图源：@@AMD04_LeRobot_Blog@@ Figure 1。原照片实际打开，包含两只 Koch 机械臂、两只外部相机和桌面 PC；该图证明装置组成，不证明标定精度、双臂协同动作或整机散热。leader/follower 是示范采集关系，不能按“两只机械臂”自动解释为两只执行臂同时双臂作业。
+
+| 阶段 | 官方具体操作 | 可核结果 | 留出的边界 |
+|---|---|---|---|
+| 观测/示范 | 双 Logitech 相机；Koch leader/follower | RGB 与关节示范输入路线明确 | 曝光同步、内外参、观测年龄未给 |
+| 数据记录 | 50 episode；每段约20 s；640×480；15 fps；reset 5 s | 少量示范适配“绿色方块放杯中”任务 | 15 fps 是记录设置，非伺服频率 |
+| 微调 | MI200、ROCm、LeRobot、lerobot/pi0 | 作者给训练命令与目标策略 | 未绑定当时 git commit、训练时长/功率 |
+| 部署 | Phoenix AI PC iGPU | AMD称真实机器人实时推理 | 未披露精确 PC/SKU/RAM、完整 policy latency |
+| 验证 | 拾取方块并放杯中展示 | 有真实实验路径与任务描述 | 无尝试分母、留出成功率、人工介入率 |
+
+命令里的 `--policy.device=cuda` 是 PyTorch 在 ROCm 中沿用的设备 API 名称，不能据此认为教程实际用了 NVIDIA GPU。微调训练的 MI200 和部署的 Phoenix 也不能共用显存、功耗与 kernel 性能。数据示例的 50×20 s≈1000 s 为分析计算，只有约 16.7 分钟采集时长；它不能证明陌生杯子、遮挡、不同光照或长时间稳定运行。预训练提供先验，示范适配提供局部任务分布，真正泛化仍要在按对象、位置、光照与采集日期分离的留出集上测试。@@AMD04_LeRobot_Blog@@
+
+一条可以复建的实验还需要把机械臂的校准文件、关节名/顺序/单位、相机设备 ID、策略归一化统计、数据 repo revision、checkpoint hash 与运行配置一起保存。若重新校准后同一个编码器数值代表不同姿态，模型表现变化不能直接归因计算硬件。执行日志应同时包含观测时间、策略开始/结束、动作请求、实际关节响应和停止原因。教程建立起点，但没有替工程团队完成这些系统验收。
+
+## 5. MolmoAct2 专题：端侧 VLA、动作空间与异步执行
+
+### 5.1 模型身份与依赖
+
+AMD 2026-09-30 博文以 SigLip2 视觉编码器、Qwen3-4B 语言骨干和 flow-matching 动作专家解释 MolmoAct2。官方作者集合列出 MolmoAct2、MolmoAct2-Think、MolmoAct2-Pretrain 和 Molmo2-ER；AMD 博文的“MolmoAct2-ER”用词与作者独立的 Molmo2-ER 名称应分别记录，不能自行认定两个 checkpoint 相同。作者卡实际标称约 5B 的整模型，与 4B 语言骨干参数不是矛盾。部署 revision 应按容器实际下载的权重和配置锁定。@@AMD04_MolmoAct_Blog@@ @@AMD04_Molmo2_Collection@@ @@AMD04_Molmo2_Card@@
+
+作者卡进一步说明，VLM与连续动作专家通过每层KV conditioning连接；基础MolmoAct2是post-trained多本体checkpoint，含norm_stats.json，面向目标本体继续微调，并非某一个部署场景可直接运行的策略。卡指向LIBERO、DROID、BimanualYAM、SO100_101微调版本，部署时须确认Ryzers真正选择了哪一个。视觉语义token的KV被动作专家使用，这也解释为什么可先缓存视觉/语言上下文，但新的相机观测或指令变化时必须更新上下文，不能为省计算重复使用失效cache。@@AMD04_Molmo2_Card@@
+
+作者发布权重、代码与数据的开放声明需分层阅读：基础HF卡本次可见正文没有给出明确统一的许可证条款；需要追作者仓库和具体微调权重制品，不能用“open”补齐许可。Ryzers仓库许可不代替上游模型与MuJoCo/LIBERO资产许可。本次核对模型卡及Ryzers LICENSE，未把其解释成对任意商用场景、传感器数据或机器人SDK的统一授权。container包装可以降低装环境时间，却不消除CUDA扩展、attention backend、ROCm wheel、目标gfx架构和具体内存容量的兼容责任。@@AMD04_Ryzers_Repo@@ @@AMD04_Ryzers_License@@
+
+实际Dockerfile将上游MolmoAct2绑定commit cdf4b7728e0545366bf3366639fd86477ef59d04，LeRobot使用molmoact2-hf-inference分支；注释记录torch2.12.0+rocm7.14.0的Ryzer基底，并避免安装上游cu121 torch依赖。LIBERO独立venv通过site路径复用基础ROCm torch，构建guard检查torch.version.hip；同时放宽上游torch/torchvision范围。这是具体移植机制，不能把当前主分支配置追溯成2025π0环境；branch、base image和其他范围依赖仍须锁定digest。@@AMD04_Ryzers_Molmo_Docker@@
+
+### 5.2 末端动作为何能跨本体，也为何仍需适配
+
+末端坐标加夹爪状态将“手应该去哪”与“哪个关节怎样运动”拆开。策略输出的手部位姿/增量进入 IK 或本体 controller，由后者计算关节动作，这能减少策略对具体关节数和关节编号的依赖。AMD 展示 Panda→UR5e/Robotiq85→xArm6 的零微调跨本体仿真。该结果成立于对应仿真模型、末端坐标定义与可达性范围；换成真实本体，仍要对齐基座/工具 frame、旋转表示、长度单位、夹爪幅值及速度/加速度约束。训练中的 Panda、YAM、SO101 名称不等于 AMD 对这些实体所有 SDK 都做过产品适配。@@AMD04_MolmoAct_Blog@@
+
+关节模式则依赖关节顺序、limit、连续旋转定义、encoder offset 与动作单位；不能把末端模式展示的迁移性质套给 joint 输出。IK 得到一个数学解也未必存在无碰撞轨迹，真实执行前还要检验关节速度、奇异点、工具/环境碰撞和轨迹连续性。策略语言输出、几何可达、控制可执行与真实抓取成功应分别统计。
+
+### 5.3 异步 chunk、暂停语义与评估分母
+
+Ryzers 示例给 `THINK=0 NUM_STEPS=4` 的快速交互默认值，`THINK=1` 启用深度推理；`EMBODIMENT` 选择 Panda/UR5e/xArm6，`SUITE`、`TASK_ID`、`SEED` 支持重现。四个动作去噪步骤是模型采样条件，不能解释为每个动作都四个物理 tick。实时 server 让 MuJoCo 按墙钟运行，后台计算下一 chunk；等待时机器人保持当前姿态。实际README确认download脚本预加载MolmoAct2-DROID、DROID-Dataset与MolmoAct2-Think-LIBERO，修正仅由基础集合推断执行checkpoint的风险。这个实现说明模型计算可能形成等待段，并未证明始终无停顿运动。文中 RT_MAX_STEPS 默认 1200 是 episode 步数限制，不是 1200 Hz。@@AMD04_MolmoAct_Blog@@ @@AMD04_Ryzers_Molmo_Readme@@
+
+| 评估路径 | 系统真实做什么 | 适合验证 | 无法证明 |
+|---|---|---|---|
+| 交互仿真 | 浏览器输入指令、MuJoCo 执行 | 指令/图像/动作链联通 | 实物传感器与电机响应 |
+| 跨本体仿真 | 同策略换机器人动力学/控制映射 | 指定末端动作映射 | 任意机械臂零适配 |
+| 实时仿真 | 墙钟运行、后台策略、hold pose | 推理与执行调度行为 | 硬实时、安全停止 |
+| LIBERO闭环 | rollout 中新观测影响下一动作 | 指定 suite/task 的仿真任务 | 真实部署成功率 |
+| DROID开环 | 记录观测输入、比较预测与人工动作 | 分布差异、动作误差 | 模型实际执行后是否成功 |
+
+DROID 记录来自真实环境，但开环误差没有包含“预测动作改变环境后下一帧”的反馈；模型短时接近人工动作仍可能在接触处累积失败。LIBERO 四 suite 各 task0—9 的脚本覆盖不能替代完整种子、尝试次数和成功率表。本次没有取得该 Max+395 配置的完整端到端延迟、稳态温度、精度/量化、P99 与各任务成功率，均保留为待测。尤其不能由“大统一内存能容纳”推出模型并发后还满足控制 deadline。
+
+## 6. 主流策略对照：作者能力与 AMD 部署分开
+
+| 模型 | 精确版本/参数口径 | 机制、模态与动作 | 官方入口及 AMD 状态 |
+|---|---|---|---|
+| OpenVLA | openvla/openvla-7b；7B标称 | DINOv2+SigLIP、Llama2；离散动作，示例7DoF；unnorm_key对应数据域 | 作者README/HF链接；本章无AMD实测 |
+| π0/π0-FAST/π0.5 | openpi定义的不同模型家族 | 连续flow与离散自回归分别实现；图像/指令/本体状态 | 作者代码；AMD教程只证明所用π0 |
+| ACT | 原ACT仓库示例；非统一固定参数量 | 图像/关节→动作chunk；示例chunk_size100与temporal aggregation | 作者仿真/ALOHA路线；AMD目标复现未核 |
+| Diffusion Policy | diffusion_policy仓库配置决定规模 | 历史观测条件去噪动作序列；normalizer随checkpoint保存 | 作者MIT仓库；不等于AMD二进制优化 |
+| SmolVLA | 作者论文2506.01844及LeRobot入口 | 轻量VLA/动作专家路线 | 本次导入卡只含论文/引文，未以它补参数或AMD性能 |
+
+OpenVLA 示例明确使用 7DoF、`unnorm_key="bridge_orig"`，这告诉我们动作必须按训练数据域反归一化。错误使用另一个本体的统计量可能生成形状正确但幅值错误的动作。README 还描述原始 256-bin 离散化，并指向 FAST 与 OFT 新方法；其“25—50倍”是作者对特定 OFT 对照的宣称，本章不引用为 AMD 性能。`flash_attention_2` 和 bitsandbytes/PEFT 等依赖须分别检查 ROCm 目标构建，不能以 `to("cuda:0")` 成功为整条算法已经优化的证据。@@Model04_NVIDIA_04_EXP_OPENVLA_README@@
+
+ACT 作者示例使用 chunk_size100、hidden_dim512、batch8 等参数并提供 temporal aggregation；100 是例子，不是每种 ACT 策略固定 horizon。重复预测同一未来时间的动作进行融合能缓解突变，但也可能滞后，必须与执行采样周期一起分析。该仓库的 transfer cube/insertion 约90%/50% 是作者指定仿真训练示例口径，不移给 AMD 平台。Diffusion Policy 进一步显式区分 `To` 观测长度、`Ta` 动作长度和 `Da` 动作维度，normalizer 保存于策略 checkpoint；部署端要保持维度、归一化与时间顺序。模型变小只能降低部分计算，不自动解决接触误差和动作安全。@@Model04_NVIDIA_04_EXP_ACT_README@@ @@Model04_NVIDIA_04_EXP_DIFFUSION_README@@ @@Model04_NVIDIA_04_EXP_LEROBOT_README@@
+
+## 7. 世界模型专题：Micro-World 2 的五阶段训练与性能
+
+### 7.1 从 Wan2.2 到动作条件因果视频
+
+Micro-World 2 以 **Wan2.2 TI2V-5B** 为基底，不是 Micro-World 1 的 Wan2.1 1.3B/14B。卡说明 AMD 仓库不包含 Wan 基础权重，还需要单独取得 base transformer、VAE 与 text encoder。加载次序是 base→causal forcing initialization→causal LoRA→action module→DMD LoRA；可选 light VAE 单独替换解码器。HF 自动生成的通用 Diffusers 示例不等于完整动作控制流，应使用项目实际训练/推理代码。@@AMD04_MicroWorld_Card@@ @@AMD04_MicroWorld_Code@@
+
+![AMD官方五阶段训练流程](@@FIG:worldtrain@@)
+
+图源：@@AMD04_MicroWorld2@@ Figure 3，已实际打开核对 TRAIN/FROZEN 和教师/学生分支。第一阶段把双向 attention 改为因果 attention，训练自回归扩散基底；第二阶段冻结基底，在 MIXKIT 视频上训练视觉 LoRA；第三阶段冻结既有模型，训练 AdaLN 动作注入模块；第四阶段单独适配多步 teacher 的分辨率和动作控制；第五阶段冻结学生基底与动作模块，用 teacher 做 DMD 四步蒸馏。图支持训练模块分工，不证明机器人物理模型已经学到稳定接触。
+
+因果 attention 让新 chunk 使用历史视觉上下文，LoRA 用较少可训练权重调整质量，AdaLN 把动作条件送入 transformer 的调制路径；DMD 把多步生成压缩成四步以降低延迟。各模块解决不同问题：action可控不能由单纯质量微调得到，因果结构也不能保证一分钟不漂移。本文将其定位为动作条件的交互视频预测/生成资源，适合研究观测预测和数据工具；若用于机器人规划，必须另证动作坐标、动态响应、接触力、可达性和预测不确定性。
+
+![AMD官方逐帧数据制作流程](@@FIG:worlddata@@)
+
+图源：@@AMD04_MicroWorld2@@ Figure 2。场景准备→逐帧脚本动作→固定FPS渲染/日志→质量筛选，输出视频、键鼠动作、相机运动和逐帧metadata。博文描述440条轨迹、200或400帧，并记录pose与delta；这一精确对齐比只有视频字幕更适合动作控制训练。不过这些是渲染导航与键鼠控制，不能作为真实抓取触觉、力矩或实体惯性的训练证据。厂商称八张MI350X约四天完成各训练阶段，未给训练能耗、费用、每阶段样本吞吐或独立复现实验。@@AMD04_MicroWorld_Data@@
+
+**数据卡当前main与博文不同**：卡列200f组440条、400f组374条，总814条约141GB；每条有标准视频、4K视频和同basename的JSON。Viewer约1.63k行涉及两个分辨率资源，不能当独立轨迹数。标准视频写360×640，也不能与模型352×640输入混用。卡头OpenRAIL与模型卡一致，场景素材仍要追源。本文归档卡与部分预览，没有下载141GB训练库；脚本曾因页面预览进入大文件下载，随后限额归档，未取得依赖见metadata。复现实验须按训练清单/revision确定所用440条子集，不能替换成当前814条。@@AMD04_MicroWorld_Data@@
+
+源码将优化分成A—G：A—E标bit-exact，F的AITER标numerically equivalent但非bit-identical，G轻VAE为lossy。开关在import时读取，需进程启动前设置；全未设置是基线，应在训练阶段关闭这些小chunk推理优化。它支持解释图中F/G分层，但仍未消歧44.92与42.49测量。README还保留旧Wan2.1/ROCm6.4环境段，与Wan2.2新入口并存；复建需以所选入口的依赖矩阵为准。@@AMD04_MicroWorld_Code@@
+
+### 7.2 性能拆解与官方数据冲突
+
+本节条件统一为单 MI350X、352×640、每chunk三个latent frame、四步去噪。30层×4步=120次 self-attention 调用/chunk。使用实际 streaming shape 时，AITER ASM FMHA 的 attention latency 为17.4 ms，默认CK为31.7 ms，1.82×只适用于attention kernel；它不是世界模型整体加速，也不是与另一厂商GPU的同条件对照。@@AMD04_MicroWorld2@@
+
+| 配置（正文Table2） | generation/chunk | decoded FPS | 相对原实现FPS | 口径 |
+|---|---|---|---|---|
+| 原实现 | 327.87 ms | 26.56 | 基线 | 包含原VAE的decoded帧吞吐 |
+| +AdaLN融合 | 271.96 ms | 30.30 | +14.1% | 最大单项收益 |
+| +RMSNorm融合 | 271.64 ms | 30.32 | +14.2% | 单项变化处于测量噪声内 |
+| +QKV/KV融合 | 265.64 ms | 30.80 | +16.0% | 减少重复小kernel |
+| +context cache | 249.40 ms | 32.12 | +20.9% | 厂商称输出等价 |
+
+每个 latent frame 对应4个输出frame，三个latent产生12个decoded frame；因此以 1/249.40ms 得到的数是约4.01 chunk/s，不是视频FPS。原VAE decode124.19ms，分析复算12/(0.24940+0.12419)≈32.12FPS，正好对应正文表。轻量VAE decode32.05ms，12/(0.24940+0.03205)≈42.64FPS，与公布42.49存在小差别，可能还含开销或测量波动，本文保留公布值而不自行校正。
+
+![AMD官方延迟分解图，含与正文表冲突的数字](@@FIG:worldlatency@@)
+
+图源：@@AMD04_MicroWorld2@@ Figure 4，实际放大核对发现多了 F:+AITER 与 G:+LightVAE 两步，图中F33.40/G44.92FPS、G267.1ms，而正文Table3给lightVAE42.49FPS与decode32.05ms。**两处口径或版本没有消歧**。图原样保留作为冲突证据，本文性能选用Table2/3，不把图的44.92与正文质量结果拼成更高性能结论。该冲突也使“所有优化完全等价的最终配置”需源码及复测确认。
+
+Table4 的 WBench平均76.68 使用161-frame蒸馏checkpoint和原Wan VAE，对应32.12FPS；不是lightVAE42.49FPS版本。lightVAE牺牲部分图像质量、GSC和pose误差指标，适合明确接受该损失的交互用途。WBench的Physical等视觉指标也不等于接触动力学正确率，更不是机器人任务成功率。厂商横向表有不同模型规模/实现，不能推导AMD对竞品芯片的系统排名。模型卡标记OpenRAIL，训练数据、上游Wan与代码license各自继续约束使用；公开可下载不等于无条件许可。@@AMD04_MicroWorld_Card@@ @@AMD04_MicroWorld2@@
+
+## 8. 视觉、3D与策略压缩：必须追实际编译分区
+
+Vitis AI6.3的Supported Models页面将具体VEK385支持表链接到需账户/EULA的xlsx。本次取得页面与链接，没有取得受协议约束的表原件，因此不凭目录补出“YOLO某版/Depth某版已经验证”的列表；这属于本文未取得，不能描述成AMD不支持。Gen2 release与reference公开确认VEK385/MIPI streaming路径，编译与CPU partition文档则说明可编译模型仍可能分到CPU。@@AMD04_Vitis_Models@@ @@AMD_VitisAI_Gen2_Release@@ @@AMD_VitisAI_Gen2_Reference@@
+
+同一视觉网络的两种版本可能有不同算子、layout与动态shape。实际步骤是固定源ONNX和输入规格→量化/精度选择→compiler分区→检查unsupported/CPU ops→生成目标制品→测目标输入输出与准确率。CPU fallback不一定错误，但它引入设备传输、缓存与同步，可能支配短模型延迟。external data模型超过2GB时需把数据文件一起交付；仅复制一个ONNX文件不完整。3D重建、点云聚合、变长邻域、几何求解和动态散射算子不应由2D检测通过而被判定为全网络可部署。@@AMD_VitisAI_Gen2_Compile@@ @@AMD_VitisAI_Gen2_CPU_Partition@@ @@AMD_VAI_Partition_Analyzer@@
+
+策略压缩要在动作层验收。对语言骨干做AWQ可节省权重，但动作专家、视觉编码器和归一化层可有不同敏感性；关键接触动作的小误差可能在连续执行中放大。Quark支持的SmoothQuant、自动搜索及A16W8/XINT8等是工具机制，不代表所有VLA都已完成相同精度的AMD验证。应至少比较checkpoint原精度、压缩后静态动作误差、仿真闭环成功和真实留出任务，把被压缩的模块与误差来源记录清楚。@@AMD_Quark_SmoothQuant@@ @@AMD_Quark_Search@@ @@AMD_Quark_A16W8@@
+
+## 9. 内存、并发与端到端预算
+
+模型容量可以先用参数载荷做筛选，但必须分配activation、KV cache、图像token、中间workspace、多个session、视频解码与控制线程。统一物理内存减少部分复制和容量割裂，但GPU/NPU/CPU仍有带宽、一致性与驱动同步边界。HIP unified memory的page fault/迁移、pinned memory以及stream ordering分别影响首帧和稳态；不能把“统一地址”解释成任意跨设备访问没有开销。@@AMD_HIP_Memory@@ @@AMD_HIP_Coherence@@ @@AMD_ROCm_Isolation@@
+
+建议测四组：策略单独、感知+策略、加入VLM/语音、加入视频录制与后台运维；每组在相同功率模式和温度稳态下记录obs age、policy latency分布、deadline miss、内存高水位和动作缓存余量。不同模型共享GPU时服务端batch吞吐可能升高，单个机器人等待时间却升高；对控制任务，batch1低延迟和可预测性比最大tokens/s更关键。NPU分担语言可减GPU争用，但仍共享DRAM与功率约束，需要目标系统证据。
+
+分析示例：假设执行器以20Hz消费动作、一次chunk包含10点，名义覆盖0.5s；若采集/预处理0.05s、策略/RPC0.35s，则后部动作的观测年龄可能接近0.9s，尚未计队列与执行误差。这个假设只说明chunk吞吐与反馈时效为何不同，不是任何AMD实测。预算应以“新观测到实际动作”的路径制定，P99不等于最坏执行时间，平均实时也不等于安全截止保证。
+
+## 10. MLOps与放行证据
+
+数据阶段保存原始帧、曝光timestamp、本体状态与动作时间、校准版本和失败标签，按任务/对象/采集日期分离train与test。训练阶段记录预训练权重许可、数据许可、repo revision、ROCm/PyTorch版本、optimizer、seed、停止点和checkpoint hash。压缩编译阶段保存校准集、每模块精度、分区日志、制品依赖与目标runtime。部署阶段把图像processor、normalizer、关节映射和控制profile作为同一版本包，防止只更新权重而忘记动作契约。LeRobot和Ryzers提供实验流程部件；这些版本治理是本项目建议的产品要求。@@AMD04_LeRobot_Blog@@ @@AMD04_Ryzers_Repo@@
+
+监测至少包括传感器超时、输出NaN/越界、模型异常、通信失联、姿态漂移和未知指令。回退动作不能统一写成“停止输出”：下游可能继续最后一条轨迹、保持力矩或释放负载，必须按任务和控制器定义保持、受控停止或交由独立保护链。模型升级先离线回放，再仿真闭环，再真实受限工作区留出验证，最后灰度运行；保留旧权重、旧processor和回退配置。
+
+本章实质缺口包括：Phoenix精确目标与π0完整时延/成功率；Max+395的Molmo量化、内存和并发P99；Ryzers运行revision与作者卡身份消歧；Vitis支持表未取得；全身运动/导航基础模型的AMD实物验证；Micro-World图表冲突、完整训练成本与机器人几何/接触验证。进入05将用仿真引擎和训练评估方法进一步区分可复现实验与sim-to-real；04结论不依赖后续尚未产生的结果。

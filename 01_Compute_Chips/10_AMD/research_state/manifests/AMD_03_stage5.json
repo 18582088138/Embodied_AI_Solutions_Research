@@ -1,0 +1,6 @@
+[
+ {"name":"AMD_IMX547_License","url":"https://github.com/Xilinx/mv-camera-sensor-module/blob/main/LICENSE.md","expected":"html","used_by":["03_Sensor_Integration"]},
+ {"name":"AMD_IMX547_Readme","url":"https://github.com/Xilinx/mv-camera-sensor-module/blob/main/README.md","expected":"html","used_by":["03_Sensor_Integration"]},
+ {"name":"AMD_ISP_License","url":"https://github.com/Xilinx/xilinx-isp-module/blob/main/LICENSE.md","expected":"html","used_by":["03_Sensor_Integration"]},
+ {"name":"AMD_ISP_Readme","url":"https://github.com/Xilinx/xilinx-isp-module/blob/main/README.md","expected":"html","used_by":["03_Sensor_Integration"]}
+]

@@ -1,0 +1,440 @@
+[
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/AMD_X100_table--dfbbe771797f.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/AMD_X100_table.png",
+    "sha256": "dfbbe771797fe23fa6b6131af60f5f20fc9c4aa795ee5603557fdb7b8b8e8d8d"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/AMD_P100_table--ffe1a2411d07.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/AMD_P100_table.png",
+    "sha256": "ffe1a2411d072a76c8938f015978e75ba9df1e1ca8344b68a230db4ff865d5cd"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/AMD_Kria_AI_ports--b3c69fa1be39.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/AMD_Kria_AI_ports.png",
+    "sha256": "b3c69fa1be39bcdc8d45593fc6908bd9776dfeb3f72adc4d2efca1cc29f3a7eb"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/AMD_Kria_SOM_table--9a1c6f33c8ee.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/AMD_Kria_SOM_table.png",
+    "sha256": "9a1c6f33c8eecd307fd50514925a129168c8c17097ac2325e915d66d36379ca8"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/AMD_Kria_kit_table--ff5d723f7c46.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/AMD_Kria_kit_table.png",
+    "sha256": "ff5d723f7c463772c9533de26e8f04bbf1be7d04cbd90a16bfd9ce7e08f1db84"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/AMD_Versal_Gen2_block--f0ab2c4d2c17.jpg",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/AMD_Versal_Gen2_block.jpg",
+    "sha256": "f0ab2c4d2c17501b736675af52a086b73804ea4815d9d45ec66772650706675a"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/AMD_R8000_block--6716f6c702a5.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/AMD_R8000_block.png",
+    "sha256": "6716f6c702a58150fb879ad62dab0b12f0a5ebb9b0219da26df419fdbbc6ec00"
+  },
+  {
+    "report": "02A_GPU_Execution_and_Deployment.md",
+    "figure": "assets/figures/02A_hip_threads--4d1b64f3d818.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02A_hip_threads.png",
+    "sha256": "4d1b64f3d818378b2a914b9b4101eb5577f5c408fbe0501c7eaf71607e42a3ac"
+  },
+  {
+    "report": "02A_GPU_Execution_and_Deployment.md",
+    "figure": "assets/figures/02A_hip_memory--1f27c7cf049e.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02A_hip_memory.png",
+    "sha256": "1f27c7cf049effd4eede15b4c653bf5f0555314b89b6f49314d0f70ad0393c8c"
+  },
+  {
+    "report": "02A_GPU_Execution_and_Deployment.md",
+    "figure": "assets/figures/02A_hip_graph--27fcc2b1d196.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02A_hip_graph.png",
+    "sha256": "27fcc2b1d1962696c4454a7c7bafad313a485a21e49b48ecb33e5494721d7c8a"
+  },
+  {
+    "report": "02A_GPU_Execution_and_Deployment.md",
+    "figure": "assets/figures/02A_hip_graph_timing--2647fde0582d.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02A_hip_graph_timing.png",
+    "sha256": "2647fde0582dbd6ee7c8d30874e9fe588c791f68617124b22b95228b40081a00"
+  },
+  {
+    "report": "02B_RyzenAI_Compilation_and_Quantization.md",
+    "figure": "assets/figures/02_ryzen_ai_stack--170eb426cae4.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_ryzen_ai_stack.png",
+    "sha256": "170eb426cae4f919e22e86ab878e6631e631708d96a5de639b448764aaf74d70"
+  },
+  {
+    "report": "02B_RyzenAI_Compilation_and_Quantization.md",
+    "figure": "assets/figures/02B_xint8--706ff388cd35.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02B_xint8.png",
+    "sha256": "706ff388cd357f6f82d9dac5ba58e42064bc76da8741b3254a1d5629dd8310ce"
+  },
+  {
+    "report": "02B_RyzenAI_Compilation_and_Quantization.md",
+    "figure": "assets/figures/02B_search--2fb7eee660ef.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02B_search.png",
+    "sha256": "2fb7eee660ef79039c6f6987b951153c80fd05a7f833f7e18339648bdf912f2f"
+  },
+  {
+    "report": "02C_Versal_Compiler_and_Runtime.md",
+    "figure": "assets/figures/02_vart_ml_architecture--340714f3b60f.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_vart_ml_architecture.png",
+    "sha256": "340714f3b60fac2f6318593b72dd18a68db74efd3affd5fc7ba31837b4c8fdaf"
+  },
+  {
+    "report": "02C_Versal_Compiler_and_Runtime.md",
+    "figure": "assets/figures/02C_partitions--37ec556117e6.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02C_partitions.png",
+    "sha256": "37ec556117e62d92a500f87632594edd37e3e035b20e76da04ff5e04b60368a6"
+  },
+  {
+    "report": "02C_Versal_Compiler_and_Runtime.md",
+    "figure": "assets/figures/02C_nchw--16eb0ceaf38d.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02C_nchw.png",
+    "sha256": "16eb0ceaf38de5dd512b6fd956f3efa3c0215af0588f62bf225d96f407ad316a"
+  },
+  {
+    "report": "02C_Versal_Compiler_and_Runtime.md",
+    "figure": "assets/figures/02C_hcwnc4--3fc8f7597836.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02C_hcwnc4.png",
+    "sha256": "3fc8f7597836b88528c6e18c735d7c8a88cc19d56738c60c3ba87a75ef1b6883"
+  },
+  {
+    "report": "02C_Versal_Compiler_and_Runtime.md",
+    "figure": "assets/figures/02_vart_async--28e388acc14b.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_vart_async.png",
+    "sha256": "28e388acc14b3dd9416f264f713aa9a706f9b430c4ac12f70af7d0ac8731f02d"
+  },
+  {
+    "report": "02D_EDF_BSP_and_Execution_Domains.md",
+    "figure": "assets/figures/02_edf_stack--b99905eb9195.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_edf_stack.png",
+    "sha256": "b99905eb91955f8da6e50737ff913c4bb9976c4faa153ac8058d5d7b9b8f59e9"
+  },
+  {
+    "report": "02D_EDF_BSP_and_Execution_Domains.md",
+    "figure": "assets/figures/02_shel_flow--f75b9fdad9f1.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_shel_flow.png",
+    "sha256": "f75b9fdad9f1cd59b30fd0f6d29112a9cb05efe1e44273e3d3e1bdec2db2369c"
+  },
+  {
+    "report": "02D_EDF_BSP_and_Execution_Domains.md",
+    "figure": "assets/figures/02_edf_artifacts--b54e4f247db3.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_edf_artifacts.png",
+    "sha256": "b54e4f247db3d8534859597033fd1b2dddcd2625b6f91530e8cb991111521701"
+  },
+  {
+    "report": "02E_ROS_Acceleration_and_System_Integration.md",
+    "figure": "assets/figures/02E_buildsystem--8dbb2a7a746d.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02E_buildsystem.png",
+    "sha256": "8dbb2a7a746d3b2c295391ad29636dcfeec96bf75d94498e8bace59f58e35c77"
+  },
+  {
+    "report": "02E_ROS_Acceleration_and_System_Integration.md",
+    "figure": "assets/figures/02E_realtime--94f052018878.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02E_realtime.png",
+    "sha256": "94f052018878c1b55f133685b675552f2e068f297453035ee22f58ee544963f3"
+  },
+  {
+    "report": "02E_ROS_Acceleration_and_System_Integration.md",
+    "figure": "assets/figures/02E_mixedcriticality--03ce8d36383a.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02E_mixedcriticality.png",
+    "sha256": "03ce8d36383afe7aeda32b942c1aab9fe962896e465f9f3f53ed0b1e7f76c117"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/02_ryzen_ai_stack--170eb426cae4.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_ryzen_ai_stack.png",
+    "sha256": "170eb426cae4f919e22e86ab878e6631e631708d96a5de639b448764aaf74d70"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/02_vitis_design_flow--ef75223f4a5a.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_vitis_design_flow.png",
+    "sha256": "ef75223f4a5a5077673afd9ea097fe4e11f7aeb3ed0170009deaebd1da4f0692"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/02_vart_ml_architecture--340714f3b60f.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_vart_ml_architecture.png",
+    "sha256": "340714f3b60fac2f6318593b72dd18a68db74efd3affd5fc7ba31837b4c8fdaf"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/02_vart_async--28e388acc14b.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_vart_async.png",
+    "sha256": "28e388acc14b3dd9416f264f713aa9a706f9b430c4ac12f70af7d0ac8731f02d"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/02_xrt_layers--f09d768cce78.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_xrt_layers.png",
+    "sha256": "f09d768cce7854cad15490aff031b0ac7fadab5e7954f9e7414e720a4697dde1"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/02_edf_stack--b99905eb9195.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_edf_stack.png",
+    "sha256": "b99905eb91955f8da6e50737ff913c4bb9976c4faa153ac8058d5d7b9b8f59e9"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/02_edf_artifacts--b54e4f247db3.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_edf_artifacts.png",
+    "sha256": "b54e4f247db3d8534859597033fd1b2dddcd2625b6f91530e8cb991111521701"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/02_shel_flow--f75b9fdad9f1.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_shel_flow.png",
+    "sha256": "f75b9fdad9f1cd59b30fd0f6d29112a9cb05efe1e44273e3d3e1bdec2db2369c"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/02_vek385_system--f7b9c6bb2ef8.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_vek385_system.png",
+    "sha256": "f7b9c6bb2ef8a26ddf799b7f923f037f9b50c69bb3fb28a832879c3b82530890"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/03_MV_Capture--879ea8db6d5a.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_MV_Capture.png",
+    "sha256": "879ea8db6d5a563b5c62ce6226b2434d5363e04aebe41f2e060880692a518e83"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/03_MV_Top--50e1ef9841aa.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_MV_Top.png",
+    "sha256": "50e1ef9841aa9e1ff4ba633ede64e2dbf2a9247f9820c38e6f1226c6e44aaf75"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/03_MV_ISP--bad390d87bd7.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_MV_ISP.png",
+    "sha256": "bad390d87bd792a2558be20487b6d7ddece8a2e12c4668ea051de7e924d1faef"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/03_MV_10G--7ea4a492ae14.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_MV_10G.png",
+    "sha256": "7ea4a492ae142c99707c4e6a1fbc1ab1d112032f54c66735be0fa8ce6c5222b9"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/03_MV_Wiring--18797fac2e9f.jpg",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_MV_Wiring.jpg",
+    "sha256": "18797fac2e9faee1dfd2dfd3cfb67984dba242bc80b617d561ba9946565f2441"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/03_PTP_HW--316b3515023e.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_PTP_HW.png",
+    "sha256": "316b3515023e7b515db35bf852779520bcb81ce8d3b640e880f7975d480cc5d0"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/03_PTP_SW--86827161f5e1.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_PTP_SW.png",
+    "sha256": "86827161f5e143acd454458f8c951644eefabdb8c84e6ae7a98b40e02dc7ba54"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/03_TSN_HW--63fbd8bff268.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_TSN_HW.png",
+    "sha256": "63fbd8bff268679813c5ff2cd3febfb46897471cf1f6ae409a55f202fb3fedcf"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/03_TSN_Measure--4ac85b76c04a.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_TSN_Measure.png",
+    "sha256": "4ac85b76c04a89257d11b45da591c8447b027b428b15cdf95d6211e6c09192d0"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/koch--dbdfc53a6927.jpg",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/04/koch.jpg",
+    "sha256": "dbdfc53a6927fe6144367ce05331e956513b61672c70ae3f798c8b9da43915e1"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/worldtrain--8279bba5814d.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/04/worldtrain.png",
+    "sha256": "8279bba5814d6c39dd7191bd77a446b7c34ea1308e9fcb5d9d7778df75b09a0d"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/worlddata--fd2de734b199.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/04/worlddata.png",
+    "sha256": "fd2de734b199bf739cbe720be513ee11b3e80533ce2fbdb05e758a570741f24f"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/worldlatency--16d688a51b32.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/04/worldlatency.png",
+    "sha256": "16d688a51b32c3cf32bd9c3173e7fdb642927cb3ea90cb906e4ab53cd87641c3"
+  },
+  {
+    "report": "05_Simulation_Environment.md",
+    "figure": "assets/figures/scene--c9cd6bc68bb6.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/05/scene.png",
+    "sha256": "c9cd6bc68bb6a9f248785d886c4400404dd497ca9c99c39d23f1a9fd7e266530"
+  },
+  {
+    "report": "05_Simulation_Environment.md",
+    "figure": "assets/figures/entity--0e2eec1cf3a0.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/05/entity.png",
+    "sha256": "0e2eec1cf3a0255e35cb42cab9596f7c0cc268a7a04e65f19d8eddf334e1ec5d"
+  },
+  {
+    "report": "05_Simulation_Environment.md",
+    "figure": "assets/figures/parallel--58ff8a690258.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/05/parallel.png",
+    "sha256": "58ff8a6902587fa35cf04ed76fc67f57d856cde656836bd6c837bc56cff1c811"
+  },
+  {
+    "report": "05_Simulation_Environment.md",
+    "figure": "assets/figures/xarm_controller--6e4f391b5740.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/05/xarm_controller.png",
+    "sha256": "6e4f391b57404d29b77e4c94ca27f172f503ecf3625e1951843bfab7a1415ee2"
+  },
+  {
+    "report": "05_Simulation_Environment.md",
+    "figure": "assets/figures/urdf_fix--2f5247075f30.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/05/urdf_fix.png",
+    "sha256": "2f5247075f30012d833db9c0e3c0df2c97d3181158a2fa7f453fcbc2956604d0"
+  },
+  {
+    "report": "05_Simulation_Environment.md",
+    "figure": "assets/figures/mesh_list--90b651a91d13.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/05/mesh_list.png",
+    "sha256": "90b651a91d13c887390a78edc2ab8eec0a149aeecd902b899bb82dcd3fc8ce13"
+  },
+  {
+    "report": "06_Robot_Integration.md",
+    "figure": "assets/figures/vision--af14910b8d07.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/06/vision.png",
+    "sha256": "af14910b8d0775e45001a27133bcfe1fa1c916ddf140af069e25d8c435eca5a5"
+  },
+  {
+    "report": "06_Robot_Integration.md",
+    "figure": "assets/figures/controller--6e4f391b5740.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/06/controller.png",
+    "sha256": "6e4f391b57404d29b77e4c94ca27f172f503ecf3625e1951843bfab7a1415ee2"
+  },
+  {
+    "report": "06_Robot_Integration.md",
+    "figure": "assets/figures/real--90954c37788f.jpg",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/06/real.jpg",
+    "sha256": "90954c37788fb2167f0829c92648b3b8cd4b0c354d8f1fae08d0233727827ebd"
+  },
+  {
+    "report": "06_Robot_Integration.md",
+    "figure": "assets/figures/stw--56210a655a74.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/06/stw.png",
+    "sha256": "56210a655a741b05fa8f20c232562ec01445cbeb33ab758c926002f1cd1f4c73"
+  },
+  {
+    "report": "07_Ecosystem.md",
+    "figure": "assets/figures/crxspec--2f6d6794d3cb.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/07/crxspec.png",
+    "sha256": "2f6d6794d3cba0a096163d320e27207f3ae82f11fa59cdaf53baaff8293db608"
+  },
+  {
+    "report": "07_Ecosystem.md",
+    "figure": "assets/figures/crxblock--8a96d0bee22d.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/07/crxblock.png",
+    "sha256": "8a96d0bee22dc5379019ca0da33a52ad1260ecbe8617641da41fa75b2e656ed5"
+  },
+  {
+    "report": "07_Ecosystem.md",
+    "figure": "assets/figures/sxvpu--b94e65b5062b.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/07/sxvpu.png",
+    "sha256": "b94e65b5062b20cd90597075ee4a1e21f3291305984c22b16cb3aab4ad6f1af5"
+  },
+  {
+    "report": "08A_GPU_Memory_and_Execution.md",
+    "figure": "assets/figures/a_chiplet--f39b6cd78cb4.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/08/a_chiplet.png",
+    "sha256": "f39b6cd78cb40f4ca8137212f88fed74a68cc94d23c802bc1a0948ff10ceddcf"
+  },
+  {
+    "report": "08A_GPU_Memory_and_Execution.md",
+    "figure": "assets/figures/a_mx--dbc63bd0e9b4.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/08/a_mx.png",
+    "sha256": "dbc63bd0e9b491be8c05e156733cf6d0543e00314a90709e8c78113ffca45092"
+  },
+  {
+    "report": "08A_GPU_Memory_and_Execution.md",
+    "figure": "assets/figures/a_peak--9fb16249d5d0.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/08/a_peak.png",
+    "sha256": "9fb16249d5d0a17de7ff2271213bfaf7051e419940d5ecf3213e5fac40ee4438"
+  },
+  {
+    "report": "08A_GPU_Memory_and_Execution.md",
+    "figure": "assets/figures/a_partition--53afc786bcbb.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/08/a_partition.png",
+    "sha256": "53afc786bcbbc11c59ce3921e302d3e44cf688a95f8e0a0c3c2806acbb99694c"
+  },
+  {
+    "report": "08B_XDNA_Numerics_and_Dataflow.md",
+    "figure": "assets/figures/b_tile--e2b8ee570d5e.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/08/b_tile.png",
+    "sha256": "e2b8ee570d5e1700c94e352424ec2f12a10e7628d7cfdb45a50da1352aac61d7"
+  },
+  {
+    "report": "08B_XDNA_Numerics_and_Dataflow.md",
+    "figure": "assets/figures/b_fifo--f2608cc67c2a.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/08/b_fifo.png",
+    "sha256": "f2608cc67c2ad86e84595537fd7ec81bc104575f803ac33ce820b5e97756381d"
+  },
+  {
+    "report": "08C_Versal_Dataflow_RealTime_and_Lifecycle.md",
+    "figure": "assets/figures/c_system--f7b9c6bb2ef8.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/08/c_system.png",
+    "sha256": "f7b9c6bb2ef8a26ddf799b7f923f037f9b50c69bb3fb28a832879c3b82530890"
+  },
+  {
+    "report": "08C_Versal_Dataflow_RealTime_and_Lifecycle.md",
+    "figure": "assets/figures/c_tsn--63fbd8bff268.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/08/c_tsn.png",
+    "sha256": "63fbd8bff268679813c5ff2cd3febfb46897471cf1f6ae409a55f202fb3fedcf"
+  },
+  {
+    "report": "08C_Versal_Dataflow_RealTime_and_Lifecycle.md",
+    "figure": "assets/figures/c_safety--1ed38190a38d.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/08/c_safety.png",
+    "sha256": "1ed38190a38d7c3de1c36c6521347f585b4cd376dd450581735d108e04ebeff6"
+  },
+  {
+    "report": "08_Core_Technology_Moat.md",
+    "figure": "assets/figures/b_tile--e2b8ee570d5e.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/08/b_tile.png",
+    "sha256": "e2b8ee570d5e1700c94e352424ec2f12a10e7628d7cfdb45a50da1352aac61d7"
+  },
+  {
+    "report": "08_Core_Technology_Moat.md",
+    "figure": "assets/figures/c_system--f7b9c6bb2ef8.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/08/c_system.png",
+    "sha256": "f7b9c6bb2ef8a26ddf799b7f923f037f9b50c69bb3fb28a832879c3b82530890"
+  },
+  {
+    "report": "09_SWOT_Analysis.md",
+    "figure": "assets/figures/swot_case--b94e65b5062b.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/09/swot_case.png",
+    "sha256": "b94e65b5062b20cd90597075ee4a1e21f3291305984c22b16cb3aab4ad6f1af5"
+  },
+  {
+    "report": "09_SWOT_Analysis.md",
+    "figure": "assets/figures/swot_bom--8a96d0bee22d.png",
+    "local_original": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/09/swot_bom.png",
+    "sha256": "8a96d0bee22dc5379019ca0da33a52ad1260ecbe8617641da41fa75b2e656ed5"
+  }
+]

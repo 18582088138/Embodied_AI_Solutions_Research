@@ -1,0 +1,26 @@
+{
+  "report": "01_Compute_Chips/10_AMD/02D_EDF_BSP_and_Execution_Domains.md",
+  "body_han_chars": 2424,
+  "tables": 3,
+  "sources": 14,
+  "archive_status": {
+    "complete_static": 14
+  },
+  "figures": 3,
+  "file_hash_checks": 694,
+  "html_visible_text_equal": 13,
+  "page_local_dependencies_checked": 672,
+  "report_local_links": 33,
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_GPU_Execution_and_Deployment.md": true,
+    "02B_RyzenAI_Compilation_and_Quantization.md": true,
+    "02C_Versal_Compiler_and_Runtime.md": true,
+    "02_Software_Stack.md": true,
+    "README.md": true
+  },
+  "errors": [],
+  "warnings": [],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

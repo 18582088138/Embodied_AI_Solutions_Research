@@ -1,0 +1,106 @@
+[
+  {
+    "name": "AMD08_IRON_Repo",
+    "url": "https://github.com/Xilinx/mlir-aie",
+    "expected": "html",
+    "used_by": [
+      "08B_XDNA_Numerics_and_Dataflow"
+    ]
+  },
+  {
+    "name": "AMD08_IRON_Latest_Home",
+    "url": "https://xilinx.github.io/mlir-aie/latest/",
+    "expected": "html",
+    "used_by": [
+      "08B_XDNA_Numerics_and_Dataflow"
+    ]
+  },
+  {
+    "name": "AMD08_IRON_Architecture",
+    "url": "https://github.com/Xilinx/mlir-aie/blob/main/skills/aie-iron-design/references/architecture.md",
+    "expected": "html",
+    "used_by": [
+      "08B_XDNA_Numerics_and_Dataflow"
+    ]
+  },
+  {
+    "name": "AMD08_IRON_Devices",
+    "url": "https://github.com/Xilinx/mlir-aie/blob/main/docs/Devices.md",
+    "expected": "html",
+    "used_by": [
+      "08B_XDNA_Numerics_and_Dataflow"
+    ]
+  },
+  {
+    "name": "AMD_Quark_A16W8",
+    "url": "https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_a8w8_and_a16w8_quantize.html",
+    "expected": "html",
+    "used_by": [
+      "08B_XDNA_Numerics_and_Dataflow"
+    ]
+  },
+  {
+    "name": "AMD_Quark_XINT8",
+    "url": "https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_xint8_quantize.html",
+    "expected": "html",
+    "used_by": [
+      "08B_XDNA_Numerics_and_Dataflow"
+    ]
+  },
+  {
+    "name": "AMD08_IRON_Dataflow",
+    "url": "https://xilinx.github.io/mlir-aie/latest/programming_guide/section-2/section-2a/",
+    "expected": "html",
+    "used_by": [
+      "08B_XDNA_Numerics_and_Dataflow"
+    ]
+  },
+  {
+    "name": "AMD08_IRON_Routing",
+    "url": "https://xilinx.github.io/mlir-aie/latest/programming_guide/routing/",
+    "expected": "html",
+    "used_by": [
+      "08B_XDNA_Numerics_and_Dataflow"
+    ]
+  },
+  {
+    "name": "AMD08_IRON_DMA",
+    "url": "https://xilinx.github.io/mlir-aie/latest/programming_guide/section-2/section-2d/DMATasks/",
+    "expected": "html",
+    "used_by": [
+      "08B_XDNA_Numerics_and_Dataflow"
+    ]
+  },
+  {
+    "name": "AMD08_IRON_Compile",
+    "url": "https://xilinx.github.io/mlir-aie/latest/programming_guide/compilation_stages/",
+    "expected": "html",
+    "used_by": [
+      "08B_XDNA_Numerics_and_Dataflow"
+    ]
+  },
+  {
+    "name": "AMD08_IRON_License",
+    "url": "https://github.com/Xilinx/mlir-aie/blob/main/LICENSE",
+    "expected": "html",
+    "used_by": [
+      "08B_XDNA_Numerics_and_Dataflow"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Licenses",
+    "url": "https://ryzenai.docs.amd.com/en/latest/licenses.html",
+    "expected": "html",
+    "used_by": [
+      "08B_XDNA_Numerics_and_Dataflow"
+    ]
+  },
+  {
+    "name": "AMD08_IRON_Paper",
+    "url": "https://arxiv.org/abs/2504.18430",
+    "expected": "html",
+    "used_by": [
+      "08B_XDNA_Numerics_and_Dataflow"
+    ]
+  }
+]

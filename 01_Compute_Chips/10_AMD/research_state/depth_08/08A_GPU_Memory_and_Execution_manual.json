@@ -1,0 +1,6 @@
+{
+  "coverage": "CDNA4 MX数值/metadata理想存储、LDS/MFMA与bank、HBM拓扑/分区、HMM/fence/graph/pool、vLLM期限与对标独立深入。",
+  "versions_and_measurements": "新白皮书TF/PF、表题列名与每CU数冲突保留，MI350-052跨精度/分区不当应用加速；CK教程维度冲突不复用；无目标实测。",
+  "maturity_and_licenses": "API/机制、理论峰值与机器人任务分开；逐组件许可，未运行GPU或训练模型；数据中心能力不推广端側。",
+  "figures_opened": "实际打开白皮书p7/p8和MI350芯粒/partition两官方PNG；正文采用四图，表与legend瑕疵均记录。"
+}

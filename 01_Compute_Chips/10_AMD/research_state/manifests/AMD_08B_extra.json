@@ -1,0 +1,6 @@
+[
+ {"name":"AMD08_IRON_Layout","url":"https://xilinx.github.io/mlir-aie/latest/programming_guide/section-2/section-2c/","expected":"html"},
+ {"name":"AMD08_IRON_Lowering","url":"https://xilinx.github.io/mlir-aie/latest/ObjectFifoLowering/","expected":"html"},
+ {"name":"AMD08_IRON_Tracing","url":"https://xilinx.github.io/mlir-aie/latest/programming_guide/section-4/section-4b/","expected":"html"},
+ {"name":"AMD08_XDNA_Product","url":"https://www.amd.com/en/technologies/xdna.html","expected":"html"}
+]

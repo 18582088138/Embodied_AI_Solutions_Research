@@ -1,0 +1,11 @@
+{
+  "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/docs/source/policy_smolvla_README.md",
+  "status": 200,
+  "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_SMOL_VERIFIED--1f4d00470e7e7396/original.response",
+  "sha256": "518995d5cb706f7e70e8aa606b71c53279f6d6cf6ed8a988c15bb903cc5af16c",
+  "headers": {
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "final_url": "https://raw.githubusercontent.com/huggingface/lerobot/main/docs/source/policy_smolvla_README.md",
+  "retrieved_at_utc": "2026-11-04T02:20:04.332356+00:00"
+}

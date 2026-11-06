@@ -1,0 +1,7 @@
+[
+ {"name":"KRS_ROS_Centric","url":"https://xilinx.github.io/KRS/sphinx/build/html/docs/features/ros2centric.html","expected":"html","used_by":["02E_ROS_Acceleration_and_System_Integration"]},
+ {"name":"KRS_Nodes","url":"https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/nodes.html","expected":"html","used_by":["02E_ROS_Acceleration_and_System_Integration"]},
+ {"name":"KRS_Graphs","url":"https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/graphs.html","expected":"html","used_by":["02E_ROS_Acceleration_and_System_Integration"]},
+ {"name":"KRS_Vitis_Example","url":"https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/vitis_accelerated.html","expected":"html","used_by":["02E_ROS_Acceleration_and_System_Integration"]},
+ {"name":"KRS_Howto","url":"https://xilinx.github.io/KRS/sphinx/build/html/docs/howto.html","expected":"html","used_by":["02E_ROS_Acceleration_and_System_Integration"]}
+]

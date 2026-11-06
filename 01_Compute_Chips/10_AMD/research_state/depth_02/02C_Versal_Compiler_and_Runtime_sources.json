@@ -1,0 +1,385 @@
+[
+  {
+    "source_id": "AMD_VitisAI_Gen2_Release",
+    "number": "S01",
+    "title": "Vitis AI Gen2 6.3 release notes",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/release_notes/release_notes_section.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Release--8269bceb49539365/index.html",
+    "sha256": "3b06b8962f5c0e640b7294521b2a50fa82eb2c8570d42706ef5a53d88eb6ab12",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Release--8269bceb49539365/original.response",
+    "original_sha256": "08759b78615c4165d98e2f5c5ddd2659b1f9f22cb107f349322b67706b088cea",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Release--8269bceb49539365/metadata.json",
+    "collected_at": "2026-11-04T05:30:09.117297+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Compile",
+    "number": "S02",
+    "title": "Gen2 ONNX离线编译",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/compiling.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Compile--34b3e81780846804/index.html",
+    "sha256": "4f0eb1dd5adc28a3edaf5cbe98688df841a7ecc3edf23619c63bb00bff5551b3",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Compile--34b3e81780846804/original.response",
+    "original_sha256": "bbd1347441d54d4d8f9dc09c6f9a96e2eb39385ae0bc22802162039dd6beacde",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Compile--34b3e81780846804/metadata.json",
+    "collected_at": "2026-11-04T05:27:06.876700+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VAI_EP_Config",
+    "number": "S03",
+    "title": "AMD_VAI_EP_Config",
+    "version": "VitisAI Gen2 6.3 public guide；目标/overlay/精度分别固定",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/ep-config-file.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_EP_Config--a3cb640b1e9ddc41/index.html",
+    "sha256": "95fcdce73349f240a34e62115da6517b74a6f212f13bd85b517d639cc4861959",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_EP_Config--a3cb640b1e9ddc41/original.response",
+    "original_sha256": "312f3f87ac80e1dcede0cf491f5dfba82ed9b11b5e7fb5efc5d9f4a8ed28712d",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_EP_Config--a3cb640b1e9ddc41/metadata.json",
+    "collected_at": "2026-11-04T06:30:22.644402+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_CPU_Partition",
+    "number": "S04",
+    "title": "Gen2编译期CPU分区",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/cpu_partition.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_CPU_Partit--5643d40f79a4557e/index.html",
+    "sha256": "d8a9a3e1e412607195e3b2cdde5b3d2187744fda22c55549d3c7ea79a334c83c",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_CPU_Partit--5643d40f79a4557e/original.response",
+    "original_sha256": "31053a3151f059d7ccbacbfe2a74f98cd5fdca851e57403082dcf982b224a91f",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_CPU_Partit--5643d40f79a4557e/metadata.json",
+    "collected_at": "2026-11-04T05:27:34.423957+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Deploy",
+    "number": "S05",
+    "title": "Gen2 ORT/VART ML执行选择",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_deployment/model-inference.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Deploy--b20df62a639e21f9/index.html",
+    "sha256": "fe9b7349bd68d99f5fe4a00f6bd0ab2f6ecc8a9ebe457d5d1007d080e3fccb49",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Deploy--b20df62a639e21f9/original.response",
+    "original_sha256": "b4c3b597e381141c31ebe57c60a08b925318972d77eb7723b9a55c318cb2526b",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Deploy--b20df62a639e21f9/metadata.json",
+    "collected_at": "2026-11-04T05:27:10.439420+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Architecture",
+    "number": "S06",
+    "title": "Gen2 VART ML张量/所有权/线程模型",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/ml-architecture-overview.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Architectu--b867b657782bdc40/index.html",
+    "sha256": "6804452f0d104344203ed035c5c9ad99a589ae0154431cdeb09f6231ad2e644b",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Architectu--b867b657782bdc40/original.response",
+    "original_sha256": "1e83611558f0fc213718d7f1e94c18b23acaee92d40e48b8bba8e3c961495631",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Architectu--b867b657782bdc40/metadata.json",
+    "collected_at": "2026-11-04T05:27:16.512716+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Output",
+    "number": "S07",
+    "title": "Gen2 .rai/cache与编译报告",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/output.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Output--2c2e1405bc84b31f/index.html",
+    "sha256": "716a467819b7cb8a6b5318b4e59e637d8c4262c53730d51873ff6fcd0d4d1bc4",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Output--2c2e1405bc84b31f/original.response",
+    "original_sha256": "d8f6a0c231788c2b3694fd4d00392ad1aa7c77b81bf9e62280978a09e4ce05ea",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Output--2c2e1405bc84b31f/metadata.json",
+    "collected_at": "2026-11-04T05:27:08.537460+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VAI_Partition_Analyzer",
+    "number": "S08",
+    "title": "AMD_VAI_Partition_Analyzer",
+    "version": "VitisAI Gen2 6.3 public guide；目标/overlay/精度分别固定",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/ai_analyzer/partitioning.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Partition_Analyzer--2e258ca85c504c08/index.html",
+    "sha256": "e8201f2fca53b0fe4cd0a47c24df63442ab615460afff434d97ea1a0e0c53e35",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Partition_Analyzer--2e258ca85c504c08/original.response",
+    "original_sha256": "7d5f30974db57d818a83ad46a4240059b612b6cd3e28c78f03dd0f428d63ca12",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Partition_Analyzer--2e258ca85c504c08/metadata.json",
+    "collected_at": "2026-11-04T06:30:30.683052+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Tenancy",
+    "number": "S09",
+    "title": "Gen2 DP/TP与资源配置",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/multi-tenancy-user-guide.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Tenancy--02b353db51206eb3/index.html",
+    "sha256": "a4b75d68a945244084c0eeb509f8b021f4264e449ce1da938dd149c8d9ef3f61",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Tenancy--02b353db51206eb3/original.response",
+    "original_sha256": "874b21a03c88d8542deb5c0b0108d48eba165d05add98ac5350cfdefb977ef79",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Tenancy--02b353db51206eb3/metadata.json",
+    "collected_at": "2026-11-04T05:27:30.275463+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_VART_App",
+    "number": "S10",
+    "title": "Gen2 VART应用开发与零拷贝",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_app_guide.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_VART_App--ac4eac67a33411e1/index.html",
+    "sha256": "bcd780a59039221a1cc20cc9a4397d12f32aeb7e437dff8674fa64240f772320",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_VART_App--ac4eac67a33411e1/original.response",
+    "original_sha256": "daa55791270a313bbe81fb2f72b37e457b69e7146c296f26f3dd9eb9074e6ff0",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_VART_App--ac4eac67a33411e1/metadata.json",
+    "collected_at": "2026-11-04T05:30:17.882556+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VAI_Tensor_Formats",
+    "number": "S11",
+    "title": "AMD_VAI_Tensor_Formats",
+    "version": "VitisAI Gen2 6.3 public guide；目标/overlay/精度分别固定",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/misc/tensor_formats.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Tensor_Formats--aec125dfb6f54880/index.html",
+    "sha256": "8bd8dbf0d95423d91c1cf827616928cc2aac3ce8836df9b5911ac431027429a8",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Tensor_Formats--aec125dfb6f54880/original.response",
+    "original_sha256": "78286ec9c32202f949aeed90eec21fcb503b66a7f15064a1f9c5726945c3cc54",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Tensor_Formats--aec125dfb6f54880/metadata.json",
+    "collected_at": "2026-11-04T06:30:24.520876+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VAI_Quant_Pipeline",
+    "number": "S12",
+    "title": "AMD_VAI_Quant_Pipeline",
+    "version": "VitisAI Gen2 6.3 public guide；目标/overlay/精度分别固定",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_quantization_pipeline.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Quant_Pipeline--9e4369995e24c258/index.html",
+    "sha256": "cf3ec37cf8c828b0e638c28e54c09a5f499fad277072e6b7e7e385719a451b6a",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Quant_Pipeline--9e4369995e24c258/original.response",
+    "original_sha256": "d8fdd679574959ba7b31593bff017a5d77ff1370e5ad5dafcc3b2a743c4745ea",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Quant_Pipeline--9e4369995e24c258/metadata.json",
+    "collected_at": "2026-11-04T06:30:28.706097+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Quantization",
+    "number": "S13",
+    "title": "Gen2 VINT8/BF16量化配置",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_quantization/model_quantization.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Quantizati--a5dd309344ebfb8d/index.html",
+    "sha256": "31937ccd34dbaf44d4e589d91f58f14e18e3c4f0400192f5ac1d49c057fd1387",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Quantizati--a5dd309344ebfb8d/original.response",
+    "original_sha256": "d9f74fb29ffec289b23a66b354619b6e5f03d414a696319a3bdec5bd3686c075",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Quantizati--a5dd309344ebfb8d/metadata.json",
+    "collected_at": "2026-11-04T05:30:14.188766+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Async",
+    "number": "S14",
+    "title": "Gen2异步执行及样例边界",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/advanced_concepts/async_execution.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Async--a5b950f414554940/index.html",
+    "sha256": "6ce4de6106d4f87d06e1d131693e10c9652adc4903eb783edd956c91ec9a8bab",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Async--a5b950f414554940/original.response",
+    "original_sha256": "1552d78df865eea5e0bcf3f044af30971bab21fb49ecdd65deadd6922e9f6b3e",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Async--a5b950f414554940/metadata.json",
+    "collected_at": "2026-11-04T05:27:26.877502+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VAI_Custom_Ops",
+    "number": "S15",
+    "title": "AMD_VAI_Custom_Ops",
+    "version": "VitisAI Gen2 6.3 public guide；目标/overlay/精度分别固定",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/custom_ops/custom_ops_introduction.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Custom_Ops--1f320b36f994e3ae/index.html",
+    "sha256": "7fbd96a77df66eafc6182841efc975e05751db6070b7111a5d9f471c2ef9592f",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Custom_Ops--1f320b36f994e3ae/original.response",
+    "original_sha256": "c49857035b2c775395a4473c438de5fd37d38b5a0720f57f92efa52c12fc26f2",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Custom_Ops--1f320b36f994e3ae/metadata.json",
+    "collected_at": "2026-11-04T06:30:36.823751+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VAI_Custom_Infer",
+    "number": "S16",
+    "title": "AMD_VAI_Custom_Infer",
+    "version": "VitisAI Gen2 6.3 public guide；目标/overlay/精度分别固定",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/custom_ops/custom_ops_running_inference.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Custom_Infer--9345ee8f865efba4/index.html",
+    "sha256": "b2e9d254fbc790aeb4e6725749297379c25968f8463669beb80ca284b3881dff",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Custom_Infer--9345ee8f865efba4/original.response",
+    "original_sha256": "46476b63565ff19095eecfcdb4a4f337de197f214ff0539c5950db26d142661d",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Custom_Infer--9345ee8f865efba4/metadata.json",
+    "collected_at": "2026-11-04T06:30:38.656103+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VAI_DDR_Profiling",
+    "number": "S17",
+    "title": "AMD_VAI_DDR_Profiling",
+    "version": "VitisAI Gen2 6.3 public guide；目标/overlay/精度分别固定",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/ai_analyzer/runtime_ddr_profiling_utility.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_DDR_Profiling--df27e5b5edbcc8f3/index.html",
+    "sha256": "9aeda30f05bba9dd26fb2f7533810855fa6577fc0d4b34a6689b60c3837216f5",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_DDR_Profiling--df27e5b5edbcc8f3/original.response",
+    "original_sha256": "3a9206d623e3b27636fd66104425fb9c2647a27b102a30765a926807d1f2cfe5",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_DDR_Profiling--df27e5b5edbcc8f3/metadata.json",
+    "collected_at": "2026-11-04T06:30:34.643840+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Compare_TRT_Builder",
+    "number": "S18",
+    "title": "Compare_TRT_Builder",
+    "version": "NVIDIA官方资料用于机制对标；导入2026-11-03已有原响应或本次取得，不套AMD目标",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Builder--9df325c2c44e3de5/index.html",
+    "sha256": "0b2c6b2c93691260edb6cde5752f66c60226f3def12e74e36f80d9aea96048c6",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Builder--9df325c2c44e3de5/original.response",
+    "original_sha256": "656cc637bc2983dcc18269d41cdb4c44aab96530e4b8213c775bc73321e71eea",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Builder--9df325c2c44e3de5/metadata.json",
+    "collected_at": "2026-11-03T07:59:39.340501+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Compare_TRT_Quant",
+    "number": "S19",
+    "title": "Compare_TRT_Quant",
+    "version": "NVIDIA官方资料用于机制对标；导入2026-11-03已有原响应或本次取得，不套AMD目标",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Quant--f47c2746e3737567/index.html",
+    "sha256": "3c38adc7f087812ff7f333f0b30b473c595306faa7d803bed7c0509b203909c6",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Quant--f47c2746e3737567/original.response",
+    "original_sha256": "9b157024a8efa589c2ddc51d21cd3c28581e45b418968091765a53e8ca4ed920",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Quant--f47c2746e3737567/metadata.json",
+    "collected_at": "2026-11-04T03:01:38.548394+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Requirements",
+    "number": "S20",
+    "title": "Gen2 6.3主机/软件/板级要求",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/setup_and_installation/system_requirements.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Requiremen--d237d68ec5e7cd91/index.html",
+    "sha256": "b56977a3a1211321062408561597efb07aa4da73eb0fe3018c16ad9d74198f0b",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Requiremen--d237d68ec5e7cd91/original.response",
+    "original_sha256": "17cc27f2493d78e13e74ed541911d75cad17f0d72b53d36b3c91f91e923cf005",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Requiremen--d237d68ec5e7cd91/metadata.json",
+    "collected_at": "2026-11-04T05:30:11.436270+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_License",
+    "number": "S21",
+    "title": "Gen2 compiler/Vivado许可",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/license.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_License--dec853df79d7793c/index.html",
+    "sha256": "d7815dfc8343aeccd640686894d9efd66b1f8a839b4b01a4ea4ba7b005211aee",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_License--dec853df79d7793c/original.response",
+    "original_sha256": "c2f83be1ba115e62da5723d22395528b61c54eecd1d370ed9843f15fda1e904b",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_License--dec853df79d7793c/metadata.json",
+    "collected_at": "2026-11-04T05:27:36.881055+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  }
+]

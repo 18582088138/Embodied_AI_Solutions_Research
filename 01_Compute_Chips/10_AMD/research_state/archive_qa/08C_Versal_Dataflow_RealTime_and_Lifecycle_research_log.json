@@ -1,0 +1,81 @@
+{
+  "chapter": "08C_Versal_Dataflow_RealTime_and_Lifecycle",
+  "data_cutoff": "2026-11-04",
+  "completed_at_utc": "2026-11-04T14:53:57.935978+00:00",
+  "summary": {
+    "body_han_chars": 2661,
+    "tables": 1,
+    "sources": 23,
+    "figures": 3,
+    "claim_reviews": 53,
+    "archive_status": {
+      "complete_static": 20,
+      "partial_static": 3
+    },
+    "quality_errors": 0,
+    "dedup_network_requests": 0,
+    "report_sha256": "c5e9530efb10f121ca998261e63738685d842813fa93e37795591489c738f6b7"
+  },
+  "manual_review": {
+    "coverage": "Versal异构模块/共享指数边界、PL/AIE交付/tiler/DP-TP、HSI/零拷贝、执行域/IPC、TSN、security/safety、DFX及量产维护分别深入。",
+    "versions_and_measurements": "VER023是2024预硅MX6对INT8条件比较；安全brief目标不当已认证；Kria2026.1功能按板区分；未实测deadline。",
+    "maturity_and_licenses": "安全key/rollback/safety manual及完整IP lounge许可未取得；OpenAMP与TSNdemo不等本体闭环；EDF维护需正式责任合同。",
+    "figures_opened": "实际打开system-flow.png、KR260 hw_arch_tsn.png和工业PDFp1完整渲染，图中的ELF残留与认证targeted已核。"
+  },
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_GPU_Execution_and_Deployment.md": true,
+    "02B_RyzenAI_Compilation_and_Quantization.md": true,
+    "02C_Versal_Compiler_and_Runtime.md": true,
+    "02D_EDF_BSP_and_Execution_Domains.md": true,
+    "02E_ROS_Acceleration_and_System_Integration.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08A_GPU_Memory_and_Execution.md": true,
+    "08B_XDNA_Numerics_and_Dataflow.md": true,
+    "README.md": true
+  },
+  "final_dedup": {
+    "time_utc": "2026-11-04T14:53:50.388235+00:00",
+    "summary": {
+      "complete_static": 20,
+      "partial_static": 3,
+      "failed": 0
+    },
+    "names": [
+      "AMD_Versal_Gen2_Brief",
+      "AMD_VitisAI_Gen2_Reference",
+      "AMD_VitisAI_Gen2_Output",
+      "AMD_VitisAI_Gen2_Tenancy",
+      "AMD_VAI_EP_Config",
+      "AMD_VAI_Custom_Ops",
+      "AMD_VAI_Custom_Infer",
+      "AMD_VAI_Tensor_Formats",
+      "AMD_VitisAI_Gen2_Architecture",
+      "AMD_VitisAI_VART_App",
+      "AMD_VAI_Quant_Pipeline",
+      "AMD_VitisAI_Gen2_Async",
+      "AMD_EDF_SHEL_XSA",
+      "AMD_EDF_Domains",
+      "AMD_EDF_OpenAMP_FreeRTOS",
+      "AMD_EDF_OpenAMP_Zephyr",
+      "AMD_TSN_HW",
+      "AMD_TSN_SW",
+      "AMD_TSN_Intro",
+      "AMD_Versal_Gen2_Industrial",
+      "AMD_EDF_Segmented",
+      "AMD_EDF_PL_Load",
+      "AMD_EDF_Production"
+    ],
+    "network_requests_including_robots": 0,
+    "new_assets": 0,
+    "asset_attempts": 0,
+    "tool": "toolkit/download_materials.py"
+  },
+  "method": "官方原文/模型卡/源码→原图实际打开→条件审阅→结构/归档检查→最终去重；未运行硬件/机器人实测"
+}

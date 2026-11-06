@@ -1,0 +1,77 @@
+{
+  "chapter": "08_Core_Technology_Moat",
+  "data_cutoff": "2026-11-04",
+  "completed_at_utc": "2026-11-04T14:56:51.106925+00:00",
+  "summary": {
+    "body_han_chars": 1891,
+    "tables": 2,
+    "sources": 18,
+    "figures": 2,
+    "claim_reviews": 17,
+    "archive_status": {
+      "complete_static": 12,
+      "partial_static": 6
+    },
+    "quality_errors": 0,
+    "dedup_network_requests": 0,
+    "report_sha256": "6b649022b6446424d366aac32754eb80d78f2f2db4269c20ff15c8c07c905c55"
+  },
+  "manual_review": {
+    "coverage": "总览建立三专题的技术/证据/成立条件/迁移成本地图，系统结论与未验证项分开。",
+    "versions_and_measurements": "CDNA服务器与端侧分开；Gen2预测/认证目标非实测/证书；无跨条件性能排名。",
+    "maturity_and_licenses": "替换成本为分析判断，版本/许可/SLA以具体对象为准；BSP与完整实机闭环未知。",
+    "figures_opened": "复用本轮已实际打开的ComputeTile.png与system-flow.png；图中版本残留正文注明。"
+  },
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_GPU_Execution_and_Deployment.md": true,
+    "02B_RyzenAI_Compilation_and_Quantization.md": true,
+    "02C_Versal_Compiler_and_Runtime.md": true,
+    "02D_EDF_BSP_and_Execution_Domains.md": true,
+    "02E_ROS_Acceleration_and_System_Integration.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08A_GPU_Memory_and_Execution.md": true,
+    "08B_XDNA_Numerics_and_Dataflow.md": true,
+    "08C_Versal_Dataflow_RealTime_and_Lifecycle.md": true,
+    "README.md": true
+  },
+  "final_dedup": {
+    "time_utc": "2026-11-04T14:56:44.144558+00:00",
+    "summary": {
+      "complete_static": 12,
+      "partial_static": 6,
+      "failed": 0
+    },
+    "names": [
+      "AMD08_CDNA4_Whitepaper",
+      "AMD08_MI350_Architecture",
+      "AMD08_CK_LDS",
+      "AMD_HIP_Graphs",
+      "AMD_HIP_Memory",
+      "AMD08_IRON_Latest_Home",
+      "AMD08_IRON_Repo",
+      "AMD08_IRON_Dataflow",
+      "AMD08_IRON_DMA",
+      "AMD08_IRON_Compile",
+      "AMD_VitisAI_Gen2_Reference",
+      "AMD_VitisAI_Gen2_Output",
+      "AMD_VAI_Custom_Ops",
+      "AMD_VitisAI_Gen2_Architecture",
+      "AMD_EDF_Domains",
+      "AMD_TSN_HW",
+      "AMD_Versal_Gen2_Industrial",
+      "AMD_EDF_Production"
+    ],
+    "network_requests_including_robots": 0,
+    "new_assets": 0,
+    "asset_attempts": 0,
+    "tool": "toolkit/download_materials.py"
+  },
+  "method": "官方原文/模型卡/源码→原图实际打开→条件审阅→结构/归档检查→最终去重；未运行硬件/机器人实测"
+}

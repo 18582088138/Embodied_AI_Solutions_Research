@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AMD_MIGraphX_Repo",
+    "url": "https://github.com/ROCm/AMDMIGraphX/",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "Compare_CUDA_Graphs",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/cuda-graphs.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "Compare_TRT_Builder",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "Compare_TRT_Quant",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "Compare_NITROS",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/nitros/index.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "Compare_Jetson_OTA",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/SoftwarePackagesAndTheUpdateMechanism.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  }
+]

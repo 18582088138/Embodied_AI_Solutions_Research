@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "MV_Top",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_MV_Top.png",
+    "sha256": "50e1ef9841aa9e1ff4ba633ede64e2dbf2a9247f9820c38e6f1226c6e44aaf75",
+    "source_id": "AMD_MV_HW",
+    "source_url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_images/Top_level_hardware_architecture.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_HW--1171c54d38276ea2/assets/images/12a820acdda78d0cc7150a19.png",
+    "original_sha256": "50e1ef9841aa9e1ff4ba633ede64e2dbf2a9247f9820c38e6f1226c6e44aaf75",
+    "operation": "从官方HTML归档asset逐字节复制PNG/JPG原图，无渲染、裁剪、重画或修改"
+  },
+  {
+    "slug": "MV_Capture",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_MV_Capture.png",
+    "sha256": "879ea8db6d5a563b5c62ce6226b2434d5363e04aebe41f2e060880692a518e83",
+    "source_id": "AMD_MV_HW",
+    "source_url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_images/hw_arch_capture_pipeline.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_HW--1171c54d38276ea2/assets/images/f765435539c76a178d2ece63.png",
+    "original_sha256": "879ea8db6d5a563b5c62ce6226b2434d5363e04aebe41f2e060880692a518e83",
+    "operation": "从官方HTML归档asset逐字节复制PNG/JPG原图，无渲染、裁剪、重画或修改"
+  },
+  {
+    "slug": "MV_ISP",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_MV_ISP.png",
+    "sha256": "bad390d87bd792a2558be20487b6d7ddece8a2e12c4668ea051de7e924d1faef",
+    "source_id": "AMD_MV_HW",
+    "source_url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_images/hw_arch_isp_pipeline.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_HW--1171c54d38276ea2/assets/images/69125ccf116d2b0b5dd81daf.png",
+    "original_sha256": "bad390d87bd792a2558be20487b6d7ddece8a2e12c4668ea051de7e924d1faef",
+    "operation": "从官方HTML归档asset逐字节复制PNG/JPG原图，无渲染、裁剪、重画或修改"
+  },
+  {
+    "slug": "MV_10G",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_MV_10G.png",
+    "sha256": "7ea4a492ae142c99707c4e6a1fbc1ab1d112032f54c66735be0fa8ce6c5222b9",
+    "source_id": "AMD_MV_HW",
+    "source_url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_images/hw_arch_10g_pipeline.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_HW--1171c54d38276ea2/assets/images/2546dfdbdf1f782f49e1d341.png",
+    "original_sha256": "7ea4a492ae142c99707c4e6a1fbc1ab1d112032f54c66735be0fa8ce6c5222b9",
+    "operation": "从官方HTML归档asset逐字节复制PNG/JPG原图，无渲染、裁剪、重画或修改"
+  },
+  {
+    "slug": "MV_Wiring",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_MV_Wiring.jpg",
+    "sha256": "18797fac2e9faee1dfd2dfd3cfb67984dba242bc80b617d561ba9946565f2441",
+    "source_id": "AMD_MV_Deploy",
+    "source_url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_images/KR260_SFP+_Host.jpg",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Deploy--9e850a52b8c1c098/assets/images/985b287130095e45bfa1808b.jpg",
+    "original_sha256": "18797fac2e9faee1dfd2dfd3cfb67984dba242bc80b617d561ba9946565f2441",
+    "operation": "从官方HTML归档asset逐字节复制PNG/JPG原图，无渲染、裁剪、重画或修改"
+  },
+  {
+    "slug": "PTP_HW",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_PTP_HW.png",
+    "sha256": "316b3515023e7b515db35bf852779520bcb81ce8d3b640e880f7975d480cc5d0",
+    "source_id": "AMD_PTP_HW",
+    "source_url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_images/hw_arch_gps.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_HW--f13d0e99858a5776/assets/images/04832ee398dd415305bcb245.png",
+    "original_sha256": "316b3515023e7b515db35bf852779520bcb81ce8d3b640e880f7975d480cc5d0",
+    "operation": "从官方HTML归档asset逐字节复制PNG/JPG原图，无渲染、裁剪、重画或修改"
+  },
+  {
+    "slug": "PTP_SW",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_PTP_SW.png",
+    "sha256": "86827161f5e143acd454458f8c951644eefabdb8c84e6ae7a98b40e02dc7ba54",
+    "source_id": "AMD_PTP_SW",
+    "source_url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_images/sw_arch_intro.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_SW--bda8bd44602fb5ae/assets/images/df5772e39d41ad203171437d.png",
+    "original_sha256": "86827161f5e143acd454458f8c951644eefabdb8c84e6ae7a98b40e02dc7ba54",
+    "operation": "从官方HTML归档asset逐字节复制PNG/JPG原图，无渲染、裁剪、重画或修改"
+  },
+  {
+    "slug": "TSN_HW",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_TSN_HW.png",
+    "sha256": "63fbd8bff268679813c5ff2cd3febfb46897471cf1f6ae409a55f202fb3fedcf",
+    "source_id": "AMD_TSN_HW",
+    "source_url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_images/hw_arch_tsn.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_HW--5963c5dfcbb51f61/assets/images/aca343670c8a250f98395386.png",
+    "original_sha256": "63fbd8bff268679813c5ff2cd3febfb46897471cf1f6ae409a55f202fb3fedcf",
+    "operation": "从官方HTML归档asset逐字节复制PNG/JPG原图，无渲染、裁剪、重画或修改"
+  },
+  {
+    "slug": "TSN_Measure",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/03_TSN_Measure.png",
+    "sha256": "4ac85b76c04a89257d11b45da591c8447b027b428b15cdf95d6211e6c09192d0",
+    "source_id": "AMD_TSN_HW",
+    "source_url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_images/test_pmod.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_HW--5963c5dfcbb51f61/assets/images/97661f1c20155d2ca126f39b.png",
+    "original_sha256": "4ac85b76c04a89257d11b45da591c8447b027b428b15cdf95d6211e6c09192d0",
+    "operation": "从官方HTML归档asset逐字节复制PNG/JPG原图，无渲染、裁剪、重画或修改"
+  }
+]

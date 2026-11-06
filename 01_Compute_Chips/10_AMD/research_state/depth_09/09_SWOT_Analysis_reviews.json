@@ -1,0 +1,515 @@
+[
+  {
+    "source_id": "AMD_Robotics",
+    "needle": "Robotics",
+    "claim": "产品路线入口",
+    "location": "solutions",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04网页",
+    "finding": "目录不等市占率"
+  },
+  {
+    "source_id": "AMD06_XArm_Sim2Real",
+    "needle": "40 Hz",
+    "claim": "策略调用",
+    "location": "技术blog",
+    "evidence_type": "事实",
+    "conditions": "具体XArm6演示",
+    "finding": "provider/SKU、成功分母与P99未知"
+  },
+  {
+    "source_id": "AMD06_XArm_Sim2Real",
+    "needle": "Ryzen AI 300",
+    "claim": "部署对象",
+    "location": "技术blog",
+    "evidence_type": "事实",
+    "conditions": "具体XArm6演示",
+    "finding": "provider/SKU、成功分母与P99未知"
+  },
+  {
+    "source_id": "AMD06_XArm_Sim2Real",
+    "needle": "September 29, 2026",
+    "claim": "演示日期",
+    "location": "技术blog",
+    "evidence_type": "事实",
+    "conditions": "具体XArm6演示",
+    "finding": "provider/SKU、成功分母与P99未知"
+  },
+  {
+    "source_id": "AMD06_XArm_Sim2Real",
+    "needle": "0.25",
+    "claim": "lift任务",
+    "location": "技术blog",
+    "evidence_type": "事实",
+    "conditions": "具体XArm6演示",
+    "finding": "provider/SKU、成功分母与P99未知"
+  },
+  {
+    "source_id": "AMD06_XArm_Sim2Real",
+    "needle": "ONNX",
+    "claim": "模型导出",
+    "location": "技术blog",
+    "evidence_type": "事实",
+    "conditions": "具体XArm6演示",
+    "finding": "provider/SKU、成功分母与P99未知"
+  },
+  {
+    "source_id": "AMD04_LeRobot_Blog",
+    "needle": "July 14, 2025",
+    "claim": "教学日期",
+    "location": "技术blog",
+    "evidence_type": "事实",
+    "conditions": "Koch/π0示例",
+    "finding": "非泛化/运营成功分母"
+  },
+  {
+    "source_id": "AMD04_LeRobot_Blog",
+    "needle": "MI200",
+    "claim": "训练硬件",
+    "location": "技术blog",
+    "evidence_type": "事实",
+    "conditions": "Koch/π0示例",
+    "finding": "非泛化/运营成功分母"
+  },
+  {
+    "source_id": "AMD04_LeRobot_Blog",
+    "needle": "integrated GPU",
+    "claim": "端侧对象",
+    "location": "技术blog",
+    "evidence_type": "事实",
+    "conditions": "Koch/π0示例",
+    "finding": "非泛化/运营成功分母"
+  },
+  {
+    "source_id": "AMD04_LeRobot_Blog",
+    "needle": "50 trajectories",
+    "claim": "示例数据量",
+    "location": "技术blog",
+    "evidence_type": "事实",
+    "conditions": "Koch/π0示例",
+    "finding": "非泛化/运营成功分母"
+  },
+  {
+    "source_id": "AMD06_Solectrix_PDF",
+    "needle": "additional hardware accelerators",
+    "claim": "额外加速器",
+    "location": "p1—2",
+    "evidence_type": "厂商宣称",
+    "conditions": "SXVPU具体case",
+    "finding": "非芯片单独性能/P99/ROI"
+  },
+  {
+    "source_id": "AMD06_Solectrix_PDF",
+    "needle": "four GMSL2",
+    "claim": "相机对象",
+    "location": "p1—2",
+    "evidence_type": "厂商宣称",
+    "conditions": "SXVPU具体case",
+    "finding": "非芯片单独性能/P99/ROI"
+  },
+  {
+    "source_id": "AMD06_Solectrix_PDF",
+    "needle": "less than 10 milliseconds",
+    "claim": "streaming宣称",
+    "location": "p1—2",
+    "evidence_type": "厂商宣称",
+    "conditions": "SXVPU具体case",
+    "finding": "非芯片单独性能/P99/ROI"
+  },
+  {
+    "source_id": "AMD06_Solectrix_PDF",
+    "needle": "not been independently verified by AMD",
+    "claim": "收益责任",
+    "location": "p1—2",
+    "evidence_type": "厂商宣称",
+    "conditions": "SXVPU具体case",
+    "finding": "非芯片单独性能/P99/ROI"
+  },
+  {
+    "source_id": "AMD06_Solectrix_PDF",
+    "needle": "not initially built-in",
+    "claim": "雷达等非初始内置",
+    "location": "p1—2",
+    "evidence_type": "厂商宣称",
+    "conditions": "SXVPU具体case",
+    "finding": "非芯片单独性能/P99/ROI"
+  },
+  {
+    "source_id": "AMD06_Solectrix_PDF",
+    "needle": "©2024",
+    "claim": "case版权年份",
+    "location": "p1—2",
+    "evidence_type": "厂商宣称",
+    "conditions": "SXVPU具体case",
+    "finding": "非芯片单独性能/P99/ROI"
+  },
+  {
+    "source_id": "AMD06_STW_PDF",
+    "needle": "HPX",
+    "claim": "产品对象",
+    "location": "case",
+    "evidence_type": "事实",
+    "conditions": "STW客户案例",
+    "finding": "精确chip/台数/独立ROI未知"
+  },
+  {
+    "source_id": "AMD06_STW_PDF",
+    "needle": "©2025",
+    "claim": "版权日期",
+    "location": "case",
+    "evidence_type": "事实",
+    "conditions": "STW客户案例",
+    "finding": "精确chip/台数/独立ROI未知"
+  },
+  {
+    "source_id": "AMD06_Robotec_PDF",
+    "needle": "demo",
+    "claim": "HIL成熟度",
+    "location": "case",
+    "evidence_type": "事实",
+    "conditions": "RoSi示例",
+    "finding": "非在岗运营证明"
+  },
+  {
+    "source_id": "AMD06_GB_Factory_PR",
+    "needle": "Q4 2027",
+    "claim": "计划投运",
+    "location": "PR",
+    "evidence_type": "厂商计划",
+    "conditions": "原始公告",
+    "finding": "面积不等机器人数量；准确onboard SKU/合同未知"
+  },
+  {
+    "source_id": "AMD06_GB_Factory_PR",
+    "needle": "5,000-square-metre",
+    "claim": "设施面积",
+    "location": "PR",
+    "evidence_type": "厂商计划",
+    "conditions": "原始公告",
+    "finding": "面积不等机器人数量；准确onboard SKU/合同未知"
+  },
+  {
+    "source_id": "AMD06_GB_Factory_PR",
+    "needle": "compute on board GENE.01",
+    "claim": "onboard宣称",
+    "location": "PR",
+    "evidence_type": "厂商计划",
+    "conditions": "原始公告",
+    "finding": "面积不等机器人数量；准确onboard SKU/合同未知"
+  },
+  {
+    "source_id": "AMD06_GB_Factory_PR",
+    "needle": "planned collaboration",
+    "claim": "合作计划",
+    "location": "PR",
+    "evidence_type": "厂商计划",
+    "conditions": "原始公告",
+    "finding": "面积不等机器人数量；准确onboard SKU/合同未知"
+  },
+  {
+    "source_id": "AMD08_MI350_Architecture",
+    "needle": "288GB",
+    "claim": "服务器容量",
+    "location": "MI350",
+    "evidence_type": "事实",
+    "conditions": "MI355X",
+    "finding": "非移动端功耗/实测"
+  },
+  {
+    "source_id": "AMD08_MI350_Architecture",
+    "needle": "1400W",
+    "claim": "服务器功率",
+    "location": "MI350",
+    "evidence_type": "事实",
+    "conditions": "MI355X",
+    "finding": "非移动端功耗/实测"
+  },
+  {
+    "source_id": "AMD08_CDNA4_Whitepaper",
+    "needle": "typically 32",
+    "claim": "低精度块数值",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "对象和条件见正文",
+    "finding": "已读原文；不可推广未测SKU/任务或商业收益"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "i226",
+    "claim": "板级组件",
+    "location": "p2—3",
+    "evidence_type": "事实",
+    "conditions": "cRX1具体装配选项",
+    "finding": "非芯片原生全部接口/模型支持"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "053700",
+    "claim": "具体module料号",
+    "location": "p2—3",
+    "evidence_type": "事实",
+    "conditions": "cRX1具体装配选项",
+    "finding": "非芯片原生全部接口/模型支持"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "Block Diagram",
+    "claim": "BOM分层",
+    "location": "p2—3",
+    "evidence_type": "事实",
+    "conditions": "cRX1具体装配选项",
+    "finding": "非芯片原生全部接口/模型支持"
+  },
+  {
+    "source_id": "AMD_RyzenAI_Release",
+    "needle": "Version 1.9",
+    "claim": "发行支持边界",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "对象和条件见正文",
+    "finding": "已读原文；不可推广未测SKU/任务或商业收益"
+  },
+  {
+    "source_id": "AMD_Versal_Gen2_Brief",
+    "needle": "Shared-exponent",
+    "claim": "异构格式类别",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "对象和条件见正文",
+    "finding": "已读原文；不可推广未测SKU/任务或商业收益"
+  },
+  {
+    "source_id": "AMD_VAI_Custom_Ops",
+    "needle": "tiler",
+    "claim": "定制交付工作",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "对象和条件见正文",
+    "finding": "已读原文；不可推广未测SKU/任务或商业收益"
+  },
+  {
+    "source_id": "AMD08_IRON_Repo",
+    "needle": "complements mainstream",
+    "claim": "低层工具补充定位",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "对象和条件见正文",
+    "finding": "已读原文；不可推广未测SKU/任务或商业收益"
+  },
+  {
+    "source_id": "AMD_EDF_SHEL_XSA",
+    "needle": "SDTGen",
+    "claim": "软硬件交接",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "对象和条件见正文",
+    "finding": "已读原文；不可推广未测SKU/任务或商业收益"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "obligation for ongoing security maintenance",
+    "claim": "支持义务",
+    "location": "production",
+    "evidence_type": "事实",
+    "conditions": "EDF公开指南",
+    "finding": "扫描不等持续服务/补丁验收"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "Self-maintained",
+    "claim": "自主维护",
+    "location": "production",
+    "evidence_type": "事实",
+    "conditions": "EDF公开指南",
+    "finding": "扫描不等持续服务/补丁验收"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "SPDX",
+    "claim": "SBOM",
+    "location": "production",
+    "evidence_type": "事实",
+    "conditions": "EDF公开指南",
+    "finding": "扫描不等持续服务/补丁验收"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Output",
+    "needle": ".rai",
+    "claim": "跨SKU产物边界",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "对象和条件见正文",
+    "finding": "已读原文；不可推广未测SKU/任务或商业收益"
+  },
+  {
+    "source_id": "AMD_Kria_AI_Dev",
+    "needle": "Notify Me",
+    "claim": "未完成订购对象",
+    "location": "产品页",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04网页",
+    "finding": "准确料号/价格/交期未取得"
+  },
+  {
+    "source_id": "AMD07_WindRiver_Linux",
+    "needle": "Linux",
+    "claim": "OSV支持路径",
+    "location": "产品页",
+    "evidence_type": "事实",
+    "conditions": "具体合同另确认",
+    "finding": "未买订阅不等有SLA"
+  },
+  {
+    "source_id": "AMD05_Genesis_Blog",
+    "needle": "ROCm",
+    "claim": "仿真后端路线",
+    "location": "技术blog",
+    "evidence_type": "事实",
+    "conditions": "具体教程",
+    "finding": "非任意backend兼容"
+  },
+  {
+    "source_id": "AMD05_O3DE_Concepts",
+    "needle": "ROS",
+    "claim": "仿真接口路线",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "对象和条件见正文",
+    "finding": "已读原文；不可推广未测SKU/任务或商业收益"
+  },
+  {
+    "source_id": "AMD_K24C",
+    "needle": "$250.00",
+    "claim": "公开单项MSRP",
+    "location": "产品页",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04采集英语页；USD MSRP",
+    "finding": "无数量阶梯/地区税/中国到货报价；网页lead time非合同"
+  },
+  {
+    "source_id": "AMD_K24C",
+    "needle": "SM-K24-XCL2GC",
+    "claim": "准确料号",
+    "location": "产品页",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04采集英语页；USD MSRP",
+    "finding": "无数量阶梯/地区税/中国到货报价；网页lead time非合同"
+  },
+  {
+    "source_id": "AMD_K24C",
+    "needle": "6 weeks",
+    "claim": "网页交期",
+    "location": "产品页",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04采集英语页；USD MSRP",
+    "finding": "无数量阶梯/地区税/中国到货报价；网页lead time非合同"
+  },
+  {
+    "source_id": "AMD_K24I",
+    "needle": "$350.00",
+    "claim": "公开单项MSRP",
+    "location": "产品页",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04采集英语页；USD MSRP",
+    "finding": "无数量阶梯/地区税/中国到货报价；网页lead time非合同"
+  },
+  {
+    "source_id": "AMD_K24I",
+    "needle": "SM-K24-XCL2GI",
+    "claim": "准确料号",
+    "location": "产品页",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04采集英语页；USD MSRP",
+    "finding": "无数量阶梯/地区税/中国到货报价；网页lead time非合同"
+  },
+  {
+    "source_id": "AMD_K24I",
+    "needle": "6 weeks",
+    "claim": "网页交期",
+    "location": "产品页",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04采集英语页；USD MSRP",
+    "finding": "无数量阶梯/地区税/中国到货报价；网页lead time非合同"
+  },
+  {
+    "source_id": "AMD_K26C",
+    "needle": "$325.00",
+    "claim": "公开单项MSRP",
+    "location": "产品页",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04采集英语页；USD MSRP",
+    "finding": "无数量阶梯/地区税/中国到货报价；网页lead time非合同"
+  },
+  {
+    "source_id": "AMD_K26C",
+    "needle": "SM-K26-XCL2GC",
+    "claim": "准确料号",
+    "location": "产品页",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04采集英语页；USD MSRP",
+    "finding": "无数量阶梯/地区税/中国到货报价；网页lead time非合同"
+  },
+  {
+    "source_id": "AMD_K26C",
+    "needle": "26 weeks",
+    "claim": "网页交期",
+    "location": "产品页",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04采集英语页；USD MSRP",
+    "finding": "无数量阶梯/地区税/中国到货报价；网页lead time非合同"
+  },
+  {
+    "source_id": "AMD_K26I",
+    "needle": "$450.00",
+    "claim": "公开单项MSRP",
+    "location": "产品页",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04采集英语页；USD MSRP",
+    "finding": "无数量阶梯/地区税/中国到货报价；网页lead time非合同"
+  },
+  {
+    "source_id": "AMD_K26I",
+    "needle": "SM-K26-XCL2GI",
+    "claim": "准确料号",
+    "location": "产品页",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04采集英语页；USD MSRP",
+    "finding": "无数量阶梯/地区税/中国到货报价；网页lead time非合同"
+  },
+  {
+    "source_id": "AMD_K26I",
+    "needle": "26 weeks",
+    "claim": "网页交期",
+    "location": "产品页",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04采集英语页；USD MSRP",
+    "finding": "无数量阶梯/地区税/中国到货报价；网页lead time非合同"
+  },
+  {
+    "source_id": "AMD_K26I",
+    "needle": "Expected Product Lifetime",
+    "claim": "生命周期字段",
+    "location": "比较表",
+    "evidence_type": "事实",
+    "conditions": "K26 variants",
+    "finding": "不等保修/供应/软件支持期"
+  },
+  {
+    "source_id": "AMD_Versal_Gen2_Industrial",
+    "needle": "certification targeted",
+    "claim": "安全目标",
+    "location": "p1",
+    "evidence_type": "厂商宣称",
+    "conditions": "原始brief",
+    "finding": "非整机证书"
+  },
+  {
+    "source_id": "AMD07_ROS2_Control",
+    "needle": "fallback_controllers",
+    "claim": "控制器回退条件",
+    "location": "controller manager",
+    "evidence_type": "事实",
+    "conditions": "Jazzy文档",
+    "finding": "非独立保护端点"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "url": "https://raw.githubusercontent.com/tonyzhaozh/act/main/README.md",
+  "status": 200,
+  "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_ACT_README--1b21ddbac18a2bb3/original.response",
+  "sha256": "5059f601c1f0409556fd467150b99e93208de5d5594e9049f87ca92b24a5e7a2",
+  "headers": {
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "final_url": "https://raw.githubusercontent.com/tonyzhaozh/act/main/README.md",
+  "retrieved_at_utc": "2026-11-04T02:11:30.114193+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "KRS_ROS_Centric": {
+    "version": "KRS1.0文档；页脚更新2024-01-02，2026-11-04采集；HowTo含更旧配置，见正文边界"
+  },
+  "KRS_Perception": {
+    "version": "KRS1.0文档；页脚更新2024-01-02，2026-11-04采集；HowTo含更旧配置，见正文边界"
+  },
+  "KRS_Vitis_Function": {
+    "version": "KRS1.0文档；页脚更新2024-01-02，2026-11-04采集；HowTo含更旧配置，见正文边界"
+  },
+  "KRS_Faster_Publisher": {
+    "version": "KRS1.0文档；页脚更新2024-01-02，2026-11-04采集；HowTo含更旧配置，见正文边界"
+  },
+  "KRS_Realtime": {
+    "version": "KRS1.0文档；页脚更新2024-01-02，2026-11-04采集；HowTo含更旧配置，见正文边界"
+  },
+  "KRS_Howto": {
+    "version": "KRS1.0文档；页脚更新2024-01-02，2026-11-04采集；HowTo含更旧配置，见正文边界"
+  },
+  "KRS_Install": {
+    "version": "KRS1.0文档；页脚更新2024-01-02，2026-11-04采集；HowTo含更旧配置，见正文边界"
+  },
+  "KRS_Stream_Rectify_Source": {
+    "version": "ros-acceleration/image_pipeline ros2浮动分支；2026-11-04原响应快照；未绑定历史benchmark commit"
+  },
+  "KRS_Stream_Resize_Source": {
+    "version": "ros-acceleration/image_pipeline ros2浮动分支；2026-11-04原响应快照；未绑定历史benchmark commit"
+  },
+  "KRS_Stream_Rectify_Kernel": {
+    "version": "ros-acceleration/image_pipeline ros2浮动分支；2026-11-04原响应快照；未绑定历史benchmark commit"
+  },
+  "KRS_Stream_Resize_Kernel": {
+    "version": "ros-acceleration/image_pipeline ros2浮动分支；2026-11-04原响应快照；未绑定历史benchmark commit"
+  },
+  "Compare_ROS_Buffer": {
+    "version": "NVIDIA官方页更新2026-09-21，2026-11-03原响应导入；Lyrical路线不套KRS Humble"
+  }
+}

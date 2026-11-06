@@ -1,0 +1,4 @@
+[
+ {"name":"AMD08_CK_LDS","url":"https://rocm.docs.amd.com/projects/composable_kernel/en/latest/conceptual/ck_tile/hardware/lds_bank_conflicts.html","expected":"html","used_by":["08A_GPU_Memory_and_Execution"]},
+ {"name":"AMD08_CK_GEMM","url":"https://rocm.docs.amd.com/projects/composable_kernel/en/latest/conceptual/ck_tile/hardware/gemm_optimization.html","expected":"html","used_by":["08A_GPU_Memory_and_Execution"]}
+]

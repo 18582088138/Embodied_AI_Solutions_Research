@@ -1,0 +1,4 @@
+[
+ {"name":"AMD06_GB_Gene01_PressZIP","url":"https://cms.gbionics.ai/uploads/GB_Gene01_Press_28599c665e.zip","expected":"any","used_by":["06_Robot_Integration"]},
+ {"name":"AMD06_GB_Factory_PressZIP","url":"https://cms.gbionics.ai/uploads/Data_Factory_Press_Release_IT_EN_e1f59b8807.zip","expected":"any","used_by":["06_Robot_Integration"]}
+]

@@ -1,0 +1,23 @@
+[
+ {"name":"AMD_VitisAI_Gen2_Compile","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/compiling.html","expected":"html"},
+ {"name":"AMD_VitisAI_Gen2_Output","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/output.html","expected":"html"},
+ {"name":"AMD_VitisAI_Gen2_Deploy","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_deployment/model-inference.html","expected":"html"},
+ {"name":"AMD_VitisAI_Gen2_ORT_API","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/runtime_processes_and_apis/cpp_onnx_apis.html","expected":"html"},
+ {"name":"AMD_VitisAI_Gen2_ML_API","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/misc/runtime/vart_ml_apis.html","expected":"html"},
+ {"name":"AMD_VitisAI_Gen2_Architecture","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/ml-architecture-overview.html","expected":"html"},
+ {"name":"AMD_VitisAI_Gen2_Reference","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/integrated_system_reference%20design/system.html","expected":"html"},
+ {"name":"AMD_VitisAI_Gen2_Async","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/advanced_concepts/async_execution.html","expected":"html"},
+ {"name":"AMD_VitisAI_Gen2_Tenancy","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/multi-tenancy-user-guide.html","expected":"html"},
+ {"name":"AMD_VitisAI_Gen2_CPU_Partition","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/cpu_partition.html","expected":"html"},
+ {"name":"AMD_VitisAI_Gen2_License","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/license.html","expected":"html"},
+ {"name":"AMD_VitisAI_Gen1_Runtime","url":"https://vitisai.docs.amd.com/projects/gen1/en/latest/docs/customization_opportunities/runtime-process-apis.html","expected":"html"},
+ {"name":"AMD_VitisAI_Gen1_License","url":"https://vitisai.docs.amd.com/projects/gen1/en/latest/docs/additional_information/Obtaining-license.html","expected":"html"},
+ {"name":"AMD_XRT_Native","url":"https://xilinx.github.io/XRT/master/html/xrt_native_apis.html","expected":"html"},
+ {"name":"KRS_Official_Repo","url":"https://github.com/Xilinx/KRS","expected":"html"},
+ {"name":"KRS_Docs","url":"https://xilinx.github.io/KRS/","expected":"html"},
+ {"name":"KR260_Perception_Deploy","url":"https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/ros2_perception_node/src/app_deployment.html","expected":"html"},
+ {"name":"KR260_Perception_Overview","url":"https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/ros2_perception_node/ros2_perception_node_landing.html","expected":"html"},
+ {"name":"Kria_Ubuntu","url":"https://xilinx.github.io/kria-apps-docs/ubuntu_support.html","expected":"html"},
+ {"name":"Kria_BootFW","url":"https://xilinx.github.io/kria-apps-docs/bootfw.html","expected":"html"},
+ {"name":"Kria_OpenAMP","url":"https://xilinx.github.io/kria-apps-docs/openamp.html","expected":"html"}
+]

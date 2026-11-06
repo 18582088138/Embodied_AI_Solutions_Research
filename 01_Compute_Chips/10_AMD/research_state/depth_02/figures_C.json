@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "02C_nchw",
+    "source_id": "AMD_VAI_Tensor_Formats",
+    "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/_images/tensor_float32_nchw.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Tensor_Formats--aec125dfb6f54880/assets/images/6329b4587b91d32aeb38aa3a.png",
+    "original_sha256": "16eb0ceaf38de5dd512b6fd956f3efa3c0215af0588f62bf225d96f407ad316a",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02C_nchw.png",
+    "sha256": "16eb0ceaf38de5dd512b6fd956f3efa3c0215af0588f62bf225d96f407ad316a",
+    "operation": "官方原PNG无修改复制，完整图无裁剪"
+  },
+  {
+    "slug": "02C_hcwnc4",
+    "source_id": "AMD_VAI_Tensor_Formats",
+    "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/_images/tensor_float32_hcwnc4.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Tensor_Formats--aec125dfb6f54880/assets/images/6b91483d39c11cd9e53ad533.png",
+    "original_sha256": "3fc8f7597836b88528c6e18c735d7c8a88cc19d56738c60c3ba87a75ef1b6883",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02C_hcwnc4.png",
+    "sha256": "3fc8f7597836b88528c6e18c735d7c8a88cc19d56738c60c3ba87a75ef1b6883",
+    "operation": "官方原PNG无修改复制，完整图无裁剪"
+  },
+  {
+    "slug": "02C_partitions",
+    "source_id": "AMD_VAI_Partition_Analyzer",
+    "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/_images/AIAnalyzer_PartitioningSummary.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Partition_Analyzer--2e258ca85c504c08/assets/images/38538ddca49c31b90f94ce1a.png",
+    "original_sha256": "37ec556117e62d92a500f87632594edd37e3e035b20e76da04ff5e04b60368a6",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02C_partitions.png",
+    "sha256": "37ec556117e62d92a500f87632594edd37e3e035b20e76da04ff5e04b60368a6",
+    "operation": "官方原PNG无修改复制，完整图无裁剪"
+  }
+]

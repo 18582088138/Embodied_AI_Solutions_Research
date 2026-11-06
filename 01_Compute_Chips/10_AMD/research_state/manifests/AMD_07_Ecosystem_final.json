@@ -1,0 +1,138 @@
+[
+  {
+    "name": "AMD07_Robotics_Partners",
+    "url": "https://www.amd.com/en/search/partner/robotics-partners.html",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "AMD07_Congatec_CRX1_PDF",
+    "url": "https://www.congatec.com/fileadmin/user_upload/Documents/Datasheets/conga-HPC_cRX1.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "AMD06_Solectrix_PDF",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/solectrix-case-study.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "AMD06_STW_PDF",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/stw-case-study.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "AMD06_Robotec_PDF",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/robotec-ai-case-study.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "OpenNav_Robotics_Benchmark",
+    "url": "https://opennav.org/news/opennav-robotics-workload-benchmark",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "AMD07_ROS2_Control",
+    "url": "https://control.ros.org/jazzy/doc/ros2_control/controller_manager/doc/userdoc.html",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Production",
+    "url": "https://edf.docs.amd.com/en/latest/moving-from-amd-software-stacks-to-production-deployment.html",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "AMD07_Congatec_CRX1",
+    "url": "https://www.congatec.com/us/products/com-hpc/conga-hpccrx1/",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "AMD04_Ryzers_Repo",
+    "url": "https://github.com/AMDResearch/Ryzers",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "AMD04_Ryzers_License",
+    "url": "https://github.com/AMDResearch/Ryzers/blob/main/LICENSE",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "KRS_V1_Docs",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/index.html",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "AMD_ROSS",
+    "url": "https://www.amd.com/en/products/software/ross-agentic-ai.html",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "AMD05_AUP_Repo",
+    "url": "https://github.com/AMDResearch/aup-learning-cloud",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "AMD07_WindRiver_Linux",
+    "url": "https://www.windriver.com/products/embedded/linux",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "AMD07_Distributors",
+    "url": "https://www.amd.com/en/partner/about-partners/authorized-distributors.html",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "AMD07_Warranty",
+    "url": "https://www.amd.com/en/support/warranty.html",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  }
+]

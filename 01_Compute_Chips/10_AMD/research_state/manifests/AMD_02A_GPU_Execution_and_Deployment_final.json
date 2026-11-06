@@ -1,0 +1,154 @@
+[
+  {
+    "name": "AMD_HIP_Graphs",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/hipgraph.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_Acceleration_Libs",
+    "url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/optimization/model-acceleration-libs.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_MIGraphX_Repo",
+    "url": "https://github.com/ROCm/AMDMIGraphX/",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_vLLM_Optimization",
+    "url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/optimization/vllm-v1-optimization.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Model",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/understand/programming_model.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Tuning",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/performance_guidelines.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Coherence",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/coherence_control.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Memory",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/unified_memory.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_GraphSafe",
+    "url": "https://rocm.docs.amd.com/en/latest/reference/graph-safe-support.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Allocator",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/stream_ordered_allocator.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_MIGraphX_Parse",
+    "url": "https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/tutorials/parse-load-save-tutorial.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_MIGraphX_Python",
+    "url": "https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/reference/MIGraphX-py.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_MIGraphX",
+    "url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/inference/migraphx.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_MIGraphX_Tune",
+    "url": "https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/how-to/model-performance-tuning.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_Isolation",
+    "url": "https://rocm.docs.amd.com/en/latest/reference/system-optimization/gpu-isolation.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "Compare_CUDA_Graphs",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/cuda-graphs.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "Compare_TRT_Builder",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_Compatibility",
+    "url": "https://rocm.docs.amd.com/en/latest/compatibility/compatibility-matrix.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_Licenses",
+    "url": "https://rocm.docs.amd.com/en/latest/about/license.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  }
+]

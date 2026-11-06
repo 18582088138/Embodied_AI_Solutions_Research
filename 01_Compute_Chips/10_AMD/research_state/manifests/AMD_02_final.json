@@ -1,0 +1,594 @@
+[
+  {
+    "name": "AMD_ROCm_Docs",
+    "url": "https://rocm.docs.amd.com/en/latest/",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Docs",
+    "url": "https://ryzenai.docs.amd.com/en/latest/",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Current",
+    "url": "https://vitisai.docs.amd.com/",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Linux",
+    "url": "https://ryzenai.docs.amd.com/en/latest/linux.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_Compatibility",
+    "url": "https://rocm.docs.amd.com/en/latest/compatibility/compatibility-matrix.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Release",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/release_notes/release_notes_section.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_Kria_AI_Dev",
+    "url": "https://www.amd.com/en/products/system-on-modules/kria/ai/robotics-developer-platform.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Production",
+    "url": "https://edf.docs.amd.com/en/latest/moving-from-amd-software-stacks-to-production-deployment.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_XRT_Docs",
+    "url": "https://xilinx.github.io/XRT/master/html/index.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_Vitis_Product",
+    "url": "https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/vitis.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_VART_App",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_app_guide.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Docs",
+    "url": "https://edf.docs.amd.com/en/latest/",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "KRS_Install",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/install.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_ROSS",
+    "url": "https://www.amd.com/en/products/software/ross-agentic-ai.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_PyTorch",
+    "url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/frameworks/pytorch/install.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_vLLM",
+    "url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/inference/vllm.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_ORT",
+    "url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/inference/onnxruntime.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_MIGraphX",
+    "url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/inference/migraphx.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Install",
+    "url": "https://ryzenai.docs.amd.com/en/latest/inst.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_App",
+    "url": "https://ryzenai.docs.amd.com/en/latest/app_development.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Requirements",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/setup_and_installation/system_requirements.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen1_Install",
+    "url": "https://vitisai.docs.amd.com/projects/gen1/en/latest/docs/quickstart/install.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Release",
+    "url": "https://edf.docs.amd.com/en/latest/downloads-and-release-notes.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_Transition",
+    "url": "https://rocm.docs.amd.com/en/latest/about/transition-guide-TheRock.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_Release",
+    "url": "https://rocm.docs.amd.com/en/latest/about/release-notes.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Docs",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_HIPIFY_Docs",
+    "url": "https://rocm.docs.amd.com/projects/HIPIFY/en/latest/",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Async",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/asynchronous.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Memory",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/unified_memory.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Release",
+    "url": "https://ryzenai.docs.amd.com/en/latest/relnotes.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Quantization",
+    "url": "https://ryzenai.docs.amd.com/en/latest/model_quantization.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Quantization",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_quantization/model_quantization.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_Quark_RyzenAI",
+    "url": "https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/index.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Compile",
+    "url": "https://ryzenai.docs.amd.com/en/latest/modelrun.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Ops",
+    "url": "https://ryzenai.docs.amd.com/en/latest/ops_support.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_LLM",
+    "url": "https://ryzenai.docs.amd.com/en/latest/llm/overview.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Server",
+    "url": "https://ryzenai.docs.amd.com/en/latest/llm/server_interface.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Hybrid",
+    "url": "https://ryzenai.docs.amd.com/en/latest/hybrid_oga.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_OGA_Prepare",
+    "url": "https://ryzenai.docs.amd.com/en/latest/oga_model_prepare.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_Vitis_Libraries",
+    "url": "https://github.com/Xilinx/Vitis_Libraries",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen1_Runtime",
+    "url": "https://vitisai.docs.amd.com/projects/gen1/en/latest/docs/customization_opportunities/runtime-process-apis.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen1_License",
+    "url": "https://vitisai.docs.amd.com/projects/gen1/en/latest/docs/additional_information/Obtaining-license.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Compile",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/compiling.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Install",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/setup_and_installation/software_setup.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_License",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/license.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Output",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/output.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Deploy",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_deployment/model-inference.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_CPU_Partition",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/cpu_partition.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Architecture",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/ml-architecture-overview.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Async",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/advanced_concepts/async_execution.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Tenancy",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/multi-tenancy-user-guide.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_XRT_Native",
+    "url": "https://xilinx.github.io/XRT/master/html/xrt_native_apis.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Product",
+    "url": "https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/embedded-software/embedded-development-framework.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Overview_PDF",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/products/software-tools/embedded-development-framework-product-overview.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Migration",
+    "url": "https://edf.docs.amd.com/en/latest/petalinux-to-edf-migration-guide.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_EDF_SHEL",
+    "url": "https://edf.docs.amd.com/en/latest/shel/software-hardware-exchange-loop-shel-flow.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_EDF_SHEL_XSA",
+    "url": "https://edf.docs.amd.com/en/latest/shel/using-the-shel-flow-to-create-a-yocto-project-machine-configuration-from-a-xsa-file.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Segmented",
+    "url": "https://edf.docs.amd.com/en/latest/seg/segmented-configuration-or-dynamic-function-exchange.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_EDF_PL_Load",
+    "url": "https://edf.docs.amd.com/en/latest/seg/amd-edf-segmented-configuration-using-amd-yocto-project-recipes.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Domains",
+    "url": "https://edf.docs.amd.com/en/latest/osdev/domain-yaml-integration-and-development.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Zephyr",
+    "url": "https://edf.docs.amd.com/en/latest/zephyr/zephyr-processor-support.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "KRS_Official_Repo",
+    "url": "https://github.com/Xilinx/KRS",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "KRS_V1_Docs",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/index.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "KRS_Hardware",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/hardware.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "KR260_Perception_Deploy",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/ros2_perception_node/src/app_deployment.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "KRS_Realtime",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/features/realtime_ros2.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "KRS_License",
+    "url": "https://github.com/Xilinx/KRS/blob/main/LICENSE.txt",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_Ross_Repository",
+    "url": "https://github.com/Xilinx/ross-ai-assistant",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Reference",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/integrated_system_reference%20design/system.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Analyzer",
+    "url": "https://ryzenai.docs.amd.com/en/latest/ai_analyzer.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_SMI",
+    "url": "https://ryzenai.docs.amd.com/en/latest/xrt_smi.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_Licenses",
+    "url": "https://rocm.docs.amd.com/en/latest/about/license.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_HIP_License",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/license.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Licenses",
+    "url": "https://ryzenai.docs.amd.com/en/latest/licenses.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "koch",
+    "opened": true,
+    "source_id": "AMD04_LeRobot_Blog",
+    "source_url": "https://rocm.blogs.amd.com/_images/robot1.jpg",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/04/koch.jpg",
+    "sha256": "dbdfc53a6927fe6144367ce05331e956513b61672c70ae3f798c8b9da43915e1",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_LeRobot_Blog--09a181578cee8bab/assets/images/14594cb62d4b0ab38c12cff1.jpg",
+    "original_sha256": "dbdfc53a6927fe6144367ce05331e956513b61672c70ae3f798c8b9da43915e1",
+    "operation": "官方原始图，复制归档asset；未裁剪，已实际打开逐字复核"
+  },
+  {
+    "slug": "worlddata",
+    "opened": true,
+    "source_id": "AMD04_MicroWorld2",
+    "source_url": "https://rocm.blogs.amd.com/_images/image2.png",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/04/worlddata.png",
+    "sha256": "fd2de734b199bf739cbe720be513ee11b3e80533ce2fbdb05e758a570741f24f",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld2--42328450fe78db3f/assets/images/7d23e62446b43ea57adc0494.png",
+    "original_sha256": "fd2de734b199bf739cbe720be513ee11b3e80533ce2fbdb05e758a570741f24f",
+    "operation": "官方原始图，复制归档asset；未裁剪，已实际打开逐字复核"
+  },
+  {
+    "slug": "worldtrain",
+    "opened": true,
+    "source_id": "AMD04_MicroWorld2",
+    "source_url": "https://rocm.blogs.amd.com/_images/image3.png",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/04/worldtrain.png",
+    "sha256": "8279bba5814d6c39dd7191bd77a446b7c34ea1308e9fcb5d9d7778df75b09a0d",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld2--42328450fe78db3f/assets/images/b8c73afe601eca72535b9fe6.png",
+    "original_sha256": "8279bba5814d6c39dd7191bd77a446b7c34ea1308e9fcb5d9d7778df75b09a0d",
+    "operation": "官方原始图，复制归档asset；未裁剪，已实际打开逐字复核"
+  },
+  {
+    "slug": "worldlatency",
+    "opened": true,
+    "source_id": "AMD04_MicroWorld2",
+    "source_url": "https://rocm.blogs.amd.com/_images/image4.png",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/04/worldlatency.png",
+    "sha256": "16d688a51b32c3cf32bd9c3173e7fdb642927cb3ea90cb906e4ab53cd87641c3",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld2--42328450fe78db3f/assets/images/1f973b3b47ae7c17ed3f48e6.png",
+    "original_sha256": "16d688a51b32c3cf32bd9c3173e7fdb642927cb3ea90cb906e4ab53cd87641c3",
+    "operation": "官方原始图，复制归档asset；未裁剪，已实际打开逐字复核"
+  }
+]

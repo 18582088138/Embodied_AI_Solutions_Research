@@ -1,0 +1,38 @@
+{
+  "classification": "分析敏感性；不是实测或完整TCO/ROI",
+  "energy": {
+    "currency": "RMB",
+    "N": 100,
+    "years": 3,
+    "days_per_year": 260,
+    "hours_per_day": 16,
+    "delta_average_system_power_W": 20,
+    "electricity_RMB_per_kWh": 1,
+    "formula": "N*(W/1000)*hours_per_day*days_per_year*years*price",
+    "total_RMB": 24960.0,
+    "per_robot_RMB": 249.60000000000002
+  },
+  "migration": {
+    "currency": "RMB",
+    "additional_hours": 500,
+    "loaded_rate_RMB_per_hour": 300,
+    "additional_NRE_RMB": 150000
+  },
+  "module_grade_delta": {
+    "currency": "USD",
+    "N": 100,
+    "K26I_MSRP_USD": 450,
+    "K26C_MSRP_USD": 325,
+    "delta_USD": 12500,
+    "sources": [
+      "AMD_K26I",
+      "AMD_K26C"
+    ]
+  },
+  "limitations": [
+    "电功率/运行时数/费率/工时均为假设",
+    "不同币种不混算，未假设汇率",
+    "不同等级模组不保证均符合环境要求",
+    "未计系统BOM、维护、税费、停机、故障/备件、业务收益；不是完整总额"
+  ]
+}

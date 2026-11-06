@@ -1,0 +1,8 @@
+{
+  "01_Hardware_Platform.md": "9ef3c3adbe7bbc9c2cc7d1ed9a957ad3e694465f7de1744dcf910b4ea59d50f5",
+  "02A_GPU_Execution_and_Deployment.md": "9b3c85a3b432671d30c2b1722bc623b37baf9e5e2594b909cf149b210b5f9ace",
+  "02B_RyzenAI_Compilation_and_Quantization.md": "b2c2d379dc757e709f7988fe2b76159b3f4603b3a3d8dafc95d98dae7ef4108a",
+  "02C_Versal_Compiler_and_Runtime.md": "90d327409fd1c475f353162876b61f069b187290264c7a5bd641e2fe6f1d987d",
+  "02_Software_Stack.md": "2b38efc2bd08b7d7892d5cca35bfdc211fa3290bace926caf162fbddf94d0267",
+  "README.md": "12b0c2844c65ff305de7d207a533e3b8e3214bd82e3e08071cd2eef71eaa06cd"
+}

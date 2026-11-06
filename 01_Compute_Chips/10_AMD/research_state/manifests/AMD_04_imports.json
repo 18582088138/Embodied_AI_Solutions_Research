@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Model04_NVIDIA_04_EXP_OPENVLA_README",
+    "url": "https://raw.githubusercontent.com/openvla/openvla/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "Model04_NVIDIA_04_EXP_OPENPI_README",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "Model04_NVIDIA_04_EXP_LEROBOT_README",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "Model04_NVIDIA_04_EXP_OPENPI_LIBERO",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/examples/libero/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "Model04_NVIDIA_04_EXP_ACT_README",
+    "url": "https://raw.githubusercontent.com/tonyzhaozh/act/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "Model04_NVIDIA_04_EXP_DIFFUSION_README",
+    "url": "https://raw.githubusercontent.com/real-stanford/diffusion_policy/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "Model04_NVIDIA_04_DEEP_SMOL_VERIFIED",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/docs/source/policy_smolvla_README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "Model04_NVIDIA_07_DEEP_LEROBOT_FIG",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/media/readme/VLA_architecture.jpg",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  }
+]

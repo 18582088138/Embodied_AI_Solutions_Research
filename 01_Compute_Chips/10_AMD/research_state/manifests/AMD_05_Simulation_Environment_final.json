@@ -1,0 +1,170 @@
+[
+  {
+    "name": "AMD05_Genesis_Blog",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/rocm-genesis/README.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "AMD05_Genesis_Repo",
+    "url": "https://github.com/Genesis-Embodied-AI/Genesis",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "AMD05_Genesis_Docs",
+    "url": "https://genesis-world.readthedocs.io/en/latest/",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "Model05_NVIDIA_08_DEEP_MUJOCO_MJX",
+    "url": "https://mujoco.readthedocs.io/en/stable/mjx.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "AMD05_Gazebo_Docs",
+    "url": "https://gazebosim.org/docs/harmonic/",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "AMD05_O3DE_Concepts",
+    "url": "https://docs.o3de.org/docs/user-guide/interactivity/robotics/concepts-and-components-overview/",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "KRS_Install",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/install.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "AMD05_AUP_Repo",
+    "url": "https://github.com/AMDResearch/aup-learning-cloud",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "AMD05_Mujoco_Overview",
+    "url": "https://mujoco.readthedocs.io/en/stable/overview.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "AMD06_XArm_Sim2Real",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/sim2real-rl-instinct/README.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "Model05_NVIDIA_08_DEEP_MUJOCO_COMPUTATION",
+    "url": "https://mujoco.readthedocs.io/en/stable/computation/index.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "AMD06_XArm_JAX",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/rocm-jax-mujoco/README.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "AMD05_Gazebo_Sensors",
+    "url": "https://gazebosim.org/docs/harmonic/sensors/",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "AMD05_Gazebo_ROS",
+    "url": "https://gazebosim.org/docs/harmonic/ros2_integration/",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "AMD05_Gazebo_Migration",
+    "url": "https://gazebosim.org/docs/harmonic/migrating_gazebo_classic_ros2_packages/",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "AMD05_O3DE_Import",
+    "url": "https://docs.o3de.org/docs/user-guide/interactivity/robotics/importing-robot/",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "AMD05_O3DE_Physics",
+    "url": "https://docs.o3de.org/docs/user-guide/interactivity/physics/",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "AMD05_O3DE_Materials",
+    "url": "https://docs.o3de.org/docs/user-guide/interactivity/physics/nvidia-physx/materials/",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "AMD05_O3DE_Time",
+    "url": "https://docs.o3de.org/docs/user-guide/interactivity/robotics/simulation-time/",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "AMD05_RGL_Repo",
+    "url": "https://github.com/RobotecAI/o3de-rgl-gem",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "AMD05_O3DE_Robotics",
+    "url": "https://o3de.org/industries/robotics-and-simulations/",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  }
+]

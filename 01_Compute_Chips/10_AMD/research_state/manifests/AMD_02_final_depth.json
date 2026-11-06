@@ -1,0 +1,12 @@
+[
+ {"name":"AMD_VitisAI_Gen2_Release","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/release_notes/release_notes_section.html","expected":"html"},
+ {"name":"AMD_VitisAI_Gen2_Requirements","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/setup_and_installation/system_requirements.html","expected":"html"},
+ {"name":"AMD_VitisAI_Gen2_Quantization","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_quantization/model_quantization.html","expected":"html"},
+ {"name":"AMD_VitisAI_VART_App","url":"https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_app_guide.html","expected":"html"},
+ {"name":"KRS_V1_Docs","url":"https://xilinx.github.io/KRS/sphinx/build/html/index.html","expected":"html"},
+ {"name":"KRS_Install","url":"https://xilinx.github.io/KRS/sphinx/build/html/docs/install.html","expected":"html"},
+ {"name":"KRS_Hardware","url":"https://xilinx.github.io/KRS/sphinx/build/html/docs/hardware.html","expected":"html"},
+ {"name":"KRS_Realtime","url":"https://xilinx.github.io/KRS/sphinx/build/html/docs/features/realtime_ros2.html","expected":"html"},
+ {"name":"KRS_License","url":"https://github.com/Xilinx/KRS/blob/main/LICENSE.txt","expected":"html"},
+ {"name":"AMD_Quark_RyzenAI","url":"https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/index.html","expected":"html"}
+]

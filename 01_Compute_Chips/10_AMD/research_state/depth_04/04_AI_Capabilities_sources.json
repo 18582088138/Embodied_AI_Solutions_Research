@@ -1,0 +1,872 @@
+[
+  {
+    "source_id": "AMD04_LeRobot_Blog",
+    "number": "S01",
+    "title": "ROCm/LeRobot π0真实Koch教程",
+    "version": "2025-07-14；MI200微调/Phoenix iGPU",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/rocm-lerobot/README.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_LeRobot_Blog--09a181578cee8bab/index.html",
+    "sha256": "99aa2a428ce270cde43e6626758062604728d5be8310afd67f76f64b56b889de",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_LeRobot_Blog--09a181578cee8bab/original.response",
+    "original_sha256": "1f6eecd26008e81810da5a6d67d108219fb3edab9d4d6f9ef4533a42c27100da",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_LeRobot_Blog--09a181578cee8bab/metadata.json",
+    "collected_at": "2026-11-04T07:42:41.675793+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://rocm.blogs.amd.com/_static/js/performance.js": "HTTPError: HTTP Error 404: Not Found",
+      "https://rocm.blogs.amd.com/_static/js/image-loading.js": "HTTPError: HTTP Error 404: Not Found",
+      "https://cdn.plot.ly/plotly-2.32.0.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://rocm.blogs.amd.com/_static/js/giscus_theme.js?v=5a84b2f4": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD04_MolmoAct_Blog",
+    "number": "S02",
+    "title": "MolmoAct2/Ryzers/Strix Halo教程",
+    "version": "2026-09-30；Max+395；演示仿真/DROID开环",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/molmoact2-ryzers-strix/README.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MolmoAct_Blog--e959dfd55aca08ba/index.html",
+    "sha256": "9e3dce7caac81c4823ddf96c0cc3eafd1be6205de6d61ce10f920ad6ab5cd256",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MolmoAct_Blog--e959dfd55aca08ba/original.response",
+    "original_sha256": "2e5c0d8164e1b5db379ab1a9927651447199adc0103432ce45054ec85287c137",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MolmoAct_Blog--e959dfd55aca08ba/metadata.json",
+    "collected_at": "2026-11-04T07:41:31.645833+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://rocm.blogs.amd.com/_static/js/performance.js": "HTTPError: HTTP Error 404: Not Found",
+      "https://rocm.blogs.amd.com/_static/js/image-loading.js": "HTTPError: HTTP Error 404: Not Found",
+      "https://cdn.plot.ly/plotly-2.32.0.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://rocm.blogs.amd.com/_static/js/giscus_theme.js?v=5a84b2f4": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD04_MicroWorld2",
+    "number": "S03",
+    "title": "Micro-World 2五阶段训练与MI350X性能",
+    "version": "2026-10-21；352×640/四步/三latent；图表冲突保留",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/Micro-World-V2/README.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld2--42328450fe78db3f/index.html",
+    "sha256": "6090170c3945842dc41b8f416fb45b0370e0d44249bb71cf86da9dfb922cfe3f",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld2--42328450fe78db3f/original.response",
+    "original_sha256": "8fda01892230a25e50f711cdd78d3e6adc2a89bfeda803fa3b3312326327d318",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld2--42328450fe78db3f/metadata.json",
+    "collected_at": "2026-11-04T07:50:07.485203+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://rocm.blogs.amd.com/_static/js/performance.js": "HTTPError: HTTP Error 404: Not Found",
+      "https://rocm.blogs.amd.com/_static/js/image-loading.js": "HTTPError: HTTP Error 404: Not Found",
+      "https://cdn.plot.ly/plotly-2.32.0.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://rocm.blogs.amd.com/_static/js/giscus_theme.js?v=5a84b2f4": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_RyzenAI_Hybrid",
+    "number": "S04",
+    "title": "Ryzen AI OGA混合推理",
+    "version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+    "url": "https://ryzenai.docs.amd.com/en/latest/hybrid_oga.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Hybrid--4ca2f1350901715c/index.html",
+    "sha256": "dee1b5b440b986418302f9d2493d0bfb829e3d8f599c0c258b52d547dbfdadcd",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Hybrid--4ca2f1350901715c/original.response",
+    "original_sha256": "e582ba0f65aa502c15306dda91b21e42554c85f591f1e3c54c93d8ec0854f0f2",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Hybrid--4ca2f1350901715c/metadata.json",
+    "collected_at": "2026-11-04T05:26:02.969541+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Compile",
+    "number": "S05",
+    "title": "Gen2 ONNX离线编译",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/compiling.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Compile--34b3e81780846804/index.html",
+    "sha256": "4f0eb1dd5adc28a3edaf5cbe98688df841a7ecc3edf23619c63bb00bff5551b3",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Compile--34b3e81780846804/original.response",
+    "original_sha256": "bbd1347441d54d4d8f9dc09c6f9a96e2eb39385ae0bc22802162039dd6beacde",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Compile--34b3e81780846804/metadata.json",
+    "collected_at": "2026-11-04T05:27:06.876700+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD04_Ryzen_Collection",
+    "number": "S06",
+    "title": "AMD04_Ryzen_Collection",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://huggingface.co/collections/amd/ryzen-ai-190-npu",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzen_Collection--896059084d2234d6/index.html",
+    "sha256": "204bc01fa67bf5a63881ec518c818b293d49f83aa54e8434dc90a4740dbc80c2",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzen_Collection--896059084d2234d6/original.response",
+    "original_sha256": "39a0ebe648c1cc02bfd449701aa223253402471a386c591e566beee008c79d31",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzen_Collection--896059084d2234d6/metadata.json",
+    "collected_at": "2026-11-04T07:44:35.955473+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/7wsEUqJCqjGdEkSt8aWhd.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/Whj5hDiljGxNe2UWCAz8O.webp": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/XNUaWPuMwzuS5EXw-SnLK.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/5QpDtf9npRXe8iYwBJtro.webp": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD04_QwenVL_Card",
+    "number": "S07",
+    "title": "AMD Qwen3-VL-4B 1.9 NPU卡",
+    "version": "rai1.9.0；AWQ G128非对称/卡标BFP16-UINT4",
+    "url": "https://huggingface.co/amd/Qwen3-VL-4B-Instruct_rai_1.9.0_npu",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_QwenVL_Card--5aff46b6c3b6fb83/index.html",
+    "sha256": "21976a94333d6b4169e6595c76977a6673a8504e4d965d07bb26e878321dccdb",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_QwenVL_Card--5aff46b6c3b6fb83/original.response",
+    "original_sha256": "fadf6de5540ea38e38b2368a76c4874d8ae54b75f85902fdb646fa5efa6051cd",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_QwenVL_Card--5aff46b6c3b6fb83/metadata.json",
+    "collected_at": "2026-11-04T07:44:42.476397+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/7wsEUqJCqjGdEkSt8aWhd.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/Whj5hDiljGxNe2UWCAz8O.webp": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/XNUaWPuMwzuS5EXw-SnLK.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/5QpDtf9npRXe8iYwBJtro.webp": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD04_GPTOSS_Verified",
+    "number": "S08",
+    "title": "AMD04_GPTOSS_Verified",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://huggingface.co/amd/gpt-oss-20b_rai_1.9.0_npu",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_GPTOSS_Verified--4ccdf7361c14fa96/index.html",
+    "sha256": "27b86a11382c02bc7625433454f38c70b8a252e69211d5e137cb53c6dde537bf",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_GPTOSS_Verified--4ccdf7361c14fa96/original.response",
+    "original_sha256": "f547de7cc7e824e8aa4d2d9638754bc9951216aebc53a4859baf5ae2b1241d28",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_GPTOSS_Verified--4ccdf7361c14fa96/metadata.json",
+    "collected_at": "2026-11-04T08:06:41.418355+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/7wsEUqJCqjGdEkSt8aWhd.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/Whj5hDiljGxNe2UWCAz8O.webp": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/XNUaWPuMwzuS5EXw-SnLK.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/5QpDtf9npRXe8iYwBJtro.webp": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD04_Videochat_Verified",
+    "number": "S09",
+    "title": "AMD04_Videochat_Verified",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://huggingface.co/amd/VideoChat-Flash-Qwen2_5-7B_InternVideo2-1B_rai_1.9.0_npu",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Videochat_Verified--20f7d4289f893ec9/index.html",
+    "sha256": "87b13dc200c8c6cc29ebe69bf1fb6efe5b662047be8a5655724e8d56f9be72a0",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Videochat_Verified--20f7d4289f893ec9/original.response",
+    "original_sha256": "83122952838d8249c55e65bc53624e27761f790a84796e6aaa85294dc00709c9",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Videochat_Verified--20f7d4289f893ec9/metadata.json",
+    "collected_at": "2026-11-04T08:06:44.270608+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/7wsEUqJCqjGdEkSt8aWhd.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/Whj5hDiljGxNe2UWCAz8O.webp": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/XNUaWPuMwzuS5EXw-SnLK.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/5QpDtf9npRXe8iYwBJtro.webp": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD04_VLM_Readme",
+    "number": "S10",
+    "title": "AMD04_VLM_Readme",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://github.com/amd/RyzenAI-SW/blob/main/LLM-examples/VLM/README.md",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_VLM_Readme--6409939834836085/index.html",
+    "sha256": "0ffef4e62a0ea3e677ffe0959af250cdc41245fec2b8c095dc6edf1229d24e4a",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_VLM_Readme--6409939834836085/original.response",
+    "original_sha256": "fdd47b5c40a8789b796b88b54797c2798f27e14099fed7873a83510abca26fc0",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_VLM_Readme--6409939834836085/metadata.json",
+    "collected_at": "2026-11-04T07:44:57.227902+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_RyzenAI_OGA_Prepare",
+    "number": "S11",
+    "title": "OGA模型准备与产物",
+    "version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+    "url": "https://ryzenai.docs.amd.com/en/latest/oga_model_prepare.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_OGA_Prepare--ee2ea8d09f248077/index.html",
+    "sha256": "975a3f4cd97d443ba923207228f1b86a834603eb4926bb5d6b87ad53a06d4939",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_OGA_Prepare--ee2ea8d09f248077/original.response",
+    "original_sha256": "cbc91ef8e3a769d4e580f9014766f2b6f0585f5249aca77ce5ab5e4a5e01be4b",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_OGA_Prepare--ee2ea8d09f248077/metadata.json",
+    "collected_at": "2026-11-04T05:26:05.818187+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_RyzenAI_Server",
+    "number": "S12",
+    "title": "Lemonade REST接口",
+    "version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+    "url": "https://ryzenai.docs.amd.com/en/latest/llm/server_interface.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Server--73f7f1097aaa3232/index.html",
+    "sha256": "e45ae331bebdd9b26e74e0434cabc03e13186247bcef6a5340166f0057314562",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Server--73f7f1097aaa3232/original.response",
+    "original_sha256": "7a370f1e34decc3ffc512186f928e4830a7e8e3295a0ebdf153406880faea294",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Server--73f7f1097aaa3232/metadata.json",
+    "collected_at": "2026-11-04T05:26:09.110203+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://ryzenai.docs.amd.com/en/latest/_static/_static/llm-table.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "Model04_NVIDIA_04_EXP_OPENPI_README",
+    "number": "S13",
+    "title": "作者官方原件 04 EXP OPENPI README",
+    "version": "原采集2026-11-03导入；作者通用机制，不证明AMD部署；浮动主分支/论文条件见正文",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_OPENPI_RE--93ae0cec36eeb1cd/content.md",
+    "sha256": "567fc57766bd736664f50126cab8145af4071ca16cc5e238f2b11e369169c3b5",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_OPENPI_RE--93ae0cec36eeb1cd/original.response",
+    "original_sha256": "567fc57766bd736664f50126cab8145af4071ca16cc5e238f2b11e369169c3b5",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_OPENPI_RE--93ae0cec36eeb1cd/metadata.json",
+    "collected_at": "2026-11-04T02:05:33.053646+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": []
+  },
+  {
+    "source_id": "AMD04_Molmo2_Collection",
+    "number": "S14",
+    "title": "AMD04_Molmo2_Collection",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://huggingface.co/collections/allenai/molmoact2-models",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Molmo2_Collection--fde6bd2568877a2b/index.html",
+    "sha256": "6973722e4b5c2b4190f67b2e3c412b8c9378da4fbb805d3099b08f62706a9a57",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Molmo2_Collection--fde6bd2568877a2b/original.response",
+    "original_sha256": "e6e46c737cdf76f7e8f09c10baa8d3a5d898139dae284d0b24e779944b435dc5",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Molmo2_Collection--fde6bd2568877a2b/metadata.json",
+    "collected_at": "2026-11-04T08:06:29.430964+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/7wsEUqJCqjGdEkSt8aWhd.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/Whj5hDiljGxNe2UWCAz8O.webp": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/XNUaWPuMwzuS5EXw-SnLK.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/5QpDtf9npRXe8iYwBJtro.webp": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-avatars.huggingface.co/v1/production/uploads/1583857746553-5df7e9e5da6d0311fd3d53f9.jpeg": "asset limit reached; increase --max-assets and rerun",
+      "https://cdn-avatars.huggingface.co/v1/production/uploads/1654821969191-5ffe32d8942cf3533d364449.jpeg": "asset limit reached; increase --max-assets and rerun",
+      "https://cdn-avatars.huggingface.co/v1/production/uploads/6042b2759e905013ae8715ce/2nZ1ObhgoQKmC6-1Tw-ON.png": "asset limit reached; increase --max-assets and rerun",
+      "https://cdn-avatars.huggingface.co/v1/production/uploads/61324ea4e24f4931e104df67/-9VVBX72zxiB2yTDeyJnn.jpeg": "asset limit reached; increase --max-assets and rerun"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD04_Molmo2_Card",
+    "number": "S15",
+    "title": "AMD04_Molmo2_Card",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://huggingface.co/allenai/MolmoAct2",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Molmo2_Card--5d3f2eaab6418a1a/index.html",
+    "sha256": "4a80016cb6156cc81ea8465a7ad22cae30a7d0d4982a4b356e84af038ffe7b1f",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Molmo2_Card--5d3f2eaab6418a1a/original.response",
+    "original_sha256": "75b800bc93133e4226379f78e4979137e37cc5b8be2c328bd910ef5fc28e05a1",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Molmo2_Card--5d3f2eaab6418a1a/metadata.json",
+    "collected_at": "2026-11-04T08:07:28.341016+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/7wsEUqJCqjGdEkSt8aWhd.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/Whj5hDiljGxNe2UWCAz8O.webp": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/XNUaWPuMwzuS5EXw-SnLK.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/5QpDtf9npRXe8iYwBJtro.webp": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD04_Ryzers_Repo",
+    "number": "S16",
+    "title": "AMD04_Ryzers_Repo",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://github.com/AMDResearch/Ryzers",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Repo--0a307a16ee5138ac/index.html",
+    "sha256": "626af7fa99ba63d0e66771c1db7cbb0f11b12da8502450d2510e19f243f55fc5",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Repo--0a307a16ee5138ac/original.response",
+    "original_sha256": "2580d8b7e95e00d488a62448dc248459507f92bf2bd287e9aa7705e2b0a4f098",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Repo--0a307a16ee5138ac/metadata.json",
+    "collected_at": "2026-11-04T07:43:04.623053+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist.",
+      "https://github.com/AMDResearch/Ryzers/raw/main/docs/header.png": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD04_Ryzers_License",
+    "number": "S17",
+    "title": "AMD04_Ryzers_License",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://github.com/AMDResearch/Ryzers/blob/main/LICENSE",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_License--e8818e28234ae546/index.html",
+    "sha256": "40a30809e774ece56aa973354c6b23c8a9b51fb8a70ba82287fa74a68226ec7d",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_License--e8818e28234ae546/original.response",
+    "original_sha256": "679e480201cca976a8129f8c91f9bc1621cb0eebce50a393244830a92b284d67",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_License--e8818e28234ae546/metadata.json",
+    "collected_at": "2026-11-04T08:06:38.469735+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD04_Ryzers_Molmo_Docker",
+    "number": "S18",
+    "title": "AMD04_Ryzers_Molmo_Docker",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://github.com/AMDResearch/Ryzers/blob/main/packages/vla/molmoact2/Dockerfile",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Molmo_Docker--e7350d67f7ac4985/index.html",
+    "sha256": "1799abb897e6e5db8763cdcd53f02bc33b9ee6cce9a8269b702b59693d02ebf8",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Molmo_Docker--e7350d67f7ac4985/original.response",
+    "original_sha256": "9cd9014b8a727b703b1f058ab13a3e07ff1fc94cad770a515053b3da21b2b321",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Molmo_Docker--e7350d67f7ac4985/metadata.json",
+    "collected_at": "2026-11-04T08:10:26.935160+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD04_Ryzers_Molmo_Readme",
+    "number": "S19",
+    "title": "AMD04_Ryzers_Molmo_Readme",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://github.com/AMDResearch/Ryzers/blob/main/packages/vla/molmoact2/README.md",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Molmo_Readme--85865e82ea1b439c/index.html",
+    "sha256": "817d29156bcb94e162b51534358d8ba08105625cff2172375d55a4135117e0c3",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Molmo_Readme--85865e82ea1b439c/original.response",
+    "original_sha256": "f65b112959c6a8d55d0b3f499914cb6eccdb60916035cbf61b60e8560f8ccd12",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Molmo_Readme--85865e82ea1b439c/metadata.json",
+    "collected_at": "2026-11-04T08:10:23.850276+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist.",
+      "https://github.com/AMDResearch/Ryzers/raw/main/packages/vla/molmoact2/assets/interactive_demo.gif": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://github.com/AMDResearch/Ryzers/raw/main/packages/vla/molmoact2/assets/synchronous_demo.gif": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://github.com/AMDResearch/Ryzers/raw/main/packages/vla/molmoact2/assets/cross_embodiment_ur5e.gif": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://github.com/AMDResearch/Ryzers/raw/main/packages/vla/molmoact2/assets/cross_embodiment_xarm6.gif": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://github.com/AMDResearch/Ryzers/raw/main/packages/vla/molmoact2/assets/libero_closedloop.gif": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://github.com/AMDResearch/Ryzers/raw/main/packages/vla/molmoact2/assets/droid_openloop.gif": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Model04_NVIDIA_04_EXP_OPENVLA_README",
+    "number": "S20",
+    "title": "作者官方原件 04 EXP OPENVLA README",
+    "version": "原采集2026-11-03导入；作者通用机制，不证明AMD部署；浮动主分支/论文条件见正文",
+    "url": "https://raw.githubusercontent.com/openvla/openvla/main/README.md",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_OPENVLA_R--4a932803c0397a9f/content.md",
+    "sha256": "ba8e9a2884e38a8000dafc98af4116512e37b0e143dad2f940100482bfd6b75c",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_OPENVLA_R--4a932803c0397a9f/original.response",
+    "original_sha256": "ba8e9a2884e38a8000dafc98af4116512e37b0e143dad2f940100482bfd6b75c",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_OPENVLA_R--4a932803c0397a9f/metadata.json",
+    "collected_at": "2026-11-04T02:05:29.809161+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": []
+  },
+  {
+    "source_id": "Model04_NVIDIA_04_EXP_ACT_README",
+    "number": "S21",
+    "title": "作者官方原件 04 EXP ACT README",
+    "version": "原采集2026-11-03导入；作者通用机制，不证明AMD部署；浮动主分支/论文条件见正文",
+    "url": "https://raw.githubusercontent.com/tonyzhaozh/act/main/README.md",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_ACT_READM--1b21ddbac18a2bb3/content.md",
+    "sha256": "5059f601c1f0409556fd467150b99e93208de5d5594e9049f87ca92b24a5e7a2",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_ACT_READM--1b21ddbac18a2bb3/original.response",
+    "original_sha256": "5059f601c1f0409556fd467150b99e93208de5d5594e9049f87ca92b24a5e7a2",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_ACT_READM--1b21ddbac18a2bb3/metadata.json",
+    "collected_at": "2026-11-04T02:11:30.114193+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": []
+  },
+  {
+    "source_id": "Model04_NVIDIA_04_EXP_DIFFUSION_README",
+    "number": "S22",
+    "title": "作者官方原件 04 EXP DIFFUSION README",
+    "version": "原采集2026-11-03导入；作者通用机制，不证明AMD部署；浮动主分支/论文条件见正文",
+    "url": "https://raw.githubusercontent.com/real-stanford/diffusion_policy/main/README.md",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_DIFFUSION--ede4a40dcadbce0c/content.md",
+    "sha256": "51b6717d694a4ea4b476cf07c64651dc58643402beb0a27cda38a87cc58334b0",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_DIFFUSION--ede4a40dcadbce0c/original.response",
+    "original_sha256": "51b6717d694a4ea4b476cf07c64651dc58643402beb0a27cda38a87cc58334b0",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_DIFFUSION--ede4a40dcadbce0c/metadata.json",
+    "collected_at": "2026-11-04T02:11:32.692424+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": []
+  },
+  {
+    "source_id": "Model04_NVIDIA_04_EXP_LEROBOT_README",
+    "number": "S23",
+    "title": "作者官方原件 04 EXP LEROBOT README",
+    "version": "原采集2026-11-03导入；作者通用机制，不证明AMD部署；浮动主分支/论文条件见正文",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/README.md",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_LEROBOT_R--ff1eedfea7364372/content.md",
+    "sha256": "19f89b043842b99c1a1be12e918f37821a98077db95e048c199e715419c3e155",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_LEROBOT_R--ff1eedfea7364372/original.response",
+    "original_sha256": "19f89b043842b99c1a1be12e918f37821a98077db95e048c199e715419c3e155",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_LEROBOT_R--ff1eedfea7364372/metadata.json",
+    "collected_at": "2026-11-04T02:05:36.095291+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": []
+  },
+  {
+    "source_id": "AMD04_MicroWorld_Card",
+    "number": "S24",
+    "title": "AMD04_MicroWorld_Card",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://huggingface.co/amd/Micro-World-2",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld_Card--1617a6ef34937e7e/index.html",
+    "sha256": "2dc517cc015259c13f4b9e1b1716e17a41f540415f128f58e9972afe78d2e5f8",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld_Card--1617a6ef34937e7e/original.response",
+    "original_sha256": "6178cedef27efec7c6ce8dc8a453872bf816468d3b41e95dd9d8bc9005a5a19a",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld_Card--1617a6ef34937e7e/metadata.json",
+    "collected_at": "2026-11-04T07:51:32.066540+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/7wsEUqJCqjGdEkSt8aWhd.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/Whj5hDiljGxNe2UWCAz8O.webp": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/XNUaWPuMwzuS5EXw-SnLK.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/5QpDtf9npRXe8iYwBJtro.webp": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD04_MicroWorld_Code",
+    "number": "S25",
+    "title": "AMD04_MicroWorld_Code",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://github.com/AMD-AGI/Micro-World",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld_Code--fa5d384f78ee7038/index.html",
+    "sha256": "a0ff7f3cbab1712bfe0458bbc8853abbf559eee48f43959bef987d3a9986555e",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld_Code--fa5d384f78ee7038/original.response",
+    "original_sha256": "eb3ea0fccb30fa04cee1810b07a741f48a54772e3c87a6d1986d1e92ff755e92",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld_Code--fa5d384f78ee7038/metadata.json",
+    "collected_at": "2026-11-04T08:06:24.909432+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist.",
+      "https://avatars.githubusercontent.com/u/162090453?s=60&v=4": "asset limit reached; increase --max-assets and rerun",
+      "https://camo.githubusercontent.com/a43698d59deebec433bb700b5e2de6953acd6b05a9a79d8b5f6baf9d1517af94/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f322e30253230546563686e6963616c2d426c6f672d726564": "asset limit reached; increase --max-assets and rerun",
+      "https://camo.githubusercontent.com/17be193351ed732d1f7df266d924fcdaabf38bd8f52d892cc76e59a004e88fb7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f312e30253230546563686e6963616c2d426c6f672d726564": "asset limit reached; increase --max-assets and rerun",
+      "https://camo.githubusercontent.com/9dc944206866e78b401bb7127855145d5db08add82861505388aa12764988a24/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f25463025394625413425393725323048756767696e67253230466163652d322e30204d6f64656c2d626c7565": "asset limit reached; increase --max-assets and rerun",
+      "https://camo.githubusercontent.com/812ff2d45fa5f5f6576cfd77cb6a9c334233f3ca4884075893eda31415ddc5b9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f25463025394625413425393725323048756767696e67253230466163652d312e30253230543257204d6f64656c2d626c7565": "asset limit reached; increase --max-assets and rerun",
+      "https://camo.githubusercontent.com/cbb51a9f7c429997ed69ddbbc183a497cb598b048837c409f11fc48ba07024d7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f25463025394625413425393725323048756767696e67253230466163652d312e30253230493257204d6f64656c2d626c7565": "asset limit reached; increase --max-assets and rerun",
+      "https://camo.githubusercontent.com/73f1facf87f782b6f217f8eab1e157039fe12c5fe03b9c66ece05f561387c81a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f25463025394625413425393725323048756767696e67253230466163652d322e3025323043617073616963696e253230446174617365742d626c7565": "asset limit reached; increase --max-assets and rerun",
+      "https://camo.githubusercontent.com/581c498614492af4bfeeff43e73afc934e24b31b397a9c2e3c0927b43f6162b5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f25463025394625413425393725323048756767696e67253230466163652d312e302532304d696e656372616674253230446174617365742d626c7565": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/527504601-01ecff57-5fc8-40c0-b7c1-1c72525b598c.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81Mjc1MDQ2MDEtMDFlY2ZmNTctNWZjOC00MGMwLWI3YzEtMWM3MjUyNWI1OThjLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY4MzMzOTA0ZGQ4ODAwNDMxNTU5ODAzNzhmZjc2ZTgwMGU3MzI5OTRiZmQwNDg2NWVlNDI1ZGNmZDc2MGI4M2EmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.yeI6gkXkE7Zvl3CR_N6x-wwGeeNlYOCT29xDBnUrtBc": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/527504595-0156af1f-5fe2-4276-9cec-ba97b2476018.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81Mjc1MDQ1OTUtMDE1NmFmMWYtNWZlMi00Mjc2LTljZWMtYmE5N2IyNDc2MDE4Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ3YTA5ODhhZWIzZjgwNjZhZGQ2MzgxZjRiNDc3NWU2Y2Y0ZWE2OTZmN2M4N2Q2ZjdiYTdkODQwNjI4MWFhMzUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.BIVQIRlyJgmjBU3wNYWzna6jCRG9014qGnxj8xNglFk": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/527504593-d27268e5-9fbc-49f7-b3ca-882fb58f21b6.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81Mjc1MDQ1OTMtZDI3MjY4ZTUtOWZiYy00OWY3LWIzY2EtODgyZmI1OGYyMWI2Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVmNGZjZjc1M2EwYzc0NmRmYTY3M2JlN2E3YzAzYzI5ZWRhNjcyYjU3MmM1NDRmNzUzNzAzNzZhNDFhMDgzMDQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.cqHMBdf7VsT80InXSXrvPCLI2sZpbpJBVCUoVQBRjfM": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/527504592-aff52ef1-0c9c-4a03-961f-6aa5361b636d.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81Mjc1MDQ1OTItYWZmNTJlZjEtMGM5Yy00YTAzLTk2MWYtNmFhNTM2MWI2MzZkLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVhODYxMmYwZjAyNWYzNWQyZDVmNjA5ZjQ0NDJlOTE0ZTdiNDRiOTM2OTY2ZjczMmY0ZDllZGNhZGJiNDAzZjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.qm7-fspN6jXY4Y-bslFNVFEHhO3cM_y-jXRdpov5xCA": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/527504599-b5d37d89-5cf0-40a5-8504-61f68e944fb9.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81Mjc1MDQ1OTktYjVkMzdkODktNWNmMC00MGE1LTg1MDQtNjFmNjhlOTQ0ZmI5Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNjNTNiYzI5M2I1MjJlNTE4MzQ0ZTQ1ZWQ2Yzk4MjgyM2FhMmMwMzk2NWUyNWVmMzU2MzdjZDQ1OTIwNzkyY2ImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.RCXhO3NqFdyRLpG1wSV9eKQdosZXRAdENbLCPtJ8JVA": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/527504597-1b0d50c8-a037-4671-a146-b77672260322.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81Mjc1MDQ1OTctMWIwZDUwYzgtYTAzNy00NjcxLWExNDYtYjc3NjcyMjYwMzIyLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFhN2M5YmIwM2E0OTI2MTRiMjU0MzA4NDlkMDBmMmM3MzA3MTJlY2VmYjViYjc0ZDQwOTVjZTFiNTIyZDAyMjgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.eMK4rADDXqKL3SBLYYIQF2fvMDEfmljW6iSXJqlOH4s": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/527504521-b13a14d7-5882-42dd-872b-8f61b9ab7060.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81Mjc1MDQ1MjEtYjEzYTE0ZDctNTg4Mi00MmRkLTg3MmItOGY2MWI5YWI3MDYwLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWIxMDU0ZjM3MGE0NGQxYTlkZmRlN2UyMmZkMjJjMTRmM2U2OTNjMjE0YjJjZThjMjRmYWJlYWU3YzNlMDQ4NzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.Y71p3Zsfx4yuNL1VCyke-_0mAz0Pu7w12PWYkIhKGY4": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/527504522-1218bbda-7993-4075-881b-2e16002acda8.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81Mjc1MDQ1MjItMTIxOGJiZGEtNzk5My00MDc1LTg4MWItMmUxNjAwMmFjZGE4Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTcyMDUxNjdhYmE1ZjhjOTRiZGI1ZmFlYjhjYzcwYmMyMmRlZDg0YjRhNmFkNjFiNzAxMmM2ZTQwMjNlZmU0MmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.0XHX1BsyeuQQm-ayeWuqxpXDOhzHcMhPC_MGbEX69EA": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/527504523-31471313-d94b-4936-b23b-12e7f89fda87.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81Mjc1MDQ1MjMtMzE0NzEzMTMtZDk0Yi00OTM2LWIyM2ItMTJlN2Y4OWZkYTg3Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQzNmE1NTQ2MjNiYWIxYzQ3YTBjNTU1MDY5Mjk1NjM2NzBjODRiZWI4NTM3N2IyZmI1YzIyMWU2ZGVlZWMyMjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.9Rs9dtkQmGNlt2ffjkV1M1clvyYC-cbfTKCpUb7KaAs": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/527504594-25ec4ba8-4f65-4b26-8966-13437647f240.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81Mjc1MDQ1OTQtMjVlYzRiYTgtNGY2NS00YjI2LTg5NjYtMTM0Mzc2NDdmMjQwLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc3NDgxYTBlZDdlZTE0ZmU0ZDAwMGE4ODdhMzBmMjEzMGRjNGFmNDNmZWIwOTY4NzliYmIwNWNlNDJmNWUxMGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.FpnMyU3IODnCQUpDlaZ62UCBGC8jDcJmvZcxnp-eur0": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/527504600-a92149a8-6c4d-4b9a-8ada-81b47b4c81e7.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81Mjc1MDQ2MDAtYTkyMTQ5YTgtNmM0ZC00YjlhLThhZGEtODFiNDdiNGM4MWU3Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFkMmIwZDliZGUxMThkN2JiOTQ2NDQ0Y2RmMTRkZTQzNGI2NjQ4MDE2ZGRlOTNlZDUxMmFhODkyN2M5ZjQ2OTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.CNI4Losep0sUPKIXIGDOUFN71BFjs5q2EgQYW_0-gjw": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/527504591-67b35842-04fd-4a0f-9a5c-6914d9f77e66.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81Mjc1MDQ1OTEtNjdiMzU4NDItMDRmZC00YTBmLTlhNWMtNjkxNGQ5Zjc3ZTY2Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFmOTUzNmZkOGViNzk5ZTEzODliM2MxOWU4MGM1NjgyM2JkZGYxYWQyNjczMzJjOTA4ZDE1YjI4ZWE1YWVhM2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.Do8Hac0AnUllyEttmpJniHgTKJSmE8mb2SVXrkgIN94": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/527504589-d4a46b8b-022d-4fca-964f-c1d477111f4e.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81Mjc1MDQ1ODktZDRhNDZiOGItMDIyZC00ZmNhLTk2NGYtYzFkNDc3MTExZjRlLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRhMWU2NDAxNzUyODdkNWExZWUxNTI4NmZlYzgxZDRiYjdiMWFlZmYxM2FmOGM2ODk3N2JmZDdkYmY3M2I1NTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.1KQO3N7vdCm9fbIbj235cwI1xWwMjWYEdMTUaPBiwKY": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/527504598-b6f77a1a-58ce-43db-b6c5-efe09b7a9142.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81Mjc1MDQ1OTgtYjZmNzdhMWEtNThjZS00M2RiLWI2YzUtZWZlMDliN2E5MTQyLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc3MDczY2FkYzVhN2I3MWU1YzFiMzhhYmYzOTc5OTE2MzkzNmViY2JkMGU0ZTgyY2QwMWQ3MjU5YmE2MGY3OWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.bwiazRaCP0t1iuZh9WUrX3nQCP5QzhxT00x9oC6XGrY": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/527504588-c9225344-8b0b-4249-ab77-c8e5c4dddacc.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81Mjc1MDQ1ODgtYzkyMjUzNDQtOGIwYi00MjQ5LWFiNzctYzhlNWM0ZGRkYWNjLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWFhNGVhZGI3MmNiYzFlYjJlMTRlMzVmMWQ3YzVmODRhZjI5Y2FhNzkwNzFiZjFkNjA1NGQ4ODkzOGFhYjI4YjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.Up4wxGu1aaj5qu2NsfACoVhe9879wHhtHJ3-u7RAiL4": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/529141657-f135d5c9-0379-4ace-bf22-1671cef261af.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81MjkxNDE2NTctZjEzNWQ1YzktMDM3OS00YWNlLWJmMjItMTY3MWNlZjI2MWFmLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ0ODBjNzU1ZmNjMGQ5NWRjOWYwZGZkNDQ2ZTFmZmNkMGExODdlMTMwOGQ3ZDYxZDczN2MxZmFiMmEwODkzYmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.36hwcmFXdiIjC_8rdJWpyKhLey9oHNDR-nHUSJBF_sY": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/529141658-2088d2da-95a6-4908-b7a2-f60458281b5e.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81MjkxNDE2NTgtMjA4OGQyZGEtOTVhNi00OTA4LWI3YTItZjYwNDU4MjgxYjVlLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQzYTg3ODk1YTE2YTMyOWIxMTQ0ZTBhMGExOWExYzVkYWYwZGM3YmQxZDU5YWIyZjMxYjBmNWI3YzkwNGVmOTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.EcMJAWLtMRaWr14yUwlnW1t33tWvxQfcq4L3d7JZc6k": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/529141711-9e1185cc-5480-4059-8643-7b6e08fff0c1.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81MjkxNDE3MTEtOWUxMTg1Y2MtNTQ4MC00MDU5LTg2NDMtN2I2ZTA4ZmZmMGMxLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY0YWFiM2YxNmZhMDI0ZjI1MjkzMTFjMmI5N2QxNDEwZTZiNDExN2JkZGYxMTk1YjA2ZTJjMzM1YWZlMmU2MjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.vUn6e7LWKRBLm2iJKwrezZgg03AqAug_hdn7lkIuD6c": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/529141713-c75d7344-7016-494e-be00-103d28e43738.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81MjkxNDE3MTMtYzc1ZDczNDQtNzAxNi00OTRlLWJlMDAtMTAzZDI4ZTQzNzM4Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAwN2JlYmNkY2U5YjIyZWIwYWUyMDcxZGE1NWYyNDI3ZTc3NTQxMzUxMzYyZTMzZDBmYjg3MjRjZWJkMzg5ZTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.4cUnNvy_1DPyk8WpwEk4gRpgGY_U_Hw4UYZZfvUMMXA": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/529141712-f6da97af-0d3a-4b6a-b80f-5ae3c03ccbf6.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81MjkxNDE3MTItZjZkYTk3YWYtMGQzYS00YjZhLWI4MGYtNWFlM2MwM2NjYmY2Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTczNzAyOGZlNTg5NTdhMzk0M2VjNTkyM2MxYWJiMDc1ZjY2NThiNzFhNzRhOGM0ODE2YjRhMDFjNzY5NWE1NWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.fNwt_-JI9Kw56NYZyNTWgotcOdYZkqmgCWxPRRL_znA": "asset limit reached; increase --max-assets and rerun",
+      "https://private-user-images.githubusercontent.com/38717608/529141710-b76a8aca-d1da-47ba-88e9-3da36f64429d.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTM3Nzk4ODMsIm5iZiI6MTc5Mzc3OTU4MywicGF0aCI6Ii8zODcxNzYwOC81MjkxNDE3MTAtYjc2YThhY2EtZDFkYS00N2JhLTg4ZTktM2RhMzZmNjQ0MjlkLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjExMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMTA0VDA4MDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk1MzdlNDU5MmEwNTA3YmJkM2FkOThiY2IwMmUzODY5NDU5MTJjNDM4ODgxMWEyYmNmMmM1MDI1OTUwNzNiMGUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCJ9.Y91ETTCdV7AdRODx1WH3rqnyWaoOJj8K7k39u0TVyaY": "asset limit reached; increase --max-assets and rerun"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD04_MicroWorld_Data",
+    "number": "S26",
+    "title": "AMD04_MicroWorld_Data",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://huggingface.co/datasets/amd/Micro-World-Capsaicin",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld_Data--431ce29883836091/index.html",
+    "sha256": "774d645c09546dd8b48928998e9b6a018c3d97f147a044313247a9567df65b02",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld_Data--431ce29883836091/original.response",
+    "original_sha256": "3c947dcec37beb31aa4bab581add48c5a694fc0a9ba1782e1db83b7d97c846f0",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld_Data--431ce29883836091/metadata.json",
+    "collected_at": "2026-11-04T08:05:40.567875+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/7wsEUqJCqjGdEkSt8aWhd.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/Whj5hDiljGxNe2UWCAz8O.webp": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/XNUaWPuMwzuS5EXw-SnLK.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn-uploads.huggingface.co/production/uploads/5f17f0a0925b9863e28ad517/5QpDtf9npRXe8iYwBJtro.webp": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_gallery_pitch_allow_a003_v03.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_gallery_pitch_allow_a004_v00.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_gallery_pitch_allow_a004_v01.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_gallery_pitch_allow_a004_v02.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_gallery_pitch_allow_a004_v03.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_gallery_pitch_allow_a005_v00.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_gallery_pitch_allow_a005_v01.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_gallery_pitch_allow_a005_v02.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_gallery_pitch_allow_a005_v03.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_gallery_pitch_allow_a006_v00.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_gallery_pitch_allow_a006_v01.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_gallery_pitch_allow_a006_v02.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_gallery_pitch_allow_a006_v03.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_gallery_pitch_allow_a007_v00.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_gallery_pitch_allow_a007_v01.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_gallery_pitch_allow_a007_v02.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_gallery_pitch_allow_a007_v03.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_sponza_obj_pitch_allow_a008_v00.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_sponza_obj_pitch_allow_a008_v01.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_sponza_obj_pitch_allow_a008_v02.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_sponza_obj_pitch_allow_a008_v03.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_sponza_obj_pitch_allow_a009_v00.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_sponza_obj_pitch_allow_a009_v01.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_sponza_obj_pitch_allow_a009_v02.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_sponza_obj_pitch_allow_a009_v03.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_sponza_obj_pitch_allow_a010_v00.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_sponza_obj_pitch_allow_a010_v01.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_sponza_obj_pitch_allow_a010_v02.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_sponza_obj_pitch_allow_a010_v03.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/allow_sponza_obj_pitch_allow_a012_v03.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c0_pitch_bistro_t04_a075_v04.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c0_pitch_bistro_t05_a076_v05.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c0_pitch_bistro_t10_a075_v10.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c0_pitch_bistro_t11_a076_v11.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c1_pitch_bistro_t00_a000_v00.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c1_pitch_bistro_t01_a001_v01.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c1_pitch_bistro_t02_a002_v02.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c1_pitch_bistro_t03_a003_v03.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c1_pitch_bistro_t04_a004_v04.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c1_pitch_bistro_t05_a005_v05.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c1_pitch_bistro_t06_a063_v06.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c1_pitch_bistro_t07_a064_v07.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c1_pitch_bistro_t08_a065_v08.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c1_pitch_bistro_t09_a000_v09.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c1_pitch_bistro_t10_a001_v10.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c1_pitch_bistro_t11_a002_v11.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c2_pitch_bistro_t00_a006_v00.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c2_pitch_bistro_t01_a007_v01.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c2_pitch_bistro_t02_a008_v02.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c2_pitch_bistro_t03_a009_v03.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c2_pitch_bistro_t04_a010_v04.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c2_pitch_bistro_t05_a011_v05.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c2_pitch_bistro_t06_a066_v06.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c2_pitch_bistro_t07_a067_v07.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c2_pitch_bistro_t08_a068_v08.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c2_pitch_bistro_t09_a069_v09.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c2_pitch_bistro_t10_a006_v10.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r0c2_pitch_bistro_t11_a007_v11.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c0_pitch_bistro_t00_a012_v00.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c0_pitch_bistro_t01_a013_v01.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c0_pitch_bistro_t02_a014_v02.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c0_pitch_bistro_t03_a015_v03.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c0_pitch_bistro_t04_a016_v04.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c0_pitch_bistro_t05_a017_v05.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c0_pitch_bistro_t06_a070_v06.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c0_pitch_bistro_t07_a071_v07.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c0_pitch_bistro_t08_a072_v08.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c0_pitch_bistro_t09_a073_v09.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c0_pitch_bistro_t10_a012_v10.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c0_pitch_bistro_t11_a013_v11.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c1_pitch_bistro_t00_a018_v00.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c1_pitch_bistro_t01_a019_v01.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c1_pitch_bistro_t02_a020_v02.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c1_pitch_bistro_t03_a018_v03.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c1_pitch_bistro_t04_a019_v04.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c1_pitch_bistro_t05_a020_v05.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c1_pitch_bistro_t06_a018_v06.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c1_pitch_bistro_t07_a019_v07.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c1_pitch_bistro_t08_a020_v08.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c1_pitch_bistro_t09_a018_v09.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c1_pitch_bistro_t10_a019_v10.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c1_pitch_bistro_t11_a020_v11.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c2_pitch_bistro_t00_a084_v00.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c2_pitch_bistro_t01_a085_v01.mp4": "asset limit reached; increase --max-assets and rerun",
+      "https://huggingface.co/datasets/amd/Micro-World-Capsaicin/resolve/46223cd3b315cf8e409a4914368e2d7627571db9/200f/4k_videos/be_r1c2_pitch_bistro_t02_a086_v02.mp4": "asset limit reached; increase --max-assets and rerun"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD04_Vitis_Models",
+    "number": "S27",
+    "title": "Vitis AI6.3 VEK385支持表入口",
+    "version": "2026-11-02更新；xlsx需账户/EULA，本次未取表",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/supported_models.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Vitis_Models--6bca63e078b1a9df/index.html",
+    "sha256": "47e1750d69b0c6ae4648eb53adbaebe34342702141bf494b12b8e7fba1379ad6",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Vitis_Models--6bca63e078b1a9df/original.response",
+    "original_sha256": "a83f3c7369a13e286793ed1a6f8dcad788fa4250199940afb1c4e5bab1cbc205",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Vitis_Models--6bca63e078b1a9df/metadata.json",
+    "collected_at": "2026-11-04T07:44:30.019128+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Release",
+    "number": "S28",
+    "title": "Vitis AI Gen2 6.3 release notes",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/release_notes/release_notes_section.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Release--8269bceb49539365/index.html",
+    "sha256": "3b06b8962f5c0e640b7294521b2a50fa82eb2c8570d42706ef5a53d88eb6ab12",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Release--8269bceb49539365/original.response",
+    "original_sha256": "08759b78615c4165d98e2f5c5ddd2659b1f9f22cb107f349322b67706b088cea",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Release--8269bceb49539365/metadata.json",
+    "collected_at": "2026-11-04T05:30:09.117297+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Reference",
+    "number": "S29",
+    "title": "VEK385参考系统架构",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/integrated_system_reference%20design/system.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Reference--1f9caa805643de0a/index.html",
+    "sha256": "7887121c06f22e1c0783d20a6c4adbceaabe16970247584fd8a292e257e4c8d0",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Reference--1f9caa805643de0a/original.response",
+    "original_sha256": "1220a46cd4dcd906a95fef04e5892758dc86f181194a648703cba1a926ff75d5",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Reference--1f9caa805643de0a/metadata.json",
+    "collected_at": "2026-11-04T05:27:22.395885+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_CPU_Partition",
+    "number": "S30",
+    "title": "Gen2编译期CPU分区",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/cpu_partition.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_CPU_Partit--5643d40f79a4557e/index.html",
+    "sha256": "d8a9a3e1e412607195e3b2cdde5b3d2187744fda22c55549d3c7ea79a334c83c",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_CPU_Partit--5643d40f79a4557e/original.response",
+    "original_sha256": "31053a3151f059d7ccbacbfe2a74f98cd5fdca851e57403082dcf982b224a91f",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_CPU_Partit--5643d40f79a4557e/metadata.json",
+    "collected_at": "2026-11-04T05:27:34.423957+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VAI_Partition_Analyzer",
+    "number": "S31",
+    "title": "AMD_VAI_Partition_Analyzer",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/ai_analyzer/partitioning.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Partition_Analyzer--2e258ca85c504c08/index.html",
+    "sha256": "e8201f2fca53b0fe4cd0a47c24df63442ab615460afff434d97ea1a0e0c53e35",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Partition_Analyzer--2e258ca85c504c08/original.response",
+    "original_sha256": "7d5f30974db57d818a83ad46a4240059b612b6cd3e28c78f03dd0f428d63ca12",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Partition_Analyzer--2e258ca85c504c08/metadata.json",
+    "collected_at": "2026-11-04T06:30:30.683052+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_Quark_SmoothQuant",
+    "number": "S32",
+    "title": "AMD_Quark_SmoothQuant",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://quark.docs.amd.com/latest/onnx/accuracy_algorithms/sq.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_SmoothQuant--5aca02ace82f0db0/index.html",
+    "sha256": "8207d8c8d3d06cadfef178fabc9984d4648fc3e50e4a4b1cbbfebb44a86aba6e",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_SmoothQuant--5aca02ace82f0db0/original.response",
+    "original_sha256": "12515b021dad8102ab9833d2ec5a7b5171081377da5112c9101716cf7ca16c8f",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_SmoothQuant--5aca02ace82f0db0/metadata.json",
+    "collected_at": "2026-11-04T06:24:54.876884+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://quark.docs.amd.com/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font",
+      "https://quark.docs.amd.com/latest/_static/qk-install-selector.css?v=410c81a9": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_Quark_Search",
+    "number": "S33",
+    "title": "AMD_Quark_Search",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://quark.docs.amd.com/latest/onnx/user_guide_auto_search.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_Search--eceb0738118bf4ec/index.html",
+    "sha256": "03a41bbd54e9e2b2acf4cbd267c883b68c1d4e6271923442276072034d9077b0",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_Search--eceb0738118bf4ec/original.response",
+    "original_sha256": "c7968b814a86b5db078104b8130c827afa2719f5af40d73a98efada786c170a1",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_Search--eceb0738118bf4ec/metadata.json",
+    "collected_at": "2026-11-04T06:24:56.772161+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://quark.docs.amd.com/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font",
+      "https://quark.docs.amd.com/latest/_static/qk-install-selector.css?v=410c81a9": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_Quark_A16W8",
+    "number": "S34",
+    "title": "AMD_Quark_A16W8",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_a8w8_and_a16w8_quantize.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_A16W8--52bdde32508629c8/index.html",
+    "sha256": "efd43934da1e4d119485d26b777fa593ea89c9b382aca106f9b67fa8188a40a5",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_A16W8--52bdde32508629c8/original.response",
+    "original_sha256": "46847e12449d6fa90ce05f686e14ecc409bc08a18f833cf6de0e0de81aaf4afb",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_A16W8--52bdde32508629c8/metadata.json",
+    "collected_at": "2026-11-04T06:24:49.862379+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://quark.docs.amd.com/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font",
+      "https://quark.docs.amd.com/latest/_static/qk-install-selector.css?v=410c81a9": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_HIP_Memory",
+    "number": "S35",
+    "title": "HIP统一内存与设备条件",
+    "version": "HIP/HIPIFY latest快照；10.1矩阵HIP7.16.0、HIPIFY10.1.0；硬件特性有条件",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/unified_memory.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Memory--37f458b46d3d4e56/index.html",
+    "sha256": "dc468754ef2c65237c74fddd244fec6b27fd57e7328b1864c061f5c7c4640648",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Memory--37f458b46d3d4e56/original.response",
+    "original_sha256": "8fe2886a6a98da4892388c615ded0a6bad1ddf759f33a16cb0d6127fdf46d5e8",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Memory--37f458b46d3d4e56/metadata.json",
+    "collected_at": "2026-11-04T05:25:00.011054+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://rocm.docs.amd.com/projects/HIP/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_HIP_Coherence",
+    "number": "S36",
+    "title": "AMD_HIP_Coherence",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/coherence_control.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Coherence--eb09a8ddbe431291/index.html",
+    "sha256": "5bb0fbc162b76fd260931a5057557c6e844809171b323a9a1087c88014b8aea7",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Coherence--eb09a8ddbe431291/original.response",
+    "original_sha256": "daf4c5034495cb24b1239abecb4550f5251aba785444f10f39068eea03a63297",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Coherence--eb09a8ddbe431291/metadata.json",
+    "collected_at": "2026-11-04T06:10:47.718235+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://rocm.docs.amd.com/projects/HIP/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_ROCm_Isolation",
+    "number": "S37",
+    "title": "AMD_ROCm_Isolation",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://rocm.docs.amd.com/en/latest/reference/system-optimization/gpu-isolation.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Isolation--1cdb1b1fdce406a8/index.html",
+    "sha256": "8943f88771b4564bbe431878f76ac3056f8079b8a9db6f03920808fb93de2b0b",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Isolation--1cdb1b1fdce406a8/original.response",
+    "original_sha256": "2732a40522067d9b42610d2ae31fbd5307f5e3da3bfa11fb6c892c236f645d2f",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Isolation--1cdb1b1fdce406a8/metadata.json",
+    "collected_at": "2026-11-04T06:11:01.430319+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://rocm.docs.amd.com/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  }
+]

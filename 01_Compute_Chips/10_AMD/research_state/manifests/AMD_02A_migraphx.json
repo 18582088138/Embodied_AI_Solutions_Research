@@ -1,0 +1,26 @@
+[
+  {
+    "name": "AMD_MIGraphX_Parse",
+    "url": "https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/tutorials/parse-load-save-tutorial.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_MIGraphX_Tune",
+    "url": "https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/how-to/model-performance-tuning.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_MIGraphX_Python",
+    "url": "https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/reference/MIGraphX-py.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  }
+]

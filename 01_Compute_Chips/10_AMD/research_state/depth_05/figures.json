@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "scene",
+    "opened": true,
+    "source_id": "AMD05_Genesis_Blog",
+    "source_url": "https://rocm.blogs.amd.com/_images/Scene_content.png",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/05/scene.png",
+    "sha256": "c9cd6bc68bb6a9f248785d886c4400404dd497ca9c99c39d23f1a9fd7e266530",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Blog--833e99588fd2f430/assets/images/0df959a2fd8d67e4769f99dc.png",
+    "original_sha256": "c9cd6bc68bb6a9f248785d886c4400404dd497ca9c99c39d23f1a9fd7e266530",
+    "operation": "官方原始图，复制归档asset；未裁剪，已实际打开逐字复核"
+  },
+  {
+    "slug": "entity",
+    "opened": true,
+    "source_id": "AMD05_Genesis_Blog",
+    "source_url": "https://rocm.blogs.amd.com/_images/Entity.png",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/05/entity.png",
+    "sha256": "0e2eec1cf3a0255e35cb42cab9596f7c0cc268a7a04e65f19d8eddf334e1ec5d",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Blog--833e99588fd2f430/assets/images/bab3132cdcab75699dc8ca8f.png",
+    "original_sha256": "0e2eec1cf3a0255e35cb42cab9596f7c0cc268a7a04e65f19d8eddf334e1ec5d",
+    "operation": "官方原始图，复制归档asset；未裁剪，已实际打开逐字复核"
+  },
+  {
+    "slug": "parallel",
+    "opened": true,
+    "source_id": "AMD05_Genesis_Blog",
+    "source_url": "https://rocm.blogs.amd.com/_images/parallel.png",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/05/parallel.png",
+    "sha256": "58ff8a6902587fa35cf04ed76fc67f57d856cde656836bd6c837bc56cff1c811",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Blog--833e99588fd2f430/assets/images/88c13b86fdcdb21ae03fcf4d.png",
+    "original_sha256": "58ff8a6902587fa35cf04ed76fc67f57d856cde656836bd6c837bc56cff1c811",
+    "operation": "官方原始图，复制归档asset；未裁剪，已实际打开逐字复核"
+  },
+  {
+    "slug": "urdf_fix",
+    "opened": true,
+    "source_id": "AMD05_O3DE_Import",
+    "source_url": "https://docs.o3de.org/images/user-guide/gems/ros2/URDF_fixing_result.png",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/05/urdf_fix.png",
+    "sha256": "2f5247075f30012d833db9c0e3c0df2c97d3181158a2fa7f453fcbc2956604d0",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Import--512508c9491343cf/assets/images/71a89bc19062f9b4023b660d.png",
+    "original_sha256": "2f5247075f30012d833db9c0e3c0df2c97d3181158a2fa7f453fcbc2956604d0",
+    "operation": "官方原始图，复制归档asset；未裁剪，已实际打开逐字复核"
+  },
+  {
+    "slug": "mesh_list",
+    "opened": true,
+    "source_id": "AMD05_O3DE_Import",
+    "source_url": "https://docs.o3de.org/images/user-guide/gems/ros2/URDF_importer_mesh_list.png",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/05/mesh_list.png",
+    "sha256": "90b651a91d13c887390a78edc2ab8eec0a149aeecd902b899bb82dcd3fc8ce13",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Import--512508c9491343cf/assets/images/46c52de6d608713abb4cae77.png",
+    "original_sha256": "90b651a91d13c887390a78edc2ab8eec0a149aeecd902b899bb82dcd3fc8ce13",
+    "operation": "官方原始图，复制归档asset；未裁剪，已实际打开逐字复核"
+  },
+  {
+    "slug": "xarm_controller",
+    "opened": true,
+    "source_id": "AMD06_XArm_Sim2Real",
+    "source_url": "https://rocm.blogs.amd.com/_images/controller_pipeline.png",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/05/xarm_controller.png",
+    "sha256": "6e4f391b57404d29b77e4c94ca27f172f503ecf3625e1951843bfab7a1415ee2",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_Sim2Real--37d8fa71a673eba0/assets/images/0d0042ced7d420d5a40d4f7f.png",
+    "original_sha256": "6e4f391b57404d29b77e4c94ca27f172f503ecf3625e1951843bfab7a1415ee2",
+    "operation": "官方原始图，复制归档asset；未裁剪，已实际打开逐字复核"
+  }
+]

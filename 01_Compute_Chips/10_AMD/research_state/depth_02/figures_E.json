@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "02E_realtime",
+    "source_id": "KRS_Realtime",
+    "source_url": "https://xilinx.github.io/KRS/sphinx/build/html/_images/realtime.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Realtime--4e8d6f22b87222a2/assets/images/3bdf2ec689f0bf4055afd9e9.png",
+    "original_sha256": "94f052018878c1b55f133685b675552f2e068f297453035ee22f58ee544963f3",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02E_realtime.png",
+    "sha256": "94f052018878c1b55f133685b675552f2e068f297453035ee22f58ee544963f3",
+    "operation": "官方PNG完整无修改复制，无裁剪"
+  },
+  {
+    "slug": "02E_mixedcriticality",
+    "source_id": "KRS_Realtime",
+    "source_url": "https://xilinx.github.io/KRS/sphinx/build/html/_images/mixedcriticality.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Realtime--4e8d6f22b87222a2/assets/images/cae840120a417a7cb822e6ee.png",
+    "original_sha256": "03ce8d36383afe7aeda32b942c1aab9fe962896e465f9f3f53ed0b1e7f76c117",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02E_mixedcriticality.png",
+    "sha256": "03ce8d36383afe7aeda32b942c1aab9fe962896e465f9f3f53ed0b1e7f76c117",
+    "operation": "官方PNG完整无修改复制，无裁剪"
+  },
+  {
+    "slug": "02E_buildsystem",
+    "source_id": "KRS_ROS_Centric",
+    "source_url": "https://xilinx.github.io/KRS/sphinx/build/html/_images/buildsystem.svg",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_ROS_Centric--4a8e42d311d42c27/assets/images/8a2dbe7809fb079607f8623c.svg",
+    "original_sha256": "70c321fb35a0bd8d4378a2dce9e0737c02b8e45ed91291630833661250cfe552",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02E_buildsystem.png",
+    "sha256": "8dbb2a7a746d3b2c295391ad29636dcfeec96bf75d94498e8bace59f58e35c77",
+    "operation": "Chromium离线原SVG完整截图，保留foreignObject；白底，系统字体替代，无内容修改"
+  }
+]

@@ -1,0 +1,6 @@
+[
+ {"name":"AMD07_Ubuntu_AMD","url":"https://ubuntu.com/download/amd","expected":"html","used_by":["07_Ecosystem"]},
+ {"name":"AMD07_WindRiver_Linux","url":"https://www.windriver.com/products/embedded/linux","expected":"html","used_by":["07_Ecosystem"]},
+ {"name":"AMD07_Distributors","url":"https://www.amd.com/en/partner/about-partners/authorized-distributors.html","expected":"html","used_by":["07_Ecosystem"]},
+ {"name":"AMD07_Warranty","url":"https://www.amd.com/en/support/warranty.html","expected":"html","used_by":["07_Ecosystem"]}
+]

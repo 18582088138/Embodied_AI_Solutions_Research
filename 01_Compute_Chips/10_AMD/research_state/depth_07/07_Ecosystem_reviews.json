@@ -1,0 +1,461 @@
+[
+  {
+    "source_id": "AMD07_Robotics_Partners",
+    "needle": "validated robotics partners",
+    "claim": "伙伴定位",
+    "location": "Why Work",
+    "evidence_type": "厂商宣称",
+    "conditions": "具体版本/日期见正文",
+    "finding": "动态目录不完整，标签没有逐BOM/版本测试报告"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "053700",
+    "claim": "X199商业128G模块",
+    "location": "p3",
+    "evidence_type": "事实",
+    "conditions": "Preliminary0.3 2026-07-08",
+    "finding": "料号不证明现货；功能不当安全认证，TDP不当整机功率"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "053710",
+    "claim": "X199i工业模块",
+    "location": "p3",
+    "evidence_type": "事实",
+    "conditions": "Preliminary0.3 2026-07-08",
+    "finding": "料号不证明现货；功能不当安全认证，TDP不当整机功率"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "Product not yet released for Mass Production",
+    "claim": "预发布状态",
+    "location": "p3脚注",
+    "evidence_type": "事实",
+    "conditions": "Preliminary0.3 2026-07-08",
+    "finding": "料号不证明现货；功能不当安全认证，TDP不当整机功率"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "Preliminary Revision 0.3",
+    "claim": "版本",
+    "location": "p3脚注",
+    "evidence_type": "事实",
+    "conditions": "Preliminary0.3 2026-07-08",
+    "finding": "料号不证明现货；功能不当安全认证，TDP不当整机功率"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "120 x 160 mm",
+    "claim": "模块尺寸",
+    "location": "p1",
+    "evidence_type": "事实",
+    "conditions": "Preliminary0.3 2026-07-08",
+    "finding": "料号不证明现货；功能不当安全认证，TDP不当整机功率"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "Intel® i226",
+    "claim": "外部网卡控制器",
+    "location": "p1",
+    "evidence_type": "事实",
+    "conditions": "Preliminary0.3 2026-07-08",
+    "finding": "料号不证明现货；功能不当安全认证，TDP不当整机功率"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "PCIe switch",
+    "claim": "可选交换器",
+    "location": "p2",
+    "evidence_type": "事实",
+    "conditions": "Preliminary0.3 2026-07-08",
+    "finding": "料号不证明现货；功能不当安全认证，TDP不当整机功率"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "Multi Stage Watchdog",
+    "claim": "板级监测功能",
+    "location": "p1",
+    "evidence_type": "事实",
+    "conditions": "Preliminary0.3 2026-07-08",
+    "finding": "料号不证明现货；功能不当安全认证，TDP不当整机功率"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "Power Loss Control",
+    "claim": "板掉电功能",
+    "location": "p1",
+    "evidence_type": "事实",
+    "conditions": "Preliminary0.3 2026-07-08",
+    "finding": "料号不证明现货；功能不当安全认证，TDP不当整机功率"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "Flash Update",
+    "claim": "BIOS升级功能",
+    "location": "p1",
+    "evidence_type": "事实",
+    "conditions": "Preliminary0.3 2026-07-08",
+    "finding": "料号不证明现货；功能不当安全认证，TDP不当整机功率"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "Linux",
+    "claim": "列出的OS",
+    "location": "p1",
+    "evidence_type": "事实",
+    "conditions": "Preliminary0.3 2026-07-08",
+    "finding": "料号不证明现货；功能不当安全认证，TDP不当整机功率"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "conga-zones",
+    "claim": "hypervisor",
+    "location": "p1",
+    "evidence_type": "事实",
+    "conditions": "Preliminary0.3 2026-07-08",
+    "finding": "料号不证明现货；功能不当安全认证，TDP不当整机功率"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "Storage -20°C to 80°C",
+    "claim": "商业storage温度",
+    "location": "p1",
+    "evidence_type": "事实",
+    "conditions": "Preliminary0.3 2026-07-08",
+    "finding": "料号不证明现货；功能不当安全认证，TDP不当整机功率"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "Operating -40°C to +85°C",
+    "claim": "工业operating",
+    "location": "p1",
+    "evidence_type": "事实",
+    "conditions": "Preliminary0.3 2026-07-08",
+    "finding": "料号不证明现货；功能不当安全认证，TDP不当整机功率"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "053750",
+    "claim": "散热料号",
+    "location": "p3",
+    "evidence_type": "事实",
+    "conditions": "Preliminary0.3 2026-07-08",
+    "finding": "料号不证明现货；功能不当安全认证，TDP不当整机功率"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "needle": "065620",
+    "claim": "应用载板",
+    "location": "p3",
+    "evidence_type": "事实",
+    "conditions": "Preliminary0.3 2026-07-08",
+    "finding": "料号不证明现货；功能不当安全认证，TDP不当整机功率"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1",
+    "needle": "Storage: -40 to +85°C",
+    "claim": "网页storage冲突",
+    "location": "总规格",
+    "evidence_type": "事实",
+    "conditions": "具体版本/日期见正文",
+    "finding": "与PDF商业storage冲突保留，正式签版消歧"
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1",
+    "needle": "Ubuntu Pro",
+    "claim": "OS询价选项",
+    "location": "ecosystem",
+    "evidence_type": "事实",
+    "conditions": "具体版本/日期见正文",
+    "finding": "选项不证明逐SKU支持订阅"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "hardware vendor",
+    "claim": "AMD角色",
+    "location": "生产指南",
+    "evidence_type": "事实",
+    "conditions": "EDF26.06.1-rev3 AdaptiveSoC",
+    "finding": "不推广全部AMD产品；路线不等于已取得合约或完整OTA"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "for any AMD Adaptive SoC product family",
+    "claim": "支持声明范围",
+    "location": "生产指南",
+    "evidence_type": "事实",
+    "conditions": "EDF26.06.1-rev3 AdaptiveSoC",
+    "finding": "不推广全部AMD产品；路线不等于已取得合约或完整OTA"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "Hardware product lifetime commitments do not imply software support commitments",
+    "claim": "硬件软件期限分离",
+    "location": "生产指南",
+    "evidence_type": "事实",
+    "conditions": "EDF26.06.1-rev3 AdaptiveSoC",
+    "finding": "不推广全部AMD产品；路线不等于已取得合约或完整OTA"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "A maintained update feed or service",
+    "claim": "EDF缺生产更新feed",
+    "location": "生产指南",
+    "evidence_type": "事实",
+    "conditions": "EDF26.06.1-rev3 AdaptiveSoC",
+    "finding": "不推广全部AMD产品；路线不等于已取得合约或完整OTA"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "reference Yocto Project distribution",
+    "claim": "原型参考镜像",
+    "location": "生产指南",
+    "evidence_type": "事实",
+    "conditions": "EDF26.06.1-rev3 AdaptiveSoC",
+    "finding": "不推广全部AMD产品；路线不等于已取得合约或完整OTA"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "source repository, not a supported OS product",
+    "claim": "linux-xlnx角色",
+    "location": "生产指南",
+    "evidence_type": "事实",
+    "conditions": "EDF26.06.1-rev3 AdaptiveSoC",
+    "finding": "不推广全部AMD产品；路线不等于已取得合约或完整OTA"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "Short-term critical bug and security fixes",
+    "claim": "update分支短期",
+    "location": "生产指南",
+    "evidence_type": "事实",
+    "conditions": "EDF26.06.1-rev3 AdaptiveSoC",
+    "finding": "不推广全部AMD产品；路线不等于已取得合约或完整OTA"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "2026.1 6.18",
+    "claim": "2026.1内核base",
+    "location": "生产指南",
+    "evidence_type": "事实",
+    "conditions": "EDF26.06.1-rev3 AdaptiveSoC",
+    "finding": "不推广全部AMD产品；路线不等于已取得合约或完整OTA"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "OSTree, RAUC, Mender, and swupdate",
+    "claim": "OTA layer路线",
+    "location": "生产指南",
+    "evidence_type": "事实",
+    "conditions": "EDF26.06.1-rev3 AdaptiveSoC",
+    "finding": "不推广全部AMD产品；路线不等于已取得合约或完整OTA"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "degree of integration in the EDF reference design may be limited",
+    "claim": "安全集成边界",
+    "location": "生产指南",
+    "evidence_type": "事实",
+    "conditions": "EDF26.06.1-rev3 AdaptiveSoC",
+    "finding": "不推广全部AMD产品；路线不等于已取得合约或完整OTA"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "Certified Ubuntu",
+    "claim": "Canonical路线",
+    "location": "生产指南",
+    "evidence_type": "事实",
+    "conditions": "EDF26.06.1-rev3 AdaptiveSoC",
+    "finding": "不推广全部AMD产品；路线不等于已取得合约或完整OTA"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "Foundries",
+    "claim": "OTA商业路线",
+    "location": "生产指南",
+    "evidence_type": "事实",
+    "conditions": "EDF26.06.1-rev3 AdaptiveSoC",
+    "finding": "不推广全部AMD产品；路线不等于已取得合约或完整OTA"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "create-spdx",
+    "claim": "SBOM生成",
+    "location": "生产指南",
+    "evidence_type": "事实",
+    "conditions": "EDF26.06.1-rev3 AdaptiveSoC",
+    "finding": "不推广全部AMD产品；路线不等于已取得合约或完整OTA"
+  },
+  {
+    "source_id": "AMD07_WindRiver_Linux",
+    "needle": "zero per-device fees",
+    "claim": "服务计费宣传",
+    "location": "产品正文",
+    "evidence_type": "厂商宣称",
+    "conditions": "具体版本/日期见正文",
+    "finding": "不推目标载板已经验证；没有零订阅成本"
+  },
+  {
+    "source_id": "AMD07_WindRiver_Linux",
+    "needle": "10+ years",
+    "claim": "长期服务宣传",
+    "location": "产品正文",
+    "evidence_type": "厂商宣称",
+    "conditions": "具体版本/日期见正文",
+    "finding": "不推目标载板已经验证；没有零订阅成本"
+  },
+  {
+    "source_id": "AMD07_WindRiver_Linux",
+    "needle": "Yocto Project 5.2",
+    "claim": "LTS25基础",
+    "location": "产品正文",
+    "evidence_type": "厂商宣称",
+    "conditions": "具体版本/日期见正文",
+    "finding": "不推目标载板已经验证；没有零订阅成本"
+  },
+  {
+    "source_id": "AMD07_WindRiver_Linux",
+    "needle": "Linux Kernel 6.12",
+    "claim": "内核基础",
+    "location": "产品正文",
+    "evidence_type": "厂商宣称",
+    "conditions": "具体版本/日期见正文",
+    "finding": "不推目标载板已经验证；没有零订阅成本"
+  },
+  {
+    "source_id": "AMD07_WindRiver_Linux",
+    "needle": "Pre-validated BSPs for AMD",
+    "claim": "BSP定位",
+    "location": "产品正文",
+    "evidence_type": "厂商宣称",
+    "conditions": "具体版本/日期见正文",
+    "finding": "不推目标载板已经验证；没有零订阅成本"
+  },
+  {
+    "source_id": "AMD07_ROS2_Control",
+    "needle": "SCHED_FIFO",
+    "claim": "实时调度尝试",
+    "location": "controller manager",
+    "evidence_type": "事实",
+    "conditions": "Jazzy当前文档",
+    "finding": "默认值非AMD测量，不构成安全停机认证"
+  },
+  {
+    "source_id": "AMD07_ROS2_Control",
+    "needle": "fallback_controllers",
+    "claim": "降级入口",
+    "location": "controller manager",
+    "evidence_type": "事实",
+    "conditions": "Jazzy当前文档",
+    "finding": "默认值非AMD测量，不构成安全停机认证"
+  },
+  {
+    "source_id": "AMD07_ROS2_Control",
+    "needle": "subject to the availability",
+    "claim": "fallback依赖接口",
+    "location": "controller manager",
+    "evidence_type": "事实",
+    "conditions": "Jazzy当前文档",
+    "finding": "默认值非AMD测量，不构成安全停机认证"
+  },
+  {
+    "source_id": "AMD07_ROS2_Control",
+    "needle": "Default: false handle_exceptions",
+    "claim": "限幅默认false",
+    "location": "controller manager",
+    "evidence_type": "事实",
+    "conditions": "Jazzy当前文档",
+    "finding": "默认值非AMD测量，不构成安全停机认证"
+  },
+  {
+    "source_id": "AMD07_ROS2_Control",
+    "needle": "reads states from hardware",
+    "claim": "read-update-write链",
+    "location": "controller manager",
+    "evidence_type": "事实",
+    "conditions": "Jazzy当前文档",
+    "finding": "默认值非AMD测量，不构成安全停机认证"
+  },
+  {
+    "source_id": "AMD04_Ryzers_Repo",
+    "needle": "composable Dockerfiles",
+    "claim": "Ryzers定位",
+    "location": "README",
+    "evidence_type": "事实",
+    "conditions": "具体版本/日期见正文",
+    "finding": "支持对象、维护责任和商业状态不相互推广"
+  },
+  {
+    "source_id": "AMD04_Ryzers_License",
+    "needle": "SPDX-License-Identifier: MIT",
+    "claim": "Ryzers MIT",
+    "location": "LICENSE",
+    "evidence_type": "事实",
+    "conditions": "具体版本/日期见正文",
+    "finding": "只覆盖仓库，权重/数据/runtime另核"
+  },
+  {
+    "source_id": "AMD_ROSS",
+    "needle": "assistant designed to help developers",
+    "claim": "开发助手定位",
+    "location": "Overview",
+    "evidence_type": "事实",
+    "conditions": "具体版本/日期见正文",
+    "finding": "不是现场机器人控制runtime"
+  },
+  {
+    "source_id": "AMD07_Distributors",
+    "needle": "updated on a quarterly basis",
+    "claim": "渠道时效",
+    "location": "Footnotes",
+    "evidence_type": "事实",
+    "conditions": "具体版本/日期见正文",
+    "finding": "不是实时库存/价格/交期"
+  },
+  {
+    "source_id": "AMD07_Warranty",
+    "needle": "Tray and MPK Processors",
+    "claim": "保修分类",
+    "location": "Warranty",
+    "evidence_type": "事实",
+    "conditions": "具体版本/日期见正文",
+    "finding": "不套用第三方模块/整机"
+  },
+  {
+    "source_id": "AMD06_Solectrix_PDF",
+    "needle": "not been independently verified by AMD",
+    "claim": "性能脚注",
+    "location": "p2",
+    "evidence_type": "事实",
+    "conditions": "具体版本/日期见正文",
+    "finding": "10ms/能效客户宣称，不当闭环统计"
+  },
+  {
+    "source_id": "AMD06_Robotec_PDF",
+    "needle": "ultimately built a demo",
+    "claim": "HIL成熟度",
+    "location": "p2",
+    "evidence_type": "事实",
+    "conditions": "具体版本/日期见正文",
+    "finding": "支持对象、维护责任和商业状态不相互推广"
+  },
+  {
+    "source_id": "AMD06_STW_PDF",
+    "needle": "as long as there’s a driver",
+    "claim": "辅助驾驶阶段",
+    "location": "p2",
+    "evidence_type": "事实",
+    "conditions": "具体版本/日期见正文",
+    "finding": "支持对象、维护责任和商业状态不相互推广"
+  },
+  {
+    "source_id": "OpenNav_Robotics_Benchmark",
+    "needle": "180,000",
+    "claim": "代表仓库规模",
+    "location": "benchmark",
+    "evidence_type": "事实",
+    "conditions": "具体版本/日期见正文",
+    "finding": "计算基准非客户运营面积"
+  }
+]

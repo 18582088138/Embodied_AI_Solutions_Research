@@ -1,0 +1,35 @@
+{
+  "time_utc": "2026-11-04T06:36:07.129434+00:00",
+  "summary": {
+    "complete_static": 21,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "AMD_VitisAI_Gen2_Release",
+    "AMD_VitisAI_Gen2_Compile",
+    "AMD_VAI_EP_Config",
+    "AMD_VitisAI_Gen2_CPU_Partition",
+    "AMD_VitisAI_Gen2_Deploy",
+    "AMD_VitisAI_Gen2_Architecture",
+    "AMD_VitisAI_Gen2_Output",
+    "AMD_VAI_Partition_Analyzer",
+    "AMD_VitisAI_Gen2_Tenancy",
+    "AMD_VitisAI_VART_App",
+    "AMD_VAI_Tensor_Formats",
+    "AMD_VAI_Quant_Pipeline",
+    "AMD_VitisAI_Gen2_Quantization",
+    "AMD_VitisAI_Gen2_Async",
+    "AMD_VAI_Custom_Ops",
+    "AMD_VAI_Custom_Infer",
+    "AMD_VAI_DDR_Profiling",
+    "Compare_TRT_Builder",
+    "Compare_TRT_Quant",
+    "AMD_VitisAI_Gen2_Requirements",
+    "AMD_VitisAI_Gen2_License"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

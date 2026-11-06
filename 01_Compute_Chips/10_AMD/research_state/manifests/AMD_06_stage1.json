@@ -1,0 +1,9 @@
+[
+ {"name":"AMD06_XArm_Sim2Real","url":"https://rocm.blogs.amd.com/artificial-intelligence/sim2real-rl-instinct/README.html","expected":"html","used_by":["05_Simulation_Environment","06_Robot_Integration"]},
+ {"name":"AMD06_XArm_JAX","url":"https://rocm.blogs.amd.com/artificial-intelligence/rocm-jax-mujoco/README.html","expected":"html","used_by":["05_Simulation_Environment","06_Robot_Integration"]},
+ {"name":"AMD06_XArm_SDK","url":"https://github.com/xArm-Developer/xArm-Python-SDK","expected":"html","used_by":["06_Robot_Integration"]},
+ {"name":"AMD06_XArm_Product","url":"https://www.ufactory.cc/xarm-collaborative-robot/","expected":"html","used_by":["06_Robot_Integration"]},
+ {"name":"AMD06_Robotec_Case","url":"https://www.amd.com/en/resources/case-studies/robotec-ai.html","expected":"html","used_by":["06_Robot_Integration"]},
+ {"name":"AMD06_STW_Case","url":"https://www.amd.com/en/resources/case-studies/stw.html","expected":"html","used_by":["06_Robot_Integration"]},
+ {"name":"AMD06_Solectrix_Case","url":"https://www.amd.com/en/resources/case-studies/solectrix.html","expected":"html","used_by":["06_Robot_Integration"]}
+]

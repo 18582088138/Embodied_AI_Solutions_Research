@@ -1,0 +1,170 @@
+[
+  {
+    "name": "AMD_VitisAI_Gen2_Release",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/release_notes/release_notes_section.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Compile",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/compiling.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VAI_EP_Config",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/ep-config-file.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_CPU_Partition",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/cpu_partition.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Deploy",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_deployment/model-inference.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Architecture",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/ml-architecture-overview.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Output",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/output.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VAI_Partition_Analyzer",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/ai_analyzer/partitioning.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Tenancy",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/multi-tenancy-user-guide.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_VART_App",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_app_guide.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VAI_Tensor_Formats",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/misc/tensor_formats.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VAI_Quant_Pipeline",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_quantization_pipeline.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Quantization",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_quantization/model_quantization.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Async",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/advanced_concepts/async_execution.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VAI_Custom_Ops",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/custom_ops/custom_ops_introduction.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VAI_Custom_Infer",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/custom_ops/custom_ops_running_inference.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VAI_DDR_Profiling",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/ai_analyzer/runtime_ddr_profiling_utility.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "Compare_TRT_Builder",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "Compare_TRT_Quant",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Requirements",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/setup_and_installation/system_requirements.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_License",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/license.html",
+    "expected": "html",
+    "used_by": [
+      "02C_Versal_Compiler_and_Runtime"
+    ]
+  }
+]

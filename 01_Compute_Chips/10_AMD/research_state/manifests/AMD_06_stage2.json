@@ -1,0 +1,6 @@
+[
+ {"name":"AMD06_Robotec_PDF","url":"https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/robotec-ai-case-study.pdf","expected":"pdf","used_by":["06_Robot_Integration"]},
+ {"name":"AMD06_STW_PDF","url":"https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/stw-case-study.pdf","expected":"pdf","used_by":["06_Robot_Integration"]},
+ {"name":"AMD06_Solectrix_PDF","url":"https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/solectrix-case-study.pdf","expected":"pdf","used_by":["06_Robot_Integration"]},
+ {"name":"AMD06_GB_News","url":"https://news.gbionics.ai/","expected":"html","used_by":["06_Robot_Integration"]}
+]

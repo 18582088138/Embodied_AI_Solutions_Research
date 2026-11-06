@@ -1,0 +1,41 @@
+{
+  "time_utc": "2026-11-04T15:04:35.283403+00:00",
+  "summary": {
+    "complete_static": 15,
+    "partial_static": 12,
+    "failed": 0
+  },
+  "names": [
+    "AMD_Robotics",
+    "AMD06_XArm_Sim2Real",
+    "AMD04_LeRobot_Blog",
+    "AMD06_Solectrix_PDF",
+    "AMD06_STW_PDF",
+    "AMD06_Robotec_PDF",
+    "AMD06_GB_Factory_PR",
+    "AMD08_MI350_Architecture",
+    "AMD08_CDNA4_Whitepaper",
+    "AMD07_Congatec_CRX1_PDF",
+    "AMD_RyzenAI_Release",
+    "AMD_Versal_Gen2_Brief",
+    "AMD_VAI_Custom_Ops",
+    "AMD08_IRON_Repo",
+    "AMD_EDF_SHEL_XSA",
+    "AMD_EDF_Production",
+    "AMD_VitisAI_Gen2_Output",
+    "AMD_Kria_AI_Dev",
+    "AMD07_WindRiver_Linux",
+    "AMD05_Genesis_Blog",
+    "AMD05_O3DE_Concepts",
+    "AMD_K24C",
+    "AMD_K24I",
+    "AMD_K26C",
+    "AMD_K26I",
+    "AMD_Versal_Gen2_Industrial",
+    "AMD07_ROS2_Control"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

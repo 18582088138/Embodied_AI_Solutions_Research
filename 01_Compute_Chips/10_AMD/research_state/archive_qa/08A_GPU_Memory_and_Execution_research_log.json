@@ -1,0 +1,76 @@
+{
+  "chapter": "08A_GPU_Memory_and_Execution",
+  "data_cutoff": "2026-11-04",
+  "completed_at_utc": "2026-11-04T09:12:53.704110+00:00",
+  "summary": {
+    "body_han_chars": 2496,
+    "tables": 2,
+    "sources": 20,
+    "figures": 4,
+    "claim_reviews": 43,
+    "archive_status": {
+      "partial_static": 16,
+      "complete_static": 4
+    },
+    "quality_errors": 0,
+    "dedup_network_requests": 0,
+    "report_sha256": "77bf176e936964588d9023226e15ab638e84dc36960fec896af89cb53eca4aa7"
+  },
+  "manual_review": {
+    "coverage": "CDNA4 MX数值/metadata理想存储、LDS/MFMA与bank、HBM拓扑/分区、HMM/fence/graph/pool、vLLM期限与对标独立深入。",
+    "versions_and_measurements": "新白皮书TF/PF、表题列名与每CU数冲突保留，MI350-052跨精度/分区不当应用加速；CK教程维度冲突不复用；无目标实测。",
+    "maturity_and_licenses": "API/机制、理论峰值与机器人任务分开；逐组件许可，未运行GPU或训练模型；数据中心能力不推广端側。",
+    "figures_opened": "实际打开白皮书p7/p8和MI350芯粒/partition两官方PNG；正文采用四图，表与legend瑕疵均记录。"
+  },
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_GPU_Execution_and_Deployment.md": true,
+    "02B_RyzenAI_Compilation_and_Quantization.md": true,
+    "02C_Versal_Compiler_and_Runtime.md": true,
+    "02D_EDF_BSP_and_Execution_Domains.md": true,
+    "02E_ROS_Acceleration_and_System_Integration.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "README.md": true
+  },
+  "final_dedup": {
+    "time_utc": "2026-11-04T09:12:42.208046+00:00",
+    "summary": {
+      "complete_static": 4,
+      "partial_static": 16,
+      "failed": 0
+    },
+    "names": [
+      "AMD_HIP_Model",
+      "AMD08_CDNA4_Whitepaper",
+      "AMD08_MI350_Architecture",
+      "AMD08_CK_GEMM",
+      "AMD08_CK_LDS",
+      "AMD08_HipBLASLt",
+      "AMD08_HipBLASLt_Tune",
+      "Compare_TRT_Builder",
+      "AMD_ROCm_Isolation",
+      "AMD_HIP_Memory",
+      "AMD_HIP_Coherence",
+      "AMD_HIP_Graphs",
+      "AMD_ROCm_GraphSafe",
+      "AMD_HIP_Allocator",
+      "AMD_vLLM_Optimization",
+      "Compare_CUDA_Graphs",
+      "Compare_TRT_Quant",
+      "AMD_HIPIFY_Docs",
+      "AMD_HIP_License",
+      "AMD_ROCm_Licenses"
+    ],
+    "network_requests_including_robots": 0,
+    "new_assets": 0,
+    "asset_attempts": 0,
+    "tool": "toolkit/download_materials.py"
+  },
+  "method": "官方原文/模型卡/源码→原图实际打开→条件审阅→结构/归档检查→最终去重；未运行硬件/机器人实测"
+}

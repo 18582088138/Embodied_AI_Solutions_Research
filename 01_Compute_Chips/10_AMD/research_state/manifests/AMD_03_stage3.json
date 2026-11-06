@@ -1,0 +1,130 @@
+[
+  {
+    "name": "AMD_TSN_Intro",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/introduction.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_TSN_HW",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/hw_arch_platform.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_TSN_SW",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/sw_arch_platform.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_TSN_Deploy",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/app_deployment.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_PTP_Issues",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/src/known-issues.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_MV_Sensor",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/sensor.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_CSI2_Driver",
+    "url": "https://github.com/Xilinx/linux-xlnx/blob/master/drivers/media/platform/xilinx/xilinx-csi2rxss.c",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_Video_DMA_Driver",
+    "url": "https://github.com/Xilinx/linux-xlnx/blob/master/drivers/media/platform/xilinx/xilinx-dma.c",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_IMX547_Repo",
+    "url": "https://github.com/Xilinx/mv-camera-sensor-module",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_ISP_Repo",
+    "url": "https://github.com/Xilinx/xilinx-isp-module",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_Wiki_Linux",
+    "url": "https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841996/Linux",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "Linux_DMABUF_Sync",
+    "url": "https://docs.kernel.org/driver-api/dma-buf.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "Linux_Network_Timestamps",
+    "url": "https://docs.kernel.org/networking/timestamping.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "Linux_SocketCAN",
+    "url": "https://docs.kernel.org/networking/can.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "Compare_03_HSB",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "Compare_03_CoE",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  }
+]

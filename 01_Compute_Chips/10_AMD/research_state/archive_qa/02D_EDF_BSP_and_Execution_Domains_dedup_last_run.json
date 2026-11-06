@@ -1,0 +1,28 @@
+{
+  "time_utc": "2026-11-04T06:44:00.395278+00:00",
+  "summary": {
+    "complete_static": 14,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "AMD_EDF_Release",
+    "AMD_EDF_Production",
+    "AMD_EDF_Overview_PDF",
+    "AMD_EDF_Build_Container",
+    "AMD_EDF_SHEL_XSA",
+    "AMD_EDF_Device_Tree",
+    "AMD_EDF_Domains",
+    "AMD_EDF_Custom_Firmware",
+    "AMD_EDF_OpenAMP_Zephyr",
+    "AMD_EDF_OpenAMP_FreeRTOS",
+    "AMD_EDF_Segmented",
+    "AMD_EDF_PL_Load",
+    "AMD_EDF_Components",
+    "Compare_Jetson_OTA"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

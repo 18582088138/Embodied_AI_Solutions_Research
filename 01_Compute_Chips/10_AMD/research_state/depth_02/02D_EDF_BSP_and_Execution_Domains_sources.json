@@ -1,0 +1,278 @@
+[
+  {
+    "source_id": "AMD_EDF_Release",
+    "number": "S01",
+    "title": "EDF v26.06.1产物/版本/主机要求",
+    "version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+    "url": "https://edf.docs.amd.com/en/latest/downloads-and-release-notes.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Release--805718888ba875b0/index.html",
+    "sha256": "398c2907ae952751183705c125ffa6ff550f28d8f2e1cf3baf23b446bca234a6",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Release--805718888ba875b0/original.response",
+    "original_sha256": "fbe58660a9c2292b3d5ae3e48a1525bfd84ae18a0b50315294040cefe3f24314",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Release--805718888ba875b0/metadata.json",
+    "collected_at": "2026-11-04T05:20:35.153402+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "number": "S02",
+    "title": "EDF从原型到生产维护指南",
+    "version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+    "url": "https://edf.docs.amd.com/en/latest/moving-from-amd-software-stacks-to-production-deployment.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Production--c93d09e25f993c7a/index.html",
+    "sha256": "cd07c3b9f3ea241d5c623974c6d168774a2e7c4d16df5e08596112984535a3a3",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Production--c93d09e25f993c7a/original.response",
+    "original_sha256": "4e6b2c252d79e4b7079119dd10135d748438170ce9d9466b12cfa13c9c16f6ef",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Production--c93d09e25f993c7a/metadata.json",
+    "collected_at": "2026-11-04T05:25:32.320980+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_Overview_PDF",
+    "number": "S03",
+    "title": "EDF产品概览PDF",
+    "version": "Sept 2025；28页；方法图，不作为2026支持矩阵",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/products/software-tools/embedded-development-framework-product-overview.pdf",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_EDF_Overview_PDF--a24a3e9e38348fb8/document.pdf",
+    "sha256": "4e9a1f83bb22731b118c78b1d43fbfed80265a50db6ea16c12c95624697adfc0",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_EDF_Overview_PDF--a24a3e9e38348fb8/original.response",
+    "original_sha256": "4e9a1f83bb22731b118c78b1d43fbfed80265a50db6ea16c12c95624697adfc0",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_EDF_Overview_PDF--a24a3e9e38348fb8/metadata.json",
+    "collected_at": "2026-11-04T05:20:43.253894+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": []
+  },
+  {
+    "source_id": "AMD_EDF_Build_Container",
+    "number": "S04",
+    "title": "AMD_EDF_Build_Container",
+    "version": "EDF26.06.1-rev3文档，评估参考发行，非OSV长期支持",
+    "url": "https://edf.docs.amd.com/en/latest/osdev/build-edf-yocto-with-the-edf-build-container.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Build_Container--7ee2d31bb6fbf324/index.html",
+    "sha256": "24de4a398af38e2cc72326eb7e3e9d46f1c45b988d49203c47e2420500677c38",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Build_Container--7ee2d31bb6fbf324/original.response",
+    "original_sha256": "47dab1bbbd28ad62e77ddd377a06adb1af1102a7858393be0c1a64cc4be109e2",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Build_Container--7ee2d31bb6fbf324/metadata.json",
+    "collected_at": "2026-11-04T06:36:55.690788+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_SHEL_XSA",
+    "number": "S05",
+    "title": "XSA到SDT/Yocto machine流程",
+    "version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+    "url": "https://edf.docs.amd.com/en/latest/shel/using-the-shel-flow-to-create-a-yocto-project-machine-configuration-from-a-xsa-file.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_SHEL_XSA--d5517b0dc3c293f5/index.html",
+    "sha256": "e624ed153410fdbdebfed1dd877de12748a531d50e3466d8f29dccfae45dd2ee",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_SHEL_XSA--d5517b0dc3c293f5/original.response",
+    "original_sha256": "ed6987b77e00fe29ce66f5a001c1a230a795f9b332f3f70a3eea550b93015037",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_SHEL_XSA--d5517b0dc3c293f5/metadata.json",
+    "collected_at": "2026-11-04T05:25:19.355995+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_Device_Tree",
+    "number": "S06",
+    "title": "AMD_EDF_Device_Tree",
+    "version": "EDF26.06.1-rev3文档，评估参考发行，非OSV长期支持",
+    "url": "https://edf.docs.amd.com/en/latest/shel/obtaining-linux-device-trees-from-the-shel-flow.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Device_Tree--f34089a4561d5a26/index.html",
+    "sha256": "8ecdde75acfcb2fecd6602462dd25224fdf78823859b7697505f36fb249e0175",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Device_Tree--f34089a4561d5a26/original.response",
+    "original_sha256": "afdd3036d0ca56fe215ac33b23eb54b4bb8675ad3d9f04e163decf25c5163d2d",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Device_Tree--f34089a4561d5a26/metadata.json",
+    "collected_at": "2026-11-04T06:37:02.165361+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_Domains",
+    "number": "S07",
+    "title": "EDF多domain/资源/通信YAML",
+    "version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+    "url": "https://edf.docs.amd.com/en/latest/osdev/domain-yaml-integration-and-development.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Domains--3e5c09c7147686e3/index.html",
+    "sha256": "a436b3bcef28c469debc05f5fabedb444358d4e57cf5c5c8c8db9d08911c6a02",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Domains--3e5c09c7147686e3/original.response",
+    "original_sha256": "3cf160690f05a1393c6ad999e1c38922580560f76e5ba28340ef58b99cdb1aad",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Domains--3e5c09c7147686e3/metadata.json",
+    "collected_at": "2026-11-04T05:25:36.668553+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_Custom_Firmware",
+    "number": "S08",
+    "title": "AMD_EDF_Custom_Firmware",
+    "version": "EDF26.06.1-rev3文档，评估参考发行，非OSV长期支持",
+    "url": "https://edf.docs.amd.com/en/latest/osdev/installing-custom-firmware-into-edf-yocto-linux-images.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Custom_Firmware--eed7f08a79341840/index.html",
+    "sha256": "8a1eddfcf139f876b6892edbd8d05b80ce9ea9b9892fac083406e0b432ff43c9",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Custom_Firmware--eed7f08a79341840/original.response",
+    "original_sha256": "06dc7741836a2e77e7d0bc2b992d88babf18e68c236337c7e22c76cb68be8fe0",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Custom_Firmware--eed7f08a79341840/metadata.json",
+    "collected_at": "2026-11-04T06:36:52.910311+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_OpenAMP_Zephyr",
+    "number": "S09",
+    "title": "AMD_EDF_OpenAMP_Zephyr",
+    "version": "EDF26.06.1-rev3文档，评估参考发行，非OSV长期支持",
+    "url": "https://edf.docs.amd.com/en/latest/discovery/openamp-rpu-firmware-demo-zephyr.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_OpenAMP_Zephyr--0b63b8042e4931e0/index.html",
+    "sha256": "d371d9be178e813a6f82309396203e3fc07b743be13ab4def78fa07785d313ce",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_OpenAMP_Zephyr--0b63b8042e4931e0/original.response",
+    "original_sha256": "461841130f0e2a1608e2116913fd85fd04cebc3e79ec9783dc9c69ae0d76544d",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_OpenAMP_Zephyr--0b63b8042e4931e0/metadata.json",
+    "collected_at": "2026-11-04T06:39:59.700450+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_OpenAMP_FreeRTOS",
+    "number": "S10",
+    "title": "AMD_EDF_OpenAMP_FreeRTOS",
+    "version": "EDF26.06.1-rev3文档，评估参考发行，非OSV长期支持",
+    "url": "https://edf.docs.amd.com/en/latest/discovery/openamp-rpu-firmware-demo-freertos.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_OpenAMP_FreeRTOS--b61916dd92184f89/index.html",
+    "sha256": "99eab652c5c8a70cd0076136a2a108bb4ad3fe8e16390aca28dde7f983533c9e",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_OpenAMP_FreeRTOS--b61916dd92184f89/original.response",
+    "original_sha256": "be9bb7bd9a49015b9899ff0f63223ecc59fa1bdc8dea8fa08f519a06ce8f4cd2",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_OpenAMP_FreeRTOS--b61916dd92184f89/metadata.json",
+    "collected_at": "2026-11-04T06:40:02.302930+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_Segmented",
+    "number": "S11",
+    "title": "Segmented configuration与DFX区别",
+    "version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+    "url": "https://edf.docs.amd.com/en/latest/seg/segmented-configuration-or-dynamic-function-exchange.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Segmented--6266e36b64ca923a/index.html",
+    "sha256": "4899ae8c459a10e70360cdaa299d07e7172abb10a1f2559470d955ba2ab369e5",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Segmented--6266e36b64ca923a/original.response",
+    "original_sha256": "191be236b0500ec4b22d26236cf287cef2fc49799802883342551ca44e3edde5",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Segmented--6266e36b64ca923a/metadata.json",
+    "collected_at": "2026-11-04T05:25:23.499614+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_PL_Load",
+    "number": "S12",
+    "title": "EDF segmented PL装载与firmware",
+    "version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+    "url": "https://edf.docs.amd.com/en/latest/seg/amd-edf-segmented-configuration-using-amd-yocto-project-recipes.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_PL_Load--66ccb32d4be9da76/index.html",
+    "sha256": "0f6c0508557bdf555528df3e88504743862c21e91f062363283f145949d988cc",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_PL_Load--66ccb32d4be9da76/original.response",
+    "original_sha256": "eaf179834b9acb0203b9141c9cda39a2544b1421efacd507988c97fffc7ea955",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_PL_Load--66ccb32d4be9da76/metadata.json",
+    "collected_at": "2026-11-04T05:25:27.619851+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_Components",
+    "number": "S13",
+    "title": "AMD_EDF_Components",
+    "version": "EDF26.06.1-rev3文档，评估参考发行，非OSV长期支持",
+    "url": "https://edf.docs.amd.com/en/latest/yocto/building-components-from-source.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Components--85042ad719751d8d/index.html",
+    "sha256": "db09d494afdde813d17083548ffff1f4296afb01c0fc885085ab99a0bf4ac215",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Components--85042ad719751d8d/original.response",
+    "original_sha256": "1bff3b62077fae3bb65965e41d70946095cb109e81bc3b9f87d9553aecf5d37f",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Components--85042ad719751d8d/metadata.json",
+    "collected_at": "2026-11-04T06:36:58.474414+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Compare_Jetson_OTA",
+    "number": "S14",
+    "title": "Compare_Jetson_OTA",
+    "version": "NVIDIA官方资料用于机制对标；导入2026-11-03已有原响应或本次取得，不套AMD目标",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/SoftwarePackagesAndTheUpdateMechanism.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_Jetson_OTA--fe91dd3e519be888/index.html",
+    "sha256": "7488794b2ebc29c398578f07ba44fc7eb4ae6446af9f453375499da7cf55b37c",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_Jetson_OTA--fe91dd3e519be888/original.response",
+    "original_sha256": "43ac977be5940b78e4699358a0798a3165b5334f2c089f88d62af3f4b98adf94",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_Jetson_OTA--fe91dd3e519be888/metadata.json",
+    "collected_at": "2026-11-03T08:03:09.245997+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  }
+]

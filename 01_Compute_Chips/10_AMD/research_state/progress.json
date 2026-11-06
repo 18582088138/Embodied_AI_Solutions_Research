@@ -1,0 +1,495 @@
+{
+  "platform": "AMD",
+  "scope": "AMD具身智能01—09；本轮04—09及08A—08C完成，保留02A—02E与01—03",
+  "data_cutoff": "2026-11-04",
+  "authorization": "用户：好的，按照这个质量继续04到09的调研。每章完成检查后继续，无逐章批准门槛。",
+  "review_status": "04_to_09_complete_awaiting_user_review",
+  "approved_dimensions": [
+    "01_Hardware_Platform",
+    "03_Sensor_Integration"
+  ],
+  "completed_dimensions": [
+    "01_Hardware_Platform",
+    "02_Software_Stack",
+    "03_Sensor_Integration",
+    "04_AI_Capabilities",
+    "05_Simulation_Environment",
+    "06_Robot_Integration",
+    "07_Ecosystem",
+    "08A_GPU_Memory_and_Execution",
+    "08B_XDNA_Numerics_and_Dataflow",
+    "08C_Versal_Dataflow_RealTime_and_Lifecycle",
+    "08_Core_Technology_Moat",
+    "09_SWOT_Analysis"
+  ],
+  "current_dimension": null,
+  "next_dimension": null,
+  "pending_evidence": [
+    "K26 DS987/UG1090附件受robots限制，未取得可归档完整手册；未作为有效引用",
+    "OpenNav完整technical PDF被重定向目标访问规则拒绝；公开文章已归档，完整数据/commit与低功率结果未复核",
+    "X100官网公开brief保留Confidential/无正式revision/PID；X188i L3与部分接口需正式版消歧",
+    "K26网页与PSG频率、K24典型/最大功率、1066Mb/s单位、Embedded总览与专门brief及VEK命名冲突",
+    "Kria AI开发平台仍Notify Me；未取得准确P/N、价格、确定交期、FPGA确切SKU/BOM/尺寸/环境与整机功率",
+    "P100逐SKU量产交付、部分裸SoC制程/封装/容量/热与价格、目标模型完整时延/成功率需进一步证据",
+    "RyzenAI1.9beta/driver最低行/EP option命名冲突，支持算子页仍标1.8；需实际包release与兼容验证",
+    "EmbeddedX100/X199逐SKU ROCm/NPU兼容与新RoboticsSoftwareSuite唯一BSP/release/model manifest未取得",
+    "Gen2SDK环境路径与图中ELF/cache残留；默认产物采用6.3.rai，仍需实板包/许可确认",
+    "目标VLA动态图/算子/fallback/workspace、完整相机DMA路径、并发/热稳态/P99与机器人闭环未实测",
+    "EDF生产维护需自维护/OSV责任；OTA/安全boot/回退/CVE与boot/PL/model兼容集成未验证",
+    "模型代码/权重/数据/资产/本体SDK和实际下载二进制的具体license/SBOM仍需逐对象取得",
+    "KRS历史感知benchmark完整commit/输入与采样、P99/功率未取得；源码ros2快照不等同测试commit",
+    "KRS stream固定尺寸、producer/consumer触发/标定/丢帧及异常恢复需完整连接实现和板端验证；仅提出可检验风险",
+    "ROS2 Lyrical rosidl::Buffer与KRS1.0/Humble发行边界；未取得新AMD平台相应backend统一交付证据",
+    "03：X199平台FAKRA桥接芯片、BSP、相机型号/模式与统一buffer交付尚未取得",
+    "03：目标RGBD/ToF/LiDAR/Radar/IMU/力触觉关节设备SKU驱动、标定与故障契约需验证",
+    "03：camera/PTP/TSN联合设计、触发/曝光timestamp、并发P99/age与持续运行需实机验证",
+    "03：MV正式第三方IP许可、热插拔/second-load故障和版本冲突尚未消歧",
+    "03：源码浮动快照、DMA部分文件与实际BSP绑定commit、完整container/license/SBOM尚未核",
+    "04—09：目标模型完整算子/provider、许可/SBOM、实机并发/热稳定/P99、闭环成功分母和运营ROI需验证",
+    "08B：新增layout/lowering/tracing/XDNA页面的robots核查连接失败，未取得独立正文；已归档FIFO/DMA/编译/路由可用",
+    "08C：MX6/MX9完整位编码与舍入、目标key/防回滚/证书/safety manual、IP lounge指南未取得；不当已认证",
+    "09：AMD财报/SEC、EAR742与欧盟AI Act入口均因robots核查连接不可用未取得，不给当期收入/份额/法规适用结论"
+  ],
+  "next_step": "供用户整体审阅04—09；按具体反馈修订，不自行扩展其他平台或宣称通过审阅。",
+  "chapter_summary": {
+    "body_han_chars": 4230,
+    "tables": 4,
+    "sources": 27,
+    "figures": 2,
+    "claim_reviews": 57,
+    "archive_status": {
+      "partial_static": 12,
+      "complete_static": 15
+    },
+    "quality_errors": 0,
+    "dedup_network_requests": 0,
+    "report_sha256": "edfbf2fc07955466eb8281ead7e555500ccee3f185ae1f9a84751b0846d58858"
+  },
+  "qa_files": [
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/01_Hardware_Platform_quality.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/01_Hardware_Platform_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/01_Hardware_Platform_research_log.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/02_Software_Stack_quality.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/02_Software_Stack_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/02_Software_Stack_research_log.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/02A_GPU_Execution_and_Deployment_quality.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/02A_GPU_Execution_and_Deployment_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/02B_RyzenAI_Compilation_and_Quantization_quality.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/02B_RyzenAI_Compilation_and_Quantization_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/02C_Versal_Compiler_and_Runtime_quality.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/02C_Versal_Compiler_and_Runtime_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/02D_EDF_BSP_and_Execution_Domains_quality.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/02D_EDF_BSP_and_Execution_Domains_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/02E_ROS_Acceleration_and_System_Integration_quality.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/02E_ROS_Acceleration_and_System_Integration_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/02_software_depth_all_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/02_software_depth_all_review.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/03_Sensor_Integration_quality.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/03_Sensor_Integration_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/03_Sensor_Integration_research_log.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/04_AI_Capabilities_quality.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/04_AI_Capabilities_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/04_AI_Capabilities_research_log.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/05_Simulation_Environment_quality.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/05_Simulation_Environment_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/05_Simulation_Environment_research_log.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/06_Robot_Integration_quality.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/06_Robot_Integration_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/06_Robot_Integration_research_log.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/07_Ecosystem_quality.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/07_Ecosystem_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/07_Ecosystem_research_log.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/08A_GPU_Memory_and_Execution_quality.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/08A_GPU_Memory_and_Execution_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/08A_GPU_Memory_and_Execution_research_log.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/08B_XDNA_Numerics_and_Dataflow_quality.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/08B_XDNA_Numerics_and_Dataflow_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/08B_XDNA_Numerics_and_Dataflow_research_log.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/08C_Versal_Dataflow_RealTime_and_Lifecycle_quality.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/08C_Versal_Dataflow_RealTime_and_Lifecycle_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/08C_Versal_Dataflow_RealTime_and_Lifecycle_research_log.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/08_Core_Technology_Moat_quality.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/08_Core_Technology_Moat_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/08_Core_Technology_Moat_research_log.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/09_SWOT_Analysis_quality.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/09_SWOT_Analysis_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/09_SWOT_Analysis_research_log.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/08_all_dedup_last_run.json",
+    "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/04_09_delivery_review.json"
+  ],
+  "chapter_summaries": {
+    "01_Hardware_Platform": {
+      "body_han_chars": 9278,
+      "tables": 20,
+      "sources": 41,
+      "figures": 7,
+      "claim_reviews": 39,
+      "archive_status": {
+        "partial_static": 26,
+        "complete_static": 15
+      },
+      "quality_errors": 0,
+      "dedup_network_requests": 0,
+      "report_sha256": "9ef3c3adbe7bbc9c2cc7d1ed9a957ad3e694465f7de1744dcf910b4ea59d50f5"
+    },
+    "02_Software_Stack": {
+      "body_han_chars": 11629,
+      "tables": 13,
+      "sources": 74,
+      "figures": 9,
+      "claim_reviews": 89,
+      "archive_status": {
+        "partial_static": 45,
+        "complete_static": 29
+      },
+      "quality_errors": 0,
+      "dedup_network_requests": 0,
+      "report_sha256": "2b38efc2bd08b7d7892d5cca35bfdc211fa3290bace926caf162fbddf94d0267"
+    },
+    "03_Sensor_Integration": {
+      "body_han_chars": 9406,
+      "tables": 10,
+      "sources": 42,
+      "figures": 9,
+      "claim_reviews": 90,
+      "archive_status": {
+        "partial_static": 28,
+        "complete_static": 14
+      },
+      "quality_errors": 0,
+      "dedup_network_requests": 0,
+      "report_sha256": "3a15ab70a5929f398cde4170bd41c682212b24077afa59d8d0784668dcebb9e1"
+    },
+    "04_AI_Capabilities": {
+      "body_han_chars": 7023,
+      "tables": 7,
+      "sources": 37,
+      "figures": 4,
+      "claim_reviews": 63,
+      "archive_status": {
+        "complete_static": 14,
+        "partial_static": 23
+      },
+      "quality_errors": 0,
+      "dedup_network_requests": 0,
+      "report_sha256": "a511fabd82a59e615cb667da35dd2d481bc52620edf781f4793771580882d845"
+    },
+    "05_Simulation_Environment": {
+      "body_han_chars": 5003,
+      "tables": 3,
+      "sources": 21,
+      "figures": 6,
+      "claim_reviews": 40,
+      "archive_status": {
+        "complete_static": 13,
+        "partial_static": 8
+      },
+      "quality_errors": 0,
+      "dedup_network_requests": 0,
+      "report_sha256": "b1c89fb3e328cd61e548e2818dc1f245e2ce7fe9924f4075ad9a6e28857ed772"
+    },
+    "06_Robot_Integration": {
+      "body_han_chars": 4060,
+      "tables": 2,
+      "sources": 11,
+      "figures": 4,
+      "claim_reviews": 44,
+      "archive_status": {
+        "partial_static": 5,
+        "complete_static": 6
+      },
+      "quality_errors": 0,
+      "dedup_network_requests": 0,
+      "report_sha256": "2e2fa8a474f209a457b5bcc912d37a3904d9051892249c76e02667c64b4151d3"
+    },
+    "07_Ecosystem": {
+      "body_han_chars": 3802,
+      "tables": 4,
+      "sources": 17,
+      "figures": 3,
+      "claim_reviews": 51,
+      "archive_status": {
+        "partial_static": 11,
+        "complete_static": 6
+      },
+      "quality_errors": 0,
+      "dedup_network_requests": 0,
+      "report_sha256": "9ddbb2d80c362e9bd5445423deb7ab70ec3c9e99e502ac57873c289fb6a567af"
+    },
+    "08A_GPU_Memory_and_Execution": {
+      "body_han_chars": 2496,
+      "tables": 2,
+      "sources": 20,
+      "figures": 4,
+      "claim_reviews": 43,
+      "archive_status": {
+        "partial_static": 16,
+        "complete_static": 4
+      },
+      "quality_errors": 0,
+      "dedup_network_requests": 0,
+      "report_sha256": "77bf176e936964588d9023226e15ab638e84dc36960fec896af89cb53eca4aa7"
+    },
+    "08B_XDNA_Numerics_and_Dataflow": {
+      "body_han_chars": 2945,
+      "tables": 2,
+      "sources": 13,
+      "figures": 2,
+      "claim_reviews": 44,
+      "archive_status": {
+        "partial_static": 7,
+        "complete_static": 6
+      },
+      "quality_errors": 0,
+      "dedup_network_requests": 0,
+      "report_sha256": "0ba000899112d7a40fb3e8993763a85334e88a20c6eb768779fc81dd27106191"
+    },
+    "08C_Versal_Dataflow_RealTime_and_Lifecycle": {
+      "body_han_chars": 2661,
+      "tables": 1,
+      "sources": 23,
+      "figures": 3,
+      "claim_reviews": 53,
+      "archive_status": {
+        "complete_static": 20,
+        "partial_static": 3
+      },
+      "quality_errors": 0,
+      "dedup_network_requests": 0,
+      "report_sha256": "c5e9530efb10f121ca998261e63738685d842813fa93e37795591489c738f6b7"
+    },
+    "08_Core_Technology_Moat": {
+      "body_han_chars": 1891,
+      "tables": 2,
+      "sources": 18,
+      "figures": 2,
+      "claim_reviews": 17,
+      "archive_status": {
+        "complete_static": 12,
+        "partial_static": 6
+      },
+      "quality_errors": 0,
+      "dedup_network_requests": 0,
+      "report_sha256": "6b649022b6446424d366aac32754eb80d78f2f2db4269c20ff15c8c07c905c55"
+    },
+    "09_SWOT_Analysis": {
+      "body_han_chars": 4230,
+      "tables": 4,
+      "sources": 27,
+      "figures": 2,
+      "claim_reviews": 57,
+      "archive_status": {
+        "partial_static": 12,
+        "complete_static": 15
+      },
+      "quality_errors": 0,
+      "dedup_network_requests": 0,
+      "report_sha256": "edfbf2fc07955466eb8281ead7e555500ccee3f185ae1f9a84751b0846d58858"
+    }
+  },
+  "software_depth_topics": {
+    "planned": [
+      "02A_GPU_Execution_and_Deployment",
+      "02B_RyzenAI_Compilation_and_Quantization",
+      "02C_Versal_Compiler_and_Runtime",
+      "02D_EDF_BSP_and_Execution_Domains",
+      "02E_ROS_Acceleration_and_System_Integration"
+    ],
+    "completed": [
+      "02A_GPU_Execution_and_Deployment",
+      "02B_RyzenAI_Compilation_and_Quantization",
+      "02C_Versal_Compiler_and_Runtime",
+      "02D_EDF_BSP_and_Execution_Domains",
+      "02E_ROS_Acceleration_and_System_Integration"
+    ],
+    "method": "痛点→原理/数据流→API/实现→优势条件→官方测量→机制对标→版本/许可/失效→可复建验证",
+    "summaries": {
+      "02A_GPU_Execution_and_Deployment": {
+        "body_han_chars": 3362,
+        "tables": 5,
+        "sources": 19,
+        "figures": 4,
+        "claim_reviews": 28,
+        "quality_errors": 0,
+        "dedup_network_requests": 0,
+        "report_sha256": "9b3c85a3b432671d30c2b1722bc623b37baf9e5e2594b909cf149b210b5f9ace"
+      },
+      "02B_RyzenAI_Compilation_and_Quantization": {
+        "body_han_chars": 2978,
+        "tables": 3,
+        "sources": 16,
+        "figures": 3,
+        "claim_reviews": 27,
+        "quality_errors": 0,
+        "dedup_network_requests": 0,
+        "report_sha256": "b2c2d379dc757e709f7988fe2b76159b3f4603b3a3d8dafc95d98dae7ef4108a"
+      },
+      "02C_Versal_Compiler_and_Runtime": {
+        "body_han_chars": 2822,
+        "tables": 3,
+        "sources": 21,
+        "figures": 5,
+        "claim_reviews": 36,
+        "quality_errors": 0,
+        "dedup_network_requests": 0,
+        "report_sha256": "90d327409fd1c475f353162876b61f069b187290264c7a5bd641e2fe6f1d987d"
+      },
+      "02D_EDF_BSP_and_Execution_Domains": {
+        "body_han_chars": 2424,
+        "tables": 3,
+        "sources": 14,
+        "figures": 3,
+        "claim_reviews": 30,
+        "quality_errors": 0,
+        "dedup_network_requests": 0,
+        "report_sha256": "14470d22c61bb624d604908493d7afa2829f42ec25c3e92548314bd42d0f1d24"
+      },
+      "02E_ROS_Acceleration_and_System_Integration": {
+        "body_han_chars": 3791,
+        "tables": 4,
+        "sources": 15,
+        "figures": 3,
+        "claim_reviews": 48,
+        "quality_errors": 0,
+        "dedup_network_requests": 0,
+        "report_sha256": "807f862590ce320bf7a6b09ab92fc51b86b1331658abdf105507d3a1d88aab71"
+      }
+    },
+    "review_status": "user_authorized_next_chapter",
+    "index": "01_Compute_Chips/10_AMD/02_Topics_Index.md",
+    "combined_manifest": "toolkit/manifests/AMD_02_software_depth_all.json",
+    "collection": "01_Compute_Chips/10_AMD/reference_metrial/02_software_depth",
+    "totals": {
+      "body_han_chars": 15377,
+      "sources": 85,
+      "figures": 18,
+      "tables": 18,
+      "claim_reviews": 169
+    },
+    "unique_sources": 81,
+    "archive_status": {
+      "complete_static": 36,
+      "partial_static": 45,
+      "failed": 0
+    },
+    "dedup_network_requests": 0
+  },
+  "sensor_integration_review": {
+    "report": "01_Compute_Chips/10_AMD/03_Sensor_Integration.md",
+    "status": "approved_by_user",
+    "collection": "01_Compute_Chips/10_AMD/reference_metrial/03_sensors",
+    "source_catalog": "01_Compute_Chips/10_AMD/research_state/depth_03/03_Sensor_Integration_sources.json",
+    "evidence": "01_Compute_Chips/10_AMD/research_state/evidence/03_Sensor_Integration.json",
+    "summary": {
+      "body_han_chars": 9406,
+      "tables": 10,
+      "sources": 42,
+      "figures": 9,
+      "claim_reviews": 90,
+      "archive_status": {
+        "partial_static": 28,
+        "complete_static": 14
+      },
+      "quality_errors": 0,
+      "dedup_network_requests": 0,
+      "report_sha256": "3a15ab70a5929f398cde4170bd41c682212b24077afa59d8d0784668dcebb9e1"
+    }
+  },
+  "continuous_authorization": {
+    "chapters": [
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ],
+    "user_instruction": "好的，按照这个质量继续04到09的调研",
+    "status": "completed_requested_scope"
+  },
+  "core_technology_topics": {
+    "completed": [
+      "08_Core_Technology_Moat",
+      "08A_GPU_Memory_and_Execution",
+      "08B_XDNA_Numerics_and_Dataflow",
+      "08C_Versal_Dataflow_RealTime_and_Lifecycle"
+    ],
+    "unique_sources": 56,
+    "union_manifest": "toolkit/manifests/AMD_08_all_final.json",
+    "collection": "01_Compute_Chips/10_AMD/reference_metrial/08_core",
+    "archive_status": {
+      "complete_static": 30,
+      "partial_static": 26,
+      "failed": 0
+    },
+    "dedup_network_requests": 0,
+    "summaries": {
+      "08_Core_Technology_Moat": {
+        "body_han_chars": 1891,
+        "tables": 2,
+        "sources": 18,
+        "figures": 2,
+        "claim_reviews": 17,
+        "archive_status": {
+          "complete_static": 12,
+          "partial_static": 6
+        },
+        "quality_errors": 0,
+        "dedup_network_requests": 0,
+        "report_sha256": "6b649022b6446424d366aac32754eb80d78f2f2db4269c20ff15c8c07c905c55"
+      },
+      "08A_GPU_Memory_and_Execution": {
+        "body_han_chars": 2496,
+        "tables": 2,
+        "sources": 20,
+        "figures": 4,
+        "claim_reviews": 43,
+        "archive_status": {
+          "partial_static": 16,
+          "complete_static": 4
+        },
+        "quality_errors": 0,
+        "dedup_network_requests": 0,
+        "report_sha256": "77bf176e936964588d9023226e15ab638e84dc36960fec896af89cb53eca4aa7"
+      },
+      "08B_XDNA_Numerics_and_Dataflow": {
+        "body_han_chars": 2945,
+        "tables": 2,
+        "sources": 13,
+        "figures": 2,
+        "claim_reviews": 44,
+        "archive_status": {
+          "partial_static": 7,
+          "complete_static": 6
+        },
+        "quality_errors": 0,
+        "dedup_network_requests": 0,
+        "report_sha256": "0ba000899112d7a40fb3e8993763a85334e88a20c6eb768779fc81dd27106191"
+      },
+      "08C_Versal_Dataflow_RealTime_and_Lifecycle": {
+        "body_han_chars": 2661,
+        "tables": 1,
+        "sources": 23,
+        "figures": 3,
+        "claim_reviews": 53,
+        "archive_status": {
+          "complete_static": 20,
+          "partial_static": 3
+        },
+        "quality_errors": 0,
+        "dedup_network_requests": 0,
+        "report_sha256": "c5e9530efb10f121ca998261e63738685d842813fa93e37795591489c738f6b7"
+      }
+    }
+  },
+  "delivery_review": "01_Compute_Chips/10_AMD/reference_metrial/derived/qa/04_09_delivery_review.json",
+  "delivery_totals": {
+    "reports": 9,
+    "body_han_chars": 34111,
+    "source_ids": 133,
+    "unique_source_urls": 133,
+    "unique_figure_hashes": 25,
+    "claim_reviews": 412,
+    "chapter_checks_passed": 9
+  }
+}

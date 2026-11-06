@@ -1,0 +1,479 @@
+[
+  {
+    "source_id": "AMD_Versal_Gen2_Brief",
+    "needle": "MX6 & MX9: Shared-exponent",
+    "claim": "Gen2格式类别",
+    "location": "p1—3",
+    "evidence_type": "事实/厂商预测",
+    "conditions": "Gen2 brief VER023/027/028",
+    "finding": "跨精度代际预测非量产实测；无完整编码/证书"
+  },
+  {
+    "source_id": "AMD_Versal_Gen2_Brief",
+    "needle": "2 row, 8 column",
+    "claim": "预测子阵列",
+    "location": "p1—3",
+    "evidence_type": "事实/厂商预测",
+    "conditions": "Gen2 brief VER023/027/028",
+    "finding": "跨精度代际预测非量产实测；无完整编码/证书"
+  },
+  {
+    "source_id": "AMD_Versal_Gen2_Brief",
+    "needle": "March 2024",
+    "claim": "预测时间",
+    "location": "p1—3",
+    "evidence_type": "事实/厂商预测",
+    "conditions": "Gen2 brief VER023/027/028",
+    "finding": "跨精度代际预测非量产实测；无完整编码/证书"
+  },
+  {
+    "source_id": "AMD_Versal_Gen2_Brief",
+    "needle": "100C junction",
+    "claim": "预测温度",
+    "location": "p1—3",
+    "evidence_type": "事实/厂商预测",
+    "conditions": "Gen2 brief VER023/027/028",
+    "finding": "跨精度代际预测非量产实测；无完整编码/证书"
+  },
+  {
+    "source_id": "AMD_Versal_Gen2_Brief",
+    "needle": "Assured quality of service",
+    "claim": "NoC优先级",
+    "location": "p1—3",
+    "evidence_type": "事实/厂商预测",
+    "conditions": "Gen2 brief VER023/027/028",
+    "finding": "跨精度代际预测非量产实测；无完整编码/证书"
+  },
+  {
+    "source_id": "AMD_Versal_Gen2_Brief",
+    "needle": "AES-XTS or AES-GCM",
+    "claim": "DDR加密功能",
+    "location": "p1—3",
+    "evidence_type": "事实/厂商预测",
+    "conditions": "Gen2 brief VER023/027/028",
+    "finding": "跨精度代际预测非量产实测；无完整编码/证书"
+  },
+  {
+    "source_id": "AMD_Versal_Gen2_Brief",
+    "needle": "run-time HSM",
+    "claim": "ASU功能",
+    "location": "p1—3",
+    "evidence_type": "事实/厂商预测",
+    "conditions": "Gen2 brief VER023/027/028",
+    "finding": "跨精度代际预测非量产实测；无完整编码/证书"
+  },
+  {
+    "source_id": "AMD_Versal_Gen2_Brief",
+    "needle": "lockstep mode",
+    "claim": "安全算力条件",
+    "location": "p1—3",
+    "evidence_type": "事实/厂商预测",
+    "conditions": "Gen2 brief VER023/027/028",
+    "finding": "跨精度代际预测非量产实测；无完整编码/证书"
+  },
+  {
+    "source_id": "AMD_Versal_Gen2_Brief",
+    "needle": "pre-silicon",
+    "claim": "非实测",
+    "location": "p1—3",
+    "evidence_type": "事实/厂商预测",
+    "conditions": "Gen2 brief VER023/027/028",
+    "finding": "跨精度代际预测非量产实测；无完整编码/证书"
+  },
+  {
+    "source_id": "AMD_Versal_Gen2_Industrial",
+    "needle": "certification targeted",
+    "claim": "认证目标",
+    "location": "p1",
+    "evidence_type": "厂商宣称",
+    "conditions": "工业solution brief",
+    "finding": "targeted不当已获整机证书"
+  },
+  {
+    "source_id": "AMD_Versal_Gen2_Industrial",
+    "needle": "ASIL B and SIL 2",
+    "claim": "GPU/AIE/ISP目标",
+    "location": "p1",
+    "evidence_type": "厂商宣称",
+    "conditions": "工业solution brief",
+    "finding": "targeted不当已获整机证书"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Reference",
+    "needle": "System",
+    "claim": "多角色汇合",
+    "location": "system-flow图",
+    "evidence_type": "事实",
+    "conditions": "Gen2快照",
+    "finding": "图ELF残留以现行.rai文档为准"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Output",
+    "needle": ".rai",
+    "claim": "当前模型产物",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Tenancy",
+    "needle": "lockstep",
+    "claim": "DP同步",
+    "location": "multi-tenancy",
+    "evidence_type": "事实",
+    "conditions": "Gen2配置",
+    "finding": "片上block非GPU多卡，吞吐非P99"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Tenancy",
+    "needle": "special sentinel flag",
+    "claim": "TP自动值",
+    "location": "multi-tenancy",
+    "evidence_type": "事实",
+    "conditions": "Gen2配置",
+    "finding": "片上block非GPU多卡，吞吐非P99"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Tenancy",
+    "needle": "sharding",
+    "claim": "TP拆分",
+    "location": "multi-tenancy",
+    "evidence_type": "事实",
+    "conditions": "Gen2配置",
+    "finding": "片上block非GPU多卡，吞吐非P99"
+  },
+  {
+    "source_id": "AMD_VAI_EP_Config",
+    "needle": "optimization",
+    "claim": "编译选项",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_VAI_Custom_Ops",
+    "needle": "TileBy",
+    "claim": "分块",
+    "location": "custom ops",
+    "evidence_type": "事实",
+    "conditions": "Gen2公开指南",
+    "finding": "未取得完整包内tiling reference"
+  },
+  {
+    "source_id": "AMD_VAI_Custom_Ops",
+    "needle": "set_l3_to_l2_transfer",
+    "claim": "三级搬运",
+    "location": "custom ops",
+    "evidence_type": "事实",
+    "conditions": "Gen2公开指南",
+    "finding": "未取得完整包内tiling reference"
+  },
+  {
+    "source_id": "AMD_VAI_Custom_Ops",
+    "needle": "lp_params",
+    "claim": "kernel参数",
+    "location": "custom ops",
+    "evidence_type": "事实",
+    "conditions": "Gen2公开指南",
+    "finding": "未取得完整包内tiling reference"
+  },
+  {
+    "source_id": "AMD_VAI_Custom_Ops",
+    "needle": "two independent steps",
+    "claim": "双注册",
+    "location": "custom ops",
+    "evidence_type": "事实",
+    "conditions": "Gen2公开指南",
+    "finding": "未取得完整包内tiling reference"
+  },
+  {
+    "source_id": "AMD_VAI_Custom_Ops",
+    "needle": "schema",
+    "claim": "runtime仅接口",
+    "location": "custom ops",
+    "evidence_type": "事实",
+    "conditions": "Gen2公开指南",
+    "finding": "未取得完整包内tiling reference"
+  },
+  {
+    "source_id": "AMD_VAI_Custom_Infer",
+    "needle": "register_dynamic_custom_ops_to_onnxruntime",
+    "claim": "session前schema注册",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_VAI_Tensor_Formats",
+    "needle": "HCWNC",
+    "claim": "布局",
+    "location": "tensor formats",
+    "evidence_type": "事实",
+    "conditions": "Gen2",
+    "finding": "实际HSI/strides优先，不能只改shape"
+  },
+  {
+    "source_id": "AMD_VAI_Tensor_Formats",
+    "needle": "rt_transformations",
+    "claim": "显式转换接管",
+    "location": "tensor formats",
+    "evidence_type": "事实",
+    "conditions": "Gen2",
+    "finding": "实际HSI/strides优先，不能只改shape"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Architecture",
+    "needle": "USER_POINTER_NON_CMA",
+    "claim": "内存类型限制",
+    "location": "Memory Architecture",
+    "evidence_type": "事实",
+    "conditions": "Gen2 VART",
+    "finding": "零拷贝不等零流量/所有权转移"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Architecture",
+    "needle": "does not take ownership",
+    "claim": "caller所有权",
+    "location": "Memory Architecture",
+    "evidence_type": "事实",
+    "conditions": "Gen2 VART",
+    "finding": "零拷贝不等零流量/所有权转移"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Architecture",
+    "needle": "TensorType = CPU",
+    "claim": "CPU view转换",
+    "location": "Memory Architecture",
+    "evidence_type": "事实",
+    "conditions": "Gen2 VART",
+    "finding": "零拷贝不等零流量/所有权转移"
+  },
+  {
+    "source_id": "AMD_VitisAI_VART_App",
+    "needle": "JOB_PENDING",
+    "claim": "pending不复用",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_VAI_Quant_Pipeline",
+    "needle": "edge-quantization-in-rt",
+    "claim": "编译传递scale",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Async",
+    "needle": "RESOURCE_UNAVAILABLE",
+    "claim": "异步槽满",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_EDF_SHEL_XSA",
+    "needle": "SDTGen",
+    "claim": "SHEL生成路径",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_EDF_Domains",
+    "needle": "no-map",
+    "claim": "Linux映射排除",
+    "location": "Domain YAML",
+    "evidence_type": "事实",
+    "conditions": "EDF26.06.1-rev3",
+    "finding": "资源声明不等DMA/硬件全面隔离"
+  },
+  {
+    "source_id": "AMD_EDF_Domains",
+    "needle": "carveouts",
+    "claim": "IPC区域",
+    "location": "Domain YAML",
+    "evidence_type": "事实",
+    "conditions": "EDF26.06.1-rev3",
+    "finding": "资源声明不等DMA/硬件全面隔离"
+  },
+  {
+    "source_id": "AMD_EDF_Domains",
+    "needle": "mode.secure",
+    "claim": "域描述",
+    "location": "Domain YAML",
+    "evidence_type": "事实",
+    "conditions": "EDF26.06.1-rev3",
+    "finding": "资源声明不等DMA/硬件全面隔离"
+  },
+  {
+    "source_id": "AMD_EDF_Domains",
+    "needle": "Memory region overlap",
+    "claim": "地址冲突",
+    "location": "Domain YAML",
+    "evidence_type": "事实",
+    "conditions": "EDF26.06.1-rev3",
+    "finding": "资源声明不等DMA/硬件全面隔离"
+  },
+  {
+    "source_id": "AMD_EDF_OpenAMP_FreeRTOS",
+    "needle": "stop it manually with Ctrl-C",
+    "claim": "停止上层demo",
+    "location": "demo",
+    "evidence_type": "事实",
+    "conditions": "具体板端示例",
+    "finding": "非电机停机/WCET证明"
+  },
+  {
+    "source_id": "AMD_EDF_OpenAMP_FreeRTOS",
+    "needle": "remote processor",
+    "claim": "remoteproc示例",
+    "location": "demo",
+    "evidence_type": "事实",
+    "conditions": "具体板端示例",
+    "finding": "非电机停机/WCET证明"
+  },
+  {
+    "source_id": "AMD_EDF_OpenAMP_FreeRTOS",
+    "needle": "echo_test",
+    "claim": "echo路径",
+    "location": "demo",
+    "evidence_type": "事实",
+    "conditions": "具体板端示例",
+    "finding": "非电机停机/WCET证明"
+  },
+  {
+    "source_id": "AMD_EDF_OpenAMP_Zephyr",
+    "needle": "Zephyr",
+    "claim": "另RTOS演示",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_TSN_HW",
+    "needle": "QBV schedule",
+    "claim": "TADMA门控",
+    "location": "Hardware architecture",
+    "evidence_type": "事实",
+    "conditions": "KR260/KD240；2026.1",
+    "finding": "不可跨板推支持/实时/许可"
+  },
+  {
+    "source_id": "AMD_TSN_HW",
+    "needle": "IEEE 802.1CB and IEEE 802.1Qci are disabled",
+    "claim": "KD240功能删减",
+    "location": "Hardware architecture",
+    "evidence_type": "事实",
+    "conditions": "KR260/KD240；2026.1",
+    "finding": "不可跨板推支持/实时/许可"
+  },
+  {
+    "source_id": "AMD_TSN_HW",
+    "needle": "2026.1 release",
+    "claim": "绑定版本",
+    "location": "Hardware architecture",
+    "evidence_type": "事实",
+    "conditions": "KR260/KD240；2026.1",
+    "finding": "不可跨板推支持/实时/许可"
+  },
+  {
+    "source_id": "AMD_TSN_HW",
+    "needle": "Documentation Lounge",
+    "claim": "完整IP文档受限",
+    "location": "Hardware architecture",
+    "evidence_type": "事实",
+    "conditions": "KR260/KD240；2026.1",
+    "finding": "不可跨板推支持/实时/许可"
+  },
+  {
+    "source_id": "AMD_TSN_SW",
+    "needle": "PTP",
+    "claim": "软件时间路径",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_TSN_Intro",
+    "needle": "oscilloscope",
+    "claim": "外部时序测量",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_EDF_Segmented",
+    "needle": "If using DFX (not Segmented Configuration)",
+    "claim": "重配置区别",
+    "location": "Segmented/DFX",
+    "evidence_type": "事实",
+    "conditions": "EDF",
+    "finding": "不把热加载当无中断OTA"
+  },
+  {
+    "source_id": "AMD_EDF_Segmented",
+    "needle": "1:1",
+    "claim": "硬件DT对应",
+    "location": "Segmented/DFX",
+    "evidence_type": "事实",
+    "conditions": "EDF",
+    "finding": "不把热加载当无中断OTA"
+  },
+  {
+    "source_id": "AMD_EDF_Segmented",
+    "needle": "/lib/firmware/xlinx",
+    "claim": "路径拼写冲突",
+    "location": "Segmented/DFX",
+    "evidence_type": "事实",
+    "conditions": "EDF",
+    "finding": "不把热加载当无中断OTA"
+  },
+  {
+    "source_id": "AMD_EDF_PL_Load",
+    "needle": "firmware",
+    "claim": "加载产物",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "obligation for ongoing security maintenance",
+    "claim": "维护责任",
+    "location": "production",
+    "evidence_type": "事实",
+    "conditions": "EDF生产指南",
+    "finding": "扫描不等补丁、模型/固件需补SBOM"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "SPDX",
+    "claim": "SBOM输出",
+    "location": "production",
+    "evidence_type": "事实",
+    "conditions": "EDF生产指南",
+    "finding": "扫描不等补丁、模型/固件需补SBOM"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "needle": "Self-maintained",
+    "claim": "自主维护",
+    "location": "production",
+    "evidence_type": "事实",
+    "conditions": "EDF生产指南",
+    "finding": "扫描不等补丁、模型/固件需补SBOM"
+  }
+]

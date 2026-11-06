@@ -1,0 +1,110 @@
+{
+  "attempted_sources": {
+    "AMD09_IR_Annual": {
+      "id": "AMD09_IR_Annual",
+      "url": "https://ir.amd.com/financial-information/annual-reports-and-proxy-statements",
+      "archived_at_utc": "2026-11-04T14:58:46.747307+00:00",
+      "tool": "toolkit/download_materials.py",
+      "script_policy": "disable",
+      "aliases": [
+        "AMD09_IR_Annual"
+      ],
+      "used_by": [
+        "09_SWOT_Analysis"
+      ],
+      "archive_status": "failed",
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "assets": [],
+      "unavailable_assets": {},
+      "notes": [],
+      "robots": {
+        "https://ir.amd.com": "unavailable URLError; fail closed"
+      }
+    },
+    "AMD09_IR_SEC": {
+      "id": "AMD09_IR_SEC",
+      "url": "https://ir.amd.com/financial-information/sec-filings",
+      "archived_at_utc": "2026-11-04T15:00:07.614374+00:00",
+      "tool": "toolkit/download_materials.py",
+      "script_policy": "disable",
+      "aliases": [
+        "AMD09_IR_SEC"
+      ],
+      "used_by": [
+        "09_SWOT_Analysis"
+      ],
+      "archive_status": "failed",
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "assets": [],
+      "unavailable_assets": {},
+      "notes": [],
+      "robots": {
+        "https://ir.amd.com": "unavailable URLError; fail closed"
+      }
+    },
+    "AMD09_EAR_742": {
+      "id": "AMD09_EAR_742",
+      "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742",
+      "archived_at_utc": "2026-11-04T15:00:08.322732+00:00",
+      "tool": "toolkit/download_materials.py",
+      "script_policy": "disable",
+      "aliases": [
+        "AMD09_EAR_742"
+      ],
+      "used_by": [
+        "09_SWOT_Analysis"
+      ],
+      "archive_status": "failed",
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "assets": [],
+      "unavailable_assets": {},
+      "notes": [],
+      "robots": {
+        "https://ir.amd.com": "unavailable URLError; fail closed",
+        "https://www.ecfr.gov": "unavailable URLError; fail closed"
+      }
+    },
+    "AMD09_EU_AI_Act": {
+      "id": "AMD09_EU_AI_Act",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "archived_at_utc": "2026-11-04T15:00:49.198282+00:00",
+      "tool": "toolkit/download_materials.py",
+      "script_policy": "disable",
+      "aliases": [
+        "AMD09_EU_AI_Act"
+      ],
+      "used_by": [
+        "09_SWOT_Analysis"
+      ],
+      "archive_status": "failed",
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "assets": [],
+      "unavailable_assets": {},
+      "notes": [],
+      "robots": {
+        "https://ir.amd.com": "unavailable URLError; fail closed",
+        "https://www.ecfr.gov": "unavailable URLError; fail closed",
+        "https://eur-lex.europa.eu": "unavailable URLError; fail closed"
+      }
+    }
+  },
+  "consequence": "正文未取得，不引用数值/法规结论，不把采集失败称官方未披露。",
+  "discovery_run": {
+    "time_utc": "2026-11-04T15:02:10.038380+00:00",
+    "summary": {
+      "complete_static": 0,
+      "partial_static": 0,
+      "failed": 4
+    },
+    "names": [
+      "AMD09_IR_Annual",
+      "AMD09_IR_SEC",
+      "AMD09_EAR_742",
+      "AMD09_EU_AI_Act"
+    ],
+    "network_requests_including_robots": 3,
+    "new_assets": 0,
+    "asset_attempts": 0,
+    "tool": "toolkit/download_materials.py"
+  }
+}

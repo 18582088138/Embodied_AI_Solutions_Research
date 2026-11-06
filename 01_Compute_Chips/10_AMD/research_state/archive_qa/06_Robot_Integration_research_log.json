@@ -1,0 +1,65 @@
+{
+  "chapter": "06_Robot_Integration",
+  "data_cutoff": "2026-11-04",
+  "completed_at_utc": "2026-11-04T08:46:47.606958+00:00",
+  "summary": {
+    "body_han_chars": 4060,
+    "tables": 2,
+    "sources": 11,
+    "figures": 4,
+    "claim_reviews": 44,
+    "archive_status": {
+      "partial_static": 5,
+      "complete_static": 6
+    },
+    "quality_errors": 0,
+    "dedup_network_requests": 0,
+    "report_sha256": "2e2fa8a474f209a457b5bcc912d37a3904d9051892249c76e02667c64b4151d3"
+  },
+  "manual_review": {
+    "coverage": "具体XArm6/Koch独立研究感知/训练/执行；XArm7仿真、STW/SXVPU周边、RoSi HIL和GENE.01计划成熟度分别研究。",
+    "versions_and_measurements": "原图7+1与XArm6正文6+1冲突；40Hz非servo，4mm是外参残差；10ms/TOPS/W为外部加速器整机客户宣称。",
+    "maturity_and_licenses": "已演示、产品采用、HIL、未来计划分开；SDK BSD3正文核对；未取得补丁ZIP、完整API和GB门户原件；不采用失败页。",
+    "figures_opened": "实际打开XArm6训练/真机/感知/控制四原图；三客户PDF相关页已渲染放大打开，确认脚注与水印；正文选4张。"
+  },
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_GPU_Execution_and_Deployment.md": true,
+    "02B_RyzenAI_Compilation_and_Quantization.md": true,
+    "02C_Versal_Compiler_and_Runtime.md": true,
+    "02D_EDF_BSP_and_Execution_Domains.md": true,
+    "02E_ROS_Acceleration_and_System_Integration.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "README.md": true
+  },
+  "final_dedup": {
+    "time_utc": "2026-11-04T08:46:32.391221+00:00",
+    "summary": {
+      "complete_static": 6,
+      "partial_static": 5,
+      "failed": 0
+    },
+    "names": [
+      "AMD_Robotics",
+      "AMD06_XArm_Sim2Real",
+      "AMD04_LeRobot_Blog",
+      "AMD06_XArm_JAX",
+      "AMD06_STW_PDF",
+      "AMD06_Solectrix_PDF",
+      "AMD06_Robotec_PDF",
+      "AMD06_GB_Factory_PR",
+      "AMD06_XArm_SDK",
+      "AMD06_XArm_License",
+      "AMD06_Robotec_Case"
+    ],
+    "network_requests_including_robots": 0,
+    "new_assets": 0,
+    "asset_attempts": 0,
+    "tool": "toolkit/download_materials.py"
+  },
+  "method": "官方原文/模型卡/源码→原图实际打开→条件审阅→结构/归档检查→最终去重；未运行硬件/机器人实测"
+}

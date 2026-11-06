@@ -1,0 +1,148 @@
+# 05 AMD 仿真环境：执行后端、物理误差与闭环验证
+
+数据截止：2026-11-04。结论性质：公开资料研究，未执行仿真或本体测试。本章将 AMD 官方示例、上游支持和工程分析分开；框架能安装、场景能显示、策略能 rollout、真实任务能完成是四级不同证据。
+
+## 1. 平台关系与可用路线
+
+AMD 有可追溯的 Genesis 教程与 LeRobot/π0 真机教学链，但本次取得的材料不支持认定存在 AMD 自研、统一覆盖资产、物理、传感器、训练和机器人管理的专属仿真产品。实际选择应由任务和依赖决定。AMD 2026-02-09 教程在 Ryzen AI Max/AI Halo、Ubuntu 24.04 上选择 `gs.vulkan`；当前 Genesis World 上游已经引入 Quadrants 与 Nyx，不能把主分支能力追溯赋给旧教程。@@AMD05_Genesis_Blog@@ @@AMD05_Genesis_Repo@@ @@AMD05_Genesis_Docs@@
+
+| 路线 | 与 AMD 的证据关系 | 模型/资产与执行 | 本章确认的范围 | 未形成的证据 |
+|---|---|---|---|---|
+| Genesis 教程 | AMD 官方技术示例 | Panda MJCF；Vulkan；Max+395/Max390 示例 | 场景构建、PD、IK、九环境演示 | 吞吐基准、训练收敛、实物迁移 |
+| Genesis World 当前上游 | 第三方框架明确列 ROCm 后端 | 多物理；Quadrants；Nyx等渲染器 | 当前文档的组件与后端声明 | AMD 每 SKU/solver/renderer 测试矩阵 |
+| MuJoCo CPU / MJX-JAX | 上游明确支持 AMD GPU 的 JAX 路线 | MJCF→MjModel→device structs→jit/vmap | 接触模型、批量状态与计算接口 | 目标 AMD GPU 的完整任务测量 |
+| Gazebo Harmonic | 第三方 ROS 仿真路线 | SDF、system plugins、gz transport、ros_gz | 传感器插件、桥接和迁移机制 | AMD 官方整套 AMR 验收 |
+| O3DE | 第三方机器人引擎 | URDF/SDF/XACRO→prefab；PhysX；ROS2 Gems | 资产导入、时钟、控制和传感器组件 | 全部可选插件在 AMD 上可用 |
+| KRS 既有仿真 | AMD/Xilinx 软件示例，旧版本绑定 | Humble/Ubuntu22.04/Vitis2022.1/Classic11 | 旧加速节点与仿真集成参考 | 新 Gazebo 或当前 BSP 自动兼容 |
+
+关系与条件依据上述 Genesis 来源、@@Model05_NVIDIA_08_DEEP_MUJOCO_MJX@@、@@AMD05_Gazebo_Docs@@、@@AMD05_O3DE_Concepts@@、@@KRS_Install@@。AMD AUP Learning Cloud 仓库是教学/学习入口，不能据课程可用推导量产 SLA 或软件维护承诺。@@AMD05_AUP_Repo@@
+
+## 2. Genesis：从场景对象追到状态和控制
+
+### 2.1 资产、构建阶段与两条计算链
+
+`Scene` 同时包含 simulator 与 visualizer：前者承担 physics solvers，后者承担分辨率、刷新与视角。`add_entity` 的 morph 描述几何/文件输入，material 描述物理类型，surface 描述可见表面。教程的地面为 Plane，机器人来自 `xml/franka_emika_panda/panda.xml`。这条路径明确了“机器人结构进入仿真”的入口，未完成材料标定或实物关节辨识。@@AMD05_Genesis_Blog@@
+
+![AMD教程：Scene物理与可视化划分](@@FIG:scene@@)
+
+图把 time/gravity 和 resolution/refresh 分属两侧。读图应关注两种频率和开销来源；它不证明关闭 viewer 后相机生成免费，也不证明显示 FPS 等于接触求解速率。
+
+![AMD教程：Entity与资产对象](@@FIG:entity@@)
+
+图列出 URDF、MJCF、mesh 与 primitive。文件格式可解析不代表不同引擎拥有同样惯量、接触参数或执行器动态。跨引擎转换需保留质量、惯量坐标、碰撞 mesh、摩擦、关节上下限与执行器定义，并用同一小任务对照。
+
+`scene.build()` 不是无意义的初始化：教程说明此时检查实体、生成 kernel，分配状态、接触与控制器 buffer。研究性分析：首次构建/编译必须与稳态 step 分开计时；改变 batch 或场景结构可能改变生成代码与内存需求。多环境可以摊薄构建成本，却可能增加接触和状态容量，不能只按机械臂数量线性外推。@@AMD05_Genesis_Blog@@
+
+### 2.2 重置不等于运动，IK不等于安全规划
+
+教程 Panda 有七个臂关节与两个夹爪 DOF，示例设置 `set_dofs_kp/kv/force_range`。`set_dofs_position` 直接覆盖内部状态并绕过物理求解，适合 reset；`control_dofs_position/velocity` 才通过 PD 生成实际运动。若用直接写状态的方法评估跟踪误差，控制动力学会被人为消除。示例增益和力矩范围只支持该教学场景，不能当真实 Franka 或任意本体的合规控制配置。@@AMD05_Genesis_Blog@@
+
+控制链为目标末端位姿→IK关节配置→起终点插值→逐步PD跟踪→constraint/contact求解→积分→状态更新。IK只回答几何可达性；整段轨迹还需验证自碰撞、障碍碰撞、速度/加速度、夹爪状态与奇异附近的跳变。初始化赋值“到位”与真实执行“到位”分母不同，报告应分别统计。教程未给完整避障规划与失败处理实验。@@AMD05_Genesis_Blog@@
+
+### 2.3 时间与批量并行的测量边界
+
+教程设置 `dt=0.01`、重力 `(0,0,-10.0)`、`show_viewer=False`，循环120次；分析计算对应1.2秒模拟时间。墙钟耗时未知，因此不能称实时、快于实时或100Hz实机控制。九环境例子 `scene.build(n_envs=9, env_spacing=(1.0,1.0))` 共享场景结构和GPU kernel，各状态多一个 environment 维度。有效批量应确保 reset、目标、done、奖励和seed均按环境独立处理，防止一份动作广播到所有环境却被当成九份策略经验。@@AMD05_Genesis_Blog@@
+
+![AMD教程：九Panda环境](@@FIG:parallel@@)
+
+图确认九环境场景存在；它没有 wall-clock、求解步数、contact数量、相机配置、batch吞吐或 RL 成功分母。AMD 教程所称适用于 RL/large-scale evaluation 是用途说明，本章不补造学习曲线。
+
+当前上游 README 将 physics、rendering 和 compiler 分层：Quadrants 将 Python kernel 降到 CUDA、AMD ROCm、Metal、Vulkan、x86和ARM64，携带 autodiff、GPU graphs 与cache；当前文档安装包为 `genesis-world`。这些是上游公开能力，仍需核每个 solver/coupler/renderer 的实际依赖和目标后端。尤其不能仅凭统一 Python API 推导 Nyx 与全部相机/粒子/软体组件在所有后端行为一致。复建应冻结 commit、安装 extra、驱动、Torch和运行日志；旧 Genesis 教程与新 World 主分支分别建环境。@@AMD05_Genesis_Repo@@ @@AMD05_Genesis_Docs@@
+
+## 3. MuJoCo与MJX：接触近似、设备状态和批量基准
+
+MuJoCo 是以机器人动力学为核心的第三方引擎，CPU路径与GPU学习路径须分开。上游 MJX 文档明确 MJX-JAX 支持 NVIDIA/AMD GPU、Apple Silicon、TPU；该上游快照将 MJX-Warp 描述为专门优化 NVIDIA GPU。另有2026-09-29 AMD XArm-6案例，使用随案例补丁提供的ROCm MuJoCo Warp实现在MI300X/MI355X单卡训练。故不能据上游文字断言Warp在AMD上绝对不可用，也不能把该案例推广为上游包全部功能/SKU的无修改支持。@@AMD05_Mujoco_Overview@@ @@Model05_NVIDIA_08_DEEP_MUJOCO_MJX@@ @@AMD06_XArm_Sim2Real@@
+
+设备链从 `mujoco.MjModel.from_xml_string/path` 编译模型开始，通过 `mjx.put_model` 和 `mjx.make_data` 建立设备结构，随后 `mjx.step`；示例用 `jax.vmap` 批量化、`jax.jit` 编译。模型结构、设备动态数组和 host 数据不是同一个对象。研究性建议：计时前等待设备完成，区分 JIT、host/device搬运、逐step观测读回和渲染；每步把大型数据读到CPU可能抵消批量收益。JAX API相近也不是完整功能等价，上游文档明确存在不支持的功能。@@Model05_NVIDIA_08_DEEP_MUJOCO_MJX@@
+
+接触模型是物理近似而非真值。计算文档解释，convex formulation 放松严格互补性，使接触法向力与速度可能同时为正；摩擦不必最大耗散。优势是更适合数值求解，但插接、滚动、轻物体抓取等任务应对接触/摩擦参数敏感性做留出试验，不能用“没有穿透画面”判断力学正确。模型中的 actuator activation 同样影响控制时延：`filter` 的Euler积分在时间常数t<h时可发散；`filterexact`采用解析积分，对正时间常数稳定。这并不让整个系统的接触求解、碰撞或策略天然稳定。@@Model05_NVIDIA_08_DEEP_MUJOCO_COMPUTATION@@
+
+| 上游已给的测量 | 条件 | 可以说明 | 不能说明 |
+|---|---|---|---|
+| 单humanoid四平台650K/1.8M/950K/2.7M steps/s | CPU：M3 Max、64核AMD3995WX；MJX-JAX：A100 batch8192、8芯片v5TPU batch16384；2×numcore CPU线程 | 同图展示CPU与批量设备不同吞吐/接触规模趋势 | AMD GPU排名、纯GPU加速比、渲染或ROS吞吐 |
+| 场景humanoid由1增加到10 | 潜在接触增加，纵轴对数 | MJX-JAX吞吐下降较CPU MuJoCo更快的特定测试现象 | 所有机器人/场景通用排序 |
+| AMD Genesis九Panda | 仅场景图片与构建代码 | 教学多环境路径 | 任何FPS/RTF数字 |
+
+上述数字完整保留上游条件。AMD3995WX是CPU测量，不是 MI 系列GPU。没有同场景、batch、接触、精度和相机设置的AMD GPU数据时，本章只做机制比较。@@Model05_NVIDIA_08_DEEP_MUJOCO_MJX@@
+
+### 3.1 AMD两次训练教程与真实迁移的增量证据
+
+2026-03-31教程在RX7900XTX、Ubuntu24.04、ROCm7.2上用MJX-JAX训练XArm7；环境设置osmesa软件渲染并关闭XLA command buffer，因此不能以该教程推导GPU相机渲染吞吐。模型mesh需降面并限maxhullvert20；初始化IK和缓存Jacobian用来对小物体位置扰动做线性修正，避免训练期反复求IK，不能外推大范围运动精度。八维动作对应七关节及夹爪；phase-gated奖励和latched grasp/lift标志稳定训练信号，但接触随后丢失仍需单独判定任务结果。50M timesteps、10eval是命令配置，未给目标GPU同条件训练秒数或实物成功分母。@@AMD06_XArm_JAX@@
+
+2026-09 XArm6案例从真实单关节响应拟合arm/gripper模型，模拟固件重力补偿和API延迟，用实测范围随机化块质量、初始状态与延迟；奖励改为orientation-aware caging，再加入历史状态和平滑奖励适配servo_streaming。真实部署用传统双D435i感知替代仿真特权块位姿，固定upright方向，MLP导ONNX后40Hz调用；并非图像直接进入视觉策略。官方称zero-shot sim-to-real，其含义是该训练策略转到该标定场景，并非无需真机测量、无需感知标定或对任意物体泛化。全文未披露试验次数、任务成功率分母或P99/WCET。@@AMD06_XArm_Sim2Real@@
+
+![AMD官方：训练策略进入真实控制链](@@FIG:xarm_controller@@)
+
+图中Vision estimates与机器人状态进入观测，策略生成目标再经command/robot API执行。图写“7 joint + 1 gripper”，正文Environment Details写六个关节delta加一个gripper delta，存在动作维数冲突；本章保留原图，按正文描述XArm6，部署前必须核模型输出shape和SDK映射。它支持同一策略槽位被真实感知替代的机制，不能证明40Hz是电机servo频率。下载入口robotics.zip实际href为页内片段，当前归档未取得独立ZIP原件，不能称补丁已复建；正文已核官方声明与完整控制图，补丁/参数范围仍需可下载附件核验。
+
+## 4. Gazebo：传感器并不是加一个标签就完成系统仿真
+
+Harmonic文档标识支持周期2023-09至2029-05；这是 Gazebo 项目版本生命周期，不能当AMD BSP支持期。SDF world中需显式加载physics/scene broadcaster，IMU等传感器还要加载对应system plugin；sensor标签定义link、always_on、update_rate、topic。IMU示例的update_rate为1，是教程设置而非机器人目标IMU频率，且文档提示并非所有sensor支持所有标签。@@AMD05_Gazebo_Docs@@ @@AMD05_Gazebo_Sensors@@
+
+Gazebo transport到ROS不是自动同义转换。`ros_gz`桥需要消息类型和方向，参数/YAML/launch composition与QoS是接口契约的一部分。相机大消息可能受到队列、可靠重传或桥接复制影响；分析建议按消息时间戳、实际到达和消费时间分别统计观测年龄。接口允许spawn/delete、state与时间step，不说明一个键盘cmd_vel演示完成了导航、定位、恢复与多机运营。教程内仍存在旧Foxy视频，复建应以当前目标发行版的组合为准。@@AMD05_Gazebo_ROS@@
+
+Classic迁移需要改依赖包、启动接口、插件与消息/桥，不能仅替换命令名。既有KRS安装说明绑定Classic11，硬件加速节点可复用的范围应逐个验证；从旧gazebo_ros插件转到ros_gz还需检验坐标树、时间源、topic命名与控制器驱动。冻结老栈可以复现历史示例，但新项目必须同时评估版本支持和维护成本。@@AMD05_Gazebo_Migration@@ @@KRS_Install@@
+
+## 5. O3DE：资产导入、物理材料和传感器时序的三个边界
+
+### 5.1 ROS组件与导入纠错
+
+O3DE将ROS2 core、Sensors、Controllers、RobotImporter等功能分组；FrameComponent处理TF2的时空关系和namespace，sensor可从frame update或physics event触发。当前文档显示26.05，并专门说明25.05起部分ContactSensor/Spawner/Spawn组件依赖gazebo_msgs；在Jazzy弃用、Kilted缺包等环境下会自动禁用相关组件。因此宣传传感器总表不能直接当所有ROS发行版的可用列表。@@AMD05_O3DE_Concepts@@
+
+RobotImporter解析SDF/URDF/XACRO、解析mesh路径、复制源资产、生成product资产与prefab；关节可以导为articulation或classic joint，fixed joint处理需审核。`Fix URDF` 可补默认mass/inertia或修改名称，解决的是解析/兼容问题。该操作会改变物理模型，应保存修正差异、重新核坐标和惯量，而不是把“导入成功”作为本体标定完成。@@AMD05_O3DE_Import@@
+
+![O3DE官方：URDF修正提示](@@FIG:urdf_fix@@)
+
+截图明确写出惯量缺失、reset to default，并列出links；这正是需要审核修复后的物理参数的证据，不能只截取“execution succeeded”。
+
+![O3DE官方：mesh路径与产物状态](@@FIG:mesh_list@@)
+
+截图上方显示0 unresolved meshes但1 failed asset processor job，bumper产品为Failed。说明源文件已解析与最终渲染/碰撞资产成功是两个状态。不能把找到mesh路径当场景全部准备完毕。
+
+### 5.2 材料、接触和时钟
+
+PhysX material规定static/dynamic friction、restitution及combine规则：average/minimum/maximum/multiply；这些值与可见PBR材质分开。Compliant Contact只在PhysX5.1 enabled条件下可用，以隐式弹簧生成法向力，restitution不再按普通反弹参数使用。选择接触机制后需与真实材料摩擦、软夹爪或缓冲结构匹配；拍摄照片、纹理和几何资产不能推出雷达/深度/激光传感器误差正确。@@AMD05_O3DE_Physics@@ @@AMD05_O3DE_Materials@@
+
+ROS2时钟注册项 `/O3DE/ROS2/ClockType` 有realtime、simulation、ros2。realtime从仿真开始的0起计，受墙钟jitter影响且不能运行时调整；默认simulation按physics delta递增，可快慢于真实时间，适合IMU/odometry同步；ros2跟随外部ROS时间。分析建议：统一 `/clock` 和 `use_sim_time`，明确pause、step、reset时间回退与缓存失效；混用墙钟和模拟时钟会造成TF extrapolation、控制超时或观测排序错误。固定模拟时间步消除的是相应时间源抖动，并非CPU调度或消息网络抖动。@@AMD05_O3DE_Time@@
+
+### 5.3 RGL是明确的GPU依赖反例
+
+Robotec O3DE RGL Gem底层raycasting库使用CUDA/OptiX，提供噪声、点云intensity与ray pattern设置。Apache2.0标记描述Gem源码，不能取消CUDA/OptiX及下层库二进制条件。其build表列2505、2409、2310组合，development对2510及更新仅称预期工作且未充分测试。故本章不把RGL或网站性能宣称推广为AMD上已经可用的激光雷达实现；AMD方案须选确证的替代实现或逐项移植。@@AMD05_RGL_Repo@@ @@AMD05_O3DE_Robotics@@
+
+## 6. 合成数据和sim-to-real：建立可验证的误差预算
+
+以下为分析性实验设计，而非AMD公布的完整产品能力。视觉域随机化需覆盖灯光、背景、曝光、镜头畸变、运动模糊和遮挡；动力学需覆盖质量/惯量、静动摩擦、接触柔顺、负载、关节死区、执行延迟与限幅。参数分布应来自系统辨识或真实日志，不能用宽到不现实的随机范围掩盖模型错误。共享结构的batch环境适合改变状态和部分参数，但改变拓扑、资产或shader是否重编译应按具体引擎测量。依据上述模型/材料与build机制提出验证条件。@@AMD05_Genesis_Blog@@ @@Model05_NVIDIA_08_DEEP_MUJOCO_COMPUTATION@@ @@AMD05_O3DE_Materials@@
+
+时间域至少记录physics timestep/substep、camera cadence、IMU cadence、policy调用、动作chunk以及控制器tick。分析例：physics100Hz、camera30Hz时不可能每次physics step都有新图；若未标注图像复用/年龄，训练策略可能偷用了真机不存在的同步观测。动作repeat和horizon改变控制带宽；接触求解在延迟变化时需要重新验证。Gazebo update_rate与O3DE clock机制提供设置入口，不能证明真实传感器噪声、同步和丢帧已被复刻。@@AMD05_Gazebo_Sensors@@ @@AMD05_O3DE_Time@@
+
+| 放行项目 | 测量/保存内容 | 通过含义 | 失败后的动作 |
+|---|---|---|---|
+| 资产与动力学 | 原URDF/MJCF、修复diff、质量/惯量/接触参数 | 模型可审计、参数可追溯 | 重辨识，不用默认值替代真实值 |
+| 性能 | SKU/OS/driver/commit、batch、contact、camera、warmup、wall time、P99 | 目标场景稳态容量已测 | 分physics/render/bridge定位 |
+| 学习 | seeds、steps、reset/done、奖励、留出场景 | 相同协议训练可复现 | 检查泄漏、广播与奖励漏洞 |
+| 虚拟闭环 | 成功分母、碰撞、观察年龄、策略停顿和回退 | 仅该仿真协议闭环成立 | 修时序/动作/约束 |
+| 真实留出 | 实物/任务、尝试次数、暴露小时、介入、受损与安全记录 | 仅该硬件场景的迁移证据 | 不以更多sim FPS替代真实试验 |
+
+许可分层也必须保留：Genesis World主仓Apache2.0标记、MuJoCo/Gazebo/O3DE引擎与插件各自条款、下载的mesh/纹理/场景资产、生成数据与模型权重不能互相覆盖。本次未逐份取得全部资产许可；未确认的资产不得因开源引擎而自动获商业再分发权限。04已区分MolmoAct2仿真、DROID开环与π0/Koch真机；这些证据不能拼成一个新sim-to-real benchmark。@@AMD05_Genesis_Repo@@ @@AMD05_RGL_Repo@@ [04 AI能力](@@ROOT@@/04_AI_Capabilities.md)。
+
+## 7. 按任务复建：三个不能互换的实验协议
+
+### 7.1 操作策略：从理想状态转成可部署观测
+
+分析性流程：先以同一Panda资产在固定seed下重放已知关节目标，记录末端轨迹、夹爪闭合与接触，再接视觉策略。第一阶段验证模型与控制，不涉及模型理解；第二阶段加入图像、语言与本体状态，禁止策略读取真机不可获得的物体绝对位姿或无噪声接触真值。目标物在仿真中被吸附、直接设位置或通过脚本完成动作，应作为辅助机制明确披露，不能记成策略成功。Genesis直接状态赋值与PD的区分、MuJoCo执行器动态正好提供查错入口。@@AMD05_Genesis_Blog@@ @@Model05_NVIDIA_08_DEEP_MUJOCO_COMPUTATION@@
+
+对动作chunk需冻结长度、动作空间、归一化与执行时间。每次推理的关节序列必须对应实际控制tick，丢掉旧chunk或延续旧chunk会改变轨迹。仿真暂停等待推理可以提高看起来的策略成功，却消除了真实传感器和执行器继续运动的情况；应同时测暂停同步模式与按墙钟运行的异步模式，并保存超时、hold、重新规划和观测年龄。仅异步队列不阻塞GUI，也不证明控制命令及时。放行时使用真实留下的物体、初始位姿、负载和光照，不把用于调参的同批演示当留出集。
+
+### 7.2 AMR：桥、地图和失效注入组成系统
+
+分析性流程：使用Gazebo或O3DE建立底盘、轮胎、测距与IMU，核机器人namespace、base/odom/map坐标关系、里程计单位、桥接方向和时间源。以相同地图和路径任务比较理想定位、带漂移定位与重定位后恢复；记录局部障碍出现到观测、规划和制动的时间，不以导航终点到达率代替最小安全距离。仿真碰撞模型未包含突出载荷、叉齿或拖挂时，即使底盘无碰撞也可能在真实通道失败。@@AMD05_Gazebo_ROS@@ @@AMD05_O3DE_Concepts@@ @@AMD05_O3DE_Time@@
+
+失效注入要包含相机/LiDAR停发、桥接断连、时间跳变、TF缺失、地图过期和局部规划连续失败。停发传感器与删除仿真传感器并不总等价：应用可能保留最后一帧，所以应检查数据年龄和下游超时。对ROS QoS配置分别测可靠/尽力和队列深度，明确吞吐降低、消息丢失与旧消息排队对制动的不同影响。可见图像可用于感知回归，但不能单独验证硬件总线、驱动DMA、时钟同步或真实制动距离。
+
+### 7.3 合成数据：标签完整性与训练效益分别验收
+
+分析性流程：每份生成样本保存scene/asset版本、随机seed、相机内外参、曝光时间与模拟时间、遮挡比例、标签坐标和许可。分割/深度/位姿标签应检查遮挡、自遮挡、透明或反射表面；图像看起来正确并不保证标签定义与训练工具一致。若同时导出不同分辨率，相机参数和像素坐标必须同步变化。采样场景相似导致的重复数据，要按轨迹或场景族划分训练/验证，不能随机按帧划分形成泄漏。
+
+数据生成速度和模型增益是两次独立实验：前者测完整渲染、标签与落盘吞吐，后者用真实留出集测精度/任务成功变化。只计GPU渲染、略去编码、存储和检查，会高估可交付数据量；只增加数据量也不保证改善真实任务。Genesis场景与视觉链的划分、Gazebo频率设置、O3DE物理材料和时钟说明提供机制入口；本次未取得AMD官方完整SDG吞吐、标注质量和真实泛化联合基准，不能将它们写为已验证产品。@@AMD05_Genesis_Blog@@ @@AMD05_Gazebo_Sensors@@ @@AMD05_O3DE_Materials@@
+
+归档限制：Ryzers的若干GitHub tree候选被robots拒绝，未作为有效引用；未通过重试或绕过限制推导软件不可用。可读正文的partial_static仍可能缺动态组件或静态依赖，完整性见末尾各材料metadata。本章的实际成果是路线、机制、条件与验证契约，未宣称完成训练或实机迁移。

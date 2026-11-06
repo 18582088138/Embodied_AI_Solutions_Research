@@ -1,0 +1,6 @@
+[
+ {"name":"AMD_EDF_Custom_Firmware","url":"https://edf.docs.amd.com/en/latest/osdev/installing-custom-firmware-into-edf-yocto-linux-images.html","expected":"html","used_by":["02D_EDF_BSP_and_Execution_Domains"]},
+ {"name":"AMD_EDF_Build_Container","url":"https://edf.docs.amd.com/en/latest/osdev/build-edf-yocto-with-the-edf-build-container.html","expected":"html","used_by":["02D_EDF_BSP_and_Execution_Domains"]},
+ {"name":"AMD_EDF_Components","url":"https://edf.docs.amd.com/en/latest/yocto/building-components-from-source.html","expected":"html","used_by":["02D_EDF_BSP_and_Execution_Domains"]},
+ {"name":"AMD_EDF_Device_Tree","url":"https://edf.docs.amd.com/en/latest/shel/obtaining-linux-device-trees-from-the-shel-flow.html","expected":"html","used_by":["02D_EDF_BSP_and_Execution_Domains"]}
+]

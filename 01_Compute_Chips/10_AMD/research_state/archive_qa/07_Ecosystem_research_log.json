@@ -1,0 +1,72 @@
+{
+  "chapter": "07_Ecosystem",
+  "data_cutoff": "2026-11-04",
+  "completed_at_utc": "2026-11-04T08:58:38.798645+00:00",
+  "summary": {
+    "body_han_chars": 3802,
+    "tables": 4,
+    "sources": 17,
+    "figures": 3,
+    "claim_reviews": 51,
+    "archive_status": {
+      "partial_static": 11,
+      "complete_static": 6
+    },
+    "quality_errors": 0,
+    "dedup_network_requests": 0,
+    "report_sha256": "9ddbb2d80c362e9bd5445423deb7ab70ec3c9e99e502ac57873c289fb6a567af"
+  },
+  "manual_review": {
+    "coverage": "代表模块六料号/外部器件/载板与视觉/HIL分工、开源/开发/控制角色、OS生产维护、产测OTA与渠道保修责任深入覆盖。",
+    "versions_and_measurements": "congatec PDF预发布未量产脚注和storage冲突已核；ROS参数默认值非实测；无无条件倍数、ROI和机队规模。",
+    "maturity_and_licenses": "目录/选项与交付分开；MIT分对象；EDF AdaptiveSoC支持声明不推广全公司；未取得正式合同、模块完整BSP/手册、OTA失效测试。",
+    "figures_opened": "congatec PDF1/2/3完整页实际打开，Solectrix PDF2实际打开；正文采用1/2和Solectrix2三图，脚注与外部器件可读。"
+  },
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_GPU_Execution_and_Deployment.md": true,
+    "02B_RyzenAI_Compilation_and_Quantization.md": true,
+    "02C_Versal_Compiler_and_Runtime.md": true,
+    "02D_EDF_BSP_and_Execution_Domains.md": true,
+    "02E_ROS_Acceleration_and_System_Integration.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "README.md": true
+  },
+  "final_dedup": {
+    "time_utc": "2026-11-04T08:58:27.874585+00:00",
+    "summary": {
+      "complete_static": 6,
+      "partial_static": 11,
+      "failed": 0
+    },
+    "names": [
+      "AMD07_Robotics_Partners",
+      "AMD07_Congatec_CRX1_PDF",
+      "AMD06_Solectrix_PDF",
+      "AMD06_STW_PDF",
+      "AMD06_Robotec_PDF",
+      "OpenNav_Robotics_Benchmark",
+      "AMD07_ROS2_Control",
+      "AMD_EDF_Production",
+      "AMD07_Congatec_CRX1",
+      "AMD04_Ryzers_Repo",
+      "AMD04_Ryzers_License",
+      "KRS_V1_Docs",
+      "AMD_ROSS",
+      "AMD05_AUP_Repo",
+      "AMD07_WindRiver_Linux",
+      "AMD07_Distributors",
+      "AMD07_Warranty"
+    ],
+    "network_requests_including_robots": 0,
+    "new_assets": 0,
+    "asset_attempts": 0,
+    "tool": "toolkit/download_materials.py"
+  },
+  "method": "官方原文/模型卡/源码→原图实际打开→条件审阅→结构/归档检查→最终去重；未运行硬件/机器人实测"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "AMD_HIP_Model",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/understand/programming_model.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Graphs",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/hipgraph.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Coherence",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/coherence_control.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Allocator",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/stream_ordered_allocator.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Tuning",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/performance_guidelines.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_GraphSafe",
+    "url": "https://rocm.docs.amd.com/en/latest/reference/graph-safe-support.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_vLLM_Optimization",
+    "url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/optimization/vllm-v1-optimization.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_Acceleration_Libs",
+    "url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/optimization/model-acceleration-libs.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_Isolation",
+    "url": "https://rocm.docs.amd.com/en/latest/reference/system-optimization/gpu-isolation.html",
+    "expected": "html",
+    "used_by": [
+      "02A_GPU_Execution_and_Deployment"
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "report": "01_Compute_Chips/10_AMD/02E_ROS_Acceleration_and_System_Integration.md",
+  "body_han_chars": 3791,
+  "tables": 4,
+  "sources": 15,
+  "archive_status": {
+    "partial_static": 14,
+    "complete_static": 1
+  },
+  "figures": 3,
+  "file_hash_checks": 1372,
+  "html_visible_text_equal": 15,
+  "page_local_dependencies_checked": 1649,
+  "report_local_links": 35,
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_GPU_Execution_and_Deployment.md": true,
+    "02B_RyzenAI_Compilation_and_Quantization.md": true,
+    "02C_Versal_Compiler_and_Runtime.md": true,
+    "02D_EDF_BSP_and_Execution_Domains.md": true,
+    "02_Software_Stack.md": true,
+    "README.md": true
+  },
+  "errors": [],
+  "warnings": [
+    "静态依赖部分缺失: KRS_Perception（报告应披露）",
+    "静态依赖部分缺失: AMD_Kria_AI_Dev（报告应披露）",
+    "静态依赖部分缺失: KRS_ROS_Centric（报告应披露）",
+    "静态依赖部分缺失: KRS_Vitis_Function（报告应披露）",
+    "静态依赖部分缺失: KRS_Faster_Publisher（报告应披露）",
+    "静态依赖部分缺失: KRS_Stream_Rectify_Source（报告应披露）",
+    "静态依赖部分缺失: KRS_Stream_Resize_Source（报告应披露）",
+    "静态依赖部分缺失: KRS_Stream_Rectify_Kernel（报告应披露）",
+    "静态依赖部分缺失: KRS_Stream_Resize_Kernel（报告应披露）",
+    "静态依赖部分缺失: KRS_Realtime（报告应披露）",
+    "静态依赖部分缺失: KRS_Howto（报告应披露）",
+    "静态依赖部分缺失: Compare_ROS_Buffer（报告应披露）",
+    "静态依赖部分缺失: KRS_Install（报告应披露）",
+    "静态依赖部分缺失: KRS_License（报告应披露）"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

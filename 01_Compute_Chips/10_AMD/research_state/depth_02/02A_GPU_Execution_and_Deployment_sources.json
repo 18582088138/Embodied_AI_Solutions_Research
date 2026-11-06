@@ -1,0 +1,383 @@
+[
+  {
+    "source_id": "AMD_HIP_Graphs",
+    "number": "S01",
+    "title": "AMD_HIP_Graphs",
+    "version": "HIP latest开发指南快照；设备/驱动/库版本有独立条件",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/hipgraph.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Graphs--0077a3438456f5e6/index.html",
+    "sha256": "1f6615898bdcc6b57a430ec17492140db6fbb7b9fddb6e05594cbf2a61d60554",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Graphs--0077a3438456f5e6/original.response",
+    "original_sha256": "48da0d25b95a878fb05bdfb5e56f99cdd9caab7f94bd713dbf63b14805503967",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Graphs--0077a3438456f5e6/metadata.json",
+    "collected_at": "2026-11-04T06:10:43.377957+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://rocm.docs.amd.com/projects/HIP/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_Acceleration_Libs",
+    "number": "S02",
+    "title": "AMD_Acceleration_Libs",
+    "version": "2026-11-04公开快照，未标明确发布时间；具体release见正文",
+    "url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/optimization/model-acceleration-libs.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Acceleration_Libs--4d1aec18b1f93be6/index.html",
+    "sha256": "f9bc93c87a35f5ca4fa32df306f28fee78ca3d58cdf296cf61638ff231ed11e0",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Acceleration_Libs--4d1aec18b1f93be6/original.response",
+    "original_sha256": "6be2c13842c5c3e95879ac299f142cd971579db58cf149eb6aeeba5c71daa73e",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Acceleration_Libs--4d1aec18b1f93be6/metadata.json",
+    "collected_at": "2026-11-04T06:10:58.087796+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_MIGraphX_Repo",
+    "number": "S03",
+    "title": "AMD_MIGraphX_Repo",
+    "version": "MIGraphX latest文档（2.18.0支持环境另核）；develop仓库不等固定tag",
+    "url": "https://github.com/ROCm/AMDMIGraphX/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Repo--75325b68cf5ab5d3/index.html",
+    "sha256": "f5d3943be6495a07b21cd832cadead5a540e4014875edc93998523815ade9e74",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Repo--75325b68cf5ab5d3/original.response",
+    "original_sha256": "74dd4be7936f9c9cb9acdc724daac6ead02b0266fa5e3c1b500989803b05d6d4",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Repo--75325b68cf5ab5d3/metadata.json",
+    "collected_at": "2026-11-04T06:12:55.393221+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_vLLM_Optimization",
+    "number": "S04",
+    "title": "AMD_vLLM_Optimization",
+    "version": "2026-11-04公开快照，未标明确发布时间；具体release见正文",
+    "url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/optimization/vllm-v1-optimization.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_vLLM_Optimization--8e43533d5f7ce6bf/index.html",
+    "sha256": "734904999e94a6103a0bc719815bad631f7d4af04709a91f257b71ca19b95c22",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_vLLM_Optimization--8e43533d5f7ce6bf/original.response",
+    "original_sha256": "c8aea33583d6cb84330b834ea6420ac857d31578c71756f162156d89e18128ad",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_vLLM_Optimization--8e43533d5f7ce6bf/metadata.json",
+    "collected_at": "2026-11-04T06:10:56.059623+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_HIP_Model",
+    "number": "S05",
+    "title": "AMD_HIP_Model",
+    "version": "HIP latest开发指南快照；设备/驱动/库版本有独立条件",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/understand/programming_model.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Model--b375803d7ee408be/index.html",
+    "sha256": "b8eaa1be900938cb9807010e22d4f8eba444b55821e63eff3381a48ceda99bc8",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Model--b375803d7ee408be/original.response",
+    "original_sha256": "641fd775d71f1f6499fe2c9000117822c5194566d0632ee9f3138e008dc899bb",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Model--b375803d7ee408be/metadata.json",
+    "collected_at": "2026-11-04T06:10:38.570178+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://rocm.docs.amd.com/projects/HIP/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font",
+      "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_HIP_Tuning",
+    "number": "S06",
+    "title": "AMD_HIP_Tuning",
+    "version": "HIP latest开发指南快照；设备/驱动/库版本有独立条件",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/performance_guidelines.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Tuning--fb00810d96bd1baf/index.html",
+    "sha256": "bd1111b2490e359e470c55f1472d0f14116bf57a9c0d6e4f632e40b64e9c4795",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Tuning--fb00810d96bd1baf/original.response",
+    "original_sha256": "140434ba51612ff335229108f23c680205aa7465c650eb745a49e9e63052694c",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Tuning--fb00810d96bd1baf/metadata.json",
+    "collected_at": "2026-11-04T06:10:52.128066+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://rocm.docs.amd.com/projects/HIP/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_HIP_Coherence",
+    "number": "S07",
+    "title": "AMD_HIP_Coherence",
+    "version": "HIP latest开发指南快照；设备/驱动/库版本有独立条件",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/coherence_control.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Coherence--eb09a8ddbe431291/index.html",
+    "sha256": "5bb0fbc162b76fd260931a5057557c6e844809171b323a9a1087c88014b8aea7",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Coherence--eb09a8ddbe431291/original.response",
+    "original_sha256": "daf4c5034495cb24b1239abecb4550f5251aba785444f10f39068eea03a63297",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Coherence--eb09a8ddbe431291/metadata.json",
+    "collected_at": "2026-11-04T06:10:47.718235+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://rocm.docs.amd.com/projects/HIP/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_HIP_Memory",
+    "number": "S08",
+    "title": "HIP统一内存与设备条件",
+    "version": "HIP/HIPIFY latest快照；10.1矩阵HIP7.16.0、HIPIFY10.1.0；硬件特性有条件",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/unified_memory.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Memory--37f458b46d3d4e56/index.html",
+    "sha256": "dc468754ef2c65237c74fddd244fec6b27fd57e7328b1864c061f5c7c4640648",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Memory--37f458b46d3d4e56/original.response",
+    "original_sha256": "8fe2886a6a98da4892388c615ded0a6bad1ddf759f33a16cb0d6127fdf46d5e8",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Memory--37f458b46d3d4e56/metadata.json",
+    "collected_at": "2026-11-04T05:25:00.011054+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://rocm.docs.amd.com/projects/HIP/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_ROCm_GraphSafe",
+    "number": "S09",
+    "title": "AMD_ROCm_GraphSafe",
+    "version": "2026-11-04公开快照，未标明确发布时间；具体release见正文",
+    "url": "https://rocm.docs.amd.com/en/latest/reference/graph-safe-support.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_GraphSafe--a7417a67a3e2d520/index.html",
+    "sha256": "b4d6e1fded943fdc8c1bbf92295292a4f07f33669655d57c0e7633443bc2f72b",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_GraphSafe--a7417a67a3e2d520/original.response",
+    "original_sha256": "a31a14db2443f16755ef03a5fc578e11ed7fc723d6da290cf037820625007085",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_GraphSafe--a7417a67a3e2d520/metadata.json",
+    "collected_at": "2026-11-04T06:10:53.960670+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://rocm.docs.amd.com/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_HIP_Allocator",
+    "number": "S10",
+    "title": "AMD_HIP_Allocator",
+    "version": "HIP latest开发指南快照；设备/驱动/库版本有独立条件",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/stream_ordered_allocator.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Allocator--56beb352829aef22/index.html",
+    "sha256": "956105b94c5f9b4865f1e96b0160bd82479ae3bb0bb7ee273c07a2107bf2ee17",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Allocator--56beb352829aef22/original.response",
+    "original_sha256": "8c02f6edbe8beb5804d7810ef9a04c4216287c3d72bfd0f08d440cde5cebb7f7",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Allocator--56beb352829aef22/metadata.json",
+    "collected_at": "2026-11-04T06:10:50.063472+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://rocm.docs.amd.com/projects/HIP/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_MIGraphX_Parse",
+    "number": "S11",
+    "title": "AMD_MIGraphX_Parse",
+    "version": "MIGraphX latest文档（2.18.0支持环境另核）；develop仓库不等固定tag",
+    "url": "https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/tutorials/parse-load-save-tutorial.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Parse--19cfc69f75ad9d5a/index.html",
+    "sha256": "604156ae6f10f6ad83267698759d81db39904b0ec039a235d0ecb2225520a7bf",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Parse--19cfc69f75ad9d5a/original.response",
+    "original_sha256": "c5261e1c7f38380ad2394c7e78d500420d5c0e2ac2da3abda3bbc10dec0accd6",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Parse--19cfc69f75ad9d5a/metadata.json",
+    "collected_at": "2026-11-04T06:17:13.990540+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_MIGraphX_Python",
+    "number": "S12",
+    "title": "AMD_MIGraphX_Python",
+    "version": "MIGraphX latest文档（2.18.0支持环境另核）；develop仓库不等固定tag",
+    "url": "https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/reference/MIGraphX-py.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Python--23779604f4e94742/index.html",
+    "sha256": "09d1e89e8885bbbb8d54d2acca76705899e07327bf9f5631723da0acda18314e",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Python--23779604f4e94742/original.response",
+    "original_sha256": "62fd0de6f55811fda18e03b3e53eec0e480a8c001741b4779ad88ffc0ddcbe7a",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Python--23779604f4e94742/metadata.json",
+    "collected_at": "2026-11-04T06:17:18.553748+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_MIGraphX",
+    "number": "S13",
+    "title": "MIGraphX安装与支持",
+    "version": "2.18.0安装选项；Python/架构以对应表为准",
+    "url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/inference/migraphx.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX--19ac7ddf92b36824/index.html",
+    "sha256": "7604d13a38f02fbde578bd68a47c13c14bac7d65201cc9879b45f10a24ae20a1",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX--19ac7ddf92b36824/original.response",
+    "original_sha256": "03776d29ae3aeb78eb5b080ec1cf2a3c51d9f3db2fc3e9bda9b82ecacf6e00a7",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX--19ac7ddf92b36824/metadata.json",
+    "collected_at": "2026-11-04T05:24:58.156061+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_MIGraphX_Tune",
+    "number": "S14",
+    "title": "AMD_MIGraphX_Tune",
+    "version": "MIGraphX latest文档（2.18.0支持环境另核）；develop仓库不等固定tag",
+    "url": "https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/how-to/model-performance-tuning.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Tune--47ba534b439c19b2/index.html",
+    "sha256": "19823b06c320b1341546a86f00c03ff44b59a26376f448ba6c87c01c0f2afe8e",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Tune--47ba534b439c19b2/original.response",
+    "original_sha256": "66c9be4b2741015fe23f16ffcab0b86e22df9c01a122d8e69192464656747985",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Tune--47ba534b439c19b2/metadata.json",
+    "collected_at": "2026-11-04T06:17:16.049617+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_ROCm_Isolation",
+    "number": "S15",
+    "title": "AMD_ROCm_Isolation",
+    "version": "2026-11-04公开快照，未标明确发布时间；具体release见正文",
+    "url": "https://rocm.docs.amd.com/en/latest/reference/system-optimization/gpu-isolation.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Isolation--1cdb1b1fdce406a8/index.html",
+    "sha256": "8943f88771b4564bbe431878f76ac3056f8079b8a9db6f03920808fb93de2b0b",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Isolation--1cdb1b1fdce406a8/original.response",
+    "original_sha256": "2732a40522067d9b42610d2ae31fbd5307f5e3da3bfa11fb6c892c236f645d2f",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Isolation--1cdb1b1fdce406a8/metadata.json",
+    "collected_at": "2026-11-04T06:11:01.430319+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://rocm.docs.amd.com/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Compare_CUDA_Graphs",
+    "number": "S16",
+    "title": "Compare_CUDA_Graphs",
+    "version": "NVIDIA官方资料用于机制对标；导入2026-11-03已有原响应或本次取得，不套AMD目标",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/cuda-graphs.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_CUDA_Graphs--64fc09301027cc35/index.html",
+    "sha256": "ed46d24bc29ebbbb59399671a7da2ea40713371cabc160f357b11eee816702c4",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_CUDA_Graphs--64fc09301027cc35/original.response",
+    "original_sha256": "fa9b608c57d4841474487148cd601e9eb58db05d3f6f8db56a57f3cd8be2a157",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_CUDA_Graphs--64fc09301027cc35/metadata.json",
+    "collected_at": "2026-11-03T08:04:38.818433+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Compare_TRT_Builder",
+    "number": "S17",
+    "title": "Compare_TRT_Builder",
+    "version": "NVIDIA官方资料用于机制对标；导入2026-11-03已有原响应或本次取得，不套AMD目标",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Builder--9df325c2c44e3de5/index.html",
+    "sha256": "0b2c6b2c93691260edb6cde5752f66c60226f3def12e74e36f80d9aea96048c6",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Builder--9df325c2c44e3de5/original.response",
+    "original_sha256": "656cc637bc2983dcc18269d41cdb4c44aab96530e4b8213c775bc73321e71eea",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Builder--9df325c2c44e3de5/metadata.json",
+    "collected_at": "2026-11-03T07:59:39.340501+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_ROCm_Compatibility",
+    "number": "S18",
+    "title": "ROCm设备/OS/组件兼容矩阵",
+    "version": "Core SDK10.1.0；更新字段2026-08-26，不能当各组件发布日期",
+    "url": "https://rocm.docs.amd.com/en/latest/compatibility/compatibility-matrix.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Compatibility--73eb6a67974c1794/index.html",
+    "sha256": "323609f31b5b2eb204abafbad41aa6046b00807b8e2a905490216e1f9acc25ae",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Compatibility--73eb6a67974c1794/original.response",
+    "original_sha256": "ae8511d77b1b5e23f3371063b24706edaa2c512cd876ac3c84eb908c093c6d0c",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Compatibility--73eb6a67974c1794/metadata.json",
+    "collected_at": "2026-11-04T05:17:45.045445+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://rocm.docs.amd.com/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_ROCm_Licenses",
+    "number": "S19",
+    "title": "ROCm组件混合许可",
+    "version": "ROCm Core SDK10.1.0 latest快照；独立组件/旧发行另辨",
+    "url": "https://rocm.docs.amd.com/en/latest/about/license.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Licenses--79d59a12ff9a6fe3/index.html",
+    "sha256": "f127acb4d8a25234be74c5c52b199012a3c436de9d4a89d2c928e979c217a2ee",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Licenses--79d59a12ff9a6fe3/original.response",
+    "original_sha256": "387385d5564f912c638ad872a1239454b4c494940190532156689a237182f08c",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Licenses--79d59a12ff9a6fe3/metadata.json",
+    "collected_at": "2026-11-04T05:19:40.717106+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://rocm.docs.amd.com/en/latest/_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+[
+ {"name":"AMD05_Gazebo_Sensors","url":"https://gazebosim.org/docs/harmonic/sensors/","expected":"html"},
+ {"name":"AMD05_Gazebo_ROS","url":"https://gazebosim.org/docs/harmonic/ros2_integration/","expected":"html"},
+ {"name":"AMD05_Gazebo_Migration","url":"https://gazebosim.org/docs/harmonic/migrating_gazebo_classic_ros2_packages/","expected":"html"},
+ {"name":"AMD05_O3DE_Time","url":"https://docs.o3de.org/docs/user-guide/interactivity/robotics/simulation-time/","expected":"html"},
+ {"name":"AMD05_O3DE_Materials","url":"https://docs.o3de.org/docs/user-guide/interactivity/physics/nvidia-physx/materials/","expected":"html"},
+ {"name":"AMD05_Genesis_Docs","url":"https://genesis-world.readthedocs.io/en/latest/","expected":"html"}
+]

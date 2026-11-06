@@ -1,0 +1,6 @@
+[
+ {"name":"AMD09_IR_Annual","url":"https://ir.amd.com/financial-information/annual-reports-and-proxy-statements","expected":"html"},
+ {"name":"AMD09_IR_SEC","url":"https://ir.amd.com/financial-information/sec-filings","expected":"html"},
+ {"name":"AMD09_EAR_742","url":"https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742","expected":"html"},
+ {"name":"AMD09_EU_AI_Act","url":"https://eur-lex.europa.eu/eli/reg/2024/1689/oj","expected":"html"}
+]

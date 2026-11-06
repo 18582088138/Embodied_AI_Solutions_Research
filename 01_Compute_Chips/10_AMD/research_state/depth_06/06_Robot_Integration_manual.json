@@ -1,0 +1,6 @@
+{
+  "coverage": "具体XArm6/Koch独立研究感知/训练/执行；XArm7仿真、STW/SXVPU周边、RoSi HIL和GENE.01计划成熟度分别研究。",
+  "versions_and_measurements": "原图7+1与XArm6正文6+1冲突；40Hz非servo，4mm是外参残差；10ms/TOPS/W为外部加速器整机客户宣称。",
+  "maturity_and_licenses": "已演示、产品采用、HIL、未来计划分开；SDK BSD3正文核对；未取得补丁ZIP、完整API和GB门户原件；不采用失败页。",
+  "figures_opened": "实际打开XArm6训练/真机/感知/控制四原图；三客户PDF相关页已渲染放大打开，确认脚注与水印；正文选4张。"
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "name": "AMD_MV_Overview",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/overview.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_MV_Intro",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/introduction.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_MV_Deploy",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/app_deployment.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_MV_HW",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/10gige.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_MV_ISP",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/hw_arch_accel_dd.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_MV_SW",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/sw_arch_platform_dd.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_MV_App",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/sw_arch_accel_dd.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_MV_Debug",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/debug.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_MV_Issues",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/known_issues.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_PTP_Deploy",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/src/app_deployment.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_PTP_HW",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/src/hw_arch_platform.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_PTP_SW",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/src/sw_arch_platform.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "AMD_TSN_Landing",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/ros2_multinode_communication_via_tsn_landing.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  }
+]

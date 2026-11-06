@@ -1,0 +1,328 @@
+[
+  {
+    "source_id": "KRS_Perception",
+    "number": "S01",
+    "title": "KRS_Perception",
+    "version": "KRS1.0文档；页脚更新2024-01-02，2026-11-04采集；HowTo含更旧配置，见正文边界",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/6_perception.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Perception--6d4339c5b50cea31/index.html",
+    "sha256": "ecb05a6bf5e5ab18c8b5d84d1be2127244dc860bbd9aa8987273dd6edeebbbf7",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Perception--6d4339c5b50cea31/original.response",
+    "original_sha256": "ef5b819ccbd3de7ccca3ca2bbddd22a647d3b6ad55a435ef5f7eb2f1c1b41135",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Perception--6d4339c5b50cea31/metadata.json",
+    "collected_at": "2026-11-04T06:46:07.340973+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://xilinx.github.io/KRS/sphinx/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://user-images.githubusercontent.com/1375246/155086310-4b86d491-5513-42e4-8cb8-b1d896dabfe0.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://user-images.githubusercontent.com/1375246/155088908-68ad0195-9f8e-4587-a7af-30d2e006b983.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://user-images.githubusercontent.com/1375246/155089356-94c21e2e-84fe-4dfb-b9bc-39371ed51782.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://user-images.githubusercontent.com/1375246/155095594-ae46f814-3d0b-4050-979b-08d6e2cbe83e.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://user-images.githubusercontent.com/1375246/155095607-1a0eb07b-536b-4144-8458-fdccb8d06845.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://user-images.githubusercontent.com/1375246/155090477-2d468361-337a-43c7-b1a3-0e1b2a588dba.png": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_Kria_AI_Dev",
+    "number": "S02",
+    "title": "Kria AI机器人开发平台",
+    "version": "2026-11-04产品页快照；Notify Me；未取得唯一suite release",
+    "url": "https://www.amd.com/en/products/system-on-modules/kria/ai/robotics-developer-platform.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_AI_Dev--fffec690feed8269/index.html",
+    "sha256": "4618c9ef62b2e0faf891aef94fe950ec832571f56e6dc1c956d9d9d6fd9aa5ca",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_AI_Dev--fffec690feed8269/original.response",
+    "original_sha256": "f1919e6f25a4d707a8697fd9c96f99df88392df6681b075ebfdbf3787df46e19",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_AI_Dev--fffec690feed8269/metadata.json",
+    "collected_at": "2026-11-04T04:44:31.286148+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://js.qualified.com/qualified.js?token=wTVZrM1NrP9FvcsY": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/atomic.esm.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "KRS_ROS_Centric",
+    "number": "S03",
+    "title": "KRS_ROS_Centric",
+    "version": "KRS1.0文档；页脚更新2024-01-02，2026-11-04采集；HowTo含更旧配置，见正文边界",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/features/ros2centric.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_ROS_Centric--4a8e42d311d42c27/index.html",
+    "sha256": "69f05a04e43357ddc37ae3c71a4309987781e6bac505a90dd1c2c0ef4b9b1be5",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_ROS_Centric--4a8e42d311d42c27/original.response",
+    "original_sha256": "887b62db0586125f4d80ad4c6cb92c0fc6e162911da7b6911aee11364d02dd24",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_ROS_Centric--4a8e42d311d42c27/metadata.json",
+    "collected_at": "2026-11-04T06:44:41.593188+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://xilinx.github.io/KRS/sphinx/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "KRS_Vitis_Function",
+    "number": "S04",
+    "title": "KRS_Vitis_Function",
+    "version": "KRS1.0文档；页脚更新2024-01-02，2026-11-04采集；HowTo含更旧配置，见正文边界",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/vitis_accelerated_function.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Vitis_Function--37e200ff0dffb3d4/index.html",
+    "sha256": "4e685714e6bf3bb2246c6171abfe91ace894656f376ccc6b36bc4826be812f1d",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Vitis_Function--37e200ff0dffb3d4/original.response",
+    "original_sha256": "ba931749b275ed8336dc71608959bfb1db9a86f34aab76a9be19b227cea20dd6",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Vitis_Function--37e200ff0dffb3d4/metadata.json",
+    "collected_at": "2026-11-04T06:46:12.635061+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://xilinx.github.io/KRS/sphinx/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://github.com/user-attachments/assets/8aed27c0-a1bf-413a-b71a-ea26bd24bc13": "PermissionError: redirect destination disallowed; not requested",
+      "https://github.com/user-attachments/assets/70622570-1ab5-4f48-aa41-fd420534ad7e": "PermissionError: redirect destination disallowed; not requested",
+      "https://github.com/user-attachments/assets/0075d8c3-a0a4-4be6-811b-7d090283a557": "PermissionError: redirect destination disallowed; not requested"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "KRS_Faster_Publisher",
+    "number": "S05",
+    "title": "KRS_Faster_Publisher",
+    "version": "KRS1.0文档；页脚更新2024-01-02，2026-11-04采集；HowTo含更旧配置，见正文边界",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/5_faster_ros2_publisher.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Faster_Publisher--1f1f08398a52c33b/index.html",
+    "sha256": "d9ba51ad9976b3e8c1981259e762be50fa3bb74a9f09d593d637de2342b2b0d0",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Faster_Publisher--1f1f08398a52c33b/original.response",
+    "original_sha256": "95449345a883f38437b8fc1216fa4ced2d5d66e1cf9bde96ac41aa68d22d9b2d",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Faster_Publisher--1f1f08398a52c33b/metadata.json",
+    "collected_at": "2026-11-04T06:46:18.981090+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://xilinx.github.io/KRS/sphinx/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "KRS_Stream_Rectify_Source",
+    "number": "S06",
+    "title": "KRS_Stream_Rectify_Source",
+    "version": "ros-acceleration/image_pipeline ros2浮动分支；2026-11-04原响应快照；未绑定历史benchmark commit",
+    "url": "https://github.com/ros-acceleration/image_pipeline/blob/ros2/image_proc/src/rectify_fpga_streamlined.cpp",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Rectify_Source--524ae2f788fb7bb4/index.html",
+    "sha256": "0804bd8feef776b9af47194632092dc887563733737b22d5d326c9a7a5476cab",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Rectify_Source--524ae2f788fb7bb4/original.response",
+    "original_sha256": "a05f9fc40129230dde791eef7c51e72983d9737e3f70886c1d4b46dbb33009b9",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Rectify_Source--524ae2f788fb7bb4/metadata.json",
+    "collected_at": "2026-11-04T06:51:39.717115+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "KRS_Stream_Resize_Source",
+    "number": "S07",
+    "title": "KRS_Stream_Resize_Source",
+    "version": "ros-acceleration/image_pipeline ros2浮动分支；2026-11-04原响应快照；未绑定历史benchmark commit",
+    "url": "https://github.com/ros-acceleration/image_pipeline/blob/ros2/image_proc/src/resize_fpga_streamlined.cpp",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Resize_Source--8432f3a2aef844bb/index.html",
+    "sha256": "03216224b22b2c3dece3ab475822fb0f48b01843823f9cae1fd7e2b2ea1bf2c0",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Resize_Source--8432f3a2aef844bb/original.response",
+    "original_sha256": "34818b0649ef0168618f0b43f04b4a86dd692d77e4851718d6df28a2d03f03ae",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Resize_Source--8432f3a2aef844bb/metadata.json",
+    "collected_at": "2026-11-04T06:51:43.683012+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "KRS_Stream_Rectify_Kernel",
+    "number": "S08",
+    "title": "KRS_Stream_Rectify_Kernel",
+    "version": "ros-acceleration/image_pipeline ros2浮动分支；2026-11-04原响应快照；未绑定历史benchmark commit",
+    "url": "https://github.com/ros-acceleration/image_pipeline/blob/ros2/image_proc/src/image_proc/xf_rectify_accel_streamlined.cpp",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Rectify_Kernel--abd1d78ebefc2f1d/index.html",
+    "sha256": "aced21c78596665bd8ac14a79b1705d9b1d73789ebfabe297c8c8377c851dbfb",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Rectify_Kernel--abd1d78ebefc2f1d/original.response",
+    "original_sha256": "fdc32bfa82d2fc52ed0c66782ebdbd5e726a33d56cc316a1452d0c34be8fe1ba",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Rectify_Kernel--abd1d78ebefc2f1d/metadata.json",
+    "collected_at": "2026-11-04T06:51:47.573300+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "KRS_Stream_Resize_Kernel",
+    "number": "S09",
+    "title": "KRS_Stream_Resize_Kernel",
+    "version": "ros-acceleration/image_pipeline ros2浮动分支；2026-11-04原响应快照；未绑定历史benchmark commit",
+    "url": "https://github.com/ros-acceleration/image_pipeline/blob/ros2/image_proc/src/image_proc/xf_resize_accel_streamlined.cpp",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Resize_Kernel--65569d1c1c0e806a/index.html",
+    "sha256": "2527af7b17e5e1629983ae2d5201097df5583226b7d5bf70904f25daa40d30e5",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Resize_Kernel--65569d1c1c0e806a/original.response",
+    "original_sha256": "d89f12fa3a8bf811f40f7795708b255a8b76a952e89de72594056731a6a137e4",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Resize_Kernel--65569d1c1c0e806a/metadata.json",
+    "collected_at": "2026-11-04T06:51:51.302420+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "KRS_Realtime",
+    "number": "S10",
+    "title": "KRS端到端实时条件",
+    "version": "KRS1.0文档；页脚更新2024-01-02，2026-11-04采集；HowTo含更旧配置，见正文边界",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/features/realtime_ros2.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Realtime--4e8d6f22b87222a2/index.html",
+    "sha256": "a5807e68dfbf4552402dff04e350c74aeaae97eb1dc23ca3508e5cd55acff007",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Realtime--4e8d6f22b87222a2/original.response",
+    "original_sha256": "6b89196456ca25a64b97b3de5e405a50d843550763254066ca9117ae1381e6bc",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Realtime--4e8d6f22b87222a2/metadata.json",
+    "collected_at": "2026-11-04T05:30:54.649627+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://xilinx.github.io/KRS/sphinx/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "KRS_Howto",
+    "number": "S11",
+    "title": "KRS_Howto",
+    "version": "KRS1.0文档；页脚更新2024-01-02，2026-11-04采集；HowTo含更旧配置，见正文边界",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/howto.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Howto--9b25379ce3c80b9c/index.html",
+    "sha256": "7bdf7561ae521462f9cb212dbe0c3b82fd90ae7be09dc27e717596869f991171",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Howto--9b25379ce3c80b9c/original.response",
+    "original_sha256": "7b2644dbe1eb04460f7c44fcb2b82dd7c36bbc7c1b24e44f6afe6fbb6ae83e97",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Howto--9b25379ce3c80b9c/metadata.json",
+    "collected_at": "2026-11-04T06:44:52.297672+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://xilinx.github.io/KRS/sphinx/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_VART_App",
+    "number": "S12",
+    "title": "Gen2 VART应用开发与零拷贝",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_app_guide.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_VART_App--ac4eac67a33411e1/index.html",
+    "sha256": "bcd780a59039221a1cc20cc9a4397d12f32aeb7e437dff8674fa64240f772320",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_VART_App--ac4eac67a33411e1/original.response",
+    "original_sha256": "daa55791270a313bbe81fb2f72b37e457b69e7146c296f26f3dd9eb9074e6ff0",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_VART_App--ac4eac67a33411e1/metadata.json",
+    "collected_at": "2026-11-04T05:30:17.882556+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Compare_ROS_Buffer",
+    "number": "S13",
+    "title": "Compare_ROS_Buffer",
+    "version": "NVIDIA官方页更新2026-09-21，2026-11-03原响应导入；Lyrical路线不套KRS Humble",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/nitros_migration.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_ROS_Buffer--a74b452c91c23559/index.html",
+    "sha256": "7871bd97b8cf1c919b25b985092305227752bdc5cf966935bddc75df88269635",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_ROS_Buffer--a74b452c91c23559/original.response",
+    "original_sha256": "5e162620b5c2b55b02b973065f8909ec0077a585a733fbc831a0c28f9bca28aa",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_ROS_Buffer--a74b452c91c23559/metadata.json",
+    "collected_at": "2026-11-03T07:44:33.953584+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://nvidia-isaac-ros.github.io/_static/css/theme.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "KRS_Install",
+    "number": "S14",
+    "title": "KRS 1.0安装与多仓库清单",
+    "version": "KRS1.0文档；页脚更新2024-01-02，2026-11-04采集；HowTo含更旧配置，见正文边界",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/install.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Install--a6a9705f586b43ec/index.html",
+    "sha256": "39f91890263858d0ed3de9069d77d1876b617054d628527ac9cec2d5d2ed6cc4",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Install--a6a9705f586b43ec/original.response",
+    "original_sha256": "7d853f7ad2522b50eb267e4605b137ca0897dfb7433ec87235e94eb8f8c22586",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Install--a6a9705f586b43ec/metadata.json",
+    "collected_at": "2026-11-04T05:30:42.682471+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://xilinx.github.io/KRS/sphinx/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "KRS_License",
+    "number": "S15",
+    "title": "KRS文档仓库Apache-2.0条文",
+    "version": "KRS1.0文档/仓库快照；文档Last updated2024-01-02；Vitis2022.1/Humble",
+    "url": "https://github.com/Xilinx/KRS/blob/main/LICENSE.txt",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_License--532e4d1d7e1b35c2/index.html",
+    "sha256": "3e6f8415368074acd9a10c49798806aeddce40214b78b93f676a10621d4db0f8",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_License--532e4d1d7e1b35c2/original.response",
+    "original_sha256": "bc57f275ce06bd35eebee685c0ae016f4510ba56f0d42b482574ba3a4da5ced6",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_License--532e4d1d7e1b35c2/metadata.json",
+    "collected_at": "2026-11-04T05:31:02.880176+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  }
+]

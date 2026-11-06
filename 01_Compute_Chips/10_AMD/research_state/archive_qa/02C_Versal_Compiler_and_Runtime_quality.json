@@ -1,0 +1,25 @@
+{
+  "report": "01_Compute_Chips/10_AMD/02C_Versal_Compiler_and_Runtime.md",
+  "body_han_chars": 2822,
+  "tables": 3,
+  "sources": 21,
+  "archive_status": {
+    "complete_static": 21
+  },
+  "figures": 5,
+  "file_hash_checks": 1895,
+  "html_visible_text_equal": 21,
+  "page_local_dependencies_checked": 2208,
+  "report_local_links": 49,
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_GPU_Execution_and_Deployment.md": true,
+    "02B_RyzenAI_Compilation_and_Quantization.md": true,
+    "02_Software_Stack.md": true,
+    "README.md": true
+  },
+  "errors": [],
+  "warnings": [],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

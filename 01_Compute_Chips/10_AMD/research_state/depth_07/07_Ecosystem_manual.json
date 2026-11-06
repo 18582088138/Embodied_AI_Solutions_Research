@@ -1,0 +1,6 @@
+{
+  "coverage": "代表模块六料号/外部器件/载板与视觉/HIL分工、开源/开发/控制角色、OS生产维护、产测OTA与渠道保修责任深入覆盖。",
+  "versions_and_measurements": "congatec PDF预发布未量产脚注和storage冲突已核；ROS参数默认值非实测；无无条件倍数、ROI和机队规模。",
+  "maturity_and_licenses": "目录/选项与交付分开；MIT分对象；EDF AdaptiveSoC支持声明不推广全公司；未取得正式合同、模块完整BSP/手册、OTA失效测试。",
+  "figures_opened": "congatec PDF1/2/3完整页实际打开，Solectrix PDF2实际打开；正文采用1/2和Solectrix2三图，脚注与外部器件可读。"
+}

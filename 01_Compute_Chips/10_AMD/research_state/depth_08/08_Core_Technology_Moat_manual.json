@@ -1,0 +1,6 @@
+{
+  "coverage": "总览建立三专题的技术/证据/成立条件/迁移成本地图，系统结论与未验证项分开。",
+  "versions_and_measurements": "CDNA服务器与端侧分开；Gen2预测/认证目标非实测/证书；无跨条件性能排名。",
+  "maturity_and_licenses": "替换成本为分析判断，版本/许可/SLA以具体对象为准；BSP与完整实机闭环未知。",
+  "figures_opened": "复用本轮已实际打开的ComputeTile.png与system-flow.png；图中版本残留正文注明。"
+}

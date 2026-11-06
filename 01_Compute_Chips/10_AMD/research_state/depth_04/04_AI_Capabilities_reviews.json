@@ -1,0 +1,569 @@
+[
+  {
+    "source_id": "AMD04_LeRobot_Blog",
+    "needle": "3-billion-parameter Pi0",
+    "claim": "AMD使用约3Bπ0",
+    "location": "intro",
+    "evidence_type": "厂商宣称",
+    "conditions": "2025-07教程",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_LeRobot_Blog",
+    "needle": "MI200 GPUs",
+    "claim": "训练MI200和部署Phoenix分开",
+    "location": "pipeline",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_LeRobot_Blog",
+    "needle": "integrated GPU",
+    "claim": "Phoenix部署用iGPU，不套NPU制品",
+    "location": "pipeline",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_LeRobot_Blog",
+    "needle": "leader-follower",
+    "claim": "两臂是leader/follower配置",
+    "location": "setup",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_LeRobot_Blog",
+    "needle": "50 trajectories",
+    "claim": "示范采集量与泛化分开",
+    "location": "teaching",
+    "evidence_type": "厂商宣称",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_LeRobot_Blog",
+    "needle": "dataset.fps=15",
+    "claim": "15是数据记录FPS",
+    "location": "record command",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_LeRobot_Blog",
+    "needle": "episode_time_s=20",
+    "claim": "episode时长20秒",
+    "location": "record command",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_LeRobot_Blog",
+    "needle": "policy.device=cuda",
+    "claim": "ROCm PyTorch沿用cuda设备字段",
+    "location": "train command",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_LeRobot_Blog",
+    "needle": "Logitech",
+    "claim": "相机来自外部双Logitech",
+    "location": "data",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MolmoAct_Blog",
+    "needle": "Qwen3-4B",
+    "claim": "4B语言骨干与整模型参数分开",
+    "location": "model",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MolmoAct_Blog",
+    "needle": "flow-matching action expert",
+    "claim": "动作专家生成chunk",
+    "location": "model",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MolmoAct_Blog",
+    "needle": "inverse kinematics",
+    "claim": "末端输出由IK变为关节",
+    "location": "cross embodiment",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MolmoAct_Blog",
+    "needle": "THINK=0 NUM_STEPS=4",
+    "claim": "快速默认与深度思考分开",
+    "location": "tips",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MolmoAct_Blog",
+    "needle": "holds its current pose",
+    "claim": "异步等待期间保持姿态",
+    "location": "RT",
+    "evidence_type": "事实",
+    "conditions": "墙钟MuJoCo仿真",
+    "finding": "不能推出无停顿、安全停止或伺服频率"
+  },
+  {
+    "source_id": "AMD04_MolmoAct_Blog",
+    "needle": "default is 1200 steps",
+    "claim": "episode限制不是频率",
+    "location": "RT",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MolmoAct_Blog",
+    "needle": "all run in simulation",
+    "claim": "演示仿真成熟度边界",
+    "location": "real hardware",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MolmoAct_Blog",
+    "needle": "Open-loop replay",
+    "claim": "DROID开环不是实物闭环",
+    "location": "package demos",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MolmoAct_Blog",
+    "needle": "Ryzen AI Max+ 395",
+    "claim": "端侧目标准确型号",
+    "location": "intro",
+    "evidence_type": "厂商宣称",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_QwenVL_Card",
+    "needle": "AWQ / Group 128 / Asymmetric / BFP16 activations / UINT4 Weights",
+    "claim": "精度与分组条件保留原拼写",
+    "location": "Quantization Strategy",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_QwenVL_Card",
+    "needle": "Benchmark scores not yet available",
+    "claim": "卡未给benchmark",
+    "location": "Evaluation",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_QwenVL_Card",
+    "needle": "apache-2.0",
+    "claim": "卡头上游许可标记",
+    "location": "header",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_QwenVL_Card",
+    "needle": "MIT License",
+    "claim": "AMD修改部分许可分层",
+    "location": "License",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_Vitis_Models",
+    "needle": "vai6.3_versal_2ve_supported_models.xlsx",
+    "claim": "支持表在受账户协议入口xlsx，未取得原表",
+    "location": "Supported Models",
+    "evidence_type": "未知",
+    "conditions": "6.3/VEK385",
+    "finding": "本文仅核对公开入口，不由目录补具体模型清单"
+  },
+  {
+    "source_id": "Model04_NVIDIA_04_EXP_OPENVLA_README",
+    "needle": "prism-dinosiglip-224px",
+    "claim": "OpenVLA骨干机制",
+    "location": "Pretrained VLAs",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "Model04_NVIDIA_04_EXP_OPENVLA_README",
+    "needle": "7-DoF",
+    "claim": "输出7DoF例子不能套所有机器人",
+    "location": "example",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "Model04_NVIDIA_04_EXP_OPENVLA_README",
+    "needle": "unnorm_key=\"bridge_orig\"",
+    "claim": "反归一化按数据域",
+    "location": "example",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "Model04_NVIDIA_04_EXP_OPENVLA_README",
+    "needle": "256-bin",
+    "claim": "原动作离散化与FAST/OFT分开",
+    "location": "updates",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "Model04_NVIDIA_04_EXP_OPENPI_README",
+    "needle": "flow-based",
+    "claim": "π0作者定义",
+    "location": "models",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "Model04_NVIDIA_04_EXP_OPENPI_README",
+    "needle": "10k+ hours",
+    "claim": "作者预训练量不是AMD采集量",
+    "location": "models",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "Model04_NVIDIA_04_EXP_ACT_README",
+    "needle": "chunk_size 100",
+    "claim": "ACT示例horizon",
+    "location": "train example",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "Model04_NVIDIA_04_EXP_ACT_README",
+    "needle": "temporal_agg",
+    "claim": "时间融合开关",
+    "location": "eval",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "Model04_NVIDIA_04_EXP_DIFFUSION_README",
+    "needle": "(B,Ta,Da)",
+    "claim": "DP动作张量与维度",
+    "location": "policy API",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "Model04_NVIDIA_04_EXP_DIFFUSION_README",
+    "needle": "saved as part",
+    "claim": "normalizer随checkpoint",
+    "location": "policy API",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "Model04_NVIDIA_04_EXP_DIFFUSION_README",
+    "needle": "MIT license",
+    "claim": "DP代码许可",
+    "location": "License",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld2",
+    "needle": "Wan2.2 TI2V-5B",
+    "claim": "MicroWorld2基底与v1分开",
+    "location": "key takeaways",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld2",
+    "needle": "unidirectional causal attention",
+    "claim": "因果自回归改造",
+    "location": "training",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld2",
+    "needle": "adaptive layer normalization",
+    "claim": "动作AdaLN注入",
+    "location": "training",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld2",
+    "needle": "eight AMD Instinct",
+    "claim": "8卡约4天是厂商训练例子",
+    "location": "key takeaways",
+    "evidence_type": "厂商宣称",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld2",
+    "needle": "440 interactive navigation",
+    "claim": "渲染数据条数",
+    "location": "data",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld2",
+    "needle": "352 × 640",
+    "claim": "性能shape和单卡条件",
+    "location": "inference",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld2",
+    "needle": "120 times per chunk",
+    "claim": "层×采样步attention调用",
+    "location": "attention",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld2",
+    "needle": "31.7 ms",
+    "claim": "CK基线attention",
+    "location": "Table1",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld2",
+    "needle": "17.4 ms",
+    "claim": "AITER只加速attention kernel",
+    "location": "Table1",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld2",
+    "needle": "249.40 ms",
+    "claim": "generation独立于decode",
+    "location": "Table2",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld2",
+    "needle": "within measurement noise",
+    "claim": "RMSNorm孤立收益边界",
+    "location": "generation optimization",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld2",
+    "needle": "124.19 ms",
+    "claim": "原VAE解码时间",
+    "location": "Table3",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld2",
+    "needle": "42.49",
+    "claim": "轻VAE厂商FPS，与图冲突",
+    "location": "Table3",
+    "evidence_type": "厂商宣称",
+    "conditions": "MI350X/352×640/四步/三latent",
+    "finding": "Figure4有44.92未消歧，正文采用Table3并保留原图"
+  },
+  {
+    "source_id": "AMD04_MicroWorld2",
+    "needle": "161-frame sequences",
+    "claim": "WBench76.68使用原VAE而非lightVAE",
+    "location": "results",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld_Card",
+    "needle": "base weights are not in this repository",
+    "claim": "基础权重另取",
+    "location": "card",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld_Card",
+    "needle": "openrail",
+    "claim": "模型许可不是无条件",
+    "location": "header",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld_Card",
+    "needle": "Load order",
+    "claim": "多checkpoint顺序",
+    "location": "card",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_Molmo2_Card",
+    "needle": "per-layer KV",
+    "claim": "VLM通过每层KV连接动作专家",
+    "location": "model architecture",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_Molmo2_Card",
+    "needle": "rather than as a ready-to-run",
+    "claim": "基础卡用于继续微调而非部署即用",
+    "location": "Intended Use",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_Molmo2_Card",
+    "needle": "norm_stats.json",
+    "claim": "动作归一化metadata",
+    "location": "Intended Use",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_Ryzers_Molmo_Readme",
+    "needle": "MolmoAct2-Think-LIBERO",
+    "claim": "实际预加载微调checkpoint",
+    "location": "Useful Knobs",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_Ryzers_Molmo_Docker",
+    "needle": "cdf4b7728e0545366bf3366639fd86477ef59d04",
+    "claim": "上游commit绑定",
+    "location": "Docker ARG",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_Ryzers_Molmo_Docker",
+    "needle": "assert torch.version.hip",
+    "claim": "ROCm构建guard避免cu121替换",
+    "location": "Docker guard",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_Ryzers_License",
+    "needle": "SPDX-License-Identifier: MIT",
+    "claim": "Ryzers代码许可",
+    "location": "LICENSE",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld_Data",
+    "needle": "814",
+    "claim": "数据卡当前轨迹总数与博文440不同",
+    "location": "Dataset summary",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld_Data",
+    "needle": "141 GB",
+    "claim": "未下载完整数据集规模",
+    "location": "Dataset summary",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_MicroWorld_Code",
+    "needle": "not bit-identical",
+    "claim": "AITER数值等价与bit exact分开",
+    "location": "Optimization tiers",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_GPTOSS_Verified",
+    "needle": "Benchmark scores not yet available",
+    "claim": "GPTOSS卡无benchmark",
+    "location": "Evaluation",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  },
+  {
+    "source_id": "AMD04_Videochat_Verified",
+    "needle": "AWQ / Group 128",
+    "claim": "VideoChat卡的优化方案",
+    "location": "Quantization",
+    "evidence_type": "事实",
+    "conditions": "版本、硬件及测量条件见正文",
+    "finding": "精确短引与上下文核对；不扩展为未披露的目标部署、性能或机器人闭环结果"
+  }
+]

@@ -1,0 +1,271 @@
+
+SOURCE AMD_Versal_Gen2_Industrial PAGES 2
+PAGE 1
+SOLUTION BRIEF: AI-DRIVEN INDUSTRIAL AUTOMATION WITH AMD VERSAL AI EDGE SERIES GEN 2
+1
+HIGHLIGHTS
+UP TO�10X SCALAR COMPUTE WITH NEXT-GENERATION  
+PROCESSOR SYSTEM1
+� 8-core Arm� Cortex�-A78AE � up to 200k DMIPs
+� 10-core Arm Cortex-R52 � up to 23k DMIPs
+� DDR5 memory support up to 5600-DDR5, 8533-LPDDR5x with ECC 
+NEXT-GENERATION HIGH-PERFORMANCE AI ENGINES
+� Up to 3X TOPS/watt vs. previous generation2
+� Adds support for MX6, MX9, FP8, and FP16 datatypes
+� Leverages increased DDR bandwidth for higher performance on neural network 
+inference and signal processing workloads
+FUNCTIONAL SAFETY AND SECURITY FEATURES
+� ASIL D and SIL 3 certification targeted for scalar processors with lock-step
+� ASIL B and SIL 2 certification targeted for GPU, AI Engine, and ISP
+� New application security unit (ASU) embedded
+OVERVIEW
+Achieving higher productivity is the main target for industrial automation. The 
+more comprehensive an automation algorithm is, the more it will optimize an entire 
+process. The right combination of interfaces, application processing performance, 
+real-time execution, and acceleration of analysis functions, including AI and safety 
+and security functions, defines what an optimal System-on-Chip (SoC) for modern 
+industrial automation will deliver.
+AMD Versal� AI Edge Series Gen 2 adaptive SoCs are designed with a highly integrated 
+architecture. Next-generation connectivity like PCIe� Gen5, MIPI C-PHY up to 4.5 GS/s, 
+and D-PHY up to 4.5 Gb/s allow operation in an environment with new technologies. 
+The processing system offers up to 10X more scalar compute performance than 
+the previous generation1 and supports DDR5 and optional ECC for high-reliablility 
+applications. Next-generation AI Engines, with new data types designed to support up 
+to 3X more performance/watt than the first generation,2 are ideal for the execution 
+of advanced models. Finally, a new integrated GPU and a video codec for 4k603 
+complement the processing capabilities to provide full IPC functionality.
+KEY BENEFITS
+FUNCTION INTEGRATION
+Adaptive SoC combines data acquisition,
+preprocessing, decision making, and
+networking in a single device
+UNIFIED DESIGN SOFTWARE
+Powerful design tools are in a unified
+tools platform for all tasks
+AI CAPABLE
+AI Engines run neural networks at an
+optimum power-per-watt ratio
+ADVANCED FUNCTION BLOCKS
+Integrated function blocks like video
+codecs, the image signal processor,
+and the GPU are building blocks 
+for advanced designs
+FLEXIBLE CONNECTIVITY
+Programmable logic unlocks the ability
+to connect to any type of sensor or interface
+PAGE 2
+SOLUTION BRIEF: AI-DRIVEN INDUSTRIAL AUTOMATION WITH AMD VERSAL AI EDGE SERIES GEN 2
+2
+TARGET APPLICATIONS
+NEXT STEPS
+� To learn more about Versal AI Edge Series Gen 2, visit www.amd.com/versal-ai-edge-gen2
+� To learn more about automation with AMD FPGAs, visit the AMD Industrial Solutions page at www.amd.com/industrial  
+and the Healthcare page at www.amd.com/healthcare
+� Contact your local AMD sales representative
+ENDNOTES
+1. Based on AMD internal pre-silicon performance estimates for combined total DMIPs of the Versal AI Edge Series Gen 2 and Versal Prime Series Gen 2 processing system when configured with 8 Arm 
+Cortex-A78AE applications cores @2.2 GHz and 10 Arm Cortex-R52 real-time cores @1.05 GHz, compared to the published combined total DMIPs of the processing system in the first-generation Versal AI 
+Edge Series and Versal Prime Series. Versal AI Edge Series Gen 2 and Prime Series Gen 2 operating conditions: Highest available speed grade, 0.88V PS operating voltage, split-mode operation, maximum 
+supported operating frequency. First-generation Versal AI Edge Series and Prime Series operating conditions: Highest available speed grade, 0.88V PS operating voltage, maximum supported operating 
+frequency. Actual DMIPs performance will vary when final products are released in market. (VER-027)
+2. Based on AMD internal performance and power projections for the AIE-ML v2 compute tile architecture in the Versal AI Edge Series Gen 2 using the MX6 data type, compared to performance 
+specifications and AMD Power Design Manager power results for the AIE-ML compute tile architecture featured in the first-generation Versal AI Edge Series using INT8 data type. Assumptions: 2 row, 8 
+column sub-arrays. Operating conditions: 1 GHz FMAX, 0.7V AIE operating voltage, 100�C junction temperature, typical process, 60% vector load, % activations = 0 < 10%. Actual performance will vary when 
+final products are released in market. Performance projections as of March 2024. (VER-023)
+3. Video codec acceleration (including at least the HEVC (H.265), H.264, VP9, and AV1 codecs) is subject to and not operable without inclusion/installation of compatible media players. (GD-176)
+DISCLAIMERS
+The information contained herein is for informational purposes only and is subject to change without notice. While every precaution has been taken in the preparation of this document, it may contain 
+technical inaccuracies, omissions and typographical errors, and AMD is under no obligation to update or otherwise correct this information.� Advanced Micro Devices, Inc. makes no representations or 
+warranties with respect to the accuracy or completeness of the contents of this document, and assumes no liability of any kind, including the implied warranties of noninfringement, merchantability or 
+fitness for particular purposes, with respect to the operation or use of AMD hardware, software or other products described herein.� No license, including implied or arising by estoppel, to any intellectual 
+property rights is granted by this document.� Terms and limitations applicable to the purchase or use of AMD products are as set forth in a signed agreement between the parties or in AMD�s Standard 
+Terms and Conditions of Sale. GD-18u
+COPYRIGHT NOTICE
+� 2024 Advanced Micro Devices, Inc. All rights reserved. AMD, the AMD Arrow logo, Versal, and other designated brands included herein are trademarks of Advanced Micro Devices, Inc. Arm and Cortex 
+are trademarks of Arm in the EU and other countries. Linux is the registered trademark of Linus Torvalds in the U.S. and other countries. PCIe  and PCI Express are trademarks of PCI-SIG and used under 
+license. Python is a trademark of the Python Software Foundation. Other product names used in this publication are for identification purposes only and may be trademarks of their respective owners. 
+Certain AMD technologies may require third-party enablement or activation. Supported features may vary by operating system. Please confirm with the system manufacturer for specific features. No 
+technology or product can be completely secure. PID3070664
+INTEGRATED VIDEO PROCESSING
+� Image signal processors (ISP)
+� Video codec unit (VCU) for 4k60 HEVC/AVC3
+� Graphics processing unit (GPU) with up to  
+256 GFLOPs 
+HIGH-SPEED CONNECTIVITY
+� 32G high-speed transceivers
+� Dedicated high-speed interfaces for USB 3.2, 10 GbE,  
+PCIe� Gen5, NVMe, UFS, and HSM (no FPGA soft IP needed)
+CLOUD CONNECTED INDUSTRIAL PC (IPC)
+� Linux� based automation applications
+� Scalable number of Ethernet ports in adaptive SoC
+� AI performance using AI Engines 
+PROCESS AUTOMATION AND CONTROL  
+(PLC, PAC)
+� Execution environment for IEC 61131 runtimes
+� Cloud / Edge collaboration
+� Sensor and actuator interfacing, including optical  
+sensors, ISP , and video processing
+ROBOTICS CONTROLLER
+� Execution of control environment for robotic applications
+� Industrial Ethernet master, including TSN
+� Visual SLAM and navigation in AI Engines
+DIGITAL TWIN IN CYBER-PHYSICAL SYSTEMS (CPS)
+� Model-based design flow support
+� Acceleration through programmable logic and AI Engine
+� Python� execution for runtime analytics
+
+SOURCE AMD_Versal_Gen2_Brief PAGES 3
+PAGE 1
+PRODUCT BRIEF: AMD VERSAL AI EDGE SERIES GEN 2
+1
+HIGHLIGHTS
+PREPROCESSING, AI INFERENCE, AND POSTPROCESSING � IN ONE DEVICE
+� World-class programmable logic for flexible, real-time preprocessing
+� Next-generation AI Engines for efficient AI inference �up to 3X TOPs/watt 
+(projected)1
+� Up to 10X scalar compute (projected)2  with high-performance CPUs  
+for postprocessing
+� Supported by new DDR5/LPDDR5X memory controllers 
+FOR HIGH-SECURITY , SAFETY-CRITICAL APPLICATIONS
+� Up to 100k DMIPs of compute at ASIL D / SIL 3 (random) operation3
+� ASIL D / SIL 3 operation from processing system to NoC to DDR memory
+� New application security unit and DDR inline crypto for run-time security
+� Secure boot and device configuration through the platform management controller 
+HARDENED IMAGE AND VIDEO PROCESSING TO SAVE SPACE AND POWER
+� New image signal processor tiles � over 1 Gpix/s throughput per tile
+� Enhanced video code unit supports HEVC & AVC encode & decode4
+� Display controller with support for DisplayPort� 1.4
+� Integrated 4-core Arm Mali�-G78AE GPU for real-time display/HMI
+AMD VERSAL � AI EDGE SERIES GEN 2
+OVERVIEW
+AMD Versal� AI Edge Series Gen 2 adaptive SoCs deliver end-to-end acceleration 
+for AI-driven embedded systems�all in a single device built on a foundation of 
+enhanced safety and security. Combining world-class programmable logic with a new 
+high-performance processing system of integrated Arm� CPUs and next-generation 
+AI Engines, these devices enable all three phases of compute in embedded AI 
+applications: preprocessing, AI inference, and postprocessing.
+Embedded systems interact with the world in real time and face tight operating 
+constraints. To respond to real-world conditions in milliseconds and meet size and 
+power targets, all phases of processing need hardware acceleration, but until now, 
+no single hardware architecture is well optimized for all three phases. Multi-chip 
+solutions carry significant overhead, so a single-chip heterogeneous processing 
+solution that includes programmable logic for flexible, real-time preprocessing is 
+required to maximize performance.
+Designed for a broad range of embedded markets, including those with high-security, 
+high-reliability, long-lifecycle, and safety-critical applications, Versal AI Edge Series 
+Gen 2 adaptive SoCs are designed to meet ASIL D / SIL 3 operating requirements and 
+are compliant with numerous other safety and security standards.
+KEY APPLICATIONS
+AUTOMOTIVE
+ADAS
+Autonomous Driving
+INDUSTRIAL AND SMART CITY
+Autonomous Mobile Robots
+Industrial PCs
+Edge AI Box
+AEROSPACE AND DEFENSE
+Avionics, UAS, UAM
+Mission Computing
+Detection and Tracking 
+HEALTHCARE
+Ultrasound
+Endoscopy
+3D Imaging
+PRODUCT BRIEF
+End-to-end acceleration for Embedded AI
+PAGE 2
+PRODUCT BRIEF: AMD VERSAL AI EDGE SERIES GEN 2
+2
+FEATURES
+FEATURE HIGHLIGHTS
+Processing System (PS) of Integrated CPUs
+� Up to 8x Arm Cortex-A78AE application processors � up to 200k DMIPs
+� Up to 10x Arm Cortex-R52 real-time processors
+� Support for USB 3.2, DisplayPort 1.4, 10G Ethernet, PCIe� Gen5, and more
+AI Engines
+� New AIE-ML v2 tile architecture � up to 3X TOPs/watt vs AIE-ML (projected)1
+� Expanded data type options � new FP8, FP16, MX6, MX9 support
+� MX6 & MX9: Shared-exponent data types designed to boost throughput and perf/watt
+Programmable Logic (PL)
+� Low-latency, deterministic, parallel processing
+� Fully customizable to enable differentiated,�proprietary algorithms
+� Field-upgradeable: Adaptable to changing conditions and evolving workloads
+Functional Safety
+� ASIL D / SIL 3 (random) operation from PS through NoC to DDR memory
+� Up to 100k DMIPs of compute at ASIL D / SIL 3 (random) operating levels3
+� Entire device designed to ASIL D / SC3 for systematic faults
+Security
+� New application security unit provides run-time HSM security
+� Platform management controller manages secure boot and device-level services
+� DDR memory controllers support inline encryption (AES-XTS or AES-GCM)
+Image Signal Processors (ISPs)
+� Support up to five camera streams with >1 Gpix/s total throughput per ISP tile
+� Up to 3 ISP tiles per device � over 3 Gpix/s ISP throughput in largest device
+� Save power and programmable logic resources vs. soft ISP implementation
+Video Codec Unit (VCU)
+� Hardened VCU tile contains both encoder & decoder instance
+� Encoder & decoder�support HEVC & AVC up to 4K60, 4:4:4, 12-bit4
+� Multistream support through time division multiplexing
+Integrated GPU
+� 4-core Arm Mali-G78AE GPU with up to 268 GFLOPs of compute (FP32 MACs)5
+� Four shader cores in 2 slices � configurable as 1 or 2 independent partitions
+� Support for: OpenGL � ES 3.2, OpenGL SC 2.0, Vulkan� 1.2, Vulkan SC, OpenCL � 3.0
+DDR5/LPDDR5X Memory Controllers
+� Support for DDR5 @ 6400 Mb/s and LPDDR5X @ 8533 Mb/s
+� Up to 170 GB/s memory bandwidth in the largest devices
+� Flexible pin planning � swap hard controller pins to support other interfaces
+Programmable I/O
+� New high-performance X5IO support DDR5/LPDDR5X, LVDS, and other standards
+� New MIPI C-PHY support (4.5 GS/s) to complement 4.5 Gb/s D-PHY support
+� HDIO and MIO support lower speeds and logic levels up to 3.3V
+Network on Chip (NoC)
+� High-bandwidth software-programmable network on chip
+� Data movement alternative to PL -based routing�
+� Assured quality of service (QoS) to prioritize critical traffic
+32G High-Speed Serial Transceivers
+� Production-proven 32G GTYP transceivers
+� Up to 20 PL -facing transceivers per device
+� 4 additional PS-facing transceivers per device for PS-based 10 GE, PCIe Gen5
+100G Multirate Ethernet
+� Channelized for 1x100 GE, 2x50 GE, 1x40 GE, 4x25 GE, or 4x10 GE
+� Integrated FECs for robust error correction (KR FEC, KR4 FEC, KP4 FEC)
+� FEC bypass mode for custom use
+PCIe Gen 5
+� PL -based support for PCIe Gen 5x4, Gen 4x8, and other configurations
+� Hardened PCIe controller IP blocks integrated into programmable logic
+� Up to 4 PL -based controllers per device; additional PCIe Gen 5 controllers in PS
+PAGE 3
+PRODUCT BRIEF: AMD VERSAL AI EDGE SERIES GEN 2
+3
+NEXT STEPS
+For more information on AMD Versal AI Edge Series Gen 2, visit www.amd.com/versal-ai-edge-gen2
+ENDNOTES
+1. Based on AMD internal performance and power projections for the AIE-ML v2 compute tile architecture in the Versal AI Edge Series Gen 2 using the MX6 data type, compared to performance 
+specifications and AMD Power Design Manager power results for the AIE-ML compute tile architecture featured in the first-generation Versal AI Edge Series using the INT8 data type. Assumptions: 2 
+row, 8 column sub-arrays. Operating conditions: 1 GHz FMAX, 0.7V AIE operating voltage, 100C junction temperature, typical process, 60% vector load, % activations = 0 < 10%. Actual performance will 
+vary when final products are released in market. Performance projections as of March 2024. (VER-023) 
+2. Based on AMD internal pre-silicon performance estimates for combined total DMIPs of the Versal AI Edge Series Gen 2 and Versal Prime Series Gen 2 processing system when configured with 8 Arm 
+Cortex-A78AE applications cores @2.2 GHz and 10 Arm Cortex-R52 real-time cores @1.05 GHz, compared to the published combined total DMIPs of the processing system in the first-generation Versal 
+AI Edge Series and Versal Prime Series. Versal AI Edge Series Gen 2 and Prime Series Gen 2 operating conditions: Highest available speed grade, 0.88V PS operating voltage, split-mode operation, 
+maximum supported operating frequency. First-generation Versal AI Edge Series and Prime Series operating conditions: highest available speed grade, 0.88V PS operating voltage, maximum 
+supported operating frequency. Actual DMIPs performance will vary when final products are released in market. (VER-027) 
+3. Based on pre-silicon performance estimates, the application processing unit (APU) in the processing system in the Versal AI Edge Series Gen 2 and Versal Prime Series Gen 2 is projected to offer up to 
+100k DMIPs of compute while meeting ASIL D / SIL 3 safety standards when configured with 8 Arm Cortex-A78AE application cores @ 2.2 Ghz, with all cores operating in lockstep mode. (VER-028)
+4. Video codec acceleration (including at least the HEVC (H.265), H.264, VP9, and AV1 codecs) is subject to and not operable without inclusion/installation of compatible media players. (GD-176)
+5. Based on Arm published product specifications for the Versal AI Edge Series Gen 2 and the Versal Prime Series Gen 2 devices, respectively configured with a 4-core Arm Mali-G78AE GPU, maximum 
+operating frequency 1050 MHz, 64 FP32 per ops/clock/core, and 4 texels per ops/clock/core. Actual Versal AI Edge Series Gen 2 and Versal Prime Series Gen 2 product performance will vary when final 
+products are released in market. (VER-030)
+DISCLAIMERS
+The information contained herein is for informational purposes only and is subject to change without notice. While every precaution has been taken in the preparation of this document, it may contain 
+technical inaccuracies, omissions and typographical errors, and AMD is under no obligation to update or otherwise correct this information.� Advanced Micro Devices, Inc. makes no representations or 
+warranties with respect to the accuracy or completeness of the contents of this document, and assumes no liability of any kind, including the implied warranties of noninfringement, merchantability or 
+fitness for particular purposes, with respect to the operation or use of AMD hardware, software or other products described herein.� No license, including implied or arising by estoppel, to any intellectual 
+property rights is granted by this document.� Terms and limitations applicable to the purchase or use of AMD products are as set forth in a signed agreement between the parties or in AMD�s Standard 
+Terms and Conditions of Sale. GD-18u
+COPYRIGHT NOTICE
+� 2024 Advanced Micro Devices, Inc. All rights reserved. AMD, the AMD Arrow logo, Versal, and other designated brands included herein are trademarks of Advanced Micro Devices, Inc. Arm, Cortex, 
+and Mali are trademarks of Arm in the EU and other countries. OpenCL is a trademark of Apple Inc. used by permission by Khronos Group, Inc. OpenGL and the oval logo are trademarks or registered 
+trademarks of Hewlett Packard Enterprise in the United States and/or other countries worldwide. PCIe  and PCI Express are trademarks of PCI-SIG and used under license. Vulkan and the Vulkan logo 
+are registered trademarks of the Khronos Group Inc. Other product names used in this publication are for identification purposes only and may be trademarks of their respective owners.Certain AMD 
+technologies may require third-party enablement or activation. Supported features may vary by operating system. Please confirm with the system manufacturer for specific features.  
+No technology or product can be completely secure. PID3070664

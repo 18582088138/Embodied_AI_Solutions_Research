@@ -1,0 +1,98 @@
+{
+  "raw_payload": [
+    {
+      "width": 2472,
+      "height": 2128,
+      "fps": 120,
+      "storage_bits_per_pixel": 8,
+      "payload_Gbps": 5.04999936,
+      "payload_MBps": 631.24992,
+      "formula": "width*height*fps*storage_bits_per_pixel",
+      "status": "分析，非实测；packed位深和16bit slot假设独立，不含协议/blanking"
+    },
+    {
+      "width": 2472,
+      "height": 2128,
+      "fps": 120,
+      "storage_bits_per_pixel": 10,
+      "payload_Gbps": 6.3124992,
+      "payload_MBps": 789.0624,
+      "formula": "width*height*fps*storage_bits_per_pixel",
+      "status": "分析，非实测；packed位深和16bit slot假设独立，不含协议/blanking"
+    },
+    {
+      "width": 2472,
+      "height": 2128,
+      "fps": 120,
+      "storage_bits_per_pixel": 12,
+      "payload_Gbps": 7.57499904,
+      "payload_MBps": 946.87488,
+      "formula": "width*height*fps*storage_bits_per_pixel",
+      "status": "分析，非实测；packed位深和16bit slot假设独立，不含协议/blanking"
+    },
+    {
+      "width": 2472,
+      "height": 2128,
+      "fps": 120,
+      "storage_bits_per_pixel": 16,
+      "payload_Gbps": 10.09999872,
+      "payload_MBps": 1262.49984,
+      "formula": "width*height*fps*storage_bits_per_pixel",
+      "status": "分析，非实测；packed位深和16bit slot假设独立，不含协议/blanking"
+    },
+    {
+      "width": 2472,
+      "height": 2128,
+      "fps": 122,
+      "storage_bits_per_pixel": 8,
+      "payload_Gbps": 5.134166016,
+      "payload_MBps": 641.770752,
+      "formula": "width*height*fps*storage_bits_per_pixel",
+      "status": "分析，非实测；packed位深和16bit slot假设独立，不含协议/blanking"
+    },
+    {
+      "width": 2472,
+      "height": 2128,
+      "fps": 122,
+      "storage_bits_per_pixel": 10,
+      "payload_Gbps": 6.41770752,
+      "payload_MBps": 802.21344,
+      "formula": "width*height*fps*storage_bits_per_pixel",
+      "status": "分析，非实测；packed位深和16bit slot假设独立，不含协议/blanking"
+    },
+    {
+      "width": 2472,
+      "height": 2128,
+      "fps": 122,
+      "storage_bits_per_pixel": 12,
+      "payload_Gbps": 7.701249024,
+      "payload_MBps": 962.656128,
+      "formula": "width*height*fps*storage_bits_per_pixel",
+      "status": "分析，非实测；packed位深和16bit slot假设独立，不含协议/blanking"
+    },
+    {
+      "width": 2472,
+      "height": 2128,
+      "fps": 122,
+      "storage_bits_per_pixel": 16,
+      "payload_Gbps": 10.268332032,
+      "payload_MBps": 1283.541504,
+      "formula": "width*height*fps*storage_bits_per_pixel",
+      "status": "分析，非实测；packed位深和16bit slot假设独立，不含协议/blanking"
+    }
+  ],
+  "active_pixel_capacity_Mpixel_s": 950.4,
+  "DDR": {
+    "single_traverse_MB_s": 373.248,
+    "three_memory_to_memory_stages_GB_s": 2.239488,
+    "four_stream_payload_GB_s": 1.492992,
+    "extra_copy_read_write_four_stream_GB_s": 2.985984,
+    "conditions": "1080pRGB8@60；3阶段各完整读写一次或4stream假设；不含capture/display/CCA额外pass，不证明目标并发支持"
+  },
+  "age": {
+    "queued_frames": 3,
+    "fps": 60,
+    "conditional_wait_ms": 50.0,
+    "status": "条件估算，非实测，不含曝光处理"
+  }
+}

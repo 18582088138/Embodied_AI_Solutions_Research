@@ -1,0 +1,957 @@
+[
+  {
+    "source_id": "AMD_MV_Overview",
+    "number": "S01",
+    "title": "KR260机器视觉总览",
+    "version": "KR260文档家族2022.1；页面更新2026-08-13；部署测试组件见正文",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/overview.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Overview--5a15284f31bed423/index.html",
+    "sha256": "fb30c1b76f02e4de28092f5ddb7200efca7ccf9463243c2876c8b9904bf92846",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Overview--5a15284f31bed423/original.response",
+    "original_sha256": "97e20ff9c6cff07b1d811cc3d71e5def5b42ae1f7949e7ab57f5bb57912397de",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Overview--5a15284f31bed423/metadata.json",
+    "collected_at": "2026-11-04T07:08:41.313070+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "unavailable_presentation_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_TSN_HW",
+    "number": "S02",
+    "title": "TSN/RS485/CAN硬件架构",
+    "version": "TSN教程v0.3；EDF26.06/Jazzy；更新2026-10-23",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/hw_arch_platform.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_HW--5963c5dfcbb51f61/index.html",
+    "sha256": "be103ea0b32202d355869bff8ba448cd6e6187891617eace8b0fac7f1da950ea",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_HW--5963c5dfcbb51f61/original.response",
+    "original_sha256": "b711941198f7820ac4198cdc1510911020c71cf9a23dd4a5e5235ef479dbc569",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_HW--5963c5dfcbb51f61/metadata.json",
+    "collected_at": "2026-11-04T07:10:42.267953+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://github.com/Xilinx/Image-Collateral/blob/main/xilinx-logo.png?raw=true": "PermissionError: redirect destination disallowed; not requested"
+    },
+    "unavailable_presentation_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://github.com/Xilinx/Image-Collateral/blob/main/xilinx-logo.png?raw=true": "PermissionError: redirect destination disallowed; not requested"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_Kria_AI_Dev",
+    "number": "S03",
+    "title": "Kria AI机器人开发平台",
+    "version": "2026-11-04产品页快照；Notify Me；未取得唯一suite release",
+    "url": "https://www.amd.com/en/products/system-on-modules/kria/ai/robotics-developer-platform.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_AI_Dev--fffec690feed8269/index.html",
+    "sha256": "4618c9ef62b2e0faf891aef94fe950ec832571f56e6dc1c956d9d9d6fd9aa5ca",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_AI_Dev--fffec690feed8269/original.response",
+    "original_sha256": "f1919e6f25a4d707a8697fd9c96f99df88392df6681b075ebfdbf3787df46e19",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_AI_Dev--fffec690feed8269/metadata.json",
+    "collected_at": "2026-11-04T04:44:31.286148+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://js.qualified.com/qualified.js?token=wTVZrM1NrP9FvcsY": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/atomic.esm.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "unavailable_presentation_assets": {
+      "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_KV260",
+    "number": "S04",
+    "title": "KV260商品/规格",
+    "version": "网页未标明确发布日期/revision；本次快照",
+    "url": "https://www.amd.com/en/products/system-on-modules/kria/k26/kv260-vision-starter-kit.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KV260--758b998a2b6400ac/index.html",
+    "sha256": "d986534d8096051ee8eaf3ca2fdb1801a7830a2187a24c4a446a1e6fe3647310",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KV260--758b998a2b6400ac/original.response",
+    "original_sha256": "eca64eb1eaca73dd3bb6d86e55d1df05326e0ad79e91ae5e4748f7c401beed08",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KV260--758b998a2b6400ac/metadata.json",
+    "collected_at": "2026-11-04T04:44:53.578271+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://js.qualified.com/qualified.js?token=wTVZrM1NrP9FvcsY": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/atomic.esm.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "unavailable_presentation_assets": {
+      "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_KR260",
+    "number": "S05",
+    "title": "KR260商品/规格",
+    "version": "网页未标明确发布日期/revision；本次快照",
+    "url": "https://www.amd.com/en/products/system-on-modules/kria/k26/kr260-robotics-starter-kit.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KR260--38007a715153d4af/index.html",
+    "sha256": "cce5a92067e225f5ea4bd9b37367d91665b49fc5eff7bb9ee48d0e6a1c777320",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KR260--38007a715153d4af/original.response",
+    "original_sha256": "9ba962b3498238bec4254d7899e282d01da4e54bb51dff0716b6ac304a917b94",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KR260--38007a715153d4af/metadata.json",
+    "collected_at": "2026-11-04T04:41:55.644173+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://js.qualified.com/qualified.js?token=wTVZrM1NrP9FvcsY": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/atomic.esm.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "unavailable_presentation_assets": {
+      "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_MV_Intro",
+    "number": "S06",
+    "title": "机器视觉输入、输出与系统依赖",
+    "version": "KR260文档家族2022.1；页面更新2026-08-13；部署测试组件见正文",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/introduction.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Intro--6adc3e98386eb8c6/index.html",
+    "sha256": "4f3974e2261126469785b366f8d93cc4462d8401cd3d78672e3f7ef3cf4fdccb",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Intro--6adc3e98386eb8c6/original.response",
+    "original_sha256": "97b62804813baed89907c8272448b9117d95f2d9bbe51521280cfc11e5c2e436",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Intro--6adc3e98386eb8c6/metadata.json",
+    "collected_at": "2026-11-04T07:08:44.217460+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "unavailable_presentation_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_CSI2_Driver",
+    "number": "S07",
+    "title": "linux-xlnx CSI2 Rx driver",
+    "version": "linux-xlnx master 2026-11-04浮动快照；DMA页面仅取得部分源码",
+    "url": "https://github.com/Xilinx/linux-xlnx/blob/master/drivers/media/platform/xilinx/xilinx-csi2rxss.c",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_CSI2_Driver--ad9c9eb7d28ce8c4/index.html",
+    "sha256": "80dc7f9a8b70ec6311492a45441a5c24684750c988d77b090ef4be1fbadf6a5e",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_CSI2_Driver--ad9c9eb7d28ce8c4/original.response",
+    "original_sha256": "55bed353b3d24afcca0ee878eef45697ef04d0776bff71961b525aec797df9cd",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_CSI2_Driver--ad9c9eb7d28ce8c4/metadata.json",
+    "collected_at": "2026-11-04T07:11:15.979127+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "unavailable_presentation_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_MV_Sensor",
+    "number": "S08",
+    "title": "IMX547模块、位深和接口",
+    "version": "KR260文档家族2022.1；页面更新2026-08-13；部署测试组件见正文",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/sensor.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Sensor--2099717cc1b16868/index.html",
+    "sha256": "7ed4b92f7a7b2ee6e54d95548c6a46969502ee97d8dd8748b294af68b82d4904",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Sensor--2099717cc1b16868/original.response",
+    "original_sha256": "082066b1307b03adf9d6e9ca1bdf897898ca427f5c0000083ca1fe742ec96db0",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Sensor--2099717cc1b16868/metadata.json",
+    "collected_at": "2026-11-04T07:11:10.335925+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "unavailable_presentation_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_MV_HW",
+    "number": "S09",
+    "title": "SLVS/ISP/10GigE硬件架构",
+    "version": "KR260文档家族2022.1；页面更新2026-08-13；部署测试组件见正文",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/10gige.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_HW--1171c54d38276ea2/index.html",
+    "sha256": "6b2fee513f582e038a459916c752f51b4a23b969ec04b29c5c6ab2b8d3fa1bc6",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_HW--1171c54d38276ea2/original.response",
+    "original_sha256": "7ffe9ba51c21c0a2b5afb2917827011c659dd4acc1e7c7ae237b7e0ed61559fb",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_HW--1171c54d38276ea2/metadata.json",
+    "collected_at": "2026-11-04T07:08:52.767137+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "unavailable_presentation_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_IMX547_Readme",
+    "number": "S10",
+    "title": "IMX547 sensor module README",
+    "version": "GitHub main 2026-11-04快照；README/LICENSE，非完整交付包审核",
+    "url": "https://github.com/Xilinx/mv-camera-sensor-module/blob/main/README.md",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Readme--253f622abc918fe3/index.html",
+    "sha256": "fbfa72ed139635b1bd71fc83075b01b0fb4b0b5ac4bf32e437aa14452f9ff0e7",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Readme--253f622abc918fe3/original.response",
+    "original_sha256": "f7963fe9654ba6d17ecbeaa48ea45c820c960fce29a4a54f79b3d77cba74d39d",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Readme--253f622abc918fe3/metadata.json",
+    "collected_at": "2026-11-04T07:17:47.838769+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "unavailable_presentation_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_MV_Deploy",
+    "number": "S11",
+    "title": "机器视觉部署与性能条件",
+    "version": "KR260文档家族2022.1；页面更新2026-08-13；部署测试组件见正文",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/app_deployment.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Deploy--9e850a52b8c1c098/index.html",
+    "sha256": "3a62b50b55cdd2e74966e1facb4342245447c524a0aa8a8e81399b1b45af4cdd",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Deploy--9e850a52b8c1c098/original.response",
+    "original_sha256": "83742cd7d7e5aa1242884f9c27c54da806428bdd018b1e90547a213e11e6b0cf",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Deploy--9e850a52b8c1c098/metadata.json",
+    "collected_at": "2026-11-04T07:08:45.847097+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "unavailable_presentation_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_MV_ISP",
+    "number": "S12",
+    "title": "缺陷检测加速与资源表",
+    "version": "KR260文档家族2022.1；页面更新2026-08-13；部署测试组件见正文",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/hw_arch_accel_dd.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_ISP--3de67ef3f75df3f6/index.html",
+    "sha256": "2549b81c7140dbd794f87d503a6d776d7b0f557c34894785ddae19c063089ef8",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_ISP--3de67ef3f75df3f6/original.response",
+    "original_sha256": "7035251f72335816f6c305b095ef9063a78e23cd3bab7460cb039b30ce1a6a24",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_ISP--3de67ef3f75df3f6/metadata.json",
+    "collected_at": "2026-11-04T07:08:56.125274+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "unavailable_presentation_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_MV_SW",
+    "number": "S13",
+    "title": "机器视觉驱动与控制面",
+    "version": "KR260文档家族2022.1；页面更新2026-08-13；部署测试组件见正文",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/sw_arch_platform_dd.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_SW--6de6edf892bbb0e6/index.html",
+    "sha256": "be384d7d9814e9093275d9e458bcb0e7acb11ff1335265e0f8d417f6ae26fc60",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_SW--6de6edf892bbb0e6/original.response",
+    "original_sha256": "fe17a156340bb68410ec14f53255a6c2a3b42d3062835cca3a47eec868ed45d0",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_SW--6de6edf892bbb0e6/metadata.json",
+    "collected_at": "2026-11-04T07:09:03.090172+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "unavailable_presentation_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_IMX547_Color",
+    "number": "S14",
+    "title": "IMX547 color产品页",
+    "version": "2026-11-04公开快照；未取得明确发布日，适用范围见正文",
+    "url": "https://www.amd.com/en/products/system-on-modules/kria/k26/kr260-robotics-starter-kit/imx547-camera-kit-color.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Color--f9f729bb41514f8d/index.html",
+    "sha256": "43c693ba2bf7989437c506684ffc2407eec6ad3abc6ac1fa10c65af1bb357cfd",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Color--f9f729bb41514f8d/original.response",
+    "original_sha256": "c7aab9aa23c07f8a38635f1941e084d9d56635d3cb022bdf51248c7417bec443",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Color--f9f729bb41514f8d/metadata.json",
+    "collected_at": "2026-11-04T07:07:41.173070+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://js.qualified.com/qualified.js?token=wTVZrM1NrP9FvcsY": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/atomic.esm.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "unavailable_presentation_assets": {
+      "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_IMX547_Mono",
+    "number": "S15",
+    "title": "IMX547 mono产品页",
+    "version": "2026-11-04公开快照；未取得明确发布日，适用范围见正文",
+    "url": "https://www.amd.com/en/products/system-on-modules/kria/k26/kr260-robotics-starter-kit/imx547-camera-kit-monochrome.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Mono--c6eb79ab879ec9bf/index.html",
+    "sha256": "06012ae80be79a378739d705b37413146049e49014f3018c83e3d853c290013f",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Mono--c6eb79ab879ec9bf/original.response",
+    "original_sha256": "2e0788e28073c80a962a41f12ed66b6b91cef2c55d6eac3aef88ba90eea4ef06",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Mono--c6eb79ab879ec9bf/metadata.json",
+    "collected_at": "2026-11-04T07:07:46.655178+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://js.qualified.com/qualified.js?token=wTVZrM1NrP9FvcsY": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/atomic.esm.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "unavailable_presentation_assets": {
+      "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_MV_Issues",
+    "number": "S16",
+    "title": "机器视觉已知问题与许可",
+    "version": "KR260文档家族2022.1；页面更新2026-08-13；部署测试组件见正文",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/known_issues.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Issues--711fcf700b2cf88e/index.html",
+    "sha256": "e71b73b24fbf17d2550505382de560e97275e50250904aff4956cdd88b22b23a",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Issues--711fcf700b2cf88e/original.response",
+    "original_sha256": "7e2fc51e1cacd797d4f975d78765173b7c8a3fc446bc4d383e8c48bde0ab00df",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Issues--711fcf700b2cf88e/metadata.json",
+    "collected_at": "2026-11-04T07:09:14.298166+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "unavailable_presentation_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "Linux_V4L2_MMAP",
+    "number": "S17",
+    "title": "V4L2 MMAP接口",
+    "version": "kernel.org通用API文档2026-11-04快照；非AMD BSP绑定版本",
+    "url": "https://docs.kernel.org/userspace-api/media/v4l/mmap.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_MMAP--918cfd1c10b93e9c/index.html",
+    "sha256": "1a4e5f062cfa1c93f83eefea5e0f578e9898a4fe330e0b9410ac00049b30fd21",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_MMAP--918cfd1c10b93e9c/original.response",
+    "original_sha256": "f271b13ffae1a4f4d9b8b18290a6576afcbbaaac34842e7fc13f055e341b2634",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_MMAP--918cfd1c10b93e9c/metadata.json",
+    "collected_at": "2026-11-04T07:08:07.513036+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "unavailable_presentation_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Linux_V4L2_DMABUF",
+    "number": "S18",
+    "title": "V4L2 DMA-BUF importer",
+    "version": "kernel.org通用API文档2026-11-04快照；非AMD BSP绑定版本",
+    "url": "https://docs.kernel.org/userspace-api/media/v4l/dmabuf.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_DMABUF--7662313ef95a64cb/index.html",
+    "sha256": "4fdc7599a77ba47887241d0de1391e34fe82a5d5ea703de4fdf56bbb714f4020",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_DMABUF--7662313ef95a64cb/original.response",
+    "original_sha256": "894bdf268726818e1c6be16f28ac0cbe9109c37b77e9fbc35303174399d169fb",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_DMABUF--7662313ef95a64cb/metadata.json",
+    "collected_at": "2026-11-04T07:08:00.168320+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "unavailable_presentation_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Linux_V4L2_Export",
+    "number": "S19",
+    "title": "V4L2 EXPBUF export",
+    "version": "kernel.org通用API文档2026-11-04快照；非AMD BSP绑定版本",
+    "url": "https://docs.kernel.org/userspace-api/media/v4l/vidioc-expbuf.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_Export--834cff46843ea22e/index.html",
+    "sha256": "1dde4b9746615f0ebfdbc04b144c8d6af3c4f73c4e1ca6c50c0bcda16d8fb025",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_Export--834cff46843ea22e/original.response",
+    "original_sha256": "e230f1cda6155c43121fa1e04fd2e7308ae343782e0d842f82b29847117e4e7b",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_Export--834cff46843ea22e/metadata.json",
+    "collected_at": "2026-11-04T07:12:59.440298+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "unavailable_presentation_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_Video_DMA_Driver",
+    "number": "S20",
+    "title": "linux-xlnx视频DMA部分源码",
+    "version": "linux-xlnx master 2026-11-04浮动快照；DMA页面仅取得部分源码",
+    "url": "https://github.com/Xilinx/linux-xlnx/blob/master/drivers/media/platform/xilinx/xilinx-dma.c",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Video_DMA_Driver--02b50d77f6328b6e/index.html",
+    "sha256": "48964724b6cac576f21beaa12dcfe160b092b707e849aba8ec8ed018bb5b9792",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Video_DMA_Driver--02b50d77f6328b6e/original.response",
+    "original_sha256": "0468a30cf64d05acb41b4979b1ffaa104227ccd3a75c14f95d4fee0ed2ded59a",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Video_DMA_Driver--02b50d77f6328b6e/metadata.json",
+    "collected_at": "2026-11-04T07:11:19.866569+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "unavailable_presentation_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Linux_DMABUF_Sync",
+    "number": "S21",
+    "title": "DMA-BUF同步与缓存访问",
+    "version": "kernel.org通用API文档2026-11-04快照；非AMD BSP绑定版本",
+    "url": "https://docs.kernel.org/driver-api/dma-buf.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_DMABUF_Sync--d9042c814da994ac/index.html",
+    "sha256": "468fb1cbe96476d08e0f8bf5e27f17a1734c52eefa775f4556e8a09df5f6c96f",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_DMABUF_Sync--d9042c814da994ac/original.response",
+    "original_sha256": "9373cd4a78794aa4cf98056a32f8dd4766e402458b67963688a229ad571bcc15",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_DMABUF_Sync--d9042c814da994ac/metadata.json",
+    "collected_at": "2026-11-04T07:11:39.846673+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "unavailable_presentation_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_VART_App",
+    "number": "S22",
+    "title": "Gen2 VART应用开发与零拷贝",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_app_guide.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_VART_App--ac4eac67a33411e1/index.html",
+    "sha256": "bcd780a59039221a1cc20cc9a4397d12f32aeb7e437dff8674fa64240f772320",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_VART_App--ac4eac67a33411e1/original.response",
+    "original_sha256": "daa55791270a313bbe81fb2f72b37e457b69e7146c296f26f3dd9eb9074e6ff0",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_VART_App--ac4eac67a33411e1/metadata.json",
+    "collected_at": "2026-11-04T05:30:17.882556+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "unavailable_presentation_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VAI_Tensor_Formats",
+    "number": "S23",
+    "title": "AMD_VAI_Tensor_Formats",
+    "version": "2026-11-04公开快照；未取得明确发布日，适用范围见正文",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/misc/tensor_formats.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Tensor_Formats--aec125dfb6f54880/index.html",
+    "sha256": "8bd8dbf0d95423d91c1cf827616928cc2aac3ce8836df9b5911ac431027429a8",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Tensor_Formats--aec125dfb6f54880/original.response",
+    "original_sha256": "78286ec9c32202f949aeed90eec21fcb503b66a7f15064a1f9c5726945c3cc54",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Tensor_Formats--aec125dfb6f54880/metadata.json",
+    "collected_at": "2026-11-04T06:30:24.520876+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "unavailable_presentation_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VAI_Quant_Pipeline",
+    "number": "S24",
+    "title": "AMD_VAI_Quant_Pipeline",
+    "version": "2026-11-04公开快照；未取得明确发布日，适用范围见正文",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_quantization_pipeline.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Quant_Pipeline--9e4369995e24c258/index.html",
+    "sha256": "cf3ec37cf8c828b0e638c28e54c09a5f499fad277072e6b7e7e385719a451b6a",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Quant_Pipeline--9e4369995e24c258/original.response",
+    "original_sha256": "d8fdd679574959ba7b31593bff017a5d77ff1370e5ad5dafcc3b2a743c4745ea",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Quant_Pipeline--9e4369995e24c258/metadata.json",
+    "collected_at": "2026-11-04T06:30:28.706097+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "unavailable_presentation_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Async",
+    "number": "S25",
+    "title": "Gen2异步执行及样例边界",
+    "version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/advanced_concepts/async_execution.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Async--a5b950f414554940/index.html",
+    "sha256": "6ce4de6106d4f87d06e1d131693e10c9652adc4903eb783edd956c91ec9a8bab",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Async--a5b950f414554940/original.response",
+    "original_sha256": "1552d78df865eea5e0bcf3f044af30971bab21fb49ecdd65deadd6922e9f6b3e",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Async--a5b950f414554940/metadata.json",
+    "collected_at": "2026-11-04T05:27:26.877502+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "unavailable_presentation_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Linux_Network_Timestamps",
+    "number": "S26",
+    "title": "Linux网络时间戳",
+    "version": "kernel.org通用API文档2026-11-04快照；非AMD BSP绑定版本",
+    "url": "https://docs.kernel.org/networking/timestamping.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_Network_Timestamps--931f803098f1b483/index.html",
+    "sha256": "72ac22d5a55f019a0c42f8964c4722a07d6c55b743d9d959fb94d4d28eb2b615",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_Network_Timestamps--931f803098f1b483/original.response",
+    "original_sha256": "76a3ea94b2bc0468ad8ee4f8dc8c92bd1bbd76404992e5c7ad7dab3addece63d",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_Network_Timestamps--931f803098f1b483/metadata.json",
+    "collected_at": "2026-11-04T07:11:43.157863+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "unavailable_presentation_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Linux_IIO_Buffer",
+    "number": "S27",
+    "title": "Linux IIO buffered数据布局",
+    "version": "kernel.org通用API文档2026-11-04快照；非AMD BSP绑定版本",
+    "url": "https://docs.kernel.org/driver-api/iio/buffers.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_IIO_Buffer--1bbe13646ec11616/index.html",
+    "sha256": "2df9292c97df1f08a14edc513e90357a07073462a445b0ce7656280ce5bc962a",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_IIO_Buffer--1bbe13646ec11616/original.response",
+    "original_sha256": "854283ef3ed322ec37145654832bf31b314f694694e55df6f70f9d73dcc2b224",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_IIO_Buffer--1bbe13646ec11616/metadata.json",
+    "collected_at": "2026-11-04T07:08:11.384981+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "unavailable_presentation_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_TSN_SW",
+    "number": "S28",
+    "title": "TSN ROS/VLAN及设备驱动",
+    "version": "TSN教程v0.3；EDF26.06/Jazzy；更新2026-10-23",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/sw_arch_platform.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_SW--868c5a65ce5a4028/index.html",
+    "sha256": "5e758b1aa057681a36d3d4e02e07ed0ff31c322a254cda7421ac5f90f791ee8d",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_SW--868c5a65ce5a4028/original.response",
+    "original_sha256": "e96a3c1a65a54aa123bd925d21788b5d2af3b8d5e9ab2359559964958b7c7a1e",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_SW--868c5a65ce5a4028/metadata.json",
+    "collected_at": "2026-11-04T07:10:45.316723+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://github.com/Xilinx/Image-Collateral/blob/main/xilinx-logo.png?raw=true": "PermissionError: redirect destination disallowed; not requested"
+    },
+    "unavailable_presentation_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://github.com/Xilinx/Image-Collateral/blob/main/xilinx-logo.png?raw=true": "PermissionError: redirect destination disallowed; not requested"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_TSN_Deploy",
+    "number": "S29",
+    "title": "TSN部署与测量端点",
+    "version": "TSN教程v0.3；EDF26.06/Jazzy；更新2026-10-23",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/app_deployment.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Deploy--fba5d3c5749435c3/index.html",
+    "sha256": "4f84ae33911e7f5f095768e82ecbcc4e8d9ebe3fb050418c3bf20bac55dc9bfa",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Deploy--fba5d3c5749435c3/original.response",
+    "original_sha256": "f0ef6581eabc201a1391c8bc774819b5d90d879a2d3366d4bba36ce7f291890f",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Deploy--fba5d3c5749435c3/metadata.json",
+    "collected_at": "2026-11-04T07:10:48.758556+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://github.com/Xilinx/Image-Collateral/blob/main/xilinx-logo.png?raw=true": "PermissionError: redirect destination disallowed; not requested"
+    },
+    "unavailable_presentation_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://github.com/Xilinx/Image-Collateral/blob/main/xilinx-logo.png?raw=true": "PermissionError: redirect destination disallowed; not requested"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "Linux_SocketCAN",
+    "number": "S30",
+    "title": "Linux SocketCAN API",
+    "version": "kernel.org通用API文档2026-11-04快照；非AMD BSP绑定版本",
+    "url": "https://docs.kernel.org/networking/can.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_SocketCAN--40fe80b010ea4757/index.html",
+    "sha256": "f89c17c1049b1df8baa54f3e21a181de76120cdb5374213e7130b4c7604dff60",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_SocketCAN--40fe80b010ea4757/original.response",
+    "original_sha256": "6724295264775ed9f53e2526e4a4f232471dd98f28a596f946d58ddda09dfb32",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_SocketCAN--40fe80b010ea4757/metadata.json",
+    "collected_at": "2026-11-04T07:11:45.093087+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "unavailable_presentation_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Linux_V4L2_Buffer",
+    "number": "S31",
+    "title": "V4L2 buffer与timestamp flags",
+    "version": "kernel.org通用API文档2026-11-04快照；非AMD BSP绑定版本",
+    "url": "https://docs.kernel.org/userspace-api/media/v4l/buffer.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_Buffer--6ec2a6979ded2e53/index.html",
+    "sha256": "60cac6e76c25765348ec3f0d0c4da261f2ca6ddb5324183ae86f171e43a932c9",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_Buffer--6ec2a6979ded2e53/original.response",
+    "original_sha256": "09461f3108b101e193740ddfa299bf4d85e2a903f093a8aee0a16e57c6b5cb14",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_Buffer--6ec2a6979ded2e53/metadata.json",
+    "collected_at": "2026-11-04T07:08:09.225863+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "unavailable_presentation_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_PTP_HW",
+    "number": "S32",
+    "title": "GPS/PPS硬件架构",
+    "version": "KR260 GPS/PTP旧版Ubuntu参考例；2023日志；页面更新2026-08-13",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/src/hw_arch_platform.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_HW--f13d0e99858a5776/index.html",
+    "sha256": "00e1a4907881ad0689e8e4f66d2aa36f4526ceb2b76b5c4205724942dac3e607",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_HW--f13d0e99858a5776/original.response",
+    "original_sha256": "34917d96c7caac25a29823722e801c82d56daaf6ce626a481be9e4048d5b1a7c",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_HW--f13d0e99858a5776/metadata.json",
+    "collected_at": "2026-11-04T07:09:20.533527+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "unavailable_presentation_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_PTP_Deploy",
+    "number": "S33",
+    "title": "GPS/PTP部署与chrony日志",
+    "version": "KR260 GPS/PTP旧版Ubuntu参考例；2023日志；页面更新2026-08-13",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/src/app_deployment.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_Deploy--af8029f4f090bde5/index.html",
+    "sha256": "e309435d8180808eeacf30562610c38611f9a3faae5b68ebc49ee74c086a3f03",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_Deploy--af8029f4f090bde5/original.response",
+    "original_sha256": "ff65e5bcdea4f733cfeaa0d37f2e5a7926356ff0f041e1c85c8d8ca297031acd",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_Deploy--af8029f4f090bde5/metadata.json",
+    "collected_at": "2026-11-04T07:09:15.987651+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/media/xilinx-logo.png": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "unavailable_presentation_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/media/xilinx-logo.png": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_PTP_SW",
+    "number": "S34",
+    "title": "GPS/PTP软件架构",
+    "version": "KR260 GPS/PTP旧版Ubuntu参考例；2023日志；页面更新2026-08-13",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/src/sw_arch_platform.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_SW--bda8bd44602fb5ae/index.html",
+    "sha256": "aeccf7a0abe743701c95529f6692c4b2f15b3ff091e33214687444d2470024f6",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_SW--bda8bd44602fb5ae/original.response",
+    "original_sha256": "d3568fa30b9a7d7f4cd876a2baeac87dbc57ec9bc0133e470aa2b5e120806923",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_SW--bda8bd44602fb5ae/metadata.json",
+    "collected_at": "2026-11-04T07:09:24.832884+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "unavailable_presentation_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "Linux_PTP",
+    "number": "S35",
+    "title": "Linux PHC API",
+    "version": "kernel.org通用API文档2026-11-04快照；非AMD BSP绑定版本",
+    "url": "https://docs.kernel.org/driver-api/ptp.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_PTP--2b352a13474d86b5/index.html",
+    "sha256": "979f6dec7d4019cef7a6f5ab6a54c591ce5089d443e9f132d522b1989ae12fee",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_PTP--2b352a13474d86b5/original.response",
+    "original_sha256": "7634ff25017eebfaa4be3428e68fd113704c5c78091bd90db77bda46954f2383",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_PTP--2b352a13474d86b5/metadata.json",
+    "collected_at": "2026-11-04T07:08:13.636485+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {},
+    "unavailable_presentation_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_TSN_Intro",
+    "number": "S36",
+    "title": "TSN v0.3定位与发行",
+    "version": "TSN教程v0.3；EDF26.06/Jazzy；更新2026-10-23",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/introduction.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Intro--864e8edb679c4b1d/index.html",
+    "sha256": "db8a3a4ccb9d10ff61508755c1ff629e4bd3034592dfe2afbeab46d4df90f6e4",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Intro--864e8edb679c4b1d/original.response",
+    "original_sha256": "f7fe334c77240a4c421eaa5b3f539f0b1953b1605368795b237fd29bfc4915da",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Intro--864e8edb679c4b1d/metadata.json",
+    "collected_at": "2026-11-04T07:10:37.548375+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://github.com/Xilinx/Image-Collateral/blob/main/xilinx-logo.png?raw=true": "PermissionError: redirect destination disallowed; not requested"
+    },
+    "unavailable_presentation_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://github.com/Xilinx/Image-Collateral/blob/main/xilinx-logo.png?raw=true": "PermissionError: redirect destination disallowed; not requested"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "KR260_Perception_Deploy",
+    "number": "S37",
+    "title": "KR260 ROS 2感知实际部署指南",
+    "version": "文档2022.1；Last updated2026-08-13；xlnx-rel-v2022.1_update4",
+    "url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/ros2_perception_node/src/app_deployment.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KR260_Perception_Deploy--52b7aa08d2a0e404/index.html",
+    "sha256": "7ef513975fc3a98d9a44ca95dc685ac35887a1f92db523b0218a4f35371bfd88",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KR260_Perception_Deploy--52b7aa08d2a0e404/original.response",
+    "original_sha256": "9529e5a800662009017edbc2fe8678947239ff9f959512df2390084f93fe53cf",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KR260_Perception_Deploy--52b7aa08d2a0e404/metadata.json",
+    "collected_at": "2026-11-04T05:28:03.222522+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/media/xilinx-logo.png": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "unavailable_presentation_assets": {
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found",
+      "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/media/xilinx-logo.png": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_IMX547_License",
+    "number": "S38",
+    "title": "sensor module GPLv2文本",
+    "version": "GitHub main 2026-11-04快照；README/LICENSE，非完整交付包审核",
+    "url": "https://github.com/Xilinx/mv-camera-sensor-module/blob/main/LICENSE.md",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_License--a70793bef10e3c26/index.html",
+    "sha256": "fdb8c917e73c3b8c5edc6d9a9632db7066719621aebf48c4a1d7d133a05bd4f5",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_License--a70793bef10e3c26/original.response",
+    "original_sha256": "f3b00d0d9994f98811a913f38bf8ae98b48eb2f80bbc11fa23b0a3b4e9a050dc",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_License--a70793bef10e3c26/metadata.json",
+    "collected_at": "2026-11-04T07:17:44.990981+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "unavailable_presentation_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_ISP_License",
+    "number": "S39",
+    "title": "ISP module GPLv2文本",
+    "version": "GitHub main 2026-11-04快照；README/LICENSE，非完整交付包审核",
+    "url": "https://github.com/Xilinx/xilinx-isp-module/blob/main/LICENSE.md",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ISP_License--86b637f43077fc3d/index.html",
+    "sha256": "737543bf3b9b833fb33e8c578009c255a6d6e84f14623800a76d2cf0691e00a2",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ISP_License--86b637f43077fc3d/original.response",
+    "original_sha256": "7814ded746d4e9a90c7460213ea89209f519a14d3abd7e9a3389eea3d065f5df",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ISP_License--86b637f43077fc3d/metadata.json",
+    "collected_at": "2026-11-04T07:17:51.110537+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "unavailable_presentation_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_ISP_Readme",
+    "number": "S40",
+    "title": "ISP driver README/SPDX",
+    "version": "GitHub main 2026-11-04快照；README/LICENSE，非完整交付包审核",
+    "url": "https://github.com/Xilinx/xilinx-isp-module/blob/main/README.md",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ISP_Readme--725cb58851f7f747/index.html",
+    "sha256": "dedda07b4e9c96e503a7aa1889476129afd37467f97d0b63a0f5b032bb916fe1",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ISP_Readme--725cb58851f7f747/original.response",
+    "original_sha256": "c9dbf8f369c4446b7cc9a36b7ee1d57d4377b88c5ff4255dbdcb82559699e469",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ISP_Readme--725cb58851f7f747/metadata.json",
+    "collected_at": "2026-11-04T07:17:54.132292+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "unavailable_presentation_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Compare_03_HSB",
+    "number": "S41",
+    "title": "NVIDIA HSB2.7架构",
+    "version": "HSB2.7；2026-11-03原响应导入复用，仅机制对标",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_03_HSB--766974539088b048/index.html",
+    "sha256": "5ff7a1892ff8c1b9e8467d2d445b45ab36df3543a6fea06bbfab968ec3b73096",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_03_HSB--766974539088b048/original.response",
+    "original_sha256": "d070d3505bbfcd7c3051a5bb509e8afd00d0ae15ae0948706e35c75dca8d5bf9",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_03_HSB--766974539088b048/metadata.json",
+    "collected_at": "2026-11-03T08:00:37.090129+00:00",
+    "archive_status": "partial_static",
+    "missing_dependencies": {
+      "https://fern-image-hosting.s3.us-east-1.amazonaws.com/nvidia/NVIDIA_Logo_0.svg": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "unavailable_presentation_assets": {
+      "https://fern-image-hosting.s3.us-east-1.amazonaws.com/nvidia/NVIDIA_Logo_0.svg": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Compare_03_CoE",
+    "number": "S42",
+    "title": "Jetson Thor SIPL CoE接收架构",
+    "version": "Jetson r39.2.1 CoE；页面更新2026-08-12；2026-11-03原响应导入",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_03_CoE--acc0a9a82b614a53/index.html",
+    "sha256": "a0938d04a2a09bbe7b99bd9bffdbec333517421e178701a65a5bdadfc3108852",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_03_CoE--acc0a9a82b614a53/original.response",
+    "original_sha256": "98b4deca8e8ef5412d87c385075e9c23b5dcde36e043ec68577ab94eeec09890",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_03_CoE--acc0a9a82b614a53/metadata.json",
+    "collected_at": "2026-11-03T08:09:29.653796+00:00",
+    "archive_status": "complete_static",
+    "missing_dependencies": {
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "unavailable_presentation_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  }
+]

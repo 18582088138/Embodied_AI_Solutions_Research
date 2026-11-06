@@ -1,0 +1,11 @@
+{
+  "url": "https://raw.githubusercontent.com/openvla/openvla/main/README.md",
+  "status": 200,
+  "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_OPENVLA_README--4a932803c0397a9f/original.response",
+  "sha256": "ba8e9a2884e38a8000dafc98af4116512e37b0e143dad2f940100482bfd6b75c",
+  "headers": {
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "final_url": "https://raw.githubusercontent.com/openvla/openvla/main/README.md",
+  "retrieved_at_utc": "2026-11-04T02:05:29.809161+00:00"
+}

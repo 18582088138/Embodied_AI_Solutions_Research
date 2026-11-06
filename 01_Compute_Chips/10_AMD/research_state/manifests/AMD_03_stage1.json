@@ -1,0 +1,14 @@
+[
+ {"name":"AMD_KR260_10GigE","url":"https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/10gige_vision_camera_landing.html","expected":"html","used_by":["03_Sensor_Integration"]},
+ {"name":"AMD_KR260_PTP","url":"https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/gps_1588_ptp_precision_time_mgmt.html","expected":"html","used_by":["03_Sensor_Integration"]},
+ {"name":"AMD_KR260_TSN","url":"https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn.html","expected":"html","used_by":["03_Sensor_Integration"]},
+ {"name":"AMD_IMX547_Color","url":"https://www.amd.com/en/products/system-on-modules/kria/k26/kr260-robotics-starter-kit/imx547-camera-kit-color.html","expected":"html","used_by":["03_Sensor_Integration"]},
+ {"name":"AMD_IMX547_Mono","url":"https://www.amd.com/en/products/system-on-modules/kria/k26/kr260-robotics-starter-kit/imx547-camera-kit-monochrome.html","expected":"html","used_by":["03_Sensor_Integration"]},
+ {"name":"AMD_KV260_Interfaces","url":"https://docs.amd.com/r/en-US/ug1089-kv260-starter-kit/Interfaces","expected":"html","used_by":["03_Sensor_Integration"]},
+ {"name":"AMD_Wiki_Video","url":"https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/289833254/Video","expected":"html","used_by":["03_Sensor_Integration"]},
+ {"name":"Linux_V4L2_DMABUF","url":"https://docs.kernel.org/userspace-api/media/v4l/dmabuf.html","expected":"html","used_by":["03_Sensor_Integration"]},
+ {"name":"Linux_V4L2_MMAP","url":"https://docs.kernel.org/userspace-api/media/v4l/mmap.html","expected":"html","used_by":["03_Sensor_Integration"]},
+ {"name":"Linux_V4L2_Buffer","url":"https://docs.kernel.org/userspace-api/media/v4l/buffer.html","expected":"html","used_by":["03_Sensor_Integration"]},
+ {"name":"Linux_IIO_Buffer","url":"https://docs.kernel.org/driver-api/iio/buffers.html","expected":"html","used_by":["03_Sensor_Integration"]},
+ {"name":"Linux_PTP","url":"https://docs.kernel.org/driver-api/ptp.html","expected":"html","used_by":["03_Sensor_Integration"]}
+]

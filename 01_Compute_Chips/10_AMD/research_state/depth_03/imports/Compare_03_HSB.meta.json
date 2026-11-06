@@ -1,0 +1,11 @@
+{
+  "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture",
+  "status": 200,
+  "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_HSB_ARCH--766974539088b048/original.response",
+  "sha256": "d070d3505bbfcd7c3051a5bb509e8afd00d0ae15ae0948706e35c75dca8d5bf9",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "final_url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture",
+  "retrieved_at_utc": "2026-11-03T08:00:37.090129+00:00"
+}

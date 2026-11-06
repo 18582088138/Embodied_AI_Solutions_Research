@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "vision",
+    "opened": true,
+    "source_id": "AMD06_XArm_Sim2Real",
+    "source_url": "https://rocm.blogs.amd.com/_images/vision_pipeline.png",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/06/vision.png",
+    "sha256": "af14910b8d0775e45001a27133bcfe1fa1c916ddf140af069e25d8c435eca5a5",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_Sim2Real--37d8fa71a673eba0/assets/images/be474ecb68bbd7eb199cf878.png",
+    "original_sha256": "af14910b8d0775e45001a27133bcfe1fa1c916ddf140af069e25d8c435eca5a5",
+    "operation": "官方原始图，复制归档asset；未裁剪，已实际打开逐字复核"
+  },
+  {
+    "slug": "controller",
+    "opened": true,
+    "source_id": "AMD06_XArm_Sim2Real",
+    "source_url": "https://rocm.blogs.amd.com/_images/controller_pipeline.png",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/06/controller.png",
+    "sha256": "6e4f391b57404d29b77e4c94ca27f172f503ecf3625e1951843bfab7a1415ee2",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_Sim2Real--37d8fa71a673eba0/assets/images/0d0042ced7d420d5a40d4f7f.png",
+    "original_sha256": "6e4f391b57404d29b77e4c94ca27f172f503ecf3625e1951843bfab7a1415ee2",
+    "operation": "官方原始图，复制归档asset；未裁剪，已实际打开逐字复核"
+  },
+  {
+    "slug": "real",
+    "opened": true,
+    "source_id": "AMD06_XArm_Sim2Real",
+    "source_url": "https://rocm.blogs.amd.com/_images/real.jpg",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/06/real.jpg",
+    "sha256": "90954c37788fb2167f0829c92648b3b8cd4b0c354d8f1fae08d0233727827ebd",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_Sim2Real--37d8fa71a673eba0/assets/images/5eb6a3cbbd09926da067f160.jpg",
+    "original_sha256": "90954c37788fb2167f0829c92648b3b8cd4b0c354d8f1fae08d0233727827ebd",
+    "operation": "官方原始图，复制归档asset；未裁剪，已实际打开逐字复核"
+  },
+  {
+    "slug": "stw",
+    "opened": true,
+    "source_id": "AMD06_STW_PDF",
+    "source_url": "https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/stw-case-study.pdf",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/06/stw.png",
+    "sha256": "56210a655a741b05fa8f20c232562ec01445cbeb33ab758c926002f1cd1f4c73",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD06_STW_PDF--08dac094865a880e/document.pdf",
+    "original_sha256": "63261e22abb5b2400f54184fced5f9750e6ffb8db504b380d14af9f7739fae99",
+    "operation": "官方PDF第1页，Poppler PNG完整页渲染scale-to1800，未裁剪，已实际打开"
+  }
+]

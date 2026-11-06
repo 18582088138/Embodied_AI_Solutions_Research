@@ -1,0 +1,34 @@
+{
+  "time_utc": "2026-11-04T09:12:42.208046+00:00",
+  "summary": {
+    "complete_static": 4,
+    "partial_static": 16,
+    "failed": 0
+  },
+  "names": [
+    "AMD_HIP_Model",
+    "AMD08_CDNA4_Whitepaper",
+    "AMD08_MI350_Architecture",
+    "AMD08_CK_GEMM",
+    "AMD08_CK_LDS",
+    "AMD08_HipBLASLt",
+    "AMD08_HipBLASLt_Tune",
+    "Compare_TRT_Builder",
+    "AMD_ROCm_Isolation",
+    "AMD_HIP_Memory",
+    "AMD_HIP_Coherence",
+    "AMD_HIP_Graphs",
+    "AMD_ROCm_GraphSafe",
+    "AMD_HIP_Allocator",
+    "AMD_vLLM_Optimization",
+    "Compare_CUDA_Graphs",
+    "Compare_TRT_Quant",
+    "AMD_HIPIFY_Docs",
+    "AMD_HIP_License",
+    "AMD_ROCm_Licenses"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

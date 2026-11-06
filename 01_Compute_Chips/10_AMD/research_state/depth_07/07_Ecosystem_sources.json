@@ -1,0 +1,419 @@
+[
+  {
+    "source_id": "AMD07_Robotics_Partners",
+    "number": "S01",
+    "title": "AMD07_Robotics_Partners",
+    "version": "官方快照；准确产品/版本见正文",
+    "url": "https://www.amd.com/en/search/partner/robotics-partners.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Robotics_Partners--200916bbff1891ec/index.html",
+    "sha256": "7689f4d1ad8a424a473a9f504d3d29499c08da0aa9bd4355d6a8f40a92011a78",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Robotics_Partners--200916bbff1891ec/original.response",
+    "original_sha256": "bddaeb7ff1b432caddfb46c9d4295946ab835a8a3c2d8b1f94c9f79a967f8fa5",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Robotics_Partners--200916bbff1891ec/metadata.json",
+    "collected_at": "2026-11-04T08:47:10.368959+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://js.qualified.com/qualified.js?token=wTVZrM1NrP9FvcsY": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/atomic.esm.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "number": "S02",
+    "title": "congatec cRX1 datasheet",
+    "version": "Preliminary0.3，2026-07-08，末页尚未量产",
+    "url": "https://www.congatec.com/fileadmin/user_upload/Documents/Datasheets/conga-HPC_cRX1.pdf",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD07_Congatec_CRX1_PDF--4bb30f81d0a227c2/document.pdf",
+    "sha256": "2c5284ce74ffe9347504f5cf97c3310720cd53aea85b4bc4d8de3a21062075b3",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD07_Congatec_CRX1_PDF--4bb30f81d0a227c2/original.response",
+    "original_sha256": "2c5284ce74ffe9347504f5cf97c3310720cd53aea85b4bc4d8de3a21062075b3",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD07_Congatec_CRX1_PDF--4bb30f81d0a227c2/metadata.json",
+    "collected_at": "2026-11-04T08:54:15.809975+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": []
+  },
+  {
+    "source_id": "AMD06_Solectrix_PDF",
+    "number": "S03",
+    "title": "AMD06_Solectrix_PDF",
+    "version": "官方快照；准确产品/版本见正文",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/solectrix-case-study.pdf",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD06_Solectrix_PDF--b4342fa99f7fb58e/document.pdf",
+    "sha256": "515eef6ee083612a9472618c1f0c5f4e6f62a0509f71a491c53b602c88bb9511",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD06_Solectrix_PDF--b4342fa99f7fb58e/original.response",
+    "original_sha256": "515eef6ee083612a9472618c1f0c5f4e6f62a0509f71a491c53b602c88bb9511",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD06_Solectrix_PDF--b4342fa99f7fb58e/metadata.json",
+    "collected_at": "2026-11-04T08:38:12.131593+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": []
+  },
+  {
+    "source_id": "AMD06_STW_PDF",
+    "number": "S04",
+    "title": "AMD06_STW_PDF",
+    "version": "官方快照；准确产品/版本见正文",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/stw-case-study.pdf",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD06_STW_PDF--08dac094865a880e/document.pdf",
+    "sha256": "63261e22abb5b2400f54184fced5f9750e6ffb8db504b380d14af9f7739fae99",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD06_STW_PDF--08dac094865a880e/original.response",
+    "original_sha256": "63261e22abb5b2400f54184fced5f9750e6ffb8db504b380d14af9f7739fae99",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD06_STW_PDF--08dac094865a880e/metadata.json",
+    "collected_at": "2026-11-04T08:38:10.207630+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": []
+  },
+  {
+    "source_id": "AMD06_Robotec_PDF",
+    "number": "S05",
+    "title": "AMD06_Robotec_PDF",
+    "version": "官方快照；准确产品/版本见正文",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/robotec-ai-case-study.pdf",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD06_Robotec_PDF--e00d6c805ec12e00/document.pdf",
+    "sha256": "63c26a8fd7671f46220c4e4d5990226ea1aa8a45c9061474039359fef62a0114",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD06_Robotec_PDF--e00d6c805ec12e00/original.response",
+    "original_sha256": "63c26a8fd7671f46220c4e4d5990226ea1aa8a45c9061474039359fef62a0114",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD06_Robotec_PDF--e00d6c805ec12e00/metadata.json",
+    "collected_at": "2026-11-04T08:38:08.414769+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": []
+  },
+  {
+    "source_id": "OpenNav_Robotics_Benchmark",
+    "number": "S06",
+    "title": "OpenNav_Robotics_Benchmark",
+    "version": "官方快照；准确产品/版本见正文",
+    "url": "https://opennav.org/news/opennav-robotics-workload-benchmark",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/OpenNav_Robotics_Benchmark--6f04b8c8b396c18f/index.html",
+    "sha256": "924752ca88850ff4f316a1fc99ff19c820796c7cae1eede875fb3d7ff43c31cb",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/OpenNav_Robotics_Benchmark--6f04b8c8b396c18f/original.response",
+    "original_sha256": "37aefe24857cf5e18b93fbe8e7c00908305dcd9c64a6c1dd88f0eb16a8a885f0",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/OpenNav_Robotics_Benchmark--6f04b8c8b396c18f/metadata.json",
+    "collected_at": "2026-11-04T04:50:09.220688+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD07_ROS2_Control",
+    "number": "S07",
+    "title": "AMD07_ROS2_Control",
+    "version": "官方快照；准确产品/版本见正文",
+    "url": "https://control.ros.org/jazzy/doc/ros2_control/controller_manager/doc/userdoc.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_ROS2_Control--5d6fe4034f4192d8/index.html",
+    "sha256": "a5c525b71f4e4b8c1d27628ce2763f9f7a4aab921444b8e6f0c6af30c05aaa5f",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_ROS2_Control--5d6fe4034f4192d8/original.response",
+    "original_sha256": "fdf93357b9fbe31666a66b270744f1dd24a2c109cacd0c32f8baa01cb50a2fb2",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_ROS2_Control--5d6fe4034f4192d8/metadata.json",
+    "collected_at": "2026-11-04T08:47:30.810779+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://control.ros.org/jazzy/_static/css/fonts/Roboto-Slab-Regular.woff2?7abf5b8d04d26a2cafea937019bca958": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_static/css/fonts/Roboto-Slab-Regular.woff?c1be9284088d487c5e3ff0a10a92e58c": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_static/css/fonts/Roboto-Slab-Bold.woff2?9984f4a9bda09be08e83f2506954adbe": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_static/css/fonts/Roboto-Slab-Bold.woff?bed5564a116b05148e3b3bea6fb1162a": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_static/copybutton.css?v=76b2166b": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_static/tabs.css?v=a5c4661c": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_static/reviewer_stats.css?v=068b34ac": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_static/custom.css?v=d85a351e": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_static/favicon_ros-controls.ico": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_static/jquery.js?v=5d32c60e": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_static/documentation_options.js?v=f246fdea": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_static/doctools.js?v=9a2dae69": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_static/sphinx_highlight.js?v=dc90522c": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_static/clipboard.min.js?v=a7894cd8": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_static/copybutton.js?v=f281be69": "asset limit reached; increase --max-assets and rerun",
+      "https://plausible.io/js/script.js": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_static/js/theme.js": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_static/logo_ros-controls.png": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_images/global_general_remap.png": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_images/global_specific_remap.png": "asset limit reached; increase --max-assets and rerun",
+      "https://control.ros.org/jazzy/_images/rqt_controller_manager.png": "asset limit reached; increase --max-assets and rerun"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "number": "S08",
+    "title": "EDF生产部署指南",
+    "version": "26.06.1-rev3，AdaptiveSoC",
+    "url": "https://edf.docs.amd.com/en/latest/moving-from-amd-software-stacks-to-production-deployment.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Production--c93d09e25f993c7a/index.html",
+    "sha256": "cd07c3b9f3ea241d5c623974c6d168774a2e7c4d16df5e08596112984535a3a3",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Production--c93d09e25f993c7a/original.response",
+    "original_sha256": "4e6b2c252d79e4b7079119dd10135d748438170ce9d9466b12cfa13c9c16f6ef",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Production--c93d09e25f993c7a/metadata.json",
+    "collected_at": "2026-11-04T05:25:32.320980+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://edf.docs.amd.com/en/latest/_static/release_scope_banner.js?v=9e0529ce": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1",
+    "number": "S09",
+    "title": "AMD07_Congatec_CRX1",
+    "version": "官方快照；准确产品/版本见正文",
+    "url": "https://www.congatec.com/us/products/com-hpc/conga-hpccrx1/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Congatec_CRX1--99210a1d216fa4c4/index.html",
+    "sha256": "4d1885670f6dda577f84183b402ccf0757f0752de3a74416107ffeb0bb202c22",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Congatec_CRX1--99210a1d216fa4c4/original.response",
+    "original_sha256": "0c699f94b0ca5fbf176c6d519bac292017c33d8d05c1c86956e5d343e9e0a2b7",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Congatec_CRX1--99210a1d216fa4c4/metadata.json",
+    "collected_at": "2026-11-04T08:53:04.978985+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://fast.fonts.net/lt/1.css?apiType=css&c=da3838dc-50f6-4457-ae3f-da6b232a6f08&fontids=1475500,1475558": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://www.congatec.com/typo3conf/ext/bgm_theme_congatec/Resources/Public/Images/bg_productcomparison.png": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD04_Ryzers_Repo",
+    "number": "S10",
+    "title": "AMD04_Ryzers_Repo",
+    "version": "官方快照；准确产品/版本见正文",
+    "url": "https://github.com/AMDResearch/Ryzers",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Repo--0a307a16ee5138ac/index.html",
+    "sha256": "626af7fa99ba63d0e66771c1db7cbb0f11b12da8502450d2510e19f243f55fc5",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Repo--0a307a16ee5138ac/original.response",
+    "original_sha256": "2580d8b7e95e00d488a62448dc248459507f92bf2bd287e9aa7705e2b0a4f098",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Repo--0a307a16ee5138ac/metadata.json",
+    "collected_at": "2026-11-04T07:43:04.623053+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist.",
+      "https://github.com/AMDResearch/Ryzers/raw/main/docs/header.png": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD04_Ryzers_License",
+    "number": "S11",
+    "title": "AMD04_Ryzers_License",
+    "version": "官方快照；准确产品/版本见正文",
+    "url": "https://github.com/AMDResearch/Ryzers/blob/main/LICENSE",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_License--e8818e28234ae546/index.html",
+    "sha256": "40a30809e774ece56aa973354c6b23c8a9b51fb8a70ba82287fa74a68226ec7d",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_License--e8818e28234ae546/original.response",
+    "original_sha256": "679e480201cca976a8129f8c91f9bc1621cb0eebce50a393244830a92b284d67",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_License--e8818e28234ae546/metadata.json",
+    "collected_at": "2026-11-04T08:06:38.469735+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist."
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "KRS_V1_Docs",
+    "number": "S12",
+    "title": "KRS 1.0文档入口",
+    "version": "KRS1.0文档/仓库快照；文档Last updated2024-01-02；Vitis2022.1/Humble",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/index.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_V1_Docs--12b252bae9acef40/index.html",
+    "sha256": "2aebd7ac849e8cffe28ab45a30df1960967e31a7bd34fe7331770aa7e9d7b31a",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_V1_Docs--12b252bae9acef40/original.response",
+    "original_sha256": "2ffaefef2941007f2746f426f7fdcf6f378efce4b361889e0ba4622ee03dbfb1",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_V1_Docs--12b252bae9acef40/metadata.json",
+    "collected_at": "2026-11-04T05:30:24.310859+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://xilinx.github.io/KRS/sphinx/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD_ROSS",
+    "number": "S13",
+    "title": "AMD_ROSS",
+    "version": "官方快照；准确产品/版本见正文",
+    "url": "https://www.amd.com/en/products/software/ross-agentic-ai.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROSS--0d07cb982567ca67/index.html",
+    "sha256": "c7ac2356c6892a9849f73c00bc76e3863831ee4815509ee38ea5655ea7bc113f",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROSS--0d07cb982567ca67/original.response",
+    "original_sha256": "9f71c250562bc8275a3a39c65818d47dfc2b2657fca79019023d91470bdbb524",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROSS--0d07cb982567ca67/metadata.json",
+    "collected_at": "2026-11-04T05:14:07.351752+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://js.qualified.com/qualified.js?token=wTVZrM1NrP9FvcsY": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/atomic.esm.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD05_AUP_Repo",
+    "number": "S14",
+    "title": "AMD05_AUP_Repo",
+    "version": "官方公开快照；版本/适用条件见正文，采集日期不等发布日期",
+    "url": "https://github.com/AMDResearch/aup-learning-cloud",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_AUP_Repo--f0234b6590b813e3/index.html",
+    "sha256": "a61c23e914e450fcef3404a21fe0c70e370a092a6c6916673749b83ad7fae92c",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_AUP_Repo--f0234b6590b813e3/original.response",
+    "original_sha256": "508d7e522a638fc4b4bcc45bba229156331e6c9506abbe1934639a9d8ce4b1ab",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_AUP_Repo--f0234b6590b813e3/metadata.json",
+    "collected_at": "2026-11-04T08:16:11.794139+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist.",
+      "https://github.com/AMDResearch/aup-learning-cloud/raw/main/deploy/docs/images/software-stack.png": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD07_WindRiver_Linux",
+    "number": "S15",
+    "title": "AMD07_WindRiver_Linux",
+    "version": "官方快照；准确产品/版本见正文",
+    "url": "https://www.windriver.com/products/embedded/linux",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_WindRiver_Linux--407e645ca8dcdb86/index.html",
+    "sha256": "c7b75423d20ec31d69cf723f1e16e748b371c47b24fda4431977c854e7bdfee6",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_WindRiver_Linux--407e645ca8dcdb86/original.response",
+    "original_sha256": "ae85dea0314eb701bb28979ff809ed207a2ffae7ed204841f9e7707f00b2b214",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_WindRiver_Linux--407e645ca8dcdb86/metadata.json",
+    "collected_at": "2026-11-04T08:48:59.617873+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://www.windriver.com/themes/wr/global/images/bg-home.png": "HTTPError: HTTP Error 404: Not Found",
+      "https://use.typekit.net/xaz7yww.css": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/css/css_kd2UvtivTuZAvNafKEo-ethG_BIhsL_xl-IFt0dDgpo.css?delta=6&language=en&theme=windriver&include=eJyFj1FuxCAMRC8UkiOtTHDBkoHINo3S09fRatVNWqkfCPt5MDNAC9Ajc4_A08qgeiwRFF91RVXIqK--9eSzLuiVVGD6wumjN4MdtVdc3up5x3i2-q9g1kJ12kAgC2xFlyRjA55_yDzaNiKTFkyTHmpYnzYtPipmqNjGb6B2sFvfqSWhT5QlCkJaZdT4Tp_pw6mmlt8GuwTfSesNCbQUXIpXvoJIH4ocdrISDC6fnAJGaDfk8bFZKCg9WN8Cw9GH3UQG7qM1lCsnfx2MPOL5d7oOBRkMk9_ah6x486KelDEUyoX92B8brAjeFd-fAtl9": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/core/assets/vendor/jquery/jquery.min.js?v=4.0.0": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/js/js_nG983xirZpPnUj7vW_C9hHP0sYMiK4VqLZ4jGoDOtRo.js?scope=header&delta=1&language=en&theme=windriver&include=eJxdzVEKg0AMBNALNXgkibuDBtJEslmX3r5CoahfgTfDhGVimVf1hfU1xGrIgZh-QK2E7NkuwQgqHOG9QWlIbpS8PAsKtge5JSxpQzil76T88Z730gauCDI-7h5QTtTzNu9R8Hh3yBtO1S5rc6BKoOS0hI92grKtf_0CwFpf2A": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/themes/wr/global/images/svg/icon-search.svg": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/themes/wr/global/images/svg/icon-contact.svg": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/themes/wr/global/images/svg/icon-global.svg": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/themes/wr/global/images/svg/logo-white.svg": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/themes/wr/global/images/svg/logo.svg": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/2026-09/when-it-matters-it-runs-on-wind-river-thumbnail.jpg": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/hero_desktop/public/2025-11/freepik__adjust__26680%201.jpg.webp?itok=QrWCikRs": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/hero_desktop_x2/public/2025-11/freepik__adjust__26680%201.jpg.webp?itok=6o5Cyc95": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/hero_mobile/public/2025-11/freepik__adjust__26680%201.jpg.webp?itok=FDls8gHp": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/hero_mobile_x2/public/2025-11/freepik__adjust__26680%201.jpg.webp?itok=67hkVo6U": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/2025-11/Group.svg": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/2025-10/fi_2010990.svg": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/2025-11/tdesign_secured.svg": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/2025-10/fi_4718418.svg": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/single_highlight_card_x1/public/2025-11/Image-10.jpg.webp?itok=L3k5Sssc": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/single_highlight_card_x2/public/2025-11/Image-10.jpg.webp?itok=lrAldtLv": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/single_highlight_card_x1/public/2025-11/Image-11.jpg.webp?itok=ObwtAVY_": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/single_highlight_card_x2/public/2025-11/Image-11.jpg.webp?itok=9ruNeGCz": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/single_highlight_card_x1/public/2025-11/Image-12.jpg.webp?itok=Uq01rB3O": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/single_highlight_card_x2/public/2025-11/Image-12.jpg.webp?itok=iB9lYH2S": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/single_highlight_card_x1/public/2025-11/536x230-Helix%20Virtualization%20Platform-2.jpg.webp?itok=5Uo52p69": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/single_highlight_card_x2/public/2025-11/536x230-Helix%20Virtualization%20Platform-2.jpg.webp?itok=ucnfPTjc": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/2025-11/image%2092.svg": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/2025-11/image%2091.svg": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x1/public/2026-05/hero_0.jpg.webp?itok=OvR3cKu5": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x2/public/2026-05/hero_0.jpg.webp?itok=G09NODAv": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x1/public/2025-09/AdobeStock_618789986.jpg.webp?itok=afSZutSM": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x2/public/2025-09/AdobeStock_618789986.jpg.webp?itok=bXdjQgJt": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x1/public/2025-09/hero%20image.jpg.webp?itok=wbFXqtmL": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x2/public/2025-09/hero%20image.jpg.webp?itok=ANB59RYl": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x1/public/2023-04/image-linux-resources-vr-car-design.webp?itok=08FLE1E5": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x2/public/2023-04/image-linux-resources-vr-car-design.webp?itok=V-W39dFq": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x1/public/2022-03/image_linux-resources_man-on-computer.jpg.webp?itok=C7oC4cXs": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x2/public/2022-03/image_linux-resources_man-on-computer.jpg.webp?itok=0gP6PSR2": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x1/public/2023-04/image-linux-resources-woman-on-computer-analysis.webp?itok=UkfzEDTG": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x2/public/2023-04/image-linux-resources-woman-on-computer-analysis.webp?itok=-dT6jQQ_": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x1/public/2025-07/1_3.jpg.webp?itok=j2EnDYTT": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x2/public/2025-07/1_3.jpg.webp?itok=bNrgFGK8": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x1/public/2023-08/image-linux-resources-case-study.jpg.webp?itok=AhufRdgg": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x2/public/2023-08/image-linux-resources-case-study.jpg.webp?itok=R3ApNSzI": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x1/public/2025-08/0_26.jpg.webp?itok=G2xDz8-w": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/styles/card_resource_x2/public/2025-08/0_26.jpg.webp?itok=FVg72TBs": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/themes/wr/global/images/aptiv-footer-logo.png": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/themes/Windriver/images/svg/footer-facebook.svg": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/themes/Windriver/images/svg/footer-twitter-2.svg": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/themes/Windriver/images/svg/footer-linkedin.svg": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/themes/Windriver/images/svg/footer-youtube.svg": "asset limit reached; increase --max-assets and rerun",
+      "https://www.windriver.com/sites/default/files/js/js_AFNMX6zF4MZO61tprTlxX_RVBmmOTgNDAKkSTYKk0kM.js?scope=footer&delta=0&language=en&theme=windriver&include=eJxdzVEKg0AMBNALNXgkibuDBtJEslmX3r5CoahfgTfDhGVimVf1hfU1xGrIgZh-QK2E7NkuwQgqHOG9QWlIbpS8PAsKtge5JSxpQzil76T88Z730gauCDI-7h5QTtTzNu9R8Hh3yBtO1S5rc6BKoOS0hI92grKtf_0CwFpf2A": "asset limit reached; increase --max-assets and rerun"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD07_Distributors",
+    "number": "S16",
+    "title": "AMD07_Distributors",
+    "version": "官方快照；准确产品/版本见正文",
+    "url": "https://www.amd.com/en/partner/about-partners/authorized-distributors.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Distributors--f48d683c32d83a72/index.html",
+    "sha256": "27a7d7295b75011e784fac62f32d3521ac2b3cb4bbf335efe43cb8ff4940910f",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Distributors--f48d683c32d83a72/original.response",
+    "original_sha256": "c59bf415751ac31f13ec40fe6e56fcdb15a724a74be3e47908a76129d31e6980",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Distributors--f48d683c32d83a72/metadata.json",
+    "collected_at": "2026-11-04T08:49:35.313987+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://js.qualified.com/qualified.js?token=wTVZrM1NrP9FvcsY": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/atomic.esm.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD07_Warranty",
+    "number": "S17",
+    "title": "AMD07_Warranty",
+    "version": "官方快照；准确产品/版本见正文",
+    "url": "https://www.amd.com/en/support/warranty.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Warranty--65baec58099f2344/index.html",
+    "sha256": "442e69344ac3da407424474e3a64fa4517de15da61cfc5bd702fa795762854d1",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Warranty--65baec58099f2344/original.response",
+    "original_sha256": "ad8a0dd920354a0f59e835914472401ba5491188f2f484add11c0f7441de8000",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Warranty--65baec58099f2344/metadata.json",
+    "collected_at": "2026-11-04T08:49:37.455648+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/themes/coveo.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://js.qualified.com/qualified.js?token=wTVZrM1NrP9FvcsY": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://www.amd.com/content/dam/amd/en/images/backgrounds/abstract/2217710-customer-support-banner.jpg": "asset limit reached; increase --max-assets and rerun",
+      "https://static.cloud.coveo.com/atomic/v3.59.2/atomic.esm.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "source_id": "AMD_EDF_Release",
+    "claim": "部分release重建",
+    "location": "v26.06.1",
+    "needle": "rebuilds part of v26.06",
+    "conditions": "26.06.1-rev3文档",
+    "finding": "不代表全部binary新版本",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Release",
+    "claim": "预构建镜像范围",
+    "location": "Scope",
+    "needle": "not guaranteed to boot unchanged on custom hardware",
+    "conditions": "评估board",
+    "finding": "customboard需复建验证",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_SHEL_XSA",
+    "claim": "Lopper调用关系",
+    "location": "Tutorial",
+    "needle": "gen-machine-conf invokes it automatically",
+    "conditions": "SHEL XSA flow",
+    "finding": "旧PDF层次与当前调用不冲突",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Device_Tree",
+    "claim": "SDT需转换",
+    "location": "Obtaining",
+    "needle": "automatically translated Linux device trees",
+    "conditions": "gen-machine-conf/lopper",
+    "finding": "不直接拿整体SDT给Linux",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Domains",
+    "claim": "Domain合并key",
+    "location": "Naming Rules",
+    "needle": "Domain names are the merge key",
+    "conditions": "base+overlay",
+    "finding": "不能改名假装覆盖",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Domains",
+    "claim": "执行域描述资源",
+    "location": "Overview",
+    "needle": "resources (memory, devices)",
+    "conditions": "SDT/domain YAML",
+    "finding": "不是运行隔离认证",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Domains",
+    "claim": "OpenAMP资源表",
+    "location": "Gen2",
+    "needle": "resource table (256 B)",
+    "conditions": "2VE/2VM DDRboot384KB双ring16KB buffer256KB",
+    "finding": "模板不推广所有SKU",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Domains",
+    "claim": "R52 TCM区域",
+    "location": "Gen2",
+    "needle": "ATCM (64 KB) + BTCM (32 KB) + CTCM (32 KB)",
+    "conditions": "core0模板",
+    "finding": "匹配linker/actual target",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Domains",
+    "claim": "No-map与CMA区别",
+    "location": "Reserved Memory",
+    "needle": "excluded from Linux memory map",
+    "conditions": "no-map",
+    "finding": "不同于default CMA",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Domains",
+    "claim": "Libmetal UIO路径",
+    "location": "Libmetal Overlay",
+    "needle": "UIO devices exposed",
+    "conditions": "裸机共享descriptor/data/timer/mailbox",
+    "finding": "不等cachecoherence",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Custom_Firmware",
+    "claim": "Multiconfig固件链",
+    "location": "Overview",
+    "needle": "FW_MCDEPENDS",
+    "conditions": "board MACHINE",
+    "finding": "do_deploy→do_install→rootfs",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Custom_Firmware",
+    "claim": "缺失multiconfig跳过",
+    "location": "Overview",
+    "needle": "bb.parse.SkipRecipe",
+    "conditions": "BBMULTICONFIG",
+    "finding": "整体构建不能假定ELF存在",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Custom_Firmware",
+    "claim": "产品推荐同构建",
+    "location": "Primary Workflow",
+    "needle": "single bitbake invocation",
+    "conditions": "board-specific MACHINE",
+    "finding": "固件和rootfs依赖一致",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Custom_Firmware",
+    "claim": "开发替换不能持久",
+    "location": "On-target",
+    "needle": "does not survive a re-flash",
+    "conditions": "手动copy ELF",
+    "finding": "生产应纳入recipe",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_OpenAMP_Zephyr",
+    "claim": "Gen2 echo接口",
+    "location": "Run the test",
+    "needle": "/dev/ttyRPMSG0",
+    "conditions": "VEK385 a78平台",
+    "finding": "不等图像流性能",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_OpenAMP_Zephyr",
+    "claim": "load参数语义",
+    "location": "Load firmware",
+    "needle": "legacy -load flag now requires a numeric ID",
+    "conditions": "dfx-mgr-client",
+    "finding": "按名字-loadByName",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_OpenAMP_FreeRTOS",
+    "claim": "RPMsg endpoint",
+    "location": "echo_test",
+    "needle": "app_rpmsg_create_ept",
+    "conditions": "VEK280 FreeRTOS transcript",
+    "finding": "消息演示非控制WCET",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_OpenAMP_FreeRTOS",
+    "claim": "SoM识别不等carrier",
+    "location": "Filter",
+    "needle": "rather than the carrier",
+    "conditions": "Kria EEPROM",
+    "finding": "不能证明新carrier适配",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_OpenAMP_FreeRTOS",
+    "claim": "退出host和停RPU不同",
+    "location": "Echo",
+    "needle": "stop it manually with Ctrl-C",
+    "conditions": "echo_test indefinite",
+    "finding": "随后unload stopped另验",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_OpenAMP_FreeRTOS",
+    "claim": "示例依赖版本",
+    "location": "Transcript",
+    "needle": "FreeRTOS Version: 10.6.1",
+    "conditions": "OpenAMP1.9.0/libmetal1.9.1",
+    "finding": "非整个EDF最新矩阵",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Segmented",
+    "claim": "module定义",
+    "location": "Definitions",
+    "needle": "hardware description that is interpretable",
+    "conditions": "PDI/binary+DT",
+    "finding": "软件描述和hardware配对",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Segmented",
+    "claim": "shell只DFX要求",
+    "location": "Steps",
+    "needle": "If using DFX (not Segmented Configuration)",
+    "conditions": "shell.json",
+    "finding": "不能给所有segmented套要求",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Build_Container",
+    "claim": "host container不带源树",
+    "location": "Run build",
+    "needle": "no EDF source tree of its own",
+    "conditions": "xilinx/edf ubuntu2204-26.06",
+    "finding": "host挂载sources/cache/output",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Build_Container",
+    "claim": "Dockerfile取得缺口",
+    "location": "Build from source",
+    "needle": "maintained internally",
+    "conditions": "文档明确",
+    "finding": "本次未取得完整container",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Components",
+    "claim": "源revision固定",
+    "location": "SRCREV",
+    "needle": "full 40-character",
+    "conditions": "release build",
+    "finding": "AUTOREV不适复现",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Components",
+    "claim": "externalsrc复现边界",
+    "location": "Warning",
+    "needle": "weakens Yocto’s reproducibility guarantees",
+    "conditions": "development checkout",
+    "finding": "release回固定sources",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Release",
+    "claim": "OSPI恢复范围",
+    "location": "Boot firmware",
+    "needle": "A/B update mechanism",
+    "conditions": "board-specific OSPI",
+    "finding": "非全产品OTA服务",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "claim": "非OSV责任",
+    "location": "Warning",
+    "needle": "not an Operating System Vendor",
+    "conditions": "Adaptive SoC",
+    "finding": "hardware lifetime非software支持",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_EDF_Production",
+    "claim": "update feed缺口",
+    "location": "Introduction",
+    "needle": "does not operate an update feed",
+    "conditions": "EDF reference",
+    "finding": "需产品/OSV维护",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "Compare_Jetson_OTA",
+    "claim": "OTA机制对标",
+    "location": "Image OTA",
+    "needle": "OTA",
+    "conditions": "NVIDIA来源",
+    "finding": "不比较运维成本排名",
+    "evidence_type": "分析"
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "source_id": "AMD_HIP_Model",
+    "claim": "SIMT warp大小按架构区别",
+    "location": "Hierarchical thread model",
+    "needle": "64 threads for CDNA",
+    "conditions": "CDNA64/RDNA32，逻辑图非SKU数量",
+    "finding": "不能把写死32lane的CUDA代码直接改名当移植完成",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_HIP_Model",
+    "claim": "驻留量受资源限制",
+    "location": "Execution model",
+    "needle": "available resources",
+    "conditions": "registers/LDS/wave slots",
+    "finding": "高occupancy不是时延最优充分条件",
+    "evidence_type": "分析"
+  },
+  {
+    "source_id": "AMD_HIP_Coherence",
+    "claim": "粗粒度可见性取决于同步",
+    "location": "Visibility",
+    "needle": "hipStreamWaitEvent",
+    "conditions": "coarse host memory表；event release scope不同",
+    "finding": "队列依赖不替代host数据发布",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_HIP_Coherence",
+    "claim": "system范围event fence",
+    "location": "Release scope",
+    "needle": "hipEventReleaseToSystem",
+    "conditions": "event flags与memorytype一起核",
+    "finding": "可能产生cache flush；线程安全队列不保证设备coherence",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_HIP_Coherence",
+    "claim": "fine-grained有缓存/带宽代价",
+    "location": "Performance implications",
+    "needle": "lower bandwidth",
+    "conditions": "小signal vs大块计算数据",
+    "finding": "原子/ownership不能忽略",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_HIP_Graphs",
+    "claim": "graph对象阶段",
+    "location": "Using HIP graphs",
+    "needle": "hipGraphExec_t",
+    "conditions": "template→instantiate→launch",
+    "finding": "setup需摊销，图只表达依赖",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_HIP_Graphs",
+    "claim": "捕获不包含普通host函数",
+    "location": "Capture graphs",
+    "needle": "non-HIP API functions are not captured",
+    "conditions": "host函数要关联stream",
+    "finding": "非HIP代码仍执行，不能期待自动重放",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_HIP_Graphs",
+    "claim": "禁止同步调用捕获",
+    "location": "Capture graphs",
+    "needle": "not permitted while capturing",
+    "conditions": "hipMalloc/memcpy/free vs async",
+    "finding": "预分配或异步API，buffer生命期正确",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_HIP_Graphs",
+    "claim": "官方时间图是定性",
+    "location": "HIP graph figure caption",
+    "needle": "Qualitative presentation",
+    "conditions": "不含setup，无数值刻度",
+    "finding": "不能从图计算固定加速；摊销式为分析",
+    "evidence_type": "分析"
+  },
+  {
+    "source_id": "AMD_ROCm_GraphSafe",
+    "claim": "库级捕获能力分档",
+    "location": "Graph-safe table",
+    "needle": "MIOpen",
+    "conditions": "MIOpen/CK/rocdecode不支持；其他条件列表",
+    "finding": "不因框架可运行宣称全图graphsafe",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_HIP_Allocator",
+    "claim": "SOMA顺序分配释放",
+    "location": "Overview",
+    "needle": "stream-ordering semantics",
+    "conditions": "每个async访问在alloc/free顺序内",
+    "finding": "跨stream访问仍需依赖",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_HIP_Graphs",
+    "claim": "图内存池不立即归还",
+    "location": "Memory management",
+    "needle": "hipDeviceGraphMemTrim",
+    "conditions": "未活动图内存才能trim",
+    "finding": "逻辑free与OS可用容量分开",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_HIP_Memory",
+    "claim": "HMM/XNACK访问迁移",
+    "location": "Unified memory",
+    "needle": "HSA_XNACK",
+    "conditions": "GPU/driverHMM条件",
+    "finding": "APU共享DRAM不能自动推出可迁移或无pagefault",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_Acceleration_Libs",
+    "claim": "FlashAttention分块减少搬运",
+    "location": "Flash Attention 2",
+    "needle": "tiling approach",
+    "conditions": "后端/head/mask/精度依赖",
+    "finding": "服务器HBM机制不套APU峰值",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_Acceleration_Libs",
+    "claim": "StaticCache与框架编译",
+    "location": "PyTorch compilation",
+    "needle": "max-autotune-no-cudagraphs",
+    "conditions": "示例静态cache，不是所有图的要求",
+    "finding": "编译与graph重放分开验证",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_Acceleration_Libs",
+    "claim": "TunableOp验证器随版本变化",
+    "location": "PyTorch TunableOp",
+    "needle": "Validator,PT_VERSION",
+    "conditions": "CSV历史2.4/ROCm6.1/gfx942",
+    "finding": "不是10.1实测，tuning结果重用需验版本",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_MIGraphX_Parse",
+    "claim": "MessagePack存储与compile分开",
+    "location": "Save/Use your own model",
+    "needle": "After parsing, compile the program",
+    "conditions": "2026-10-28教程、.mxr",
+    "finding": "存储扩展名不表示已完成目标编译",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_MIGraphX_Python",
+    "claim": "shape与动态范围",
+    "location": "dynamic_dimension",
+    "needle": "dynamic_dimension(min, max, optimals)",
+    "conditions": "API页2025-10-16、安装2.18另核",
+    "finding": "范围声明不保证所有operator全范围执行",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_MIGraphX_Python",
+    "claim": "编译拷贝策略",
+    "location": "program.compile",
+    "needle": "offload_copy=True",
+    "conditions": "compile插入上传/回读",
+    "finding": "False需caller设备argument契约，不自动相机interop",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_MIGraphX_Python",
+    "claim": "fast_math影响精度",
+    "location": "compile parameters",
+    "needle": "accuracy degredation",
+    "conditions": "近似数学函数",
+    "finding": "验证动作敏感维度而非只看top1",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_MIGraphX_Tune",
+    "claim": "跳过搜索并非最优",
+    "location": "Common tuning variables",
+    "needle": "first available solution",
+    "conditions": "SKIP_BENCHMARKING=1",
+    "finding": "编译时间与稳态收益分别测",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_MIGraphX_Tune",
+    "claim": "provider默认依架构",
+    "location": "Common tuning variables",
+    "needle": "rocblas on gfx90a",
+    "conditions": "其他架构hipblaslt，环境配置",
+    "finding": "记录实际provider，未识别options可能忽略",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_vLLM_Optimization",
+    "claim": "AITER FP4BMM目标限制",
+    "location": "Advanced AITER flags",
+    "needle": "Requires an Instinct MI350X/MI355X",
+    "conditions": "MI350X/355X，非所有GPU",
+    "finding": "不推广R9700/X199",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_vLLM_Optimization",
+    "claim": "KV复制受parallel策略影响",
+    "location": "Data Parallel Attention",
+    "needle": "replicates the full KV cache",
+    "conditions": "MLA特定模型及并发",
+    "finding": "不与VersalDP/TP资源含义混淆",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_vLLM_Optimization",
+    "claim": "服务批量旋钮有时延权衡",
+    "location": "Engine arguments",
+    "needle": "max-num-batched-tokens",
+    "conditions": "prefill/decode/queue和活动KV分开",
+    "finding": "TPS不是策略/伺服频率",
+    "evidence_type": "分析"
+  },
+  {
+    "source_id": "AMD_ROCm_Isolation",
+    "claim": "变量不能隔离不可信应用",
+    "location": "Environment variables",
+    "needle": "shouldn’t be used for isolating untrusted",
+    "conditions": "程序可重设变量，Docker/VM另层",
+    "finding": "设备选择不等GPU内部资源隔离",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "Compare_CUDA_Graphs",
+    "claim": "CUDA图机制对标",
+    "location": "CUDA graphs",
+    "needle": "graph",
+    "conditions": "NVIDIA官方快照，仅机制",
+    "finding": "不做同功率同任务性能排名",
+    "evidence_type": "分析"
+  },
+  {
+    "source_id": "Compare_TRT_Builder",
+    "claim": "TRT构建与runtime对象分工",
+    "location": "Architecture",
+    "needle": "execution context",
+    "conditions": "NVIDIA官方builder/engine/context",
+    "finding": "AMD模型产物需重建，非直接engine互换",
+    "evidence_type": "分析"
+  }
+]

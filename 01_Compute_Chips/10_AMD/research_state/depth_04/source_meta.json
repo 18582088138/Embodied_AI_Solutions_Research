@@ -1,0 +1,54 @@
+{
+  "AMD04_LeRobot_Blog": {
+    "title": "ROCm/LeRobot π0真实Koch教程",
+    "version": "2025-07-14；MI200微调/Phoenix iGPU"
+  },
+  "AMD04_MolmoAct_Blog": {
+    "title": "MolmoAct2/Ryzers/Strix Halo教程",
+    "version": "2026-09-30；Max+395；演示仿真/DROID开环"
+  },
+  "AMD04_MicroWorld2": {
+    "title": "Micro-World 2五阶段训练与MI350X性能",
+    "version": "2026-10-21；352×640/四步/三latent；图表冲突保留"
+  },
+  "AMD04_QwenVL_Card": {
+    "title": "AMD Qwen3-VL-4B 1.9 NPU卡",
+    "version": "rai1.9.0；AWQ G128非对称/卡标BFP16-UINT4"
+  },
+  "AMD04_Vitis_Models": {
+    "title": "Vitis AI6.3 VEK385支持表入口",
+    "version": "2026-11-02更新；xlsx需账户/EULA，本次未取表"
+  },
+  "Model04_NVIDIA_04_EXP_OPENVLA_README": {
+    "title": "作者官方原件 04 EXP OPENVLA README",
+    "version": "原采集2026-11-03导入；作者通用机制，不证明AMD部署；浮动主分支/论文条件见正文"
+  },
+  "Model04_NVIDIA_04_EXP_OPENPI_README": {
+    "title": "作者官方原件 04 EXP OPENPI README",
+    "version": "原采集2026-11-03导入；作者通用机制，不证明AMD部署；浮动主分支/论文条件见正文"
+  },
+  "Model04_NVIDIA_04_EXP_LEROBOT_README": {
+    "title": "作者官方原件 04 EXP LEROBOT README",
+    "version": "原采集2026-11-03导入；作者通用机制，不证明AMD部署；浮动主分支/论文条件见正文"
+  },
+  "Model04_NVIDIA_04_EXP_OPENPI_LIBERO": {
+    "title": "作者官方原件 04 EXP OPENPI LIBERO",
+    "version": "原采集2026-11-03导入；作者通用机制，不证明AMD部署；浮动主分支/论文条件见正文"
+  },
+  "Model04_NVIDIA_04_EXP_ACT_README": {
+    "title": "作者官方原件 04 EXP ACT README",
+    "version": "原采集2026-11-03导入；作者通用机制，不证明AMD部署；浮动主分支/论文条件见正文"
+  },
+  "Model04_NVIDIA_04_EXP_DIFFUSION_README": {
+    "title": "作者官方原件 04 EXP DIFFUSION README",
+    "version": "原采集2026-11-03导入；作者通用机制，不证明AMD部署；浮动主分支/论文条件见正文"
+  },
+  "Model04_NVIDIA_04_DEEP_SMOL_VERIFIED": {
+    "title": "作者官方原件 04 DEEP SMOL VERIFIED",
+    "version": "原采集2026-11-03导入；作者通用机制，不证明AMD部署；浮动主分支/论文条件见正文"
+  },
+  "Model04_NVIDIA_07_DEEP_LEROBOT_FIG": {
+    "title": "作者官方原件 07 DEEP LEROBOT FIG",
+    "version": "原采集2026-11-03导入；作者通用机制，不证明AMD部署；浮动主分支/论文条件见正文"
+  }
+}

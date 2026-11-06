@@ -1,0 +1,89 @@
+{
+  "chapter": "04_AI_Capabilities",
+  "data_cutoff": "2026-11-04",
+  "completed_at_utc": "2026-11-04T08:13:46.062920+00:00",
+  "summary": {
+    "body_han_chars": 7023,
+    "tables": 7,
+    "sources": 37,
+    "figures": 4,
+    "claim_reviews": 63,
+    "archive_status": {
+      "complete_static": 14,
+      "partial_static": 23
+    },
+    "quality_errors": 0,
+    "dedup_network_requests": 0,
+    "report_sha256": "a511fabd82a59e615cb667da35dd2d481bc52620edf781f4793771580882d845"
+  },
+  "manual_review": {
+    "coverage": "任务地图→LLM/VLM制品→π0真实链→Molmo端侧仿真与开环→作者策略对照→MicroWorld五阶段/性能→视觉3D/量化并发→MLOps。未取得全身/导航实物性能、Vitis协议表。",
+    "versions_and_measurements": "逐项分开2025π0和2026Molmo/1.9/6.3；MicroWorld图F/G与Table3冲突保存；kernel、generation、decodedFPS、policy/控制/servo均分开。",
+    "maturity_and_licenses": "AMD示例与作者实现分开；Qwen上游Apache/修改MIT、MicroWorld卡OpenRAIL；数据/上游/模型SDK许可需独立审查，不声称全链无条件商用；Smol导入卡仅引文未补参数。",
+    "figures_opened": "实际打开Koch原照片和MicroWorld Figure2/3/4；检查大图文字/冻结模块；发现Figure4 44.92与Table3 42.49冲突，未篡改官方图；无用动画首帧冒充动作流程。"
+  },
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_GPU_Execution_and_Deployment.md": true,
+    "02B_RyzenAI_Compilation_and_Quantization.md": true,
+    "02C_Versal_Compiler_and_Runtime.md": true,
+    "02D_EDF_BSP_and_Execution_Domains.md": true,
+    "02E_ROS_Acceleration_and_System_Integration.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true,
+    "03_Sensor_Integration.md": true,
+    "README.md": true
+  },
+  "final_dedup": {
+    "time_utc": "2026-11-04T08:13:27.652413+00:00",
+    "summary": {
+      "complete_static": 14,
+      "partial_static": 23,
+      "failed": 0
+    },
+    "names": [
+      "AMD04_LeRobot_Blog",
+      "AMD04_MolmoAct_Blog",
+      "AMD04_MicroWorld2",
+      "AMD_RyzenAI_Hybrid",
+      "AMD_VitisAI_Gen2_Compile",
+      "AMD04_Ryzen_Collection",
+      "AMD04_QwenVL_Card",
+      "AMD04_GPTOSS_Verified",
+      "AMD04_Videochat_Verified",
+      "AMD04_VLM_Readme",
+      "AMD_RyzenAI_OGA_Prepare",
+      "AMD_RyzenAI_Server",
+      "Model04_NVIDIA_04_EXP_OPENPI_README",
+      "AMD04_Molmo2_Collection",
+      "AMD04_Molmo2_Card",
+      "AMD04_Ryzers_Repo",
+      "AMD04_Ryzers_License",
+      "AMD04_Ryzers_Molmo_Docker",
+      "AMD04_Ryzers_Molmo_Readme",
+      "Model04_NVIDIA_04_EXP_OPENVLA_README",
+      "Model04_NVIDIA_04_EXP_ACT_README",
+      "Model04_NVIDIA_04_EXP_DIFFUSION_README",
+      "Model04_NVIDIA_04_EXP_LEROBOT_README",
+      "AMD04_MicroWorld_Card",
+      "AMD04_MicroWorld_Code",
+      "AMD04_MicroWorld_Data",
+      "AMD04_Vitis_Models",
+      "AMD_VitisAI_Gen2_Release",
+      "AMD_VitisAI_Gen2_Reference",
+      "AMD_VitisAI_Gen2_CPU_Partition",
+      "AMD_VAI_Partition_Analyzer",
+      "AMD_Quark_SmoothQuant",
+      "AMD_Quark_Search",
+      "AMD_Quark_A16W8",
+      "AMD_HIP_Memory",
+      "AMD_HIP_Coherence",
+      "AMD_ROCm_Isolation"
+    ],
+    "network_requests_including_robots": 0,
+    "new_assets": 0,
+    "asset_attempts": 0,
+    "tool": "toolkit/download_materials.py"
+  },
+  "method": "官方原文/模型卡/源码→原图实际打开→条件审阅→结构/归档检查→最终去重；未运行硬件/机器人实测"
+}

@@ -1,0 +1,6 @@
+{
+  "coverage": "市场/采购分母、具体case成熟度、SWOT条件、公开MSRP/交期、系统BOM/TCO敏感性、政策/许可缺口、七场景矩阵与POC至量产放行深入。",
+  "versions_and_measurements": "K24/K26四料号价格/交期按采集时网页核；case年份、policy频率/预测/计划分开；成本示例是明确假设。",
+  "maturity_and_licenses": "不补成功率/份额/收入/ROI；法规和财报定位失败未引用；所有正式出口/安全/维护合同待核。",
+  "figures_opened": "已实际打开Solectrix case PDFp2及congatec cRX1 PDFp2完整渲染；性能责任与optional BOM标记均核查。"
+}

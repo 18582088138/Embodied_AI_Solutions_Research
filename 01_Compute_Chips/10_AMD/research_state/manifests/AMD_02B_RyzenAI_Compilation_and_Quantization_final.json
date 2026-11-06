@@ -1,0 +1,130 @@
+[
+  {
+    "name": "AMD_RyzenAI_Docs",
+    "url": "https://ryzenai.docs.amd.com/en/latest/",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Release",
+    "url": "https://ryzenai.docs.amd.com/en/latest/relnotes.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Ops",
+    "url": "https://ryzenai.docs.amd.com/en/latest/ops_support.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Compile",
+    "url": "https://ryzenai.docs.amd.com/en/latest/modelrun.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Linux",
+    "url": "https://ryzenai.docs.amd.com/en/latest/linux.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_Quark_Schemes",
+    "url": "https://quark.docs.amd.com/latest/onnx/config/quantization_schemes.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_Quark_XINT8",
+    "url": "https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_xint8_quantize.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_Quark_A16W8",
+    "url": "https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_a8w8_and_a16w8_quantize.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_Quark_SmoothQuant",
+    "url": "https://quark.docs.amd.com/latest/onnx/accuracy_algorithms/sq.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_Quark_Search",
+    "url": "https://quark.docs.amd.com/latest/onnx/user_guide_auto_search.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Analyzer",
+    "url": "https://ryzenai.docs.amd.com/en/latest/ai_analyzer.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_App",
+    "url": "https://ryzenai.docs.amd.com/en/latest/app_development.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_Quark_License",
+    "url": "https://quark.docs.amd.com/latest/license.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Licenses",
+    "url": "https://ryzenai.docs.amd.com/en/latest/licenses.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "Compare_TRT_Quant",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "Compare_TRT_Builder",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "expected": "html",
+    "used_by": [
+      "02B_RyzenAI_Compilation_and_Quantization"
+    ]
+  }
+]

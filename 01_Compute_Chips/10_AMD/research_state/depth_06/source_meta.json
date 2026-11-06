@@ -1,0 +1,46 @@
+{
+  "AMD_Robotics": {
+    "title": "AMD Robotics",
+    "version": "官方公开快照；日期/版本条件见正文"
+  },
+  "AMD06_XArm_Sim2Real": {
+    "title": "XArm Sim2Real",
+    "version": "2026-09-29"
+  },
+  "AMD04_LeRobot_Blog": {
+    "title": "AMD04 LeRobot Blog",
+    "version": "官方公开快照；日期/版本条件见正文"
+  },
+  "AMD06_XArm_JAX": {
+    "title": "XArm JAX",
+    "version": "官方公开快照；日期/版本条件见正文"
+  },
+  "AMD06_XArm_SDK": {
+    "title": "XArm SDK",
+    "version": "官方公开快照；日期/版本条件见正文"
+  },
+  "AMD06_XArm_License": {
+    "title": "XArm License",
+    "version": "官方公开快照；日期/版本条件见正文"
+  },
+  "AMD06_STW_PDF": {
+    "title": "STW PDF",
+    "version": "2025版权"
+  },
+  "AMD06_Solectrix_PDF": {
+    "title": "Solectrix PDF",
+    "version": "2024版权"
+  },
+  "AMD06_Robotec_PDF": {
+    "title": "Robotec PDF",
+    "version": "2025版权"
+  },
+  "AMD06_Robotec_Case": {
+    "title": "Robotec Case",
+    "version": "官方公开快照；日期/版本条件见正文"
+  },
+  "AMD06_GB_Factory_PR": {
+    "title": "GB Factory PR",
+    "version": "2026-10-21厂商新闻稿"
+  }
+}

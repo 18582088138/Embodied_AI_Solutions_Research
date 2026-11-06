@@ -1,0 +1,218 @@
+[
+  {
+    "name": "AMD_Robotics",
+    "url": "https://www.amd.com/en/solutions/robotics.html",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD06_XArm_Sim2Real",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/sim2real-rl-instinct/README.html",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD04_LeRobot_Blog",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/rocm-lerobot/README.html",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD06_Solectrix_PDF",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/solectrix-case-study.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD06_STW_PDF",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/stw-case-study.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD06_Robotec_PDF",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/robotec-ai-case-study.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD06_GB_Factory_PR",
+    "url": "https://www.prnewswire.com/news-releases/generative-bionics-to-build-europes-largest-physical-ai-data-factory-and-advance-european-humanoid-sovereignty-with-amd-ai-infrastructure-302914868.html",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD08_MI350_Architecture",
+    "url": "https://rocm.docs.amd.com/en/latest/reference/gpu-arch/mi350.html",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD08_CDNA4_Whitepaper",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/instinct-tech-docs/white-papers/amd-cdna-4-architecture-whitepaper.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD07_Congatec_CRX1_PDF",
+    "url": "https://www.congatec.com/fileadmin/user_upload/Documents/Datasheets/conga-HPC_cRX1.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Release",
+    "url": "https://ryzenai.docs.amd.com/en/latest/relnotes.html",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD_Versal_Gen2_Brief",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/products/adaptive-socs-and-fpgas/versal/versal-ai-edge-gen2-product-brief.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD_VAI_Custom_Ops",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/custom_ops/custom_ops_introduction.html",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD08_IRON_Repo",
+    "url": "https://github.com/Xilinx/mlir-aie",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD_EDF_SHEL_XSA",
+    "url": "https://edf.docs.amd.com/en/latest/shel/using-the-shel-flow-to-create-a-yocto-project-machine-configuration-from-a-xsa-file.html",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD_EDF_Production",
+    "url": "https://edf.docs.amd.com/en/latest/moving-from-amd-software-stacks-to-production-deployment.html",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Output",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/output.html",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD_Kria_AI_Dev",
+    "url": "https://www.amd.com/en/products/system-on-modules/kria/ai/robotics-developer-platform.html",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD07_WindRiver_Linux",
+    "url": "https://www.windriver.com/products/embedded/linux",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD05_Genesis_Blog",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/rocm-genesis/README.html",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD05_O3DE_Concepts",
+    "url": "https://docs.o3de.org/docs/user-guide/interactivity/robotics/concepts-and-components-overview/",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD_K24C",
+    "url": "https://www.amd.com/en/products/system-on-modules/kria/k24/k24c-commercial.html",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD_K24I",
+    "url": "https://www.amd.com/en/products/system-on-modules/kria/k24/k24i-industrial.html",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD_K26C",
+    "url": "https://www.amd.com/en/products/system-on-modules/kria/k26/k26c-commercial.html",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD_K26I",
+    "url": "https://www.amd.com/en/products/system-on-modules/kria/k26/k26i-industrial.html",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD_Versal_Gen2_Industrial",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/products/adaptive-socs-and-fpgas/versal/versal-ai-edge-gen2-industrial-solution-brief.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "AMD07_ROS2_Control",
+    "url": "https://control.ros.org/jazzy/doc/ros2_control/controller_manager/doc/userdoc.html",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  }
+]

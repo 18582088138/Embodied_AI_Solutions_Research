@@ -1,0 +1,25 @@
+{
+  "time_utc": "2026-11-04T08:46:32.391221+00:00",
+  "summary": {
+    "complete_static": 6,
+    "partial_static": 5,
+    "failed": 0
+  },
+  "names": [
+    "AMD_Robotics",
+    "AMD06_XArm_Sim2Real",
+    "AMD04_LeRobot_Blog",
+    "AMD06_XArm_JAX",
+    "AMD06_STW_PDF",
+    "AMD06_Solectrix_PDF",
+    "AMD06_Robotec_PDF",
+    "AMD06_GB_Factory_PR",
+    "AMD06_XArm_SDK",
+    "AMD06_XArm_License",
+    "AMD06_Robotec_Case"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

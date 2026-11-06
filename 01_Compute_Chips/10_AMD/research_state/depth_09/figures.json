@@ -1,0 +1,24 @@
+[
+  {
+    "source_id": "AMD06_Solectrix_PDF",
+    "source_url": "https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/solectrix-case-study.pdf",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/09/swot_case.png",
+    "sha256": "b94e65b5062b20cd90597075ee4a1e21f3291305984c22b16cb3aab4ad6f1af5",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD06_Solectrix_PDF--b4342fa99f7fb58e/document.pdf",
+    "original_sha256": "515eef6ee083612a9472618c1f0c5f4e6f62a0509f71a491c53b602c88bb9511",
+    "operation": "官方PDF第2页，Poppler scale-to1800完整页PNG渲染，未裁剪，已实际打开；本章复制衍生图，原PDF保留并再次实际打开",
+    "slug": "swot_case",
+    "opened": true
+  },
+  {
+    "source_id": "AMD07_Congatec_CRX1_PDF",
+    "source_url": "https://www.congatec.com/fileadmin/user_upload/Documents/Datasheets/conga-HPC_cRX1.pdf",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/09/swot_bom.png",
+    "sha256": "8a96d0bee22dc5379019ca0da33a52ad1260ecbe8617641da41fa75b2e656ed5",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD07_Congatec_CRX1_PDF--4bb30f81d0a227c2/document.pdf",
+    "original_sha256": "2c5284ce74ffe9347504f5cf97c3310720cd53aea85b4bc4d8de3a21062075b3",
+    "operation": "官方PDF第2页，Poppler scale-to1800完整页PNG渲染，未裁剪，已实际打开；本章复制衍生图，原PDF保留并再次实际打开",
+    "slug": "swot_bom",
+    "opened": true
+  }
+]

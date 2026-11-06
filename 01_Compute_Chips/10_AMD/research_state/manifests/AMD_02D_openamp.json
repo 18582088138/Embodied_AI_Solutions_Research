@@ -1,0 +1,4 @@
+[
+ {"name":"AMD_EDF_OpenAMP_Zephyr","url":"https://edf.docs.amd.com/en/latest/discovery/openamp-rpu-firmware-demo-zephyr.html","expected":"html","used_by":["02D_EDF_BSP_and_Execution_Domains"]},
+ {"name":"AMD_EDF_OpenAMP_FreeRTOS","url":"https://edf.docs.amd.com/en/latest/discovery/openamp-rpu-firmware-demo-freertos.html","expected":"html","used_by":["02D_EDF_BSP_and_Execution_Domains"]}
+]

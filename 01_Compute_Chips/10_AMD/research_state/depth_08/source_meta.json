@@ -1,0 +1,26 @@
+{
+  "AMD08_CDNA4_Whitepaper": {
+    "title": "CDNA4架构白皮书",
+    "version": "PID2258402-D，2026-09-28"
+  },
+  "AMD08_MI350_Architecture": {
+    "title": "MI350微架构",
+    "version": "归档页面标ROCm10.1.0；原表口径见正文"
+  },
+  "AMD08_CK_GEMM": {
+    "title": "CK Tile MI300 GEMM教程",
+    "version": "CK1.3.0文档快照，MI300示例"
+  },
+  "AMD08_CK_LDS": {
+    "title": "CK Tile LDS bank指南",
+    "version": "CK1.3.0文档快照"
+  },
+  "AMD08_IRON_Paper": {
+    "title": "IRON程序接口论文摘要",
+    "version": "arXiv2504.18430v1，2025-04-25；仅摘要页"
+  },
+  "AMD08_IRON_Repo": {
+    "title": "IRON官方源码与安装说明",
+    "version": "2026-11-04采集main快照；实际release另验"
+  }
+}

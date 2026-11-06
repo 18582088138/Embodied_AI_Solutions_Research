@@ -1,0 +1,8 @@
+[
+ {"name":"AMD_Quark_XINT8","url":"https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_xint8_quantize.html","expected":"html","used_by":["02B_RyzenAI_Compilation_and_Quantization"]},
+ {"name":"AMD_Quark_A16W8","url":"https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_a8w8_and_a16w8_quantize.html","expected":"html","used_by":["02B_RyzenAI_Compilation_and_Quantization"]},
+ {"name":"AMD_Quark_Schemes","url":"https://quark.docs.amd.com/latest/onnx/config/quantization_schemes.html","expected":"html","used_by":["02B_RyzenAI_Compilation_and_Quantization"]},
+ {"name":"AMD_Quark_SmoothQuant","url":"https://quark.docs.amd.com/latest/onnx/accuracy_algorithms/sq.html","expected":"html","used_by":["02B_RyzenAI_Compilation_and_Quantization"]},
+ {"name":"AMD_Quark_Search","url":"https://quark.docs.amd.com/latest/onnx/user_guide_auto_search.html","expected":"html","used_by":["02B_RyzenAI_Compilation_and_Quantization"]},
+ {"name":"AMD_Quark_License","url":"https://quark.docs.amd.com/latest/license.html","expected":"html","used_by":["02B_RyzenAI_Compilation_and_Quantization"]}
+]

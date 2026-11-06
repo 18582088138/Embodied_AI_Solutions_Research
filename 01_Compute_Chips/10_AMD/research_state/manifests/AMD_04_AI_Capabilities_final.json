@@ -1,0 +1,298 @@
+[
+  {
+    "name": "AMD04_LeRobot_Blog",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/rocm-lerobot/README.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD04_MolmoAct_Blog",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/molmoact2-ryzers-strix/README.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD04_MicroWorld2",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/Micro-World-V2/README.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Hybrid",
+    "url": "https://ryzenai.docs.amd.com/en/latest/hybrid_oga.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Compile",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/compiling.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD04_Ryzen_Collection",
+    "url": "https://huggingface.co/collections/amd/ryzen-ai-190-npu",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD04_QwenVL_Card",
+    "url": "https://huggingface.co/amd/Qwen3-VL-4B-Instruct_rai_1.9.0_npu",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD04_GPTOSS_Verified",
+    "url": "https://huggingface.co/amd/gpt-oss-20b_rai_1.9.0_npu",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD04_Videochat_Verified",
+    "url": "https://huggingface.co/amd/VideoChat-Flash-Qwen2_5-7B_InternVideo2-1B_rai_1.9.0_npu",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD04_VLM_Readme",
+    "url": "https://github.com/amd/RyzenAI-SW/blob/main/LLM-examples/VLM/README.md",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_OGA_Prepare",
+    "url": "https://ryzenai.docs.amd.com/en/latest/oga_model_prepare.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD_RyzenAI_Server",
+    "url": "https://ryzenai.docs.amd.com/en/latest/llm/server_interface.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "Model04_NVIDIA_04_EXP_OPENPI_README",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD04_Molmo2_Collection",
+    "url": "https://huggingface.co/collections/allenai/molmoact2-models",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD04_Molmo2_Card",
+    "url": "https://huggingface.co/allenai/MolmoAct2",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD04_Ryzers_Repo",
+    "url": "https://github.com/AMDResearch/Ryzers",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD04_Ryzers_License",
+    "url": "https://github.com/AMDResearch/Ryzers/blob/main/LICENSE",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD04_Ryzers_Molmo_Docker",
+    "url": "https://github.com/AMDResearch/Ryzers/blob/main/packages/vla/molmoact2/Dockerfile",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD04_Ryzers_Molmo_Readme",
+    "url": "https://github.com/AMDResearch/Ryzers/blob/main/packages/vla/molmoact2/README.md",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "Model04_NVIDIA_04_EXP_OPENVLA_README",
+    "url": "https://raw.githubusercontent.com/openvla/openvla/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "Model04_NVIDIA_04_EXP_ACT_README",
+    "url": "https://raw.githubusercontent.com/tonyzhaozh/act/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "Model04_NVIDIA_04_EXP_DIFFUSION_README",
+    "url": "https://raw.githubusercontent.com/real-stanford/diffusion_policy/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "Model04_NVIDIA_04_EXP_LEROBOT_README",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD04_MicroWorld_Card",
+    "url": "https://huggingface.co/amd/Micro-World-2",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD04_MicroWorld_Code",
+    "url": "https://github.com/AMD-AGI/Micro-World",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD04_MicroWorld_Data",
+    "url": "https://huggingface.co/datasets/amd/Micro-World-Capsaicin",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD04_Vitis_Models",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/supported_models.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Release",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/release_notes/release_notes_section.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_Reference",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/integrated_system_reference%20design/system.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD_VitisAI_Gen2_CPU_Partition",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/cpu_partition.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD_VAI_Partition_Analyzer",
+    "url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/ai_analyzer/partitioning.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD_Quark_SmoothQuant",
+    "url": "https://quark.docs.amd.com/latest/onnx/accuracy_algorithms/sq.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD_Quark_Search",
+    "url": "https://quark.docs.amd.com/latest/onnx/user_guide_auto_search.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD_Quark_A16W8",
+    "url": "https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_a8w8_and_a16w8_quantize.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Memory",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/unified_memory.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Coherence",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/coherence_control.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_Isolation",
+    "url": "https://rocm.docs.amd.com/en/latest/reference/system-optimization/gpu-isolation.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  }
+]

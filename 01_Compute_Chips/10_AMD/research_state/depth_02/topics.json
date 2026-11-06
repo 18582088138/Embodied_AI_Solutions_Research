@@ -1,0 +1,22 @@
+[
+  [
+    "02A_GPU_Execution_and_Deployment",
+    "GPU执行、图编译与模型部署"
+  ],
+  [
+    "02B_RyzenAI_Compilation_and_Quantization",
+    "Ryzen AI NPU编译、量化与异构推理"
+  ],
+  [
+    "02C_Versal_Compiler_and_Runtime",
+    "Versal编译器、张量布局与VART runtime"
+  ],
+  [
+    "02D_EDF_BSP_and_Execution_Domains",
+    "EDF/BSP、SHEL与多执行域"
+  ],
+  [
+    "02E_ROS_Acceleration_and_System_Integration",
+    "ROS加速、追踪与端到端系统集成"
+  ]
+]

@@ -1,0 +1,31 @@
+{
+  "time_utc": "2026-11-04T08:58:27.874585+00:00",
+  "summary": {
+    "complete_static": 6,
+    "partial_static": 11,
+    "failed": 0
+  },
+  "names": [
+    "AMD07_Robotics_Partners",
+    "AMD07_Congatec_CRX1_PDF",
+    "AMD06_Solectrix_PDF",
+    "AMD06_STW_PDF",
+    "AMD06_Robotec_PDF",
+    "OpenNav_Robotics_Benchmark",
+    "AMD07_ROS2_Control",
+    "AMD_EDF_Production",
+    "AMD07_Congatec_CRX1",
+    "AMD04_Ryzers_Repo",
+    "AMD04_Ryzers_License",
+    "KRS_V1_Docs",
+    "AMD_ROSS",
+    "AMD05_AUP_Repo",
+    "AMD07_WindRiver_Linux",
+    "AMD07_Distributors",
+    "AMD07_Warranty"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

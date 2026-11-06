@@ -1,0 +1,389 @@
+[
+  {
+    "source_id": "AMD08_MI350_Architecture",
+    "needle": "eight vertically stacked",
+    "claim": "8XCD",
+    "location": "architecture",
+    "evidence_type": "事实",
+    "conditions": "MI350X/MI355X",
+    "finding": "服务器机制不当端侧，峰值非持续实测"
+  },
+  {
+    "source_id": "AMD08_MI350_Architecture",
+    "needle": "TSMC’s N3P",
+    "claim": "计算工艺",
+    "location": "architecture",
+    "evidence_type": "事实",
+    "conditions": "MI350X/MI355X",
+    "finding": "服务器机制不当端侧，峰值非持续实测"
+  },
+  {
+    "source_id": "AMD08_MI350_Architecture",
+    "needle": "TSMC’s N6",
+    "claim": "IOD工艺",
+    "location": "architecture",
+    "evidence_type": "事实",
+    "conditions": "MI350X/MI355X",
+    "finding": "服务器机制不当端侧，峰值非持续实测"
+  },
+  {
+    "source_id": "AMD08_MI350_Architecture",
+    "needle": "32 are active",
+    "claim": "有效CU",
+    "location": "architecture",
+    "evidence_type": "事实",
+    "conditions": "MI350X/MI355X",
+    "finding": "服务器机制不当端侧，峰值非持续实测"
+  },
+  {
+    "source_id": "AMD08_MI350_Architecture",
+    "needle": "288GB",
+    "claim": "HBM容量",
+    "location": "architecture",
+    "evidence_type": "事实",
+    "conditions": "MI350X/MI355X",
+    "finding": "服务器机制不当端侧，峰值非持续实测"
+  },
+  {
+    "source_id": "AMD08_MI350_Architecture",
+    "needle": "1400W",
+    "claim": "MI355X功率",
+    "location": "architecture",
+    "evidence_type": "事实",
+    "conditions": "MI350X/MI355X",
+    "finding": "服务器机制不当端侧，峰值非持续实测"
+  },
+  {
+    "source_id": "AMD08_MI350_Architecture",
+    "needle": "NPS2",
+    "claim": "内存分区",
+    "location": "architecture",
+    "evidence_type": "事实",
+    "conditions": "MI350X/MI355X",
+    "finding": "服务器机制不当端侧，峰值非持续实测"
+  },
+  {
+    "source_id": "AMD08_CDNA4_Whitepaper",
+    "needle": "typically 32",
+    "claim": "MX分块",
+    "location": "p7",
+    "evidence_type": "事实",
+    "conditions": "2026-09-28",
+    "finding": "原件与图核对；不使用冲突表推出旧代精确倍数"
+  },
+  {
+    "source_id": "AMD08_CDNA4_Whitepaper",
+    "needle": "E2M1",
+    "claim": "MXFP4元素",
+    "location": "p7",
+    "evidence_type": "事实",
+    "conditions": "2026-09-28",
+    "finding": "原件与图核对；不使用冲突表推出旧代精确倍数"
+  },
+  {
+    "source_id": "AMD08_CDNA4_Whitepaper",
+    "needle": "160KB",
+    "claim": "LDS容量",
+    "location": "p9",
+    "evidence_type": "事实",
+    "conditions": "2026-09-28",
+    "finding": "原件与图核对；不使用冲突表推出旧代精确倍数"
+  },
+  {
+    "source_id": "AMD08_CDNA4_Whitepaper",
+    "needle": "256 bytes per clock",
+    "claim": "LDS读带宽",
+    "location": "p9",
+    "evidence_type": "事实",
+    "conditions": "2026-09-28",
+    "finding": "原件与图核对；不使用冲突表推出旧代精确倍数"
+  },
+  {
+    "source_id": "AMD08_CDNA4_Whitepaper",
+    "needle": "software emulation utilizing the BF16",
+    "claim": "TF32路线改变",
+    "location": "p8",
+    "evidence_type": "事实",
+    "conditions": "2026-09-28",
+    "finding": "原件与图核对；不使用冲突表推出旧代精确倍数"
+  },
+  {
+    "source_id": "AMD08_CDNA4_Whitepaper",
+    "needle": "10 TFLOP/s",
+    "claim": "TF/PF冲突",
+    "location": "p3",
+    "evidence_type": "事实",
+    "conditions": "2026-09-28",
+    "finding": "原件与图核对；不使用冲突表推出旧代精确倍数"
+  },
+  {
+    "source_id": "AMD08_CDNA4_Whitepaper",
+    "needle": "MI325X GPUs",
+    "claim": "表题列名冲突",
+    "location": "p8",
+    "evidence_type": "事实",
+    "conditions": "2026-09-28",
+    "finding": "原件与图核对；不使用冲突表推出旧代精确倍数"
+  },
+  {
+    "source_id": "AMD08_CDNA4_Whitepaper",
+    "needle": "16834",
+    "claim": "原表数值保留",
+    "location": "p8",
+    "evidence_type": "事实",
+    "conditions": "2026-09-28",
+    "finding": "原件与图核对；不使用冲突表推出旧代精确倍数"
+  },
+  {
+    "source_id": "AMD08_CDNA4_Whitepaper",
+    "needle": "DPX+NPS2",
+    "claim": "分区/精度跨条件比较",
+    "location": "p21",
+    "evidence_type": "事实",
+    "conditions": "2026-09-28",
+    "finding": "原件与图核对；不使用冲突表推出旧代精确倍数"
+  },
+  {
+    "source_id": "AMD08_CDNA4_Whitepaper",
+    "needle": "PID#2258402-D",
+    "claim": "PDF版本",
+    "location": "p21",
+    "evidence_type": "事实",
+    "conditions": "2026-09-28",
+    "finding": "原件与图核对；不使用冲突表推出旧代精确倍数"
+  },
+  {
+    "source_id": "AMD08_CK_GEMM",
+    "needle": "512K",
+    "claim": "朴素矩阵loads",
+    "location": "GEMM教程",
+    "evidence_type": "事实",
+    "conditions": "MI300示例",
+    "finding": "教程简化/冲突不当目标GPU性能配置"
+  },
+  {
+    "source_id": "AMD08_CK_GEMM",
+    "needle": "Ping Pong buffering",
+    "claim": "double buffer",
+    "location": "GEMM教程",
+    "evidence_type": "事实",
+    "conditions": "MI300示例",
+    "finding": "教程简化/冲突不当目标GPU性能配置"
+  },
+  {
+    "source_id": "AMD08_CK_GEMM",
+    "needle": "MFMA",
+    "claim": "矩阵指令",
+    "location": "GEMM教程",
+    "evidence_type": "事实",
+    "conditions": "MI300示例",
+    "finding": "教程简化/冲突不当目标GPU性能配置"
+  },
+  {
+    "source_id": "AMD08_CK_GEMM",
+    "needle": "M = 4864 and N = 4096",
+    "claim": "教程维数",
+    "location": "GEMM教程",
+    "evidence_type": "事实",
+    "conditions": "MI300示例",
+    "finding": "教程简化/冲突不当目标GPU性能配置"
+  },
+  {
+    "source_id": "AMD08_CK_GEMM",
+    "needle": "M / 256 × N / 256",
+    "claim": "公式维度冲突",
+    "location": "GEMM教程",
+    "evidence_type": "事实",
+    "conditions": "MI300示例",
+    "finding": "教程简化/冲突不当目标GPU性能配置"
+  },
+  {
+    "source_id": "AMD08_CK_LDS",
+    "needle": "32 or 64 banks",
+    "claim": "bank依代际",
+    "location": "LDS指南",
+    "evidence_type": "事实",
+    "conditions": "CK1.3.0",
+    "finding": "32bank/64lane示例不推广RDNA/CDNA4"
+  },
+  {
+    "source_id": "AMD08_CK_LDS",
+    "needle": "ds_read_b128",
+    "claim": "读分组",
+    "location": "LDS指南",
+    "evidence_type": "事实",
+    "conditions": "CK1.3.0",
+    "finding": "32bank/64lane示例不推广RDNA/CDNA4"
+  },
+  {
+    "source_id": "AMD08_CK_LDS",
+    "needle": "additional LDS storage",
+    "claim": "padding代价",
+    "location": "LDS指南",
+    "evidence_type": "事实",
+    "conditions": "CK1.3.0",
+    "finding": "32bank/64lane示例不推广RDNA/CDNA4"
+  },
+  {
+    "source_id": "AMD08_CK_LDS",
+    "needle": "XOR preshuffling",
+    "claim": "不额外存储的重排",
+    "location": "LDS指南",
+    "evidence_type": "事实",
+    "conditions": "CK1.3.0",
+    "finding": "32bank/64lane示例不推广RDNA/CDNA4"
+  },
+  {
+    "source_id": "AMD08_CK_LDS",
+    "needle": "KPack = 8",
+    "claim": "例子参数",
+    "location": "LDS指南",
+    "evidence_type": "事实",
+    "conditions": "CK1.3.0",
+    "finding": "32bank/64lane示例不推广RDNA/CDNA4"
+  },
+  {
+    "source_id": "AMD08_HipBLASLt",
+    "needle": "General Matrix-Matrix",
+    "claim": "GEMM库定位",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD08_HipBLASLt_Tune",
+    "needle": "offline tuning",
+    "claim": "离线调优接口",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_HIP_Memory",
+    "needle": "HSA_XNACK=1",
+    "claim": "迁移条件",
+    "location": "unified memory",
+    "evidence_type": "事实",
+    "conditions": "HIP7.16.0",
+    "finding": "allocator可用不等于高带宽或所有GPU支持"
+  },
+  {
+    "source_id": "AMD_HIP_Memory",
+    "needle": "SR-IOV",
+    "claim": "MI200限制",
+    "location": "unified memory",
+    "evidence_type": "事实",
+    "conditions": "HIP7.16.0",
+    "finding": "allocator可用不等于高带宽或所有GPU支持"
+  },
+  {
+    "source_id": "AMD_HIP_Memory",
+    "needle": "first touch page-fault migration",
+    "claim": "首触迁移",
+    "location": "unified memory",
+    "evidence_type": "事实",
+    "conditions": "HIP7.16.0",
+    "finding": "allocator可用不等于高带宽或所有GPU支持"
+  },
+  {
+    "source_id": "AMD_HIP_Memory",
+    "needle": "zero copy",
+    "claim": "访问非本地带宽",
+    "location": "unified memory",
+    "evidence_type": "事实",
+    "conditions": "HIP7.16.0",
+    "finding": "allocator可用不等于高带宽或所有GPU支持"
+  },
+  {
+    "source_id": "AMD_HIP_Coherence",
+    "needle": "hipStreamWaitEvent",
+    "claim": "设备依赖",
+    "location": "visibility",
+    "evidence_type": "事实",
+    "conditions": "HIP7.16.0",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_HIP_Coherence",
+    "needle": "hipEventReleaseToSystem",
+    "claim": "system fence",
+    "location": "visibility",
+    "evidence_type": "事实",
+    "conditions": "HIP7.16.0",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_ROCm_Isolation",
+    "needle": "shouldn’t be used for isolating untrusted",
+    "claim": "环境变量非安全隔离",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_HIP_Allocator",
+    "needle": "hipFreeAsync",
+    "claim": "内存生命周期",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_HIP_Graphs",
+    "needle": "not captured by default",
+    "claim": "host非自动capture",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_ROCm_GraphSafe",
+    "needle": "MIOpen ❌",
+    "claim": "library支持边界",
+    "location": "表",
+    "evidence_type": "事实",
+    "conditions": "归档文档",
+    "finding": "不是所有图可capture；以具体package/release再验"
+  },
+  {
+    "source_id": "AMD_vLLM_Optimization",
+    "needle": "≥32 concurrent requests",
+    "claim": "attention布局并发条件",
+    "location": "指南",
+    "evidence_type": "事实",
+    "conditions": "Instinct为主",
+    "finding": "不当单机器人batch1吞吐"
+  },
+  {
+    "source_id": "Compare_TRT_Quant",
+    "needle": "dequantizes them",
+    "claim": "INT4 WoQ不同机制",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_HIP_Model",
+    "needle": "architecture dependent",
+    "claim": "warp依架构",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_HIP_License",
+    "needle": "License",
+    "claim": "HIP许可入口",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  }
+]

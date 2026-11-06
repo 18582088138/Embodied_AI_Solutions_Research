@@ -1,0 +1,90 @@
+[
+  {
+    "name": "AMD_Robotics",
+    "url": "https://www.amd.com/en/solutions/robotics.html",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "AMD06_XArm_Sim2Real",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/sim2real-rl-instinct/README.html",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "AMD04_LeRobot_Blog",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/rocm-lerobot/README.html",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "AMD06_XArm_JAX",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/rocm-jax-mujoco/README.html",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "AMD06_STW_PDF",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/stw-case-study.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "AMD06_Solectrix_PDF",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/solectrix-case-study.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "AMD06_Robotec_PDF",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/robotec-ai-case-study.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "AMD06_GB_Factory_PR",
+    "url": "https://www.prnewswire.com/news-releases/generative-bionics-to-build-europes-largest-physical-ai-data-factory-and-advance-european-humanoid-sovereignty-with-amd-ai-infrastructure-302914868.html",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "AMD06_XArm_SDK",
+    "url": "https://github.com/xArm-Developer/xArm-Python-SDK",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "AMD06_XArm_License",
+    "url": "https://github.com/xArm-Developer/xArm-Python-SDK/blob/master/LICENSE",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "AMD06_Robotec_Case",
+    "url": "https://www.amd.com/en/resources/case-studies/robotec-ai.html",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  }
+]

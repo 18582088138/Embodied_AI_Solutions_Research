@@ -1,0 +1,4473 @@
+# 参考来源清单
+
+[返回本分项](README.md)
+
+完整参考原件保留在本地 `reference_metrial/`，未上传 GitHub。下方提供官方 URL、原始采集记录、哈希与本地路径；本地路径以仓库根为基准。
+
+GitHub 可直接阅读报告及正文图表。需要核验 HTML/PDF 原件时，在拥有本地归档的工作目录打开原件；clone 本仓库不会自动得到完整原件。后续可在保持 SHA256 清单不变的情况下连接外部归档。
+
+- [机器可读完整清单](sources.json)
+- [本地归档管理方式](../../CONTRIBUTING.md)
+
+<a id="ref-e99e08ee5929569d"></a>
+
+## AMD08_IRON_Paper
+
+- [官方/原始来源](https://arxiv.org/abs/2504.18430)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T09:19:22.804019+00:00`
+- `sha256`：`f38cd870ee183beb02e599d99a88a783e08af34b0baf81fa9d4900665ad25736`
+- `original_sha256`：`92ecaf09d8752dddebd4b123bfe7dfde4bf1688175cc4435bad2b20063b84e55`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Paper--e99e08ee5929569d/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Paper--e99e08ee5929569d/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-14e5780c8d8828c4"></a>
+
+## AMD06_GB_Factory_PressZIP
+
+- [官方/原始来源](https://cms.gbionics.ai/uploads/Data_Factory_Press_Release_IT_EN_e1f59b8807.zip)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T08:40:17.926723+00:00`
+
+<a id="ref-eb2195709c91d45e"></a>
+
+## AMD06_GB_Gene01_PressZIP
+
+- [官方/原始来源](https://cms.gbionics.ai/uploads/GB_Gene01_Press_28599c665e.zip)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T08:40:15.453077+00:00`
+
+<a id="ref-5d6fe4034f4192d8"></a>
+
+## AMD07_ROS2_Control
+
+- [官方/原始来源](https://control.ros.org/jazzy/doc/ros2_control/controller_manager/doc/userdoc.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:47:28.599007+00:00`
+- `sha256`：`a5c525b71f4e4b8c1d27628ce2763f9f7a4aab921444b8e6f0c6af30c05aaa5f`
+- `original_sha256`：`fdf93357b9fbe31666a66b270744f1dd24a2c109cacd0c32f8baa01cb50a2fb2`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_ROS2_Control--5d6fe4034f4192d8/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_ROS2_Control--5d6fe4034f4192d8/original.response`
+- 未取得依赖：22 项；详见本地 metadata。
+
+<a id="ref-9695b489b26476b4"></a>
+
+## AMD_Kria_Selection_PDF
+
+- [官方/原始来源](https://docs.amd.com/api/khub/documents/lwwUFdfst1gWnYUxm9b4PA/content?Ft-Calling-App=ft%2Fturnkey-portal&Ft-Calling-App-Version=5.4.8)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T04:46:59.363709+00:00`
+- `sha256`：`2375f19a3cd2496b5053157c5e6acad19f9830958592c4572ba88c49f8d44bad`
+- `original_sha256`：`2375f19a3cd2496b5053157c5e6acad19f9830958592c4572ba88c49f8d44bad`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Kria_Selection_PDF--9695b489b26476b4/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Kria_Selection_PDF--9695b489b26476b4/original.response`
+
+<a id="ref-26efd494c090fc0c"></a>
+
+## AMD_K26_Thermal_UG1090
+
+- [官方/原始来源](https://docs.amd.com/api/khub/maps/9OJPc4Uy0feMWtT2Y_GFhA/attachments/K5DZS0W6GjDxxQ~UAGi7sA-9OJPc4Uy0feMWtT2Y_GFhA/content?download=true&locationValue=reader)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T04:52:44.653753+00:00`
+
+<a id="ref-2a3e68748359cb9b"></a>
+
+## AMD_K26_DS987
+
+- [官方/原始来源](https://docs.amd.com/api/khub/maps/gX6THsxXsWUzU8xcmObJnQ/attachments/SXafmCH9kPqXjywx_5dRBA-gX6THsxXsWUzU8xcmObJnQ/content?download=true&locationValue=reader)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T04:52:43.358181+00:00`
+
+<a id="ref-73a9bf1f1889d671"></a>
+
+## AMD_KV260_Interfaces
+
+- [官方/原始来源](https://docs.amd.com/r/en-US/ug1089-kv260-starter-kit/Interfaces)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:07:48.197752+00:00`
+- `sha256`：`bfa380148b7f1b8955eb67776494f950a65fbe0b43b7933cd3cd70179c4fa5f2`
+- `original_sha256`：`f2c356563fd4a9c68ec6ffdfb5f951deeb4747cf87400cc18cb0054cba090c02`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KV260_Interfaces--73a9bf1f1889d671/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KV260_Interfaces--73a9bf1f1889d671/original.response`
+- 未取得依赖：11 项；详见本地 metadata。
+
+<a id="ref-fb0a79712da27fca"></a>
+
+## AMD_Versal_DS950
+
+- [官方/原始来源](https://docs.amd.com/v/u/en-US/ds950-versal-overview)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:49:34.567525+00:00`
+- `sha256`：`4f9ce2302078c1f17476c5c2742a96d9be9feab51dc9097d626f97d92cdb8bdf`
+- `original_sha256`：`689086f008f4ad35bb200a7878cb7e42b8bfc69a6d16c7992b77d6d01f73ea00`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Versal_DS950--fb0a79712da27fca/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Versal_DS950--fb0a79712da27fca/original.response`
+- 未取得依赖：11 项；详见本地 metadata。
+
+<a id="ref-3b36681a1d2f30b2"></a>
+
+## AMD_Kria_Selection
+
+- [官方/原始来源](https://docs.amd.com/v/u/en-US/kria-som-psg)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:45:47.935431+00:00`
+- `sha256`：`40f8ea017b2886827e28d7063440c12e4ccc6f7a9f2f1fe2351a75e6a299f4d6`
+- `original_sha256`：`0e6296451605a46dbb47759432de06ea2179d004ef89a8c8860cd61d64bc3630`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_Selection--3b36681a1d2f30b2/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_Selection--3b36681a1d2f30b2/original.response`
+- 未取得依赖：11 项；详见本地 metadata。
+
+<a id="ref-d9042c814da994ac"></a>
+
+## Linux_DMABUF_Sync
+
+- [官方/原始来源](https://docs.kernel.org/driver-api/dma-buf.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:11:36.939462+00:00`
+- `sha256`：`468fb1cbe96476d08e0f8bf5e27f17a1734c52eefa775f4556e8a09df5f6c96f`
+- `original_sha256`：`9373cd4a78794aa4cf98056a32f8dd4766e402458b67963688a229ad571bcc15`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_DMABUF_Sync--d9042c814da994ac/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_DMABUF_Sync--d9042c814da994ac/original.response`
+
+<a id="ref-1bbe13646ec11616"></a>
+
+## Linux_IIO_Buffer
+
+- [官方/原始来源](https://docs.kernel.org/driver-api/iio/buffers.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:08:09.599953+00:00`
+- `sha256`：`2df9292c97df1f08a14edc513e90357a07073462a445b0ce7656280ce5bc962a`
+- `original_sha256`：`854283ef3ed322ec37145654832bf31b314f694694e55df6f70f9d73dcc2b224`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_IIO_Buffer--1bbe13646ec11616/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_IIO_Buffer--1bbe13646ec11616/original.response`
+
+<a id="ref-2b352a13474d86b5"></a>
+
+## Linux_PTP
+
+- [官方/原始来源](https://docs.kernel.org/driver-api/ptp.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:08:12.064544+00:00`
+- `sha256`：`979f6dec7d4019cef7a6f5ab6a54c591ce5089d443e9f132d522b1989ae12fee`
+- `original_sha256`：`7634ff25017eebfaa4be3428e68fd113704c5c78091bd90db77bda46954f2383`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_PTP--2b352a13474d86b5/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_PTP--2b352a13474d86b5/original.response`
+
+<a id="ref-40fe80b010ea4757"></a>
+
+## Linux_SocketCAN
+
+- [官方/原始来源](https://docs.kernel.org/networking/can.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:11:43.479266+00:00`
+- `sha256`：`f89c17c1049b1df8baa54f3e21a181de76120cdb5374213e7130b4c7604dff60`
+- `original_sha256`：`6724295264775ed9f53e2526e4a4f232471dd98f28a596f946d58ddda09dfb32`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_SocketCAN--40fe80b010ea4757/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_SocketCAN--40fe80b010ea4757/original.response`
+
+<a id="ref-931f803098f1b483"></a>
+
+## Linux_Network_Timestamps
+
+- [官方/原始来源](https://docs.kernel.org/networking/timestamping.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:11:41.612227+00:00`
+- `sha256`：`72ac22d5a55f019a0c42f8964c4722a07d6c55b743d9d959fb94d4d28eb2b615`
+- `original_sha256`：`76a3ea94b2bc0468ad8ee4f8dc8c92bd1bbd76404992e5c7ad7dab3addece63d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_Network_Timestamps--931f803098f1b483/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_Network_Timestamps--931f803098f1b483/original.response`
+
+<a id="ref-6ec2a6979ded2e53"></a>
+
+## Linux_V4L2_Buffer
+
+- [官方/原始来源](https://docs.kernel.org/userspace-api/media/v4l/buffer.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:08:07.846124+00:00`
+- `sha256`：`60cac6e76c25765348ec3f0d0c4da261f2ca6ddb5324183ae86f171e43a932c9`
+- `original_sha256`：`09461f3108b101e193740ddfa299bf4d85e2a903f093a8aee0a16e57c6b5cb14`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_Buffer--6ec2a6979ded2e53/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_Buffer--6ec2a6979ded2e53/original.response`
+
+<a id="ref-7662313ef95a64cb"></a>
+
+## Linux_V4L2_DMABUF
+
+- [官方/原始来源](https://docs.kernel.org/userspace-api/media/v4l/dmabuf.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:07:57.965392+00:00`
+- `sha256`：`4fdc7599a77ba47887241d0de1391e34fe82a5d5ea703de4fdf56bbb714f4020`
+- `original_sha256`：`894bdf268726818e1c6be16f28ac0cbe9109c37b77e9fbc35303174399d169fb`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_DMABUF--7662313ef95a64cb/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_DMABUF--7662313ef95a64cb/original.response`
+
+<a id="ref-918cfd1c10b93e9c"></a>
+
+## Linux_V4L2_MMAP
+
+- [官方/原始来源](https://docs.kernel.org/userspace-api/media/v4l/mmap.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:08:06.269854+00:00`
+- `sha256`：`1a4e5f062cfa1c93f83eefea5e0f578e9898a4fe330e0b9410ac00049b30fd21`
+- `original_sha256`：`f271b13ffae1a4f4d9b8b18290a6576afcbbaaac34842e7fc13f055e341b2634`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_MMAP--918cfd1c10b93e9c/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_MMAP--918cfd1c10b93e9c/original.response`
+
+<a id="ref-834cff46843ea22e"></a>
+
+## Linux_V4L2_Export
+
+- [官方/原始来源](https://docs.kernel.org/userspace-api/media/v4l/vidioc-expbuf.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:12:56.691211+00:00`
+- `sha256`：`1dde4b9746615f0ebfdbc04b144c8d6af3c4f73c4e1ca6c50c0bcda16d8fb025`
+- `original_sha256`：`e230f1cda6155c43121fa1e04fd2e7308ae343782e0d842f82b29847117e4e7b`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_Export--834cff46843ea22e/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Linux_V4L2_Export--834cff46843ea22e/original.response`
+
+<a id="ref-64fc09301027cc35"></a>
+
+## Compare_CUDA_Graphs
+
+- [官方/原始来源](https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/cuda-graphs.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:12:57.519933+00:00`
+- `sha256`：`ed46d24bc29ebbbb59399671a7da2ea40713371cabc160f357b11eee816702c4`
+- `original_sha256`：`fa9b608c57d4841474487148cd601e9eb58db05d3f6f8db56a57f3cd8be2a157`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_CUDA_Graphs--64fc09301027cc35/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_CUDA_Graphs--64fc09301027cc35/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-9df325c2c44e3de5"></a>
+
+## Compare_TRT_Builder
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:13:28.588122+00:00`
+- `sha256`：`0b2c6b2c93691260edb6cde5752f66c60226f3def12e74e36f80d9aea96048c6`
+- `original_sha256`：`656cc637bc2983dcc18269d41cdb4c44aab96530e4b8213c775bc73321e71eea`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Builder--9df325c2c44e3de5/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Builder--9df325c2c44e3de5/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-f47c2746e3737567"></a>
+
+## Compare_TRT_Quant
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:13:43.492595+00:00`
+- `sha256`：`3c38adc7f087812ff7f333f0b30b473c595306faa7d803bed7c0509b203909c6`
+- `original_sha256`：`9b157024a8efa589c2ddc51d21cd3c28581e45b418968091765a53e8ca4ed920`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Quant--f47c2746e3737567/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_TRT_Quant--f47c2746e3737567/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-766974539088b048"></a>
+
+## Compare_03_HSB
+
+- [官方/原始来源](https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:11:45.457869+00:00`
+- `sha256`：`5ff7a1892ff8c1b9e8467d2d445b45ab36df3543a6fea06bbfab968ec3b73096`
+- `original_sha256`：`d070d3505bbfcd7c3051a5bb509e8afd00d0ae15ae0948706e35c75dca8d5bf9`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_03_HSB--766974539088b048/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_03_HSB--766974539088b048/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-acc0a9a82b614a53"></a>
+
+## Compare_03_CoE
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:12:07.878922+00:00`
+- `sha256`：`a0938d04a2a09bbe7b99bd9bffdbec333517421e178701a65a5bdadfc3108852`
+- `original_sha256`：`98b4deca8e8ef5412d87c385075e9c23b5dcde36e043ec68577ab94eeec09890`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_03_CoE--acc0a9a82b614a53/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_03_CoE--acc0a9a82b614a53/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-fe91dd3e519be888"></a>
+
+## Compare_Jetson_OTA
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/SoftwarePackagesAndTheUpdateMechanism.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:13:51.885897+00:00`
+- `sha256`：`7488794b2ebc29c398578f07ba44fc7eb4ae6446af9f453375499da7cf55b37c`
+- `original_sha256`：`43ac977be5940b78e4699358a0798a3165b5334f2c089f88d62af3f4b98adf94`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_Jetson_OTA--fe91dd3e519be888/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_Jetson_OTA--fe91dd3e519be888/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-aade0809b0c8abc4"></a>
+
+## AMD05_O3DE_Physics
+
+- [官方/原始来源](https://docs.o3de.org/docs/user-guide/interactivity/physics/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T08:19:15.314618+00:00`
+- `sha256`：`d742deb828639656dd6d251c845d6a13a8cf05822cc48256c84e379f94a1b620`
+- `original_sha256`：`4944b6e078ce24674de2f2fba4c92eeac68ee898454d6b325e81597488dd516e`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Physics--aade0809b0c8abc4/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Physics--aade0809b0c8abc4/original.response`
+- 未取得依赖：5 项；详见本地 metadata。
+
+<a id="ref-2ebcdcfcd8d668fe"></a>
+
+## AMD05_O3DE_Materials
+
+- [官方/原始来源](https://docs.o3de.org/docs/user-guide/interactivity/physics/nvidia-physx/materials/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T08:24:38.030698+00:00`
+- `sha256`：`5ba0f3475f33e22a59e4ab4f5a5c800c47b679928dc7fcd70648d41bb93dd376`
+- `original_sha256`：`67c6168d8b9efc4f57f94543a6ab1c7de43f0f8ffabb0ada11d397932c1d7bb9`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Materials--2ebcdcfcd8d668fe/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Materials--2ebcdcfcd8d668fe/original.response`
+- 未取得依赖：5 项；详见本地 metadata。
+
+<a id="ref-9a91d4bceee4cda9"></a>
+
+## AMD05_O3DE_Concepts
+
+- [官方/原始来源](https://docs.o3de.org/docs/user-guide/interactivity/robotics/concepts-and-components-overview/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T08:18:58.316205+00:00`
+- `sha256`：`961f4c40e59e2b85dc99a9e3cac5441b8232328fa4a267df9652ecaf211768b6`
+- `original_sha256`：`f6979af0a81ea181f63bd6983ee31f7730a694a486f79cf24c3252624a60fc50`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Concepts--9a91d4bceee4cda9/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Concepts--9a91d4bceee4cda9/original.response`
+- 未取得依赖：5 项；详见本地 metadata。
+
+<a id="ref-512508c9491343cf"></a>
+
+## AMD05_O3DE_Import
+
+- [官方/原始来源](https://docs.o3de.org/docs/user-guide/interactivity/robotics/importing-robot/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T08:19:07.928164+00:00`
+- `sha256`：`8733631060d0575bc9ceec34ed8222b0e9a4b6cd9c5db5821997499428b5d652`
+- `original_sha256`：`6519fea51e698fc9c94a078a88b0f40e1cccbbea9276a32c9554a16e10d51cf2`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Import--512508c9491343cf/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Import--512508c9491343cf/original.response`
+- 未取得依赖：5 项；详见本地 metadata。
+
+<a id="ref-79a73df6b5a51252"></a>
+
+## AMD05_O3DE_Time
+
+- [官方/原始来源](https://docs.o3de.org/docs/user-guide/interactivity/robotics/simulation-time/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T08:24:34.678651+00:00`
+- `sha256`：`ca6279e9c5c965e6d2ec35f1ba0154cb0a6236545099a55a5da26618c9d59389`
+- `original_sha256`：`e274ab19364ef9cd91ffe8efd666b7b4aa8ed4e6c8fe25a00c9e1a5da6ede6e0`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Time--79a73df6b5a51252/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Time--79a73df6b5a51252/original.response`
+- 未取得依赖：5 项；详见本地 metadata。
+
+<a id="ref-47a8a7e96f1cf658"></a>
+
+## ROS_03_Wrench
+
+- [官方/原始来源](https://docs.ros.org/en/jazzy/p/geometry_msgs/msg/WrenchStamped.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T07:13:07.466222+00:00`
+- `original_sha256`：`f401416c35382f89a43fc8aec46ad7de2db8dc078948191171d1b27b461b90d9`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/ROS_03_Wrench--47a8a7e96f1cf658/original.response`
+
+<a id="ref-41fe810a85b59e74"></a>
+
+## ROS_03_Image
+
+- [官方/原始来源](https://docs.ros.org/en/jazzy/p/sensor_msgs/msg/Image.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T07:13:03.351319+00:00`
+- `original_sha256`：`d62b4a1214816352725de095b18fffb55de570f36b32d454de732e485f924c80`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/ROS_03_Image--41fe810a85b59e74/original.response`
+
+<a id="ref-0c0a6bddc1179245"></a>
+
+## ROS_03_IMU
+
+- [官方/原始来源](https://docs.ros.org/en/jazzy/p/sensor_msgs/msg/Imu.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T07:12:59.824205+00:00`
+- `original_sha256`：`0bd0e1ca1fb226055bc44f58e76e26895572d9c073f91f9cbad4a307253c1143`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/ROS_03_IMU--0c0a6bddc1179245/original.response`
+
+<a id="ref-419b02292201e4ff"></a>
+
+## ROS_03_JointState
+
+- [官方/原始来源](https://docs.ros.org/en/jazzy/p/sensor_msgs/msg/JointState.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T07:13:04.914569+00:00`
+- `original_sha256`：`079a6f0e8abaf881e594a666881bc80c8bda0a03961f136fde8a2f16b8b1a969`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/ROS_03_JointState--419b02292201e4ff/original.response`
+
+<a id="ref-2240c3fbf5939739"></a>
+
+## ROS_03_PointCloud
+
+- [官方/原始来源](https://docs.ros.org/en/jazzy/p/sensor_msgs/msg/PointCloud2.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T07:13:02.193998+00:00`
+- `original_sha256`：`30c17a6a6f11f4a1c87bf388cb467a4992973f4b3d89ee9b251f3058ac4351d1`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/ROS_03_PointCloud--2240c3fbf5939739/original.response`
+
+<a id="ref-f84660ee94877b7a"></a>
+
+## AMD_EDF_Docs
+
+- [官方/原始来源](https://edf.docs.amd.com/en/latest/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:20:11.455131+00:00`
+- `sha256`：`dbc5c87852c05979c8bd492e59e8c8298e55a6e19959012ef08360f2427fcee0`
+- `original_sha256`：`e0b6f9d1ed48be30aaedc5788f4cb66cbedfc5fa011af7ddfa021da372194a12`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Docs--f84660ee94877b7a/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Docs--f84660ee94877b7a/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-67935d937430c5fa"></a>
+
+## AMD_EDF_Discovery
+
+- [官方/原始来源](https://edf.docs.amd.com/en/latest/discovery/discovery-and-evaluation.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:38:09.713599+00:00`
+- `sha256`：`69bb2c79989f9124dbb84a3c2dd194bc10c3b1384baf4402b53fcfd9c64a2c50`
+- `original_sha256`：`bd820317f6a2c3cbf32ae3e08529ffd234a5061f308a94281f0e2a5bb899f52d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Discovery--67935d937430c5fa/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Discovery--67935d937430c5fa/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-b61916dd92184f89"></a>
+
+## AMD_EDF_OpenAMP_FreeRTOS
+
+- [官方/原始来源](https://edf.docs.amd.com/en/latest/discovery/openamp-rpu-firmware-demo-freertos.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:40:00.930238+00:00`
+- `sha256`：`99eab652c5c8a70cd0076136a2a108bb4ad3fe8e16390aca28dde7f983533c9e`
+- `original_sha256`：`be9bb7bd9a49015b9899ff0f63223ecc59fa1bdc8dea8fa08f519a06ce8f4cd2`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_OpenAMP_FreeRTOS--b61916dd92184f89/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_OpenAMP_FreeRTOS--b61916dd92184f89/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-0b63b8042e4931e0"></a>
+
+## AMD_EDF_OpenAMP_Zephyr
+
+- [官方/原始来源](https://edf.docs.amd.com/en/latest/discovery/openamp-rpu-firmware-demo-zephyr.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:39:57.792447+00:00`
+- `sha256`：`d371d9be178e813a6f82309396203e3fc07b743be13ab4def78fa07785d313ce`
+- `original_sha256`：`461841130f0e2a1608e2116913fd85fd04cebc3e79ec9783dc9c69ae0d76544d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_OpenAMP_Zephyr--0b63b8042e4931e0/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_OpenAMP_Zephyr--0b63b8042e4931e0/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-805718888ba875b0"></a>
+
+## AMD_EDF_Release
+
+- [官方/原始来源](https://edf.docs.amd.com/en/latest/downloads-and-release-notes.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:20:33.918760+00:00`
+- `sha256`：`398c2907ae952751183705c125ffa6ff550f28d8f2e1cf3baf23b446bca234a6`
+- `original_sha256`：`fbe58660a9c2292b3d5ae3e48a1525bfd84ae18a0b50315294040cefe3f24314`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Release--805718888ba875b0/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Release--805718888ba875b0/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-c93d09e25f993c7a"></a>
+
+## AMD_EDF_Production
+
+- [官方/原始来源](https://edf.docs.amd.com/en/latest/moving-from-amd-software-stacks-to-production-deployment.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:25:30.508950+00:00`
+- `sha256`：`cd07c3b9f3ea241d5c623974c6d168774a2e7c4d16df5e08596112984535a3a3`
+- `original_sha256`：`4e6b2c252d79e4b7079119dd10135d748438170ce9d9466b12cfa13c9c16f6ef`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Production--c93d09e25f993c7a/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Production--c93d09e25f993c7a/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-7ee2d31bb6fbf324"></a>
+
+## AMD_EDF_Build_Container
+
+- [官方/原始来源](https://edf.docs.amd.com/en/latest/osdev/build-edf-yocto-with-the-edf-build-container.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:36:54.526097+00:00`
+- `sha256`：`24de4a398af38e2cc72326eb7e3e9d46f1c45b988d49203c47e2420500677c38`
+- `original_sha256`：`47dab1bbbd28ad62e77ddd377a06adb1af1102a7858393be0c1a64cc4be109e2`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Build_Container--7ee2d31bb6fbf324/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Build_Container--7ee2d31bb6fbf324/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-3e5c09c7147686e3"></a>
+
+## AMD_EDF_Domains
+
+- [官方/原始来源](https://edf.docs.amd.com/en/latest/osdev/domain-yaml-integration-and-development.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:25:35.140778+00:00`
+- `sha256`：`a436b3bcef28c469debc05f5fabedb444358d4e57cf5c5c8c8db9d08911c6a02`
+- `original_sha256`：`3cf160690f05a1393c6ad999e1c38922580560f76e5ba28340ef58b99cdb1aad`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Domains--3e5c09c7147686e3/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Domains--3e5c09c7147686e3/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-eed7f08a79341840"></a>
+
+## AMD_EDF_Custom_Firmware
+
+- [官方/原始来源](https://edf.docs.amd.com/en/latest/osdev/installing-custom-firmware-into-edf-yocto-linux-images.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:36:50.537284+00:00`
+- `sha256`：`8a1eddfcf139f876b6892edbd8d05b80ce9ea9b9892fac083406e0b432ff43c9`
+- `original_sha256`：`06dc7741836a2e77e7d0bc2b992d88babf18e68c236337c7e22c76cb68be8fe0`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Custom_Firmware--eed7f08a79341840/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Custom_Firmware--eed7f08a79341840/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-21c411d836013845"></a>
+
+## AMD_EDF_Migration
+
+- [官方/原始来源](https://edf.docs.amd.com/en/latest/petalinux-to-edf-migration-guide.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:20:36.728568+00:00`
+- `sha256`：`20d9bbd486eb57877d7bad9a0dddd648321b1b71e59c100ed80f161b3b0a6fee`
+- `original_sha256`：`c3c88e77fff1349e9279299411e25871c0d2a307ea757450f29ef50f3ecf8c3a`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Migration--21c411d836013845/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Migration--21c411d836013845/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-66ccb32d4be9da76"></a>
+
+## AMD_EDF_PL_Load
+
+- [官方/原始来源](https://edf.docs.amd.com/en/latest/seg/amd-edf-segmented-configuration-using-amd-yocto-project-recipes.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:25:25.821454+00:00`
+- `sha256`：`0f6c0508557bdf555528df3e88504743862c21e91f062363283f145949d988cc`
+- `original_sha256`：`eaf179834b9acb0203b9141c9cda39a2544b1421efacd507988c97fffc7ea955`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_PL_Load--66ccb32d4be9da76/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_PL_Load--66ccb32d4be9da76/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-6266e36b64ca923a"></a>
+
+## AMD_EDF_Segmented
+
+- [官方/原始来源](https://edf.docs.amd.com/en/latest/seg/segmented-configuration-or-dynamic-function-exchange.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:25:21.899764+00:00`
+- `sha256`：`4899ae8c459a10e70360cdaa299d07e7172abb10a1f2559470d955ba2ab369e5`
+- `original_sha256`：`191be236b0500ec4b22d26236cf287cef2fc49799802883342551ca44e3edde5`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Segmented--6266e36b64ca923a/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Segmented--6266e36b64ca923a/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-f34089a4561d5a26"></a>
+
+## AMD_EDF_Device_Tree
+
+- [官方/原始来源](https://edf.docs.amd.com/en/latest/shel/obtaining-linux-device-trees-from-the-shel-flow.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:37:00.492061+00:00`
+- `sha256`：`8ecdde75acfcb2fecd6602462dd25224fdf78823859b7697505f36fb249e0175`
+- `original_sha256`：`afdd3036d0ca56fe215ac33b23eb54b4bb8675ad3d9f04e163decf25c5163d2d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Device_Tree--f34089a4561d5a26/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Device_Tree--f34089a4561d5a26/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-043383d395a443d5"></a>
+
+## AMD_EDF_SHEL
+
+- [官方/原始来源](https://edf.docs.amd.com/en/latest/shel/software-hardware-exchange-loop-shel-flow.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:25:07.662531+00:00`
+- `sha256`：`18764b5b40021ac926787092af1ebceb490d0f923b4b90c01bfe62135d0fa067`
+- `original_sha256`：`6fffa8612fc4e0cdbb5e7b4b210c19e32ad5c6d3493af38beb36fc2a8a0878b7`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_SHEL--043383d395a443d5/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_SHEL--043383d395a443d5/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-d5517b0dc3c293f5"></a>
+
+## AMD_EDF_SHEL_XSA
+
+- [官方/原始来源](https://edf.docs.amd.com/en/latest/shel/using-the-shel-flow-to-create-a-yocto-project-machine-configuration-from-a-xsa-file.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:25:14.109447+00:00`
+- `sha256`：`e624ed153410fdbdebfed1dd877de12748a531d50e3466d8f29dccfae45dd2ee`
+- `original_sha256`：`ed6987b77e00fe29ce66f5a001c1a230a795f9b332f3f70a3eea550b93015037`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_SHEL_XSA--d5517b0dc3c293f5/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_SHEL_XSA--d5517b0dc3c293f5/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-85042ad719751d8d"></a>
+
+## AMD_EDF_Components
+
+- [官方/原始来源](https://edf.docs.amd.com/en/latest/yocto/building-components-from-source.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:36:57.191716+00:00`
+- `sha256`：`db09d494afdde813d17083548ffff1f4296afb01c0fc885085ab99a0bf4ac215`
+- `original_sha256`：`1bff3b62077fae3bb65965e41d70946095cb109e81bc3b9f87d9553aecf5d37f`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Components--85042ad719751d8d/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Components--85042ad719751d8d/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-afc80a35c4317f19"></a>
+
+## AMD_EDF_Zephyr
+
+- [官方/原始来源](https://edf.docs.amd.com/en/latest/zephyr/zephyr-processor-support.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:25:38.695373+00:00`
+- `sha256`：`a90e8cd69403a9b27d28148dc11ee13c69f3ea5533820f5510ea0532a1faea63`
+- `original_sha256`：`47c455018131eedeb8731691b3fba965e0c6f632b2ad50a7d511f48fb586bb82`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Zephyr--afc80a35c4317f19/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Zephyr--afc80a35c4317f19/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-9f7d87fbe987a7c3"></a>
+
+## AMD09_EU_AI_Act
+
+- [官方/原始来源](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T15:00:49.198282+00:00`
+
+<a id="ref-75facbfa5f616eeb"></a>
+
+## AMD05_Gazebo_Docs
+
+- [官方/原始来源](https://gazebosim.org/docs/harmonic/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T08:19:23.337121+00:00`
+- `sha256`：`2e877aedc6f6ebfd49cd7b287260a3676b03d544aba7faaffc8a4d5fa89371aa`
+- `original_sha256`：`5a0c5024279447f879427cab61eba04db7874cb0f4cc04f1b0260e3ac39db73e`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_Docs--75facbfa5f616eeb/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_Docs--75facbfa5f616eeb/original.response`
+
+<a id="ref-9bc18e7e70f7e0cc"></a>
+
+## AMD05_Gazebo_Migration
+
+- [官方/原始来源](https://gazebosim.org/docs/harmonic/migrating_gazebo_classic_ros2_packages/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T08:24:30.320454+00:00`
+- `sha256`：`96b4c385bc3d4e56f1e60c624ca63464e5c0c4adde970c976ef586d1e3f1150d`
+- `original_sha256`：`4c5190d63906126588db7fada1f1f069b4b983bac125abbd552fd32b6067bd56`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_Migration--9bc18e7e70f7e0cc/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_Migration--9bc18e7e70f7e0cc/original.response`
+
+<a id="ref-a3cce413441e10e6"></a>
+
+## AMD05_Gazebo_ROS
+
+- [官方/原始来源](https://gazebosim.org/docs/harmonic/ros2_integration/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T08:24:25.189587+00:00`
+- `sha256`：`c1ae21874573242b0bd172fdc397171d64813c81393dad9b6da239da6aab86ec`
+- `original_sha256`：`a2b607341db738f3fe07b818a9bdddc57c4d230e380c2579c8fc44e842c9f33c`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_ROS--a3cce413441e10e6/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_ROS--a3cce413441e10e6/original.response`
+
+<a id="ref-88ad3a901e3c8187"></a>
+
+## AMD05_Gazebo_Sensors
+
+- [官方/原始来源](https://gazebosim.org/docs/harmonic/sensors/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T08:24:20.941959+00:00`
+- `sha256`：`2eab6c8e8a991082c97acc9fc1b3f03ee2d24650e00d540e68fd5a9d709f11ea`
+- `original_sha256`：`97cb7474fd7fadcc909191a246632fb68157e0ff29a524d2b4d15fec2dc177ea`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_Sensors--88ad3a901e3c8187/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_Sensors--88ad3a901e3c8187/original.response`
+
+<a id="ref-5236cc66f04a1f38"></a>
+
+## AMD05_Genesis_Docs
+
+- [官方/原始来源](https://genesis-world.readthedocs.io/en/latest/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T08:24:43.133491+00:00`
+- `sha256`：`09a6b425714f3b2773f4cbaad2f4280969ee662f668272a9bd7370910a2d03d2`
+- `original_sha256`：`b037917ce361af7381246a0cee32ad2f75ee72d950f8a6106b787c7c5483a35f`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Docs--5236cc66f04a1f38/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Docs--5236cc66f04a1f38/original.response`
+
+<a id="ref-fa5d384f78ee7038"></a>
+
+## AMD04_MicroWorld_Code
+
+- [官方/原始来源](https://github.com/AMD-AGI/Micro-World)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:06:21.360703+00:00`
+- `sha256`：`a0ff7f3cbab1712bfe0458bbc8853abbf559eee48f43959bef987d3a9986555e`
+- `original_sha256`：`eb3ea0fccb30fa04cee1810b07a741f48a54772e3c87a6d1986d1e92ff755e92`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld_Code--fa5d384f78ee7038/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld_Code--fa5d384f78ee7038/original.response`
+- 未取得依赖：30 项；详见本地 metadata。
+
+<a id="ref-0a307a16ee5138ac"></a>
+
+## AMD04_Ryzers_Repo
+
+- [官方/原始来源](https://github.com/AMDResearch/Ryzers)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:43:00.408302+00:00`
+- `sha256`：`626af7fa99ba63d0e66771c1db7cbb0f11b12da8502450d2510e19f243f55fc5`
+- `original_sha256`：`2580d8b7e95e00d488a62448dc248459507f92bf2bd287e9aa7705e2b0a4f098`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Repo--0a307a16ee5138ac/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Repo--0a307a16ee5138ac/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-e8818e28234ae546"></a>
+
+## AMD04_Ryzers_License
+
+- [官方/原始来源](https://github.com/AMDResearch/Ryzers/blob/main/LICENSE)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:06:35.436798+00:00`
+- `sha256`：`40a30809e774ece56aa973354c6b23c8a9b51fb8a70ba82287fa74a68226ec7d`
+- `original_sha256`：`679e480201cca976a8129f8c91f9bc1621cb0eebce50a393244830a92b284d67`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_License--e8818e28234ae546/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_License--e8818e28234ae546/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-7e0b9377a9972a68"></a>
+
+## AMD04_Ryzers_LeRobot
+
+- [官方/原始来源](https://github.com/AMDResearch/Ryzers/blob/main/packages/robotics/lerobot)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T08:06:32.236749+00:00`
+
+<a id="ref-45499fd432ef4013"></a>
+
+## AMD04_Ryzers_Molmo
+
+- [官方/原始来源](https://github.com/AMDResearch/Ryzers/blob/main/packages/vla/molmoact2)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T08:06:30.305897+00:00`
+
+<a id="ref-e7350d67f7ac4985"></a>
+
+## AMD04_Ryzers_Molmo_Docker
+
+- [官方/原始来源](https://github.com/AMDResearch/Ryzers/blob/main/packages/vla/molmoact2/Dockerfile)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:10:24.938223+00:00`
+- `sha256`：`1799abb897e6e5db8763cdcd53f02bc33b9ee6cce9a8269b702b59693d02ebf8`
+- `original_sha256`：`9cd9014b8a727b703b1f058ab13a3e07ff1fc94cad770a515053b3da21b2b321`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Molmo_Docker--e7350d67f7ac4985/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Molmo_Docker--e7350d67f7ac4985/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-85865e82ea1b439c"></a>
+
+## AMD04_Ryzers_Molmo_Readme
+
+- [官方/原始来源](https://github.com/AMDResearch/Ryzers/blob/main/packages/vla/molmoact2/README.md)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:10:20.930880+00:00`
+- `sha256`：`817d29156bcb94e162b51534358d8ba08105625cff2172375d55a4135117e0c3`
+- `original_sha256`：`f65b112959c6a8d55d0b3f499914cb6eccdb60916035cbf61b60e8560f8ccd12`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Molmo_Readme--85865e82ea1b439c/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzers_Molmo_Readme--85865e82ea1b439c/original.response`
+- 未取得依赖：7 项；详见本地 metadata。
+
+<a id="ref-cc08eb18fe5de39f"></a>
+
+## AMD05_Ryzers_O3DE
+
+- [官方/原始来源](https://github.com/AMDResearch/Ryzers/tree/main/packages/graphics/o3de)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T08:19:42.404451+00:00`
+
+<a id="ref-98c6b46b9ae5e344"></a>
+
+## AMD05_Ryzers_Genesis
+
+- [官方/原始来源](https://github.com/AMDResearch/Ryzers/tree/main/packages/robotics/genesis)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T08:19:41.867712+00:00`
+
+<a id="ref-7eb6aa38889ef52b"></a>
+
+## AMD05_Ryzers_Gazebo
+
+- [官方/原始来源](https://github.com/AMDResearch/Ryzers/tree/main/packages/ros/gazebo)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T08:19:41.489043+00:00`
+
+<a id="ref-f0234b6590b813e3"></a>
+
+## AMD05_AUP_Repo
+
+- [官方/原始来源](https://github.com/AMDResearch/aup-learning-cloud)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:16:09.540167+00:00`
+- `sha256`：`a61c23e914e450fcef3404a21fe0c70e370a092a6c6916673749b83ad7fae92c`
+- `original_sha256`：`508d7e522a638fc4b4bcc45bba229156331e6c9506abbe1934639a9d8ce4b1ab`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_AUP_Repo--f0234b6590b813e3/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_AUP_Repo--f0234b6590b813e3/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-7cd63f6eb91eefb0"></a>
+
+## AMD05_Genesis_Repo
+
+- [官方/原始来源](https://github.com/Genesis-Embodied-AI/Genesis)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:15:46.876816+00:00`
+- `sha256`：`43ce4d609a24bfbaad29f7ea6eaba90ecd582de4c9e7b9fdf64afef91c6f3613`
+- `original_sha256`：`411716d5ed829107dfed388875a9eff0fdac2490eff86d33b70a858a15b6d767`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Repo--7cd63f6eb91eefb0/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Repo--7cd63f6eb91eefb0/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-75325b68cf5ab5d3"></a>
+
+## AMD_MIGraphX_Repo
+
+- [官方/原始来源](https://github.com/ROCm/AMDMIGraphX/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:12:51.962483+00:00`
+- `sha256`：`f5d3943be6495a07b21cd832cadead5a540e4014875edc93998523815ade9e74`
+- `original_sha256`：`74dd4be7936f9c9cb9acdc724daac6ead02b0266fa5e3c1b500989803b05d6d4`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Repo--75325b68cf5ab5d3/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Repo--75325b68cf5ab5d3/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-63e43ff5a8c0426e"></a>
+
+## AMD05_RGL_Repo
+
+- [官方/原始来源](https://github.com/RobotecAI/o3de-rgl-gem)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:19:18.090680+00:00`
+- `sha256`：`fa882a6950ababc1225acf12759f85cd824b2623e531638584fc56771c24ece8`
+- `original_sha256`：`32eb8235bd9bd46aefc0f9ca7a0a814b405ce52ca9484e53b1fbfdbaf1518593`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_RGL_Repo--63e43ff5a8c0426e/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_RGL_Repo--63e43ff5a8c0426e/original.response`
+- 未取得依赖：10 项；详见本地 metadata。
+
+<a id="ref-b9864133e62d0a8a"></a>
+
+## KRS_Official_Repo
+
+- [官方/原始来源](https://github.com/Xilinx/KRS)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:27:54.315115+00:00`
+- `sha256`：`78e06444d11168791e9cd8898a5ca1b4227a504495d87ad859d2349d37677e12`
+- `original_sha256`：`e1521a57b68c4e817b2e255ec3608d1a4b04cb7f212771af1c2f82a3130d51ef`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Official_Repo--b9864133e62d0a8a/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Official_Repo--b9864133e62d0a8a/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-532e4d1d7e1b35c2"></a>
+
+## KRS_License
+
+- [官方/原始来源](https://github.com/Xilinx/KRS/blob/main/LICENSE.txt)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:30:58.661812+00:00`
+- `sha256`：`3e6f8415368074acd9a10c49798806aeddce40214b78b93f676a10621d4db0f8`
+- `original_sha256`：`bc57f275ce06bd35eebee685c0ae016f4510ba56f0d42b482574ba3a4da5ced6`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_License--532e4d1d7e1b35c2/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_License--532e4d1d7e1b35c2/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-4e59035d5d9bdbf9"></a>
+
+## AMD_Vitis_Libraries
+
+- [官方/原始来源](https://github.com/Xilinx/Vitis_Libraries)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:16:10.556090+00:00`
+- `sha256`：`665e81a8a7da33b110727efbc29668dcac72db1d252440b4c0cddc90b653d268`
+- `original_sha256`：`2e3f6ca5cc3a932a7c00a492a90f7a796c9f50116bd5131d8fe3ca4168218a92`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Vitis_Libraries--4e59035d5d9bdbf9/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Vitis_Libraries--4e59035d5d9bdbf9/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-ad9c9eb7d28ce8c4"></a>
+
+## AMD_CSI2_Driver
+
+- [官方/原始来源](https://github.com/Xilinx/linux-xlnx/blob/master/drivers/media/platform/xilinx/xilinx-csi2rxss.c)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:11:12.988335+00:00`
+- `sha256`：`80dc7f9a8b70ec6311492a45441a5c24684750c988d77b090ef4be1fbadf6a5e`
+- `original_sha256`：`55bed353b3d24afcca0ee878eef45697ef04d0776bff71961b525aec797df9cd`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_CSI2_Driver--ad9c9eb7d28ce8c4/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_CSI2_Driver--ad9c9eb7d28ce8c4/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-02b50d77f6328b6e"></a>
+
+## AMD_Video_DMA_Driver
+
+- [官方/原始来源](https://github.com/Xilinx/linux-xlnx/blob/master/drivers/media/platform/xilinx/xilinx-dma.c)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:11:17.254928+00:00`
+- `sha256`：`48964724b6cac576f21beaa12dcfe160b092b707e849aba8ec8ed018bb5b9792`
+- `original_sha256`：`0468a30cf64d05acb41b4979b1ffaa104227ccd3a75c14f95d4fee0ed2ded59a`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Video_DMA_Driver--02b50d77f6328b6e/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Video_DMA_Driver--02b50d77f6328b6e/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-d8a68a736295ae54"></a>
+
+## AMD08_IRON_Repo
+
+- [官方/原始来源](https://github.com/Xilinx/mlir-aie)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T09:16:13.779206+00:00`
+- `sha256`：`a5a9378c57002b47a244e74c75306424ea31e07c4f22e0b67c4fdf8877604d0c`
+- `original_sha256`：`3250816d3bc1936a05bb9b37aae3fcabf618854d25a5fb58e3ad22ccab3cb4c2`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Repo--d8a68a736295ae54/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Repo--d8a68a736295ae54/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-c8bea0c624cf4216"></a>
+
+## AMD08_IRON_License
+
+- [官方/原始来源](https://github.com/Xilinx/mlir-aie/blob/main/LICENSE)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T09:16:37.496428+00:00`
+- `sha256`：`b0c9c2783ba6aa92c35b1060fad2c9fea0f429dde09675ed6821e8e8233fd664`
+- `original_sha256`：`3b78f1848a5c68a292a167b689d02e81f2380f4437feda400bee2c8ec81045f7`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_License--c8bea0c624cf4216/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_License--c8bea0c624cf4216/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-194dfcfdf81c0673"></a>
+
+## AMD08_IRON_Devices
+
+- [官方/原始来源](https://github.com/Xilinx/mlir-aie/blob/main/docs/Devices.md)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T09:16:30.834526+00:00`
+- `sha256`：`29409c0bb1115ffdfdb592de6d93e7b9d2f521ec1f1c860d74bf98147aafe9a5`
+- `original_sha256`：`de985bbd59590b71b7dadc8cb36c23da21477aeecbcdcbb4b4174a9fbe9b4c30`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Devices--194dfcfdf81c0673/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Devices--194dfcfdf81c0673/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-c23530c876cdd5b8"></a>
+
+## AMD08_IRON_Architecture
+
+- [官方/原始来源](https://github.com/Xilinx/mlir-aie/blob/main/skills/aie-iron-design/references/architecture.md)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T09:16:34.036120+00:00`
+- `sha256`：`489b114f3d91b3238b1ca7527bb173a0ea8c8be17825d80c5fae3a555807ac18`
+- `original_sha256`：`90cbcdf4eba1b5bd8fa6c1689601e2f772b02a837085c9fe1cf1abf6a6a1652f`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Architecture--c23530c876cdd5b8/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Architecture--c23530c876cdd5b8/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-e34ec950b22ac17c"></a>
+
+## AMD_IMX547_Repo
+
+- [官方/原始来源](https://github.com/Xilinx/mv-camera-sensor-module)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:11:21.480488+00:00`
+- `sha256`：`d191a9d899b068b9918f5e32a884b50c5751c747b721068d1ed6bd98b32755a1`
+- `original_sha256`：`3c1950b3836e03979c3080ee56da5291fbd4669beb328cab8e2cd724355e2e14`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Repo--e34ec950b22ac17c/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Repo--e34ec950b22ac17c/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-a70793bef10e3c26"></a>
+
+## AMD_IMX547_License
+
+- [官方/原始来源](https://github.com/Xilinx/mv-camera-sensor-module/blob/main/LICENSE.md)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:17:39.866620+00:00`
+- `sha256`：`fdb8c917e73c3b8c5edc6d9a9632db7066719621aebf48c4a1d7d133a05bd4f5`
+- `original_sha256`：`f3b00d0d9994f98811a913f38bf8ae98b48eb2f80bbc11fa23b0a3b4e9a050dc`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_License--a70793bef10e3c26/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_License--a70793bef10e3c26/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-253f622abc918fe3"></a>
+
+## AMD_IMX547_Readme
+
+- [官方/原始来源](https://github.com/Xilinx/mv-camera-sensor-module/blob/main/README.md)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:17:45.851952+00:00`
+- `sha256`：`fbfa72ed139635b1bd71fc83075b01b0fb4b0b5ac4bf32e437aa14452f9ff0e7`
+- `original_sha256`：`f7963fe9654ba6d17ecbeaa48ea45c820c960fce29a4a54f79b3d77cba74d39d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Readme--253f622abc918fe3/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Readme--253f622abc918fe3/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-b287fa98ab5f5da2"></a>
+
+## AMD_Ross_Repository
+
+- [官方/原始来源](https://github.com/Xilinx/ross-ai-assistant)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:20:52.672390+00:00`
+- `sha256`：`2fc9f75ef86cb5b786fe789ae23ec9c84af3236233ecb54ab002e01391a811a3`
+- `original_sha256`：`b4f38953d50c3d93404ca28ffc38db171cf319d8b8cdb4d1bca230a181f0fb5e`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Ross_Repository--b287fa98ab5f5da2/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Ross_Repository--b287fa98ab5f5da2/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-1d05dca2a2caa2c8"></a>
+
+## AMD_ISP_Repo
+
+- [官方/原始来源](https://github.com/Xilinx/xilinx-isp-module)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:11:24.226674+00:00`
+- `sha256`：`0f244036978ce8b79389e50bb7a195898bf3386b3cfb003151fad24afb6dc7df`
+- `original_sha256`：`83f9d913d878145c45df935f0170c990f33bc4d233f8e2a032bf3b07f4ccfd37`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ISP_Repo--1d05dca2a2caa2c8/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ISP_Repo--1d05dca2a2caa2c8/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-86b637f43077fc3d"></a>
+
+## AMD_ISP_License
+
+- [官方/原始来源](https://github.com/Xilinx/xilinx-isp-module/blob/main/LICENSE.md)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:17:48.558886+00:00`
+- `sha256`：`737543bf3b9b833fb33e8c578009c255a6d6e84f14623800a76d2cf0691e00a2`
+- `original_sha256`：`7814ded746d4e9a90c7460213ea89209f519a14d3abd7e9a3389eea3d065f5df`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ISP_License--86b637f43077fc3d/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ISP_License--86b637f43077fc3d/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-725cb58851f7f747"></a>
+
+## AMD_ISP_Readme
+
+- [官方/原始来源](https://github.com/Xilinx/xilinx-isp-module/blob/main/README.md)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:17:51.882441+00:00`
+- `sha256`：`dedda07b4e9c96e503a7aa1889476129afd37467f97d0b63a0f5b032bb916fe1`
+- `original_sha256`：`c9dbf8f369c4446b7cc9a36b7ee1d57d4377b88c5ff4255dbdcb82559699e469`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ISP_Readme--725cb58851f7f747/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ISP_Readme--725cb58851f7f747/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-6409939834836085"></a>
+
+## AMD04_VLM_Readme
+
+- [官方/原始来源](https://github.com/amd/RyzenAI-SW/blob/main/LLM-examples/VLM/README.md)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:44:52.870057+00:00`
+- `sha256`：`0ffef4e62a0ea3e677ffe0959af250cdc41245fec2b8c095dc6edf1229d24e4a`
+- `original_sha256`：`fdd47b5c40a8789b796b88b54797c2798f27e14099fed7873a83510abca26fc0`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_VLM_Readme--6409939834836085/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_VLM_Readme--6409939834836085/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-6f468e1cefb8728d"></a>
+
+## OpenNav_Full_Report
+
+- [官方/原始来源](https://github.com/open-navigation/opennav_robotics_workload_benchmark/blob/main/docs/Robotics%20Workload%20Platform%20Benchmarking%20Results.pdf?raw=true)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T04:54:48.112408+00:00`
+
+<a id="ref-abd1d78ebefc2f1d"></a>
+
+## KRS_Stream_Rectify_Kernel
+
+- [官方/原始来源](https://github.com/ros-acceleration/image_pipeline/blob/ros2/image_proc/src/image_proc/xf_rectify_accel_streamlined.cpp)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:51:44.969733+00:00`
+- `sha256`：`aced21c78596665bd8ac14a79b1705d9b1d73789ebfabe297c8c8377c851dbfb`
+- `original_sha256`：`fdc32bfa82d2fc52ed0c66782ebdbd5e726a33d56cc316a1452d0c34be8fe1ba`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Rectify_Kernel--abd1d78ebefc2f1d/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Rectify_Kernel--abd1d78ebefc2f1d/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-65569d1c1c0e806a"></a>
+
+## KRS_Stream_Resize_Kernel
+
+- [官方/原始来源](https://github.com/ros-acceleration/image_pipeline/blob/ros2/image_proc/src/image_proc/xf_resize_accel_streamlined.cpp)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:51:48.500194+00:00`
+- `sha256`：`2527af7b17e5e1629983ae2d5201097df5583226b7d5bf70904f25daa40d30e5`
+- `original_sha256`：`d89f12fa3a8bf811f40f7795708b255a8b76a952e89de72594056731a6a137e4`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Resize_Kernel--65569d1c1c0e806a/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Resize_Kernel--65569d1c1c0e806a/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-524ae2f788fb7bb4"></a>
+
+## KRS_Stream_Rectify_Source
+
+- [官方/原始来源](https://github.com/ros-acceleration/image_pipeline/blob/ros2/image_proc/src/rectify_fpga_streamlined.cpp)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:51:36.313116+00:00`
+- `sha256`：`0804bd8feef776b9af47194632092dc887563733737b22d5d326c9a7a5476cab`
+- `original_sha256`：`a05f9fc40129230dde791eef7c51e72983d9737e3f70886c1d4b46dbb33009b9`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Rectify_Source--524ae2f788fb7bb4/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Rectify_Source--524ae2f788fb7bb4/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-8432f3a2aef844bb"></a>
+
+## KRS_Stream_Resize_Source
+
+- [官方/原始来源](https://github.com/ros-acceleration/image_pipeline/blob/ros2/image_proc/src/resize_fpga_streamlined.cpp)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:51:41.311526+00:00`
+- `sha256`：`03216224b22b2c3dece3ab475822fb0f48b01843823f9cae1fd7e2b2ea1bf2c0`
+- `original_sha256`：`34818b0649ef0168618f0b43f04b4a86dd692d77e4851718d6df28a2d03f03ae`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Resize_Source--8432f3a2aef844bb/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Stream_Resize_Source--8432f3a2aef844bb/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-09e493b628df71c3"></a>
+
+## KRS_Repository
+
+- [官方/原始来源](https://github.com/ros-acceleration/kria_robotics_stack)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T05:20:47.650045+00:00`
+
+<a id="ref-e25cb05c8dc66136"></a>
+
+## AMD06_XArm_SDK
+
+- [官方/原始来源](https://github.com/xArm-Developer/xArm-Python-SDK)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:34:08.390296+00:00`
+- `sha256`：`d6375d80e606b63f16d6e5b22f8e4e909540f111360a6f35b27a56fbe1c8ee8f`
+- `original_sha256`：`98a6019818e41925d6da1290921015264f6625da59acab626ab2b3a02d917ba5`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_SDK--e25cb05c8dc66136/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_SDK--e25cb05c8dc66136/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-a183d09b01dcdd76"></a>
+
+## AMD06_XArm_License
+
+- [官方/原始来源](https://github.com/xArm-Developer/xArm-Python-SDK/blob/master/LICENSE)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:42:11.407511+00:00`
+- `sha256`：`d069d8bc825aaae159cb56c12c37d5e7a8de8387488c50ea15fb0137230d7d23`
+- `original_sha256`：`be714b83ab2ebcf78e7d1cd0b6fd69448ad48c30c8c215a64a9694bf7bad3193`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_License--a183d09b01dcdd76/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_License--a183d09b01dcdd76/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-12caf785b00a75df"></a>
+
+## AMD06_XArm_API
+
+- [官方/原始来源](https://github.com/xArm-Developer/xArm-Python-SDK/blob/master/doc/api/xarm_api.md)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:42:06.547969+00:00`
+- `sha256`：`bdc4dd79a0effc33b4d0d2e72482b74304d5c0a2e462f200c42db7e9b8d071a6`
+- `original_sha256`：`91f343a401bca19cfe0318f0bb7b344ff42f0786ed4f7ee53af5a1a79b68c170`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_API--12caf785b00a75df/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_API--12caf785b00a75df/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-4541030eb1186466"></a>
+
+## AMD06_XArm_API_Raw
+
+- [官方/原始来源](https://github.com/xArm-Developer/xArm-Python-SDK/raw/refs/heads/master/doc/api/xarm_api.md)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T08:44:50.884204+00:00`
+
+<a id="ref-5d3f2eaab6418a1a"></a>
+
+## AMD04_Molmo2_Card
+
+- [官方/原始来源](https://huggingface.co/allenai/MolmoAct2)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:07:24.392845+00:00`
+- `sha256`：`4a80016cb6156cc81ea8465a7ad22cae30a7d0d4982a4b356e84af038ffe7b1f`
+- `original_sha256`：`75b800bc93133e4226379f78e4979137e37cc5b8be2c328bd910ef5fc28e05a1`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Molmo2_Card--5d3f2eaab6418a1a/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Molmo2_Card--5d3f2eaab6418a1a/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-1617a6ef34937e7e"></a>
+
+## AMD04_MicroWorld_Card
+
+- [官方/原始来源](https://huggingface.co/amd/Micro-World-2)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:51:28.371617+00:00`
+- `sha256`：`2dc517cc015259c13f4b9e1b1716e17a41f540415f128f58e9972afe78d2e5f8`
+- `original_sha256`：`6178cedef27efec7c6ce8dc8a453872bf816468d3b41e95dd9d8bc9005a5a19a`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld_Card--1617a6ef34937e7e/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld_Card--1617a6ef34937e7e/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-5aff46b6c3b6fb83"></a>
+
+## AMD04_QwenVL_Card
+
+- [官方/原始来源](https://huggingface.co/amd/Qwen3-VL-4B-Instruct_rai_1.9.0_npu)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:44:40.698992+00:00`
+- `sha256`：`21976a94333d6b4169e6595c76977a6673a8504e4d965d07bb26e878321dccdb`
+- `original_sha256`：`fadf6de5540ea38e38b2368a76c4874d8ae54b75f85902fdb646fa5efa6051cd`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_QwenVL_Card--5aff46b6c3b6fb83/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_QwenVL_Card--5aff46b6c3b6fb83/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-20f7d4289f893ec9"></a>
+
+## AMD04_Videochat_Verified
+
+- [官方/原始来源](https://huggingface.co/amd/VideoChat-Flash-Qwen2_5-7B_InternVideo2-1B_rai_1.9.0_npu)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:06:42.212832+00:00`
+- `sha256`：`87b13dc200c8c6cc29ebe69bf1fb6efe5b662047be8a5655724e8d56f9be72a0`
+- `original_sha256`：`83122952838d8249c55e65bc53624e27761f790a84796e6aaa85294dc00709c9`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Videochat_Verified--20f7d4289f893ec9/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Videochat_Verified--20f7d4289f893ec9/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-197b6f14edd46d46"></a>
+
+## AMD04_Videochat_Card
+
+- [官方/原始来源](https://huggingface.co/amd/Videochat_rai_1.9.0_npu)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T07:44:47.491127+00:00`
+
+<a id="ref-322067806072fc84"></a>
+
+## AMD04_EmbeddingGemma_Card
+
+- [官方/原始来源](https://huggingface.co/amd/embeddinggemma_npu_rai_1.9.0_npu)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T07:44:50.345577+00:00`
+
+<a id="ref-ca0be4c4e15dfd4c"></a>
+
+## AMD04_GPTOSS_Card
+
+- [官方/原始来源](https://huggingface.co/amd/gpt-oss-20b-onnx_cpu_rai_1.9.0_npu)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T07:44:45.016758+00:00`
+
+<a id="ref-4ccdf7361c14fa96"></a>
+
+## AMD04_GPTOSS_Verified
+
+- [官方/原始来源](https://huggingface.co/amd/gpt-oss-20b_rai_1.9.0_npu)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:06:39.419627+00:00`
+- `sha256`：`27b86a11382c02bc7625433454f38c70b8a252e69211d5e137cb53c6dde537bf`
+- `original_sha256`：`f547de7cc7e824e8aa4d2d9638754bc9951216aebc53a4859baf5ae2b1241d28`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_GPTOSS_Verified--4ccdf7361c14fa96/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_GPTOSS_Verified--4ccdf7361c14fa96/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-05d2144433457fa5"></a>
+
+## AMD04_Molmo_Collection
+
+- [官方/原始来源](https://huggingface.co/collections/allenai/molmoact)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:43:10.226348+00:00`
+- `sha256`：`93f6ea52f491333f1cecee891c5b0d64d5c494b4c01698e25c5e4f72b7fe91da`
+- `original_sha256`：`f1ba9db830584353463def707e3cdf29579a54067ccea2b523c2c94cfd2f8270`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Molmo_Collection--05d2144433457fa5/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Molmo_Collection--05d2144433457fa5/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-fde6bd2568877a2b"></a>
+
+## AMD04_Molmo2_Collection
+
+- [官方/原始来源](https://huggingface.co/collections/allenai/molmoact2-models)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:06:26.865060+00:00`
+- `sha256`：`6973722e4b5c2b4190f67b2e3c412b8c9378da4fbb805d3099b08f62706a9a57`
+- `original_sha256`：`e6e46c737cdf76f7e8f09c10baa8d3a5d898139dae284d0b24e779944b435dc5`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Molmo2_Collection--fde6bd2568877a2b/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Molmo2_Collection--fde6bd2568877a2b/original.response`
+- 未取得依赖：8 项；详见本地 metadata。
+
+<a id="ref-896059084d2234d6"></a>
+
+## AMD04_Ryzen_Collection
+
+- [官方/原始来源](https://huggingface.co/collections/amd/ryzen-ai-190-npu)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:44:32.283643+00:00`
+- `sha256`：`204bc01fa67bf5a63881ec518c818b293d49f83aa54e8434dc90a4740dbc80c2`
+- `original_sha256`：`39a0ebe648c1cc02bfd449701aa223253402471a386c591e566beee008c79d31`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzen_Collection--896059084d2234d6/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Ryzen_Collection--896059084d2234d6/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-431ce29883836091"></a>
+
+## AMD04_MicroWorld_Data
+
+- [官方/原始来源](https://huggingface.co/datasets/amd/Micro-World-Capsaicin)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:05:35.758551+00:00`
+- `sha256`：`774d645c09546dd8b48928998e9b6a018c3d97f147a044313247a9567df65b02`
+- `original_sha256`：`3c947dcec37beb31aa4bab581add48c5a694fc0a9ba1782e1db83b7d97c846f0`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld_Data--431ce29883836091/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld_Data--431ce29883836091/original.response`
+- 未取得依赖：89 项；详见本地 metadata。
+
+<a id="ref-0d0098d61680024c"></a>
+
+## AMD09_IR_Annual
+
+- [官方/原始来源](https://ir.amd.com/financial-information/annual-reports-and-proxy-statements)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T14:58:46.747307+00:00`
+
+<a id="ref-372b105778401604"></a>
+
+## AMD09_IR_SEC
+
+- [官方/原始来源](https://ir.amd.com/financial-information/sec-filings)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T15:00:07.614374+00:00`
+
+<a id="ref-50bc861c2b70fd1e"></a>
+
+## Model05_NVIDIA_08_DEEP_MUJOCO_COMPUTATION
+
+- [官方/原始来源](https://mujoco.readthedocs.io/en/stable/computation/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:17:21.533924+00:00`
+- `sha256`：`7f7cc095087b5da216e49f7ea73f6702ab19b0a921e423d0c38736d540c1542e`
+- `original_sha256`：`d0de3b83098ad6da53968420ff1fff6b40026c69d6b61ed375b3956195649ade`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Model05_NVIDIA_08_DEEP_MUJO--50bc861c2b70fd1e/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Model05_NVIDIA_08_DEEP_MUJO--50bc861c2b70fd1e/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-63a58dbcc0c84e67"></a>
+
+## Model05_NVIDIA_08_DEEP_MUJOCO_MJX
+
+- [官方/原始来源](https://mujoco.readthedocs.io/en/stable/mjx.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:17:41.969942+00:00`
+- `sha256`：`e8e1601c320ac1ae68b69db1c14ba22ab63c71fe4feabc3202b440b0fa873494`
+- `original_sha256`：`cf262f7b90455325ea10e6de0df15e559d7338ee2e6303531615e46ebadcd4ec`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Model05_NVIDIA_08_DEEP_MUJO--63a58dbcc0c84e67/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Model05_NVIDIA_08_DEEP_MUJO--63a58dbcc0c84e67/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-745c39f10cd62e88"></a>
+
+## AMD05_Mujoco_Overview
+
+- [官方/原始来源](https://mujoco.readthedocs.io/en/stable/overview.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:19:36.903836+00:00`
+- `sha256`：`73b9c9e784f800fffbad971a217a7cec74fda186313f2651dfffa7ea65d20d16`
+- `original_sha256`：`311692edda53193e522e0ce5f50adea0e90e049e525718ab70148889d4941af2`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Mujoco_Overview--745c39f10cd62e88/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Mujoco_Overview--745c39f10cd62e88/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-92f0edac02f9568a"></a>
+
+## AMD06_GB_News
+
+- [官方/原始来源](https://news.gbionics.ai/)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T08:38:12.482366+00:00`
+
+<a id="ref-f7a725576c05341c"></a>
+
+## AMD06_GB_CES
+
+- [官方/原始来源](https://news.gbionics.ai/?article=ces-2026&lang=en)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T08:39:07.477181+00:00`
+
+<a id="ref-2fb7fc115d705cd7"></a>
+
+## AMD06_GB_Factory
+
+- [官方/原始来源](https://news.gbionics.ai/?article=data-factory&lang=en)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T08:39:10.996127+00:00`
+
+<a id="ref-69d5b59612f29eb9"></a>
+
+## AMD06_GB_Eni
+
+- [官方/原始来源](https://news.gbionics.ai/?article=eni&lang=en)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T08:39:09.833840+00:00`
+
+<a id="ref-b3f741067292f966"></a>
+
+## AMD06_GB_Fincantieri
+
+- [官方/原始来源](https://news.gbionics.ai/?article=fincantieri&lang=en)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T08:39:08.653342+00:00`
+
+<a id="ref-0d1d9fe07b3feba3"></a>
+
+## AMD06_GB_Gene01
+
+- [官方/原始来源](https://news.gbionics.ai/?article=gene-01-comes-to-life&lang=en)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T08:39:05.539602+00:00`
+
+<a id="ref-dd3038ff446431b9"></a>
+
+## Compare_NITROS
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/concepts/nitros/index.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T06:13:49.836952+00:00`
+
+<a id="ref-a74b452c91c23559"></a>
+
+## Compare_ROS_Buffer
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/nitros_migration.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:46:24.517134+00:00`
+- `sha256`：`7871bd97b8cf1c919b25b985092305227752bdc5cf966935bddc75df88269635`
+- `original_sha256`：`5e162620b5c2b55b02b973065f8909ec0077a585a733fbc831a0c28f9bca28aa`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_ROS_Buffer--a74b452c91c23559/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Compare_ROS_Buffer--a74b452c91c23559/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-7c0bbc26d0dd5129"></a>
+
+## AMD05_O3DE_Robotics
+
+- [官方/原始来源](https://o3de.org/industries/robotics-and-simulations/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:18:20.576439+00:00`
+- `sha256`：`6ad9f07a01e86595cf4f994267b173d9deacf7cdf4bce4e10054bfade1296d05`
+- `original_sha256`：`568217f47ba09902b5e8ab4d7168c17ccac04f854b73a300384c63df0b6bae42`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Robotics--7c0bbc26d0dd5129/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Robotics--7c0bbc26d0dd5129/original.response`
+- 未取得依赖：5 项；详见本地 metadata。
+
+<a id="ref-6f04b8c8b396c18f"></a>
+
+## OpenNav_Robotics_Benchmark
+
+- [官方/原始来源](https://opennav.org/news/opennav-robotics-workload-benchmark)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T04:50:06.224916+00:00`
+- `sha256`：`924752ca88850ff4f316a1fc99ff19c820796c7cae1eede875fb3d7ff43c31cb`
+- `original_sha256`：`37aefe24857cf5e18b93fbe8e7c00908305dcd9c64a6c1dd88f0eb16a8a885f0`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/OpenNav_Robotics_Benchmark--6f04b8c8b396c18f/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/OpenNav_Robotics_Benchmark--6f04b8c8b396c18f/original.response`
+
+<a id="ref-e7cd0f7672820186"></a>
+
+## AMD_Quark_License
+
+- [官方/原始来源](https://quark.docs.amd.com/latest/license.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:24:58.802458+00:00`
+- `sha256`：`bc63804469941660a6d8b5c3dca8c54a64d8fa3e9bb5c40df488c3328ade0aca`
+- `original_sha256`：`9e5db5ab9a7e0ec112513cd2d4021fe09dc8c551af12132bd7f93e3bf6d39f6a`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_License--e7cd0f7672820186/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_License--e7cd0f7672820186/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-5aca02ace82f0db0"></a>
+
+## AMD_Quark_SmoothQuant
+
+- [官方/原始来源](https://quark.docs.amd.com/latest/onnx/accuracy_algorithms/sq.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:24:53.212004+00:00`
+- `sha256`：`8207d8c8d3d06cadfef178fabc9984d4648fc3e50e4a4b1cbbfebb44a86aba6e`
+- `original_sha256`：`12515b021dad8102ab9833d2ec5a7b5171081377da5112c9101716cf7ca16c8f`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_SmoothQuant--5aca02ace82f0db0/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_SmoothQuant--5aca02ace82f0db0/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-c20ab50fa21e9a09"></a>
+
+## AMD_Quark_Schemes
+
+- [官方/原始来源](https://quark.docs.amd.com/latest/onnx/config/quantization_schemes.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:24:51.475899+00:00`
+- `sha256`：`2323f74994412968b4a9adf0307b54bffdb830dd304775e7da6d07ea1dd088b1`
+- `original_sha256`：`c0fbff6c5a17dd2cde1deb4b6c23d02b23def5021ecaea0a3541a0cf44e059ea`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_Schemes--c20ab50fa21e9a09/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_Schemes--c20ab50fa21e9a09/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-eceb0738118bf4ec"></a>
+
+## AMD_Quark_Search
+
+- [官方/原始来源](https://quark.docs.amd.com/latest/onnx/user_guide_auto_search.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:24:55.340431+00:00`
+- `sha256`：`03a41bbd54e9e2b2acf4cbd267c883b68c1d4e6271923442276072034d9077b0`
+- `original_sha256`：`c7968b814a86b5db078104b8130c827afa2719f5af40d73a98efada786c170a1`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_Search--eceb0738118bf4ec/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_Search--eceb0738118bf4ec/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-b4ec993645c01201"></a>
+
+## AMD_Quark_RyzenAI
+
+- [官方/原始来源](https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:31:05.887431+00:00`
+- `sha256`：`d128432a9ac4913804afc4edb4825d6163a1e5aad4cc48d4583ad633814c06c5`
+- `original_sha256`：`abce528955cb96be9b1b4f0d0226806796d37743c334fbd3f356bb036096ec19`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_RyzenAI--b4ec993645c01201/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_RyzenAI--b4ec993645c01201/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-52bdde32508629c8"></a>
+
+## AMD_Quark_A16W8
+
+- [官方/原始来源](https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_a8w8_and_a16w8_quantize.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:24:48.220480+00:00`
+- `sha256`：`efd43934da1e4d119485d26b777fa593ea89c9b382aca106f9b67fa8188a40a5`
+- `original_sha256`：`46847e12449d6fa90ce05f686e14ecc409bc08a18f833cf6de0e0de81aaf4afb`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_A16W8--52bdde32508629c8/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_A16W8--52bdde32508629c8/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-da39f2f8b3488490"></a>
+
+## AMD_Quark_XINT8
+
+- [官方/原始来源](https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/tutorial_xint8_quantize.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:24:44.099179+00:00`
+- `sha256`：`b8a646a4a855d3dd6d264f54df400ff29fecb9d921233f6da39416022272f5f4`
+- `original_sha256`：`11f5c57aec584821af9062a05358115fdc57d58541cf6f649d498f7c35bb227d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_XINT8--da39f2f8b3488490/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Quark_XINT8--da39f2f8b3488490/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-93ae0cec36eeb1cd"></a>
+
+## Model04_NVIDIA_04_EXP_OPENPI_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:48:24.870768+00:00`
+- `sha256`：`567fc57766bd736664f50126cab8145af4071ca16cc5e238f2b11e369169c3b5`
+- `original_sha256`：`567fc57766bd736664f50126cab8145af4071ca16cc5e238f2b11e369169c3b5`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_OPENPI_RE--93ae0cec36eeb1cd/content.md`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_OPENPI_RE--93ae0cec36eeb1cd/original.response`
+
+<a id="ref-e0c2cad03f683ff0"></a>
+
+## Model04_NVIDIA_04_EXP_OPENPI_LIBERO
+
+- [官方/原始来源](https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/examples/libero/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:48:27.637525+00:00`
+- `sha256`：`a2caaf5459c4b01837b73aa93a6f69e8cdf10385b39c34eba36afa85f83fafe9`
+- `original_sha256`：`a2caaf5459c4b01837b73aa93a6f69e8cdf10385b39c34eba36afa85f83fafe9`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_OPENPI_LI--e0c2cad03f683ff0/content.md`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_OPENPI_LI--e0c2cad03f683ff0/original.response`
+
+<a id="ref-ff1eedfea7364372"></a>
+
+## Model04_NVIDIA_04_EXP_LEROBOT_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/huggingface/lerobot/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:48:26.254240+00:00`
+- `sha256`：`19f89b043842b99c1a1be12e918f37821a98077db95e048c199e715419c3e155`
+- `original_sha256`：`19f89b043842b99c1a1be12e918f37821a98077db95e048c199e715419c3e155`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_LEROBOT_R--ff1eedfea7364372/content.md`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_LEROBOT_R--ff1eedfea7364372/original.response`
+
+<a id="ref-1f4d00470e7e7396"></a>
+
+## Model04_NVIDIA_04_DEEP_SMOL_VERIFIED
+
+- [官方/原始来源](https://raw.githubusercontent.com/huggingface/lerobot/main/docs/source/policy_smolvla_README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:48:37.727159+00:00`
+- `sha256`：`518995d5cb706f7e70e8aa606b71c53279f6d6cf6ed8a988c15bb903cc5af16c`
+- `original_sha256`：`518995d5cb706f7e70e8aa606b71c53279f6d6cf6ed8a988c15bb903cc5af16c`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_DEEP_SMOL_VER--1f4d00470e7e7396/content.md`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_DEEP_SMOL_VER--1f4d00470e7e7396/original.response`
+
+<a id="ref-55182f0cb8551ce1"></a>
+
+## Model04_NVIDIA_07_DEEP_LEROBOT_FIG
+
+- [官方/原始来源](https://raw.githubusercontent.com/huggingface/lerobot/main/media/readme/VLA_architecture.jpg)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:48:46.006447+00:00`
+- `sha256`：`a54f82e318e0a9c0c6bbd1ef099685518f001d5bf3a5f341d6d2090994e7cb43`
+- `original_sha256`：`a54f82e318e0a9c0c6bbd1ef099685518f001d5bf3a5f341d6d2090994e7cb43`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_07_DEEP_LEROBOT_--55182f0cb8551ce1/content.jpg`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_07_DEEP_LEROBOT_--55182f0cb8551ce1/original.response`
+
+<a id="ref-4a932803c0397a9f"></a>
+
+## Model04_NVIDIA_04_EXP_OPENVLA_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/openvla/openvla/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:48:23.475115+00:00`
+- `sha256`：`ba8e9a2884e38a8000dafc98af4116512e37b0e143dad2f940100482bfd6b75c`
+- `original_sha256`：`ba8e9a2884e38a8000dafc98af4116512e37b0e143dad2f940100482bfd6b75c`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_OPENVLA_R--4a932803c0397a9f/content.md`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_OPENVLA_R--4a932803c0397a9f/original.response`
+
+<a id="ref-ede4a40dcadbce0c"></a>
+
+## Model04_NVIDIA_04_EXP_DIFFUSION_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/real-stanford/diffusion_policy/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:48:30.522054+00:00`
+- `sha256`：`51b6717d694a4ea4b476cf07c64651dc58643402beb0a27cda38a87cc58334b0`
+- `original_sha256`：`51b6717d694a4ea4b476cf07c64651dc58643402beb0a27cda38a87cc58334b0`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_DIFFUSION--ede4a40dcadbce0c/content.md`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_DIFFUSION--ede4a40dcadbce0c/original.response`
+
+<a id="ref-1b21ddbac18a2bb3"></a>
+
+## Model04_NVIDIA_04_EXP_ACT_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/tonyzhaozh/act/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:48:28.998638+00:00`
+- `sha256`：`5059f601c1f0409556fd467150b99e93208de5d5594e9049f87ca92b24a5e7a2`
+- `original_sha256`：`5059f601c1f0409556fd467150b99e93208de5d5594e9049f87ca92b24a5e7a2`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_ACT_READM--1b21ddbac18a2bb3/content.md`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/data/Model04_NVIDIA_04_EXP_ACT_READM--1b21ddbac18a2bb3/original.response`
+
+<a id="ref-42328450fe78db3f"></a>
+
+## AMD04_MicroWorld2
+
+- [官方/原始来源](https://rocm.blogs.amd.com/artificial-intelligence/Micro-World-V2/README.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:50:03.501219+00:00`
+- `sha256`：`6090170c3945842dc41b8f416fb45b0370e0d44249bb71cf86da9dfb922cfe3f`
+- `original_sha256`：`8fda01892230a25e50f711cdd78d3e6adc2a89bfeda803fa3b3312326327d318`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld2--42328450fe78db3f/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MicroWorld2--42328450fe78db3f/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-e959dfd55aca08ba"></a>
+
+## AMD04_MolmoAct_Blog
+
+- [官方/原始来源](https://rocm.blogs.amd.com/artificial-intelligence/molmoact2-ryzers-strix/README.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:41:28.041029+00:00`
+- `sha256`：`9e3dce7caac81c4823ddf96c0cc3eafd1be6205de6d61ce10f920ad6ab5cd256`
+- `original_sha256`：`2e5c0d8164e1b5db379ab1a9927651447199adc0103432ce45054ec85287c137`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MolmoAct_Blog--e959dfd55aca08ba/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_MolmoAct_Blog--e959dfd55aca08ba/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-833e99588fd2f430"></a>
+
+## AMD05_Genesis_Blog
+
+- [官方/原始来源](https://rocm.blogs.amd.com/artificial-intelligence/rocm-genesis/README.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T08:15:40.633015+00:00`
+- `sha256`：`4edba28100f290cb54ce20f0a0e44d421cfb05f3ba31aef9ee50882fed1ee2d8`
+- `original_sha256`：`69d495aa3772d826d12db0c482a2bb483cb2f4dac946c85fb4fe953a04409cee`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Blog--833e99588fd2f430/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Blog--833e99588fd2f430/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-8ad2ab2e7556d87d"></a>
+
+## AMD06_XArm_JAX
+
+- [官方/原始来源](https://rocm.blogs.amd.com/artificial-intelligence/rocm-jax-mujoco/README.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T08:34:03.632552+00:00`
+- `sha256`：`f21f9658b6c3183043c38a35f0f11309be2156e94535cddecc7ea2da77d31a95`
+- `original_sha256`：`6e1e6d54b041182933a01dd5fb5ed16c1d7ebb946703c19c8e2a418b94272d8d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_JAX--8ad2ab2e7556d87d/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_JAX--8ad2ab2e7556d87d/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-09a181578cee8bab"></a>
+
+## AMD04_LeRobot_Blog
+
+- [官方/原始来源](https://rocm.blogs.amd.com/artificial-intelligence/rocm-lerobot/README.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:42:38.767396+00:00`
+- `sha256`：`99aa2a428ce270cde43e6626758062604728d5be8310afd67f76f64b56b889de`
+- `original_sha256`：`1f6eecd26008e81810da5a6d67d108219fb3edab9d4d6f9ef4533a42c27100da`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_LeRobot_Blog--09a181578cee8bab/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_LeRobot_Blog--09a181578cee8bab/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-37d8fa71a673eba0"></a>
+
+## AMD06_XArm_Sim2Real
+
+- [官方/原始来源](https://rocm.blogs.amd.com/artificial-intelligence/sim2real-rl-instinct/README.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T08:33:58.577072+00:00`
+- `sha256`：`ac3cf30b2250c4b4d4df11d8368e935e1eccbcce9fa29b3a46c164c8504cdd12`
+- `original_sha256`：`9ac6aec8a0d4e672f61f91a1c849485c68f3aa53d61738bbe53ce6029a2039ed`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_Sim2Real--37d8fa71a673eba0/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_Sim2Real--37d8fa71a673eba0/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-99e92032d6c85b28"></a>
+
+## AMD_ROCm_Docs
+
+- [官方/原始来源](https://rocm.docs.amd.com/en/latest/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:14:11.883046+00:00`
+- `sha256`：`ad9d3e7bff815bc545391951f5642c2b59b52743b57e6ef1e745b68d95344547`
+- `original_sha256`：`da4f73009d5e31e21c6f2656ba428b8515d2f9786056ee5376e828eea40aede1`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Docs--99e92032d6c85b28/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Docs--99e92032d6c85b28/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-79d59a12ff9a6fe3"></a>
+
+## AMD_ROCm_Licenses
+
+- [官方/原始来源](https://rocm.docs.amd.com/en/latest/about/license.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:19:39.414501+00:00`
+- `sha256`：`f127acb4d8a25234be74c5c52b199012a3c436de9d4a89d2c928e979c217a2ee`
+- `original_sha256`：`387385d5564f912c638ad872a1239454b4c494940190532156689a237182f08c`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Licenses--79d59a12ff9a6fe3/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Licenses--79d59a12ff9a6fe3/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-5617e8b9f4682798"></a>
+
+## AMD_ROCm_Release
+
+- [官方/原始来源](https://rocm.docs.amd.com/en/latest/about/release-notes.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:17:45.364265+00:00`
+- `sha256`：`f54fcf4d040928fe898cd54eb5f843b90f473989649e8a1ee0e8824b17eef48e`
+- `original_sha256`：`e59d08cb7a873f1d2aa7099856cdac440dd47c024146baa5fedbc7d54d0dafef`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Release--5617e8b9f4682798/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Release--5617e8b9f4682798/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-542f64212e19c900"></a>
+
+## AMD_ROCm_Transition
+
+- [官方/原始来源](https://rocm.docs.amd.com/en/latest/about/transition-guide-TheRock.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:24:47.856625+00:00`
+- `sha256`：`a1fbd1a6ba046e7e0057602ff4be239df5940b9a3617acbdf5b79d496d96025b`
+- `original_sha256`：`6dbd05a7457e83722052b5c518a992c3b801b291bccb636cfb8e85e46925bc0d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Transition--542f64212e19c900/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Transition--542f64212e19c900/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-73eb6a67974c1794"></a>
+
+## AMD_ROCm_Compatibility
+
+- [官方/原始来源](https://rocm.docs.amd.com/en/latest/compatibility/compatibility-matrix.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:17:42.886004+00:00`
+- `sha256`：`323609f31b5b2eb204abafbad41aa6046b00807b8e2a905490216e1f9acc25ae`
+- `original_sha256`：`ae8511d77b1b5e23f3371063b24706edaa2c512cd876ac3c84eb908c093c6d0c`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Compatibility--73eb6a67974c1794/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Compatibility--73eb6a67974c1794/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-434e162d3bfb73ad"></a>
+
+## AMD_ROCm_Install
+
+- [官方/原始来源](https://rocm.docs.amd.com/en/latest/install/rocm.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:24:50.812000+00:00`
+- `sha256`：`a1df6e572fc60801851b2c13f9fab60b13b1cfc58da1b9079af4da847b4a2c30`
+- `original_sha256`：`ad247498919adbddb2501983347da3840ab4fcf7f0ee34fdd66e3003c7c6a50a`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Install--434e162d3bfb73ad/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Install--434e162d3bfb73ad/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-c4dd48c6cf36185a"></a>
+
+## AMD08_MI350_Architecture
+
+- [官方/原始来源](https://rocm.docs.amd.com/en/latest/reference/gpu-arch/mi350.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T09:07:13.397648+00:00`
+- `sha256`：`6d69b0a8f3359a97fc11d4cc1bdbf2824440127bcabe8022e54c651423335383`
+- `original_sha256`：`b509ae675cd01f2424cb82a8b627d9b02a9acb185a5ede3caeb22c600a2ade33`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_MI350_Architecture--c4dd48c6cf36185a/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_MI350_Architecture--c4dd48c6cf36185a/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-a7417a67a3e2d520"></a>
+
+## AMD_ROCm_GraphSafe
+
+- [官方/原始来源](https://rocm.docs.amd.com/en/latest/reference/graph-safe-support.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:10:52.591191+00:00`
+- `sha256`：`b4d6e1fded943fdc8c1bbf92295292a4f07f33669655d57c0e7633443bc2f72b`
+- `original_sha256`：`a31a14db2443f16755ef03a5fc578e11ed7fc723d6da290cf037820625007085`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_GraphSafe--a7417a67a3e2d520/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_GraphSafe--a7417a67a3e2d520/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-1cdb1b1fdce406a8"></a>
+
+## AMD_ROCm_Isolation
+
+- [官方/原始来源](https://rocm.docs.amd.com/en/latest/reference/system-optimization/gpu-isolation.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:10:59.889314+00:00`
+- `sha256`：`8943f88771b4564bbe431878f76ac3056f8079b8a9db6f03920808fb93de2b0b`
+- `original_sha256`：`2732a40522067d9b42610d2ae31fbd5307f5e3da3bfa11fb6c892c236f645d2f`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Isolation--1cdb1b1fdce406a8/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_Isolation--1cdb1b1fdce406a8/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-d03054948306b8ec"></a>
+
+## AMD_MIGraphX_Docs
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:15:09.044661+00:00`
+- `sha256`：`983daf985730bc4d2aab72a5f5b3015dd814e375b5b59f94f95353a23b32de88`
+- `original_sha256`：`8b3c067a6cfea78e059de43ef660ad83d5235d36e3902a6e05fb45a095e28bd8`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Docs--d03054948306b8ec/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Docs--d03054948306b8ec/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-47ba534b439c19b2"></a>
+
+## AMD_MIGraphX_Tune
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/how-to/model-performance-tuning.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:17:14.343400+00:00`
+- `sha256`：`19823b06c320b1341546a86f00c03ff44b59a26376f448ba6c87c01c0f2afe8e`
+- `original_sha256`：`66c9be4b2741015fe23f16ffcab0b86e22df9c01a122d8e69192464656747985`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Tune--47ba534b439c19b2/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Tune--47ba534b439c19b2/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-23779604f4e94742"></a>
+
+## AMD_MIGraphX_Python
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/reference/MIGraphX-py.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:17:16.499684+00:00`
+- `sha256`：`09d1e89e8885bbbb8d54d2acca76705899e07327bf9f5631723da0acda18314e`
+- `original_sha256`：`62fd0de6f55811fda18e03b3e53eec0e480a8c001741b4779ad88ffc0ddcbe7a`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Python--23779604f4e94742/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Python--23779604f4e94742/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-19cfc69f75ad9d5a"></a>
+
+## AMD_MIGraphX_Parse
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/tutorials/parse-load-save-tutorial.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:17:09.605696+00:00`
+- `sha256`：`604156ae6f10f6ad83267698759d81db39904b0ec039a235d0ecb2225520a7bf`
+- `original_sha256`：`c5261e1c7f38380ad2394c7e78d500420d5c0e2ac2da3abda3bbc10dec0accd6`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Parse--19cfc69f75ad9d5a/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX_Parse--19cfc69f75ad9d5a/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-4308e787a86320db"></a>
+
+## AMD_HIP_Docs
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/HIP/en/latest/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:18:29.559661+00:00`
+- `sha256`：`9bf29a480d3b40df44fdf2db025b48fa99477e939dd554c314e5ba9499511c84`
+- `original_sha256`：`00b5e444288a697568cb088aabb69d70a7be07758e236a89586eb0f5356e08e6`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Docs--4308e787a86320db/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Docs--4308e787a86320db/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-5cf849602d8959af"></a>
+
+## AMD_HIP_Async
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/asynchronous.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:25:02.229161+00:00`
+- `sha256`：`9a1cc9c3748e552091af0fb951a874ec7dcab32a3572a83c5e998ec9e0d7ddee`
+- `original_sha256`：`409f9b3a0bdb8e3cc9c6ec2593aa740afc20ec3ff0c5bd16ff70020c79b40a50`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Async--5cf849602d8959af/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Async--5cf849602d8959af/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-0077a3438456f5e6"></a>
+
+## AMD_HIP_Graphs
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/hipgraph.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:10:41.981032+00:00`
+- `sha256`：`1f6615898bdcc6b57a430ec17492140db6fbb7b9fddb6e05594cbf2a61d60554`
+- `original_sha256`：`48da0d25b95a878fb05bdfb5e56f99cdd9caab7f94bd713dbf63b14805503967`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Graphs--0077a3438456f5e6/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Graphs--0077a3438456f5e6/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-eb09a8ddbe431291"></a>
+
+## AMD_HIP_Coherence
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/coherence_control.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:10:46.296112+00:00`
+- `sha256`：`5bb0fbc162b76fd260931a5057557c6e844809171b323a9a1087c88014b8aea7`
+- `original_sha256`：`daf4c5034495cb24b1239abecb4550f5251aba785444f10f39068eea03a63297`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Coherence--eb09a8ddbe431291/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Coherence--eb09a8ddbe431291/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-56beb352829aef22"></a>
+
+## AMD_HIP_Allocator
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/stream_ordered_allocator.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:10:48.491659+00:00`
+- `sha256`：`956105b94c5f9b4865f1e96b0160bd82479ae3bb0bb7ee273c07a2107bf2ee17`
+- `original_sha256`：`8c02f6edbe8beb5804d7810ef9a04c4216287c3d72bfd0f08d440cde5cebb7f7`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Allocator--56beb352829aef22/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Allocator--56beb352829aef22/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-37f458b46d3d4e56"></a>
+
+## AMD_HIP_Memory
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/unified_memory.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:24:58.562018+00:00`
+- `sha256`：`dc468754ef2c65237c74fddd244fec6b27fd57e7328b1864c061f5c7c4640648`
+- `original_sha256`：`8fe2886a6a98da4892388c615ded0a6bad1ddf759f33a16cb0d6127fdf46d5e8`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Memory--37f458b46d3d4e56/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Memory--37f458b46d3d4e56/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-fb00810d96bd1baf"></a>
+
+## AMD_HIP_Tuning
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/performance_guidelines.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:10:50.738382+00:00`
+- `sha256`：`bd1111b2490e359e470c55f1472d0f14116bf57a9c0d6e4f632e40b64e9c4795`
+- `original_sha256`：`140434ba51612ff335229108f23c680205aa7465c650eb745a49e9e63052694c`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Tuning--fb00810d96bd1baf/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Tuning--fb00810d96bd1baf/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-9c42ef4afff326cd"></a>
+
+## AMD_HIP_License
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/HIP/en/latest/license.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:25:05.867145+00:00`
+- `sha256`：`603db8b4aa92632c5e3e0689489afcddd43afef58485641da301cc35dc16cc5e`
+- `original_sha256`：`8bbcfa596c259a85c9f7ff7d5a071cfc2aebf6577f20f25860c7056945aa89e0`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_License--9c42ef4afff326cd/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_License--9c42ef4afff326cd/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-b375803d7ee408be"></a>
+
+## AMD_HIP_Model
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/HIP/en/latest/understand/programming_model.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:10:35.900397+00:00`
+- `sha256`：`b8eaa1be900938cb9807010e22d4f8eba444b55821e63eff3381a48ceda99bc8`
+- `original_sha256`：`641fd775d71f1f6499fe2c9000117822c5194566d0632ee9f3138e008dc899bb`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Model--b375803d7ee408be/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Model--b375803d7ee408be/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-dea51c8601d2ef3c"></a>
+
+## AMD_HIPIFY_Docs
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/HIPIFY/en/latest/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:19:04.616639+00:00`
+- `sha256`：`1d4a3940081d1210e11dc16e4d0d473cad18b71a8088c3227be0b57c7c8dc6a5`
+- `original_sha256`：`838c6eda676077cc0215bb70a7e4a27a55329f7dbc9f05388710a0632adc80fe`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIPIFY_Docs--dea51c8601d2ef3c/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIPIFY_Docs--dea51c8601d2ef3c/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-f61a7c3ccb57100b"></a>
+
+## AMD_ROCm_PyTorch
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/frameworks/pytorch/install.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:17:47.594091+00:00`
+- `sha256`：`0f5ecdb514157e0e8778544947c2c8029b98d5c68a6e4a7beb4aed81bc3d290a`
+- `original_sha256`：`b8aad81d5582bbad02b81d8337931d6573e35bceb3de0c579a12f112c56dfc21`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_PyTorch--f61a7c3ccb57100b/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_PyTorch--f61a7c3ccb57100b/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-19ac7ddf92b36824"></a>
+
+## AMD_MIGraphX
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/inference/migraphx.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:24:56.541908+00:00`
+- `sha256`：`7604d13a38f02fbde578bd68a47c13c14bac7d65201cc9879b45f10a24ae20a1`
+- `original_sha256`：`03776d29ae3aeb78eb5b080ec1cf2a3c51d9f3db2fc3e9bda9b82ecacf6e00a7`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX--19ac7ddf92b36824/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MIGraphX--19ac7ddf92b36824/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-076f5318efc9eb58"></a>
+
+## AMD_ROCm_ORT
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/inference/onnxruntime.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:24:54.334106+00:00`
+- `sha256`：`5ac829ebaddb81a6b20ef0789b6462cc573d517aeb2ee13646ddcdbba2cdd078`
+- `original_sha256`：`19f7f32c27c6e43221eb2dc5a039cf340883932b8997ed550400aec906e3580d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_ORT--076f5318efc9eb58/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_ORT--076f5318efc9eb58/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-833604b48a069bb4"></a>
+
+## AMD_ROCm_vLLM
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/inference/vllm.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:18:26.569781+00:00`
+- `sha256`：`c0cc9ed66060861f18023437621b8d810b7ba76d346ecd1a6b17ff84ba654493`
+- `original_sha256`：`21c1c6e6fc931c4ece649b45148412ead6948e02236ea33417b1637bdfba754a`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_vLLM--833604b48a069bb4/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROCm_vLLM--833604b48a069bb4/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-4d1aec18b1f93be6"></a>
+
+## AMD_Acceleration_Libs
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/optimization/model-acceleration-libs.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:10:56.788969+00:00`
+- `sha256`：`f9bc93c87a35f5ca4fa32df306f28fee78ca3d58cdf296cf61638ff231ed11e0`
+- `original_sha256`：`6be2c13842c5c3e95879ac299f142cd971579db58cf149eb6aeeba5c71daa73e`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Acceleration_Libs--4d1aec18b1f93be6/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Acceleration_Libs--4d1aec18b1f93be6/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-8e43533d5f7ce6bf"></a>
+
+## AMD_vLLM_Optimization
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/optimization/vllm-v1-optimization.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:10:54.422051+00:00`
+- `sha256`：`734904999e94a6103a0bc719815bad631f7d4af04709a91f257b71ca19b95c22`
+- `original_sha256`：`c8aea33583d6cb84330b834ea6420ac857d31578c71756f162156d89e18128ad`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_vLLM_Optimization--8e43533d5f7ce6bf/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_vLLM_Optimization--8e43533d5f7ce6bf/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-db433ee91fc471c9"></a>
+
+## AMD08_CK
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/composable_kernel/en/latest)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T09:07:21.755698+00:00`
+- `sha256`：`3c3ecbbc7ba1a95eccd59f19e137ddee90a67ff972f0e928f343203a4b6f553c`
+- `original_sha256`：`c9b8280db4f26172f0bcc4aedf04ab9f52124006d6cd2d648fa42842bb047905`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_CK--db433ee91fc471c9/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_CK--db433ee91fc471c9/original.response`
+- 未取得依赖：8 项；详见本地 metadata。
+
+<a id="ref-0627b13abeeab3a0"></a>
+
+## AMD08_CK_GEMM
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/composable_kernel/en/latest/conceptual/ck_tile/hardware/gemm_optimization.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T09:09:20.376078+00:00`
+- `sha256`：`361f04cc65da3691daf6f429d64a5a610ffee0fda3a8e5d64f18575954f81a9a`
+- `original_sha256`：`112914e404a5a3e8a8d90e036baf8cacc0fcfa157be914a9f5fa55d89fcd5357`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_CK_GEMM--0627b13abeeab3a0/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_CK_GEMM--0627b13abeeab3a0/original.response`
+- 未取得依赖：8 项；详见本地 metadata。
+
+<a id="ref-b93f01d6a94ce5fd"></a>
+
+## AMD08_CK_LDS
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/composable_kernel/en/latest/conceptual/ck_tile/hardware/lds_bank_conflicts.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T09:09:17.745753+00:00`
+- `sha256`：`be989807bc9d7b5b25b519baa1460cf8aaf7054aed6803aad1324d62261afd66`
+- `original_sha256`：`4340ecb453072c53222cf47b370c60fbb79cc721cb2a13bfb835397a99c2b60b`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_CK_LDS--b93f01d6a94ce5fd/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_CK_LDS--b93f01d6a94ce5fd/original.response`
+- 未取得依赖：8 项；详见本地 metadata。
+
+<a id="ref-907f2e988ea1d747"></a>
+
+## AMD08_HipBLASLt
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/hipBLASLt/en/latest)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T09:07:57.780014+00:00`
+- `sha256`：`399dff4dbe3b8863d92c6b089213e878925f420f9253e0a8754723d33a9e45ae`
+- `original_sha256`：`9a41cf3f401c3dd422ab75ef3ac1ddd8ff349820c0ec617ec2ab3f5340256fda`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_HipBLASLt--907f2e988ea1d747/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_HipBLASLt--907f2e988ea1d747/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-7bf8151cbeb8bc57"></a>
+
+## AMD08_HipBLASLt_Tune
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/hipBLASLt/en/latest/how-to/how-to-use-hipblaslt-offline-tuning.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T09:09:40.516233+00:00`
+- `sha256`：`f6e1f94128aa9712f0e9d3be8d03a454c7f560a66183074b46648bffdaf5cfd5`
+- `original_sha256`：`940fef1cf06c9168606508874df22634d011cdf1a77949cf415a2d91cd92c198`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_HipBLASLt_Tune--7bf8151cbeb8bc57/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_HipBLASLt_Tune--7bf8151cbeb8bc57/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-e9bfe555a77a6c76"></a>
+
+## AMD_RyzenAI_Docs
+
+- [官方/原始来源](https://ryzenai.docs.amd.com/en/latest/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:14:48.031311+00:00`
+- `sha256`：`5a32b3b6aec4bf0e8ea3f4da6843dffaee85f1d8dae05ad32027d2f94c38ad17`
+- `original_sha256`：`3c49e811b8a7e91b0ee1443d59254b41f29216e994660260cde57e54a4ee9444`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Docs--e9bfe555a77a6c76/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Docs--e9bfe555a77a6c76/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-bd299a4f91c66251"></a>
+
+## AMD_RyzenAI_Analyzer
+
+- [官方/原始来源](https://ryzenai.docs.amd.com/en/latest/ai_analyzer.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:25:55.794968+00:00`
+- `sha256`：`3b6df113650e2d578ba26c20eeb81b4e470a7ad65df80f22fffbe2d83b88c9d4`
+- `original_sha256`：`8f28a91371a54d11f149dca5da0f48e9be3e45830a40c496416bf477347bff25`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Analyzer--bd299a4f91c66251/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Analyzer--bd299a4f91c66251/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-a0a79da08a1587cc"></a>
+
+## AMD_RyzenAI_App
+
+- [官方/原始来源](https://ryzenai.docs.amd.com/en/latest/app_development.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:19:51.390737+00:00`
+- `sha256`：`68860121c2d1915aca210cd9e3b0ff686ef334c85df182a1feece94943ffddfa`
+- `original_sha256`：`6465834d2129202ebc95eb8ff0b67a1342e8c408bb5cfbea09a09542a500189c`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_App--a0a79da08a1587cc/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_App--a0a79da08a1587cc/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-4ca2f1350901715c"></a>
+
+## AMD_RyzenAI_Hybrid
+
+- [官方/原始来源](https://ryzenai.docs.amd.com/en/latest/hybrid_oga.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:26:01.017688+00:00`
+- `sha256`：`dee1b5b440b986418302f9d2493d0bfb829e3d8f599c0c258b52d547dbfdadcd`
+- `original_sha256`：`e582ba0f65aa502c15306dda91b21e42554c85f591f1e3c54c93d8ec0854f0f2`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Hybrid--4ca2f1350901715c/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Hybrid--4ca2f1350901715c/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-96c9b3d907fbd73e"></a>
+
+## AMD_RyzenAI_Install
+
+- [官方/原始来源](https://ryzenai.docs.amd.com/en/latest/inst.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:19:41.221871+00:00`
+- `sha256`：`a3ddee7363d6221124f60f7a844e58885445ce64783d2c567af7816ec5f25a8f`
+- `original_sha256`：`44445c85b86fd63719d894fb3e919140c87bb5904da773c3a7488169f028eb97`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Install--96c9b3d907fbd73e/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Install--96c9b3d907fbd73e/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-ad9f946ca3641851"></a>
+
+## AMD_RyzenAI_Licenses
+
+- [官方/原始来源](https://ryzenai.docs.amd.com/en/latest/licenses.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:19:57.391063+00:00`
+- `sha256`：`f8ce14cc1a0be5428dc8b80a8850a25a33f5a8afcd4663183707897a53af5c78`
+- `original_sha256`：`7edec6647e049b32c82e9238ee2bda08e34ec95f091974a0a7fb542cc6affc2f`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Licenses--ad9f946ca3641851/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Licenses--ad9f946ca3641851/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-340fd1ed1df2691c"></a>
+
+## AMD_RyzenAI_Linux
+
+- [官方/原始来源](https://ryzenai.docs.amd.com/en/latest/linux.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:19:44.631246+00:00`
+- `sha256`：`f6f973689c4a1d3d10443bd9cb967fd1633e6c6caa897df27b095e704f61a918`
+- `original_sha256`：`082513d0e60028720fb3297d6cc707323afe861914320b379821df96cc5ac324`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Linux--340fd1ed1df2691c/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Linux--340fd1ed1df2691c/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-145e705f1425c8a5"></a>
+
+## AMD_RyzenAI_LLM
+
+- [官方/原始来源](https://ryzenai.docs.amd.com/en/latest/llm/overview.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:19:54.877595+00:00`
+- `sha256`：`ed9c25c592f5f40717427c6ce801742bca40ffa8f8165250b0176a359a9c5766`
+- `original_sha256`：`1919a991dedc2b2ebb123f086c62bf300ee1715dc9e60165c8c9431a42f84a4a`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_LLM--145e705f1425c8a5/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_LLM--145e705f1425c8a5/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-73f7f1097aaa3232"></a>
+
+## AMD_RyzenAI_Server
+
+- [官方/原始来源](https://ryzenai.docs.amd.com/en/latest/llm/server_interface.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:26:07.667073+00:00`
+- `sha256`：`e45ae331bebdd9b26e74e0434cabc03e13186247bcef6a5340166f0057314562`
+- `original_sha256`：`7a370f1e34decc3ffc512186f928e4830a7e8e3295a0ebdf153406880faea294`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Server--73f7f1097aaa3232/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Server--73f7f1097aaa3232/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-8fc3250ab99fc1f3"></a>
+
+## AMD_RyzenAI_Quantization
+
+- [官方/原始来源](https://ryzenai.docs.amd.com/en/latest/model_quantization.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:19:49.767082+00:00`
+- `sha256`：`bf88eae0a65cd9602a9a5ad7729cc9154c2d124ad4d6e220935a4bd3d2ff3226`
+- `original_sha256`：`5a6cc9255225bad07b0b49a7de87d68751b66e23589b9db574ba4072b6e23bdf`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Quantization--8fc3250ab99fc1f3/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Quantization--8fc3250ab99fc1f3/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-eab5d9af47172378"></a>
+
+## AMD_RyzenAI_Compile
+
+- [官方/原始来源](https://ryzenai.docs.amd.com/en/latest/modelrun.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:19:47.797521+00:00`
+- `sha256`：`4bf52ffd04b8926a853d05d90f538f4a1fb3806ab84dd976df02220cd6e7e26e`
+- `original_sha256`：`d1c01567d64608fc5aac516d05a8e07590c96f9931ebea5664efd4258be7f445`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Compile--eab5d9af47172378/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Compile--eab5d9af47172378/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-ee2ea8d09f248077"></a>
+
+## AMD_RyzenAI_OGA_Prepare
+
+- [官方/原始来源](https://ryzenai.docs.amd.com/en/latest/oga_model_prepare.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:26:03.677887+00:00`
+- `sha256`：`975a3f4cd97d443ba923207228f1b86a834603eb4926bb5d6b87ad53a06d4939`
+- `original_sha256`：`cbc91ef8e3a769d4e580f9014766f2b6f0585f5249aca77ce5ab5e4a5e01be4b`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_OGA_Prepare--ee2ea8d09f248077/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_OGA_Prepare--ee2ea8d09f248077/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-bde168caf8fe096d"></a>
+
+## AMD_RyzenAI_Ops
+
+- [官方/原始来源](https://ryzenai.docs.amd.com/en/latest/ops_support.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:19:53.245550+00:00`
+- `sha256`：`23142caf6fe0f4d95329b948936c53cf3636db3bef17317afb519ce10e328483`
+- `original_sha256`：`e83eca1e0d3d1410b4231a2eaa38cb04c6d6e4176588665f16367ffbcabb5f4d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Ops--bde168caf8fe096d/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Ops--bde168caf8fe096d/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-bc694aec7cba9af1"></a>
+
+## AMD_RyzenAI_Release
+
+- [官方/原始来源](https://ryzenai.docs.amd.com/en/latest/relnotes.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:19:46.023620+00:00`
+- `sha256`：`6ed64c028f364adfe4c5d32e97aeb6cd3081cc4c790a1905a89e2723daa40c49`
+- `original_sha256`：`a4c0dad23e94bf8d1ecb183459569af73213a57167d6b654c31f7cb3105a83b6`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Release--bc694aec7cba9af1/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Release--bc694aec7cba9af1/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-50204205c2c56d7a"></a>
+
+## AMD_RyzenAI_SMI
+
+- [官方/原始来源](https://ryzenai.docs.amd.com/en/latest/xrt_smi.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:25:58.835742+00:00`
+- `sha256`：`9336455782812e86dc68477d1fd115beeaedafbb86e6ca82c05527b2a4b65f32`
+- `original_sha256`：`42be83213a6df290f445adcef249e2d87d6990fcf5a35c3669aa1659526b58db`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_SMI--50204205c2c56d7a/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_SMI--50204205c2c56d7a/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-76d8391f56ce0730"></a>
+
+## AMD07_Ubuntu_AMD
+
+- [官方/原始来源](https://ubuntu.com/download/amd)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T08:48:48.194894+00:00`
+
+<a id="ref-17893f40c199a13f"></a>
+
+## AMD_VitisAI_Current
+
+- [官方/原始来源](https://vitisai.docs.amd.com/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:22:34.123847+00:00`
+- `sha256`：`890c28d5e8f08eb15102d45393b4217fc149f86b6c71390619543cb09e1f5ac8`
+- `original_sha256`：`98256ad3b3bb067234728590658c9e5a6fdfdb2f5f83a01bb36c96dfc857dd4f`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Current--17893f40c199a13f/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Current--17893f40c199a13f/original.response`
+
+<a id="ref-cca5b2f92fd4ee0e"></a>
+
+## AMD_VitisAI_Gen1_License
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen1/en/latest/docs/additional_information/Obtaining-license.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:27:43.182258+00:00`
+- `sha256`：`3bb7758de5d2f10da75717901cae86451deed4848cb7a2f13f904b7d84d01875`
+- `original_sha256`：`64059576846a78f92e6687040ee54eb8570f4b594a6aa59ef2a5512589051018`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen1_License--cca5b2f92fd4ee0e/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen1_License--cca5b2f92fd4ee0e/original.response`
+
+<a id="ref-2507e1e39b54537d"></a>
+
+## AMD_VitisAI_Gen1_Runtime
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen1/en/latest/docs/customization_opportunities/runtime-process-apis.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:27:40.585316+00:00`
+- `sha256`：`d6a79a0ccda0f4f07a3c9cc94ff06546f4fb5a8ed2132882ca592418ed6bc9a4`
+- `original_sha256`：`d1f58521c63dee773fe5f47d1786f311a45f22ea8a23014f2f4ef623cee02121`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen1_Runtime--2507e1e39b54537d/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen1_Runtime--2507e1e39b54537d/original.response`
+
+<a id="ref-99bdd1c6e7365805"></a>
+
+## AMD_VitisAI_Gen1_Install
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen1/en/latest/docs/quickstart/install.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:23:47.595078+00:00`
+- `sha256`：`e0b37e52ae99ed5d17fee4fe5afe69d99acce2eb1c59fb8363855ae1edc13f82`
+- `original_sha256`：`63973b8092454d45f4332c75da6b622200435f28c45bf0bae8b27eddb2b83eef`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen1_Install--99bdd1c6e7365805/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen1_Install--99bdd1c6e7365805/original.response`
+
+<a id="ref-1f320b36f994e3ae"></a>
+
+## AMD_VAI_Custom_Ops
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/custom_ops/custom_ops_introduction.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:30:35.348441+00:00`
+- `sha256`：`7fbd96a77df66eafc6182841efc975e05751db6070b7111a5d9f471c2ef9592f`
+- `original_sha256`：`c49857035b2c775395a4473c438de5fd37d38b5a0720f57f92efa52c12fc26f2`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Custom_Ops--1f320b36f994e3ae/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Custom_Ops--1f320b36f994e3ae/original.response`
+
+<a id="ref-9345ee8f865efba4"></a>
+
+## AMD_VAI_Custom_Infer
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/custom_ops/custom_ops_running_inference.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:30:37.433520+00:00`
+- `sha256`：`b2e9d254fbc790aeb4e6725749297379c25968f8463669beb80ca284b3881dff`
+- `original_sha256`：`46476b63565ff19095eecfcdb4a4f337de197f214ff0539c5950db26d142661d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Custom_Infer--9345ee8f865efba4/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Custom_Infer--9345ee8f865efba4/original.response`
+
+<a id="ref-dec853df79d7793c"></a>
+
+## AMD_VitisAI_Gen2_License
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/license.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:27:35.010002+00:00`
+- `sha256`：`d7815dfc8343aeccd640686894d9efd66b1f8a839b4b01a4ea4ba7b005211aee`
+- `original_sha256`：`c2f83be1ba115e62da5723d22395528b61c54eecd1d370ed9843f15fda1e904b`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_License--dec853df79d7793c/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_License--dec853df79d7793c/original.response`
+
+<a id="ref-6bca63e078b1a9df"></a>
+
+## AMD04_Vitis_Models
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/additional_information/supported_models.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:44:26.187808+00:00`
+- `sha256`：`47e1750d69b0c6ae4648eb53adbaebe34342702141bf494b12b8e7fba1379ad6`
+- `original_sha256`：`a83f3c7369a13e286793ed1a6f8dcad788fa4250199940afb1c4e5bab1cbc205`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Vitis_Models--6bca63e078b1a9df/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD04_Vitis_Models--6bca63e078b1a9df/original.response`
+
+<a id="ref-a5b950f414554940"></a>
+
+## AMD_VitisAI_Gen2_Async
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/advanced_concepts/async_execution.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:27:25.041076+00:00`
+- `sha256`：`6ce4de6106d4f87d06e1d131693e10c9652adc4903eb783edd956c91ec9a8bab`
+- `original_sha256`：`1552d78df865eea5e0bcf3f044af30971bab21fb49ecdd65deadd6922e9f6b3e`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Async--a5b950f414554940/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Async--a5b950f414554940/original.response`
+
+<a id="ref-2e258ca85c504c08"></a>
+
+## AMD_VAI_Partition_Analyzer
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/ai_analyzer/partitioning.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:30:29.546240+00:00`
+- `sha256`：`e8201f2fca53b0fe4cd0a47c24df63442ab615460afff434d97ea1a0e0c53e35`
+- `original_sha256`：`7d5f30974db57d818a83ad46a4240059b612b6cd3e28c78f03dd0f428d63ca12`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Partition_Analyzer--2e258ca85c504c08/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Partition_Analyzer--2e258ca85c504c08/original.response`
+
+<a id="ref-df27e5b5edbcc8f3"></a>
+
+## AMD_VAI_DDR_Profiling
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/ai_analyzer/runtime_ddr_profiling_utility.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:30:33.327106+00:00`
+- `sha256`：`9aeda30f05bba9dd26fb2f7533810855fa6577fc0d4b34a6689b60c3837216f5`
+- `original_sha256`：`3a9206d623e3b27636fd66104425fb9c2647a27b102a30765a926807d1f2cfe5`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_DDR_Profiling--df27e5b5edbcc8f3/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_DDR_Profiling--df27e5b5edbcc8f3/original.response`
+
+<a id="ref-b867b657782bdc40"></a>
+
+## AMD_VitisAI_Gen2_Architecture
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/ml-architecture-overview.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:27:14.793116+00:00`
+- `sha256`：`6804452f0d104344203ed035c5c9ad99a589ae0154431cdeb09f6231ad2e644b`
+- `original_sha256`：`1e83611558f0fc213718d7f1e94c18b23acaee92d40e48b8bba8e3c961495631`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Architectu--b867b657782bdc40/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Architectu--b867b657782bdc40/original.response`
+
+<a id="ref-ac4eac67a33411e1"></a>
+
+## AMD_VitisAI_VART_App
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_app_guide.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:30:15.862825+00:00`
+- `sha256`：`bcd780a59039221a1cc20cc9a4397d12f32aeb7e437dff8674fa64240f772320`
+- `original_sha256`：`daa55791270a313bbe81fb2f72b37e457b69e7146c296f26f3dd9eb9074e6ff0`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_VART_App--ac4eac67a33411e1/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_VART_App--ac4eac67a33411e1/original.response`
+
+<a id="ref-9e4369995e24c258"></a>
+
+## AMD_VAI_Quant_Pipeline
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_quantization_pipeline.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:30:27.308168+00:00`
+- `sha256`：`cf3ec37cf8c828b0e638c28e54c09a5f499fad277072e6b7e7e385719a451b6a`
+- `original_sha256`：`d8fdd679574959ba7b31593bff017a5d77ff1370e5ad5dafcc3b2a743c4745ea`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Quant_Pipeline--9e4369995e24c258/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Quant_Pipeline--9e4369995e24c258/original.response`
+
+<a id="ref-1f9caa805643de0a"></a>
+
+## AMD_VitisAI_Gen2_Reference
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/integrated_system_reference%20design/system.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:27:20.831245+00:00`
+- `sha256`：`7887121c06f22e1c0783d20a6c4adbceaabe16970247584fd8a292e257e4c8d0`
+- `original_sha256`：`1220a46cd4dcd906a95fef04e5892758dc86f181194a648703cba1a926ff75d5`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Reference--1f9caa805643de0a/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Reference--1f9caa805643de0a/original.response`
+
+<a id="ref-86b8a448f523db1e"></a>
+
+## AMD_VitisAI_Gen2_ML_API
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/misc/runtime/vart_ml_apis.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:27:12.886388+00:00`
+- `sha256`：`638a49281bd3d0252d1bdf0f9b9801498a1a959c992ca85d5b62b87120ba4af6`
+- `original_sha256`：`4e222701b780645ff35313bb304f39075214796d1647993fb3123eb1ea02af96`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_ML_API--86b8a448f523db1e/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_ML_API--86b8a448f523db1e/original.response`
+
+<a id="ref-aec125dfb6f54880"></a>
+
+## AMD_VAI_Tensor_Formats
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/misc/tensor_formats.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:30:23.201728+00:00`
+- `sha256`：`8bd8dbf0d95423d91c1cf827616928cc2aac3ce8836df9b5911ac431027429a8`
+- `original_sha256`：`78286ec9c32202f949aeed90eec21fcb503b66a7f15064a1f9c5726945c3cc54`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Tensor_Formats--aec125dfb6f54880/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_Tensor_Formats--aec125dfb6f54880/original.response`
+
+<a id="ref-34b3e81780846804"></a>
+
+## AMD_VitisAI_Gen2_Compile
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/compiling.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:27:04.806226+00:00`
+- `sha256`：`4f0eb1dd5adc28a3edaf5cbe98688df841a7ecc3edf23619c63bb00bff5551b3`
+- `original_sha256`：`bbd1347441d54d4d8f9dc09c6f9a96e2eb39385ae0bc22802162039dd6beacde`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Compile--34b3e81780846804/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Compile--34b3e81780846804/original.response`
+
+<a id="ref-5643d40f79a4557e"></a>
+
+## AMD_VitisAI_Gen2_CPU_Partition
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/cpu_partition.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:27:32.311097+00:00`
+- `sha256`：`d8a9a3e1e412607195e3b2cdde5b3d2187744fda22c55549d3c7ea79a334c83c`
+- `original_sha256`：`31053a3151f059d7ccbacbfe2a74f98cd5fdca851e57403082dcf982b224a91f`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_CPU_Partit--5643d40f79a4557e/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_CPU_Partit--5643d40f79a4557e/original.response`
+
+<a id="ref-a3cb640b1e9ddc41"></a>
+
+## AMD_VAI_EP_Config
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/ep-config-file.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T06:30:19.956186+00:00`
+- `sha256`：`95fcdce73349f240a34e62115da6517b74a6f212f13bd85b517d639cc4861959`
+- `original_sha256`：`312f3f87ac80e1dcede0cf491f5dfba82ed9b11b5e7fb5efc5d9f4a8ed28712d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_EP_Config--a3cb640b1e9ddc41/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VAI_EP_Config--a3cb640b1e9ddc41/original.response`
+
+<a id="ref-02b353db51206eb3"></a>
+
+## AMD_VitisAI_Gen2_Tenancy
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/multi-tenancy-user-guide.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:27:28.536923+00:00`
+- `sha256`：`a4b75d68a945244084c0eeb509f8b021f4264e449ce1da938dd149c8d9ef3f61`
+- `original_sha256`：`874b21a03c88d8542deb5c0b0108d48eba165d05add98ac5350cfdefb977ef79`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Tenancy--02b353db51206eb3/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Tenancy--02b353db51206eb3/original.response`
+
+<a id="ref-2c2e1405bc84b31f"></a>
+
+## AMD_VitisAI_Gen2_Output
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/output.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:27:07.329701+00:00`
+- `sha256`：`716a467819b7cb8a6b5318b4e59e637d8c4262c53730d51873ff6fcd0d4d1bc4`
+- `original_sha256`：`d8f6a0c231788c2b3694fd4d00392ad1aa7c77b81bf9e62280978a09e4ce05ea`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Output--2c2e1405bc84b31f/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Output--2c2e1405bc84b31f/original.response`
+
+<a id="ref-b20df62a639e21f9"></a>
+
+## AMD_VitisAI_Gen2_Deploy
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_deployment/model-inference.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:27:09.195273+00:00`
+- `sha256`：`fe9b7349bd68d99f5fe4a00f6bd0ab2f6ecc8a9ebe457d5d1007d080e3fccb49`
+- `original_sha256`：`b4c3b597e381141c31ebe57c60a08b925318972d77eb7723b9a55c318cb2526b`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Deploy--b20df62a639e21f9/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Deploy--b20df62a639e21f9/original.response`
+
+<a id="ref-a5dd309344ebfb8d"></a>
+
+## AMD_VitisAI_Gen2_Quantization
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_quantization/model_quantization.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:30:12.515357+00:00`
+- `sha256`：`31937ccd34dbaf44d4e589d91f58f14e18e3c4f0400192f5ac1d49c057fd1387`
+- `original_sha256`：`d9f74fb29ffec289b23a66b354619b6e5f03d414a696319a3bdec5bd3686c075`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Quantizati--a5dd309344ebfb8d/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Quantizati--a5dd309344ebfb8d/original.response`
+
+<a id="ref-8269bceb49539365"></a>
+
+## AMD_VitisAI_Gen2_Release
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/release_notes/release_notes_section.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:30:05.473723+00:00`
+- `sha256`：`3b06b8962f5c0e640b7294521b2a50fa82eb2c8570d42706ef5a53d88eb6ab12`
+- `original_sha256`：`08759b78615c4165d98e2f5c5ddd2659b1f9f22cb107f349322b67706b088cea`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Release--8269bceb49539365/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Release--8269bceb49539365/original.response`
+
+<a id="ref-c2c22947e4f403f1"></a>
+
+## AMD_VitisAI_Gen2_ORT_API
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/runtime_processes_and_apis/cpp_onnx_apis.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:27:10.921028+00:00`
+- `sha256`：`519f7c2da1267bbed6621dc6f9f3d41ab58f16ab3f571675b423858676000cdf`
+- `original_sha256`：`bc4cced12f9d46580deb923ffd8aaa4a9820d7868897ab7aed6805550e759a9f`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_ORT_API--c2c22947e4f403f1/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_ORT_API--c2c22947e4f403f1/original.response`
+
+<a id="ref-68380e88cb9a6803"></a>
+
+## AMD_VitisAI_Gen2_Install
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/setup_and_installation/software_setup.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:23:10.991507+00:00`
+- `sha256`：`5187578f002ff6636052e6e1e332c9a0c029ffb4ced89dcb79d5d4481fccbfac`
+- `original_sha256`：`79ec684a2fc2e721b371fb8a387f4b6e7be2a34be9f1fd338b730e2a6046e8f3`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Install--68380e88cb9a6803/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Install--68380e88cb9a6803/original.response`
+
+<a id="ref-d237d68ec5e7cd91"></a>
+
+## AMD_VitisAI_Gen2_Requirements
+
+- [官方/原始来源](https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/setup_and_installation/system_requirements.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:30:09.830767+00:00`
+- `sha256`：`b56977a3a1211321062408561597efb07aa4da73eb0fe3018c16ad9d74198f0b`
+- `original_sha256`：`17cc27f2493d78e13e74ed541911d75cad17f0d72b53d36b3c91f91e923cf005`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Requiremen--d237d68ec5e7cd91/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Requiremen--d237d68ec5e7cd91/original.response`
+
+<a id="ref-3cf28c503c62dd2b"></a>
+
+## AMD08_CDNA4_Whitepaper
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/instinct-tech-docs/white-papers/amd-cdna-4-architecture-whitepaper.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T09:07:18.147002+00:00`
+- `sha256`：`613e3418d2d1aa0b9cda417fe1e6798f69d0da0f7c8614531b160b66cbb716ac`
+- `original_sha256`：`613e3418d2d1aa0b9cda417fe1e6798f69d0da0f7c8614531b160b66cbb716ac`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD08_CDNA4_Whitepaper--3cf28c503c62dd2b/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD08_CDNA4_Whitepaper--3cf28c503c62dd2b/original.response`
+
+<a id="ref-f298d2021159f44d"></a>
+
+## AMD_Versal_Gen1_Brief
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/products/adaptive-socs-and-fpgas/versal/amd-versal-ai-edge-product-brief.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T04:49:41.611490+00:00`
+- `sha256`：`4c2e51022a8dbfedebe1cfd6af90d164e63633af6bc9543078353e3d6fa6df5a`
+- `original_sha256`：`4c2e51022a8dbfedebe1cfd6af90d164e63633af6bc9543078353e3d6fa6df5a`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Versal_Gen1_Brief--f298d2021159f44d/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Versal_Gen1_Brief--f298d2021159f44d/original.response`
+
+<a id="ref-f02e5a12a026db64"></a>
+
+## AMD_Versal_Gen2_Industrial
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/products/adaptive-socs-and-fpgas/versal/versal-ai-edge-gen2-industrial-solution-brief.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T04:49:32.105505+00:00`
+- `sha256`：`f6090e329d3bcf4ba787dc05db48bbb4b7608b76b86e1d912bdca588e96020be`
+- `original_sha256`：`f6090e329d3bcf4ba787dc05db48bbb4b7608b76b86e1d912bdca588e96020be`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Versal_Gen2_Industrial--f02e5a12a026db64/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Versal_Gen2_Industrial--f02e5a12a026db64/original.response`
+
+<a id="ref-42bfa84e87fc0e0c"></a>
+
+## AMD_Versal_Gen2_Brief
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/products/adaptive-socs-and-fpgas/versal/versal-ai-edge-gen2-product-brief.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T04:49:28.630086+00:00`
+- `sha256`：`e9c616eb635a233e02bea39ffc66d05ddd5948d666b28a0619ebfd4feb44338e`
+- `original_sha256`：`e9c616eb635a233e02bea39ffc66d05ddd5948d666b28a0619ebfd4feb44338e`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Versal_Gen2_Brief--42bfa84e87fc0e0c/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Versal_Gen2_Brief--42bfa84e87fc0e0c/original.response`
+
+<a id="ref-e34ec22d13d825e4"></a>
+
+## AMD_Embedded_8000_Brief
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/products/embedded/ryzen/amd-ryzen-embedded-8000-product-brief.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T04:49:49.748716+00:00`
+- `sha256`：`230e9fd1f6bacad3ba19bfffd2066aec47a9251d475c87387445498ddbf0dfa1`
+- `original_sha256`：`230e9fd1f6bacad3ba19bfffd2066aec47a9251d475c87387445498ddbf0dfa1`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Embedded_8000_Brief--e34ec22d13d825e4/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Embedded_8000_Brief--e34ec22d13d825e4/original.response`
+
+<a id="ref-5cf52536576a9a8c"></a>
+
+## AMD_X100_Brief
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/products/embedded/ryzen/ryzen-ai-embedded-x100-series-product-brief.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T04:43:59.132847+00:00`
+- `sha256`：`9dc3708fa629ca7fa9b072b0e68f14211dbf378880946f737c83b9c5cfaa97d3`
+- `original_sha256`：`9dc3708fa629ca7fa9b072b0e68f14211dbf378880946f737c83b9c5cfaa97d3`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_X100_Brief--5cf52536576a9a8c/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_X100_Brief--5cf52536576a9a8c/original.response`
+
+<a id="ref-f68f3378e95db615"></a>
+
+## AMD_P100_Brief
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/products/embedded/ryzen/ryzen-embedded-p100-series-product-brief.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T04:44:15.735099+00:00`
+- `sha256`：`fc73282d12fb27ce9169eb46f40fe4ff91dd5f3d85513dd32df0c169abb7908d`
+- `original_sha256`：`fc73282d12fb27ce9169eb46f40fe4ff91dd5f3d85513dd32df0c169abb7908d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_P100_Brief--f68f3378e95db615/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_P100_Brief--f68f3378e95db615/original.response`
+
+<a id="ref-52a249e508382470"></a>
+
+## AMD_V3000_Brief
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/products/embedded/ryzen/ryzen-embedded-v3000-series-product-brief.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T04:49:52.009158+00:00`
+- `sha256`：`e3920f7ff54e51d1918d03a2558695173d8465b1eb5071ea4eae345e76054198`
+- `original_sha256`：`e3920f7ff54e51d1918d03a2558695173d8465b1eb5071ea4eae345e76054198`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_V3000_Brief--52a249e508382470/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_V3000_Brief--52a249e508382470/original.response`
+
+<a id="ref-e8d324592d225fc1"></a>
+
+## AMD_V2000_Brief
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/products/embedded/ryzen/v2000-product-brief.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T04:49:54.362603+00:00`
+- `sha256`：`af2c9faef58c1003e0df6f91f4ae3ced4bef91571ae71fd2de0ad74927233999`
+- `original_sha256`：`af2c9faef58c1003e0df6f91f4ae3ced4bef91571ae71fd2de0ad74927233999`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_V2000_Brief--e8d324592d225fc1/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_V2000_Brief--e8d324592d225fc1/original.response`
+
+<a id="ref-f1d2dec021b5a1ff"></a>
+
+## AMD_R9700_ROCm_Guide
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/products/graphics/workstation/radeon-ai-pro-rocm-pytorch-guide.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T04:54:44.977741+00:00`
+- `sha256`：`a9717ae266e5dba520f65db8ad205a3c8f0fd3517586a293edd3dd6fe7838f75`
+- `original_sha256`：`a9717ae266e5dba520f65db8ad205a3c8f0fd3517586a293edd3dd6fe7838f75`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_R9700_ROCm_Guide--f1d2dec021b5a1ff/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_R9700_ROCm_Guide--f1d2dec021b5a1ff/original.response`
+
+<a id="ref-3ec4ce262c8f19ea"></a>
+
+## AMD_Vitis_Infographic
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/products/software-tools/amd-vitis-infographic.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:20:43.861428+00:00`
+- `sha256`：`7fdcf736d6e07ea3c3278934aefa8460bc323cb89d59754000dcccc60ff05978`
+- `original_sha256`：`7fdcf736d6e07ea3c3278934aefa8460bc323cb89d59754000dcccc60ff05978`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Vitis_Infographic--3ec4ce262c8f19ea/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Vitis_Infographic--3ec4ce262c8f19ea/original.response`
+
+<a id="ref-a24a3e9e38348fb8"></a>
+
+## AMD_EDF_Overview_PDF
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/products/software-tools/embedded-development-framework-product-overview.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:20:41.193462+00:00`
+- `sha256`：`4e9a1f83bb22731b118c78b1d43fbfed80265a50db6ea16c12c95624697adfc0`
+- `original_sha256`：`4e9a1f83bb22731b118c78b1d43fbfed80265a50db6ea16c12c95624697adfc0`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_EDF_Overview_PDF--a24a3e9e38348fb8/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_EDF_Overview_PDF--a24a3e9e38348fb8/original.response`
+
+<a id="ref-eae8f02d72cb26c6"></a>
+
+## AMD_K24_Brief
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/products/som/kria/k24/2269838-kria-k24-som-product-brief.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T04:45:10.869537+00:00`
+- `sha256`：`a039a571d51ce0f9a34ccfe454e22cb9571766527d5d7c91002ba5fed896a67a`
+- `original_sha256`：`a039a571d51ce0f9a34ccfe454e22cb9571766527d5d7c91002ba5fed896a67a`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_K24_Brief--eae8f02d72cb26c6/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_K24_Brief--eae8f02d72cb26c6/original.response`
+
+<a id="ref-c8a893f30174f116"></a>
+
+## AMD_KD240_Brief
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/products/som/kria/k24/2269838-kria-kd240-product-brief.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T04:45:18.745877+00:00`
+- `sha256`：`19c752533c709a6e5152945e20779d8a40a9a6d41aa9fe77e5d5dba092f322de`
+- `original_sha256`：`19c752533c709a6e5152945e20779d8a40a9a6d41aa9fe77e5d5dba092f322de`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_KD240_Brief--c8a893f30174f116/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_KD240_Brief--c8a893f30174f116/original.response`
+
+<a id="ref-92decd38361d4ff2"></a>
+
+## AMD_K26_Brief
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/products/som/kria/k26/k26-product-brief.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T04:44:48.361962+00:00`
+- `sha256`：`a2810029a9e221e734d31926be951f4d804936ca4b663e6cfc6abe8575b62d85`
+- `original_sha256`：`a2810029a9e221e734d31926be951f4d804936ca4b663e6cfc6abe8575b62d85`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_K26_Brief--92decd38361d4ff2/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_K26_Brief--92decd38361d4ff2/original.response`
+
+<a id="ref-8d6cdad5c01f8fcb"></a>
+
+## AMD_KR260_Brief
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/products/som/kria/k26/kr260-product-brief.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T04:44:50.109579+00:00`
+- `sha256`：`c96be48b7422c134257b6996baf85ddf671b843c6773624f09cedbcb7d87cb5e`
+- `original_sha256`：`c96be48b7422c134257b6996baf85ddf671b843c6773624f09cedbcb7d87cb5e`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_KR260_Brief--8d6cdad5c01f8fcb/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_KR260_Brief--8d6cdad5c01f8fcb/original.response`
+
+<a id="ref-83ea2c977a721e93"></a>
+
+## AMD_KV260_Brief
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/products/som/kria/k26/kv260-product-brief.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T04:44:58.366214+00:00`
+- `sha256`：`fce8663f28311a7b27e4fb1cbc530aadd922848088428a3ad906840765932432`
+- `original_sha256`：`fce8663f28311a7b27e4fb1cbc530aadd922848088428a3ad906840765932432`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_KV260_Brief--83ea2c977a721e93/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_KV260_Brief--83ea2c977a721e93/original.response`
+
+<a id="ref-e00d6c805ec12e00"></a>
+
+## AMD06_Robotec_PDF
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/robotec-ai-case-study.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T08:38:06.124499+00:00`
+- `sha256`：`63c26a8fd7671f46220c4e4d5990226ea1aa8a45c9061474039359fef62a0114`
+- `original_sha256`：`63c26a8fd7671f46220c4e4d5990226ea1aa8a45c9061474039359fef62a0114`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD06_Robotec_PDF--e00d6c805ec12e00/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD06_Robotec_PDF--e00d6c805ec12e00/original.response`
+
+<a id="ref-b4342fa99f7fb58e"></a>
+
+## AMD06_Solectrix_PDF
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/solectrix-case-study.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T08:38:10.590559+00:00`
+- `sha256`：`515eef6ee083612a9472618c1f0c5f4e6f62a0509f71a491c53b602c88bb9511`
+- `original_sha256`：`515eef6ee083612a9472618c1f0c5f4e6f62a0509f71a491c53b602c88bb9511`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD06_Solectrix_PDF--b4342fa99f7fb58e/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD06_Solectrix_PDF--b4342fa99f7fb58e/original.response`
+
+<a id="ref-08dac094865a880e"></a>
+
+## AMD06_STW_PDF
+
+- [官方/原始来源](https://www.amd.com/content/dam/amd/en/documents/resources/case-studies/stw-case-study.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T08:38:08.787094+00:00`
+- `sha256`：`63261e22abb5b2400f54184fced5f9750e6ffb8db504b380d14af9f7739fae99`
+- `original_sha256`：`63261e22abb5b2400f54184fced5f9750e6ffb8db504b380d14af9f7739fae99`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD06_STW_PDF--08dac094865a880e/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD06_STW_PDF--08dac094865a880e/original.response`
+
+<a id="ref-3d639f2a265fe194"></a>
+
+## AMD_P100_Blog
+
+- [官方/原始来源](https://www.amd.com/en/blogs/2026/amd-expands-ryzen-ai-embedded-p100-for-edge-ai.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:44:18.156425+00:00`
+- `sha256`：`53f1f30c4d08415aee43b01e330c7a9c069113d64dfd04c648d68a8d101b7e8d`
+- `original_sha256`：`68a50165f0e1d28ebd32461093e00b1173cbc0327a7c8da081c8409a0bbec8e2`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_P100_Blog--3d639f2a265fe194/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_P100_Blog--3d639f2a265fe194/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-08de16414ad282bb"></a>
+
+## AMD_X100_Blog
+
+- [官方/原始来源](https://www.amd.com/en/blogs/2026/amd-ryzen-ai-embedded-x100-series-consolidating-compute.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:44:00.824426+00:00`
+- `sha256`：`0722ebabf267385343b6539611f549de55e99fe64552b32b69752ba387d7be7c`
+- `original_sha256`：`6510ffb0c32b3fbdc979a81f5e143db3d9038021592fbc343fe7c8469ddd1c20`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_X100_Blog--08de16414ad282bb/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_X100_Blog--08de16414ad282bb/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-a0da5320b0868578"></a>
+
+## AMD_Kria_AI_Benchmark
+
+- [官方/原始来源](https://www.amd.com/en/blogs/2026/from-benchmarks-to-behavior-rethinking-performance-in-a.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:44:33.422485+00:00`
+- `sha256`：`8ecffa50b8bc506e2262cb19a22c7219a3c33c4f49409a42d999f1bcca19c831`
+- `original_sha256`：`c7e4ebcd23a47a553e8d5cf93824c009139a61f746bd7db3ec489e2cd209bc92`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_AI_Benchmark--a0da5320b0868578/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_AI_Benchmark--a0da5320b0868578/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-f723a60bd60d11d3"></a>
+
+## AMD_VitisAI_Hub
+
+- [官方/原始来源](https://www.amd.com/en/developer/resources/vitis-ai.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:20:04.490195+00:00`
+- `sha256`：`2a15c4bd747ee9f42a2313f7edd9b7b3c54f2df328717d792131813bce43b2d3`
+- `original_sha256`：`2331a637493a364fd4c9ebe1a6ec0551d1e4cdc9957675d553d7c57a194b88e4`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Hub--f723a60bd60d11d3/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Hub--f723a60bd60d11d3/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-f48d683c32d83a72"></a>
+
+## AMD07_Distributors
+
+- [官方/原始来源](https://www.amd.com/en/partner/about-partners/authorized-distributors.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:49:33.227518+00:00`
+- `sha256`：`27a7d7295b75011e784fac62f32d3521ac2b3cb4bbf335efe43cb8ff4940910f`
+- `original_sha256`：`c59bf415751ac31f13ec40fe6e56fcdb15a724a74be3e47908a76129d31e6980`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Distributors--f48d683c32d83a72/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Distributors--f48d683c32d83a72/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-e8aa4d799ac7efbe"></a>
+
+## AMD_Instinct_MI350
+
+- [官方/原始来源](https://www.amd.com/en/products/accelerators/instinct/mi350.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:42:32.172081+00:00`
+- `sha256`：`8916d12554fdc26f71e10a151e85889b06e2d1a15d7d7b4d96f79e7949507bf6`
+- `original_sha256`：`21cd3f8a0ca0a7aa6c3ee6daa4bab8f76c4fa3dc491c42e5b72ad876371f30f0`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Instinct_MI350--e8aa4d799ac7efbe/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Instinct_MI350--e8aa4d799ac7efbe/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-3169e5a40951d92f"></a>
+
+## AMD_MI350P
+
+- [官方/原始来源](https://www.amd.com/en/products/accelerators/instinct/mi350/mi350p.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:50:02.162181+00:00`
+- `sha256`：`2e781017d4dadd348a419d7e7de8463d6e6fa83d1e0f6d8b266de3d3a60138fc`
+- `original_sha256`：`8643641089fd72b56ff043c061d573c93a271021420789769b61d90cd24d7c5a`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MI350P--3169e5a40951d92f/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MI350P--3169e5a40951d92f/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-918e143f4ae59526"></a>
+
+## AMD_MI350X
+
+- [官方/原始来源](https://www.amd.com/en/products/accelerators/instinct/mi350/mi350x.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:49:59.877985+00:00`
+- `sha256`：`0918b5c53a50afc0deb74d94f95e4cc0628fa1644171d39b7c3d9db6b98b4851`
+- `original_sha256`：`ea5114e352c31b17a0772c1ac64b3de3a4935e9ad073774b6a8abf3d610fd6d1`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MI350X--918e143f4ae59526/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MI350X--918e143f4ae59526/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-780b66f499f7b7f7"></a>
+
+## AMD_MI355X
+
+- [官方/原始来源](https://www.amd.com/en/products/accelerators/instinct/mi350/mi355x.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:49:56.835430+00:00`
+- `sha256`：`92971dc61cd3b5e192126856d077b81aab3522b086a3e715345983ab0c766914`
+- `original_sha256`：`024fafd1f77a3adb450d6484d52b431305013639c96def5163316568524010dd`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MI355X--780b66f499f7b7f7/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MI355X--780b66f499f7b7f7/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-e2db2c2f564c1a06"></a>
+
+## AMD_VEK280
+
+- [官方/原始来源](https://www.amd.com/en/products/adaptive-socs-and-fpgas/evaluation-boards/vek280.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:49:43.403284+00:00`
+- `sha256`：`0595f0cfc5caa8b5a79398530ee9c2e46e7881e7c60e6fdb6e91cd926a0874a3`
+- `original_sha256`：`45756d74a725388dc56eb8c9deac3311c581b851092332631908358e0b735831`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VEK280--e2db2c2f564c1a06/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VEK280--e2db2c2f564c1a06/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-a629f2c03e80c27d"></a>
+
+## AMD_VEK385
+
+- [官方/原始来源](https://www.amd.com/en/products/adaptive-socs-and-fpgas/evaluation-boards/vek385.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:49:35.696003+00:00`
+- `sha256`：`09379958cae955b58c4014a1d5b9a77f48c45a796277407e4f21fbda511fa8d5`
+- `original_sha256`：`826ed77a7754758f73e87ed09f15d8550a3c5d20409fc4a13e245eae4824ab06`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VEK385--a629f2c03e80c27d/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VEK385--a629f2c03e80c27d/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-cc9c0ba85449b0da"></a>
+
+## AMD_Versal_AI_Edge
+
+- [官方/原始来源](https://www.amd.com/en/products/adaptive-socs-and-fpgas/versal/ai-edge-series.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:42:20.669206+00:00`
+- `sha256`：`1dbf1a8808da9b57664712470a05a5c08610c32726fe66b4bb2aa0d52647b74f`
+- `original_sha256`：`3ec4e9fde7864ea4fec84bf92374303881468b0c5dd986b9e4dccc1bcd2b45e2`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Versal_AI_Edge--cc9c0ba85449b0da/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Versal_AI_Edge--cc9c0ba85449b0da/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-b67212c82b7a1fee"></a>
+
+## AMD_Versal_AI_Edge_Gen2
+
+- [官方/原始来源](https://www.amd.com/en/products/adaptive-socs-and-fpgas/versal/gen2/ai-edge-series.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:45:38.898505+00:00`
+- `sha256`：`004f120d45833370d80d9bf694836633be6df8286008b3033291104e90e62914`
+- `original_sha256`：`a523a986c51b92bc3afe696cf1ed3ea74ec8ce0e376df73e6b8574ad80c510d7`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Versal_AI_Edge_Gen2--b67212c82b7a1fee/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Versal_AI_Edge_Gen2--b67212c82b7a1fee/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-8ab947dec591ded6"></a>
+
+## AMD_Ryzen_AI_Embedded
+
+- [官方/原始来源](https://www.amd.com/en/products/embedded/ryzen-ai.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:43:33.975312+00:00`
+- `sha256`：`040a6cb0bf7202d0013f670023db27bfa20243fc82a5bd31d5fa032096202b8c`
+- `original_sha256`：`876a9201394a630ece461a94d32b1e5b0593a0854b4fcac66178238a6acb9f6d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Ryzen_AI_Embedded--8ab947dec591ded6/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Ryzen_AI_Embedded--8ab947dec591ded6/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-0eef19c6ba93278c"></a>
+
+## AMD_P100
+
+- [官方/原始来源](https://www.amd.com/en/products/embedded/ryzen-ai/p100-series.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:44:07.567683+00:00`
+- `sha256`：`95931a103bd0ea594b6bab0250b227821fa5f5b0849d2e8338043776ba00d314`
+- `original_sha256`：`67aedf266b960227ae0cd0538f27fd14211ee1ee86e3dd71de3bbbd6b4aa4da2`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_P100--0eef19c6ba93278c/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_P100--0eef19c6ba93278c/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-4f1c446a039cb382"></a>
+
+## AMD_X100
+
+- [官方/原始来源](https://www.amd.com/en/products/embedded/ryzen-ai/x100-series.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:43:43.740186+00:00`
+- `sha256`：`2d0e2936bdc06fe1c85c02159896804dabc9ec4f3f153bd407019e9756033eed`
+- `original_sha256`：`7c693b2910713683ac688a7c985da1859cf7c259da3b391d1055b877db228e2c`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_X100--4f1c446a039cb382/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_X100--4f1c446a039cb382/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-41d273d3f78862f2"></a>
+
+## AMD_X199
+
+- [官方/原始来源](https://www.amd.com/en/products/embedded/ryzen-ai/x100-series/ryzen-ai-embedded-x199.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:52:44.705946+00:00`
+- `sha256`：`d47cdb1e766d840e416e2cba0dd1323b55609a9b7a76a616a4d2d58a982016c5`
+- `original_sha256`：`6b201cd33b08e8c213d28be0098d757b23c430e5308fb362b5a3941dc86588d9`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_X199--41d273d3f78862f2/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_X199--41d273d3f78862f2/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-8eb60c1dbd1f1b13"></a>
+
+## AMD_Ryzen_Embedded
+
+- [官方/原始来源](https://www.amd.com/en/products/embedded/ryzen.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:42:04.523190+00:00`
+- `sha256`：`c4deec4e1b28d685b0f730f6559d04abeadf2fe06079c50324ac874643a35882`
+- `original_sha256`：`9f46ee6f573754410d9376765f009d122368fed11dfe890114316b1c343820a2`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Ryzen_Embedded--8eb60c1dbd1f1b13/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Ryzen_Embedded--8eb60c1dbd1f1b13/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-06ba1cc1131ed8bc"></a>
+
+## AMD_Embedded_8000
+
+- [官方/原始来源](https://www.amd.com/en/products/embedded/ryzen/ryzen-8000-series.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:45:20.917606+00:00`
+- `sha256`：`d6a62a9da79ac0c68c086d4189bf76ccaf8600043299ab1c16104c9d33f90067`
+- `original_sha256`：`22eb6c40387d5689d33c3a95d4ae31e818924a511e58cc849ece956be2efaa1f`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Embedded_8000--06ba1cc1131ed8bc/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Embedded_8000--06ba1cc1131ed8bc/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-17c9e6f7edf03d9c"></a>
+
+## AMD_V2000
+
+- [官方/原始来源](https://www.amd.com/en/products/embedded/ryzen/ryzen-v2000-series.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:45:32.466213+00:00`
+- `sha256`：`94fdaa5e7f727b5e2f4458d785faeb3a3f6215ea6b6324601d59b00a944dbc7e`
+- `original_sha256`：`a933234ef0a5d9ab0d53df79523d8e572feca38157defe7fcd4cfd59207fdfce`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_V2000--17c9e6f7edf03d9c/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_V2000--17c9e6f7edf03d9c/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-df7ab46c24809f87"></a>
+
+## AMD_V3000
+
+- [官方/原始来源](https://www.amd.com/en/products/embedded/ryzen/ryzen-v3000-series.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:45:26.214694+00:00`
+- `sha256`：`3034d417dbff4aa4d32a5d5d5491b9f3004cf4a674ac860ea5947211877f378c`
+- `original_sha256`：`e98c9856cd0f502f770409a7b8e33feff9906ee97afc692be22f4c8e7514ef72`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_V3000--df7ab46c24809f87/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_V3000--df7ab46c24809f87/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-13a5c808eaffbeee"></a>
+
+## AMD_Radeon_AI_PRO
+
+- [官方/原始来源](https://www.amd.com/en/products/graphics/workstations/radeon-ai-pro.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:52:47.727901+00:00`
+- `sha256`：`561309dc8e82589f85ed5dd75c9fd4f39954a7c1307a40fbd40a5c4ac00f5350`
+- `original_sha256`：`af52b0565e0aab111143c2e6a97985079a12dd7df7b063efb2debe3ca4d39080`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Radeon_AI_PRO--13a5c808eaffbeee/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Radeon_AI_PRO--13a5c808eaffbeee/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-6d3fa52ed6236ec2"></a>
+
+## AMD_Ryzen_AI_Max_395
+
+- [官方/原始来源](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:42:17.932823+00:00`
+- `sha256`：`f6597c16f6d72c2ab3cf20a05d1b6f76a947768fa4f4589605adad75ce23608b`
+- `original_sha256`：`31c32b47a086c43a891112d28eb9e0d543e0194188b42256ff90349561505b29`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Ryzen_AI_Max_395--6d3fa52ed6236ec2/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Ryzen_AI_Max_395--6d3fa52ed6236ec2/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-e10bf179583f6910"></a>
+
+## AMD_Embedded_Software
+
+- [官方/原始来源](https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/embedded-software.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:17:19.136138+00:00`
+- `sha256`：`819b67a8a55853db35d83e367725463252690e637cf09bd4a7d66683c17ba674`
+- `original_sha256`：`e3f82a729b2f98c253a3765cec13dcf0e1ac8b7c5947e6e0616bc75c8fa800f8`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Embedded_Software--e10bf179583f6910/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Embedded_Software--e10bf179583f6910/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-6542148c0f1b7488"></a>
+
+## AMD_EDF_Product
+
+- [官方/原始来源](https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/embedded-software/embedded-development-framework.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:15:30.506376+00:00`
+- `sha256`：`e5bc52b901de681212457551dd07dfb8fce49dd53536765457877efefbcf7c06`
+- `original_sha256`：`08e11092b96d3f237c3ae39fed05755ade88c6715bb77ab41d0dcc84da66a7ec`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Product--6542148c0f1b7488/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Product--6542148c0f1b7488/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-0d473c7ff82290bd"></a>
+
+## AMD_Vitis_Product
+
+- [官方/原始来源](https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/vitis.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:15:47.644009+00:00`
+- `sha256`：`704605614ea03770e97c6bcefaca0d5d0608c643a3f84fc9c7ff334cb1066186`
+- `original_sha256`：`2e447d170607e0f44ad2efc9973218db9ac9a6d54d2d698efcaa7d6fe56ddb62`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Vitis_Product--0d473c7ff82290bd/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Vitis_Product--0d473c7ff82290bd/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-0d07cb982567ca67"></a>
+
+## AMD_ROSS
+
+- [官方/原始来源](https://www.amd.com/en/products/software/ross-agentic-ai.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:14:04.845625+00:00`
+- `sha256`：`c7ac2356c6892a9849f73c00bc76e3863831ee4815509ee38ea5655ea7bc113f`
+- `original_sha256`：`9f71c250562bc8275a3a39c65818d47dfc2b2657fca79019023d91470bdbb524`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROSS--0d07cb982567ca67/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_ROSS--0d07cb982567ca67/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-d6516056b8fe2bd5"></a>
+
+## AMD_VitisAI_Product
+
+- [官方/原始来源](https://www.amd.com/en/products/software/vitis-ai.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:15:22.815565+00:00`
+- `sha256`：`0ad764ee5c8cf49913a69f451857e5f9a234fe966d2af18e16f4f1a89f9516f2`
+- `original_sha256`：`40160cb6e6bdc5a04e2b85963148fa4c89bb687ef4d7e362a95a44788f895885`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Product--d6516056b8fe2bd5/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Product--d6516056b8fe2bd5/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-7353530316c6a6c9"></a>
+
+## AMD_Kria_AI
+
+- [官方/原始来源](https://www.amd.com/en/products/system-on-modules/kria/ai.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:44:23.972973+00:00`
+- `sha256`：`15de554960154aac7174aee6912800c36bf4c794a50cfc99810ab74af26f1495`
+- `original_sha256`：`3e0ab9d96ed53ef6a2df64de6d3f7943ff6fc4bf580e59f1859ed23a54b72591`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_AI--7353530316c6a6c9/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_AI--7353530316c6a6c9/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-fffec690feed8269"></a>
+
+## AMD_Kria_AI_Dev
+
+- [官方/原始来源](https://www.amd.com/en/products/system-on-modules/kria/ai/robotics-developer-platform.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:44:29.817154+00:00`
+- `sha256`：`4618c9ef62b2e0faf891aef94fe950ec832571f56e6dc1c956d9d9d6fd9aa5ca`
+- `original_sha256`：`f1919e6f25a4d707a8697fd9c96f99df88392df6681b075ebfdbf3787df46e19`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_AI_Dev--fffec690feed8269/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_AI_Dev--fffec690feed8269/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-762705b083be29fa"></a>
+
+## AMD_Kria_K24
+
+- [官方/原始来源](https://www.amd.com/en/products/system-on-modules/kria/k24.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:41:44.554403+00:00`
+- `sha256`：`da6cd41f54c697985f5db1beed25f9e96bc72791f8986e12a6a4ea18557470b3`
+- `original_sha256`：`af90ffe6782a210a2d34dfa363cae0c313112f80475f57d19157308392ba3dbf`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_K24--762705b083be29fa/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_K24--762705b083be29fa/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-075d1504e682e687"></a>
+
+## AMD_K24C
+
+- [官方/原始来源](https://www.amd.com/en/products/system-on-modules/kria/k24/k24c-commercial.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:45:00.580376+00:00`
+- `sha256`：`8b8562f9b4f0c56389e2fbce5dbe27022460e75ff6e5ece418fe149b5dc1b215`
+- `original_sha256`：`77601c511e744128bd19b006ad27f8ee4ea14106b19883d8c536487adf066c99`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_K24C--075d1504e682e687/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_K24C--075d1504e682e687/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-4d3fa334daf3e292"></a>
+
+## AMD_K24I
+
+- [官方/原始来源](https://www.amd.com/en/products/system-on-modules/kria/k24/k24i-industrial.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:45:06.761539+00:00`
+- `sha256`：`0f5df435122892ffbcd85d379391657ae3beef861a7d288c2c130b9bcbc2a316`
+- `original_sha256`：`2bb8cab84dff5943254a9392d8d6d9499a6ad5bde77241b5be721a8254ce94eb`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_K24I--4d3fa334daf3e292/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_K24I--4d3fa334daf3e292/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-0d2d5a82f6ef2d54"></a>
+
+## AMD_KD240
+
+- [官方/原始来源](https://www.amd.com/en/products/system-on-modules/kria/k24/kd240-drives-starter-kit.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:45:12.989854+00:00`
+- `sha256`：`ad4567cb06783a10bed6df8bdb8f16cf087584db97916dcc1b51b997dee3dbcb`
+- `original_sha256`：`5c62f4647dfb5c87c28f7b923f93fc4336796b202ca60413d41fce6a2f7bcc97`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KD240--0d2d5a82f6ef2d54/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KD240--0d2d5a82f6ef2d54/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-65ab4956f1345909"></a>
+
+## AMD_Kria_K26
+
+- [官方/原始来源](https://www.amd.com/en/products/system-on-modules/kria/k26.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:41:33.999453+00:00`
+- `sha256`：`654303111f0112229b719ca045228c3156811e707f7fcb00c159a664b6eb3cd3`
+- `original_sha256`：`9096431a130897c8dead9a634d3fef392d56830db39a5c6fe444fa21080bd39d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_K26--65ab4956f1345909/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_K26--65ab4956f1345909/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-c1aacc4713c0350b"></a>
+
+## AMD_K26C
+
+- [官方/原始来源](https://www.amd.com/en/products/system-on-modules/kria/k26/k26c-commercial.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:44:37.150588+00:00`
+- `sha256`：`4e6814b5f41b52abf83e93cf8bfdb0d7a09425c652e0f01794cc464399b64b76`
+- `original_sha256`：`b253712e557c325ec0ac4445165187283a352ee3546398ef5dcc82ff974e2c6f`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_K26C--c1aacc4713c0350b/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_K26C--c1aacc4713c0350b/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-0757b0334feb2277"></a>
+
+## AMD_K26I
+
+- [官方/原始来源](https://www.amd.com/en/products/system-on-modules/kria/k26/k26i-industrial.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:44:45.612980+00:00`
+- `sha256`：`f2ea291634329405bd884a7d3b039cc2bf8ab6d7e4bcf292f352b9f437285db9`
+- `original_sha256`：`529724cf1829b2f8f4c296048499ddb6787498618b054b7df6fac836f203d0d3`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_K26I--0757b0334feb2277/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_K26I--0757b0334feb2277/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-38007a715153d4af"></a>
+
+## AMD_KR260
+
+- [官方/原始来源](https://www.amd.com/en/products/system-on-modules/kria/k26/kr260-robotics-starter-kit.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:41:54.088291+00:00`
+- `sha256`：`cce5a92067e225f5ea4bd9b37367d91665b49fc5eff7bb9ee48d0e6a1c777320`
+- `original_sha256`：`9ba962b3498238bec4254d7899e282d01da4e54bb51dff0716b6ac304a917b94`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KR260--38007a715153d4af/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KR260--38007a715153d4af/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-f9f729bb41514f8d"></a>
+
+## AMD_IMX547_Color
+
+- [官方/原始来源](https://www.amd.com/en/products/system-on-modules/kria/k26/kr260-robotics-starter-kit/imx547-camera-kit-color.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:07:38.724815+00:00`
+- `sha256`：`43c693ba2bf7989437c506684ffc2407eec6ad3abc6ac1fa10c65af1bb357cfd`
+- `original_sha256`：`c7aab9aa23c07f8a38635f1941e084d9d56635d3cb022bdf51248c7417bec443`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Color--f9f729bb41514f8d/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Color--f9f729bb41514f8d/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-c6eb79ab879ec9bf"></a>
+
+## AMD_IMX547_Mono
+
+- [官方/原始来源](https://www.amd.com/en/products/system-on-modules/kria/k26/kr260-robotics-starter-kit/imx547-camera-kit-monochrome.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:07:45.047047+00:00`
+- `sha256`：`06012ae80be79a378739d705b37413146049e49014f3018c83e3d853c290013f`
+- `original_sha256`：`2e0788e28073c80a962a41f12ed66b6b91cef2c55d6eac3aef88ba90eea4ef06`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Mono--c6eb79ab879ec9bf/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_IMX547_Mono--c6eb79ab879ec9bf/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-758b998a2b6400ac"></a>
+
+## AMD_KV260
+
+- [官方/原始来源](https://www.amd.com/en/products/system-on-modules/kria/k26/kv260-vision-starter-kit.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:44:51.877878+00:00`
+- `sha256`：`d986534d8096051ee8eaf3ca2fdb1801a7830a2187a24c4a446a1e6fe3647310`
+- `original_sha256`：`eca64eb1eaca73dd3bb6d86e55d1df05326e0ad79e91ae5e4748f7c401beed08`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KV260--758b998a2b6400ac/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KV260--758b998a2b6400ac/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-34af30a93b6d23ac"></a>
+
+## AMD06_Robotec_Case
+
+- [官方/原始来源](https://www.amd.com/en/resources/case-studies/robotec-ai.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:34:44.561141+00:00`
+- `sha256`：`c3d0482a0cbb11af4c955555f6fa23d680532b41a64626d78a0a4cb2b4e008fa`
+- `original_sha256`：`7d7afb3d931b8330be1a1285fcfe8afec6b869e7966bd7fff5de802afe55301e`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_Robotec_Case--34af30a93b6d23ac/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_Robotec_Case--34af30a93b6d23ac/original.response`
+- 未取得依赖：12 项；详见本地 metadata。
+
+<a id="ref-f822be207100303c"></a>
+
+## AMD06_Solectrix_Case
+
+- [官方/原始来源](https://www.amd.com/en/resources/case-studies/solectrix.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:34:50.338956+00:00`
+- `sha256`：`138846af29f408051371e7349cb2b2c39ff19b215574d72e60c4990ef5ba8fb2`
+- `original_sha256`：`508ea2dde57c5b7f4de84d8eabffe2389448afd0e0161763ef1374f63e1940ff`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_Solectrix_Case--f822be207100303c/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_Solectrix_Case--f822be207100303c/original.response`
+- 未取得依赖：14 项；详见本地 metadata。
+
+<a id="ref-820f6e8c33c993c3"></a>
+
+## AMD06_STW_Case
+
+- [官方/原始来源](https://www.amd.com/en/resources/case-studies/stw.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:34:48.104178+00:00`
+- `sha256`：`04225e2e3b709e39c37c6b5043d4bb7d3e89339939ecee861c8329a5e40a78f3`
+- `original_sha256`：`1f93f601df2ad528f8e01b8296f22540ed5bc31f1dc21a9ea42afee5b6403d48`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_STW_Case--820f6e8c33c993c3/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_STW_Case--820f6e8c33c993c3/original.response`
+- 未取得依赖：15 项；详见本地 metadata。
+
+<a id="ref-6a884f9eb646e00e"></a>
+
+## AMD07_Robotics_Solutions
+
+- [官方/原始来源](https://www.amd.com/en/search/partner/robotics-partner-solutions.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:47:23.591075+00:00`
+- `sha256`：`f505492124b847e8e66f04fb4a31f2512c4957f9a5f73ea0d1a42360d3feefc1`
+- `original_sha256`：`4010f4d7de125c4094ab72e508fc732871afaa7fd1ea586996ee20ec122bee96`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Robotics_Solutions--6a884f9eb646e00e/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Robotics_Solutions--6a884f9eb646e00e/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-200916bbff1891ec"></a>
+
+## AMD07_Robotics_Partners
+
+- [官方/原始来源](https://www.amd.com/en/search/partner/robotics-partners.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:47:07.253563+00:00`
+- `sha256`：`7689f4d1ad8a424a473a9f504d3d29499c08da0aa9bd4355d6a8f40a92011a78`
+- `original_sha256`：`bddaeb7ff1b432caddfb46c9d4295946ab835a8a3c2d8b1f94c9f79a967f8fa5`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Robotics_Partners--200916bbff1891ec/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Robotics_Partners--200916bbff1891ec/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-1d122095ffc2b0d2"></a>
+
+## AMD_Robotics
+
+- [官方/原始来源](https://www.amd.com/en/solutions/robotics.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:40:21.405822+00:00`
+- `sha256`：`5cbe61d9e934672e78cafa25bb5af716c14b005d6af39055fa4db163c7ec2d01`
+- `original_sha256`：`660323cdc46ce679605b0c279e4b7b56ebd159b9449c39e1dea27a553329226d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Robotics--1d122095ffc2b0d2/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Robotics--1d122095ffc2b0d2/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-65baec58099f2344"></a>
+
+## AMD07_Warranty
+
+- [官方/原始来源](https://www.amd.com/en/support/warranty.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:49:36.122737+00:00`
+- `sha256`：`442e69344ac3da407424474e3a64fa4517de15da61cfc5bd702fa795762854d1`
+- `original_sha256`：`ad8a0dd920354a0f59e835914472401ba5491188f2f484add11c0f7441de8000`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Warranty--65baec58099f2344/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Warranty--65baec58099f2344/original.response`
+- 未取得依赖：5 项；详见本地 metadata。
+
+<a id="ref-de712a8e1710c3f1"></a>
+
+## AMD08_XDNA_Product
+
+- [官方/原始来源](https://www.amd.com/en/technologies/xdna.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T09:23:55.616162+00:00`
+
+<a id="ref-4bb30f81d0a227c2"></a>
+
+## AMD07_Congatec_CRX1_PDF
+
+- [官方/原始来源](https://www.congatec.com/fileadmin/user_upload/Documents/Datasheets/conga-HPC_cRX1.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T08:54:12.143923+00:00`
+- `sha256`：`2c5284ce74ffe9347504f5cf97c3310720cd53aea85b4bc4d8de3a21062075b3`
+- `original_sha256`：`2c5284ce74ffe9347504f5cf97c3310720cd53aea85b4bc4d8de3a21062075b3`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD07_Congatec_CRX1_PDF--4bb30f81d0a227c2/document.pdf`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/documents/AMD07_Congatec_CRX1_PDF--4bb30f81d0a227c2/original.response`
+
+<a id="ref-99210a1d216fa4c4"></a>
+
+## AMD07_Congatec_CRX1
+
+- [官方/原始来源](https://www.congatec.com/us/products/com-hpc/conga-hpccrx1/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:53:02.214169+00:00`
+- `sha256`：`4d1885670f6dda577f84183b402ccf0757f0752de3a74416107ffeb0bb202c22`
+- `original_sha256`：`0c699f94b0ca5fbf176c6d519bac292017c33d8d05c1c86956e5d343e9e0a2b7`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Congatec_CRX1--99210a1d216fa4c4/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_Congatec_CRX1--99210a1d216fa4c4/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-4562a292149551da"></a>
+
+## AMD09_EAR_742
+
+- [官方/原始来源](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-742)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T15:00:08.322732+00:00`
+
+<a id="ref-1d17f598e2eac68a"></a>
+
+## mimik_Agentic_Benchmark
+
+- [官方/原始来源](https://www.mimik.com/agentix-compute-benchmarking)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T04:50:21.677440+00:00`
+- `sha256`：`27ae345398923c88d8cc96db32fe0f1dd9bcb3b5128e1ac88571f76be8613d1b`
+- `original_sha256`：`a91eeffe6d8507f0eca76ececebb7fa030e3c56626a32626de903fb1c322c7e7`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/mimik_Agentic_Benchmark--1d17f598e2eac68a/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/mimik_Agentic_Benchmark--1d17f598e2eac68a/original.response`
+
+<a id="ref-a9964c7dea0eb8f5"></a>
+
+## AMD06_GB_Factory_PR
+
+- [官方/原始来源](https://www.prnewswire.com/news-releases/generative-bionics-to-build-europes-largest-physical-ai-data-factory-and-advance-european-humanoid-sovereignty-with-amd-ai-infrastructure-302914868.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:41:20.491649+00:00`
+- `sha256`：`fb3cef7c2e35368895c4467136f73fcf290cd585cebc00637e391668b9dac2b7`
+- `original_sha256`：`bcc80d072da4d5b289b30feffaf792de74e739d9ba201be86720a20df334287e`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_GB_Factory_PR--a9964c7dea0eb8f5/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_GB_Factory_PR--a9964c7dea0eb8f5/original.response`
+- 未取得依赖：69 项；详见本地 metadata。
+
+<a id="ref-22f7f776b27e98e1"></a>
+
+## ROS_REP_2007
+
+- [官方/原始来源](https://www.ros.org/reps/rep-2007.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T06:46:22.794520+00:00`
+- `original_sha256`：`986c3658f60228de5a00d0f8ffc953450e9b5b9d260ea8424f73c16f021874bc`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/ROS_REP_2007--22f7f776b27e98e1/original.response`
+
+<a id="ref-88892fdadafd4098"></a>
+
+## ROS_REP_2008
+
+- [官方/原始来源](https://www.ros.org/reps/rep-2008.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T06:46:20.146126+00:00`
+- `original_sha256`：`94d0e1c59e75cdcd05a8e571ba099e4eac61a8f360e8032f23285f6ccbb1306f`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/ROS_REP_2008--88892fdadafd4098/original.response`
+
+<a id="ref-3f934e2d309b3817"></a>
+
+## Sapphire_R9700
+
+- [官方/原始来源](https://www.sapphiretech.com/en/commercial/radeon-ai-pro-r9700)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:53:13.183874+00:00`
+- `sha256`：`e457e2b37065509dc4921324799420020b3c2ac10cf684f7bba1a33ac32e91cd`
+- `original_sha256`：`4db23bc1cc9c30acfda22c130939235c0995da436fc040462ad2774bdf840ca6`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Sapphire_R9700--3f934e2d309b3817/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Sapphire_R9700--3f934e2d309b3817/original.response`
+- 未取得依赖：8 项；详见本地 metadata。
+
+<a id="ref-ae121ca37428d687"></a>
+
+## AMD06_XArm_Product
+
+- [官方/原始来源](https://www.ufactory.cc/xarm-collaborative-robot/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:34:15.132563+00:00`
+- `sha256`：`0f794066308d239f342904b5d7c672314e76300d25ce30d27b881bc224744575`
+- `original_sha256`：`6eac66f91e39ec898d827e3c221299eaff393333034b1527e3e069e6fc96ebfc`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_Product--ae121ca37428d687/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_Product--ae121ca37428d687/original.response`
+- 未取得依赖：37 项；详见本地 metadata。
+
+<a id="ref-407e645ca8dcdb86"></a>
+
+## AMD07_WindRiver_Linux
+
+- [官方/原始来源](https://www.windriver.com/products/embedded/linux)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T08:48:57.254856+00:00`
+- `sha256`：`c7b75423d20ec31d69cf723f1e16e748b371c47b24fda4431977c854e7bdfee6`
+- `original_sha256`：`ae85dea0314eb701bb28979ff809ed207a2ffae7ed204841f9e7707f00b2b214`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_WindRiver_Linux--407e645ca8dcdb86/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD07_WindRiver_Linux--407e645ca8dcdb86/original.response`
+- 未取得依赖：53 项；详见本地 metadata。
+
+<a id="ref-9d7fe6dabe5682ca"></a>
+
+## AMD_K26_Wiki
+
+- [官方/原始来源](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/1641152513/Kria+K26+SOM)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T04:47:02.883559+00:00`
+- `sha256`：`e57836458152cc534b3e28d8f4655023d99aa79d017949461cc6c76245ad93c1`
+- `original_sha256`：`e3dff829bb12b8181ef80610755a5d1006b68a03bcbb606ceb4569d8a19c6326`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_K26_Wiki--9d7fe6dabe5682ca/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_K26_Wiki--9d7fe6dabe5682ca/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-3ca25d4a5c7385bb"></a>
+
+## AMD_Wiki_Linux
+
+- [官方/原始来源](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841996/Linux)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:11:27.060900+00:00`
+- `sha256`：`9bca3d0f964726a33c4e7430feefb56b2e8c8b0e91f21d44e490674d6582dfbb`
+- `original_sha256`：`7b3fb621376259d1529f05b4c8a21e08b92208e989190c356f2abb96aef16a56`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Wiki_Linux--3ca25d4a5c7385bb/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Wiki_Linux--3ca25d4a5c7385bb/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-dea73578479c9951"></a>
+
+## AMD_Wiki_Video
+
+- [官方/原始来源](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/289833254/Video)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:07:51.031396+00:00`
+- `sha256`：`4e822a8e5acebc8a9e85d767d8b01266937056069d592cc8798bc87fea5956e3`
+- `original_sha256`：`b826a22a7bad3c098fef4b362bc139edd5dfb8ea882a646242e9fe135dff6e37`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Wiki_Video--dea73578479c9951/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Wiki_Video--dea73578479c9951/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-56aab8a27782fe10"></a>
+
+## AMD_EDF_Wiki
+
+- [官方/原始来源](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/3250585601/AMD+Embedded+Development+Framework+EDF)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:15:37.038940+00:00`
+- `sha256`：`ee3f2e6e378ad25af0f005c3ef4b865a4554ca65f996d47486c5a41dbd867a49`
+- `original_sha256`：`1e64260e99662f6adff33abe5361ad0c8ac81f7962cf4fd1dc51fc6722b335f2`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Wiki--56aab8a27782fe10/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_EDF_Wiki--56aab8a27782fe10/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-48f97d42125f5728"></a>
+
+## KRS_Docs
+
+- [官方/原始来源](https://xilinx.github.io/KRS/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:27:59.711094+00:00`
+- `sha256`：`c44a69da0e79b63b4d859644eda428aca0f2cc3a8bcfeaf58241d0b481eb3d8a`
+- `original_sha256`：`249555aaa247a3a516976dda2bb71625a0bf6d5d6fd9c80f0055b293e34ae431`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Docs--48f97d42125f5728/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Docs--48f97d42125f5728/original.response`
+
+<a id="ref-1f1f08398a52c33b"></a>
+
+## KRS_Faster_Publisher
+
+- [官方/原始来源](https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/5_faster_ros2_publisher.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:46:17.873295+00:00`
+- `sha256`：`d9ba51ad9976b3e8c1981259e762be50fa3bb74a9f09d593d637de2342b2b0d0`
+- `original_sha256`：`95449345a883f38437b8fc1216fa4ced2d5d66e1cf9bde96ac41aa68d22d9b2d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Faster_Publisher--1f1f08398a52c33b/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Faster_Publisher--1f1f08398a52c33b/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-6d4339c5b50cea31"></a>
+
+## KRS_Perception
+
+- [官方/原始来源](https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/6_perception.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:46:05.320910+00:00`
+- `sha256`：`ecb05a6bf5e5ab18c8b5d84d1be2127244dc860bbd9aa8987273dd6edeebbbf7`
+- `original_sha256`：`ef5b819ccbd3de7ccca3ca2bbddd22a647d3b6ad55a435ef5f7eb2f1c1b41135`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Perception--6d4339c5b50cea31/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Perception--6d4339c5b50cea31/original.response`
+- 未取得依赖：8 项；详见本地 metadata。
+
+<a id="ref-e6c79f937aff1d1e"></a>
+
+## KRS_Graphs
+
+- [官方/原始来源](https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/graphs.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:44:48.502158+00:00`
+- `sha256`：`7c20cf5ba64bec2b84dc7877d1752ef7c5714673891903643f6b89f68852da17`
+- `original_sha256`：`697c7dcfb7d69bb9bf8bbcab4367541d0c90e2c6f9ec3e9280d257a1c6959579`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Graphs--e6c79f937aff1d1e/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Graphs--e6c79f937aff1d1e/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-d065eb8378841d5b"></a>
+
+## KRS_Nodes
+
+- [官方/原始来源](https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/nodes.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:44:47.312766+00:00`
+- `sha256`：`887cc6700b3fd07dcf6f8a32091578333596bfc4295000f7b3c15cf83cedcac1`
+- `original_sha256`：`a9d5d00a62efa12eade154888186614233c21436527152e9b51bca689cd76ec9`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Nodes--d065eb8378841d5b/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Nodes--d065eb8378841d5b/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-c5dd0d8cca3f475a"></a>
+
+## KRS_Vitis_Example
+
+- [官方/原始来源](https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/vitis_accelerated.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:44:49.666988+00:00`
+- `sha256`：`f5040513889361184a6667d071461f0ebaaa3e818b8adc614c4e1e94095da04b`
+- `original_sha256`：`e5abc6dbc02a4d771e687986b561d48b55dbb022feea3424cf831b4928e93275`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Vitis_Example--c5dd0d8cca3f475a/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Vitis_Example--c5dd0d8cca3f475a/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-37e200ff0dffb3d4"></a>
+
+## KRS_Vitis_Function
+
+- [官方/原始来源](https://xilinx.github.io/KRS/sphinx/build/html/docs/examples/vitis_accelerated_function.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:46:11.583181+00:00`
+- `sha256`：`4e685714e6bf3bb2246c6171abfe91ace894656f376ccc6b36bc4826be812f1d`
+- `original_sha256`：`ba931749b275ed8336dc71608959bfb1db9a86f34aab76a9be19b227cea20dd6`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Vitis_Function--37e200ff0dffb3d4/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Vitis_Function--37e200ff0dffb3d4/original.response`
+- 未取得依赖：5 项；详见本地 metadata。
+
+<a id="ref-4e8d6f22b87222a2"></a>
+
+## KRS_Realtime
+
+- [官方/原始来源](https://xilinx.github.io/KRS/sphinx/build/html/docs/features/realtime_ros2.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:30:52.933121+00:00`
+- `sha256`：`a5807e68dfbf4552402dff04e350c74aeaae97eb1dc23ca3508e5cd55acff007`
+- `original_sha256`：`6b89196456ca25a64b97b3de5e405a50d843550763254066ca9117ae1381e6bc`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Realtime--4e8d6f22b87222a2/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Realtime--4e8d6f22b87222a2/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-4a8e42d311d42c27"></a>
+
+## KRS_ROS_Centric
+
+- [官方/原始来源](https://xilinx.github.io/KRS/sphinx/build/html/docs/features/ros2centric.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:44:39.534644+00:00`
+- `sha256`：`69f05a04e43357ddc37ae3c71a4309987781e6bac505a90dd1c2c0ef4b9b1be5`
+- `original_sha256`：`887b62db0586125f4d80ad4c6cb92c0fc6e162911da7b6911aee11364d02dd24`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_ROS_Centric--4a8e42d311d42c27/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_ROS_Centric--4a8e42d311d42c27/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-6411957b9bdf52ef"></a>
+
+## KRS_Hardware
+
+- [官方/原始来源](https://xilinx.github.io/KRS/sphinx/build/html/docs/hardware.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:30:44.044794+00:00`
+- `sha256`：`ccc27636a23ffc57e732e168bc2f900123176c9d489b56fe7e15773d650d617c`
+- `original_sha256`：`955dc97d04cf28e3d7bf93587643c06e45b0cc756a1ed708adf7244b6dfd6e55`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Hardware--6411957b9bdf52ef/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Hardware--6411957b9bdf52ef/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-9b25379ce3c80b9c"></a>
+
+## KRS_Howto
+
+- [官方/原始来源](https://xilinx.github.io/KRS/sphinx/build/html/docs/howto.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T06:44:50.854962+00:00`
+- `sha256`：`7bdf7561ae521462f9cb212dbe0c3b82fd90ae7be09dc27e717596869f991171`
+- `original_sha256`：`7b2644dbe1eb04460f7c44fcb2b82dd7c36bbc7c1b24e44f6afe6fbb6ae83e97`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Howto--9b25379ce3c80b9c/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Howto--9b25379ce3c80b9c/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-a6a9705f586b43ec"></a>
+
+## KRS_Install
+
+- [官方/原始来源](https://xilinx.github.io/KRS/sphinx/build/html/docs/install.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:30:40.768884+00:00`
+- `sha256`：`39f91890263858d0ed3de9069d77d1876b617054d628527ac9cec2d5d2ed6cc4`
+- `original_sha256`：`7d853f7ad2522b50eb267e4605b137ca0897dfb7433ec87235e94eb8f8c22586`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Install--a6a9705f586b43ec/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Install--a6a9705f586b43ec/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-12b252bae9acef40"></a>
+
+## KRS_V1_Docs
+
+- [官方/原始来源](https://xilinx.github.io/KRS/sphinx/build/html/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:30:22.054942+00:00`
+- `sha256`：`2aebd7ac849e8cffe28ab45a30df1960967e31a7bd34fe7331770aa7e9d7b31a`
+- `original_sha256`：`2ffaefef2941007f2746f426f7fdcf6f378efce4b361889e0ba4622ee03dbfb1`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_V1_Docs--12b252bae9acef40/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_V1_Docs--12b252bae9acef40/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-a03243014f0ffbc8"></a>
+
+## AMD_VitisAI_Legacy
+
+- [官方/原始来源](https://xilinx.github.io/Vitis-AI/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:24:31.216015+00:00`
+- `sha256`：`8bcc987a349529e32f36d1146eb926fb700588a79c85cc81abffb7c0bf70d8f9`
+- `original_sha256`：`29c6ad4b361cd5cd2269ba475bdad0d5d6c2f2a19b090e35d074c8fc2f6452e7`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Legacy--a03243014f0ffbc8/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Legacy--a03243014f0ffbc8/original.response`
+
+<a id="ref-73f58c3ff923ef14"></a>
+
+## AMD_XRT_Docs
+
+- [官方/原始来源](https://xilinx.github.io/XRT/master/html/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:15:55.367640+00:00`
+- `sha256`：`9032691e662690822e9f8993a581eb25b2e6aa29a0b0d77154898d631cbb8b28`
+- `original_sha256`：`352144a849bae2613c0be40fe8036f1144e5a04d7d3d5c6f5fcdebe5aacb91df`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_XRT_Docs--73f58c3ff923ef14/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_XRT_Docs--73f58c3ff923ef14/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-6314c5328eb9f0e0"></a>
+
+## AMD_XRT_Native
+
+- [官方/原始来源](https://xilinx.github.io/XRT/master/html/xrt_native_apis.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:27:50.198623+00:00`
+- `sha256`：`8b0ed6abd5ef4731653019b7629abbab658593a8e99fe36f3c99646e5a2e9a58`
+- `original_sha256`：`d274b956d100ac1bdf06fb785b282c8b04385a4734621976a099053ed65f09a9`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_XRT_Native--6314c5328eb9f0e0/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_XRT_Native--6314c5328eb9f0e0/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-9fe213686ed2a2b7"></a>
+
+## Kria_Apps_Docs
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:20:50.338106+00:00`
+- `sha256`：`50589c8b356ba624861912f5863c621b6382dca0c8932088f091453c5c0ff58e`
+- `original_sha256`：`27fd285120a3efcdd42e3704f1c262214b40da79fd4602bd6ddbe56b7acf7865`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Kria_Apps_Docs--9fe213686ed2a2b7/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Kria_Apps_Docs--9fe213686ed2a2b7/original.response`
+
+<a id="ref-fccc6a27ac6cc61b"></a>
+
+## Kria_BootFW
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/bootfw.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:28:37.242533+00:00`
+- `sha256`：`594e5901fb52360ff68ad4e13014fdd46af78bef609869b69256f1a098847262`
+- `original_sha256`：`402c5603cccfda6108f80e3074985ffc3424afbe133f80fe024cdf26b5e5461a`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Kria_BootFW--fccc6a27ac6cc61b/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Kria_BootFW--fccc6a27ac6cc61b/original.response`
+
+<a id="ref-9e6506421c5f6cc9"></a>
+
+## Kria_Apps_Home
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/home/build/html/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:25:41.782442+00:00`
+- `sha256`：`d9270e5c0ff9861403edb4fa07f013fb79fb433e3f4cee180303cc1299b791b4`
+- `original_sha256`：`3a4c2f988d51ab16317449978004b231c694e5f3f68d43e3b1b9d7b76aee17ea`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Kria_Apps_Home--9e6506421c5f6cc9/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Kria_Apps_Home--9e6506421c5f6cc9/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-828f5cf3e0bdb26d"></a>
+
+## AMD_KR260_10GigE
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/10gige_vision_camera_landing.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:07:32.389395+00:00`
+- `sha256`：`050033bdabdde722c52e74b3dd8ab722592795fbb4c32be20fae5c0ebb7b0069`
+- `original_sha256`：`a144794457ac3ba93640220aac86c5a86de8241fb8fdc9623c479d0d5f52db82`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KR260_10GigE--828f5cf3e0bdb26d/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KR260_10GigE--828f5cf3e0bdb26d/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-1171c54d38276ea2"></a>
+
+## AMD_MV_HW
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/10gige.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:08:51.757754+00:00`
+- `sha256`：`6b2fee513f582e038a459916c752f51b4a23b969ec04b29c5c6ab2b8d3fa1bc6`
+- `original_sha256`：`7ffe9ba51c21c0a2b5afb2917827011c659dd4acc1e7c7ae237b7e0ed61559fb`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_HW--1171c54d38276ea2/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_HW--1171c54d38276ea2/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-9e850a52b8c1c098"></a>
+
+## AMD_MV_Deploy
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/app_deployment.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:08:44.628596+00:00`
+- `sha256`：`3a62b50b55cdd2e74966e1facb4342245447c524a0aa8a8e81399b1b45af4cdd`
+- `original_sha256`：`83742cd7d7e5aa1242884f9c27c54da806428bdd018b1e90547a213e11e6b0cf`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Deploy--9e850a52b8c1c098/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Deploy--9e850a52b8c1c098/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-2d143d3bf08be369"></a>
+
+## AMD_MV_Debug
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/debug.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:09:11.597674+00:00`
+- `sha256`：`8be64f312c8ebd76053fbc49d49d6fd1ff28a960f20aa3851f5d8ed0b95477ba`
+- `original_sha256`：`a8a51539351de8d6ab968d6e68b58bceba85aadfcc686a45c25308bac8d77839`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Debug--2d143d3bf08be369/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Debug--2d143d3bf08be369/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-3de67ef3f75df3f6"></a>
+
+## AMD_MV_ISP
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/hw_arch_accel_dd.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:08:55.075337+00:00`
+- `sha256`：`2549b81c7140dbd794f87d503a6d776d7b0f557c34894785ddae19c063089ef8`
+- `original_sha256`：`7035251f72335816f6c305b095ef9063a78e23cd3bab7460cb039b30ce1a6a24`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_ISP--3de67ef3f75df3f6/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_ISP--3de67ef3f75df3f6/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-6adc3e98386eb8c6"></a>
+
+## AMD_MV_Intro
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/introduction.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:08:43.262262+00:00`
+- `sha256`：`4f3974e2261126469785b366f8d93cc4462d8401cd3d78672e3f7ef3cf4fdccb`
+- `original_sha256`：`97b62804813baed89907c8272448b9117d95f2d9bbe51521280cfc11e5c2e436`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Intro--6adc3e98386eb8c6/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Intro--6adc3e98386eb8c6/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-711fcf700b2cf88e"></a>
+
+## AMD_MV_Issues
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/known_issues.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:09:13.223633+00:00`
+- `sha256`：`e71b73b24fbf17d2550505382de560e97275e50250904aff4956cdd88b22b23a`
+- `original_sha256`：`7e2fc51e1cacd797d4f975d78765173b7c8a3fc446bc4d383e8c48bde0ab00df`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Issues--711fcf700b2cf88e/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Issues--711fcf700b2cf88e/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-5a15284f31bed423"></a>
+
+## AMD_MV_Overview
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/overview.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:08:39.495254+00:00`
+- `sha256`：`fb30c1b76f02e4de28092f5ddb7200efca7ccf9463243c2876c8b9904bf92846`
+- `original_sha256`：`97e20ff9c6cff07b1d811cc3d71e5def5b42ae1f7949e7ab57f5bb57912397de`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Overview--5a15284f31bed423/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Overview--5a15284f31bed423/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-2099717cc1b16868"></a>
+
+## AMD_MV_Sensor
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/sensor.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:11:09.205194+00:00`
+- `sha256`：`7ed4b92f7a7b2ee6e54d95548c6a46969502ee97d8dd8748b294af68b82d4904`
+- `original_sha256`：`082066b1307b03adf9d6e9ca1bdf897898ca427f5c0000083ca1fe742ec96db0`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Sensor--2099717cc1b16868/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_Sensor--2099717cc1b16868/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-8d730cb20c62ac10"></a>
+
+## AMD_MV_App
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/sw_arch_accel_dd.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:09:06.525343+00:00`
+- `sha256`：`2fe119c25fcaa3908b6703156b6ded2d1ffcbb0e01e8ba003a165fa2def5d337`
+- `original_sha256`：`963924dacfb7871910faab17ed91926dc8f9ef7ef11641aad2ee1be0d6e03920`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_App--8d730cb20c62ac10/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_App--8d730cb20c62ac10/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-6de6edf892bbb0e6"></a>
+
+## AMD_MV_SW
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/10gige_vision_camera/src/sw_arch_platform_dd.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:09:01.975440+00:00`
+- `sha256`：`be384d7d9814e9093275d9e458bcb0e7acb11ff1335265e0f8d417f6ae26fc60`
+- `original_sha256`：`fe17a156340bb68410ec14f53255a6c2a3b42d3062835cca3a47eec868ed45d0`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_SW--6de6edf892bbb0e6/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_MV_SW--6de6edf892bbb0e6/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-41b2adbabca3f1dd"></a>
+
+## AMD_KR260_PTP
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/gps_1588_ptp_precision_time_mgmt.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:07:34.833585+00:00`
+- `sha256`：`72f73a3847e612196f2f4a20708e0857cfd0871f6f7df48c0a565fb5d2f28424`
+- `original_sha256`：`6d946e72027ec24a085d59f02cf17842ff8b47784c25aca97bc1355d0e11d525`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KR260_PTP--41b2adbabca3f1dd/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KR260_PTP--41b2adbabca3f1dd/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-af8029f4f090bde5"></a>
+
+## AMD_PTP_Deploy
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/src/app_deployment.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:09:14.825012+00:00`
+- `sha256`：`e309435d8180808eeacf30562610c38611f9a3faae5b68ebc49ee74c086a3f03`
+- `original_sha256`：`ff65e5bcdea4f733cfeaa0d37f2e5a7926356ff0f041e1c85c8d8ca297031acd`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_Deploy--af8029f4f090bde5/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_Deploy--af8029f4f090bde5/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-f13d0e99858a5776"></a>
+
+## AMD_PTP_HW
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/src/hw_arch_platform.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:09:19.516119+00:00`
+- `sha256`：`00e1a4907881ad0689e8e4f66d2aa36f4526ceb2b76b5c4205724942dac3e607`
+- `original_sha256`：`34917d96c7caac25a29823722e801c82d56daaf6ce626a481be9e4048d5b1a7c`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_HW--f13d0e99858a5776/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_HW--f13d0e99858a5776/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-08eed4cb2b671e7c"></a>
+
+## AMD_PTP_Issues
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/src/known-issues.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:11:07.766443+00:00`
+- `sha256`：`a2d842039509771d37ea1cb3c75c4682767ed8cee4c26760edcf98b5ee0605ae`
+- `original_sha256`：`c262e8c0c2daa91e54e3d9bb11ed3a75d00b4b8300c39f308cf60007390c451c`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_Issues--08eed4cb2b671e7c/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_Issues--08eed4cb2b671e7c/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-bda8bd44602fb5ae"></a>
+
+## AMD_PTP_SW
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/gps_1588_ptp/src/sw_arch_platform.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:09:23.898706+00:00`
+- `sha256`：`aeccf7a0abe743701c95529f6692c4b2f15b3ff091e33214687444d2470024f6`
+- `original_sha256`：`d3568fa30b9a7d7f4cd876a2baeac87dbc57ec9bc0133e470aa2b5e120806923`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_SW--bda8bd44602fb5ae/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_PTP_SW--bda8bd44602fb5ae/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-540551756e79b7fd"></a>
+
+## KR260_Perception_Overview
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/ros2_perception_node/ros2_perception_node_landing.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:28:33.749992+00:00`
+- `sha256`：`da6beb0f1a94fe04205b80df76ac4c6a58286961b13c6677cf332fb987fdb14e`
+- `original_sha256`：`360d9671688d48e2d9e71c40861738eee30c9702432d9b9cc74c74e9adb2d2f7`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KR260_Perception_Overview--540551756e79b7fd/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KR260_Perception_Overview--540551756e79b7fd/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-52b7aa08d2a0e404"></a>
+
+## KR260_Perception_Deploy
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/ros2_perception_node/src/app_deployment.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T05:28:01.354991+00:00`
+- `sha256`：`7ef513975fc3a98d9a44ca95dc685ac35887a1f92db523b0218a4f35371bfd88`
+- `original_sha256`：`9529e5a800662009017edbc2fe8678947239ff9f959512df2390084f93fe53cf`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KR260_Perception_Deploy--52b7aa08d2a0e404/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/KR260_Perception_Deploy--52b7aa08d2a0e404/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-8a90bc9b432fc700"></a>
+
+## AMD_KR260_TSN
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T07:07:37.586073+00:00`
+- `sha256`：`93d6704291f73cc932388416d0a2ff86700d9cfd5f700861f4c8a8711b4a5808`
+- `original_sha256`：`1cea92873723b0c8ed730d3cca843a1ca96ec849ac3327693547dab4f2f25950`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KR260_TSN--8a90bc9b432fc700/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_KR260_TSN--8a90bc9b432fc700/original.response`
+
+<a id="ref-fba5d3c5749435c3"></a>
+
+## AMD_TSN_Deploy
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/app_deployment.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:10:47.301791+00:00`
+- `sha256`：`4f84ae33911e7f5f095768e82ecbcc4e8d9ebe3fb050418c3bf20bac55dc9bfa`
+- `original_sha256`：`f0ef6581eabc201a1391c8bc774819b5d90d879a2d3366d4bba36ce7f291890f`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Deploy--fba5d3c5749435c3/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Deploy--fba5d3c5749435c3/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-5963c5dfcbb51f61"></a>
+
+## AMD_TSN_HW
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/hw_arch_platform.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:10:41.183318+00:00`
+- `sha256`：`be103ea0b32202d355869bff8ba448cd6e6187891617eace8b0fac7f1da950ea`
+- `original_sha256`：`b711941198f7820ac4198cdc1510911020c71cf9a23dd4a5e5235ef479dbc569`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_HW--5963c5dfcbb51f61/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_HW--5963c5dfcbb51f61/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-864e8edb679c4b1d"></a>
+
+## AMD_TSN_Intro
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/introduction.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:10:35.752622+00:00`
+- `sha256`：`db8a3a4ccb9d10ff61508755c1ff629e4bd3034592dfe2afbeab46d4df90f6e4`
+- `original_sha256`：`f7fe334c77240a4c421eaa5b3f539f0b1953b1605368795b237fd29bfc4915da`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Intro--864e8edb679c4b1d/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Intro--864e8edb679c4b1d/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-868c5a65ce5a4028"></a>
+
+## AMD_TSN_SW
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/docs/sw_arch_platform.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:10:44.290212+00:00`
+- `sha256`：`5e758b1aa057681a36d3d4e02e07ed0ff31c322a254cda7421ac5f90f791ee8d`
+- `original_sha256`：`e96a3c1a65a54aa123bd925d21788b5d2af3b8d5e9ab2359559964958b7c7a1e`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_SW--868c5a65ce5a4028/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_SW--868c5a65ce5a4028/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-f537c66705456f94"></a>
+
+## AMD_TSN_Landing
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/kr260/ros2_multinode_communication_via_tsn/0_3/build/html/ros2_multinode_communication_via_tsn_landing.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T07:09:26.556089+00:00`
+- `sha256`：`803e88b172aa640cefc0f9e83ce5f8fae696bf76ffad5ce6f20b79aebcacbfab`
+- `original_sha256`：`af990a49cac307678be1f52a0941e947da3d36162eeb81d5f352e37e10272398`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Landing--f537c66705456f94/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_TSN_Landing--f537c66705456f94/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-86ff960a5df34fde"></a>
+
+## Kria_OpenAMP
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/openamp.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:28:46.921720+00:00`
+- `sha256`：`af00550c3aaea0694416d0f1704af3d21ae104a86bf8b61f6f27e3baa9be8b25`
+- `original_sha256`：`36d37a6801af7c971a0b1fadb294864ad2467f6f1b67776a59d919c0fb7332d6`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Kria_OpenAMP--86ff960a5df34fde/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Kria_OpenAMP--86ff960a5df34fde/original.response`
+
+<a id="ref-909ec01ea1c911f9"></a>
+
+## Kria_Ubuntu
+
+- [官方/原始来源](https://xilinx.github.io/kria-apps-docs/ubuntu_support.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T05:28:35.280394+00:00`
+- `sha256`：`d809f58dbf020e9ab880d18be40aaa960239cb36809bc267407a6c103412570c`
+- `original_sha256`：`dfafea6a69115824acf2c2db2a9b45c3895f5d06c7426e1f8b8d884f04d5de74`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Kria_Ubuntu--909ec01ea1c911f9/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/Kria_Ubuntu--909ec01ea1c911f9/original.response`
+
+<a id="ref-5469a7fc3c0101d2"></a>
+
+## AMD08_IRON_Home
+
+- [官方/原始来源](https://xilinx.github.io/mlir-aie/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T09:16:27.144907+00:00`
+- `sha256`：`4fd5baef38bcf2a481c0bc3e8a6e080d83ba508c2e494b45553e48630b48a08f`
+- `original_sha256`：`36a4bad7470e9a2ae9067a0d61bc99040f4d993c9319213812640ee0169136fd`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Home--5469a7fc3c0101d2/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Home--5469a7fc3c0101d2/original.response`
+
+<a id="ref-d3aec3ce521a7f4c"></a>
+
+## AMD08_IRON_Latest_Home
+
+- [官方/原始来源](https://xilinx.github.io/mlir-aie/latest/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T09:19:00.767599+00:00`
+- `sha256`：`60112e91a5dc4f04ed8a16a28df7f4acb087dc87b4ef7c8977c08f96e5673888`
+- `original_sha256`：`efc97885716b42def3711e69b73ec3064464651550d152aa896a3037c48668fc`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Latest_Home--d3aec3ce521a7f4c/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Latest_Home--d3aec3ce521a7f4c/original.response`
+
+<a id="ref-d44961ef92b1737b"></a>
+
+## AMD08_IRON_Lowering
+
+- [官方/原始来源](https://xilinx.github.io/mlir-aie/latest/ObjectFifoLowering/)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T09:23:55.106067+00:00`
+
+<a id="ref-8c6a4c7a06a8ba5c"></a>
+
+## AMD08_IRON_Latest_Guide
+
+- [官方/原始来源](https://xilinx.github.io/mlir-aie/latest/programming_guide/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T09:19:09.679817+00:00`
+- `sha256`：`8613f2bb4d25b177c099503d4d1de3f517df3aab434d2b0776e8eacbe8e5d7d7`
+- `original_sha256`：`b2a9252f30c48f65437b8da1d444e639b0597e5a374531d5be80725d3f269b9a`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Latest_Guide--8c6a4c7a06a8ba5c/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Latest_Guide--8c6a4c7a06a8ba5c/original.response`
+
+<a id="ref-2223a32b0d2cffaf"></a>
+
+## AMD08_IRON_Compile
+
+- [官方/原始来源](https://xilinx.github.io/mlir-aie/latest/programming_guide/compilation_stages/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T09:19:18.480783+00:00`
+- `sha256`：`deefc08b1b1e63c3d3756159e2c647b2b2ad2166250e5ed3c66ff56be9cba05c`
+- `original_sha256`：`5a7ff1029e027a5a454b94e0f28a23fd0b730b7afa088d2b88034b7668d97741`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Compile--2223a32b0d2cffaf/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Compile--2223a32b0d2cffaf/original.response`
+
+<a id="ref-ef0c8e12040d0db3"></a>
+
+## AMD08_IRON_Routing
+
+- [官方/原始来源](https://xilinx.github.io/mlir-aie/latest/programming_guide/routing/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T09:19:20.771955+00:00`
+- `sha256`：`819de869bce9b42ff91452f01f56c0b7f1c52cd9928f89fec8f1b3cfaf0f66ae`
+- `original_sha256`：`9e96b814756c6b8518e7a0186e852fa0d2a1538a74cb2f7776f7a27d8a3cd82b`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Routing--ef0c8e12040d0db3/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Routing--ef0c8e12040d0db3/original.response`
+
+<a id="ref-637e26cd5aab37a1"></a>
+
+## AMD08_IRON_Dataflow
+
+- [官方/原始来源](https://xilinx.github.io/mlir-aie/latest/programming_guide/section-2/section-2a/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T09:19:11.465072+00:00`
+- `sha256`：`d8625b7c0d6e70b76e45140899270686d1aa595b9daedba92707f8533df437f3`
+- `original_sha256`：`9b957147bd4bd544916ab459314d7e665e4ae781967ba3dc2d97d02518b4255d`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Dataflow--637e26cd5aab37a1/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_Dataflow--637e26cd5aab37a1/original.response`
+
+<a id="ref-21965069a036ff32"></a>
+
+## AMD08_IRON_Layout
+
+- [官方/原始来源](https://xilinx.github.io/mlir-aie/latest/programming_guide/section-2/section-2c/)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T09:22:30.571846+00:00`
+
+<a id="ref-d111f72ab7a785e8"></a>
+
+## AMD08_IRON_DMA
+
+- [官方/原始来源](https://xilinx.github.io/mlir-aie/latest/programming_guide/section-2/section-2d/DMATasks/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T09:19:16.426993+00:00`
+- `sha256`：`d9624dbc83a711e0c73429f5bd7f05f0e8c7a0f34ff2329d45401598568686fa`
+- `original_sha256`：`a33805c6e312f41436d06c2558c913b7604c6478d958902cb7aac445f8d29aef`
+- `file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_DMA--d111f72ab7a785e8/index.html`
+- `original_file`：`01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD08_IRON_DMA--d111f72ab7a785e8/original.response`
+
+<a id="ref-f7b4ba0831da6318"></a>
+
+## AMD08_IRON_Tracing
+
+- [官方/原始来源](https://xilinx.github.io/mlir-aie/latest/programming_guide/section-4/section-4b/)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T09:23:55.369028+00:00`
+
+<a id="ref-9d18b1803f69002b"></a>
+
+## AMD08_IRON_Guide
+
+- [官方/原始来源](https://xilinx.github.io/mlir-aie/programming_guide/)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T09:16:29.425875+00:00`

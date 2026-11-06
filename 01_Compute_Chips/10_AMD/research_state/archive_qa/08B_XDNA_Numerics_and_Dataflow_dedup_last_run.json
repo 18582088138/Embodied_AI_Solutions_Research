@@ -1,0 +1,27 @@
+{
+  "time_utc": "2026-11-04T09:27:23.778111+00:00",
+  "summary": {
+    "complete_static": 6,
+    "partial_static": 7,
+    "failed": 0
+  },
+  "names": [
+    "AMD08_IRON_Repo",
+    "AMD08_IRON_Latest_Home",
+    "AMD08_IRON_Architecture",
+    "AMD08_IRON_Devices",
+    "AMD_Quark_A16W8",
+    "AMD_Quark_XINT8",
+    "AMD08_IRON_Dataflow",
+    "AMD08_IRON_Routing",
+    "AMD08_IRON_DMA",
+    "AMD08_IRON_Compile",
+    "AMD08_IRON_License",
+    "AMD_RyzenAI_Licenses",
+    "AMD08_IRON_Paper"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

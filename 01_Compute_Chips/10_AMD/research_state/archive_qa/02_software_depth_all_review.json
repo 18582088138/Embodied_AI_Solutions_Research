@@ -1,0 +1,77 @@
+{
+  "outcome": "pass",
+  "scope": "五篇已通过check_report；本日志另核对索引链接、联合清单/collection、既有MD哈希和逐篇复用证明，不自动证明语义或实机性能",
+  "topics": {
+    "02A_GPU_Execution_and_Deployment": {
+      "body_han_chars": 3362,
+      "sources": 19,
+      "figures": 4,
+      "tables": 5,
+      "claim_reviews": 28,
+      "report_sha256": "9b3c85a3b432671d30c2b1722bc623b37baf9e5e2594b909cf149b210b5f9ace"
+    },
+    "02B_RyzenAI_Compilation_and_Quantization": {
+      "body_han_chars": 2978,
+      "sources": 16,
+      "figures": 3,
+      "tables": 3,
+      "claim_reviews": 27,
+      "report_sha256": "b2c2d379dc757e709f7988fe2b76159b3f4603b3a3d8dafc95d98dae7ef4108a"
+    },
+    "02C_Versal_Compiler_and_Runtime": {
+      "body_han_chars": 2822,
+      "sources": 21,
+      "figures": 5,
+      "tables": 3,
+      "claim_reviews": 36,
+      "report_sha256": "90d327409fd1c475f353162876b61f069b187290264c7a5bd641e2fe6f1d987d"
+    },
+    "02D_EDF_BSP_and_Execution_Domains": {
+      "body_han_chars": 2424,
+      "sources": 14,
+      "figures": 3,
+      "tables": 3,
+      "claim_reviews": 30,
+      "report_sha256": "14470d22c61bb624d604908493d7afa2829f42ec25c3e92548314bd42d0f1d24"
+    },
+    "02E_ROS_Acceleration_and_System_Integration": {
+      "body_han_chars": 3791,
+      "sources": 15,
+      "figures": 3,
+      "tables": 4,
+      "claim_reviews": 48,
+      "report_sha256": "807f862590ce320bf7a6b09ab92fc51b86b1331658abdf105507d3a1d88aab71"
+    }
+  },
+  "totals": {
+    "body_han_chars": 15377,
+    "sources": 85,
+    "figures": 18,
+    "tables": 18,
+    "claim_reviews": 169
+  },
+  "unique_sources": 81,
+  "archive_status": {
+    "complete_static": 36,
+    "partial_static": 45,
+    "failed": 0
+  },
+  "dedup_network_requests": 0,
+  "unchanged_reports": {
+    "01_Hardware_Platform.md": true,
+    "02A_GPU_Execution_and_Deployment.md": true,
+    "02B_RyzenAI_Compilation_and_Quantization.md": true,
+    "02C_Versal_Compiler_and_Runtime.md": true,
+    "02D_EDF_BSP_and_Execution_Domains.md": true,
+    "02E_ROS_Acceleration_and_System_Integration.md": true,
+    "02_Software_Stack.md": true,
+    "README.md": true
+  },
+  "index_file": "01_Compute_Chips/10_AMD/02_Topics_Index.md",
+  "index_sha256": "085bdc0a9b0c7eb3f56fb7b24ac920615c2a89cb1870625a3e07e86ebd01ea4a",
+  "index_local_link_checks": 27,
+  "collection_sha256": "2bd28fd8d53a23e32fc2d628954f66334b6beedb352df30b027d8f562c77c907",
+  "manifest_sha256": "325bddf7bf82e1f213c3a44b233fc2fc0076708d1db0073c1918efc797b306aa",
+  "semantic_review": "五篇按原文/API/配置或源码核验机制、版本和测量条件，未把分析风险说成已实测缺陷；目录导航和失败候选不引用；所有图在对应专题完成时逐幅打开。",
+  "pending_evidence": "详见索引第5节及各专题；完整产品交付、时延/功率/闭环与许可证对象仍需额外证据"
+}

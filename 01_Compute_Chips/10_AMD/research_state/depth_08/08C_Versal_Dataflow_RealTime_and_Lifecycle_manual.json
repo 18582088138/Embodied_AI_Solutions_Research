@@ -1,0 +1,6 @@
+{
+  "coverage": "Versal异构模块/共享指数边界、PL/AIE交付/tiler/DP-TP、HSI/零拷贝、执行域/IPC、TSN、security/safety、DFX及量产维护分别深入。",
+  "versions_and_measurements": "VER023是2024预硅MX6对INT8条件比较；安全brief目标不当已认证；Kria2026.1功能按板区分；未实测deadline。",
+  "maturity_and_licenses": "安全key/rollback/safety manual及完整IP lounge许可未取得；OpenAMP与TSNdemo不等本体闭环；EDF维护需正式责任合同。",
+  "figures_opened": "实际打开system-flow.png、KR260 hw_arch_tsn.png和工业PDFp1完整渲染，图中的ELF残留与认证targeted已核。"
+}

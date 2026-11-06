@@ -1,0 +1,8 @@
+[
+ {"name":"AMD08_IRON_Repo","url":"https://github.com/Xilinx/mlir-aie","expected":"html","used_by":["08B_XDNA_Numerics_and_Dataflow"]},
+ {"name":"AMD08_IRON_Home","url":"https://xilinx.github.io/mlir-aie/","expected":"html","used_by":["08B_XDNA_Numerics_and_Dataflow"]},
+ {"name":"AMD08_IRON_Guide","url":"https://xilinx.github.io/mlir-aie/programming_guide/","expected":"html","used_by":["08B_XDNA_Numerics_and_Dataflow"]},
+ {"name":"AMD08_IRON_Devices","url":"https://github.com/Xilinx/mlir-aie/blob/main/docs/Devices.md","expected":"html","used_by":["08B_XDNA_Numerics_and_Dataflow"]},
+ {"name":"AMD08_IRON_Architecture","url":"https://github.com/Xilinx/mlir-aie/blob/main/skills/aie-iron-design/references/architecture.md","expected":"html","used_by":["08B_XDNA_Numerics_and_Dataflow"]},
+ {"name":"AMD08_IRON_License","url":"https://github.com/Xilinx/mlir-aie/blob/main/LICENSE","expected":"html","used_by":["08B_XDNA_Numerics_and_Dataflow"]}
+]

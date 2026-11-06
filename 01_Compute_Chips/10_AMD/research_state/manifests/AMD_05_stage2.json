@@ -1,0 +1,12 @@
+[
+ {"name":"AMD05_O3DE_Robotics","url":"https://o3de.org/industries/robotics-and-simulations/","expected":"html"},
+ {"name":"AMD05_O3DE_Concepts","url":"https://docs.o3de.org/docs/user-guide/interactivity/robotics/concepts-and-components-overview/","expected":"html"},
+ {"name":"AMD05_O3DE_Import","url":"https://docs.o3de.org/docs/user-guide/interactivity/robotics/importing-robot/","expected":"html"},
+ {"name":"AMD05_O3DE_Physics","url":"https://docs.o3de.org/docs/user-guide/interactivity/physics/","expected":"html"},
+ {"name":"AMD05_RGL_Repo","url":"https://github.com/RobotecAI/o3de-rgl-gem","expected":"html"},
+ {"name":"AMD05_Gazebo_Docs","url":"https://gazebosim.org/docs/harmonic/","expected":"html"},
+ {"name":"AMD05_Mujoco_Overview","url":"https://mujoco.readthedocs.io/en/stable/overview.html","expected":"html"},
+ {"name":"AMD05_Ryzers_Gazebo","url":"https://github.com/AMDResearch/Ryzers/tree/main/packages/ros/gazebo","expected":"html"},
+ {"name":"AMD05_Ryzers_Genesis","url":"https://github.com/AMDResearch/Ryzers/tree/main/packages/robotics/genesis","expected":"html"},
+ {"name":"AMD05_Ryzers_O3DE","url":"https://github.com/AMDResearch/Ryzers/tree/main/packages/graphics/o3de","expected":"html"}
+]

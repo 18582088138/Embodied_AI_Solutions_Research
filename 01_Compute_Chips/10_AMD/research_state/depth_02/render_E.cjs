@@ -1,0 +1,10 @@
+const fs=require('fs'),path=require('path'),crypto=require('crypto');
+const {chromium}=require('C:/Users/kundaxu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const A=path.resolve(__dirname,'../../reference_metrial'),R=JSON.parse(fs.readFileSync(path.join(A,'_registry/materials.json'),'utf8'));
+const sha=f=>crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex');
+(async()=>{const b=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+try{const q=R.KRS_ROS_Centric.assets.find(x=>x.url.endsWith('/buildsystem.svg')),o=path.join(A,q.local_file||q.file),p=await b.newPage({viewport:{width:2400,height:2400}});
+await p.route('**/*',r=>r.abort());await p.setContent('<html><body style="margin:0;background:white">'+fs.readFileSync(o,'utf8').replace(/<\?xml[^>]*>/g,'')+'</body></html>');await p.evaluate(()=>document.fonts.ready);
+const box=await p.locator('svg').boundingBox();await p.setViewportSize({width:Math.ceil(box.width)+1,height:Math.ceil(box.height)+1});const f=path.join(A,'derived/figures/02E_buildsystem.png');await p.locator('svg').screenshot({path:f});
+const j=path.join(__dirname,'figures_E.json'),figs=JSON.parse(fs.readFileSync(j,'utf8'));figs.push({slug:'02E_buildsystem',source_id:'KRS_ROS_Centric',source_url:q.url,original_file:o.replace(/\\/g,'/'),original_sha256:sha(o),file:f.replace(/\\/g,'/'),sha256:sha(f),operation:'Chromium离线原SVG完整截图，保留foreignObject；白底，系统字体替代，无内容修改'});fs.writeFileSync(j,JSON.stringify(figs,null,2));
+}finally{await b.close()}})().catch(e=>{process.stderr.write(String(e));process.exit(1)});

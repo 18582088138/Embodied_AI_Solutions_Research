@@ -1,0 +1,1882 @@
+{
+  "source_ids": [
+    "AMD_ROCm_Docs",
+    "AMD_RyzenAI_Docs",
+    "AMD_VitisAI_Current",
+    "AMD_RyzenAI_Linux",
+    "AMD_ROCm_Compatibility",
+    "AMD_VitisAI_Gen2_Release",
+    "AMD_Kria_AI_Dev",
+    "AMD_EDF_Production",
+    "AMD_XRT_Docs",
+    "AMD_Vitis_Product",
+    "AMD_VitisAI_VART_App",
+    "AMD_EDF_Docs",
+    "KRS_Install",
+    "AMD_ROSS",
+    "AMD_ROCm_PyTorch",
+    "AMD_ROCm_vLLM",
+    "AMD_ROCm_ORT",
+    "AMD_MIGraphX",
+    "AMD_RyzenAI_Install",
+    "AMD_RyzenAI_App",
+    "AMD_VitisAI_Gen2_Requirements",
+    "AMD_VitisAI_Gen1_Install",
+    "AMD_EDF_Release",
+    "AMD_ROCm_Transition",
+    "AMD_ROCm_Release",
+    "AMD_HIP_Docs",
+    "AMD_HIPIFY_Docs",
+    "AMD_HIP_Async",
+    "AMD_HIP_Memory",
+    "AMD_RyzenAI_Release",
+    "AMD_RyzenAI_Quantization",
+    "AMD_VitisAI_Gen2_Quantization",
+    "AMD_Quark_RyzenAI",
+    "AMD_RyzenAI_Compile",
+    "AMD_RyzenAI_Ops",
+    "AMD_RyzenAI_LLM",
+    "AMD_RyzenAI_Server",
+    "AMD_RyzenAI_Hybrid",
+    "AMD_RyzenAI_OGA_Prepare",
+    "AMD_Vitis_Libraries",
+    "AMD_VitisAI_Gen1_Runtime",
+    "AMD_VitisAI_Gen1_License",
+    "AMD_VitisAI_Gen2_Compile",
+    "AMD_VitisAI_Gen2_Install",
+    "AMD_VitisAI_Gen2_License",
+    "AMD_VitisAI_Gen2_Output",
+    "AMD_VitisAI_Gen2_Deploy",
+    "AMD_VitisAI_Gen2_CPU_Partition",
+    "AMD_VitisAI_Gen2_Architecture",
+    "AMD_VitisAI_Gen2_Async",
+    "AMD_VitisAI_Gen2_Tenancy",
+    "AMD_XRT_Native",
+    "AMD_EDF_Product",
+    "AMD_EDF_Overview_PDF",
+    "AMD_EDF_Migration",
+    "AMD_EDF_SHEL",
+    "AMD_EDF_SHEL_XSA",
+    "AMD_EDF_Segmented",
+    "AMD_EDF_PL_Load",
+    "AMD_EDF_Domains",
+    "AMD_EDF_Zephyr",
+    "KRS_Official_Repo",
+    "KRS_V1_Docs",
+    "KRS_Hardware",
+    "KR260_Perception_Deploy",
+    "KRS_Realtime",
+    "KRS_License",
+    "AMD_Ross_Repository",
+    "AMD_VitisAI_Gen2_Reference",
+    "AMD_RyzenAI_Analyzer",
+    "AMD_RyzenAI_SMI",
+    "AMD_ROCm_Licenses",
+    "AMD_HIP_License",
+    "AMD_RyzenAI_Licenses"
+  ],
+  "figures": [
+    {
+      "source_id": "AMD_RyzenAI_Docs",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/_images/rai-sw.png",
+      "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Docs--e9bfe555a77a6c76/assets/images/e52bacf73dbbec954dc1e74b.png",
+      "original_sha256": "170eb426cae4f919e22e86ab878e6631e631708d96a5de639b448764aaf74d70",
+      "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_ryzen_ai_stack.png",
+      "sha256": "170eb426cae4f919e22e86ab878e6631e631708d96a5de639b448764aaf74d70",
+      "operation": "原PNG无修改复制",
+      "manual_open_review": "已逐张实际打开核查；文字/层次/单位可读，无空白、截断或乱码；渲染/版本限制见正文caption。",
+      "material_version": "1.9.0；Last modified 2026-11-02为修改时间"
+    },
+    {
+      "source_id": "AMD_Vitis_Product",
+      "source_url": "https://www.amd.com/content/dam/amd/en/images/charts/2772134-vitis-design-flow-chart.png",
+      "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Vitis_Product--0d473c7ff82290bd/assets/images/ba6e3f13a8138e80377ebe26.png",
+      "original_sha256": "ef75223f4a5a5077673afd9ea097fe4e11f7aeb3ed0170009deaebd1da4f0692",
+      "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_vitis_design_flow.png",
+      "sha256": "ef75223f4a5a5077673afd9ea097fe4e11f7aeb3ed0170009deaebd1da4f0692",
+      "operation": "原PNG无修改复制",
+      "manual_open_review": "已逐张实际打开核查；文字/层次/单位可读，无空白、截断或乱码；渲染/版本限制见正文caption。",
+      "material_version": "网页快照；未标明确发布日期/修订，不以采集日期代替发布时间"
+    },
+    {
+      "source_id": "AMD_VitisAI_Gen2_Architecture",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/_images/vart_ml_architecture.png",
+      "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Architectu--b867b657782bdc40/assets/images/b04b020fea3f85147dc3a4d5.png",
+      "original_sha256": "340714f3b60fac2f6318593b72dd18a68db74efd3affd5fc7ba31837b4c8fdaf",
+      "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_vart_ml_architecture.png",
+      "sha256": "340714f3b60fac2f6318593b72dd18a68db74efd3affd5fc7ba31837b4c8fdaf",
+      "operation": "原PNG无修改复制",
+      "manual_open_review": "已逐张实际打开核查；文字/层次/单位可读，无空白、截断或乱码；渲染/版本限制见正文caption。",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片"
+    },
+    {
+      "source_id": "AMD_VitisAI_Gen2_Async",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/_images/sync_vs_async_overlap.svg",
+      "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Async--a5b950f414554940/assets/images/c558d406e236198150fc4ce5.svg",
+      "original_sha256": "4385d81dfba2fe4c4362c867af146cad8d18f611392abb73fc6261eff232709d",
+      "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_vart_async.png",
+      "sha256": "28e388acc14b3dd9416f264f713aa9a706f9b430c4ac12f70af7d0ac8731f02d",
+      "operation": "ImageMagick MSVG渲染完整SVG；未裁剪",
+      "manual_open_review": "已逐张实际打开核查；文字/层次/单位可读，无空白、截断或乱码；渲染/版本限制见正文caption。",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片"
+    },
+    {
+      "source_id": "AMD_XRT_Docs",
+      "source_url": "https://xilinx.github.io/XRT/master/html/_images/XRT-Layers.svg",
+      "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_XRT_Docs--73f58c3ff923ef14/assets/images/861e3e2af14b99c9f3cba416.svg",
+      "original_sha256": "23f64448d1a17f4b21a5a11a0be869409dccc00f4f3113ec3d9f24288874b8a9",
+      "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_xrt_layers.png",
+      "sha256": "f09d768cce7854cad15490aff031b0ac7fadab5e7954f9e7414e720a4697dde1",
+      "operation": "ImageMagick MSVG渲染完整SVG；未裁剪",
+      "manual_open_review": "已逐张实际打开核查；文字/层次/单位可读，无空白、截断或乱码；渲染/版本限制见正文caption。",
+      "material_version": "XRTMaster快照，旧footer不能锁定release"
+    },
+    {
+      "source_id": "AMD_EDF_Overview_PDF",
+      "source_url": "https://www.amd.com/content/dam/amd/en/documents/products/software-tools/embedded-development-framework-product-overview.pdf",
+      "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_EDF_Overview_PDF--a24a3e9e38348fb8/document.pdf",
+      "original_sha256": "4e9a1f83bb22731b118c78b1d43fbfed80265a50db6ea16c12c95624697adfc0",
+      "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_edf_stack.png",
+      "sha256": "b99905eb91955f8da6e50737ff913c4bb9976c4faa153ac8058d5d7b9b8f59e9",
+      "operation": "Poppler 150dpi完整渲染PDF第16页；未裁剪",
+      "manual_open_review": "已逐张实际打开核查；文字/层次/单位可读，无空白、截断或乱码；渲染/版本限制见正文caption。",
+      "material_version": "Sept2025PDF，方法图；页码见operation，非2026支持矩阵"
+    },
+    {
+      "source_id": "AMD_EDF_Overview_PDF",
+      "source_url": "https://www.amd.com/content/dam/amd/en/documents/products/software-tools/embedded-development-framework-product-overview.pdf",
+      "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_EDF_Overview_PDF--a24a3e9e38348fb8/document.pdf",
+      "original_sha256": "4e9a1f83bb22731b118c78b1d43fbfed80265a50db6ea16c12c95624697adfc0",
+      "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_edf_artifacts.png",
+      "sha256": "b54e4f247db3d8534859597033fd1b2dddcd2625b6f91530e8cb991111521701",
+      "operation": "Poppler 150dpi完整渲染PDF第20页；未裁剪",
+      "manual_open_review": "已逐张实际打开核查；文字/层次/单位可读，无空白、截断或乱码；渲染/版本限制见正文caption。",
+      "material_version": "Sept2025PDF，方法图；页码见operation，非2026支持矩阵"
+    },
+    {
+      "source_id": "AMD_EDF_Overview_PDF",
+      "source_url": "https://www.amd.com/content/dam/amd/en/documents/products/software-tools/embedded-development-framework-product-overview.pdf",
+      "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_EDF_Overview_PDF--a24a3e9e38348fb8/document.pdf",
+      "original_sha256": "4e9a1f83bb22731b118c78b1d43fbfed80265a50db6ea16c12c95624697adfc0",
+      "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_shel_flow.png",
+      "sha256": "f75b9fdad9f1cd59b30fd0f6d29112a9cb05efe1e44273e3d3e1bdec2db2369c",
+      "operation": "Poppler 150dpi完整渲染PDF第24页；未裁剪",
+      "manual_open_review": "已逐张实际打开核查；文字/层次/单位可读，无空白、截断或乱码；渲染/版本限制见正文caption。",
+      "material_version": "Sept2025PDF，方法图；页码见operation，非2026支持矩阵"
+    },
+    {
+      "source_id": "AMD_VitisAI_Gen2_Reference",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/_images/system-flow.png",
+      "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Reference--1f9caa805643de0a/assets/images/05f3ecd120a65b5ab441e906.png",
+      "original_sha256": "f7b9c6bb2ef8a26ddf799b7f923f037f9b50c69bb3fb28a832879c3b82530890",
+      "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_vek385_system.png",
+      "sha256": "f7b9c6bb2ef8a26ddf799b7f923f037f9b50c69bb3fb28a832879c3b82530890",
+      "operation": "原PNG无修改复制",
+      "manual_open_review": "已逐张实际打开核查；文字/层次/单位可读，无空白、截断或乱码；渲染/版本限制见正文caption。",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "Core SDK发行版本",
+      "source_id": "AMD_ROCm_Docs",
+      "source_url": "https://rocm.docs.amd.com/en/latest/",
+      "location": "ROCm overview",
+      "evidence_type": "事实",
+      "conditions": "当前ROCm首页",
+      "finding": "TheRock生产stream；与旧7.1.1路径分开",
+      "exact_quote": "10.1.0",
+      "context_quote": "AMD ROCm — AMD ROCm 10.1.0 Skip to main content Back to top Ctrl+K ROCm™ Core SDK 10.1.0 Version List Core SDK AI Ecosystem GPU Systems and Infrastructure Toolkits AMD Data Science AMD Finance AMD Life Science AMD LLM Extension AMD Simulation ROCm.AI AMD Skills Hyperloom ROCm CLI Blogs Developer Hub AMD ROCm 10.1.0 Release notes Transition guide What is ROCm? Compatibility matrix Install Install ROCm Prerequisites Installation Post-installation Uninstalling ROCm Runfile Installer B",
+      "quote_character_range": [
+        20,
+        26
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "ROCm Core SDK10.1.0 latest快照；独立组件/旧发行另辨",
+      "collected_at": "2026-11-04T05:14:13.847544+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "安装前缀与包机制",
+      "source_id": "AMD_ROCm_Transition",
+      "source_url": "https://rocm.docs.amd.com/en/latest/about/transition-guide-TheRock.html",
+      "location": "Installation paths",
+      "evidence_type": "事实",
+      "conditions": "10.1.0；DEB/RPM vs tarball",
+      "finding": "替代路径和依赖解析有安装方式条件",
+      "exact_quote": "/opt/rocm/core-10.1",
+      "context_quote": "form. Major changes# Feature ROCm Core SDK ROCm legacy Description Installation directory /opt/rocm/core-10.1 /opt/rocm-7.2/ To support additional release streams downstream of the ROCm Core SDK. Package names amdrocm-{component} rocm-[$component] or roc[$component] or hip[$component] Unique package prefix to avoid conflicts with upstream packages. Extras directory /opt/rocm/extras-10/ N/A Shared install prefix scoped to each ROCm major version for projects built on the ROCm Core SDK. Paths and linking# For installations using your Linux distribution’s package ma",
+      "quote_character_range": [
+        3720,
+        3739
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "ROCm Core SDK10.1.0 latest快照；独立组件/旧发行另辨",
+      "collected_at": "2026-11-04T05:24:50.216512+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "旧发行迁移起点",
+      "source_id": "AMD_ROCm_Transition",
+      "source_url": "https://rocm.docs.amd.com/en/latest/about/transition-guide-TheRock.html",
+      "location": "Transition overview",
+      "evidence_type": "事实",
+      "conditions": "迁移起点非机器人BSP版本",
+      "finding": "不把组件版本或Python环境随意混配",
+      "exact_quote": "7.14.0",
+      "context_quote": "build system. The transition from the legacy ROCm release stream began with ROCm Core SDK 7.14.0, the first production release. ROCm 10.1.0 is the latest production release. For more on the transition, see ROCm 7.14: TheRock Goes Production and Expands AMD’s AI Software Platform. Major changes# Feature ROCm Core SDK ROCm legacy Description Installation directory /opt/rocm/core-10.1 /opt/rocm-7.2/ To support additional release streams downstream of the ROCm Core SDK. Package names amdrocm-{component} rocm-[$component] or roc[$component] or hip[$compon",
+      "quote_character_range": [
+        3445,
+        3451
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "ROCm Core SDK10.1.0 latest快照；独立组件/旧发行另辨",
+      "collected_at": "2026-11-04T05:24:50.216512+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "R9700与Max+395架构支持",
+      "source_id": "AMD_ROCm_Compatibility",
+      "source_url": "https://rocm.docs.amd.com/en/latest/compatibility/compatibility-matrix.html",
+      "location": "GPU/APU support table",
+      "evidence_type": "未知",
+      "conditions": "Max+395/8060S vs Embedded X199",
+      "finding": "不能由消费APU正式支持推出X199 SKU支持",
+      "exact_quote": "gfx1151",
+      "context_quote": "201)AMD Radeon AI PRO R9600 (gfx1201) Ryzen APU AMD Ryzen AI Max+ PRO 495 (Radeon 8065S) (gfx1151)AMD Ryzen AI Max+ PRO 395 (Radeon 8060S) (gfx1151)AMD Ryzen AI Max+ 395 (Radeon 8060S) (gfx1151)AMD Ryzen AI Max+ 392 (Radeon 8060S) (gfx1151)AMD Ryzen AI Max+ 388 (Radeon 8060S) (gfx1151)AMD Ryzen AI Max PRO 490 (Radeon 8050S) (gfx1151)AMD Ryzen AI Max PRO 485 (Radeon 8050S) (gfx1151)AMD Ryzen AI Max PRO 390 (Radeon 8050S) (gfx1151)AMD Ryzen AI Max PRO 385 (Radeon 8050S) (gfx1151)AMD Ryzen AI Max PRO 380 (Radeon 8040S) (gfx1151)AMD Ryzen AI Max 390 (Rade",
+      "quote_character_range": [
+        4484,
+        4491
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Core SDK10.1.0；更新字段2026-08-26，不能当各组件发布日期",
+      "collected_at": "2026-11-04T05:17:45.045445+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "MI350P出现在GPU矩阵",
+      "source_id": "AMD_ROCm_Compatibility",
+      "source_url": "https://rocm.docs.amd.com/en/latest/compatibility/compatibility-matrix.html",
+      "location": "Supported GPUs",
+      "evidence_type": "事实",
+      "conditions": "gfx950，OS/driver另表",
+      "finding": "软件支持条目不证明量产交期",
+      "exact_quote": "MI350P",
+      "context_quote": " Ryzen™ Instinct GPU AMD Instinct MI355X (gfx950)AMD Instinct MI350X (gfx950)AMD Instinct MI350P (gfx950)AMD Instinct MI325X (gfx942)AMD Instinct MI300X (gfx942)AMD Instinct MI300A (gfx942)AMD Instinct MI250X (gfx90a)AMD Instinct MI250 (gfx90a)AMD Instinct MI210 (gfx90a)AMD Instinct MI100 (gfx908) Radeon GPU AMD Radeon RX 9070 XT (gfx1201)AMD Radeon RX 9070 GRE (gfx1201)AMD Radeon RX 9070 (gfx1201)AMD Radeon RX 9060 XT LP (gfx1200)AMD Radeon RX 9060 XT (gfx1200)AMD Radeon RX 9060 (gfx1200)AMD Radeon RX 9050 (gfx1200)AMD Radeon RX 9050 (4GB) (gfx1200)",
+      "quote_character_range": [
+        3365,
+        3371
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Core SDK10.1.0；更新字段2026-08-26，不能当各组件发布日期",
+      "collected_at": "2026-11-04T05:17:45.045445+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "框架独立版本组合",
+      "source_id": "AMD_ROCm_Compatibility",
+      "source_url": "https://rocm.docs.amd.com/en/latest/compatibility/compatibility-matrix.html",
+      "location": "Framework support",
+      "evidence_type": "事实",
+      "conditions": "PyTorch/OS/Python明确组合",
+      "finding": "不把2.14与vLLM的2.13依赖拼为验证环境",
+      "exact_quote": "2.14.0",
+      "context_quote": "ersions, and compatible Python versions. FrameworkSupported versionsPython versionsPyTorch2.14.0, 2.13.0, 2.12.02.14.03.14, 3.13, 3.12, 3.11, 3.10PyTorch2.14.03.14, 3.13, 3.12, 3.11JAX0.11.13.14, 3.13, 3.120.11.03.14, 3.13, 3.120.10.23.14, 3.13, 3.12, 3.11vLLM0.29.03.14 (requires PyTorch 2.13.0)SGLang0.5.183.14 (requires PyTorch 2.13.0)TensorFlow2.213.122.20ONNX Runtime1.29.03.12MIGraphX2.183.12 previous What is ROCm? next Install AMD ROCm 10.1.0 Installation environment Contents Terms and Conditions ROCm Licenses and Disclaimers Privacy Trademarks S",
+      "quote_character_range": [
+        17298,
+        17304
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Core SDK10.1.0；更新字段2026-08-26，不能当各组件发布日期",
+      "collected_at": "2026-11-04T05:17:45.045445+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "ROCm SMI弃用与迁移",
+      "source_id": "AMD_ROCm_Release",
+      "source_url": "https://rocm.docs.amd.com/en/latest/about/release-notes.html",
+      "location": "Deprecations",
+      "evidence_type": "事实",
+      "conditions": "10.1标准构建",
+      "finding": "旧known-issue命令残留不代表已安装工具",
+      "exact_quote": "ROCm SMI",
+      "context_quote": " issues rocThrust (4.7.0) Changed RPP (3.2.0) Added Changed Removed ROCm breaking changes ROCm SMI is removed from the standard build ROCm known issues Hugging Face model training throughput might regress for specific models on AMD Instinct MI350X amd-smi event command might stop responding indefinitely on WSL Some GPU workloads on WSL2 might stop responding for certain device-side executions RCCL allreduce operations using the LL protocol might produce incorrect results on AMD Instinct MI350 Series GPUs Valgrind workloads might stop responding on WSL2",
+      "quote_character_range": [
+        6478,
+        6486
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "ROCm Core SDK10.1.0 latest快照；独立组件/旧发行另辨",
+      "collected_at": "2026-11-04T05:17:47.002791+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "MI350训练回归未全面消失",
+      "source_id": "AMD_ROCm_Release",
+      "source_url": "https://rocm.docs.amd.com/en/latest/about/release-notes.html",
+      "location": "Known issues",
+      "evidence_type": "事实",
+      "conditions": "特定训练模型/配置",
+      "finding": "不泛化所有任务或宣称全部修复",
+      "exact_quote": "6–22%",
+      "context_quote": "base, or GPT-2 training workloads on AMD Instinct MI350X (gfx950) GPUs, you might observe 6–22% longer training wall-clock time than expected. BERT and DistilBERT-base training are affected whether or not DeepSpeed ZeRO stage 0 is used. RoBERTa-large and GPT-2 training are affected only when using DeepSpeed ZeRO stage 0. See GitHub issue #8878. Note The impact of this issue was initially reported in ROCm 10.0.0 and is partially addressed in ROCm 10.1.0 for other Hugging Face model configurations. See the ROCm 10.1.0 resolved issues entry for details",
+      "quote_character_range": [
+        116858,
+        116863
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "ROCm Core SDK10.1.0 latest快照；独立组件/旧发行另辨",
+      "collected_at": "2026-11-04T05:17:47.002791+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "镜像tag只是文档安装示例",
+      "source_id": "AMD_ROCm_PyTorch",
+      "source_url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/frameworks/pytorch/install.html",
+      "location": "Docker install",
+      "evidence_type": "事实",
+      "conditions": "10.1/2.14/Py3.12",
+      "finding": "本文未pull，复建还需digest",
+      "exact_quote": "rocm10.1.0_ubuntu24.04_py3.12_pytorch_release_2.14.0",
+      "context_quote": "rocm10.1.0_ubuntu26.04_py3.14_pytorch_release_2.14.0 Python 3.12 docker pull rocm/pytorch:rocm10.1.0_ubuntu24.04_py3.12_pytorch_release_2.14.0 Python 3.10 docker pull rocm/pytorch:rocm10.1.0_ubuntu22.04_py3.10_pytorch_release_2.14.0 Pull the ROCm PyTorch 2.13.0 Docker image. Python 3.14 docker pull rocm/pytorch:rocm10.1.0_ubuntu26.04_py3.14_pytorch_release_2.13.0 Python 3.12 docker pull rocm/pytorch:rocm10.1.0_ubuntu24.04_py3.12_pytorch_release_2.13.0 Python 3.10 docker pull rocm/pytorch:rocm10.1.0_ubuntu22.04_py3.10_pytorch_release_2.13.0 Pull the ROCm PyTorch 2.12.0 Docker image. Python 3.14 d",
+      "quote_character_range": [
+        6589,
+        6641
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "10.1.0选项；PyTorch2.14.0/Python3.12镜像示例，digest未锁",
+      "collected_at": "2026-11-04T05:17:49.245071+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "vLLM开发wheel与依赖",
+      "source_id": "AMD_ROCm_vLLM",
+      "source_url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/inference/vllm.html",
+      "location": "pip wheel install",
+      "evidence_type": "事实",
+      "conditions": "ROCm10.1；Py3.14/torch2.13",
+      "finding": "开发wheel不冒充矩阵稳定0.29.0",
+      "exact_quote": "0.29.1.dev0",
+      "context_quote": "sing uv pip. uv pip install https://rocm.frameworks.amd.com/whl-multi-arch/vllm/vllm/vllm-0.29.1.dev0%2Brocm10.1.0.g98dff2a81.d20261002-cp314-cp314-linux_x86_64.whl Upgrade vLLM’s tensorizer dependency as a workaround for a compatibility issue. python -m pip install --upgrade \"tensorizer==2.12.1\" Set the following environment variables to prevent errors related to ROCm platform and Flash Attention availability when running vLLM. export PYTHONPATH=$VIRTUAL_ENV/lib/python3.14/site-packages/_rocm_sdk_core/share/amd_smi export FLASH_ATTENTION_TRITON_AMD_ENABL",
+      "quote_character_range": [
+        12708,
+        12719
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "10.1.0选项；0.29.1.dev0+rocm10.1.0（20261002）；矩阵0.29.0另列",
+      "collected_at": "2026-11-04T05:18:28.273994+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "tensorizer workaround",
+      "source_id": "AMD_ROCm_vLLM",
+      "source_url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/inference/vllm.html",
+      "location": "Installation workaround",
+      "evidence_type": "事实",
+      "conditions": "该文档版本组合",
+      "finding": "与FlashAttention/AITER一同锁版本",
+      "exact_quote": "tensorizer==2.12.1",
+      "context_quote": "er dependency as a workaround for a compatibility issue. python -m pip install --upgrade \"tensorizer==2.12.1\" Set the following environment variables to prevent errors related to ROCm platform and Flash Attention availability when running vLLM. export PYTHONPATH=$VIRTUAL_ENV/lib/python3.14/site-packages/_rocm_sdk_core/share/amd_smi export FLASH_ATTENTION_TRITON_AMD_ENABLE=TRUE To make any of these settings permanent, add it to your shell startup file; ~/.bashrc, for instance. Check your installation. python -c \"import vllm; print('vLLM version:', vllm.__version_",
+      "quote_character_range": [
+        12896,
+        12914
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "10.1.0选项；0.29.1.dev0+rocm10.1.0（20261002）；矩阵0.29.0另列",
+      "collected_at": "2026-11-04T05:18:28.273994+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "MIGraphX插件依赖pip库",
+      "source_id": "AMD_ROCm_ORT",
+      "source_url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/inference/onnxruntime.html",
+      "location": "MIGraphX EP install",
+      "evidence_type": "事实",
+      "conditions": "ORT1.29/MIGraphX2.18/10.1",
+      "finding": "系统包不能替代pip依赖；EP可见不证明全图优化",
+      "exact_quote": "migraphx-libs",
+      "context_quote": "X must be installed using pip. The onnxruntime-ep-migraphx wheel declares a dependency on migraphx-libs, which is only available from the MIGraphX pip repository. Installing MIGraphX using the package manager or tarball method doesn’t satisfy this dependency, and installing the execution provider in the next step fails to resolve. Install ONNX Runtime and the onnxruntime-ep-migraphx execution provider plugin. python -m pip install --extra-index-url https://stable.repo.amd.com/rocm/onnxruntime/whl-next/ \"onnxruntime-ep-migraphx==1.0.0+rocm10.1.0\" Confirm ONN",
+      "quote_character_range": [
+        3677,
+        3690
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "10.1.0选项；ORT1.29.0，plugin1.0.0+rocm10.1.0，MIGraphX2.18.0",
+      "collected_at": "2026-11-04T05:24:56.136069+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "ORT显式插件注册",
+      "source_id": "AMD_ROCm_ORT",
+      "source_url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/inference/onnxruntime.html",
+      "location": "Verification code",
+      "evidence_type": "事实",
+      "conditions": "独立EP wheel",
+      "finding": "与旧monolithic路线分开",
+      "exact_quote": "register_execution_provider_library",
+      "context_quote": "lable providers. python -c \"import onnxruntime as ort, onnxruntime_ep_migraphx as m; [ort.register_execution_provider_library(n,p) for n,p in zip(m.get_ep_names(), m.get_library_paths())]; print(ort.get_available_providers())\" You should see MIGraphXExecutionProvider in the output: ['CPUExecutionProvider', 'MIGraphXExecutionProvider'] Create and activate a virtual environment or activate an existing ROCm 10.0.0 environment. Python 3.14 python3.14 -m venv .venv source .venv/bin/activate Python 3.12 python3.12 -m venv .venv source .venv/bin/activate Install MIGraphX using pip. See",
+      "quote_character_range": [
+        4417,
+        4452
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "10.1.0选项；ORT1.29.0，plugin1.0.0+rocm10.1.0，MIGraphX2.18.0",
+      "collected_at": "2026-11-04T05:24:56.136069+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "MIGraphX版本与支持范围",
+      "source_id": "AMD_MIGraphX",
+      "source_url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/inference/migraphx.html",
+      "location": "Installation",
+      "evidence_type": "未知",
+      "conditions": "具体GPU/框架组合",
+      "finding": "目标VLA动态shape/workspace未取得实测",
+      "exact_quote": "2.18.0",
+      "context_quote": " that page to view instructions appropriate for your system environment. Install MIGraphX 2.18.0 via package manager#Use the following steps to install MIGraphX system-wide using your distribution’s package manager on top of ROCm core libraries. Linux distribution Ubuntu Debian RHEL Oracle Linux Rocky Linux SLES Ubuntu version 26.04.1 24.04.5 22.04.5 Debian version 13 12 RHEL version 10.2 10.0 9.8 9.6 9.4 8.10 Oracle Linux version 10 9 8 Rocky Linux version 9 SLES version 16 15.7 Register the ROCm MIGraphX repository. sudo mkdir --parents --mode=0755",
+      "quote_character_range": [
+        3291,
+        3297
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "2.18.0安装选项；Python/架构以对应表为准",
+      "collected_at": "2026-11-04T05:24:58.156061+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "异步stream/event与竞争",
+      "source_id": "AMD_HIP_Async",
+      "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/asynchronous.html",
+      "location": "Concurrent kernels",
+      "evidence_type": "事实",
+      "conditions": "HIP/具体GPU async engine",
+      "finding": "事件表达依赖，不保证硬实时或等性能",
+      "exact_quote": "hipStreamWaitEvent",
+      "context_quote": "tween kernels is crucial for ensuring correct execution order. This can be achieved using hipStreamWaitEvent(), which allows a kernel to wait for a specific event before starting execution. Independent kernels can only run concurrently if there are enough registers and shared memory for the kernels. To enable concurrent kernel executions, the developer may have to reduce the block size of the kernels. The kernel runtimes can be misleading for concurrent kernel runs, that is why during optimization it is a good practice to check the trace files, to see if one ker",
+      "quote_character_range": [
+        6388,
+        6406
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "HIP/HIPIFY latest快照；10.1矩阵HIP7.16.0、HIPIFY10.1.0；硬件特性有条件",
+      "collected_at": "2026-11-04T05:25:04.046065+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "统一内存特性取决于设备和OS",
+      "source_id": "AMD_HIP_Memory",
+      "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/unified_memory.html",
+      "location": "Unified memory support",
+      "evidence_type": "事实",
+      "conditions": "HMM/XNACK/设备属性",
+      "finding": "managed memory、UMA和物理共享DRAM分开",
+      "exact_quote": "HSA_XNACK",
+      "context_quote": "ning of managed memory on supported GPUs, it is essential to set the environment variable HSA_XNACK=1 and use a GPU kernel mode driver that supports HMM. Without this configuration, access-driven memory migration will be disabled, and the behavior will be similar to that of systems without HMM support. Managed Memory Support by GPU Architecture# Architecture hipMallocManaged(), __managed__ new, malloc(), allocate() CDNA4 ✅ ✅ 1 CDNA3 ✅ ✅ 1 CDNA2 ✅ ✅ 1 2 CDNA1 ✅ ❌ RDNA1 ✅ ❌ GCN5 ✅ ❌ ✅: Supported ❌: Unsupported 1 Works only with HSA_XNACK=1 and kernels wit",
+      "quote_character_range": [
+        8082,
+        8091
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "HIP/HIPIFY latest快照；10.1矩阵HIP7.16.0、HIPIFY10.1.0；硬件特性有条件",
+      "collected_at": "2026-11-04T05:25:00.011054+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "Ryzen AI文档版本",
+      "source_id": "AMD_RyzenAI_Docs",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/",
+      "location": "Overview",
+      "evidence_type": "事实",
+      "conditions": "修改日期不是release日期",
+      "finding": "ORT三EP示意不能外推所有Linux后端",
+      "exact_quote": "1.9.0",
+      "context_quote": "Ryzen AI Software — Ryzen AI Software 1.9.0 documentation Skip to main content Back to top Ctrl+K Ryzen AI GitHub Windows ML Community Products Ryzen AI Software 1.9.0 documentation Release Notes Getting Started on the NPU Installation Instructions Examples, Demos, Tutorials Linux Installation Instructions Running Models on the NPU Model Quantization Model Compilation and Deployment Application Development Whisper.cpp support Image-Gen Models on the NPU Stable Diffusion Running Models on NPU Runnin",
+      "quote_character_range": [
+        38,
+        43
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "1.9.0；Last modified 2026-11-02为修改时间",
+      "collected_at": "2026-11-04T05:14:50.135626+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "P100系列Linux明确支持",
+      "source_id": "AMD_RyzenAI_Linux",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/linux.html",
+      "location": "Supported platforms",
+      "evidence_type": "事实",
+      "conditions": "Ubuntu24.04/kernel≥6.10/Python3.12",
+      "finding": "仍需目标SKU/载板/BSP",
+      "exact_quote": "P100",
+      "context_quote": "beginning with Strix Point, and on newer embedded APUs, beginning with Ryzen™ AI Embedded P100. With this release, users can now compile and run AI models using the following formats: CNN models in INT8 CNN models in BF16 NLP models (e.g., BERT, encoder-based) in BF16 LLMs (NPU-only flow) Prerequisites# Dependencies Version Requirement Ubuntu Distribution Ubuntu 24.04 LTS Kernel Version >= 6.10 RAM 64 GB (Recommended) Python 3.12.x Use the commands below to install Python 3.12.x along with certain dependencies sudo apt update sudo apt install pytho",
+      "quote_character_range": [
+        1354,
+        1358
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "1.9；XRT 2.26.89/amdxdna 2.26.260102.59；Linux NPU flow",
+      "collected_at": "2026-11-04T05:19:45.671319+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "Linux XRT/xdna版本",
+      "source_id": "AMD_RyzenAI_Linux",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/linux.html",
+      "location": "Installation DEB names",
+      "evidence_type": "事实",
+      "conditions": "1.9 Linux NPU flow",
+      "finding": "runtime DEB preview不混作已量产统一驱动",
+      "exact_quote": "2.26.260102.59",
+      "context_quote": "4-amd64-base-dev.deb xrt_202620.2.26.89_24.04-amd64-npu.deb NPU driver package xrt_plugin.2.26.260102.59.release_24.04-amd64-amdxdna.deb Install NPU driver package on your machine sudo apt install --fix-broken -y ./xrt_202620.2.26.89_24.04-amd64-base.deb sudo apt install --fix-broken -y ./xrt_202620.2.26.89_24.04-amd64-base-dev.deb sudo apt install --fix-broken -y ./xrt_202620.2.26.89_24.04-amd64-npu.deb sudo apt install --fix-broken -y ./xrt_plugin.2.26.260102.59.release_24.04-amd64-amdxdna.deb Verify your Driver installation source /opt/xilinx/xrt/setup.sh",
+      "quote_character_range": [
+        2311,
+        2325
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "1.9；XRT 2.26.89/amdxdna 2.26.260102.59；Linux NPU flow",
+      "collected_at": "2026-11-04T05:19:45.671319+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "Windows驱动版本及日期",
+      "source_id": "AMD_RyzenAI_Install",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/inst.html",
+      "location": "NPU Driver",
+      "evidence_type": "事实",
+      "conditions": "页面日期10/3/2026、Win11build26100+",
+      "finding": "应用页1.8最低版本不强套1.9",
+      "exact_quote": "32.0.201.448",
+      "context_quote": "oot the machine Open Task Manager -> Performance -> NPU0. Ensure that NPU driver (Version:32.0.201.448, Date:10/3/2026) is correct Install Ryzen AI Software# Download the Ryzen AI Software installer Ryzen AI Software Installer Launch the EXE installer and follow the instructions on the installation wizard: Accept the terms of the Licence agreement Provide the destination folder for Ryzen AI installation (default installation path: C:\\Program Files\\RyzenAI\\ryzen-ai-1.9.0\\) Use the Python virtual environment provided in the installation folder Note - The com",
+      "quote_character_range": [
+        1932,
+        1944
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "1.9路径；NPU driver32.0.201.448；原页日期10/3/2026",
+      "collected_at": "2026-11-04T05:19:43.054126+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "1.9 beta状态冲突",
+      "source_id": "AMD_RyzenAI_App",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/app_development.html",
+      "location": "Application Development",
+      "evidence_type": "未知",
+      "conditions": "同组文档首页1.9、兼容表缺1.9",
+      "finding": "保留冲突并需实际包release确认",
+      "exact_quote": "beta",
+      "context_quote": " INT8 models, but it is not mandatory. Application Packaging Requirements# Ryzen AI 1.9.0 beta version is available for download at the following link. This beta version requires updated NPU driver. A C++ application built on the Ryzen AI ONNX Runtime must include the following components in its distribution package: For INT8 models DLLs: %RYZEN_AI_INSTALLATION_PATH%\\deployment\\aiecompiler_client.dll %RYZEN_AI_INSTALLATION_PATH%\\deployment\\DirectML.dll %RYZEN_AI_INSTALLATION_PATH%\\deployment\\dyn_dispatch_core.dll %RYZEN_AI_INSTALLATION_PATH%\\deploy",
+      "quote_character_range": [
+        5052,
+        5056
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "1.9.0 beta描述；兼容表缺1.9，保留1.8驱动行冲突",
+      "collected_at": "2026-11-04T05:19:52.763678+00:00",
+      "supporting_source_ids": [
+        "AMD_RyzenAI_Install",
+        "AMD_RyzenAI_Licenses"
+      ]
+    },
+    {
+      "claim": "应用页驱动最低行",
+      "source_id": "AMD_RyzenAI_App",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/app_development.html",
+      "location": "EP compatibility",
+      "evidence_type": "未知",
+      "conditions": "1.8行，非1.9已确认最低版本",
+      "finding": "不取数字较大者自行构成1.9支持规则",
+      "exact_quote": "32.0.203.280",
+      "context_quote": "sAI EP. VitisAI EP version Minimum NPU Driver version Maximum NPU Driver release date 1.8 32.0.203.280 Jan 22nd, 2029 1.7 32.0.203.280 Jan 22nd, 2029 1.6 32.0.203.280 Oct 7th, 2028 1.5 32.0.203.280 July 1st, 2028 1.4.1 32.0.203.259 May 13th, 2028 1.4 32.0.203.257 March 25th, 2028 1.3.1 32.0.203.242 January 17th, 2028 1.3 32.0.203.237 November 26th, 2027 1.2 32.0.201.204 July 30th, 2027 The application must verify that the user has installed NPU drivers compatible with the version of the Vitis AI EP in use. APU Types# The Ryzen AI Software supports various ",
+      "quote_character_range": [
+        1645,
+        1657
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "1.9.0 beta描述；兼容表缺1.9，保留1.8驱动行冲突",
+      "collected_at": "2026-11-04T05:19:52.763678+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "XINT8后端配置",
+      "source_id": "AMD_RyzenAI_Quantization",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/model_quantization.html",
+      "location": "INT8 CNN quantization",
+      "evidence_type": "事实",
+      "conditions": "对称INT8/power-of-two scale",
+      "finding": "不套VitisGen2 VINT8",
+      "exact_quote": "XINT8",
+      "context_quote": "s can also be used for model quantization. RyzenAI supports the following INT8 datatypes: XINT8: uses symmetric INT8 activation and weights quantization with power-of-two scales A8W8: uses symmetric INT8 activation and weights quantization with float scales A16W8: uses symmetric INT16 activation and symmetric INT8 weights quantization with float scales AMD Quark is the recommended quantization tool to convert FP32 models to INT8. But third-party tools that support QDQ (Quantize-Dequantize) operations can also be used for model quantization to A8W8 a",
+      "quote_character_range": [
+        3867,
+        3872
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+      "collected_at": "2026-11-04T05:19:50.838005+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "VINT8导出配置",
+      "source_id": "AMD_VitisAI_Gen2_Quantization",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_quantization/model_quantization.html",
+      "location": "Quantization code",
+      "evidence_type": "事实",
+      "conditions": "VitisAI6.3所带Quark；enable_npu_cnn等",
+      "finding": "后端配置/算子/校准样本必须一起验证",
+      "exact_quote": "Int32Bias",
+      "context_quote": "ast fine-tuning. Quark Configuration Option Required Supported Value Usage extra_options[\"Int32Bias\"] Mandatory False quant_config.global_quant_config.extra_options[\"Int32Bias\"] = False enable_npu_cnn Mandatory True quant_config.global_quant_config.enable_npu_cnn = True extra_options[\"DedicatedQDQPair\"] Mandatory True, False quant_config.global_quant_config.extra_options[\"DedicatedQDQPair\"] = True extra_options[\"QuantizeAllOpTypes\"] Mandatory True, False quant_config.global_quant_config.extra_options[\"QuantizeAllOpTypes\"] = True VINT8 Mandatory quant_co",
+      "quote_character_range": [
+        5736,
+        5745
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:30:14.188766+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "随机校准仅用于测试",
+      "source_id": "AMD_VitisAI_Gen2_Quantization",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_quantization/model_quantization.html",
+      "location": "Calibration guidance",
+      "evidence_type": "分析",
+      "conditions": "真实校准样本vs随机数据",
+      "finding": "MinMSE不等于真实机器人成功率",
+      "exact_quote": "Use random data (for testing only)",
+      "context_quote": "t_config) Step 2: Provide calibration data Choose one of the following options. Option 1: Use random data (for testing only) quant_config.global_quant_config.extra_options[\"UseRandomData\"] = True quantizer.quantize_model( model_input=\"model_fp32.onnx\", model_output=\"model_int8.onnx\", calibration_data_reader=None, # Random data used automatically ) Option 2: Use real calibration data (recommended for production) For best accuracy, provide a representative calibration dataset. Implement a CalibrationDataReader subclass that yields preprocessed input samples, then pass an instance",
+      "quote_character_range": [
+        8608,
+        8642
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:30:14.188766+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "Quark的RyzenAI导入链",
+      "source_id": "AMD_Quark_RyzenAI",
+      "source_url": "https://quark.docs.amd.com/latest/supported_accelerators/ryzenai/index.html",
+      "location": "Development Flow Steps",
+      "evidence_type": "事实",
+      "conditions": "通用latest，PyTorch/TensorFlow导入",
+      "finding": "格式交换不等于不同后端engine通用",
+      "exact_quote": "Trained models in popular frameworks",
+      "context_quote": "nd integrated GPU (iGPU), in addition to the NPU. Development Flow Steps# Trained Models: Trained models in popular frameworks such as PyTorch / TensorFlow are exported to ONNX format, to leverage ONNX Runtime to run on Ryzen AI supported processors. Model Quantization: Use AMD Quark quantizer tools to convert your ONNX model into a quantized version, using the following quantization schemes: - For CNN models: INT8 or BF16 - For Transformer models: BF16 - For LLMs: INT4 or BF16 Deployment and Inference: Deploy the quantized on Ryzen AI-enabled hardware through ONNX runtime and Vi",
+      "quote_character_range": [
+        6768,
+        6804
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "通用Quark latest快照；未标唯一包版本，不替代Vitis所带0.12",
+      "collected_at": "2026-11-04T05:31:09.359967+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "PHX/HPT的xclbin边界",
+      "source_id": "AMD_RyzenAI_Compile",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/modelrun.html",
+      "location": "X1/X2 configuration",
+      "evidence_type": "事实",
+      "conditions": "PHX/HPT INT8X1；STX/KRK默认X2",
+      "finding": "路径为phoenix目录下4x4.xclbin；旧Nx4/1x4不继续支持",
+      "exact_quote": "4x4.xclbin",
+      "context_quote": "ider option must be set to %RYZEN_AI_INSTALLATION_PATH%\\voe-4.0-win_amd64\\xclbins\\phoenix\\4x4.xclbin or to a copy of this file included in the final version of the application. The legacy “1x4” and “Nx4” xclbin files are no longer supported and should not be used. Sample Python Code# Python example code for running an INT8 model on STX/KRK NPU (target=X2, no xclbin): import os import onnxruntime vai_ep_options = { 'cache_dir': str(cache_dir), 'cache_key': 'resnet_trained_for_cifar10', 'enable_cache_file_io_in_mem':'0', 'target': 'X2' # Default option 'X2",
+      "quote_character_range": [
+        10331,
+        10341
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+      "collected_at": "2026-11-04T05:19:48.971821+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "ORT context用于部署",
+      "source_id": "AMD_RyzenAI_Compile",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/modelrun.html",
+      "location": "EP context model",
+      "evidence_type": "事实",
+      "conditions": "匹配EP/driver/config/model",
+      "finding": "开发cache不当跨版本可移植产物",
+      "exact_quote": "ep.context_enable",
+      "context_quote": "P context before deployment. The user can enable dumping of the EP context by setting the ep.context_enable session option to 1. The following options can be used for additional control: ep.context_file_path – Specifies the output path for the dumped context model. ep.context_embed_mode – Embeds the EP context into the ONNX model when set to 1. For further details, refer to the official ONNX Runtime documentation: https://onnxruntime.ai/docs/execution-providers/EP-Context-Design.html EP Context Encryption# By default, the generated context model is unencrypted ",
+      "quote_character_range": [
+        14412,
+        14429
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+      "collected_at": "2026-11-04T05:19:48.971821+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "落点报告辅助核验",
+      "source_id": "AMD_RyzenAI_Compile",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/modelrun.html",
+      "location": "EP report",
+      "evidence_type": "事实",
+      "conditions": "编译与EP配置",
+      "finding": "CPU fallback必须读取实际分区报告",
+      "exact_quote": "XLNX_ONNX_EP_REPORT_FILE",
+      "context_quote": "enerate this report: The enable_cache_file_io_in_mem provider option must be set to 0 The XLNX_ONNX_EP_REPORT_FILE environment variable must be used to specify the name of the generated report. For instance: set XLNX_ONNX_EP_REPORT_FILE=vitisai_ep_report.json When these conditions are satisfied, the report file is automatically generated in the cache directory. This report includes information such as the total number of nodes, the list of operator types in the model, and which nodes and operators run on the NPU or on the CPU. Additionally, the report includes node st",
+      "quote_character_range": [
+        17617,
+        17641
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+      "collected_at": "2026-11-04T05:19:48.971821+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "算子表仍标旧版且有配置边界",
+      "source_id": "AMD_RyzenAI_Ops",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/ops_support.html",
+      "location": "Operator support tables",
+      "evidence_type": "事实",
+      "conditions": "1.8表不是完整1.9支持表；算子/shape/backend一起确认",
+      "finding": "不是任意ONNX全图优化支持；正文与版本记录已保留旧版",
+      "exact_quote": "operators supported in Ryzen AI 1.8.0",
+      "context_quote": "ors Contents LLM Operator support Supported Operators# The following table lists the ONNX operators supported in Ryzen AI 1.8.0. The operators are categorized by their support for different quantization types: BF16, A16W8, A8W8, and XINT8. A “Y” indicates that Ryzen AI provides broad coverage for that operator and for that specific quantization type for CNN and NLP models. Some specific configurations of that operator may however not be fully supported. Ops BF16 A16W8 A8W8 XINT8 Abs Y Y Add Y Y Y Y And Y Y ArgMax Y Y ArgMin Y Y AveragePool Y Y Y Y BatchNormalization Y Y Y Y BitShi",
+      "quote_character_range": [
+        996,
+        1033
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "latest路径但正文表明Ryzen AI1.8.0算子；不能当1.9完整表",
+      "collected_at": "2026-11-04T05:19:54.368012+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "REST接口契约",
+      "source_id": "AMD_RyzenAI_Server",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/llm/server_interface.html",
+      "location": "Lemonade server endpoints",
+      "evidence_type": "事实",
+      "conditions": "当前RyzenAI server文档",
+      "finding": "文本请求/输出不是关节动作",
+      "exact_quote": "/api/v1/chat/completions",
+      "context_quote": "erver Usage# The Lemonade Server provides the following OpenAI-compatible endpoints: POST /api/v1/chat/completions - Chat Completions (messages to completions) POST /api/v1/completions - Text Completions (prompt to completion) POST /api/v1/responses - Chat Completions (prompt|messages -> event) GET /api/v1/models - List available models Please refer to the server specification document for details about the request and response formats for each endpoint. The OpenAI API documentation also has code examples for integrating streaming completions into an application. Supp",
+      "quote_character_range": [
+        2459,
+        2483
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+      "collected_at": "2026-11-04T05:26:09.110203+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "OGA异构执行",
+      "source_id": "AMD_RyzenAI_Hybrid",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/hybrid_oga.html",
+      "location": "Hybrid deployment",
+      "evidence_type": "事实",
+      "conditions": "固定模型/tokenizer/context/genai config",
+      "finding": "不能仅交付一个ONNX",
+      "exact_quote": "supports deploying LLMs on Ryzen AI PCs",
+      "context_quote": " C++ Applications Using Fine-Tuned Models OnnxRuntime GenAI (OGA) Flow# Ryzen AI Software supports deploying LLMs on Ryzen AI PCs using the native ONNX Runtime Generate (OGA) C++ or Python API. The OGA API is the lowest-level API available for building LLM applications on a Ryzen AI PC. It supports the following execution modes: Hybrid execution mode: This mode uses both the NPU and iGPU to achieve the best TTFT and TPS during the prefill and decode phases. NPU-only execution mode: This mode uses the NPU exclusively for both the prefill and decode phases. Supported Configurations# T",
+      "quote_character_range": [
+        1383,
+        1422
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+      "collected_at": "2026-11-04T05:26:02.969541+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "新模型优化状态",
+      "source_id": "AMD_RyzenAI_Release",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/relnotes.html",
+      "location": "Release notes",
+      "evidence_type": "事实",
+      "conditions": "1.9模型列表",
+      "finding": "functional支持与optimized性能分开",
+      "exact_quote": "functional",
+      "context_quote": "New model support: Gemma-4-E2B (text), Gemma-4-E4B (text), Hy-MT2-1.8B New model support, functional only (performance not optimized): Phi-4-14B, Qwen3.5-9B, Granite-4.1-8B, Gemma-4-12B Dynamic LoRA support for Qwen models (text): Qwen2.5-3B, Qwen3-4B, Qwen3.5-4B CNN/Transformer Bug fixes and general improvements Version 1.8# LLM 8 new LLM and VLM support: Hunyuan-0.5B-Instruct, Hunyuan-1.8B-Instruct, Hunyuan-4B-Instruct, Hunyuan-7B-Instruct, HY-MT1.5-1.8B, HY-MT1.5-7B, VideoChat-Flash-Qwen2_5-7B_InternVideo2-1B, Qwen3-VL-4B-Instruct New TTS model suppor",
+      "quote_character_range": [
+        2631,
+        2641
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+      "collected_at": "2026-11-04T05:19:47.283779+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "PL库停止维护",
+      "source_id": "AMD_Vitis_Libraries",
+      "source_url": "https://github.com/Xilinx/Vitis_Libraries",
+      "location": "README maintenance notice",
+      "evidence_type": "事实",
+      "conditions": "2025.2起，七个PL库，AIE库不受影响",
+      "finding": "旧release可用不代表当前维护",
+      "exact_quote": "will no longer be maintained",
+      "context_quote": ". Starting with the 2025.2 release, the following PL (Programmable Logic) Vitis libraries will no longer be maintained: codec data_analytics data_compression graph hpc quantitative_finance sparse Users who still require these deprecated libraries can continue to access and use previous versions from earlier releases. AI Engine Vitis Libraries are not impacted. Also starting with the 2025.2 release, some Alveo platforms will no longer be supported, including U200, U250, and U280. Users can continue using other Alveo platforms (including U50, U50LV, and U55C) to implement P",
+      "quote_character_range": [
+        3840,
+        3868
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "main仓库快照；2025.2起PL库停维护变更；未锁commit",
+      "collected_at": "2026-11-04T05:16:12.537923+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "Gen1 NPU IP精确配置",
+      "source_id": "AMD_VitisAI_Gen1_Install",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen1/en/latest/docs/quickstart/install.html",
+      "location": "NPU IP name/default",
+      "evidence_type": "事实",
+      "conditions": "三DDR/NoCplacement，M1另选",
+      "finding": "不能跨NPUIP配置重用镜像和模型",
+      "exact_quote": "VE2802_NPU_IP_O00_A304_M3",
+      "context_quote": "O00_A128_M3 VE2802_NPU_IP_O00_A160_M3 VE2802_NPU_IP_O00_A192_M3 VE2802_NPU_IP_O00_A304_M1 VE2802_NPU_IP_O00_A304_M3 (active NPU) (default) VE2802_NPU_IP_O00_A304_M3_generic VE2802_NPU_IP_O16_A080_M3 VE2802_NPU_IP_O16_A128_M3 VE2802_NPU_IP_O20_A048_M3 VE2802_NPU_IP_O24_A064_M1 VE2802_NPU_IP_O24_A064_M3 VE2802_NPU_IP_O24_A112_M3 NPU_TAIL_YOLO_V5 NPU_TAIL_YOLO_V7 NPU_TAIL_YOLO_V8 NPU_TAIL_YOLO_X Note The VE2802_NPU_IP_O00_A304_M3 is the default NPU IP and it has optimal placement on the NOC to optimize the NoC routing and the bandwidth. The VE2802_NPU_IP_O00_A304_M3_gener",
+      "quote_character_range": [
+        3653,
+        3678
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen1 6.3；VEK280；NPU IP配置需单独匹配",
+      "collected_at": "2026-11-04T05:23:49.322399+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "CPU仍可能执行未卸载子图",
+      "source_id": "AMD_VitisAI_Gen1_Runtime",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen1/en/latest/docs/customization_opportunities/runtime-process-apis.html",
+      "location": "Embedded CPU operations",
+      "evidence_type": "事实",
+      "conditions": "未全图accelerated",
+      "finding": "与CPU不做inferencecompute前句合读",
+      "exact_quote": "CPU sub-graphs",
+      "context_quote": "s not fully accelerated due to unsupported operations, it splits into FPGA sub-graphs and CPU sub-graphs. The CPU sub-graphs execute on the CPU to complete the original graph. - The NPU reports the number of sub-graphs accelerated on the CPU during the preparation phase. VART APIs# The Vitis AI Runtime (VART) provides a set of API functions that integrate the NPU into software applications and offer a unified high-level runtime for embedded targets. Key features include: Asynchronous submission of jobs to the NPU. Asynchronous retrieval of job results from t",
+      "quote_character_range": [
+        2405,
+        2419
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen1 6.3；VEK280；NPU IP配置需单独匹配",
+      "collected_at": "2026-11-04T05:27:42.717092+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "Gen1并发承诺仍为计划",
+      "source_id": "AMD_VitisAI_Gen1_Runtime",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen1/en/latest/docs/customization_opportunities/runtime-process-apis.html",
+      "location": "VART features",
+      "evidence_type": "事实",
+      "conditions": "Gen1 runtime页",
+      "finding": "不套Gen2线程安全",
+      "exact_quote": "planned for future releases",
+      "context_quote": "ntations in both C++ and Python. Support for multi-threading and multi-process execution (planned for future releases). Following is a pseudocode example that illustrates how to use the VART APIs for inference: // Runner engine creation reads the model/snapshot auto runner = vart::Runner::create_runner(<path_to_snapshot>); // Submitting an inference job for execution auto job_id = runner->execute_async(inputsPtr, outputsPtr); // Waiting for the inference job to complete runner->wait(job_id.first, -1); In this example, the application creates a runner instance that reads ",
+      "quote_character_range": [
+        2984,
+        3011
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen1 6.3；VEK280；NPU IP配置需单独匹配",
+      "collected_at": "2026-11-04T05:27:42.717092+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "Gen1 IP license",
+      "source_id": "AMD_VitisAI_Gen1_License",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen1/en/latest/docs/additional_information/Obtaining-license.html",
+      "location": "Synthesis diagnostics",
+      "evidence_type": "事实",
+      "conditions": "建NPUreference design",
+      "finding": "需VivadoEnterprise/Pro；文档公开不免许可",
+      "exact_quote": "npu_aieml@2024.06",
+      "context_quote": "e following synthesis error: Fatal Error. License Check failed for secure IP for feature 'npu_aieml@2024.06'. Exiting Synthesis. License Check diagnostics: The license feature npu_aieml@2024.06 could not be found., No such feature exists. Contact vitis_ai@amd.com if you get any issues while downloading the NPU IP license. previous Troubleshooting Support next Supported Models Last updated on November 02, 2026. Terms and Conditions Privacy Trademarks Statement on Forced Labor Fair and Open Competition UK Tax Strategy Cookie Policy Cookie Settings © 2025 Advanced",
+      "quote_character_range": [
+        2388,
+        2405
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen1 6.3；VEK280；NPU IP配置需单独匹配",
+      "collected_at": "2026-11-04T05:27:45.199714+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "评估硅片成熟度",
+      "source_id": "AMD_VitisAI_Gen2_Requirements",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/setup_and_installation/system_requirements.html",
+      "location": "Board requirements",
+      "evidence_type": "事实",
+      "conditions": "VEK385RevA/B",
+      "finding": "publicguide不代表量产板认证",
+      "exact_quote": "pre-production",
+      "context_quote": " card with a minimum capacity of 32 GB. Target Board VEK385 RevA or VEK385 RevB card with pre-production silicon. Connectivity VEK385 target board connected to the host machine with an Ethernet cable (optional) and a UART USB cable. The cable (Type A to Type C) is provided with the VEK385 board for connectivity. Type A is connected to the host and Type C is connected to the board. Note You can connect the VEK385 target board to a host machine for convenient file transfers, for example, the model cache directory and overlay files. However, you do not require ",
+      "quote_character_range": [
+        3264,
+        3278
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:30:11.436270+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "绑定软件与opset范围",
+      "source_id": "AMD_VitisAI_Gen2_Requirements",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/setup_and_installation/system_requirements.html",
+      "location": "Software requirements",
+      "evidence_type": "事实",
+      "conditions": "torch2.5.1/Quark0.12/ORT1.28/opset11–20",
+      "finding": "不自动替换通用最新版",
+      "exact_quote": "2.5.1",
+      "context_quote": "commended. Vivado Version 2026.1 Vitis Version 2026.1 Python Version 3.12 PyTorch Version 2.5.1 ONNX Version 1.16.1 ONNX Runtime Version 1.28.0 Docker Version 28.5.1 Quark (included in the Docker image) Version 0.12 Software Packages Includes binaries for PDI, Linux images, and models ONNX Opset Support# The Vitis AI Compiler supports a defined range of ONNX opset versions. Use the following guidance when you export or convert a model for compilation. ONNX Opset Support Matrix# Opset Version Support Level Notes 11 - 20 Fully supported Opset 20 is th",
+      "quote_character_range": [
+        4126,
+        4131
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:30:11.436270+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "摄像头流设计仅RevB",
+      "source_id": "AMD_VitisAI_Gen2_Release",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/release_notes/release_notes_section.html",
+      "location": "New features",
+      "evidence_type": "事实",
+      "conditions": "6.3 camera ISP/PL/NPU/CPU/DP",
+      "finding": "视觉流不等于关节本体闭环",
+      "exact_quote": "Rev-B",
+      "context_quote": "ed postprocessing, with output displayed via the DisplayPort interface (supported only on Rev-B board). Streaming preprocessing: Added streaming PL preprocess IP supporting resize, color space conversion, normalization, and cropping, with an AI Layout Formatter for writing preprocessed data to memory in multiple layout formats and data types. Example applications and models: Added ready-to-run GStreamer pipeline for the camera stream-based inference design, demonstrating object detection (YOLOx) and scene classification (ResNet-50) pipelines using c",
+      "quote_character_range": [
+        3833,
+        3838
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:30:09.117297+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "大模型external data完整性",
+      "source_id": "AMD_VitisAI_Gen2_Compile",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/compiling.html",
+      "location": "ONNX external data",
+      "evidence_type": "事实",
+      "conditions": "ONNX主图与外部权重完整路径",
+      "finding": "单ONNX不包含所有大模型权重",
+      "exact_quote": "2GB",
+      "context_quote": "ions so that the generated model is saved successfully. Note For ONNX models greater than 2GB and when converting a PyTorch model to ONNX format, the ONNX model can be split into 2 parts: model.onnx model.onnx.data import onnxruntime import os Model = 'mymodel' # Prepend full path to ONNX model model_name = os.getcwd() + '/' + Model + '.onnx' compile_cache = os.getcwd() + '/cache_dir' provider_options_dict1 = { \"config_file\": 'vitisai_config.json', \"cache_dir\": compile_cache, \"cache_key\": Model, \"ai_analyzer_visualization\": True, # Enable visualiz",
+      "quote_character_range": [
+        4557,
+        4560
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:27:06.876700+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "SDK路径文档残留",
+      "source_id": "AMD_VitisAI_Gen2_Install",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/setup_and_installation/software_setup.html",
+      "location": "SDK environment setup",
+      "evidence_type": "未知",
+      "conditions": "VEK385目标A78",
+      "finding": "实际取安装器生成environment，不擅自改原件",
+      "exact_quote": "cortexa72-cortexa53",
+      "context_quote": "ce the sysroot environment for cross-compilation: source <SYSROOT_PATH>/environment-setup-cortexa72-cortexa53-amd-linux VEK385 AI Reference Design (Source Code and Pre-built Images)# This section provides instructions on how to download and install the VEK385 AI Reference Design and the associated software examples and tutorials. The Vitis AI GitHub repository provides access to the software examples, tutorials, and the VEK385 platform source code. The following TAR files contain the prebuilt boot images for VEK385 board setup that allow you to run these software",
+      "quote_character_range": [
+        4702,
+        4721
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:23:12.440544+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "默认单文件.rai",
+      "source_id": "AMD_VitisAI_Gen2_Output",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/output.html",
+      "location": "Model Storage Formats",
+      "evidence_type": "事实",
+      "conditions": "6.3 compiled model",
+      "finding": "mmap加载不证明端到端零拷贝",
+      "exact_quote": "generated by default",
+      "context_quote": "ier When you need faster loading times Generating the Flat-Buffer Format The .rai file is generated by default by the Vitis AI compiler during model compilation. No special option is required in this case. Directory Structure Format# The compiled model is stored in cache_dir/cache_key as a directory hierarchy containing the following: vaiml_par_0/ - Partition subdirectory containing NPU-specific binaries and runtime files final-vaiml-pass-summary.txt - Compilation summary with performance metrics Model metadata and intermediate compilation artifacts (useful for de",
+      "quote_character_range": [
+        4534,
+        4554
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:27:08.537460+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "开发目录要完整保留",
+      "source_id": "AMD_VitisAI_Gen2_Output",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/output.html",
+      "location": "Directory Structure Format",
+      "evidence_type": "事实",
+      "conditions": "true保留完整cache",
+      "finding": "报告样例阈值/clock/编译时间不当通用默认",
+      "exact_quote": "keep_outputs",
+      "context_quote": "acts When you want detailed logs and reports Generating the compiled cache directory The ‘keep_outputs’: ‘true’ option is required in the compilation configuration JSON file to retain the compiled cache directory. provider_options = { 'config_file': '/path/to/vaip_config.json', 'target': 'VAIML', 'cacheDir': './cache', 'cacheKey': 'my_model', 'keep_outputs': 'true' # the compiled cache directory is retained } Compilation Summary Report# After compilation, you can review detailed compilation results in the summary report. Viewing the Compilation Summary# To",
+      "quote_character_range": [
+        5323,
+        5335
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:27:08.537460+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "ORT与VART所需产物",
+      "source_id": "AMD_VitisAI_Gen2_Deploy",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_deployment/model-inference.html",
+      "location": "Files Needed",
+      "evidence_type": "事实",
+      "conditions": "ORT需原图/config；VART直接compiled model",
+      "finding": "runtime选择决定分区/依赖",
+      "exact_quote": "original ONNX model",
+      "context_quote": "of two runtimes: ONNX Runtime with the AMD Vitis AI Execution Provider (Vitis AI EP): The original ONNX model is loaded in an ONNX Runtime inference session, and the Vitis AI EP dispatches the supported subgraphs to the NPU while the remaining subgraphs fall back to the CPU execution provider at run time. The VART ML Runtime: The compiled model is loaded and executed directly on the NPU through the VART ML C++ API, without an ONNX Runtime dependency. Partitioning is decided at compile time, and zero-copy inference is supported. Use the following guidance to selec",
+      "quote_character_range": [
+        2975,
+        2994
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:27:10.439420+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "CPU分区在编译期固定",
+      "source_id": "AMD_VitisAI_Gen2_CPU_Partition",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/cpu_partition.html",
+      "location": "CPU partition workflow",
+      "evidence_type": "事实",
+      "conditions": "compiler支持CPUoperators",
+      "finding": "不是ORT任意算子的runtimefallback",
+      "exact_quote": "vaiml_cpu_partition",
+      "context_quote": "rder Initialization Pass (init) Main Partition Pass (vaiml_partition) CPU Partition Pass (vaiml_cpu_partition) Connectivity Pass (vaiml_connectivity) Cache Creation Pass (vaiml_create_cache) CPU Operator Support Compiler-Supported CPU Operators vs. General CPU Execution Compiler-Supported CPU Operators (CPU Partition Compilation) General CPU Execution (Standard Compilation) Choosing the Right Configuration Compilation Output Limitations and Constraints Configuration Requirements Operator Coverage Constraints Runtime Compatibility Constraints Additional Resources ",
+      "quote_character_range": [
+        2886,
+        2905
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:27:34.423957+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "HW与CPU view的格式不同",
+      "source_id": "AMD_VitisAI_Gen2_Architecture",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/ml-architecture-overview.html",
+      "location": "Tensor and Memory Architecture",
+      "evidence_type": "事实",
+      "conditions": "示例NCHWFP32→HCWNC4BF16",
+      "finding": "不同模型取实际metadata，CPUview有copy",
+      "exact_quote": "HCWNC4",
+      "context_quote": "view. For example, a model with CPU format NCHW, FP32, [1,3,224,224] might have HW format HCWNC4, BF16, [224,1,224,1,4]. Use HW tensors for zero-copy performance – data goes to the NPU without conversion. Input and output tensor types can be configured independently and default to HW for both directions (for example, HW input with CPU output). The per-direction setting can also be overridden for individual tensors by name, which is useful when a model mixes HW and CPU-only tensors in the same direction. Which views a tensor exposes is fixed by the mo",
+      "quote_character_range": [
+        5890,
+        5896
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:27:16.512716+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "HW+NON_CMA禁止组合",
+      "source_id": "AMD_VitisAI_Gen2_Architecture",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/ml-architecture-overview.html",
+      "location": "Zero-copy behavior",
+      "evidence_type": "事实",
+      "conditions": "HW + USER_POINTER_NON_CMA",
+      "finding": "用户malloc指针不能冒充硬件可见CMA",
+      "exact_quote": "throws std::runtime_error",
+      "context_quote": "r USER_POINTER_CMA. Invalid: TensorType = HW with USER_POINTER_NON_CMA – this combination throws std::runtime_error at NpuTensor construction because non-CMA memory is not accessible by the NPU. Not zero-copy: TensorType = CPU with any memory type – the Runner performs format conversion internally, which involves a data copy. The same execution APIs support both zero-copy and non-zero-copy paths; tensor view and memory choice determine behavior. NpuTensor Ownership# User-constructed tensors: NpuTensor does not take ownership of the buffer. The caller must keep it valid",
+      "quote_character_range": [
+        7515,
+        7540
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:27:16.512716+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "用户buffer不转移所有权",
+      "source_id": "AMD_VitisAI_Gen2_Architecture",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/ml-architecture-overview.html",
+      "location": "NpuTensor Ownership",
+      "evidence_type": "事实",
+      "conditions": "caller buffer需覆盖tensor/job lifetime",
+      "finding": "RAII仅runnerallocated；subtensor一层",
+      "exact_quote": "does not take ownership",
+      "context_quote": "emory choice determine behavior. NpuTensor Ownership# User-constructed tensors: NpuTensor does not take ownership of the buffer. The caller must keep it valid for the tensor’s lifetime. Runner-allocated tensors (via allocate_npu_tensor): The buffer is owned by the NpuTensor and freed automatically when it goes out of scope (RAII). Sub-tensors (via allocate_sub_tensor): Share the parent tensor’s buffer via reference counting. The underlying memory is released only after both the parent and all derived sub-tensors are destroyed. Only one level of nesting is supported. ",
+      "quote_character_range": [
+        7932,
+        7955
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:27:16.512716+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "Gen2 runner线程安全范围",
+      "source_id": "AMD_VitisAI_Gen2_Architecture",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/ml-architecture-overview.html",
+      "location": "Thread Safety",
+      "evidence_type": "事实",
+      "conditions": "Gen2执行API，callback内部worker",
+      "finding": "共享队列仍需应用同步，不外推Gen1",
+      "exact_quote": "wait() calls are thread-safe",
+      "context_quote": "ared_ptr. execute() and execute_async() can be called concurrently from multiple threads. wait() calls are thread-safe. NpuTensor copies sharing the same buffer can be used from different threads. Async callbacks are invoked from internal worker threads. Ensure thread safety when accessing shared resources in callbacks. RunnerType::VAIML (Versal AI Edge Series Gen 2)# The following sections are specific to RunnerType::VAIML. Configuration Options# Runner creation accepts key-value options (unordered_map<std::string, std::any>) passed to RunnerFactory::create_runner(). Con",
+      "quote_character_range": [
+        9101,
+        9129
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:27:16.512716+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "异步提交资源耗尽",
+      "source_id": "AMD_VitisAI_Gen2_Async",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/advanced_concepts/async_execution.html",
+      "location": "Overview",
+      "evidence_type": "事实",
+      "conditions": "每job独立buffers；slot数量有界",
+      "finding": "等待完成后重试，不无限积压",
+      "exact_quote": "RESOURCE_UNAVAILABLE",
+      "context_quote": "t the next batch while earlier batches still execute; when the runner reports StatusCode::RESOURCE_UNAVAILABLE, all internal execution slots are busy—retry after a job completes. Host and NPU activity over time. With execute, the CPU blocks during each run on the NPU compute units. With execute_async, the host can submit the next batch while earlier batches still run on the NPU compute units.# Note Use execute_async when you need to submit the next batch before the previous one completes—for example, when inputs arrive from a stream or queue. Use execute when you ",
+      "quote_character_range": [
+        5174,
+        5194
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:27:26.877502+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "异步样例重复同一batch",
+      "source_id": "AMD_VitisAI_Gen2_Async",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/advanced_concepts/async_execution.html",
+      "location": "Demonstration Example",
+      "evidence_type": "事实",
+      "conditions": "一个输入tensor，默认两个jobs",
+      "finding": "样例平均时延/FPS不等于真实多相机或P99",
+      "exact_quote": "same in-memory batch",
+      "context_quote": " with --dry-run. Repeated submissions: Issues --num-iteration execute_async calls on that same in-memory batch — reading new frames from disk on each submission is left to the application. Polling only: Uses the execute_async + Runner::wait path. For the callback-based overload and code examples, see VART Application Development. See the sample source and sample README for build steps and the full command-line reference. Note The sample supports models with only one input tensor. First-run checklist# Use this sequence for your first end-to-end run: Prerequisites —",
+      "quote_character_range": [
+        6028,
+        6048
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:27:26.877502+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "DP复制与TP分片",
+      "source_id": "AMD_VitisAI_Gen2_Tenancy",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/model_compilation/multi-tenancy-user-guide.html",
+      "location": "Data/Tensor Parallelism",
+      "evidence_type": "事实",
+      "conditions": "每block16tiles，实际资源看compiler",
+      "finding": "DP容量和单帧时延分开",
+      "exact_quote": "replicating",
+      "context_quote": "goals. Data parallelism instantiates the entire model multiple times across the device by replicating it across NPU compute blocks. With dp_size=4, four independent model instances process different inference requests simultaneously. Each input sample is processed by a dedicated NPU compute block instance, and all instances execute synchronously in a layer-by-layer fashion. The advantage of this approach is that all replicated instances share a single weight DMA channel, reducing communication overhead between DDR memory and the AI Engine array. Use this ",
+      "quote_character_range": [
+        3425,
+        3436
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:27:30.275463+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "VART-X设备/预处理API",
+      "source_id": "AMD_VitisAI_VART_App",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_app_guide.html",
+      "location": "Initialization/PreProcess",
+      "evidence_type": "事实",
+      "conditions": "匹配XCLBIN、VideoInfo、mean/scale",
+      "finding": "库实现存在不证明所有相机全链零拷贝",
+      "exact_quote": "IMAGE_PROCESSING_HLS",
+      "context_quote": "cts the VART‑provided preprocessing module to use. For example, vart::PreProcessImplType::IMAGE_PROCESSING_HLS selects the hardware-accelerated image processing IP. json_data: Use this parameter to pass the additional preprocessing related configuration information. This information is in JSON format. device: Handle to the device that this module uses. Additionally, the set_preprocess_info method allows setting the initial requirements of vart::PreProcess. vart::PreProcess::set_preprocess_info(PreProcessInfo& preprocess_info) The vart::PreProcessInfo structure con",
+      "quote_character_range": [
+        8261,
+        8281
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:30:17.882556+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "Resize几何须还原",
+      "source_id": "AMD_VitisAI_VART_App",
+      "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/docs/appendix/vart_app_guide.html",
+      "location": "Preprocessing",
+      "evidence_type": "事实",
+      "conditions": "DEFAULT/LETTERBOX/PANSCAN",
+      "finding": "crop/padding还原后才能用于相机坐标观测",
+      "exact_quote": "PANSCAN",
+      "context_quote": "ale values, output dimensions, colour format, and preprocess type (DEFAULT, LETTERBOX, or PANSCAN). See the VART-X API reference for the complete field list. To align preprocess output with the NPU input tensor, use the NPU Format Selection Guide and Mapping between Tensor Layout and Colour Format later in this guide. These parameters control how the pre-process module prepares each image/frame for inference. The preprocess_type field selects the resize mode: DEFAULT — Stretch resize to the model input dimensions. LETTERBOX — Aspect-ratio-preserving r",
+      "quote_character_range": [
+        8899,
+        8906
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Gen2 6.3 public guide；Vivado/Vitis 2026.1；Rev-A/B评估硅片",
+      "collected_at": "2026-11-04T05:30:17.882556+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "BO内存bank与同步",
+      "source_id": "AMD_XRT_Native",
+      "source_url": "https://xilinx.github.io/XRT/master/html/xrt_native_apis.html",
+      "location": "Buffers",
+      "evidence_type": "事实",
+      "conditions": "经典XCLBIN FPGAroute",
+      "finding": "map/write后设备同步，run/wait后host同步",
+      "exact_quote": "kernel.group_id",
+      "context_quote": " the user can create other types of buffers by providing a flag). 15 auto bank_grp_arg0 = kernel.group_id(0); // Memory bank index for kernel argument 0 16 auto bank_grp_arg1 = kernel.group_id(1); // Memory bank index for kernel argument 1 17 18 auto input_buffer = xrt::bo(device, buffer_size_in_bytes,bank_grp_arg0); 19 auto output_buffer = xrt::bo(device, buffer_size_in_bytes, bank_grp_arg1); In the above code xrt::bo buffer objects are created using the class constructor. Please note the following: As no special flags are used a regular buffer will be creat",
+      "quote_character_range": [
+        7438,
+        7453
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "XRT Master快照，含experimental API；不是固定release；旧footer保留",
+      "collected_at": "2026-11-04T05:27:53.492087+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "新NPU API与release边界",
+      "source_id": "AMD_XRT_Native",
+      "source_url": "https://xilinx.github.io/XRT/master/html/xrt_native_apis.html",
+      "location": "Experimental/NPU APIs",
+      "evidence_type": "事实",
+      "conditions": "Master ELF/hw_context路线",
+      "finding": "不可用旧XCLBIN例子替代x86NPU loader",
+      "exact_quote": "experimental",
+      "context_quote": "rt_kernel.h> Run xrt::run #include <xrt/xrt_kernel.h> Run-list xrt::runlist #include <xrt/experimental/xrt_kernel.h> Context xrt::hw_context #include <xrt/xrt_hw_context.h> Xclbin xrt::xclbin #include <xrt/experimental/xrt_xclbin.h> Control code (ELF) xrt::elf #include <xrt/experimental/xrt_elf.h> Extension Buffer xrt::ext::bo #include <xrt/experimental/xrt_ext.h> Extension Kernel xrt::ext::kernel #include <xrt/experimental/xrt_ext.h> User-managed Kernel xrt::ip #include <xrt/experimental/xrt_ip.h> AIE Graph xrt::graph #include <xrt/xrt_aie.h> #include <xr",
+      "quote_character_range": [
+        2575,
+        2587
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "XRT Master快照，含experimental API；不是固定release；旧footer保留",
+      "collected_at": "2026-11-04T05:27:53.492087+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "Buffer flags有系统条件",
+      "source_id": "AMD_XRT_Native",
+      "source_url": "https://xilinx.github.io/XRT/master/html/xrt_native_apis.html",
+      "location": "Buffer flags",
+      "evidence_type": "事实",
+      "conditions": "host/device/driver-specific",
+      "finding": "XRT名字不代表所有backendABI相同",
+      "exact_quote": "Not all the flags are honored",
+      "context_quote": "ently (typical on edge platforms). Note Buffer flags are specific to the host and device. Not all the flags are honored on all systems. The below example shows creating a P2P buffer on a device memory bank connected to argument 3 of the kernel. 15 auto p2p_buffer = xrt::bo(device, buffer_size_in_bytes, xrt::bo::flags::p2p, kernel.group_id(3)); Creating Buffers from the user pointer¶ The xrt::bo() constructor can also be called using a pointer provided by the user. The user pointer must be aligned to 4K boundary. 15 // Host Memory pointer aligned to 4K boundary 16 int *host",
+      "quote_character_range": [
+        9472,
+        9501
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "XRT Master快照，含experimental API；不是固定release；旧footer保留",
+      "collected_at": "2026-11-04T05:27:53.492087+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "26.06.1不是全套重建",
+      "source_id": "AMD_EDF_Release",
+      "source_url": "https://edf.docs.amd.com/en/latest/downloads-and-release-notes.html",
+      "location": "Release overview",
+      "evidence_type": "事实",
+      "conditions": "支持板artifacttable",
+      "finding": "不推广所有板commonimage为当前验证版",
+      "exact_quote": "rebuilds part of v26.06",
+      "context_quote": "e AMD EDF Documentation Downloads and Release Notes Downloads and Release Notes v26.06.1 rebuilds part of v26.06 This page lists the artifacts v26.06.1 rebuilt. Every other artifact in the release is published unchanged under v26.06: see the v26.06 downloads page for the device families this update does not cover. For Yocto-related release notes see: Yocto Project related Release Notes Important Information AMD delivers embedded Linux for supported boards through the Embedded Development Framework (EDF), using Yocto Project machine configurations and System Device T",
+      "quote_character_range": [
+        1346,
+        1369
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+      "collected_at": "2026-11-04T05:20:35.153402+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "common WIC与板boot固件分开",
+      "source_id": "AMD_EDF_Release",
+      "source_url": "https://edf.docs.amd.com/en/latest/downloads-and-release-notes.html",
+      "location": "Common Disk Images",
+      "evidence_type": "事实",
+      "conditions": "CPUfamilycommonWIC + boardbootfirmware",
+      "finding": "硬件/DT/PL/driver仍要匹配",
+      "exact_quote": "not board-specific",
+      "context_quote": "irmware. These images target a CPU family (for example, Cortex-A53 or Cortex-A78) and are not board-specific. Use them together with the EDF boot firmware images listed above. Platform Device Family File Type Download Location Artifact Name Size MD5 Sum amd-cortexa72-common Versal SD WIC Download edf-platform-disk-image-amd-cortexa72-common.rootfs-20260904223131.wic.xz 312 MiB 4d226d9a59cb402778c2078ade2bc9f4 amd-cortexa72-common Versal SD WIC bmap Download edf-platform-disk-image-amd-cortexa72-common.rootfs-20260904223131.wic.bmap 3.76 KiB f16ab70b257f7e47b2f93",
+      "quote_character_range": [
+        4272,
+        4290
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+      "collected_at": "2026-11-04T05:20:35.153402+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "Lopper由gen-machine-conf调用",
+      "source_id": "AMD_EDF_SHEL_XSA",
+      "source_url": "https://edf.docs.amd.com/en/latest/shel/using-the-shel-flow-to-create-a-yocto-project-machine-configuration-from-a-xsa-file.html",
+      "location": "SHEL Flow",
+      "evidence_type": "事实",
+      "conditions": "XSA→SDT→machine/DT→Yocto",
+      "finding": "不保证任意XSA驱动/隔离完整",
+      "exact_quote": "invokes it automatically",
+      "context_quote": "ion. It does not appear as a separate step in this tutorial flow because gen-machine-conf invokes it automatically. SHEL Flow in a Few Steps Run System Device Tree Generator (SDTGen) as instructed in its README file. Set up a yocto environment that includes the xilinx meta layers. https://github.com/Xilinx/meta-xilinx/blob/master/README.building.md Run gen-machine-conf on the resultant output. This generates a new Yocto “Machine” appropriate for your system. $ gen-machine-conf parse-sdt --hw-description <path_to_sdtgen_output_directory> -c <conf-directory> -l <path-t",
+      "quote_character_range": [
+        2134,
+        2158
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+      "collected_at": "2026-11-04T05:25:19.355995+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "实际Yocto接口命令",
+      "source_id": "AMD_EDF_SHEL_XSA",
+      "source_url": "https://edf.docs.amd.com/en/latest/shel/using-the-shel-flow-to-create-a-yocto-project-machine-configuration-from-a-xsa-file.html",
+      "location": "SHEL Flow in a Few Steps",
+      "evidence_type": "事实",
+      "conditions": "MACHINE固定为新machine",
+      "finding": "只是官方命令核验，本章未构建",
+      "exact_quote": "bitbake edf-linux-disk-image",
+      "context_quote": " in a Yocto Project environment, and can build images with: $ MACHINE=<your machine name> bitbake edf-linux-disk-image Emulate the build by combining the machine-specific and common qemuboot artifacts into a single qemuboot.conf, then using it to launch runqemu. $ runqemu combined.qemuboot.conf nographic slirp The required arguments and combined qemuboot.conf path depend on the generated machine and board. For the complete QEMU boot flow, including combining artifacts and generating the combined qemuboot.conf, see QEMU Based Development. Previous Next © Copyright 2026, Ad",
+      "quote_character_range": [
+        3005,
+        3033
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+      "collected_at": "2026-11-04T05:25:19.355995+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "segmented不需要shell.json",
+      "source_id": "AMD_EDF_PL_Load",
+      "source_url": "https://edf.docs.amd.com/en/latest/seg/amd-edf-segmented-configuration-using-amd-yocto-project-recipes.html",
+      "location": "Integration note",
+      "evidence_type": "事实",
+      "conditions": "segmentedconfiguration，而DFX另有要求",
+      "finding": "不能混用两类重配置流程",
+      "exact_quote": "do not need a shell.json",
+      "context_quote": "create Firmware Recipes using dfx_user_dts.bbclass. Note For segmented configuration, you do not need a shell.json file. Deploy and Run dfx-mgr dfx-mgr manages loading of segmented configuration data at runtime. Place your partial bitstreams or configuration files in /lib/firmware/xilinx on the target device, then run dfx-mgr-client against the bundle: # dfx-mgr-client -loadByName <package-name> # dfx-mgr-client -load <ID> Building a Compatible PL Design Payload and Creating a Firmware Bundle For a VEK385 example showing how to build a compatible PL design payload a",
+      "quote_character_range": [
+        3088,
+        3112
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+      "collected_at": "2026-11-04T05:25:27.619851+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "动态装载接口",
+      "source_id": "AMD_EDF_PL_Load",
+      "source_url": "https://edf.docs.amd.com/en/latest/seg/amd-edf-segmented-configuration-using-amd-yocto-project-recipes.html",
+      "location": "Deploy and Run",
+      "evidence_type": "事实",
+      "conditions": "firmwarebundle/DT/PDI一致",
+      "finding": "接口名不代表自动OTA/停机/回退",
+      "exact_quote": "-loadByName",
+      "context_quote": "xilinx on the target device, then run dfx-mgr-client against the bundle: # dfx-mgr-client -loadByName <package-name> # dfx-mgr-client -load <ID> Building a Compatible PL Design Payload and Creating a Firmware Bundle For a VEK385 example showing how to build a compatible PL design payload and create a firmware bundle (device tree overlay), see Building a Compatible PL Design Payload and Creating a Firmware Bundle (Device Tree Overlay) in Hardware Application Development. For deploying the PL firmware application onto a target, see Deploying the PL Firmwar",
+      "quote_character_range": [
+        3371,
+        3382
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+      "collected_at": "2026-11-04T05:25:27.619851+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "跨domain通信结构",
+      "source_id": "AMD_EDF_Domains",
+      "source_url": "https://edf.docs.amd.com/en/latest/osdev/domain-yaml-integration-and-development.html",
+      "location": "Domain fields",
+      "evidence_type": "事实",
+      "conditions": "CPU/memory/reservedmemory/remoteproc/rpmsg",
+      "finding": "YAML描述不等于隔离或安全证书",
+      "exact_quote": "vring",
+      "context_quote": "lay.yaml OpenAMP with DDR boot support: resource table (256 B) + DDR boot code (384 KB) + vrings (16 KB x 2) + shared buffer (256 KB). Uses IPI_1 <-> IPI_2 mailbox. RPU SRAM: R52 ATCM (64 KB) + BTCM (32 KB) + CTCM (32 KB) versal-2ve-2vm-libmetal-overlay.yaml Libmetal IPC for RPU_1_BM: ELF region (384 KB) + descriptors (16 KB x 2) + data (256 KB) exposed through UIO. Uses IPI_3 <-> IPI_2 mailbox, timer: ttc3. RPU SRAM: R52 core 1 ATCM/BTCM/CTCM NET variant: File Description versal-net-multidomain-base.yaml 3 domains: APU_Linux (A78, cpumask 0xff, non",
+      "quote_character_range": [
+        7655,
+        7660
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+      "collected_at": "2026-11-04T05:25:36.668553+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "Zephyr核级状态",
+      "source_id": "AMD_EDF_Zephyr",
+      "source_url": "https://edf.docs.amd.com/en/latest/zephyr/zephyr-processor-support.html",
+      "location": "Supported Processors",
+      "evidence_type": "事实",
+      "conditions": "CortexR52PROD、A78EA/noSMP",
+      "finding": "不泛化所有核/board/peripheral",
+      "exact_quote": "No SMP support",
+      "context_quote": "Processors Processor EA/PROD/Extension Limitations Arm Cortex-R52 PROD Arm Cortex-A78 EA No SMP support Previous Next © Copyright 2026, Advanced Micro Devices, Inc. Yocto Project and all related marks and logos are trademarks of The Linux Foundation. This website is not, in any way, endorsed by the Yocto Project or The Linux Foundation. Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries. Arm® is a registered trademark of Arm Limited (or its subsidiaries) in the US and/or elsewhere. A number of proprietary logos, service mar",
+      "quote_character_range": [
+        3917,
+        3931
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+      "collected_at": "2026-11-04T05:25:40.261330+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "AMD不是生产OSV",
+      "source_id": "AMD_EDF_Production",
+      "source_url": "https://edf.docs.amd.com/en/latest/moving-from-amd-software-stacks-to-production-deployment.html",
+      "location": "Warning",
+      "evidence_type": "事实",
+      "conditions": "AdaptiveSoCfamilies，非所有AMD产品",
+      "finding": "硬件生命周期不等softwareLTS/SLA",
+      "exact_quote": "does not provide production-grade software",
+      "context_quote": "n Deployment Warning AMD is a hardware vendor, not an Operating System Vendor (OSV). AMD does not provide production-grade software, Long Term Support (LTS), compliance attestations, or SLA-backed software updates for any AMD Adaptive SoC product family (Versal, Zynq UltraScale+, Zynq-7000). Hardware product lifetime commitments do not imply software support commitments. Contact your AMD representative for product-specific software support information. It is the responsibility of the end product manufacturer to ensure they meet the security and update standards required for their targ",
+      "quote_character_range": [
+        1373,
+        1415
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+      "collected_at": "2026-11-04T05:25:32.320980+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "没有生产updatefeed",
+      "source_id": "AMD_EDF_Production",
+      "source_url": "https://edf.docs.amd.com/en/latest/moving-from-amd-software-stacks-to-production-deployment.html",
+      "location": "Introduction",
+      "evidence_type": "事实",
+      "conditions": "referenceEDFimage",
+      "finding": "产品需自己/OSV承担安全更新责任",
+      "exact_quote": "does not operate an update feed",
+      "context_quote": " A maintained update feed or service. The EDF image ships with a package manager, but AMD does not operate an update feed against which it can be used in production. Yocto documents runtime package management in Using Runtime Package Management; whole-rootfs update is served by community projects such as OSTree, RAUC, Mender, and swupdate, each of which ships its own Yocto layer. Rapid-response CVE scanning at build time. This is covered by the Yocto Project Security Manual. Cryptographic boot validation and key revocation, available through U-Boot verified boot, OP-TEE, and",
+      "quote_character_range": [
+        2878,
+        2909
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+      "collected_at": "2026-11-04T05:25:32.320980+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "kernel fork不是supported OS",
+      "source_id": "AMD_EDF_Production",
+      "source_url": "https://edf.docs.amd.com/en/latest/moving-from-amd-software-stacks-to-production-deployment.html",
+      "location": "Kernel sources policy",
+      "evidence_type": "事实",
+      "conditions": "linux-xlnx；2026.1base6.18",
+      "finding": "分支名LTS不代表AMD生产维护SLA",
+      "exact_quote": "not a supported OS product",
+      "context_quote": "rk of the Linux kernel at github.com/Xilinx/linux-xlnx. This fork is a source repository, not a supported OS product. AMD is not an Operating System Vendor (OSV) and does not provide guarantees about when or how its kernel branches receive security patches or bug fixes. Customers who need those guarantees should work with an OSV. Kernel Version Cadence AMD aligns its kernel to an upstream LTS release each year for its .1 release and uses the same kernel base for its .2 release. The base is always the latest LTS kernel selected by the upstream kernel maintainer at the t",
+      "quote_character_range": [
+        4762,
+        4788
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "EDF 26.06.1-rev3文档快照；release v26.06.1仅部分重建",
+      "collected_at": "2026-11-04T05:25:32.320980+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "旧版KRS验证环境",
+      "source_id": "KRS_Install",
+      "source_url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/install.html",
+      "location": "Prerequisites",
+      "evidence_type": "事实",
+      "conditions": "KRS1.0/Humble/Vitis2022.1/GazeboClassic11",
+      "finding": "不能套新x86Kria/EDF2026",
+      "exact_quote": "only been tested in Ubuntu 22.04",
+      "context_quote": "erations worth noting that apply to all of these development paths: Important KRS 1.0 has only been tested in Ubuntu 22.04. It assumes the following is installed in your workstation: Ubuntu 22.04 Jammy Jellyfish operating system. the Vitis 2022.1 suite (Vitis, Vivado, Vitis HLS) (install instructions). Make sure the workstation has minimum 32 GB RAM. the ROS 2 Humble Hawksbill distribution (install instructions) Gazebo Classic 11.0 (install instructions) For KRS documentation source code, refer to https://github.com/Xilinx/KRS. DDS Recommendation We have done various experime",
+      "quote_character_range": [
+        1068,
+        1100
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "KRS1.0文档/仓库快照；文档Last updated2024-01-02；Vitis2022.1/Humble",
+      "collected_at": "2026-11-04T05:30:42.682471+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "DDS设置在target",
+      "source_id": "KRS_Install",
+      "source_url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/install.html",
+      "location": "DDS Recommendation",
+      "evidence_type": "事实",
+      "conditions": "CycloneDDS，hostcrosscompile不同",
+      "finding": "不把RMWenv无条件套host",
+      "exact_quote": "This step needs to be done on target board",
+      "context_quote": " DDS for connectivity. Use below commands to install and use cyclone DDS on target board. This step needs to be done on target board. Exporting “RMW_IMPLEMENTATION” on host x86 machine may throw errors while cross compiling accelerators. ################################################### # install cyclone DDS packages ################################################### sudo apt-get install ros-humble-rmw-cyclonedds-cpp ros-humble-cyclonedds* ################################################### # Switch from other rmw to rmw_cyclonedds by specifying the environment variable. ###########",
+      "quote_character_range": [
+        1783,
+        1825
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "KRS1.0文档/仓库快照；文档Last updated2024-01-02；Vitis2022.1/Humble",
+      "collected_at": "2026-11-04T05:30:42.682471+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "官方与非官方target",
+      "source_id": "KRS_Hardware",
+      "source_url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/hardware.html",
+      "location": "Hardware supported",
+      "evidence_type": "事实",
+      "conditions": "K26/KV260/KR260 full；其他unofficial",
+      "finding": "不推广K24/X100",
+      "exact_quote": "KR260",
+      "context_quote": "rd Computer. KV260 offers a compact board for edge vision and robotics applications. Kria KR260 Robotics Starter Kit acceleration_firmware_kr260 The Kria™ KR260 is a development platform for Kria K26 SOMs, the KR260 is built for robotics and industrial applications, complete with high performance interfaces and native ROS 2 support for ease of development by roboticists and software developers. Unofficial support¶ Unofficial support is also available for the following: Board Picture Firmware Description Xilinx Zynq UltraScale+ MPSoC ZCU102 Evaluatio",
+      "quote_character_range": [
+        1166,
+        1171
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "KRS1.0文档/仓库快照；文档Last updated2024-01-02；Vitis2022.1/Humble",
+      "collected_at": "2026-11-04T05:30:45.148102+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "部署页版本冲突",
+      "source_id": "KR260_Perception_Deploy",
+      "source_url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/ros2_perception_node/src/app_deployment.html",
+      "location": "Download/install commands",
+      "evidence_type": "未知",
+      "conditions": "文档2022.1/update4，下载1.3-1 vs安装1.0-1",
+      "finding": "未宣称复建成功",
+      "exact_quote": "1.3-1",
+      "context_quote": "Xilinx/kria_ros_perception/releases/download/xlnx-rel-v2022.1_update4/kria-ros-perception_1.3-1_arm64.deb sudo apt install ./kria-ros-perception_1.0-1_arm64.deb Disable Gnome desktop GUI sudo xmutil desktop_disable Run The Application on KR260¶ This application has two flavours, which are developed in way that you can understand how he can tweak the application to achieve a desired performance during the development. Below are the versions and their details: NOTE: This application assumes camera resolution to be 640x480, and uses a custom map for re",
+      "quote_character_range": [
+        5553,
+        5558
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "文档2022.1；Last updated2026-08-13；xlnx-rel-v2022.1_update4",
+      "collected_at": "2026-11-04T05:28:03.222522+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "FPGA图像链收益",
+      "source_id": "KR260_Perception_Deploy",
+      "source_url": "https://xilinx.github.io/kria-apps-docs/kr260/build/html/docs/ros2_perception_node/src/app_deployment.html",
+      "location": "Performance comparison",
+      "evidence_type": "厂商宣称",
+      "conditions": "640×480rectify/resize/AXI4Streamqueue",
+      "finding": "厂商结果非完整模型/本体成功收益",
+      "exact_quote": "24.42%",
+      "context_quote": "s to completely avoid the ROS 2 message-passing system and optimizes dataflow achieving a 24.42% total speedup. Steps to launch the streamlined accelerated version are: # streamlined sudo xmutil unloadapp sudo xmutil loadapp kr260-perception # load the accelerator source /opt/xilinx/kria_ros_perception/setup.bash # enable ROS 2 overlays ros2 launch perception_2nodes trace_rectify_resize_fpga_streamlined.launch.py # launch rectify and resize FPGA accelerated Nodes Below is the gif showing the gazebo simulation window(top half) along with the RQt windo",
+      "quote_character_range": [
+        7247,
+        7253
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "文档2022.1；Last updated2026-08-13；xlnx-rel-v2022.1_update4",
+      "collected_at": "2026-11-04T05:28:03.222522+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "实时必须各层有界",
+      "source_id": "KRS_Realtime",
+      "source_url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/features/realtime_ros2.html",
+      "location": "Real-time ROS 2",
+      "evidence_type": "事实",
+      "conditions": "ROS/OS/network/applicationalllayers",
+      "finding": "网页不等目标整机WCET证书",
+      "exact_quote": "equally time bounded",
+      "context_quote": "overlayers [1] (not to be mistaken with overlays workspaces [3] ) and underlayers [2] are equally time bounded. Correspondingly, for a real-time ROS 2 interaction, all of its layers must also be real-time. In the case of ROS 2 running in CPUs, for each one of these levels, the sources of indeterminism need to be addressed. FPGAs allow to design robot circuitry that provides deterministic responses. It is possible to design hard real-time robotic systems relying solely on the FPGA, however, when interfacing with ROS 2 often running on the scalar processors (CPUs), ",
+      "quote_character_range": [
+        1089,
+        1109
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "KRS1.0文档/仓库快照；文档Last updated2024-01-02；Vitis2022.1/Humble",
+      "collected_at": "2026-11-04T05:30:54.649627+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "仓库Apache许可范围",
+      "source_id": "KRS_License",
+      "source_url": "https://github.com/Xilinx/KRS/blob/main/LICENSE.txt",
+      "location": "LICENSE.txt",
+      "evidence_type": "事实",
+      "conditions": "Xilinx/KRSdocs仓库",
+      "finding": "不覆盖全部repos/firmware/IP",
+      "exact_quote": "Apache License",
+      "context_quote": "Edit and raw actions12345678910111213 Copyright 2020–2022 Xilinx, Inc. Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limita",
+      "quote_character_range": [
+        2244,
+        2258
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "KRS1.0文档/仓库快照；文档Last updated2024-01-02；Vitis2022.1/Humble",
+      "collected_at": "2026-11-04T05:31:02.880176+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "新软件suite尚需唯一发行",
+      "source_id": "AMD_Kria_AI_Dev",
+      "source_url": "https://www.amd.com/en/products/system-on-modules/kria/ai/robotics-developer-platform.html",
+      "location": "Software features",
+      "evidence_type": "未知",
+      "conditions": "NotifyMe/Day0declared",
+      "finding": "未取得publicBSP/model/releasemanifest；不使用KRS/Ross填补",
+      "exact_quote": "Robotics Software Suite",
+      "context_quote": "heterogenous compute and is seamlessly compatible with AMD software solutions and the AMD Robotics Software Suite. Notify Me Product Features Industry’s first open, fully integrated platform for autonomous robotics Features SOM based on Ryzen™ AI Embedded X199 processor (integrated CPU, GPU, NPU) and robotics carrier card with Spartan™ UltraScale+™ FPGA Offers determinism and lower latency along with a range of interface options for physical AI uses cases Developer-friendly with customizable solutions, broad and open-source ecosystem Day 0 support for AMD Robotics So",
+      "quote_character_range": [
+        6550,
+        6573
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "2026-11-04产品页快照；Notify Me；未取得唯一suite release",
+      "collected_at": "2026-11-04T04:44:31.286148+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "Ross是工程工具助手",
+      "source_id": "AMD_ROSS",
+      "source_url": "https://www.amd.com/en/products/software/ross-agentic-ai.html",
+      "location": "Overview",
+      "evidence_type": "事实",
+      "conditions": "MCP/RAG/skills/designexamples",
+      "finding": "不等机器人perception/actionruntime",
+      "exact_quote": "retrieval-augmented generation",
+      "context_quote": "ge Base The AMD knowledge base helps AMD Ross search supported public documentation using retrieval-augmented generation (RAG), with cloud or local access for supported environments. Agent Skills Agent skills are expert-authored structured and shareable workflows that guide LLMs through supported design, optimization and debugging tasks using AMD Embedded tools. Design Examples Design examples are ready-to-run, tested reference designs that demonstrate how agent skills can be applied to supported development use cases. Benefits of AMD Ross AMD Ross combines specialized tool",
+      "quote_character_range": [
+        7420,
+        7450
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "产品FAQ/main仓库快照；Vivado全版本/HLS2025.2+；未锁release",
+      "collected_at": "2026-11-04T05:14:07.351752+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "Ross按工具版本支持",
+      "source_id": "AMD_ROSS",
+      "source_url": "https://www.amd.com/en/products/software/ross-agentic-ai.html",
+      "location": "FAQ",
+      "evidence_type": "事实",
+      "conditions": "HLS2025.2+，Vivadoallversions",
+      "finding": "仍需toollicense，输出非确定",
+      "exact_quote": "Version 2025.2 and later",
+      "context_quote": "ssistant support? Supported versions vary by AMD tools: Vivado™: All versions Vitis™ HLS: Version 2025.2 and later Which IDEs and CLI tools are compatible with AMD Ross? AMD Ross agentic AI assistant is client-agnostic. You can use any preferred IDE or CLI tool that is compatible with the MCP servers. Do HLS skills need the MCP server? No, HLS skills work directly with your source code and HLS project files via standard command-line tools (v++, vitis-run), not MCP. How often is AMD Ross agentic AI assistant updated? AMD Ross will have a monthly release cadence. Note t",
+      "quote_character_range": [
+        12252,
+        12276
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "产品FAQ/main仓库快照；Vivado全版本/HLS2025.2+；未锁release",
+      "collected_at": "2026-11-04T05:14:07.351752+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "Ross仓库与MCP分开发行",
+      "source_id": "AMD_Ross_Repository",
+      "source_url": "https://github.com/Xilinx/ross-ai-assistant",
+      "location": "Prerequisites/Plugin",
+      "evidence_type": "事实",
+      "conditions": "skills/docsMIT、MCP另安装",
+      "finding": "不开Ross tools，本章只研究公开资料",
+      "exact_quote": "plugin contains skills only",
+      "context_quote": "kills with npx skills add or by copying them. Every skill would then be loaded twice. The plugin contains skills only. The Vivado MCP Server or the Vivado AI Extension from Prerequisites is still installed separately. See Install as a plugin for the steps in your AI client and how to update. Install skills (interactive) Install Node.js to use the npx skills commands below. Point npx skills add at your local clone (or an extracted release package): npx skills add /path/to/ross-ai-assistant This installs skills into the current workspace. Add --global to install into your ",
+      "quote_character_range": [
+        4855,
+        4882
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "产品FAQ/main仓库快照；Vivado全版本/HLS2025.2+；未锁release",
+      "collected_at": "2026-11-04T05:20:54.615582+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "Analyzer精度限制",
+      "source_id": "AMD_RyzenAI_Analyzer",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/ai_analyzer.html",
+      "location": "Limitations",
+      "evidence_type": "事实",
+      "conditions": "当前BF16only，NPUclock可修改",
+      "finding": "cycle→time需核实际clock",
+      "exact_quote": "INT8",
+      "context_quote": "TALLATION_PATH%\\aianalyzer-<version>.whl AI Analyzer currently supports BF16 Models only. INT8 model analysis is not supported in this version, but we plan to expand support in a future release. Enabling Profiling and Visualization# The user can enable Profiling and Visualization by passing additional provider options to the ONNXRuntime Inference Session. provider_options = [{ 'config_file': 'vaip_config.json', 'cacheDir': str(cache_dir), 'cacheKey': 'modelcachekey', 'ai_analyzer_visualization': True, 'ai_analyzer_profiling': True, }] session = ort",
+      "quote_character_range": [
+        1538,
+        1542
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+      "collected_at": "2026-11-04T05:25:58.273077+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "latency测试是no-op",
+      "source_id": "AMD_RyzenAI_SMI",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/xrt_smi.html",
+      "location": "NPU sanity check",
+      "evidence_type": "事实",
+      "conditions": "alltestsperformance，示例84.2us",
+      "finding": "不是模型时延/机器人闭环实测",
+      "exact_quote": "no-op control code",
+      "context_quote": "ut, and gemm. Note: All tests are run in performance mode. latency - this test executes a no-op control code and measures the end-to-end latency on all columns throughput - this test loops back the input data from DDR through a MM2S Shim DMA channel back to DDR through a S2MM Shim DMA channel. The data movement within the AIE array follows the lowest latency path, which means the movement is restricted to just the Shim tile. gemm - An INT8 GeMM kernel is deployed on all 32 cores by the application. Each core is storing cycle count in the core data memory. The cy",
+      "quote_character_range": [
+        7410,
+        7428
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+      "collected_at": "2026-11-04T05:26:00.403549+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "throughput仅shim传输",
+      "source_id": "AMD_RyzenAI_SMI",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/xrt_smi.html",
+      "location": "NPU sanity check",
+      "evidence_type": "事实",
+      "conditions": "DDR→shim→DDR，例59891ops",
+      "finding": "不当NPU模型吞吐或策略Hz",
+      "exact_quote": "MM2S Shim DMA",
+      "context_quote": "atency on all columns throughput - this test loops back the input data from DDR through a MM2S Shim DMA channel back to DDR through a S2MM Shim DMA channel. The data movement within the AIE array follows the lowest latency path, which means the movement is restricted to just the Shim tile. gemm - An INT8 GeMM kernel is deployed on all 32 cores by the application. Each core is storing cycle count in the core data memory. The cycle count is read by the firmware. The TOPS application uses the “XBUTIL” tool to capture the IPUHCLK while the workload runs. Once a",
+      "quote_character_range": [
+        7548,
+        7561
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+      "collected_at": "2026-11-04T05:26:00.403549+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "Linux功率报告缺失",
+      "source_id": "AMD_RyzenAI_SMI",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/xrt_smi.html",
+      "location": "Platform Information",
+      "evidence_type": "事实",
+      "conditions": "PHX/HPT不支持功率/GEMM",
+      "finding": "示例51.3TOPS不是本文实测",
+      "exact_quote": "unavailable for Linux",
+      "context_quote": "rting is only available on STX devices and onwards. Report “Estimated Power” is currently unavailable for Linux users. NPU Partitions# Reports details about the NPU partition and column occupancy on the NPU. xrt-smi examine --report aie-partitions Sample Command Line Output: -------------------------- [00c5:00:01.1] : NPU Strix -------------------------- AIE Partitions Partition Index: 0 Columns: [0, 1, 2, 3] HW Contexts: |PID |Ctx ID |Status |Instr BO |Sub |Compl |Migr |Err |Suspensions |Prio |GOPS |EGOPS |FPS |Latency | |-------|--------|--------|----------|-----",
+      "quote_character_range": [
+        5830,
+        5851
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+      "collected_at": "2026-11-04T05:26:00.403549+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "整套许可混合",
+      "source_id": "AMD_ROCm_Licenses",
+      "source_url": "https://rocm.docs.amd.com/en/latest/about/license.html",
+      "location": "Component license list",
+      "evidence_type": "事实",
+      "conditions": "具体组件与package分开",
+      "finding": "文档MIT不覆盖所有库/二进制",
+      "exact_quote": "GNU General Public License v3.0",
+      "context_quote": "nX MIT rocAL MIT rocALUTION MIT rocBLAS MIT ROCdbgapi MIT rocDecode MIT rocFFT MIT ROCgdb GNU General Public License v3.0 rocJPEG MIT ROCK-Kernel-Driver GPL 2.0 WITH Linux-syscall-note rocminfo The University of Illinois/NCSA ROCm Bandwidth Test MIT ROCm CMake MIT ROCm Communication Collectives Library (RCCL) Custom ROCm-Core MIT ROCm Compute Profiler MIT ROCm Data Center (RDC) MIT ROCm-Device-Libs The University of Illinois/NCSA ROCm-OpenCL-Runtime MIT ROCm Performance Primitives (RPP) MIT ROCm SMI Lib MIT ROCm Systems Profiler MIT ROCm Validation Suite MIT rocPRIM MIT ROCP",
+      "quote_character_range": [
+        5115,
+        5146
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "ROCm Core SDK10.1.0 latest快照；独立组件/旧发行另辨",
+      "collected_at": "2026-11-04T05:19:40.717106+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "HIP代码许可",
+      "source_id": "AMD_HIP_License",
+      "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/license.html",
+      "location": "License",
+      "evidence_type": "事实",
+      "conditions": "该项目许可范围",
+      "finding": "不代表权重/数据/runtime全集均MIT",
+      "exact_quote": "MIT",
+      "context_quote": " Graph API Tutorial About License License Repository Open issue .md .pdf License License# MIT License Copyright © Advanced Micro Devices, Inc. Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the",
+      "quote_character_range": [
+        2688,
+        2691
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "HIP/HIPIFY latest快照；10.1矩阵HIP7.16.0、HIPIFY10.1.0；硬件特性有条件",
+      "collected_at": "2026-11-04T05:25:07.152573+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "EULA只限AMD相关系统",
+      "source_id": "AMD_RyzenAI_Licenses",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/licenses.html",
+      "location": "Section2.1.1",
+      "evidence_type": "事实",
+      "conditions": "条款编号2.1不是许可证版本号",
+      "finding": "分发需具体条款，不是整包MIT",
+      "exact_quote": "include or incorporate AMD products",
+      "context_quote": "2.1.1. install and use the Software solely in conjunction with systems or components that include or incorporate AMD products; 2.1.2. reproduce and modify any portion of the Software that AMD provides in source code form and create Derivative Works, solely for use in conjunction with systems or components that include or incorporate AMD products; 2.1.3. subject to Section 5 (with respect to pre-production Software), (a) reproduce and distribute copies of Derivative Works to third parties, provided that any portions containing or derived from AMD -proprietary source code are dist",
+      "quote_character_range": [
+        3667,
+        3702
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+      "collected_at": "2026-11-04T05:20:00.086259+00:00",
+      "supporting_source_ids": []
+    },
+    {
+      "claim": "beta仅evaluation且无普通分发条款",
+      "source_id": "AMD_RyzenAI_Licenses",
+      "source_url": "https://ryzenai.docs.amd.com/en/latest/licenses.html",
+      "location": "Section5",
+      "evidence_type": "事实",
+      "conditions": "alpha/beta/EA/preproduction",
+      "finding": "应用页beta需实际包消歧，未接受EULA",
+      "exact_quote": "Sections 2.1.3 and 2.1.4 do not apply",
+      "context_quote": " Pre-production Software is provided to Licensee only for Licensee’s evaluation purposes. Sections 2.1.3 and 2.1.4 do not apply to pre- production Software. 6. Feedback. Licensee has no obligation to provide AMD with suggestions, comments, or other feedback relating to the Software (“Feedback”). However, AMD may use any Feedback it receives from Licensee to improve the Software or other AMD products, software, and technologies. Accordingly, for any Feedback Licensee provides to AMD, Licensee hereby grants AMD and its affiliates and subsidiaries a worldwide, non-exclusive, irrevoca",
+      "quote_character_range": [
+        9419,
+        9456
+      ],
+      "quote_basis": "归档text.txt，空白规整；是资料定位辅助，不替代人工正文/表核对",
+      "material_version": "Ryzen AI 1.9.0 latest文档快照；各页旧示例/已知问题另标",
+      "collected_at": "2026-11-04T05:20:00.086259+00:00",
+      "supporting_source_ids": []
+    }
+  ],
+  "manual_review": {
+    "coverage": "02完成：ROCm/HIP/PyTorch/vLLM/MIGraphX、RyzenAI/Quark/OGA、Vitis/Gen1/Gen2/VART/XRT、EDF/SHEL/OpenAMP/Zephyr、KRS/Kriaapps/Ross；完整VEK385视觉→模型链，ROS/动作桥标分析；未开展03。",
+    "versions_and_measurements": "采用具体发行/SDK和设备矩阵，保留Ryzen1.9beta/driver/参数、SDKenv、Masterfooter、旧KRS年代与KR260包名冲突；峰值/sanity/样例/厂商结果不当目标模型、本体或本次实测。",
+    "maturity_and_licenses": "文档公开、账户下载、评估硅片、functional-only、beta和量产支持分开。许可证按文档/代码、IP/compiler、runtime、MCP分层；EULASection5预生产分发限制已读；模型/数据/资产/本体许可还需具体对象。EDFproduction责任明确。",
+    "figures_opened": "9幅逐张实际打开：RyzenAIstack、Vitisflow、XRTlayers、VARTML、async、VEK385system、EDF16/20/24页。无空白/截断/乱码；PDFSept2025仅方法，system图旧ELF/cache由6.3默认.rai正文消歧；HIPforeignObjectSVG未纳入完成图集。"
+  },
+  "limitations": "静态归档与公开材料研究；未安装SDK、接受EULA、下载模型权重、构建/刷板/运行模型或进行实机测试。"
+}

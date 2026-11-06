@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "AMD_robotics_scope",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/AMD_robotics_scope.png",
+    "sha256": "1a50c0fc79b3618acfa9aaa68721fb9c88a4a9ccbe412446bc8704786ed11173",
+    "source_id": "AMD_Robotics",
+    "source_url": "https://www.amd.com/content/dam/amd/en/images/illustrations/4997850-robotics-image.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Robotics--1d122095ffc2b0d2/assets/images/ef15c8c19b997570da5bf247.png",
+    "original_sha256": "1a50c0fc79b3618acfa9aaa68721fb9c88a4a9ccbe412446bc8704786ed11173",
+    "operation": "原始官方图片，本地副本，未裁剪或改图"
+  },
+  {
+    "slug": "AMD_Kria_AI_ports",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/AMD_Kria_AI_ports.png",
+    "sha256": "b3c69fa1be39bcdc8d45593fc6908bd9776dfeb3f72adc4d2efca1cc29f3a7eb",
+    "source_id": "AMD_Kria_AI",
+    "source_url": "https://www.amd.com/content/dam/amd/en/images/products/som/kria-ai-som/4997850-kria-ai-robotics-angled-ports.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Kria_AI--7353530316c6a6c9/assets/images/535edd120d956562ea816b1a.png",
+    "original_sha256": "b3c69fa1be39bcdc8d45593fc6908bd9776dfeb3f72adc4d2efca1cc29f3a7eb",
+    "operation": "原始官方图片，本地副本，未裁剪或改图"
+  },
+  {
+    "slug": "AMD_Versal_Gen2_block",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/AMD_Versal_Gen2_block.jpg",
+    "sha256": "f0ab2c4d2c17501b736675af52a086b73804ea4815d9d45ec66772650706675a",
+    "source_id": "AMD_Versal_AI_Edge_Gen2",
+    "source_url": "https://www.amd.com/content/dam/amd/en/images/charts/2574740-versal-ai-edge-series-gen2-block-diagram.jpg",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Versal_AI_Edge_Gen2--b67212c82b7a1fee/assets/images/e26f3756cb863c0297dbd1e9.jpg",
+    "original_sha256": "f0ab2c4d2c17501b736675af52a086b73804ea4815d9d45ec66772650706675a",
+    "operation": "原始官方图片，本地副本，未裁剪或改图"
+  },
+  {
+    "slug": "AMD_P100_table",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/AMD_P100_table.png",
+    "sha256": "ffe1a2411d072a76c8938f015978e75ba9df1e1ca8344b68a230db4ff865d5cd",
+    "source_id": "AMD_P100_Brief",
+    "source_url": "https://www.amd.com/content/dam/amd/en/documents/products/embedded/ryzen/ryzen-embedded-p100-series-product-brief.pdf",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_P100_Brief--f68f3378e95db615/document.pdf",
+    "original_sha256": "fc73282d12fb27ce9169eb46f40fe4ff91dd5f3d85513dd32df0c169abb7908d",
+    "operation": "PDF第3页全页渲染，pdftoppm -scale-to 2200 -png；未裁剪"
+  },
+  {
+    "slug": "AMD_X100_table",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/AMD_X100_table.png",
+    "sha256": "dfbbe771797fe23fa6b6131af60f5f20fc9c4aa795ee5603557fdb7b8b8e8d8d",
+    "source_id": "AMD_X100_Brief",
+    "source_url": "https://www.amd.com/content/dam/amd/en/documents/products/embedded/ryzen/ryzen-ai-embedded-x100-series-product-brief.pdf",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_X100_Brief--5cf52536576a9a8c/document.pdf",
+    "original_sha256": "9dc3708fa629ca7fa9b072b0e68f14211dbf378880946f737c83b9c5cfaa97d3",
+    "operation": "PDF第2页全页渲染，pdftoppm -scale-to 2200 -png；未裁剪"
+  },
+  {
+    "slug": "AMD_Kria_SOM_table",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/AMD_Kria_SOM_table.png",
+    "sha256": "9a1c6f33c8eecd307fd50514925a129168c8c17097ac2325e915d66d36379ca8",
+    "source_id": "AMD_Kria_Selection_PDF",
+    "source_url": "https://docs.amd.com/api/khub/documents/lwwUFdfst1gWnYUxm9b4PA/content?Ft-Calling-App=ft%2Fturnkey-portal&Ft-Calling-App-Version=5.4.8",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Kria_Selection_PDF--9695b489b26476b4/document.pdf",
+    "original_sha256": "2375f19a3cd2496b5053157c5e6acad19f9830958592c4572ba88c49f8d44bad",
+    "operation": "PDF第3页全页渲染，pdftoppm -scale-to 2200 -png；未裁剪"
+  },
+  {
+    "slug": "AMD_Kria_kit_table",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/AMD_Kria_kit_table.png",
+    "sha256": "ff5d723f7c463772c9533de26e8f04bbf1be7d04cbd90a16bfd9ce7e08f1db84",
+    "source_id": "AMD_Kria_Selection_PDF",
+    "source_url": "https://docs.amd.com/api/khub/documents/lwwUFdfst1gWnYUxm9b4PA/content?Ft-Calling-App=ft%2Fturnkey-portal&Ft-Calling-App-Version=5.4.8",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Kria_Selection_PDF--9695b489b26476b4/document.pdf",
+    "original_sha256": "2375f19a3cd2496b5053157c5e6acad19f9830958592c4572ba88c49f8d44bad",
+    "operation": "PDF第4页全页渲染，pdftoppm -scale-to 2200 -png；未裁剪"
+  },
+  {
+    "slug": "AMD_R8000_block",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/AMD_R8000_block.png",
+    "sha256": "6716f6c702a58150fb879ad62dab0b12f0a5ebb9b0219da26df419fdbbc6ec00",
+    "source_id": "AMD_Embedded_8000_Brief",
+    "source_url": "https://www.amd.com/content/dam/amd/en/documents/products/embedded/ryzen/amd-ryzen-embedded-8000-product-brief.pdf",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_Embedded_8000_Brief--e34ec22d13d825e4/document.pdf",
+    "original_sha256": "230e9fd1f6bacad3ba19bfffd2066aec47a9251d475c87387445498ddbf0dfa1",
+    "operation": "PDF第2页全页渲染，pdftoppm -scale-to 2200 -png；未裁剪"
+  }
+]

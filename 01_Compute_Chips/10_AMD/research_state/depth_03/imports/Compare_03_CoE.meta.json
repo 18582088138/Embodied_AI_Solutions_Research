@@ -1,0 +1,11 @@
+{
+  "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html",
+  "status": 200,
+  "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_COE--acc0a9a82b614a53/original.response",
+  "sha256": "98b4deca8e8ef5412d87c385075e9c23b5dcde36e043ec68577ab94eeec09890",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "final_url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html",
+  "retrieved_at_utc": "2026-11-03T08:09:29.653796+00:00"
+}

@@ -1,0 +1,5 @@
+[
+ {"name":"AMD07_Robotics_Partners","url":"https://www.amd.com/en/search/partner/robotics-partners.html","expected":"html","used_by":["07_Ecosystem"]},
+ {"name":"AMD07_Robotics_Solutions","url":"https://www.amd.com/en/search/partner/robotics-partner-solutions.html","expected":"html","used_by":["07_Ecosystem"]},
+ {"name":"AMD07_ROS2_Control","url":"https://control.ros.org/jazzy/doc/ros2_control/controller_manager/doc/userdoc.html","expected":"html","used_by":["07_Ecosystem"]}
+]

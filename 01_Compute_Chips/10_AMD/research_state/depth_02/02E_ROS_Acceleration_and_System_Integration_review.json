@@ -1,0 +1,434 @@
+[
+  {
+    "source_id": "AMD_Kria_AI_Dev",
+    "claim": "新Suite产品定位与可取得状态",
+    "location": "Product Features",
+    "needle": "Day 0 support for AMD Robotics Software Suite",
+    "conditions": "新KriaAI/X199产品页仍NotifyMe",
+    "finding": "不能等同KRS1.0或确定可下载release",
+    "evidence_type": "厂商宣称"
+  },
+  {
+    "source_id": "KRS_ROS_Centric",
+    "claim": "三pillar构建抽象",
+    "location": "Pillar I",
+    "needle": "acceleration_kernel(",
+    "conditions": "KRS1.0 CMake宏",
+    "finding": "构建入口不等性能ABI可移植",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_ROS_Centric",
+    "claim": "技术后端依赖",
+    "location": "Pillar I",
+    "needle": "OpenCL communication",
+    "conditions": "ament_vitis/Vitis/XRT",
+    "finding": "hardware/interface/config仍目标专用",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_ROS_Centric",
+    "claim": "Firmware部署位置",
+    "location": "Pillar III",
+    "needle": "<ros2_workspace_path>/acceleration/firmware/<solution>",
+    "conditions": "目标specialization",
+    "finding": "固件/sysroot链不同于统一可运行二进制",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_ROS_Centric",
+    "claim": "预构建RT kernel选择",
+    "location": "Pillar II",
+    "needle": "colcon acceleration linux preempt_rt",
+    "conditions": "与旧图kernel命令差异",
+    "finding": "固定installedCLI核对",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_ROS_Centric",
+    "claim": "Xen三VM构建",
+    "location": "Pillar II",
+    "needle": "--dom0less preempt_rt",
+    "conditions": "dom0/domU/dom0less示例",
+    "finding": "镜像生成不等实时或隔离认证",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Perception",
+    "claim": "两阶段加速构建",
+    "location": "Building",
+    "needle": "-DNOKERNELS=false",
+    "conditions": "KV260/Humble/Vitis2022.1",
+    "finding": "不混KR260firmware",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Vitis_Function",
+    "claim": "编译时插值和PPC",
+    "location": "Resize",
+    "needle": "8 PPC",
+    "conditions": "HLS模板/config",
+    "finding": "runtime尺寸不能越过实际kernel限制",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Vitis_Function",
+    "claim": "随机图输入频率",
+    "location": "minimalimagepublisher",
+    "needle": "500ms",
+    "conditions": "640x480 CV8UC3教学例",
+    "finding": "不等真实相机吞吐",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Vitis_Function",
+    "claim": "Stereo例状态",
+    "location": "Stereo Block Matching",
+    "needle": "Stereo Block Matching¶ TBD",
+    "conditions": "KRS1.0页面",
+    "finding": "不算已实现示例",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Faster_Publisher",
+    "claim": "16展开与512bit",
+    "location": "accelerated_doublevadd_publisher",
+    "needle": "HLS UNROLL factor=16",
+    "conditions": "DATA_SIZE4096,m_axi分bundle",
+    "finding": "pragma意图需综合II/资源/时序支持",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Faster_Publisher",
+    "claim": "非整除size尾部",
+    "location": "kernel",
+    "needle": "i<(size/16)*16",
+    "conditions": "原样代码且当前4096整除",
+    "finding": "分析：泛size需尾部处理",
+    "evidence_type": "分析"
+  },
+  {
+    "source_id": "KRS_Faster_Publisher",
+    "claim": "offload可能先变慢",
+    "location": "Background",
+    "needle": "1.935 Hz",
+    "conditions": "CPU2.2/dataflow6.3/展开10Hz的教学链",
+    "finding": "非所有模型性能",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Faster_Publisher",
+    "claim": "发布cadence的上限条件",
+    "location": "Explanation",
+    "needle": "WallRate instance is set to 100ms",
+    "conditions": "人工repeatedvadd和短window日志",
+    "finding": "10Hz不是kernel上限或伺服频率",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Faster_Publisher",
+    "claim": "5x宣称不能精确复用",
+    "location": "Explanation",
+    "needle": "speedup of 5x",
+    "conditions": "粗略rate10/2.2约4.55且计时器限制",
+    "finding": "不把厂商近似数字当严格测量",
+    "evidence_type": "厂商宣称"
+  },
+  {
+    "source_id": "KRS_Perception",
+    "claim": "四种graph",
+    "location": "Graph Rationale",
+    "needle": "2 ROS Components, 2 kernels using stream interfaces",
+    "conditions": "perception示例",
+    "finding": "rqt节点名不等component数",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Perception",
+    "claim": "raw topic仅触发和metadata",
+    "location": "Graph Rationale",
+    "needle": "subscribes also to the raw image topic, but doesn't use it",
+    "conditions": "streamlinedresize",
+    "finding": "不扩大成整链ROS/DDS消失",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Perception",
+    "claim": "integrated节省通路与粒度代价",
+    "location": "Accelerate Graph",
+    "needle": "memory mapping back and forth",
+    "conditions": "合并两components",
+    "finding": "收益依赖重构；失去原模块粒度",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Stream_Resize_Source",
+    "claim": "host仍转换拷贝",
+    "location": "imageCb",
+    "needle": "cv_bridge::toCvCopy(image_msg)",
+    "conditions": "ros2浮动分支本次快照",
+    "finding": "中间stream不是端到端零拷贝",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Stream_Resize_Source",
+    "claim": "阻塞读回与finish",
+    "location": "imageCb",
+    "needle": "queue_->enqueueReadBuffer(",
+    "conditions": "CL_TRUE+queuefinish代码",
+    "finding": "触发/读回/publish仍主机参与",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Stream_Rectify_Source",
+    "claim": "map/image逐次buffer传输",
+    "location": "rectifyImageFPGA",
+    "needle": "cl::Buffer buffer_inMapX",
+    "conditions": "CALIBRATED分支",
+    "finding": "mapcache复用只是待验证设计",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Stream_Rectify_Kernel",
+    "claim": "固定RGB/NPC/尺寸",
+    "location": "defines",
+    "needle": "#define HEIGHT 480",
+    "conditions": "TYPE XF8UC3 WIDTH640 NPC1 DWIDTH24",
+    "finding": "不能把源码默认值补为benchmark条件",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Stream_Rectify_Kernel",
+    "claim": "输出固定循环",
+    "location": "Row_Loop",
+    "needle": "row < HEIGHT",
+    "conditions": "runtime rows/cols和fixedoutput",
+    "finding": "尺寸不一致导致风险待板端验证",
+    "evidence_type": "分析"
+  },
+  {
+    "source_id": "KRS_Stream_Resize_Kernel",
+    "claim": "输入固定循环",
+    "location": "Row_Loop",
+    "needle": "row < HEIGHT",
+    "conditions": "in_mat使用rows_in/cols_in",
+    "finding": "发送/接收计数必须配对",
+    "evidence_type": "分析"
+  },
+  {
+    "source_id": "KRS_Stream_Rectify_Kernel",
+    "claim": "stream只显式赋data",
+    "location": "Col_Loop",
+    "needle": "stream_out.data = aux",
+    "conditions": "ap_axiu24,0,0,0",
+    "finding": "不能由此证明完整可变帧协议",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Stream_Resize_Kernel",
+    "claim": "接收只读data",
+    "location": "Col_Loop",
+    "needle": "aux = img_inp.read()",
+    "conditions": "DATAFLOW/局部depth2",
+    "finding": "FIFO/帧长/backpressure需完整连接验证",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Stream_Rectify_Source",
+    "claim": "生产者earlyreturn",
+    "location": "imageCb",
+    "needle": "if (pub_rect_.getNumSubscribers() < 1)",
+    "conditions": "无subscriber/未calibrated/zeroD分支",
+    "finding": "producerconsumer启动跳过要配对",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Stream_Rectify_Source",
+    "claim": "zero distortion绕过stream",
+    "location": "imageCb",
+    "needle": "if (zero_distortion)",
+    "conditions": "pubrect publishraw return",
+    "finding": "消费者是否同样绕过未证，提出stall风险",
+    "evidence_type": "分析"
+  },
+  {
+    "source_id": "KRS_Stream_Resize_Source",
+    "claim": "输出header继承raw",
+    "location": "imageCb",
+    "needle": "output_image.header = cv_ptr->header",
+    "conditions": "payload来自另一stream路径",
+    "finding": "需sameframe关联，未声称已实测错帧",
+    "evidence_type": "分析"
+  },
+  {
+    "source_id": "KRS_Perception",
+    "claim": "CPU与offload官方数据",
+    "location": "Benchmark acceleration",
+    "needle": "85.80 ms (6.22%)",
+    "conditions": "CPU91.48；FPGA250MHz；KV260",
+    "finding": "6.22为时延降低而非1.0622throughput",
+    "evidence_type": "分析"
+  },
+  {
+    "source_id": "KRS_Perception",
+    "claim": "integrated数据与时间",
+    "location": "Accelerate Graph",
+    "needle": "benchmarking the graph for 60 seconds",
+    "conditions": "mean66.82 RMS67.82 accel23.90/24.05",
+    "finding": "没有samples/warmup/P99/power",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Perception",
+    "claim": "stream官方性能数据",
+    "location": "Benchmark acceleration",
+    "needle": "69.15 ms (24.42%)",
+    "conditions": "accel19.14/19.28 RMS70.18；250MHz",
+    "finding": "局部与整体排序不同，RMS不等P99",
+    "evidence_type": "分析"
+  },
+  {
+    "source_id": "KRS_Perception",
+    "claim": "跨机器仿真输入",
+    "location": "Benchmark CPU baseline",
+    "needle": "Launch Gazebo simulator in your workstation",
+    "conditions": "同localnetwork HumbleQoS问题",
+    "finding": "不能直接混simtime/camera/hosttime",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Perception",
+    "claim": "trace跨抽象层",
+    "location": "Trace computational graph",
+    "needle": "rmw_publish",
+    "conditions": "userland/rclcpp/rcl/rmw probes",
+    "finding": "内部init/fini不自动等纯kernel时间",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Stream_Resize_Source",
+    "claim": "trace size实际序列化",
+    "location": "get_msg_size",
+    "needle": "Serialize the Image and CameraInfo messages",
+    "conditions": "serialization多次调用",
+    "finding": "测instrumentation扰动，不当零成本",
+    "evidence_type": "分析"
+  },
+  {
+    "source_id": "KRS_Realtime",
+    "claim": "RT是端到端要求",
+    "location": "Real-time ROS2",
+    "needle": "equally time bounded",
+    "conditions": "所有over/underlayers",
+    "finding": "仅FPGA/PREEMPTRT不保证整链",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Realtime",
+    "claim": "middleware计划边界",
+    "location": "Source⑤",
+    "needle": "Future enhancements are planned",
+    "conditions": "当前DDS支持不等完整实时增强",
+    "finding": "不写为已经交付",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Realtime",
+    "claim": "LLC cache coloring",
+    "location": "Source④",
+    "needle": "cache coloring at the Xen hypervisor level",
+    "conditions": "LLC干扰；340x仅pastresearch",
+    "finding": "不能推广到KV260此测量或所有memory隔离",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Howto",
+    "claim": "旧Howto版本边界",
+    "location": "How emulate KV260",
+    "needle": "Vitis 2020.2",
+    "conditions": "正文含旧PetaLinux/kernel/Foxy操作",
+    "finding": "不能直接套EDF26.06.1",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "AMD_VitisAI_VART_App",
+    "claim": "VART metadata接口",
+    "location": "Creating VART Runner",
+    "needle": "get_tensors_info",
+    "conditions": "CPU/HW tensor+videoanalytics应用",
+    "finding": "ROSadapter与动作contract为分析设计",
+    "evidence_type": "分析"
+  },
+  {
+    "source_id": "Compare_ROS_Buffer",
+    "claim": "NITROS弃用计划",
+    "location": "From NITROS",
+    "needle": "removed in a future Isaac ROS release",
+    "conditions": "2026-09-21官方migration页",
+    "finding": "不声称已全部删除",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "Compare_ROS_Buffer",
+    "claim": "Lyrical buffer存储架构",
+    "location": "Why moved",
+    "needle": "ROS 2 Lyrical introduces rosidl::Buffer",
+    "conditions": "standardmessage primitivearrays/backendplugins",
+    "finding": "不推AMD/KRS1.0已具备",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "Compare_ROS_Buffer",
+    "claim": "customAPI迁移边界",
+    "location": "Node-Level Compatibility",
+    "needle": "requires a source-level migration",
+    "conditions": "supportednode兼容不覆盖directcustomNITROS",
+    "finding": "工程责任机制比较而非排名",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "Compare_ROS_Buffer",
+    "claim": "conversion优先与生命周期",
+    "location": "Choose a Migration Interface",
+    "needle": "migrate to a conversion package",
+    "conditions": "customCUDA方管理stream/pointer/sync/lifetime",
+    "finding": "须测试CPUfallback/ownership",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Install",
+    "claim": "已测试版本矩阵",
+    "location": "Important",
+    "needle": "only been tested in Ubuntu 22.04",
+    "conditions": "KRS1.0 Vitis2022.1 Humble Classic11 RAM32GB",
+    "finding": "不是最新BSP通用兼容",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Install",
+    "claim": "native仅CPU binary",
+    "location": "Native development",
+    "needle": "only for creating CPU binaries",
+    "conditions": "AArch64/QEMU，工具x86",
+    "finding": "不会native编出accelerator",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_Install",
+    "claim": "浮动branch与fixedfirmware",
+    "location": "repos",
+    "needle": "v1.1.1/acceleration_firmware_kr260.zip",
+    "conditions": "KR260示例，其他repo main/humble/ros2",
+    "finding": "需锁commit/hash，不混KV260",
+    "evidence_type": "事实"
+  },
+  {
+    "source_id": "KRS_License",
+    "claim": "KRS根代码许可",
+    "location": "LICENSE.txt",
+    "needle": "Apache License, Version 2.0",
+    "conditions": "KRSrepo当前LICENSE",
+    "finding": "不推广工具IP二进制权重/数据SDK",
+    "evidence_type": "事实"
+  }
+]

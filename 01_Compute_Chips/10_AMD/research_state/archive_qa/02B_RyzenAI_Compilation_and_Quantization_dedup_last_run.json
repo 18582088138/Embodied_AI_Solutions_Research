@@ -1,0 +1,30 @@
+{
+  "time_utc": "2026-11-04T06:29:48.196900+00:00",
+  "summary": {
+    "complete_static": 2,
+    "partial_static": 14,
+    "failed": 0
+  },
+  "names": [
+    "AMD_RyzenAI_Docs",
+    "AMD_RyzenAI_Release",
+    "AMD_RyzenAI_Ops",
+    "AMD_RyzenAI_Compile",
+    "AMD_RyzenAI_Linux",
+    "AMD_Quark_Schemes",
+    "AMD_Quark_XINT8",
+    "AMD_Quark_A16W8",
+    "AMD_Quark_SmoothQuant",
+    "AMD_Quark_Search",
+    "AMD_RyzenAI_Analyzer",
+    "AMD_RyzenAI_App",
+    "AMD_Quark_License",
+    "AMD_RyzenAI_Licenses",
+    "Compare_TRT_Quant",
+    "Compare_TRT_Builder"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

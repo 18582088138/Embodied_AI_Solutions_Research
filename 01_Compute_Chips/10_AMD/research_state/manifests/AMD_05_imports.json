@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Model05_NVIDIA_08_DEEP_MUJOCO_COMPUTATION",
+    "url": "https://mujoco.readthedocs.io/en/stable/computation/index.html",
+    "expected": "any"
+  },
+  {
+    "name": "Model05_NVIDIA_08_DEEP_MUJOCO_MJX",
+    "url": "https://mujoco.readthedocs.io/en/stable/mjx.html",
+    "expected": "any"
+  }
+]

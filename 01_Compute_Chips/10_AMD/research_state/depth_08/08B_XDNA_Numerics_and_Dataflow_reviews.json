@@ -1,0 +1,398 @@
+[
+  {
+    "source_id": "AMD08_IRON_Repo",
+    "needle": "complements mainstream inference tooling",
+    "claim": "IRON补充主流推理",
+    "location": "README",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04 main网页快照",
+    "finding": "不等目标Embedded BSP或已安装release"
+  },
+  {
+    "source_id": "AMD08_IRON_Repo",
+    "needle": "match the mlir_aie wheel",
+    "claim": "源码wheel对应",
+    "location": "README",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04 main网页快照",
+    "finding": "不等目标Embedded BSP或已安装release"
+  },
+  {
+    "source_id": "AMD08_IRON_Repo",
+    "needle": "does not exactly match",
+    "claim": "版本不匹配风险",
+    "location": "README",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04 main网页快照",
+    "finding": "不等目标Embedded BSP或已安装release"
+  },
+  {
+    "source_id": "AMD08_IRON_Repo",
+    "needle": "Peano",
+    "claim": "开源单核工具",
+    "location": "README",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04 main网页快照",
+    "finding": "不等目标Embedded BSP或已安装release"
+  },
+  {
+    "source_id": "AMD08_IRON_Repo",
+    "needle": "Early Access",
+    "claim": "保留旧EA路径",
+    "location": "README",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04 main网页快照",
+    "finding": "不等目标Embedded BSP或已安装release"
+  },
+  {
+    "source_id": "AMD08_IRON_Latest_Home",
+    "needle": "JIT-compiles on first call",
+    "claim": "首次调用编译",
+    "location": "Home",
+    "evidence_type": "事实",
+    "conditions": "latest快照",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD08_IRON_Latest_Home",
+    "needle": "tile placement",
+    "claim": "可编程对象",
+    "location": "Home",
+    "evidence_type": "事实",
+    "conditions": "latest快照",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD08_IRON_Architecture",
+    "needle": "4 × 4",
+    "claim": "AIE2阵列",
+    "location": "Architecture Reference",
+    "evidence_type": "事实",
+    "conditions": "具体device class",
+    "finding": "估计非datasheet精确时延；不推广全部SKU"
+  },
+  {
+    "source_id": "AMD08_IRON_Architecture",
+    "needle": "8 × 4",
+    "claim": "AIE2P阵列",
+    "location": "Architecture Reference",
+    "evidence_type": "事实",
+    "conditions": "具体device class",
+    "finding": "估计非datasheet精确时延；不推广全部SKU"
+  },
+  {
+    "source_id": "AMD08_IRON_Architecture",
+    "needle": "rule-of-thumb",
+    "claim": "容量/周期估计",
+    "location": "Architecture Reference",
+    "evidence_type": "事实",
+    "conditions": "具体device class",
+    "finding": "估计非datasheet精确时延；不推广全部SKU"
+  },
+  {
+    "source_id": "AMD08_IRON_Architecture",
+    "needle": "~64 KB",
+    "claim": "本地存储约值",
+    "location": "Architecture Reference",
+    "evidence_type": "事实",
+    "conditions": "具体device class",
+    "finding": "估计非datasheet精确时延；不推广全部SKU"
+  },
+  {
+    "source_id": "AMD08_IRON_Architecture",
+    "needle": "~512 KB",
+    "claim": "L2约值",
+    "location": "Architecture Reference",
+    "evidence_type": "事实",
+    "conditions": "具体device class",
+    "finding": "估计非datasheet精确时延；不推广全部SKU"
+  },
+  {
+    "source_id": "AMD08_IRON_Devices",
+    "needle": "hidden zeroth-column",
+    "claim": "Phoenix隐藏列",
+    "location": "Devices",
+    "evidence_type": "事实",
+    "conditions": "main快照",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD08_IRON_Devices",
+    "needle": "not part of the actively-tested",
+    "claim": "Versal测试边界",
+    "location": "Devices",
+    "evidence_type": "事实",
+    "conditions": "main快照",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_Quark_A16W8",
+    "needle": "A16W8: Uses symmetric INT16",
+    "claim": "激活/权重格式",
+    "location": "量化指南",
+    "evidence_type": "厂商宣称",
+    "conditions": "2026-09-28更新",
+    "finding": "不是目标VLA实测"
+  },
+  {
+    "source_id": "AMD_Quark_A16W8",
+    "needle": "A8W8 provides better performance",
+    "claim": "通常性能趋势",
+    "location": "量化指南",
+    "evidence_type": "厂商宣称",
+    "conditions": "2026-09-28更新",
+    "finding": "不是目标VLA实测"
+  },
+  {
+    "source_id": "AMD_Quark_XINT8",
+    "needle": "Power-of-Two",
+    "claim": "XINT8 scale",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD08_IRON_Dataflow",
+    "needle": "depth: int | None = 2",
+    "claim": "默认双buffer",
+    "location": "ObjectFIFO指南",
+    "evidence_type": "事实",
+    "conditions": "latest快照",
+    "finding": "逻辑顺序不等无拷贝/吞吐/P99"
+  },
+  {
+    "source_id": "AMD08_IRON_Dataflow",
+    "needle": "one producer",
+    "claim": "单producer",
+    "location": "ObjectFIFO指南",
+    "evidence_type": "事实",
+    "conditions": "latest快照",
+    "finding": "逻辑顺序不等无拷贝/吞吐/P99"
+  },
+  {
+    "source_id": "AMD08_IRON_Dataflow",
+    "needle": "back-to-back",
+    "claim": "重复acquire",
+    "location": "ObjectFIFO指南",
+    "evidence_type": "事实",
+    "conditions": "latest快照",
+    "finding": "逻辑顺序不等无拷贝/吞吐/P99"
+  },
+  {
+    "source_id": "AMD08_IRON_Dataflow",
+    "needle": "oldest to youngest",
+    "claim": "释放顺序",
+    "location": "ObjectFIFO指南",
+    "evidence_type": "事实",
+    "conditions": "latest快照",
+    "finding": "逻辑顺序不等无拷贝/吞吐/P99"
+  },
+  {
+    "source_id": "AMD08_IRON_Dataflow",
+    "needle": "direct shared memory access",
+    "claim": "共享访问条件",
+    "location": "ObjectFIFO指南",
+    "evidence_type": "事实",
+    "conditions": "latest快照",
+    "finding": "逻辑顺序不等无拷贝/吞吐/P99"
+  },
+  {
+    "source_id": "AMD08_IRON_Dataflow",
+    "needle": "Transport.dma(packet=Packet())",
+    "claim": "packet传输",
+    "location": "ObjectFIFO指南",
+    "evidence_type": "事实",
+    "conditions": "latest快照",
+    "finding": "逻辑顺序不等无拷贝/吞吐/P99"
+  },
+  {
+    "source_id": "AMD08_IRON_Dataflow",
+    "needle": "disable_synchronization",
+    "claim": "去同步的边界",
+    "location": "ObjectFIFO指南",
+    "evidence_type": "事实",
+    "conditions": "latest快照",
+    "finding": "逻辑顺序不等无拷贝/吞吐/P99"
+  },
+  {
+    "source_id": "AMD08_IRON_Dataflow",
+    "needle": "to_stream",
+    "claim": "布局参数",
+    "location": "ObjectFIFO指南",
+    "evidence_type": "事实",
+    "conditions": "latest快照",
+    "finding": "逻辑顺序不等无拷贝/吞吐/P99"
+  },
+  {
+    "source_id": "AMD08_IRON_DMA",
+    "needle": "issue_token: bool = False",
+    "claim": "token默认关闭",
+    "location": "DMA Tasks",
+    "evidence_type": "事实",
+    "conditions": "latest Strix/AIE2例子",
+    "finding": "缺完整测量配置，不作benchmark/硬实时证据"
+  },
+  {
+    "source_id": "AMD08_IRON_DMA",
+    "needle": "6 times",
+    "claim": "多维BD重复",
+    "location": "DMA Tasks",
+    "evidence_type": "事实",
+    "conditions": "latest Strix/AIE2例子",
+    "finding": "缺完整测量配置，不作benchmark/硬实时证据"
+  },
+  {
+    "source_id": "AMD08_IRON_DMA",
+    "needle": "race condition",
+    "claim": "提前回收竞态",
+    "location": "DMA Tasks",
+    "evidence_type": "事实",
+    "conditions": "latest Strix/AIE2例子",
+    "finding": "缺完整测量配置，不作benchmark/硬实时证据"
+  },
+  {
+    "source_id": "AMD08_IRON_DMA",
+    "needle": "4 on AIE2",
+    "claim": "queue深度",
+    "location": "DMA Tasks",
+    "evidence_type": "事实",
+    "conditions": "latest Strix/AIE2例子",
+    "finding": "缺完整测量配置，不作benchmark/硬实时证据"
+  },
+  {
+    "source_id": "AMD08_IRON_DMA",
+    "needle": "The queue does not backpressure",
+    "claim": "满队列丢提交",
+    "location": "DMA Tasks",
+    "evidence_type": "事实",
+    "conditions": "latest Strix/AIE2例子",
+    "finding": "缺完整测量配置，不作benchmark/硬实时证据"
+  },
+  {
+    "source_id": "AMD08_IRON_DMA",
+    "needle": "14 back-to-back pushes",
+    "claim": "consumer相关失败例子",
+    "location": "DMA Tasks",
+    "evidence_type": "事实",
+    "conditions": "latest Strix/AIE2例子",
+    "finding": "缺完整测量配置，不作benchmark/硬实时证据"
+  },
+  {
+    "source_id": "AMD08_IRON_DMA",
+    "needle": "live queue occupancy",
+    "claim": "编译器poll",
+    "location": "DMA Tasks",
+    "evidence_type": "事实",
+    "conditions": "latest Strix/AIE2例子",
+    "finding": "缺完整测量配置，不作benchmark/硬实时证据"
+  },
+  {
+    "source_id": "AMD08_IRON_DMA",
+    "needle": "oldest outstanding completion token",
+    "claim": "channel等待顺序",
+    "location": "DMA Tasks",
+    "evidence_type": "事实",
+    "conditions": "latest Strix/AIE2例子",
+    "finding": "缺完整测量配置，不作benchmark/硬实时证据"
+  },
+  {
+    "source_id": "AMD08_IRON_Compile",
+    "needle": "CompileTime[T]",
+    "claim": "编译参数",
+    "location": "Compilation Stages",
+    "evidence_type": "事实",
+    "conditions": "latest快照",
+    "finding": "缓存路径不等线上deadline与语义正确"
+  },
+  {
+    "source_id": "AMD08_IRON_Compile",
+    "needle": "recipe_hash",
+    "claim": "配置缓存",
+    "location": "Compilation Stages",
+    "evidence_type": "事实",
+    "conditions": "latest快照",
+    "finding": "缓存路径不等线上deadline与语义正确"
+  },
+  {
+    "source_id": "AMD08_IRON_Compile",
+    "needle": "artifact_hash",
+    "claim": "产物缓存",
+    "location": "Compilation Stages",
+    "evidence_type": "事实",
+    "conditions": "latest快照",
+    "finding": "缓存路径不等线上deadline与语义正确"
+  },
+  {
+    "source_id": "AMD08_IRON_Compile",
+    "needle": "silently skipped",
+    "claim": "校验被跳过",
+    "location": "Compilation Stages",
+    "evidence_type": "事实",
+    "conditions": "latest快照",
+    "finding": "缓存路径不等线上deadline与语义正确"
+  },
+  {
+    "source_id": "AMD08_IRON_Compile",
+    "needle": "no tensor-arg validation",
+    "claim": "外部产物无校验",
+    "location": "Compilation Stages",
+    "evidence_type": "事实",
+    "conditions": "latest快照",
+    "finding": "缓存路径不等线上deadline与语义正确"
+  },
+  {
+    "source_id": "AMD08_IRON_Compile",
+    "needle": "A PDI is not a standalone run input",
+    "claim": "PDI非直接输入",
+    "location": "Compilation Stages",
+    "evidence_type": "事实",
+    "conditions": "latest快照",
+    "finding": "缓存路径不等线上deadline与语义正确"
+  },
+  {
+    "source_id": "AMD08_IRON_Compile",
+    "needle": "same XRT hw_context",
+    "claim": "context复用",
+    "location": "Compilation Stages",
+    "evidence_type": "事实",
+    "conditions": "latest快照",
+    "finding": "缓存路径不等线上deadline与语义正确"
+  },
+  {
+    "source_id": "AMD08_IRON_Routing",
+    "needle": "path length",
+    "claim": "路由编译指标",
+    "location": "Routing",
+    "evidence_type": "事实",
+    "conditions": "latest",
+    "finding": "非推理时延"
+  },
+  {
+    "source_id": "AMD08_IRON_License",
+    "needle": "Apache License v2.0 with LLVM Exceptions",
+    "claim": "源码许可",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD_RyzenAI_Licenses",
+    "needle": "Licenses",
+    "claim": "SDK分层许可",
+    "location": "正文",
+    "evidence_type": "事实",
+    "conditions": "具体条件见正文",
+    "finding": "原件核对，不能推广未测SKU/模型/版本/任务"
+  },
+  {
+    "source_id": "AMD08_IRON_Paper",
+    "needle": "~26% average reduction in lines of code",
+    "claim": "论文表达效率",
+    "location": "Abstract",
+    "evidence_type": "厂商/作者宣称",
+    "conditions": "arXiv2504.18430v1，2025-04-25",
+    "finding": "仅取得摘要，不等硬件加速/功耗结果"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "02A_hip_threads",
+    "source_id": "AMD_HIP_Model",
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/_images/thread_hierarchy.svg",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Model--b375803d7ee408be/assets/images/5c468cd26b99ad2cbd026b51.svg",
+    "original_sha256": "b5cb67108915b5fe064de47e3ff0156a4166cf6ca2347a5e88f4c08127821d55",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02A_hip_threads.png",
+    "sha256": "4d1b64f3d818378b2a914b9b4101eb5577f5c408fbe0501c7eaf71607e42a3ac",
+    "operation": "Chromium原SVG完整截图，保留foreignObject标签；白底，无裁剪/内容修改；网络禁用，系统字体替代"
+  },
+  {
+    "slug": "02A_hip_memory",
+    "source_id": "AMD_HIP_Model",
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/_images/memory_hierarchy.svg",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Model--b375803d7ee408be/assets/images/737db761eb02e775aefebf31.svg",
+    "original_sha256": "2010202c3252dd26447f2b860c9bff3235ebc709381da6818a0cf80254c99979",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02A_hip_memory.png",
+    "sha256": "1f27c7cf049effd4eede15b4c653bf5f0555314b89b6f49314d0f70ad0393c8c",
+    "operation": "Chromium原SVG完整截图，保留foreignObject标签；白底，无裁剪/内容修改；网络禁用，系统字体替代"
+  },
+  {
+    "slug": "02A_hip_graph",
+    "source_id": "AMD_HIP_Graphs",
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/_images/hip_graph.svg",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Graphs--0077a3438456f5e6/assets/images/bf4721ad32565f9b2891ac44.svg",
+    "original_sha256": "3efc3d2ac81523bab700a488eb3226021384771623635f8de7d3bdd8687f9f12",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02A_hip_graph.png",
+    "sha256": "27fcc2b1d1962696c4454a7c7bafad313a485a21e49b48ecb33e5494721d7c8a",
+    "operation": "Chromium原SVG完整截图，保留foreignObject标签；白底，无裁剪/内容修改；网络禁用，系统字体替代"
+  },
+  {
+    "slug": "02A_hip_graph_timing",
+    "source_id": "AMD_HIP_Graphs",
+    "source_url": "https://rocm.docs.amd.com/projects/HIP/en/latest/_images/hip_graph_speedup.svg",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_HIP_Graphs--0077a3438456f5e6/assets/images/fb85eb8332f5d9dfd490c832.svg",
+    "original_sha256": "cb0f36b6c994f16dd48d74fe9af67a1198be3e67b3ffa24b021624b0bcde8ac3",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02A_hip_graph_timing.png",
+    "sha256": "2647fde0582dbd6ee7c8d30874e9fe588c791f68617124b22b95228b40081a00",
+    "operation": "Chromium原SVG完整截图，保留foreignObject标签；白底，无裁剪/内容修改；网络禁用，系统字体替代"
+  }
+]

@@ -1,0 +1,812 @@
+[
+  {
+    "source_id": "AMD_KV260",
+    "needle": "OnSemi AP1302",
+    "claim": "KV260 ISP为外部OnSemi器件",
+    "location": "General Specifications",
+    "evidence_type": "事实",
+    "conditions": "KV260载板",
+    "finding": "不能归为K26硬化ISP"
+  },
+  {
+    "source_id": "AMD_KV260",
+    "needle": "Up to 8 interfaces",
+    "claim": "相机接口营销计数不证明八路并发",
+    "location": "Product Features",
+    "evidence_type": "事实",
+    "conditions": "KV260产品页",
+    "finding": "需host/Hub/ISP/驱动/模式联合验证"
+  },
+  {
+    "source_id": "AMD_Kria_AI_Dev",
+    "needle": "FAKRA x4 camera (GMSL2/3)",
+    "claim": "新Kria平台列GMSL连接器组",
+    "location": "I/O table",
+    "evidence_type": "事实",
+    "conditions": "X199 SOM与Spartan载板",
+    "finding": "不推SoC原生GMSL，需桥接器与BSP"
+  },
+  {
+    "source_id": "AMD_Kria_AI_Dev",
+    "needle": "FAKRA x4 camera (GMSL1/2)",
+    "claim": "另一组GMSL1/2与前组不能混用",
+    "location": "I/O table",
+    "evidence_type": "事实",
+    "conditions": "采集时公开产品页",
+    "finding": "不推具体camera认证"
+  },
+  {
+    "source_id": "AMD_Kria_AI_Dev",
+    "needle": "Notify Me",
+    "claim": "开发平台页面尚缺本章可取得交付BSP",
+    "location": "Product CTA",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04",
+    "finding": "页面状态不等证明无法购买，需交付证据"
+  },
+  {
+    "source_id": "AMD_Kria_AI_Dev",
+    "needle": "Inertial Measurement Unit (IMU)",
+    "claim": "平台列IMU但未取得器件级driver",
+    "location": "I/O Expansion",
+    "evidence_type": "事实",
+    "conditions": "公开接口清单",
+    "finding": "不赋予精度/硬timestamp结论"
+  },
+  {
+    "source_id": "AMD_CSI2_Driver",
+    "needle": "xlnx,csi-pxl-format",
+    "claim": "CSI驱动按IP pixel format配置",
+    "location": "DT/probe",
+    "evidence_type": "事实",
+    "conditions": "linux-xlnx master快照",
+    "finding": "非旧BSP已绑定"
+  },
+  {
+    "source_id": "AMD_CSI2_Driver",
+    "needle": "xlnx,en-vcx",
+    "claim": "VCX为IP功能配置而非物理camera数",
+    "location": "probe/config",
+    "evidence_type": "事实",
+    "conditions": "master，IP配置/feature版本另核",
+    "finding": "不推出板级16相机"
+  },
+  {
+    "source_id": "AMD_CSI2_Driver",
+    "needle": "2 Bit ECC Unrecoverable Error",
+    "claim": "CSI错误状态必须分检错与恢复",
+    "location": "IRQ/status tables",
+    "evidence_type": "事实",
+    "conditions": "master可见源码",
+    "finding": "相邻1bit为recoverable，ECC/CRC/VC/SoT用于链路诊断，不保证系统恢复"
+  },
+  {
+    "source_id": "AMD_MV_Sensor",
+    "needle": "global shutter",
+    "claim": "IMX547全局快门",
+    "location": "sensor description",
+    "evidence_type": "事实",
+    "conditions": "指定camera module",
+    "finding": "不保证多camera同曝"
+  },
+  {
+    "source_id": "AMD_MV_Sensor",
+    "needle": "122",
+    "claim": "两lane速率122与单lane65分开",
+    "location": "sensor mode table",
+    "evidence_type": "事实",
+    "conditions": "sensor8/10/12bit选项",
+    "finding": "不推所有模式在firmware已验证"
+  },
+  {
+    "source_id": "AMD_MV_Sensor",
+    "needle": "XTRIG",
+    "claim": "trigger pinout不等目标同步实现",
+    "location": "generic pin table",
+    "evidence_type": "事实",
+    "conditions": "PixelMate/FSA通用表",
+    "finding": "未取得触发driver/曝光timestamp与误差测量"
+  },
+  {
+    "source_id": "AMD_MV_Overview",
+    "needle": "not open-source",
+    "claim": "开放driver不等所有IP开源",
+    "location": "overview licensing",
+    "evidence_type": "事实",
+    "conditions": "FRAMOS与S2I外部IP",
+    "finding": "授权层次分开"
+  },
+  {
+    "source_id": "AMD_MV_HW",
+    "needle": "4 ppc at 237.6 MHz",
+    "claim": "AXIS4ppc和clock是管线配置",
+    "location": "Capture/ISP",
+    "evidence_type": "事实",
+    "conditions": "指定KR260设计",
+    "finding": "950.4Mpixel/s为理想容量分析，不等实测fps"
+  },
+  {
+    "source_id": "AMD_MV_HW",
+    "needle": "dropping the least significant bit",
+    "claim": "64→32bit文字不足解释完整packing",
+    "location": "ISP subset converter",
+    "evidence_type": "事实",
+    "conditions": "官网原文",
+    "finding": "保留不严谨，需实际bit mapping"
+  },
+  {
+    "source_id": "AMD_MV_HW",
+    "needle": "BGR8 format, 24 bits per pixel",
+    "claim": "color输出BGR8与96bit/4ppc",
+    "location": "ISP details",
+    "evidence_type": "事实",
+    "conditions": "color softISP",
+    "finding": "不将总线宽度当pixel bitdepth"
+  },
+  {
+    "source_id": "AMD_MV_HW",
+    "needle": "Y8 format, 8 bits per pixel",
+    "claim": "mono有效Y8再补零",
+    "location": "ISP details",
+    "evidence_type": "事实",
+    "conditions": "mono softISP",
+    "finding": "实际format/stride以目标协商为准"
+  },
+  {
+    "source_id": "AMD_MV_HW",
+    "needle": "RGB8 for color and Y8 for mono",
+    "claim": "Framebuffer RGB8与ISP BGR8措辞差别",
+    "location": "Framebuffer Write",
+    "evidence_type": "事实",
+    "conditions": "同一硬件页",
+    "finding": "需pixel pattern核通道序，不自行统一"
+  },
+  {
+    "source_id": "AMD_MV_HW",
+    "needle": "GenICam GenDC format",
+    "claim": "GenDC Framebuffer到XGigE发送",
+    "location": "Output 10GigE",
+    "evidence_type": "事实",
+    "conditions": "S2I IP+10G PCS/PMA",
+    "finding": "不是RoCE/通用GPU接收栈"
+  },
+  {
+    "source_id": "AMD_MV_Intro",
+    "needle": "memory to memory pipeline",
+    "claim": "本地加速有多阶段外存访问",
+    "location": "Introduction architecture",
+    "evidence_type": "事实",
+    "conditions": "capture/ISP/DDR/accelerator/DP",
+    "finding": "PL不等消灭DDR搬运"
+  },
+  {
+    "source_id": "AMD_MV_ISP",
+    "needle": "OTSU",
+    "claim": "Gaussian/OTSU与CCA算法阶段",
+    "location": "HW acceleration",
+    "evidence_type": "事实",
+    "conditions": "指定缺陷例",
+    "finding": "实际检测链，不套学习模型吞吐"
+  },
+  {
+    "source_id": "AMD_MV_ISP",
+    "needle": "82.64",
+    "claim": "color设计BRAM资源占用",
+    "location": "Resource Utilization",
+    "evidence_type": "事实",
+    "conditions": "119/144 BRAM",
+    "finding": "不能由余量推camera并发数"
+  },
+  {
+    "source_id": "AMD_MV_ISP",
+    "needle": "68.75",
+    "claim": "mono设计BRAM资源占用",
+    "location": "Resource Utilization",
+    "evidence_type": "事实",
+    "conditions": "99/144 BRAM",
+    "finding": "不与另一overlay直接相加"
+  },
+  {
+    "source_id": "AMD_MV_SW",
+    "needle": "gvrd",
+    "claim": "硬件stream、软件配置控制面",
+    "location": "10GigE software",
+    "evidence_type": "事实",
+    "conditions": "GenICam XML/GenDC及网络设备",
+    "finding": "控制面存在不等host GPU RDMA"
+  },
+  {
+    "source_id": "AMD_MV_SW",
+    "needle": "media graph for video capture pipeline",
+    "claim": "software media图为逻辑节点链而非PHY",
+    "location": "media framework graph及实际打开的原图",
+    "evidence_type": "事实",
+    "conditions": "图内imx547/subset/ISP/capture，无CSI接收器；文件名含MIPI",
+    "finding": "不能按asset文件名认定MIPI相机"
+  },
+  {
+    "source_id": "AMD_MV_Deploy",
+    "needle": "5.15.0-1030",
+    "claim": "MV测试内核固定旧版本",
+    "location": "Tested artifacts",
+    "evidence_type": "事实",
+    "conditions": "Boot01.01/FW0.12/container2022.2",
+    "finding": "不把2026页面更新当组件新版"
+  },
+  {
+    "source_id": "AMD_MV_Deploy",
+    "needle": "10bpp",
+    "claim": "教程validated位深与overview表述冲突",
+    "location": "configuration note",
+    "evidence_type": "事实",
+    "conditions": "2472×2128@122fps原句",
+    "finding": "不将8bit/10bpp/60/120统一"
+  },
+  {
+    "source_id": "AMD_IMX547_Color",
+    "needle": "120",
+    "claim": "产品页up to120与教程122分开",
+    "location": "specifications",
+    "evidence_type": "事实",
+    "conditions": "2472×2128 color",
+    "finding": "产品标称非实测"
+  },
+  {
+    "source_id": "AMD_IMX547_Color",
+    "needle": "only supports the monochrome sensor model",
+    "claim": "产品页仅mono措辞与教程color差异",
+    "location": "2022.1 support note",
+    "evidence_type": "事实",
+    "conditions": "color产品页",
+    "finding": "需对应可取得color包/版本"
+  },
+  {
+    "source_id": "AMD_MV_Deploy",
+    "needle": "40-50 fps",
+    "claim": "mono60设置host viewer40—50fps",
+    "location": "viewer measurements",
+    "evidence_type": "事实",
+    "conditions": "Sphinx，raw流显示",
+    "finding": "不是sensor帧率或完整接收吞吐"
+  },
+  {
+    "source_id": "AMD_MV_Deploy",
+    "needle": "90-100 fps",
+    "claim": "mono120设置host viewer90—100fps",
+    "location": "viewer measurements",
+    "evidence_type": "事实",
+    "conditions": "host配置未给完整统计",
+    "finding": "不是端到端任务成功"
+  },
+  {
+    "source_id": "AMD_MV_Deploy",
+    "needle": "25-35 fps",
+    "claim": "color60设置host viewer25—35fps",
+    "location": "viewer measurements",
+    "evidence_type": "事实",
+    "conditions": "host Bayer处理",
+    "finding": "不能与mono不等条件比较"
+  },
+  {
+    "source_id": "AMD_MV_Deploy",
+    "needle": "75-95 fps",
+    "claim": "color120设置host viewer75—95fps",
+    "location": "viewer measurements",
+    "evidence_type": "事实",
+    "conditions": "host Bayer处理",
+    "finding": "非sensor测量fps"
+  },
+  {
+    "source_id": "AMD_MV_Deploy",
+    "needle": "fakevideosink",
+    "claim": "fake sink只启动演示stream",
+    "location": "GStreamer command",
+    "evidence_type": "事实",
+    "conditions": "io-mode=4/1080p",
+    "finding": "不证明真实ROS/NPU零拷贝"
+  },
+  {
+    "source_id": "AMD_MV_Deploy",
+    "needle": "mango",
+    "claim": "live相机拍显示器芒果例",
+    "location": "demo setup",
+    "evidence_type": "事实",
+    "conditions": "遮光/距离/亮度",
+    "finding": "不是自然场景分拣验证"
+  },
+  {
+    "source_id": "AMD_MV_Issues",
+    "needle": "time-bomb",
+    "claim": "外部IP为限时evaluation",
+    "location": "Known issues",
+    "evidence_type": "事实",
+    "conditions": "camera/10GigE IP",
+    "finding": "持续运行需partner license"
+  },
+  {
+    "source_id": "AMD_MV_Issues",
+    "needle": "hot",
+    "claim": "光纤热插拔限制与kernel故障",
+    "location": "Known issues",
+    "evidence_type": "事实",
+    "conditions": "指定旧例",
+    "finding": "boot前连接，不当正常上线能力"
+  },
+  {
+    "source_id": "AMD_MV_Issues",
+    "needle": "second",
+    "claim": "second load sensor probe失败",
+    "location": "Known issues",
+    "evidence_type": "事实",
+    "conditions": "指定IMX547 app",
+    "finding": "reboot是workaround非已修复"
+  },
+  {
+    "source_id": "AMD_MV_Issues",
+    "needle": "pipeline supports max 60 fps",
+    "claim": "localMV60与-o2约25fps条件",
+    "location": "Known issues Limitations",
+    "evidence_type": "事实",
+    "conditions": "本地缺陷路径",
+    "finding": "不同于raw流和viewer；原文另述stage-o2=25fps"
+  },
+  {
+    "source_id": "AMD_MV_Issues",
+    "needle": "There is no hardened ISP in KR260 board",
+    "claim": "issues无硬化/PL不足文字与硬件软ISP差异",
+    "location": "Known issues Limitations",
+    "evidence_type": "事实",
+    "conditions": "版本未消歧",
+    "finding": "保留疑似旧描述，不全局断言无ISP"
+  },
+  {
+    "source_id": "Linux_V4L2_DMABUF",
+    "needle": "V4L2_MEMORY_DMABUF",
+    "claim": "REQBUFS/QBUF导入外部FD",
+    "location": "Streaming DMA-BUF",
+    "evidence_type": "事实",
+    "conditions": "通用Linux API",
+    "finding": "实际target须支持，consumer完成后requeue"
+  },
+  {
+    "source_id": "Linux_V4L2_Export",
+    "needle": "VIDIOC_EXPBUF",
+    "claim": "导出不是import同一能力",
+    "location": "EXPBUF ioctl",
+    "evidence_type": "事实",
+    "conditions": "MMAP队列导出",
+    "finding": "逐target试cap，multi-plane分别核"
+  },
+  {
+    "source_id": "AMD_Video_DMA_Driver",
+    "needle": "timestamp = ktime_get_ns()",
+    "claim": "xvip timestamp取回调时刻",
+    "location": "xvip_dma_complete",
+    "evidence_type": "事实",
+    "conditions": "master部分源码",
+    "finding": "不是sensor曝光硬timestamp"
+  },
+  {
+    "source_id": "AMD_Video_DMA_Driver",
+    "needle": "EARLY_CALLBACK_START_DESC",
+    "claim": "early callback可能先于整帧完成",
+    "location": "xvip_dma_buffer_queue",
+    "evidence_type": "事实",
+    "conditions": "实际DMA IP/mode另核",
+    "finding": "需要行级/整帧消费协商"
+  },
+  {
+    "source_id": "AMD_Video_DMA_Driver",
+    "needle": "return the first buffer early",
+    "claim": "低延迟路径提前交buffer用于初始化",
+    "location": "xvip_dma_start_streaming",
+    "evidence_type": "事实",
+    "conditions": "随后S_CTRL启动DMA",
+    "finding": "bufferdone不自动整帧就绪"
+  },
+  {
+    "source_id": "AMD_Video_DMA_Driver",
+    "needle": "View remainder of file in raw view",
+    "claim": "GitHub可见DMA源码只有部分",
+    "location": "page end",
+    "evidence_type": "事实",
+    "conditions": "2026-11-04归档页面",
+    "finding": "不声称完整源树/完整文件审核"
+  },
+  {
+    "source_id": "Linux_DMABUF_Sync",
+    "needle": "DMA_BUF_IOCTL_SYNC",
+    "claim": "CPU cache访问同步不代替设备完成",
+    "location": "CPU access sync",
+    "evidence_type": "事实",
+    "conditions": "mmap shared DMA-BUF",
+    "finding": "ownership/fence独立核"
+  },
+  {
+    "source_id": "AMD_VitisAI_VART_App",
+    "needle": "CMA-backed buffer",
+    "claim": "VART VideoFrame可wrap DMA-BUF",
+    "location": "VideoFrame construction",
+    "evidence_type": "事实",
+    "conditions": "Gen2 VART-X API",
+    "finding": "未证K26旧demo/X199无缝导入"
+  },
+  {
+    "source_id": "AMD_VitisAI_VART_App",
+    "needle": "VideoInfo",
+    "claim": "尺寸padding/alignment属于交接契约",
+    "location": "VideoFrame",
+    "evidence_type": "事实",
+    "conditions": "Gen2参考",
+    "finding": "保存frame和geometry metadata"
+  },
+  {
+    "source_id": "AMD_VAI_Quant_Pipeline",
+    "needle": "does not embed per-tensor",
+    "claim": "默认compiled artifact量化参数不嵌入",
+    "location": "Runtime config",
+    "evidence_type": "事实",
+    "conditions": "Gen2 Runner，EP另有ONNX路径",
+    "finding": "传raw8不等正确INT8输入"
+  },
+  {
+    "source_id": "AMD_VAI_Tensor_Formats",
+    "needle": "HCWNC4",
+    "claim": "模型tensor布局与camera格式独立",
+    "location": "Tensor format conversions",
+    "evidence_type": "事实",
+    "conditions": "Gen2 HW layouts",
+    "finding": "需dtype/layout匹配，不跨SKU"
+  },
+  {
+    "source_id": "AMD_VitisAI_Gen2_Async",
+    "needle": "Runner::wait(job_handle, timeout)",
+    "claim": "异步提交与结束分开",
+    "location": "Async API",
+    "evidence_type": "事实",
+    "conditions": "Gen2 Runner",
+    "finding": "原buffer持有至job完成，JOB_PENDING不等结束"
+  },
+  {
+    "source_id": "Linux_IIO_Buffer",
+    "needle": "le:s12/16>>4",
+    "claim": "IIO12bit/16slot shift数据布局",
+    "location": "Scan elements example",
+    "evidence_type": "事实",
+    "conditions": "通用IIO文档",
+    "finding": "按index/type/scale转换，不直接按16bit值"
+  },
+  {
+    "source_id": "Linux_IIO_Buffer",
+    "needle": "DEPRECATED: Use iio_push_to_buffers_with_ts()",
+    "claim": "IIO API新版变化非旧BSP事实",
+    "location": "Buffer push API",
+    "evidence_type": "事实",
+    "conditions": "通用文档",
+    "finding": "不声称AMD已迁移"
+  },
+  {
+    "source_id": "AMD_TSN_HW",
+    "needle": "adds a Drive Enable signal to the IP",
+    "claim": "RS485控制器与CAN路径需外部收发器",
+    "location": "RS485/CAN",
+    "evidence_type": "事实",
+    "conditions": "KR260与KD240不同硬件",
+    "finding": "UARTLite需DE patch，不是原生通用sensor驱动"
+  },
+  {
+    "source_id": "AMD_TSN_SW",
+    "needle": "mcp251",
+    "claim": "Pmod CAN为mcp251x经典CAN例",
+    "location": "CAN driver",
+    "evidence_type": "事实",
+    "conditions": "KR260 AXI SPI/Pmod",
+    "finding": "不授CAN-FD或本体SDK资格"
+  },
+  {
+    "source_id": "AMD_TSN_Deploy",
+    "needle": "0x8000",
+    "claim": "温湿度异常3276.8不能入融合",
+    "location": "RS485 sensor results",
+    "evidence_type": "事实",
+    "conditions": "官方例偶发异常",
+    "finding": "工程建议invalid/range/status检查"
+  },
+  {
+    "source_id": "Linux_SocketCAN",
+    "needle": "CAN_RAW_FD_FRAMES",
+    "claim": "CAN-FD API与硬件支持独立",
+    "location": "RAW socket option",
+    "evidence_type": "事实",
+    "conditions": "通用Linux SocketCAN",
+    "finding": "经典8byte与FD64byte分开"
+  },
+  {
+    "source_id": "Linux_SocketCAN",
+    "needle": "restart-ms",
+    "claim": "bus-off恢复需独立监测",
+    "location": "Network device setup",
+    "evidence_type": "事实",
+    "conditions": "restart default off",
+    "finding": "重启不等下游健康"
+  },
+  {
+    "source_id": "Linux_V4L2_Buffer",
+    "needle": "V4L2_BUF_FLAG_TSTAMP_SRC_SOE",
+    "claim": "timestamp source与clock域需说明",
+    "location": "Buffer flags",
+    "evidence_type": "事实",
+    "conditions": "通用V4L2",
+    "finding": "SOE/EOF与曝光/发布时刻分开"
+  },
+  {
+    "source_id": "AMD_PTP_HW",
+    "needle": "EMIO",
+    "claim": "PPS经EMIO GPIO，UART粗时间独立",
+    "location": "hardware architecture",
+    "evidence_type": "事实",
+    "conditions": "KR260 GPS/Pmod",
+    "finding": "不证明cameraFSYNC或硬edge latch"
+  },
+  {
+    "source_id": "AMD_PTP_SW",
+    "needle": "the Master side GEM TSU timer is aligned",
+    "claim": "master/slave系统与PHC同步链",
+    "location": "software architecture",
+    "evidence_type": "事实",
+    "conditions": "GPS/chrony/linuxptp旧例",
+    "finding": "方向与clock ownership需固定"
+  },
+  {
+    "source_id": "AMD_PTP_Deploy",
+    "needle": "is retired and no longer available for sale",
+    "claim": "原GPS模块停产状态",
+    "location": "Hardware requirements",
+    "evidence_type": "事实",
+    "conditions": "AMD部署页对Digilent Pmod说明",
+    "finding": "不当稳定量产供货；Adafruit替代例仍须目标验证"
+  },
+  {
+    "source_id": "AMD_PTP_Deploy",
+    "needle": "offset 0.15",
+    "claim": "NMEA延迟修正为例配置",
+    "location": "chrony config",
+    "evidence_type": "事实",
+    "conditions": "Adafruit可调整0.3",
+    "finding": "非所有sensor/receiver统一常数"
+  },
+  {
+    "source_id": "AMD_PTP_Deploy",
+    "needle": "0.000013462",
+    "claim": "last offset13.462µs",
+    "location": "chronyc tracking log",
+    "evidence_type": "事实",
+    "conditions": "2023-06-05示例",
+    "finding": "不是P99/WCET或曝光同步"
+  },
+  {
+    "source_id": "AMD_PTP_Deploy",
+    "needle": "0.001221735",
+    "claim": "RMS offset1.221735ms",
+    "location": "chronyc tracking log",
+    "evidence_type": "事实",
+    "conditions": "与last offset/GPS sample不同统计",
+    "finding": "不得挑最小值称纳秒保证"
+  },
+  {
+    "source_id": "AMD_PTP_Deploy",
+    "needle": "1922ns",
+    "claim": "GPS last sample1922ns是单日志值",
+    "location": "chronyc sources",
+    "evidence_type": "事实",
+    "conditions": "2023日志",
+    "finding": "非稳定纳秒同步"
+  },
+  {
+    "source_id": "Linux_PTP",
+    "needle": "EOPNOTSUPP",
+    "claim": "PHC external timestamp等可选",
+    "location": "PTP hardware clock API",
+    "evidence_type": "事实",
+    "conditions": "driver能力独立",
+    "finding": "ptp设备存在不保证所有功能"
+  },
+  {
+    "source_id": "Linux_Network_Timestamps",
+    "needle": "SOF_TIMESTAMPING_RAW_HARDWARE",
+    "claim": "network hardware timestamp不等measurement",
+    "location": "Timestamp options",
+    "evidence_type": "事实",
+    "conditions": "NIC/driver/PHC支持另核",
+    "finding": "不能当LiDAR发射/Radar chirp时刻"
+  },
+  {
+    "source_id": "AMD_TSN_Deploy",
+    "needle": "6.18.10",
+    "claim": "TSN最新例测试内核/boot/FW",
+    "location": "Tested artifacts",
+    "evidence_type": "事实",
+    "conditions": "v0.3/EDF26.06/Jazzy",
+    "finding": "不混camera/GPS旧版"
+  },
+  {
+    "source_id": "AMD_TSN_Deploy",
+    "needle": "0.3-edf-26.06",
+    "claim": "TSN container绑定本次参考发行",
+    "location": "Download Docker image",
+    "evidence_type": "事实",
+    "conditions": "v0.3 container",
+    "finding": "非KRS1.0/Humble"
+  },
+  {
+    "source_id": "AMD_TSN_HW",
+    "needle": "IEEE 802.1CB and IEEE 802.1Qci are disabled",
+    "claim": "KD2402026.1禁用CB/Qci",
+    "location": "TSN IP board note",
+    "evidence_type": "事实",
+    "conditions": "KR260 full set，KD240保留PTP/Qbv/preemption",
+    "finding": "family不可推广"
+  },
+  {
+    "source_id": "AMD_TSN_HW",
+    "needle": "fetching frames",
+    "claim": "TADMA按PTP时槽从DDR取帧",
+    "location": "Time Aware DMA",
+    "evidence_type": "事实",
+    "conditions": "Qbv配置",
+    "finding": "不保证应用已按时入DDR"
+  },
+  {
+    "source_id": "AMD_TSN_HW",
+    "needle": "117.5",
+    "claim": "TSN KR260BRAM81.60%",
+    "location": "Vivado2026.1resource table",
+    "evidence_type": "事实",
+    "conditions": "117.5/144",
+    "finding": "不与相机overlay直接并载"
+  },
+  {
+    "source_id": "AMD_TSN_SW",
+    "needle": "0:4",
+    "claim": "VLAN egress映射PCP4",
+    "location": "ROS/TSN network setup",
+    "evidence_type": "事实",
+    "conditions": "VLAN40 FastDDS例",
+    "finding": "ROS QoS不自动生成TSN时槽"
+  },
+  {
+    "source_id": "AMD_TSN_Deploy",
+    "needle": "80us to 160us",
+    "claim": "TSN ideally80—160µs通信观察",
+    "location": "Latency Measurement Results",
+    "evidence_type": "事实",
+    "conditions": "PMOD publisher/listener software trigger",
+    "finding": "无samples/P99/WCET，不含camera/actuator"
+  },
+  {
+    "source_id": "AMD_TSN_Deploy",
+    "needle": "software trigger",
+    "claim": "示波器测点包含CPU/software堆栈",
+    "location": "Latency note",
+    "evidence_type": "事实",
+    "conditions": "高CPU负载延迟可升",
+    "finding": "不能当纯network或感知闭环时延"
+  },
+  {
+    "source_id": "AMD_IMX547_License",
+    "needle": "GNU GENERAL PUBLIC LICENSE Version 2",
+    "claim": "sensor module LICENSE GPLv2",
+    "location": "LICENSE.md",
+    "evidence_type": "事实",
+    "conditions": "main快照",
+    "finding": "只证明driver层文本，不推PL-IP/SDK"
+  },
+  {
+    "source_id": "AMD_ISP_Readme",
+    "needle": "SPDX-License-Identifier: GPL-2.0",
+    "claim": "ISP driver README SPDX GPL-2.0",
+    "location": "README License",
+    "evidence_type": "事实",
+    "conditions": "main快照",
+    "finding": "Bayer→RGB V4L subdev；代码层不覆盖全工具"
+  },
+  {
+    "source_id": "AMD_ISP_License",
+    "needle": "GNU GENERAL PUBLIC LICENSE Version 2",
+    "claim": "ISP module LICENSE GPLv2",
+    "location": "LICENSE.md",
+    "evidence_type": "事实",
+    "conditions": "main快照",
+    "finding": "与第三方capture IP独立"
+  },
+  {
+    "source_id": "KR260_Perception_Deploy",
+    "needle": "Gazebo",
+    "claim": "旧ROS例模拟camera不同livecamera",
+    "location": "application deployment",
+    "evidence_type": "事实",
+    "conditions": "指定perception demo",
+    "finding": "不算IMX547真实ROS capture验证"
+  },
+  {
+    "source_id": "Compare_03_HSB",
+    "needle": "ConnectX SmartNIC firmware has support for handling authenticated RoCE v2 requests",
+    "claim": "HSB以RoCE RDMA接收并控制sensor",
+    "location": "architecture",
+    "evidence_type": "事实",
+    "conditions": "HSB2.7/ConnectX，2026-11-03原响应",
+    "finding": "职责/协议不同，无AMD速度排名"
+  },
+  {
+    "source_id": "Compare_03_HSB",
+    "needle": "a special metadata packet is sent using an RDMA write-immediate request",
+    "claim": "framecomplete关联RDMA write immediate",
+    "location": "data flow",
+    "evidence_type": "事实",
+    "conditions": "HSB2.7总byte达到frame size后",
+    "finding": "不是capture IRQ/曝光timestamp"
+  },
+  {
+    "source_id": "Compare_03_HSB",
+    "needle": "reset",
+    "claim": "bridge reset影响channels/配置",
+    "location": "reset sequence",
+    "evidence_type": "事实",
+    "conditions": "HSB2.7共享资源",
+    "finding": "迁移需重做reset/ownership"
+  },
+  {
+    "source_id": "Compare_03_CoE",
+    "needle": "IEEE 1722b protocol to receive camera data",
+    "claim": "CoE IEEE1722b与GigE/RoCE不同",
+    "location": "CoE architecture",
+    "evidence_type": "事实",
+    "conditions": "Thor r39.2.1/MGBE/RCE",
+    "finding": "Ethernet接口不等协议互通"
+  },
+  {
+    "source_id": "Compare_03_CoE",
+    "needle": "RCE Firmware Manages DMA channels",
+    "claim": "CoE接收到RCE DMA/DRAM/ISP",
+    "location": "CoE data plane",
+    "evidence_type": "事实",
+    "conditions": "对应JetsonThor SIPL配置",
+    "finding": "不将专用契约套AMD"
+  },
+  {
+    "source_id": "Compare_03_CoE",
+    "needle": "HSL is used to describe and execute complex hardware access sequences",
+    "claim": "CoE控制配置/隧道层",
+    "location": "configuration/control plane",
+    "evidence_type": "事实",
+    "conditions": "UDDF/HSL",
+    "finding": "需要对应supported camera与版本"
+  },
+  {
+    "source_id": "AMD_MV_Sensor",
+    "needle": "2472 x 2128",
+    "claim": "raw payload位深/slot独立预算",
+    "location": "sensor参数→本文9.1公式",
+    "evidence_type": "分析",
+    "conditions": "W2472H2128，120/122fps，8/10/12packed或16slot，无协议开销",
+    "finding": "公式复算见calculations.json；不推实际validatedpacking"
+  },
+  {
+    "source_id": "AMD_MV_HW",
+    "needle": "4 ppc at 237.6 MHz",
+    "claim": "理想active像素容量950.4Mpixel/s",
+    "location": "HW configuration→本文9.1",
+    "evidence_type": "分析",
+    "conditions": "4ppc×237.6MHz，不含backpressure",
+    "finding": "非camera系统实测fps"
+  },
+  {
+    "source_id": "AMD_MV_Intro",
+    "needle": "memory to memory pipeline",
+    "claim": "DDR遍历与copy预算",
+    "location": "本文9.2",
+    "evidence_type": "分析",
+    "conditions": "1080pRGB8@60；假设3个全帧读写阶段/4路输入",
+    "finding": "只是条件模型，不证明4camera支持或有效DDR带宽"
+  }
+]

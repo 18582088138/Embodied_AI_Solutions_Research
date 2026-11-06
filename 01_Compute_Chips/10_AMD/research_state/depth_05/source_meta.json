@@ -1,0 +1,86 @@
+{
+  "AMD05_Genesis_Blog": {
+    "title": "Genesis Blog",
+    "version": "2026-02-09 AMD教程，Ubuntu24.04"
+  },
+  "AMD05_Genesis_Repo": {
+    "title": "Genesis Repo",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "AMD05_Genesis_Docs": {
+    "title": "Genesis Docs",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "AMD05_Mujoco_Overview": {
+    "title": "Mujoco Overview",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "Model05_NVIDIA_08_DEEP_MUJOCO_MJX": {
+    "title": "MuJoCo MUJOCO MJX",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "Model05_NVIDIA_08_DEEP_MUJOCO_COMPUTATION": {
+    "title": "MuJoCo MUJOCO COMPUTATION",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "AMD05_Gazebo_Docs": {
+    "title": "Gazebo Docs",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "AMD05_Gazebo_Sensors": {
+    "title": "Gazebo Sensors",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "AMD05_Gazebo_ROS": {
+    "title": "Gazebo ROS",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "AMD05_Gazebo_Migration": {
+    "title": "Gazebo Migration",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "KRS_Install": {
+    "title": "KRS Install",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "AMD05_AUP_Repo": {
+    "title": "AUP Repo",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "AMD05_O3DE_Concepts": {
+    "title": "O3DE Concepts",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "AMD05_O3DE_Import": {
+    "title": "O3DE Import",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "AMD05_O3DE_Physics": {
+    "title": "O3DE Physics",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "AMD05_O3DE_Materials": {
+    "title": "O3DE Materials",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "AMD05_O3DE_Time": {
+    "title": "O3DE Time",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "AMD05_RGL_Repo": {
+    "title": "RGL Repo",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "AMD05_O3DE_Robotics": {
+    "title": "O3DE Robotics",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "AMD06_XArm_Sim2Real": {
+    "title": "AMD06 XArm Sim2Real",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  },
+  "AMD06_XArm_JAX": {
+    "title": "AMD06 XArm JAX",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间"
+  }
+}

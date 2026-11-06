@@ -1,0 +1,429 @@
+# AMD 具身智能软硬件平台调研：02 软件栈
+
+> 数据截止：2026-11-04（Asia/Shanghai）。本章承接已审阅的 01，只研究软件及其硬件依赖。资料核验、静态归档和图像复核已经开展；本文没有安装这些 SDK、接受下载许可、运行模型或进行机器人实机测试。所有命令与 API 路径均为官方文档核验或分析设计，不能当作复现实测记录。
+
+AMD 可以覆盖训练服务器、端侧 GPU、x86 NPU 和 Arm 自适应计算，但目前应按多条工具链选型。ROCm 面向 GPU；Ryzen AI 通过 ONNX Runtime 的 Vitis AI EP 使用 x86 NPU；自适应 SoC 的 Vitis AI 6.3 则绑定 Versal 的编译目标、NPU 配置与板级镜像。三者共用部分框架名称与量化工具，不共用全部二进制、模型缓存和设备支持表。@@AMD_ROCm_Docs@@ @@AMD_RyzenAI_Docs@@ @@AMD_VitisAI_Current@@
+
+最值得关注的新增证据有两项：Ryzen AI Linux 指南明确写出 Embedded P100 起的嵌入式 APU 支持；Vitis AI 6.3 已给 VEK385 提供模型编译、VART ML、CPU 分区和 Rev-B 摄像头流式参考设计。但 P100 系列级支持仍需落实到量产 SKU/载板，X199 也不能由消费级 Max+395 的 ROCm 支持推出。新 Kria AI 页面所称 **AMD Robotics Software Suite** 尚未取得唯一公开 release manifest。@@AMD_RyzenAI_Linux@@ @@AMD_ROCm_Compatibility@@ @@AMD_VitisAI_Gen2_Release@@ @@AMD_Kria_AI_Dev@@
+
+生产维护边界同样重要：EDF 官方生产部署指南明确区分评估镜像与有持续更新责任的产品，硬件生命周期不等于操作系统支持期。下文因此将“可下载示例”“编译器支持”“本体闭环验证”“长期交付”分别说明，不给整套 AMD 平台一个笼统成熟度标签。@@AMD_EDF_Production@@
+
+## 1. 软件总图：各栈之间交换什么
+
+| 软件栈 | 定位及运行对象 | 主要输入 → 输出 | 下层依赖 | 对具身任务的作用 / 边界 |
+|---|---|---|---|---|
+| ROCm Core SDK / HIP | Linux、部分 Windows 的 AMD GPU | C++/HIP、tensor → GPU kernel / tensor | 支持矩阵内 GPU、驱动、固件 | 训练、视觉/策略推理；不驱动 x86 NPU |
+| PyTorch / vLLM | ROCm AI Ecosystem | 模型权重、请求 → tensor/token | 固定框架 wheel、架构库、Python | 学习与模型服务；无本体控制保障 |
+| MIGraphX + ORT EP | ROCm GPU 图推理 | ONNX → 编译图 → tensor | MIGraphX 库、ORT 插件、GPU 驱动 | ONNX 部署入口；不同于 Vitis AI EP |
+| Ryzen AI | x86 APU 的 NPU 软件 | ONNX/QDQ → EP context/cache → tensor | 指定 NPU 驱动、XRT、EP | 端侧感知与部分 LLM；平台代际有差异 |
+| AMD Quark | 主机侧模型量化 | PyTorch/ONNX + 校准样本 → 低精度模型 | 各后端规定的配置 / 版本 | 共用工具，不代表所有格式跨后端通用 |
+| Lemonade / OGA | Ryzen AI 的 LLM 接口层 | prompt/token → token/文本 | OGA、llama.cpp 等具体后端 | 本地语言服务；Linux 与 Windows 路径不全相同 |
+| Vivado / Vitis / HLS | 自适应 SoC 硬软件开发 | RTL/C++/AIE/XSA → PDI/XCLBIN/ELF | 精确器件、平台及 IP/工具许可 | 定制数据通路、内核、DSP/运动算法 |
+| Vitis AI Gen1 | Versal AI Edge 的 NPU IP | 模型 → 与 NPU IP 配置匹配的产物 | AIE/PL/NoC/DDR、VAI 6.3 镜像 | VEK280 示例；不是旧 DPU 路径的同义词 |
+| Vitis AI Gen2 / VART ML | Versal AI Edge Gen2 | ONNX → .rai/cache → NpuTensor | VEK385 镜像、runtime、目标配置 | NPU 推理及编译期异构分区 |
+| VART-X | 自适应 SoC 视觉流水线 | VideoFrame → 预处理/后处理/结果 | CPU、PL 内核、XRT BO/DMA-BUF | 将采集数据布局接到 NPU；按模块选实现 |
+| XRT | 用户态 + 内核驱动抽象 | BO、kernel、run/hw_context | 对应 NPU/FPGA 驱动和平台 | 缓冲区/任务接口；并非所有后端 API 同版本 |
+| EDF / SHEL | Arm 自适应 SoC OS 构建 | XSA/SDT/domain YAML → 镜像/DT/SDK | Yocto machine/layers、boot firmware | 评估到自维护或 OSV 的系统集成路径 |
+| OpenAMP / Zephyr | APU 与实时核协作 | ELF、共享内存、rpmsg → 跨域消息 | CPU/内存/中断域配置 | 可构建控制分工；不自动证明安全或 WCET |
+| KRS / Kria Apps | 旧 K26/KR260 的 ROS 2 加速 | ROS package → Arm 程序 + FPGA firmware | KRS 1.0、Humble、Vitis 2022.1 | 真实可查感知示例；不直接覆盖新 x86 SOM |
+| Ross | FPGA/SoC 工程开发助手 | 自然语言 + 工程上下文 → 工具操作建议 | MCP/skills、Vivado/Vitis 许可 | 辅助开发；不等同机器人决策 runtime |
+
+表中接口由官方开发指南整理，具体软件依赖见以下各节。它表示可以连接的技术层次，不表示 AMD 已提供包含每一层的机器人整机发行版。@@AMD_XRT_Docs@@ @@AMD_Vitis_Product@@ @@AMD_VitisAI_VART_App@@ @@AMD_EDF_Docs@@ @@KRS_Install@@ @@AMD_ROSS@@
+
+## 2. 可复建版本矩阵与文档冲突
+
+### 2.1 通用 GPU 发行与具体平台支持
+
+| 对象 | 本次核验版本 / 标识 | 选定的 OS / 组件条件 | 不可直接外推项 |
+|---|---|---|---|
+| ROCm Core SDK | 10.1.0；TheRock production stream | 以兼容矩阵和安装页为准 | 01 中 R9700 7.1.1 指南是旧路径 |
+| MI350X / MI355X / MI350P | gfx950 | Ubuntu 24.04.5 GA 6.8 是矩阵所列条件之一；GPU 驱动另表 | Instinct 虚拟化/固件不套 Radeon/NPU |
+| Radeon AI PRO R9700 / R9700S | gfx1201 | Ubuntu 24.04.5 HWE 7.0；Windows 11 25H2 路线另列 | OS 支持不等于所有框架特性全支持 |
+| Ryzen AI Max+395 iGPU | Radeon 8060S，gfx1151 | Ubuntu 24.04.5 HWE 7.0；inbox kernel driver | 不由同类核心推导 Embedded X199 的正式支持 |
+| PyTorch | 2.14.0 / 2.13.0 / 2.12.0（矩阵） | Linux 与 Windows 的框架/Python 组合须分别选择 | 不把矩阵中的多个版本拼成一个环境 |
+| vLLM | 矩阵 0.29.0；安装页有 0.29.1.dev0 wheel | Python 3.14，PyTorch 2.13.0；Flash Attention/AITER 另锁 | dev wheel 不重命名成稳定 0.29.0 |
+| GPU ONNX 路线 | ORT 1.29.0，MIGraphX 2.18.0 | Python 3.12；EP plugin 1.0.0+rocm10.1.0 | 不套 Ryzen AI/Versal 所带 ORT |
+
+以上为当前页面快照，不是本文已安装验证的 BOM。ROCm 兼容页可见更新日期 2026-08-26，但页面内容已包含 10.1.0 及更晚组件；采集日期与页面更新字段分别保留，不据此推断每个组件正式发布日期。框架文档使用多选项页面，归档保留多个 release 的正文；实际复建时必须固定一个选项组合。@@AMD_ROCm_Compatibility@@ @@AMD_ROCm_PyTorch@@ @@AMD_ROCm_vLLM@@ @@AMD_ROCm_ORT@@ @@AMD_MIGraphX@@
+
+### 2.2 NPU 与板级环境不能使用同一版本号
+
+| 路线 | SDK / 文档 | 主机及编译依赖 | 设备依赖 / 产物 | 当前证据边界 |
+|---|---|---|---|---|
+| Ryzen AI Windows | 1.9.0 文档 | Windows 11 build ≥26100、cmake ≥3.26；使用安装器 venv | 安装页驱动 32.0.201.448，日期 10/3/2026；EP context/cache | 应用页仍称 1.9.0 beta，驱动兼容表缺 1.9 行 |
+| Ryzen AI Linux | 1.9.0 | Ubuntu 24.04 LTS、kernel ≥6.10、Python 3.12.x；建议 64GB RAM | XRT 2.26.89、amdxdna plugin 2.26.260102.59；NPU flow | P100 系列明确列出，逐 SKU/载板仍待确认 |
+| Vitis AI Gen2 | 6.3 public user guide | Vivado/Vitis 2026.1，Python 3.12，PyTorch 2.5.1，Quark 0.12，ORT 1.28.0 | VEK385 Rev-A/B pre-production silicon；.rai/cache | 摄像头流式示例仅 Rev-B；参考板状态不等同量产认证 |
+| Vitis AI Gen1 | 6.3 软件与 SDK | 官方 Docker 内 Ubuntu 24.04；选定 NPU IP settings | VEK280，IP 的 AIE/DDR 配置与镜像需匹配 | Gen1 与 Gen2 runtime/产物需分别核验 |
+| EDF | v26.06.1；文档 26.06.1-rev3 | Yocto Scarthgap；manifest/tag amd-edf-rel-v26.06.1，branch rel-v2026.1 | common CPU-family WIC + board-specific boot firmware | 此更新只重建部分 v26.06 产物 |
+| KRS | 1.0；页面更新 2024-01-02 | Ubuntu 22.04、Humble、Vitis 2022.1、Gazebo Classic 11.0 | K26/KV260/KR260 firmware；Arm/PL 程序 | 文档依赖仍旧，不能称为 2026 最新机器人发行 |
+
+Ryzen AI 应用页的 EP 1.8 行要求最低驱动 32.0.203.280，而 1.9 安装页写 32.0.201.448；应用页还同时出现不同 cache/encryption option 写法。本章记录各页原文，**没有把旧 EP 行强行当成 1.9 驱动范围**。部署需取得 1.9 包内 release/driver 契约并执行官方兼容检查。Vitis AI 6.3 主机页关于 Ubuntu 24.04.2 不被其 Yocto flow 支持的说明，也不能用 EDF v26.06 的 Ubuntu 24.04.3 构建矩阵覆盖。@@AMD_RyzenAI_Install@@ @@AMD_RyzenAI_Linux@@ @@AMD_RyzenAI_App@@ @@AMD_VitisAI_Gen2_Requirements@@ @@AMD_VitisAI_Gen1_Install@@ @@AMD_EDF_Release@@ @@KRS_Install@@
+
+## 3. ROCm Core SDK：驱动、计算库和发行机制
+
+ROCm 10.1.0 是由 TheRock 构建的 Core SDK 生产发行，迁移始于 7.14.0。它不是仅将旧 SDK 版本号加大：安装目录改为 `/opt/rocm/core-10.1`，包名前缀改为 `amdrocm-`，Extras 使用 `/opt/rocm/extras-10`。通过系统包管理器安装的元包会配置 alternatives 和部分 `/opt/rocm` 兼容链接；tarball 不替用户解析依赖或建立这些链接。旧脚本能找到路径，不代表它已加载期望 ABI/架构库。@@AMD_ROCm_Transition@@
+
+驱动在宿主机提供设备访问，Core SDK 提供用户态编译、runtime 和计算库，框架 wheel 则另行分发。容器中的 GPU 推理仍依赖宿主驱动和 `/dev/kfd`、`/dev/dri`。APU 表要求所列 Ubuntu 内核的 inbox driver，应先看 APU 条件，再决定是否安装独立驱动。数据中心 PLDM/IFWI 和虚拟化驱动的限制单列，不能作为端侧 NPU 的固件要求。@@AMD_ROCm_Compatibility@@ @@AMD_ROCm_PyTorch@@
+
+| 模块组 | 10.1.0 矩阵中的独立组件版本 | 输入 / 执行角色 | 机器人软件中的接口意义 |
+|---|---|---|---|
+| 编译 / runtime | HIP 7.16.0、HIPIFY 10.1.0、LLVM 24.0.0、ROCr 1.21.0 | kernel 编译和设备执行 | CUDA 移植、自定义算子；不是 NPU compiler |
+| 矩阵 / 神经网络 | rocBLAS 5.7.0、MIOpen 3.6.1、hipBLASLt 1.4.1 | 矩阵运算、DNN primitives | 框架底层实现，算法选择受 shape/精度影响 |
+| 通信 | RCCL 2.30.7、rocSHMEM 3.7.0 | GPU 集合通信 / 共享内存通信 | 分布式训练基础；不同于 ROS DDS |
+| 媒体 / 视觉 | rocDecode 1.10.0、rocJPEG 1.10.0、RPP 3.2.0 | 解码、图像及数据处理 | 可用于感知前处理，需查具体 GPU backend |
+| 可观测性 | AMD SMI 27.1.0、Compute Profiler 3.9.0、Systems Profiler 1.9.0、Profiler SDK 1.4.1 | 设备状态、计数器、系统 timeline | 区分计算瓶颈与拷贝/CPU/调度等待 |
+
+这些组件归入统一发行，不共用同一版本号，也不保证 Linux/Windows、CDNA/RDNA 都提供同一功能。TheRock 将部分组件移到 Extras 或 standalone 发行，旧“装一个 ROCm 元包即可得到全部工具”需要修订。RPP 3.2.0 移除 OpenCL backend 并统一 HOST/HIP API；ROCm SMI 已弃用、标准构建不再构建/安装，监控新方案应转 AMD SMI。release known-issue 中仍有 `rocm-smi` 命令，是迁移残留，不能据此承诺新环境带该工具。@@AMD_ROCm_Compatibility@@ @@AMD_ROCm_Transition@@ @@AMD_ROCm_Release@@
+
+**分析：**具身软件如果通过 Python 框架使用 GPU，先固定框架环境和目标架构；只有开发自定义 C++/HIP kernel 时再完整锁定 compiler/dev 包。镜像应记录驱动、Core SDK、框架、架构库、模型 hash 与启动参数。只保存 `requirements.txt` 无法复建宿主驱动和设备固件，也无法控制同一机器上不同 ROCm prefix 混用。
+
+## 4. HIP / HIPIFY：执行模型与内存语义
+
+HIP 提供 C++ GPU 编程与 runtime API；HIPIFY 用于 CUDA 源码/API 迁移。框架中保留 `torch.cuda` 命名不表示实际用了 NVIDIA GPU。移植的目标是源代码与调用路径：涉及 CUDA 私有库、架构指令、inline PTX、特殊同步机制时仍需逐项替换和验证，不能把“可转换”当成“等性能、等数值结果”。@@AMD_HIP_Docs@@ @@AMD_HIPIFY_Docs@@ @@AMD_ROCm_PyTorch@@
+
+典型执行链是分配设备/主机缓冲区→上传→提交 kernel→记录 event→依赖 stream 等待→回读结果。`hipStreamCreate`、`hipMemcpyAsync`、`hipEventRecord`、`hipStreamWaitEvent` 和 `hipStreamSynchronize` 分别控制队列、传输、依赖和 host 等待。非阻塞 stream 允许并行提交，但是否重叠还取决于 async engine、kernel 的寄存器/共享内存占用及竞争资源。官方异步指南明确指出并发 kernel 的执行时间可能因资源争用增加，应看 timeline，不仅看单个 kernel timer。@@AMD_HIP_Async@@
+
+HIP 的 unified address space、managed memory、APU 物理共享 DRAM 是三个需要分清的层次。`hipMallocManaged` 的页迁移依赖 GPU、HMM 内核与 `HSA_XNACK`；API 可调用不表示所有设备支持按访问迁移。`hipDeviceGetAttribute` 可查询 ManagedMemory、PageableMemoryAccess、ConcurrentManagedAccess 等能力，不能把 CDNA 表中的能力套给 R9700 或 X199。页错误、首次迁移和远端访问都可能增加首帧与尾时延。@@AMD_HIP_Memory@@
+
+| 内存 / 执行选择 | 解决的需求 | 必须检查的条件 | 不成立的推论 |
+|---|---|---|---|
+| 显式 device buffer + copy | 固定输入和受控生命周期 | tensor 大小、传输方向、stream 依赖 | Async 名称不保证与 compute 重叠 |
+| pinned / registered host buffer | 设备可见的 host 数据 | allocator、驱动、设备访问能力 | 无显式 memcpy 不代表无总线流量 |
+| managed memory | 简化迁移与大数据访问 | HMM/XNACK/设备属性及虚拟化模式 | 更大的可寻址空间不等于本地显存带宽 |
+| 多 stream / event | 多路感知和前后处理流水线 | buffer 不提前复用、资源有余量 | 优先级不等于硬实时抢占或 WCET |
+
+**分析：**机器人摄像头回调应将 GPU 工作放入有界异步流水线；控制线程不应每帧等待全设备 `Synchronize`。结果消费前必须完成依赖，输入帧和 buffer 在 job 完成前保持有效。本文没有验证指定相机 DMA-BUF 到 HIP 的直接互操作，不能据 GPU 的共享地址能力宣称整条相机链零拷贝。
+
+## 5. PyTorch 与 vLLM：学习和模型服务分开部署
+
+PyTorch 安装页按 ROCm release、GPU family、OS、Python 和框架版本给出 Docker/pip 组合。例如 `rocm/pytorch:rocm10.1.0_ubuntu24.04_py3.12_pytorch_release_2.14.0` 是文档提供的镜像 tag；实际部署还需固定 image digest。验证至少检查 `torch.__version__`、`torch.version.hip`、设备名以及 `torch.cuda.is_available()`。后者只证明设备可见，不能证明视觉/VLA 模型所有算子均由优化 GPU kernel 执行。@@AMD_ROCm_PyTorch@@
+
+训练部署涉及模型代码、自定义扩展、精度、checkpoint、优化器与通信库；推理部署涉及算子、KV cache、并发、预处理和输出契约。ROCm release notes 保留 MI350 某些训练配置的回归：一组 BERT/RoBERTa/DistilBERT/GPT2 场景训练时间增加 6–22%，另组恢复/未完全解决的模型配置增加 9–25%。这是相应配置的已知问题，不能当作全平台普遍变慢，也不能写成已全部修复。R9700 的特定 LlamaFactory/Unsloth reset 问题标为 resolved，只支持该问题状态。@@AMD_ROCm_Release@@
+
+vLLM 面向 token 生成服务，适合上层交互/推理服务，不能代替 ROS executor 或关节控制器。10.1 安装页的 Python 路线固定 PyTorch 2.13.0，Flash Attention 2.8.3、AITER 0.1.22.post2.dev0，提供包含 ROCm/commit/build-date 的 vLLM 0.29.1.dev0 wheel，并要求 tensorizer 2.12.1 workaround。矩阵的“vLLM 0.29.0”与该 dev wheel 应分别记账；换成 PyTorch 2.14 并不自动构成经过 AMD 文档验证的新组合。@@AMD_ROCm_vLLM@@
+
+**分析：**多机器人模型服务的设计应分别测 prefill、decode、请求排队、取消/超时和 GPU 显存水位；端侧策略推理则测 frame-age、batch=1 时延与丢帧。token/s 不能换算成策略调用频率。机器人上传观测到远端 GPU 服务还增加网络、序列化和失联处理条件，本文不将它描述成实时本体闭环。
+
+## 6. MIGraphX / ONNX Runtime：GPU 图推理入口
+
+MIGraphX 是 ROCm GPU 的 ONNX 图优化/执行引擎，当前安装页列 2.18.0 与 GPU 架构支持；ORT 1.29.0 通过独立 MIGraphX EP plugin 使用它。它与 Ryzen AI 或 Versal 的 `VitisAIExecutionProvider` 是不同后端。保存 ONNX 有助于框架交换，编译图、选定 kernel 和缓存仍与后端/硬件/版本相关。@@AMD_MIGraphX@@ @@AMD_ROCm_ORT@@
+
+一个容易失误的依赖是：当前 ORT 插件 wheel 依赖 `migraphx-libs`，因此需要先从 MIGraphX pip repository 安装；仅装系统包或 tarball 不能满足 pip 的这项依赖。插件还需显式注册，其官方检查流程如下（仅核验文档，没有执行）：
+
+```python
+import onnxruntime as ort
+import onnxruntime_ep_migraphx as m
+for name, path in zip(m.get_ep_names(), m.get_library_paths()):
+    ort.register_execution_provider_library(name, path)
+print(ort.get_available_providers())
+# 文档预期包含 MIGraphXExecutionProvider
+```
+
+不同 release 的 ORT 安装页并存旧 monolithic wheel 和新 plugin 路线；10.0 的 soname workaround 不能不加版本条件地套到 10.1。EP 可见后，应用仍应验证实际 provider assignment、输入 dtype/shape、预处理一致性和数值误差。本文取得的是安装/支持证据，未取得目标 VLA 的完整 MIGraphX 算子覆盖、动态 shape profile、workspace 或端到端 benchmark，不能承诺它对任意 ONNX 模型获得优化收益。@@AMD_ROCm_ORT@@
+
+## 7. Ryzen AI：NPU 驱动和部署入口
+
+![Ryzen AI 官方软件层次图](@@FIG:02_ryzen_ai_stack@@)
+
+图源：Ryzen AI 1.9.0 首页。图将 CPU EP、DirectML EP 与 Vitis AI EP 分别接到 CPU、iGPU、NPU；它显示多个入口，并未证明 Linux 提供所有 Windows EP。Linux 1.9 指南明确当前示例使用 NPU-only flow。@@AMD_RyzenAI_Docs@@ @@AMD_RyzenAI_Linux@@
+
+Windows 安装器建立独立 venv，安装页要求先核对 NPU 驱动，再运行 quicktest 并观察 NPU activity / EP 日志。Linux 则提供 base/base-dev/npu 三个 XRT DEB 和 amdxdna plugin，之后安装 Ryzen AI tgz；1.9 的 runtime DEB 安装方式标为 preview。quicktest 输出中的 NPU 398、VITIS_EP_CPU 2 和一子图只是官方安装样例，不是本文测量，也不是“全部算子都在 NPU”。@@AMD_RyzenAI_Install@@ @@AMD_RyzenAI_Linux@@
+
+Linux 文档明确支持消费 APU 自 Strix 起、嵌入式 APU 自 Ryzen AI Embedded P100 起，以及 INT8 CNN、BF16 CNN/NLP 和 NPU-only LLM。它没有在同一页给 X100/X199 的逐 SKU、BIOS 和 NPU 驱动兼容表。Windows release 的 supported-configurations 段仍写“1.8 Software”，并列 PHX/HPT/STX/KRK/GPT；新版特性存在不代表每个旧 NPU 都获支持。@@AMD_RyzenAI_Linux@@ @@AMD_RyzenAI_Release@@
+
+**分析：**P100 Linux 感知 PoC 可按文档建立初始环境，但量产锁定还需要 exact SKU、OEM BIOS、NPU hardware ID、driver/firmware/runtime hash、模型支持与温度/并发测试。安装成功、EP 支持、目标模型正确推理是三个验收步骤。文档尚未消歧的 1.9 beta/driver 表需保留为放行缺口，不能绕过这项版本确认。
+
+## 8. AMD Quark：同一量化工具的后端契约
+
+Quark 为 PyTorch 与 ONNX 模型提供量化工具，校准数据、量化配置与后端算子约束共同决定产物。Ryzen AI 的 FP32 CNN/Transformer 可以直接交给 EP，在编译时转 BF16；INT8 CNN 则推荐 Quark，也允许相应第三方 QDQ 格式。XINT8 使用对称 INT8 activation/weight 与 power-of-two scale；A8W8、A16W8 的 float scale 配置另列。量化页中的容器 dtype、对称选项和整数表示需一起看，不凭名称推断全部 signedness。@@AMD_RyzenAI_Quantization@@
+
+Vitis AI Gen2 6.3 的 INT8 指南采用 **VINT8** 配置，并要求 `Int32Bias=False`、`enable_npu_cnn=True`，明确配置 DedicatedQDQPair 与 QuantizeAllOpTypes；不能把 Ryzen 的默认 XINT8 字符串原样当作 Versal 配置。BF16 自动转换不要求预先 Quark 量化；混合精度可将敏感算子留在高精度，但是否编译、是否落 CPU 必须读分区报告。@@AMD_VitisAI_Gen2_Quantization@@
+
+```python
+# Vitis AI 6.3 Gen2 文档的配置摘录；不是 Ryzen AI 通用配置
+from quark.onnx import ModelQuantizer, QConfig
+config = QConfig.get_default_config("VINT8")
+config.global_quant_config.extra_options["Int32Bias"] = False
+config.global_quant_config.enable_npu_cnn = True
+config.global_quant_config.extra_options["DedicatedQDQPair"] = True
+config.global_quant_config.extra_options["QuantizeAllOpTypes"] = True
+quantizer = ModelQuantizer(config)
+# 还需提供代表性 CalibrationDataReader，再调用 quantize_model。
+```
+
+官方把随机数据量化列为 testing-only 选项，真实校准样本才是生产推荐路径。**分析：**具身校准样本需覆盖照明、运动模糊、距离、遮挡与目标分布；应固定 preprocessing、校准集 hash 和独立留出集，验证检测/位姿/动作指标，而非只对比 tensor 平均误差。MinMSE 优化量化噪声并不直接证明真实任务成功率保持。Quark 的通用能力也不取消 Ryzen/Vitis 所规定的支持配置。@@AMD_VitisAI_Gen2_Quantization@@ @@AMD_Quark_RyzenAI@@
+
+## 9. Ryzen AI ONNX 编译、回退与缓存
+
+ORT `InferenceSession` 加载模型、Vitis AI EP 划分子图，受支持子图到 NPU、其余到 CPU，`session.run()` 提交 tensor 并取得输出。Ryzen 编译指南建议 ONNX opset 17；与 Versal Gen2 推荐 opset 20 的指南分开使用。输入名、shape、dtype 由 `get_inputs()` 等 metadata 获取，不能假定所有视觉模型都接受同一 RGB/NCHW 形式。@@AMD_RyzenAI_Compile@@
+
+| 模型 / APU | 后端选择 | 关键 provider 配置 | 版本与回退边界 |
+|---|---|---|---|
+| INT8，STX/KRK 及更新设备 | X2 默认；可按文档试 X1 | target；不得设置 PHX xclbin | 新 compiler 不保证每模型比 X1 快 |
+| INT8，PHX/HPT | X1 | 指定 phoenix/4x4.xclbin | 旧 1x4/Nx4 文件不再支持 |
+| BF16，STX/KRK 及更新设备 | VAIML config | config_file；optimize_level/layout | PHX/HPT 不套 BF16 路线 |
+| 开发期编译缓存 | Vitis AI EP Cache | cache_dir/cache_key；INT8 落盘需 enable_cache_file_io_in_mem=0 | 不能跨 EP 或 NPU driver 版本直接复用 |
+| 发布时 context | ORT EP Context Cache | ep.context_enable/file_path/embed_mode | 推荐冻结预编译 context；仍要验证硬件和 runtime |
+
+EP 透明分区使应用易接入，却可能掩盖 CPU 回退与多次数据交接。应导出 operator assignment report：设置 `XLNX_ONNX_EP_REPORT_FILE` 并让 cache 落盘，记录哪些节点/子图真正执行在 NPU/CPU。当前路径的支持算子页仍明确标 **Ryzen AI 1.8.0**，因此只能作该版本的候选覆盖参考，不能冒充完整的1.9支持表。具体 shape、属性、图划分和 compiler 错误仍影响落点；“支持 Conv/MatMul”不能推导任意 Transformer/VLA 全图落 NPU。@@AMD_RyzenAI_Compile@@ @@AMD_RyzenAI_Ops@@
+
+发布包需包括匹配的 ORT/EP/runtime DLL 或 Linux 库、预编译模型以及所需配置/设备 binary。应用应先检查 NPU 类型与 driver compatibility，再创建 EP。AMD 推荐正式应用用 EP Context Cache，开发缓存不得跨驱动/EP 版本复用。AES256 context 加密选项只解决相应模型文件保护；文档中的 Python `encryptionKey` 与 reference `encryption_key` 写法不同，应以实际包 API 验证，不能把样例 key 复制进产品，也不能将文件加密当作启动链认证或权重许可。@@AMD_RyzenAI_App@@ @@AMD_RyzenAI_Compile@@
+
+## 10. OGA / Lemonade：端侧 LLM 与上层任务接口
+
+Ryzen AI LLM 文档给出 OGA 的 NPU-only / hybrid NPU+iGPU 路线以及 llama.cpp GPU/CPU 路线，首页另外列出 FastFlowLM 这一外部 NPU runtime。Lemonade 提供 Python API 和 server interface，底层 native OGA/llama.cpp 库负责执行；多后端接口可迁移不等于优化权重可跨后端直接运行。该图式接口也不能套给 P100 的所有 Linux 功能；Linux 指南明确当前 NPU-only，而 OGA 模型生成的 Linux 限制出现在 1.8 notes 中，1.9 未逐项给出消除证明。@@AMD_RyzenAI_LLM@@ @@AMD_RyzenAI_Linux@@ @@AMD_RyzenAI_Release@@
+
+Lemonade Server 文档列 `/api/v1/chat/completions`、`/api/v1/completions`、`/api/v1/responses` 和 `/api/v1/models`，可供 C++/C#/JavaScript 等通过 REST 访问独立模型进程。本文按这份接口页保留 endpoint，不用其他 server 的 `/v1` 路径替换。Native OGA 路线还需 tokenizer、模型目录、genai 配置、context length 与生成循环，不能仅部署一个 `.onnx`。@@AMD_RyzenAI_Server@@ @@AMD_RyzenAI_Hybrid@@ @@AMD_RyzenAI_OGA_Prepare@@
+
+1.9 notes 将部分新模型标为 functional-only、performance-not-optimized，并列文本 Qwen 的 dynamic LoRA，不能据型号存在宣称所有模型同样优化。**分析：**语言输出应进入任务规划/验证层，再映射到动作 schema；REST 输出文本不能直接当关节角命令。还要记录 prompt+output 的总上下文预算、prefill/首 token 与解码尾时延、队列超时、取消/模型恢复。权重的架构兼容、授权与机器人执行约束是不同问题，具体模型效果留待 04 获批后研究。@@AMD_RyzenAI_Release@@
+
+## 11. Vivado、Vitis、HLS 与加速库：模型之外的数据通路
+
+Vitis 面向自适应 SoC 的软硬件协同开发。Host C/C++ 程序通过 XRT 与硬件交互；PL 内核可来自 HLS C/C++ 或 RTL，AI Engine 算法由对应 compiler 编译，平台提供连接、时钟、内存与设备描述。模型 compiler 解决神经网络映射，Vitis/HLS 解决图像、DSP、数据搬运或运动计算的定制实现；不能用一个 ONNX 文件代替平台硬件设计。@@AMD_Vitis_Product@@
+
+![AMD 官方 Vitis 设计流程图](@@FIG:02_vitis_design_flow@@)
+
+图中 Host、XRT、driver、AXI 和 PL kernels 显示软件调用与硬件互连分别承担什么工作。这是产品级流程图，不是特定 KR260/VEK385 的已通过时序收敛设计；具体 XCLBIN/PDI、连接配置和时钟约束仍须来自选定平台。@@AMD_Vitis_Product@@
+
+典型开发过程是选定器件/平台→综合 HLS 或 RTL 内核→连接 AXI stream / memory mapped 接口→布局布线并生成硬件产物→配套驱动与 device tree→编译 host 应用→板上验证。**分析：**摄像头缩放、色彩转换与归一化适合连续流的数据通路；收益来自减少 CPU 工作和中间 DDR 往返。收益成立还需要输入输出速率匹配、FIFO/背压设计、像素格式与行对齐正确，单个 HLS 内核的 initiation interval 不等于机器人感知的端到端时延。
+
+Vitis Libraries 仓库可见 vision、dsp、motor_control、blas、solver、data_mover 等算法模块，代码仓库采用 Apache-2.0。它们是可组合的构件；库名含 motor_control 不证明已有适配所有伺服驱动、关节总线和保护逻辑的机器人控制产品。工程仍需核验具体函数模板、位宽、target、clock、资源和数值误差。@@AMD_Vitis_Libraries@@
+
+维护状态不能省略：仓库明确从 **2025.2** 起停止维护 PL 的 codec、data_analytics、data_compression、graph、hpc、quantitative_finance、sparse 库；以前 release 仍可取用，AI Engine Libraries 不受这一变更影响。同一 release 开始引入 Vitis IP Libraries。旧教程中的函数存在不意味着当前受维护，生产工程应把库版本/commit 和停维护风险记录到依赖清单。@@AMD_Vitis_Libraries@@
+
+## 12. Vitis AI Gen1：NPU IP、NoC 与 runtime 的绑定
+
+6.3 Gen1 安装指南给出的 VEK280 路线面向 Versal AI Edge，使用 NPU IP 配置、配套 boot image 和 SDK。IP 命名 `[Target]_NPU_IP_O[offset]_A[AIE]_M[DDRs]` 编码目标、偏移、AI Engine 与 DDR 配置；默认例子为 `VE2802_NPU_IP_O00_A304_M3`。M3 配合三 DDR 和指定 NoC placement，generic NoC 设计与之不同；一/两 DDR interleave 应选择相应 M1 配置。这些不是仅改变软件参数的互换关系。@@AMD_VitisAI_Gen1_Install@@
+
+| Gen1 环节 | 输入 / 输出或对象 | 必须匹配的内容 | 常见误判 |
+|---|---|---|---|
+| 硬件与启动 | NPU IP、PDI、board image | 器件、NoC、DDR、AIE 配置 | 把同一 VEK280 的不同 overlay 当成相同目标 |
+| 主机开发 | Docker / SDK；`vai6.3_vek280_sdk.sh` | 6.3 工具和环境 | 用旧 DPU 示例的工具/产物名替代 NPU 路线 |
+| 模型执行 | snapshot、输入输出 buffer、Runner | INT8/BF16 和 NPU 内部 layout | 应用 FP32 buffer 不需要任何转换 |
+| 异步调用 | `execute_async` / `wait` | job 和输入输出生命周期 | Async 代表已承诺多进程并发 |
+
+嵌入式 CPU 负责把权重/层配置装入 DDR 和 NPU/AIE registers，转换 buffer layout，必要时量化/反量化，并启动、轮询任务。原文先说 CPU 不负责 inference compute，后文又说明未完全加速的图拆成 FPGA/NPU 与 CPU subgraphs；应合并理解为 CPU 不计算已卸载的 NPU 分区，仍可能执行不支持分区。不能截取前一句宣称全模型没有 CPU 推理。@@AMD_VitisAI_Gen1_Runtime@@
+
+官方伪代码为 `vart::Runner::create_runner(snapshot)`→`execute_async(inputsPtr, outputsPtr)`→`wait(job_id.first, -1)`。Gen1 runtime 页仍把 multi-threading / multi-process support 标成 **planned for future releases**；不能把后述 Gen2 的线程安全说明迁移到 Gen1。NPU IP 建硬件需要 `npu_aieml@2024.06` 许可，并有 Vivado Enterprise/Pro 要求；“6.3 General Access 文档公开”不等于所有 IP 和工具免费、模型权重许可也另计。@@AMD_VitisAI_Gen1_Runtime@@ @@AMD_VitisAI_Gen1_License@@ @@AMD_VitisAI_Current@@
+
+## 13. Vitis AI Gen2：从 ONNX 到 .rai，异构分区的两条执行路线
+
+### 13.1 固定编译目标和主机环境
+
+6.3 Gen2 public guide 对应 Vivado/Vitis 2026.1。VEK385 Rev-A/B 使用 pre-production silicon；release notes 的 camera streaming reference design 仅支持 Rev-B。主机要求至少 20 cores、64GB RAM、100GB 可用空间；Ubuntu 22.04.4 或 24.04.2 被列出，但该流程的 Yocto 不支持 24.04.2，推荐用 22.04.4。模型环境列 Python 3.12、PyTorch 2.5.1、ONNX 1.16.1、ORT 1.28.0、Quark 0.12、Docker 28.5.1。此处 Quark 是板级编译环境依赖，不采用通用 Quark 最新版替换。@@AMD_VitisAI_Gen2_Release@@ @@AMD_VitisAI_Gen2_Requirements@@
+
+模型由 PyTorch 等导出 ONNX；指南推荐 opset 20，11–20 属完整支持范围，21–22 部分支持，>22 不支持。这是 opset 范围，不是对任意算子组合/shape 的承诺。目标参数还需指定 `ve2-xc2ve3858` 等准确 part，不能仅写“Versal Gen2”。超过 2GB 的 ONNX external-data 模型要把主图和权重两份文件完整传入流程；丢外部权重的 `.onnx` 不是有效模型。@@AMD_VitisAI_Gen2_Requirements@@ @@AMD_VitisAI_Gen2_Compile@@
+
+安装页提供 `vai6.3_vek385_sdk.sh`、Rev-A/B images 和 `amd/Vitis-AI` 的 `release/6.3` 分支。页面 SDK 环境示例仍出现 `cortexa72-cortexa53` 路径，与本板 A78 目标不一致，本文将其作为文档残留保留，实际应使用安装器生成的 environment-setup 文件，不能自行改一段字符串就称官方支持该路径。下载前还涉及账户和许可；本文只归档公开指南，没有下载/安装这些板级二进制。@@AMD_VitisAI_Gen2_Install@@ @@AMD_VitisAI_Gen2_License@@
+
+### 13.2 编译结果是模型、目标和配置的契约
+
+通过 Vitis AI EP 创建 ORT session 驱动主机侧编译；provider options 指向原模型、JSON config、VAIML target 和缓存位置。默认输出是 **`.rai` flat-buffer 文件**，将模型 binaries、metadata 和 execution graph 打包，并支持 memory-mapped loading。开发时设置 `keep_outputs=true` 可保留完整 cache directory 及报告；选择目录模式必须复制整目录，不能挑一个 AIE ELF 当成全部模型。`.rai` 的 mmap 是加载机制，不直接证明整个摄像头→CPU→NPU→后处理链没有拷贝。@@AMD_VitisAI_Gen2_Compile@@ @@AMD_VitisAI_Gen2_Output@@
+
+编译报告 `final-vaiml-pass-summary.txt` 记录 model signature、target device、precision、VAIP/FlexML 版本、overlay、NPU clock、DP/TP、supported/offloaded operators、CPU partitions、编译错误和低于阈值分区。报告里的样例 NPU 频率 1267MHz、TP=6、2% GOPs threshold、最多 7 subgraphs 和编译时间是该示例的记录，不能充作所有部署的默认值或实测基准。需要区分“算子支持”与“实际卸载”：阈值、分区数量、编译失败都可能把支持的算子留给 CPU。@@AMD_VitisAI_Gen2_Output@@
+
+| 模型状态与目的 | 选择 runtime | 上板必备产物 | CPU 行为 / 约束 |
+|---|---|---|---|
+| 初次导入、需要 ONNX 生态或广泛 fallback | ORT + Vitis AI EP | `.rai`/cache、原 ONNX、原 JSON、应用 | 不支持的 subgraphs 在运行时回退 CPU |
+| 全图成功卸载、希望直接使用 HW tensor | VART ML | `.rai`/完整 cache、C++ 应用 | 不依赖原 ONNX；没有任意算子的运行时 fallback |
+| 模型已编译 CPU partition | VART ML | 异构 compiled model 与 C++ 应用 | CPU/NPU 分区在编译时确定，CPU operator 范围有限 |
+| 编译目标/模型签名/缓存不匹配 | 重新验证并编译 | 匹配的模型、config 和目标 runtime | EP 找不到/不匹配编译模型时不会部署到 NPU |
+
+ORT session 必须加载编译时的原 ONNX 和原 config；缓存可以移目录，但位置参数必须指向正确的产物。VART ML 直接读取产物，不要求原 ONNX。厂商将 VART ML 推荐用于性能部署，但这只说明 runtime 设计，不是本章实测吞吐结论。@@AMD_VitisAI_Gen2_Deploy@@
+
+CPU partition 路线执行 `init`→`vaiml_partition`→`vaiml_cpu_partition`→connectivity→`create_cache`。它把受支持的 CPU operators 也编入模型，使 VART ML 能执行异构图；不能认为它包含 ORT CPU EP 的所有算子。**分析：**有 CPU/NPU 交替时须测每个 partition 的数据转换/同步/等待，NPU offload 百分比高也可能被少量 CPU 算子拖慢。目标 VLA 的动态 shape、attention、workspace 和采样逻辑需要逐图编译及日志，目前没有这类目标模型的完整证据。@@AMD_VitisAI_Gen2_CPU_Partition@@ @@AMD_VitisAI_Gen2_Architecture@@
+
+## 14. VART ML 与 VART-X：张量、内存所有权、并发和视觉几何
+
+### 14.1 API 架构和 tensor view
+
+![AMD 官方 VART ML 层次架构](@@FIG:02_vart_ml_architecture@@)
+
+Application 管理流水线，API 层提供 `RunnerFactory`、`Runner`、`NpuTensor`，下方 runtime/platform 管理模型调度、设备与硬件 buffer。图支持这种职责划分；不能由图推导所有对象都跨平台 ABI 通用。以下 API 和线程安全说明采用 **Gen2 6.3** 文档。@@AMD_VitisAI_Gen2_Architecture@@
+
+`RunnerFactory::create_runner(RunnerType::VAIML, model_path, options)` 创建 runner；`get_tensors_info(direction, type)` 查询 name、dtype、shape、strides、layout、size；`get_quant_parameters(name)` 提供量化信息。应用应先读取实际 metadata 再配置前处理，不凭“ResNet50 输入”写死 buffer 大小。输入、输出 tensor view 可独立选择，也可以按名字覆盖，边界是否暴露 CPU/HW view 受编译图拓扑约束。@@AMD_VitisAI_VART_App@@ @@AMD_VitisAI_Gen2_Architecture@@
+
+CPU view 对应 ONNX 标准格式，例如 NCHW、FP32、`[1,3,224,224]`；HW view 可能为 HCWNC4、BF16、`[224,1,224,1,4]`。这是文档示例，不是每个模型固定格式。选 CPU view 时 runner 转换到内部格式并产生拷贝；选 HW view 时应用必须准备正确的布局、padding 和数据类型。不能把原始 RGB/NV12 帧直接解释成已经满足 NPU tensor 契约。@@AMD_VitisAI_Gen2_Architecture@@
+
+| TensorType / memory | runtime 行为 | buffer 生命周期 | 优化成立条件 |
+|---|---|---|---|
+| HW + XRT_BO | 支持零拷贝输入/输出路线 | runner allocation 为 RAII；用户 BO 由 caller 保持 | bank、size、layout、同步正确 |
+| HW + DMA_FD | 接 V4L2、dma_heap、ISP 等可见 buffer | caller 保持 fd/底层 buffer | CMA/硬件可见且格式一致 |
+| HW + USER_POINTER_CMA | 使用硬件可见连续内存 | caller 持有 | allocator、物理连续和 cache coherency 满足 |
+| HW + USER_POINTER_NON_CMA | 构造 `NpuTensor` 抛 runtime_error | 不应作为可用 HW route | `malloc/new` 指针不能冒充 NPU 可见内存 |
+| CPU + 任意 memory type | runner 格式转换，发生 copy | 依分配方式管理 | 简化 bring-up；不能宣称 tensor 零拷贝 |
+
+`NpuTensor` 包装用户内存时不接管所有权；caller 必须在 tensor 和未完成 job 使用期间保持有效。`allocate_npu_tensor` 分配的内存由 tensor RAII 释放；`allocate_sub_tensor` 通过引用计数共享 parent buffer，仅支持一层嵌套。`sync_buffer` 控制显式同步，`export_buffer` 导出 DMA-BUF fd；导出句柄只是互操作入口，另一设备仍需支持导入和同一内存格式。@@AMD_VitisAI_Gen2_Architecture@@
+
+### 14.2 Async、DP/TP 与背压
+
+![AMD 官方同步与异步推理时间线](@@FIG:02_vart_async@@)
+
+同步 `execute` 阻塞调用线程；`execute_async` 返回 JobHandle，可通过 `wait` 或 callback 完成。图显示 host 工作和 NPU 计算可重叠，不提供数值加速比。Gen2 单 runner 的 execute、execute_async、wait 有线程安全说明，callback 在内部 worker thread 执行；共享结果队列仍需应用同步。执行 API 用 `StatusCode`，构造/查询可能抛异常，不能只处理一个错误渠道。@@AMD_VitisAI_Gen2_Async@@ @@AMD_VitisAI_Gen2_Architecture@@
+
+每个 in-flight job 需独立 input/output buffers；`RESOURCE_UNAVAILABLE` 表示内部 slots 已满，应等 job 完成后重试。官方 `vart_infer_async` 样例默认两个并发 job，读取一个 IFM batch，重复提交同一内存数据，只支持一个输入 tensor。样例的 FPS/平均推理时间因此不是多相机真实帧采集结果，也没有证明观测年龄、P99 或电机反馈闭环。**分析：**感知服务应限定队列深度，控制侧按 timestamp 拒绝过时结果；无限排队即使提高平均吞吐也可能使机器人使用旧观测。@@AMD_VitisAI_Gen2_Async@@
+
+Gen2 一个 compute block 为 4×4 的 16 AIE tiles。`dp_size` 复制整个模型处理不同请求，`tp_size` 把一个请求分配到多个 blocks；默认 DP=1、TP=0 由 compiler 自动选择。文档举例 ve2-xc2ve3558 六 blocks（96 tiles）、ve2-xc2ve3858 九 blocks（144 tiles），另有 3858 的推荐 6×4 columns 配置；最终应看 compiler 实际 resolved 值及可用 overlay，不按最大 tiles 强配。DP 提高并发容量不自动降低单帧时延，TP 降时延的效果还受模型、通信和 DDR 限制。@@AMD_VitisAI_Gen2_Tenancy@@
+
+### 14.3 VART-X 的视频对象和前后处理契约
+
+VART-X 的 `Device::get_device_hdl(dev_idx, xclbin_loc)` 为模块提供设备；使用硬件 accelerator 时需匹配 XCLBIN，无需 bitstream 的模块可不设该路径。`VideoFrame` 支持自分配 XRT/NON_CMA、包装 DMA-BUF fd、XRT BO 或 caller pointers，伴随 `VideoInfo` 的尺寸、padding、alignment。`PreProcess` 可选择 `IMAGE_PROCESSING_HLS` 或软件实现，执行 resize、color conversion、normalization、quantization；这些选项必须与模型 mean/scale 和 quant parameters 一致。@@AMD_VitisAI_VART_App@@
+
+DEFAULT 拉伸、LETTERBOX 保比例加 padding、PANSCAN 中心裁剪再缩放的几何不同。PostProcess 解释模型输出，MetaConvert/InferResScaleInfo 将结果映射回原图，overlay 绘制可视化；如果忽略 crop offset 或 letterbox padding，框在模型图里正确也可能在相机坐标里偏移。**分析：**机器人感知桥还需把该原图结果与相机标定、深度、frame_id、采集 timestamp 绑定，得到有单位和坐标系的世界观测；本章不把 2D overlay 当成已经完成 3D 抓取接口。@@AMD_VitisAI_VART_App@@
+
+## 15. XRT：BO 同步、kernel 调用与新 NPU 路线
+
+![AMD 官方 XRT 层次图](@@FIG:02_xrt_layers@@)
+
+XRT 文档 Master 图把应用/API、用户态 runtime、内核驱动和硬件分层。原页 footer 有旧 Last updated 日期，但内容已有 NPU 术语；本章将它标为 **Master 文档快照**，不据此声称是特定 release 的完整支持图。Ryzen AI Linux 所带 XRT DEB、Vitis AI board runtime 与 Master 文档不能互相替换版本。@@AMD_XRT_Docs@@ @@AMD_RyzenAI_Linux@@
+
+经典 FPGA native route 是 `xrt::device`→`load_xclbin` 得 UUID→`xrt::kernel(device, uuid, name)`→按 `kernel.group_id(arg)` 分配 `xrt::bo`→map/write→向设备 `sync`→提交 `run`→`wait`→回读同步。BO 的 bank/group 必须对应 kernel 连接；host pointer 已写不等于设备已看见，job 完成不等于 host cache 已更新。复用 BO 可减少频繁分配，但等待和回收顺序必须正确。@@AMD_XRT_Native@@
+
+Master native API 同时增加 NPU ELF 与 `hw_context` 路线，并在若干模块使用 experimental headers；文档提醒 API 可能 breaking change。ELF/hw_context 是特定执行路径，不能把旧 `load_xclbin` 示例直接当成当前 x86 NPU 的加载器。部分 BO flags 在所有 driver 上并不一定被实现；“都叫 XRT”不证明驱动、buffer sharing、scheduler 或 ABI 完全相同。@@AMD_XRT_Native@@
+
+**分析：**工程应把平台 runtime/driver、硬件 UUID/产物 hash 和应用 ABI 一起固定。相机 DMA-BUF、VART tensor 与 PL BO 互联时，逐边核验 exporter/importer、memory bank、layout、cache 同步和未完成 job。零拷贝是特定边上的有条件结果，不是 XRT 的全平台属性。
+
+## 16. EDF 与 SHEL：从硬件描述到可维护的系统镜像
+
+### 16.1 EDF 发行对象与 PetaLinux 迁移
+
+EDF 是 AMD 面向 embedded Arm 平台的 Yocto 系统构建框架，官方将它作为 PetaLinux 的替代方向。当前文档 v26.06.1-rev3，对应 manifest/tag `amd-edf-rel-v26.06.1`、branch `rel-v2026.1`，基于 Yocto Scarthgap。26.06.1 只重建部分 26.06 产物；不能按一个数字假定每块板所有 artifacts 同步更新。@@AMD_EDF_Product@@ @@AMD_EDF_Docs@@ @@AMD_EDF_Release@@
+
+![AMD 官方 EDF 软件栈（2025年9月材料第16页）](@@FIG:02_edf_stack@@)
+
+图说明 boot、Linux/Yocto、middleware、应用和多 OS 分工，是 **Sept 2025** 概览 PDF 的方法图，不能作为 2026 各板最新版支持矩阵。当前版本与 target status 采用 release/production 指南。@@AMD_EDF_Overview_PDF@@ @@AMD_EDF_Release@@
+
+EDF 使用 CPU-family common WIC 和 board-specific boot firmware 分开交付。boot firmware 与 Linux image 是不同更新对象，设备树、PL、kernel modules、rootfs 也有各自兼容条件。`meta-kria` 出现在 layers 中，不等于每款 K24/K26 开发套件都拥有同版预编译验证镜像。主机构建支持表列 Ubuntu 24.04.3、22.04.5 等，明确不支持 Windows/WSL 构建；评估开发可以查看材料，但不能将 Windows workspace 当成受支持 Yocto build host。@@AMD_EDF_Release@@
+
+![AMD 官方 EDF 产物组织（2025年9月材料第20页）](@@FIG:02_edf_artifacts@@)
+
+这张图用于理解 SDK、common system image 与 board boot artifacts 的关系，不能证明所有产物可随意跨板混用。PetaLinux 迁移不是照抄旧 `petalinux-*` 命令：需映射到 Yocto machine、layers、recipes、硬件 XSA/SDT、image 和 SDK 的构建流程，保留自定义 driver、device tree 与包配置。@@AMD_EDF_Overview_PDF@@ @@AMD_EDF_Migration@@
+
+### 16.2 SHEL：XSA、SDT、machine config 的接口
+
+![AMD 官方 SHEL 硬件到软件流程（2025年9月材料第24页）](@@FIG:02_shel_flow@@)
+
+SHEL 以硬件 handoff 为入口，XSA 经 SDTGen 得 System Device Tree；`gen-machine-conf` 读取 SDT，并调用 Lopper 等工具生成 machine configuration 与 Linux/其他 domain 的 device tree，再交给 Yocto recipes 构建镜像。图说明接口关系，不是给任意 XSA 自动保证驱动完整、实时隔离和外设测试。@@AMD_EDF_Overview_PDF@@ @@AMD_EDF_SHEL@@ @@AMD_EDF_SHEL_XSA@@
+
+官方流程的核心命令形态如下，仅作为核验过的接口说明；其中路径/名称需由具体工程提供，本文未运行构建：
+
+```sh
+gen-machine-conf parse-sdt --hw-description <sdt-dir> -c <conf-dir> \
+  -l <build>/conf/local.conf --machine-name <name>
+MACHINE=<name> bitbake edf-linux-disk-image
+```
+
+输入 XSA 必须反映真实时钟、地址、中断和外设分配。**分析：**保存 XSA hash、SDTGen/Lopper/Yocto manifest 和 domain YAML，可解释同一源程序为何在不同硬件构建上表现不同；只保存应用源码无法追溯这些系统接口。@@AMD_EDF_SHEL@@ @@AMD_EDF_SHEL_XSA@@
+
+### 16.3 PL 装载与版本一致性
+
+EDF segmented configuration 可以把 PL programming 延后；它不等于 DFX 动态交换某个可重配置 region。deferred PL package 包含 PDI/binary 与对应 device tree，放在 `/lib/firmware/xilinx`，使用 `dfx-mgr-client -loadByName <package>` 一类接口装载。指南明确 segmented configuration 不需要 `shell.json`，DFX 路线则要求相应 shell metadata。硬件、driver、地址/中断和软件必须一起验证，不能仅凭包名相同替换设计。@@AMD_EDF_Segmented@@ @@AMD_EDF_PL_Load@@
+
+**分析：**装载前先停止提交任务、等待/取消未完成 jobs、释放 buffer/设备对象；装载后重新建立与新硬件对应的 runtime 和数据通路，并验证输入输出。这是工程设计建议，本文未证明 EDF 对任意 PL 更新自动执行这些步骤。boot 的 recovery/A-B 机制也不等于具有云端 fleet rollout、签名发布、健康检查和模型版本管理的 OTA 服务。@@AMD_EDF_Release@@
+
+## 17. OpenAMP、domain YAML 与 Zephyr：推理和实时控制的分工
+
+EDF domain 配置通过 YAML 指定 CPU、memory、device access 等，再生成各 domain 的设备描述。reserved memory、CMA、remoteproc/rpmsg、vring、mailbox 是跨 Linux 与其他核通信的重要接口；合并多个 YAML 时 domain name 需匹配。它解决资源描述和软件构建，不能凭 YAML 文件存在证明访问隔离、缓存干扰上界、故障隔离或安全认证。@@AMD_EDF_Domains@@
+
+| 执行域 | 合理分工（分析） | 数据契约 | 必须验证的边界 |
+|---|---|---|---|
+| Linux APU / x86 CPU | 模型、感知、ROS、规划、运维 | 带 timestamp/frame_id 的观测和轨迹 | 调度/内存/驱动抖动，结果新鲜度 |
+| NPU / GPU / PL | 推理、图像与可定制加速内核 | dtype/layout/size/buffer/job | 数值、依赖、共享带宽、异常恢复 |
+| RPU / RTOS | 有界的控制/监测环节 | sequence、单位、期限、校验和 | 周期与 WCET、消息丢失、下游执行保护 |
+| 电机/伺服驱动器 | 低层电流/速度/位置闭环 | 总线/关节协议、限幅和 watchdog | 实际驱动器 SDK、保护和停机语义 |
+
+EDF Zephyr 支持表将相应 **Cortex-R52** 路线标为 PROD，而 Cortex-A78 相关项为 EA、无 SMP；这是表中目标的状态，不能泛化到所有 AMD 核、外设和板。Linux/RTOS 的源码可获得，不代表已验证整套机器人硬实时。OpenAMP 消息通道可用作分工接口，但本文没有编译/运行指定 board 的 remote firmware 或测跨域尾时延。@@AMD_EDF_Zephyr@@ @@AMD_EDF_Domains@@
+
+**分析：**运动命令应携带生成时刻、有效期限、序号、关节顺序/单位，控制域拒绝超期或不连续命令，并独立处理 watchdog/急停。共享内存的 ownership/cache maintenance、vring 容量、backpressure 和 Linux 卡死后的 RTOS 行为要实测。上层策略调用率、ROS 发布率、控制器周期、电机伺服频率是四个不同量，本章没有证据把 NPU 推理时延的倒数当成其中任意一项。
+
+## 18. KRS 与 KR260 应用：可查的 ROS 2 路线和旧版约束
+
+### 18.1 KRS 的真实范围和安装链
+
+有效官方仓库是 **Xilinx/KRS**，其主体为文档 source 与多仓库 `.repos` 清单，不能当成包含所有二进制/模型/驱动的单一软件 monorepo。当前可查 KRS 文档为 1.0，Last updated 2024-01-02。官方硬件表对 K26、KV260、KR260 给 full support，ZCU102/ZCU104/Ultra96 等有 unofficial support；不能套到 K24 或新 x86 Kria AI SOM。@@KRS_Official_Repo@@ @@KRS_V1_Docs@@ @@KRS_Hardware@@
+
+安装路线按 Ubuntu 与 Yocto/PetaLinux 分开。示例主机 Ubuntu 22.04、ROS 2 Humble、Vitis 2022.1、Gazebo Classic 11、至少 32GB 内存；`krs_humble.repos` 导入 ament_acceleration、ament_vitis、colcon hardware acceleration、adaptive component 等，KR260 firmware 示例为 v1.1.1。许多分支指向 main/humble，需额外锁 commit 才能复建；不能把这一旧版环境称为兼容 Vitis 2026.1 或新 EDF 的现成方案。@@KRS_Install@@
+
+`colcon acceleration select kr260` 选择 firmware，随后按 target/sysroot 编译 ROS packages。目标机建议 Cyclone DDS，不能因此把 target RMW 变量不加区分地套给主机交叉编译。文档还列 host/sysroot Python 版本 workaround 和 gcc-multilib 冲突；迁移新 OS/ROS 版本应重新验证依赖、编译器和 DDS 行为。Gazebo 在此是安装依赖的旧 Classic 版本，不证明 AMD 有覆盖所有机器人学习/仿真的自有平台，仿真细节留待获批 05。@@KRS_Install@@
+
+### 18.2 KR260 感知部署和流水线收益
+
+实际 robotic perception deployment 页标 **2022.1**，Last updated 2026-08-13，使用 Ubuntu 22.04/Humble/Gazebo 11、`xlnx-firmware-kr260-perception` 和 app release `xlnx-rel-v2022.1_update4`。更新时间不是底层 release 年代。页面下载示例出现 1.3-1 包，而安装命令仍有 1.0-1 文件名；host/target 的 source 路径与 testing feed 也需核对，本文不宣称照抄命令已成功复建。@@KR260_Perception_Deploy@@
+
+示例对比 CPU 的 rectify/resize 与 FPGA `RectifyNodeFPGAStreamlined`、`ResizeNodeFPGAStreamlined`，把节点间 queue 放到 AXI4-Stream，使用 640×480 的自定义 rectification map。`xmutil unloadapp` / `xmutil loadapp kr260-perception` 管理指定 firmware 应用。**厂商称**总性能加速 24.42%，但本章未取得同条件完整 raw trace/复现记录；该示例只支持指定图像预处理链收益，不能当作 DNN/VLA、所有相机分辨率或整机动作成功率改善。@@KR260_Perception_Deploy@@
+
+KRS 实时指南讨论 TSN/tc、PREEMPT_RT、Xen/cache coloring 和 ROS 层的不同影响，并明确硬实时必须所有层都有界。相关技术可为系统设计提供方向，不能据网页或“real-time capable”表述得到目标机器人完整 WCET 证书。对包含 GPU/NPU 和传感器的链，还要验证设备排队、DMA、CPU fallback 和异常负载。KRS 文档仓库 LICENSE 为 Apache-2.0，仅覆盖该仓库，其他 `.repos`、固件、ROS 包及下载工具许可逐项核验。@@KRS_Realtime@@ @@KRS_License@@
+
+## 19. AMD Robotics Software Suite 与 Ross：尚不能合并为一套发行
+
+新 Kria AI developer platform 页面称将通过 AMD Robotics Software Suite、open SDK 和 ROCm 提供 Day-0 软件，页面仍为 Notify Me。本章在已取得官方页面及软件目录中未找到与该名称唯一对应的公开 release、BSP、模型 manifest 和准确版本组合。结论是**本章未取得可复建发行证据**；不能将“未取得”写成 AMD 从未提供，也不能用旧 KRS 或消费 Max+395 的支持矩阵填补 X199 的空缺。@@AMD_Kria_AI_Dev@@ @@AMD_ROCm_Compatibility@@
+
+Ross 是另一类产品：面向 FPGA/SoC 工程的 agentic assistant，结合 RAG、MCP 和 skills 与 Vivado/Vitis 工具交互。官方范围包括 Vivado 多版本与 Vitis HLS 2025.2+，某些 HLS skill 可直接通过 CLI 而不需 MCP；仓库描述月度更新和输出不确定性。它辅助工程定位/生成/操作，不是机器人本体的 perception/action runtime，也不证明自然语言输出可直接控制机器人。@@AMD_ROSS@@ @@AMD_Ross_Repository@@
+
+Ross 开源仓库 MIT 覆盖 skills/docs；MCP binary 需账户下载，Vivado/Vitis 仍适用自身许可。本文未安装 Ross、未调用其 tools/skills、未向工程发起自动操作。其建议还需要正常的设计检查、数值验证和板上测试，不能用助手生成成功替代硬件时序、模型精度或安全验收。@@AMD_Ross_Repository@@
+
+## 20. 完整追踪：VEK385 6.3 感知模型到机器人动作接口
+
+![AMD 官方 VEK385 参考系统流程](@@FIG:02_vek385_system@@)
+
+图来自 Gen2 reference design，显示模型准备/编译、板级软件与视频/NPU pipeline 的组织关系。图中的 AIE ELF/cache 是组成示意；具体交付产物以当前 6.3 Compiled Model Output 为准，默认 `.rai`。release notes 的 MIPI 摄像头→ISP/PL 前处理→NPU→CPU 后处理→DisplayPort 示例仅 VEK385 Rev-B，YOLOx/ResNet50 是视觉应用例子，**没有证明这张图已接入机器人关节执行器**。@@AMD_VitisAI_Gen2_Reference@@ @@AMD_VitisAI_Gen2_Output@@ @@AMD_VitisAI_Gen2_Release@@
+
+| 阶段 | 传递的产物 / 数据 | 官方路径与检验点 | 证据性质 |
+|---|---|---|---|
+| 模型源 | PyTorch 模型、权重、ONNX/external data | 固定版本/许可、opset、输入输出 | 官方导入流程；具体目标 VLA 未验证 |
+| 精度处理 | FP32、BF16/INT8 与 calibration 配置 | 用后端允许的 Quark 版本/方案；比较 task metric | 官方 compiler/quantization 路线，本文未量化 |
+| 离线编译 | target/config/model signature→`.rai`/cache | VAIML；检查 offload、CPU 分区和 resolved DP/TP | 官方 6.3 流程 |
+| 板级部署 | 6.3 image、SDK 编译应用、compiled model | Rev-A/B 区分；runtime/config 与目标一致 | 官方指南；未刷板 |
+| 摄像头与前处理 | MIPI/ISP/PL→VideoFrame→HW tensor | 颜色、mean/scale、layout、DMA/同步 | Rev-B 官方视觉链；具体相机/时间同步后续核验 |
+| 推理及后处理 | Runner/ORT→输出 tensor→原图框/类别 | job/ownership、量化、resize/crop 坐标恢复 | 官方 VART 开发指南 |
+| ROS/状态估计桥 | 带 timestamp/frame_id 的检测/3D观测 | 标定/融合、QoS、观测新鲜度 | **分析设计**，不是官方本体 demo |
+| 规划到动作 | 目标/轨迹→控制域→总线/执行器 | 单位/关节顺序、期限、watchdog/保护 | **分析设计**，需本体 SDK 与闭环实测 |
+
+前六阶段构成可查的软件开发链，后两阶段是具身集成所需的接口设计。每次请求都应保存 model hash、config hash、runtime/driver/image 版本和传感器元数据；不能只保存 `.rai` 并希望它在新板上自动完成相机标定、ROS 发布和轨迹控制。@@AMD_VitisAI_Gen2_Compile@@ @@AMD_VitisAI_Gen2_Deploy@@ @@AMD_VitisAI_VART_App@@
+
+**分析：**端到端预算可按 `T观测到命令 = T采集/ISP + T前处理 + T排队 + T推理 + T后处理/融合 + T规划 + T通信` 记账，各项还存在并行和共享资源，不能简单相加各自独立测试的 P99 得出系统 P99。用同一采集 timestamp 追踪发布/消费时间，测持续并发、首帧、热稳态、负载突增和故障恢复；只有取得整条系统 trace，才讨论目标策略频率、观测年龄和动作期限。这里没有填入虚构毫秒或成功率。
+
+## 21. Profiling、运维与许可：原型到生产还缺什么
+
+### 21.1 指标工具不是任务性能证明
+
+Ryzen AI NPU Analyzer 当前仅支持 BF16，明确不支持 INT8；ORT profiling 还能显示 CPU 层。工具把 cycles 换算为时间的 NPU clock 可编辑，应核对实际设备频率，不用默认频率推导所有功率模式的时延。`xrt-smi` 提供 examine/validate/configure；Linux estimated power 不可用，PHX/HPT 又不支持 GEMM 与功率项。例子的 latency 来自 noop，throughput 来自 shim DMA loopback，GEMM 是 full array 测试，51.3TOPS、84.2µs 等样例不是目标神经网络或机器人实测。@@AMD_RyzenAI_Analyzer@@ @@AMD_RyzenAI_SMI@@
+
+ROCm 的 SMI、Systems/Compute profiler 和 SDK 覆盖设备状态、系统 timeline、kernel counters 等不同维度；Vitis AI 的 compilation summary、runner sample 与应用 pipeline logs 也有不同范围。**分析：**核验时先定位 CPU fallback/shape 转换、copy、等待与并发，再优化 kernel。记录 batch、分辨率、精度、warmup、采样数、功率/clock、是否含预处理/RPC；仅看到设备 utilization 高不能判断机器人响应更快。@@AMD_ROCm_Compatibility@@ @@AMD_VitisAI_Gen2_Output@@ @@AMD_VitisAI_Gen2_Async@@
+
+### 21.2 EDF 明确没有承担生产 OSV 的长期维护责任
+
+EDF Production Deployment 指南明确：AMD 不是 OS vendor，不为 Versal/Zynq families 提供 production-grade software、长期软件更新/compliance attestation/SLA。EDF 没有 maintained production update feed、快速 CVE scanning、现成 production boot validation/key revocation 流程，超出 upstream support 后也不继续提供 kernel LTS。指南的 2026.1 base kernel 为 6.18，`linux-xlnx` source fork 是源码路径，不是有生产支持承诺的 OS。硬件长期供货不能填补这一责任。@@AMD_EDF_Production@@
+
+**分析：**量产可选择自行维护 Yocto 或与 OSV 合作，建立 kernel/driver/BSP backport、CVE triage、SBOM、签名 boot/rootfs/model、恢复测试与持续更新责任。RAUC、Mender、OSTree、swupdate 等是可考虑的外部路线，本文没有核验它们在目标 AMD board 上的完整集成，不能把这些名字列为 EDF 已交付的 OTA 服务。Linux 镜像、boot firmware、PL 硬件和模型需作为兼容组合滚动更新；发布/回退前要确认未完成 job、buffer、配置与设备状态的一致性。@@AMD_EDF_Production@@ @@AMD_EDF_Release@@
+
+### 21.3 许可按层核验
+
+| 层 | 已取得的官方许可证据 | 不能据此推出 | 放行时还要取得 |
+|---|---|---|---|
+| ROCm 文档与组件 | 文档 repo MIT；HIP MIT；组件 license 独立 | 所有 ROCm 包均 MIT / 同一分发条件 | 实际 wheel/DEB/container 的 notices、依赖 SBOM |
+| 编译/诊断工具 | kernel GPL-2.0、ROCgdb GPL-3.0、LLVM Apache 等 | 文档许可覆盖工具/二进制 | 具体 package 的完整 license 与来源 |
+| Ryzen AI binaries | AMD EULA Section 2.1：AMD systems 与有条件 redistribution | beta 包可与正式版同样分发 | 实际安装包 EULA/version；1.9 maturity/分发确认 |
+| Vitis Libraries / KRS docs | Apache-2.0（各自仓库） | KRS 所有 repos/固件或 Vivado IP 均 Apache | 逐仓库/firmware/IP license |
+| Vitis AI 工具与 NPU IP | Gen1 IP 与 Gen2 compiler/Vivado 许可；账户下载 | General Access 文档代表无需许可 | boot package EULA、third-party notices、模型许可 |
+| Ross | skills/docs MIT；MCP binary 另取 | Vivado/Vitis/MCP 全部 MIT | 已下载 binary/工具的正式条款 |
+| 模型/数据/资产/本体 SDK | 本章未逐模型/机器人核验 | 可运行即有商业训练/部署权 | 权重、代码、数据、tokenizer、资产、本体 SDK 分别核验 |
+
+ROCm license 页列出的混合许可不能用文档 repo MIT 统一概括，RCCL/hipCUB 等 custom 条目还需看包内许可。Ryzen AI EULA Section 5 对 alpha/beta/early access 的 pre-production software 限 evaluation，2.1.3/2.1.4 分发条款不适用；由于应用页仍写 1.9 beta，不能在未消歧前以普通 redistribution 条款放行量产。这是公开条文和文档状态形成的实际缺口，本文没有接受该 EULA。@@AMD_ROCm_Licenses@@ @@AMD_HIP_License@@ @@AMD_RyzenAI_Licenses@@ @@AMD_RyzenAI_App@@ @@KRS_License@@ @@AMD_VitisAI_Gen1_License@@ @@AMD_VitisAI_Gen2_License@@ @@AMD_Ross_Repository@@
+
+## 22. 本章结论、证据冲突与未完成验证
+
+**可查事实：**AMD 已有分别覆盖 GPU、x86 NPU、Arm 自适应 NPU/PL 的开发与 runtime 路线；P100 的 Linux NPU 系列级支持写入指南，VEK385 6.3 给出可追踪的编译、VART 和视觉 pipeline。**分析判断：**选型应先固定硬件/OS/driver/compiler/model 契约，再选 ONNX、C++ runtime 或 ROS 封装，不能从共同品牌和框架名称推导一个统一模型 engine 或量产机器人发行。@@AMD_RyzenAI_Linux@@ @@AMD_VitisAI_Gen2_Deploy@@ @@AMD_ROCm_Compatibility@@
+
+| 待核验点 | 原因分类 | 当前处理 / 下一步证据 |
+|---|---|---|
+| Ryzen AI 1.9 beta、驱动最低版本、EP 参数命名及仍标1.8的算子表 | 官方页冲突/残留 | 保留每页版本；取得实际包 release/兼容检查后决定部署组合 |
+| Embedded X100/X199 精确 GPU 支持 | 本章未取得 SKU 级矩阵条目 | 不由 Max+395 外推；要求目标 SKU、载板 BSP 和正式确认 |
+| Vitis AI Gen2 SDK env 与产物示意差异 | 文档残留/旧图 | 用真实安装 environment 和6.3输出指南，未擅自修正原件 |
+| 新 Robotics Software Suite 唯一发行 | 本章未取得可复建 release | 不用 KRS/Ross 替代；需 release/BSP/model manifest |
+| 动态 shape、VLA 全图与 workspace | 本章未做目标模型编译/实测 | 导出准确图、shape/输入契约，检查 fallback、内存/尾时延 |
+| 相机到 GPU/NPU 全链零拷贝与多路同步 | 尚无完整系统测量 | 逐边确认 DMA importer/layout/coherency，做持续并发 trace |
+| ROS→控制→执行器闭环收益 | 软件路径不等于本体适配 | 后续获批 03/06 核验具体相机、控制器和机器人案例 |
+| 长期 OS/OTA/许可与合规 | 官方责任边界及包未取得 | 自维护/OSV方案、更新/恢复实验、正式包许可与 SBOM |
+
+资料处理采用项目唯一 URL registry 和统一下载器，正文引用排除了 404 候选、JS redirect、API 跳转页和只有目录导航的壳页；这些无效候选保留在研究日志，不能充作厂商能力证据。成功归档的部分页面仍缺少 CSS、脚本、字体或其他静态依赖，下方逐源披露 `partial_static`，意味着可读正文及原响应已保存，不能声称离线交互或像素级完整。HIP managed-memory 原 SVG 含 `foreignObject`，未纳入本章已核验图集；本章使用的9张官方图均另行实际打开检查。自动结构/哈希/复用检查只能证明文档与归档一致，不证明软件功能、实机性能或语义绝对正确。

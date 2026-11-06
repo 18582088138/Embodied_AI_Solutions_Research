@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "02_ryzen_ai_stack",
+    "source_id": "AMD_RyzenAI_Docs",
+    "source_url": "https://ryzenai.docs.amd.com/en/latest/_images/rai-sw.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_RyzenAI_Docs--e9bfe555a77a6c76/assets/images/e52bacf73dbbec954dc1e74b.png",
+    "original_sha256": "170eb426cae4f919e22e86ab878e6631e631708d96a5de639b448764aaf74d70",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_ryzen_ai_stack.png",
+    "sha256": "170eb426cae4f919e22e86ab878e6631e631708d96a5de639b448764aaf74d70",
+    "operation": "原PNG无修改复制"
+  },
+  {
+    "slug": "02_vitis_design_flow",
+    "source_id": "AMD_Vitis_Product",
+    "source_url": "https://www.amd.com/content/dam/amd/en/images/charts/2772134-vitis-design-flow-chart.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_Vitis_Product--0d473c7ff82290bd/assets/images/ba6e3f13a8138e80377ebe26.png",
+    "original_sha256": "ef75223f4a5a5077673afd9ea097fe4e11f7aeb3ed0170009deaebd1da4f0692",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_vitis_design_flow.png",
+    "sha256": "ef75223f4a5a5077673afd9ea097fe4e11f7aeb3ed0170009deaebd1da4f0692",
+    "operation": "原PNG无修改复制"
+  },
+  {
+    "slug": "02_xrt_layers",
+    "source_id": "AMD_XRT_Docs",
+    "source_url": "https://xilinx.github.io/XRT/master/html/_images/XRT-Layers.svg",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_XRT_Docs--73f58c3ff923ef14/assets/images/861e3e2af14b99c9f3cba416.svg",
+    "original_sha256": "23f64448d1a17f4b21a5a11a0be869409dccc00f4f3113ec3d9f24288874b8a9",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_xrt_layers.png",
+    "sha256": "f09d768cce7854cad15490aff031b0ac7fadab5e7954f9e7414e720a4697dde1",
+    "operation": "ImageMagick MSVG渲染完整SVG；未裁剪"
+  },
+  {
+    "slug": "02_vart_ml_architecture",
+    "source_id": "AMD_VitisAI_Gen2_Architecture",
+    "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/_images/vart_ml_architecture.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Architectu--b867b657782bdc40/assets/images/b04b020fea3f85147dc3a4d5.png",
+    "original_sha256": "340714f3b60fac2f6318593b72dd18a68db74efd3affd5fc7ba31837b4c8fdaf",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_vart_ml_architecture.png",
+    "sha256": "340714f3b60fac2f6318593b72dd18a68db74efd3affd5fc7ba31837b4c8fdaf",
+    "operation": "原PNG无修改复制"
+  },
+  {
+    "slug": "02_vart_async",
+    "source_id": "AMD_VitisAI_Gen2_Async",
+    "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/_images/sync_vs_async_overlap.svg",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Async--a5b950f414554940/assets/images/c558d406e236198150fc4ce5.svg",
+    "original_sha256": "4385d81dfba2fe4c4362c867af146cad8d18f611392abb73fc6261eff232709d",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_vart_async.png",
+    "sha256": "28e388acc14b3dd9416f264f713aa9a706f9b430c4ac12f70af7d0ac8731f02d",
+    "operation": "ImageMagick MSVG渲染完整SVG；未裁剪"
+  },
+  {
+    "slug": "02_vek385_system",
+    "source_id": "AMD_VitisAI_Gen2_Reference",
+    "source_url": "https://vitisai.docs.amd.com/projects/gen2/en/latest/_images/system-flow.png",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD_VitisAI_Gen2_Reference--1f9caa805643de0a/assets/images/05f3ecd120a65b5ab441e906.png",
+    "original_sha256": "f7b9c6bb2ef8a26ddf799b7f923f037f9b50c69bb3fb28a832879c3b82530890",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_vek385_system.png",
+    "sha256": "f7b9c6bb2ef8a26ddf799b7f923f037f9b50c69bb3fb28a832879c3b82530890",
+    "operation": "原PNG无修改复制"
+  },
+  {
+    "slug": "02_edf_stack",
+    "source_id": "AMD_EDF_Overview_PDF",
+    "source_url": "https://www.amd.com/content/dam/amd/en/documents/products/software-tools/embedded-development-framework-product-overview.pdf",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_EDF_Overview_PDF--a24a3e9e38348fb8/document.pdf",
+    "original_sha256": "4e9a1f83bb22731b118c78b1d43fbfed80265a50db6ea16c12c95624697adfc0",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_edf_stack.png",
+    "sha256": "b99905eb91955f8da6e50737ff913c4bb9976c4faa153ac8058d5d7b9b8f59e9",
+    "operation": "Poppler 150dpi完整渲染PDF第16页；未裁剪"
+  },
+  {
+    "slug": "02_edf_artifacts",
+    "source_id": "AMD_EDF_Overview_PDF",
+    "source_url": "https://www.amd.com/content/dam/amd/en/documents/products/software-tools/embedded-development-framework-product-overview.pdf",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_EDF_Overview_PDF--a24a3e9e38348fb8/document.pdf",
+    "original_sha256": "4e9a1f83bb22731b118c78b1d43fbfed80265a50db6ea16c12c95624697adfc0",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_edf_artifacts.png",
+    "sha256": "b54e4f247db3d8534859597033fd1b2dddcd2625b6f91530e8cb991111521701",
+    "operation": "Poppler 150dpi完整渲染PDF第20页；未裁剪"
+  },
+  {
+    "slug": "02_shel_flow",
+    "source_id": "AMD_EDF_Overview_PDF",
+    "source_url": "https://www.amd.com/content/dam/amd/en/documents/products/software-tools/embedded-development-framework-product-overview.pdf",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/documents/AMD_EDF_Overview_PDF--a24a3e9e38348fb8/document.pdf",
+    "original_sha256": "4e9a1f83bb22731b118c78b1d43fbfed80265a50db6ea16c12c95624697adfc0",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/derived/figures/02_shel_flow.png",
+    "sha256": "f75b9fdad9f1cd59b30fd0f6d29112a9cb05efe1e44273e3d3e1bdec2db2369c",
+    "operation": "Poppler 150dpi完整渲染PDF第24页；未裁剪"
+  }
+]

@@ -1,0 +1,468 @@
+[
+  {
+    "source_id": "AMD05_Genesis_Blog",
+    "number": "S01",
+    "title": "Genesis Blog",
+    "version": "2026-02-09 AMD教程，Ubuntu24.04",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/rocm-genesis/README.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Blog--833e99588fd2f430/index.html",
+    "sha256": "4edba28100f290cb54ce20f0a0e44d421cfb05f3ba31aef9ee50882fed1ee2d8",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Blog--833e99588fd2f430/original.response",
+    "original_sha256": "69d495aa3772d826d12db0c482a2bb483cb2f4dac946c85fb4fe953a04409cee",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Blog--833e99588fd2f430/metadata.json",
+    "collected_at": "2026-11-04T08:15:42.878682+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://rocm.blogs.amd.com/_static/js/performance.js": "HTTPError: HTTP Error 404: Not Found",
+      "https://rocm.blogs.amd.com/_static/js/image-loading.js": "HTTPError: HTTP Error 404: Not Found",
+      "https://cdn.plot.ly/plotly-2.32.0.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://rocm.blogs.amd.com/_static/js/giscus_theme.js?v=5a84b2f4": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD05_Genesis_Repo",
+    "number": "S02",
+    "title": "Genesis Repo",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://github.com/Genesis-Embodied-AI/Genesis",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Repo--7cd63f6eb91eefb0/index.html",
+    "sha256": "43ce4d609a24bfbaad29f7ea6eaba90ecd582de4c9e7b9fdf64afef91c6f3613",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Repo--7cd63f6eb91eefb0/original.response",
+    "original_sha256": "411716d5ed829107dfed388875a9eff0fdac2490eff86d33b70a858a15b6d767",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Repo--7cd63f6eb91eefb0/metadata.json",
+    "collected_at": "2026-11-04T08:15:50.811239+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist.",
+      "https://camo.githubusercontent.com/4ab7ff03f0d5c362b3395643e699d06a82b393e6415e05ed95ef9f1fc6af3e30/68747470733a2f2f6170702e72656164746865646f63732e6f72672f70726f6a656374732f67656e657369732d776f726c642f62616467652f3f76657273696f6e3d6c6174657374": "HTTPError: HTTP Error 502: Bad Gateway"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD05_Genesis_Docs",
+    "number": "S03",
+    "title": "Genesis Docs",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://genesis-world.readthedocs.io/en/latest/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Docs--5236cc66f04a1f38/index.html",
+    "sha256": "09a6b425714f3b2773f4cbaad2f4280969ee662f668272a9bd7370910a2d03d2",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Docs--5236cc66f04a1f38/original.response",
+    "original_sha256": "b037917ce361af7381246a0cee32ad2f75ee72d950f8a6106b787c7c5483a35f",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Genesis_Docs--5236cc66f04a1f38/metadata.json",
+    "collected_at": "2026-11-04T08:24:45.057031+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Model05_NVIDIA_08_DEEP_MUJOCO_MJX",
+    "number": "S04",
+    "title": "MuJoCo MUJOCO MJX",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://mujoco.readthedocs.io/en/stable/mjx.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Model05_NVIDIA_08_DEEP_MUJO--63a58dbcc0c84e67/index.html",
+    "sha256": "e8e1601c320ac1ae68b69db1c14ba22ab63c71fe4feabc3202b440b0fa873494",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Model05_NVIDIA_08_DEEP_MUJO--63a58dbcc0c84e67/original.response",
+    "original_sha256": "cf262f7b90455325ea10e6de0df15e559d7338ee2e6303531615e46ebadcd4ec",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Model05_NVIDIA_08_DEEP_MUJO--63a58dbcc0c84e67/metadata.json",
+    "collected_at": "2026-11-04T02:57:19.349351+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://colab.research.google.com/assets/colab-badge.png": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD05_Gazebo_Docs",
+    "number": "S05",
+    "title": "Gazebo Docs",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://gazebosim.org/docs/harmonic/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_Docs--75facbfa5f616eeb/index.html",
+    "sha256": "2e877aedc6f6ebfd49cd7b287260a3676b03d544aba7faaffc8a4d5fa89371aa",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_Docs--75facbfa5f616eeb/original.response",
+    "original_sha256": "5a0c5024279447f879427cab61eba04db7874cb0f4cc04f1b0260e3ac39db73e",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_Docs--75facbfa5f616eeb/metadata.json",
+    "collected_at": "2026-11-04T08:19:25.288916+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD05_O3DE_Concepts",
+    "number": "S06",
+    "title": "O3DE Concepts",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://docs.o3de.org/docs/user-guide/interactivity/robotics/concepts-and-components-overview/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Concepts--9a91d4bceee4cda9/index.html",
+    "sha256": "961f4c40e59e2b85dc99a9e3cac5441b8232328fa4a267df9652ecaf211768b6",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Concepts--9a91d4bceee4cda9/original.response",
+    "original_sha256": "f6979af0a81ea181f63bd6983ee31f7730a694a486f79cf24c3252624a60fc50",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Concepts--9a91d4bceee4cda9/metadata.json",
+    "collected_at": "2026-11-04T08:19:01.025796+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/ua-parser-js@0.7.25/src/ua-parser.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/mermaid@9.2.2/dist/mermaid.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "KRS_Install",
+    "number": "S07",
+    "title": "KRS Install",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://xilinx.github.io/KRS/sphinx/build/html/docs/install.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Install--a6a9705f586b43ec/index.html",
+    "sha256": "39f91890263858d0ed3de9069d77d1876b617054d628527ac9cec2d5d2ed6cc4",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Install--a6a9705f586b43ec/original.response",
+    "original_sha256": "7d853f7ad2522b50eb267e4605b137ca0897dfb7433ec87235e94eb8f8c22586",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/KRS_Install--a6a9705f586b43ec/metadata.json",
+    "collected_at": "2026-11-04T05:30:42.682471+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://xilinx.github.io/KRS/sphinx/build/html/_static/_static/custom.css": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD05_AUP_Repo",
+    "number": "S08",
+    "title": "AUP Repo",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://github.com/AMDResearch/aup-learning-cloud",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_AUP_Repo--f0234b6590b813e3/index.html",
+    "sha256": "a61c23e914e450fcef3404a21fe0c70e370a092a6c6916673749b83ad7fae92c",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_AUP_Repo--f0234b6590b813e3/original.response",
+    "original_sha256": "508d7e522a638fc4b4bcc45bba229156331e6c9506abbe1934639a9d8ce4b1ab",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_AUP_Repo--f0234b6590b813e3/metadata.json",
+    "collected_at": "2026-11-04T08:16:11.794139+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist.",
+      "https://github.com/AMDResearch/aup-learning-cloud/raw/main/deploy/docs/images/software-stack.png": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD05_Mujoco_Overview",
+    "number": "S09",
+    "title": "Mujoco Overview",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://mujoco.readthedocs.io/en/stable/overview.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Mujoco_Overview--745c39f10cd62e88/index.html",
+    "sha256": "73b9c9e784f800fffbad971a217a7cec74fda186313f2651dfffa7ea65d20d16",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Mujoco_Overview--745c39f10cd62e88/original.response",
+    "original_sha256": "311692edda53193e522e0ce5f50adea0e90e049e525718ab70148889d4941af2",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Mujoco_Overview--745c39f10cd62e88/metadata.json",
+    "collected_at": "2026-11-04T08:19:38.997089+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD06_XArm_Sim2Real",
+    "number": "S10",
+    "title": "AMD06 XArm Sim2Real",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/sim2real-rl-instinct/README.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_Sim2Real--37d8fa71a673eba0/index.html",
+    "sha256": "ac3cf30b2250c4b4d4df11d8368e935e1eccbcce9fa29b3a46c164c8504cdd12",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_Sim2Real--37d8fa71a673eba0/original.response",
+    "original_sha256": "9ac6aec8a0d4e672f61f91a1c849485c68f3aa53d61738bbe53ce6029a2039ed",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_Sim2Real--37d8fa71a673eba0/metadata.json",
+    "collected_at": "2026-11-04T08:34:00.531667+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://rocm.blogs.amd.com/_static/js/performance.js": "HTTPError: HTTP Error 404: Not Found",
+      "https://rocm.blogs.amd.com/_static/js/image-loading.js": "HTTPError: HTTP Error 404: Not Found",
+      "https://cdn.plot.ly/plotly-2.32.0.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://rocm.blogs.amd.com/_static/js/giscus_theme.js?v=5a84b2f4": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "Model05_NVIDIA_08_DEEP_MUJOCO_COMPUTATION",
+    "number": "S11",
+    "title": "MuJoCo MUJOCO COMPUTATION",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://mujoco.readthedocs.io/en/stable/computation/index.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Model05_NVIDIA_08_DEEP_MUJO--50bc861c2b70fd1e/index.html",
+    "sha256": "7f7cc095087b5da216e49f7ea73f6702ab19b0a921e423d0c38736d540c1542e",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Model05_NVIDIA_08_DEEP_MUJO--50bc861c2b70fd1e/original.response",
+    "original_sha256": "d0de3b83098ad6da53968420ff1fff6b40026c69d6b61ed375b3956195649ade",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/Model05_NVIDIA_08_DEEP_MUJO--50bc861c2b70fd1e/metadata.json",
+    "collected_at": "2026-11-04T02:58:05.335309+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD06_XArm_JAX",
+    "number": "S12",
+    "title": "AMD06 XArm JAX",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://rocm.blogs.amd.com/artificial-intelligence/rocm-jax-mujoco/README.html",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_JAX--8ad2ab2e7556d87d/index.html",
+    "sha256": "f21f9658b6c3183043c38a35f0f11309be2156e94535cddecc7ea2da77d31a95",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_JAX--8ad2ab2e7556d87d/original.response",
+    "original_sha256": "6e1e6d54b041182933a01dd5fb5ed16c1d7ebb946703c19c8e2a418b94272d8d",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD06_XArm_JAX--8ad2ab2e7556d87d/metadata.json",
+    "collected_at": "2026-11-04T08:34:05.144509+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://rocm.blogs.amd.com/_static/js/performance.js": "HTTPError: HTTP Error 404: Not Found",
+      "https://rocm.blogs.amd.com/_static/js/image-loading.js": "HTTPError: HTTP Error 404: Not Found",
+      "https://cdn.plot.ly/plotly-2.32.0.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://rocm.blogs.amd.com/_static/js/giscus_theme.js?v=5a84b2f4": "ValueError: asset returned HTML rather than image/style/script/font"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD05_Gazebo_Sensors",
+    "number": "S13",
+    "title": "Gazebo Sensors",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://gazebosim.org/docs/harmonic/sensors/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_Sensors--88ad3a901e3c8187/index.html",
+    "sha256": "2eab6c8e8a991082c97acc9fc1b3f03ee2d24650e00d540e68fd5a9d709f11ea",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_Sensors--88ad3a901e3c8187/original.response",
+    "original_sha256": "97cb7474fd7fadcc909191a246632fb68157e0ff29a524d2b4d15fec2dc177ea",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_Sensors--88ad3a901e3c8187/metadata.json",
+    "collected_at": "2026-11-04T08:24:23.055951+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD05_Gazebo_ROS",
+    "number": "S14",
+    "title": "Gazebo ROS",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://gazebosim.org/docs/harmonic/ros2_integration/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_ROS--a3cce413441e10e6/index.html",
+    "sha256": "c1ae21874573242b0bd172fdc397171d64813c81393dad9b6da239da6aab86ec",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_ROS--a3cce413441e10e6/original.response",
+    "original_sha256": "a2b607341db738f3fe07b818a9bdddc57c4d230e380c2579c8fc44e842c9f33c",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_ROS--a3cce413441e10e6/metadata.json",
+    "collected_at": "2026-11-04T08:24:26.481084+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD05_Gazebo_Migration",
+    "number": "S15",
+    "title": "Gazebo Migration",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://gazebosim.org/docs/harmonic/migrating_gazebo_classic_ros2_packages/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_Migration--9bc18e7e70f7e0cc/index.html",
+    "sha256": "96b4c385bc3d4e56f1e60c624ca63464e5c0c4adde970c976ef586d1e3f1150d",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_Migration--9bc18e7e70f7e0cc/original.response",
+    "original_sha256": "4c5190d63906126588db7fada1f1f069b4b983bac125abbd552fd32b6067bd56",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_Gazebo_Migration--9bc18e7e70f7e0cc/metadata.json",
+    "collected_at": "2026-11-04T08:24:31.716300+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {},
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD05_O3DE_Import",
+    "number": "S16",
+    "title": "O3DE Import",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://docs.o3de.org/docs/user-guide/interactivity/robotics/importing-robot/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Import--512508c9491343cf/index.html",
+    "sha256": "8733631060d0575bc9ceec34ed8222b0e9a4b6cd9c5db5821997499428b5d652",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Import--512508c9491343cf/original.response",
+    "original_sha256": "6519fea51e698fc9c94a078a88b0f40e1cccbbea9276a32c9554a16e10d51cf2",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Import--512508c9491343cf/metadata.json",
+    "collected_at": "2026-11-04T08:19:09.729426+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/ua-parser-js@0.7.25/src/ua-parser.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/mermaid@9.2.2/dist/mermaid.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD05_O3DE_Physics",
+    "number": "S17",
+    "title": "O3DE Physics",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://docs.o3de.org/docs/user-guide/interactivity/physics/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Physics--aade0809b0c8abc4/index.html",
+    "sha256": "d742deb828639656dd6d251c845d6a13a8cf05822cc48256c84e379f94a1b620",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Physics--aade0809b0c8abc4/original.response",
+    "original_sha256": "4944b6e078ce24674de2f2fba4c92eeac68ee898454d6b325e81597488dd516e",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Physics--aade0809b0c8abc4/metadata.json",
+    "collected_at": "2026-11-04T08:19:16.947938+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/ua-parser-js@0.7.25/src/ua-parser.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/mermaid@9.2.2/dist/mermaid.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD05_O3DE_Materials",
+    "number": "S18",
+    "title": "O3DE Materials",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://docs.o3de.org/docs/user-guide/interactivity/physics/nvidia-physx/materials/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Materials--2ebcdcfcd8d668fe/index.html",
+    "sha256": "5ba0f3475f33e22a59e4ab4f5a5c800c47b679928dc7fcd70648d41bb93dd376",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Materials--2ebcdcfcd8d668fe/original.response",
+    "original_sha256": "67c6168d8b9efc4f57f94543a6ab1c7de43f0f8ffabb0ada11d397932c1d7bb9",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Materials--2ebcdcfcd8d668fe/metadata.json",
+    "collected_at": "2026-11-04T08:24:39.860677+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/ua-parser-js@0.7.25/src/ua-parser.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/mermaid@9.2.2/dist/mermaid.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD05_O3DE_Time",
+    "number": "S19",
+    "title": "O3DE Time",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://docs.o3de.org/docs/user-guide/interactivity/robotics/simulation-time/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Time--79a73df6b5a51252/index.html",
+    "sha256": "ca6279e9c5c965e6d2ec35f1ba0154cb0a6236545099a55a5da26618c9d59389",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Time--79a73df6b5a51252/original.response",
+    "original_sha256": "e274ab19364ef9cd91ffe8efd666b7b4aa8ed4e6c8fe25a00c9e1a5da6ede6e0",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Time--79a73df6b5a51252/metadata.json",
+    "collected_at": "2026-11-04T08:24:37.438725+00:00",
+    "archive_status": "complete_static",
+    "unavailable_assets": {
+      "https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/ua-parser-js@0.7.25/src/ua-parser.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/mermaid@9.2.2/dist/mermaid.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  },
+  {
+    "source_id": "AMD05_RGL_Repo",
+    "number": "S20",
+    "title": "RGL Repo",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://github.com/RobotecAI/o3de-rgl-gem",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_RGL_Repo--63e43ff5a8c0426e/index.html",
+    "sha256": "fa882a6950ababc1225acf12759f85cd824b2623e531638584fc56771c24ece8",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_RGL_Repo--63e43ff5a8c0426e/original.response",
+    "original_sha256": "32eb8235bd9bd46aefc0f9ca7a0a814b405ce52ca9484e53b1fbfdbaf1518593",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_RGL_Repo--63e43ff5a8c0426e/metadata.json",
+    "collected_at": "2026-11-04T08:19:21.007366+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://github.githubassets.com/assets/images/modules/signup/icons/alert-fill-12.svg": "HTTPError: HTTP Error 404: The requested content does not exist.",
+      "https://github.com/RobotecAI/o3de-rgl-gem/raw/development/static/gif/rgl_gem_preview1.gif": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://github.com/RobotecAI/o3de-rgl-gem/raw/development/static/gif/rgl_gem_preview2.gif": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://github.com/RobotecAI/o3de-rgl-gem/raw/development/static/png/usage_instruction1.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://github.com/RobotecAI/o3de-rgl-gem/raw/development/static/png/usage_instruction2.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://github.com/RobotecAI/o3de-rgl-gem/raw/development/static/png/usage_instruction3.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://github.com/RobotecAI/o3de-rgl-gem/raw/development/static/png/lidar_sphere.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://github.com/RobotecAI/o3de-rgl-gem/raw/development/static/png/excluded_entities1.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://github.com/RobotecAI/o3de-rgl-gem/raw/development/static/png/excluded_entities2.png": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://github.com/RobotecAI/o3de-rgl-gem/raw/development/static/png/excluded_entities3.png": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline."
+    ]
+  },
+  {
+    "source_id": "AMD05_O3DE_Robotics",
+    "number": "S21",
+    "title": "O3DE Robotics",
+    "version": "官方归档快照；正文标注组件/版本，采集时间不等发布时间",
+    "url": "https://o3de.org/industries/robotics-and-simulations/",
+    "file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Robotics--7c0bbc26d0dd5129/index.html",
+    "sha256": "6ad9f07a01e86595cf4f994267b173d9deacf7cdf4bce4e10054bfade1296d05",
+    "original_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Robotics--7c0bbc26d0dd5129/original.response",
+    "original_sha256": "568217f47ba09902b5e8ab4d7168c17ccac04f854b73a300384c63df0b6bae42",
+    "metadata_file": "01_Compute_Chips/10_AMD/reference_metrial/webpages/AMD05_O3DE_Robotics--7c0bbc26d0dd5129/metadata.json",
+    "collected_at": "2026-11-04T08:18:23.594464+00:00",
+    "archive_status": "partial_static",
+    "unavailable_assets": {
+      "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css?ver=7.1.3": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css?ver=7.1.3": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js?ver=7.1.3": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://lfx-segment.platform.linuxfoundation.org/latest/lfx-segment-analytics.min.js": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "https://js.stripe.com/v3/": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "notes": [
+      "Executable scripts present: live interaction, API-fetched content, and media are not guaranteed offline.",
+      "Embedded external frames/media are not recursively archived; review them separately."
+    ]
+  }
+]

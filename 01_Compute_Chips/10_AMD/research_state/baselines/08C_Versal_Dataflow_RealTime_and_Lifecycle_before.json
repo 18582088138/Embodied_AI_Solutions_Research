@@ -1,0 +1,18 @@
+{
+  "01_Hardware_Platform.md": "9ef3c3adbe7bbc9c2cc7d1ed9a957ad3e694465f7de1744dcf910b4ea59d50f5",
+  "02A_GPU_Execution_and_Deployment.md": "9b3c85a3b432671d30c2b1722bc623b37baf9e5e2594b909cf149b210b5f9ace",
+  "02B_RyzenAI_Compilation_and_Quantization.md": "b2c2d379dc757e709f7988fe2b76159b3f4603b3a3d8dafc95d98dae7ef4108a",
+  "02C_Versal_Compiler_and_Runtime.md": "90d327409fd1c475f353162876b61f069b187290264c7a5bd641e2fe6f1d987d",
+  "02D_EDF_BSP_and_Execution_Domains.md": "14470d22c61bb624d604908493d7afa2829f42ec25c3e92548314bd42d0f1d24",
+  "02E_ROS_Acceleration_and_System_Integration.md": "807f862590ce320bf7a6b09ab92fc51b86b1331658abdf105507d3a1d88aab71",
+  "02_Software_Stack.md": "2b38efc2bd08b7d7892d5cca35bfdc211fa3290bace926caf162fbddf94d0267",
+  "02_Topics_Index.md": "085bdc0a9b0c7eb3f56fb7b24ac920615c2a89cb1870625a3e07e86ebd01ea4a",
+  "03_Sensor_Integration.md": "3a15ab70a5929f398cde4170bd41c682212b24077afa59d8d0784668dcebb9e1",
+  "04_AI_Capabilities.md": "a511fabd82a59e615cb667da35dd2d481bc52620edf781f4793771580882d845",
+  "05_Simulation_Environment.md": "b1c89fb3e328cd61e548e2818dc1f245e2ce7fe9924f4075ad9a6e28857ed772",
+  "06_Robot_Integration.md": "2e2fa8a474f209a457b5bcc912d37a3904d9051892249c76e02667c64b4151d3",
+  "07_Ecosystem.md": "9ddbb2d80c362e9bd5445423deb7ab70ec3c9e99e502ac57873c289fb6a567af",
+  "08A_GPU_Memory_and_Execution.md": "77bf176e936964588d9023226e15ab638e84dc36960fec896af89cb53eca4aa7",
+  "08B_XDNA_Numerics_and_Dataflow.md": "0ba000899112d7a40fb3e8993763a85334e88a20c6eb768779fc81dd27106191",
+  "README.md": "12b0c2844c65ff305de7d207a533e3b8e3214bd82e3e08071cd2eef71eaa06cd"
+}

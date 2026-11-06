@@ -1,0 +1,11 @@
+{
+  "url": "https://mujoco.readthedocs.io/en/stable/computation/index.html",
+  "status": 200,
+  "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_MUJOCO_COMPUTATI--50bc861c2b70fd1e/original.response",
+  "sha256": "d0de3b83098ad6da53968420ff1fff6b40026c69d6b61ed375b3956195649ade",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "final_url": "https://mujoco.readthedocs.io/en/stable/computation/index.html",
+  "retrieved_at_utc": "2026-11-04T02:58:05.335309+00:00"
+}

@@ -1,0 +1,18 @@
+from topic_helpers import *
+rows,a=rowset();stem='08B_XDNA_Numerics_and_Dataflow'
+for n,c in [('complements mainstream inference tooling','IRON补充主流推理'),('match the mlir_aie wheel','源码wheel对应'),('does not exactly match','版本不匹配风险'),('Peano','开源单核工具'),('Early Access','保留旧EA路径')]:a('AMD08_IRON_Repo',n,c,'README','事实','2026-11-04 main网页快照','不等目标Embedded BSP或已安装release')
+for n,c in [('JIT-compiles on first call','首次调用编译'),('tile placement','可编程对象')]:a('AMD08_IRON_Latest_Home',n,c,'Home','事实','latest快照')
+for n,c in [('4 × 4','AIE2阵列'),('8 × 4','AIE2P阵列'),('rule-of-thumb','容量/周期估计'),('~64 KB','本地存储约值'),('~512 KB','L2约值')]:a('AMD08_IRON_Architecture',n,c,'Architecture Reference','事实','具体device class','估计非datasheet精确时延；不推广全部SKU')
+for n,c in [('hidden zeroth-column','Phoenix隐藏列'),('not part of the actively-tested','Versal测试边界')]:a('AMD08_IRON_Devices',n,c,'Devices','事实','main快照')
+for n,c in [('A16W8: Uses symmetric INT16','激活/权重格式'),('A8W8 provides better performance','通常性能趋势')]:a('AMD_Quark_A16W8',n,c,'量化指南','厂商宣称','2026-09-28更新','不是目标VLA实测')
+a('AMD_Quark_XINT8','Power-of-Two','XINT8 scale')
+for n,c in [('depth: int | None = 2','默认双buffer'),('one producer','单producer'),('back-to-back','重复acquire'),('oldest to youngest','释放顺序'),('direct shared memory access','共享访问条件'),('Transport.dma(packet=Packet())','packet传输'),('disable_synchronization','去同步的边界'),('to_stream','布局参数')]:a('AMD08_IRON_Dataflow',n,c,'ObjectFIFO指南','事实','latest快照','逻辑顺序不等无拷贝/吞吐/P99')
+for n,c in [('issue_token: bool = False','token默认关闭'),('6 times','多维BD重复'),('race condition','提前回收竞态'),('4 on AIE2','queue深度'),('The queue does not backpressure','满队列丢提交'),('14 back-to-back pushes','consumer相关失败例子'),('live queue occupancy','编译器poll'),('oldest outstanding completion token','channel等待顺序')]:a('AMD08_IRON_DMA',n,c,'DMA Tasks','事实','latest Strix/AIE2例子','缺完整测量配置，不作benchmark/硬实时证据')
+for n,c in [('CompileTime[T]','编译参数'),('recipe_hash','配置缓存'),('artifact_hash','产物缓存'),('silently skipped','校验被跳过'),('no tensor-arg validation','外部产物无校验'),('A PDI is not a standalone run input','PDI非直接输入'),('same XRT hw_context','context复用')]:a('AMD08_IRON_Compile',n,c,'Compilation Stages','事实','latest快照','缓存路径不等线上deadline与语义正确')
+a('AMD08_IRON_Routing','path length','路由编译指标','Routing','事实','latest','非推理时延')
+a('AMD08_IRON_License','Apache License v2.0 with LLVM Exceptions','源码许可')
+a('AMD_RyzenAI_Licenses','Licenses','SDK分层许可')
+a('AMD08_IRON_Paper','~26% average reduction in lines of code','论文表达效率','Abstract','厂商/作者宣称','arXiv2504.18430v1，2025-04-25','仅取得摘要，不等硬件加速/功耗结果')
+prepare(stem,rows,dict(coverage='XDNA阵列/数值与量化边界、FIFO/布局/路由、DMA token/queue/BD、JIT/cache/外部artifact、版本/许可/竞品条件逐节深入。',versions_and_measurements='AIE2队列4深度及Strix例子取自归档指南；非完整benchmark；约L1/L2是rule-of-thumb；latest/main不当目标SDK。',maturity_and_licenses='IRON定位补充主流推理，Apache2+LLVM例外不能泛化专有工具/firmware/模型；Embedded BSP与实机证据未取得。',figures_opened='已逐张实际打开官方AcquireRelease.png与ComputeTile.png，读出对象顺序和core/DMA共享memory关系；未裁剪。',missing_materials='新增layout/lowering/tracing/XDNA产品页因robots检查连接失败未取得；未列为有效引用；已有官方FIFO/DMA/编译/路由资料支撑本文。'),{'AMD08_IRON_Paper':dict(title='IRON程序接口论文摘要',version='arXiv2504.18430v1，2025-04-25；仅摘要页'), 'AMD08_IRON_Repo':dict(title='IRON官方源码与安装说明',version='2026-11-04采集main快照；实际release另验')})
+figure('08','b_fifo','AMD08_IRON_Dataflow','AcquireRelease.png',True)
+figure('08','b_tile','AMD08_IRON_Dataflow','assets/ComputeTile.png',True)

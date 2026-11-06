@@ -1,0 +1,11 @@
+{
+  "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/examples/libero/README.md",
+  "status": 200,
+  "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_OPENPI_LIBERO--e0c2cad03f683ff0/original.response",
+  "sha256": "a2caaf5459c4b01837b73aa93a6f69e8cdf10385b39c34eba36afa85f83fafe9",
+  "headers": {
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "final_url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/examples/libero/README.md",
+  "retrieved_at_utc": "2026-11-04T02:11:25.667608+00:00"
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "name": "AMD_HIP_Model",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/understand/programming_model.html",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "AMD08_CDNA4_Whitepaper",
+    "url": "https://www.amd.com/content/dam/amd/en/documents/instinct-tech-docs/white-papers/amd-cdna-4-architecture-whitepaper.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "AMD08_MI350_Architecture",
+    "url": "https://rocm.docs.amd.com/en/latest/reference/gpu-arch/mi350.html",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "AMD08_CK_GEMM",
+    "url": "https://rocm.docs.amd.com/projects/composable_kernel/en/latest/conceptual/ck_tile/hardware/gemm_optimization.html",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "AMD08_CK_LDS",
+    "url": "https://rocm.docs.amd.com/projects/composable_kernel/en/latest/conceptual/ck_tile/hardware/lds_bank_conflicts.html",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "AMD08_HipBLASLt",
+    "url": "https://rocm.docs.amd.com/projects/hipBLASLt/en/latest",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "AMD08_HipBLASLt_Tune",
+    "url": "https://rocm.docs.amd.com/projects/hipBLASLt/en/latest/how-to/how-to-use-hipblaslt-offline-tuning.html",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "Compare_TRT_Builder",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_Isolation",
+    "url": "https://rocm.docs.amd.com/en/latest/reference/system-optimization/gpu-isolation.html",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Memory",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/unified_memory.html",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Coherence",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/coherence_control.html",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Graphs",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/hipgraph.html",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_GraphSafe",
+    "url": "https://rocm.docs.amd.com/en/latest/reference/graph-safe-support.html",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "AMD_HIP_Allocator",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/memory_management/stream_ordered_allocator.html",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "AMD_vLLM_Optimization",
+    "url": "https://rocm.docs.amd.com/projects/ai-ecosystem/en/latest/optimization/vllm-v1-optimization.html",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "Compare_CUDA_Graphs",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/cuda-graphs.html",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "Compare_TRT_Quant",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "AMD_HIPIFY_Docs",
+    "url": "https://rocm.docs.amd.com/projects/HIPIFY/en/latest/",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "AMD_HIP_License",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/license.html",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  },
+  {
+    "name": "AMD_ROCm_Licenses",
+    "url": "https://rocm.docs.amd.com/en/latest/about/license.html",
+    "expected": "html",
+    "used_by": [
+      "08A_GPU_Memory_and_Execution"
+    ]
+  }
+]

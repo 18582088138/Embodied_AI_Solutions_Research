@@ -1,0 +1,9 @@
+[
+ {"name":"AMD08_IRON_Latest_Home","url":"https://xilinx.github.io/mlir-aie/latest/","expected":"html","used_by":["08B_XDNA_Numerics_and_Dataflow"]},
+ {"name":"AMD08_IRON_Latest_Guide","url":"https://xilinx.github.io/mlir-aie/latest/programming_guide/","expected":"html","used_by":["08B_XDNA_Numerics_and_Dataflow"]},
+ {"name":"AMD08_IRON_Dataflow","url":"https://xilinx.github.io/mlir-aie/latest/programming_guide/section-2/section-2a/","expected":"html","used_by":["08B_XDNA_Numerics_and_Dataflow"]},
+ {"name":"AMD08_IRON_DMA","url":"https://xilinx.github.io/mlir-aie/latest/programming_guide/section-2/section-2d/DMATasks/","expected":"html","used_by":["08B_XDNA_Numerics_and_Dataflow"]},
+ {"name":"AMD08_IRON_Compile","url":"https://xilinx.github.io/mlir-aie/latest/programming_guide/compilation_stages/","expected":"html","used_by":["08B_XDNA_Numerics_and_Dataflow"]},
+ {"name":"AMD08_IRON_Routing","url":"https://xilinx.github.io/mlir-aie/latest/programming_guide/routing/","expected":"html","used_by":["08B_XDNA_Numerics_and_Dataflow"]},
+ {"name":"AMD08_IRON_Paper","url":"https://arxiv.org/abs/2504.18430","expected":"html","used_by":["08B_XDNA_Numerics_and_Dataflow"]}
+]

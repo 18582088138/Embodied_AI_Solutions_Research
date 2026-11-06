@@ -1,0 +1,5 @@
+[
+ {"name":"AMD05_Genesis_Blog","url":"https://rocm.blogs.amd.com/artificial-intelligence/rocm-genesis/README.html","expected":"html"},
+ {"name":"AMD05_Genesis_Repo","url":"https://github.com/Genesis-Embodied-AI/Genesis","expected":"html"},
+ {"name":"AMD05_AUP_Repo","url":"https://github.com/AMDResearch/aup-learning-cloud","expected":"html"}
+]

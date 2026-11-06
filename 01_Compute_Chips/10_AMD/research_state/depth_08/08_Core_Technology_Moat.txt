@@ -1,0 +1,63 @@
+# 08 AMD 核心技术护城河：能力地图与成立条件
+
+资料截止2026-11-04。AMD具身平台的核心积累可以分为GPU通用并行与数值格式、XDNA片上数据流、Versal可编程异构系统，以及软硬件交付生态。它们对应不同产品与工作负载；本章给证据地图，详细原理与主张核验保存在独立专题。护城河在这里指客户难以轻易替换的实现与交付能力，是基于公开证据的分析判断，不是市场份额排名。
+
+## 1. 三个专题及阅读入口
+
+| 专题 | 核心问题 | 深入到的机制 | 主要证据 | 成立/失效边界 |
+|---|---|---|---|---|
+| [08A GPU数值与执行](@@ROOT@@/08A_GPU_Memory_and_Execution.md) | 大模型容量、带宽和提交开销 | CDNA4/OCP MX、LDS bank、HBM分区、HMM/fence、Graph/pool | 白皮书、HIP API、CK Tile指南 | 格式/kernel/拓扑匹配；服务器能力不套端侧 |
+| [08B XDNA与IRON](@@ROOT@@/08B_XDNA_Numerics_and_Dataflow.md) | NPU片上计算与传输如何协作 | tile/Worker/FIFO、layout、DMA token/BD/queue、JIT缓存 | 官方源码、编程/编译/DMA指南 | 局部复用与同步正确；动态图/拥塞/版本有代价 |
+| [08C Versal系统](@@ROOT@@/08C_Versal_Dataflow_RealTime_and_Lifecycle.md) | 感知、推理、控制和更新如何交付 | PL/AIE/NoC、custom tiler、HSI、OpenAMP、TSN、DFX/维护 | Gen2 brief、VART/EDF/IP架构 | 专用数据路及团队能力；目标认证/WCET另验 |
+
+三个专题都沿痛点→模块/数据流→API或实现→收益条件→测量口径→对标→限制展开。数值冲突、版本冲突和未取得的受限资料保留在正文与证据JSON，没有以更多文字替代不存在的实测。
+
+## 2. GPU：硬件规模与软件控制需要同时兑现
+
+CDNA4提供多XCD/IOD、HBM与新的低位宽matrix路径；MI355X的容量/理论带宽有助于减少大模型分拆或跨卡通信，但它是高功率服务器卡，不能放进移动机器人功耗预算。MXFP4共享scale可减少理想存储和矩阵计算量，实际收益仍取决于block布局、kernel、未量化层、workspace与动作误差。@@AMD08_CDNA4_Whitepaper@@、@@AMD08_MI350_Architecture@@。
+
+CK Tile把global→LDS→register→MFMA的数据复用暴露为可调实现。bank conflict、VGPR/LDS占用与驻留量可能让看似更大tile反而变慢；HIP Graph减少提交，内存池减少分配，但都不能替代sensor timestamp和执行器响应。unified memory可迁移与pinned memory可访问也不等高带宽，首触fault要与warm推理区分。@@AMD08_CK_LDS@@、@@AMD_HIP_Graphs@@、@@AMD_HIP_Memory@@。
+
+分析替换成本来自训练/推理库、kernel tuning、数值校准与运行环境。公开API和源码给迁移者更多可见性，同时现有CUDA扩展、特定仿真backend或目标Radeon/APU支持矩阵可能增加移植工作。不能把HIPIFY语法转换当所有模型性能、插件、kernel与本体应用都已迁移。
+
+## 3. XDNA：直接控制片上数据流的价值与责任
+
+![AMD/Xilinx 官方core、memory与DMA关系](@@FIG:b_tile@@)
+
+图说明NPU局部计算和DMA共同访问memory，再通过stream连接其他tile。IRON可把专用filter/GEMM/张量重排表达为Worker、FIFO和Runtime，让工程师控制局部复用和搬运；它补充主流Ryzen AI推理工具，不替代模型框架或完整机器人runtime。@@AMD08_IRON_Latest_Home@@、@@AMD08_IRON_Repo@@。
+
+该官方tile图来自ObjectFIFO编程指南，说明同步和数据搬运的实现对象；没有在线模型性能刻度。@@AMD08_IRON_Dataflow@@。
+
+该路径的优势条件是工作集、布局与固定kernel相匹配。反面条件也很具体：FIFO token不平衡、descriptor提前复用、DMA队列溢出或compile-time参数频繁变化，都可能把局部算力优势转成阻塞与冷启动。指南对AIE2每channel队列4深度及无背压有明确说明，编译器会为潜在满队列插入poll；这改善正确性但不能宣布WCET有界。@@AMD08_IRON_DMA@@、@@AMD08_IRON_Compile@@。
+
+分析：可控制空间增加了定制优化能力，也要求维护源码/wheel/Peano/driver组合。若产品需频繁更换模型、相机数或horizon，先用主流EP验证支持，只有测到具体瓶颈时才引入低层定制。未取得X199完整IRON BSP交付证据的地方保留为未知。
+
+## 4. Versal：可定制接口与异构计算形成系统级空间
+
+![AMD 官方系统与模型交付汇合](@@FIG:c_system@@)
+
+图将PL/AIE design、Vivado平台、Yocto和模型编译汇合到board；其中ELF文字有版本残留，当前产物以6.3.rai文档为准。这个结构支持“硬件前处理与模型协同优化”，不能证明任意预训练模型均完整映射AIE。custom op还必须同时实现kernel、tiler与schema注册；HSI/layout和buffer所有权决定能否真实省复制。@@AMD_VitisAI_Gen2_Reference@@、@@AMD_VitisAI_Gen2_Output@@、@@AMD_VAI_Custom_Ops@@、@@AMD_VitisAI_Gen2_Architecture@@。
+
+PL适合稳定并行的数据路，AIE适合张量/信号处理，应用CPU处理复杂编排，实时域可承担有明确契约的控制任务。OpenAMP的资源描述与消息路径不自动构成全面隔离；TSN按时间发数据也不能使尚未完成的模型准时输出。Gen2的ASIL/SIL表述存在目标/设计条件，必须取得具体SKU证书、安全手册和集成假设才可用于认证项目。@@AMD_EDF_Domains@@、@@AMD_TSN_HW@@、@@AMD_Versal_Gen2_Industrial@@。
+
+分析替换成本包括IP、时序收敛、载板、BSP、工具链、模型布局和产测，而不是单个芯片价格。可重配置允许迭代，也使更新必须绑定boot/PL/driver/RTOS/model兼容组。若团队没有FPGA/BSP和维护责任，通用方案可能更容易交付；没有同条件TCO不能断言Versal必然更贵或更省。
+
+## 5. 对标与性能证据应分层
+
+| 同一痛点 | AMD公开机制 | 对标维度 | 不能直接比较的字段 |
+|---|---|---|---|
+| 低精度带宽 | CDNA4 MX、Quark及Gen2格式 | scale/块大小、kernel、敏感层误差 | MX/INT4/NVFP4名称或跨精度峰值 |
+| 周期执行开销 | HIP Graph、pool、预编译 | 稳态提交、内存、动态变化 | graph存在不等端到端时延 |
+| 流式数据复用 | IRON tile/FIFO、Versal tiler/PL | 数据量、布局、sync、工作集 | TOPS不等有效吞吐 |
+| 资源/控制期限 | GPU partition、EDF domains、TSN | 隔离范围、共享设施、失效响应 | 空间分区/PTP不等整机WCET |
+| 产品可维护性 | SOM/伙伴、SHEL/Yocto、OSV | 版本集、PCN、备件、SLA | 生命周期规划不等软件订阅 |
+
+详细友商机制比较及原始官方链接放在专题；这里不重复配置。GPU matrix峰值、片上带宽、模型吞吐、任务成功、安全响应和运营收益属于不同层，只有测量端点、输入、dtype、power、batch、版本一致才可讨论数值优劣。无同条件数据时保持机制比较。
+
+## 6. 护城河结论与仍需证明的部分
+
+公开证据支持AMD在通用GPU、片上阵列编译、FPGA接口及异构系统构建方面有可深入利用的技术积累。它们让服务器训练、端侧推理与工业前端有多种组合，优势不是所有产品共享一个自动完成的机器人栈。对客户而言，真正难替换的是已经验证的kernel、校准数据、载板/BSP、工具版本和长期交付责任；品牌入口与源码仓库数量不足以证明这一点。
+
+主要短板条件是跨SKU支持分散、动态图/算子/布局仍需核验、未来开发平台完整料号与交期未取得，以及认证/运营成功证据不足。EDF生产指南明确长期安全维护由产品团队或商业OSV承担，源码可得并不自动生成服务合同。@@AMD_EDF_Production@@。
+
+本章未做SDK安装、板端benchmark、真机或运营实验。A/B/C专题保留完整引用、原图哈希、人工核验、结构检查与零网络请求的最终复用记录；部分HTML依赖缺失及新增资料连接失败已披露。下一章把这些事实转成市场、交付、成本和场景的条件选型，仍不以技术能力代替商业ROI。

@@ -1,0 +1,62 @@
+{
+  "AMD07_Congatec_CRX1_PDF": {
+    "title": "congatec cRX1 datasheet",
+    "version": "Preliminary0.3，2026-07-08，末页尚未量产"
+  },
+  "AMD_ROSS": {
+    "title": "AMD_ROSS",
+    "version": "官方快照；准确产品/版本见正文"
+  },
+  "AMD07_Warranty": {
+    "title": "AMD07_Warranty",
+    "version": "官方快照；准确产品/版本见正文"
+  },
+  "AMD06_Solectrix_PDF": {
+    "title": "AMD06_Solectrix_PDF",
+    "version": "官方快照；准确产品/版本见正文"
+  },
+  "AMD06_STW_PDF": {
+    "title": "AMD06_STW_PDF",
+    "version": "官方快照；准确产品/版本见正文"
+  },
+  "AMD07_Robotics_Partners": {
+    "title": "AMD07_Robotics_Partners",
+    "version": "官方快照；准确产品/版本见正文"
+  },
+  "AMD07_Congatec_CRX1": {
+    "title": "AMD07_Congatec_CRX1",
+    "version": "官方快照；准确产品/版本见正文"
+  },
+  "AMD07_ROS2_Control": {
+    "title": "AMD07_ROS2_Control",
+    "version": "官方快照；准确产品/版本见正文"
+  },
+  "AMD06_Robotec_PDF": {
+    "title": "AMD06_Robotec_PDF",
+    "version": "官方快照；准确产品/版本见正文"
+  },
+  "AMD_EDF_Production": {
+    "title": "EDF生产部署指南",
+    "version": "26.06.1-rev3，AdaptiveSoC"
+  },
+  "AMD04_Ryzers_License": {
+    "title": "AMD04_Ryzers_License",
+    "version": "官方快照；准确产品/版本见正文"
+  },
+  "AMD04_Ryzers_Repo": {
+    "title": "AMD04_Ryzers_Repo",
+    "version": "官方快照；准确产品/版本见正文"
+  },
+  "OpenNav_Robotics_Benchmark": {
+    "title": "OpenNav_Robotics_Benchmark",
+    "version": "官方快照；准确产品/版本见正文"
+  },
+  "AMD07_WindRiver_Linux": {
+    "title": "AMD07_WindRiver_Linux",
+    "version": "官方快照；准确产品/版本见正文"
+  },
+  "AMD07_Distributors": {
+    "title": "AMD07_Distributors",
+    "version": "官方快照；准确产品/版本见正文"
+  }
+}
