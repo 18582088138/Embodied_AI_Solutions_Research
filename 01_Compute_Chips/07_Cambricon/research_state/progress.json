@@ -1,0 +1,112 @@
+{
+  "platform": "Cambricon / 寒武纪",
+  "scope": "具身智能相关端侧SOM/M.2、云端训练与推理卡、IP及工程交付边界；按01—09顺序",
+  "data_cutoff": "2026-11-05 (Asia/Shanghai)",
+  "authorization": "用户已审阅01并于2026-11-05要求继续02；本次授权02总览、必要独立专题及归档状态文件",
+  "review_status": "02_completed_pending_user_review",
+  "completed_dimensions": [
+    "01_Hardware_Platform",
+    "02_Software_Stack"
+  ],
+  "current_dimension": "02_Software_Stack",
+  "pending_evidence": [
+    "当前新代云端逐SKU规格、报价、MOQ、交期及PCN/EOL承诺未取得",
+    "MLU220完整开发/电气/热设计手册、M.2容量及官方参考载板BOM未取得",
+    "本体级闭环延迟、任务成功率及机器人实机测试未取得",
+    "官网部分静态依赖缺失；2026半年报公开副本未与交易所字节比对",
+    "MLU220旧版完整SDK/BSP、设备树/传感器驱动与维护交付未取得",
+    "ROS2/动作contract、仿真与VLA/RL专用交付未取得",
+    "新旧SDK/PyTorch/vLLM分支不能混用；插件/固件/权重许可另核",
+    "exporter CLI冲突、cache与同步API文内差异需目标发行及运行核验"
+  ],
+  "next_step": "等待用户审阅02；用户明确继续03后再开始03_Sensor_Integration，不启动其他章节",
+  "chapter_01_validation": {
+    "quality_result": "pass",
+    "quality_file": "reference_metrial/derived/qa/01_Hardware_Platform_quality.json",
+    "body_han_chars": 8931,
+    "sources": 18,
+    "figures_opened_reviewed": 8,
+    "other_reports_unchanged": true,
+    "archive_status": {
+      "partial_static": 14,
+      "complete_static": 4
+    },
+    "archive_warnings_disclosed": true,
+    "manual_review": "正文事实、计算假设、测量条件、来源与图片记录已复核；未开展实机测试",
+    "dedup_file": "reference_metrial/derived/qa/01_Hardware_Platform_dedup_last_run.json",
+    "dedup_exit_code": 0,
+    "dedup_network_requests_including_robots": 0,
+    "dedup_new_assets": 0
+  },
+  "existing_reports": "01已审阅；02总览及五专题已完成待审阅；03—09仍为2026-11-03首轮简报",
+  "software_depth_topics": {
+    "status": "completed_pending_user_review",
+    "completed": [
+      {
+        "file": "02A_NeuWare_BANG_and_Runtime.md",
+        "quality": "pass",
+        "sha256": "5456c04e352e9c2e3ba653f98d26cdf383e961ed6a4013128beeb374316d091a",
+        "dedup_network_requests": 0,
+        "final_structure_check": "pass",
+        "baseline_check_at_completion": "pass"
+      },
+      {
+        "file": "02B_MagicMind_Compilation_and_Quantization.md",
+        "quality": "pass",
+        "sha256": "b9e3efb02dff0f1aea6a0468f9fbd3f16e53af42ccf53b67acb275df694a94cc",
+        "dedup_network_requests": 0,
+        "final_structure_check": "pass",
+        "baseline_check_at_completion": "pass"
+      },
+      {
+        "file": "02C_PyTorch_Backend_and_Distributed_Training.md",
+        "quality": "pass",
+        "sha256": "4843ffab2654e0f7fa195a1dd3eb4c6f1039ef4fc6ff99757a9e8a04d4beeb2b",
+        "dedup_network_requests": 0,
+        "final_structure_check": "pass",
+        "baseline_check_at_completion": "pass"
+      },
+      {
+        "file": "02D_CNStream_EasyDK_and_Robot_Handoff.md",
+        "quality": "pass",
+        "sha256": "219eda5fdfba77adebfa65af930e4cef92414c0b6af36fbc64121948458fbd4b",
+        "dedup_network_requests": 0,
+        "final_structure_check": "pass",
+        "baseline_check_at_completion": "pass"
+      },
+      {
+        "file": "02E_vLLM_and_Cloud_Operations.md",
+        "quality": "pass",
+        "sha256": "f83ae6028c9b9791a72dda255856221f182ffdb8f375f7890cd4ae0fb9612439",
+        "dedup_network_requests": 0,
+        "final_structure_check": "pass",
+        "baseline_check_at_completion": "pass"
+      }
+    ],
+    "planned": [
+      "02A NeuWare/BANG/运行时",
+      "02B MagicMind编译量化",
+      "02C PyTorch后端/分布式训练",
+      "02D CNStream/EasyDK/机器人交接",
+      "02E vLLM/云端编排运维"
+    ],
+    "current": "awaiting_02_review",
+    "union_manifest": "toolkit/manifests/Cambricon_02_Software_Stack.json",
+    "union_collection": "01_Compute_Chips/07_Cambricon/reference_metrial/02_software_depth/collection.json",
+    "union_sources": 66,
+    "union_dedup_file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/qa/02_union_dedup_last_run.json",
+    "chapter_audit": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/qa/02_chapter_audit.json",
+    "user_review": "待用户审阅；未代用户批准02"
+  },
+  "chapter_02_validation": {
+    "outcome": "pass",
+    "reports": 6,
+    "body_han_chars": 14503,
+    "union_sources": 66,
+    "unique_figures_opened": 10,
+    "other_reports_unchanged": true,
+    "topics_unchanged": true,
+    "dedup_network_requests": 0,
+    "manual_review": "文献/源码/图像核验，未实机测试"
+  }
+}

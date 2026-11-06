@@ -1,0 +1,141 @@
+{
+  "source_ids": [
+    "Cambricon_MagicMind",
+    "Cambricon_magicmind_cloud_buildin_cv_classification_resnet50_onnx_gen_model_gen_model_py",
+    "Cambricon_magicmind_cloud_buildin_python_common_model_process_py",
+    "Cambricon_magicmind_cloud_buildin_python_common_mm_runner_py",
+    "Cambricon_magicmind_cloud_buildin_python_common_build_param_py",
+    "Cambricon_magicmind_cloud_buildin_python_common_common_calibrate_py",
+    "Cambricon_magicmind_cloud_buildin_cv_classification_resnet50_onnx_README_md",
+    "Cambricon_magicmind_edge_README_md",
+    "Cambricon_magicmind_edge_buildin_cv_detection_yolov3_caffe_README_MD",
+    "Cambricon_magicmind_edge_buildin_cv_detection_yolov3_caffe_gen_model_gen_model_py",
+    "Cambricon_magicmind_edge_buildin_cv_detection_yolov3_caffe_infer_cpp_src_infer_cpp",
+    "Cambricon_magicmind_edge_buildin_cv_detection_yolov3_caffe_benchmark_benchmark_ok_csv",
+    "Cambricon_magicmind_cloud_README_md",
+    "Compare_TRT_Builder",
+    "Compare_TRT_Quant",
+    "Cambricon_magicmind_cloud_LICENSE",
+    "Cambricon_magicmind_edge_LICENSE"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_mm_arch.jpg",
+      "sha256": "971ba071b1e4ab8914081b622cf48350f2555b623864de1978dd22eff45465a8",
+      "source_id": "Cambricon_MagicMind",
+      "source_url": "https://www.cambricon.com/uploadfile/2021/1207/20211207032230847.jpg",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_MagicMind--a96dd88f52e2f212/assets/images/5080f6cbf567bd49770691b4.jpg",
+      "original_sha256": "971ba071b1e4ab8914081b622cf48350f2555b623864de1978dd22eff45465a8",
+      "operation": "官方原图字节复制，未裁剪、未改字",
+      "opened_review": "已逐图实际打开核查标题、内容和标注；非实机结果"
+    },
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_mm_opt.jpg",
+      "sha256": "54d48729b6b68c254b5566b9ed4b86104911666bf5086cf324be77936e2082c3",
+      "source_id": "Cambricon_MagicMind",
+      "source_url": "https://www.cambricon.com/uploadfile/2021/1207/20211207031835894.jpg",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_MagicMind--a96dd88f52e2f212/assets/images/8cdfef4af19bf6752e6faf80.jpg",
+      "original_sha256": "54d48729b6b68c254b5566b9ed4b86104911666bf5086cf324be77936e2082c3",
+      "operation": "官方原图字节复制，未裁剪、未改字",
+      "opened_review": "已逐图实际打开核查标题、内容和标注；非实机结果"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "MagicMind图编译定位和FrontEnd/Builder/Runtime分层",
+      "source_id": "Cambricon_MagicMind",
+      "location": "介绍、优势、架构图",
+      "evidence_type": "厂商宣称",
+      "conditions": "未标发布日期的官网快照",
+      "finding": "不证明全代际逐SKU支持与排名",
+      "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=378",
+      "collected_at": "2026-11-05 (Asia/Shanghai)"
+    },
+    {
+      "claim": "公共参数与实际架构候选不一致",
+      "source_id": "Cambricon_magicmind_cloud_buildin_python_common_model_process_py",
+      "location": "get_mlu_arches_from_param",
+      "evidence_type": "事实",
+      "conditions": "dc085c193c0af091f92a844cc3bfa350f1d7027f",
+      "finding": "候选372/322/592，220入口不能证实完整路径",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/magicmind_cloud/dc085c193c0af091f92a844cc3bfa350f1d7027f/buildin/python_common/model_process.py",
+      "collected_at": "2026-11-05 (Asia/Shanghai)"
+    },
+    {
+      "claim": "校准与量化配置受布局与优化参数影响",
+      "source_id": "Cambricon_magicmind_cloud_buildin_python_common_build_param_py",
+      "location": "precision、conv_scale_fold、dim_range参数",
+      "evidence_type": "事实",
+      "conditions": "固定SHA公共构建代码",
+      "finding": "明确量化/动态shape契约，不许诺任意输入同性能",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/magicmind_cloud/dc085c193c0af091f92a844cc3bfa350f1d7027f/buildin/python_common/build_param.py",
+      "collected_at": "2026-11-05 (Asia/Shanghai)"
+    },
+    {
+      "claim": "ResNet50 INT8示例TOP1降低0.54个百分点",
+      "source_id": "Cambricon_magicmind_cloud_buildin_cv_classification_resnet50_onnx_README_md",
+      "location": "5.2精度表",
+      "evidence_type": "事实与算术分析",
+      "conditions": "ImageNet2012、batch1，硬件与样本数不完整",
+      "finding": "75.01%与74.47%；无机器人成功率归因",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/magicmind_cloud/dc085c193c0af091f92a844cc3bfa350f1d7027f/buildin/cv/classification/resnet50_onnx/README.md",
+      "collected_at": "2026-11-05 (Asia/Shanghai)"
+    },
+    {
+      "claim": "Edge YOLO生成目标为mtp_322而非220",
+      "source_id": "Cambricon_magicmind_edge_buildin_cv_detection_yolov3_caffe_gen_model_gen_model_py",
+      "location": "archs、cross_compile_toolchain_path、DetectionOutput配置",
+      "evidence_type": "事实",
+      "conditions": "04d1e858c1760439adc8dcdd146405558d9c524b",
+      "finding": "416²、静态shape、50校准样本、80类；不能套220",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/magicmind_edge/04d1e858c1760439adc8dcdd146405558d9c524b/buildin/cv/detection/yolov3_caffe/gen_model/gen_model.py",
+      "collected_at": "2026-11-05 (Asia/Shanghai)"
+    },
+    {
+      "claim": "CSV性能结果测量口径不完整",
+      "source_id": "Cambricon_magicmind_edge_buildin_cv_detection_yolov3_caffe_benchmark_benchmark_ok_csv",
+      "location": "唯一数据行",
+      "evidence_type": "厂商记录",
+      "conditions": "coco-mini map0.6780786692668364 fps42.3246",
+      "finding": "未提供SKU/精度/batch/功率，不识别为闭环频率",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/magicmind_edge/04d1e858c1760439adc8dcdd146405558d9c524b/buildin/cv/detection/yolov3_caffe/benchmark/benchmark_ok.csv",
+      "collected_at": "2026-11-05 (Asia/Shanghai)"
+    },
+    {
+      "claim": "MMRunner每调用同步等待",
+      "source_id": "Cambricon_magicmind_cloud_buildin_python_common_mm_runner_py",
+      "location": "MMRunner.__call__",
+      "evidence_type": "事实",
+      "conditions": "enqueue之后queue.sync",
+      "finding": "无零拷贝或应用流水并发证明",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/magicmind_cloud/dc085c193c0af091f92a844cc3bfa350f1d7027f/buildin/python_common/mm_runner.py",
+      "collected_at": "2026-11-05 (Asia/Shanghai)"
+    },
+    {
+      "claim": "v1.7删除TensorFlow支持与旧表项有冲突",
+      "source_id": "Cambricon_magicmind_cloud_README_md",
+      "location": "Release Note v1.7与模型表",
+      "evidence_type": "事实",
+      "conditions": "仓库对应MagicMind1.7.0",
+      "finding": "优先明确release条目，不称最新商业SDK",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/magicmind_cloud/dc085c193c0af091f92a844cc3bfa350f1d7027f/README.md",
+      "collected_at": "2026-11-05 (Asia/Shanghai)"
+    },
+    {
+      "claim": "示例许可与权重/二进制分别处理",
+      "source_id": "Cambricon_magicmind_cloud_LICENSE",
+      "location": "LICENSE全文",
+      "evidence_type": "事实",
+      "conditions": "Apache2.0",
+      "finding": "runtime和数据许可未由代码许可覆盖",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/magicmind_cloud/dc085c193c0af091f92a844cc3bfa350f1d7027f/LICENSE",
+      "collected_at": "2026-11-05 (Asia/Shanghai)"
+    }
+  ],
+  "manual_review": {
+    "coverage": "总览或专题已展开痛点、机制、源码/API、版本、部署、许可、对标与验证边界；缺失SDK/BSP及机器人环节明确记录",
+    "versions_and_measurements": "核对官方材料的目标和配置；文献及源码核验，未安装厂商SDK、未执行模型或机器人测试",
+    "maturity_and_licenses": "开源仓库许可逐项读取；二进制、固件、容器、权重及数据分别保留交付与许可缺口",
+    "figures_opened": "正文所有图均已逐图打开；无图专题以源码和配置为证据，未取得该专题专用官方流程图"
+  }
+}

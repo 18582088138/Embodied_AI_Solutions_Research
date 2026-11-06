@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Cambricon_CNStream_docs_release_document_5_3_0_Cambricon-CNStream-User-Guide-CN_pdf",
+    "url": "https://raw.githubusercontent.com/Cambricon/CNStream/24eea3eeb4220b2662814a9b7b35480ecdeacac1/docs/release_document/5.3.0/Cambricon-CNStream-User-Guide-CN.pdf",
+    "expected": "any",
+    "used_by": [
+      "02D_CNStream_EasyDK_and_Robot_Handoff"
+    ]
+  },
+  {
+    "name": "Cambricon_easydk_docs_release_document_4_1_0_Cambricon-EasyDK-User-Guide-CN-v4_1_0_pdf",
+    "url": "https://raw.githubusercontent.com/Cambricon/easydk/c7a2d6c1b3c656590ee9d7ef3107dde6d9b99675/docs/release_document/4.1.0/Cambricon-EasyDK-User-Guide-CN-v4.1.0.pdf",
+    "expected": "any",
+    "used_by": [
+      "02D_CNStream_EasyDK_and_Robot_Handoff"
+    ]
+  },
+  {
+    "name": "Cambricon_CNStream_docs_release_document_7_1_0_Cambricon-CNStream-User-Guide-CN-v7_1_0_pdf",
+    "url": "https://raw.githubusercontent.com/Cambricon/CNStream/24eea3eeb4220b2662814a9b7b35480ecdeacac1/docs/release_document/7.1.0/Cambricon-CNStream-User-Guide-CN-v7.1.0.pdf",
+    "expected": "any",
+    "used_by": [
+      "02D_CNStream_EasyDK_and_Robot_Handoff"
+    ]
+  },
+  {
+    "name": "Cambricon_CNStream_framework_include_cnstream_frame_hpp",
+    "url": "https://raw.githubusercontent.com/Cambricon/CNStream/24eea3eeb4220b2662814a9b7b35480ecdeacac1/framework/include/cnstream_frame.hpp",
+    "expected": "any",
+    "used_by": [
+      "02D_CNStream_EasyDK_and_Robot_Handoff"
+    ]
+  },
+  {
+    "name": "Cambricon_CNStream_samples_cns_launcher_configs_yolov3_object_detection_mlu370_json",
+    "url": "https://raw.githubusercontent.com/Cambricon/CNStream/24eea3eeb4220b2662814a9b7b35480ecdeacac1/samples/cns_launcher/configs/yolov3_object_detection_mlu370.json",
+    "expected": "any",
+    "used_by": [
+      "02D_CNStream_EasyDK_and_Robot_Handoff"
+    ]
+  },
+  {
+    "name": "Cambricon_easydk_include_cnedk_buf_surface_h",
+    "url": "https://raw.githubusercontent.com/Cambricon/easydk/c7a2d6c1b3c656590ee9d7ef3107dde6d9b99675/include/cnedk_buf_surface.h",
+    "expected": "any",
+    "used_by": [
+      "02D_CNStream_EasyDK_and_Robot_Handoff"
+    ]
+  },
+  {
+    "name": "Cambricon_easydk_include_infer_server_cnis_infer_server_h",
+    "url": "https://raw.githubusercontent.com/Cambricon/easydk/c7a2d6c1b3c656590ee9d7ef3107dde6d9b99675/include/infer_server/cnis/infer_server.h",
+    "expected": "any",
+    "used_by": [
+      "02D_CNStream_EasyDK_and_Robot_Handoff"
+    ]
+  },
+  {
+    "name": "Cambricon_CNStream_LICENSE",
+    "url": "https://raw.githubusercontent.com/Cambricon/CNStream/24eea3eeb4220b2662814a9b7b35480ecdeacac1/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02D_CNStream_EasyDK_and_Robot_Handoff"
+    ]
+  },
+  {
+    "name": "Cambricon_easydk_LICENSE",
+    "url": "https://raw.githubusercontent.com/Cambricon/easydk/c7a2d6c1b3c656590ee9d7ef3107dde6d9b99675/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02D_CNStream_EasyDK_and_Robot_Handoff"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "report": "01_Compute_Chips/07_Cambricon/02D_CNStream_EasyDK_and_Robot_Handoff.md",
+  "body_han_chars": 2070,
+  "tables": 1,
+  "sources": 9,
+  "archive_status": {
+    "complete_static": 9
+  },
+  "figures": 3,
+  "file_hash_checks": 21,
+  "html_visible_text_equal": 0,
+  "page_local_dependencies_checked": 0,
+  "report_local_links": 13,
+  "other_reports_unchanged": {},
+  "errors": [],
+  "warnings": [
+    "未提供本章开始基线；不能证明其他报告未变"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

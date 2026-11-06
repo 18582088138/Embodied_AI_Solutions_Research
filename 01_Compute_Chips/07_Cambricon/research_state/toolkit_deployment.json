@@ -1,0 +1,11 @@
+{
+  "skill": "embodied-ai-platform-research",
+  "status": "existing_compatible_toolkit_reused",
+  "bootstrap_result": "stopped because existing downloader differs",
+  "compatibility_review": "Only two additive fixes: non-public asset URLs disclosed without access; silent acw cookie challenge rejected. Registry/schema/CLI unchanged. No tools overwritten.",
+  "tools": {
+    "download_materials.py": "e34159b1465ade500283fb08050b51910adf5eda49e6fb317639b282940ccb4c",
+    "check_report.py": "c042e3de12f4faff0bb39cc6a44e042d3c829cf50c7e4e09a3c89b5ee002990a",
+    "test_download_materials.py": "38676b6a160189a31364b1fc69bddbd4a30879c42db5525065a72b12386d3200"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "report": "01_Compute_Chips/07_Cambricon/02B_MagicMind_Compilation_and_Quantization.md",
+  "body_han_chars": 2592,
+  "tables": 2,
+  "sources": 17,
+  "archive_status": {
+    "partial_static": 1,
+    "complete_static": 16
+  },
+  "figures": 2,
+  "file_hash_checks": 253,
+  "html_visible_text_equal": 3,
+  "page_local_dependencies_checked": 246,
+  "report_local_links": 19,
+  "other_reports_unchanged": {},
+  "errors": [],
+  "warnings": [
+    "静态依赖部分缺失: Cambricon_MagicMind（报告应披露）",
+    "未提供本章开始基线；不能证明其他报告未变"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

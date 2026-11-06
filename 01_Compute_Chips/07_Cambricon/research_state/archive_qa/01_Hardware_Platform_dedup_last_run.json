@@ -1,0 +1,32 @@
+{
+  "time_utc": "2026-11-05T01:40:11.106147+00:00",
+  "summary": {
+    "complete_static": 4,
+    "partial_static": 14,
+    "failed": 0
+  },
+  "names": [
+    "Cambricon_Home",
+    "Cambricon_Edge_Overview",
+    "Cambricon_MLU220_SOM",
+    "Cambricon_MLU220_M2",
+    "Cambricon_MLU370_Overview",
+    "Cambricon_MLU370_S4_S8",
+    "Cambricon_MLU370_X4",
+    "Cambricon_MLU370_X8",
+    "Cambricon_MLU270_S4",
+    "Cambricon_MLU270_F4",
+    "Cambricon_1M_IP",
+    "Cambricon_1H_IP",
+    "Cambricon_X8_Launch_20220321",
+    "Cambricon_WAIC_20220902",
+    "Cambricon_Annual_2025_CNINFO",
+    "Cambricon_Half_2026_Xueqiu",
+    "Cambricon_Torch_MLU_README",
+    "Cambricon_Torch_MLU_LICENSE"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

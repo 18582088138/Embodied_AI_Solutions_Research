@@ -1,0 +1,11 @@
+{
+  "01_Hardware_Platform.md": "e78cbbbe3cd0bcce57d8ad3f9a223b85bbfb00b731819ce4cfbd8aa23ed4d4bc",
+  "02_Software_Stack.md": "837636f400ace4c06223ae8c3af34a8778f913c99874cda3b9007a2cbdf39cd7",
+  "03_Sensor_Integration.md": "112ae1a96e8b889411ac7c6fd87b00ebabf2e819c6d447a991b9296473f0a12e",
+  "04_AI_Capabilities.md": "c45a9956333d5cfe80fc891e60fa3d54f5b78ba54389bfd2dcfdff6e829ccf87",
+  "05_Simulation_Environment.md": "dce93ab080f3c236cff11c7a6e46f1e8d4db1f720c049c3c09c64a09064bcc6d",
+  "06_Robot_Integration.md": "a6c81727c85d9e20870c1e52c73d2d1ef684b1dcd461ee8c1d731eac550ddf24",
+  "07_Ecosystem.md": "df0350b66f3da7c0dc399ab11dbc6d7f755fa7edd6c44b5306a89d2e0353667b",
+  "08_Proprietary_Technologies.md": "ff648349aedeb6af4a458a62866782359df219a4cd2a2da1b331c5dda95a2db8",
+  "09_SWOT_Analysis.md": "8de8c8212fa2f73c4902bb2aa5acecb1c2b69f23b64207aa139c46d56e755d9d"
+}

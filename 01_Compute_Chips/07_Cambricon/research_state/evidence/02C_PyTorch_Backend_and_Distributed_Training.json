@@ -1,0 +1,129 @@
+{
+  "source_ids": [
+    "Cambricon_torch_mlu_README_md",
+    "Cambricon_NeuWare",
+    "Cambricon_torch_mlu_CONTRIBUTING_zh_md",
+    "Cambricon_pytorch_modelzoo_README_md",
+    "Compare_PyTorch_Backend",
+    "Cambricon_torch_mlu_torch_mlu_csrc_aten_MLUFallback_cpp",
+    "Cambricon_torch_mlu_torch_mlu_csrc_framework_core_MLUStream_cpp",
+    "Compare_HIP_Async",
+    "Cambricon_torch_mlu_examples_training_single_card_demo_py",
+    "Cambricon_torch_mlu_torch_mlu_mlu_cncl_py",
+    "Cambricon_torch_mlu_torch_mlu_csrc_python_ProcessGroupCNCL_cpp",
+    "Cambricon_torch_mlu_torch_mlu_csrc_framework_distributed_process_group_cncl_cpp",
+    "Cambricon_torch_mlu_examples_training_multi_card_demo_py",
+    "Cambricon_torch_mlu_LICENSE",
+    "Cambricon_pytorch_modelzoo_LICENSE"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_mm_train.jpg",
+      "sha256": "5bfc368c5ba1e76caf568026185666f99b6fa5ea016223cb993ce85bcbda1aed",
+      "source_id": "Cambricon_NeuWare",
+      "source_url": "https://www.cambricon.com/uploadfile/2022/0623/20220623031801569.jpg",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_NeuWare--5678a12af89b986d/assets/images/34f59d130ec4b11d070d4cb8.jpg",
+      "original_sha256": "5bfc368c5ba1e76caf568026185666f99b6fa5ea016223cb993ce85bcbda1aed",
+      "operation": "官方原图字节复制，未裁剪、未改字",
+      "opened_review": "已逐图实际打开核查标题、内容和标注；非实机结果"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "torch_mlu版本需patch上游torch",
+      "source_id": "Cambricon_torch_mlu_CONTRIBUTING_zh_md",
+      "location": "源码构建流程",
+      "conditions": "r1.22_pt2.1.0/PyTorch2.1示例",
+      "finding": "非任意wheel无修改兼容",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/CONTRIBUTING.zh.md",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "CPU回退有两个不同开关",
+      "source_id": "Cambricon_torch_mlu_torch_mlu_csrc_aten_MLUFallback_cpp",
+      "location": "fallback注册和环境变量",
+      "conditions": "固定树SHA",
+      "finding": "未实现回退默认开，失败回退默认关",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/torch_mlu/csrc/aten/MLUFallback.cpp",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "每优先级流池32条",
+      "source_id": "Cambricon_torch_mlu_torch_mlu_csrc_framework_core_MLUStream_cpp",
+      "location": "kStreamsPerPoolBits与current_streams",
+      "conditions": "软件流管理",
+      "finding": "不等物理并行域或抢占",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/torch_mlu/csrc/framework/core/MLUStream.cpp",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "CNCL注册与MLU设备关联",
+      "source_id": "Cambricon_torch_mlu_torch_mlu_mlu_cncl_py",
+      "location": "register_backend/batch_isend_irecv",
+      "conditions": "devices mlu",
+      "finding": "文档CUDA残留采用实际MLU demo校正",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/torch_mlu/mlu/cncl.py",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "通信事件及内存生命周期保护",
+      "source_id": "Cambricon_torch_mlu_torch_mlu_csrc_framework_distributed_process_group_cncl_cpp",
+      "location": "syncStreams/collective/synchronizeStreams",
+      "conditions": "默认recordStream及条件暂存路径",
+      "finding": "主机API返回与设备结束不同",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/torch_mlu/csrc/framework/distributed/process_group_cncl.cpp",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "Work abort未实现",
+      "source_id": "Cambricon_torch_mlu_torch_mlu_csrc_framework_distributed_process_group_cncl_cpp",
+      "location": "WorkCNCL::abort/wait/synchronizeInternal",
+      "conditions": "阻塞等待与进程组选项超时",
+      "finding": "不作为逐任务抢占或急停承诺",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/torch_mlu/csrc/framework/distributed/process_group_cncl.cpp",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "2卡FakeData训练demo",
+      "source_id": "Cambricon_torch_mlu_examples_training_multi_card_demo_py",
+      "location": "multi_card_train/TestMultiCardDemo",
+      "conditions": "localhost、world_size2、ResNet50",
+      "finding": "无多节点扩展与具身模型性能证据",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/examples/training/multi_card_demo.py",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "旧modelzoo不能与新版本混用",
+      "source_id": "Cambricon_pytorch_modelzoo_README_md",
+      "location": "版本及模型列表",
+      "conditions": "v0.5.0 SDK1.14",
+      "finding": "PointPillar等不是VLA/RL认证",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/pytorch_modelzoo/0eb64c91f7bbf0efa25a9e997095b41bbf00aaab/README.md",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "源代码许可独立于库和权重",
+      "source_id": "Cambricon_torch_mlu_LICENSE",
+      "location": "LICENSE全文",
+      "conditions": "BSD式三条款",
+      "finding": "设备库/镜像/数据许可另核",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/LICENSE",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    }
+  ],
+  "manual_review": {
+    "coverage": "总览或专题已展开痛点、机制、源码/API、版本、部署、许可、对标与验证边界；缺失SDK/BSP及机器人环节明确记录",
+    "versions_and_measurements": "核对官方材料的目标和配置；文献及源码核验，未安装厂商SDK、未执行模型或机器人测试",
+    "maturity_and_licenses": "开源仓库许可逐项读取；二进制、固件、容器、权重及数据分别保留交付与许可缺口",
+    "figures_opened": "正文所有图均已逐图打开；无图专题以源码和配置为证据，未取得该专题专用官方流程图"
+  }
+}

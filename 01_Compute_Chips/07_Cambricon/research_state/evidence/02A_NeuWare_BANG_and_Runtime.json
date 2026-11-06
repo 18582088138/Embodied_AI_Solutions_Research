@@ -1,0 +1,148 @@
+{
+  "source_ids": [
+    "Cambricon_NeuWare",
+    "Cambricon_mlu-ops_docs_BANG-C-OPS-Develop-Guide_md",
+    "Cambricon_mlu-ops_docs_MLU-OPS-Performance-Acceptance-Standard_md",
+    "Cambricon_mlu-ops_kernels_abs_abs_cpp",
+    "Cambricon_mlu-ops_kernels_abs_abs_block_mlu",
+    "Cambricon_mlu-ops_docs_design_docs_abs_abs_md",
+    "Cambricon_mlu-ops_docs_MLU-OPS-How-To-Use-CNNL-API_md",
+    "Cambricon_mlu-ops_docs_MLU-OPS-Accuracy-Acceptance-Standard_md",
+    "Cambricon_mlu-ops_README_md",
+    "Cambricon_mlu-ops_LICENSE",
+    "Compare_HIP_Async",
+    "Cambricon_mlu-ops_docs_images_hardwarehierarchy_png",
+    "Cambricon_mlu-ops_docs_images_memorymodel_png",
+    "Cambricon_mlu-ops_docs_images_pingpong_png"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_neu_stack.jpg",
+      "sha256": "bc9af4f174d8a7bc1225f7502ff14b23a101adbbc9f06f4c0fe2c04f06fdb7d0",
+      "source_id": "Cambricon_NeuWare",
+      "source_url": "https://www.cambricon.com/uploadfile/2022/0325/20220325045609110.jpg",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_NeuWare--5678a12af89b986d/assets/images/6818062ed89a8a1a617a3a42.jpg",
+      "original_sha256": "bc9af4f174d8a7bc1225f7502ff14b23a101adbbc9f06f4c0fe2c04f06fdb7d0",
+      "operation": "官方原图字节复制，未裁剪、未改字",
+      "opened_review": "已逐图实际打开核查标题、内容和标注；非实机结果"
+    },
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_hardware.png",
+      "sha256": "c91d91992b8ccda17c77e3200efc61997121fa9f2f993fcd728405d80aed3909",
+      "source_id": "Cambricon_mlu-ops_docs_images_hardwarehierarchy_png",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/docs/images/hardwarehierarchy.png",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/data/Cambricon_mlu-ops_docs_im--3d9b2448e53113aa/content.png",
+      "original_sha256": "c91d91992b8ccda17c77e3200efc61997121fa9f2f993fcd728405d80aed3909",
+      "operation": "官方仓库图字节复制，未裁剪、未改字",
+      "opened_review": "已逐图实际打开核查标题、内容和标注；非实机结果"
+    },
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_memory.png",
+      "sha256": "16a1f991e79f129a5b2f7b6e2d03654d85d75a5e76aca052446be63d55cc1345",
+      "source_id": "Cambricon_mlu-ops_docs_images_memorymodel_png",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/docs/images/memorymodel.png",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/data/Cambricon_mlu-ops_docs_im--aa877e2fa258bd7e/content.png",
+      "original_sha256": "16a1f991e79f129a5b2f7b6e2d03654d85d75a5e76aca052446be63d55cc1345",
+      "operation": "官方仓库图字节复制，未裁剪、未改字",
+      "opened_review": "已逐图实际打开核查标题、内容和标注；非实机结果"
+    },
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_pingpong.png",
+      "sha256": "0f15b2ca3558cf4a8677eb440b5d99825685eb58e8a11380b263cb700899c394",
+      "source_id": "Cambricon_mlu-ops_docs_images_pingpong_png",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/docs/images/pingpong.png",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/data/Cambricon_mlu-ops_docs_im--ec397b7e9c2fbbfd/content.png",
+      "original_sha256": "0f15b2ca3558cf4a8677eb440b5d99825685eb58e8a11380b263cb700899c394",
+      "operation": "官方仓库图字节复制，未裁剪、未改字",
+      "opened_review": "已逐图实际打开核查标题、内容和标注；非实机结果"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "统一软件定位不等于逐SKU交付矩阵",
+      "source_id": "Cambricon_NeuWare",
+      "location": "官网概述与软件栈图",
+      "evidence_type": "厂商宣称",
+      "conditions": "官网未标发布日期",
+      "finding": "仅支持平台定位，未证明220各组件版本",
+      "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=71",
+      "collected_at": "2026-11-05 (Asia/Shanghai)"
+    },
+    {
+      "claim": "片上存储与同步按MLU03模型解释",
+      "source_id": "Cambricon_mlu-ops_docs_BANG-C-OPS-Develop-Guide_md",
+      "location": "3.3.1—3.3.5",
+      "evidence_type": "事实",
+      "conditions": "指南明确使用MLU03示例",
+      "finding": "不把示意核数或NRAM容量跨SKU套用",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/docs/BANG-C-OPS-Develop-Guide.md",
+      "collected_at": "2026-11-05 (Asia/Shanghai)"
+    },
+    {
+      "claim": "Abs当前源码有BF16架构门槛和stride分支",
+      "source_id": "Cambricon_mlu-ops_kernels_abs_abs_cpp",
+      "location": "mluOpAbsParamCheck/mluOpAbs",
+      "evidence_type": "事实",
+      "conditions": "549075224cd46ac2a52e4883b51dd50fe4b1abf5",
+      "finding": "BF16需架构门槛，非全部模型支持证明",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/kernels/abs/abs.cpp",
+      "collected_at": "2026-11-05 (Asia/Shanghai)"
+    },
+    {
+      "claim": "Abs设备代码采用双缓冲与对齐",
+      "source_id": "Cambricon_mlu-ops_kernels_abs_abs_block_mlu",
+      "location": "auxFunc3AbsFloat/Kernel3StagePipelineAbs",
+      "evidence_type": "事实",
+      "conditions": "固定源码树SHA",
+      "finding": "源码机制核验，无实测提速",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/kernels/abs/abs_block.mlu",
+      "collected_at": "2026-11-05 (Asia/Shanghai)"
+    },
+    {
+      "claim": "源码与2024设计文档类型覆盖存在差异",
+      "source_id": "Cambricon_mlu-ops_docs_design_docs_abs_abs_md",
+      "location": "1.1、1.4、1.5",
+      "evidence_type": "事实",
+      "conditions": "V1.0 2024-05-27",
+      "finding": "验收目标不当实际测试结果；原位仍需契约",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/docs/design_docs/abs/abs.md",
+      "collected_at": "2026-11-05 (Asia/Shanghai)"
+    },
+    {
+      "claim": "当前MLU-OPS依赖下限较旧链接更新",
+      "source_id": "Cambricon_mlu-ops_README_md",
+      "location": "依赖条件",
+      "evidence_type": "事实",
+      "conditions": "固定源码SHA README",
+      "finding": "CNToolkit4.1.0、CNNL1.28.0、驱动6.0.3；不当220矩阵",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/README.md",
+      "collected_at": "2026-11-05 (Asia/Shanghai)"
+    },
+    {
+      "claim": "60%/30%为算子效率验收目标",
+      "source_id": "Cambricon_mlu-ops_docs_MLU-OPS-Performance-Acceptance-Standard_md",
+      "location": "效率评判标准、mlu-only",
+      "evidence_type": "事实",
+      "conditions": "不同shape/设备瓶颈可变",
+      "finding": "不是机器人吞吐，mlu-only不验精度",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/docs/MLU-OPS-Performance-Acceptance-Standard.md",
+      "collected_at": "2026-11-05 (Asia/Shanghai)"
+    },
+    {
+      "claim": "开源许可只覆盖MLU-OPS代码",
+      "source_id": "Cambricon_mlu-ops_LICENSE",
+      "location": "LICENSE全文",
+      "evidence_type": "事实",
+      "conditions": "MIT",
+      "finding": "二进制、固件及其他库许可未获得",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/LICENSE",
+      "collected_at": "2026-11-05 (Asia/Shanghai)"
+    }
+  ],
+  "manual_review": {
+    "coverage": "总览或专题已展开痛点、机制、源码/API、版本、部署、许可、对标与验证边界；缺失SDK/BSP及机器人环节明确记录",
+    "versions_and_measurements": "核对官方材料的目标和配置；文献及源码核验，未安装厂商SDK、未执行模型或机器人测试",
+    "maturity_and_licenses": "开源仓库许可逐项读取；二进制、固件、容器、权重及数据分别保留交付与许可缺口",
+    "figures_opened": "正文所有图均已逐图打开；无图专题以源码和配置为证据，未取得该专题专用官方流程图"
+  }
+}

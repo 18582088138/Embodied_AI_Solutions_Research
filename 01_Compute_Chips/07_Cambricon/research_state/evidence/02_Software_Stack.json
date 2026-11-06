@@ -1,0 +1,198 @@
+{
+  "source_ids": [
+    "Cambricon_NeuWare",
+    "Cambricon_mlu-ops_docs_BANG-C-OPS-Develop-Guide_md",
+    "Cambricon_mlu-ops_README_md",
+    "Cambricon_magicmind_cloud_buildin_python_common_model_process_py",
+    "Cambricon_torch_mlu_CONTRIBUTING_zh_md",
+    "Cambricon_CNStream_docs_release_document_7_1_0_Cambricon-CNStream-User-Guide-CN-v7_1_0_pdf",
+    "Cambricon_easydk_docs_release_document_4_1_0_Cambricon-EasyDK-User-Guide-CN-v4_1_0_pdf",
+    "Cambricon_cambricon-k8s-device-plugin_device-plugin_README_md",
+    "Cambricon_magicmind_cloud_README_md",
+    "Cambricon_vllm-mlu_requirements_txt",
+    "Cambricon_vllm-mlu_README_md",
+    "Cambricon_magicmind_cloud_buildin_python_common_build_param_py",
+    "Cambricon_vllm-mlu_vllm_mlu_v1_attention_backends_flash_attn_py",
+    "Cambricon_mlu-exporter_README_md",
+    "Cambricon_magicmind_edge_buildin_cv_detection_yolov3_caffe_README_MD",
+    "Cambricon_magicmind_edge_buildin_cv_detection_yolov3_caffe_gen_model_gen_model_py",
+    "Cambricon_magicmind_edge_buildin_cv_detection_yolov3_caffe_infer_cpp_src_infer_cpp",
+    "Cambricon_MagicMind",
+    "Cambricon_magicmind_cloud_buildin_cv_classification_resnet50_onnx_README_md",
+    "Cambricon_magicmind_edge_buildin_cv_detection_yolov3_caffe_benchmark_benchmark_ok_csv",
+    "Cambricon_torch_mlu_torch_mlu_csrc_aten_MLUFallback_cpp",
+    "Cambricon_torch_mlu_torch_mlu_csrc_framework_distributed_process_group_cncl_cpp",
+    "Cambricon_vllm-mlu_vllm_mlu_platforms_mlu_py",
+    "Compare_TRT_Builder",
+    "Compare_TRT_Quant",
+    "Compare_HIP_Async",
+    "Cambricon_mlu-ops_LICENSE",
+    "Cambricon_torch_mlu_LICENSE",
+    "Cambricon_magicmind_cloud_LICENSE",
+    "Cambricon_CNStream_LICENSE",
+    "Cambricon_easydk_LICENSE",
+    "Cambricon_vllm-mlu_LICENSE",
+    "Cambricon_cambricon-k8s-device-plugin_LICENSE",
+    "Cambricon_mlu-exporter_LICENSE"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_neu_stack.jpg",
+      "sha256": "bc9af4f174d8a7bc1225f7502ff14b23a101adbbc9f06f4c0fe2c04f06fdb7d0",
+      "source_id": "Cambricon_NeuWare",
+      "source_url": "https://www.cambricon.com/uploadfile/2022/0325/20220325045609110.jpg",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_NeuWare--5678a12af89b986d/assets/images/6818062ed89a8a1a617a3a42.jpg",
+      "original_sha256": "bc9af4f174d8a7bc1225f7502ff14b23a101adbbc9f06f4c0fe2c04f06fdb7d0",
+      "operation": "官方原图字节复制，未裁剪、未改字",
+      "opened_review": "已逐图实际打开核查标题、内容和标注；非实机结果"
+    },
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_cns_arch.png",
+      "sha256": "60285db6b97175b8fc4e7e464b8a290ea959fba7dffaba1776b1b445e0397e31",
+      "source_id": "Cambricon_CNStream_docs_release_document_7_1_0_Cambricon-CNStream-User-Guide-CN-v7_1_0_pdf",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/CNStream/24eea3eeb4220b2662814a9b7b35480ecdeacac1/docs/release_document/7.1.0/Cambricon-CNStream-User-Guide-CN-v7.1.0.pdf",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/documents/Cambricon_CNStream_d--28588784e57681a4/document.pdf",
+      "original_sha256": "7dc1960c57ae764be30f85e316a6672d3f8898958c222bdf79d658878c5081d9",
+      "operation": "Poppler pdftoppm 完整PDF第21页，最长边1800像素，未裁剪",
+      "opened_review": "已逐图实际打开核查标题、内容和标注；非实机结果"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "NeuWare层级不等逐SKU兼容",
+      "source_id": "Cambricon_NeuWare",
+      "location": "软件栈官方图",
+      "conditions": "官网未标发布日期快照",
+      "finding": "图不能证明220 BSP/ROS",
+      "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=71",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "当前MLU-OPS系统依赖",
+      "source_id": "Cambricon_mlu-ops_README_md",
+      "location": "依赖/OS要求",
+      "conditions": "固定SHA",
+      "finding": "x86要求不套Arm",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/README.md",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "torch训练构建需要patch",
+      "source_id": "Cambricon_torch_mlu_CONTRIBUTING_zh_md",
+      "location": "构建流程",
+      "conditions": "PyTorch2.1分支",
+      "finding": "与vLLM2.9依赖分开",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/CONTRIBUTING.zh.md",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "220参数与实际目标候选不同",
+      "source_id": "Cambricon_magicmind_cloud_buildin_python_common_model_process_py",
+      "location": "get_mlu_arches_from_param",
+      "conditions": "372/322/592候选",
+      "finding": "不称当前路径可构建220",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/magicmind_cloud/dc085c193c0af091f92a844cc3bfa350f1d7027f/buildin/python_common/model_process.py",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "7.1视觉目标及版本",
+      "source_id": "Cambricon_CNStream_docs_release_document_7_1_0_Cambricon-CNStream-User-Guide-CN-v7_1_0_pdf",
+      "location": "依赖表/封面/release",
+      "conditions": "370/585/CE3226",
+      "finding": "封面日期不替release",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/CNStream/24eea3eeb4220b2662814a9b7b35480ecdeacac1/docs/release_document/7.1.0/Cambricon-CNStream-User-Guide-CN-v7.1.0.pdf",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "新版取消220系列",
+      "source_id": "Cambricon_easydk_docs_release_document_4_1_0_Cambricon-EasyDK-User-Guide-CN-v4_1_0_pdf",
+      "location": "更新历史v4.0",
+      "conditions": "2022-10-17",
+      "finding": "旧新路线分开",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/easydk/c7a2d6c1b3c656590ee9d7ef3107dde6d9b99675/docs/release_document/4.1.0/Cambricon-EasyDK-User-Guide-CN-v4.1.0.pdf",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "模型链目标CE3226",
+      "source_id": "Cambricon_magicmind_edge_buildin_cv_detection_yolov3_caffe_gen_model_gen_model_py",
+      "location": "输入/目标/DetectionOutput",
+      "conditions": "静态416²、50样本上限、mtp_322",
+      "finding": "未实际连相机动作",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/magicmind_edge/04d1e858c1760439adc8dcdd146405558d9c524b/buildin/cv/detection/yolov3_caffe/gen_model/gen_model.py",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "CSV缺完整测量条件",
+      "source_id": "Cambricon_magicmind_edge_buildin_cv_detection_yolov3_caffe_benchmark_benchmark_ok_csv",
+      "location": "唯一数据行",
+      "conditions": "42.3246fps",
+      "finding": "不当220频率",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/magicmind_edge/04d1e858c1760439adc8dcdd146405558d9c524b/buildin/cv/detection/yolov3_caffe/benchmark/benchmark_ok.csv",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "云端依赖torch2.9.1",
+      "source_id": "Cambricon_vllm-mlu_requirements_txt",
+      "location": "全文",
+      "conditions": "当前开发快照",
+      "finding": "独立版本环境",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/vllm-mlu/dc984838c63aef3de46bbadedd82d9848a19c5d2/requirements.txt",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "CPU回退开关区分",
+      "source_id": "Cambricon_torch_mlu_torch_mlu_csrc_aten_MLUFallback_cpp",
+      "location": "fallback注册",
+      "conditions": "默认值不同",
+      "finding": "不称默认全错误恢复",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/torch_mlu/csrc/aten/MLUFallback.cpp",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "K8s共享与实时隔离分开",
+      "source_id": "Cambricon_cambricon-k8s-device-plugin_device-plugin_README_md",
+      "location": "modes",
+      "conditions": "env-share整卡",
+      "finding": "没有SLA测量",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/cambricon-k8s-device-plugin/cccdd66de08ad6b8ade94d140a8cc7d63b87353f/device-plugin/README.md",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "Exporter温度占位/冲突",
+      "source_id": "Cambricon_mlu-exporter_README_md",
+      "location": "配置和指标章节",
+      "conditions": "MLU370 cluster0",
+      "finding": "0不等真实温度",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/mlu-exporter/648a19c7d781ada2ea693e46edc562aa57f79be4/README.md",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "源码许可证不覆盖设备二进制",
+      "source_id": "Cambricon_mlu-ops_LICENSE",
+      "location": "LICENSE",
+      "conditions": "MIT代码",
+      "finding": "固件/SDK/权重逐项核验",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/LICENSE",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    }
+  ],
+  "manual_review": {
+    "coverage": "总览或专题已展开痛点、机制、源码/API、版本、部署、许可、对标与验证边界；缺失SDK/BSP及机器人环节明确记录",
+    "versions_and_measurements": "核对官方材料的目标和配置；文献及源码核验，未安装厂商SDK、未执行模型或机器人测试",
+    "maturity_and_licenses": "开源仓库许可逐项读取；二进制、固件、容器、权重及数据分别保留交付与许可缺口",
+    "figures_opened": "正文所有图均已逐图打开；无图专题以源码和配置为证据，未取得该专题专用官方流程图"
+  }
+}

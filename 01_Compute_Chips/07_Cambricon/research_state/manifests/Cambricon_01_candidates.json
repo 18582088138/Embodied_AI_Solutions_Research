@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Cambricon_Home",
+    "url": "https://www.cambricon.com/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_MLU220_SOM",
+    "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=56",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_MLU220_M2",
+    "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=57",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_Edge_Overview",
+    "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=55",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_MLU370_Overview",
+    "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=360",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_MLU370_S4_S8",
+    "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=365",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_MLU370_X4",
+    "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=371",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_MLU370_X8",
+    "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_MLU270_S4",
+    "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=36",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_MLU270_F4",
+    "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=37",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_1M_IP",
+    "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=12",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_1H_IP",
+    "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=13",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_Investor",
+    "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=326",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_X8_Launch_20220321",
+    "url": "https://www.cambricon.com/index.php?m=content&c=index&a=show&catid=127&id=48",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_WAIC_20220902",
+    "url": "https://www.cambricon.com/index.php?m=content&c=index&a=show&catid=127&id=51",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_Annual_2025_CNINFO",
+    "url": "https://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260312/05ca784762a7401b9ed371d917e436dc.PDF",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_Torch_MLU_README",
+    "url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/master/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_Half_2026_SSE",
+    "url": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-08-08/688256_20260808_TUNG.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_Half_2026_Xueqiu",
+    "url": "https://stockmc.xueqiu.com/202608/688256_20260808_TUNG.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_Torch_MLU_LICENSE",
+    "url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/master/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_Developer_Documents",
+    "url": "https://developer.cambricon.com/index/document/index/classid/3.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Cambricon_Annual_Report_2025",
+    "url": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-03-13/688256_20260313_GWH3.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

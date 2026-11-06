@@ -1,0 +1,44 @@
+{
+  "report": "01_Compute_Chips/07_Cambricon/01_Hardware_Platform.md",
+  "body_han_chars": 8931,
+  "tables": 12,
+  "sources": 18,
+  "archive_status": {
+    "partial_static": 14,
+    "complete_static": 4
+  },
+  "figures": 8,
+  "file_hash_checks": 1184,
+  "html_visible_text_equal": 14,
+  "page_local_dependencies_checked": 1493,
+  "report_local_links": 30,
+  "other_reports_unchanged": {
+    "02_Software_Stack.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08_Proprietary_Technologies.md": true,
+    "09_SWOT_Analysis.md": true
+  },
+  "errors": [],
+  "warnings": [
+    "静态依赖部分缺失: Cambricon_Home（报告应披露）",
+    "静态依赖部分缺失: Cambricon_Edge_Overview（报告应披露）",
+    "静态依赖部分缺失: Cambricon_MLU220_SOM（报告应披露）",
+    "静态依赖部分缺失: Cambricon_MLU220_M2（报告应披露）",
+    "静态依赖部分缺失: Cambricon_MLU370_Overview（报告应披露）",
+    "静态依赖部分缺失: Cambricon_MLU370_S4_S8（报告应披露）",
+    "静态依赖部分缺失: Cambricon_MLU370_X4（报告应披露）",
+    "静态依赖部分缺失: Cambricon_MLU370_X8（报告应披露）",
+    "静态依赖部分缺失: Cambricon_MLU270_S4（报告应披露）",
+    "静态依赖部分缺失: Cambricon_MLU270_F4（报告应披露）",
+    "静态依赖部分缺失: Cambricon_1M_IP（报告应披露）",
+    "静态依赖部分缺失: Cambricon_1H_IP（报告应披露）",
+    "静态依赖部分缺失: Cambricon_X8_Launch_20220321（报告应披露）",
+    "静态依赖部分缺失: Cambricon_WAIC_20220902（报告应披露）"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

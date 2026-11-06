@@ -1,0 +1,31 @@
+{
+  "time_utc": "2026-11-05T01:58:07.904662+00:00",
+  "summary": {
+    "complete_static": 16,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "Cambricon_MagicMind",
+    "Cambricon_magicmind_cloud_buildin_cv_classification_resnet50_onnx_gen_model_gen_model_py",
+    "Cambricon_magicmind_cloud_buildin_python_common_model_process_py",
+    "Cambricon_magicmind_cloud_buildin_python_common_mm_runner_py",
+    "Cambricon_magicmind_cloud_buildin_python_common_build_param_py",
+    "Cambricon_magicmind_cloud_buildin_python_common_common_calibrate_py",
+    "Cambricon_magicmind_cloud_buildin_cv_classification_resnet50_onnx_README_md",
+    "Cambricon_magicmind_edge_README_md",
+    "Cambricon_magicmind_edge_buildin_cv_detection_yolov3_caffe_README_MD",
+    "Cambricon_magicmind_edge_buildin_cv_detection_yolov3_caffe_gen_model_gen_model_py",
+    "Cambricon_magicmind_edge_buildin_cv_detection_yolov3_caffe_infer_cpp_src_infer_cpp",
+    "Cambricon_magicmind_edge_buildin_cv_detection_yolov3_caffe_benchmark_benchmark_ok_csv",
+    "Cambricon_magicmind_cloud_README_md",
+    "Compare_TRT_Builder",
+    "Compare_TRT_Quant",
+    "Cambricon_magicmind_cloud_LICENSE",
+    "Cambricon_magicmind_edge_LICENSE"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

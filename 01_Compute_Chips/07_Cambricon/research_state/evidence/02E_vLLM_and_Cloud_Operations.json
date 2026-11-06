@@ -1,0 +1,146 @@
+{
+  "source_ids": [
+    "Cambricon_vllm-mlu_README_md",
+    "Cambricon_vllm-mlu_setup_py",
+    "Cambricon_vllm-mlu_vllm_mlu___init___py",
+    "Cambricon_vllm-mlu_requirements_txt",
+    "Cambricon_cambricon-k8s-device-plugin_device-plugin_README_md",
+    "Cambricon_mlu-exporter_README_md",
+    "Cambricon_vllm-mlu_vllm_mlu_platforms_mlu_py",
+    "Cambricon_vllm-mlu_vllm_mlu_v1_attention_backends_flash_attn_py",
+    "Cambricon_mlu-exporter_examples_metrics_yaml",
+    "Cambricon_mlu-exporter_pkg_metrics_conf_go",
+    "Cambricon_vllm-mlu_LICENSE",
+    "Cambricon_cambricon-k8s-device-plugin_LICENSE",
+    "Cambricon_mlu-exporter_LICENSE"
+  ],
+  "figures": [],
+  "claim_review": [
+    {
+      "claim": "vLLM硬件范围与开发版本",
+      "source_id": "Cambricon_vllm-mlu_README_md",
+      "location": "支持环境/更新/在线例程",
+      "conditions": "v0.11.2-dev固定SHA",
+      "finding": "MLU370以上，非220，不称稳定认证",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/vllm-mlu/dc984838c63aef3de46bbadedd82d9848a19c5d2/README.md",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "插件有platform与hijack入口",
+      "source_id": "Cambricon_vllm-mlu_setup_py",
+      "location": "entry_points",
+      "conditions": "平台与general插件",
+      "finding": "不等完全无修改集成",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/vllm-mlu/dc984838c63aef3de46bbadedd82d9848a19c5d2/setup.py",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "vLLM依赖与2.1训练路线分开",
+      "source_id": "Cambricon_vllm-mlu_requirements_txt",
+      "location": "全文",
+      "conditions": "torch2.9.1 torch-mlu>=1.29.1",
+      "finding": "不能混装旧训练矩阵",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/vllm-mlu/dc984838c63aef3de46bbadedd82d9848a19c5d2/requirements.txt",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "Python下界不是环境可用性",
+      "source_id": "Cambricon_vllm-mlu_setup_py",
+      "location": "python_requires/get_vllm_version",
+      "conditions": "包元数据>=3.8，build.property未定位",
+      "finding": "构建版本及完整依赖另核",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/vllm-mlu/dc984838c63aef3de46bbadedd82d9848a19c5d2/setup.py",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "模型配置会关闭优化且同名方法覆盖",
+      "source_id": "Cambricon_vllm-mlu_vllm_mlu_platforms_mlu_py",
+      "location": "check_and_update_config/import_kernels",
+      "conditions": "MLA/MCC/graph组合",
+      "finding": "保留有效配置，不把清单当全组合支持",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/vllm-mlu/dc984838c63aef3de46bbadedd82d9848a19c5d2/vllm_mlu/platforms/mlu.py",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "cache布局和docstring冲突",
+      "source_id": "Cambricon_vllm-mlu_vllm_mlu_v1_attention_backends_flash_attn_py",
+      "location": "get_kv_cache_shape/forward",
+      "conditions": "实际函数先num_kv_heads后block_size",
+      "finding": "需运行核stride与dtype",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/vllm-mlu/dc984838c63aef3de46bbadedd82d9848a19c5d2/vllm_mlu/v1/attention/backends/flash_attn.py",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "output fused量化未支持",
+      "source_id": "Cambricon_vllm-mlu_vllm_mlu_v1_attention_backends_flash_attn_py",
+      "location": "forward output_scale判断",
+      "conditions": "实际输出量化参数存在",
+      "finding": "权重/KV/output量化分开",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/vllm-mlu/dc984838c63aef3de46bbadedd82d9848a19c5d2/vllm_mlu/v1/attention/backends/flash_attn.py",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "在线示例关闭prefix/graph",
+      "source_id": "Cambricon_vllm-mlu_README_md",
+      "location": "Online inference",
+      "conditions": "no-enable-prefix-caching/enforce-eager",
+      "finding": "不称已启用所有优化",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/vllm-mlu/dc984838c63aef3de46bbadedd82d9848a19c5d2/README.md",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "K8s共享不等时延隔离",
+      "source_id": "Cambricon_cambricon-k8s-device-plugin_device-plugin_README_md",
+      "location": "mode/MLULink policy/header依赖",
+      "conditions": "guaranteed/restricted 1/2/4/8卡",
+      "finding": "driver min与header要求分列",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/cambricon-k8s-device-plugin/cccdd66de08ad6b8ade94d140a8cc7d63b87353f/device-plugin/README.md",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "exporter有冲突与温度占位",
+      "source_id": "Cambricon_mlu-exporter_README_md",
+      "location": "args/MPM/Metrics and Labels",
+      "conditions": "当前README，MLU370 cluster=0",
+      "finding": "0不等实温；CLI待版本核验",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/mlu-exporter/648a19c7d781ada2ea693e46edc562aa57f79be4/README.md",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "指标配置从YAML解析",
+      "source_id": "Cambricon_mlu-exporter_pkg_metrics_conf_go",
+      "location": "Conf/info/load/getConfOrDie",
+      "conditions": "Name Help Labels Push",
+      "finding": "核配置不代表已解决CLI冲突",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/mlu-exporter/648a19c7d781ada2ea693e46edc562aa57f79be4/pkg/metrics/conf.go",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "开源许可不覆盖硬件SDK",
+      "source_id": "Cambricon_vllm-mlu_LICENSE",
+      "location": "LICENSE",
+      "conditions": "Apache2.0",
+      "finding": "模型与二进制另核",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/vllm-mlu/dc984838c63aef3de46bbadedd82d9848a19c5d2/LICENSE",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    }
+  ],
+  "manual_review": {
+    "coverage": "总览或专题已展开痛点、机制、源码/API、版本、部署、许可、对标与验证边界；缺失SDK/BSP及机器人环节明确记录",
+    "versions_and_measurements": "核对官方材料的目标和配置；文献及源码核验，未安装厂商SDK、未执行模型或机器人测试",
+    "maturity_and_licenses": "开源仓库许可逐项读取；二进制、固件、容器、权重及数据分别保留交付与许可缺口",
+    "figures_opened": "正文所有图均已逐图打开；无图专题以源码和配置为证据，未取得该专题专用官方流程图"
+  }
+}

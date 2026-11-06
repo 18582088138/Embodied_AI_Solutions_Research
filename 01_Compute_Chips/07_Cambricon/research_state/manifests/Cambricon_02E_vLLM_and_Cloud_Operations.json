@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Cambricon_vllm-mlu_README_md",
+    "url": "https://raw.githubusercontent.com/Cambricon/vllm-mlu/dc984838c63aef3de46bbadedd82d9848a19c5d2/README.md",
+    "expected": "any",
+    "used_by": [
+      "02E_vLLM_and_Cloud_Operations"
+    ]
+  },
+  {
+    "name": "Cambricon_vllm-mlu_setup_py",
+    "url": "https://raw.githubusercontent.com/Cambricon/vllm-mlu/dc984838c63aef3de46bbadedd82d9848a19c5d2/setup.py",
+    "expected": "any",
+    "used_by": [
+      "02E_vLLM_and_Cloud_Operations"
+    ]
+  },
+  {
+    "name": "Cambricon_vllm-mlu_vllm_mlu___init___py",
+    "url": "https://raw.githubusercontent.com/Cambricon/vllm-mlu/dc984838c63aef3de46bbadedd82d9848a19c5d2/vllm_mlu/__init__.py",
+    "expected": "any",
+    "used_by": [
+      "02E_vLLM_and_Cloud_Operations"
+    ]
+  },
+  {
+    "name": "Cambricon_vllm-mlu_requirements_txt",
+    "url": "https://raw.githubusercontent.com/Cambricon/vllm-mlu/dc984838c63aef3de46bbadedd82d9848a19c5d2/requirements.txt",
+    "expected": "any",
+    "used_by": [
+      "02E_vLLM_and_Cloud_Operations"
+    ]
+  },
+  {
+    "name": "Cambricon_cambricon-k8s-device-plugin_device-plugin_README_md",
+    "url": "https://raw.githubusercontent.com/Cambricon/cambricon-k8s-device-plugin/cccdd66de08ad6b8ade94d140a8cc7d63b87353f/device-plugin/README.md",
+    "expected": "any",
+    "used_by": [
+      "02E_vLLM_and_Cloud_Operations"
+    ]
+  },
+  {
+    "name": "Cambricon_mlu-exporter_README_md",
+    "url": "https://raw.githubusercontent.com/Cambricon/mlu-exporter/648a19c7d781ada2ea693e46edc562aa57f79be4/README.md",
+    "expected": "any",
+    "used_by": [
+      "02E_vLLM_and_Cloud_Operations"
+    ]
+  },
+  {
+    "name": "Cambricon_vllm-mlu_vllm_mlu_platforms_mlu_py",
+    "url": "https://raw.githubusercontent.com/Cambricon/vllm-mlu/dc984838c63aef3de46bbadedd82d9848a19c5d2/vllm_mlu/platforms/mlu.py",
+    "expected": "any",
+    "used_by": [
+      "02E_vLLM_and_Cloud_Operations"
+    ]
+  },
+  {
+    "name": "Cambricon_vllm-mlu_vllm_mlu_v1_attention_backends_flash_attn_py",
+    "url": "https://raw.githubusercontent.com/Cambricon/vllm-mlu/dc984838c63aef3de46bbadedd82d9848a19c5d2/vllm_mlu/v1/attention/backends/flash_attn.py",
+    "expected": "any",
+    "used_by": [
+      "02E_vLLM_and_Cloud_Operations"
+    ]
+  },
+  {
+    "name": "Cambricon_mlu-exporter_examples_metrics_yaml",
+    "url": "https://raw.githubusercontent.com/Cambricon/mlu-exporter/648a19c7d781ada2ea693e46edc562aa57f79be4/examples/metrics.yaml",
+    "expected": "any",
+    "used_by": [
+      "02E_vLLM_and_Cloud_Operations"
+    ]
+  },
+  {
+    "name": "Cambricon_mlu-exporter_pkg_metrics_conf_go",
+    "url": "https://raw.githubusercontent.com/Cambricon/mlu-exporter/648a19c7d781ada2ea693e46edc562aa57f79be4/pkg/metrics/conf.go",
+    "expected": "any",
+    "used_by": [
+      "02E_vLLM_and_Cloud_Operations"
+    ]
+  },
+  {
+    "name": "Cambricon_vllm-mlu_LICENSE",
+    "url": "https://raw.githubusercontent.com/Cambricon/vllm-mlu/dc984838c63aef3de46bbadedd82d9848a19c5d2/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02E_vLLM_and_Cloud_Operations"
+    ]
+  },
+  {
+    "name": "Cambricon_cambricon-k8s-device-plugin_LICENSE",
+    "url": "https://raw.githubusercontent.com/Cambricon/cambricon-k8s-device-plugin/cccdd66de08ad6b8ade94d140a8cc7d63b87353f/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02E_vLLM_and_Cloud_Operations"
+    ]
+  },
+  {
+    "name": "Cambricon_mlu-exporter_LICENSE",
+    "url": "https://raw.githubusercontent.com/Cambricon/mlu-exporter/648a19c7d781ada2ea693e46edc562aa57f79be4/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02E_vLLM_and_Cloud_Operations"
+    ]
+  }
+]

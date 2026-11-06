@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Cambricon_NeuWare",
+    "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=71",
+    "expected": "any",
+    "used_by": [
+      "02A_NeuWare_BANG_and_Runtime"
+    ]
+  },
+  {
+    "name": "Cambricon_mlu-ops_docs_BANG-C-OPS-Develop-Guide_md",
+    "url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/docs/BANG-C-OPS-Develop-Guide.md",
+    "expected": "any",
+    "used_by": [
+      "02A_NeuWare_BANG_and_Runtime"
+    ]
+  },
+  {
+    "name": "Cambricon_mlu-ops_docs_MLU-OPS-Performance-Acceptance-Standard_md",
+    "url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/docs/MLU-OPS-Performance-Acceptance-Standard.md",
+    "expected": "any",
+    "used_by": [
+      "02A_NeuWare_BANG_and_Runtime"
+    ]
+  },
+  {
+    "name": "Cambricon_mlu-ops_kernels_abs_abs_cpp",
+    "url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/kernels/abs/abs.cpp",
+    "expected": "any",
+    "used_by": [
+      "02A_NeuWare_BANG_and_Runtime"
+    ]
+  },
+  {
+    "name": "Cambricon_mlu-ops_kernels_abs_abs_block_mlu",
+    "url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/kernels/abs/abs_block.mlu",
+    "expected": "any",
+    "used_by": [
+      "02A_NeuWare_BANG_and_Runtime"
+    ]
+  },
+  {
+    "name": "Cambricon_mlu-ops_docs_design_docs_abs_abs_md",
+    "url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/docs/design_docs/abs/abs.md",
+    "expected": "any",
+    "used_by": [
+      "02A_NeuWare_BANG_and_Runtime"
+    ]
+  },
+  {
+    "name": "Cambricon_mlu-ops_docs_MLU-OPS-How-To-Use-CNNL-API_md",
+    "url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/docs/MLU-OPS-How-To-Use-CNNL-API.md",
+    "expected": "any",
+    "used_by": [
+      "02A_NeuWare_BANG_and_Runtime"
+    ]
+  },
+  {
+    "name": "Cambricon_mlu-ops_docs_MLU-OPS-Accuracy-Acceptance-Standard_md",
+    "url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/docs/MLU-OPS-Accuracy-Acceptance-Standard.md",
+    "expected": "any",
+    "used_by": [
+      "02A_NeuWare_BANG_and_Runtime"
+    ]
+  },
+  {
+    "name": "Cambricon_mlu-ops_README_md",
+    "url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/README.md",
+    "expected": "any",
+    "used_by": [
+      "02A_NeuWare_BANG_and_Runtime"
+    ]
+  },
+  {
+    "name": "Cambricon_mlu-ops_LICENSE",
+    "url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02A_NeuWare_BANG_and_Runtime"
+    ]
+  },
+  {
+    "name": "Compare_HIP_Async",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/asynchronous.html",
+    "expected": "any",
+    "used_by": [
+      "02A_NeuWare_BANG_and_Runtime"
+    ]
+  },
+  {
+    "name": "Cambricon_mlu-ops_docs_images_hardwarehierarchy_png",
+    "url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/docs/images/hardwarehierarchy.png",
+    "expected": "any",
+    "used_by": [
+      "02A_NeuWare_BANG_and_Runtime"
+    ]
+  },
+  {
+    "name": "Cambricon_mlu-ops_docs_images_memorymodel_png",
+    "url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/docs/images/memorymodel.png",
+    "expected": "any",
+    "used_by": [
+      "02A_NeuWare_BANG_and_Runtime"
+    ]
+  },
+  {
+    "name": "Cambricon_mlu-ops_docs_images_pingpong_png",
+    "url": "https://raw.githubusercontent.com/Cambricon/mlu-ops/549075224cd46ac2a52e4883b51dd50fe4b1abf5/docs/images/pingpong.png",
+    "expected": "any",
+    "used_by": [
+      "02A_NeuWare_BANG_and_Runtime"
+    ]
+  }
+]

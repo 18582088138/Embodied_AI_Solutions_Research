@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-05 Asia/Shanghai",
+  "scope": "01 only",
+  "sources_selected": [
+    "Cambricon_Home",
+    "Cambricon_Edge_Overview",
+    "Cambricon_MLU220_SOM",
+    "Cambricon_MLU220_M2",
+    "Cambricon_MLU370_Overview",
+    "Cambricon_MLU370_S4_S8",
+    "Cambricon_MLU370_X4",
+    "Cambricon_MLU370_X8",
+    "Cambricon_MLU270_S4",
+    "Cambricon_MLU270_F4",
+    "Cambricon_1M_IP",
+    "Cambricon_1H_IP",
+    "Cambricon_X8_Launch_20220321",
+    "Cambricon_WAIC_20220902",
+    "Cambricon_Annual_2025_CNINFO",
+    "Cambricon_Half_2026_Xueqiu",
+    "Cambricon_Torch_MLU_README",
+    "Cambricon_Torch_MLU_LICENSE"
+  ],
+  "failed_candidates": [
+    {
+      "id": "Cambricon_Developer_Documents",
+      "url": "https://developer.cambricon.com/index/document/index/classid/3.html",
+      "archive_status": "failed",
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "robots": {
+        "https://developer.cambricon.com": "unavailable HTTP504; fail closed"
+      }
+    },
+    {
+      "id": "Cambricon_Annual_Report_2025",
+      "url": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-03-13/688256_20260313_GWH3.pdf",
+      "archive_status": "failed",
+      "error": "ValueError: expected pdf, received .html",
+      "robots": {
+        "https://www.cambricon.com": "retrieved",
+        "https://open.sseinfo.com": "absent HTTP404",
+        "https://developer.cambricon.com": "unavailable HTTP504; fail closed",
+        "https://static.sse.com.cn": "absent HTTP404"
+      }
+    },
+    {
+      "id": "Cambricon_Half_2026_SSE",
+      "url": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-08-08/688256_20260808_TUNG.pdf",
+      "archive_status": "failed",
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "robots": {
+        "https://raw.githubusercontent.com": "absent HTTP404",
+        "https://static.sse.com.cn": "unavailable HTTP504; fail closed"
+      }
+    }
+  ],
+  "excluded_navigation_source": "Cambricon_Investor: dynamic notice list not in static text; not selected as valid content evidence",
+  "web_searches": [
+    {
+      "query": "site:cambricon.com 思元590 思元720 2025 2026",
+      "result": "Bing challenge; not solved and no snippets used"
+    },
+    {
+      "query": "寒武纪 2025 年年报 思元590 pdf",
+      "result": "Google located SSE and CNINFO originals; AI overview not used as evidence"
+    },
+    {
+      "query": "site:developer.cambricon.com MLU590 显存 板卡",
+      "result": "No matching documents; not evidence of capability absence"
+    },
+    {
+      "query": "寒武纪 2026年半年度报告 pdf",
+      "result": "Located SSE and Xueqiu PDF; SSE robots failed; Xueqiu company PDF read"
+    },
+    {
+      "query": "MLU220 工控机 产品 厂商 / EVM220 英码 官网",
+      "result": "Connector vendor article not authoritative for module; EMA product catalog inspected, no EVM220 current specification verified",
+      "candidate_url": "https://www.solepin.com/News/Product_news/876.html",
+      "manufacturer_catalog": "https://www.ema-tech.com/Content/2507390.html"
+    }
+  ],
+  "networking": "System proxy resolved through .NET system PAC; no hardcoded NVIDIA proxy reused; only toolkit downloads for source files",
+  "chapter_boundary": "No changes to 02—09; no research subagents spawned"
+}

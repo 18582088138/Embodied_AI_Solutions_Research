@@ -1,0 +1,163 @@
+{
+  "source_ids": [
+    "Cambricon_CNStream_docs_release_document_5_3_0_Cambricon-CNStream-User-Guide-CN_pdf",
+    "Cambricon_easydk_docs_release_document_4_1_0_Cambricon-EasyDK-User-Guide-CN-v4_1_0_pdf",
+    "Cambricon_CNStream_docs_release_document_7_1_0_Cambricon-CNStream-User-Guide-CN-v7_1_0_pdf",
+    "Cambricon_CNStream_framework_include_cnstream_frame_hpp",
+    "Cambricon_CNStream_samples_cns_launcher_configs_yolov3_object_detection_mlu370_json",
+    "Cambricon_easydk_include_cnedk_buf_surface_h",
+    "Cambricon_easydk_include_infer_server_cnis_infer_server_h",
+    "Cambricon_CNStream_LICENSE",
+    "Cambricon_easydk_LICENSE"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_cns_arch.png",
+      "sha256": "60285db6b97175b8fc4e7e464b8a290ea959fba7dffaba1776b1b445e0397e31",
+      "source_id": "Cambricon_CNStream_docs_release_document_7_1_0_Cambricon-CNStream-User-Guide-CN-v7_1_0_pdf",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/CNStream/24eea3eeb4220b2662814a9b7b35480ecdeacac1/docs/release_document/7.1.0/Cambricon-CNStream-User-Guide-CN-v7.1.0.pdf",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/documents/Cambricon_CNStream_d--28588784e57681a4/document.pdf",
+      "original_sha256": "7dc1960c57ae764be30f85e316a6672d3f8898958c222bdf79d658878c5081d9",
+      "operation": "Poppler pdftoppm 完整PDF第21页，最长边1800像素，未裁剪",
+      "opened_review": "已逐图实际打开核查标题、内容和标注；非实机结果"
+    },
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_cns_flow.png",
+      "sha256": "6f9d4f8d23bcbfd2d8760a093fb8ac191f1845540e389d4f8205080e0c108653",
+      "source_id": "Cambricon_CNStream_docs_release_document_7_1_0_Cambricon-CNStream-User-Guide-CN-v7_1_0_pdf",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/CNStream/24eea3eeb4220b2662814a9b7b35480ecdeacac1/docs/release_document/7.1.0/Cambricon-CNStream-User-Guide-CN-v7.1.0.pdf",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/documents/Cambricon_CNStream_d--28588784e57681a4/document.pdf",
+      "original_sha256": "7dc1960c57ae764be30f85e316a6672d3f8898958c222bdf79d658878c5081d9",
+      "operation": "Poppler pdftoppm 完整PDF第22页，最长边1800像素，未裁剪",
+      "opened_review": "已逐图实际打开核查标题、内容和标注；非实机结果"
+    },
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_easy_arch.png",
+      "sha256": "c5e3ed4f2d51cc9d41ff969ea37e28e89e6fc6c33c337efaefae779d0e5dd39e",
+      "source_id": "Cambricon_easydk_docs_release_document_4_1_0_Cambricon-EasyDK-User-Guide-CN-v4_1_0_pdf",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/easydk/c7a2d6c1b3c656590ee9d7ef3107dde6d9b99675/docs/release_document/4.1.0/Cambricon-EasyDK-User-Guide-CN-v4.1.0.pdf",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/documents/Cambricon_easydk_doc--daa8edb6b1403342/document.pdf",
+      "original_sha256": "1dd8808b2583698a5163a787924ff857229a033c877389f0fa62322d404e1d1b",
+      "operation": "Poppler pdftoppm 完整PDF第15页，最长边1800像素，未裁剪",
+      "opened_review": "已逐图实际打开核查标题、内容和标注；非实机结果"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "历史220路线有版本证据",
+      "source_id": "Cambricon_CNStream_docs_release_document_5_3_0_Cambricon-CNStream-User-Guide-CN_pdf",
+      "location": "第3/14章、PDF91页",
+      "conditions": "CNStream5.3 2021-01-28 CNToolkit1.5.0",
+      "finding": "不证明2026交付维护",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/CNStream/24eea3eeb4220b2662814a9b7b35480ecdeacac1/docs/release_document/5.3.0/Cambricon-CNStream-User-Guide-CN.pdf",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "EasyDK4.0取消MLU200兼容",
+      "source_id": "Cambricon_easydk_docs_release_document_4_1_0_Cambricon-EasyDK-User-Guide-CN-v4_1_0_pdf",
+      "location": "PDF10页更新历史",
+      "conditions": "2022-10-17",
+      "finding": "220与CE3226路线不能混用",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/easydk/c7a2d6c1b3c656590ee9d7ef3107dde6d9b99675/docs/release_document/4.1.0/Cambricon-EasyDK-User-Guide-CN-v4.1.0.pdf",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "7.1分平台依赖表",
+      "source_id": "Cambricon_CNStream_docs_release_document_7_1_0_Cambricon-CNStream-User-Guide-CN-v7_1_0_pdf",
+      "location": "PDF12/13页、release7.1",
+      "conditions": "370/585/CE3226分别配置",
+      "finding": "封面2025日期不当release日期",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/CNStream/24eea3eeb4220b2662814a9b7b35480ecdeacac1/docs/release_document/7.1.0/Cambricon-CNStream-User-Guide-CN-v7.1.0.pdf",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "frame与队列背压",
+      "source_id": "Cambricon_CNStream_docs_release_document_7_1_0_Cambricon-CNStream-User-Guide-CN-v7_1_0_pdf",
+      "location": "PDF21/22页",
+      "conditions": "DAG模块/共享frame",
+      "finding": "结构化分析图不含动作闭环",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/CNStream/24eea3eeb4220b2662814a9b7b35480ecdeacac1/docs/release_document/7.1.0/Cambricon-CNStream-User-Guide-CN-v7.1.0.pdf",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "timestamp不证明时钟同步",
+      "source_id": "Cambricon_CNStream_framework_include_cnstream_frame_hpp",
+      "location": "CNFrameInfo字段",
+      "conditions": "timestamp默认-1",
+      "finding": "曝光/控制时钟需另实现",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/CNStream/24eea3eeb4220b2662814a9b7b35480ecdeacac1/framework/include/cnstream_frame.hpp",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "内存类型与缓存同步有版本边界",
+      "source_id": "Cambricon_easydk_include_cnedk_buf_surface_h",
+      "location": "mem_type/plane/sync API注释",
+      "conditions": "当前SHA与4.1指南分开",
+      "finding": "SyncForDevice注释与cached例文措辞不同，待库核验",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/easydk/c7a2d6c1b3c656590ee9d7ef3107dde6d9b99675/include/cnedk_buf_surface.h",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "异步入队也可能阻塞",
+      "source_id": "Cambricon_easydk_docs_release_document_4_1_0_Cambricon-EasyDK-User-Guide-CN-v4_1_0_pdf",
+      "location": "6.3.1 PDF43页",
+      "conditions": "繁忙缓存/timeout",
+      "finding": "true加TIMEOUT不等成功",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/easydk/c7a2d6c1b3c656590ee9d7ef3107dde6d9b99675/docs/release_document/4.1.0/Cambricon-EasyDK-User-Guide-CN-v4.1.0.pdf",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "DiscardTask非抢占",
+      "source_id": "Cambricon_easydk_docs_release_document_4_1_0_Cambricon-EasyDK-User-Guide-CN-v4_1_0_pdf",
+      "location": "6.3.2 PDF43页",
+      "conditions": "已执行请求等结束再弃",
+      "finding": "非电机停机",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/easydk/c7a2d6c1b3c656590ee9d7ef3107dde6d9b99675/docs/release_document/4.1.0/Cambricon-EasyDK-User-Guide-CN-v4.1.0.pdf",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "动态batch默认等待窗口",
+      "source_id": "Cambricon_easydk_include_infer_server_cnis_infer_server_h",
+      "location": "SessionDesc",
+      "conditions": "default100ms，0无限等",
+      "finding": "需按数据年龄调参，无实测",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/easydk/c7a2d6c1b3c656590ee9d7ef3107dde6d9b99675/include/infer_server/cnis/infer_server.h",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "pipeline E2E的统计边界",
+      "source_id": "Cambricon_CNStream_docs_release_document_7_1_0_Cambricon-CNStream-User-Guide-CN-v7_1_0_pdf",
+      "location": "9.2 PDF76-79页",
+      "conditions": "默认关闭、pipeline进出",
+      "finding": "不等曝光到动作P99",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/CNStream/24eea3eeb4220b2662814a9b7b35480ecdeacac1/docs/release_document/7.1.0/Cambricon-CNStream-User-Guide-CN-v7.1.0.pdf",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    },
+    {
+      "claim": "代码与固件许可分开",
+      "source_id": "Cambricon_easydk_LICENSE",
+      "location": "LICENSE",
+      "conditions": "Apache2.0",
+      "finding": "文档和二进制另核",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/easydk/c7a2d6c1b3c656590ee9d7ef3107dde6d9b99675/LICENSE",
+      "collected_at": "2026-11-05 (Asia/Shanghai)",
+      "evidence_type": "事实（官方文档/源码）；适用性推导与未取得项按finding限定"
+    }
+  ],
+  "manual_review": {
+    "coverage": "总览或专题已展开痛点、机制、源码/API、版本、部署、许可、对标与验证边界；缺失SDK/BSP及机器人环节明确记录",
+    "versions_and_measurements": "核对官方材料的目标和配置；文献及源码核验，未安装厂商SDK、未执行模型或机器人测试",
+    "maturity_and_licenses": "开源仓库许可逐项读取；二进制、固件、容器、权重及数据分别保留交付与许可缺口",
+    "figures_opened": "正文所有图均已逐图打开；无图专题以源码和配置为证据，未取得该专题专用官方流程图"
+  }
+}

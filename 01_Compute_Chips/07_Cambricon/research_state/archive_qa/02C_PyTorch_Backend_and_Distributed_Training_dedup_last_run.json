@@ -1,0 +1,29 @@
+{
+  "time_utc": "2026-11-05T02:04:02.070907+00:00",
+  "summary": {
+    "complete_static": 12,
+    "partial_static": 3,
+    "failed": 0
+  },
+  "names": [
+    "Cambricon_torch_mlu_README_md",
+    "Cambricon_NeuWare",
+    "Cambricon_torch_mlu_CONTRIBUTING_zh_md",
+    "Cambricon_pytorch_modelzoo_README_md",
+    "Compare_PyTorch_Backend",
+    "Cambricon_torch_mlu_torch_mlu_csrc_aten_MLUFallback_cpp",
+    "Cambricon_torch_mlu_torch_mlu_csrc_framework_core_MLUStream_cpp",
+    "Compare_HIP_Async",
+    "Cambricon_torch_mlu_examples_training_single_card_demo_py",
+    "Cambricon_torch_mlu_torch_mlu_mlu_cncl_py",
+    "Cambricon_torch_mlu_torch_mlu_csrc_python_ProcessGroupCNCL_cpp",
+    "Cambricon_torch_mlu_torch_mlu_csrc_framework_distributed_process_group_cncl_cpp",
+    "Cambricon_torch_mlu_examples_training_multi_card_demo_py",
+    "Cambricon_torch_mlu_LICENSE",
+    "Cambricon_pytorch_modelzoo_LICENSE"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

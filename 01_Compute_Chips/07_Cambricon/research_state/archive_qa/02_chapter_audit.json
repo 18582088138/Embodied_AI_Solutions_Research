@@ -1,0 +1,112 @@
+{
+  "chapter": "02_Software_Stack",
+  "data_cutoff": "2026-11-05 (Asia/Shanghai)",
+  "outcome": "pass",
+  "protected_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08_Proprietary_Technologies.md": true,
+    "09_SWOT_Analysis.md": true
+  },
+  "topics_unchanged_since_completion": {
+    "02A_NeuWare_BANG_and_Runtime.md": true,
+    "02B_MagicMind_Compilation_and_Quantization.md": true,
+    "02C_PyTorch_Backend_and_Distributed_Training.md": true,
+    "02D_CNStream_EasyDK_and_Robot_Handoff.md": true,
+    "02E_vLLM_and_Cloud_Operations.md": true
+  },
+  "reports": {
+    "02_Software_Stack": {
+      "quality": "pass",
+      "body_han_chars": 3103,
+      "sources": 34,
+      "figures": 2,
+      "sha256": "fad18a4b33eadffce46612ab41b2c4d2f86a03f40d33f69733409a0424b9db57",
+      "dedup_network_requests": 0,
+      "warnings": [
+        "静态依赖部分缺失: Cambricon_NeuWare（报告应披露）",
+        "静态依赖部分缺失: Cambricon_MagicMind（报告应披露）",
+        "静态依赖部分缺失: Compare_HIP_Async（报告应披露）"
+      ]
+    },
+    "02A_NeuWare_BANG_and_Runtime": {
+      "quality": "pass",
+      "body_han_chars": 2741,
+      "sources": 14,
+      "figures": 4,
+      "sha256": "5456c04e352e9c2e3ba653f98d26cdf383e961ed6a4013128beeb374316d091a",
+      "dedup_network_requests": 0,
+      "warnings": [
+        "静态依赖部分缺失: Cambricon_NeuWare（报告应披露）",
+        "静态依赖部分缺失: Compare_HIP_Async（报告应披露）",
+        "未提供本章开始基线；不能证明其他报告未变"
+      ]
+    },
+    "02B_MagicMind_Compilation_and_Quantization": {
+      "quality": "pass",
+      "body_han_chars": 2592,
+      "sources": 17,
+      "figures": 2,
+      "sha256": "b9e3efb02dff0f1aea6a0468f9fbd3f16e53af42ccf53b67acb275df694a94cc",
+      "dedup_network_requests": 0,
+      "warnings": [
+        "静态依赖部分缺失: Cambricon_MagicMind（报告应披露）",
+        "未提供本章开始基线；不能证明其他报告未变"
+      ]
+    },
+    "02C_PyTorch_Backend_and_Distributed_Training": {
+      "quality": "pass",
+      "body_han_chars": 1941,
+      "sources": 15,
+      "figures": 1,
+      "sha256": "4843ffab2654e0f7fa195a1dd3eb4c6f1039ef4fc6ff99757a9e8a04d4beeb2b",
+      "dedup_network_requests": 0,
+      "warnings": [
+        "静态依赖部分缺失: Cambricon_NeuWare（报告应披露）",
+        "静态依赖部分缺失: Compare_PyTorch_Backend（报告应披露）",
+        "静态依赖部分缺失: Compare_HIP_Async（报告应披露）",
+        "未提供本章开始基线；不能证明其他报告未变"
+      ]
+    },
+    "02D_CNStream_EasyDK_and_Robot_Handoff": {
+      "quality": "pass",
+      "body_han_chars": 2070,
+      "sources": 9,
+      "figures": 3,
+      "sha256": "219eda5fdfba77adebfa65af930e4cef92414c0b6af36fbc64121948458fbd4b",
+      "dedup_network_requests": 0,
+      "warnings": [
+        "未提供本章开始基线；不能证明其他报告未变"
+      ]
+    },
+    "02E_vLLM_and_Cloud_Operations": {
+      "quality": "pass",
+      "body_han_chars": 2056,
+      "sources": 13,
+      "figures": 0,
+      "sha256": "f83ae6028c9b9791a72dda255856221f182ffdb8f375f7890cd4ae0fb9612439",
+      "dedup_network_requests": 0,
+      "warnings": [
+        "未记录官方图片，需人工说明检索范围和原因",
+        "未提供本章开始基线；不能证明其他报告未变"
+      ]
+    }
+  },
+  "union_sources": 66,
+  "union_archive_status": {
+    "complete_static": 62,
+    "partial_static": 4,
+    "failed": 0
+  },
+  "unique_figures_opened": 10,
+  "union_dedup_network_requests": 0,
+  "union_dedup_new_assets": 0,
+  "manual_semantic_review": "核对版本分叉、文内冲突、代码同步/回退/缓存机制、机器人动作交接缺口及许可；图已逐图打开，未安装SDK或运行模型/机器人",
+  "baseline_policy": "原始基线保留；专题完成时带baseline检查，授权更新总览后专题无baseline结构复查并核原hash",
+  "review_status": "02_completed_pending_user_review",
+  "limitations": "检查仅验证结构、归档及记录；未证明实机性能/硬实时/具身任务结果"
+}

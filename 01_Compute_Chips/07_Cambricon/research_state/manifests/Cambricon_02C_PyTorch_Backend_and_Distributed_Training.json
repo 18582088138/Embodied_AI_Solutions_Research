@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Cambricon_torch_mlu_README_md",
+    "url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/README.md",
+    "expected": "any",
+    "used_by": [
+      "02C_PyTorch_Backend_and_Distributed_Training"
+    ]
+  },
+  {
+    "name": "Cambricon_NeuWare",
+    "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=71",
+    "expected": "any",
+    "used_by": [
+      "02C_PyTorch_Backend_and_Distributed_Training"
+    ]
+  },
+  {
+    "name": "Cambricon_torch_mlu_CONTRIBUTING_zh_md",
+    "url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/CONTRIBUTING.zh.md",
+    "expected": "any",
+    "used_by": [
+      "02C_PyTorch_Backend_and_Distributed_Training"
+    ]
+  },
+  {
+    "name": "Cambricon_pytorch_modelzoo_README_md",
+    "url": "https://raw.githubusercontent.com/Cambricon/pytorch_modelzoo/0eb64c91f7bbf0efa25a9e997095b41bbf00aaab/README.md",
+    "expected": "any",
+    "used_by": [
+      "02C_PyTorch_Backend_and_Distributed_Training"
+    ]
+  },
+  {
+    "name": "Compare_PyTorch_Backend",
+    "url": "https://pytorch.org/tutorials/advanced/privateuseone.html",
+    "expected": "any",
+    "used_by": [
+      "02C_PyTorch_Backend_and_Distributed_Training"
+    ]
+  },
+  {
+    "name": "Cambricon_torch_mlu_torch_mlu_csrc_aten_MLUFallback_cpp",
+    "url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/torch_mlu/csrc/aten/MLUFallback.cpp",
+    "expected": "any",
+    "used_by": [
+      "02C_PyTorch_Backend_and_Distributed_Training"
+    ]
+  },
+  {
+    "name": "Cambricon_torch_mlu_torch_mlu_csrc_framework_core_MLUStream_cpp",
+    "url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/torch_mlu/csrc/framework/core/MLUStream.cpp",
+    "expected": "any",
+    "used_by": [
+      "02C_PyTorch_Backend_and_Distributed_Training"
+    ]
+  },
+  {
+    "name": "Compare_HIP_Async",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/asynchronous.html",
+    "expected": "any",
+    "used_by": [
+      "02C_PyTorch_Backend_and_Distributed_Training"
+    ]
+  },
+  {
+    "name": "Cambricon_torch_mlu_examples_training_single_card_demo_py",
+    "url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/examples/training/single_card_demo.py",
+    "expected": "any",
+    "used_by": [
+      "02C_PyTorch_Backend_and_Distributed_Training"
+    ]
+  },
+  {
+    "name": "Cambricon_torch_mlu_torch_mlu_mlu_cncl_py",
+    "url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/torch_mlu/mlu/cncl.py",
+    "expected": "any",
+    "used_by": [
+      "02C_PyTorch_Backend_and_Distributed_Training"
+    ]
+  },
+  {
+    "name": "Cambricon_torch_mlu_torch_mlu_csrc_python_ProcessGroupCNCL_cpp",
+    "url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/torch_mlu/csrc/python/ProcessGroupCNCL.cpp",
+    "expected": "any",
+    "used_by": [
+      "02C_PyTorch_Backend_and_Distributed_Training"
+    ]
+  },
+  {
+    "name": "Cambricon_torch_mlu_torch_mlu_csrc_framework_distributed_process_group_cncl_cpp",
+    "url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/torch_mlu/csrc/framework/distributed/process_group_cncl.cpp",
+    "expected": "any",
+    "used_by": [
+      "02C_PyTorch_Backend_and_Distributed_Training"
+    ]
+  },
+  {
+    "name": "Cambricon_torch_mlu_examples_training_multi_card_demo_py",
+    "url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/examples/training/multi_card_demo.py",
+    "expected": "any",
+    "used_by": [
+      "02C_PyTorch_Backend_and_Distributed_Training"
+    ]
+  },
+  {
+    "name": "Cambricon_torch_mlu_LICENSE",
+    "url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/d578002c0863bfa1ad30fae6b99e4fb3a79dff48/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02C_PyTorch_Backend_and_Distributed_Training"
+    ]
+  },
+  {
+    "name": "Cambricon_pytorch_modelzoo_LICENSE",
+    "url": "https://raw.githubusercontent.com/Cambricon/pytorch_modelzoo/0eb64c91f7bbf0efa25a9e997095b41bbf00aaab/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02C_PyTorch_Backend_and_Distributed_Training"
+    ]
+  }
+]

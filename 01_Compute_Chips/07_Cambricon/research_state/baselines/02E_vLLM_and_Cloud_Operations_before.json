@@ -1,0 +1,15 @@
+{
+  "01_Hardware_Platform.md": "265bc6cd12616a9a7f57bc87f87d04e8730d08aba53b69967788590df7bc696d",
+  "02A_NeuWare_BANG_and_Runtime.md": "5456c04e352e9c2e3ba653f98d26cdf383e961ed6a4013128beeb374316d091a",
+  "02B_MagicMind_Compilation_and_Quantization.md": "b9e3efb02dff0f1aea6a0468f9fbd3f16e53af42ccf53b67acb275df694a94cc",
+  "02C_PyTorch_Backend_and_Distributed_Training.md": "4843ffab2654e0f7fa195a1dd3eb4c6f1039ef4fc6ff99757a9e8a04d4beeb2b",
+  "02D_CNStream_EasyDK_and_Robot_Handoff.md": "219eda5fdfba77adebfa65af930e4cef92414c0b6af36fbc64121948458fbd4b",
+  "02_Software_Stack.md": "837636f400ace4c06223ae8c3af34a8778f913c99874cda3b9007a2cbdf39cd7",
+  "03_Sensor_Integration.md": "112ae1a96e8b889411ac7c6fd87b00ebabf2e819c6d447a991b9296473f0a12e",
+  "04_AI_Capabilities.md": "c45a9956333d5cfe80fc891e60fa3d54f5b78ba54389bfd2dcfdff6e829ccf87",
+  "05_Simulation_Environment.md": "dce93ab080f3c236cff11c7a6e46f1e8d4db1f720c049c3c09c64a09064bcc6d",
+  "06_Robot_Integration.md": "a6c81727c85d9e20870c1e52c73d2d1ef684b1dcd461ee8c1d731eac550ddf24",
+  "07_Ecosystem.md": "df0350b66f3da7c0dc399ab11dbc6d7f755fa7edd6c44b5306a89d2e0353667b",
+  "08_Proprietary_Technologies.md": "ff648349aedeb6af4a458a62866782359df219a4cd2a2da1b331c5dda95a2db8",
+  "09_SWOT_Analysis.md": "8de8c8212fa2f73c4902bb2aa5acecb1c2b69f23b64207aa139c46d56e755d9d"
+}

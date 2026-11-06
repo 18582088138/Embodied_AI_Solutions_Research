@@ -1,0 +1,35 @@
+{
+  "report": "01_Compute_Chips/07_Cambricon/02E_vLLM_and_Cloud_Operations.md",
+  "body_han_chars": 2056,
+  "tables": 1,
+  "sources": 13,
+  "archive_status": {
+    "complete_static": 13
+  },
+  "figures": 0,
+  "file_hash_checks": 26,
+  "html_visible_text_equal": 0,
+  "page_local_dependencies_checked": 0,
+  "report_local_links": 14,
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_NeuWare_BANG_and_Runtime.md": true,
+    "02B_MagicMind_Compilation_and_Quantization.md": true,
+    "02C_PyTorch_Backend_and_Distributed_Training.md": true,
+    "02D_CNStream_EasyDK_and_Robot_Handoff.md": true,
+    "02_Software_Stack.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08_Proprietary_Technologies.md": true,
+    "09_SWOT_Analysis.md": true
+  },
+  "errors": [],
+  "warnings": [
+    "未记录官方图片，需人工说明检索范围和原因"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

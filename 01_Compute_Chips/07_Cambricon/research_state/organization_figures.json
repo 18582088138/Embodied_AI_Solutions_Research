@@ -1,0 +1,122 @@
+[
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/MLU220_SOM_official--58d9a72adf4a.png",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/MLU220_SOM_official.png",
+    "sha256": "58d9a72adf4a5aa1778720de6478f3572144b9245ef2e6cf5de63414186dc492"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/MLU220_M2_official--1ff216ec58b1.png",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/MLU220_M2_official.png",
+    "sha256": "1ff216ec58b1a5dd7dcc640aca3cb59cf863e0db5e2e5543983e0fc3cb635d7a"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/MLU370_X8_dual_chip_official--b90506358be7.jpg",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/MLU370_X8_dual_chip_official.jpg",
+    "sha256": "b90506358be7c0bc9f05d9e398695df1336a4ca5958244a18ddce1166ef2bab8"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/MLU370_X8_four_card_link_official--aa050ac111bf.jpg",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/MLU370_X8_four_card_link_official.jpg",
+    "sha256": "aa050ac111bf6e7b2901ec62fe6217372a156cf34bd836746eb97ec4c41c8bea"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/MLU370_X8_spec_official--7fc057b04957.jpg",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/MLU370_X8_spec_official.jpg",
+    "sha256": "7fc057b049572e82da4ac1198d0ee918e1a758aa3dcf125e2e0f17657c4da19a"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/MLU370_X8_single_card_FP32_official--cc74cb21d9d6.jpg",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/MLU370_X8_single_card_FP32_official.jpg",
+    "sha256": "cc74cb21d9d6d95574f27d2bf340c2f70f76726f167eaf0d74068684da905321"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/MLU370_X8_eight_card_FP32_official--f8159daa5c9e.jpg",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/MLU370_X8_eight_card_FP32_official.jpg",
+    "sha256": "f8159daa5c9e69b0c9f2cb467f7668ba6622ed684e3e538317672f51ea4e8799"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/Annual_2025_page27--cb6523e01e7a.png",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/Annual_2025_page27.png",
+    "sha256": "cb6523e01e7aaf42909438ae3281cddfb200a9589b8f1b9373508c754098ed26"
+  },
+  {
+    "report": "02A_NeuWare_BANG_and_Runtime.md",
+    "figure": "assets/figures/02_neu_stack--bc9af4f174d8.jpg",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_neu_stack.jpg",
+    "sha256": "bc9af4f174d8a7bc1225f7502ff14b23a101adbbc9f06f4c0fe2c04f06fdb7d0"
+  },
+  {
+    "report": "02A_NeuWare_BANG_and_Runtime.md",
+    "figure": "assets/figures/02_hardware--c91d91992b8c.png",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_hardware.png",
+    "sha256": "c91d91992b8ccda17c77e3200efc61997121fa9f2f993fcd728405d80aed3909"
+  },
+  {
+    "report": "02A_NeuWare_BANG_and_Runtime.md",
+    "figure": "assets/figures/02_memory--16a1f991e79f.png",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_memory.png",
+    "sha256": "16a1f991e79f129a5b2f7b6e2d03654d85d75a5e76aca052446be63d55cc1345"
+  },
+  {
+    "report": "02A_NeuWare_BANG_and_Runtime.md",
+    "figure": "assets/figures/02_pingpong--0f15b2ca3558.png",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_pingpong.png",
+    "sha256": "0f15b2ca3558cf4a8677eb440b5d99825685eb58e8a11380b263cb700899c394"
+  },
+  {
+    "report": "02B_MagicMind_Compilation_and_Quantization.md",
+    "figure": "assets/figures/02_mm_arch--971ba071b1e4.jpg",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_mm_arch.jpg",
+    "sha256": "971ba071b1e4ab8914081b622cf48350f2555b623864de1978dd22eff45465a8"
+  },
+  {
+    "report": "02B_MagicMind_Compilation_and_Quantization.md",
+    "figure": "assets/figures/02_mm_opt--54d48729b6b6.jpg",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_mm_opt.jpg",
+    "sha256": "54d48729b6b68c254b5566b9ed4b86104911666bf5086cf324be77936e2082c3"
+  },
+  {
+    "report": "02C_PyTorch_Backend_and_Distributed_Training.md",
+    "figure": "assets/figures/02_mm_train--5bfc368c5ba1.jpg",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_mm_train.jpg",
+    "sha256": "5bfc368c5ba1e76caf568026185666f99b6fa5ea016223cb993ce85bcbda1aed"
+  },
+  {
+    "report": "02D_CNStream_EasyDK_and_Robot_Handoff.md",
+    "figure": "assets/figures/02_cns_arch--60285db6b971.png",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_cns_arch.png",
+    "sha256": "60285db6b97175b8fc4e7e464b8a290ea959fba7dffaba1776b1b445e0397e31"
+  },
+  {
+    "report": "02D_CNStream_EasyDK_and_Robot_Handoff.md",
+    "figure": "assets/figures/02_cns_flow--6f9d4f8d23bc.png",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_cns_flow.png",
+    "sha256": "6f9d4f8d23bcbfd2d8760a093fb8ac191f1845540e389d4f8205080e0c108653"
+  },
+  {
+    "report": "02D_CNStream_EasyDK_and_Robot_Handoff.md",
+    "figure": "assets/figures/02_easy_arch--c5e3ed4f2d51.png",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_easy_arch.png",
+    "sha256": "c5e3ed4f2d51cc9d41ff969ea37e28e89e6fc6c33c337efaefae779d0e5dd39e"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/02_neu_stack--bc9af4f174d8.jpg",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_neu_stack.jpg",
+    "sha256": "bc9af4f174d8a7bc1225f7502ff14b23a101adbbc9f06f4c0fe2c04f06fdb7d0"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/02_cns_arch--60285db6b971.png",
+    "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/02_cns_arch.png",
+    "sha256": "60285db6b97175b8fc4e7e464b8a290ea959fba7dffaba1776b1b445e0397e31"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "time_utc": "2026-11-05T02:06:43.611624+00:00",
+  "summary": {
+    "complete_static": 9,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "Cambricon_CNStream_docs_release_document_5_3_0_Cambricon-CNStream-User-Guide-CN_pdf",
+    "Cambricon_easydk_docs_release_document_4_1_0_Cambricon-EasyDK-User-Guide-CN-v4_1_0_pdf",
+    "Cambricon_CNStream_docs_release_document_7_1_0_Cambricon-CNStream-User-Guide-CN-v7_1_0_pdf",
+    "Cambricon_CNStream_framework_include_cnstream_frame_hpp",
+    "Cambricon_CNStream_samples_cns_launcher_configs_yolov3_object_detection_mlu370_json",
+    "Cambricon_easydk_include_cnedk_buf_surface_h",
+    "Cambricon_easydk_include_infer_server_cnis_infer_server_h",
+    "Cambricon_CNStream_LICENSE",
+    "Cambricon_easydk_LICENSE"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

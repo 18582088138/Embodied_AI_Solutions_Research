@@ -1,0 +1,28 @@
+{
+  "time_utc": "2026-11-05T01:55:51.556487+00:00",
+  "summary": {
+    "complete_static": 12,
+    "partial_static": 2,
+    "failed": 0
+  },
+  "names": [
+    "Cambricon_NeuWare",
+    "Cambricon_mlu-ops_docs_BANG-C-OPS-Develop-Guide_md",
+    "Cambricon_mlu-ops_docs_MLU-OPS-Performance-Acceptance-Standard_md",
+    "Cambricon_mlu-ops_kernels_abs_abs_cpp",
+    "Cambricon_mlu-ops_kernels_abs_abs_block_mlu",
+    "Cambricon_mlu-ops_docs_design_docs_abs_abs_md",
+    "Cambricon_mlu-ops_docs_MLU-OPS-How-To-Use-CNNL-API_md",
+    "Cambricon_mlu-ops_docs_MLU-OPS-Accuracy-Acceptance-Standard_md",
+    "Cambricon_mlu-ops_README_md",
+    "Cambricon_mlu-ops_LICENSE",
+    "Compare_HIP_Async",
+    "Cambricon_mlu-ops_docs_images_hardwarehierarchy_png",
+    "Cambricon_mlu-ops_docs_images_memorymodel_png",
+    "Cambricon_mlu-ops_docs_images_pingpong_png"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

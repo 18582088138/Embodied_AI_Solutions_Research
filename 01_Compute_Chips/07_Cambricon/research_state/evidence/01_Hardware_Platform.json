@@ -1,0 +1,445 @@
+{
+  "source_ids": [
+    "Cambricon_Home",
+    "Cambricon_Edge_Overview",
+    "Cambricon_MLU220_SOM",
+    "Cambricon_MLU220_M2",
+    "Cambricon_MLU370_Overview",
+    "Cambricon_MLU370_S4_S8",
+    "Cambricon_MLU370_X4",
+    "Cambricon_MLU370_X8",
+    "Cambricon_MLU270_S4",
+    "Cambricon_MLU270_F4",
+    "Cambricon_1M_IP",
+    "Cambricon_1H_IP",
+    "Cambricon_X8_Launch_20220321",
+    "Cambricon_WAIC_20220902",
+    "Cambricon_Annual_2025_CNINFO",
+    "Cambricon_Half_2026_Xueqiu",
+    "Cambricon_Torch_MLU_README",
+    "Cambricon_Torch_MLU_LICENSE"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/MLU220_SOM_official.png",
+      "sha256": "58d9a72adf4a5aa1778720de6478f3572144b9245ef2e6cf5de63414186dc492",
+      "source_id": "Cambricon_MLU220_SOM",
+      "source_url": "https://www.cambricon.com/uploadfile/2021/0526/20210526035335834.png",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_MLU220_SOM--3ca3860ec8f92782/assets/images/15e4c74a07c5db4d087e6581.png",
+      "original_sha256": "58d9a72adf4a5aa1778720de6478f3572144b9245ef2e6cf5de63414186dc492",
+      "operation": "原图字节复制；未裁剪、未改字",
+      "opened_review": "已逐图打开，文字/标题/图例/单位完整"
+    },
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/MLU220_M2_official.png",
+      "sha256": "1ff216ec58b1a5dd7dcc640aca3cb59cf863e0db5e2e5543983e0fc3cb635d7a",
+      "source_id": "Cambricon_MLU220_M2",
+      "source_url": "https://www.cambricon.com/uploadfile/2019/1202/20191202053018449.png",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_MLU220_M2--d41edc67c452664b/assets/images/6d1594140d6ae75d71c31a35.png",
+      "original_sha256": "1ff216ec58b1a5dd7dcc640aca3cb59cf863e0db5e2e5543983e0fc3cb635d7a",
+      "operation": "原图字节复制；未裁剪、未改字",
+      "opened_review": "已逐图打开，文字/标题/图例/单位完整"
+    },
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/MLU370_X8_dual_chip_official.jpg",
+      "sha256": "b90506358be7c0bc9f05d9e398695df1336a4ca5958244a18ddce1166ef2bab8",
+      "source_id": "Cambricon_X8_Launch_20220321",
+      "source_url": "https://www.cambricon.com/uploadfile/2022/0320/20220320060725884.jpg",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_X8_Launch_2--c939e7683987a353/assets/images/f8087e76f5cd6bebead94859.jpg",
+      "original_sha256": "b90506358be7c0bc9f05d9e398695df1336a4ca5958244a18ddce1166ef2bab8",
+      "operation": "原图字节复制；未裁剪、未改字",
+      "opened_review": "已逐图打开，文字/标题/图例/单位完整"
+    },
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/MLU370_X8_four_card_link_official.jpg",
+      "sha256": "aa050ac111bf6e7b2901ec62fe6217372a156cf34bd836746eb97ec4c41c8bea",
+      "source_id": "Cambricon_X8_Launch_20220321",
+      "source_url": "https://www.cambricon.com/uploadfile/2022/0320/20220320060753121.jpg",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_X8_Launch_2--c939e7683987a353/assets/images/1a3298e85765b65a6c517ef5.jpg",
+      "original_sha256": "aa050ac111bf6e7b2901ec62fe6217372a156cf34bd836746eb97ec4c41c8bea",
+      "operation": "原图字节复制；未裁剪、未改字",
+      "opened_review": "已逐图打开，文字/标题/图例/单位完整"
+    },
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/MLU370_X8_spec_official.jpg",
+      "sha256": "7fc057b049572e82da4ac1198d0ee918e1a758aa3dcf125e2e0f17657c4da19a",
+      "source_id": "Cambricon_X8_Launch_20220321",
+      "source_url": "https://www.cambricon.com/uploadfile/2022/0321/20220321120557875.jpg",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_X8_Launch_2--c939e7683987a353/assets/images/adcaffdc3d98ea30477c54e7.jpg",
+      "original_sha256": "7fc057b049572e82da4ac1198d0ee918e1a758aa3dcf125e2e0f17657c4da19a",
+      "operation": "原图字节复制；未裁剪、未改字",
+      "opened_review": "已逐图打开，文字/标题/图例/单位完整"
+    },
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/MLU370_X8_single_card_FP32_official.jpg",
+      "sha256": "cc74cb21d9d6d95574f27d2bf340c2f70f76726f167eaf0d74068684da905321",
+      "source_id": "Cambricon_X8_Launch_20220321",
+      "source_url": "https://www.cambricon.com/uploadfile/2022/0320/20220320060845485.jpg",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_X8_Launch_2--c939e7683987a353/assets/images/aee7d8c5925080686450fd8c.jpg",
+      "original_sha256": "cc74cb21d9d6d95574f27d2bf340c2f70f76726f167eaf0d74068684da905321",
+      "operation": "原图字节复制；未裁剪、未改字",
+      "opened_review": "已逐图打开，文字/标题/图例/单位完整"
+    },
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/MLU370_X8_eight_card_FP32_official.jpg",
+      "sha256": "f8159daa5c9e69b0c9f2cb467f7668ba6622ed684e3e538317672f51ea4e8799",
+      "source_id": "Cambricon_X8_Launch_20220321",
+      "source_url": "https://www.cambricon.com/uploadfile/2022/0320/20220320060858329.jpg",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_X8_Launch_2--c939e7683987a353/assets/images/a9944c2d72f60df4443f4211.jpg",
+      "original_sha256": "f8159daa5c9e69b0c9f2cb467f7668ba6622ed684e3e538317672f51ea4e8799",
+      "operation": "原图字节复制；未裁剪、未改字",
+      "opened_review": "已逐图打开，文字/标题/图例/单位完整"
+    },
+    {
+      "file": "01_Compute_Chips/07_Cambricon/reference_metrial/derived/figures/Annual_2025_page27.png",
+      "sha256": "cb6523e01e7aaf42909438ae3281cddfb200a9589b8f1b9373508c754098ed26",
+      "source_id": "Cambricon_Annual_2025_CNINFO",
+      "source_url": "https://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260312/05ca784762a7401b9ed371d917e436dc.PDF",
+      "original_file": "01_Compute_Chips/07_Cambricon/reference_metrial/documents/Cambricon_Annual_202--03976579100c836d/document.pdf",
+      "original_sha256": "e9360bfb6ad2d66ce7b65da15f8fa2fcdda9fde526e2a76dba3964327507f4ab",
+      "operation": "Poppler pdftoppm，PDF第27页完整页，长边1600像素，PNG；未裁剪",
+      "opened_review": "已打开完整页；页码、金额单位及表头清晰"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "MLU220-SOM计算、CPU、内存与功率",
+      "source_id": "Cambricon_MLU220_SOM",
+      "location": "产品规格表",
+      "exact_quote": "16TOPS（INT8）；ARM A55 ×4, 1.5GHz；8GB LPDDR4×，64bits，3733MHz；≤15W",
+      "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=56",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_MLU220_SOM--3ca3860ec8f92782/index.html",
+      "published_or_version": "页面未标发布日期/版本",
+      "collected_at_utc": "2026-11-05T01:15:54.329005+00:00",
+      "evidence_type": "事实/厂商规格",
+      "conditions": "MLU220-SOM；页面无完整峰值条件、dense/sparse或正式带宽",
+      "finding": "逐条对照原表；LPDDR4×按系列页LPDDR4x理解，3733单位歧义保留；未将推导带宽作为官方规格"
+    },
+    {
+      "claim": "M.2为8 TOPS INT8、8.25W、PCIe3×2，容量未取得",
+      "source_id": "Cambricon_MLU220_M2",
+      "location": "概述与产品规格表",
+      "exact_quote": "8TOPS理论峰值性能；内存LPDDR4x 64 bits；M.2 2280，B+M key；8.25W",
+      "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=57",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_MLU220_M2--d41edc67c452664b/index.html",
+      "published_or_version": "页面未标发布日期/版本",
+      "collected_at_utc": "2026-11-05T01:16:52.981606+00:00",
+      "evidence_type": "事实/厂商规格",
+      "conditions": "MLU220-M.2；不能复用SOM参数",
+      "finding": "未将SOM 8GB/16路解码/15W移给M.2；保留7.2/21.3mm高度"
+    },
+    {
+      "claim": "SOM媒体吞吐不是端到端感知成绩",
+      "source_id": "Cambricon_MLU220_SOM",
+      "location": "视频/图片编解码表",
+      "exact_quote": "16×1080P @30fps；8×1080P@30fps；820 fps@FHD；800 fps@FHD",
+      "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=56",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_MLU220_SOM--3ca3860ec8f92782/index.html",
+      "published_or_version": "页面未标发布日期/版本",
+      "collected_at_utc": "2026-11-05T01:15:54.329005+00:00",
+      "evidence_type": "厂商规格",
+      "conditions": "缺码率/profile/并发和功率测试条件",
+      "finding": "格式、最大分辨率及FHD吞吐分开；未输出模型fps或控制频率"
+    },
+    {
+      "claim": "MLUv02采用NoC；智能机器人为应用定位",
+      "source_id": "Cambricon_Edge_Overview",
+      "location": "核心优势/应用场景",
+      "exact_quote": "新架构基于片上网络（NOC）构建；智能机器人",
+      "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=55",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_Edge_Overvi--ec65fbb467e7f4b1/index.html",
+      "published_or_version": "页面未标发布日期/版本",
+      "collected_at_utc": "2026-11-05T01:17:02.394461+00:00",
+      "evidence_type": "厂商宣称",
+      "conditions": "MLU220系列；无机器人SKU或完整架构参数",
+      "finding": "不推断缓存容量、压缩比、零拷贝或机器人量产适配"
+    },
+    {
+      "claim": "内存理想带宽与两路图像链路为假设计算",
+      "source_id": "Cambricon_MLU220_SOM",
+      "location": "正文3.1/4，公式",
+      "exact_quote": "8GB LPDDR4×，64bits，3733MHz；2×千兆以太网",
+      "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=56",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_MLU220_SOM--3ca3860ec8f92782/index.html",
+      "published_or_version": "页面未标发布日期/版本",
+      "collected_at_utc": "2026-11-05T01:15:54.329005+00:00",
+      "evidence_type": "分析",
+      "conditions": "假设3733为MT/s；两路1080p RGB888 30fps原始图像",
+      "finding": "29.864GB/s仅条件推导；373,248,000 B/s约2.986Gbit/s，不当硬件实测"
+    },
+    {
+      "claim": "X8双芯但官方峰值与X4相同",
+      "source_id": "Cambricon_MLU370_X8",
+      "location": "产品规格及首发原图",
+      "exact_quote": "256 TOPS (INT8)；96 TFLOPS (FP16)；24 TFLOPS (FP32)；48GB；614.4 GB/s",
+      "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_MLU370_X8--105df36cca03151b/index.html",
+      "published_or_version": "页面未标发布日期/版本；含MLU370 SDK 1.2.0测试",
+      "collected_at_utc": "2026-11-05T01:18:23.519130+00:00",
+      "evidence_type": "事实/厂商规格",
+      "conditions": "MLU370-X8；7nm；未明确dense/sparse",
+      "finding": "当前页与2022原表交叉一致；不擅自翻倍峰值，不推测底层原因"
+    },
+    {
+      "claim": "S4/S8官网容量为合并口径",
+      "source_id": "Cambricon_MLU370_S4_S8",
+      "location": "产品规格表",
+      "exact_quote": "板卡型号MLU370-S4/S8；内存容量24GB/48GB；192 TOPS (INT8)",
+      "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=365",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_MLU370_S4_S--e864b177a4027cb6/index.html",
+      "published_or_version": "页面未标发布日期/版本",
+      "collected_at_utc": "2026-11-05T01:17:57.009414+00:00",
+      "evidence_type": "事实/未知",
+      "conditions": "合并页面；P/N映射未取得",
+      "finding": "保持合并行，不假定S8全部独立参数或容量对应关系"
+    },
+    {
+      "claim": "双芯各24GB与卡级48GB不是已证实统一内存",
+      "source_id": "Cambricon_X8_Launch_20220321",
+      "location": "双芯框图",
+      "exact_quote": "内存容量24GB；内存带宽307GB/s；HOST CPU；PCIe Switch",
+      "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=show&catid=127&id=48",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_X8_Launch_2--c939e7683987a353/index.html",
+      "published_or_version": "2022-03-21；MLU370 SDK 1.2.0",
+      "collected_at_utc": "2026-11-05T01:19:18.153345+00:00",
+      "evidence_type": "事实/分析",
+      "conditions": "2022首发架构图；精确聚合带宽取产品表614.4",
+      "finding": "不承诺单kernel全带宽或无需分区管理；图保留原件"
+    },
+    {
+      "claim": "MLU-Link每卡200GB/s双向聚合，4卡为组",
+      "source_id": "Cambricon_X8_Launch_20220321",
+      "location": "MLU-Link多芯互联技术/4卡拓扑",
+      "exact_quote": "4张加速卡为一组的8颗思元370芯片全互联；每张加速卡可获得200GB/s",
+      "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=show&catid=127&id=48",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_X8_Launch_2--c939e7683987a353/index.html",
+      "published_or_version": "2022-03-21；MLU370 SDK 1.2.0",
+      "collected_at_utc": "2026-11-05T01:19:18.153345+00:00",
+      "evidence_type": "厂商规格/分析",
+      "conditions": "2022首发X8；4卡桥接；未披露单向有效负载和跨组路由",
+      "finding": "不解释为八卡全互联、统一内存或机器人到云网络带宽；3.1倍按同双向口径解释"
+    },
+    {
+      "claim": "X8单卡和八卡FP32对比是特定旧版训练证据",
+      "source_id": "Cambricon_X8_Launch_20220321",
+      "location": "单卡/8卡FP32图与测试环境脚注",
+      "exact_quote": "MLU370 SDK 1.2.0；Cuda11.2；NF5468M5；Supermicro AS-4124GS-TNR",
+      "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=show&catid=127&id=48",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_X8_Launch_2--c939e7683987a353/index.html",
+      "published_or_version": "2022-03-21；MLU370 SDK 1.2.0",
+      "collected_at_utc": "2026-11-05T01:19:18.153345+00:00",
+      "evidence_type": "厂商宣称",
+      "conditions": "两个不同主机；对照GPU精确SKU未披露；batch/commit不齐",
+      "finding": "保留四模型1.3/0.9/1.1/1.0和1.8/1.6/1.6/1.1；不扩为VLA/实时任务；155%与图示均值保留口径"
+    },
+    {
+      "claim": "270的TOPS基于1024 GOPS单位口径",
+      "source_id": "Cambricon_MLU270_S4",
+      "location": "规格表星号脚注",
+      "exact_quote": "为TOPS=1024GOPS换算，如INT8实际算力为131,072GOPS或131TOPS",
+      "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=36",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_MLU270_S4--b167d4530c36efb4/index.html",
+      "published_or_version": "页面未标发布日期/版本",
+      "collected_at_utc": "2026-11-05T01:18:30.566605+00:00",
+      "evidence_type": "事实/分析",
+      "conditions": "MLU270-S4/F4；非稀疏模型理论峰值",
+      "finding": "128×1024=131072 GOPS；十进制为131.072 TOPS；不是新增性能"
+    },
+    {
+      "claim": "F4热设计功耗与整板功耗不同",
+      "source_id": "Cambricon_MLU270_F4",
+      "location": "功耗表",
+      "exact_quote": "最大热设计功耗(TDP)150w；最大整板功耗(TBP)160w；主动散热",
+      "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=37",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_MLU270_F4--6237f943ad061f00/index.html",
+      "published_or_version": "页面未标发布日期/版本",
+      "collected_at_utc": "2026-11-05T01:18:36.320622+00:00",
+      "evidence_type": "事实/厂商规格",
+      "conditions": "MLU270-F4，不扩展给其他卡",
+      "finding": "保留150/160W口径及EOTS桌面定位"
+    },
+    {
+      "claim": "1M是1GHz条件IP峰值，不是生产模组配置",
+      "source_id": "Cambricon_1M_IP",
+      "location": "1M-4K/2K/1K段",
+      "exact_quote": "4096MAC 8位定点运算器；在1GHz主频下…峰值速度为8Tops",
+      "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=12",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_1M_IP--94b9807197d68bb9/index.html",
+      "published_or_version": "页面未标发布日期/版本；1GHz假设",
+      "collected_at_utc": "2026-11-05T01:18:42.185554+00:00",
+      "evidence_type": "厂商规格",
+      "conditions": "IP授权；客户SoC制程/供电/访存未取得",
+      "finding": "与SOM、裸芯及云端架构序号分开；未造面积/功率/成本"
+    },
+    {
+      "claim": "590/SD5223/SD5226是2022在研披露",
+      "source_id": "Cambricon_WAIC_20220902",
+      "location": "在研的三款车云新品信息",
+      "exact_quote": "思元590采用MLUarch05；SD5223提供16TOPS；SD5226算力将达到400 TOPS以上",
+      "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=show&catid=127&id=51",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/webpages/Cambricon_WAIC_202209--05cec57b842100c8/index.html",
+      "published_or_version": "2022-09-02；在研口径",
+      "collected_at_utc": "2026-11-05T01:19:37.257170+00:00",
+      "evidence_type": "历史厂商计划",
+      "conditions": "2022-09-02，不作为2026完整规格/量产状态",
+      "finding": "保留历史代际，不使用媒体590/690/720峰值、HBM或量产数字"
+    },
+    {
+      "claim": "220累计销量与当年边缘收入不同",
+      "source_id": "Cambricon_Annual_2025_CNINFO",
+      "location": "PDF第14、27、28页",
+      "exact_quote": "思元220自发布以来，累计销量突破百万片；边缘产品线3,393,986.73；智能芯片及板卡销售量117,436",
+      "source_url": "https://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260312/05ca784762a7401b9ed371d917e436dc.PDF",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/documents/Cambricon_Annual_202--03976579100c836d/document.pdf",
+      "published_or_version": "2026-03-12批准报出；2026-03-13公告；219页",
+      "collected_at_utc": "2026-11-05T01:20:58.384838+00:00",
+      "evidence_type": "公司披露/厂商主张",
+      "conditions": "2025年报；累计与年度、芯片与板卡合并口径不同",
+      "finding": "不换算机器人数量、220年度销量、ASP或市占率；完整第27页已打开"
+    },
+    {
+      "claim": "2026公司级大模型进展不能赋予220逐模型能力",
+      "source_id": "Cambricon_Half_2026_Xueqiu",
+      "location": "PDF第10—12、14—19页",
+      "exact_quote": "新一代智能处理器微架构和指令集正在研发中；硬件平台…迭代研发中",
+      "source_url": "https://stockmc.xueqiu.com/202608/688256_20260808_TUNG.pdf",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/documents/Cambricon_Half_2026_--dead190244c52e17/document.pdf",
+      "published_or_version": "2026-08-08披露；期间2026-01-01至06-30；174页",
+      "collected_at_utc": "2026-11-05T01:25:04.360652+00:00",
+      "evidence_type": "公司披露/厂商宣称",
+      "conditions": "2026-01-01至06-30；雪球公开174页副本",
+      "finding": "正文核对日期/公司/期间；未取得SSE字节，不能证明副本哈希一致；无新代逐SKU或220适配矩阵"
+    },
+    {
+      "claim": "官方扩展README不证明220当前BSP兼容",
+      "source_id": "Cambricon_Torch_MLU_README",
+      "location": "安装/版本配套关系/分支生命周期",
+      "exact_quote": "CTR 2.15；torch_mlu 1.22.0；该示例需要在MLU服务器上运行",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/master/README.md",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/data/Cambricon_Torch_MLU_READM--2c40d9dfcf1f9e42/content.md",
+      "published_or_version": "master采集快照；文内CTR 2.15/torch_mlu 1.22.0；不是最新发布认证",
+      "collected_at_utc": "2026-11-05T01:24:51.798840+00:00",
+      "evidence_type": "事实/版本边界",
+      "conditions": "master采集；文中有2024/2025历史计划，wheel示例linux_x86_64",
+      "finding": "未把历史计划状态当当前支持；未验证全部依赖在Arm A55运行"
+    },
+    {
+      "claim": "仓库代码许可与runtime等独立",
+      "source_id": "Cambricon_Torch_MLU_LICENSE",
+      "location": "LICENSE条款1—3",
+      "exact_quote": "Redistributions in binary form must reproduce the above copyright notice…",
+      "source_url": "https://raw.githubusercontent.com/Cambricon/torch_mlu/master/LICENSE",
+      "local_original": "01_Compute_Chips/07_Cambricon/reference_metrial/data/Cambricon_Torch_MLU_LICEN--8ac23ceef8149c5f/content.txt",
+      "published_or_version": "master采集快照；BSD式三条款许可正文",
+      "collected_at_utc": "2026-11-05T01:25:08.990609+00:00",
+      "evidence_type": "事实/许可边界",
+      "conditions": "torch_mlu仓库代码，保留多来源版权",
+      "finding": "BSD式三条款；未推广到二进制runtime、容器、权重、数据、资产、IP或本体SDK"
+    }
+  ],
+  "manual_review": {
+    "coverage": "01覆盖220两形态、370全部官网板卡合并/独立SKU、必要270旧代、IP、历史新代/车载计划、接口/散热/内存/主机/商业与选型；完整手册、工业整机、当前新代SKU及价格生命周期未取得，正文区分原因。",
+    "versions_and_measurements": "逐卡规格核对；2022发布原图与当前X8表交叉；非稀疏270单位、dense/sparse未公开、FP32 benchmark主机/SDK异构、LPDDR速率歧义、带宽双向及聚合口径均保留；没有硬件/模型/机器人实测。",
+    "maturity_and_licenses": "官方应用场景不当量产机器人；2022小规模出货不当2026现货；2026公司级适配不当220能力；IP/代码/runtime/容器/模型/资产许可分开。",
+    "figures_opened": "8张正文图均实际打开；产品图、双芯架构、4卡拓扑、首发规格、单卡/八卡FP32原图标题/图例完整；年度第27页完整渲染并放大核对；所有原件/衍生哈希记录。"
+  },
+  "collection_date": "2026-11-05 Asia/Shanghai",
+  "review_status": "author_review_complete_pending_user_review",
+  "limitations": [
+    "No device/model/robot tests",
+    "New-generation complete SKU datasheets not obtained",
+    "Developer robots checks failed on two attempts",
+    "2026 report is company PDF hosted on Xueqiu; SSE hash not available"
+  ],
+  "unavailable_dependency_details": {
+    "Cambricon_Home": {
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-3.png": "RemoteDisconnected: Remote end closed connection without response",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-1s.png": "HTTPError: HTTP Error 504: Gateway Timeout",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-2s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-4s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>",
+      "https://cdn.jsdelivr.net/npm/sweetalert2@11": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "Cambricon_Edge_Overview": {
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-3.png": "RemoteDisconnected: Remote end closed connection without response",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-1s.png": "HTTPError: HTTP Error 504: Gateway Timeout",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-2s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-4s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>"
+    },
+    "Cambricon_MLU220_SOM": {
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-3.png": "RemoteDisconnected: Remote end closed connection without response",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-1s.png": "HTTPError: HTTP Error 504: Gateway Timeout",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-2s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-4s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>"
+    },
+    "Cambricon_MLU220_M2": {
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-3.png": "RemoteDisconnected: Remote end closed connection without response",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-1s.png": "HTTPError: HTTP Error 504: Gateway Timeout",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-2s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-4s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>"
+    },
+    "Cambricon_MLU370_Overview": {
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-3.png": "RemoteDisconnected: Remote end closed connection without response",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-1s.png": "HTTPError: HTTP Error 504: Gateway Timeout",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-2s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-4s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>"
+    },
+    "Cambricon_MLU370_S4_S8": {
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-3.png": "RemoteDisconnected: Remote end closed connection without response",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-1s.png": "HTTPError: HTTP Error 504: Gateway Timeout",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-2s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-4s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>"
+    },
+    "Cambricon_MLU370_X4": {
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-3.png": "RemoteDisconnected: Remote end closed connection without response",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-1s.png": "HTTPError: HTTP Error 504: Gateway Timeout",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-2s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-4s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>"
+    },
+    "Cambricon_MLU370_X8": {
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-3.png": "RemoteDisconnected: Remote end closed connection without response",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-1s.png": "HTTPError: HTTP Error 504: Gateway Timeout",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-2s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-4s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>"
+    },
+    "Cambricon_MLU270_S4": {
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-3.png": "RemoteDisconnected: Remote end closed connection without response",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-1s.png": "HTTPError: HTTP Error 504: Gateway Timeout",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-2s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-4s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>"
+    },
+    "Cambricon_MLU270_F4": {
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-3.png": "RemoteDisconnected: Remote end closed connection without response",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-1s.png": "HTTPError: HTTP Error 504: Gateway Timeout",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-2s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-4s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>"
+    },
+    "Cambricon_1M_IP": {
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-3.png": "RemoteDisconnected: Remote end closed connection without response",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-1s.png": "HTTPError: HTTP Error 504: Gateway Timeout",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-2s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-4s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>"
+    },
+    "Cambricon_1H_IP": {
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-3.png": "RemoteDisconnected: Remote end closed connection without response",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-1s.png": "HTTPError: HTTP Error 504: Gateway Timeout",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-2s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-4s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>"
+    },
+    "Cambricon_X8_Launch_20220321": {
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-3.png": "RemoteDisconnected: Remote end closed connection without response",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-1s.png": "HTTPError: HTTP Error 504: Gateway Timeout",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-2s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-4s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>",
+      "https://www.cambricon.com/api.php?op=count&id=48&modelid=1": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "Cambricon_WAIC_20220902": {
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-3.png": "RemoteDisconnected: Remote end closed connection without response",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-1s.png": "HTTPError: HTTP Error 504: Gateway Timeout",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-2s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>",
+      "https://www.cambricon.com/statics/zhang/images/icon/icon-lx-4s.png": "URLError: <urlopen error _ssl.c:1126: The handshake operation timed out>",
+      "https://www.cambricon.com/uploadfile/2022/0902/20220902114415804.png": "TimeoutError: The read operation timed out",
+      "https://www.cambricon.com/uploadfile/2022/0902/20220902114628563.png": "TimeoutError: The read operation timed out",
+      "https://www.cambricon.com/api.php?op=count&id=51&modelid=1": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    }
+  }
+}
