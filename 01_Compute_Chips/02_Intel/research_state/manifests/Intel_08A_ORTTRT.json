@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Intel08A_ORTTRT",
+    "url": "https://onnxruntime.ai/docs/execution-providers/TensorRT-ExecutionProvider.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  }
+]

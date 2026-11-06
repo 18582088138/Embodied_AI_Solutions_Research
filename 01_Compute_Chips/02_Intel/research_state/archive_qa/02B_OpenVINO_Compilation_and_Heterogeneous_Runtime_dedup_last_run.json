@@ -1,0 +1,38 @@
+{
+  "time_utc": "2026-11-05T02:32:35.004766+00:00",
+  "summary": {
+    "complete_static": 24,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "Intel02B_Convert",
+    "Intel02B_InferAPI",
+    "Intel02B_AUTO",
+    "Intel02B_HETERO",
+    "Intel02B_NPU",
+    "Intel02B_Shapes",
+    "Intel02B_GPU",
+    "Intel02B_GPU_Flow",
+    "Intel02B_GPU_Memory",
+    "Intel02B_GPU_Kernels",
+    "Intel02B_GPU_Dispatch",
+    "Intel02B_Quant",
+    "Intel02B_NNCF",
+    "Intel02B_Weight",
+    "Intel02B_RemoteGPU",
+    "Intel02B_RemoteNPU",
+    "Intel02B_RemoteAPI",
+    "Intel02B_AsyncFig_Original",
+    "Intel02B_Cache",
+    "Intel02B_CacheAPI",
+    "Intel02A_NPU_Overview",
+    "Intel02A_Install",
+    "Intel02B_License",
+    "Intel02B_GPU_Impl"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

@@ -1,0 +1,147 @@
+{
+  "source_ids": [
+    "Intel02C_PhysicalRuntime",
+    "Intel02C_PhysicalAI_README",
+    "Intel02C_Runtime_Architecture",
+    "Intel02C_Pi05_Export",
+    "Intel02C_RTC_README",
+    "Intel02C_ACT",
+    "Intel02C_DP",
+    "Intel02C_RDT",
+    "Intel02C_ExportCode",
+    "Intel02C_IRCode",
+    "Intel02C_CompressCode",
+    "Intel02C_ValidateCode",
+    "Intel02C_LeRobot_PI05_Source",
+    "Intel02C_Pi05_RTC",
+    "Intel02C_RTC_Patch",
+    "Intel02C_RTC_Figure",
+    "Intel02C_Runtime_Manifest",
+    "Intel02C_Runtime_Inference",
+    "Intel02C_Runtime_PrePost",
+    "Intel02C_Runtime_Loop",
+    "Intel02C_Runtime_Modes",
+    "Intel02C_LLM",
+    "Intel02C_Pi05_ModelCard",
+    "Intel02C_Runtime_License"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02C_RTC_Figure--2fc2c219a2aa20c4/content.png",
+      "sha256": "46947f15c76c99e49ccb678da0633996a69b3d9bfada97f8e842a1468512e629",
+      "source_id": "Intel02C_RTC_Figure",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/pi05-rtc-ov/README.assets/RTC-overview.png",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02C_RTC_Figure--2fc2c219a2aa20c4/content.png",
+      "original_sha256": "46947f15c76c99e49ccb678da0633996a69b3d9bfada97f8e842a1468512e629",
+      "operation": "官方Suite引用RTC论文PNG原件，无变换",
+      "visual_review": "实际打开PNG；guidance曲线、chunk、d/s/H边界与说明完整可读；不含设备benchmark。"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "旧Pi05导出修改噪声与时间，不等于原策略",
+      "source_id": "Intel02C_Pi05_Export",
+      "location": "Environment and Model Setup",
+      "evidence_type": "分析",
+      "conditions": "OpenVINO2025.4/NNCF2.19；LeRobot未锁revision",
+      "finding": "转换误差不证明动作语义/成功率",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/ai_resources/openvino/pi05-optimization.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02C_Pi05_Export--81f1c3cd32409405/content.md",
+      "original_sha256": "89a87e725a4bfa4f95dc29f0858f0a4df196a17143605413cc8201fd276ae6fa",
+      "retrieved_at_utc": "2026-11-05T02:32:40.889576+00:00"
+    },
+    {
+      "claim": "旧wrapper把actions当输入，当前LeRobot forward明确训练loss且签名已变",
+      "source_id": "Intel02C_ExportCode",
+      "location": "Pi0InferenceWrapper.forward",
+      "evidence_type": "未知",
+      "conditions": "与动态LeRobot PI05Pytorch.forward/sample_actions对照",
+      "finding": "不确定历史版本产物含义；不把actions_out及benchmark当policyHz",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/vla-pi0.5-openvino/convert_pytorch_onnx.py",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02C_ExportCode--482a49638f523e8e/content.py",
+      "original_sha256": "72d5309a4377384b05e5c1bd27a99925228d8281fae9ef22fae7c3781e6da2f2",
+      "retrieved_at_utc": "2026-11-05T02:34:20.061817+00:00"
+    },
+    {
+      "claim": "文档all_layers与实际压缩脚本不同",
+      "source_id": "Intel02C_CompressCode",
+      "location": "compress_weights call",
+      "evidence_type": "事实",
+      "conditions": "当前固定Suite脚本无all_layers",
+      "finding": "保留参数差异",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/vla-pi0.5-openvino/nncf_int8_compression.py",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02C_CompressCode--9689f85d05ab1128/content.py",
+      "original_sha256": "a6ccf99a55c27b4bf6aa17666471508de978ff09f3199b74e349ba6b1780b9a3",
+      "retrieved_at_utc": "2026-11-05T02:34:22.009516+00:00"
+    },
+    {
+      "claim": "RTC多出前chunk和prefix输入，补丁替换sample_actions",
+      "source_id": "Intel02C_Pi05_RTC",
+      "location": "Convert Pi05 with RTC",
+      "evidence_type": "事实",
+      "conditions": "整组patch与submodule必须固定",
+      "finding": "不同于旧forward；50Hz不是本研究实测",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/sample_pipelines/pi05_with_rtc.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02C_Pi05_RTC--3295b83592737754/content.md",
+      "original_sha256": "dd1e7421d07c8d5c0a9187af1b70c80bb363fd89911aee639ef147832ce73dfc",
+      "retrieved_at_utc": "2026-11-05T02:32:42.470858+00:00"
+    },
+    {
+      "claim": "RobotRuntime stop在tick间，已开始tick会发动作",
+      "source_id": "Intel02C_Runtime_Loop",
+      "location": "Stopping",
+      "evidence_type": "事实",
+      "conditions": "同步read/推理阻塞影响停止延迟",
+      "finding": "不等于disconnect或急停",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/docs/explanation/runtime.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02C_Runtime_Loop--c7bdfc8a7831a575/content.md",
+      "original_sha256": "c9843c49f976172a8df1dc9f20c2e2b128c604e436f4aebd047886378aac0e2b",
+      "retrieved_at_utc": "2026-11-05T02:34:27.311284+00:00"
+    },
+    {
+      "claim": "manifest和workflow分离，layout/stats显式",
+      "source_id": "Intel02C_Runtime_PrePost",
+      "location": "Specify input image layout",
+      "evidence_type": "事实",
+      "conditions": "动态API/BCHW BHWC/批输入",
+      "finding": "不能自动纠正相机和动作映射",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/docs/how-to/inference/configure-pre-post-processing.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02C_Runtime_PrePost--668f322dcdc9d991/content.md",
+      "original_sha256": "0e1c5f5a650fafe737f25b51f5c8a5247839a34b5cce2a3f78a75f42b64b24cf",
+      "retrieved_at_utc": "2026-11-05T02:34:30.228942+00:00"
+    },
+    {
+      "claim": "RemoteExecution概念页planned而howto改RemoteInferenceModel",
+      "source_id": "Intel02C_Runtime_Modes",
+      "location": "Remote Inference",
+      "evidence_type": "未知",
+      "conditions": "同一main动态文档不同页",
+      "finding": "保留差异，不能称远程类验收",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/docs/how-to/runtime/use-execution-modes.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02C_Runtime_Modes--d29e314d40606670/content.md",
+      "original_sha256": "c44202741f87a40ed53aee346c4fa8be2a15f72716517af12d698b51dd05ec64",
+      "retrieved_at_utc": "2026-11-05T02:34:31.158151+00:00"
+    },
+    {
+      "claim": "Pi05模型卡Gemma许可且原论文部分能力未包含",
+      "source_id": "Intel02C_Pi05_ModelCard",
+      "location": "metadata/Note",
+      "evidence_type": "事实",
+      "conditions": "checkpoint作者卡动态时点",
+      "finding": "不把根Apache覆盖权重、不下载受限底座",
+      "source_url": "https://huggingface.co/lerobot/pi05_base/raw/main/README.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02C_Pi05_ModelCard--e6655f48f9ab756c/content.md",
+      "original_sha256": "5660a59c4bc742dbab3b0f8a109442436b8378200cdbdf6ed35045efe16cdfdc",
+      "retrieved_at_utc": "2026-11-05T02:33:32.198250+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "本文逐机制、API对象、产物交接、硬件依赖与故障条件已人工核对；未取得信息正文保留。",
+    "versions_and_measurements": "当前通用栈、Suite绑定版本与样例配置分开；性能未独立复测。",
+    "maturity_and_licenses": "区分Intel提供/优化、上游组件、样例和未验收路径；许可按文件与资产范围核验。",
+    "figures_opened": "所有本文图已实际打开确认文字、图例与完整边界；详见figures记录。"
+  },
+  "research_limits": [
+    "文献/API/源码核验；未安装SDK、运行模型或测试机器人。"
+  ]
+}

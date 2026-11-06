@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Intel02_Architecture",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/images/architecture/Robotics-AI-Suite-Architecture.svg",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "AAEON_Robotics",
+    "url": "https://www.aaeon.com/en/article/detail/accelerate-robotics-development-aaeon-intel",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "AAEON_UP_Nexus",
+    "url": "https://www.aaeon.com/en/product/detail/up-systems-up-nexus-wcl-edge",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel03_RSROSReadme",
+    "url": "https://raw.githubusercontent.com/realsenseai/realsense-ros/ros2-master/README.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel03_Orbbec",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel06_Jackal",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/hardware_blueprints/amr/clearpath-jackal.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel06_URBlueprint",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/hardware_blueprints/stationary_arm/ur5e-robotiq-realsense.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel06_CustomerCases",
+    "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-core-ultra-series-3-for-edge-ai-robotics.html",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel03_GMSL",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/sensors/cameras/gmsl/index.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel07_AAEON_BIOS",
+    "url": "https://www.aaeon.com/en/article/list/bios-customization-services",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel07_AAEON_QService",
+    "url": "https://www.aaeon.com/en/article/list/q-service-embedded-boards-computer-on-module",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel_Robotics_License",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel02B_License",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel02C_Runtime_License",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel02F_License",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel02C_Pi05_ModelCard",
+    "url": "https://huggingface.co/lerobot/pi05_base/raw/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel04_RDTCard",
+    "url": "https://huggingface.co/robotics-diffusion-transformer/rdt-1b/raw/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel07_MassRobotics",
+    "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/postcard-massrobotics-physical-ai-startup-speed.html",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel02A_ImageComposer",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/platform_foundation/getting_started/image_composer_tool.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel02F_Update",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/docs/02-update-existing-installation.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel02C_Runtime_Loop",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/docs/explanation/runtime.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  }
+]

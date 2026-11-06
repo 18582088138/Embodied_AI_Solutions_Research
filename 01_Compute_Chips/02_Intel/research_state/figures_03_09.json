@@ -1,0 +1,92 @@
+{
+  "Intel03_WiringFig": {
+    "file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel03_WiringFig--d807f24bea1e1335/content.jpg",
+    "sha256": "86e5a13ee7d22789334f0c05111a93ce2cc974731c219ddd9af6d859fd38a0c6",
+    "source_id": "Intel03_WiringFig",
+    "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/platform_foundation/development_kits/robinson-bay/images/CEXD_GMSL_connected.jpg",
+    "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel03_WiringFig--d807f24bea1e1335/content.jpg",
+    "original_sha256": "86e5a13ee7d22789334f0c05111a93ce2cc974731c219ddd9af6d859fd38a0c6",
+    "operation": "官方图片原件，无变换",
+    "visual_review": "实际打开接线照片；相机、线缆、CEXD可见，照片不含吞吐/时间同步证据"
+  },
+  "Intel04_LLMPipelineFigure": {
+    "file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel04_LLMPipelineFigure--407e3d2bcce4ade3/content.png",
+    "sha256": "3ff98026f0d846f016e8838d3f1fcc49b5d2ed54f0886f1644898aeda277a5ef",
+    "source_id": "Intel04_LLMPipelineFigure",
+    "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/assets/images/llm-robotics-demo-arch.png",
+    "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel04_LLMPipelineFigure--407e3d2bcce4ade3/content.png",
+    "original_sha256": "3ff98026f0d846f016e8838d3f1fcc49b5d2ed54f0886f1644898aeda277a5ef",
+    "operation": "官方图片原件，无变换",
+    "visual_review": "已实际打开PNG；标题、非实时与实时框、模型标签、共享内存/总线与底部硬件完整。图分工不等于逐模型设备验收；原文步骤与图标注区别正文保留。"
+  },
+  "Intel05_SimFigure": {
+    "file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel05_SimFigure--6d99c38682037c29/content.png",
+    "sha256": "bc11dbfb84317e35d7d718578cd15118979a2b64270d11e3a301ea8cfb17a52a",
+    "source_id": "Intel05_SimFigure",
+    "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/stationary_arm/images/picknplace1.png",
+    "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel05_SimFigure--6d99c38682037c29/content.png",
+    "original_sha256": "bc11dbfb84317e35d7d718578cd15118979a2b64270d11e3a301ea8cfb17a52a",
+    "operation": "官方图片原件，无变换",
+    "visual_review": "已实际打开原PNG；Gazebo、两臂输送带、AMR与RViz/统计栏完整。截图瞬时性能不作benchmark；场景不证明视觉链。"
+  },
+  "Intel06_RoBeeFigure": {
+    "file": "01_Compute_Chips/02_Intel/reference_metrial/webpages/Intel06_CustomerCases--a198bce07c1cd65c/assets/images/31378975186774919a7a8e8c.jpg",
+    "sha256": "d2b6edd1cbeccd8348d676be236e9ce70d9b26ca8b01f3c86e4fac6b6c3bd559",
+    "source_id": "Intel06_CustomerCases",
+    "source_url": "https://intelcorp.scene7.com/is/image/intelcorp/robee-oversonic-humanoid?ts=1793818481374&dpr=off",
+    "original_file": "01_Compute_Chips/02_Intel/reference_metrial/webpages/Intel06_CustomerCases--a198bce07c1cd65c/assets/images/31378975186774919a7a8e8c.jpg",
+    "original_sha256": "d2b6edd1cbeccd8348d676be236e9ce70d9b26ca8b01f3c86e4fac6b6c3bd559",
+    "operation": "官方网页资产原件，无变换",
+    "visual_review": "已实际打开本地页面相同SHA原图；RoBee本体与展台完整，照片不证明内部SKU/运行指标或认证。"
+  },
+  "Intel02_Architecture": {
+    "file": "01_Compute_Chips/02_Intel/reference_metrial/derived/figures/Intel02_Architecture.png",
+    "sha256": "bfb65189ce2d539fe1dd6eed27fb2a60b29a6afefeadea11b4649d1d48c7f444",
+    "source_id": "Intel02_Architecture",
+    "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/images/architecture/Robotics-AI-Suite-Architecture.svg",
+    "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02_Architecture--0ead36e32550c972/content.svg",
+    "original_sha256": "0e4b76972648ceab99c0302b574b556ea88224a7c872072c118e839bbabc0454",
+    "operation": "原SVG不改内容，本地HTML完整浏览器渲染，fullPage截图；无裁剪",
+    "visual_review": "本轮重新实际打开PNG；六层、颜色图例、用户供给层完整。参考能力及设备标签非逐模型/伙伴验收。"
+  },
+  "Intel02B_AsyncFig_Original": {
+    "file": "01_Compute_Chips/02_Intel/reference_metrial/derived/figures/Intel02B_AsyncFig.png",
+    "sha256": "1b3eefa698ba023d5b539dfc23f79568735920394dbd0659851a99f78316cde8",
+    "source_id": "Intel02B_AsyncFig_Original",
+    "source_url": "https://media.githubusercontent.com/media/openvinotoolkit/openvino/master/docs/articles_en/assets/images/synch-vs-asynch.svg",
+    "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_AsyncFig_Original--e0d8384ef68a1ec1/content.svg",
+    "original_sha256": "2d119a2f5658cded7d4b6704202378c1258fea507f60cbd305e62add42cb8bc1",
+    "operation": "从官方Git LFS公开media路径取得SVG原件；本地HTML完整fullPage浏览器PNG，无裁剪",
+    "visual_review": "本轮重新打开完整PNG；normal/async泳道完整；无数值，仅说明任务重叠，不能证明闭环deadline。"
+  },
+  "Intel02E_TimingFig": {
+    "file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_TimingFig--6bd6d35c4a5c365e/content.png",
+    "sha256": "637822377a851c524618a41d2f82cb17afb488e2c168970f5231de4a17200452",
+    "source_id": "Intel02E_TimingFig",
+    "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/images/ethercat/rt_data_definition.png",
+    "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_TimingFig--6bd6d35c4a5c365e/content.png",
+    "original_sha256": "637822377a851c524618a41d2f82cb17afb488e2c168970f5231de4a17200452",
+    "operation": "官方图片原件，无变换",
+    "visual_review": "本轮重新实际打开PNG；Tin/Tcalc/Tout、Texec/Tcycle与expected/actual/jitter完整；无测量数值，非最坏执行时间保证。"
+  },
+  "Intel02F_Figure": {
+    "file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Figure--9530348fecd2490d/content.png",
+    "sha256": "7370536e628ec157847d52f4483dca69c2fe8cef7e967af97521e529ad3512ff",
+    "source_id": "Intel02F_Figure",
+    "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/docs/assets/06-models-formats.png",
+    "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Figure--9530348fecd2490d/content.png",
+    "original_sha256": "7370536e628ec157847d52f4483dca69c2fe8cef7e967af97521e529ad3512ff",
+    "operation": "官方图片原件，无变换",
+    "visual_review": "本轮实际打开原PNG；ACT模型格式界面四个下载卡、precision/size完整；无机器人任务/事务保障证据，不把样例数字作性能测量。"
+  },
+  "Intel09_IFRFigure": {
+    "file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel09_IFRFigure--f4b1d8f851a56e04/content.png",
+    "sha256": "2eb666011de5f7f361f255ea075ad17f6acb4f65ebe2f02f40bad855624a6cb0",
+    "source_id": "Intel09_IFRFigure",
+    "source_url": "https://ifr.org/downloads/press_docs/Graphic_World_Robotics_2026_GLOBAL.png",
+    "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel09_IFRFigure--f4b1d8f851a56e04/content.png",
+    "original_sha256": "2eb666011de5f7f361f255ea075ad17f6acb4f65ebe2f02f40bad855624a6cb0",
+    "operation": "官方图片原件，无变换",
+    "visual_review": "已实际打开：完整IFR官方柱形图，横轴2015—2025、单位千台；2025栏603，标题与IFR/World Robotics 2026来源可读。该图为工业机器人年度安装量，不是Intel芯片份额或VLA采用量。"
+  }
+}

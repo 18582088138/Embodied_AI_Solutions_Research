@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Intel_ARK_358H",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/245527/intel-core-ultra-x7-processor-358h-18m-cache-up-to-4-80-ghz/specifications.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_Series3_Index",
+    "url": "https://www.intel.com/content/www/us/en/ark/products/series/245528/intel-core-ultra-series-3-processors.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_Robotics_README",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_System_Requirements",
+    "url": "https://developer.robotics.intel.com/development-stack/platform_foundation/system_requirements/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_Development_Kits",
+    "url": "https://developer.robotics.intel.com/development-stack/platform_foundation/development_kits/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_Humanoid_Blueprint",
+    "url": "https://developer.robotics.intel.com/development-stack/hardware_blueprints/humanoid/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

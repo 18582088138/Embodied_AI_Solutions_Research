@@ -1,0 +1,13 @@
+{
+  "01_Hardware_Platform.md": "b760a2e3d8d76ed52b1ecfa292185190cb696f2615f1875bfbcbade178bc03ff",
+  "02A_System_BSP_and_Execution.md": "5efdc545590e6695de9a73be9337b22ef82665f293231c8ad2bf5a2b65298c39",
+  "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime.md": "7a6e49b0f1f17670dffb35b13aef5f84932ea5ba877f860ea46f17e09635ac3a",
+  "02_Software_Stack.md": "dcd1eae68428689e4a1ae5218245b905c5e6d455fdec93197397c4eb3885fe8b",
+  "03_Sensor_Integration.md": "c5e1ffbcc1bc9f9b74602b60c889afd07643fdad07f12d659ff83486534caa23",
+  "04_AI_Capabilities.md": "69dfa202b629962fbb103f07183d16a657e9590662cbb26bb2b78f7af84f1b92",
+  "05_Simulation_Environment.md": "e14876711138cb97648eb72653456927136ec4785754fe56905f01eb02ac6108",
+  "06_Robot_Integration.md": "0b598109001dbf652786695a45d304c085d60da81844acd10a1e4d840465c982",
+  "07_Ecosystem.md": "7e41d0c1835e1c3048a97dcdce37c6f31863cf89b6a657458e210d1b0c738206",
+  "08_Proprietary_Technologies.md": "36c8430db65876570a29c965021dc67391f35e4779685c992b017e21d4f74748",
+  "09_SWOT_Analysis.md": "df61b0f9e1d096339013ba6077d50c5198e1d771c8197e2eed876df202485d9f"
+}

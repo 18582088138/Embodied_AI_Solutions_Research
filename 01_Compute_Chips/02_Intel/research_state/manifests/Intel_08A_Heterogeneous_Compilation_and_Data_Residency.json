@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Intel02B_HETERO",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/hetero-execution.rst",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel02B_GPU_Memory",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/src/plugins/intel_gpu/docs/memory_allocation_gpu_plugin.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel02B_GPU_Kernels",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/src/plugins/intel_gpu/docs/gpu_kernels.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel02B_GPU_Flow",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/src/plugins/intel_gpu/docs/simplified_workflow.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel02B_AUTO",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/auto-device-selection.rst",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel02B_NPU",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/npu-device.rst",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel02B_Shapes",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/model-input-output/dynamic-shapes.rst",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel02B_RemoteNPU",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/npu-device/remote-tensor-api-npu-plugin.rst",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel02B_RemoteGPU",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/gpu-device/remote-tensor-api-gpu-plugin.rst",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel02B_AsyncFig_Original",
+    "url": "https://media.githubusercontent.com/media/openvinotoolkit/openvino/master/docs/articles_en/assets/images/synch-vs-asynch.svg",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel02B_InferAPI",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/assets/snippets/ov_infer_request.py",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel02B_Cache",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/optimize-inference/optimizing-latency/model-caching-overview.rst",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel02B_CacheAPI",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/assets/snippets/ov_caching.py",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel02B_GPU_Dispatch",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/src/plugins/intel_gpu/docs/gpu_dual_runtime_dispatch.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel02B_NNCF",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/nncf/develop/README.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel02B_Weight",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/model-optimization-guide/weight-compression/4-bit-weight-quantization.rst",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel08A_ORTOV",
+    "url": "https://onnxruntime.ai/docs/execution-providers/OpenVINO-ExecutionProvider.html",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel08A_ORTTRT",
+    "url": "https://onnxruntime.ai/docs/execution-providers/TensorRT-ExecutionProvider.html",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "outcome": "pass",
+  "reports": 7,
+  "topics": 6,
+  "sources": 112,
+  "unique_urls": 111,
+  "figures": 6,
+  "body_han_total": 14376,
+  "protected_reports": {
+    "01_Hardware_Platform.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08_Proprietary_Technologies.md": true,
+    "09_SWOT_Analysis.md": true
+  },
+  "index_links_checked": 41,
+  "missing_links": [],
+  "dedup_network_requests": 0,
+  "semantic_limits": "人工文献/源码/图像核验；无模型或机器人实测",
+  "report_sha256": {
+    "02_Software_Stack": "1f4fbd80c4deccdbdd96e8f0aa08c8d925493d607b8dd64ad423f3f640f4fe62",
+    "02A_System_BSP_and_Execution": "5efdc545590e6695de9a73be9337b22ef82665f293231c8ad2bf5a2b65298c39",
+    "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime": "7a6e49b0f1f17670dffb35b13aef5f84932ea5ba877f860ea46f17e09635ac3a",
+    "02C_Physical_AI_Model_Pipelines": "a71819ee4b42cfd62a9c75f2bd07147f6bd9fa4744474f58d5050216797bc047",
+    "02D_ROS_Perception_and_Navigation": "ffead8d644e9dbc057bf870aa7f46b371973bf7f02c57423d436d68f90007ee2",
+    "02E_Control_Simulation_and_Operations": "6e6637b066bb0f0cd08e679eb8727dc711fea84d21a5c8fe98318e08ca9dd17c",
+    "02F_Physical_AI_Studio_Data_and_Training": "a537123ad981bb23d7e2255ac768eadb7e3a7f65f610f389f8f3c92406074cb4"
+  },
+  "archive_status_by_source_name": {
+    "complete_static": 111,
+    "partial_static": 1
+  },
+  "partial_sources": [
+    {
+      "name": "Intel_ARK_Core5320",
+      "archive_status": "partial_static",
+      "missing_assets": 12
+    }
+  ]
+}

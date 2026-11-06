@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Intel02A_NPU_Driver",
+    "url": "https://raw.githubusercontent.com/intel/linux-npu-driver/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_NPU_License",
+    "url": "https://raw.githubusercontent.com/intel/linux-npu-driver/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_GPU_Runtime",
+    "url": "https://raw.githubusercontent.com/intel/compute-runtime/master/README.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_GPU_License",
+    "url": "https://raw.githubusercontent.com/intel/compute-runtime/master/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  }
+]

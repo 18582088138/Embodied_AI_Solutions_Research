@@ -1,0 +1,102 @@
+{
+  "source_ids": [
+    "Intel02E_Sim",
+    "Intel05_Basic",
+    "Intel05_Wandering",
+    "Intel05_RVCSim",
+    "Intel02C_ACT",
+    "Intel02C_RDT",
+    "Intel04_MPC",
+    "Intel05_MultiWorld",
+    "Intel05_GazeboLaunch",
+    "Intel05_Camera",
+    "Intel05_MujocoPatch1",
+    "Intel02E_PickSim",
+    "Intel05_SimFigure",
+    "Intel02E_Benchmark",
+    "Intel02F_Benchmark"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel05_SimFigure--6d99c38682037c29/content.png",
+      "sha256": "bc11dbfb84317e35d7d718578cd15118979a2b64270d11e3a301ea8cfb17a52a",
+      "source_id": "Intel05_SimFigure",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/stationary_arm/images/picknplace1.png",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel05_SimFigure--6d99c38682037c29/content.png",
+      "original_sha256": "bc11dbfb84317e35d7d718578cd15118979a2b64270d11e3a301ea8cfb17a52a",
+      "operation": "官方图片原件，无变换",
+      "visual_review": "已实际打开原PNG；Gazebo、两臂输送带、AMR与RViz/统计栏完整。截图瞬时性能不作benchmark；场景不证明视觉链。"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "world参数非默认已跑结果",
+      "source_id": "Intel05_MultiWorld",
+      "location": "physics",
+      "evidence_type": "事实",
+      "conditions": "SDF1.6 ODE/1ms/150iters",
+      "finding": "与总览Harmonic后端区分",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/components/simulations/src/robot_config/worlds/multi_robot_world.world",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel05_MultiWorld--eb25a06af163b137/content.world",
+      "original_sha256": "287b7235654c80845a388ae26fbf83e672d050746443365605130688f11ae9b9",
+      "retrieved_at_utc": "2026-11-05T04:09:06.641964+00:00"
+    },
+    {
+      "claim": "普通相机非完整D415模型",
+      "source_id": "Intel05_Camera",
+      "location": "sensor/camera",
+      "evidence_type": "事实",
+      "conditions": "SDF1.8 640x480/RGB/30Hz",
+      "finding": "noise0.007未取得标定来源",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/components/simulations/src/robot_config/urdf/ur/ur5/camera.xacro",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel05_Camera--4fd4b037b52b6ed1/content.xacro",
+      "original_sha256": "9d25c83137164c21030c626075fbf100dfcfd2d4e6733ea07ec457c303321131",
+      "retrieved_at_utc": "2026-11-05T04:09:07.601213+00:00"
+    },
+    {
+      "claim": "模拟真值绕过视觉",
+      "source_id": "Intel02E_PickSim",
+      "location": "Object location",
+      "evidence_type": "事实",
+      "conditions": "Classic/Humble已测与Jazzy标签",
+      "finding": "get_entity_state不证明感知",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/stationary_arm/simulation/picknplace.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_PickSim--c552b95e183ff301/content.md",
+      "original_sha256": "e75c2681009147130494b2e666a844ddb3f124063d76f2fd736c20e11a473a58",
+      "retrieved_at_utc": "2026-11-05T02:44:53.753607+00:00"
+    },
+    {
+      "claim": "MuJoCo接触参数",
+      "source_id": "Intel05_MujocoPatch1",
+      "location": "geom/joint/ActuatorCommand",
+      "evidence_type": "事实",
+      "conditions": "固定对象patch",
+      "finding": "friction等配置非真实辨识",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/mpc-demo/mujoco_ros_utils/patches/0001-Modify-for-ACT-OCS2-simulation.patch",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel05_MujocoPatch1--6562ed182633a8b6/content.patch",
+      "original_sha256": "8fba10699d3bc3a833b0f81d341ff51ef8db515d50b39d7013705f64a6f1b335",
+      "retrieved_at_utc": "2026-11-05T04:08:06.374838+00:00"
+    },
+    {
+      "claim": "clock桥接",
+      "source_id": "Intel05_GazeboLaunch",
+      "location": "parameter_bridge",
+      "evidence_type": "事实",
+      "conditions": "gz.msgs.Clock",
+      "finding": "独立主机耗时仍需记录",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/components/simulations/src/robot_config/launch/gazebo.launch.py",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel05_GazeboLaunch--8745deae42101ba1/content.py",
+      "original_sha256": "31a069d018e3ca61a723ea75ccc5ea6c3d7473714c814e456f61870b84b2893a",
+      "retrieved_at_utc": "2026-11-05T04:08:50.146203+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "本文逐机制、API对象、产物交接、硬件依赖与故障条件已人工核对；未取得信息正文保留。",
+    "versions_and_measurements": "当前通用栈、Suite绑定版本与样例配置分开；性能未独立复测。",
+    "maturity_and_licenses": "区分Intel提供/优化、上游组件、样例和未验收路径；许可按文件与资产范围核验。",
+    "figures_opened": "所有本文图已实际打开确认文字、图例与完整边界；详见figures记录。"
+  },
+  "research_limits": [
+    "文献/API/源码核验；未安装SDK、运行模型或测试机器人。"
+  ]
+}

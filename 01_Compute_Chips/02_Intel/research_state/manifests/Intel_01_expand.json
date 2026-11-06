@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Intel_ARK_388H",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/245526/intel-core-ultra-x9-processor-388h-18m-cache-up-to-5-10-ghz/specifications.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_ARK_386H",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/245529/intel-core-ultra-9-processor-386h-18m-cache-up-to-4-90-ghz/specifications.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_ARK_255H",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/241751/intel-core-ultra-7-processor-255h-24m-cache-up-to-5-10-ghz/specifications.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_ARK_258V",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/240957/intel-core-ultra-7-processor-258v-12m-cache-up-to-4-80-ghz/specifications.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_Ultra_Edge",
+    "url": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/edge.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_Robinson_Bay",
+    "url": "https://developer.robotics.intel.com/development-stack/platform_foundation/development_kits/robinson-bay/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_Robinson_Interfaces",
+    "url": "https://developer.robotics.intel.com/development-stack/platform_foundation/development_kits/robinson-bay/interfaces/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_UP_Nexus",
+    "url": "https://developer.robotics.intel.com/development-stack/platform_foundation/development_kits/up-nexus-wcl-edge/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_UP_WCL",
+    "url": "https://developer.robotics.intel.com/development-stack/platform_foundation/development_kits/up-wcl-edge/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_NUC16",
+    "url": "https://developer.robotics.intel.com/development-stack/platform_foundation/development_kits/asus-nuc-16/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "AAEON_Robotics",
+    "url": "https://www.aaeon.com/en/article/detail/accelerate-robotics-development-aaeon-intel",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "AAEON_CEXD_Datasheet",
+    "url": "https://newdata.aaeon.com.tw/DOWNLOAD/2014%20datasheet/Systems/CEXD-INTRBL.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "AAEON_CEXD_Shop",
+    "url": "https://eshop.aaeon.com/robotics-development-system-intel-core-ultra-x7-358h-cexd-intrbl.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_Series3_Datasheet",
+    "url": "https://cdrdv2.intel.com/v1/dl/getContent/872188?fileName=872188-002.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_Series3_QuickReference",
+    "url": "https://cdrdv2.intel.com/v1/dl/getContent/871380?fileName=Intel+Core+Ultra+Series+3+Processors+-+Quick+Reference+Guide+v1.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Intel07_MassRobotics",
+    "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/postcard-massrobotics-physical-ai-startup-speed.html",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel07_SuiteRepo",
+    "url": "https://api.github.com/repos/open-edge-platform/robotics-ai-suite",
+    "expected": "json",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel07_SuiteReleases",
+    "url": "https://api.github.com/repos/open-edge-platform/robotics-ai-suite/releases?per_page=5",
+    "expected": "json",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel07_StudioRepo",
+    "url": "https://api.github.com/repos/open-edge-platform/physical-ai-studio",
+    "expected": "json",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel07_OVRepo",
+    "url": "https://api.github.com/repos/openvinotoolkit/openvino",
+    "expected": "json",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  }
+]

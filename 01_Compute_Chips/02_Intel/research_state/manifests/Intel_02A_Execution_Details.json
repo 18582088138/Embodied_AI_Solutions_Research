@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Intel02A_NPU_Overview",
+    "url": "https://raw.githubusercontent.com/intel/linux-npu-driver/main/docs/overview.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_GPU_Architecture",
+    "url": "https://raw.githubusercontent.com/intel/compute-runtime/master/ARCHITECTURE.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  }
+]

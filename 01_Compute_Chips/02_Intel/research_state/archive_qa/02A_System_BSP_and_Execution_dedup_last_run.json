@@ -1,0 +1,28 @@
+{
+  "time_utc": "2026-11-05T02:26:48.932708+00:00",
+  "summary": {
+    "complete_static": 13,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "Intel02A_Install",
+    "Intel02A_Configurations",
+    "Intel02A_ImageComposer",
+    "Intel02A_GPU_Runtime",
+    "Intel02A_GPU_Architecture",
+    "Intel02A_NPU_Driver",
+    "Intel02A_NPU_Overview",
+    "Intel02A_RTKernel",
+    "Intel02A_Security",
+    "Intel02_Architecture",
+    "Intel_Doc_Humanoid",
+    "Intel_Doc_RT_Tuning",
+    "Intel_ARK_Core5320",
+    "Intel_Robotics_License"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

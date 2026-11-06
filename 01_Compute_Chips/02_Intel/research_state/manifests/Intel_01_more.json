@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Intel_ARK_B580",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_ARK_ProB60",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/243916/intel-arc-pro-b60-graphics/specifications.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_Edge_Performance",
+    "url": "https://edc.intel.com/content/www/us/en/products/performance/benchmarks/intel-core-ultra-processors-series-3/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_Series3_Edge_Addendum",
+    "url": "https://cdrdv2.intel.com/v1/dl/getContent/872716?fileName=872716_Intel+Core+Ultra+Series+3+processor_Datasheet_Addendum_Rev004.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_Robotics_Tree",
+    "url": "https://api.github.com/repos/open-edge-platform/robotics-ai-suite/git/trees/main?recursive=1",
+    "expected": "json",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

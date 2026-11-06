@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Intel02B_AsyncFig_Original",
+    "url": "https://media.githubusercontent.com/media/openvinotoolkit/openvino/master/docs/articles_en/assets/images/synch-vs-asynch.svg",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  }
+]

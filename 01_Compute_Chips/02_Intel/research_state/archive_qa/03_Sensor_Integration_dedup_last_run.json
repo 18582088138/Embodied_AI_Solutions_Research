@@ -1,0 +1,31 @@
+{
+  "time_utc": "2026-11-05T04:03:22.226812+00:00",
+  "summary": {
+    "complete_static": 17,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "Intel03_WiringFig",
+    "Intel03_GMSL",
+    "Intel_Doc_CEXD_GMSL",
+    "Intel03_GMSLTable",
+    "Intel03_USBTable",
+    "Intel03_LiDAR",
+    "Intel03_Orbbec",
+    "Intel02B_RemoteNPU",
+    "Intel02B_RemoteGPU",
+    "Intel02C_Runtime_PrePost",
+    "Intel03_RSROSReadme",
+    "Intel03_Timestamp",
+    "Intel02D_ROS_QoS",
+    "Intel02D_FastMap",
+    "Intel02D_CollabSLAM",
+    "Intel03_RSROS",
+    "Intel02D_ImageSync"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

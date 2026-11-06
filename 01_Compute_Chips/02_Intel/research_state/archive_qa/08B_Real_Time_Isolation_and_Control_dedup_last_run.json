@@ -1,0 +1,21 @@
+{
+  "time_utc": "2026-11-05T04:25:39.403911+00:00",
+  "summary": {
+    "complete_static": 7,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "Intel_Doc_RT_Tuning",
+    "Intel02E_EtherCAT",
+    "Intel02E_TimingFig",
+    "Intel02E_Motion",
+    "Intel02E_RVC",
+    "Intel08B_NonROSPatch",
+    "Intel04_MPC"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Intel02F_StudioTree",
+    "url": "https://api.github.com/repos/open-edge-platform/physical-ai-studio/git/trees/main?recursive=1",
+    "expected": "any",
+    "used_by": [
+      "02F_Physical_AI_Studio_Data_and_Training"
+    ]
+  },
+  {
+    "name": "Intel02F_StudioReadme",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02F_Physical_AI_Studio_Data_and_Training"
+    ]
+  }
+]

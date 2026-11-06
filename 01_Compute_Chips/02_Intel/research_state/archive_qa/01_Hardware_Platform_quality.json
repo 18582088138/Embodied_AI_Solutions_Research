@@ -1,0 +1,48 @@
+{
+  "report": "01_Compute_Chips/02_Intel/01_Hardware_Platform.md",
+  "body_han_chars": 6744,
+  "tables": 7,
+  "sources": 40,
+  "archive_status": {
+    "complete_static": 22,
+    "partial_static": 18
+  },
+  "figures": 4,
+  "file_hash_checks": 4725,
+  "html_visible_text_equal": 21,
+  "page_local_dependencies_checked": 8492,
+  "report_local_links": 44,
+  "other_reports_unchanged": {
+    "02_Software_Stack.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08_Proprietary_Technologies.md": true,
+    "09_SWOT_Analysis.md": true
+  },
+  "errors": [],
+  "warnings": [
+    "静态依赖部分缺失: Intel_ARK_388H（报告应披露）",
+    "静态依赖部分缺失: Intel_ARK_368H（报告应披露）",
+    "静态依赖部分缺失: Intel_ARK_358H（报告应披露）",
+    "静态依赖部分缺失: Intel_ARK_386H（报告应披露）",
+    "静态依赖部分缺失: Intel_ARK_338H（报告应披露）",
+    "静态依赖部分缺失: Intel_ARK_355（报告应披露）",
+    "静态依赖部分缺失: Intel_ARK_Core5320（报告应披露）",
+    "静态依赖部分缺失: Intel_ARK_255H（报告应披露）",
+    "静态依赖部分缺失: Intel_ARK_258V（报告应披露）",
+    "静态依赖部分缺失: Intel_ARK_x7433RE（报告应披露）",
+    "静态依赖部分缺失: Intel_ARK_B580（报告应披露）",
+    "静态依赖部分缺失: Intel_ARK_ProB60（报告应披露）",
+    "静态依赖部分缺失: AAEON_Robotics（报告应披露）",
+    "静态依赖部分缺失: AAEON_UP_Nexus（报告应披露）",
+    "静态依赖部分缺失: AAEON_UP_WCL（报告应披露）",
+    "静态依赖部分缺失: ASUS_NUC16（报告应披露）",
+    "静态依赖部分缺失: Intel_Edge_Performance（报告应披露）",
+    "静态依赖部分缺失: Intel_Ultra_Edge（报告应披露）"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

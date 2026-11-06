@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Intel07_AAEON_BIOS",
+    "url": "https://www.aaeon.com/en/article/list/bios-customization-services",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Intel07_AAEON_QService",
+    "url": "https://www.aaeon.com/en/article/list/q-service-embedded-boards-computer-on-module",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  }
+]

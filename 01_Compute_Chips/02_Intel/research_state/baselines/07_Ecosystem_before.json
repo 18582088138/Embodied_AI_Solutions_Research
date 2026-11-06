@@ -1,0 +1,18 @@
+{
+  "01_Hardware_Platform.md": "b760a2e3d8d76ed52b1ecfa292185190cb696f2615f1875bfbcbade178bc03ff",
+  "02A_System_BSP_and_Execution.md": "5efdc545590e6695de9a73be9337b22ef82665f293231c8ad2bf5a2b65298c39",
+  "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime.md": "7a6e49b0f1f17670dffb35b13aef5f84932ea5ba877f860ea46f17e09635ac3a",
+  "02C_Physical_AI_Model_Pipelines.md": "a71819ee4b42cfd62a9c75f2bd07147f6bd9fa4744474f58d5050216797bc047",
+  "02D_ROS_Perception_and_Navigation.md": "ffead8d644e9dbc057bf870aa7f46b371973bf7f02c57423d436d68f90007ee2",
+  "02E_Control_Simulation_and_Operations.md": "6e6637b066bb0f0cd08e679eb8727dc711fea84d21a5c8fe98318e08ca9dd17c",
+  "02F_Physical_AI_Studio_Data_and_Training.md": "a537123ad981bb23d7e2255ac768eadb7e3a7f65f610f389f8f3c92406074cb4",
+  "02_Software_Stack.md": "1f4fbd80c4deccdbdd96e8f0aa08c8d925493d607b8dd64ad423f3f640f4fe62",
+  "02_Topics_Index.md": "2d6d924269bcd7d477b5649db3b6eb359d14238c0eaa935dbe1ad618b8c304fc",
+  "03_Sensor_Integration.md": "1413c470ef9537020711cbb5009488cf8b93642deddd58ae6581f634d5364999",
+  "04_AI_Capabilities.md": "9fffffda57dc4e74fe9f873535ed7a51e3fabc3e762c3c78c3116128c025f407",
+  "05_Simulation_Environment.md": "6ccc965170702070206c3d1b81189f381c97decb6d3353950d60f34eb95fa6f7",
+  "06_Robot_Integration.md": "6452d623b9eac188a425d2692e0dc2ba79a0c5618712481c8e191880a9e5f075",
+  "07_Ecosystem.md": "7e41d0c1835e1c3048a97dcdce37c6f31863cf89b6a657458e210d1b0c738206",
+  "08_Proprietary_Technologies.md": "36c8430db65876570a29c965021dc67391f35e4779685c992b017e21d4f74748",
+  "09_SWOT_Analysis.md": "df61b0f9e1d096339013ba6077d50c5198e1d771c8197e2eed876df202485d9f"
+}

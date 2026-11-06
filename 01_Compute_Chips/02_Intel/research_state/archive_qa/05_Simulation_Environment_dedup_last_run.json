@@ -1,0 +1,29 @@
+{
+  "time_utc": "2026-11-05T04:10:47.352484+00:00",
+  "summary": {
+    "complete_static": 15,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "Intel02E_Sim",
+    "Intel05_Basic",
+    "Intel05_Wandering",
+    "Intel05_RVCSim",
+    "Intel02C_ACT",
+    "Intel02C_RDT",
+    "Intel04_MPC",
+    "Intel05_MultiWorld",
+    "Intel05_GazeboLaunch",
+    "Intel05_Camera",
+    "Intel05_MujocoPatch1",
+    "Intel02E_PickSim",
+    "Intel05_SimFigure",
+    "Intel02E_Benchmark",
+    "Intel02F_Benchmark"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

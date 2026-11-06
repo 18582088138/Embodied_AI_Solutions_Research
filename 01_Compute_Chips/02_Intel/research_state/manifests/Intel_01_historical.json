@@ -1,0 +1,34 @@
+[
+  {
+    "name": "system-requirements",
+    "url": "https://developer.robotics.intel.com/development-stack/platform_foundation/system_requirements/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "development-kits",
+    "url": "https://developer.robotics.intel.com/development-stack/platform_foundation/development_kits/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "humanoid-blueprint",
+    "url": "https://developer.robotics.intel.com/development-stack/hardware_blueprints/humanoid/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "rt-tuning",
+    "url": "https://developer.robotics.intel.com/development-stack/components/realtime_determinism/rt_tuning_guide/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

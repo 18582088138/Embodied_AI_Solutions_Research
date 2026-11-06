@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Intel02E_TaskIntro",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/e5dcdcc705a9306462897de913e39e44701566a1/libraries/edge-control-libraries/fieldbus/robotmctask/docs/introduction.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_RLConfig",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/e5dcdcc705a9306462897de913e39e44701566a1/libraries/edge-control-libraries/fieldbus/robotmctask/examples/config/robot_rl_ov.yaml",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  }
+]

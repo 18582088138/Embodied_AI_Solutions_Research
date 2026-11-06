@@ -1,0 +1,92 @@
+{
+  "source_ids": [
+    "Intel03_WiringFig",
+    "Intel03_GMSL",
+    "Intel_Doc_CEXD_GMSL",
+    "Intel03_GMSLTable",
+    "Intel03_USBTable",
+    "Intel03_LiDAR",
+    "Intel03_Orbbec",
+    "Intel02B_RemoteNPU",
+    "Intel02B_RemoteGPU",
+    "Intel02C_Runtime_PrePost",
+    "Intel03_RSROSReadme",
+    "Intel03_Timestamp",
+    "Intel02D_ROS_QoS",
+    "Intel02D_FastMap",
+    "Intel02D_CollabSLAM",
+    "Intel03_RSROS",
+    "Intel02D_ImageSync"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel03_WiringFig--d807f24bea1e1335/content.jpg",
+      "sha256": "86e5a13ee7d22789334f0c05111a93ce2cc974731c219ddd9af6d859fd38a0c6",
+      "source_id": "Intel03_WiringFig",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/platform_foundation/development_kits/robinson-bay/images/CEXD_GMSL_connected.jpg",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel03_WiringFig--d807f24bea1e1335/content.jpg",
+      "original_sha256": "86e5a13ee7d22789334f0c05111a93ce2cc974731c219ddd9af6d859fd38a0c6",
+      "operation": "官方图片原件，无变换",
+      "visual_review": "实际打开接线照片；相机、线缆、CEXD可见，照片不含吞吐/时间同步证据"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "每解串器总四流",
+      "source_id": "Intel03_GMSL",
+      "location": "Step5/Known limitations",
+      "evidence_type": "事实",
+      "conditions": "CEXD/IPU7/MAX96724",
+      "finding": "区分八物理link与四台D457深度RGB；故障需powercycle",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/sensors/cameras/gmsl/index.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel03_GMSL--c97c8e25d345d960/content.md",
+      "original_sha256": "505ae57a015d65b5f3eeaee05245c032179ad7f7a2bcdd27aea14e0e18391a30",
+      "retrieved_at_utc": "2026-11-05T03:58:13.692497+00:00"
+    },
+    {
+      "claim": "SDK时钟域不同",
+      "source_id": "Intel03_Timestamp",
+      "location": "Timestamp Types/Host Clock",
+      "evidence_type": "事实",
+      "conditions": "支持global设备、LinuxRAW",
+      "finding": "不混算system/device/steady时钟",
+      "source_url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/docs/tutorial/timestamp.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel03_Timestamp--6d698eb3dad5c80c/content.md",
+      "original_sha256": "bd880b648a36aadeff129e5bdb9145f0d59886fc5979a6e197537cd24e1ebf32",
+      "retrieved_at_utc": "2026-11-05T03:58:23.253959+00:00"
+    },
+    {
+      "claim": "ROS教程支持文字冲突",
+      "source_id": "Intel03_RSROS",
+      "location": "Note/GMSL section",
+      "evidence_type": "事实",
+      "conditions": "本次Suite固定对象",
+      "finding": "仅USB与GMSL步骤并存",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/sensors/reference_applications/realsense-ros2.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel03_RSROS--9bd7cbc445b7744c/content.md",
+      "original_sha256": "ded4d3b5ed34f953175033ed2453f02e6f817f0f1911130e49b5efe91d02bdb6",
+      "retrieved_at_utc": "2026-11-05T03:58:19.622435+00:00"
+    },
+    {
+      "claim": "裸payload预算",
+      "source_id": "Intel03_GMSL",
+      "location": "Default streams",
+      "evidence_type": "分析",
+      "conditions": "四台/30fps/16bit、无协议开销",
+      "finding": "466.944MB/s不是实测",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/sensors/cameras/gmsl/index.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel03_GMSL--c97c8e25d345d960/content.md",
+      "original_sha256": "505ae57a015d65b5f3eeaee05245c032179ad7f7a2bcdd27aea14e0e18391a30",
+      "retrieved_at_utc": "2026-11-05T03:58:13.692497+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "本文逐机制、API对象、产物交接、硬件依赖与故障条件已人工核对；未取得信息正文保留。",
+    "versions_and_measurements": "当前通用栈、Suite绑定版本与样例配置分开；性能未独立复测。",
+    "maturity_and_licenses": "区分Intel提供/优化、上游组件、样例和未验收路径；许可按文件与资产范围核验。",
+    "figures_opened": "所有本文图已实际打开确认文字、图例与完整边界；详见figures记录。"
+  },
+  "research_limits": [
+    "文献/API/源码核验；未安装SDK、运行模型或测试机器人。"
+  ]
+}

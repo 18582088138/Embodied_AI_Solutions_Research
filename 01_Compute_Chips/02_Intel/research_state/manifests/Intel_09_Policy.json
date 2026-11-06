@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Intel09_EUMachineryGuide",
+    "url": "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "time_utc": "2026-11-05T04:29:49.183916+00:00",
+  "summary": {
+    "complete_static": 20,
+    "partial_static": 2,
+    "failed": 0
+  },
+  "names": [
+    "Intel02_Architecture",
+    "Intel02B_GPU_Dispatch",
+    "Intel_Doc_RT_Tuning",
+    "Intel02B_HETERO",
+    "Intel02B_GPU_Memory",
+    "Intel02B_RemoteNPU",
+    "Intel02B_Cache",
+    "Intel02B_NPU",
+    "Intel08A_ORTOV",
+    "Intel08A_ORTTRT",
+    "Intel02E_EtherCAT",
+    "Intel08B_NonROSPatch",
+    "Intel04_MolmoAct2",
+    "Intel02F_Store",
+    "Intel02F_Hooks",
+    "Intel02F_Lib",
+    "Intel02C_Pi05_ModelCard",
+    "Intel02C_Runtime_License",
+    "Intel06_URBlueprint",
+    "Intel06_Jackal",
+    "Intel02E_RLConfig",
+    "Intel06_CustomerCases"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

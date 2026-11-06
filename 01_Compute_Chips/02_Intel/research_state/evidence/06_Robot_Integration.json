@@ -1,0 +1,106 @@
+{
+  "source_ids": [
+    "Intel06_CustomerCases",
+    "Intel06_Jackal",
+    "Intel06_URBlueprint",
+    "Intel02C_RTC_README",
+    "Intel02E_RVC",
+    "Intel02E_TaskIntro",
+    "Intel02E_RLConfig"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/02_Intel/reference_metrial/webpages/Intel06_CustomerCases--a198bce07c1cd65c/assets/images/31378975186774919a7a8e8c.jpg",
+      "sha256": "d2b6edd1cbeccd8348d676be236e9ce70d9b26ca8b01f3c86e4fac6b6c3bd559",
+      "source_id": "Intel06_CustomerCases",
+      "source_url": "https://intelcorp.scene7.com/is/image/intelcorp/robee-oversonic-humanoid?ts=1793818481374&dpr=off",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/webpages/Intel06_CustomerCases--a198bce07c1cd65c/assets/images/31378975186774919a7a8e8c.jpg",
+      "original_sha256": "d2b6edd1cbeccd8348d676be236e9ce70d9b26ca8b01f3c86e4fac6b6c3bd559",
+      "operation": "官方网页资产原件，无变换",
+      "visual_review": "已实际打开本地页面相同SHA原图；RoBee本体与展台完整，照片不证明内部SKU/运行指标或认证。"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "Ella已切换与展示预告分开",
+      "source_id": "Intel06_CustomerCases",
+      "location": "A Business Case/Computex段",
+      "evidence_type": "厂商宣称",
+      "conditions": "2026-05-20；未列SKU",
+      "finding": "200杯/小时为will展示，未取得运营分母",
+      "source_url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-core-ultra-series-3-for-edge-ai-robotics.html",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/webpages/Intel06_CustomerCases--a198bce07c1cd65c/index.html",
+      "original_sha256": "1c3f27326954cc9060dd6120b41ab308c70d377d8d6fcccf6f4cb884bb59a106",
+      "retrieved_at_utc": "2026-11-05T04:13:35.108017+00:00"
+    },
+    {
+      "claim": "Trossen是测试",
+      "source_id": "Intel06_CustomerCases",
+      "location": "Testing future",
+      "evidence_type": "厂商宣称",
+      "conditions": "2026年",
+      "finding": "不是全系列量产",
+      "source_url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-core-ultra-series-3-for-edge-ai-robotics.html",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/webpages/Intel06_CustomerCases--a198bce07c1cd65c/index.html",
+      "original_sha256": "1c3f27326954cc9060dd6120b41ab308c70d377d8d6fcccf6f4cb884bb59a106",
+      "retrieved_at_utc": "2026-11-05T04:13:35.108017+00:00"
+    },
+    {
+      "claim": "Jackal仅指定换装组合",
+      "source_id": "Intel06_Jackal",
+      "location": "Overview/Warning",
+      "evidence_type": "事实",
+      "conditions": "J100/UP Nexus/D435i",
+      "finding": "原装主机未验证",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/hardware_blueprints/amr/clearpath-jackal.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel06_Jackal--61884da1615e1906/content.md",
+      "original_sha256": "6f619041b61dc491362a71c59d7ff2c8eab412d1755384fec1c6ce0c369e40d6",
+      "retrieved_at_utc": "2026-11-05T04:13:51.190562+00:00"
+    },
+    {
+      "claim": "UR校准/TCP",
+      "source_id": "Intel06_URBlueprint",
+      "location": "Calibration/TCP",
+      "evidence_type": "事实",
+      "conditions": "UR5e/2F85",
+      "finding": "0.174m仅该工具；外参需重测",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/hardware_blueprints/stationary_arm/ur5e-robotiq-realsense.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel06_URBlueprint--29f21fe2e4378b6f/content.md",
+      "original_sha256": "824afdd7e35ec8af9e9974579557ea1e6e04219b9d2ceea93f4ed2baa7ce5872",
+      "retrieved_at_utc": "2026-11-05T04:13:50.077356+00:00"
+    },
+    {
+      "claim": "RVC roadmap",
+      "source_id": "Intel02E_RVC",
+      "location": "Perception/Servo parameters",
+      "evidence_type": "事实",
+      "conditions": "Jazzy参考",
+      "finding": "VLA未当已交付；0.002s非500Hz实测",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/stationary_arm/deployment/rvc_deploy.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_RVC--2b7128bed0afd95b/content.md",
+      "original_sha256": "40b5fe71ab87027676d9871d14ababca566c25bd9b17001cd1c2cdd34143e638",
+      "retrieved_at_utc": "2026-11-05T02:44:02.883750+00:00"
+    },
+    {
+      "claim": "站立配置默认CPU",
+      "source_id": "Intel02E_RLConfig",
+      "location": "robot_rl/ec_task",
+      "evidence_type": "事实",
+      "conditions": "固定yaml",
+      "finding": "NPU文字与默认配置差异保留",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/e5dcdcc705a9306462897de913e39e44701566a1/libraries/edge-control-libraries/fieldbus/robotmctask/examples/config/robot_rl_ov.yaml",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_RLConfig--faf126229b50320e/content.yaml",
+      "original_sha256": "e9bcae1fd285abb86be956dcdfcf567f81aa006ddb5182f02cab116cb5ccd822",
+      "retrieved_at_utc": "2026-11-05T02:45:51.716577+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "本文逐机制、API对象、产物交接、硬件依赖与故障条件已人工核对；未取得信息正文保留。",
+    "versions_and_measurements": "当前通用栈、Suite绑定版本与样例配置分开；性能未独立复测。",
+    "maturity_and_licenses": "区分Intel提供/优化、上游组件、样例和未验收路径；许可按文件与资产范围核验。",
+    "figures_opened": "所有本文图已实际打开确认文字、图例与完整边界；详见figures记录。"
+  },
+  "research_limits": [
+    "文献/API/源码核验；未安装SDK、运行模型或测试机器人。"
+  ]
+}

@@ -1,0 +1,354 @@
+[
+  {
+    "name": "Intel02_Architecture",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/images/architecture/Robotics-AI-Suite-Architecture.svg",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02B_GPU_Dispatch",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/src/plugins/intel_gpu/docs/gpu_dual_runtime_dispatch.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02E_RT",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/rt_tuning_guide.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02B_HETERO",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/hetero-execution.rst",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02B_GPU_Memory",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/src/plugins/intel_gpu/docs/memory_allocation_gpu_plugin.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02B_RemoteNPU",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/npu-device/remote-tensor-api-npu-plugin.rst",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02B_Cache",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/optimize-inference/optimizing-latency/model-caching-overview.rst",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02B_NPU",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/npu-device.rst",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel08A_ORTOV",
+    "url": "https://onnxruntime.ai/docs/execution-providers/OpenVINO-ExecutionProvider.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel08A_ORTTRT",
+    "url": "https://onnxruntime.ai/docs/execution-providers/TensorRT-ExecutionProvider.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02E_EtherCAT",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/ethercat.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel08B_NonROSPatch",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/mpc-demo/ocs2/patches/0002-Add-non-ROS-MPC-MPC-MRT-module-and-test-pipeline-for.patch",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel04_MolmoAct2",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/src/physicalai/policies/molmoact2/README.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02F_Store",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/backend/src/runtime_session/store.py",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02F_Hooks",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/src/physicalai/export/hooks.py",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02F_Lib",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/README.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02C_Pi05_ModelCard",
+    "url": "https://huggingface.co/lerobot/pi05_base/raw/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02C_Runtime_License",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel06_URBlueprint",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/hardware_blueprints/stationary_arm/ur5e-robotiq-realsense.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel06_Jackal",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/hardware_blueprints/amr/clearpath-jackal.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02E_RLConfig",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/e5dcdcc705a9306462897de913e39e44701566a1/libraries/edge-control-libraries/fieldbus/robotmctask/examples/config/robot_rl_ov.yaml",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel06_CustomerCases",
+    "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-core-ultra-series-3-for-edge-ai-robotics.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02B_GPU_Kernels",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/src/plugins/intel_gpu/docs/gpu_kernels.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02B_GPU_Flow",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/src/plugins/intel_gpu/docs/simplified_workflow.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02B_AUTO",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/auto-device-selection.rst",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02B_Shapes",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/model-input-output/dynamic-shapes.rst",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02B_RemoteGPU",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/gpu-device/remote-tensor-api-gpu-plugin.rst",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02B_AsyncFig_Original",
+    "url": "https://media.githubusercontent.com/media/openvinotoolkit/openvino/master/docs/articles_en/assets/images/synch-vs-asynch.svg",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02B_InferAPI",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/assets/snippets/ov_infer_request.py",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02B_CacheAPI",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/assets/snippets/ov_caching.py",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02B_NNCF",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/nncf/develop/README.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02B_Weight",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/model-optimization-guide/weight-compression/4-bit-weight-quantization.rst",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02E_TimingFig",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/images/ethercat/rt_data_definition.png",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02E_Motion",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/e5dcdcc705a9306462897de913e39e44701566a1/libraries/edge-control-libraries/plcopen-motion-control/plcopen-motion/README.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02E_RVC",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/stationary_arm/deployment/rvc_deploy.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel04_MPC",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/sample_pipelines/mpc_demo.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02C_Runtime_Manifest",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/docs/explanation/manifests.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02F_ExportCode",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/src/physicalai/export/mixin_policy.py",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02F_Recording",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/docs/05-recording-datasets.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02F_Export",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/docs/how-to/export/export_inference.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02F_Figure",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/docs/assets/06-models-formats.png",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02F_RuntimeExport",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/backend/src/services/runtime_export.py",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02C_Runtime_Loop",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/docs/explanation/runtime.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  },
+  {
+    "name": "Intel02F_Benchmark",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/docs/explanation/benchmark/snapflow-libero.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Union"
+    ]
+  }
+]

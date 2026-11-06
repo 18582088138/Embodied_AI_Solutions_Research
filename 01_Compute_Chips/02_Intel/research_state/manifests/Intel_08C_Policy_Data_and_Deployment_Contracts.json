@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Intel02C_Runtime_Manifest",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/docs/explanation/manifests.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Policy_Data_and_Deployment_Contracts"
+    ]
+  },
+  {
+    "name": "Intel02F_ExportCode",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/src/physicalai/export/mixin_policy.py",
+    "expected": "any",
+    "used_by": [
+      "08C_Policy_Data_and_Deployment_Contracts"
+    ]
+  },
+  {
+    "name": "Intel02F_Store",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/backend/src/runtime_session/store.py",
+    "expected": "any",
+    "used_by": [
+      "08C_Policy_Data_and_Deployment_Contracts"
+    ]
+  },
+  {
+    "name": "Intel02F_Recording",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/docs/05-recording-datasets.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Policy_Data_and_Deployment_Contracts"
+    ]
+  },
+  {
+    "name": "Intel02F_Export",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/docs/how-to/export/export_inference.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Policy_Data_and_Deployment_Contracts"
+    ]
+  },
+  {
+    "name": "Intel04_MolmoAct2",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/src/physicalai/policies/molmoact2/README.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Policy_Data_and_Deployment_Contracts"
+    ]
+  },
+  {
+    "name": "Intel02F_Hooks",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/src/physicalai/export/hooks.py",
+    "expected": "any",
+    "used_by": [
+      "08C_Policy_Data_and_Deployment_Contracts"
+    ]
+  },
+  {
+    "name": "Intel02F_Figure",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/docs/assets/06-models-formats.png",
+    "expected": "any",
+    "used_by": [
+      "08C_Policy_Data_and_Deployment_Contracts"
+    ]
+  },
+  {
+    "name": "Intel02F_RuntimeExport",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/backend/src/services/runtime_export.py",
+    "expected": "any",
+    "used_by": [
+      "08C_Policy_Data_and_Deployment_Contracts"
+    ]
+  },
+  {
+    "name": "Intel02C_Runtime_Loop",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/docs/explanation/runtime.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Policy_Data_and_Deployment_Contracts"
+    ]
+  },
+  {
+    "name": "Intel02F_Lib",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/README.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Policy_Data_and_Deployment_Contracts"
+    ]
+  },
+  {
+    "name": "Intel02F_Benchmark",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/docs/explanation/benchmark/snapflow-libero.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Policy_Data_and_Deployment_Contracts"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Intel02C_PhysicalAI_README",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_PhysicalAI_Tree",
+    "url": "https://api.github.com/repos/openvinotoolkit/physicalai/git/trees/main?recursive=1",
+    "expected": "json",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_Pi05_ModelCard",
+    "url": "https://huggingface.co/lerobot/pi05_base/raw/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  }
+]

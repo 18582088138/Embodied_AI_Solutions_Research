@@ -1,0 +1,107 @@
+{
+  "source_ids": [
+    "Intel02F_Lib",
+    "Intel04_PhiMini",
+    "Intel02C_LLM",
+    "Intel04_Qwen3",
+    "Intel02D_Detection",
+    "Intel02D_FastMap",
+    "Intel04_MPC",
+    "Intel02C_ACT",
+    "Intel02C_DP",
+    "Intel02C_RDT",
+    "Intel04_RDTCard",
+    "Intel02C_Pi05_ModelCard",
+    "Intel04_SmolVLA",
+    "Intel02C_RTC_README",
+    "Intel02C_ExportCode",
+    "Intel02C_LeRobot_PI05_Source",
+    "Intel04_MolmoAct2",
+    "Intel04_Cosmos3",
+    "Intel04_LLMPipelineFigure",
+    "Intel02F_Benchmark"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel04_LLMPipelineFigure--407e3d2bcce4ade3/content.png",
+      "sha256": "3ff98026f0d846f016e8838d3f1fcc49b5d2ed54f0886f1644898aeda277a5ef",
+      "source_id": "Intel04_LLMPipelineFigure",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/assets/images/llm-robotics-demo-arch.png",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel04_LLMPipelineFigure--407e3d2bcce4ade3/content.png",
+      "original_sha256": "3ff98026f0d846f016e8838d3f1fcc49b5d2ed54f0886f1644898aeda277a5ef",
+      "operation": "官方图片原件，无变换",
+      "visual_review": "已实际打开PNG；标题、非实时与实时框、模型标签、共享内存/总线与底部硬件完整。图分工不等于逐模型设备验收；原文步骤与图标注区别正文保留。"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "RDT新本体微调",
+      "source_id": "Intel04_RDTCard",
+      "location": "Uses/Out-of-Scope",
+      "evidence_type": "事实",
+      "conditions": "card main快照",
+      "finding": "64动作不等于64Hz",
+      "source_url": "https://huggingface.co/robotics-diffusion-transformer/rdt-1b/raw/main/README.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel04_RDTCard--99a1b1266ae8da3a/content.md",
+      "original_sha256": "aac6b8468d9706a864a0e72c10124fba02ddbc53a1b6fa514f100f1d2aa5ea48",
+      "retrieved_at_utc": "2026-11-05T04:04:11.807696+00:00"
+    },
+    {
+      "claim": "π0.5模块边界",
+      "source_id": "Intel02C_Pi05_ModelCard",
+      "location": "Note/Training step",
+      "evidence_type": "事实",
+      "conditions": "pi05_base",
+      "finding": "flow head与forward训练loss分开",
+      "source_url": "https://huggingface.co/lerobot/pi05_base/raw/main/README.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02C_Pi05_ModelCard--e6655f48f9ab756c/content.md",
+      "original_sha256": "5660a59c4bc742dbab3b0f8a109442436b8378200cdbdf6ed35045efe16cdfdc",
+      "retrieved_at_utc": "2026-11-05T02:33:32.198250+00:00"
+    },
+    {
+      "claim": "SnapFlow非Intel测量",
+      "source_id": "Intel02F_Benchmark",
+      "location": "Method/结果表",
+      "evidence_type": "厂商宣称",
+      "conditions": "H100 PCIe Torch batch1/100chunks/seed42",
+      "finding": "0.5百分点单seed；排除I/O",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/docs/explanation/benchmark/snapflow-libero.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Benchmark--75d80cfb523a1850/content.md",
+      "original_sha256": "bb877fd5e4d39f832ca64fb6bd43d8e9dcd9f57f6c4a36112b09baf1261e6762",
+      "retrieved_at_utc": "2026-11-05T02:49:24.243846+00:00"
+    },
+    {
+      "claim": "Cosmos默认条件不同",
+      "source_id": "Intel04_Cosmos3",
+      "location": "Matching released DROID checkpoints",
+      "evidence_type": "事实",
+      "conditions": "Studio固定对象",
+      "finding": "256/task_description区别480/augmented_json",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/docs/explanation/policy/cosmos3.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel04_Cosmos3--7afe9576256d9588/content.md",
+      "original_sha256": "ac438d91d2191767d179de7bd9815e8a6d124258095c57690cd76f497bc48388",
+      "retrieved_at_utc": "2026-11-05T04:04:13.554385+00:00"
+    },
+    {
+      "claim": "LLM与控制分域",
+      "source_id": "Intel02C_LLM",
+      "location": "Models/Run Pipeline",
+      "evidence_type": "事实",
+      "conditions": "358H教程",
+      "finding": "mini模型实际路径与图分别核对",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/sample_pipelines/llm_robotics.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02C_LLM--9c2321f429bbf34d/content.md",
+      "original_sha256": "8b3fc9d569343900f6ceaf1311299f0c9a8b25de4f94a8a8b43d6414c88c28db",
+      "retrieved_at_utc": "2026-11-05T02:32:49.555540+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "本文逐机制、API对象、产物交接、硬件依赖与故障条件已人工核对；未取得信息正文保留。",
+    "versions_and_measurements": "当前通用栈、Suite绑定版本与样例配置分开；性能未独立复测。",
+    "maturity_and_licenses": "区分Intel提供/优化、上游组件、样例和未验收路径；许可按文件与资产范围核验。",
+    "figures_opened": "所有本文图已实际打开确认文字、图例与完整边界；详见figures记录。"
+  },
+  "research_limits": [
+    "文献/API/源码核验；未安装SDK、运行模型或测试机器人。"
+  ]
+}

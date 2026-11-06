@@ -1,0 +1,31 @@
+{
+  "time_utc": "2026-11-05T02:43:50.206701+00:00",
+  "summary": {
+    "complete_static": 17,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "Intel02D_Detection",
+    "Intel02D_Launch",
+    "Intel02D_Multicam",
+    "Intel02D_ImageSync",
+    "Intel02D_PCL",
+    "Intel02D_FLANN",
+    "Intel02D_ORB",
+    "Intel02D_CollabSLAM",
+    "Intel02D_FastMap",
+    "Intel02D_GroundFloor",
+    "Intel02D_Nav2",
+    "Intel02D_ITS",
+    "Intel02D_ITS_Code",
+    "Intel02D_Relocalize",
+    "Intel02D_AMR_Fig",
+    "Intel02D_ROS_QoS",
+    "Intel02D_ROS_Executors"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

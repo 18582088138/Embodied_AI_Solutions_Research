@@ -1,0 +1,26 @@
+{
+  "time_utc": "2026-11-05T04:27:58.830866+00:00",
+  "summary": {
+    "complete_static": 12,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "Intel02C_Runtime_Manifest",
+    "Intel02F_ExportCode",
+    "Intel02F_Store",
+    "Intel02F_Recording",
+    "Intel02F_Export",
+    "Intel04_MolmoAct2",
+    "Intel02F_Hooks",
+    "Intel02F_Figure",
+    "Intel02F_RuntimeExport",
+    "Intel02C_Runtime_Loop",
+    "Intel02F_Lib",
+    "Intel02F_Benchmark"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

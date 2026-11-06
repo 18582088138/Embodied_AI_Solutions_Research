@@ -1,0 +1,34 @@
+[
+  {
+    "name": "AAEON_UP_Nexus",
+    "url": "https://www.aaeon.com/en/product/detail/up-systems-up-nexus-wcl-edge",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "AAEON_UP_WCL",
+    "url": "https://www.aaeon.com/en/product/detail/up-systems-up-wcl-edge",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ASUS_NUC16",
+    "url": "https://www.asus.com/displays-desktops/nucs/nuc-mini-pcs/asus-nuc-16/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_ARK_Core5320",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/246018/intel-core-5-processor-320-6m-cache-up-to-4-60-ghz/specifications.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

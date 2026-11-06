@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Intel08A_TRTDynamic",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/work-dynamic-shapes.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  },
+  {
+    "name": "Intel08A_ORTOV",
+    "url": "https://onnxruntime.ai/docs/execution-providers/OpenVINO-ExecutionProvider.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency"
+    ]
+  }
+]

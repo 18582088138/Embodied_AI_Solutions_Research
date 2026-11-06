@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Intel02C_LeRobot_PI05_Source",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/src/lerobot/policies/pi05/modeling_pi05.py",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  }
+]

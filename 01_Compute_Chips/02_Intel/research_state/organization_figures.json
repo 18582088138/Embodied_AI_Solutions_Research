@@ -1,0 +1,104 @@
+[
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/Intel_Hardware_Mapping--9fe702b949df.png",
+    "local_original": "01_Compute_Chips/02_Intel/reference_metrial/derived/figures/Intel_Hardware_Mapping.png",
+    "sha256": "9fe702b949dfe04a8b7a809106b2a0dc4f3e3b787146138cfdac484c3217687a"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/AAEON_CEXD_Datasheet_p1--25bfa6488db5.png",
+    "local_original": "01_Compute_Chips/02_Intel/reference_metrial/derived/figures/AAEON_CEXD_Datasheet_p1.png",
+    "sha256": "25bfa6488db59dc5c5c7a8a773e942c55950b152be86c49c59fc4cb8d794d660"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/content--7e163b349a36.png",
+    "local_original": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel_Series3_RT_Figure--2044814659e44102/content.png",
+    "sha256": "7e163b349a36a97fbab6479ef4bd5940fc23ef6c7f23d0a0befff8922e6485ce"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/Intel_Runtime_Dataflow--0ee8bedc17d5.png",
+    "local_original": "01_Compute_Chips/02_Intel/reference_metrial/derived/figures/Intel_Runtime_Dataflow.png",
+    "sha256": "0ee8bedc17d5868a2be3b60595b3caf0e192b4e6f3d825738616cd62d34d152d"
+  },
+  {
+    "report": "02A_System_BSP_and_Execution.md",
+    "figure": "assets/figures/Intel02_Architecture--bfb65189ce2d.png",
+    "local_original": "01_Compute_Chips/02_Intel/reference_metrial/derived/figures/Intel02_Architecture.png",
+    "sha256": "bfb65189ce2d539fe1dd6eed27fb2a60b29a6afefeadea11b4649d1d48c7f444"
+  },
+  {
+    "report": "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime.md",
+    "figure": "assets/figures/Intel02B_AsyncFig--1b3eefa698ba.png",
+    "local_original": "01_Compute_Chips/02_Intel/reference_metrial/derived/figures/Intel02B_AsyncFig.png",
+    "sha256": "1b3eefa698ba023d5b539dfc23f79568735920394dbd0659851a99f78316cde8"
+  },
+  {
+    "report": "02C_Physical_AI_Model_Pipelines.md",
+    "figure": "assets/figures/content--46947f15c76c.png",
+    "local_original": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02C_RTC_Figure--2fc2c219a2aa20c4/content.png",
+    "sha256": "46947f15c76c99e49ccb678da0633996a69b3d9bfada97f8e842a1468512e629"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/content--86e5a13ee7d2.jpg",
+    "local_original": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel03_WiringFig--d807f24bea1e1335/content.jpg",
+    "sha256": "86e5a13ee7d22789334f0c05111a93ce2cc974731c219ddd9af6d859fd38a0c6"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/content--3ff98026f0d8.png",
+    "local_original": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel04_LLMPipelineFigure--407e3d2bcce4ade3/content.png",
+    "sha256": "3ff98026f0d846f016e8838d3f1fcc49b5d2ed54f0886f1644898aeda277a5ef"
+  },
+  {
+    "report": "05_Simulation_Environment.md",
+    "figure": "assets/figures/content--bc11dbfb8431.png",
+    "local_original": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel05_SimFigure--6d99c38682037c29/content.png",
+    "sha256": "bc11dbfb84317e35d7d718578cd15118979a2b64270d11e3a301ea8cfb17a52a"
+  },
+  {
+    "report": "06_Robot_Integration.md",
+    "figure": "assets/figures/31378975186774919a7a8e8c--d2b6edd1cbec.jpg",
+    "local_original": "01_Compute_Chips/02_Intel/reference_metrial/webpages/Intel06_CustomerCases--a198bce07c1cd65c/assets/images/31378975186774919a7a8e8c.jpg",
+    "sha256": "d2b6edd1cbeccd8348d676be236e9ce70d9b26ca8b01f3c86e4fac6b6c3bd559"
+  },
+  {
+    "report": "07_Ecosystem.md",
+    "figure": "assets/figures/Intel02_Architecture--bfb65189ce2d.png",
+    "local_original": "01_Compute_Chips/02_Intel/reference_metrial/derived/figures/Intel02_Architecture.png",
+    "sha256": "bfb65189ce2d539fe1dd6eed27fb2a60b29a6afefeadea11b4649d1d48c7f444"
+  },
+  {
+    "report": "08A_Heterogeneous_Compilation_and_Data_Residency.md",
+    "figure": "assets/figures/Intel02B_AsyncFig--1b3eefa698ba.png",
+    "local_original": "01_Compute_Chips/02_Intel/reference_metrial/derived/figures/Intel02B_AsyncFig.png",
+    "sha256": "1b3eefa698ba023d5b539dfc23f79568735920394dbd0659851a99f78316cde8"
+  },
+  {
+    "report": "08B_Real_Time_Isolation_and_Control.md",
+    "figure": "assets/figures/content--637822377a85.png",
+    "local_original": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_TimingFig--6bd6d35c4a5c365e/content.png",
+    "sha256": "637822377a851c524618a41d2f82cb17afb488e2c168970f5231de4a17200452"
+  },
+  {
+    "report": "08C_Policy_Data_and_Deployment_Contracts.md",
+    "figure": "assets/figures/content--7370536e628e.png",
+    "local_original": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Figure--9530348fecd2490d/content.png",
+    "sha256": "7370536e628ec157847d52f4483dca69c2fe8cef7e967af97521e529ad3512ff"
+  },
+  {
+    "report": "08_Core_Technology_Moat.md",
+    "figure": "assets/figures/Intel02_Architecture--bfb65189ce2d.png",
+    "local_original": "01_Compute_Chips/02_Intel/reference_metrial/derived/figures/Intel02_Architecture.png",
+    "sha256": "bfb65189ce2d539fe1dd6eed27fb2a60b29a6afefeadea11b4649d1d48c7f444"
+  },
+  {
+    "report": "09_SWOT_Analysis.md",
+    "figure": "assets/figures/content--2eb666011de5.png",
+    "local_original": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel09_IFRFigure--f4b1d8f851a56e04/content.png",
+    "sha256": "2eb666011de5f7f361f255ea075ad17f6acb4f65ebe2f02f40bad855624a6cb0"
+  }
+]

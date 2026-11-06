@@ -1,0 +1,104 @@
+{
+  "source_ids": [
+    "Intel02D_Detection",
+    "Intel02D_Launch",
+    "Intel02D_Multicam",
+    "Intel02D_ImageSync",
+    "Intel02D_PCL",
+    "Intel02D_FLANN",
+    "Intel02D_ORB",
+    "Intel02D_CollabSLAM",
+    "Intel02D_FastMap",
+    "Intel02D_GroundFloor",
+    "Intel02D_Nav2",
+    "Intel02D_ITS",
+    "Intel02D_ITS_Code",
+    "Intel02D_Relocalize",
+    "Intel02D_AMR_Fig",
+    "Intel02D_ROS_QoS",
+    "Intel02D_ROS_Executors"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/02_Intel/reference_metrial/derived/figures/Intel02D_AMR_Fig.png",
+      "sha256": "b0782e3ef46dbda4deebe629bb2b5052d07bc74a0ece9e80afe1b96054314cd5",
+      "source_id": "Intel02D_AMR_Fig",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/hardware_blueprints/amr/images/architecture/AMR-Reference-Application.svg",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02D_AMR_Fig--7488be4c18fad73d/content.svg",
+      "original_sha256": "3fdfbf4f722d8219c40d3c08744431d51997776b5c8299fd1f11266b0322320a",
+      "operation": "官方SVG用本地HTML浏览器fullPage渲染PNG，无裁剪",
+      "visual_review": "实际打开PNG；标题、图例、所有模块与反馈边界完整，计算目标不是实测"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "ITS不支持连续重规划",
+      "source_id": "Intel02D_ITS",
+      "location": "Limitations",
+      "evidence_type": "事实",
+      "conditions": "固定Suite文档",
+      "finding": "局部路径优化不是动态闭环保证",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/navigation/its-path-planner-plugin.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02D_ITS--ea15e67bdd1cdc4c/content.md",
+      "original_sha256": "ad3e72e8ad9550d0da5a4b28ba772b51080d63246b45a68953e0e31223eace35",
+      "retrieved_at_utc": "2026-11-05T02:38:13.416959+00:00"
+    },
+    {
+      "claim": "同步队列没有单侧缺失的容量截断",
+      "source_id": "Intel02D_ImageSync",
+      "location": "resolve/callback_rgb/depth",
+      "evidence_type": "分析",
+      "conditions": "当前源码；并行配置未运行",
+      "finding": "只打印大于1000提示；并发resolve需要节点executor配置验证",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/components/object-detection/src/yolo/src/ImageSync.hpp",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02D_ImageSync--4f3ee4a055ba1b65/content.hpp",
+      "original_sha256": "9192cbe218771f882b606ff771ab6500f57f42c0ca324ac3e8c76b8cfaf8a803",
+      "retrieved_at_utc": "2026-11-05T02:41:31.539582+00:00"
+    },
+    {
+      "claim": "FLANN查询测量不可跨SKU外推",
+      "source_id": "Intel02D_FLANN",
+      "location": "Benchmarking",
+      "evidence_type": "厂商宣称",
+      "conditions": "100K点、Google Benchmark1.9.5、median",
+      "finding": "保留值，缺完整硬件与测量条件",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/optimized_solutions/libflann-oneapi.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02D_FLANN--f7f9b339e26a7330/content.md",
+      "original_sha256": "4379ff5867aa180016c41e310b64f1264ce682efb196e6d0631df98d6e68ebde",
+      "retrieved_at_utc": "2026-11-05T02:38:07.001774+00:00"
+    },
+    {
+      "claim": "IMU版本限制",
+      "source_id": "Intel02D_CollabSLAM",
+      "location": "Troubleshooting",
+      "evidence_type": "事实",
+      "conditions": "AVX2/LevelZero vs SSE",
+      "finding": "按文档IMU使用SSE-only",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/optimized_solutions/collaborative-slam.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02D_CollabSLAM--5faf4da0e195f7b7/content.md",
+      "original_sha256": "807526de9a2fcf45b5e4825d9b2f02c908b93a268cfecd5923a545d569e5d1fb",
+      "retrieved_at_utc": "2026-11-05T02:38:09.234091+00:00"
+    },
+    {
+      "claim": "取消回调未使用",
+      "source_id": "Intel02D_ITS_Code",
+      "location": "createPlan",
+      "evidence_type": "分析",
+      "conditions": "Jazzy签名",
+      "finding": "需测取消响应；不声称急停",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/components/its-planner/src/its_planner/src/its_planner.cpp",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02D_ITS_Code--6d111332a9625b08/content.cpp",
+      "original_sha256": "91c2eac25d154c53403059713a4e1ae40a62cdff6c4867f9340ca6ba23feb8a8",
+      "retrieved_at_utc": "2026-11-05T02:41:30.385512+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "本文逐机制、API对象、产物交接、硬件依赖与故障条件已人工核对；未取得信息正文保留。",
+    "versions_and_measurements": "当前通用栈、Suite绑定版本与样例配置分开；性能未独立复测。",
+    "maturity_and_licenses": "区分Intel提供/优化、上游组件、样例和未验收路径；许可按文件与资产范围核验。",
+    "figures_opened": "所有本文图已实际打开确认文字、图例与完整边界；详见figures记录。"
+  },
+  "research_limits": [
+    "文献/API/源码核验；未安装SDK、运行模型或测试机器人。"
+  ]
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Intel02A_Install",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/platform_foundation/getting_started/step_by_step.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_Configurations",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/platform_foundation/getting_started/fragment_configurations.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_ImageComposer",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/platform_foundation/getting_started/image_composer_tool.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_Runtime",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/runtime/index.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_ROS",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/ros/index.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_Middleware",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/middleware.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_RTKernel",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/realtime_linux.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_Security",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/security/index.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02_Architecture",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/images/architecture/Robotics-AI-Suite-Architecture.svg",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02_OV_Docs_Index",
+    "url": "https://docs.openvino.ai/2026/index.html",
+    "expected": "html",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02_OV_Tree",
+    "url": "https://api.github.com/repos/openvinotoolkit/openvino/git/trees/master?recursive=1",
+    "expected": "json",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "source_ids": [
+    "Intel02_Architecture",
+    "Intel02E_RVC",
+    "Intel02F_Lib",
+    "Intel02F_Deployment",
+    "Intel02A_Install",
+    "Intel02C_Pi05_Export",
+    "Intel02E_Gateway",
+    "Intel02F_StudioReadme",
+    "Intel02E_PickSim",
+    "Intel02A_Configurations",
+    "Intel02A_NPU_Overview",
+    "Intel02D_Launch",
+    "Intel02D_PCL",
+    "Intel02D_FLANN",
+    "Intel02F_Recording",
+    "Intel02F_ExportCode",
+    "Intel02C_ExportCode",
+    "Intel02C_LeRobot_PI05_Source",
+    "Intel02C_RTC_Patch",
+    "Intel02B_Weight",
+    "Intel02B_AUTO",
+    "Intel02B_HETERO",
+    "Intel02B_NPU",
+    "Intel02B_RemoteNPU",
+    "Intel02B_RemoteGPU",
+    "Intel02B_Cache",
+    "Intel02D_ImageSync",
+    "Intel02D_FastMap",
+    "Intel02D_ITS",
+    "Intel02C_Runtime_Loop",
+    "Intel02C_Runtime_Modes",
+    "Intel02F_Sessions",
+    "Intel02E_Motion",
+    "Intel02E_Profiler",
+    "Intel02F_Benchmark",
+    "Intel02E_RT",
+    "Intel02A_ImageComposer",
+    "Intel02E_KVM",
+    "Intel02C_Pi05_ModelCard",
+    "Intel02F_Store",
+    "Intel02F_Update"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/02_Intel/reference_metrial/derived/figures/Intel02_Architecture.png",
+      "sha256": "bfb65189ce2d539fe1dd6eed27fb2a60b29a6afefeadea11b4649d1d48c7f444",
+      "source_id": "Intel02_Architecture",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/images/architecture/Robotics-AI-Suite-Architecture.svg",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02_Architecture--0ead36e32550c972/content.svg",
+      "original_sha256": "0e4b76972648ceab99c0302b574b556ea88224a7c872072c118e839bbabc0454",
+      "operation": "原SVG不改内容，本地HTML完整浏览器渲染，fullPage截图；无裁剪",
+      "visual_review": "实际打开保存PNG；标题、六层架构、图例、底部边界完整，文字可读。图中设备是参考分工，非逐模型验收矩阵。"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "Suite2025.3与其他路线分开",
+      "source_id": "Intel02A_Install",
+      "location": "APT四包pin",
+      "evidence_type": "事实",
+      "conditions": "Ubuntu24.04/Jazzy",
+      "finding": "不套通用2026API",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/platform_foundation/getting_started/step_by_step.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02A_Install--a532ce57d243d5ed/content.md",
+      "original_sha256": "d89230c0212fc6ba3eb8b8338db52886f5158b73b78ed75140c94ae7c61461b5",
+      "retrieved_at_utc": "2026-11-05T02:21:08.033698+00:00"
+    },
+    {
+      "claim": "旧pi05动作语义未闭环",
+      "source_id": "Intel02C_ExportCode",
+      "location": "wrapper.forward",
+      "evidence_type": "未知",
+      "conditions": "LeRobot历史revision未锁",
+      "finding": "不宣称可执行动作图",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/vla-pi0.5-openvino/convert_pytorch_onnx.py",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02C_ExportCode--482a49638f523e8e/content.py",
+      "original_sha256": "72d5309a4377384b05e5c1bd27a99925228d8281fae9ef22fae7c3781e6da2f2",
+      "retrieved_at_utc": "2026-11-05T02:34:20.061817+00:00"
+    },
+    {
+      "claim": "AUTO默认排除NPU",
+      "source_id": "Intel02B_AUTO",
+      "location": "Device selection",
+      "evidence_type": "事实",
+      "conditions": "通用文档快照",
+      "finding": "显式device验证",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/auto-device-selection.rst",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_AUTO--e1d65ba10091489c/content.rst",
+      "original_sha256": "87b737929666d1b6d7e9bea0436ebdefa98772c353972636d34b537646dc3ff8",
+      "retrieved_at_utc": "2026-11-05T02:27:22.786073+00:00"
+    },
+    {
+      "claim": "仿真绕过感知",
+      "source_id": "Intel02E_PickSim",
+      "location": "Object location",
+      "evidence_type": "事实",
+      "conditions": "get_entity_state",
+      "finding": "不是视觉抓取验证",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/stationary_arm/simulation/picknplace.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_PickSim--c552b95e183ff301/content.md",
+      "original_sha256": "e75c2681009147130494b2e666a844ddb3f124063d76f2fd736c20e11a473a58",
+      "retrieved_at_utc": "2026-11-05T02:44:53.753607+00:00"
+    },
+    {
+      "claim": "NPU远程内存对齐与生命周期",
+      "source_id": "Intel02B_RemoteNPU",
+      "location": "RemoteTensor",
+      "evidence_type": "事实",
+      "conditions": "4KB/CPUvirtual",
+      "finding": "不是全链零拷贝",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/npu-device/remote-tensor-api-npu-plugin.rst",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_RemoteNPU--0c56cdb43a59da75/content.rst",
+      "original_sha256": "6927b8bf63f488ee1a2b176a11cc9de0d53362af7e9226242ad083264f340546",
+      "retrieved_at_utc": "2026-11-05T02:27:30.347336+00:00"
+    },
+    {
+      "claim": "Studio导出行为差别",
+      "source_id": "Intel02F_Sessions",
+      "location": "Export",
+      "evidence_type": "事实",
+      "conditions": "grace move省略",
+      "finding": "需独立Runtime初姿态验收",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/docs/explanation/runtime-session-architecture.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Sessions--726e6768425bcc4d/content.md",
+      "original_sha256": "4149472f9b81f639efcae91055158f100051cb7b131de14483533d0f2889365c",
+      "retrieved_at_utc": "2026-11-05T02:48:34.200057+00:00"
+    },
+    {
+      "claim": "H100测量不当Intel性能",
+      "source_id": "Intel02F_Benchmark",
+      "location": "Method",
+      "evidence_type": "厂商宣称",
+      "conditions": "Torch/100chunk/5warmup",
+      "finding": "不跨硬件归因",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/docs/explanation/benchmark/snapflow-libero.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Benchmark--75d80cfb523a1850/content.md",
+      "original_sha256": "bb877fd5e4d39f832ca64fb6bd43d8e9dcd9f57f6c4a36112b09baf1261e6762",
+      "retrieved_at_utc": "2026-11-05T02:49:24.243846+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "本文逐机制、API对象、产物交接、硬件依赖与故障条件已人工核对；未取得信息正文保留。",
+    "versions_and_measurements": "当前通用栈、Suite绑定版本与样例配置分开；性能未独立复测。",
+    "maturity_and_licenses": "区分Intel提供/优化、上游组件、样例和未验收路径；许可按文件与资产范围核验。",
+    "figures_opened": "所有本文图已实际打开确认文字、图例与完整边界；详见figures记录。"
+  },
+  "research_limits": [
+    "文献/API/源码核验；未安装SDK、运行模型或测试机器人。"
+  ]
+}

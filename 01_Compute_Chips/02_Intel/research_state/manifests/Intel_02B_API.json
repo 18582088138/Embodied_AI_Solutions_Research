@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Intel02B_InferAPI",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/assets/snippets/ov_infer_request.py",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_CacheAPI",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/assets/snippets/ov_caching.py",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_GPU_Impl",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/src/plugins/intel_gpu/README.md",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_RemoteAPI",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/assets/snippets/npu_remote_objects_creation.cpp",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  }
+]

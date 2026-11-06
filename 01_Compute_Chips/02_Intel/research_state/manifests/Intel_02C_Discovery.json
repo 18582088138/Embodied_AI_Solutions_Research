@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Intel02C_OV_Entry",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/ai_resources/openvino/index.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_PhysicalRuntime",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/ai_resources/openvino/openvino_physical_ai_runtime.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_Pi05_Export",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/ai_resources/openvino/pi05-optimization.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_Pi05_RTC",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/sample_pipelines/pi05_with_rtc.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_RTC_README",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/pi05-rtc-ov/README.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_ACT",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/sample_pipelines/imitation_learning_act.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_DP",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/sample_pipelines/diffusion_policy.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_RDT",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/sample_pipelines/robotics_diffusion_transformer.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_LLM",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/sample_pipelines/llm_robotics.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_Packages",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/packages_list.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  }
+]

@@ -1,0 +1,159 @@
+{
+  "source_ids": [
+    "Intel02B_Convert",
+    "Intel02B_InferAPI",
+    "Intel02B_AUTO",
+    "Intel02B_HETERO",
+    "Intel02B_NPU",
+    "Intel02B_Shapes",
+    "Intel02B_GPU",
+    "Intel02B_GPU_Flow",
+    "Intel02B_GPU_Memory",
+    "Intel02B_GPU_Kernels",
+    "Intel02B_GPU_Dispatch",
+    "Intel02B_Quant",
+    "Intel02B_NNCF",
+    "Intel02B_Weight",
+    "Intel02B_RemoteGPU",
+    "Intel02B_RemoteNPU",
+    "Intel02B_RemoteAPI",
+    "Intel02B_AsyncFig_Original",
+    "Intel02B_Cache",
+    "Intel02B_CacheAPI",
+    "Intel02A_NPU_Overview",
+    "Intel02A_Install",
+    "Intel02B_License",
+    "Intel02B_GPU_Impl"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/02_Intel/reference_metrial/derived/figures/Intel02B_AsyncFig.png",
+      "sha256": "1b3eefa698ba023d5b539dfc23f79568735920394dbd0659851a99f78316cde8",
+      "source_id": "Intel02B_AsyncFig_Original",
+      "source_url": "https://media.githubusercontent.com/media/openvinotoolkit/openvino/master/docs/articles_en/assets/images/synch-vs-asynch.svg",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_AsyncFig_Original--e0d8384ef68a1ec1/content.svg",
+      "original_sha256": "2d119a2f5658cded7d4b6704202378c1258fea507f60cbd305e62add42cb8bc1",
+      "operation": "从官方Git LFS公开media路径取得SVG原件；本地HTML完整fullPage浏览器PNG，无裁剪",
+      "visual_review": "已实际打开PNG；normal/asynch、OpenCV/OpenVINO和泳道边界完整，无性能数字；图解不是硬件实测。raw指针排除。"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "AUTO默认排除NPU且CPU启动辅助改变短时精度",
+      "source_id": "Intel02B_AUTO",
+      "location": "note/How AUTO Works",
+      "evidence_type": "事实",
+      "conditions": "动态master；显式优先列表与stateful例外",
+      "finding": "不将AUTO称自动均分全模型",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/auto-device-selection.rst",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_AUTO--e1d65ba10091489c/content.rst",
+      "original_sha256": "87b737929666d1b6d7e9bea0436ebdefa98772c353972636d34b537646dc3ff8",
+      "retrieved_at_utc": "2026-11-05T02:27:22.786073+00:00"
+    },
+    {
+      "claim": "HETERO依据affinity拆图并连接中间tensor",
+      "source_id": "Intel02B_HETERO",
+      "location": "intro/Automatic Mode",
+      "evidence_type": "事实",
+      "conditions": "greedy及部分NPU模型",
+      "finding": "分析搬运/同步；非无成本fallback",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/hetero-execution.rst",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_HETERO--92285406c05d6b21/content.rst",
+      "original_sha256": "0032530aad83d01e9bf6462c14dc8579fa0641de4a64390711a925cd1cb585d0",
+      "retrieved_at_utc": "2026-11-05T02:27:23.835544+00:00"
+    },
+    {
+      "claim": "NPU2026.0插件编译preview，2026.1优先；dynamic bounded且driver限制",
+      "source_id": "Intel02B_NPU",
+      "location": "intro/Dynamic Shapes",
+      "evidence_type": "事实",
+      "conditions": "CIP/NPU40XX/Linux1.30起",
+      "finding": "不回填Suite2025.3.0",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/npu-device.rst",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_NPU--cb4e7b7716dce4f6/content.rst",
+      "original_sha256": "8342258b447ba4f8b87de54296102048788b74ab7740e7e8c67c38c693b02076",
+      "retrieved_at_utc": "2026-11-05T02:27:21.574666+00:00"
+    },
+    {
+      "claim": "GPU COMBINED opt-in，runtime隔离cache",
+      "source_id": "Intel02B_GPU_Dispatch",
+      "location": "How to build/On-disk cache",
+      "evidence_type": "事实",
+      "conditions": "master构建模式非发行包证明",
+      "finding": "不将LevelZero默认套GPU",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/src/plugins/intel_gpu/docs/gpu_dual_runtime_dispatch.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_GPU_Dispatch--ecfa9bdc23701352/content.md",
+      "original_sha256": "95687df268b3593eeebca42bfc5bbe37fc28f79a928419573aeb4c6153029a00",
+      "retrieved_at_utc": "2026-11-05T02:29:19.805964+00:00"
+    },
+    {
+      "claim": "kernel支持由ParamsKey布局dtype与Validate决定",
+      "source_id": "Intel02B_GPU_Kernels",
+      "location": "Operation parameters/Kernel implementation",
+      "evidence_type": "事实",
+      "conditions": "多kernel实现与融合约束",
+      "finding": "算子名不代表同kernel",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/src/plugins/intel_gpu/docs/gpu_kernels.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_GPU_Kernels--aeede87517ed4644/content.md",
+      "original_sha256": "f762c88fc295ecb5ad95cc7c51e4b7e917799fe92057902cfe4f0d21a8ea1554",
+      "retrieved_at_utc": "2026-11-05T02:29:18.814295+00:00"
+    },
+    {
+      "claim": "NNCF激活校准与权重压缩不同",
+      "source_id": "Intel02B_Quant",
+      "location": "Basic Quantization Flow",
+      "evidence_type": "事实",
+      "conditions": "subset_size与输入转换；另核4bit配置",
+      "finding": "不把权重INT4写成全图INT4执行",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/model-optimization-guide/quantizing-models-post-training/basic-quantization-flow.rst",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_Quant--df15d4aaeedfe9a7/content.rst",
+      "original_sha256": "1ed91e56a36ac7d71031ef3666da2f2e7e6b7efba7fa4b7a7d4b5a2dfecfb634",
+      "retrieved_at_utc": "2026-11-05T02:27:26.977277+00:00"
+    },
+    {
+      "claim": "NPU CPU地址4KB对齐及跨请求tensor完整生命周期",
+      "source_id": "Intel02B_RemoteNPU",
+      "location": "Limitations warning",
+      "evidence_type": "事实",
+      "conditions": "CPU虚拟地址路径",
+      "finding": "不证明ROS相机零拷贝",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/npu-device/remote-tensor-api-npu-plugin.rst",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_RemoteNPU--0c56cdb43a59da75/content.rst",
+      "original_sha256": "6927b8bf63f488ee1a2b176a11cc9de0d53362af7e9226242ad083264f340546",
+      "retrieved_at_utc": "2026-11-05T02:27:30.347336+00:00"
+    },
+    {
+      "claim": "cache加密范围总览与NPU页不同",
+      "source_id": "Intel02B_Cache",
+      "location": "Enable cache encryption",
+      "evidence_type": "未知",
+      "conditions": "准确release/plugin必须检测",
+      "finding": "保留文档差异，不称全设备默认加密",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/optimize-inference/optimizing-latency/model-caching-overview.rst",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_Cache--b0da798395ae7d62/content.rst",
+      "original_sha256": "37abc2a12066f05b34e37729da55d3159a89d6ee43613a37fbad404f5de077b9",
+      "retrieved_at_utc": "2026-11-05T02:27:25.933450+00:00"
+    },
+    {
+      "claim": "同步/异步图是机制图，无数字实测",
+      "source_id": "Intel02B_AsyncFig_Original",
+      "location": "SVG全图",
+      "evidence_type": "事实",
+      "conditions": "GitLFS官方media原件",
+      "finding": "raw指针排除并核验实际SVG",
+      "source_url": "https://media.githubusercontent.com/media/openvinotoolkit/openvino/master/docs/articles_en/assets/images/synch-vs-asynch.svg",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_AsyncFig_Original--e0d8384ef68a1ec1/content.svg",
+      "original_sha256": "2d119a2f5658cded7d4b6704202378c1258fea507f60cbd305e62add42cb8bc1",
+      "retrieved_at_utc": "2026-11-05T02:28:58.579384+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "本文逐机制、API对象、产物交接、硬件依赖与故障条件已人工核对；未取得信息正文保留。",
+    "versions_and_measurements": "当前通用栈、Suite绑定版本与样例配置分开；性能未独立复测。",
+    "maturity_and_licenses": "区分Intel提供/优化、上游组件、样例和未验收路径；许可按文件与资产范围核验。",
+    "figures_opened": "所有本文图已实际打开确认文字、图例与完整边界；详见figures记录。"
+  },
+  "research_limits": [
+    "文献/API/源码核验；未安装SDK、运行模型或测试机器人。"
+  ]
+}

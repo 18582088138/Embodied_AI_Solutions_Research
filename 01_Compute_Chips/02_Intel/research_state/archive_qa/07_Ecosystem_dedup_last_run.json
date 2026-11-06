@@ -1,0 +1,35 @@
+{
+  "time_utc": "2026-11-05T04:19:52.851859+00:00",
+  "summary": {
+    "complete_static": 15,
+    "partial_static": 6,
+    "failed": 0
+  },
+  "names": [
+    "Intel02_Architecture",
+    "AAEON_Robotics",
+    "AAEON_UP_Nexus",
+    "Intel03_RSROSReadme",
+    "Intel03_Orbbec",
+    "Intel06_Jackal",
+    "Intel06_URBlueprint",
+    "Intel06_CustomerCases",
+    "Intel03_GMSL",
+    "Intel07_AAEON_BIOS",
+    "Intel07_AAEON_QService",
+    "Intel_Robotics_License",
+    "Intel02B_License",
+    "Intel02C_Runtime_License",
+    "Intel02F_License",
+    "Intel02C_Pi05_ModelCard",
+    "Intel04_RDTCard",
+    "Intel07_MassRobotics",
+    "Intel02A_ImageComposer",
+    "Intel02F_Update",
+    "Intel02C_Runtime_Loop"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

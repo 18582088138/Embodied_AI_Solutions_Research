@@ -1,0 +1,514 @@
+{
+  "outcome": "pass",
+  "audited_at_utc": "2026-11-05T04:42:10.625007+00:00",
+  "limits": "逐篇既有质量检查与人工图/主张记录；最终哈希及新索引链接审计；未实机测试；不重新用早期基线检查授权后续改动",
+  "report_sha256": {
+    "01_Hardware_Platform.md": "b760a2e3d8d76ed52b1ecfa292185190cb696f2615f1875bfbcbade178bc03ff",
+    "02A_System_BSP_and_Execution.md": "5efdc545590e6695de9a73be9337b22ef82665f293231c8ad2bf5a2b65298c39",
+    "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime.md": "7a6e49b0f1f17670dffb35b13aef5f84932ea5ba877f860ea46f17e09635ac3a",
+    "02C_Physical_AI_Model_Pipelines.md": "a71819ee4b42cfd62a9c75f2bd07147f6bd9fa4744474f58d5050216797bc047",
+    "02D_ROS_Perception_and_Navigation.md": "ffead8d644e9dbc057bf870aa7f46b371973bf7f02c57423d436d68f90007ee2",
+    "02E_Control_Simulation_and_Operations.md": "6e6637b066bb0f0cd08e679eb8727dc711fea84d21a5c8fe98318e08ca9dd17c",
+    "02F_Physical_AI_Studio_Data_and_Training.md": "a537123ad981bb23d7e2255ac768eadb7e3a7f65f610f389f8f3c92406074cb4",
+    "02_Software_Stack.md": "1f4fbd80c4deccdbdd96e8f0aa08c8d925493d607b8dd64ad423f3f640f4fe62",
+    "02_Topics_Index.md": "2d6d924269bcd7d477b5649db3b6eb359d14238c0eaa935dbe1ad618b8c304fc",
+    "03_Sensor_Integration.md": "1413c470ef9537020711cbb5009488cf8b93642deddd58ae6581f634d5364999",
+    "04_AI_Capabilities.md": "9fffffda57dc4e74fe9f873535ed7a51e3fabc3e762c3c78c3116128c025f407",
+    "05_Simulation_Environment.md": "6ccc965170702070206c3d1b81189f381c97decb6d3353950d60f34eb95fa6f7",
+    "06_Robot_Integration.md": "6452d623b9eac188a425d2692e0dc2ba79a0c5618712481c8e191880a9e5f075",
+    "07_Ecosystem.md": "f691c35bbcc0b19d4a21ab8d58e70094816cada00cf3fec6f1918f9c6ca1ceca",
+    "08A_Heterogeneous_Compilation_and_Data_Residency.md": "9c46ce0adac6f7209501db60bab48ce5ea0b00a3841c5c16cd6d8c402f765c6c",
+    "08B_Real_Time_Isolation_and_Control.md": "a9f8a6f3944315cb8df64039274d288f09f9caeb47980a1af5fc43a0ecc047a8",
+    "08C_Policy_Data_and_Deployment_Contracts.md": "0284b4221c03c7bb225194fac761cdcdad592932038881a8c0fa47e5b4c0a12d",
+    "08_Core_Technology_Moat.md": "b91799c4aad93d1623ae021907b410ba3a0b4e56cb4a534e175641a201ee9db8",
+    "08_Topics_Index.md": "d035788847d82f44eab687142ec2c1b4337b26617e6142725870f9ef0f79518f",
+    "09_SWOT_Analysis.md": "2ccf5a638888606aad727bc51657ba70a64414d49f7b6f84c7f3b5d57745360c",
+    "Intel_Research_Index.md": "11097afb1476ea815863fe39f085f5bcf8338552deaf72ea94947c2c68ea6680"
+  },
+  "protected_01_02_against_03_start": {
+    "01_Hardware_Platform.md": true,
+    "02A_System_BSP_and_Execution.md": true,
+    "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime.md": true,
+    "02C_Physical_AI_Model_Pipelines.md": true,
+    "02D_ROS_Perception_and_Navigation.md": true,
+    "02E_Control_Simulation_and_Operations.md": true,
+    "02F_Physical_AI_Studio_Data_and_Training.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true
+  },
+  "previous_reports_unchanged_during_09": {
+    "01_Hardware_Platform.md": true,
+    "02A_System_BSP_and_Execution.md": true,
+    "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime.md": true,
+    "02C_Physical_AI_Model_Pipelines.md": true,
+    "02D_ROS_Perception_and_Navigation.md": true,
+    "02E_Control_Simulation_and_Operations.md": true,
+    "02F_Physical_AI_Studio_Data_and_Training.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08A_Heterogeneous_Compilation_and_Data_Residency.md": true,
+    "08B_Real_Time_Isolation_and_Control.md": true,
+    "08C_Policy_Data_and_Deployment_Contracts.md": true,
+    "08_Core_Technology_Moat.md": true,
+    "08_Proprietary_Technologies.md": true,
+    "08_Topics_Index.md": true
+  },
+  "checks": {
+    "03_Sensor_Integration": {
+      "outcome": "pass",
+      "body_han": 1733,
+      "sources": 17,
+      "figures": 1,
+      "dedup_network_requests": 0
+    },
+    "04_AI_Capabilities": {
+      "outcome": "pass",
+      "body_han": 1924,
+      "sources": 20,
+      "figures": 1,
+      "dedup_network_requests": 0
+    },
+    "05_Simulation_Environment": {
+      "outcome": "pass",
+      "body_han": 1743,
+      "sources": 15,
+      "figures": 1,
+      "dedup_network_requests": 0
+    },
+    "06_Robot_Integration": {
+      "outcome": "pass",
+      "body_han": 1877,
+      "sources": 7,
+      "figures": 1,
+      "dedup_network_requests": 0
+    },
+    "07_Ecosystem": {
+      "outcome": "pass",
+      "body_han": 1943,
+      "sources": 21,
+      "figures": 1,
+      "dedup_network_requests": 0
+    },
+    "08A_Heterogeneous_Compilation_and_Data_Residency": {
+      "outcome": "pass",
+      "body_han": 1898,
+      "sources": 18,
+      "figures": 1,
+      "dedup_network_requests": 0
+    },
+    "08B_Real_Time_Isolation_and_Control": {
+      "outcome": "pass",
+      "body_han": 2022,
+      "sources": 7,
+      "figures": 1,
+      "dedup_network_requests": 0
+    },
+    "08C_Policy_Data_and_Deployment_Contracts": {
+      "outcome": "pass",
+      "body_han": 1993,
+      "sources": 12,
+      "figures": 1,
+      "dedup_network_requests": 0
+    },
+    "08_Core_Technology_Moat": {
+      "outcome": "pass",
+      "body_han": 2086,
+      "sources": 22,
+      "figures": 1,
+      "dedup_network_requests": 0
+    },
+    "09_SWOT_Analysis": {
+      "outcome": "pass",
+      "body_han": 3284,
+      "sources": 19,
+      "figures": 1,
+      "dedup_network_requests": 0
+    }
+  },
+  "all_chapter_final_reuse_requests_zero": true,
+  "source_ids": [
+    "Intel03_WiringFig",
+    "Intel03_GMSL",
+    "Intel_Doc_CEXD_GMSL",
+    "Intel03_GMSLTable",
+    "Intel03_USBTable",
+    "Intel03_LiDAR",
+    "Intel03_Orbbec",
+    "Intel02B_RemoteNPU",
+    "Intel02B_RemoteGPU",
+    "Intel02C_Runtime_PrePost",
+    "Intel03_RSROSReadme",
+    "Intel03_Timestamp",
+    "Intel02D_ROS_QoS",
+    "Intel02D_FastMap",
+    "Intel02D_CollabSLAM",
+    "Intel03_RSROS",
+    "Intel02D_ImageSync",
+    "Intel02F_Lib",
+    "Intel04_PhiMini",
+    "Intel02C_LLM",
+    "Intel04_Qwen3",
+    "Intel02D_Detection",
+    "Intel04_MPC",
+    "Intel02C_ACT",
+    "Intel02C_DP",
+    "Intel02C_RDT",
+    "Intel04_RDTCard",
+    "Intel02C_Pi05_ModelCard",
+    "Intel04_SmolVLA",
+    "Intel02C_RTC_README",
+    "Intel02C_ExportCode",
+    "Intel02C_LeRobot_PI05_Source",
+    "Intel04_MolmoAct2",
+    "Intel04_Cosmos3",
+    "Intel04_LLMPipelineFigure",
+    "Intel02F_Benchmark",
+    "Intel02E_Sim",
+    "Intel05_Basic",
+    "Intel05_Wandering",
+    "Intel05_RVCSim",
+    "Intel05_MultiWorld",
+    "Intel05_GazeboLaunch",
+    "Intel05_Camera",
+    "Intel05_MujocoPatch1",
+    "Intel02E_PickSim",
+    "Intel05_SimFigure",
+    "Intel02E_Benchmark",
+    "Intel06_CustomerCases",
+    "Intel06_Jackal",
+    "Intel06_URBlueprint",
+    "Intel02E_RVC",
+    "Intel02E_TaskIntro",
+    "Intel02E_RLConfig",
+    "Intel02_Architecture",
+    "AAEON_Robotics",
+    "AAEON_UP_Nexus",
+    "Intel07_AAEON_BIOS",
+    "Intel07_AAEON_QService",
+    "Intel_Robotics_License",
+    "Intel02B_License",
+    "Intel02C_Runtime_License",
+    "Intel02F_License",
+    "Intel07_MassRobotics",
+    "Intel02A_ImageComposer",
+    "Intel02F_Update",
+    "Intel02C_Runtime_Loop",
+    "Intel02B_HETERO",
+    "Intel02B_GPU_Memory",
+    "Intel02B_GPU_Kernels",
+    "Intel02B_GPU_Flow",
+    "Intel02B_AUTO",
+    "Intel02B_NPU",
+    "Intel02B_Shapes",
+    "Intel02B_AsyncFig_Original",
+    "Intel02B_InferAPI",
+    "Intel02B_Cache",
+    "Intel02B_CacheAPI",
+    "Intel02B_GPU_Dispatch",
+    "Intel02B_NNCF",
+    "Intel02B_Weight",
+    "Intel08A_ORTOV",
+    "Intel08A_ORTTRT",
+    "Intel02E_RT",
+    "Intel02E_EtherCAT",
+    "Intel02E_TimingFig",
+    "Intel02E_Motion",
+    "Intel08B_NonROSPatch",
+    "Intel02C_Runtime_Manifest",
+    "Intel02F_ExportCode",
+    "Intel02F_Store",
+    "Intel02F_Recording",
+    "Intel02F_Export",
+    "Intel02F_Hooks",
+    "Intel02F_Figure",
+    "Intel02F_RuntimeExport",
+    "Intel09_IFRIndustry",
+    "Intel09_IFRService",
+    "Intel09_IFRFigure",
+    "Intel09_Q3",
+    "Intel_Doc_CEXD",
+    "Intel_Doc_RT_Tuning",
+    "Intel_ARK_x7433RE",
+    "Intel_ARK_B580",
+    "Intel_Ultra_Edge",
+    "Intel_Edge_Performance",
+    "Intel09_EUMachineryGuide"
+  ],
+  "unique_source_ids": 106,
+  "archive_status": {
+    "complete_static": 91,
+    "partial_static": 15
+  },
+  "core_union": {
+    "source_count": 44,
+    "manifest_complete": true,
+    "collection_count": 44,
+    "network_requests": 0,
+    "canonical_url_set_equal": true,
+    "identity_note": "collection uses canonical registry ID; manifest may use alias; exact URL sets verified"
+  },
+  "excluded_candidates": [
+    "Intel09_Machinery",
+    "Intel09_GDPR",
+    "AAEON_CEXD_Shop",
+    "Intel08B_RDTSpec"
+  ],
+  "user_approved_dimensions": [
+    "01_Hardware_Platform"
+  ],
+  "index_link_checks": {
+    "08_Topics_Index.md": [
+      {
+        "target": "01_Compute_Chips/02_Intel/08_Core_Technology_Moat.md",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/08A_Heterogeneous_Compilation_and_Data_Residency.md",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/08B_Real_Time_Isolation_and_Control.md",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/08C_Policy_Data_and_Deployment_Contracts.md",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/08_core/index.html",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/08_Core_Union_dedup_last_run.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/08_Core_Technology_Moat_quality.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/research_state/evidence/08_Core_Technology_Moat.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/08A_Heterogeneous_Compilation_and_Data_Residency_quality.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/research_state/evidence/08A_Heterogeneous_Compilation_and_Data_Residency.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/08B_Real_Time_Isolation_and_Control_quality.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/research_state/evidence/08B_Real_Time_Isolation_and_Control.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/08C_Policy_Data_and_Deployment_Contracts_quality.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/research_state/evidence/08C_Policy_Data_and_Deployment_Contracts.json",
+        "exists": true
+      }
+    ],
+    "Intel_Research_Index.md": [
+      {
+        "target": "01_Compute_Chips/02_Intel/01_Hardware_Platform.md",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/02_Software_Stack.md",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/03_Sensor_Integration.md",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/04_AI_Capabilities.md",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/05_Simulation_Environment.md",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/06_Robot_Integration.md",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/07_Ecosystem.md",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/08_Core_Technology_Moat.md",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/09_SWOT_Analysis.md",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/02_Topics_Index.md",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/08_Topics_Index.md",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/index.html",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/02_software_depth/index.html",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/08_core/index.html",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/03_09_Final_Audit.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/research_state/progress.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/03_Sensor_Integration_quality.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/research_state/evidence/03_Sensor_Integration.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/03_Sensor_Integration_dedup_last_run.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/04_AI_Capabilities_quality.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/research_state/evidence/04_AI_Capabilities.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/04_AI_Capabilities_dedup_last_run.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/05_Simulation_Environment_quality.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/research_state/evidence/05_Simulation_Environment.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/05_Simulation_Environment_dedup_last_run.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/06_Robot_Integration_quality.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/research_state/evidence/06_Robot_Integration.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/06_Robot_Integration_dedup_last_run.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/07_Ecosystem_quality.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/research_state/evidence/07_Ecosystem.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/07_Ecosystem_dedup_last_run.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/08A_Heterogeneous_Compilation_and_Data_Residency_quality.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/research_state/evidence/08A_Heterogeneous_Compilation_and_Data_Residency.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/08A_Heterogeneous_Compilation_and_Data_Residency_dedup_last_run.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/08B_Real_Time_Isolation_and_Control_quality.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/research_state/evidence/08B_Real_Time_Isolation_and_Control.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/08B_Real_Time_Isolation_and_Control_dedup_last_run.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/08C_Policy_Data_and_Deployment_Contracts_quality.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/research_state/evidence/08C_Policy_Data_and_Deployment_Contracts.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/08C_Policy_Data_and_Deployment_Contracts_dedup_last_run.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/08_Core_Technology_Moat_quality.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/research_state/evidence/08_Core_Technology_Moat.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/08_Core_Technology_Moat_dedup_last_run.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/09_SWOT_Analysis_quality.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/research_state/evidence/09_SWOT_Analysis.json",
+        "exists": true
+      },
+      {
+        "target": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/09_SWOT_Analysis_dedup_last_run.json",
+        "exists": true
+      }
+    ]
+  },
+  "index_sha256": {
+    "08_Topics_Index.md": "d035788847d82f44eab687142ec2c1b4337b26617e6142725870f9ef0f79518f",
+    "Intel_Research_Index.md": "11097afb1476ea815863fe39f085f5bcf8338552deaf72ea94947c2c68ea6680"
+  }
+}

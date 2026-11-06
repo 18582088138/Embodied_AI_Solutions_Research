@@ -1,0 +1,94 @@
+{
+  "source_ids": [
+    "Intel02E_RT",
+    "Intel02E_EtherCAT",
+    "Intel02E_TimingFig",
+    "Intel02E_Motion",
+    "Intel02E_RVC",
+    "Intel08B_NonROSPatch",
+    "Intel04_MPC"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_TimingFig--6bd6d35c4a5c365e/content.png",
+      "sha256": "637822377a851c524618a41d2f82cb17afb488e2c168970f5231de4a17200452",
+      "source_id": "Intel02E_TimingFig",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/images/ethercat/rt_data_definition.png",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_TimingFig--6bd6d35c4a5c365e/content.png",
+      "original_sha256": "637822377a851c524618a41d2f82cb17afb488e2c168970f5231de4a17200452",
+      "operation": "官方图片原件，无变换",
+      "visual_review": "本轮重新实际打开PNG；Tin/Tcalc/Tout、Texec/Tcycle与expected/actual/jitter完整；无测量数值，非最坏执行时间保证。"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "CAT示例绑定拓扑",
+      "source_id": "Intel02E_RT",
+      "location": "Use Cache Allocation",
+      "evidence_type": "事实",
+      "conditions": "Jazzy/Humble示例mask/MSR",
+      "finding": "CPUID几何非充分能力证明，RDTPDF未取得",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/rt_tuning_guide.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel_Doc_RT_Tuning--6904386a2b4a2974/content.md",
+      "original_sha256": "71f9c15bd940d3aef74db9238564ec7a4698f7403a6c12a4b84fcfccd7f4f1ba",
+      "retrieved_at_utc": "2026-11-05T01:26:59.261614+00:00"
+    },
+    {
+      "claim": "cyclictest展示非72h结果",
+      "source_id": "Intel02E_RT",
+      "location": "Verify Benchmark Performance",
+      "evidence_type": "事实",
+      "conditions": "rt-tests2.6/展示C100000/18373ns",
+      "finding": "样例不能称WCET",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/rt_tuning_guide.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel_Doc_RT_Tuning--6904386a2b4a2974/content.md",
+      "original_sha256": "71f9c15bd940d3aef74db9238564ec7a4698f7403a6c12a4b84fcfccd7f4f1ba",
+      "retrieved_at_utc": "2026-11-05T01:26:59.261614+00:00"
+    },
+    {
+      "claim": "绝对tick不打断overrun",
+      "source_id": "Intel08B_NonROSPatch",
+      "location": "mrt_thread cumulative tick",
+      "evidence_type": "事实",
+      "conditions": "fixed patch/steady_clock",
+      "finding": "报告平均频率不证明deadline",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/mpc-demo/ocs2/patches/0002-Add-non-ROS-MPC-MPC-MRT-module-and-test-pipeline-for.patch",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel08B_NonROSPatch--4bd3d5ee930d282e/content.patch",
+      "original_sha256": "e3182b7684b274badbb94a0e3f3af33f24bbb3ab0fe40c78ffc9420f7ec7317e",
+      "retrieved_at_utc": "2026-11-05T04:23:47.344846+00:00"
+    },
+    {
+      "claim": "subscriber生命周期局部缓解",
+      "source_id": "Intel08B_NonROSPatch",
+      "location": "ShmTransport Ownership",
+      "evidence_type": "事实",
+      "conditions": "publisher close/subscriber不close",
+      "finding": "保留底层unlink/无detach-only，重启尚需验收",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/mpc-demo/ocs2/patches/0002-Add-non-ROS-MPC-MPC-MRT-module-and-test-pipeline-for.patch",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel08B_NonROSPatch--4bd3d5ee930d282e/content.patch",
+      "original_sha256": "e3182b7684b274badbb94a0e3f3af33f24bbb3ab0fe40c78ffc9420f7ec7317e",
+      "retrieved_at_utc": "2026-11-05T04:23:47.344846+00:00"
+    },
+    {
+      "claim": "native NIC限定",
+      "source_id": "Intel02E_EtherCAT",
+      "location": "Dependencies",
+      "evidence_type": "事实",
+      "conditions": "IGB/IGC/mGBE",
+      "finding": "generic不是同路径确定性",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/ethercat.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_EtherCAT--cf99147edf176431/content.md",
+      "original_sha256": "7b9e53279ad8c65be2c36bf93ce6b317737ac93a98422a4fc014f939f1bd4bc1",
+      "retrieved_at_utc": "2026-11-05T02:44:00.816388+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "本文逐机制、API对象、产物交接、硬件依赖与故障条件已人工核对；未取得信息正文保留。",
+    "versions_and_measurements": "当前通用栈、Suite绑定版本与样例配置分开；性能未独立复测。",
+    "maturity_and_licenses": "区分Intel提供/优化、上游组件、样例和未验收路径；许可按文件与资产范围核验。",
+    "figures_opened": "所有本文图已实际打开确认文字、图例与完整边界；详见figures记录。"
+  },
+  "research_limits": [
+    "文献/API/源码核验；未安装SDK、运行模型或测试机器人。"
+  ]
+}

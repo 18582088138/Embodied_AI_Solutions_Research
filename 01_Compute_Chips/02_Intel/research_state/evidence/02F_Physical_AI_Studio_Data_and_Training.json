@@ -1,0 +1,116 @@
+{
+  "source_ids": [
+    "Intel02F_StudioReadme",
+    "Intel02F_Recording",
+    "Intel02F_Training",
+    "Intel02F_Deployment",
+    "Intel02F_Sessions",
+    "Intel02F_Export",
+    "Intel02F_ExportCode",
+    "Intel02F_Data",
+    "Intel02F_Lib",
+    "Intel02F_Remote",
+    "Intel02F_Update",
+    "Intel02F_Figure",
+    "Intel02F_License",
+    "Intel02F_Store",
+    "Intel02F_RuntimeExport",
+    "Intel02F_Hooks",
+    "Intel02F_Benchmark"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Figure--9530348fecd2490d/content.png",
+      "sha256": "7370536e628ec157847d52f4483dca69c2fe8cef7e967af97521e529ad3512ff",
+      "source_id": "Intel02F_Figure",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/docs/assets/06-models-formats.png",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Figure--9530348fecd2490d/content.png",
+      "original_sha256": "7370536e628ec157847d52f4483dca69c2fe8cef7e967af97521e529ad3512ff",
+      "operation": "官方UI截图PNG原件，无变换",
+      "visual_review": "实际打开；四后端、FP16及示例大小完整，不作为性能或模型容量实测"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "共享store可混合相邻样本且读取copy",
+      "source_id": "Intel02F_Store",
+      "location": "_read/_write",
+      "evidence_type": "事实",
+      "conditions": "当前Studio源码",
+      "finding": "不是原子向量快照和全链零拷贝",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/backend/src/runtime_session/store.py",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Store--2c8925d07dfb88c8/content.py",
+      "original_sha256": "fcba6213ac450eae545fb56370eea97a0fa2af4ff922dfb85074586d7dfdbb4d",
+      "retrieved_at_utc": "2026-11-05T02:49:21.311241+00:00"
+    },
+    {
+      "claim": "导出manifest与how-to metadata描述差别",
+      "source_id": "Intel02F_ExportCode",
+      "location": "create_manifest",
+      "evidence_type": "事实",
+      "conditions": "匹配Runtime版本",
+      "finding": "以源码产物为准保留漂移",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/src/physicalai/export/mixin_policy.py",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_ExportCode--d5e81ee4ce9869ff/content.py",
+      "original_sha256": "9a209bf60c71481da85e64fdbff99183bd39a2115c6818e9f3ff8564f4c27db5",
+      "retrieved_at_utc": "2026-11-05T02:48:36.652330+00:00"
+    },
+    {
+      "claim": "压缩不是双文件事务",
+      "source_id": "Intel02F_Hooks",
+      "location": "compress_weights_openvino_int8_sym",
+      "evidence_type": "分析",
+      "conditions": "同FS两个replace",
+      "finding": "INT8权重，非W8A8；需版本目录切换",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/src/physicalai/export/hooks.py",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Hooks--030ca720250145a9/content.py",
+      "original_sha256": "88bc087c98247f8f06ea54b93bd775c90b130180a59582528fb9cdaac2186223",
+      "retrieved_at_utc": "2026-11-05T02:49:23.287604+00:00"
+    },
+    {
+      "claim": "grace move不导出",
+      "source_id": "Intel02F_Sessions",
+      "location": "Export",
+      "evidence_type": "事实",
+      "conditions": "Studio-only setting",
+      "finding": "重新验收初始姿态",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/docs/explanation/runtime-session-architecture.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Sessions--726e6768425bcc4d/content.md",
+      "original_sha256": "4149472f9b81f639efcae91055158f100051cb7b131de14483533d0f2889365c",
+      "retrieved_at_utc": "2026-11-05T02:48:34.200057+00:00"
+    },
+    {
+      "claim": "SnapFlow是H100 Torch测量",
+      "source_id": "Intel02F_Benchmark",
+      "location": "Method",
+      "evidence_type": "厂商宣称",
+      "conditions": "100chunk5warmup、seed42/2000episode",
+      "finding": "不能当Intel性能/控制周期",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/docs/explanation/benchmark/snapflow-libero.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Benchmark--75d80cfb523a1850/content.md",
+      "original_sha256": "bb877fd5e4d39f832ca64fb6bd43d8e9dcd9f57f6c4a36112b09baf1261e6762",
+      "retrieved_at_utc": "2026-11-05T02:49:24.243846+00:00"
+    },
+    {
+      "claim": "离线取消非远程清理保证",
+      "source_id": "Intel02F_Remote",
+      "location": "Connection loss",
+      "evidence_type": "事实",
+      "conditions": "SSH target掉线",
+      "finding": "单独确认远程job与artifact",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/backend/docs/explanation/ssh-remote-trainer.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Remote--285ddec8bc28e3b1/content.md",
+      "original_sha256": "20f18699fab7cd4ea144ed2a91d0bc31a601dce77a2b4ad435e40a3882775089",
+      "retrieved_at_utc": "2026-11-05T02:48:39.972731+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "本文逐机制、API对象、产物交接、硬件依赖与故障条件已人工核对；未取得信息正文保留。",
+    "versions_and_measurements": "当前通用栈、Suite绑定版本与样例配置分开；性能未独立复测。",
+    "maturity_and_licenses": "区分Intel提供/优化、上游组件、样例和未验收路径；许可按文件与资产范围核验。",
+    "figures_opened": "所有本文图已实际打开确认文字、图例与完整边界；详见figures记录。"
+  },
+  "research_limits": [
+    "文献/API/源码核验；未安装SDK、运行模型或测试机器人。"
+  ]
+}

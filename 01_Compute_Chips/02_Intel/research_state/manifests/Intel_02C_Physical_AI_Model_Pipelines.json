@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Intel02C_PhysicalRuntime",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/ai_resources/openvino/openvino_physical_ai_runtime.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_PhysicalAI_README",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_Runtime_Architecture",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/docs/explanation/architecture.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_Pi05_Export",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/ai_resources/openvino/pi05-optimization.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_RTC_README",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/pi05-rtc-ov/README.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_ACT",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/sample_pipelines/imitation_learning_act.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_DP",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/sample_pipelines/diffusion_policy.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_RDT",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/sample_pipelines/robotics_diffusion_transformer.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_ExportCode",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/vla-pi0.5-openvino/convert_pytorch_onnx.py",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_IRCode",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/vla-pi0.5-openvino/onnx_to_ov_ir.py",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_CompressCode",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/vla-pi0.5-openvino/nncf_int8_compression.py",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_ValidateCode",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/vla-pi0.5-openvino/validation/lerobot_ov_inferencing.py",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_LeRobot_PI05_Source",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/src/lerobot/policies/pi05/modeling_pi05.py",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_Pi05_RTC",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/sample_pipelines/pi05_with_rtc.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_RTC_Patch",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/pi05-rtc-ov/patches/0003-Feat-Enable-ov-inference-in-pi05-policy.patch",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_RTC_Figure",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/pi05-rtc-ov/README.assets/RTC-overview.png",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_Runtime_Manifest",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/docs/explanation/manifests.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_Runtime_Inference",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/docs/explanation/inference.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_Runtime_PrePost",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/docs/how-to/inference/configure-pre-post-processing.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_Runtime_Loop",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/docs/explanation/runtime.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_Runtime_Modes",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/docs/how-to/runtime/use-execution-modes.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_LLM",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/sample_pipelines/llm_robotics.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_Pi05_ModelCard",
+    "url": "https://huggingface.co/lerobot/pi05_base/raw/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  },
+  {
+    "name": "Intel02C_Runtime_License",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02C_Physical_AI_Model_Pipelines"
+    ]
+  }
+]

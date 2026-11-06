@@ -1,0 +1,190 @@
+{
+  "source_ids": [
+    "Intel09_IFRIndustry",
+    "Intel09_IFRService",
+    "Intel09_IFRFigure",
+    "Intel09_Q3",
+    "Intel06_CustomerCases",
+    "Intel06_Jackal",
+    "Intel06_URBlueprint",
+    "Intel02B_AUTO",
+    "Intel02B_HETERO",
+    "Intel08A_ORTTRT",
+    "Intel_Doc_CEXD",
+    "Intel07_AAEON_BIOS",
+    "Intel_Doc_RT_Tuning",
+    "Intel_ARK_x7433RE",
+    "Intel_ARK_B580",
+    "Intel_Ultra_Edge",
+    "Intel_Edge_Performance",
+    "Intel09_EUMachineryGuide",
+    "Intel02F_RuntimeExport"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel09_IFRFigure--f4b1d8f851a56e04/content.png",
+      "sha256": "2eb666011de5f7f361f255ea075ad17f6acb4f65ebe2f02f40bad855624a6cb0",
+      "source_id": "Intel09_IFRFigure",
+      "source_url": "https://ifr.org/downloads/press_docs/Graphic_World_Robotics_2026_GLOBAL.png",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel09_IFRFigure--f4b1d8f851a56e04/content.png",
+      "original_sha256": "2eb666011de5f7f361f255ea075ad17f6acb4f65ebe2f02f40bad855624a6cb0",
+      "operation": "官方图片原件，无变换",
+      "visual_review": "已实际打开：完整IFR官方柱形图，横轴2015—2025、单位千台；2025栏603，标题与IFR/World Robotics 2026来源可读。该图为工业机器人年度安装量，不是Intel芯片份额或VLA采用量。"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "2025工业机器人年度安装与存量分开",
+      "source_id": "Intel09_IFRIndustry",
+      "location": "2026-09-24导语及Asia overview",
+      "evidence_type": "事实",
+      "conditions": "2025年度；全球/中国分母",
+      "finding": "超过60万台新安装，约500万台在用；中国35.4万台/59%，55%为中国本土整机厂商份额，不是芯片份额",
+      "source_url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/webpages/Intel09_IFRIndustry--bad3d5636979c1ec/index.html",
+      "original_sha256": "889660bc30c2f214e0c8d17fba66813e48d9369b2722593c0e3b1b9d456359d2",
+      "retrieved_at_utc": "2026-11-05T04:34:24.949191+00:00"
+    },
+    {
+      "claim": "图中2025为603千台",
+      "source_id": "Intel09_IFRFigure",
+      "location": "完整柱形图横轴2025与纵轴单位",
+      "evidence_type": "事实",
+      "conditions": "IFR World Robotics 2026；图示千台精度",
+      "finding": "约60.3万台，不补个位精度；已打开核验",
+      "source_url": "https://ifr.org/downloads/press_docs/Graphic_World_Robotics_2026_GLOBAL.png",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel09_IFRFigure--f4b1d8f851a56e04/content.png",
+      "original_sha256": "2eb666011de5f7f361f255ea075ad17f6acb4f65ebe2f02f40bad855624a6cb0",
+      "retrieved_at_utc": "2026-11-05T04:34:46.609536+00:00"
+    },
+    {
+      "claim": "服务机器人应用与人形统计范围",
+      "source_id": "Intel09_IFRService",
+      "location": "Top applications及Humanoid Robots",
+      "evidence_type": "事实",
+      "conditions": "2025销量；人形above140cm；非R&D娱乐",
+      "finding": "运输物流117500/47%；人形约7000；标题117000与正文不同，方法样本未取得",
+      "source_url": "https://ifr.org/ifr-press-releases/news/global-sales-of-professional-service-robots-surge-24-percent",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/webpages/Intel09_IFRService--1e78f5fd4a5acdc8/index.html",
+      "original_sha256": "5750787960b03a30e8a48cf75438d1edb9f4dd8b4de360903ef8095eab8b8543",
+      "retrieved_at_utc": "2026-11-05T04:34:45.406815+00:00"
+    },
+    {
+      "claim": "CCPG收入不等于机器人收入",
+      "source_id": "Intel09_Q3",
+      "location": "Business Unit Summary及脚注2；Supplemental财务表",
+      "evidence_type": "事实",
+      "conditions": "Q3 2026，截至2026-09-26；2026-10-29发布；Unaudited",
+      "finding": "集团16.5B/21%，CCPG8.1B/-5%；名称变化不提供机器人单独收入",
+      "source_url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/webpages/Intel09_Q3--995d59b508f909fa/index.html",
+      "original_sha256": "edea400be1fa8b7b6cded8c8171dee715251fb141314af22791852d0f4cae844",
+      "retrieved_at_utc": "2026-11-05T04:34:49.074597+00:00"
+    },
+    {
+      "claim": "客户取消独显与业务收益缺口",
+      "source_id": "Intel06_CustomerCases",
+      "location": "A Business Case/Testing the future",
+      "evidence_type": "厂商宣称",
+      "conditions": "2026-05-20；Ella/Oversonic机内Series3；Trossen测试",
+      "finding": "机内推理路线明确，SKU/台数/ROI未知；200杯为Computex预告",
+      "source_url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-core-ultra-series-3-for-edge-ai-robotics.html",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/webpages/Intel06_CustomerCases--a198bce07c1cd65c/index.html",
+      "original_sha256": "1c3f27326954cc9060dd6120b41ab308c70d377d8d6fcccf6f4cb884bb59a106",
+      "retrieved_at_utc": "2026-11-05T04:13:35.108017+00:00"
+    },
+    {
+      "claim": "研发套件不等于量产合同",
+      "source_id": "Intel_Doc_CEXD",
+      "location": "Overview NOTE",
+      "evidence_type": "事实",
+      "conditions": "固定Suite对象；CEXD X7 358H",
+      "finding": "intended for research and development purposes only",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/platform_foundation/development_kits/robinson-bay/index.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel_Doc_CEXD--ffbefaaf4a5334df/content.md",
+      "original_sha256": "61c232027e9eb433be8cd6f9b462a4690dafaf1a24484ec141a2e925aa79b854",
+      "retrieved_at_utc": "2026-11-05T01:26:49.094162+00:00"
+    },
+    {
+      "claim": "RCP不等于含税整机报价",
+      "source_id": "Intel_ARK_x7433RE",
+      "location": "Recommended Customer Price字段及脚注",
+      "evidence_type": "事实",
+      "conditions": "2026-11-05采集；USD72芯片指导价",
+      "finding": "未取得本项目数量税交期；不作TCO排名",
+      "source_url": "https://www.intel.com/content/www/us/en/products/sku/236967/intel-atom-x7433re-processor-6m-cache-up-to-3-40-ghz/specifications.html",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/webpages/Intel_ARK_x7433RE--c78843e2fc42f197/index.html",
+      "original_sha256": "060ddd2e4eb5d503a0c720f60958a074f75d1faea5588ee6b0c17c6381f3c6bb",
+      "retrieved_at_utc": "2026-11-05T01:25:40.942586+00:00"
+    },
+    {
+      "claim": "BIOS服务期限与责任",
+      "source_id": "Intel07_AAEON_BIOS",
+      "location": "Vulnerability Updates/ODM",
+      "evidence_type": "事实",
+      "conditions": "active产品，按漏洞级别；部分定制/select平台",
+      "finding": "无本项目十年全栈支持合同",
+      "source_url": "https://www.aaeon.com/en/article/list/bios-customization-services",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/webpages/Intel07_AAEON_BIOS--3bbb5ab30769b4b0/index.html",
+      "original_sha256": "1b22048ac000bb81e87a35593292ce40f006d46aa6ceb781b38ab1f9ed1c4639",
+      "retrieved_at_utc": "2026-11-05T04:17:37.115311+00:00"
+    },
+    {
+      "claim": "差额TCO情景",
+      "source_id": "Intel_ARK_B580",
+      "location": "RCP仅作采购边界；本文公式与情景表",
+      "evidence_type": "分析",
+      "conditions": "10台3年4000小时每年，0.8元/kWh，ΔP20W，ΔE20000元；其余相等",
+      "finding": "120000台小时；2400kWh/1920元；约1808元每台BOM平衡点；不是ROI或官方功率",
+      "source_url": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/webpages/Intel_ARK_B580--46e6cb701d9ba6ff/index.html",
+      "original_sha256": "f89130085c4deb4e6fbee699e50bee76d2f2e8ba4deb35e05bf074d872c7127e",
+      "retrieved_at_utc": "2026-11-05T01:22:09.490010+00:00"
+    },
+    {
+      "claim": "欧盟机械规则说明",
+      "source_id": "Intel09_EUMachineryGuide",
+      "location": "The Machinery Regulation/Compliance and conformity",
+      "evidence_type": "事实",
+      "conditions": "委员会官方说明；过渡2027-01-20；法规逐条原文未取得",
+      "finding": "说明包含AI安全/cyber-safety/符合性；本轮不判定具体机器人认证或法律分类",
+      "source_url": "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/webpages/Intel09_EUMachineryGuide--fe185ea0dce4a187/index.html",
+      "original_sha256": "b195f9e607145ce0f6fe421a5b7e797649629537f4966230cf6bb768478e0357",
+      "retrieved_at_utc": "2026-11-05T04:37:06.231275+00:00"
+    },
+    {
+      "claim": "AUTO/HETERO不保证NPU端到端收益",
+      "source_id": "Intel02B_AUTO",
+      "location": "Supported Devices",
+      "evidence_type": "事实",
+      "conditions": "当前动态OpenVINO文档；不回填Suite版本",
+      "finding": "AUTO默认排除NPU；需要算子与设备图验证",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/auto-device-selection.rst",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_AUTO--e1d65ba10091489c/content.rst",
+      "original_sha256": "87b737929666d1b6d7e9bea0436ebdefa98772c353972636d34b537646dc3ff8",
+      "retrieved_at_utc": "2026-11-05T02:27:22.786073+00:00"
+    },
+    {
+      "claim": "机队数据部署交接",
+      "source_id": "Intel02F_RuntimeExport",
+      "location": "runtime export配置生成代码",
+      "evidence_type": "分析",
+      "conditions": "固定Studio对象b38bff4；未运行目标机",
+      "finding": "配置导出不证明机队凭据、回退或真实初始化验证",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/backend/src/services/runtime_export.py",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_RuntimeExport--a982fe49ce23567f/content.py",
+      "original_sha256": "591a9597583e7639effa3b29df41e26b5c9ec502415033a89d03614ba82d3944",
+      "retrieved_at_utc": "2026-11-05T02:49:22.308406+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "本文逐机制、API对象、产物交接、硬件依赖与故障条件已人工核对；未取得信息正文保留。",
+    "versions_and_measurements": "当前通用栈、Suite绑定版本与样例配置分开；性能未独立复测。",
+    "maturity_and_licenses": "区分Intel提供/优化、上游组件、样例和未验收路径；许可按文件与资产范围核验。",
+    "figures_opened": "所有本文图已实际打开确认文字、图例与完整边界；详见figures记录。"
+  },
+  "research_limits": [
+    "文献/官方图/源码核验，未实机测试；EU法规全文空白挑战与中国法规未定位、出口分类缺口、统计方法/机器人收入/完整报价未取得。"
+  ]
+}

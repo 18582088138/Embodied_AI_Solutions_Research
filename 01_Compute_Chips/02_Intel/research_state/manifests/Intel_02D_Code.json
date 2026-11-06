@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Intel02D_Launch",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/components/object-detection/src/object_detection_tutorial/launch/openvino_object_detection.launch.py",
+    "expected": "any",
+    "used_by": [
+      "02D"
+    ]
+  },
+  {
+    "name": "Intel02D_ITS_Code",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/components/its-planner/src/its_planner/src/its_planner.cpp",
+    "expected": "any",
+    "used_by": [
+      "02D"
+    ]
+  },
+  {
+    "name": "Intel02D_ImageSync",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/components/object-detection/src/yolo/src/ImageSync.hpp",
+    "expected": "any",
+    "used_by": [
+      "02D"
+    ]
+  }
+]

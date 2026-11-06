@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Intel08B_RDTSpec",
+    "url": "https://cdrdv2-public.intel.com/851356/356688-004-intel-rdt-architecture-spec.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "08B_Real_Time_Isolation_and_Control"
+    ]
+  }
+]

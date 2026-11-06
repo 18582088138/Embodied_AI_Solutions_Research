@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Intel02E_RT",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/rt_tuning_guide.md",
+    "expected": "any",
+    "used_by": [
+      "08B_Real_Time_Isolation_and_Control"
+    ]
+  },
+  {
+    "name": "Intel02E_EtherCAT",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/ethercat.md",
+    "expected": "any",
+    "used_by": [
+      "08B_Real_Time_Isolation_and_Control"
+    ]
+  },
+  {
+    "name": "Intel02E_TimingFig",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/images/ethercat/rt_data_definition.png",
+    "expected": "any",
+    "used_by": [
+      "08B_Real_Time_Isolation_and_Control"
+    ]
+  },
+  {
+    "name": "Intel02E_Motion",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/e5dcdcc705a9306462897de913e39e44701566a1/libraries/edge-control-libraries/plcopen-motion-control/plcopen-motion/README.md",
+    "expected": "any",
+    "used_by": [
+      "08B_Real_Time_Isolation_and_Control"
+    ]
+  },
+  {
+    "name": "Intel02E_RVC",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/stationary_arm/deployment/rvc_deploy.md",
+    "expected": "any",
+    "used_by": [
+      "08B_Real_Time_Isolation_and_Control"
+    ]
+  },
+  {
+    "name": "Intel08B_NonROSPatch",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/mpc-demo/ocs2/patches/0002-Add-non-ROS-MPC-MPC-MRT-module-and-test-pipeline-for.patch",
+    "expected": "any",
+    "used_by": [
+      "08B_Real_Time_Isolation_and_Control"
+    ]
+  },
+  {
+    "name": "Intel04_MPC",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/sample_pipelines/mpc_demo.md",
+    "expected": "any",
+    "used_by": [
+      "08B_Real_Time_Isolation_and_Control"
+    ]
+  }
+]

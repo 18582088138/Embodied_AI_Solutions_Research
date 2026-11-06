@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Intel02D_Detection",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/ai_resources/openvino/reference_applications/object_detection_tutorial.md",
+    "expected": "any",
+    "used_by": [
+      "02D_ROS_Perception_and_Navigation"
+    ]
+  },
+  {
+    "name": "Intel02D_Launch",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/components/object-detection/src/object_detection_tutorial/launch/openvino_object_detection.launch.py",
+    "expected": "any",
+    "used_by": [
+      "02D_ROS_Perception_and_Navigation"
+    ]
+  },
+  {
+    "name": "Intel02D_Multicam",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/ai_resources/openvino/reference_applications/openvino_multicam_demo.md",
+    "expected": "any",
+    "used_by": [
+      "02D_ROS_Perception_and_Navigation"
+    ]
+  },
+  {
+    "name": "Intel02D_ImageSync",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/components/object-detection/src/yolo/src/ImageSync.hpp",
+    "expected": "any",
+    "used_by": [
+      "02D_ROS_Perception_and_Navigation"
+    ]
+  },
+  {
+    "name": "Intel02D_PCL",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/optimized_solutions/libpcl-oneapi.md",
+    "expected": "any",
+    "used_by": [
+      "02D_ROS_Perception_and_Navigation"
+    ]
+  },
+  {
+    "name": "Intel02D_FLANN",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/optimized_solutions/libflann-oneapi.md",
+    "expected": "any",
+    "used_by": [
+      "02D_ROS_Perception_and_Navigation"
+    ]
+  },
+  {
+    "name": "Intel02D_ORB",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/optimized_solutions/orb-extractor.md",
+    "expected": "any",
+    "used_by": [
+      "02D_ROS_Perception_and_Navigation"
+    ]
+  },
+  {
+    "name": "Intel02D_CollabSLAM",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/optimized_solutions/collaborative-slam.md",
+    "expected": "any",
+    "used_by": [
+      "02D_ROS_Perception_and_Navigation"
+    ]
+  },
+  {
+    "name": "Intel02D_FastMap",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/optimized_solutions/run-fastmapping-algorithm.md",
+    "expected": "any",
+    "used_by": [
+      "02D_ROS_Perception_and_Navigation"
+    ]
+  },
+  {
+    "name": "Intel02D_GroundFloor",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/sensors/reference_applications/pointcloud-groundfloor-segmentation.md",
+    "expected": "any",
+    "used_by": [
+      "02D_ROS_Perception_and_Navigation"
+    ]
+  },
+  {
+    "name": "Intel02D_Nav2",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/navigation/nav2-integration.md",
+    "expected": "any",
+    "used_by": [
+      "02D_ROS_Perception_and_Navigation"
+    ]
+  },
+  {
+    "name": "Intel02D_ITS",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/navigation/its-path-planner-plugin.md",
+    "expected": "any",
+    "used_by": [
+      "02D_ROS_Perception_and_Navigation"
+    ]
+  },
+  {
+    "name": "Intel02D_ITS_Code",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/components/its-planner/src/its_planner/src/its_planner.cpp",
+    "expected": "any",
+    "used_by": [
+      "02D_ROS_Perception_and_Navigation"
+    ]
+  },
+  {
+    "name": "Intel02D_Relocalize",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/navigation/navigation-relocalization.md",
+    "expected": "any",
+    "used_by": [
+      "02D_ROS_Perception_and_Navigation"
+    ]
+  },
+  {
+    "name": "Intel02D_AMR_Fig",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/hardware_blueprints/amr/images/architecture/AMR-Reference-Application.svg",
+    "expected": "any",
+    "used_by": [
+      "02D_ROS_Perception_and_Navigation"
+    ]
+  },
+  {
+    "name": "Intel02D_ROS_QoS",
+    "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Concepts/Intermediate/About-Quality-of-Service-Settings.rst",
+    "expected": "any",
+    "used_by": [
+      "02D_ROS_Perception_and_Navigation"
+    ]
+  },
+  {
+    "name": "Intel02D_ROS_Executors",
+    "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Concepts/Intermediate/About-Executors.rst",
+    "expected": "any",
+    "used_by": [
+      "02D_ROS_Perception_and_Navigation"
+    ]
+  }
+]

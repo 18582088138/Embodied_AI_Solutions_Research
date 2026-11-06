@@ -1,0 +1,52 @@
+# 02F Physical AI Studio：示教数据、训练、导出与作业生命周期
+
+Physical AI Studio 把环境配置、示教采集、训练、模型格式和运行界面连在一起；它的 library 提供 physicalai-train，部署端依赖 OpenVINO PhysicalAI Runtime。本文用归档树对象 b38bff4a9e6d 的文档与源码交叉核验，不把 main 快照当稳定发行版。研究没有下载训练数据、受限权重、注册远程服务器或操作机器人。[[Intel02F_StudioReadme]]
+
+## 数据资产是环境和时间契约
+
+录制以 environment、task、leader/follower、相机和 episode 为单位；用户重置场景、开始示教、Accept 或 Discard，再通过相机回放和关节曲线检查坏数据。视频依赖 backend 的 PyAV/FFmpeg encoder，单有相机预览并不保证数据已可靠编码。文档建议至少五十段示教属于经验建议，不能推导成功率或泛化能力。Studio 可导入/导出 LeRobot v3，便于外部 LeRobot 或 library 训练；这是一种数据格式兼容，仍需要字段语义、时间、单位、任务和采集许可一致。[[Intel02F_Recording]]
+
+LeRobotDataModule 将扁平 `observation.images.<key>`、observation.state、action 与结构化 Observation 转换，adapter 暴露 fps、tolerance_s、delta_indices 与 features。动作 chunk 的时间抽样由这些字段决定，错配 fps 不只是吞吐问题，会改变同一动作索引对应的未来时刻。所谓 FormatConverter 零拷贝仅指格式包装与已有 tensor 引用，不包括视频解码、GPU 搬运、进程 store 的读取或数据文件写入。分析上，训练集应固定 dataset revision/hash、episode 边界、相机键、关节顺序/单位、统计量和 train/validation 划分；新环境改名不能只改 UI 显示后直接沿用模型。[[Intel02F_Data]] [[Intel02F_Sessions]]
+
+## 多速率会话与共享内存的真实语义
+
+Studio 当前 RuntimeSession 属于 websocket，API 进程管理 slots、claims 与 control thread；RobotWorker、DatasetWorker、ModelWorker 分别置于进程中隔离设备和长时间持有 GIL 的操作。camera worker 线程从 SharedCamera publisher 接帧。data 经共享 store，commands/status 经会话私有 Unix socket 上的 zenoh bus；重要命令 request/ack，状态 pub/sub。这样允许 follower 一百赫兹、dataset 三十赫兹、相机各自帧率以及低水位触发 chunk 推理协作；这些是软件设计速率，不是目标机实测最大能力。[[Intel02F_Sessions]]
+
+store 为每个 state/action/frame 保留最新值和 monotonic 时间戳，并不是历史 FIFO；实际 `_write` 先写数组再写 timestamp，`_read` 先取时间戳再 `view.copy()`。官方明确允许读写重叠时混合相邻样本，单个浮点原子存储不代表整段关节向量和图像的快照原子性。分析上，对高速度接触控制或精确多传感器融合，必须另加一致性快照、双缓冲/序列号或容差验证；不能把“物理上仍可合理”作为每个机器人都成立的安全论证。读取有 copy，也不能称 Studio 全链零拷贝。[[Intel02F_Store]] [[Intel02F_Sessions]]
+
+| 运行对象 | 所有权/生命周期 | 失效行为与边界 |
+|---|---|---|
+| session | 随websocket创建/关闭 | 页面刷新重新创建，无reattach |
+| control | 一次只运行一个，切换先stop/join | none时保持action，不等于断能急停 |
+| robot | registry与设备锁排他 | 两会话不能命令同一follower |
+| camera | publisher可共享，settings由claim固定 | 不同分辨率请求可拒绝或按环境resize |
+| dataset worker | 离开时等待回写，默认stop timeout五分钟 | 回写中强杀可丢数据 |
+| model worker | manifest先匹配store，后起进程 | 异常卸载；控制保持，需本体保护 |
+
+ModelControl 经 ProcessModel 请求 action chunk，状态/task 通过 bus，相机取各自最新 store frame；queue/smoother 仍留在 control 的 executor。不同 frame 的“最新”不等于同一曝光时刻，需监测数据年龄。grace move 从测量姿态逐渐过渡到 leader/model 输出，避免切换时大幅运动；goal_time 用动作未来时刻决定下层插值。文档约一千三百毫秒加载、六十毫秒 chunk round trip 来自 SO-101/ACT 示例，缺完整计算硬件、输入、统计和版本，不能据此比较 OpenVINO 与 CUDA 或证明控制频率。[[Intel02F_Sessions]]
+
+## 训练能力、后端范围和版本漂移
+
+训练 UI 文档列 ACT、SmolVLA、Pi0.5；library README 另列 MolmoAct2、RLDX-1、XR0、Cosmos3。这些入口范围不同，不能将 library 原生类清单写成 UI 全部可选，或每款都已 NPU 验收。训练建立在 PyTorch Lightning，按 cpu、xpu、cu128 extra 选择主机栈；根 README 写 Python 3.12—3.14。训练 batch、steps、workers、precision、compile 与 VRAM 约束互相影响，loss 降低也不保证动作任务成功。训练页面 GPU 调度结合 Studio job state 和 best-effort memory telemetry，同 GPU 等待不等于跨容器抢占式资源预约。[[Intel02F_Training]] [[Intel02F_Lib]] [[Intel02F_StudioReadme]]
+
+远程训练先上传 dataset snapshot，再取回 model artifacts。SSH target 使用持久 trainer container/volume 和固定 loopback 端口隧道；仅当 Studio backend 绑定 localhost 时启用 SSH 管理功能，Docker 默认绑定地址可能不满足。官方说明没有 SSH target administration 认证，适用可信单用户工作站，而不是可直接外露的多租户训练门户。此限制来自实际管理功能及 Docker 权限边界，本文没有改变网络、创建凭据或注册 target。[[Intel02F_Remote]]
+
+掉线后远程 job 可继续，Studio 依持久 job ID 重新接流与 GET /jobs/{id}，不会自动重复提交；三百/九百秒是 warning threshold，非强制失败限时。离线 Stop/Delete 不能保证远程进程和资产已清理，完成结果仅在本地成功取回并解包后才删除远程 artifacts。这套恢复规则与机器人 session 的“页面刷新不reattach”完全不同，二者需要不同的运维策略。升级说明要求 UI/backend 同步重建或依赖更新，但未给完整数据库/数据快照回退事务，更新 main 后能打开项目不能当生产恢复验收。[[Intel02F_Remote]] [[Intel02F_Update]]
+
+## 从 checkpoint 到部署 bundle
+
+![官方模型格式界面]( [[FIG:Intel02F_Figure]] )
+
+官方截图展示 PyTorch、OpenVINO、ONNX、ExecuTorch 四个下载格式及示例 FP16 大小。它支持格式交付入口存在，不支持任何后端的推理速度、模型精度或通用容量推算。训练文档说导出 all supported backends，实际每个 policy 都有支持检查；UI 运行指南当前只列 PyTorch/OpenVINO 的 CPU/GPU，不能由库的 OpenVINO CPU/GPU/NPU 表推出 UI 已支持 NPU。[[Intel02F_Figure]] [[Intel02F_Training]] [[Intel02F_Deployment]]
+
+导出源码要求 sample_input 或 inputs_schema，构造 batch-one 的 tensor 或字符串样本。`_export_ready_model` 暂时移除 torch.compile instance wrapper 并进入 eval，退出后恢复；这解决 tracing 仍调用编译包装及 training mode 的问题。OpenVINO 路线可直接 convert 或经临时 ONNX，设置输入/输出名、save_model，并按 policy 参数导出 tokenizer。`create_manifest` 生成 manifest.json，包含 runner、pre/postprocessors、feature schema；这与 how-to 仍列 metadata.yaml/json 的目录描述存在版本漂移，实际 bundle 应以匹配源码/Runtime 所读取 manifest 为准。保留 tokenizer、model.bin、stats 和预后处理契约，不能只拷 model.xml。[[Intel02F_ExportCode]] [[Intel02F_Export]]
+
+INT8_SYM post-export hook 实际调用 nncf.compress_weights，不做 activation 校准，不能写成全模型 W8A8。源码先在同文件系统临时目录保存并释放 OpenVINO mmap 引用，再分别 replace xml/bin；单文件 replace 原子不代表两个文件组成跨文件事务，崩溃窗口需用版本目录、hash 清单和整体切换验证。压缩应保留未压缩产物、逐请求对照和机器人任务留出测试，不能把体积更小等同策略可用。[[Intel02F_Hooks]]
+
+runtime_export 源码生成 PolicySource、SyncExecution/AsyncExecution、request_threshold、ChunkedActionQueue 与 LerpSmoother 的配置。导出携带 SO-101 calibration 和相对模型路径，不稳定串口/相机枚举标为 CHANGE_ME；部署命令由 Runtime 执行。grace move 是 Studio-only 行为，未进入导出，因此需要在独立 Runtime 放行中重新核对初始姿态与切换处理。根 README 也明确 PushT 训练策略不能直接上真实机器人，runtime config 必须与本体匹配。[[Intel02F_RuntimeExport]] [[Intel02F_Sessions]] [[Intel02F_StudioReadme]]
+
+## 性能证据与迁移动作
+
+SnapFlow LIBERO 报告给出 teacher 1941/2000、20K student 1951/2000，seed42、四套等样本任务，差别为零点五个百分点，官方也不声称统计显著。其 chunk 中位时延一百七十五点四与五十八点九毫秒，是 NVIDIA H100 PCIe、Torch 2.11.0+cu128、Runtime 0.2.1.dev4 的测量；一百个 batch-one synthetic chunk、五次 warmup，包含 pre/model/post，排除 simulator、网络、加载和机器人 IO。该报告证明蒸馏路线的局部结果，不是 Intel GPU/NPU 性能；受限 checkpoint 与 Gemma 条款未访问/接受。[[Intel02F_Benchmark]]
+
+机制比较上，LeRobot 数据与 Lightning checkpoint 能降低训练框架迁移成本；后端更换仍需验证 tokenizer、graph、stats、动作 chunk、输入图像及执行队列。Intel 优化价值集中于 OpenVINO 导出和 Intel inference 栈，训练同样支持 NVIDIA 路线，不能将所有生态算法归为 Intel 独占。交付建议冻结 Studio/Runtime/训练依赖、dataset和checkpoint revision、export hook、manifest与完整bundle hash；先离线比动作数值，再测 chunk尾延迟、时间一致性、断流、初始姿态、远程job重连和数据回写恢复。源码 Apache-2.0 可核验，但模型、示教数据、机器人SDK与仿真资产许可各自独立。[[Intel02F_License]] [[Intel02F_Lib]]

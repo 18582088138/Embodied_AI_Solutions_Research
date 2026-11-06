@@ -1,0 +1,117 @@
+{
+  "source_ids": [
+    "Intel02E_EtherCAT",
+    "Intel02E_RT",
+    "Intel02E_Manip",
+    "Intel02E_RVC",
+    "Intel02E_Sim",
+    "Intel02E_Profiler",
+    "Intel02E_Commands",
+    "Intel02E_Benchmark",
+    "Intel02E_Grafana",
+    "Intel02E_KVM",
+    "Intel02E_Motion",
+    "Intel02E_Gateway",
+    "Intel02E_Agent",
+    "Intel02E_Shared",
+    "Intel02E_TimingFig",
+    "Intel02E_PickSim",
+    "Intel02E_TaskIntro",
+    "Intel02E_RLConfig"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_TimingFig--6bd6d35c4a5c365e/content.png",
+      "sha256": "637822377a851c524618a41d2f82cb17afb488e2c168970f5231de4a17200452",
+      "source_id": "Intel02E_TimingFig",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/images/ethercat/rt_data_definition.png",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_TimingFig--6bd6d35c4a5c365e/content.png",
+      "original_sha256": "637822377a851c524618a41d2f82cb17afb488e2c168970f5231de4a17200452",
+      "operation": "官方PNG原件，无变换",
+      "visual_review": "实际打开；Tin/Tcalc/Tout、Texec/Tcycle、expected/actual/jitter均完整，无数值测量"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "模拟直接取得物体位置",
+      "source_id": "Intel02E_PickSim",
+      "location": "Object location/Note",
+      "evidence_type": "事实",
+      "conditions": "Humble/Classic文档含Jazzy标签",
+      "finding": "不能证明感知闭环",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/stationary_arm/simulation/picknplace.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_PickSim--c552b95e183ff301/content.md",
+      "original_sha256": "e75c2681009147130494b2e666a844ddb3f124063d76f2fd736c20e11a473a58",
+      "retrieved_at_utc": "2026-11-05T02:44:53.753607+00:00"
+    },
+    {
+      "claim": "控制示例默认CPU",
+      "source_id": "Intel02E_RLConfig",
+      "location": "robot_rl/ec_task",
+      "evidence_type": "事实",
+      "conditions": "stand.onnx/三task",
+      "finding": "NPU宣传不等于默认配置",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/e5dcdcc705a9306462897de913e39e44701566a1/libraries/edge-control-libraries/fieldbus/robotmctask/examples/config/robot_rl_ov.yaml",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_RLConfig--faf126229b50320e/content.yaml",
+      "original_sha256": "e9bcae1fd285abb86be956dcdfcf567f81aa006ddb5182f02cab116cb5ccd822",
+      "retrieved_at_utc": "2026-11-05T02:45:51.716577+00:00"
+    },
+    {
+      "claim": "Servo频率仅配置",
+      "source_id": "Intel02E_RVC",
+      "location": "parameters.yaml",
+      "evidence_type": "事实",
+      "conditions": "publish_period0.002、timeout0.1",
+      "finding": "不证明500Hz实测及急停",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/stationary_arm/deployment/rvc_deploy.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_RVC--2b7128bed0afd95b/content.md",
+      "original_sha256": "40b5fe71ab87027676d9871d14ababca566c25bd9b17001cd1c2cdd34143e638",
+      "retrieved_at_utc": "2026-11-05T02:44:02.883750+00:00"
+    },
+    {
+      "claim": "ring buffer单写单读",
+      "source_id": "Intel02E_Agent",
+      "location": "Design Principle/API",
+      "evidence_type": "事实",
+      "conditions": "固定block/block数",
+      "finding": "不泛化MPMC；full文字需源码核验",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/e5dcdcc705a9306462897de913e39e44701566a1/libraries/edge-control-libraries/rt-data-agent/README.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_Agent--7f8b8e0242bfd27f/content.md",
+      "original_sha256": "4435a3a09bcd38fc857bcdcd40903d7b61a472c05ba35855f7f92da5e2bfa140",
+      "retrieved_at_utc": "2026-11-05T02:44:50.553834+00:00"
+    },
+    {
+      "claim": "RTmotion1ms",
+      "source_id": "Intel02E_Motion",
+      "location": "Evaluation Example",
+      "evidence_type": "厂商宣称",
+      "conditions": "MC_MoveRelative示例",
+      "finding": "不是全系统WCET",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/e5dcdcc705a9306462897de913e39e44701566a1/libraries/edge-control-libraries/plcopen-motion-control/plcopen-motion/README.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_Motion--a4f19fd89157ba95/content.md",
+      "original_sha256": "64ec03b02521b2bce5703094b327671dab1b12b6afc53bd4b0762180ad02442e",
+      "retrieved_at_utc": "2026-11-05T02:44:48.535826+00:00"
+    },
+    {
+      "claim": "benchmark默认采样流程",
+      "source_id": "Intel02E_Benchmark",
+      "location": "What Script Does",
+      "evidence_type": "事实",
+      "conditions": "30秒稳定120秒采样",
+      "finding": "非已运行结果",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/benchmarking/robotics-system-profiler/picknplace-benchmark.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02E_Benchmark--58276012a444c25e/content.md",
+      "original_sha256": "9c817641e48cdfd599ca003e753985b898f81b22fb06f74276862db95a4d0f58",
+      "retrieved_at_utc": "2026-11-05T02:44:06.973750+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "本文逐机制、API对象、产物交接、硬件依赖与故障条件已人工核对；未取得信息正文保留。",
+    "versions_and_measurements": "当前通用栈、Suite绑定版本与样例配置分开；性能未独立复测。",
+    "maturity_and_licenses": "区分Intel提供/优化、上游组件、样例和未验收路径；许可按文件与资产范围核验。",
+    "figures_opened": "所有本文图已实际打开确认文字、图例与完整边界；详见figures记录。"
+  },
+  "research_limits": [
+    "文献/API/源码核验；未安装SDK、运行模型或测试机器人。"
+  ]
+}

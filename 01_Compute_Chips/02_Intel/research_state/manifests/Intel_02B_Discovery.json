@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Intel02B_Convert",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/model-preparation/convert-model-to-ir.rst",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_CPU",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/cpu-device.rst",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_GPU",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/gpu-device.rst",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_NPU",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/npu-device.rst",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_AUTO",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/auto-device-selection.rst",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_HETERO",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/hetero-execution.rst",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_Shapes",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/model-input-output/dynamic-shapes.rst",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_Cache",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/optimize-inference/optimizing-latency/model-caching-overview.rst",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_Quant",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/model-optimization-guide/quantizing-models-post-training/basic-quantization-flow.rst",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_Weight",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/model-optimization-guide/weight-compression/4-bit-weight-quantization.rst",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_RemoteGPU",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/gpu-device/remote-tensor-api-gpu-plugin.rst",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_RemoteNPU",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/npu-device/remote-tensor-api-npu-plugin.rst",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_AsyncFig",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/assets/images/synch-vs-asynch.svg",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_License",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_NNCF",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/nncf/develop/README.md",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  }
+]

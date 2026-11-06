@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Intel08B_NonROSPatch",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/src/pipelines/mpc-demo/ocs2/patches/0002-Add-non-ROS-MPC-MPC-MRT-module-and-test-pipeline-for.patch",
+    "expected": "any",
+    "used_by": [
+      "08B_Real_Time_Isolation_and_Control"
+    ]
+  }
+]

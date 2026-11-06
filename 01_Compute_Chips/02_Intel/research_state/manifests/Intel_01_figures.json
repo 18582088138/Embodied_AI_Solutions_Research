@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Intel_Hardware_Mapping",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/main/docs/user-guide/images/architecture/robotics-hardware-mapping.svg",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_Runtime_Dataflow",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/main/docs/user-guide/images/architecture/robotics-runtime-data-flow.svg",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_ARK_x7433RE",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/236967/intel-atom-x7433re-processor-6m-cache-up-to-3-40-ghz/specifications.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_Datasheet_Landing",
+    "url": "https://www.intel.com/content/www/us/en/content-details/872188/intel-core-ultra-series-3-processor-datasheet-volume-1-of-2.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Intel_Addendum_Landing",
+    "url": "https://www.intel.com/content/www/us/en/content-details/872716/intel-core-ultra-series-3-processor-for-edge-platforms-datasheet-addendum.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

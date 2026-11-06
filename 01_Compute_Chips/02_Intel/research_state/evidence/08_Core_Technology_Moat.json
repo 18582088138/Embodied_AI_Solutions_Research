@@ -1,0 +1,97 @@
+{
+  "source_ids": [
+    "Intel02_Architecture",
+    "Intel02B_GPU_Dispatch",
+    "Intel02E_RT",
+    "Intel02B_HETERO",
+    "Intel02B_GPU_Memory",
+    "Intel02B_RemoteNPU",
+    "Intel02B_Cache",
+    "Intel02B_NPU",
+    "Intel08A_ORTOV",
+    "Intel08A_ORTTRT",
+    "Intel02E_EtherCAT",
+    "Intel08B_NonROSPatch",
+    "Intel04_MolmoAct2",
+    "Intel02F_Store",
+    "Intel02F_Hooks",
+    "Intel02F_Lib",
+    "Intel02C_Pi05_ModelCard",
+    "Intel02C_Runtime_License",
+    "Intel06_URBlueprint",
+    "Intel06_Jackal",
+    "Intel02E_RLConfig",
+    "Intel06_CustomerCases"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/02_Intel/reference_metrial/derived/figures/Intel02_Architecture.png",
+      "sha256": "bfb65189ce2d539fe1dd6eed27fb2a60b29a6afefeadea11b4649d1d48c7f444",
+      "source_id": "Intel02_Architecture",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/images/architecture/Robotics-AI-Suite-Architecture.svg",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02_Architecture--0ead36e32550c972/content.svg",
+      "original_sha256": "0e4b76972648ceab99c0302b574b556ea88224a7c872072c118e839bbabc0454",
+      "operation": "原SVG不改内容，本地HTML完整浏览器渲染，fullPage截图；无裁剪",
+      "visual_review": "本轮重新实际打开PNG；六层、颜色图例、用户供给层完整。参考能力及设备标签非逐模型/伙伴验收。"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "组合护城河条件",
+      "source_id": "Intel02_Architecture",
+      "location": "六层图/用户供给",
+      "evidence_type": "分析",
+      "conditions": "参考架构",
+      "finding": "独占/集成/开源机制分层",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/images/architecture/Robotics-AI-Suite-Architecture.svg",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02_Architecture--0ead36e32550c972/content.svg",
+      "original_sha256": "0e4b76972648ceab99c0302b574b556ea88224a7c872072c118e839bbabc0454",
+      "retrieved_at_utc": "2026-11-05T02:21:20.667057+00:00"
+    },
+    {
+      "claim": "时间隔离不覆盖全部干扰",
+      "source_id": "Intel02E_RT",
+      "location": "CAT/电源/benchmark",
+      "evidence_type": "分析",
+      "conditions": "绑定硬件及负载",
+      "finding": "不推导WCET/安全",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/rt_tuning_guide.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel_Doc_RT_Tuning--6904386a2b4a2974/content.md",
+      "original_sha256": "71f9c15bd940d3aef74db9238564ec7a4698f7403a6c12a4b84fcfccd7f4f1ba",
+      "retrieved_at_utc": "2026-11-05T01:26:59.261614+00:00"
+    },
+    {
+      "claim": "可复建仍有一致性边界",
+      "source_id": "Intel02F_Hooks",
+      "location": "两个replace",
+      "evidence_type": "分析",
+      "conditions": "IR配对产物",
+      "finding": "非事务回退",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/src/physicalai/export/hooks.py",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Hooks--030ca720250145a9/content.py",
+      "original_sha256": "88bc087c98247f8f06ea54b93bd775c90b130180a59582528fb9cdaac2186223",
+      "retrieved_at_utc": "2026-11-05T02:49:23.287604+00:00"
+    },
+    {
+      "claim": "客户采用非ROI数据",
+      "source_id": "Intel06_CustomerCases",
+      "location": "客户案例",
+      "evidence_type": "厂商宣称",
+      "conditions": "2026-05-20",
+      "finding": "取消独显不推出定量成本收益",
+      "source_url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-core-ultra-series-3-for-edge-ai-robotics.html",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/webpages/Intel06_CustomerCases--a198bce07c1cd65c/index.html",
+      "original_sha256": "1c3f27326954cc9060dd6120b41ab308c70d377d8d6fcccf6f4cb884bb59a106",
+      "retrieved_at_utc": "2026-11-05T04:13:35.108017+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "本文逐机制、API对象、产物交接、硬件依赖与故障条件已人工核对；未取得信息正文保留。",
+    "versions_and_measurements": "当前通用栈、Suite绑定版本与样例配置分开；性能未独立复测。",
+    "maturity_and_licenses": "区分Intel提供/优化、上游组件、样例和未验收路径；许可按文件与资产范围核验。",
+    "figures_opened": "所有本文图已实际打开确认文字、图例与完整边界；详见figures记录。"
+  },
+  "research_limits": [
+    "文献/API/源码核验；未安装SDK、运行模型或测试机器人。"
+  ]
+}

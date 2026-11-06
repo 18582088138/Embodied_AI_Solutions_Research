@@ -1,0 +1,93 @@
+{
+  "source_ids": [
+    "Intel02B_HETERO",
+    "Intel02B_GPU_Memory",
+    "Intel02B_GPU_Kernels",
+    "Intel02B_GPU_Flow",
+    "Intel02B_AUTO",
+    "Intel02B_NPU",
+    "Intel02B_Shapes",
+    "Intel02B_RemoteNPU",
+    "Intel02B_RemoteGPU",
+    "Intel02B_AsyncFig_Original",
+    "Intel02B_InferAPI",
+    "Intel02B_Cache",
+    "Intel02B_CacheAPI",
+    "Intel02B_GPU_Dispatch",
+    "Intel02B_NNCF",
+    "Intel02B_Weight",
+    "Intel08A_ORTOV",
+    "Intel08A_ORTTRT"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/02_Intel/reference_metrial/derived/figures/Intel02B_AsyncFig.png",
+      "sha256": "1b3eefa698ba023d5b539dfc23f79568735920394dbd0659851a99f78316cde8",
+      "source_id": "Intel02B_AsyncFig_Original",
+      "source_url": "https://media.githubusercontent.com/media/openvinotoolkit/openvino/master/docs/articles_en/assets/images/synch-vs-asynch.svg",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_AsyncFig_Original--e0d8384ef68a1ec1/content.svg",
+      "original_sha256": "2d119a2f5658cded7d4b6704202378c1258fea507f60cbd305e62add42cb8bc1",
+      "operation": "从官方Git LFS公开media路径取得SVG原件；本地HTML完整fullPage浏览器PNG，无裁剪",
+      "visual_review": "本轮重新打开完整PNG；normal/async泳道完整；无数值，仅说明任务重叠，不能证明闭环deadline。"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "shared内存按需迁移",
+      "source_id": "Intel02B_GPU_Memory",
+      "location": "Allocation types",
+      "evidence_type": "事实",
+      "conditions": "GPU plugin USM",
+      "finding": "共享地址非无迁移",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/src/plugins/intel_gpu/docs/memory_allocation_gpu_plugin.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_GPU_Memory--1e66c4fc5304f6fe/content.md",
+      "original_sha256": "355764cd0309e3156a50acb492f98f6e4b00502643f7d96f02a70de88e8b7fd9",
+      "retrieved_at_utc": "2026-11-05T02:29:17.784698+00:00"
+    },
+    {
+      "claim": "remote地址对齐和存活",
+      "source_id": "Intel02B_RemoteNPU",
+      "location": "Import CPU virtual address",
+      "evidence_type": "事实",
+      "conditions": "4KB/外部allocation",
+      "finding": "非全链zero-copy",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/npu-device/remote-tensor-api-npu-plugin.rst",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_RemoteNPU--0c56cdb43a59da75/content.rst",
+      "original_sha256": "6927b8bf63f488ee1a2b176a11cc9de0d53362af7e9226242ad083264f340546",
+      "retrieved_at_utc": "2026-11-05T02:27:30.347336+00:00"
+    },
+    {
+      "claim": "NPU动态绑定CIP和版本",
+      "source_id": "Intel02B_NPU",
+      "location": "Dynamic Shapes",
+      "evidence_type": "事实",
+      "conditions": "NPU40XX/1.30/2026.1",
+      "finding": "不套Suite2025.3",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/docs/articles_en/openvino-workflow/running-inference/inference-devices-and-modes/npu-device.rst",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02B_NPU--cb4e7b7716dce4f6/content.rst",
+      "original_sha256": "8342258b447ba4f8b87de54296102048788b74ab7740e7e8c67c38c693b02076",
+      "retrieved_at_utc": "2026-11-05T02:27:21.574666+00:00"
+    },
+    {
+      "claim": "TRT机制对标",
+      "source_id": "Intel08A_ORTTRT",
+      "location": "Execution Provider Options",
+      "evidence_type": "事实",
+      "conditions": "ORT TRT EP",
+      "finding": "缓存/profile/CUDAfallback并存，无同条件排名",
+      "source_url": "https://onnxruntime.ai/docs/execution-providers/TensorRT-ExecutionProvider.html",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/webpages/Intel08A_ORTTRT--79d5a0e8a1b18b5a/index.html",
+      "original_sha256": "ff41846d7cd79624a42fccd742160553899b1ff7a0b2926e12d0ee1691511e34",
+      "retrieved_at_utc": "2026-11-05T04:21:22.334717+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "本文逐机制、API对象、产物交接、硬件依赖与故障条件已人工核对；未取得信息正文保留。",
+    "versions_and_measurements": "当前通用栈、Suite绑定版本与样例配置分开；性能未独立复测。",
+    "maturity_and_licenses": "区分Intel提供/优化、上游组件、样例和未验收路径；许可按文件与资产范围核验。",
+    "figures_opened": "所有本文图已实际打开确认文字、图例与完整边界；详见figures记录。"
+  },
+  "research_limits": [
+    "文献/API/源码核验；未安装SDK、运行模型或测试机器人。"
+  ]
+}

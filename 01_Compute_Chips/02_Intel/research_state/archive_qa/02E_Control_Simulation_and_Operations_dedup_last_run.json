@@ -1,0 +1,32 @@
+{
+  "time_utc": "2026-11-05T02:47:55.185727+00:00",
+  "summary": {
+    "complete_static": 18,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "Intel02E_EtherCAT",
+    "Intel_Doc_RT_Tuning",
+    "Intel02E_Manip",
+    "Intel02E_RVC",
+    "Intel02E_Sim",
+    "Intel02E_Profiler",
+    "Intel02E_Commands",
+    "Intel02E_Benchmark",
+    "Intel02E_Grafana",
+    "Intel02E_KVM",
+    "Intel02E_Motion",
+    "Intel02E_Gateway",
+    "Intel02E_Agent",
+    "Intel02E_Shared",
+    "Intel02E_TimingFig",
+    "Intel02E_PickSim",
+    "Intel02E_TaskIntro",
+    "Intel02E_RLConfig"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

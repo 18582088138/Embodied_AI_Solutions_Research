@@ -1,0 +1,19 @@
+{
+  "excluded_sources": [
+    {
+      "source_id": "Intel09_Machinery",
+      "status": 202,
+      "reason": "HTTP202 WAF challenge, zero-byte body; archive_status complete_static does not imply usable evidence"
+    },
+    {
+      "source_id": "Intel09_GDPR",
+      "status": 202,
+      "reason": "HTTP202 WAF challenge, zero-byte body; archive_status complete_static does not imply usable evidence"
+    }
+  ],
+  "shop": {
+    "source_id": "AAEON_CEXD_Shop",
+    "reason": "robots access failed; no price"
+  },
+  "tool_limit": "HTTP202 empty response not rejected by current downloader; manually excluded; originals retained without altering registry"
+}

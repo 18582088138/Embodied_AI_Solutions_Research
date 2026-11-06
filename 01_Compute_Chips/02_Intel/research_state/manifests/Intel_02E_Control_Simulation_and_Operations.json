@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Intel02E_EtherCAT",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/ethercat.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_RT",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/rt_tuning_guide.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_Manip",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/manipulation/index.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_RVC",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/stationary_arm/deployment/rvc_deploy.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_Sim",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/simulation/index.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_Profiler",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/benchmarking/robotics-system-profiler/overview.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_Commands",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/benchmarking/robotics-system-profiler/commands.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_Benchmark",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/benchmarking/robotics-system-profiler/picknplace-benchmark.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_Grafana",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/benchmarking/robotics-system-profiler/grafana.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_KVM",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/virtualization/kvm_guide.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_Motion",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/e5dcdcc705a9306462897de913e39e44701566a1/libraries/edge-control-libraries/plcopen-motion-control/plcopen-motion/README.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_Gateway",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/e5dcdcc705a9306462897de913e39e44701566a1/libraries/edge-control-libraries/fieldbus/robotmctask/README.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_Agent",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/e5dcdcc705a9306462897de913e39e44701566a1/libraries/edge-control-libraries/rt-data-agent/README.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_Shared",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/e5dcdcc705a9306462897de913e39e44701566a1/libraries/edge-control-libraries/rt-data-agent/libshm/README.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_TimingFig",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/images/ethercat/rt_data_definition.png",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_PickSim",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/stationary_arm/simulation/picknplace.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_TaskIntro",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/e5dcdcc705a9306462897de913e39e44701566a1/libraries/edge-control-libraries/fieldbus/robotmctask/docs/introduction.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "Intel02E_RLConfig",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/edge-ai-libraries/e5dcdcc705a9306462897de913e39e44701566a1/libraries/edge-control-libraries/fieldbus/robotmctask/examples/config/robot_rl_ov.yaml",
+    "expected": "any",
+    "used_by": [
+      "02E_Control_Simulation_and_Operations"
+    ]
+  }
+]

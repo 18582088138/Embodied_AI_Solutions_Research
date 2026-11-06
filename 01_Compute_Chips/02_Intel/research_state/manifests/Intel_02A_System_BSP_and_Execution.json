@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Intel02A_Install",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/platform_foundation/getting_started/step_by_step.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_Configurations",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/platform_foundation/getting_started/fragment_configurations.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_ImageComposer",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/platform_foundation/getting_started/image_composer_tool.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_GPU_Runtime",
+    "url": "https://raw.githubusercontent.com/intel/compute-runtime/master/README.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_GPU_Architecture",
+    "url": "https://raw.githubusercontent.com/intel/compute-runtime/master/ARCHITECTURE.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_NPU_Driver",
+    "url": "https://raw.githubusercontent.com/intel/linux-npu-driver/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_NPU_Overview",
+    "url": "https://raw.githubusercontent.com/intel/linux-npu-driver/main/docs/overview.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_RTKernel",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/realtime_linux.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02A_Security",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/security/index.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel02_Architecture",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/images/architecture/Robotics-AI-Suite-Architecture.svg",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel_Doc_Humanoid",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/hardware_blueprints/humanoid/index.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel_Doc_RT_Tuning",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/components/realtime_determinism/rt_tuning_guide.md",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel_ARK_Core5320",
+    "url": "https://www.intel.com/content/www/us/en/products/sku/246018/intel-core-5-processor-320-6m-cache-up-to-4-60-ghz/specifications.html",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  },
+  {
+    "name": "Intel_Robotics_License",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02A_System_BSP_and_Execution"
+    ]
+  }
+]

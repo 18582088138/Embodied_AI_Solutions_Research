@@ -1,0 +1,293 @@
+{
+  "platform": "Intel",
+  "scope": "Intel全套01—09；保留01、02已完成内容，继续03—09深度调研",
+  "data_cutoff": "2026-11-05 Asia/Shanghai",
+  "authorization": "用户明确授权按03→09连续完成，每章核查后继续，无需逐章再批准。",
+  "review_status": "awaiting_user_review_02_03_09",
+  "completed_dimensions": [
+    "01_Hardware_Platform",
+    "02_Software_Stack",
+    "03_Sensor_Integration",
+    "04_AI_Capabilities",
+    "05_Simulation_Environment",
+    "06_Robot_Integration",
+    "07_Ecosystem",
+    "08_Core_Technology_Moat",
+    "09_SWOT_Analysis"
+  ],
+  "current_dimension": "completed_01_09",
+  "pending_evidence": [
+    "正式Intel数据手册/Edge Addendum技术正文未取得，仅元数据；电气、温区与安全参数待供应商受控资料",
+    "CEXD初版与当前指南的相机路数、CAN计数、功率定义、温区换算及订货修订存在差异",
+    "Blueprint B580 MXM150W准确原厂P/N、供货与性能曲线未闭环",
+    "INT8峰值稀疏条件、内存位宽/持续带宽及255H/258V GPU制程未由本轮逐SKU材料确证",
+    "准确SKU生命周期、安全认证、目标系统报价、热稳态及真实机器人任务数据未取得",
+    "官方性能索引存在型号/内存/倍率/TCO口径差异"
+  ],
+  "next_step": "用户审阅全套；按反馈补深对应章节，不自动进入其他平台",
+  "user_approved_dimensions": [
+    "01_Hardware_Platform"
+  ],
+  "validation": {
+    "outcome": "pass",
+    "body_han_chars": 6744,
+    "sources": 40,
+    "figures": 4,
+    "claims": 23,
+    "archive_status": {
+      "complete_static": 22,
+      "partial_static": 18
+    },
+    "other_reports_unchanged": {
+      "02_Software_Stack.md": true,
+      "03_Sensor_Integration.md": true,
+      "04_AI_Capabilities.md": true,
+      "05_Simulation_Environment.md": true,
+      "06_Robot_Integration.md": true,
+      "07_Ecosystem.md": true,
+      "08_Proprietary_Technologies.md": true,
+      "09_SWOT_Analysis.md": true
+    },
+    "dedup_network_requests": 0,
+    "quality_record": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/01_Hardware_Platform_quality.json",
+    "dedup_record": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/01_Hardware_Platform_dedup_last_run.json",
+    "report_sha256": "b760a2e3d8d76ed52b1ecfa292185190cb696f2615f1875bfbcbade178bc03ff",
+    "limits": "结构/归档检查通过；人工规格与图片复核；没有实机或模型测试；18项partial_static已在正文披露"
+  },
+  "updated_at_utc": "2026-11-05T04:42:10.625007+00:00",
+  "software_depth_topics": {
+    "planned": [
+      "02A_System_BSP_and_Execution",
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime",
+      "02C_Physical_AI_Model_Pipelines",
+      "02D_ROS_Perception_and_Navigation",
+      "02E_Control_Simulation_and_Operations",
+      "02F_Physical_AI_Studio_Data_and_Training"
+    ],
+    "completed": [
+      "02A_System_BSP_and_Execution",
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime",
+      "02C_Physical_AI_Model_Pipelines",
+      "02D_ROS_Perception_and_Navigation",
+      "02E_Control_Simulation_and_Operations",
+      "02F_Physical_AI_Studio_Data_and_Training"
+    ],
+    "current": null,
+    "review_status": "awaiting_user_review",
+    "checks": {
+      "02A_System_BSP_and_Execution": {
+        "outcome": "pass",
+        "body_han": 2029,
+        "sources": 14,
+        "figures": 1,
+        "dedup_network_requests": 0
+      },
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime": {
+        "outcome": "pass",
+        "body_han": 2604,
+        "sources": 24,
+        "figures": 1,
+        "dedup_network_requests": 0
+      },
+      "02C_Physical_AI_Model_Pipelines": {
+        "outcome": "pass",
+        "body_han": 2206,
+        "sources": 24,
+        "figures": 1,
+        "dedup_network_requests": 0
+      },
+      "02D_ROS_Perception_and_Navigation": {
+        "outcome": "pass",
+        "body_han": 1872,
+        "sources": 17,
+        "figures": 1,
+        "dedup_network_requests": 0
+      },
+      "02E_Control_Simulation_and_Operations": {
+        "outcome": "pass",
+        "body_han": 1743,
+        "sources": 18,
+        "figures": 1,
+        "dedup_network_requests": 0
+      },
+      "02F_Physical_AI_Studio_Data_and_Training": {
+        "outcome": "pass",
+        "body_han": 1929,
+        "sources": 17,
+        "figures": 1,
+        "dedup_network_requests": 0
+      }
+    },
+    "joint_manifest": "toolkit/manifests/Intel_02_Software_Union.json",
+    "joint_dedup_record": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/02_Software_Union_dedup_last_run.json",
+    "final_audit": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/02_Final_Audit.json",
+    "overview_check": {
+      "outcome": "pass",
+      "body_han": 1993,
+      "sources": 41,
+      "figures": 1,
+      "dedup_network_requests": 0
+    },
+    "index": "01_Compute_Chips/02_Intel/02_Topics_Index.md"
+  },
+  "software_pending_evidence": [
+    "旧pi05 wrapper真实推理入口及历史LeRobot revision未闭环",
+    "逐SKU驱动/固件/编译/模型并发尾延迟与真实本体任务未测",
+    "内部APT示例公开供货路径、历史仿真迁移与OTA事务恢复缺口",
+    "Studio store跨样本一致性、导出初始姿态与远程取消清理需系统验收"
+  ],
+  "continuation_03_09": {
+    "planned": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ],
+    "completed": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Heterogeneous_Compilation_and_Data_Residency",
+      "08B_Real_Time_Isolation_and_Control",
+      "08C_Policy_Data_and_Deployment_Contracts",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ],
+    "checks": {
+      "03_Sensor_Integration": {
+        "outcome": "pass",
+        "body_han": 1733,
+        "sources": 17,
+        "figures": 1,
+        "dedup_network_requests": 0
+      },
+      "04_AI_Capabilities": {
+        "outcome": "pass",
+        "body_han": 1924,
+        "sources": 20,
+        "figures": 1,
+        "dedup_network_requests": 0
+      },
+      "05_Simulation_Environment": {
+        "outcome": "pass",
+        "body_han": 1743,
+        "sources": 15,
+        "figures": 1,
+        "dedup_network_requests": 0
+      },
+      "06_Robot_Integration": {
+        "outcome": "pass",
+        "body_han": 1877,
+        "sources": 7,
+        "figures": 1,
+        "dedup_network_requests": 0
+      },
+      "07_Ecosystem": {
+        "outcome": "pass",
+        "body_han": 1943,
+        "sources": 21,
+        "figures": 1,
+        "dedup_network_requests": 0
+      },
+      "08A_Heterogeneous_Compilation_and_Data_Residency": {
+        "outcome": "pass",
+        "body_han": 1898,
+        "sources": 18,
+        "figures": 1,
+        "dedup_network_requests": 0
+      },
+      "08B_Real_Time_Isolation_and_Control": {
+        "outcome": "pass",
+        "body_han": 2022,
+        "sources": 7,
+        "figures": 1,
+        "dedup_network_requests": 0
+      },
+      "08C_Policy_Data_and_Deployment_Contracts": {
+        "outcome": "pass",
+        "body_han": 1993,
+        "sources": 12,
+        "figures": 1,
+        "dedup_network_requests": 0
+      },
+      "08_Core_Technology_Moat": {
+        "outcome": "pass",
+        "body_han": 2086,
+        "sources": 22,
+        "figures": 1,
+        "dedup_network_requests": 0
+      },
+      "09_SWOT_Analysis": {
+        "outcome": "pass",
+        "body_han": 3284,
+        "sources": 19,
+        "figures": 1,
+        "dedup_network_requests": 0
+      }
+    },
+    "review_status": "awaiting_user_review",
+    "final_audit": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/03_09_Final_Audit.json"
+  },
+  "core_depth_topics": {
+    "planned": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency",
+      "08B_Real_Time_Isolation_and_Control",
+      "08C_Policy_Data_and_Deployment_Contracts"
+    ],
+    "completed": [
+      "08A_Heterogeneous_Compilation_and_Data_Residency",
+      "08B_Real_Time_Isolation_and_Control",
+      "08C_Policy_Data_and_Deployment_Contracts"
+    ],
+    "current": null,
+    "review_status": "awaiting_user_review",
+    "checks": {
+      "08_Core_Technology_Moat": {
+        "outcome": "pass",
+        "body_han": 2086,
+        "sources": 22,
+        "figures": 1,
+        "dedup_network_requests": 0
+      },
+      "08A_Heterogeneous_Compilation_and_Data_Residency": {
+        "outcome": "pass",
+        "body_han": 1898,
+        "sources": 18,
+        "figures": 1,
+        "dedup_network_requests": 0
+      },
+      "08B_Real_Time_Isolation_and_Control": {
+        "outcome": "pass",
+        "body_han": 2022,
+        "sources": 7,
+        "figures": 1,
+        "dedup_network_requests": 0
+      },
+      "08C_Policy_Data_and_Deployment_Contracts": {
+        "outcome": "pass",
+        "body_han": 1993,
+        "sources": 12,
+        "figures": 1,
+        "dedup_network_requests": 0
+      }
+    },
+    "joint_manifest": "toolkit/manifests/Intel_08_Core_Union.json",
+    "joint_dedup_record": "01_Compute_Chips/02_Intel/reference_metrial/derived/qa/08_Core_Union_dedup_last_run.json",
+    "index": "01_Compute_Chips/02_Intel/08_Topics_Index.md"
+  },
+  "research_index": "01_Compute_Chips/02_Intel/Intel_Research_Index.md",
+  "continuation_pending_evidence": [
+    "满路传感器与模型/控制并发的观测年龄、热稳态尾延迟和失效恢复未实测",
+    "模型NPU逐SKU覆盖、历史pi05推理入口、数据/校准迁移未闭环",
+    "Gazebo/MuJoCo真实误差模型、系统辨识、域随机化及真实留出迁移报告未取得",
+    "客户准确SKU/台数/暴露小时/介入率/ROI及正式合同未取得",
+    "BIOS/OTA全栈SLA与成对模型产物回退、共享状态原子性、RT能力/WCET需验收",
+    "IFR完整方法样本、Intel机器人收入和份额、整机报价/PCN/EOL未取得",
+    "EU机械/GDPR逐条原文HTTP202空白挑战、中国法规未定位、端侧SKU出口分类缺口"
+  ]
+}

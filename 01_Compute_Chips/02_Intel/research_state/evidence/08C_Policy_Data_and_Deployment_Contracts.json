@@ -1,0 +1,99 @@
+{
+  "source_ids": [
+    "Intel02C_Runtime_Manifest",
+    "Intel02F_ExportCode",
+    "Intel02F_Store",
+    "Intel02F_Recording",
+    "Intel02F_Export",
+    "Intel04_MolmoAct2",
+    "Intel02F_Hooks",
+    "Intel02F_Figure",
+    "Intel02F_RuntimeExport",
+    "Intel02C_Runtime_Loop",
+    "Intel02F_Lib",
+    "Intel02F_Benchmark"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Figure--9530348fecd2490d/content.png",
+      "sha256": "7370536e628ec157847d52f4483dca69c2fe8cef7e967af97521e529ad3512ff",
+      "source_id": "Intel02F_Figure",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/docs/assets/06-models-formats.png",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Figure--9530348fecd2490d/content.png",
+      "original_sha256": "7370536e628ec157847d52f4483dca69c2fe8cef7e967af97521e529ad3512ff",
+      "operation": "官方图片原件，无变换",
+      "visual_review": "本轮实际打开原PNG；ACT模型格式界面四个下载卡、precision/size完整；无机器人任务/事务保障证据，不把样例数字作性能测量。"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "Store非原子跨feature快照",
+      "source_id": "Intel02F_Store",
+      "location": "module docstring/FeatureSpec",
+      "evidence_type": "事实",
+      "conditions": "无锁/值先stamp后/float64",
+      "finding": "允许相邻sample混合，read copy非zero-copy",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/backend/src/runtime_session/store.py",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Store--2c8925d07dfb88c8/content.py",
+      "original_sha256": "fcba6213ac450eae545fb56370eea97a0fa2af4ff922dfb85074586d7dfdbb4d",
+      "retrieved_at_utc": "2026-11-05T02:49:21.311241+00:00"
+    },
+    {
+      "claim": "SO101单位和统计契约",
+      "source_id": "Intel04_MolmoAct2",
+      "location": "Zero-Shot SO101",
+      "evidence_type": "事实",
+      "conditions": "校准tick/degrees/[-100,100]",
+      "finding": "每臂scale需重新导出；旧clamp需重训",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/src/physicalai/policies/molmoact2/README.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel04_MolmoAct2--ec14ed59aa327727/content.md",
+      "original_sha256": "4f4725e712e0aa8cfb2e787d5fa386f4790a7a37b98180f06bbda8b9aaed3e08",
+      "retrieved_at_utc": "2026-11-05T04:04:14.597217+00:00"
+    },
+    {
+      "claim": "成对替换非单事务",
+      "source_id": "Intel02F_Hooks",
+      "location": "compress_weights_openvino_int8_sym",
+      "evidence_type": "分析",
+      "conditions": "同FS临时目录；两个Path.replace",
+      "finding": "每文件原子但中间异常窗口，未实机注入",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/src/physicalai/export/hooks.py",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_Hooks--030ca720250145a9/content.py",
+      "original_sha256": "88bc087c98247f8f06ea54b93bd775c90b130180a59582528fb9cdaac2186223",
+      "retrieved_at_utc": "2026-11-05T02:49:23.287604+00:00"
+    },
+    {
+      "claim": "Studio只导出runtime配方",
+      "source_id": "Intel02F_RuntimeExport",
+      "location": "docstring/build_runtime_config",
+      "evidence_type": "事实",
+      "conditions": "RUNTIME_FPS30/CHANGE_ME",
+      "finding": "导出不证明硬件连接",
+      "source_url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/backend/src/services/runtime_export.py",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02F_RuntimeExport--a982fe49ce23567f/content.py",
+      "original_sha256": "591a9597583e7639effa3b29df41e26b5c9ec502415033a89d03614ba82d3944",
+      "retrieved_at_utc": "2026-11-05T02:49:22.308406+00:00"
+    },
+    {
+      "claim": "stop在tick之间",
+      "source_id": "Intel02C_Runtime_Loop",
+      "location": "Stopping",
+      "evidence_type": "事实",
+      "conditions": "slow read/infer可延长",
+      "finding": "非急停保证",
+      "source_url": "https://raw.githubusercontent.com/openvinotoolkit/physicalai/main/docs/explanation/runtime.md",
+      "original_file": "01_Compute_Chips/02_Intel/reference_metrial/data/Intel02C_Runtime_Loop--c7bdfc8a7831a575/content.md",
+      "original_sha256": "c9843c49f976172a8df1dc9f20c2e2b128c604e436f4aebd047886378aac0e2b",
+      "retrieved_at_utc": "2026-11-05T02:34:27.311284+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "本文逐机制、API对象、产物交接、硬件依赖与故障条件已人工核对；未取得信息正文保留。",
+    "versions_and_measurements": "当前通用栈、Suite绑定版本与样例配置分开；性能未独立复测。",
+    "maturity_and_licenses": "区分Intel提供/优化、上游组件、样例和未验收路径；许可按文件与资产范围核验。",
+    "figures_opened": "所有本文图已实际打开确认文字、图例与完整边界；详见figures记录。"
+  },
+  "research_limits": [
+    "文献/API/源码核验；未安装SDK、运行模型或测试机器人。"
+  ]
+}

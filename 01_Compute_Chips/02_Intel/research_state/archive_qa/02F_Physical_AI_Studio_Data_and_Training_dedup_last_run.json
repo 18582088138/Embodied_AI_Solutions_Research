@@ -1,0 +1,31 @@
+{
+  "time_utc": "2026-11-05T02:51:35.760373+00:00",
+  "summary": {
+    "complete_static": 17,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "Intel02F_StudioReadme",
+    "Intel02F_Recording",
+    "Intel02F_Training",
+    "Intel02F_Deployment",
+    "Intel02F_Sessions",
+    "Intel02F_Export",
+    "Intel02F_ExportCode",
+    "Intel02F_Data",
+    "Intel02F_Lib",
+    "Intel02F_Remote",
+    "Intel02F_Update",
+    "Intel02F_Figure",
+    "Intel02F_License",
+    "Intel02F_Store",
+    "Intel02F_RuntimeExport",
+    "Intel02F_Hooks",
+    "Intel02F_Benchmark"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

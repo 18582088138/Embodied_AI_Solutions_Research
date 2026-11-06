@@ -1,0 +1,38 @@
+{
+  "time_utc": "2026-11-05T02:38:00.946612+00:00",
+  "summary": {
+    "complete_static": 24,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "Intel02C_PhysicalRuntime",
+    "Intel02C_PhysicalAI_README",
+    "Intel02C_Runtime_Architecture",
+    "Intel02C_Pi05_Export",
+    "Intel02C_RTC_README",
+    "Intel02C_ACT",
+    "Intel02C_DP",
+    "Intel02C_RDT",
+    "Intel02C_ExportCode",
+    "Intel02C_IRCode",
+    "Intel02C_CompressCode",
+    "Intel02C_ValidateCode",
+    "Intel02C_LeRobot_PI05_Source",
+    "Intel02C_Pi05_RTC",
+    "Intel02C_RTC_Patch",
+    "Intel02C_RTC_Figure",
+    "Intel02C_Runtime_Manifest",
+    "Intel02C_Runtime_Inference",
+    "Intel02C_Runtime_PrePost",
+    "Intel02C_Runtime_Loop",
+    "Intel02C_Runtime_Modes",
+    "Intel02C_LLM",
+    "Intel02C_Pi05_ModelCard",
+    "Intel02C_Runtime_License"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

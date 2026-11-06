@@ -1,0 +1,32 @@
+{
+  "report": "01_Compute_Chips/02_Intel/02D_ROS_Perception_and_Navigation.md",
+  "body_han_chars": 1872,
+  "tables": 2,
+  "sources": 17,
+  "archive_status": {
+    "complete_static": 17
+  },
+  "figures": 1,
+  "file_hash_checks": 35,
+  "html_visible_text_equal": 0,
+  "page_local_dependencies_checked": 0,
+  "report_local_links": 18,
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_System_BSP_and_Execution.md": true,
+    "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime.md": true,
+    "02C_Physical_AI_Model_Pipelines.md": true,
+    "02_Software_Stack.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08_Proprietary_Technologies.md": true,
+    "09_SWOT_Analysis.md": true
+  },
+  "errors": [],
+  "warnings": [],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

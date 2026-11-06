@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Intel02F_Recording",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/docs/05-recording-datasets.md",
+    "expected": "any",
+    "used_by": [
+      "02F_Physical_AI_Studio_Data_and_Training"
+    ]
+  },
+  {
+    "name": "Intel02F_Training",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/docs/06-training-policies.md",
+    "expected": "any",
+    "used_by": [
+      "02F_Physical_AI_Studio_Data_and_Training"
+    ]
+  },
+  {
+    "name": "Intel02F_Deployment",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/docs/08-deploying-model-policies.md",
+    "expected": "any",
+    "used_by": [
+      "02F_Physical_AI_Studio_Data_and_Training"
+    ]
+  },
+  {
+    "name": "Intel02F_Sessions",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/docs/explanation/runtime-session-architecture.md",
+    "expected": "any",
+    "used_by": [
+      "02F_Physical_AI_Studio_Data_and_Training"
+    ]
+  },
+  {
+    "name": "Intel02F_Export",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/docs/how-to/export/export_inference.md",
+    "expected": "any",
+    "used_by": [
+      "02F_Physical_AI_Studio_Data_and_Training"
+    ]
+  },
+  {
+    "name": "Intel02F_ExportCode",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/src/physicalai/export/mixin_policy.py",
+    "expected": "any",
+    "used_by": [
+      "02F_Physical_AI_Studio_Data_and_Training"
+    ]
+  },
+  {
+    "name": "Intel02F_Data",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/docs/explanation/data/lerobot.md",
+    "expected": "any",
+    "used_by": [
+      "02F_Physical_AI_Studio_Data_and_Training"
+    ]
+  },
+  {
+    "name": "Intel02F_Lib",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/library/README.md",
+    "expected": "any",
+    "used_by": [
+      "02F_Physical_AI_Studio_Data_and_Training"
+    ]
+  },
+  {
+    "name": "Intel02F_Remote",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/backend/docs/explanation/ssh-remote-trainer.md",
+    "expected": "any",
+    "used_by": [
+      "02F_Physical_AI_Studio_Data_and_Training"
+    ]
+  },
+  {
+    "name": "Intel02F_Update",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/docs/02-update-existing-installation.md",
+    "expected": "any",
+    "used_by": [
+      "02F_Physical_AI_Studio_Data_and_Training"
+    ]
+  },
+  {
+    "name": "Intel02F_Figure",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/application/docs/assets/06-models-formats.png",
+    "expected": "any",
+    "used_by": [
+      "02F_Physical_AI_Studio_Data_and_Training"
+    ]
+  },
+  {
+    "name": "Intel02F_License",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/physical-ai-studio/b38bff4a9e6d79481ce1b2bcfdaf3e8ec103724e/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02F_Physical_AI_Studio_Data_and_Training"
+    ]
+  }
+]

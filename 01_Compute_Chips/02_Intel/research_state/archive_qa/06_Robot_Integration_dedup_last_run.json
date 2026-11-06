@@ -1,0 +1,21 @@
+{
+  "time_utc": "2026-11-05T04:16:12.284297+00:00",
+  "summary": {
+    "complete_static": 6,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "Intel06_CustomerCases",
+    "Intel06_Jackal",
+    "Intel06_URBlueprint",
+    "Intel02C_RTC_README",
+    "Intel02E_RVC",
+    "Intel02E_TaskIntro",
+    "Intel02E_RLConfig"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

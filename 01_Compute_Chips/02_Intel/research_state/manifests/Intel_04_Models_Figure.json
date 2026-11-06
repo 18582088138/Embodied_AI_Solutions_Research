@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Intel04_LLMPipelineFigure",
+    "url": "https://raw.githubusercontent.com/open-edge-platform/robotics-ai-suite/1b0b22a2964f0f998c34cc03c5053fe61764015d/docs/user-guide/software_references/humanoid/assets/images/llm-robotics-demo-arch.png",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "Intel04_PhiMini",
+    "url": "https://huggingface.co/microsoft/Phi-4-mini-instruct/raw/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "Intel04_Qwen3",
+    "url": "https://huggingface.co/Qwen/Qwen3-8B/raw/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  }
+]

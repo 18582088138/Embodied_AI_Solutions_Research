@@ -1,0 +1,33 @@
+{
+  "time_utc": "2026-11-05T04:40:20.296314+00:00",
+  "summary": {
+    "complete_static": 8,
+    "partial_static": 11,
+    "failed": 0
+  },
+  "names": [
+    "Intel09_IFRIndustry",
+    "Intel09_IFRService",
+    "Intel09_IFRFigure",
+    "Intel09_Q3",
+    "Intel06_CustomerCases",
+    "Intel06_Jackal",
+    "Intel06_URBlueprint",
+    "Intel02B_AUTO",
+    "Intel02B_HETERO",
+    "Intel08A_ORTTRT",
+    "Intel_Doc_CEXD",
+    "Intel07_AAEON_BIOS",
+    "Intel_Doc_RT_Tuning",
+    "Intel_ARK_x7433RE",
+    "Intel_ARK_B580",
+    "Intel_Ultra_Edge",
+    "Intel_Edge_Performance",
+    "Intel09_EUMachineryGuide",
+    "Intel02F_RuntimeExport"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

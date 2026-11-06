@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Intel02B_GPU_Flow",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/src/plugins/intel_gpu/docs/simplified_workflow.md",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_GPU_Memory",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/src/plugins/intel_gpu/docs/memory_allocation_gpu_plugin.md",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_GPU_Kernels",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/src/plugins/intel_gpu/docs/gpu_kernels.md",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  },
+  {
+    "name": "Intel02B_GPU_Dispatch",
+    "url": "https://raw.githubusercontent.com/openvinotoolkit/openvino/master/src/plugins/intel_gpu/docs/gpu_dual_runtime_dispatch.md",
+    "expected": "any",
+    "used_by": [
+      "02B_OpenVINO_Compilation_and_Heterogeneous_Runtime"
+    ]
+  }
+]
