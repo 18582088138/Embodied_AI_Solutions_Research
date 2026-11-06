@@ -1,0 +1,26 @@
+{
+  "time_utc": "2026-11-05T02:52:54.059313+00:00",
+  "summary": {
+    "complete_static": 12,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "H02_Media_Overview",
+    "H02_Pipeline",
+    "H02_UCP_Submit_Content",
+    "H02_Hbmem",
+    "H02_VDSP",
+    "H02_UCP_Flush_Content",
+    "H02_Sunrise",
+    "H02_OE_Compile_Content",
+    "H02_OE_PTQ_Content",
+    "H02_GPU",
+    "H02_S600_511_Release",
+    "Horizon_RDK_License"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

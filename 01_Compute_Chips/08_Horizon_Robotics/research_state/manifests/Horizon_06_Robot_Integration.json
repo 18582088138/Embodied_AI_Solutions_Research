@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Horizon_JD_Journey6P_DesignIn",
+    "url": "https://www.horizon.auto/news/press/475",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "Horizon_DRobotics_Funding_Relation",
+    "url": "https://www.horizon.auto/news/press/479",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "Horizon_RDK_S600",
+    "url": "https://cn.d-robotics.cc/rdkS600",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "H02_LLM_VLA_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/26444.95f492ac.js",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "H06_Types_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/40340.5dcdb5a2.js",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "H04_Config_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/76569.5bd6179e.js",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "H05_RoboTwin_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/79035.d86b3263.js",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "H06_Policy_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/19278.822b0fe1.js",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "H06_Advanced_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/85974.f71f5f7e.js",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "H02_Car_Tracking",
+    "url": "https://developer.d-robotics.cc/tros_doc/apps/car_tracking",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "H02_CAN",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_can",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "H02_EtherCAT",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_ethercat",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "H02_IPC",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_ipc",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "H02_Watchdog",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_watchdog",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  }
+]

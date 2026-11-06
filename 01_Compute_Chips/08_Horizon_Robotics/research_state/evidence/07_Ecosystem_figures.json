@@ -1,0 +1,11 @@
+[
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H07_Studio_Architecture.png",
+    "sha256": "8a8569c4555c120a0175660c9f54a32632b6ef41d4e034007d61a92d6b0acf2d",
+    "source_id": "H07_Studio_Arch",
+    "source_url": "https://developer.d-robotics.cc/rdk_studio_doc/product-intro/architecture",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H07_Studio_Arc--d1ed94170ef58e8a/index.html",
+    "original_sha256": "de6d5c436b4a739b6b6d28b3ff14ba0456e69044e9fc5edebbce2fa03f7b5648",
+    "operation": "Edge1400px离线渲染已归档官方HTML article，阻断所有HTTP请求，完整正文截图，无重绘"
+  }
+]

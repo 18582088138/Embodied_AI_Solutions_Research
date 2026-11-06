@@ -1,0 +1,435 @@
+{
+  "source_ids": [
+    "Horizon_DRobotics_Funding_Relation",
+    "Horizon_S600_Module_Brief",
+    "Horizon_S600_Kit_Manual",
+    "Horizon_S600_Release",
+    "Horizon_01_Datasheet_9",
+    "Horizon_01_Datasheet_2",
+    "Horizon_S600_Kit_Brief",
+    "Horizon_RDK_S100_Product",
+    "Horizon_01_Datasheet_1",
+    "Horizon_01_Datasheet_3",
+    "Horizon_01_Datasheet_4",
+    "Horizon_01_Datasheet_5",
+    "Horizon_01_Datasheet_6",
+    "horizon-x5-doc",
+    "Horizon_X5_Design_Guide",
+    "Horizon_01_Pending_Doc_12",
+    "Horizon_RDK_S600",
+    "Horizon_S100_Architecture",
+    "horizon-s100-doc",
+    "Horizon_S600_Pinlist",
+    "Horizon_S600_Camera_Brief",
+    "Horizon_S600_Camera_Manual",
+    "Horizon_S600_MCU_Brief",
+    "Horizon_S600_MCU_Manual",
+    "Horizon_01_Datasheet_11",
+    "Horizon_01_Pending_Doc_13",
+    "Horizon_MCU_Framework",
+    "Horizon_S100_Power_XLSX",
+    "Horizon_S600_Downloads",
+    "Horizon_S600_Waveshare_Quote",
+    "Horizon_Journey6_Official",
+    "Horizon_JD_Journey6P_DesignIn",
+    "Horizon_RDK_License",
+    "Horizon_S600_Chip"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S100_official_topology.png",
+      "sha256": "2e5b3588a31d0b5c9fea97b1fb1615f81dc5a2820c2a8816e4f564f8021db386",
+      "source_id": "Horizon_S100_Architecture",
+      "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/01_Quick_start/image/hardware_interface/image-rdk_s100_architecture_diagram.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/Horizon_S100_Archi--f3a9074b0c428e82/content.png",
+      "original_sha256": "2e5b3588a31d0b5c9fea97b1fb1615f81dc5a2820c2a8816e4f564f8021db386",
+      "operation": "原始PNG复制，不裁剪"
+    },
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/X5_Module_official_SKUs.png",
+      "sha256": "31c4eb204d74ace0190973b2de625eefc08abf512d853005d0347caf1fd27519",
+      "source_id": "Horizon_01_Datasheet_2",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_x5_module/drobotics_rdk_x5_module_zh_v1_2.pdf",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/documents/Horizon_01_Da--38f27c6106694de6/document.pdf",
+      "original_sha256": "59da7dfe4847bd76a285bdf506f44ede72e92503c96b27e8385cb2470bf6aa7c",
+      "operation": "Poppler pdftoppm PDF物理第4页，1800px最长边，整页无裁剪"
+    },
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S100_official_MCU_framework.png",
+      "sha256": "6c3680a96f063bc4ee1297501f5bdf3976bf64a239b482f748b093ada1f249ff",
+      "source_id": "Horizon_MCU_Framework",
+      "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/07_Advanced_development/05_mcu_development/01_S100/basic_information/MCU_frame.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/Horizon_MCU_Framew--95d7f24bc0d01340/content.png",
+      "original_sha256": "6c3680a96f063bc4ee1297501f5bdf3976bf64a239b482f748b093ada1f249ff",
+      "operation": "原始PNG复制，不裁剪"
+    },
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S600_V1P0_official_topology.png",
+      "sha256": "4088afda637861f76afb39ffab1cc956ec413bbcbbaa048c133b32f88b52cc12",
+      "source_id": "Horizon_S600_Kit_Manual",
+      "source_url": "http://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/01_Quick_start/image/hardware_interface/image-rdk_s600_architecture_diagram.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/Horizon_S600_K--d4df277ff0138d75/assets/images/6974fa0ca472c609466697a4.png",
+      "original_sha256": "4088afda637861f76afb39ffab1cc956ec413bbcbbaa048c133b32f88b52cc12",
+      "operation": "官方V1P0手册原始PNG复制，无裁剪"
+    },
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S600_V1P0_official_interfaces.png",
+      "sha256": "1ce1c416d44a5e9d389553ecb6fc51ec69d0a66ea8775c349ec31279dcfb0623",
+      "source_id": "Horizon_S600_Kit_Manual",
+      "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/01_Quick_start/image/hardware_interface/rdk_s600_v1p0_main.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/Horizon_S600_K--d4df277ff0138d75/assets/images/8a0ecb06b98ed1cdcbc1028c.png",
+      "original_sha256": "1ce1c416d44a5e9d389553ecb6fc51ec69d0a66ea8775c349ec31279dcfb0623",
+      "operation": "官方V1P0手册原始PNG复制，无裁剪"
+    },
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S600_Module_V1P0_specs.png",
+      "sha256": "43198dd26a6e1cd4a2818e561f8b5c6a1302978919481ec39aae648efc319b2e",
+      "source_id": "Horizon_S600_Module_Brief",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_s600/rdk_s600/brief/drobotics_rdk_s600_module_brief_v1p0_zh.pdf",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/documents/Horizon_S600_--9a0f74cb6cdbc9d5/document.pdf",
+      "original_sha256": "9d323040b49a705a9e277682c89413cd15a3155cbd5b3ac44b594ba0828f1e1e",
+      "operation": "Poppler渲染PDF物理第2页，最长边2100px，整页无裁剪"
+    },
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S600_Kit_V1P0_specs.png",
+      "sha256": "4e1fe623c983f62f32bd3139cf104ea9a71ea591b1118fb94652a58d6ba5db4a",
+      "source_id": "Horizon_S600_Kit_Brief",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_s600/rdk_s600/brief/drobotics_rdk_s600_brief_v1p0_zh.pdf",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/documents/Horizon_S600_--ecb538e7f540bc90/document.pdf",
+      "original_sha256": "bc622459d216ad631162285f8dc659fc5573a2c55018d93dff8da35c51c4dc1a",
+      "operation": "Poppler渲染PDF物理第2页，最长边2100px，整页无裁剪"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "主体渊源、S600发布时间与成熟度",
+      "source_id": "Horizon_DRobotics_Funding_Relation",
+      "location": "2026-09-18公告",
+      "quote": "由地平线孵化；2025年11月推出；20多家客户",
+      "source_url": "https://www.horizon.auto/news/press/479",
+      "retrieved_at": "2026-11-05T01:24:52.069141+00:00",
+      "evidence_type": "厂商宣称",
+      "conditions": "厂商新闻，非独立运营统计",
+      "finding": "组织渊源与发布成立；客户数不等于在岗机器人数量"
+    },
+    {
+      "claim": "S600计算/RAM/模组SKU",
+      "source_id": "Horizon_S600_Module_Brief",
+      "location": "PDF物理1–2页，V1P0",
+      "quote": "4个BPU，共560TOPS@INT8；MS6X032064I / MS6X064256I；32/64GB LPDDR5, 256-bit",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_s600/rdk_s600/brief/drobotics_rdk_s600_module_brief_v1p0_zh.pdf",
+      "retrieved_at": "2026-11-05T01:37:34.257374+00:00",
+      "evidence_type": "事实",
+      "conditions": "32/64GB模组；峰值INT8，未给dense/sparse",
+      "finding": "与Kit手册交叉核验；不推端到端VLA性能"
+    },
+    {
+      "claim": "缓存、ECC、视觉专用资源",
+      "source_id": "Horizon_S600_Module_Brief",
+      "location": "PDF物理第2页",
+      "quote": "Up to 24MB on-chip SRAM with ECC protection；4x ISP；2x Vision Q8 DSP",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_s600/rdk_s600/brief/drobotics_rdk_s600_module_brief_v1p0_zh.pdf",
+      "retrieved_at": "2026-11-05T01:37:34.257374+00:00",
+      "evidence_type": "事实",
+      "conditions": "片上SRAM范围；ISP每单元峰值",
+      "finding": "不推全部DDR ECC、不加总成整机吞吐"
+    },
+    {
+      "claim": "MCU与低速接口数冲突",
+      "source_id": "Horizon_S600_Module_Brief",
+      "location": "PDF物理第2页对照产品页",
+      "quote": "One DCLS core pair and two Split-Lock cores；12x CAN",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_s600/rdk_s600/brief/drobotics_rdk_s600_module_brief_v1p0_zh.pdf",
+      "retrieved_at": "2026-11-05T01:37:34.257374+00:00",
+      "evidence_type": "未知",
+      "conditions": "简表首页6核；详细文字不完整；与网页低速数量不同",
+      "finding": "确认6核；独立任务与复用数量待完整设计包"
+    },
+    {
+      "claim": "套件SKU及实体I/O",
+      "source_id": "Horizon_S600_Kit_Manual",
+      "location": "型号说明、接口、BOOT SW8",
+      "quote": "KS6X032064C / KS6X064256C；2x 1GbE，2x 10GbE，1x 1GbE MCU",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/01_Quick_start/01_hardware_introduction/02_rdk_s600/01_rdk_s600_kit",
+      "retrieved_at": "2026-11-05T01:30:43.136257+00:00",
+      "evidence_type": "事实",
+      "conditions": "V1P0，网页5.1.1，2026-11-04更新",
+      "finding": "实体端口与MAC信号分层；UFS/NVMe启动不沿用S100旧限制"
+    },
+    {
+      "claim": "PCIe与USB共享拓扑",
+      "source_id": "Horizon_S600_Kit_Manual",
+      "location": "官方拓扑图；J5/J6/J7–J9",
+      "quote": "ASM2806I；ASM3042；Key M Gen4 x2；Key E Gen3 x1",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/01_Quick_start/01_hardware_introduction/02_rdk_s600/01_rdk_s600_kit",
+      "retrieved_at": "2026-11-05T01:30:43.136257+00:00",
+      "evidence_type": "事实",
+      "conditions": "V1P0载板",
+      "finding": "核验连线与实物接口图；未补出switch全部协商宽度"
+    },
+    {
+      "claim": "套件温度、尺寸、输入",
+      "source_id": "Horizon_S600_Kit_Brief",
+      "location": "PDF物理第2页",
+      "quote": "140mm x 123mm x 78mm；Op Temp. 0~60℃；12–28V",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_s600/rdk_s600/brief/drobotics_rdk_s600_brief_v1p0_zh.pdf",
+      "retrieved_at": "2026-11-05T01:37:36.329763+00:00",
+      "evidence_type": "事实",
+      "conditions": "V1P0简表，©2026，未注明月日",
+      "finding": "与模组-40~105℃分开，不把192W适配器当TDP"
+    },
+    {
+      "claim": "电压域与电源引脚",
+      "source_id": "Horizon_S600_Pinlist",
+      "location": "J1 POWER Connector B3/D3、J21 FAN D3/D5/D6、J3 JTAG D3/I3",
+      "quote": "J1 DCIN 12~28V；J21 12V/3.3V；JTAG TMS 1.8V",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_s600/rdk_s600/D-Robotics_RDK_S600_Connector_Application_Note_V1P0-20260922.xlsx",
+      "retrieved_at": "2026-11-05T01:33:31.358654+00:00",
+      "evidence_type": "事实",
+      "conditions": "V1P0-20260922工作簿，按单元格读取",
+      "finding": "不同参考与信号电压分开；J22遗留S100字样需确认"
+    },
+    {
+      "claim": "8GMSL物理接口与供电冲突",
+      "source_id": "Horizon_S600_Camera_Manual",
+      "location": "产品规格、J401、J501/J601",
+      "quote": "2x MAX96712；电流需求超过2A；每路最大550mA@12V",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Quick_start/hardware_introduction/rdk_s600/rdk_s600_camera_expansion_board",
+      "retrieved_at": "2026-11-05T01:33:16.456813+00:00",
+      "evidence_type": "事实",
+      "conditions": "V1P0，2026-11-04；表格另写2.4A",
+      "finding": "确认8物理口；分析按2A预留外供，不承诺8路满载"
+    },
+    {
+      "claim": "扩展板SKU和温度机械",
+      "source_id": "Horizon_S600_Camera_Brief",
+      "location": "PDF物理第5页",
+      "quote": "ES6XCAMXC；60x49x17mm；0℃~65℃",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_s600/rdk_s600_camera_expansion_board/drobotics_rdk_s600_camera_expansion_board_brief_v1p0_zh.pdf",
+      "retrieved_at": "2026-11-05T01:37:38.939563+00:00",
+      "evidence_type": "事实",
+      "conditions": "Rev1.0，2026-05",
+      "finding": "仅S600；尺寸用于规格记录不替代量产机械图"
+    },
+    {
+      "claim": "MCU扩展规格与历史冲突",
+      "source_id": "Horizon_S600_MCU_Manual",
+      "location": "产品规格、J501、IMU",
+      "quote": "5 x CAN FD（最高8Mbps）；最多7x ADC；70x70x17mm；SPI-13",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Quick_start/hardware_introduction/rdk_s600/rdk_s600_mcu_port_expansion_board",
+      "retrieved_at": "2026-11-05T01:33:21.832264+00:00",
+      "evidence_type": "事实",
+      "conditions": "V1P0网页2026-11-04；2026-05简表4ADC、70x50x12mm",
+      "finding": "采用更新入口保留冲突；料号、结构和pinlist需实物确认"
+    },
+    {
+      "claim": "S600 MCU扩展订货SKU",
+      "source_id": "Horizon_S600_MCU_Brief",
+      "location": "PDF物理第6页",
+      "quote": "ES6XMCUXC；70x50x12mm",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_s600/rdk_s600_mcu_port_expansion_board/drobotics_rdk_s600_mcu_port_expansion_board_brief_v1p0_zh.pdf",
+      "retrieved_at": "2026-11-05T01:37:41.444652+00:00",
+      "evidence_type": "事实",
+      "conditions": "Rev1.0，2026-05",
+      "finding": "仅作为原版SKU和历史尺寸，不覆盖当前网页差异"
+    },
+    {
+      "claim": "S100准确SKU与规格版本",
+      "source_id": "Horizon_01_Datasheet_9",
+      "location": "PDF物理1/3页",
+      "quote": "KS1E55Y / KS1P75Y；12GB / 24GB；80 / 128 TOPS",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_s100/rdk_s100/d_robotics_rdk_s100_board_zh_v1_2.pdf",
+      "retrieved_at": "2026-11-05T01:20:20.023980+00:00",
+      "evidence_type": "事实",
+      "conditions": "v1.2，封面2025-10；资源上传2026-02-10",
+      "finding": "采集时间、上传时间和封面分开"
+    },
+    {
+      "claim": "S100 INT8与HDMI冲突",
+      "source_id": "Horizon_RDK_S100_Product",
+      "location": "参数表与脚注",
+      "quote": "等效INT8；HDMI 1.4；100 GFLOPS",
+      "source_url": "https://cn.d-robotics.cc/rdkS100",
+      "retrieved_at": "2026-11-05T01:28:26.346376+00:00",
+      "evidence_type": "事实",
+      "conditions": "2026-11-05当前页面",
+      "finding": "INT8补精度，GPU仍未给精度；HDMI与PDF2.1冲突保留"
+    },
+    {
+      "claim": "S100场景功耗",
+      "source_id": "Horizon_S100_Power_XLSX",
+      "location": "S100工作表Normal/DeepSleep/LightSleep行",
+      "quote": "Normal20W/25W SIP；Power@5V；结温85℃",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_s100/rdk_s100/S100_SIP_Typical_Scenario_Power_Consumption_V1P0_20251015.xlsx",
+      "retrieved_at": "2026-11-05T01:18:39.779347+00:00",
+      "evidence_type": "事实",
+      "conditions": "V1P0_20251015；CPU/BPU80%，DDR100%，4GMSL+2MIPI1080p30",
+      "finding": "非TDP、非整板、非全单元100%；没有模型名与统计分布"
+    },
+    {
+      "claim": "STREAM条件与冲突",
+      "source_id": "Horizon_01_Pending_Doc_12",
+      "location": "源码编译参数、输出与后段说明",
+      "quote": "Triad 46431.4 MB/s；后段42987.3 MB/s",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/07_Advanced_development/02_linux_development/05_hardware_unit_test/08-ddr_bandwidth.md",
+      "retrieved_at": "2026-11-05T01:18:33.942269+00:00",
+      "evidence_type": "事实",
+      "conditions": "STREAM5.10，6线程，NTIMES100，10M元素，最佳排除首轮",
+      "finding": "采用输出作为CPU样例，不推P99/WCET/BPU"
+    },
+    {
+      "claim": "S100 MCU启动/私有源码",
+      "source_id": "Horizon_01_Pending_Doc_13",
+      "location": "MCU框架与remoteproc说明",
+      "quote": "MCU0；MCU1；FreeRTOS；WFI",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/07_Advanced_development/05_mcu_development/01_S100/01_basic_information.md",
+      "retrieved_at": "2026-11-05T01:18:34.920944+00:00",
+      "evidence_type": "事实",
+      "conditions": "S100原文，非S600六核文档",
+      "finding": "保留版本边界；MCU0源码商业获取"
+    },
+    {
+      "claim": "X5一体板计算与存储",
+      "source_id": "Horizon_01_Datasheet_1",
+      "location": "PDF物理第3页",
+      "quote": "10 TOPS INT8；1Gbit NAND；4GB/8GB LPDDR4",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_x5/d_robotics_rdk_x5_zh_v1_1.pdf",
+      "retrieved_at": "2026-11-05T01:19:51.432172+00:00",
+      "evidence_type": "事实",
+      "conditions": "v1.1，2025-05",
+      "finding": "1Gbit不写成1GB，不沿用Module eMMC"
+    },
+    {
+      "claim": "X5 Module 24SKU与生命周期",
+      "source_id": "Horizon_01_Datasheet_2",
+      "location": "PDF物理第3/4页、生产寿命段",
+      "quote": "RDKX5MD008032；RDKX5MD108064；至少2031",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_x5_module/drobotics_rdk_x5_module_zh_v1_2.pdf",
+      "retrieved_at": "2026-11-05T01:19:55.469517+00:00",
+      "evidence_type": "事实",
+      "conditions": "v1.2.0，2025-12",
+      "finding": "SKU编码逐项对照官方表；生产计划非库存/BSP支持"
+    },
+    {
+      "claim": "X5内存/供电/接口边界",
+      "source_id": "Horizon_X5_Design_Guide",
+      "location": "PDF物理第9/10页及GPIO说明",
+      "quote": "32bit LPDDR4 4266Mbps；260pins；4.75–5.25V；GPIO VREF pin78",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_x5_module/RDK%20X5%20Module%20Hardware%20Design%20Guide%20V1P1.pdf",
+      "retrieved_at": "2026-11-05T01:23:09.521087+00:00",
+      "evidence_type": "事实",
+      "conditions": "Rev1.1，2025-11；文件带专有标记",
+      "finding": "17.064GB/s为推导；旧Markdown300pins冲突；不当开放硬件授权"
+    },
+    {
+      "claim": "X3 Module寿命与温度",
+      "source_id": "Horizon_01_Datasheet_4",
+      "location": "规格及生产寿命",
+      "quote": "至少生产到2030；0~65℃带无线",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_x3_module/RDK%20X3%20MD.pdf",
+      "retrieved_at": "2026-11-05T01:20:04.807972+00:00",
+      "evidence_type": "事实",
+      "conditions": "v1.1.0旧代材料",
+      "finding": "不推长期软件支持或X5温度"
+    },
+    {
+      "claim": "Ultra旧代规格与兼容",
+      "source_id": "Horizon_01_Datasheet_6",
+      "location": "规格与生产寿命",
+      "quote": "等效96TOPS；69.6x45mm；至少2028",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_ultra/RDK_Ultra_Module_Product_Brief.pdf",
+      "retrieved_at": "2026-11-05T01:20:10.770472+00:00",
+      "evidence_type": "事实",
+      "conditions": "v1.0，未给明确发行日期",
+      "finding": "不补INT8、不推Jetson软件/drop-in兼容"
+    },
+    {
+      "claim": "定量功耗和热设计获取缺口",
+      "source_id": "Horizon_S600_Downloads",
+      "location": "S600资源表FTP商业目录",
+      "quote": "Thermal_Design_Guide_V1P0_20260420；Typical_Scenario_Power_Consumption_V1P0_20260428",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Quick_start/download",
+      "retrieved_at": "2026-11-05T01:33:26.415591+00:00",
+      "evidence_type": "未知",
+      "conditions": "清单有文件名，正文未取得",
+      "finding": "不是厂商未披露；未访问未授权FTP或猜测HTTP地址"
+    },
+    {
+      "claim": "官方采购渠道与金额缺口",
+      "source_id": "Horizon_S600_Waveshare_Quote",
+      "location": "官方手册授权链接；微雪SKU34887",
+      "quote": "RDK-S600-32G；SKU34887",
+      "source_url": "https://www.waveshare.net/shop/RDK-S600-32G.htm",
+      "retrieved_at": "2026-11-05T01:33:34.443407+00:00",
+      "evidence_type": "未知",
+      "conditions": "Nov5静态快照，价格动态占位",
+      "finding": "金额未取得，不填价格/税/MOQ/交期"
+    },
+    {
+      "claim": "6P口径不同",
+      "source_id": "Horizon_Journey6_Official",
+      "location": "征程6P算力脚注",
+      "quote": "1/2稀疏条件；560TOPS",
+      "source_url": "https://www.horizon.auto/solutions/horizon-journey/horizon-journey6",
+      "retrieved_at": "2026-11-05T01:24:37.965795+00:00",
+      "evidence_type": "事实",
+      "conditions": "车端产品网页",
+      "finding": "不套S600560TOPS"
+    },
+    {
+      "claim": "京东机器人采用成熟度",
+      "source_id": "Horizon_JD_Journey6P_DesignIn",
+      "location": "2026-09-11公告",
+      "quote": "独狼第六代Plus；未来3–5年",
+      "source_url": "https://www.horizon.auto/news/press/475",
+      "retrieved_at": "2026-11-05T01:24:46.243497+00:00",
+      "evidence_type": "厂商宣称",
+      "conditions": "design-in/预期",
+      "finding": "不推已交付百万台"
+    },
+    {
+      "claim": "文档仓库许可",
+      "source_id": "Horizon_RDK_License",
+      "location": "LICENSE",
+      "quote": "Apache License Version 2.0",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/LICENSE",
+      "retrieved_at": "2026-11-05T01:25:03.899112+00:00",
+      "evidence_type": "事实",
+      "conditions": "rdk_doc文档仓库",
+      "finding": "不扩大至runtime、IP、固件或硬件资料"
+    }
+  ],
+  "excluded_figures": [
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S600_official_architecture.png",
+      "reason": "官方营销页通用图为MP4+MP2/64bit，与S60018CPU/4BPU/256bit不一致；实际打开后排除"
+    },
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S600_official_module_table.png",
+      "reason": "HTML衍生截图样式失败；未使用"
+    }
+  ],
+  "manual_review": {
+    "coverage": "覆盖S600、S100、X5/Module、必要X3/Ultra；计算SKU、存储、带宽机制、实体接口、MCU、电压、功耗条件、温度、寿命、采购、许可与条件选型均核验。缺口有分类。",
+    "versions_and_measurements": "S600 V1P0与5.1.1分开；S100PDF封面/上传分开；STREAM最佳值非P99，SIP非整板；TOPS不跨代补精度或稀疏。",
+    "maturity_and_licenses": "厂商成熟度及design-in/预测分开；文档Apache2.0不扩展运行时/硬件；FTP商业资料未取得。",
+    "figures_opened": "7张嵌入官方图实际打开：S600拓扑/接口/两PDF第2页，S100拓扑/MCU，X5ModuleSKU第4页；标签冲突在文中披露。全部可见，无空白或截断。"
+  },
+  "archive_partial": [
+    [
+      "Horizon_DRobotics_Funding_Relation",
+      23,
+      25
+    ],
+    [
+      "Horizon_Journey6_Official",
+      109,
+      111
+    ],
+    [
+      "Horizon_JD_Journey6P_DesignIn",
+      25,
+      27
+    ]
+  ]
+}

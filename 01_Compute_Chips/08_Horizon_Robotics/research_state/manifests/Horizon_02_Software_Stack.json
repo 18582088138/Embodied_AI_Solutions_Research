@@ -1,0 +1,298 @@
+[
+  {
+    "name": "H02_MCU_Code",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/code_release",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_TROS_Manual",
+    "url": "https://developer.d-robotics.cc/tros_doc/tros",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_OE_PTQ_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/62300.e55caad1.js",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_Hbmem",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/hbmem_sample_guide",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_IPC",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_ipc",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_S600_511_Release",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Release_Note/s600/v5_1_1",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_S100_Release",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/10_Release_Note/01_v4_0_5_260507.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_OE37",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/toolchain_development/algorithm_toolchain/overview",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_LLM20",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/toolchain_development/LLM_Toolchain/rdk_s600/LLM_Toolchain_v2_0_0",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_TROS_Release",
+    "url": "https://developer.d-robotics.cc/tros_doc/quick_start/changelog",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_DNN_Package",
+    "url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/package.xml",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_OE_Compile_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/49841.f8e6a5ca.js",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_Dynamic_Asset_10",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/image/model_conversion_compilation.914a0e0b.png",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_LLM_Compile_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/50188.3b7997bf.js",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_OE_Dynamic_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/24642.789c7af3.js",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_UCP_Flush_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/80056.5ccac469.js",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_Car_Tracking",
+    "url": "https://developer.d-robotics.cc/tros_doc/apps/car_tracking",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_TROS_Sensor",
+    "url": "https://developer.d-robotics.cc/tros_doc/quick_demo/demo_sensor",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_TROS_SLAM",
+    "url": "https://developer.d-robotics.cc/tros_doc/apps/slam",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_Navigation",
+    "url": "https://developer.d-robotics.cc/tros_doc/apps/navigation2",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_DNN_Pinned_Readme",
+    "url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/README_cn.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_Miniboot",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/OTA/ota_miniboot",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_OTA",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/OTA/ota_system",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_Build",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/rdk_gen",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_Pipeline",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/sample_pipeline",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_Sunrise",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/sunrise_camera_develop_guide",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_GPU",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/sample_gpu_3d",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_VDSP",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/vdsp_development",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_CAN",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_can",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_EtherCAT",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_ethercat",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_TROS_Zero",
+    "url": "https://developer.d-robotics.cc/tros_doc/tros_dev/zero_copy",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_DNN_API",
+    "url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/docs/API-Manual/API-Manual.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_LLM_Perf_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/42166.bab9ba30.js",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_LLM_VLABench_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/7805.87d8031b.js",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_LLM_VLA_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/26444.95f492ac.js",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "Horizon_RDK_License",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "H02_OE_License_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/5603.b7581455.js",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  }
+]

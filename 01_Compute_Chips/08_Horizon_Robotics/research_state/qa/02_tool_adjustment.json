@@ -1,0 +1,10 @@
+{
+  "tool": "toolkit/check_report.py",
+  "sha256": "0d6fbc8b3cb9f76a659f43935b51ada4cb0d148dfef9021d088bcd0c31f1d350",
+  "changes": [
+    "Exclude 资料与核验 footer from effective body count",
+    "Validate official content JS/hash and offline text/rendered HTML provenance before accepting document route"
+  ],
+  "reason": "动态Rspress正文不在入口HTML内，维持原件及衍生哈希检查，未把空壳页面作为语义证据",
+  "limits": "结构与哈希核验不自动证明语义事实或实机性能"
+}

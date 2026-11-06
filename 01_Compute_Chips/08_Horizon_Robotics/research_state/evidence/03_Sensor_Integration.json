@@ -1,0 +1,104 @@
+{
+  "source_ids": [
+    "Horizon_S600_Camera_Manual",
+    "H02_TROS_Sensor",
+    "H03_Current_Sync",
+    "H03_S100_Sync",
+    "H03_S100_Time",
+    "H03_S100_Bringup",
+    "H02_Pipeline",
+    "H02_Hbmem",
+    "H02_TROS_Zero",
+    "H03_X5_IMU",
+    "H03_Stereo"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H03_S600_Camera_Topology.png",
+      "sha256": "2ad75e09949f8fbc79df624fd4c1c6080981b765e5a0f677d1a515a7a80e2c48",
+      "source_id": "Horizon_S600_Camera_Manual",
+      "source_url": "http://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/01_Quick_start/image/hardware_interface/image-rdk_s600_camera_expansion_board_architecture_diagram.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/Horizon_S600_C--57531817dea53237/assets/images/f86ff16c16f2f9bbba392fb5.png",
+      "original_sha256": "2ad75e09949f8fbc79df624fd4c1c6080981b765e5a0f677d1a515a7a80e2c48",
+      "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+    },
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H03_Camera_Lidar_Sync.png",
+      "sha256": "7932c6aef892051248f2e033b89bc22e8a2fca16bc0837085f3a2e1a24131ccb",
+      "source_id": "H03_Current_Sync",
+      "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/07_Advanced_development/03_multimedia_development/02_S100/cam_sync/05_camera_sync_03.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H03_Current_Sy--ccb05c49965cfca1/assets/images/fb7e90a01f0585e5d1697c7f.png",
+      "original_sha256": "7932c6aef892051248f2e033b89bc22e8a2fca16bc0837085f3a2e1a24131ccb",
+      "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+    },
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H03_Stereo_SDK_ROS.png",
+      "sha256": "638d6e7e985c662d4b323db19fbf510c3746a870fc9f9e28c1f90de29bd88d54",
+      "source_id": "H02_TROS_Sensor",
+      "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/05_Robot_development/02_quick_demo/image/demo_sensor/stereo-camera-ros-arch.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_TROS_Senso--d7494a221f0c3960/assets/images/3655127f31d9edd702404421.png",
+      "original_sha256": "638d6e7e985c662d4b323db19fbf510c3746a870fc9f9e28c1f90de29bd88d54",
+      "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "Horizon_S600_Camera_Manual",
+      "location": "2x Maxim MAX96712",
+      "claim": "S600外部解串板与电源冲突",
+      "finding": "八路属于扩展板；2A/2.4A冲突保留，不外推并发",
+      "quote": "，接口均匀受力完成扣合，且连接紧密，以免损坏连接器。 产品规格​ 名称参数解串器2x Maxim MAX96712GMSL 连接器2x FAKRA-Mini 4in1外部供电12V DC，仅用于电流需求大于 2.4A 时，最大 4.8A。工作温度0℃~65℃ 拓扑图​ 接口说明​ 位号功能J402板对板连接器J401DC 电源输入J501GMSL 相机接口#0J601GMSL 相机接口#1D2000电源指示灯 接口说明​ 板对板连接器（J402）​ Camera 扩展板与 RDK S600 的连接端口，为 Camera 扩展板提供功能接口（MIPI CSI 和 GPIO）以及电源（12V、3.3V 和 1.8V）。 注意使用时，请确认 Camera 扩展板与 RDK S600 之间的连接器已完全扣合，并安装固定螺丝，以确保信号连接的可靠性。 DC 电源输入（J401）​ Camera 扩展板为 GMSL 相机配备了一个外部 12V 电源输入接口。当连接至该 Camera 扩展板的所有 GMSL 相机在 12V 电压下的供电电流需求超过 2A 时，需通过此 DC 电源",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Quick_start/hardware_introduction/rdk_s600/rdk_s600_camera_expansion_board"
+    },
+    {
+      "source_id": "H03_Current_Sync",
+      "location": "536.871",
+      "claim": "同步参数适用范围",
+      "finding": "正文写S100，页眉S600；偏移属于特定fixed mode",
+      "quote": "步源，使用 fixed mode 时，其上升沿基于 PPS 整秒时间有一固定偏移536.871ms，需要在使用时按需求进行 offset 计算与配置，更多可参考: Acore ETH PPS说明 Camera 同步模式选择​ Sensor 曝光输出一般有 Master 模式(主动曝光输出，按配置，只要开流自动出帧)与 Slave 模式(等待触发曝光输出、需 trigger 后才输出)，对于一般运行默认使用 Master 模式运行，而要同步输出则使用 Slave 模式。 以下为 AR0820模组的 Slave 模式说明：以下以 AR0820为例说明。 同样的 slave 模式，还有多种同步方式，其中常用的为 shutter sync: 该模式在 trigger 后固定时间出图(可保证 FS 时间戳对齐)，且下不会丢失 trigger 信号(即在出图过程中来了 trigger 信号，不会被忽略)。 配置有如下: // 参见: source/hobot-camera/drivers/sensor/ar0820/inc/ar0820_setting.huint16_t ar",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/multimedia_development/camerasync"
+    },
+    {
+      "source_id": "H02_TROS_Sensor",
+      "location": "RealSense 图像采集",
+      "claim": "深度相机路线",
+      "finding": "SDK与ROS包装分层，支持表X3/X5不外推S600",
+      "quote": ".b 环境 参数是否正确，具体参考 Hobot_Sensors README。 RealSense 图像采集​功能介绍​双目相机是机器人开发常用的传感器，经常扮演着机器人“眼睛”的角色。双目相机在机器人上的应用涵盖了多个方面，例如导航避障、目标识别、三维重建、人机交互等。RDK 平台也支持市面上常见的双目相机，例如 RealSense、Orbbec、ZED 等系列相机。目前 RealSense 和 Orbbec 的双目相机在 ROS 上的使用是按照如下架构实现的，首先需要不同硬件平台上编译的 SDK 库文件，相机的 SDK 提供了相机启动、相机设置等 API 接口，在此基础上，再进行 ROS 封装，即可实现 ROS 调用相机。所以，双目相机 ROS 功能包的一般安装流程是：首先安装相机的 SDK 库文件，然后安装相机的 ROS 封装功能包。本节介绍 RealSense 相机在 RDK 平台上的使用方法。支持平台​平台运行方式RDK X3, RDK X3 ModuleUbuntu 20.04 (Foxy), Ubuntu 22.04 (Humble)RDK X5, R",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/tros_doc/quick_demo/demo_sensor"
+    },
+    {
+      "source_id": "H03_Stereo",
+      "location": "目前还不支持在线运行VIO",
+      "claim": "双目VIO成熟度",
+      "finding": "PC离线录包计算，非X5在线实测",
+      "quote": "目VIO算法（以OpenVINS为例）\n\n### 6.1. 录制rosbag\n\n目前还不支持在线运行VIO算法，需要录制rosbag后在PC上进行计算\n\n- 运行指令\n\n```bash\nsource /opt/tros/humble/setup.bash\n\nros2 pkg prefix mipi_cam\n\nros2 launch mipi_cam mipi_cam_dual_channel.launch.py \\\nmipi_channel:=2 mipi_channel2:=0 \\\nmipi_lpwm_enable:=True mipi_frame_ts_type:=realtime \\\nmipi_image_width:=816 mipi_image_height:=960 \\\nmipi_image_framerate:=10.0 mipi_gdc_enable:=False \\\nmipi_out_format:=nv12 \\\nlog_level:=warn\n```\n\n- 主要录制imu数据话题和双目图像话题，由于RDK X5写入数据的性能有限，不建议录制太长时",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs/05_Robot_development/03_boxs/spatial/stereo_imu_cam.md"
+    },
+    {
+      "source_id": "H03_S100_Bringup",
+      "location": "struct serdes_ctx",
+      "claim": "驱动数据契约",
+      "finding": "lane/data_type/vc/地址配置，不能即插即用推导",
+      "quote": "struct serdes_device *dser_dev;\n        struct serdes_ctx g_ctx;\n        ..\n};\n```\n\nsensor驱动需要包含ser_dev与dser_dev两个结构体，用来操作加串和解串;\n需要包含serdes contex g_ctx成员，用来保存serdes相关属性，其中主要使用的结构体成员说明如下：\n```c\nstruct serdes_ctx {\n        u32 serdes_csi_link;    // 在 sensor 驱动中保存解串器的port 值\n        u32 ser_reg;            //加串器i2c地址映射目标值\n        u32 sdev_reg;            // sensor 实际i2c地址\n        u32 sdev_def;            // sensor i2c地址映射目标值\n        struct device *sen_dev;\n        u32 lane_num;           ",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/07_Advanced_development/03_multimedia_development/01_S100/02_camera_bringup.md"
+    }
+  ],
+  "manual_review": {
+    "coverage": "当前维度覆盖与可复建验证详见正文；事实、厂商称、假设计算和未取得项区分",
+    "versions_and_measurements": "S6005.1.1与S1004.0.5、X5分开；编译/单算子/模型/机器人时延分开；未知条件未补造",
+    "maturity_and_licenses": "官方样例、合作计划、实机和商业运营分层；代码/权重/资产/商业SDK许可分别核对",
+    "figures_opened": "正文官方图逐张实际打开；支持的结论与版本限制见图注"
+  },
+  "archive_partial": [],
+  "dynamic_provenance": []
+}

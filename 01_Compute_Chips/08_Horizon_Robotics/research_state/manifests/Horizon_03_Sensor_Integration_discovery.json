@@ -1,0 +1,10 @@
+[
+  {
+    "name": "H03_Current_Sync",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/multimedia_development/camerasync",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  }
+]

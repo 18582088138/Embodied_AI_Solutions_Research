@@ -1,0 +1,74 @@
+[
+  {
+    "name": "H04_Pi0",
+    "source_id": "H04_Pi0_Content",
+    "root_source": "H02_LLM_Manual",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_sample/pi0_pi05_demo"
+  },
+  {
+    "name": "H04_Smol",
+    "source_id": "H04_Smol_Content",
+    "root_source": "H02_LLM_Manual",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_sample/smolvla_demo"
+  },
+  {
+    "name": "H04_Config",
+    "source_id": "H04_Config_Content",
+    "root_source": "H02_LLM_Manual",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_sample/config_basic"
+  },
+  {
+    "name": "H04_LLM_Bench",
+    "source_id": "H04_LLM_Bench_Content",
+    "root_source": "H02_LLM_Manual",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/benchmark/s600/llm_benchmark"
+  },
+  {
+    "name": "H04_VLM_Bench",
+    "source_id": "H04_VLM_Bench_Content",
+    "root_source": "H02_LLM_Manual",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/benchmark/s600/vlm_benchmark"
+  },
+  {
+    "name": "H05_Sim",
+    "source_id": "H05_Sim_Content",
+    "root_source": "H02_LLM_Manual",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/sim_loop/overview"
+  },
+  {
+    "name": "H05_LIBERO",
+    "source_id": "H05_LIBERO_Content",
+    "root_source": "H02_LLM_Manual",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/sim_loop/libero"
+  },
+  {
+    "name": "H05_RoboTwin",
+    "source_id": "H05_RoboTwin_Content",
+    "root_source": "H02_LLM_Manual",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/sim_loop/robotwin"
+  },
+  {
+    "name": "H05_Serving",
+    "source_id": "H05_Serving_Content",
+    "root_source": "H02_LLM_Manual",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/sim_loop/vla_serving"
+  },
+  {
+    "name": "H06_Types",
+    "source_id": "H06_Types_Content",
+    "root_source": "H02_LLM_Manual",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_api/vla_types"
+  },
+  {
+    "name": "H06_Policy",
+    "source_id": "H06_Policy_Content",
+    "root_source": "H02_LLM_Manual",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_api/framework_layer/vla_policy"
+  },
+  {
+    "name": "H06_Advanced",
+    "source_id": "H06_Advanced_Content",
+    "root_source": "H02_LLM_Manual",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_sample/config_advanced"
+  }
+]

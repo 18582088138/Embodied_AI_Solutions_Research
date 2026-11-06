@@ -1,0 +1,32 @@
+{
+  "time_utc": "2026-11-05T03:06:38.885955+00:00",
+  "summary": {
+    "complete_static": 17,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "H02_TROS_Manual",
+    "H02_TROS_Sensor",
+    "H02_TROS_CurrentInstall",
+    "H02_TROS_Release",
+    "H02_S600_511_Release",
+    "H02_DNN_Repo",
+    "H02_DNN_Pinned_Readme",
+    "H02_DNN_Package",
+    "H02_Navigation",
+    "H02_Car_Tracking",
+    "H02_DNN_Flow",
+    "H02_DNN_API",
+    "H02_TROS_Zero",
+    "H02_OE_PTQ_Content",
+    "H02_LLM_Compile_Content",
+    "H02_IPC",
+    "H02_EtherCAT",
+    "H02_TROS_SLAM"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

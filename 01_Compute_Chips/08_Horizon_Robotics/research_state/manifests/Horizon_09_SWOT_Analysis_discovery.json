@@ -1,0 +1,10 @@
+[
+  {
+    "name": "H09_Reports_Official_Embed",
+    "url": "https://horizon.vislan.com/report/index.html?lang=zh-cn",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  }
+]

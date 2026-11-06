@@ -1,0 +1,18 @@
+[
+  {
+    "name": "H08_Arm_A78AE",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/cortex-a/cortex-a78ae",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H08_Isaac_Safety",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/concepts/safety.html",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  }
+]

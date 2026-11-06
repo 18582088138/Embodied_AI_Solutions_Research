@@ -1,0 +1,32 @@
+[
+  {
+    "name": "H02_TROS_Prepare",
+    "url": "https://developer.d-robotics.cc/tros_doc/quick_start/preparation",
+    "expected": "html"
+  },
+  {
+    "name": "H02_TROS_Zero",
+    "url": "https://developer.d-robotics.cc/tros_doc/tros_dev/zero_copy",
+    "expected": "html"
+  },
+  {
+    "name": "H02_TROS_DNN",
+    "url": "https://developer.d-robotics.cc/tros_doc/quick_demo/ai_predict",
+    "expected": "html"
+  },
+  {
+    "name": "H02_TROS_Reid",
+    "url": "https://developer.d-robotics.cc/tros_doc/boxs/body/reid",
+    "expected": "html"
+  },
+  {
+    "name": "H02_TROS_SLAM",
+    "url": "https://developer.d-robotics.cc/tros_doc/apps/slam",
+    "expected": "html"
+  },
+  {
+    "name": "H02_TROS_Sensor",
+    "url": "https://developer.d-robotics.cc/tros_doc/quick_demo/demo_sensor",
+    "expected": "html"
+  }
+]

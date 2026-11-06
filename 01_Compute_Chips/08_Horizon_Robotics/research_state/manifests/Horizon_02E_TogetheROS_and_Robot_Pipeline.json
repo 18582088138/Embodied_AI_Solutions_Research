@@ -1,0 +1,146 @@
+[
+  {
+    "name": "H02_TROS_Manual",
+    "url": "https://developer.d-robotics.cc/tros_doc/tros",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  },
+  {
+    "name": "H02_TROS_Sensor",
+    "url": "https://developer.d-robotics.cc/tros_doc/quick_demo/demo_sensor",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  },
+  {
+    "name": "H02_TROS_CurrentInstall",
+    "url": "https://developer.d-robotics.cc/tros_doc/quick_start/install_tros",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  },
+  {
+    "name": "H02_TROS_Release",
+    "url": "https://developer.d-robotics.cc/tros_doc/quick_start/changelog",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  },
+  {
+    "name": "H02_S600_511_Release",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Release_Note/s600/v5_1_1",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  },
+  {
+    "name": "H02_DNN_Repo",
+    "url": "https://github.com/D-Robotics/hobot_dnn",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  },
+  {
+    "name": "H02_DNN_Pinned_Readme",
+    "url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/README_cn.md",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  },
+  {
+    "name": "H02_DNN_Package",
+    "url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/package.xml",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  },
+  {
+    "name": "H02_Navigation",
+    "url": "https://developer.d-robotics.cc/tros_doc/apps/navigation2",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  },
+  {
+    "name": "H02_Car_Tracking",
+    "url": "https://developer.d-robotics.cc/tros_doc/apps/car_tracking",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  },
+  {
+    "name": "H02_DNN_Flow",
+    "url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/docs/dnnnode_workflow.jpg",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  },
+  {
+    "name": "H02_DNN_API",
+    "url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/docs/API-Manual/API-Manual.md",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  },
+  {
+    "name": "H02_TROS_Zero",
+    "url": "https://developer.d-robotics.cc/tros_doc/tros_dev/zero_copy",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  },
+  {
+    "name": "H02_OE_PTQ_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/62300.e55caad1.js",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  },
+  {
+    "name": "H02_LLM_Compile_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/50188.3b7997bf.js",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  },
+  {
+    "name": "H02_IPC",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_ipc",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  },
+  {
+    "name": "H02_EtherCAT",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_ethercat",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  },
+  {
+    "name": "H02_TROS_SLAM",
+    "url": "https://developer.d-robotics.cc/tros_doc/apps/slam",
+    "expected": "any",
+    "used_by": [
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ]
+  }
+]

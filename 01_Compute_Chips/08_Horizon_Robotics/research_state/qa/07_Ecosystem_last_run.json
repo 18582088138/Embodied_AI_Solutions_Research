@@ -1,0 +1,42 @@
+{
+  "time_utc": "2026-11-05T04:22:35.284127+00:00",
+  "summary": {
+    "complete_static": 26,
+    "partial_static": 2,
+    "failed": 0
+  },
+  "names": [
+    "Horizon_DRobotics_Funding_Relation",
+    "Horizon_JD_Journey6P_DesignIn",
+    "H07_OrbbecSDK",
+    "H02_TROS_Sensor",
+    "H07_Orbbec_License",
+    "H07_Studio",
+    "H07_Studio_Version",
+    "H07_Studio_Arch",
+    "H07_Studio_Hardware",
+    "H02_X5_PTQ",
+    "H04_Openpi",
+    "H04_LeRobot",
+    "H02_DNN_Pinned_Readme",
+    "H02_DNN_Package",
+    "H02_TROS_Release",
+    "H05_RoboTwin_Content",
+    "H05_LIBERO_Content",
+    "H05_Serving_Content",
+    "H07_Developer",
+    "H06_DDC",
+    "Horizon_S600_Docs_v510",
+    "Horizon_S600_Waveshare_Quote",
+    "H02_Build",
+    "H02_OTA",
+    "H02_Miniboot",
+    "Horizon_RDK_S600",
+    "Horizon_S600_Camera_Manual",
+    "H02_MCU_Code"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

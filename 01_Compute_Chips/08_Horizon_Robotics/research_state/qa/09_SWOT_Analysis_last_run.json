@@ -1,0 +1,37 @@
+{
+  "time_utc": "2026-11-05T04:40:47.590212+00:00",
+  "summary": {
+    "complete_static": 20,
+    "partial_static": 3,
+    "failed": 0
+  },
+  "names": [
+    "Horizon_DRobotics_Funding_Relation",
+    "H09_Reports_Index",
+    "Horizon_JD_Journey6P_DesignIn",
+    "Horizon_RDK_S600",
+    "H02_LLM_Compile_Content",
+    "H04_Pi0_Content",
+    "H03_Current_Sync",
+    "H02_EtherCAT",
+    "H02_MCU_Code",
+    "H02_Miniboot",
+    "H07_Developer",
+    "Horizon_S600_Camera_Manual",
+    "H02_MCU_Info",
+    "H05_RoboTwin_Repo",
+    "Horizon_S600_Module_Brief",
+    "Horizon_S600_Waveshare_Quote",
+    "Horizon_S600_Downloads",
+    "H09_PIPL_CAC",
+    "H09_GenAI",
+    "H04_Openpi_License",
+    "H04_LeRobot_License",
+    "H05_Sim_Content",
+    "H02_TROS_Install"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

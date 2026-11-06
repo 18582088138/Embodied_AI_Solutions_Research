@@ -1,0 +1,12 @@
+[
+  {
+    "name": "H02_OE37",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/toolchain_development/algorithm_toolchain/overview",
+    "expected": "html"
+  },
+  {
+    "name": "H02_LLM20",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/toolchain_development/LLM_Toolchain/rdk_s600/LLM_Toolchain_v2_0_0",
+    "expected": "html"
+  }
+]

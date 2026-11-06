@@ -1,0 +1,372 @@
+{
+  "platform": "Horizon / D-Robotics",
+  "scope": "Horizon/D-Robotics 01—09；01已批准，02已完成；本轮顺序完成03—09",
+  "data_cutoff": "2026-11-05 Asia/Shanghai；旧Nov3快照保留原采集时间，新资料Nov5采集",
+  "authorization": "用户明确授权继续03～09，逐章自检后连续进行，无需逐章审批",
+  "review_status": "03_09_complete_pending_user_review",
+  "completed_dimensions": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+  ],
+  "current_dimension": "09_SWOT_Analysis_complete",
+  "pending_evidence": [
+    "S600完整功耗/热设计/699-pin设计包列于FTP商业目录，未取得正文",
+    "S600算力dense/sparse条件与目标模型端到端实测",
+    "确定性控制WCET/系统安全证书与安全手册",
+    "带金额、税/数量/交期条件的有效报价及长期供货PCN承诺",
+    "S600 MCU扩展机械/ADC、相机电源阈值等官方冲突需FAE/实物确认",
+    "02：S6005.1.1与OE/TROS5.1.0绑定说明的成套依赖和回归",
+    "02：商业BSP/MCAL/VDSP完整交付与许可依赖审计",
+    "02：媒体/BPU/ROS/MCU并发热稳定、帧年龄、P99/WCET",
+    "02：VLA状态/关节单位/horizon到真实执行器闭环接口与效果",
+    "02：Sunrise混代API/格式和EtherCAT周期日志冲突需正式SDK复核",
+    "03—09：官方财报嵌入页与三份HF模型卡本轮未取得",
+    "03—09：同任务量化前后质量、真实成功/介入/停机和ROI",
+    "03—09：具体SKU贸易分类、配套政策与项目数据流适用核验"
+  ],
+  "next_step": "用户审阅03—09；如需补证或修订按指定章节继续，不启动其他平台",
+  "validation": {
+    "report": "pass",
+    "body_han_chars": 6603,
+    "tables": 6,
+    "sources": 34,
+    "figures": 7,
+    "network_requests_final": 0,
+    "archive_status": {
+      "partial_static": 3,
+      "complete_static": 31
+    },
+    "other_reports_unchanged": {
+      "02_Software_Stack.md": true,
+      "03_Sensor_Integration.md": true,
+      "04_AI_Capabilities.md": true,
+      "05_Simulation_Environment.md": true,
+      "06_Robot_Integration.md": true,
+      "07_Ecosystem.md": true,
+      "08_Proprietary_Technologies.md": true,
+      "09_SWOT_Analysis.md": true
+    },
+    "warnings": [
+      "静态依赖部分缺失: Horizon_DRobotics_Funding_Relation（报告应披露）",
+      "静态依赖部分缺失: Horizon_Journey6_Official（报告应披露）",
+      "静态依赖部分缺失: Horizon_JD_Journey6P_DesignIn（报告应披露）"
+    ]
+  },
+  "report_sha256": "03b9d99ccfc27034bd1841ec3951c3532384d1b9e7434b73b219d78e87f01c79",
+  "preservation": "本轮03—09逐章基线与最终审计核验01、02全部报告/索引及旧08稿哈希未变；旧03—07、09保存至history",
+  "software_depth_topics": {
+    "planned": [
+      "02A_BSP_and_Lifecycle",
+      "02B_BPU_Compiler_and_Runtime",
+      "02C_HUCP_and_Multimedia",
+      "02D_MCU_and_Industrial_Communication",
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ],
+    "completed": [
+      "02A_BSP_and_Lifecycle",
+      "02B_BPU_Compiler_and_Runtime",
+      "02C_HUCP_and_Multimedia",
+      "02D_MCU_and_Industrial_Communication",
+      "02E_TogetheROS_and_Robot_Pipeline"
+    ],
+    "checks": {
+      "02A_BSP_and_Lifecycle": {
+        "outcome": "pass",
+        "sources": 11,
+        "figures": 2,
+        "body_han_chars": 2288,
+        "zero_network_reuse": true
+      },
+      "02B_BPU_Compiler_and_Runtime": {
+        "outcome": "pass",
+        "sources": 22,
+        "figures": 2,
+        "body_han_chars": 2768,
+        "zero_network_reuse": true
+      },
+      "02C_HUCP_and_Multimedia": {
+        "outcome": "pass",
+        "sources": 12,
+        "figures": 2,
+        "body_han_chars": 2389,
+        "zero_network_reuse": true
+      },
+      "02D_MCU_and_Industrial_Communication": {
+        "outcome": "pass",
+        "sources": 10,
+        "figures": 2,
+        "body_han_chars": 2246,
+        "zero_network_reuse": true
+      },
+      "02E_TogetheROS_and_Robot_Pipeline": {
+        "outcome": "pass",
+        "sources": 18,
+        "figures": 2,
+        "body_han_chars": 2542,
+        "zero_network_reuse": true
+      }
+    },
+    "current_resume": "02完成，等待用户审阅",
+    "review_status": "complete_pending_user_review",
+    "union_manifest": "toolkit/manifests/Horizon_02_union.json",
+    "union_sources": 59,
+    "presentation_dependencies": 14,
+    "union_archive_status": {
+      "complete_static": 72,
+      "partial_static": 1,
+      "failed": 0
+    },
+    "final_zero_network": true,
+    "overview_check": "pass",
+    "index_check": "pass",
+    "dynamic_offline_pages": 14,
+    "distinct_official_figures": 10
+  },
+  "software_validation": {
+    "report_sha256": {
+      "02_Software_Stack": "58ce1bed834b41b922016bdb79414b4fc2a20f7f2287c56c579d1c5a88f3084e",
+      "02A_BSP_and_Lifecycle": "3b928216a7176410abed1925fe0e7ac20121a66d05cd603582561a858af64885",
+      "02B_BPU_Compiler_and_Runtime": "15452686f85428183379a123681ae5cbabaf8f93d25aeac4f10bf1d026ad5bc1",
+      "02C_HUCP_and_Multimedia": "0cc7b44cc1eb66db4689eedd6e2d5212b3735c67d40bebf52df3d6ece0151471",
+      "02D_MCU_and_Industrial_Communication": "5babf9b375b9096820af5eb81b706c53465ea8be453eb09dd5c2b8161ce84a64",
+      "02E_TogetheROS_and_Robot_Pipeline": "c9e8da6f72aed7219c49cd5d30c8a8efc958efe2f448ef0f173a0510bbff2d6d",
+      "02_Topics_Index": "c77486138c0fb232668cd7164cb1d8a7382d497e77a69e8a854cdbe28406389d"
+    },
+    "protected_reports": {
+      "01_Hardware_Platform.md": true,
+      "03_Sensor_Integration.md": true,
+      "04_AI_Capabilities.md": true,
+      "05_Simulation_Environment.md": true,
+      "06_Robot_Integration.md": true,
+      "07_Ecosystem.md": true,
+      "08_Proprietary_Technologies.md": true,
+      "09_SWOT_Analysis.md": true
+    },
+    "all_report_checks": "pass",
+    "union_final_network_requests": 0,
+    "measured_on_hardware": false
+  },
+  "continuation_checks": {
+    "03_Sensor_Integration": {
+      "outcome": "pass",
+      "sources": 11,
+      "figures": 3,
+      "body_han_chars": 1817,
+      "zero_network_reuse": true,
+      "sha256": "dc06e655cfc9c59ff9b5cc825b2078f3c25bb0e815a10c92af997dedc3b9f237"
+    },
+    "04_AI_Capabilities": {
+      "outcome": "pass",
+      "sources": 25,
+      "figures": 2,
+      "body_han_chars": 2132,
+      "zero_network_reuse": true,
+      "sha256": "3477f96e9f400d446046d4ed5654f4ceed229b076c50e6a6af92c7a591c6f891"
+    },
+    "05_Simulation_Environment": {
+      "outcome": "pass",
+      "sources": 9,
+      "figures": 1,
+      "body_han_chars": 1977,
+      "zero_network_reuse": true,
+      "sha256": "da13d98af65e85d29e52b74f351e9c39dc5e521aefa18b6a85e942de0bddf1ef"
+    },
+    "06_Robot_Integration": {
+      "outcome": "pass",
+      "sources": 14,
+      "figures": 1,
+      "body_han_chars": 2170,
+      "zero_network_reuse": true,
+      "sha256": "4aa80be1ba74f8af2b6f6bc729e1767de8b717a66f53cab577f92ce2e06b194d"
+    },
+    "07_Ecosystem": {
+      "outcome": "pass",
+      "sources": 28,
+      "figures": 1,
+      "body_han_chars": 2262,
+      "zero_network_reuse": true,
+      "sha256": "0a82d79542c14b546856293318f8b83c721a9a313d8b72bac7f9326044abdf4a"
+    },
+    "08A_Compute_Compilation_and_Quantization": {
+      "outcome": "pass",
+      "sources": 15,
+      "figures": 2,
+      "body_han_chars": 2093,
+      "zero_network_reuse": true,
+      "sha256": "d83d3af9c4c7efbed49854f57c1563331afcfbbe62411aa1f26758ee7c587caf"
+    },
+    "08B_Sensor_Memory_and_Time": {
+      "outcome": "pass",
+      "sources": 13,
+      "figures": 2,
+      "body_han_chars": 2214,
+      "zero_network_reuse": true,
+      "sha256": "f7e9f3b9415c48106635bcf9555d5a9e5eea470762eeb0fce99c7dc8427c4d97"
+    },
+    "08C_Real_Time_Trust_and_Lifecycle": {
+      "outcome": "pass",
+      "sources": 16,
+      "figures": 1,
+      "body_han_chars": 2211,
+      "zero_network_reuse": true,
+      "sha256": "86649ad33c4b6c59f5122cb4771e7618295cab65cfcc88775ea01eb2824be65f"
+    },
+    "08_Core_Technology_Moat": {
+      "outcome": "pass",
+      "sources": 22,
+      "figures": 1,
+      "body_han_chars": 2067,
+      "zero_network_reuse": true,
+      "sha256": "0e2b7dd9cccd3247d741b80ba4772a563dc1119057069240f39d86313e2567cc"
+    },
+    "09_SWOT_Analysis": {
+      "outcome": "pass",
+      "sources": 23,
+      "figures": 1,
+      "body_han_chars": 3317,
+      "zero_network_reuse": true,
+      "sha256": "9c22d7b81e20413137167419742d7e0e5395a512ac2653742d116b58a8adf727"
+    }
+  },
+  "core_technology_topics": {
+    "planned": [
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ],
+    "completed": [
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ],
+    "overview_check": "pass",
+    "index_check": "pass",
+    "union_manifest": "toolkit/manifests/Horizon_08_union.json",
+    "union_sources": 43,
+    "final_zero_network": true,
+    "review_status": "complete_pending_user_review"
+  },
+  "continuation_validation": {
+    "outcome": "pass",
+    "reports": {
+      "03_Sensor_Integration": {
+        "outcome": "pass",
+        "sha256": "dc06e655cfc9c59ff9b5cc825b2078f3c25bb0e815a10c92af997dedc3b9f237",
+        "body_han_chars": 1817,
+        "sources": 11,
+        "figures": 3
+      },
+      "04_AI_Capabilities": {
+        "outcome": "pass",
+        "sha256": "3477f96e9f400d446046d4ed5654f4ceed229b076c50e6a6af92c7a591c6f891",
+        "body_han_chars": 2132,
+        "sources": 25,
+        "figures": 2
+      },
+      "05_Simulation_Environment": {
+        "outcome": "pass",
+        "sha256": "da13d98af65e85d29e52b74f351e9c39dc5e521aefa18b6a85e942de0bddf1ef",
+        "body_han_chars": 1977,
+        "sources": 9,
+        "figures": 1
+      },
+      "06_Robot_Integration": {
+        "outcome": "pass",
+        "sha256": "4aa80be1ba74f8af2b6f6bc729e1767de8b717a66f53cab577f92ce2e06b194d",
+        "body_han_chars": 2170,
+        "sources": 14,
+        "figures": 1
+      },
+      "07_Ecosystem": {
+        "outcome": "pass",
+        "sha256": "0a82d79542c14b546856293318f8b83c721a9a313d8b72bac7f9326044abdf4a",
+        "body_han_chars": 2262,
+        "sources": 28,
+        "figures": 1
+      },
+      "08_Core_Technology_Moat": {
+        "outcome": "pass",
+        "sha256": "0e2b7dd9cccd3247d741b80ba4772a563dc1119057069240f39d86313e2567cc",
+        "body_han_chars": 2067,
+        "sources": 22,
+        "figures": 1
+      },
+      "08A_Compute_Compilation_and_Quantization": {
+        "outcome": "pass",
+        "sha256": "d83d3af9c4c7efbed49854f57c1563331afcfbbe62411aa1f26758ee7c587caf",
+        "body_han_chars": 2093,
+        "sources": 15,
+        "figures": 2
+      },
+      "08B_Sensor_Memory_and_Time": {
+        "outcome": "pass",
+        "sha256": "f7e9f3b9415c48106635bcf9555d5a9e5eea470762eeb0fce99c7dc8427c4d97",
+        "body_han_chars": 2214,
+        "sources": 13,
+        "figures": 2
+      },
+      "08C_Real_Time_Trust_and_Lifecycle": {
+        "outcome": "pass",
+        "sha256": "86649ad33c4b6c59f5122cb4771e7618295cab65cfcc88775ea01eb2824be65f",
+        "body_han_chars": 2211,
+        "sources": 16,
+        "figures": 1
+      },
+      "09_SWOT_Analysis": {
+        "outcome": "pass",
+        "sha256": "9c22d7b81e20413137167419742d7e0e5395a512ac2653742d116b58a8adf727",
+        "body_han_chars": 3317,
+        "sources": 23,
+        "figures": 1
+      }
+    },
+    "protected": {
+      "01_Hardware_Platform.md": true,
+      "02A_BSP_and_Lifecycle.md": true,
+      "02B_BPU_Compiler_and_Runtime.md": true,
+      "02C_HUCP_and_Multimedia.md": true,
+      "02D_MCU_and_Industrial_Communication.md": true,
+      "02E_TogetheROS_and_Robot_Pipeline.md": true,
+      "02_Software_Stack.md": true,
+      "02_Topics_Index.md": true,
+      "08_Proprietary_Technologies.md": true
+    },
+    "union_sources": 99,
+    "archive_status": {
+      "complete_static": 95,
+      "partial_static": 4
+    },
+    "partial": [
+      {
+        "source_id": "Horizon_JD_Journey6P_DesignIn",
+        "missing_presentation": 25
+      },
+      {
+        "source_id": "Horizon_DRobotics_Funding_Relation",
+        "missing_presentation": 23
+      },
+      {
+        "source_id": "H08_Isaac_Safety",
+        "missing_presentation": 2
+      },
+      {
+        "source_id": "H09_Reports_Index",
+        "missing_presentation": 19
+      }
+    ],
+    "figure_occurrences": 15,
+    "distinct_figure_hashes": 12,
+    "distinct_dynamic_pages": 23,
+    "dynamic_provenance_hashes": "all match",
+    "final_network_requests": 0,
+    "measured_on_hardware": false
+  },
+  "research_index": "01_Compute_Chips/08_Horizon_Robotics/03_09_Research_Index.md"
+}

@@ -1,0 +1,18 @@
+{
+  "time_utc": "2026-11-05T01:14:15.659591+00:00",
+  "summary": {
+    "complete_static": 4,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "Horizon_RDK_S100_Source",
+    "horizon-x5-doc",
+    "Horizon_RDK_Doc_Tree",
+    "horizon-index"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

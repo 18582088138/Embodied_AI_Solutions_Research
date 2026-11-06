@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Horizon_S600_Camera_Manual",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Quick_start/hardware_introduction/rdk_s600/rdk_s600_camera_expansion_board",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Horizon_S600_MCU_Manual",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Quick_start/hardware_introduction/rdk_s600/rdk_s600_mcu_port_expansion_board",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Horizon_S600_Downloads",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Quick_start/download",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Horizon_S600_Pinlist",
+    "url": "https://archive.d-robotics.cc/downloads/hardware/rdk_s600/rdk_s600/D-Robotics_RDK_S600_Connector_Application_Note_V1P0-20260922.xlsx",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Horizon_S600_Waveshare_Quote",
+    "url": "https://www.waveshare.net/shop/RDK-S600-32G.htm",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

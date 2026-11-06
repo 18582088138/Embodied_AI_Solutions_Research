@@ -1,0 +1,106 @@
+[
+  {
+    "name": "H02_Pipeline",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/sample_pipeline",
+    "expected": "any",
+    "used_by": [
+      "08B_Sensor_Memory_and_Time"
+    ]
+  },
+  {
+    "name": "H02_Hbmem",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/hbmem_sample_guide",
+    "expected": "any",
+    "used_by": [
+      "08B_Sensor_Memory_and_Time"
+    ]
+  },
+  {
+    "name": "H02_UCP_Flush_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/80056.5ccac469.js",
+    "expected": "any",
+    "used_by": [
+      "08B_Sensor_Memory_and_Time"
+    ]
+  },
+  {
+    "name": "H02_OE_Deploy_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/78211.f06396ae.js",
+    "expected": "any",
+    "used_by": [
+      "08B_Sensor_Memory_and_Time"
+    ]
+  },
+  {
+    "name": "H02_UCP_Submit_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/42321.211ed409.js",
+    "expected": "any",
+    "used_by": [
+      "08B_Sensor_Memory_and_Time"
+    ]
+  },
+  {
+    "name": "H02_OE_Dynamic_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/24642.789c7af3.js",
+    "expected": "any",
+    "used_by": [
+      "08B_Sensor_Memory_and_Time"
+    ]
+  },
+  {
+    "name": "H02_TROS_Zero",
+    "url": "https://developer.d-robotics.cc/tros_doc/tros_dev/zero_copy",
+    "expected": "any",
+    "used_by": [
+      "08B_Sensor_Memory_and_Time"
+    ]
+  },
+  {
+    "name": "H06_Types_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/40340.5dcdb5a2.js",
+    "expected": "any",
+    "used_by": [
+      "08B_Sensor_Memory_and_Time"
+    ]
+  },
+  {
+    "name": "H03_Current_Sync",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/multimedia_development/camerasync",
+    "expected": "any",
+    "used_by": [
+      "08B_Sensor_Memory_and_Time"
+    ]
+  },
+  {
+    "name": "H03_S100_Time",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/07_Advanced_development/02_linux_development/04_driver_development_s100/12_driver_timesync.md",
+    "expected": "any",
+    "used_by": [
+      "08B_Sensor_Memory_and_Time"
+    ]
+  },
+  {
+    "name": "H08_LinuxPTP",
+    "url": "https://linuxptp.nwtime.org/documentation/ptp4l/",
+    "expected": "any",
+    "used_by": [
+      "08B_Sensor_Memory_and_Time"
+    ]
+  },
+  {
+    "name": "H02_IPC",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_ipc",
+    "expected": "any",
+    "used_by": [
+      "08B_Sensor_Memory_and_Time"
+    ]
+  },
+  {
+    "name": "H08_CUDA_Memory",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html",
+    "expected": "any",
+    "used_by": [
+      "08B_Sensor_Memory_and_Time"
+    ]
+  }
+]

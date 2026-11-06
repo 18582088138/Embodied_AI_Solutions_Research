@@ -1,0 +1,47 @@
+[
+  {
+    "name": "H02_Advanced_Index",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development",
+    "expected": "html"
+  },
+  {
+    "name": "H02_System_Index",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/System_configuration",
+    "expected": "html"
+  },
+  {
+    "name": "H02_TROS_Index",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Robot_development",
+    "expected": "html"
+  },
+  {
+    "name": "H02_S600_511_Release",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Release_Note/s600/v5_1_1",
+    "expected": "html"
+  },
+  {
+    "name": "H02_S100_RT",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/07_Advanced_development/02_linux_development/03_realtime_kernel.md",
+    "expected": "any"
+  },
+  {
+    "name": "H02_S100_BSP",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/07_Advanced_development/02_linux_development/04_driver_development_s100/01_uboot_kernel_config.md",
+    "expected": "any"
+  },
+  {
+    "name": "H02_S100_OTA",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/07_Advanced_development/02_linux_development/06_OTA/01_ota_system.md",
+    "expected": "any"
+  },
+  {
+    "name": "H02_S100_Miniboot",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/07_Advanced_development/02_linux_development/06_OTA/02_ota_miniboot.md",
+    "expected": "any"
+  },
+  {
+    "name": "H02_S100_Release",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/10_Release_Note/01_v4_0_5_260507.md",
+    "expected": "any"
+  }
+]

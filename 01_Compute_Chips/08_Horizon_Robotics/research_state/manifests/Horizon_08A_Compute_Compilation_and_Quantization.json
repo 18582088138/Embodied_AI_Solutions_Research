@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Horizon_RDK_S600",
+    "url": "https://cn.d-robotics.cc/rdkS600",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "H02_X5_PTQ",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs/07_Advanced_development/04_toolchain_development/intermediate/ptq_process.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "H02_OE_PTQ_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/62300.e55caad1.js",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "H04_Pi0_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/95984.ae5bd0da.js",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "H02_Dynamic_Asset_10",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/image/model_conversion_compilation.914a0e0b.png",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "H02_Dynamic_Asset_14",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/image/model_quantization.c85c9c2f.png",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "H02_LLM_Quant_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/31346.cf7dd33f.js",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "H02_LLM_Compile_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/50188.3b7997bf.js",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "H02_OE_Dynamic_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/24642.789c7af3.js",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "H02_LLM_VLABench_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/7805.87d8031b.js",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "H08_TRT_Quant",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "H08_TRT_Dynamic",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/dynamic-shapes-basics.html",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "H08_TRT_Support",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "H08_TRT_Arch",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/architecture-overview.html",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "H02_OE_License_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/5603.b7581455.js",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  }
+]

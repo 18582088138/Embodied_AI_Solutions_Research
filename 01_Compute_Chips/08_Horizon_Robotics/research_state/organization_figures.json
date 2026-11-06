@@ -1,0 +1,206 @@
+[
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/X5_Module_official_SKUs--31c4eb204d74.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/X5_Module_official_SKUs.png",
+    "sha256": "31c4eb204d74ace0190973b2de625eefc08abf512d853005d0347caf1fd27519"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/S600_Module_V1P0_specs--43198dd26a6e.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S600_Module_V1P0_specs.png",
+    "sha256": "43198dd26a6e1cd4a2818e561f8b5c6a1302978919481ec39aae648efc319b2e"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/S600_V1P0_official_topology--4088afda6378.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S600_V1P0_official_topology.png",
+    "sha256": "4088afda637861f76afb39ffab1cc956ec413bbcbbaa048c133b32f88b52cc12"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/S600_V1P0_official_interfaces--1ce1c416d44a.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S600_V1P0_official_interfaces.png",
+    "sha256": "1ce1c416d44a5e9d389553ecb6fc51ec69d0a66ea8775c349ec31279dcfb0623"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/S100_official_topology--2e5b3588a31d.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S100_official_topology.png",
+    "sha256": "2e5b3588a31d0b5c9fea97b1fb1615f81dc5a2820c2a8816e4f564f8021db386"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/S100_official_MCU_framework--6c3680a96f06.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S100_official_MCU_framework.png",
+    "sha256": "6c3680a96f063bc4ee1297501f5bdf3976bf64a239b482f748b093ada1f249ff"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/S600_Kit_V1P0_specs--4e1fe623c983.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S600_Kit_V1P0_specs.png",
+    "sha256": "4e1fe623c983f62f32bd3139cf104ea9a71ea591b1118fb94652a58d6ba5db4a"
+  },
+  {
+    "report": "02A_BSP_and_Lifecycle.md",
+    "figure": "assets/figures/H02A_rootfs_flow--c49fce59dfea.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02A_rootfs_flow.png",
+    "sha256": "c49fce59dfea04501318727585c63310e8e0f617d9924078c27320b126915f85"
+  },
+  {
+    "report": "02A_BSP_and_Lifecycle.md",
+    "figure": "assets/figures/H02A_deb_flow--4a72b47a4131.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02A_deb_flow.png",
+    "sha256": "4a72b47a4131273a5891fe8b4e9c56aae9cbd6ae90803510e6196cd72b8dd7ce"
+  },
+  {
+    "report": "02B_BPU_Compiler_and_Runtime.md",
+    "figure": "assets/figures/H02B_model_conversion--57187304a66d.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02B_model_conversion.png",
+    "sha256": "57187304a66d318fe58cc60899dc3226eebcc274aac71543f502431dcca9a3c4"
+  },
+  {
+    "report": "02B_BPU_Compiler_and_Runtime.md",
+    "figure": "assets/figures/H02B_llm_quantization--710b1da0bbe9.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02B_llm_quantization.png",
+    "sha256": "710b1da0bbe96cea11bfb6288de487232be5a9dfae32585bf09cd8e1303ecab5"
+  },
+  {
+    "report": "02C_HUCP_and_Multimedia.md",
+    "figure": "assets/figures/H02C_hbmem_queue--b877fc8dbe02.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02C_hbmem_queue.png",
+    "sha256": "b877fc8dbe0257c252a1aecc083aa8b59d4e6c0a882e01ee992a03a725bce4aa"
+  },
+  {
+    "report": "02C_HUCP_and_Multimedia.md",
+    "figure": "assets/figures/H02C_bpu_flow--8f635130eead.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02C_bpu_flow.png",
+    "sha256": "8f635130eead6f3ef5ab3c6bc133d077bdbd51ab65eab9b3033395584959d5aa"
+  },
+  {
+    "report": "02D_MCU_and_Industrial_Communication.md",
+    "figure": "assets/figures/H02D_mcu_frame--6c3680a96f06.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02D_mcu_frame.png",
+    "sha256": "6c3680a96f063bc4ee1297501f5bdf3976bf64a239b482f748b093ada1f249ff"
+  },
+  {
+    "report": "02D_MCU_and_Industrial_Communication.md",
+    "figure": "assets/figures/H02D_can_path--eb0832113a4c.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02D_can_path.png",
+    "sha256": "eb0832113a4c22bfd23c33f598100264c392c11aacb36b3cc32eb655d5739c25"
+  },
+  {
+    "report": "02E_TogetheROS_and_Robot_Pipeline.md",
+    "figure": "assets/figures/H02E_tros_arch--4e0623910c61.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02E_tros_arch.png",
+    "sha256": "4e0623910c618f06d5abfa077954af0caea2ec2f90f2f6483819a412e1651719"
+  },
+  {
+    "report": "02E_TogetheROS_and_Robot_Pipeline.md",
+    "figure": "assets/figures/H02E_dnn_workflow--1d5038bb12fe.jpg",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02E_dnn_workflow.jpg",
+    "sha256": "1d5038bb12fed42861c394454f05f836ed704cd860aa65078101510bbbe8a025"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/H02B_model_conversion--57187304a66d.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02B_model_conversion.png",
+    "sha256": "57187304a66d318fe58cc60899dc3226eebcc274aac71543f502431dcca9a3c4"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/H02E_tros_arch--4e0623910c61.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02E_tros_arch.png",
+    "sha256": "4e0623910c618f06d5abfa077954af0caea2ec2f90f2f6483819a412e1651719"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/H03_S600_Camera_Topology--2ad75e09949f.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H03_S600_Camera_Topology.png",
+    "sha256": "2ad75e09949f8fbc79df624fd4c1c6080981b765e5a0f677d1a515a7a80e2c48"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/H03_Stereo_SDK_ROS--638d6e7e985c.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H03_Stereo_SDK_ROS.png",
+    "sha256": "638d6e7e985c662d4b323db19fbf510c3746a870fc9f9e28c1f90de29bd88d54"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/H03_Camera_Lidar_Sync--7932c6aef892.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H03_Camera_Lidar_Sync.png",
+    "sha256": "7932c6aef892051248f2e033b89bc22e8a2fca16bc0837085f3a2e1a24131ccb"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/H02B_model_conversion--57187304a66d.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02B_model_conversion.png",
+    "sha256": "57187304a66d318fe58cc60899dc3226eebcc274aac71543f502431dcca9a3c4"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/H02B_llm_quantization--710b1da0bbe9.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02B_llm_quantization.png",
+    "sha256": "710b1da0bbe96cea11bfb6288de487232be5a9dfae32585bf09cd8e1303ecab5"
+  },
+  {
+    "report": "05_Simulation_Environment.md",
+    "figure": "assets/figures/H05_VLA_Serving--63873dd91e1d.jpg",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H05_VLA_Serving.jpg",
+    "sha256": "63873dd91e1d5730dfec9a614702ed0235312bded25448f31d35a202e5dade81"
+  },
+  {
+    "report": "06_Robot_Integration.md",
+    "figure": "assets/figures/H06_Tracking_Pipeline--d084dd47f499.jpg",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H06_Tracking_Pipeline.jpg",
+    "sha256": "d084dd47f499d5926319cbab564d2a94696b04451a3b41aaaeea3f485afa37d4"
+  },
+  {
+    "report": "07_Ecosystem.md",
+    "figure": "assets/figures/H07_Studio_Architecture--8a8569c4555c.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H07_Studio_Architecture.png",
+    "sha256": "8a8569c4555c120a0175660c9f54a32632b6ef41d4e034007d61a92d6b0acf2d"
+  },
+  {
+    "report": "08A_Compute_Compilation_and_Quantization.md",
+    "figure": "assets/figures/H02B_model_conversion--57187304a66d.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02B_model_conversion.png",
+    "sha256": "57187304a66d318fe58cc60899dc3226eebcc274aac71543f502431dcca9a3c4"
+  },
+  {
+    "report": "08A_Compute_Compilation_and_Quantization.md",
+    "figure": "assets/figures/H02B_llm_quantization--710b1da0bbe9.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02B_llm_quantization.png",
+    "sha256": "710b1da0bbe96cea11bfb6288de487232be5a9dfae32585bf09cd8e1303ecab5"
+  },
+  {
+    "report": "08B_Sensor_Memory_and_Time.md",
+    "figure": "assets/figures/H08B_Hbmem_Queue--b877fc8dbe02.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H08B_Hbmem_Queue.png",
+    "sha256": "b877fc8dbe0257c252a1aecc083aa8b59d4e6c0a882e01ee992a03a725bce4aa"
+  },
+  {
+    "report": "08B_Sensor_Memory_and_Time.md",
+    "figure": "assets/figures/H03_Camera_Lidar_Sync--7932c6aef892.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H03_Camera_Lidar_Sync.png",
+    "sha256": "7932c6aef892051248f2e033b89bc22e8a2fca16bc0837085f3a2e1a24131ccb"
+  },
+  {
+    "report": "08C_Real_Time_Trust_and_Lifecycle.md",
+    "figure": "assets/figures/H02D_mcu_frame--6c3680a96f06.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02D_mcu_frame.png",
+    "sha256": "6c3680a96f063bc4ee1297501f5bdf3976bf64a239b482f748b093ada1f249ff"
+  },
+  {
+    "report": "08_Core_Technology_Moat.md",
+    "figure": "assets/figures/S600_V1P0_official_topology--4088afda6378.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S600_V1P0_official_topology.png",
+    "sha256": "4088afda637861f76afb39ffab1cc956ec413bbcbbaa048c133b32f88b52cc12"
+  },
+  {
+    "report": "09_SWOT_Analysis.md",
+    "figure": "assets/figures/S600_Module_V1P0_specs--43198dd26a6e.png",
+    "local_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S600_Module_V1P0_specs.png",
+    "sha256": "43198dd26a6e1cd4a2818e561f8b5c6a1302978919481ec39aae648efc319b2e"
+  }
+]

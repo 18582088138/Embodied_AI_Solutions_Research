@@ -1,0 +1,25 @@
+{
+  "time_utc": "2026-11-05T04:04:14.866487+00:00",
+  "summary": {
+    "complete_static": 11,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "Horizon_S600_Camera_Manual",
+    "H02_TROS_Sensor",
+    "H03_Current_Sync",
+    "H03_S100_Sync",
+    "H03_S100_Time",
+    "H03_S100_Bringup",
+    "H02_Pipeline",
+    "H02_Hbmem",
+    "H02_TROS_Zero",
+    "H03_X5_IMU",
+    "H03_Stereo"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

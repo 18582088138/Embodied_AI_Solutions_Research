@@ -1,0 +1,20 @@
+[
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02B_model_conversion.png",
+    "sha256": "6aa81c923cf654a26388249a496b2d8d54355a687221bf6d4ab5bca9af8270ff",
+    "source_id": "H02_Dynamic_Asset_10",
+    "source_url": "https://developer.d-robotics.cc/oe_s_doc/static/image/model_conversion_compilation.914a0e0b.png",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_Dynamic_Asset_--0f9289a0555fce7d/content.png",
+    "original_sha256": "6aa81c923cf654a26388249a496b2d8d54355a687221bf6d4ab5bca9af8270ff",
+    "operation": "官方动态文档PNG原件复制，未裁剪"
+  },
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02B_llm_quantization.png",
+    "sha256": "faa53899272fbe14bbf34b93f665c7e6b47f94efe38b6949ec12143c9cb2b9be",
+    "source_id": "H02_Dynamic_Asset_14",
+    "source_url": "https://developer.d-robotics.cc/oe_llm_doc/static/image/model_quantization.c85c9c2f.png",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_Dynamic_Asset_--3de30ebb446bf075/content.png",
+    "original_sha256": "faa53899272fbe14bbf34b93f665c7e6b47f94efe38b6949ec12143c9cb2b9be",
+    "operation": "官方动态文档PNG原件复制，未裁剪"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "H02_MCU_Info",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/basic_information",
+    "expected": "html"
+  },
+  {
+    "name": "H02_MCU_Code",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/code_release",
+    "expected": "html"
+  },
+  {
+    "name": "H02_MCU_Build",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/MCU_build_system",
+    "expected": "html"
+  },
+  {
+    "name": "H02_FreeRTOS",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/FreeRTOS_development",
+    "expected": "html"
+  },
+  {
+    "name": "H02_IPC",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_ipc",
+    "expected": "html"
+  },
+  {
+    "name": "H02_CAN",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_can",
+    "expected": "html"
+  },
+  {
+    "name": "H02_EtherCAT",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_ethercat",
+    "expected": "html"
+  },
+  {
+    "name": "H02_Watchdog",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_watchdog",
+    "expected": "html"
+  },
+  {
+    "name": "H02_Timer",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_timer",
+    "expected": "html"
+  }
+]

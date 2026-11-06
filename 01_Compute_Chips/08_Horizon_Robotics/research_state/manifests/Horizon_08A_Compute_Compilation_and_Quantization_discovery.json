@@ -1,0 +1,34 @@
+[
+  {
+    "name": "H08_TRT_Arch",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/architecture-overview.html",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "H08_TRT_Dynamic",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/dynamic-shapes-basics.html",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "H08_TRT_Quant",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  },
+  {
+    "name": "H08_TRT_Support",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Compilation_and_Quantization"
+    ]
+  }
+]

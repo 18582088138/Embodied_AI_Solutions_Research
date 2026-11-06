@@ -1,0 +1,20 @@
+[
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02E_tros_arch.png",
+    "sha256": "4e0623910c618f06d5abfa077954af0caea2ec2f90f2f6483819a412e1651719",
+    "source_id": "H02_TROS_Manual",
+    "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/05_Robot_development/image/TogetheROS.png",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_TROS_Manua--59b673f457eb83c2/assets/images/240ab109a295b146dd34d8e3.png",
+    "original_sha256": "4e0623910c618f06d5abfa077954af0caea2ec2f90f2f6483819a412e1651719",
+    "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+  },
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02E_dnn_workflow.jpg",
+    "sha256": "1d5038bb12fed42861c394454f05f836ed704cd860aa65078101510bbbe8a025",
+    "source_id": "H02_DNN_Flow",
+    "source_url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/docs/dnnnode_workflow.jpg",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_DNN_Flow--fb69d4af75d84169/content.jpg",
+    "original_sha256": "1d5038bb12fed42861c394454f05f836ed704cd860aa65078101510bbbe8a025",
+    "operation": "官方固定commit流程图原件复制，无裁剪；实际打开核验"
+  }
+]

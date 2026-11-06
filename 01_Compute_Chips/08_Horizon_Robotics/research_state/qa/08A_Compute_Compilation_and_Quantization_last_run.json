@@ -1,0 +1,29 @@
+{
+  "time_utc": "2026-11-05T04:25:34.063836+00:00",
+  "summary": {
+    "complete_static": 15,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "Horizon_RDK_S600",
+    "H02_X5_PTQ",
+    "H02_OE_PTQ_Content",
+    "H04_Pi0_Content",
+    "H02_Dynamic_Asset_10",
+    "H02_Dynamic_Asset_14",
+    "H02_LLM_Quant_Content",
+    "H02_LLM_Compile_Content",
+    "H02_OE_Dynamic_Content",
+    "H02_LLM_VLABench_Content",
+    "H08_TRT_Quant",
+    "H08_TRT_Dynamic",
+    "H08_TRT_Support",
+    "H08_TRT_Arch",
+    "H02_OE_License_Content"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

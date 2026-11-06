@@ -1,0 +1,114 @@
+{
+  "source_ids": [
+    "H02_S600_511_Release",
+    "H02_S100_Release",
+    "Horizon_S600_Downloads",
+    "H02_Build",
+    "H02_Config",
+    "H02_RT",
+    "H02_Thermal",
+    "H02_OTA",
+    "H02_Miniboot",
+    "H02_S100_Miniboot",
+    "Horizon_RDK_License"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02A_rootfs_flow.png",
+      "sha256": "c49fce59dfea04501318727585c63310e8e0f617d9924078c27320b126915f85",
+      "source_id": "H02_Build",
+      "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/07_Advanced_development/06_rdk_gen/samplefs_flowchart.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_Build--daa0f17ac1774c07/assets/images/c42c748b2d84f0df708f3b22.png",
+      "original_sha256": "c49fce59dfea04501318727585c63310e8e0f617d9924078c27320b126915f85",
+      "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+    },
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02A_deb_flow.png",
+      "sha256": "4a72b47a4131273a5891fe8b4e9c56aae9cbd6ae90803510e6196cd72b8dd7ce",
+      "source_id": "H02_Build",
+      "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/07_Advanced_development/06_rdk_gen/mk_debs_flowchart.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_Build--daa0f17ac1774c07/assets/images/63d4b297956bc8fffd9944b3.png",
+      "original_sha256": "4a72b47a4131273a5891fe8b4e9c56aae9cbd6ae90803510e6196cd72b8dd7ce",
+      "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "S600版本与已知问题",
+      "source_id": "H02_S600_511_Release",
+      "location": "主要信息/已知问题",
+      "quote": "6.1.158-rt58-DR-5.1.1；Ubuntu24.04；MCU V2.0.3",
+      "finding": "Host/板端分开；不推GPU/万兆默认无条件可用",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Release_Note/s600/v5_1_1"
+    },
+    {
+      "claim": "rootfs/deb生命周期",
+      "source_id": "H02_Build",
+      "location": "multistrap及mk_debs.sh流程",
+      "quote": "multistrap；binfmt-support + chroot；Depends",
+      "finding": "原图已打开；未取得全BSP脚本源码",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/rdk_gen"
+    },
+    {
+      "claim": "启动优先级及AVB",
+      "source_id": "H02_Config",
+      "location": "注意事项",
+      "quote": "setenv > 配置文件 > 上一次启动saveenv",
+      "finding": "默认AVB不使能；配置方式与AVB冲突",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/System_configuration/config_txt"
+    },
+    {
+      "claim": "实时测试边界",
+      "source_id": "H02_RT",
+      "location": "cyclictest段",
+      "quote": "-l50000000 -m -S -p90 -i200 -h400",
+      "finding": "唤醒延迟非WCET，配图未绑定5.1.1",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/realtime_kernel"
+    },
+    {
+      "claim": "OTA交付及差分限制",
+      "source_id": "H02_OTA",
+      "location": "概述/差分限制",
+      "quote": "libupdate.so；节省流量，并不节省升级时间",
+      "finding": "客户云服务另建；基线镜像必须保留",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/OTA/ota_system"
+    },
+    {
+      "claim": "miniboot无回滚",
+      "source_id": "H02_Miniboot",
+      "location": "注意/工作原理",
+      "quote": "流程不经过ota_tool状态机；直接通过dd烧写",
+      "finding": "当前手册优先，旧S100文档冲突保留",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/OTA/ota_miniboot"
+    },
+    {
+      "claim": "S600温控执行条件",
+      "source_id": "H02_Thermal",
+      "location": "RDK S600段",
+      "quote": "19个温度传感器；95度降频",
+      "finding": "温控阈值不当工作温度；重启失效",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/System_configuration/frequency_management"
+    }
+  ],
+  "manual_review": {
+    "coverage": "按本专题主要机制、配置/API、数据对象、失效、版本、许可、测量边界与复建验证审阅；具体缺口在正文",
+    "versions_and_measurements": "S6005.1.1与S1004.0.5、X5分开；编译/单算子/模型/机器人时延分开；未知条件未补造",
+    "maturity_and_licenses": "公开说明、开源封装与商业二进制分开，未据文档许可扩展其他产物",
+    "figures_opened": "正文官方图逐张实际打开；支持的结论与版本限制见图注"
+  },
+  "archive_partial": []
+}

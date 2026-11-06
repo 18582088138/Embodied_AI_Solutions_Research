@@ -1,0 +1,164 @@
+{
+  "source_ids": [
+    "Horizon_DRobotics_Funding_Relation",
+    "Horizon_JD_Journey6P_DesignIn",
+    "H07_OrbbecSDK",
+    "H02_TROS_Sensor",
+    "H07_Orbbec_License",
+    "H07_Studio",
+    "H07_Studio_Version",
+    "H07_Studio_Arch",
+    "H07_Studio_Hardware",
+    "H02_X5_PTQ",
+    "H04_Openpi",
+    "H04_LeRobot",
+    "H02_DNN_Pinned_Readme",
+    "H02_DNN_Package",
+    "H02_TROS_Release",
+    "H05_RoboTwin_Content",
+    "H05_LIBERO_Content",
+    "H05_Serving_Content",
+    "H07_Developer",
+    "H06_DDC",
+    "Horizon_S600_Docs_v510",
+    "Horizon_S600_Waveshare_Quote",
+    "H02_Build",
+    "H02_OTA",
+    "H02_Miniboot",
+    "Horizon_RDK_S600",
+    "Horizon_S600_Camera_Manual",
+    "H02_MCU_Code"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H07_Studio_Architecture.png",
+      "sha256": "8a8569c4555c120a0175660c9f54a32632b6ef41d4e034007d61a92d6b0acf2d",
+      "source_id": "H07_Studio_Arch",
+      "source_url": "https://developer.d-robotics.cc/rdk_studio_doc/product-intro/architecture",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H07_Studio_Arc--d1ed94170ef58e8a/index.html",
+      "original_sha256": "de6d5c436b4a739b6b6d28b3ff14ba0456e69044e9fc5edebbce2fa03f7b5648",
+      "operation": "Edge1400px离线渲染已归档官方HTML article，阻断所有HTTP请求，完整正文截图，无重绘"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "H07_OrbbecSDK",
+      "location": "main branch is based on Orbbec SDK v1",
+      "claim": "Orbbec代际兼容",
+      "finding": "v1/OpenNI与v2/UVC分开；ARM64表未自动覆盖24.04",
+      "quote": "st to verify the compatibility.\n>\n\nThis main branch is based on Orbbec SDK v1 and it is compatible with Orbbec's original OpenNI protocol devices through built-in code, enabling developers to migrate to Orbbec SDK to support both new and old products with one set of code.\n\nWith the major update in 2024 October, Orbbec SDK becomes open-source with enhanced flexibility and scalability. This update ensures compatibility with all new Orbbec USB products that adhere to the UVC standard. How",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK/main/README.md"
+    },
+    {
+      "source_id": "H07_Orbbec_License",
+      "location": "Prohibited Actions",
+      "claim": "代码与库许可",
+      "finding": "仓库MIT，二进制库有产品与修改限制",
+      "quote": "ubstantial\nportions of the repository.\n\nProhibited Actions: You are prohibited from modifying, decompiling, or reverse\nengineering any part of this library. You cannot use this library for products\nother than those of Orbbec.\n\nReservation of Rights: The author reserves the right to modify this license at\nany time without prior notice. The author reserves all rights to this library.\n\nDisclaimer: This library is provided \"as is,\" and the author assumes no responsibility\nfor any direct, i",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK/main/LICENSE.txt"
+    },
+    {
+      "source_id": "H07_Studio_Version",
+      "location": "1.5.0",
+      "claim": "Studio版本状态",
+      "finding": "功能手册基线，不代表安装包已经发布/安装",
+      "quote": "品简介1.5 版本说明本页总览1.5 版本说明 本手册按 RDK Studio 1.5.0 功能基线更新。具体安装包是否已发布、是否可升级，以官方发布入口和 设置 → 应用与更新 为准。 本轮手册更新​ 变化阅读位置新任务可使用 Moss 或 DSH，已有任务保持原引擎运行引擎与模型工作方式区分执行、计划与 SpecAI Dock项目可绑定本机与板端目录，明确工作位置工作台本机历史恢复、账号切换和 DSH 删除的区别历史会话普通回复聚焦结果，更多菜单查看已有执行记录设备操作与结果扩展中心、MCP \u0000与本机主模型配置扩展中心、模型设置积木编程、仿真、项目与案例导入导出积木工作室 查看与升级​ 在桌面客户端打开 设置 → 应用与更新，查看版本并检查更新。网页版不通过桌面自动更新器升级。 升级前保存代码和文件。新版会尝试迁移并校验旧本机历史；遇到恢复失败或空间不足时，保留原数据，恢复存储和本地服务后重试。不要用重置清理来处理历史恢复问题。 本机项目、对话、模型、技能和设备配置不应只依靠升级保留，重要资料仍需独立备份。模型配置导出 不包含项目代码或历史对话。 需要帮助时，从",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_studio_doc/product-intro/version-notes"
+    },
+    {
+      "source_id": "H07_Studio_Arch",
+      "location": "停止任务不会自动撤销",
+      "claim": "Agent工作流边界",
+      "finding": "开发任务管理不等于安全回退；引擎与服务分层",
+      "quote": "际输出、文件改动和验\u0000证结果。需要查看已有执行记录时，打开该条消息的更多菜单。 停止任务不会自动撤销已经完成的文件或设备变更。 引擎绑定​ Moss 和 DSH 是任务运行引擎，不是模型服务商。到 设置 → AI 模型与服务 → 运行引擎 修改新任务默认值；输入区的引擎标识可跳转到该设置。 已有任务继续使用原引擎。DSH 不可用时会显示原因，不会自动换成 Moss 接管同一任务。要改用另一引擎，请调整默认值后新建任务。 运行形态​ 形态使用边界桌面客户端使用电脑本机服务和系统集成，可提供直接烧录、本机模型等能力本地 Web / 自托管 Web浏览器连接对应服务；路径和工具权限由服务所在环境决定公网 Web Cloud按账号隔离用户数据，限制服务器本地文件、宿主操作与部分设置 网页版访问局域网设备可能需要本地连接桥、VPN 或可达网络；它不会仅凭浏览器页面获得电脑的全部设备权限。 设备和本机相互独立​ 本机项目不依赖开发板在线。板端命令、文件和服务操作则需要目标设备连接，其他在线设备不会自动替代离线目标。串口用于日志调试，不等同于 SSH 设备接入。 电脑上的 Oll",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_studio_doc/product-intro/architecture"
+    },
+    {
+      "source_id": "H06_DDC",
+      "location": "2026.12.05",
+      "claim": "开发者活动成熟度",
+      "finding": "截止Nov5尚未举办，不宣称参与效果",
+      "quote": "Developer Conference 让每一位开发者，拥有创造机器人的力量 2026.12.05–12.07 上海张江科学会堂 立即报名 查看日程 地瓜机器人开发者大会（DDC，D-Robotics Developer Conference）是地瓜机器人面向全球机器人开发者举办的年度技术盛会，自 2023 年起已连续举办三届。大会以「软硬结合、端云一体」的 AI Native 全链路机器人开发基础设施为主线，通过主论坛、分论坛、展区、技术工作坊与黑客松，连接芯片、算法、工具链与本体厂商，是全球机器人领域规模最大的开发者活动之一。 DDC2026 开发者委员会是本届大会「好奇成真」主题下最具分量的共创机制：它把 DDC 的舞台真正交到开发者手中，让开发者从「参与者」升级为「共创者」——从黑客松、工作坊到论坛与展区，核心开发者深度参与全环节共创，以真实需求定义大会内容。 开发者委员会 潘石（Peter） 委员长 地心引力计划会员企业 机甲之灵创始人 张子豪（同济子豪兄） 传播负责人 地瓜星推官 科技博主 张乐榕 技术负责人 地瓜星推官 上海交通大学学生 CY-CHE",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://cn.d-robotics.cc/ddc/2026"
+    },
+    {
+      "source_id": "Horizon_S600_Docs_v510",
+      "location": "生态项目对接支持",
+      "claim": "量产协同入口",
+      "finding": "有分级响应但缺正式供货/支持SLA",
+      "quote": "版本发布信息，包括版本号、发布日期、更新内容等，帮助用户了解系统的更新和变更。 生态项目对接支持​ 针对基于 RDK 平台的产品开发、行业落地或批量部署项目，地瓜机器人设立 “地瓜生态项目对接中心” 作为统一协同入口。 当您涉及以下场景时，建议通过该入口提交项目信息： 产品化或量产规划 系统架构评估与方案确认 模块适配与性能优化支持 商业项目联合开发 批量采购前的技术确认 提交后，我们将根据项目阶段进行分级响应，包括： 技术需求评估 方案对接与架构建议 模块 Owner 协同支持 问题闭环跟踪 产品路线协同沟通（如涉及） 👉 项目对接入口： 地瓜生态项目对接交流 说明本入口适用于明确的项目或商业落地需求。 日常技术问题建议优先通过论坛问答或 FAQ 章节解决。最后于 2026年11月4日 更新下一页1.1.1 开发者套件D-Robotics RDK 套件概述产品介绍文档使用指引生态项目对接支持友情链接古月居联系我们GitHubBilibiliCopyright © 2024-2026 D-Robotics.",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/RDK?v=5.1.0&p=RDK+S600"
+    }
+  ],
+  "manual_review": {
+    "coverage": "当前维度覆盖与可复建验证详见正文；事实、厂商称、假设计算和未取得项区分",
+    "versions_and_measurements": "S6005.1.1与S1004.0.5、X5分开；编译/单算子/模型/机器人时延分开；未知条件未补造",
+    "maturity_and_licenses": "官方样例、合作计划、实机和商业运营分层；代码/权重/资产/商业SDK许可分别核对",
+    "figures_opened": "正文官方图逐张实际打开；支持的结论与版本限制见图注"
+  },
+  "archive_partial": [
+    {
+      "source_id": "Horizon_DRobotics_Funding_Relation",
+      "missing_presentation": 23,
+      "missing_all": 25
+    },
+    {
+      "source_id": "Horizon_JD_Journey6P_DesignIn",
+      "missing_presentation": 25,
+      "missing_all": 27
+    }
+  ],
+  "dynamic_provenance": [
+    {
+      "name": "H05_RoboTwin",
+      "source_id": "H05_RoboTwin_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/sim_loop/robotwin",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H05_RoboTwin_Conte--fa35342380225a8f/original.response",
+      "content_js_sha256": "8e1322f217cf77f07a728ac7a710ad7b39d8d8bf3c71ac7ecc02d4a756e46661",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_RoboTwin.txt",
+      "text_sha256": "9fb32a1b2de256f21a4b3a41a962c4f939d19244520e1765cabc9942b674d2eb",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_RoboTwin.html",
+      "html_sha256": "ad21a435aff8285d353fc0371d63db283a06d3d9e89ffcdf2087b3de3e85bfd7",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H05_LIBERO",
+      "source_id": "H05_LIBERO_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/sim_loop/libero",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H05_LIBERO_Content--1bf6a062516dcd70/original.response",
+      "content_js_sha256": "7bea218e97c9b5d48af9473f6cbdb18c1ed2b8638c5bc30ccfc0c9b68b172c87",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_LIBERO.txt",
+      "text_sha256": "fb53588c58a0430f42c7c9accef25f9a3e77cc0281b4d656cdc47fff62613b24",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_LIBERO.html",
+      "html_sha256": "e1684002a59c018d35b752fee1a7fec00e6150f8bbadbbefb0beb4118895b6f4",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H05_Serving",
+      "source_id": "H05_Serving_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/sim_loop/vla_serving",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H05_Serving_Conten--ca44276c4b742a02/original.response",
+      "content_js_sha256": "b1a1cd8a56c8343373b6b6b3911eae1a9c05c0f3f0b5c142acce828b5f67ec46",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_Serving.txt",
+      "text_sha256": "420d1981b02230da176d363d5d9c8981dfdd2cc540c0fe9b63d56765dddac6bb",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_Serving.html",
+      "html_sha256": "c05c30f595caf5a71f5347a71dc2724324c2c407af974f37830895d2556d660c",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    }
+  ]
+}

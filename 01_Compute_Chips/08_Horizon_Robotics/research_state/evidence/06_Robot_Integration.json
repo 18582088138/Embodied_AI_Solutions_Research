@@ -1,0 +1,179 @@
+{
+  "source_ids": [
+    "Horizon_JD_Journey6P_DesignIn",
+    "Horizon_DRobotics_Funding_Relation",
+    "Horizon_RDK_S600",
+    "H02_LLM_VLA_Content",
+    "H06_Types_Content",
+    "H04_Config_Content",
+    "H05_RoboTwin_Content",
+    "H06_Policy_Content",
+    "H06_Advanced_Content",
+    "H02_Car_Tracking",
+    "H02_CAN",
+    "H02_EtherCAT",
+    "H02_IPC",
+    "H02_Watchdog"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H06_Tracking_Pipeline.jpg",
+      "sha256": "d084dd47f499d5926319cbab564d2a94696b04451a3b41aaaeea3f485afa37d4",
+      "source_id": "H02_Car_Tracking",
+      "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/05_Robot_development/04_apps/image/car_tracking/body_tracking_workflow.jpg",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_Car_Tracki--f91ef5585c3f3188/assets/images/64dfedee00dff8eba98a035f.jpg",
+      "original_sha256": "d084dd47f499d5926319cbab564d2a94696b04451a3b41aaaeea3f485afa37d4",
+      "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "Horizon_JD_Journey6P_DesignIn",
+      "location": "2026/09/11",
+      "claim": "独狼六代Plus项目定点",
+      "finding": "定点/计划规模，不将历史运营归该代；缺客户侧运营分母",
+      "quote": "资讯动态 企业新闻 地平线征程®6P获京东物流无人车定点，拓宽无人物流应用版图 2026/09/11 征程6 征程 9月9日，在以“JoyAI・跃迁物理世界”为主题的2026京东全球科技探索者大会上，地平线创始人兼CEO余凯分享了双方合作进展：地平线征程®6P智能驾驶计算方案已获得京东物流无人车项目定点，将为京东物流旗下L4级“独狼”第六代智能配送车Plus版提供车规级智能驾驶算力支撑。余凯表示：“在乘用车领域积累的自动驾驶技术能力，可以进一步向机器人等多元场景延展。我们非常荣幸与京东开展合作，推动旗舰级征程®6P芯片在无人物流车领域落地。未来3至5年，仅在这一合作场景中，无人物流车部署规模就有望达到百万辆，进而服务于全国多元物流场景，便利大众日常生活。”此次定点项目是征程®6P在无人物流领域的又一关键落地成果，标志着国产智驾算力正加速融入真实的无人配送产业场景，为无人物流规模化运营筑牢算力底座。征程®6P旗舰算力加持加速无人物流迈向规模化运营当前，无人物流行业正加速从试点验证迈向规模化商业落地。作为行业先行者，京东物流无人车已在城市末端配送、园区、校园乃至乡村道路",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://www.horizon.auto/news/press/475"
+    },
+    {
+      "source_id": "Horizon_DRobotics_Funding_Relation",
+      "location": "20余家",
+      "claim": "S600采用名单",
+      "finding": "供应方宣称，未逐家确认SKU/SDK/台数",
+      "quote": "、优必选、帕西尼感知、北京人形机器人创新中心、人形机器人（上海）公司、小雨智造等20余家头部客户采用。目前，地瓜机器人在具身智能领域的客户覆盖率已突破50%，旭日S600的合作覆盖人形机器人、工业轮式、3C柔性作业、具身大模型、全模态感知等多个领域，多数项目已迈入量产级出货阶段。随着具身智能在多元场景中加速落地，地瓜机器人正以软硬一体的基础设施，成为支撑行业前行的关键底座，赋能更多具身智能产品从技术验证走向规模化量产，与行业伙伴共同推动具身智能产业走向成熟。10大前沿赛道，数百款爆品，10万+开发者机器人创新生态进入收获期地瓜机器人全新升级的DGP地心引力计划，致力于打造机器人创新场景与爆款产品的孵化器，为机器人创业公司提供从产品研发、供应链选型、市场推广到融资路演的全链路支持。目前该计划已服务乐享科技、英汉思、求之科技、萝博派对、思博威视、朗极智能、擎羽、巡领科技、眺月科技、欧拉万象等创新企业，覆盖开源人形、AI运动教练、具身模型、AI影像、家庭陪伴等10大前沿赛道，多款产品成为细分品类代表性爆品并实现规模化量产出货，生态创新成果进入密集落地期。从产业实践出发，地",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://www.horizon.auto/news/press/479"
+    },
+    {
+      "source_id": "H06_Types_Content",
+      "location": "action_fp16",
+      "claim": "动作物理域与模型域",
+      "finding": "张量shape/位表示明确，关节单位与本体映射未知",
+      "quote": " action_fp64{};\n  std::vector<uint16_t> action_fp16{};\n};\n\n字段\t类型\t描述\naction_shape\tstd::vector<int32_t>\t动作张量 shape，如 [horizon, dim]。\naction_fp64\tstd::vector<double>\t后处理后的 FP64 动作序列。\naction_fp16\tstd::vector<uint16_t>\t模型原始 FP16 动作输出。\n#\n请求输入\n\nVlaRequestInputs 是 VLA 推理请求的通用输入字段，由 ParseVlaRequest 从 OellmVlaRequestData 解析填充：\n\nstruct VlaRequestInputs {\n  std::vector<VlaImageView> images{};\n  std::optional<std::string> prompt{};\n  std::optional<std::vector<int32_t>> token_ids{};\n  std::vector<do",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/40340.5dcdb5a2.js"
+    },
+    {
+      "source_id": "H06_Policy_Content",
+      "location": "序列化调用",
+      "claim": "策略线程契约",
+      "finding": "同实例不并发，多实例不保证系统尾时延",
+      "quote": "有权约定：VlaPolicy 实例的 Init 与 Run 由 runtime 序列化调用（同一实例不并发）；不同 VlaPolicy 实例可跨线程并行 Run。实现方持有所有内部资源，runtime 通过工厂创建并独占 unique_ptr<VlaPolicy>。\n\n#\n测试用推理接口\n\nVlaPolicy 另有一个带默认实现的虚函数，面向单元测试，解耦 Session 与 Request 句柄：\n\nvirtual OellmErrorCode Run(VlaRequestInputs const& in,\n                           VlaActionOutput& out_action) {\n  return OellmErrorCode::kErrNotSupported;\n}\n\n\n默认返回 kErrNotSupported，自定义模型可按需实现此接口以方便测试。\n\n#\n请求解析与响应打包\n#\n解析选项\n\nVlaRequestParseOptions 是 ParseVlaRequest 的解析选项：\n\nstruct VlaReque",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/19278.822b0fe1.js"
+    },
+    {
+      "source_id": "H06_Advanced_Content",
+      "location": "互斥",
+      "claim": "RTC/warm-start边界",
+      "finding": "模型适用与互斥，配置频率非实测伺服",
+      "quote": " Pi0.5 flow-matching 生效，与 model.use_rtc 互斥。\n参数类型：bool\n默认配置：false\n\n\t可选\nwarm_start.alpha\t\n\n参数描述：上一轮动作缓存与新噪声的混合权重。\n参数类型：float\n默认配置：0.5\n\n\t可选\nwarm_start.replan_steps\t\n\n参数描述：两次规划间执行的动作数（缓存左移量）。\n参数类型：int\n默认配置：10\n\n\t可选\n#\nRTC 校正配置\n\nmodel 段的 use_rtc 开启后，引擎在去噪循环中按 rtc 段施加 prefix attention 速度引导，处理器原理参考 RTC 校正处理器 章节：\n\n使用限制\n\nRTC 校正当前仅支持 Pi0 系列（Pi0/Pi0.5），与 warm_start 一步去噪互斥，不可同时启用；启用时须配置 model.num_flow_steps 大于 1（host 侧去噪循环）。\n\n参数名称\t参数说明\t可选/必选\nuse_rtc（model 段）\t\n\n参数描述：是否启用 RTC（Retrieval-Time Correction",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/85974.f71f5f7e.js"
+    }
+  ],
+  "manual_review": {
+    "coverage": "当前维度覆盖与可复建验证详见正文；事实、厂商称、假设计算和未取得项区分",
+    "versions_and_measurements": "S6005.1.1与S1004.0.5、X5分开；编译/单算子/模型/机器人时延分开；未知条件未补造",
+    "maturity_and_licenses": "官方样例、合作计划、实机和商业运营分层；代码/权重/资产/商业SDK许可分别核对",
+    "figures_opened": "正文官方图逐张实际打开；支持的结论与版本限制见图注"
+  },
+  "archive_partial": [
+    {
+      "source_id": "Horizon_JD_Journey6P_DesignIn",
+      "missing_presentation": 25,
+      "missing_all": 27
+    },
+    {
+      "source_id": "Horizon_DRobotics_Funding_Relation",
+      "missing_presentation": 23,
+      "missing_all": 25
+    }
+  ],
+  "dynamic_provenance": [
+    {
+      "name": "H02_LLM_VLA",
+      "source_id": "H02_LLM_VLA_Content",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/overview",
+      "root_source": "H02_LLM_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_LLM_VLA_Conten--549ade35441bfbaf/original.response",
+      "content_js_sha256": "09f6e6bb4c7c137caa994a9a579e6a2816de1d28df719239d550c185dbac5213",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_VLA.txt",
+      "text_sha256": "ee09fdbd240d5ef55db397555ee41fb9e382f2311e1c47f4af4c3c01d6d28bc9",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_VLA.html",
+      "html_sha256": "312be1445057beece7bc80ff61ef863a7581809a8a7707ef801739e87b648ef1",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H06_Types",
+      "source_id": "H06_Types_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_api/vla_types",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H06_Types_Content--01c9167b06b3a111/original.response",
+      "content_js_sha256": "33235066ea50c1db8c758b1f39f2e06bf808778c9de9d8136b96916bb1db84dd",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H06_Types.txt",
+      "text_sha256": "6804e52eea3e806243589e51ffa8e62ee719e7f1bfd574da3deb96f1f9606c31",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H06_Types.html",
+      "html_sha256": "44ddc2acd894d2874df0a3aed72ef68b99fa138d642723006ccea45b4e9b4f9b",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H04_Config",
+      "source_id": "H04_Config_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_sample/config_basic",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H04_Config_Content--5a02b6b9a1f6c236/original.response",
+      "content_js_sha256": "400c8c7c9b075c81f33c9003e8cf11ad0a6670212a586ae4ff4568008cf673c7",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H04_Config.txt",
+      "text_sha256": "a7db64f95272321e08e56701e77189fdbf88506a6d056065a2f5e0f184b74be8",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H04_Config.html",
+      "html_sha256": "b9bee958b8737141aeac52eb8119254ad7f93f23ca8a131dc10f60cd5d056f31",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H05_RoboTwin",
+      "source_id": "H05_RoboTwin_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/sim_loop/robotwin",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H05_RoboTwin_Conte--fa35342380225a8f/original.response",
+      "content_js_sha256": "8e1322f217cf77f07a728ac7a710ad7b39d8d8bf3c71ac7ecc02d4a756e46661",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_RoboTwin.txt",
+      "text_sha256": "9fb32a1b2de256f21a4b3a41a962c4f939d19244520e1765cabc9942b674d2eb",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_RoboTwin.html",
+      "html_sha256": "ad21a435aff8285d353fc0371d63db283a06d3d9e89ffcdf2087b3de3e85bfd7",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H06_Policy",
+      "source_id": "H06_Policy_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_api/framework_layer/vla_policy",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H06_Policy_Content--632603fd58f659e6/original.response",
+      "content_js_sha256": "7702a215105f44bfd6b6bdf7d3365c62fbaaf600a9feb0c99478df20b28c3cb7",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H06_Policy.txt",
+      "text_sha256": "1dc1e5eb3b4cc3a89609986ab682e25c838a936e2be60e955f3b4d4bf0d0d075",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H06_Policy.html",
+      "html_sha256": "5958b379fa3b0535c8b8c281f445c28e2994b0e9fa3079e87f9fd53048b1a405",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H06_Advanced",
+      "source_id": "H06_Advanced_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_sample/config_advanced",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H06_Advanced_Conte--f56beb82eada2273/original.response",
+      "content_js_sha256": "156aa3fbded218750aa3621b758c397abe4491fe5e17469fac912da14f1c290c",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H06_Advanced.txt",
+      "text_sha256": "33ec0477125403cb37b9c465e8647f742d618ac0032299fc29680a65dea336d9",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H06_Advanced.html",
+      "html_sha256": "d1a96dc5faceb34d45f158e17a1632f2e7b39ca15b5021b27c7d639a194f48e9",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    }
+  ]
+}

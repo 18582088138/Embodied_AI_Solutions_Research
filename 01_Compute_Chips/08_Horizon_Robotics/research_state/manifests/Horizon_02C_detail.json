@@ -1,0 +1,27 @@
+[
+  {
+    "name": "H02_Pipeline",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/sample_pipeline",
+    "expected": "html"
+  },
+  {
+    "name": "H02_Hbmem",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/hbmem_sample_guide",
+    "expected": "html"
+  },
+  {
+    "name": "H02_Sunrise",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/sunrise_camera_develop_guide",
+    "expected": "html"
+  },
+  {
+    "name": "H02_GPU",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/sample_gpu_3d",
+    "expected": "html"
+  },
+  {
+    "name": "H02_Media_Overview",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/overview",
+    "expected": "html"
+  }
+]

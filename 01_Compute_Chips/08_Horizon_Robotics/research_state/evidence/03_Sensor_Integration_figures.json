@@ -1,0 +1,29 @@
+[
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H03_S600_Camera_Topology.png",
+    "sha256": "2ad75e09949f8fbc79df624fd4c1c6080981b765e5a0f677d1a515a7a80e2c48",
+    "source_id": "Horizon_S600_Camera_Manual",
+    "source_url": "http://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/01_Quick_start/image/hardware_interface/image-rdk_s600_camera_expansion_board_architecture_diagram.png",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/Horizon_S600_C--57531817dea53237/assets/images/f86ff16c16f2f9bbba392fb5.png",
+    "original_sha256": "2ad75e09949f8fbc79df624fd4c1c6080981b765e5a0f677d1a515a7a80e2c48",
+    "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+  },
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H03_Camera_Lidar_Sync.png",
+    "sha256": "7932c6aef892051248f2e033b89bc22e8a2fca16bc0837085f3a2e1a24131ccb",
+    "source_id": "H03_Current_Sync",
+    "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/07_Advanced_development/03_multimedia_development/02_S100/cam_sync/05_camera_sync_03.png",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H03_Current_Sy--ccb05c49965cfca1/assets/images/fb7e90a01f0585e5d1697c7f.png",
+    "original_sha256": "7932c6aef892051248f2e033b89bc22e8a2fca16bc0837085f3a2e1a24131ccb",
+    "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+  },
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H03_Stereo_SDK_ROS.png",
+    "sha256": "638d6e7e985c662d4b323db19fbf510c3746a870fc9f9e28c1f90de29bd88d54",
+    "source_id": "H02_TROS_Sensor",
+    "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/05_Robot_development/02_quick_demo/image/demo_sensor/stereo-camera-ros-arch.png",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_TROS_Senso--d7494a221f0c3960/assets/images/3655127f31d9edd702404421.png",
+    "original_sha256": "638d6e7e985c662d4b323db19fbf510c3746a870fc9f9e28c1f90de29bd88d54",
+    "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+  }
+]

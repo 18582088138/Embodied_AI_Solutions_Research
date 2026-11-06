@@ -1,0 +1,121 @@
+{
+  "source_ids": [
+    "H02_MCU_Info",
+    "H06_Types_Content",
+    "H02_IPC",
+    "H02_Timer",
+    "H02_S600_511_Release",
+    "H02_Watchdog",
+    "H02_RT",
+    "H02_Thermal",
+    "H02_Build",
+    "H02_Config",
+    "H02_OTA",
+    "H02_Miniboot",
+    "H02_S100_Miniboot",
+    "H08_Isaac_Safety",
+    "H02_MCU_Code",
+    "H02_FreeRTOS"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02D_mcu_frame.png",
+      "sha256": "6c3680a96f063bc4ee1297501f5bdf3976bf64a239b482f748b093ada1f249ff",
+      "source_id": "H02_MCU_Info",
+      "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/07_Advanced_development/05_mcu_development/01_S100/basic_information/MCU_frame.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_MCU_Info--ab43a50619e45bdc/assets/images/95d7f24bc0d01340092b8b72.png",
+      "original_sha256": "6c3680a96f063bc4ee1297501f5bdf3976bf64a239b482f748b093ada1f249ff",
+      "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "H02_MCU_Info",
+      "location": "wfi",
+      "claim": "固件替换与诊断",
+      "finding": "等待WFI；alive一秒延迟不当控制反馈",
+      "quote": "打印 警告stop MCU1之后，如果需要再次启动 MCU1，必须等待系统进入 wfi 模式之后，才能再次 start MCU1，见下图所示。原因解释：避免系统还没有进入 wfi 模式时，start MCU1会重新加载 firmware 至 mcu sram 位置导致之前位置代码被覆盖，导致系统运行跑飞挂死 MCU0/MCU1模块划分​ MCU 整个系统含有 ICU、RTC、IPC、port、CAN 等模块，但是为了用户开发的方便，对于功能进行了划分，划分细节如下图所示。 模块模块位置ppslcuMCU0portMCU0uartMCU0/MCU1logMCU0/MCU1shell_initMCU0/MCU1mDmaMCU0/MCU1I2cMCU0: i2c6, i2c7/MCU1: i2c8, i2c9tca9539MCU0ICUMCU0GPTMCU0pmicMCU0fls_initMCU0otaflashMCU0ipcMCU0: instance8/MCU1: instance0(其他 instance 未划分, 均可使用)cryptoMCU0pvtMCU0can",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/basic_information"
+    },
+    {
+      "source_id": "H02_Watchdog",
+      "location": "5000",
+      "claim": "看门狗恢复",
+      "finding": "约五秒任务延迟不是危险停机保证",
+      "quote": "ed_reset 为真时：日志 → vTaskDelay(MS_TO_TICK(5000))（约 5s）→ Rfchm_TriggerSocLongReset() 执行 SoC 长复位最后于 2026年11月4日 更新上一页6.5.16 TIMER 使用指南下一页6.5.18 EtherCAT 用户手册1. 简介2. 概览2.1 文件列表Lowlevel 接口Highlevel 接口3. 应用程序接口3.1 类型3.1.1 导入类型3.1.2 类型定义Wdg_ApiIdTypeWdg_ErrIdTypeWdg_StateTypeWdg_ModeTypeWdg_ConfigType3.2 函数定义3.2.1 Wdgx_Init3.2.2 Wdgx_SetMode3.2.3 Wdgx_SetTriggerCondition3.2.4 Wdgx_GetVersionInfo3.3 中断处理3.4 临界区4. Acore 看门狗超时 MCU 处理流程4.1 复位配置使能4.2 MCU 侧处理流程友情链接古月居联系我们GitHubBilibiliCopyright © 202",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_watchdog"
+    },
+    {
+      "source_id": "H02_Config",
+      "location": "AVB 功能默认不使能",
+      "claim": "验证启动",
+      "finding": "默认配置不等于量产签名启用",
+      "quote": "需要修改启动分区的内容，这与AVB的要求是冲突的，所以本功能在使能 AVB 时（AVB 功能默认不使能）不能使用； 使用指南​ 提示 配置文件默认格式为<key>=<value>，第一个=后面的所有内容均为=前的<key>的配置值； 配置文件单行配置不能超过1024字符； 配置文件内的配置默认不会被保存为 Uboot 的默认配置； 配置内核 bootargs（内核 cmdline）​ 修改配置文件，添加：bootargs=<自定义bootargs>，例如： # Add cpu isolation configurationbootargs=isolcpus=1-2 修改内核启动打印等级​ 修改配置文件，添加：loglevel=<自定义打印等级>，例如： # Add kernel loglevel configurationloglevel=8 临时修改 dts​ 使能或失能特定节点​ 修改配置文件，添加：fdt-enable=<dts节点1全路径>;<dts节点2全路径>;；fdt-disable=<dts节点1全路径>;<dts节点2全路径>;，例如： # Ena",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/System_configuration/config_txt"
+    },
+    {
+      "source_id": "H02_Miniboot",
+      "location": "没有内建的自动回滚",
+      "claim": "更新故障",
+      "finding": "直写NOR无内建回退",
+      "quote": "不走 ota_tool 的 \"升级 → 校验 → 切 slot\" 两段式状态机，没有内建的自动回滚：任意一步 dd 失败或中途掉电都可能导致设备无法启动。 工作原理​ 脚本执行顺序： OHP 生命周期检查：若设备已进入 OHP 阶段，在线升级被拒绝，必须用 factory 工具整片重烧。 读取当前 AB slot：通过 ota_tool -g 获取 A / B；eMMC 阶段按当前 slot 写入 <part>_<slot>。 选择 NOR 镜像：内核 cmdline 含 hobotboot.secureboot=1 时使用 miniboot_flash.img（签名版），否则使用 miniboot_flash_nose.img。 NOR 整片烧写：对 /dev/block/platform/by-name/hb_vspiflash 做一次 dd（bs=2M），一次性覆盖整片 NOR，22MB 约需 3.5 分钟。 eMMC / UFS 逐个烧写：对 acore_cfg_<slot>、bl31_<slot>、optee_<slot>、uboot_<slot> 四个 ",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/OTA/ota_miniboot"
+    },
+    {
+      "source_id": "H02_MCU_Code",
+      "location": "企业版专有",
+      "claim": "交付范围",
+      "finding": "社区业务源码不覆盖完整MCAL",
+      "quote": "信息MCU0固件编译/McalCdd/Service/Platform 等代码为企业版专有，如有需要，请联系D-Robotics获取支持。 商业支持商业版提供更完整的功能支持、更深入的硬件能力开放和专属的定制内容。为确保内容合规、安全交付，我们将通过以下方式开放商业版访问权限。商业版本获取流程： 填写问卷：提交您的机构信息、使用场景等基本\u0000\u0000情况 签署保密协议（NDA）：我们将根据提交信息与您联系，双方确认后签署保密协议 内容释放：完成协议签署后，我们将通过私有渠道为您开放商业版本资料 如您希望获取商业版内容，请点击下方链接填写问卷，我们将在 3 ～ 5 个工作日内与您联系： https://horizonrobotics.feishu.cn/share/base/form/shrcnpBby71Y8LlixYF2N3ENbre MCU 社区版​ MCU├── Build # Build系统，包含编译/链接脚本├── Config # 针对各种不同board的McalCdd模块配置├── Include # 主要为驱动和Service文件夹内的头文件├── Libr",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/code_release"
+    },
+    {
+      "source_id": "H08_Isaac_Safety",
+      "location": "does not qualify",
+      "claim": "竞品安全边界",
+      "finding": "软件控制器不构成功能安全认证架构；机制比较不当系统等级",
+      "quote": "oller is meant as a useful tool, but it does not qualify as a functional-safety-certified architecture. Do not rely on it as your sole safety mechanism in safety-critical deployments. Integration with ROS 2 Control# The safety controller is a ros2_control controller that can be chained (ChainableControllerInterface). Like any controller in a chain, it takes reference interfaces as its inputs and exposes command interfaces as its outputs. This lets it sit in the middle of a controller c",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/concepts/safety.html"
+    }
+  ],
+  "manual_review": {
+    "coverage": "当前维度覆盖与可复建验证详见正文；事实、厂商称、假设计算和未取得项区分",
+    "versions_and_measurements": "S6005.1.1与S1004.0.5、X5分开；编译/单算子/模型/机器人时延分开；未知条件未补造",
+    "maturity_and_licenses": "官方样例、合作计划、实机和商业运营分层；代码/权重/资产/商业SDK许可分别核对",
+    "figures_opened": "正文官方图逐张实际打开；支持的结论与版本限制见图注"
+  },
+  "archive_partial": [
+    {
+      "source_id": "H08_Isaac_Safety",
+      "missing_presentation": 2,
+      "missing_all": 2
+    }
+  ],
+  "dynamic_provenance": [
+    {
+      "name": "H06_Types",
+      "source_id": "H06_Types_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_api/vla_types",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H06_Types_Content--01c9167b06b3a111/original.response",
+      "content_js_sha256": "33235066ea50c1db8c758b1f39f2e06bf808778c9de9d8136b96916bb1db84dd",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H06_Types.txt",
+      "text_sha256": "6804e52eea3e806243589e51ffa8e62ee719e7f1bfd574da3deb96f1f9606c31",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H06_Types.html",
+      "html_sha256": "44ddc2acd894d2874df0a3aed72ef68b99fa138d642723006ccea45b4e9b4f9b",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    }
+  ]
+}

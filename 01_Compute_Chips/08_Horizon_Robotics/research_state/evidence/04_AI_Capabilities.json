@@ -1,0 +1,253 @@
+{
+  "source_ids": [
+    "H02_LLM_VLA_Content",
+    "H04_LLM_Bench_Content",
+    "H04_VLM_Bench_Content",
+    "H04_Openpi",
+    "H04_Qwen3",
+    "H04_Qwen25VL",
+    "H04_LeRobot",
+    "H04_OpenVLA",
+    "H02_TROS_DNN",
+    "H03_Stereo",
+    "H04_Diffusion",
+    "H02_Navigation",
+    "H04_Pi0_Content",
+    "H04_Config_Content",
+    "H04_Smol_Content",
+    "H02_Dynamic_Asset_10",
+    "H02_Dynamic_Asset_14",
+    "H02_LLM_Quant_Content",
+    "H02_LLM_Compile_Content",
+    "H02_LLM_Perf_Content",
+    "H02_LLM_VLABench_Content",
+    "H04_Openpi_License",
+    "H04_LeRobot_License",
+    "H04_OpenVLA_License",
+    "H02_OE_License_Content"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02B_model_conversion.png",
+      "sha256": "57187304a66d318fe58cc60899dc3226eebcc274aac71543f502431dcca9a3c4",
+      "source_id": "H02_Dynamic_Asset_10",
+      "source_url": "https://developer.d-robotics.cc/oe_s_doc/static/image/model_conversion_compilation.914a0e0b.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_Dynamic_Asset_--0f9289a0555fce7d/content.png",
+      "original_sha256": "6aa81c923cf654a26388249a496b2d8d54355a687221bf6d4ab5bca9af8270ff",
+      "operation": "官方透明PNG在白底合成，保留全部文字及版面，无裁剪；实际打开检查"
+    },
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02B_llm_quantization.png",
+      "sha256": "710b1da0bbe96cea11bfb6288de487232be5a9dfae32585bf09cd8e1303ecab5",
+      "source_id": "H02_Dynamic_Asset_14",
+      "source_url": "https://developer.d-robotics.cc/oe_llm_doc/static/image/model_quantization.c85c9c2f.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_Dynamic_Asset_--3de30ebb446bf075/content.png",
+      "original_sha256": "faa53899272fbe14bbf34b93f665c7e6b47f94efe38b6949ec12143c9cb2b9be",
+      "operation": "官方透明PNG在白底合成，保留全部文字及版面，无裁剪；实际打开检查"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "H02_LLM_VLA_Content",
+      "location": "S600",
+      "claim": "VLA SKU边界",
+      "finding": "仅S600部署包；文档正文通过离线渲染核验",
+      "conditions": "OE LLM2.0.0；动态正文见provenance",
+      "quote": "5\\u968F \",(0,i.jsx)(l.strong,{children:\"S600\"}),\" \\u90E8\\u7F72\\u5305\\u63D0\\u4F9B\\uFF1A\",(0,i.jsx)(l.code,{children:\"vla_demo\"}),\" \\u793A\\u4F8B\\u3001\",(0,i.jsx)(l.code,{children:\"include/vla\"}),\" \\u5934\\u6587\\u4EF6\\u4E0E \",(0,i.jsx)(l.code,{children:\"libvla_sdk.so\"}),\" \\u52A8\\u6001\\u5E93\\u5747\\u53EA\\u5728 S600 \\u5305\\u5185\\u53D1\\u5E03\\uFF0CS100 / S100P \\u5305\\u6682\\u4E0D\\u652F\\u6301 VLA \\u6A21\\u578B\\u90E8\\u7F72\\u3002\"]})})]}),\"\\n\",(0,i.jsxs)(l.h2,{id:\"\\u9002\\u7528\\u573A\\u666F\",children:",
+      "evidence_type": "事实/分析，见finding",
+      "source_url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/26444.95f492ac.js"
+    },
+    {
+      "source_id": "H04_Pi0_Content",
+      "location": "action_horizon",
+      "claim": "Pi05输入输出配置",
+      "finding": "两路有效图、8维状态/7维动作、10帧chunk；不推控制频率",
+      "quote": "var(--shiki-token-keyword)\"},children:'\"action_horizon\"'}),(0,l.jsx)(e.span,{style:{color:\"var(--shiki-token-punctuation)\"},children:\":\"}),(0,l.jsx)(e.span,{style:{color:\"var(--shiki-color-text)\"},children:\" \"}),(0,l.jsx)(e.span,{style:{color:\"var(--shiki-token-constant)\"},children:\"10\"}),(0,l.jsx)(e.span,{style:{color:\"var(--shiki-token-punctuation)\"},children:\",\"})]}),\"\\n\",(0,l.jsxs)(e.span,{className:\"line line-number\",children:[(0,l.jsx)(e.span,{style:{color:\"var(--shiki-color-text",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/95984.ae5bd0da.js"
+    },
+    {
+      "source_id": "H04_LLM_Bench_Content",
+      "location": "Qwen3-4B",
+      "claim": "Qwen3性能条件",
+      "finding": "4核w4与256/2048token，72ms/48.3TPS非P99",
+      "quote": "r\",{children:[(0,n.jsx)(\"td\",{children:\"Qwen3-4B\"}),(0,n.jsxs)(\"td\",{children:[\"prefill w4\",(0,n.jsx)(\"br\",{}),\"decode w4\"]}),(0,n.jsx)(\"td\",{children:\"72\"}),(0,n.jsx)(\"td\",{children:\"48.3\"}),(0,n.jsx)(\"td\",{children:\"5.4\"})]}),(0,n.jsxs)(\"tr\",{children:[(0,n.jsx)(\"td\",{children:\"Qwen3-4B-Instruct-2507\"}),(0,n.jsxs)(\"td\",{children:[\"prefill w4\",(0,n.jsx)(\"br\",{}),\"decode w4\"]}),(0,n.jsx)(\"td\",{children:\"71\"}),(0,n.jsx)(\"td\",{children:\"48.2\"}),(0,n.jsx)(\"td\",{children:\"5.4\"})]}),(0,n.js",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/10373.6f8e6afd.js"
+    },
+    {
+      "source_id": "H02_LLM_VLABench_Content",
+      "location": "95.894",
+      "claim": "VLA两步性能",
+      "finding": "w8单次端侧时延；无真实成功率、热/功率条件",
+      "quote": "ess 0.009\"]}),(0,n.jsx)(\"td\",{children:\"95.894\"}),(0,n.jsx)(\"td\",{children:\"4.7\"})]}),(0,n.jsxs)(\"tr\",{children:[(0,n.jsx)(\"td\",{children:\"Pi05\"}),(0,n.jsx)(\"td\",{children:\"libero\"}),(0,n.jsx)(\"td\",{children:\"10\"}),(0,n.jsxs)(\"td\",{style:{whiteSpace:\"nowrap\"},children:[\"pre-process 0.069\",(0,n.jsx)(\"br\",{}),\"vision 17.380\",(0,n.jsx)(\"br\",{}),\"language 65.303\",(0,n.jsx)(\"br\",{}),\"action 59.077\",(0,n.jsx)(\"br\",{}),\"post-process 0.009\"]}),(0,n.jsx)(\"td\",{children:\"142.972\"}),(0,n.jsx)(\"td",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/7805.87d8031b.js"
+    },
+    {
+      "source_id": "H04_Openpi",
+      "location": "flow matching head",
+      "claim": "上游模型分支",
+      "finding": "Pi0-FAST不同于当前flow头，作者承认本体迁移风险",
+      "quote": "pository, we currently only support the flow matching head for both $\\pi_{0.5}$ training and inference.\n\nFor all models, we provide _base model_ checkpoints, pre-trained on 10k+ hours of robot data, and examples for using them out of the box or fine-tuning them to your own datasets.\n\nThis is an experiment: $\\pi_0$ was developed for our own robots, which differ from the widely used platforms such as [ALOHA](https://tonyzhaozh.github.io/aloha/) and [DROID](https://droid-dataset.github.io",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md"
+    }
+  ],
+  "manual_review": {
+    "coverage": "当前维度覆盖与可复建验证详见正文；事实、厂商称、假设计算和未取得项区分",
+    "versions_and_measurements": "S6005.1.1与S1004.0.5、X5分开；编译/单算子/模型/机器人时延分开；未知条件未补造",
+    "maturity_and_licenses": "官方样例、合作计划、实机和商业运营分层；代码/权重/资产/商业SDK许可分别核对",
+    "figures_opened": "正文官方图逐张实际打开；支持的结论与版本限制见图注"
+  },
+  "archive_partial": [],
+  "dynamic_provenance": [
+    {
+      "name": "H02_LLM_VLA",
+      "source_id": "H02_LLM_VLA_Content",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/overview",
+      "root_source": "H02_LLM_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_LLM_VLA_Conten--549ade35441bfbaf/original.response",
+      "content_js_sha256": "09f6e6bb4c7c137caa994a9a579e6a2816de1d28df719239d550c185dbac5213",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_VLA.txt",
+      "text_sha256": "ee09fdbd240d5ef55db397555ee41fb9e382f2311e1c47f4af4c3c01d6d28bc9",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_VLA.html",
+      "html_sha256": "312be1445057beece7bc80ff61ef863a7581809a8a7707ef801739e87b648ef1",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H04_LLM_Bench",
+      "source_id": "H04_LLM_Bench_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/benchmark/s600/llm_benchmark",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H04_LLM_Bench_Cont--36f326b2114f4367/original.response",
+      "content_js_sha256": "1d865ede57374a27269024af1e50901a40a343377c804acb8e0bdc0baff781c2",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H04_LLM_Bench.txt",
+      "text_sha256": "c8f458d9edb440dff8b45ed2f488c0b08ef8a509143216529337dd6fa9e0db3e",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H04_LLM_Bench.html",
+      "html_sha256": "dd94422fcc8683d1b2b4ffef2a27a55267b24f3a3f53882f98337d9d38970170",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H04_VLM_Bench",
+      "source_id": "H04_VLM_Bench_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/benchmark/s600/vlm_benchmark",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H04_VLM_Bench_Cont--a0efe3034ce0333c/original.response",
+      "content_js_sha256": "001bb6f5aa03cfeba0df9723cdc3451caaecd3ac8b8fc8141d6d9014f2d3840c",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H04_VLM_Bench.txt",
+      "text_sha256": "619666b95548a9708434b58664609e627aaf629e6bf8f898ce2339f3f2dfd812",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H04_VLM_Bench.html",
+      "html_sha256": "a0ccbffc9f57959a6b8cae483f9d09e3919b7d17f24f125e3069b5a767b4ece1",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H04_Pi0",
+      "source_id": "H04_Pi0_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_sample/pi0_pi05_demo",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H04_Pi0_Content--7fbbb66205a2a9ed/original.response",
+      "content_js_sha256": "6030e5f118e6a9ebb181d936c2fdd163819e9de5209fef3e6a9f272d9bc2bc61",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H04_Pi0.txt",
+      "text_sha256": "98e0cdcb97a30b0220a595d25c1cf155ef66ff1909e117a2d05f522017426fc3",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H04_Pi0.html",
+      "html_sha256": "e11e0c75256d4adcf78e2c9c4ab81363e0881474fc7af896f2d487c2bfa9b75b",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H04_Config",
+      "source_id": "H04_Config_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_sample/config_basic",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H04_Config_Content--5a02b6b9a1f6c236/original.response",
+      "content_js_sha256": "400c8c7c9b075c81f33c9003e8cf11ad0a6670212a586ae4ff4568008cf673c7",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H04_Config.txt",
+      "text_sha256": "a7db64f95272321e08e56701e77189fdbf88506a6d056065a2f5e0f184b74be8",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H04_Config.html",
+      "html_sha256": "b9bee958b8737141aeac52eb8119254ad7f93f23ca8a131dc10f60cd5d056f31",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H04_Smol",
+      "source_id": "H04_Smol_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_sample/smolvla_demo",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H04_Smol_Content--19cbe192a8e14702/original.response",
+      "content_js_sha256": "e61402a93b0871a4f0976564029d3ac7ae594cae8649ffc502e5d3902c1c7deb",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H04_Smol.txt",
+      "text_sha256": "92ccba1fc91c93d50fd4c4e7f78b15bc15cd241bad8906dc16599e7ae76f84dc",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H04_Smol.html",
+      "html_sha256": "ff3d3efa32f57a72ccd7cefa6e862f9a7e84a850b119023898a9f09b84f3a816",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H02_LLM_Quant",
+      "source_id": "H02_LLM_Quant_Content",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/llm_compression/detailed_function_specification/model_quantization",
+      "root_source": "H02_LLM_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_LLM_Quant_Cont--930c8b2648c88eba/original.response",
+      "content_js_sha256": "7c66551d39415f913d08662a2f678764ff3e54ac6213604a763b089c7e406f73",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_Quant.txt",
+      "text_sha256": "428ac9c2ea60562f296ce77fc0653fca29f7a69114ef99ff78d785d5db706402",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_Quant.html",
+      "html_sha256": "9282b6d44e0ebb9547031bdfb35cca6f2b8b05185a56cea9621e6668aec469c2",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H02_LLM_Compile",
+      "source_id": "H02_LLM_Compile_Content",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/llm_compression/detailed_function_specification/model_compilation",
+      "root_source": "H02_LLM_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_LLM_Compile_Co--cc21f8f5997a722f/original.response",
+      "content_js_sha256": "374437965ab9a1a72de103a49e533fbb4c0d4a6e94f4d8ba07434f62d0f273b3",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_Compile.txt",
+      "text_sha256": "462c8d7c68e8b20ca876dbd7bc136b36bb665d580353deeabdf24890e654bd4e",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_Compile.html",
+      "html_sha256": "4ca604c8459f08ba45c8f3200dfc3adb8d9e3ab6c77cc2b3a9b2c0cb47b134f7",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H02_LLM_Perf",
+      "source_id": "H02_LLM_Perf_Content",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/benchmark/note",
+      "root_source": "H02_LLM_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_LLM_Perf_Conte--512813f90d80c32d/original.response",
+      "content_js_sha256": "f83c52cfe5654c01bc8caf74465f76534540728a8f70903a925000fb1362de88",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_Perf.txt",
+      "text_sha256": "303bb714d1ef7815a0b21f37cc58cd247e59729db38b6823a1378f529f603e54",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_Perf.html",
+      "html_sha256": "ad3c217cc26f1f1d83ab4701b768b21f6df4ddb554923f692a90a72de836d3a1",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H02_LLM_VLABench",
+      "source_id": "H02_LLM_VLABench_Content",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/benchmark/s600/vla_benchmark",
+      "root_source": "H02_LLM_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_LLM_VLABench_C--6e127a5530c5176e/original.response",
+      "content_js_sha256": "c9e9aca7fef9963cddecff1023319db968c6e44f70257510c7230308014278c7",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_VLABench.txt",
+      "text_sha256": "7069ef61b9339a010b8a294a23fc0b77b05beb6de6dcca6a28c7c7dc937fcd5f",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_VLABench.html",
+      "html_sha256": "a2d138997ade1cb565d3eeadef5a7bff664d56424711c0a14bc85e40f9fafc04",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H02_OE_License",
+      "source_id": "H02_OE_License_Content",
+      "url": "https://developer.d-robotics.cc/oe_s_doc/guide/legalnotice/license_agreement",
+      "root_source": "H02_OE_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_OE_License_Con--6e1dd6456b634d63/original.response",
+      "content_js_sha256": "c88e76449d2233724dca636421f5af73be9086e1e32cfcd3d11d666781cc5633",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_OE_License.txt",
+      "text_sha256": "4b77286cf67adcb511ee15ca73bd932a7e5e51f43166c1c4e71eb30bafc3e351",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_OE_License.html",
+      "html_sha256": "8d1de5e3850bc9c16a9c5fab44251375e37e4b22b3da5db559b213ce7d4ca3e6",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    }
+  ]
+}

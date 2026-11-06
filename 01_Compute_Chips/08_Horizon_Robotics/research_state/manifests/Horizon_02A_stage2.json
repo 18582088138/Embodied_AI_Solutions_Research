@@ -1,0 +1,37 @@
+[
+  {
+    "name": "H02_Build",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/rdk_gen",
+    "expected": "html"
+  },
+  {
+    "name": "H02_Linux_Index",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/linux_development",
+    "expected": "html"
+  },
+  {
+    "name": "H02_Toolchain_Index",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/04_toolchain_development",
+    "expected": "html"
+  },
+  {
+    "name": "H02_Media_Index",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/03_multimedia_development",
+    "expected": "html"
+  },
+  {
+    "name": "H02_MCU_Index",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/05_MCU_development",
+    "expected": "html"
+  },
+  {
+    "name": "H02_Config",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/System_configuration/config_txt",
+    "expected": "html"
+  },
+  {
+    "name": "H02_Thermal",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/System_configuration/frequency_management",
+    "expected": "html"
+  }
+]

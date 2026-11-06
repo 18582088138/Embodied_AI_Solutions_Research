@@ -1,0 +1,20 @@
+[
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02C_hbmem_queue.png",
+    "sha256": "b877fc8dbe0257c252a1aecc083aa8b59d4e6c0a882e01ee992a03a725bce4aa",
+    "source_id": "H02_Hbmem",
+    "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/07_Advanced_development/03_multimedia_development/02_S100/hbmem/hbmem_queue.png",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_Hbmem--20f8f640ea355677/assets/images/90687b99865d14bcde0b2b1e.png",
+    "original_sha256": "b877fc8dbe0257c252a1aecc083aa8b59d4e6c0a882e01ee992a03a725bce4aa",
+    "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+  },
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02C_bpu_flow.png",
+    "sha256": "8f635130eead6f3ef5ab3c6bc133d077bdbd51ab65eab9b3033395584959d5aa",
+    "source_id": "H02_Sunrise",
+    "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/images_to_upload/bpu_flow.png",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_Sunrise--f2a7faecf95c530e/assets/images/e086f61273bebc60d4bbcc97.png",
+    "original_sha256": "8f635130eead6f3ef5ab3c6bc133d077bdbd51ab65eab9b3033395584959d5aa",
+    "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+  }
+]

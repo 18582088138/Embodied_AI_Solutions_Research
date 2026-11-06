@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Horizon_S600_Camera_Manual",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Quick_start/hardware_introduction/rdk_s600/rdk_s600_camera_expansion_board",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "H02_TROS_Sensor",
+    "url": "https://developer.d-robotics.cc/tros_doc/quick_demo/demo_sensor",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "H03_Current_Sync",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/multimedia_development/camerasync",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "H03_S100_Sync",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/07_Advanced_development/03_multimedia_development/01_S100/05_camerasync.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "H03_S100_Time",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/07_Advanced_development/02_linux_development/04_driver_development_s100/12_driver_timesync.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "H03_S100_Bringup",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/07_Advanced_development/03_multimedia_development/01_S100/02_camera_bringup.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "H02_Pipeline",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/sample_pipeline",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "H02_Hbmem",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/hbmem_sample_guide",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "H02_TROS_Zero",
+    "url": "https://developer.d-robotics.cc/tros_doc/tros_dev/zero_copy",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "H03_X5_IMU",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs/03_Basic_Application/07_accessory_instructions/rdk_x5/imu/icm42688.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "H03_Stereo",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs/05_Robot_development/03_boxs/spatial/stereo_imu_cam.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  }
+]

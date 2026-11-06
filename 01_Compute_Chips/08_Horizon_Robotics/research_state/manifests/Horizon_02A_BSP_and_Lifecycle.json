@@ -1,0 +1,90 @@
+[
+  {
+    "name": "H02_S600_511_Release",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Release_Note/s600/v5_1_1",
+    "expected": "any",
+    "used_by": [
+      "02A_BSP_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_S100_Release",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/10_Release_Note/01_v4_0_5_260507.md",
+    "expected": "any",
+    "used_by": [
+      "02A_BSP_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "Horizon_S600_Downloads",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Quick_start/download",
+    "expected": "any",
+    "used_by": [
+      "02A_BSP_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Build",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/rdk_gen",
+    "expected": "any",
+    "used_by": [
+      "02A_BSP_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Config",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/System_configuration/config_txt",
+    "expected": "any",
+    "used_by": [
+      "02A_BSP_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_RT",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/realtime_kernel",
+    "expected": "any",
+    "used_by": [
+      "02A_BSP_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Thermal",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/System_configuration/frequency_management",
+    "expected": "any",
+    "used_by": [
+      "02A_BSP_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_OTA",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/OTA/ota_system",
+    "expected": "any",
+    "used_by": [
+      "02A_BSP_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Miniboot",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/OTA/ota_miniboot",
+    "expected": "any",
+    "used_by": [
+      "02A_BSP_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_S100_Miniboot",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/07_Advanced_development/02_linux_development/06_OTA/02_ota_miniboot.md",
+    "expected": "any",
+    "used_by": [
+      "02A_BSP_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "Horizon_RDK_License",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02A_BSP_and_Lifecycle"
+    ]
+  }
+]

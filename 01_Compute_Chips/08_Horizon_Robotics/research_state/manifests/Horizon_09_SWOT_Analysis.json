@@ -1,0 +1,186 @@
+[
+  {
+    "name": "Horizon_DRobotics_Funding_Relation",
+    "url": "https://www.horizon.auto/news/press/479",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "H09_Reports_Index",
+    "url": "https://www.horizon.auto/investor-relations/report",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Horizon_JD_Journey6P_DesignIn",
+    "url": "https://www.horizon.auto/news/press/475",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Horizon_RDK_S600",
+    "url": "https://cn.d-robotics.cc/rdkS600",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "H02_LLM_Compile_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/50188.3b7997bf.js",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "H04_Pi0_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/95984.ae5bd0da.js",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "H03_Current_Sync",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/multimedia_development/camerasync",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "H02_EtherCAT",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_ethercat",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "H02_MCU_Code",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/code_release",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "H02_Miniboot",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/OTA/ota_miniboot",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "H07_Developer",
+    "url": "https://cn.d-robotics.cc/developer",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Horizon_S600_Camera_Manual",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Quick_start/hardware_introduction/rdk_s600/rdk_s600_camera_expansion_board",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "H02_MCU_Info",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/basic_information",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "H05_RoboTwin_Repo",
+    "url": "https://raw.githubusercontent.com/D-Robotics/RoboTwin/pi0pub/README.md",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Horizon_S600_Module_Brief",
+    "url": "https://archive.d-robotics.cc/downloads/hardware/rdk_s600/rdk_s600/brief/drobotics_rdk_s600_module_brief_v1p0_zh.pdf",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Horizon_S600_Waveshare_Quote",
+    "url": "https://www.waveshare.net/shop/RDK-S600-32G.htm",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Horizon_S600_Downloads",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Quick_start/download",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "H09_PIPL_CAC",
+    "url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "H09_GenAI",
+    "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "H04_Openpi_License",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "H04_LeRobot_License",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "H05_Sim_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/96352.bec46241.js",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "H02_TROS_Install",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs/05_Robot_development/01_quick_start/install_tros.md",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  }
+]

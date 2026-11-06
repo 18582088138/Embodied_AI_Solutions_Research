@@ -1,0 +1,10 @@
+{
+  "financial_entry": "https://www.horizon.auto/investor-relations/report",
+  "official_embed": "https://horizon.vislan.com/report/index.html?lang=zh-cn",
+  "result": "财报目录导航有效但无报告正文；官方嵌入页下载失败；未引用财务数字",
+  "other_failed_candidates": [
+    "H09_PIPL",
+    "H08_Arm_A78AE"
+  ],
+  "policy": "网信办正式法条成功归档，未通过失败页面证据写作"
+}

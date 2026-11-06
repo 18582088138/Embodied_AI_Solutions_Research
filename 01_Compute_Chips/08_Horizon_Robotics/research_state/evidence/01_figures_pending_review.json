@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S100_official_topology.png",
+    "sha256": "2e5b3588a31d0b5c9fea97b1fb1615f81dc5a2820c2a8816e4f564f8021db386",
+    "source_id": "Horizon_S100_Architecture",
+    "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/01_Quick_start/image/hardware_interface/image-rdk_s100_architecture_diagram.png",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/Horizon_S100_Archi--f3a9074b0c428e82/content.png",
+    "original_sha256": "2e5b3588a31d0b5c9fea97b1fb1615f81dc5a2820c2a8816e4f564f8021db386",
+    "operation": "原始PNG复制，不裁剪"
+  },
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S100_official_specs.png",
+    "sha256": "ab44fe4bdab4e6e65741761fd6ccb5461eb1df635068467011143c97e304e404",
+    "source_id": "Horizon_01_Datasheet_9",
+    "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_s100/rdk_s100/d_robotics_rdk_s100_board_zh_v1_2.pdf",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/documents/Horizon_01_Da--0be33395489849c0/document.pdf",
+    "original_sha256": "ba2ac4bf7a5338fd3a12efa5ff894e44942d90053370733ab0ea477b013bdb8f",
+    "operation": "Poppler pdftoppm PDF物理第3页，1800px最长边，整页无裁剪"
+  },
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/X5_Module_official_specs.png",
+    "sha256": "c32e1766a860a6bb51fb4557f315254795391977f095f06701f8da8bbfc592d4",
+    "source_id": "Horizon_01_Datasheet_2",
+    "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_x5_module/drobotics_rdk_x5_module_zh_v1_2.pdf",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/documents/Horizon_01_Da--38f27c6106694de6/document.pdf",
+    "original_sha256": "59da7dfe4847bd76a285bdf506f44ede72e92503c96b27e8385cb2470bf6aa7c",
+    "operation": "Poppler pdftoppm PDF物理第3页，1800px最长边，整页无裁剪"
+  },
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/X5_Module_official_SKUs.png",
+    "sha256": "31c4eb204d74ace0190973b2de625eefc08abf512d853005d0347caf1fd27519",
+    "source_id": "Horizon_01_Datasheet_2",
+    "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_x5_module/drobotics_rdk_x5_module_zh_v1_2.pdf",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/documents/Horizon_01_Da--38f27c6106694de6/document.pdf",
+    "original_sha256": "59da7dfe4847bd76a285bdf506f44ede72e92503c96b27e8385cb2470bf6aa7c",
+    "operation": "Poppler pdftoppm PDF物理第4页，1800px最长边，整页无裁剪"
+  },
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/X5_official_specs.png",
+    "sha256": "83a04ef809a61c0dfb088086d19006c03637ecdb2b5285f3409927b9d5fe820d",
+    "source_id": "Horizon_01_Datasheet_1",
+    "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_x5/d_robotics_rdk_x5_zh_v1_1.pdf",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/documents/Horizon_01_Da--d8cc60d92b101ba9/document.pdf",
+    "original_sha256": "9c1363e367b31c75fd95ef8088bff3216457524bfb7d4dbd09320c0846aebcd6",
+    "operation": "Poppler pdftoppm PDF物理第3页，1800px最长边，整页无裁剪"
+  },
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/Ultra_Module_official_specs.png",
+    "sha256": "bb1b23952ba35e706ee6d93694694edd77d0d20b1f5abf801505314f3143e3e1",
+    "source_id": "Horizon_01_Datasheet_6",
+    "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_ultra/RDK_Ultra_Module_Product_Brief.pdf",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/documents/Horizon_01_Da--2f20da7ed2b7b78b/document.pdf",
+    "original_sha256": "0ec2137f8f48ca52e63a6841884bde9125618b833c7bba1c71851b3ac66a9583",
+    "operation": "Poppler pdftoppm PDF物理第2页，1800px最长边，整页无裁剪"
+  },
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S100_official_MCU_framework.png",
+    "sha256": "6c3680a96f063bc4ee1297501f5bdf3976bf64a239b482f748b093ada1f249ff",
+    "source_id": "Horizon_MCU_Framework",
+    "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/07_Advanced_development/05_mcu_development/01_S100/basic_information/MCU_frame.png",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/Horizon_MCU_Framew--95d7f24bc0d01340/content.png",
+    "original_sha256": "6c3680a96f063bc4ee1297501f5bdf3976bf64a239b482f748b093ada1f249ff",
+    "operation": "原始PNG复制，不裁剪"
+  },
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S600_official_architecture.png",
+    "sha256": "35a1a60a4a6b1f3f4c770fbf1d0e415955e6bee0205c7c04a2a7253fd2e06f02",
+    "source_id": "Horizon_S600_Chip",
+    "source_url": "https://cn.d-robotics.cc/_nuxt/img/architecture-mobile.1366d65.png",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/Horizon_S600_C--ded5577c7a3f58b4/assets/images/07dd8592d1786a34def8d759.png",
+    "original_sha256": "35a1a60a4a6b1f3f4c770fbf1d0e415955e6bee0205c7c04a2a7253fd2e06f02",
+    "operation": "官方HTML归档asset原图复制，无裁剪；原图文件名architecture-mobile"
+  }
+]

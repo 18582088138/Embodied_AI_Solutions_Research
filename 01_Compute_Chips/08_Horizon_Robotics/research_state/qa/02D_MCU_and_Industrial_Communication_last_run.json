@@ -1,0 +1,24 @@
+{
+  "time_utc": "2026-11-05T02:56:20.423876+00:00",
+  "summary": {
+    "complete_static": 10,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "H02_S600_511_Release",
+    "H02_MCU_Info",
+    "H02_MCU_Code",
+    "H02_MCU_Build",
+    "H02_FreeRTOS",
+    "H02_IPC",
+    "H02_CAN",
+    "H02_EtherCAT",
+    "H02_Timer",
+    "H02_Watchdog"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

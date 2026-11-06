@@ -1,0 +1,17 @@
+[
+  {
+    "name": "H02_RT",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/realtime_kernel",
+    "expected": "html"
+  },
+  {
+    "name": "H02_OTA_Index",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/OTA",
+    "expected": "html"
+  },
+  {
+    "name": "H02_Gen_Repo",
+    "url": "https://api.github.com/repos/D-Robotics/rdk_gen",
+    "expected": "json"
+  }
+]

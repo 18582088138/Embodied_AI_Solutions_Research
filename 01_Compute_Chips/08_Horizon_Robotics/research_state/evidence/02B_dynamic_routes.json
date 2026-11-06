@@ -1,0 +1,86 @@
+[
+  {
+    "name": "H02_OE_PTQ",
+    "source_id": "H02_OE_PTQ_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/guide/faststart/ptq_quickstart",
+    "root_source": "H02_OE_Manual"
+  },
+  {
+    "name": "H02_OE_Compile",
+    "source_id": "H02_OE_Compile_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/guide/model_deployment_guidance/model_deployment_principle_process/model_conversion_compile",
+    "root_source": "H02_OE_Manual"
+  },
+  {
+    "name": "H02_OE_Deploy",
+    "source_id": "H02_OE_Deploy_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/guide/model_deployment_guidance/model_deployment_principle_process/boardside_deployment",
+    "root_source": "H02_OE_Manual"
+  },
+  {
+    "name": "H02_OE_Dynamic",
+    "source_id": "H02_OE_Dynamic_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/guide/ucp/runtime/bpu_sdk_api/dynamic_input_introduction",
+    "root_source": "H02_OE_Manual"
+  },
+  {
+    "name": "H02_UCP_Submit",
+    "source_id": "H02_UCP_Submit_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/guide/ucp/ucp_api_reference/ucp_api_function_interface/hbucpsubmittask",
+    "root_source": "H02_OE_Manual"
+  },
+  {
+    "name": "H02_UCP_Flush",
+    "source_id": "H02_UCP_Flush_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/guide/ucp/ucp_api_reference/ucp_api_function_interface/hbucpmemflush",
+    "root_source": "H02_OE_Manual"
+  },
+  {
+    "name": "H02_OE_License",
+    "source_id": "H02_OE_License_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/guide/legalnotice/license_agreement",
+    "root_source": "H02_OE_Manual"
+  },
+  {
+    "name": "H02_LLM_Intro",
+    "source_id": "H02_LLM_Intro_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/sdk_introduction",
+    "root_source": "H02_LLM_Manual"
+  },
+  {
+    "name": "H02_LLM_Quant",
+    "source_id": "H02_LLM_Quant_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/llm_compression/detailed_function_specification/model_quantization",
+    "root_source": "H02_LLM_Manual"
+  },
+  {
+    "name": "H02_LLM_Infer",
+    "source_id": "H02_LLM_Infer_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/model_deployment/api/advanced_api/infer/infer_oellm_model",
+    "root_source": "H02_LLM_Manual"
+  },
+  {
+    "name": "H02_LLM_VLA",
+    "source_id": "H02_LLM_VLA_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/overview",
+    "root_source": "H02_LLM_Manual"
+  },
+  {
+    "name": "H02_LLM_Perf",
+    "source_id": "H02_LLM_Perf_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/benchmark/note",
+    "root_source": "H02_LLM_Manual"
+  },
+  {
+    "name": "H02_LLM_VLABench",
+    "source_id": "H02_LLM_VLABench_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/benchmark/s600/vla_benchmark",
+    "root_source": "H02_LLM_Manual"
+  },
+  {
+    "name": "H02_LLM_Compile",
+    "source_id": "H02_LLM_Compile_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/llm_compression/detailed_function_specification/model_compilation",
+    "root_source": "H02_LLM_Manual"
+  }
+]

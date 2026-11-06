@@ -1,0 +1,159 @@
+{
+  "source_ids": [
+    "Horizon_RDK_S600",
+    "Horizon_S600_Kit_Manual",
+    "Horizon_S600_Camera_Manual",
+    "H02_LLM_Compile_Content",
+    "H02_Hbmem",
+    "H02_MCU_Info",
+    "H02_LLM_Quant_Content",
+    "H02_X5_PTQ",
+    "H02_LLM_VLABench_Content",
+    "H04_Pi0_Content",
+    "H08_TRT_Quant",
+    "H08_TRT_Dynamic",
+    "H08_TRT_Support",
+    "H02_UCP_Flush_Content",
+    "H02_TROS_Zero",
+    "H03_Current_Sync",
+    "H02_IPC",
+    "H02_RT",
+    "H08_Isaac_Safety",
+    "H02_OTA",
+    "H02_Miniboot",
+    "H02_MCU_Code"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S600_V1P0_official_topology.png",
+      "sha256": "4088afda637861f76afb39ffab1cc956ec413bbcbbaa048c133b32f88b52cc12",
+      "source_id": "Horizon_S600_Kit_Manual",
+      "source_url": "http://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/01_Quick_start/image/hardware_interface/image-rdk_s600_architecture_diagram.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/Horizon_S600_K--d4df277ff0138d75/assets/images/6974fa0ca472c609466697a4.png",
+      "original_sha256": "4088afda637861f76afb39ffab1cc956ec413bbcbbaa048c133b32f88b52cc12",
+      "operation": "官方V1P0手册原始PNG复制，无裁剪"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "Horizon_RDK_S600",
+      "location": "560 TOPS @INT8",
+      "claim": "规格边界",
+      "finding": "峰值/带宽不是任务吞吐",
+      "quote": "即购买 多核BPU实现强劲推理能力 搭载 4 核 Nash 架构 BPU，提供 560 TOPS @INT8 强劲算力。 标配 18× A78AE 性能核心 与 6× R52+ 安全实时MCU，配合 204.8GB/s LPDDR5极致带宽，轻松覆盖复杂多任务场景。 多传感器超低延迟处理，最高支持 24路相机并发接入，具备 4K @480FPS级别的像素吞吐能力。 原生支持 Pi0/0.5、 Qwen3-VL-8B、 Whisper 等主流端侧多模态大模型。 旭日S600 打通具身智能量产的“最后一公里” RDK S600 核心模组采用极致集成设计，专为人形、四足及无人系统商业化落地而生，全面缩短从研发到量产的生命周期。 旭日S600芯片 560TOPS算力，单模块内实现感知、规划与控制一体化运算。 32/64GB高带宽内存 LPDDR5内存，204.8GB/s带宽，满足模型推理要求。 -40~105℃ 宽温设计 满足大多数室内外机器人使用场景。 高可靠性设计 采用高可靠性连接器，具有多国认证，通过多种可靠性测试。 从算法到真机：机器人敏捷开发首选套件 RDK S6",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://cn.d-robotics.cc/rdkS600"
+    },
+    {
+      "source_id": "H02_Miniboot",
+      "location": "没有内建的自动回滚",
+      "claim": "生命周期",
+      "finding": "独立维护路径",
+      "quote": "不走 ota_tool 的 \"升级 → 校验 → 切 slot\" 两段式状态机，没有内建的自动回滚：任意一步 dd 失败或中途掉电都可能导致设备无法启动。 工作原理​ 脚本执行顺序： OHP 生命周期检查：若设备已进入 OHP 阶段，在线升级被拒绝，必须用 factory 工具整片重烧。 读取当前 AB slot：通过 ota_tool -g 获取 A / B；eMMC 阶段按当前 slot 写入 <part>_<slot>。 选择 NOR 镜像：内核 cmdline 含 hobotboot.secureboot=1 时使用 miniboot_flash.img（签名版），否则使用 miniboot_flash_nose.img。 NOR 整片烧写：对 /dev/block/platform/by-name/hb_vspiflash 做一次 dd（bs=2M），一次性覆盖整片 NOR，22MB 约需 3.5 分钟。 eMMC / UFS 逐个烧写：对 acore_cfg_<slot>、bl31_<slot>、optee_<slot>、uboot_<slot> 四个 ",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/OTA/ota_miniboot"
+    },
+    {
+      "source_id": "H08_Isaac_Safety",
+      "location": "does not qualify",
+      "claim": "安全对照",
+      "finding": "软件组件不当系统认证",
+      "quote": "oller is meant as a useful tool, but it does not qualify as a functional-safety-certified architecture. Do not rely on it as your sole safety mechanism in safety-critical deployments. Integration with ROS 2 Control# The safety controller is a ros2_control controller that can be chained (ChainableControllerInterface). Like any controller in a chain, it takes reference interfaces as its inputs and exposes command interfaces as its outputs. This lets it sit in the middle of a controller c",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/concepts/safety.html"
+    },
+    {
+      "source_id": "H02_MCU_Code",
+      "location": "企业版专有",
+      "claim": "资产闭包",
+      "finding": "商业交付范围未取得",
+      "quote": "信息MCU0固件编译/McalCdd/Service/Platform 等代码为企业版专有，如有需要，请联系D-Robotics获取支持。 商业支持商业版提供更完整的功能支持、更深入的硬件能力开放和专属的定制内容。为确保内容合规、安全交付，我们将通过以下方式开放商业版访问权限。商业版本获取流程： 填写问卷：提交您的机构信息、使用场景等基本\u0000\u0000情况 签署保密协议（NDA）：我们将根据提交信息与您联系，双方确认后签署保密协议 内容释放：完成协议签署后，我们将通过私有渠道为您开放商业版本资料 如您希望获取商业版内容，请点击下方链接填写问卷，我们将在 3 ～ 5 个工作日内与您联系： https://horizonrobotics.feishu.cn/share/base/form/shrcnpBby71Y8LlixYF2N3ENbre MCU 社区版​ MCU├── Build # Build系统，包含编译/链接脚本├── Config # 针对各种不同board的McalCdd模块配置├── Include # 主要为驱动和Service文件夹内的头文件├── Libr",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/code_release"
+    }
+  ],
+  "manual_review": {
+    "coverage": "当前维度覆盖与可复建验证详见正文；事实、厂商称、假设计算和未取得项区分",
+    "versions_and_measurements": "S6005.1.1与S1004.0.5、X5分开；编译/单算子/模型/机器人时延分开；未知条件未补造",
+    "maturity_and_licenses": "官方样例、合作计划、实机和商业运营分层；代码/权重/资产/商业SDK许可分别核对",
+    "figures_opened": "正文官方图逐张实际打开；支持的结论与版本限制见图注"
+  },
+  "archive_partial": [
+    {
+      "source_id": "H08_Isaac_Safety",
+      "missing_presentation": 2,
+      "missing_all": 2
+    }
+  ],
+  "dynamic_provenance": [
+    {
+      "name": "H02_LLM_Compile",
+      "source_id": "H02_LLM_Compile_Content",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/llm_compression/detailed_function_specification/model_compilation",
+      "root_source": "H02_LLM_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_LLM_Compile_Co--cc21f8f5997a722f/original.response",
+      "content_js_sha256": "374437965ab9a1a72de103a49e533fbb4c0d4a6e94f4d8ba07434f62d0f273b3",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_Compile.txt",
+      "text_sha256": "462c8d7c68e8b20ca876dbd7bc136b36bb665d580353deeabdf24890e654bd4e",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_Compile.html",
+      "html_sha256": "4ca604c8459f08ba45c8f3200dfc3adb8d9e3ab6c77cc2b3a9b2c0cb47b134f7",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H02_LLM_Quant",
+      "source_id": "H02_LLM_Quant_Content",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/llm_compression/detailed_function_specification/model_quantization",
+      "root_source": "H02_LLM_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_LLM_Quant_Cont--930c8b2648c88eba/original.response",
+      "content_js_sha256": "7c66551d39415f913d08662a2f678764ff3e54ac6213604a763b089c7e406f73",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_Quant.txt",
+      "text_sha256": "428ac9c2ea60562f296ce77fc0653fca29f7a69114ef99ff78d785d5db706402",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_Quant.html",
+      "html_sha256": "9282b6d44e0ebb9547031bdfb35cca6f2b8b05185a56cea9621e6668aec469c2",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H02_LLM_VLABench",
+      "source_id": "H02_LLM_VLABench_Content",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/benchmark/s600/vla_benchmark",
+      "root_source": "H02_LLM_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_LLM_VLABench_C--6e127a5530c5176e/original.response",
+      "content_js_sha256": "c9e9aca7fef9963cddecff1023319db968c6e44f70257510c7230308014278c7",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_VLABench.txt",
+      "text_sha256": "7069ef61b9339a010b8a294a23fc0b77b05beb6de6dcca6a28c7c7dc937fcd5f",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_VLABench.html",
+      "html_sha256": "a2d138997ade1cb565d3eeadef5a7bff664d56424711c0a14bc85e40f9fafc04",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H04_Pi0",
+      "source_id": "H04_Pi0_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_sample/pi0_pi05_demo",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H04_Pi0_Content--7fbbb66205a2a9ed/original.response",
+      "content_js_sha256": "6030e5f118e6a9ebb181d936c2fdd163819e9de5209fef3e6a9f272d9bc2bc61",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H04_Pi0.txt",
+      "text_sha256": "98e0cdcb97a30b0220a595d25c1cf155ef66ff1909e117a2d05f522017426fc3",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H04_Pi0.html",
+      "html_sha256": "e11e0c75256d4adcf78e2c9c4ab81363e0881474fc7af896f2d487c2bfa9b75b",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H02_UCP_Flush",
+      "source_id": "H02_UCP_Flush_Content",
+      "url": "https://developer.d-robotics.cc/oe_s_doc/guide/ucp/ucp_api_reference/ucp_api_function_interface/hbucpmemflush",
+      "root_source": "H02_OE_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_UCP_Flush_Cont--6af5f91666f418e1/original.response",
+      "content_js_sha256": "f46b973ada87d59f832d378ffe21067dae76a382ddb76804c21c7d48ae802f04",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_UCP_Flush.txt",
+      "text_sha256": "64b35a9cfafebfb61bc909485aab059df51ed9863d8c9ac304e7f3563a77e5ac",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_UCP_Flush.html",
+      "html_sha256": "885ea5e999da055b1c23369586afe3761b60fa237e24863171bdc2e46c86e590",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    }
+  ]
+}

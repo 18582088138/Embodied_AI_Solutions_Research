@@ -1,0 +1,36 @@
+{
+  "time_utc": "2026-11-05T02:48:50.487995+00:00",
+  "summary": {
+    "complete_static": 22,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "H02_OE37",
+    "H02_LLM20",
+    "H02_S600_511_Release",
+    "H02_OE_PTQ_Content",
+    "H02_X5_PTQ",
+    "H02_X5_Runtime",
+    "H02_OE_Compile_Content",
+    "H02_Dynamic_Asset_10",
+    "H02_UCP_Submit_Content",
+    "H02_UCP_Flush_Content",
+    "H02_OE_Deploy_Content",
+    "H02_OE_Dynamic_Content",
+    "H02_LLM_Quant_Content",
+    "H02_Dynamic_Asset_14",
+    "H02_LLM_Intro_Content",
+    "H02_LLM_Compile_Content",
+    "H02_LLM_Infer_Content",
+    "H02_LLM_Perf_Content",
+    "H02_LLM_VLABench_Content",
+    "H02_LLM_VLA_Content",
+    "H02_OE_License_Content",
+    "Horizon_RDK_License"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

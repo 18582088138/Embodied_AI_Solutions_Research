@@ -1,0 +1,114 @@
+{
+  "source_ids": [
+    "H02_S600_511_Release",
+    "H02_MCU_Info",
+    "H02_MCU_Code",
+    "H02_MCU_Build",
+    "H02_FreeRTOS",
+    "H02_IPC",
+    "H02_CAN",
+    "H02_EtherCAT",
+    "H02_Timer",
+    "H02_Watchdog"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02D_mcu_frame.png",
+      "sha256": "6c3680a96f063bc4ee1297501f5bdf3976bf64a239b482f748b093ada1f249ff",
+      "source_id": "H02_MCU_Info",
+      "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/07_Advanced_development/05_mcu_development/01_S100/basic_information/MCU_frame.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_MCU_Info--ab43a50619e45bdc/assets/images/95d7f24bc0d01340092b8b72.png",
+      "original_sha256": "6c3680a96f063bc4ee1297501f5bdf3976bf64a239b482f748b093ada1f249ff",
+      "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+    },
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02D_can_path.png",
+      "sha256": "eb0832113a4c22bfd23c33f598100264c392c11aacb36b3cc32eb655d5739c25",
+      "source_id": "H02_CAN",
+      "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/07_Advanced_development/05_mcu_development/01_S100/mcu_can.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_CAN--71ba84d58f4beadf/assets/images/f851f9e5aff7388afabbf272.png",
+      "original_sha256": "eb0832113a4c22bfd23c33f598100264c392c11aacb36b3cc32eb655d5739c25",
+      "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "MCU0/驱动服务为企业版专有",
+      "source_id": "H02_MCU_Code",
+      "location": "企业版专有",
+      "finding": "社区业务源码不覆盖完整驱动；未取得商业包",
+      "quote": "U 代码包结构介绍 信息MCU0固件编译/McalCdd/Service/Platform 等代码为企业版专有，如有需要，请联系D-Robotics获取支持。 商业支持商业版提供更完整的功能支持、更深入的硬件能力开放和专属的定制内容。为确保内容合规、安全交付，我们将通过以下方式开放商业版访问权限。商业版本获取流程： 填写问卷：提交您的机构信息、使用场景等基本\u0000\u0000情况 签署保密协议（NDA）：我们将根据提交信息与您联系，双方确认后签署保密协议 内容释放：完成协议签署后，我们将通过私有渠道为您开放商业版本资料 如您希望获取商业版内容，请点击下方链接填写问卷，我们将在 3 ～ 5 个工作日内与您联系： https://horizonrobotics.feishu.cn/share/base/form/shrcnpBby71Y8LlixYF2N3ENbre MCU 社区版​ MCU├── Build # Build系统，包含编译/链接脚本├── Config # 针对各种不同board的Mcal",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/code_release"
+    },
+    {
+      "claim": "stop/start需等待WFI",
+      "source_id": "H02_MCU_Info",
+      "location": "wfi",
+      "finding": "软件启停不等于独立硬件断电",
+      "quote": "打印 MCU 侧串口打印 警告stop MCU1之后，如果需要再次启动 MCU1，必须等待系统进入 wfi 模式之后，才能再次 start MCU1，见下图所示。原因解释：避免系统还没有进入 wfi 模式时，start MCU1会重新加载 firmware 至 mcu sram 位置导致之前位置代码被覆盖，导致系统运行跑飞挂死 MCU0/MCU1模块划分​ MCU 整个系统含有 ICU、RTC、IPC、port、CAN 等模块，但是为了用户开发的方便，对于功能进行了划分，划分细节如下图所示。 模块模块位置ppslcuMCU0portMCU0uartMCU0/MCU1logMCU0/MCU1shell_initMCU0/MCU1mDmaMCU0/MCU1I2cMCU0: i2c6, i2c7/MCU1: i2c8, i2c9tca9539MCU0ICUMCU0GPTMCU0pmicMCU0fls_initMCU0otaflashMCU0ipcMCU0: instance8/MCU1: in",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/basic_information"
+    },
+    {
+      "claim": "IPC16字节对齐及双端配置",
+      "source_id": "H02_IPC",
+      "location": "16字节",
+      "finding": "按Instance分配；S100地址不套S600",
+      "quote": "说明​ 在使用 Ipc_MDMA_SendMsg 接口发送数据时, 需要保证数据 buffer 地址16字节对齐。 发送功能通过轮询方式查看 dma 状态，因此使用发送功能前必须关闭 DMA 中断(释放的代码默认已关闭)；使用接收功能时，DMA 中断和 IPC 中断配置成相同的优先级，避免相互打断。 Ipc Mdma 发送通道只有两个，单核或多核多任务发送时，建议使用自旋锁或者关中断方式控制 DMA 资源抢占。 IPC 多核发送或接收基于 Instance 分配，不支持基于 Channel 分配。 IPC 初始化需要在 DMA 模块初始化后再调用。 MCU IPC 配置需要核对端 IPC 配置保持一致。包括 Instance 控制段与 data 段地址，Channel 的数量与 ID，Buffer 数据，Buffer 大小，两端配置不一致会导致 IPC 通信失败。 Instance cfg 中的 receive_coreid 配置，需要明确该 Instance 是工作在 MCU0还是 M",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_ipc"
+    },
+    {
+      "claim": "CAN上限8M只验证5M",
+      "source_id": "H02_CAN",
+      "location": "5M",
+      "finding": "控制器/载板/驱动启用数量分开",
+      "quote": " CAN 最高传输速率：8M。(受限于 transceiver 的波特率限制，目前实验室只测试验证到5M 波特率。) 一个 controller 的 Ram 内划分的 Block 个数： CAN0-CAN3：4 Block (可变 payload); CAN4-CAN9：4 Block (可变 payload)+ 4 Block(固定 payload)。 一个 controller 支持的最大 Mailbox 个数为128。 一个 controller 支持一路 RxFIFO，FIFO 深度为： CAN0-CAN3：8 * 64 bytes; CAN4-CAN9：32 * 64 bytes。 不支持 TTController，即不支持 TTCAN（一种基于 CAN 总线的高层协议）。 CAN 支持多包合并传输，并且可以配置合包的数量和超时时间，默认合包数量为1，超时时间为1000us。 最大可使用 CAN controller 数量：16。 CAN 最高传输速率：8M。(受限于 tran",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_can"
+    },
+    {
+      "claim": "EtherCAT配置1ms与日志冲突",
+      "source_id": "H02_EtherCAT",
+      "location": "1000000 us",
+      "finding": "保留1000与1000000us差异，不声称1kHz实测",
+      "quote": "0]INFO: Starting EtherCAT sample with cycle time: 1000000 us[065.292044 0]INFO: Starting EtherCAT bringup task with stack size: 720[065.292440 0]INFO: Initial stack high water mark: 836[065.292895 0]INFO: EtherCAT Startup[065.293313 0]INFO: intmbxpool mbxp: mutex:[065.293834 0]INFO: ec_config_initD-Robotics:/$ [065.302668 0]INFO: ec_config_init wkc == 1[065.315680 0]INFO: ec_config_init context->slavecount == 1[065.451817 0]INFO: Calling ecx_conf",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_ethercat"
+    },
+    {
+      "claim": "S600 Timer时钟40MHz",
+      "source_id": "H02_Timer",
+      "location": "40MHz",
+      "finding": "tick参数需换算，旧参数改变期限",
+      "quote": "序默认使用定时器2的通道2（Timer2 Channel2），S600上的定时器输入时钟默认配置为 40MHz。 定时器只支持向下计数，无法支持设置一个比较值然后计数比较的硬件功能，默\u0000\u0000认工作在 Continue 模式下，即每次都会自动重装计数值。如果需要 One-Shot 的形式，则需要在中断函数中停止 Timer，然后自己根据需要重配计数值。定时器最大支持的计数值为2^width-1，其中 width 表示定时器的位宽。定时器支持8、16、32bit 三种格式的位宽，默认使用32bit。 配置说明​ sample 代码在 MCU1上运行，需要先配置 Gpt_ConfigType 结构体用于模块初始化 Config/McalCdd/gen_xxx/Gpt/src/Gpt_PBcfg.c 相关结构体定义如下： /* 通道配置结构体 */typedef struct{ Gpt_ChannelType u8ChannelTotalNum; /* 通道总数 */ Gpt_PerChanneI",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_timer"
+    },
+    {
+      "claim": "watchdog触发API非重入",
+      "source_id": "H02_Watchdog",
+      "location": "Wdgx_SetTriggerCondition",
+      "finding": "临界区按实际应用实现；喂狗不能替代业务健康检查",
+      "quote": "hdog into the mode Mode.Available viaWdgx.h 3.2.3 Wdgx_SetTriggerCondition​ Service NameWdgx_SetTriggerConditionSyntaxvoid Wdgx_SetTriggerCondition(uint16 timeout)Sync/AsyncSynchronousReentrancyNon ReentrantParameters (in)Timeout:Timeout value (milliseconds) for setting the trigger counter.Parameters (inout)NoneParameters (out)NoneReturn valueNoneDescriptionSets the timeout value for the trigger counter.Available viaWdgx.h 3.2.4 Wdgx_GetVersionIn",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_watchdog"
+    }
+  ],
+  "manual_review": {
+    "coverage": "按本专题主要机制、配置/API、数据对象、失效、版本、许可、测量边界与复建验证审阅；具体缺口在正文",
+    "versions_and_measurements": "S6005.1.1与S1004.0.5、X5分开；编译/单算子/模型/机器人时延分开；未知条件未补造",
+    "maturity_and_licenses": "公开说明、开源封装与商业二进制分开，未据文档许可扩展其他产物",
+    "figures_opened": "正文官方图逐张实际打开；支持的结论与版本限制见图注"
+  },
+  "archive_partial": [],
+  "dynamic_provenance": []
+}

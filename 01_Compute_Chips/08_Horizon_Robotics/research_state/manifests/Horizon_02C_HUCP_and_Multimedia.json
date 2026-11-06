@@ -1,0 +1,98 @@
+[
+  {
+    "name": "H02_Media_Overview",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/overview",
+    "expected": "any",
+    "used_by": [
+      "02C_HUCP_and_Multimedia"
+    ]
+  },
+  {
+    "name": "H02_Pipeline",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/sample_pipeline",
+    "expected": "any",
+    "used_by": [
+      "02C_HUCP_and_Multimedia"
+    ]
+  },
+  {
+    "name": "H02_UCP_Submit_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/42321.211ed409.js",
+    "expected": "any",
+    "used_by": [
+      "02C_HUCP_and_Multimedia"
+    ]
+  },
+  {
+    "name": "H02_Hbmem",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/hbmem_sample_guide",
+    "expected": "any",
+    "used_by": [
+      "02C_HUCP_and_Multimedia"
+    ]
+  },
+  {
+    "name": "H02_VDSP",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/vdsp_development",
+    "expected": "any",
+    "used_by": [
+      "02C_HUCP_and_Multimedia"
+    ]
+  },
+  {
+    "name": "H02_UCP_Flush_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/80056.5ccac469.js",
+    "expected": "any",
+    "used_by": [
+      "02C_HUCP_and_Multimedia"
+    ]
+  },
+  {
+    "name": "H02_Sunrise",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/sunrise_camera_develop_guide",
+    "expected": "any",
+    "used_by": [
+      "02C_HUCP_and_Multimedia"
+    ]
+  },
+  {
+    "name": "H02_OE_Compile_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/49841.f8e6a5ca.js",
+    "expected": "any",
+    "used_by": [
+      "02C_HUCP_and_Multimedia"
+    ]
+  },
+  {
+    "name": "H02_OE_PTQ_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/62300.e55caad1.js",
+    "expected": "any",
+    "used_by": [
+      "02C_HUCP_and_Multimedia"
+    ]
+  },
+  {
+    "name": "H02_GPU",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/sample_gpu_3d",
+    "expected": "any",
+    "used_by": [
+      "02C_HUCP_and_Multimedia"
+    ]
+  },
+  {
+    "name": "H02_S600_511_Release",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Release_Note/s600/v5_1_1",
+    "expected": "any",
+    "used_by": [
+      "02C_HUCP_and_Multimedia"
+    ]
+  },
+  {
+    "name": "Horizon_RDK_License",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02C_HUCP_and_Multimedia"
+    ]
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "name": "H02_MCU_Info",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/basic_information",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H06_Types_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/40340.5dcdb5a2.js",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_IPC",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_ipc",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Timer",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_timer",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_S600_511_Release",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Release_Note/s600/v5_1_1",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Watchdog",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_watchdog",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_RT",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/realtime_kernel",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Thermal",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/System_configuration/frequency_management",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Build",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/rdk_gen",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Config",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/System_configuration/config_txt",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_OTA",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/OTA/ota_system",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Miniboot",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/OTA/ota_miniboot",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_S100_Miniboot",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/07_Advanced_development/02_linux_development/06_OTA/02_ota_miniboot.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H08_Isaac_Safety",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/concepts/safety.html",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_MCU_Code",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/code_release",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_FreeRTOS",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/FreeRTOS_development",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  }
+]

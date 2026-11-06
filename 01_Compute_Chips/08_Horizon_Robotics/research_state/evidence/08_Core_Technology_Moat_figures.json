@@ -1,0 +1,11 @@
+[
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S600_V1P0_official_topology.png",
+    "sha256": "4088afda637861f76afb39ffab1cc956ec413bbcbbaa048c133b32f88b52cc12",
+    "source_id": "Horizon_S600_Kit_Manual",
+    "source_url": "http://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/01_Quick_start/image/hardware_interface/image-rdk_s600_architecture_diagram.png",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/Horizon_S600_K--d4df277ff0138d75/assets/images/6974fa0ca472c609466697a4.png",
+    "original_sha256": "4088afda637861f76afb39ffab1cc956ec413bbcbbaa048c133b32f88b52cc12",
+    "operation": "官方V1P0手册原始PNG复制，无裁剪"
+  }
+]

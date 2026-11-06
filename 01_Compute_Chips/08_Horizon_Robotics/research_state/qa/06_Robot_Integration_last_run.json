@@ -1,0 +1,28 @@
+{
+  "time_utc": "2026-11-05T04:17:11.211742+00:00",
+  "summary": {
+    "complete_static": 12,
+    "partial_static": 2,
+    "failed": 0
+  },
+  "names": [
+    "Horizon_JD_Journey6P_DesignIn",
+    "Horizon_DRobotics_Funding_Relation",
+    "Horizon_RDK_S600",
+    "H02_LLM_VLA_Content",
+    "H06_Types_Content",
+    "H04_Config_Content",
+    "H05_RoboTwin_Content",
+    "H06_Policy_Content",
+    "H06_Advanced_Content",
+    "H02_Car_Tracking",
+    "H02_CAN",
+    "H02_EtherCAT",
+    "H02_IPC",
+    "H02_Watchdog"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

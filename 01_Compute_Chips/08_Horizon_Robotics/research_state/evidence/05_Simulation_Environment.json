@@ -1,0 +1,137 @@
+{
+  "source_ids": [
+    "H05_Sim_Content",
+    "H05_RoboTwin_Content",
+    "H05_LIBERO_Content",
+    "H02_Navigation",
+    "H05_Serving_Content",
+    "H05_Serving_Figure",
+    "H05_LIBERO_Repo",
+    "H05_RoboTwin_Repo",
+    "H05_MuJoCo"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H05_VLA_Serving.jpg",
+      "sha256": "63873dd91e1d5730dfec9a614702ed0235312bded25448f31d35a202e5dade81",
+      "source_id": "H05_Serving_Figure",
+      "source_url": "https://developer.d-robotics.cc/oe_llm_doc/static/image/vla_serve.51c667cf.jpg",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H05_Serving_Figure--6ec6605d35ff83f4/content.jpg",
+      "original_sha256": "63873dd91e1d5730dfec9a614702ed0235312bded25448f31d35a202e5dade81",
+      "operation": "官方图原件复制，无裁剪，实际打开核验"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "H05_Sim_Content",
+      "location": "4 字节大端",
+      "claim": "板端联调协议",
+      "finding": "TCP角色和protobuf格式明确；不等于底层伺服",
+      "quote": "，主动连接仿真环境收发数据。\n\n两者通过 protobuf 协议交互，帧格式为 4 字节大端长度前缀 + protobuf MultiModalInput 消息体，支持 FLOAT64 / UINT8 / STRING / FLOAT32 等数据类型。仿真环境监听数据面端口 30005，RoboTwin 另有控制面端口 30006。\n\n#\n仿真平台选择\n\n当前版本支持以下两个仿真平台，您可以根据机器人形态与评测需求选择：\n\n平台\t仿真引擎\t适用场景\t搭建文档\nRoboTwin\tSAPIEN\t双臂机器人操作仿真，预置 Pi0 / Pi0.5 策略与多任务场景\tRoboTwin 仿真环境\nLIBERO\tMuJoCo\t操作 benchmark 评测，Docker 容器为唯一评测方式\tLIBERO 仿真环境\n#\n连接板端服务\n\n仿真环境启动并监听端口后，参考 VLA 服务示例 章节在板端启动 oellm_vla_serving 服务。在网页界面中填写 Sim Bridge 的 IP 与端口（RoboTwin 默认 30005，LIBERO 同），点击连接后即可启动推理循环，",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/96352.bec46241.js"
+    },
+    {
+      "source_id": "H05_LIBERO_Content",
+      "location": "50",
+      "claim": "评测与输出",
+      "finding": "每任务episodes及逐episode结果；latest未锁digest；mock仅链路",
+      "quote": "令：\n\n# 默认：libero_spatial 套件，端口 30005，每任务 50 episodes\ndocker run --rm -it --network=host --gpus all libero-remote:latest\n\n# 跑全部四个套件 + 换端口 + 挂载输出目录（视频/报表落在宿主机 libero_out/）\ndocker run --rm -it --network=host --gpus all \\\n  -e EVAL_ARGS=\"--suite all --port 30010 --no-debug\" \\\n  -v $PWD/libero_out:/app/data \\\n  libero-remote:latest\n\n# 后台运行\ndocker run -d --name libero-eval --network=host --gpus all \\\n  -e EVAL_ARGS=\"--suite all\" -v $PWD/libero_out:/app/data libero-remote:latest\ndocker logs -f",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/92345.21a93ef0.js"
+    },
+    {
+      "source_id": "H05_RoboTwin_Content",
+      "location": "不依赖板端服务",
+      "claim": "Eval与Sim Bridge区分",
+      "finding": "工作站Eval不归S600，cu128/sm89依赖与资产未运行",
+      "quote": "用于独立评估 Pi0 / Pi0.5 策略在 RoboTwin 任务上的成功率，不依赖板端服务：\n\ndocker run --gpus all -it --rm \\\n  --name robotwin-eval \\\n  -p 30005:30005 \\\n  -e NVIDIA_DRIVER_CAPABILITIES=all \\\n  -e TORCHDYNAMO_DISABLE=1 \\\n  -v \"${ASSETS}:/workspace/RoboTwin/assets:ro\" \\\n  -v \"${EVAL_RESULT}:/workspace/RoboTwin/eval_result\" \\\n  \"${IMAGE}\" bash -lc '\n    cd /workspace/RoboTwin/policy/pi0\n    bash eval.sh beat_block_hammer demo_clean pi0_base_aloha_robotwin_full demo_clean 0 '\"${GPU_ID}\"'\n  '\n\n\neval.sh 参数依次为：task_na",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/79035.d86b3263.js"
+    },
+    {
+      "source_id": "H05_Serving_Content",
+      "location": "卸载当前模型",
+      "claim": "模型切换生命周期",
+      "finding": "示例注册和卸载加载，不能宣称统一MLOps",
+      "quote": "与实时观测查看等功能：\n\n模型管理：在界面中选择注册表中的模型并切换，切换过程会卸载当前模型并加载目标模型。\n仿真连接：填写 RoboTwin Sim Bridge 的 IP 与端口后点击连接，服务通过 TCP 协议与仿真环境建立连接，接收观测帧并回传推理动作。\n推理控制：连接成功后可启动、暂停或停止推理循环，界面实时显示当前步数、成功次数与总次数。\n实时流：界面通过 SSE（Server-Sent Events）接收观测帧图像、各阶段耗时与 FPS，实时刷新展示。\n内存监控：界面展示 BPU 内存与 CPU 内存的占用情况。\n#\n接口说明\n\n服务提供的主要 HTTP 接口如下：\n\n接口\t方法\t说明\n/hi、/v1/health\tGET\t健康检查\n/api/models\tGET\t获取模型列表\n/api/models/refresh\tPOST\t重新加载模型注册表\n/api/model/current\tGET\t获取当前已加载模型\n/api/model/switch\tPOST\t切换模型\n/api/sim/connect\tPOST\t连接仿真环境\n/api/sim/disco",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/31387.81c0759b.js"
+    },
+    {
+      "source_id": "H02_Navigation",
+      "location": "use_sim_time",
+      "claim": "传统导航时钟",
+      "finding": "PC Gazebo＋RDK Nav2，支持表未列S600/Jazzy",
+      "quote": "2 launch nav2_bringup bringup_launch.py use_sim_time:=True map:=/opt/ros/foxy/share/nav2_bringup/maps/turtlebot3_world.yaml# 配置tros.b环境source /opt/tros/humble/setup.bashros2 launch nav2_bringup bringup_launch.py use_sim_time:=True map:=/opt/ros/humble/share/nav2_bringup/maps/turtlebot3_world.yaml Humble# 配置tros.b环境source /opt/tros/humble/setup.bashros2 launch nav2_bringup bringup_launch.py use_sim_time:=True map:=/opt/ros/humble/share/nav2_bringup/maps/turtlebot3_world.yaml Humble# 配置t",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/tros_doc/apps/navigation2"
+    }
+  ],
+  "manual_review": {
+    "coverage": "当前维度覆盖与可复建验证详见正文；事实、厂商称、假设计算和未取得项区分",
+    "versions_and_measurements": "S6005.1.1与S1004.0.5、X5分开；编译/单算子/模型/机器人时延分开；未知条件未补造",
+    "maturity_and_licenses": "官方样例、合作计划、实机和商业运营分层；代码/权重/资产/商业SDK许可分别核对",
+    "figures_opened": "正文官方图逐张实际打开；支持的结论与版本限制见图注"
+  },
+  "archive_partial": [],
+  "dynamic_provenance": [
+    {
+      "name": "H05_Sim",
+      "source_id": "H05_Sim_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/sim_loop/overview",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H05_Sim_Content--7a55bacca877cdcc/original.response",
+      "content_js_sha256": "bc28e38b1d19e38e03e09d20efe67e9bc4c5bb7c8fb6952fdda2f603225960f8",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_Sim.txt",
+      "text_sha256": "15e51cde2ad08ccfa48772c6b56a5fdfc0d1f71dd5bd02e0e73ba4c0dd18a92d",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_Sim.html",
+      "html_sha256": "1110d92393d32936d305cc9c64b26d6c060701a60b1bdd94eebe61ed42b32611",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H05_RoboTwin",
+      "source_id": "H05_RoboTwin_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/sim_loop/robotwin",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H05_RoboTwin_Conte--fa35342380225a8f/original.response",
+      "content_js_sha256": "8e1322f217cf77f07a728ac7a710ad7b39d8d8bf3c71ac7ecc02d4a756e46661",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_RoboTwin.txt",
+      "text_sha256": "9fb32a1b2de256f21a4b3a41a962c4f939d19244520e1765cabc9942b674d2eb",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_RoboTwin.html",
+      "html_sha256": "ad21a435aff8285d353fc0371d63db283a06d3d9e89ffcdf2087b3de3e85bfd7",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H05_LIBERO",
+      "source_id": "H05_LIBERO_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/sim_loop/libero",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H05_LIBERO_Content--1bf6a062516dcd70/original.response",
+      "content_js_sha256": "7bea218e97c9b5d48af9473f6cbdb18c1ed2b8638c5bc30ccfc0c9b68b172c87",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_LIBERO.txt",
+      "text_sha256": "fb53588c58a0430f42c7c9accef25f9a3e77cc0281b4d656cdc47fff62613b24",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_LIBERO.html",
+      "html_sha256": "e1684002a59c018d35b752fee1a7fec00e6150f8bbadbbefb0beb4118895b6f4",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H05_Serving",
+      "source_id": "H05_Serving_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/sim_loop/vla_serving",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H05_Serving_Conten--ca44276c4b742a02/original.response",
+      "content_js_sha256": "b1a1cd8a56c8343373b6b6b3911eae1a9c05c0f3f0b5c142acce828b5f67ec46",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_Serving.txt",
+      "text_sha256": "420d1981b02230da176d363d5d9c8981dfdd2cc540c0fe9b63d56765dddac6bb",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_Serving.html",
+      "html_sha256": "c05c30f595caf5a71f5347a71dc2724324c2c407af974f37830895d2556d660c",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    }
+  ]
+}

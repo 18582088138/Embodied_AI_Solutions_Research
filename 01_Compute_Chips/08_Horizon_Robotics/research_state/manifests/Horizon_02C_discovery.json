@@ -1,0 +1,12 @@
+[
+  {
+    "name": "H02_S600_Media",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/03_S600_multimedia_application",
+    "expected": "html"
+  },
+  {
+    "name": "H02_VDSP",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/vdsp_development",
+    "expected": "html"
+  }
+]

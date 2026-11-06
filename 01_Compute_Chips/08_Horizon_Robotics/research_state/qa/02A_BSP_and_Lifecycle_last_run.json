@@ -1,0 +1,25 @@
+{
+  "time_utc": "2026-11-05T02:30:07.873315+00:00",
+  "summary": {
+    "complete_static": 11,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "H02_S600_511_Release",
+    "H02_S100_Release",
+    "Horizon_S600_Downloads",
+    "H02_Build",
+    "H02_Config",
+    "H02_RT",
+    "H02_Thermal",
+    "H02_OTA",
+    "H02_Miniboot",
+    "H02_S100_Miniboot",
+    "Horizon_RDK_License"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

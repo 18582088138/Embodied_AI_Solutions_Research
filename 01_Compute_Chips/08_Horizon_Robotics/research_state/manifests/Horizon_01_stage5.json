@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Horizon_S600_Chip",
+    "url": "https://cn.d-robotics.cc/S600",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Horizon_RDK_S600",
+    "url": "https://cn.d-robotics.cc/rdkS600",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Horizon_RDK_S100_Product",
+    "url": "https://cn.d-robotics.cc/rdkS100",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Horizon_RDK_X5_Product",
+    "url": "https://cn.d-robotics.cc/rdkx5",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Horizon_DRobotics_About",
+    "url": "https://cn.d-robotics.cc/aboutDg",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

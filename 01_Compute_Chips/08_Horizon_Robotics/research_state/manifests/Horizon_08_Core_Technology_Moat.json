@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Horizon_RDK_S600",
+    "url": "https://cn.d-robotics.cc/rdkS600",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "Horizon_S600_Kit_Manual",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/01_Quick_start/01_hardware_introduction/02_rdk_s600/01_rdk_s600_kit",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "Horizon_S600_Camera_Manual",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Quick_start/hardware_introduction/rdk_s600/rdk_s600_camera_expansion_board",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H02_LLM_Compile_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/50188.3b7997bf.js",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H02_Hbmem",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/hbmem_sample_guide",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H02_MCU_Info",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/basic_information",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H02_LLM_Quant_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/31346.cf7dd33f.js",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H02_X5_PTQ",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs/07_Advanced_development/04_toolchain_development/intermediate/ptq_process.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H02_LLM_VLABench_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/7805.87d8031b.js",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H04_Pi0_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/95984.ae5bd0da.js",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H08_TRT_Quant",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H08_TRT_Dynamic",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/dynamic-shapes-basics.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H08_TRT_Support",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H02_UCP_Flush_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/80056.5ccac469.js",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H02_TROS_Zero",
+    "url": "https://developer.d-robotics.cc/tros_doc/tros_dev/zero_copy",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H03_Current_Sync",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/multimedia_development/camerasync",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H02_IPC",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_ipc",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H02_RT",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/realtime_kernel",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H08_Isaac_Safety",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/concepts/safety.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H02_OTA",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/OTA/ota_system",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H02_Miniboot",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/OTA/ota_miniboot",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "H02_MCU_Code",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/code_release",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  }
+]

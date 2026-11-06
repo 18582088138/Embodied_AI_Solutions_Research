@@ -1,0 +1,14 @@
+{
+  "outcome": "pass",
+  "protected_reports": {
+    "01_Hardware_Platform.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08_Proprietary_Technologies.md": true,
+    "09_SWOT_Analysis.md": true
+  },
+  "authorization": "02总览和必要专题/索引允许修改，01及03—09受保护"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "H05_Sim_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/96352.bec46241.js",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "H05_RoboTwin_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/79035.d86b3263.js",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "H05_LIBERO_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/92345.21a93ef0.js",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "H02_Navigation",
+    "url": "https://developer.d-robotics.cc/tros_doc/apps/navigation2",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "H05_Serving_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/31387.81c0759b.js",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "H05_Serving_Figure",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/image/vla_serve.51c667cf.jpg",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "H05_LIBERO_Repo",
+    "url": "https://raw.githubusercontent.com/Lifelong-Robot-Learning/LIBERO/master/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "H05_RoboTwin_Repo",
+    "url": "https://raw.githubusercontent.com/D-Robotics/RoboTwin/pi0pub/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "H05_MuJoCo",
+    "url": "https://raw.githubusercontent.com/google-deepmind/mujoco/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  }
+]

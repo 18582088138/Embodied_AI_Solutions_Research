@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Horizon_S100_Official_HTML",
+    "url": "https://developer.d-robotics.cc/rdk_doc/legacy/rdk_s/Quick_start/hardware_introduction/rdk_s100",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Horizon_X5_Official_HTML",
+    "url": "https://developer.d-robotics.cc/rdk_doc/Quick_start/hardware_introduction/rdk_x5",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Horizon_Journey6_Official",
+    "url": "https://www.horizon.auto/solutions/horizon-journey/horizon-journey6",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Horizon_JD_Journey6P_DesignIn",
+    "url": "https://www.horizon.auto/news/press/475",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Horizon_DRobotics_Funding_Relation",
+    "url": "https://www.horizon.auto/news/press/479",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Horizon_RDK_License",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Horizon_RDK_Readme",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

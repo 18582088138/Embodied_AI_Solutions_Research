@@ -1,0 +1,95 @@
+{
+  "outcome": "pass",
+  "pages": [
+    {
+      "name": "H02_OE_PTQ",
+      "body_chars": 14398,
+      "local_resources": 20,
+      "errors": []
+    },
+    {
+      "name": "H02_OE_Compile",
+      "body_chars": 276,
+      "local_resources": 16,
+      "errors": []
+    },
+    {
+      "name": "H02_OE_Deploy",
+      "body_chars": 23313,
+      "local_resources": 15,
+      "errors": []
+    },
+    {
+      "name": "H02_OE_Dynamic",
+      "body_chars": 1393,
+      "local_resources": 15,
+      "errors": []
+    },
+    {
+      "name": "H02_UCP_Submit",
+      "body_chars": 223,
+      "local_resources": 15,
+      "errors": []
+    },
+    {
+      "name": "H02_UCP_Flush",
+      "body_chars": 628,
+      "local_resources": 15,
+      "errors": []
+    },
+    {
+      "name": "H02_OE_License",
+      "body_chars": 3231,
+      "local_resources": 15,
+      "errors": []
+    },
+    {
+      "name": "H02_LLM_Intro",
+      "body_chars": 1551,
+      "local_resources": 15,
+      "errors": []
+    },
+    {
+      "name": "H02_LLM_Quant",
+      "body_chars": 4395,
+      "local_resources": 15,
+      "errors": []
+    },
+    {
+      "name": "H02_LLM_Infer",
+      "body_chars": 995,
+      "local_resources": 14,
+      "errors": []
+    },
+    {
+      "name": "H02_LLM_VLA",
+      "body_chars": 1575,
+      "local_resources": 14,
+      "errors": []
+    },
+    {
+      "name": "H02_LLM_Perf",
+      "body_chars": 835,
+      "local_resources": 14,
+      "errors": []
+    },
+    {
+      "name": "H02_LLM_VLABench",
+      "body_chars": 1006,
+      "local_resources": 14,
+      "errors": []
+    },
+    {
+      "name": "H02_LLM_Compile",
+      "body_chars": 6085,
+      "local_resources": 15,
+      "errors": []
+    }
+  ],
+  "unknown_requests_aborted": [
+    "https://developer.d-robotics.cc/words-map.json",
+    "https://developer.d-robotics.cc/api/v1/ping"
+  ],
+  "network_fetches": 0,
+  "method": "all original content/JS/assets acquired by unified downloader; offline render never fetches network"
+}

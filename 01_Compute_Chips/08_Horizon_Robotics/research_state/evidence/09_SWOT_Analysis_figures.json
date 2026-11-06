@@ -1,0 +1,11 @@
+[
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S600_Module_V1P0_specs.png",
+    "sha256": "43198dd26a6e1cd4a2818e561f8b5c6a1302978919481ec39aae648efc319b2e",
+    "source_id": "Horizon_S600_Module_Brief",
+    "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_s600/rdk_s600/brief/drobotics_rdk_s600_module_brief_v1p0_zh.pdf",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/documents/Horizon_S600_--9a0f74cb6cdbc9d5/document.pdf",
+    "original_sha256": "9d323040b49a705a9e277682c89413cd15a3155cbd5b3ac44b594ba0828f1e1e",
+    "operation": "Poppler渲染PDF物理第2页，最长边2100px，整页无裁剪"
+  }
+]

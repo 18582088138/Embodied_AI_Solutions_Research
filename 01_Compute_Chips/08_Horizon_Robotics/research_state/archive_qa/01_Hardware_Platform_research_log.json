@@ -1,0 +1,8 @@
+{
+  "status": "incomplete",
+  "network": "direct official GitHub robots requests URLError; stopped own stalled download PID41628 after failures on raw/api/pages; registry retains failures; no bypass",
+  "tool_compatibility": "bootstrap stopped on existing downloader difference; inspected two changes: cookie challenge rejection and unsupported asset URL handling; reused existing tools without overwriting",
+  "snapshot_migration": "4 official old snapshots imported with original SHA256 check, no network requests; old timestamps kept in import metadata",
+  "images": "none downloaded or opened; MDX raw complete_static does not cover remote images",
+  "draft": "written only authorized01; await network to finish"
+}

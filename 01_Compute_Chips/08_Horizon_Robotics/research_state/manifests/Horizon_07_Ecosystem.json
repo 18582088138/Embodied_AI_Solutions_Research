@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Horizon_DRobotics_Funding_Relation",
+    "url": "https://www.horizon.auto/news/press/479",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Horizon_JD_Journey6P_DesignIn",
+    "url": "https://www.horizon.auto/news/press/475",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H07_OrbbecSDK",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H02_TROS_Sensor",
+    "url": "https://developer.d-robotics.cc/tros_doc/quick_demo/demo_sensor",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H07_Orbbec_License",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK/main/LICENSE.txt",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H07_Studio",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Quick_start/rdk_studio",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H07_Studio_Version",
+    "url": "https://developer.d-robotics.cc/rdk_studio_doc/product-intro/version-notes",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H07_Studio_Arch",
+    "url": "https://developer.d-robotics.cc/rdk_studio_doc/product-intro/architecture",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H07_Studio_Hardware",
+    "url": "https://developer.d-robotics.cc/rdk_studio_doc/product-intro/supported-hardware",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H02_X5_PTQ",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs/07_Advanced_development/04_toolchain_development/intermediate/ptq_process.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H04_Openpi",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H04_LeRobot",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H02_DNN_Pinned_Readme",
+    "url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/README_cn.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H02_DNN_Package",
+    "url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/package.xml",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H02_TROS_Release",
+    "url": "https://developer.d-robotics.cc/tros_doc/quick_start/changelog",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H05_RoboTwin_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/79035.d86b3263.js",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H05_LIBERO_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/92345.21a93ef0.js",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H05_Serving_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/31387.81c0759b.js",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H07_Developer",
+    "url": "https://cn.d-robotics.cc/developer",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H06_DDC",
+    "url": "https://cn.d-robotics.cc/ddc/2026",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Horizon_S600_Docs_v510",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/RDK?v=5.1.0&p=RDK+S600",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Horizon_S600_Waveshare_Quote",
+    "url": "https://www.waveshare.net/shop/RDK-S600-32G.htm",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H02_Build",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/rdk_gen",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H02_OTA",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/OTA/ota_system",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H02_Miniboot",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/OTA/ota_miniboot",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Horizon_RDK_S600",
+    "url": "https://cn.d-robotics.cc/rdkS600",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Horizon_S600_Camera_Manual",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Quick_start/hardware_introduction/rdk_s600/rdk_s600_camera_expansion_board",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H02_MCU_Code",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/code_release",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  }
+]

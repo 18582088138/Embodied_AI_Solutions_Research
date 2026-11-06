@@ -1,0 +1,475 @@
+[
+  {
+    "name": "Horizon_RDK_S600",
+    "url": "https://cn.d-robotics.cc/rdkS600",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "Horizon_S600_Kit_Manual",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/01_Quick_start/01_hardware_introduction/02_rdk_s600/01_rdk_s600_kit",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "Horizon_S600_Camera_Manual",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Quick_start/hardware_introduction/rdk_s600/rdk_s600_camera_expansion_board",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_LLM_Compile_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/50188.3b7997bf.js",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Hbmem",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/hbmem_sample_guide",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_MCU_Info",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/basic_information",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_LLM_Quant_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/31346.cf7dd33f.js",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_X5_PTQ",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs/07_Advanced_development/04_toolchain_development/intermediate/ptq_process.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_LLM_VLABench_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/7805.87d8031b.js",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H04_Pi0_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/95984.ae5bd0da.js",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H08_TRT_Quant",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H08_TRT_Dynamic",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/dynamic-shapes-basics.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H08_TRT_Support",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_UCP_Flush_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/80056.5ccac469.js",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_TROS_Zero",
+    "url": "https://developer.d-robotics.cc/tros_doc/tros_dev/zero_copy",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H03_Current_Sync",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/multimedia_development/camerasync",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_IPC",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_ipc",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_RT",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/realtime_kernel",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H08_Isaac_Safety",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/concepts/safety.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_OTA",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/OTA/ota_system",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Miniboot",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/linux_development/OTA/ota_miniboot",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_MCU_Code",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/code_release",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_OE_PTQ_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/62300.e55caad1.js",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Dynamic_Asset_10",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/image/model_conversion_compilation.914a0e0b.png",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Dynamic_Asset_14",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/image/model_quantization.c85c9c2f.png",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_OE_Dynamic_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/24642.789c7af3.js",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H08_TRT_Arch",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/architecture-overview.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_OE_License_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/5603.b7581455.js",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Pipeline",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/sample_pipeline",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_OE_Deploy_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/78211.f06396ae.js",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_UCP_Submit_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/42321.211ed409.js",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H06_Types_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/40340.5dcdb5a2.js",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H03_S100_Time",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/07_Advanced_development/02_linux_development/04_driver_development_s100/12_driver_timesync.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H08_LinuxPTP",
+    "url": "https://linuxptp.nwtime.org/documentation/ptp4l/",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H08_CUDA_Memory",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Timer",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_timer",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_S600_511_Release",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Release_Note/s600/v5_1_1",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Watchdog",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_watchdog",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Thermal",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/System_configuration/frequency_management",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Build",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/rdk_gen",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_Config",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/System_configuration/config_txt",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_S100_Miniboot",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/07_Advanced_development/02_linux_development/06_OTA/02_ota_miniboot.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  },
+  {
+    "name": "H02_FreeRTOS",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/FreeRTOS_development",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Compute_Compilation_and_Quantization",
+      "08B_Sensor_Memory_and_Time",
+      "08C_Real_Time_Trust_and_Lifecycle"
+    ]
+  }
+]

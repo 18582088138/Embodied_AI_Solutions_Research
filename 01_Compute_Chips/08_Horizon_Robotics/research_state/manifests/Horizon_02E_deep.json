@@ -1,0 +1,32 @@
+[
+  {
+    "name": "H02_TROS_CurrentInstall",
+    "url": "https://developer.d-robotics.cc/tros_doc/quick_start/install_tros",
+    "expected": "html"
+  },
+  {
+    "name": "H02_TROS_Release",
+    "url": "https://developer.d-robotics.cc/tros_doc/quick_start/changelog",
+    "expected": "html"
+  },
+  {
+    "name": "H02_DNN_Repo",
+    "url": "https://github.com/D-Robotics/hobot_dnn",
+    "expected": "html"
+  },
+  {
+    "name": "H02_Navigation",
+    "url": "https://developer.d-robotics.cc/tros_doc/apps/navigation2",
+    "expected": "html"
+  },
+  {
+    "name": "H02_Dynamic_Compile_Image",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/image/model_compilation.7236080b.png",
+    "expected": "any"
+  },
+  {
+    "name": "H02_ROS_Humble_FastDDS",
+    "url": "https://docs.ros.org/en/humble/Tutorials/Advanced/FastDDS-Configuration.html",
+    "expected": "html"
+  }
+]

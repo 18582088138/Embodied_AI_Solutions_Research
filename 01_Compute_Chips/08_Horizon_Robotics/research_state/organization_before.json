@@ -1,0 +1,23 @@
+{
+  "01_Hardware_Platform.md": "03b9d99ccfc27034bd1841ec3951c3532384d1b9e7434b73b219d78e87f01c79",
+  "02A_BSP_and_Lifecycle.md": "3b928216a7176410abed1925fe0e7ac20121a66d05cd603582561a858af64885",
+  "02B_BPU_Compiler_and_Runtime.md": "15452686f85428183379a123681ae5cbabaf8f93d25aeac4f10bf1d026ad5bc1",
+  "02C_HUCP_and_Multimedia.md": "0cc7b44cc1eb66db4689eedd6e2d5212b3735c67d40bebf52df3d6ece0151471",
+  "02D_MCU_and_Industrial_Communication.md": "5babf9b375b9096820af5eb81b706c53465ea8be453eb09dd5c2b8161ce84a64",
+  "02E_TogetheROS_and_Robot_Pipeline.md": "c9e8da6f72aed7219c49cd5d30c8a8efc958efe2f448ef0f173a0510bbff2d6d",
+  "02_Software_Stack.md": "58ce1bed834b41b922016bdb79414b4fc2a20f7f2287c56c579d1c5a88f3084e",
+  "02_Topics_Index.md": "c77486138c0fb232668cd7164cb1d8a7382d497e77a69e8a854cdbe28406389d",
+  "03_09_Research_Index.md": "2f230ff7df30524a825c0a2bf79ea962f264d671d5af4c021e7bc9388a9c68f0",
+  "03_Sensor_Integration.md": "dc06e655cfc9c59ff9b5cc825b2078f3c25bb0e815a10c92af997dedc3b9f237",
+  "04_AI_Capabilities.md": "3477f96e9f400d446046d4ed5654f4ceed229b076c50e6a6af92c7a591c6f891",
+  "05_Simulation_Environment.md": "da13d98af65e85d29e52b74f351e9c39dc5e521aefa18b6a85e942de0bddf1ef",
+  "06_Robot_Integration.md": "4aa80be1ba74f8af2b6f6bc729e1767de8b717a66f53cab577f92ce2e06b194d",
+  "07_Ecosystem.md": "0a82d79542c14b546856293318f8b83c721a9a313d8b72bac7f9326044abdf4a",
+  "08A_Compute_Compilation_and_Quantization.md": "d83d3af9c4c7efbed49854f57c1563331afcfbbe62411aa1f26758ee7c587caf",
+  "08B_Sensor_Memory_and_Time.md": "f7e9f3b9415c48106635bcf9555d5a9e5eea470762eeb0fce99c7dc8427c4d97",
+  "08C_Real_Time_Trust_and_Lifecycle.md": "86649ad33c4b6c59f5122cb4771e7618295cab65cfcc88775ea01eb2824be65f",
+  "08_Core_Technology_Moat.md": "0e2b7dd9cccd3247d741b80ba4772a563dc1119057069240f39d86313e2567cc",
+  "08_Proprietary_Technologies.md": "771c233704ff7ca9428ebc367690837cf4e920c84fed2c468267ef67caa7298f",
+  "08_Topics_Index.md": "d00dfd8709f74ac82708924525165da1967e1a8ff27c7a64a7a191afd35df9e9",
+  "09_SWOT_Analysis.md": "9c22d7b81e20413137167419742d7e0e5395a512ac2653742d116b58a8adf727"
+}

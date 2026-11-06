@@ -1,0 +1,30 @@
+{
+  "time_utc": "2026-11-05T04:33:12.582801+00:00",
+  "summary": {
+    "complete_static": 15,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "H02_MCU_Info",
+    "H06_Types_Content",
+    "H02_IPC",
+    "H02_Timer",
+    "H02_S600_511_Release",
+    "H02_Watchdog",
+    "H02_RT",
+    "H02_Thermal",
+    "H02_Build",
+    "H02_Config",
+    "H02_OTA",
+    "H02_Miniboot",
+    "H02_S100_Miniboot",
+    "H08_Isaac_Safety",
+    "H02_MCU_Code",
+    "H02_FreeRTOS"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

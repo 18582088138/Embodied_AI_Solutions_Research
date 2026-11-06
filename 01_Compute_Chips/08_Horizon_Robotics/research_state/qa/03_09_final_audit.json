@@ -1,0 +1,115 @@
+{
+  "outcome": "pass",
+  "reports": {
+    "03_Sensor_Integration": {
+      "outcome": "pass",
+      "sha256": "dc06e655cfc9c59ff9b5cc825b2078f3c25bb0e815a10c92af997dedc3b9f237",
+      "body_han_chars": 1817,
+      "sources": 11,
+      "figures": 3
+    },
+    "04_AI_Capabilities": {
+      "outcome": "pass",
+      "sha256": "3477f96e9f400d446046d4ed5654f4ceed229b076c50e6a6af92c7a591c6f891",
+      "body_han_chars": 2132,
+      "sources": 25,
+      "figures": 2
+    },
+    "05_Simulation_Environment": {
+      "outcome": "pass",
+      "sha256": "da13d98af65e85d29e52b74f351e9c39dc5e521aefa18b6a85e942de0bddf1ef",
+      "body_han_chars": 1977,
+      "sources": 9,
+      "figures": 1
+    },
+    "06_Robot_Integration": {
+      "outcome": "pass",
+      "sha256": "4aa80be1ba74f8af2b6f6bc729e1767de8b717a66f53cab577f92ce2e06b194d",
+      "body_han_chars": 2170,
+      "sources": 14,
+      "figures": 1
+    },
+    "07_Ecosystem": {
+      "outcome": "pass",
+      "sha256": "0a82d79542c14b546856293318f8b83c721a9a313d8b72bac7f9326044abdf4a",
+      "body_han_chars": 2262,
+      "sources": 28,
+      "figures": 1
+    },
+    "08_Core_Technology_Moat": {
+      "outcome": "pass",
+      "sha256": "0e2b7dd9cccd3247d741b80ba4772a563dc1119057069240f39d86313e2567cc",
+      "body_han_chars": 2067,
+      "sources": 22,
+      "figures": 1
+    },
+    "08A_Compute_Compilation_and_Quantization": {
+      "outcome": "pass",
+      "sha256": "d83d3af9c4c7efbed49854f57c1563331afcfbbe62411aa1f26758ee7c587caf",
+      "body_han_chars": 2093,
+      "sources": 15,
+      "figures": 2
+    },
+    "08B_Sensor_Memory_and_Time": {
+      "outcome": "pass",
+      "sha256": "f7e9f3b9415c48106635bcf9555d5a9e5eea470762eeb0fce99c7dc8427c4d97",
+      "body_han_chars": 2214,
+      "sources": 13,
+      "figures": 2
+    },
+    "08C_Real_Time_Trust_and_Lifecycle": {
+      "outcome": "pass",
+      "sha256": "86649ad33c4b6c59f5122cb4771e7618295cab65cfcc88775ea01eb2824be65f",
+      "body_han_chars": 2211,
+      "sources": 16,
+      "figures": 1
+    },
+    "09_SWOT_Analysis": {
+      "outcome": "pass",
+      "sha256": "9c22d7b81e20413137167419742d7e0e5395a512ac2653742d116b58a8adf727",
+      "body_han_chars": 3317,
+      "sources": 23,
+      "figures": 1
+    }
+  },
+  "protected": {
+    "01_Hardware_Platform.md": true,
+    "02A_BSP_and_Lifecycle.md": true,
+    "02B_BPU_Compiler_and_Runtime.md": true,
+    "02C_HUCP_and_Multimedia.md": true,
+    "02D_MCU_and_Industrial_Communication.md": true,
+    "02E_TogetheROS_and_Robot_Pipeline.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true,
+    "08_Proprietary_Technologies.md": true
+  },
+  "union_sources": 99,
+  "archive_status": {
+    "complete_static": 95,
+    "partial_static": 4
+  },
+  "partial": [
+    {
+      "source_id": "Horizon_JD_Journey6P_DesignIn",
+      "missing_presentation": 25
+    },
+    {
+      "source_id": "Horizon_DRobotics_Funding_Relation",
+      "missing_presentation": 23
+    },
+    {
+      "source_id": "H08_Isaac_Safety",
+      "missing_presentation": 2
+    },
+    {
+      "source_id": "H09_Reports_Index",
+      "missing_presentation": 19
+    }
+  ],
+  "figure_occurrences": 15,
+  "distinct_figure_hashes": 12,
+  "distinct_dynamic_pages": 23,
+  "dynamic_provenance_hashes": "all match",
+  "final_network_requests": 0,
+  "measured_on_hardware": false
+}

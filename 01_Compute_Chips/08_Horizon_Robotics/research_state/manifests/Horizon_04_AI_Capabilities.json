@@ -1,0 +1,202 @@
+[
+  {
+    "name": "H02_LLM_VLA_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/26444.95f492ac.js",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H04_LLM_Bench_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/10373.6f8e6afd.js",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H04_VLM_Bench_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/31148.999de9b3.js",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H04_Openpi",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H04_Qwen3",
+    "url": "https://raw.githubusercontent.com/QwenLM/Qwen3/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H04_Qwen25VL",
+    "url": "https://raw.githubusercontent.com/QwenLM/Qwen2.5-VL/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H04_LeRobot",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H04_OpenVLA",
+    "url": "https://raw.githubusercontent.com/openvla/openvla/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H02_TROS_DNN",
+    "url": "https://developer.d-robotics.cc/tros_doc/quick_demo/ai_predict",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H03_Stereo",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs/05_Robot_development/03_boxs/spatial/stereo_imu_cam.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H04_Diffusion",
+    "url": "https://raw.githubusercontent.com/real-stanford/diffusion_policy/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H02_Navigation",
+    "url": "https://developer.d-robotics.cc/tros_doc/apps/navigation2",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H04_Pi0_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/95984.ae5bd0da.js",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H04_Config_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/76569.5bd6179e.js",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H04_Smol_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/69682.47fbe501.js",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H02_Dynamic_Asset_10",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/image/model_conversion_compilation.914a0e0b.png",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H02_Dynamic_Asset_14",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/image/model_quantization.c85c9c2f.png",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H02_LLM_Quant_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/31346.cf7dd33f.js",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H02_LLM_Compile_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/50188.3b7997bf.js",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H02_LLM_Perf_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/42166.bab9ba30.js",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H02_LLM_VLABench_Content",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/js/async/7805.87d8031b.js",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H04_Openpi_License",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H04_LeRobot_License",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H04_OpenVLA_License",
+    "url": "https://raw.githubusercontent.com/openvla/openvla/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H02_OE_License_Content",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/5603.b7581455.js",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  }
+]

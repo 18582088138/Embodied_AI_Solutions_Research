@@ -1,0 +1,26 @@
+[
+  {
+    "name": "H07_Studio_Arch",
+    "url": "https://developer.d-robotics.cc/rdk_studio_doc/product-intro/architecture",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H07_Studio_Version",
+    "url": "https://developer.d-robotics.cc/rdk_studio_doc/product-intro/version-notes",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "H07_Studio_Hardware",
+    "url": "https://developer.d-robotics.cc/rdk_studio_doc/product-intro/supported-hardware",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  }
+]

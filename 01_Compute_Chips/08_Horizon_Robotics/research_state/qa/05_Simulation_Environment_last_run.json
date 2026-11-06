@@ -1,0 +1,23 @@
+{
+  "time_utc": "2026-11-05T04:14:03.097843+00:00",
+  "summary": {
+    "complete_static": 9,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "H05_Sim_Content",
+    "H05_RoboTwin_Content",
+    "H05_LIBERO_Content",
+    "H02_Navigation",
+    "H05_Serving_Content",
+    "H05_Serving_Figure",
+    "H05_LIBERO_Repo",
+    "H05_RoboTwin_Repo",
+    "H05_MuJoCo"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

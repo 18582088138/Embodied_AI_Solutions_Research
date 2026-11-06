@@ -1,0 +1,20 @@
+[
+  {
+    "name": "H06_Types",
+    "source_id": "H06_Types_Content",
+    "root_source": "H02_LLM_Manual",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_api/vla_types"
+  },
+  {
+    "name": "H06_Policy",
+    "source_id": "H06_Policy_Content",
+    "root_source": "H02_LLM_Manual",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_api/framework_layer/vla_policy"
+  },
+  {
+    "name": "H06_Advanced",
+    "source_id": "H06_Advanced_Content",
+    "root_source": "H02_LLM_Manual",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_sample/config_advanced"
+  }
+]

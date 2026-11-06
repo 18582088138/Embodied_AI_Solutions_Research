@@ -1,0 +1,22 @@
+[
+  {
+    "name": "H02_DNN_Pinned_Readme",
+    "url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/README_cn.md",
+    "expected": "any"
+  },
+  {
+    "name": "H02_DNN_API",
+    "url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/docs/API-Manual/API-Manual.md",
+    "expected": "any"
+  },
+  {
+    "name": "H02_DNN_Flow",
+    "url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/docs/dnnnode_workflow.jpg",
+    "expected": "any"
+  },
+  {
+    "name": "H02_DNN_Package",
+    "url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/package.xml",
+    "expected": "any"
+  }
+]

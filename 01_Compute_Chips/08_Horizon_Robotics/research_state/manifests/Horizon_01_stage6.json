@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Horizon_S600_Kit_Manual",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/01_Quick_start/01_hardware_introduction/02_rdk_s600/01_rdk_s600_kit",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Horizon_S600_Release",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Release_Note/s600_ReleaseNote",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

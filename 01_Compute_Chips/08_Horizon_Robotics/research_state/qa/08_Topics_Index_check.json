@@ -1,0 +1,12 @@
+{
+  "outcome": "pass",
+  "links": "all existing",
+  "topics": [
+    "08_Core_Technology_Moat",
+    "08A_Compute_Compilation_and_Quantization",
+    "08B_Sensor_Memory_and_Time",
+    "08C_Real_Time_Trust_and_Lifecycle"
+  ],
+  "union_sources": 43,
+  "zero_network": true
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "H04_Openpi_License",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H04_Smol_Doc",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/docs/source/policy_smolvla_README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H04_LeRobot_License",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "H04_OpenVLA_License",
+    "url": "https://raw.githubusercontent.com/openvla/openvla/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  }
+]

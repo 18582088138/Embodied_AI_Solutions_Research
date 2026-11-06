@@ -1,0 +1,42 @@
+[
+  {
+    "name": "H05_Serving_Figure",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/image/vla_serve.51c667cf.jpg",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "H05_RoboTwin_Repo",
+    "url": "https://raw.githubusercontent.com/D-Robotics/RoboTwin/pi0pub/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "H05_LIBERO_Repo",
+    "url": "https://raw.githubusercontent.com/Lifelong-Robot-Learning/LIBERO/master/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "H05_MuJoCo",
+    "url": "https://raw.githubusercontent.com/google-deepmind/mujoco/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "H05_SAPIEN",
+    "url": "https://raw.githubusercontent.com/haosulab/SAPIEN/master/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  }
+]

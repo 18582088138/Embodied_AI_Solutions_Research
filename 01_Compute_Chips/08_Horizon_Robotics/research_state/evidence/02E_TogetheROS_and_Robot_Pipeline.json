@@ -1,0 +1,170 @@
+{
+  "source_ids": [
+    "H02_TROS_Manual",
+    "H02_TROS_Sensor",
+    "H02_TROS_CurrentInstall",
+    "H02_TROS_Release",
+    "H02_S600_511_Release",
+    "H02_DNN_Repo",
+    "H02_DNN_Pinned_Readme",
+    "H02_DNN_Package",
+    "H02_Navigation",
+    "H02_Car_Tracking",
+    "H02_DNN_Flow",
+    "H02_DNN_API",
+    "H02_TROS_Zero",
+    "H02_OE_PTQ_Content",
+    "H02_LLM_Compile_Content",
+    "H02_IPC",
+    "H02_EtherCAT",
+    "H02_TROS_SLAM"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02E_tros_arch.png",
+      "sha256": "4e0623910c618f06d5abfa077954af0caea2ec2f90f2f6483819a412e1651719",
+      "source_id": "H02_TROS_Manual",
+      "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/05_Robot_development/image/TogetheROS.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_TROS_Manua--59b673f457eb83c2/assets/images/240ab109a295b146dd34d8e3.png",
+      "original_sha256": "4e0623910c618f06d5abfa077954af0caea2ec2f90f2f6483819a412e1651719",
+      "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+    },
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02E_dnn_workflow.jpg",
+      "sha256": "1d5038bb12fed42861c394454f05f836ed704cd860aa65078101510bbbe8a025",
+      "source_id": "H02_DNN_Flow",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/docs/dnnnode_workflow.jpg",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_DNN_Flow--fb69d4af75d84169/content.jpg",
+      "original_sha256": "1d5038bb12fed42861c394454f05f836ed704cd860aa65078101510bbbe8a025",
+      "operation": "官方固定commit流程图原件复制，无裁剪；实际打开核验"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "S600 Jazzy2.5.4绑定系统5.1.0",
+      "source_id": "H02_TROS_Release",
+      "location": "2.5.4 (2026-05-19)",
+      "finding": "页眉文档3.0.0不是安装deb版本，未取得5.1.1回归",
+      "quote": "容性问题。 修复板端编译部分 ROS2 pkg 存在的路径依赖问题。 tros-jazzy​版本号：2.5.4 (2026-05-19)​功能变更（ RDK S600 平台）： 适配 RKD S600 v5.1.0 版本的系统 SDK。 版本号：2.5.3 (2026-05-08)​本版本仅包含 RDK S100 平台更新。版本号：2.5.1 (2026-03-10)​功能变更： 适配 RKD S600 v5.0.1 版本的系统 SDK。 mipi_cam 重构从获取码流到\u0000消息发布的 videobuff 管理，以及拼接线程；修改拼接图片的标定信息的 topic 为\"image_combine_raw/left/camera_info\"和\"image_combine_raw/right/camera_info\"。 新增功能： 新增检测算法 yolov2, yolov3, yolov5；分割算法 unet；分类算法 mobilenet。 新增开放词汇目标检测算法 DOSOD。 新增人体检测",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/tros_doc/quick_start/changelog"
+    },
+    {
+      "claim": "DNN运行时有无限任务等待及20秒推理超时默认",
+      "source_id": "H02_DNN_API",
+      "location": "alloctask_timeout_ms = -1",
+      "finding": "机器人必须另设过期预算，默认不是安全期限",
+      "quote": "onst bool is_sync_mode = false,\n        const int alloctask_timeout_ms = -1,\n        const int infer_timeout_ms = 20000);\n```\n1. 使用DNNInput类型数据进行推理，一般除了DDR模型之外，都使用此方式推理。\n2. 执行推理流程，只做pipeline的串联，具体的每个推理步骤由用户（子类中）实现。\n3. 用户可以继承DnnNodeOutput来扩展输出数据智能指针output，例如增加推理结果对应的图片数据、图片名、时间戳、ID等。\n4. 如果不需要扩展输出内容，可以不传入output。\n\n- 参数\n    - [in] inputs 输入数据智能指针列表\n    - [in] output 输出数据智能指针\n    - [in] rois 抠图roi数据，只对ModelRoiInferType模型有效\n    - [in] is_sync_mode 预测模式",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/docs/API-Manual/API-Manual.md"
+    },
+    {
+      "claim": "异步推理乱序及Header配对",
+      "source_id": "H02_DNN_Pinned_Readme",
+      "location": "不能保证算法输出顺序",
+      "finding": "按序号/时间配对，延迟统计绑定版本",
+      "quote": "rocess接口回调解析后的模型输出。\n\n异步推理模式能够充分利用BPU，提升算法推理输出帧率，但是不能保证算法输出顺序和输入顺序一致。**对于输出序列有要求的场景，使用时需要判断是否需要对算法输出进行排序**。\n\n**如无特殊需求，推荐使用默认的效率更高的异步模式进行算法推理。**\n\n6. 使用dnn node中内置的模型输出解析方法\n\ndnn node中内置了多种检测、分类和分割算法的模型输出解析方法，X3派上安装TROS后查询支持的解析方法如下：\n\n```shell\nroot@ubuntu:~# tree /opt/tros/include/dnn_node/util/output_parser\n/opt/tros/include/dnn_node/util/output_parser\n├── classification\n│   └── ptq_classification_output_parser.h\n├── detection\n│   ├── fasterrcnn_outp",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/README_cn.md"
+    },
+    {
+      "claim": "零拷贝同设备、固定消息及借用有效期",
+      "source_id": "H02_TROS_Zero",
+      "location": "QOS History",
+      "finding": "Foxy与后续不同，256M不是DDS通用上限",
+      "quote": "S2 的 publisher/subscriber 数据传输方式相比，使用零拷贝传输存在以下限制： QOS History 只支持 KEEPLAST，不支持 KEEPALL，且 KEEPLAST 不能设置太大，有内存限制，目前设置为最大占用 256M 内存 传输的消息大小是固定的，即消息的 sizeof 值是不变的，不能包含可变长度类型数据，例如：string，动态数组 对于 TROS Humble 以及之后版本，推荐 QOS Reliability 使用 RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT（建议直接使用 rclcpp::SensorDataQoS()设置 QOS），RMW_QOS_POLICY_RELIABILITY_RELIABLE 在多种通信方式下存在稳定性问题。 只能用于同一设备进程间通信，不可跨设备传输 publisher 消息要先获取再赋值发送，且要判断是否获取成功 subscriber 收到的消息有效期仅限回调函数中，不能在回调函数",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/tros_doc/tros_dev/zero_copy"
+    },
+    {
+      "claim": "小车跟随控制消息cmd_vel",
+      "source_id": "H02_Car_Tracking",
+      "location": "/cmd_vel",
+      "finding": "X3/X5与仿真示例，指令速度不是物理实测；不外推S600/VLA",
+      "quote": "以查询到 RDK 的 topic 信息： $ ros2 topic list/camera_info/cmd_vel/hbmem_img04054242060426080500012020112713/hobot_mono2d_body_detection/image/parameter_events/rosout 其中 /image 是 RDK 发布的从 MIPI sensor 采集图像后经过 JPEG 格式编码的图片， /hobot_mono2d_body_detection 是 RDK 发布的包含人体检测结果的算法 msg， /cmd_vel 是 RDK 发布的运动控制指令。 PC 端在终端使用 ros2 topic echo /cmd_vel 命令可以查看到 RDK 发布的运动控制指令： linear: x: 0.5 y: 0.0 z: 0.0angular: x: 0.0 y: 0.0 z: -0.5---linear: x: 0.5 y: 0.0 z: 0.0angular:",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/tros_doc/apps/car_tracking"
+    },
+    {
+      "claim": "SLAM运行RDK、仿真PC",
+      "source_id": "H02_TROS_SLAM",
+      "location": "Gazebo 和 Rviz2",
+      "finding": "Jazzy包闭包未取得，非端侧完整物理仿真",
+      "quote": "驶建立地图，并通过 Rviz2 观察建图效果。 其中 SLAM-Toolbox 运行在 RDK 上，Gazebo 和 Rviz2 运行在与 RDK 同一网段的 PC 上。 支持平台​ 平台运行方式RDK X3, RDK X3 Module,Ubuntu 20.04 (Foxy), Ubuntu 22.04 (Humble)RDK X5, RDK X5 ModuleUbuntu 22.04 (Humble)RDK S100, RDK S100PUbuntu 22.04 (Humble)RDK S600Ubuntu 24.04 (Jazzy) 准备工作​ RDK 平台​ RDK 已烧录好 Ubuntu 系统镜像。 RDK 已成功安装 TogetheROS.Bot。 tros.b 成功安装后，安装 SLAM-Toolbox FoxyHumble# 配置tros.b环境source /opt/tros/setup.bash# 配置tros.b环境source /opt/tros/humble/s",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/tros_doc/apps/slam"
+    },
+    {
+      "claim": "dnn_node包版本和许可声明",
+      "source_id": "H02_DNN_Package",
+      "location": "Apache License 2.0",
+      "finding": "仅封装包声明，不覆盖商业二进制/权重/数据",
+      "quote": "zhu@d-robotics.cc\">zhukao</maintainer>\n  <license>Apache License 2.0</license>\n\n  <buildtool_depend>ament_cmake</buildtool_depend>\n\n  <depend>rclcpp</depend>\n  <depend>std_msgs</depend>\n  <depend>ament_cmake_gtest</depend>\n\n  <depend condition=\"$PLATFORM == X3\">hobot-dnn</depend>\n  <depend condition=\"$PLATFORM == Rdkultra\">hobot-dnn</depend>\n  <depend condition=\"$PLATFORM == X5\">hobot-dnn</depend>\n  <depend condition=\"$PLATFORM == S100\">hobot-dnn",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/hobot_dnn/7647b62c975a97c8d3b627b0ded82302d7b128de/dnn_node/package.xml"
+    }
+  ],
+  "manual_review": {
+    "coverage": "按本专题主要机制、配置/API、数据对象、失效、版本、许可、测量边界与复建验证审阅；具体缺口在正文",
+    "versions_and_measurements": "S6005.1.1与S1004.0.5、X5分开；编译/单算子/模型/机器人时延分开；未知条件未补造",
+    "maturity_and_licenses": "公开说明、开源封装与商业二进制分开，未据文档许可扩展其他产物",
+    "figures_opened": "正文官方图逐张实际打开；支持的结论与版本限制见图注"
+  },
+  "archive_partial": [
+    {
+      "source_id": "H02_DNN_Repo",
+      "missing_presentation": 1,
+      "missing_all": 1
+    }
+  ],
+  "dynamic_provenance": [
+    {
+      "name": "H02_OE_PTQ",
+      "source_id": "H02_OE_PTQ_Content",
+      "url": "https://developer.d-robotics.cc/oe_s_doc/guide/faststart/ptq_quickstart",
+      "root_source": "H02_OE_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_OE_PTQ_Content--6c736e923e8d396a/original.response",
+      "content_js_sha256": "652ad671266df439fd67c07429608be8120d2c053c4496a811b1f6eb1e485992",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_OE_PTQ.txt",
+      "text_sha256": "55868c2455ac2b2ca8c316190bda3fbd95aa46695c274a02119552f756eebf1c",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_OE_PTQ.html",
+      "html_sha256": "723287a648369898e12833e2a9f987c23742d822db9a7684943456dc97206806",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H02_LLM_Compile",
+      "source_id": "H02_LLM_Compile_Content",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/llm_compression/detailed_function_specification/model_compilation",
+      "root_source": "H02_LLM_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_LLM_Compile_Co--cc21f8f5997a722f/original.response",
+      "content_js_sha256": "374437965ab9a1a72de103a49e533fbb4c0d4a6e94f4d8ba07434f62d0f273b3",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_Compile.txt",
+      "text_sha256": "462c8d7c68e8b20ca876dbd7bc136b36bb665d580353deeabdf24890e654bd4e",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_Compile.html",
+      "html_sha256": "4ca604c8459f08ba45c8f3200dfc3adb8d9e3ab6c77cc2b3a9b2c0cb47b134f7",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    }
+  ],
+  "source_commit_review": {
+    "repository": "https://github.com/D-Robotics/hobot_dnn",
+    "commit": "7647b62c975a97c8d3b627b0ded82302d7b128de",
+    "origin": "GitHub HTML currentOid then fixed-commit raw downloads",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_DNN_Repo--184399abf6dfb979/original.response",
+    "original_sha256": "6866dbb757b919c20712f23abab02a77e6452625924dd883d6309e20c084e668",
+    "pinned_ids": [
+      "H02_DNN_Pinned_Readme",
+      "H02_DNN_API",
+      "H02_DNN_Flow",
+      "H02_DNN_Package"
+    ],
+    "package_version": "2.6.3",
+    "limit": "Not matched to S600 released apt package; README coverage differs from package conditions"
+  }
+}

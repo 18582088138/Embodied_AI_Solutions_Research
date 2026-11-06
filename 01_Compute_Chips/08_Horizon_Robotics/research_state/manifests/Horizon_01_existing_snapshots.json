@@ -1,0 +1,34 @@
+[
+  {
+    "name": "horizon-s100-doc",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/01_Quick_start/01_hardware_introduction/01_rdk_s100.md",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "horizon-x5-doc",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs/01_Quick_start/hardware_introduction/rdk_x5.md",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "horizon-tree",
+    "url": "https://api.github.com/repos/D-Robotics/rdk_doc/git/trees/main?recursive=1",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "horizon-index",
+    "url": "https://api.github.com/repos/D-Robotics/rdk_doc/contents",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

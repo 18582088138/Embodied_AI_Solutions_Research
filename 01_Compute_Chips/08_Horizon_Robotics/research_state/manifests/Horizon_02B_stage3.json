@@ -1,0 +1,17 @@
+[
+  {
+    "name": "H02_OE_Manual",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/index.html",
+    "expected": "html"
+  },
+  {
+    "name": "H02_LLM_Manual",
+    "url": "https://developer.d-robotics.cc/oe_llm_s600_doc/guide/sdk_introduction.html",
+    "expected": "html"
+  },
+  {
+    "name": "H02_LLM_Benchmark",
+    "url": "https://developer.d-robotics.cc/oe_llm_s600_doc/guide/benchmark/note.html",
+    "expected": "html"
+  }
+]

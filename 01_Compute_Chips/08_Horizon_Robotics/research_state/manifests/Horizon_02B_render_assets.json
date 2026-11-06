@@ -1,0 +1,62 @@
+[
+  {
+    "name": "H02_Dynamic_Asset_0",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/drobotics-logo-light.png",
+    "expected": "any"
+  },
+  {
+    "name": "H02_Dynamic_Asset_1",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/drobotics-logo-dark.png",
+    "expected": "any"
+  },
+  {
+    "name": "H02_Dynamic_Asset_2",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/image/quickstart.62106c54.png",
+    "expected": "any"
+  },
+  {
+    "name": "H02_Dynamic_Asset_3",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/image/summary_tab.9c03fa87.png",
+    "expected": "any"
+  },
+  {
+    "name": "H02_Dynamic_Asset_4",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/image/temporal_statistics_tab.a2625e51.png",
+    "expected": "any"
+  },
+  {
+    "name": "H02_Dynamic_Asset_5",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/image/layer_details_tab.6554327c.png",
+    "expected": "any"
+  },
+  {
+    "name": "H02_Dynamic_Asset_6",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/image/timeline_tab.63274822.png",
+    "expected": "any"
+  },
+  {
+    "name": "H02_Dynamic_Asset_10",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/image/model_conversion_compilation.914a0e0b.png",
+    "expected": "any"
+  },
+  {
+    "name": "H02_Dynamic_Asset_11",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/drobotics-logo-light.png",
+    "expected": "any"
+  },
+  {
+    "name": "H02_Dynamic_Asset_12",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/drobotics-logo-dark.png",
+    "expected": "any"
+  },
+  {
+    "name": "H02_Dynamic_Asset_13",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/image/oellm_introduction.05d57e9c.png",
+    "expected": "any"
+  },
+  {
+    "name": "H02_Dynamic_Asset_14",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/static/image/model_quantization.c85c9c2f.png",
+    "expected": "any"
+  }
+]

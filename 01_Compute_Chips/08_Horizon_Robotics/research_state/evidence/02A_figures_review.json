@@ -1,0 +1,20 @@
+[
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02A_rootfs_flow.png",
+    "sha256": "c49fce59dfea04501318727585c63310e8e0f617d9924078c27320b126915f85",
+    "source_id": "H02_Build",
+    "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/07_Advanced_development/06_rdk_gen/samplefs_flowchart.png",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_Build--daa0f17ac1774c07/assets/images/c42c748b2d84f0df708f3b22.png",
+    "original_sha256": "c49fce59dfea04501318727585c63310e8e0f617d9924078c27320b126915f85",
+    "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+  },
+  {
+    "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02A_deb_flow.png",
+    "sha256": "4a72b47a4131273a5891fe8b4e9c56aae9cbd6ae90803510e6196cd72b8dd7ce",
+    "source_id": "H02_Build",
+    "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/07_Advanced_development/06_rdk_gen/mk_debs_flowchart.png",
+    "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_Build--daa0f17ac1774c07/assets/images/63d4b297956bc8fffd9944b3.png",
+    "original_sha256": "4a72b47a4131273a5891fe8b4e9c56aae9cbd6ae90803510e6196cd72b8dd7ce",
+    "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+  }
+]

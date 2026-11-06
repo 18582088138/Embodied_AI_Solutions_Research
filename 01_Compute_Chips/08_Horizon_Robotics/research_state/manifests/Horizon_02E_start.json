@@ -1,0 +1,17 @@
+[
+  {
+    "name": "H02_TROS_Manual",
+    "url": "https://developer.d-robotics.cc/tros_doc/tros",
+    "expected": "html"
+  },
+  {
+    "name": "H02_TROS_Install",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs/05_Robot_development/01_quick_start/install_tros.md",
+    "expected": "any"
+  },
+  {
+    "name": "H02_ZeroCopy",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs/05_Robot_development/05_tros_dev/zero_copy.md",
+    "expected": "any"
+  }
+]

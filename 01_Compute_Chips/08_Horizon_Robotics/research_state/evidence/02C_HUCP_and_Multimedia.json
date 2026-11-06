@@ -1,0 +1,159 @@
+{
+  "source_ids": [
+    "H02_Media_Overview",
+    "H02_Pipeline",
+    "H02_UCP_Submit_Content",
+    "H02_Hbmem",
+    "H02_VDSP",
+    "H02_UCP_Flush_Content",
+    "H02_Sunrise",
+    "H02_OE_Compile_Content",
+    "H02_OE_PTQ_Content",
+    "H02_GPU",
+    "H02_S600_511_Release",
+    "Horizon_RDK_License"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02C_hbmem_queue.png",
+      "sha256": "b877fc8dbe0257c252a1aecc083aa8b59d4e6c0a882e01ee992a03a725bce4aa",
+      "source_id": "H02_Hbmem",
+      "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/07_Advanced_development/03_multimedia_development/02_S100/hbmem/hbmem_queue.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_Hbmem--20f8f640ea355677/assets/images/90687b99865d14bcde0b2b1e.png",
+      "original_sha256": "b877fc8dbe0257c252a1aecc083aa8b59d4e6c0a882e01ee992a03a725bce4aa",
+      "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+    },
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H02C_bpu_flow.png",
+      "sha256": "8f635130eead6f3ef5ab3c6bc133d077bdbd51ab65eab9b3033395584959d5aa",
+      "source_id": "H02_Sunrise",
+      "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/images_to_upload/bpu_flow.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_Sunrise--f2a7faecf95c530e/assets/images/e086f61273bebc60d4bbcc97.png",
+      "original_sha256": "8f635130eead6f3ef5ab3c6bc133d077bdbd51ab65eab9b3033395584959d5aa",
+      "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "媒体sample由BSP库和sensor配置组成",
+      "source_id": "H02_Media_Overview",
+      "location": "hbre",
+      "finding": "不能视为独立通用SDK",
+      "quote": "方式使用。 示例开发指南​ 编译方法​ 本模块的示例代码的依赖如下: 依赖 BSP 源码编译生成的 hbre 头文件、库文件，以及根文件系统中的 ffmpeg 等头文件和动态库, 相关库和路径的引用在各个 Sample 目录下的 Makfile 中指定 LDFLAGS += -lvpf -lvio -lcam -lhbmemLDFLAGS := -L/usr/hobot/libINCDIR := -I/usr/hobot/include -I/usr/include/cjson/ 依赖 /app/multimedia_samples/vp_sensors 目录中的 Sensor 配置文件，相关文件的引用在 /app/multimedia_samples/Makefile.in 中指定，配置如下： INCS += -I . \\ -I ${PLATFORM_SAMPLES_DIR}/utils/ \\ -I ${PLATFORM_SAMPLES_DIR}/vp_sensorsSRC_PATH ",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/overview"
+    },
+    {
+      "claim": "PYM多尺寸NV12输出",
+      "source_id": "H02_Pipeline",
+      "location": "16 像素",
+      "finding": "媒体对齐与BPU stride独立；未推导并发上限",
+      "quote": "处理后的原尺寸图像，本通道的输出数据会再送给编码器编码后保存为 H264 视频码流。 1 通道输出 16 像素对齐、宽和高各缩小 2 倍、 NV12 格式的图像 2 通道输出 16 像素对齐、宽和高各缩小 4 倍、 NV12 格式的图像 3 通道输出 16 像素对齐、宽和高各缩小 8 倍、 NV12 格式的图像 4 通道输出 16 像素对齐、宽和高各缩小 16 倍、 NV12 格式的图像 5 通道输出 16 像素对齐、宽和高各缩小 32 倍、 NV12 格式的图像 注意： PYM 输出的最小分辨率为 32 ，如果缩放后的宽或高小于 32 ，就不会保存图像 代码位置及目录结构​ 代码位置 /app/multimedia_samples/sample_pipeline/single_pipe_vin_isp_ynr_pym_vpu 目录结构 single_pipe_vin_isp_ynr_pym_vpu├── Makefile└── single_pipe_vin_isp_ynr_pym_v",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/sample_pipeline"
+    },
+    {
+      "claim": "hbmem共享queue/pool和引用计数",
+      "source_id": "H02_Hbmem",
+      "location": "consume_cnt",
+      "finding": "done为样例功能结果，未证明崩溃回收",
+      "quote": "e_hbmem/libhbmem_sample -m 8 进程内 common buffer 共享，consume_cnt /app/communication_demo/hbmem_demo/sample_hbmem/libhbmem_sample -m 9 进程间 common buffer 共享 /app/communication_demo/hbmem_demo/sample_hbmem/libhbmem_sample -m 10 进程内 graphic buffer 共享 /app/communication_demo/hbmem_demo/sample_hbmem/libhbmem_sample -m 11 进程内 graphic buffer 共享，consume_cnt /app/communication_demo/hbmem_demo/sample_hbmem/libhbmem_sample -m 12 进程间 graphic buffer 共享 /app/commu",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/hbmem_sample_guide"
+    },
+    {
+      "claim": "Sunrise线程分工及五组buffer简化",
+      "source_id": "H02_Sunrise",
+      "location": "5 组",
+      "finding": "采用架构，不把混代API片段当当前可编译代码",
+      "quote": "inference_yolov5s(void *ptr){ // 准备模型输出节点 tensor， 5 组输出 buff 轮转，简单处理，理论上后处理的速度是要比算法推理更快的 hbDNNTensor output_tensors[5][3]; int32_t cur_ouput_buf_idx = 0; for (i = 0; i < 5; i++) { ret = prepare_output_tensor(output_tensors[i], dnn_handle); if (ret) { SC_LOGE(\"prepare model output tensor failed\"); return NULL; } } while (privThread->eState == E_THREAD_RUNNING) { // 获取需要进行算法运算的图像数据，格式基本都是 NV12 的 yuv if (mQueueDequeueTimed(&bpu_handle->m_input_queue",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/sunrise_camera_develop_guide"
+    },
+    {
+      "claim": "GPU矩阵示例数值",
+      "source_id": "H02_GPU",
+      "location": "0.997923",
+      "finding": "缺矩阵/功率/统计及拷贝条件，不外推模型加速",
+      "quote": "ltiply 运行日志： ./matrix_multiplyCPU execution time: 0.997923 secondsOpenCL execution time: 0.038153 secondsMatrices are identical! 效果说明 执行相同的矩阵乘法运算： CPU 耗时： 0.997923 seconds GPU 耗时： 0.038153 seconds 总耗时中可以看出在做矩阵乘法运算时， GPU 比 CPU 有更高得性能 OpenGL ES​ sample_bezier​ 功能概述​ 功能描述：sample_bezier 使用 3D GPU 画一条贝塞尔曲线，通过两种方式展示 显示器桌面 保存图片 代码位置及目录结构​ 代码位置 /app/multimedia_samples/sample_gpu_3d/gles/sample_bezier 目录结构 sample_bezier/├── bezier.c└── Makefile 编译​ 进入 sam",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/sample_gpu_3d"
+    },
+    {
+      "claim": "VDSP固件与rpmsg服务生命周期",
+      "source_id": "H02_VDSP",
+      "location": "不支持多进程",
+      "finding": "单通道并发限制；心跳阈值不是WCET",
+      "quote": "b_rpmsg_recv接收消息rpmsg_lib.hlibrpmsg.so 其中，同一个服务通道，不支持多进程、多线程并发接收或发送。 heap 相关开发​ VDSP 提供了动态分配释放 heap 接口，支持配置自定义内存对齐大小，以及支持查看当前 heap 状态，当 VDSP 端需要动态分配 heap 时，可以通过以下接口实现。 接口功能相关头文件hb_mem_heap_initialize初始化 mem alloctor 接口hb_mem_allocator.hhb_mem_heap_deinitialize解初始化 mem alloctor 接口hb_mem_allocator.hhb_mem_heap_alloc分配 heap 空间hb_mem_allocator.hhb_mem_heap_free释放已分配的 heap 空间hb_mem_allocator.hhb_mem_heap_get_status获取当前 heap 状态hb_mem_allocator.h VDSP 侧",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/vdsp_development"
+    }
+  ],
+  "manual_review": {
+    "coverage": "按本专题主要机制、配置/API、数据对象、失效、版本、许可、测量边界与复建验证审阅；具体缺口在正文",
+    "versions_and_measurements": "S6005.1.1与S1004.0.5、X5分开；编译/单算子/模型/机器人时延分开；未知条件未补造",
+    "maturity_and_licenses": "公开说明、开源封装与商业二进制分开，未据文档许可扩展其他产物",
+    "figures_opened": "正文官方图逐张实际打开；支持的结论与版本限制见图注"
+  },
+  "archive_partial": [],
+  "dynamic_provenance": [
+    {
+      "name": "H02_UCP_Submit",
+      "source_id": "H02_UCP_Submit_Content",
+      "url": "https://developer.d-robotics.cc/oe_s_doc/guide/ucp/ucp_api_reference/ucp_api_function_interface/hbucpsubmittask",
+      "root_source": "H02_OE_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_UCP_Submit_Con--1df8daceb6d44659/original.response",
+      "content_js_sha256": "0fe14862c5146d012f6adf1e48db41d54f628bc9c4cc70fd667c78d608fc7cc8",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_UCP_Submit.txt",
+      "text_sha256": "6ead993986cdd7506c9a2185ed1a888871c7a46f3ab3f7faf0d6c7d3fe0b706b",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_UCP_Submit.html",
+      "html_sha256": "13dbf73492f736aee0ad5e91dcf4c970477615bf891023ad995818236c1e69f4",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H02_UCP_Flush",
+      "source_id": "H02_UCP_Flush_Content",
+      "url": "https://developer.d-robotics.cc/oe_s_doc/guide/ucp/ucp_api_reference/ucp_api_function_interface/hbucpmemflush",
+      "root_source": "H02_OE_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_UCP_Flush_Cont--6af5f91666f418e1/original.response",
+      "content_js_sha256": "f46b973ada87d59f832d378ffe21067dae76a382ddb76804c21c7d48ae802f04",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_UCP_Flush.txt",
+      "text_sha256": "64b35a9cfafebfb61bc909485aab059df51ed9863d8c9ac304e7f3563a77e5ac",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_UCP_Flush.html",
+      "html_sha256": "885ea5e999da055b1c23369586afe3761b60fa237e24863171bdc2e46c86e590",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H02_OE_Compile",
+      "source_id": "H02_OE_Compile_Content",
+      "url": "https://developer.d-robotics.cc/oe_s_doc/guide/model_deployment_guidance/model_deployment_principle_process/model_conversion_compile",
+      "root_source": "H02_OE_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_OE_Compile_Con--4d3875049ead716f/original.response",
+      "content_js_sha256": "feacde987b11967b4557a132d0c752808cde71ab45bf484d894d0d120d0501af",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_OE_Compile.txt",
+      "text_sha256": "e15a9da26cb0e3b83c19e5b1d67d8621af9f9118323efe6916cb2908c8732afb",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_OE_Compile.html",
+      "html_sha256": "6cec192f19553ca3952d49b0ca616c4400fe3d040f1271065ce32e6d8c8b62e5",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H02_OE_PTQ",
+      "source_id": "H02_OE_PTQ_Content",
+      "url": "https://developer.d-robotics.cc/oe_s_doc/guide/faststart/ptq_quickstart",
+      "root_source": "H02_OE_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_OE_PTQ_Content--6c736e923e8d396a/original.response",
+      "content_js_sha256": "652ad671266df439fd67c07429608be8120d2c053c4496a811b1f6eb1e485992",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_OE_PTQ.txt",
+      "text_sha256": "55868c2455ac2b2ca8c316190bda3fbd95aa46695c274a02119552f756eebf1c",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_OE_PTQ.html",
+      "html_sha256": "723287a648369898e12833e2a9f987c23742d822db9a7684943456dc97206806",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    }
+  ]
+}

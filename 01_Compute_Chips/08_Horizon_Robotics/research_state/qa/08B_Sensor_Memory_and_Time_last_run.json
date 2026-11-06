@@ -1,0 +1,27 @@
+{
+  "time_utc": "2026-11-05T04:28:22.574765+00:00",
+  "summary": {
+    "complete_static": 13,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "H02_Pipeline",
+    "H02_Hbmem",
+    "H02_UCP_Flush_Content",
+    "H02_OE_Deploy_Content",
+    "H02_UCP_Submit_Content",
+    "H02_OE_Dynamic_Content",
+    "H02_TROS_Zero",
+    "H06_Types_Content",
+    "H03_Current_Sync",
+    "H03_S100_Time",
+    "H08_LinuxPTP",
+    "H02_IPC",
+    "H08_CUDA_Memory"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

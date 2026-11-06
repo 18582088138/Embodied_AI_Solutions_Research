@@ -1,0 +1,163 @@
+{
+  "source_ids": [
+    "H02_Pipeline",
+    "H02_Hbmem",
+    "H02_UCP_Flush_Content",
+    "H02_OE_Deploy_Content",
+    "H02_UCP_Submit_Content",
+    "H02_OE_Dynamic_Content",
+    "H02_TROS_Zero",
+    "H06_Types_Content",
+    "H03_Current_Sync",
+    "H03_S100_Time",
+    "H08_LinuxPTP",
+    "H02_IPC",
+    "H08_CUDA_Memory"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H08B_Hbmem_Queue.png",
+      "sha256": "b877fc8dbe0257c252a1aecc083aa8b59d4e6c0a882e01ee992a03a725bce4aa",
+      "source_id": "H02_Hbmem",
+      "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/07_Advanced_development/03_multimedia_development/02_S100/hbmem/hbmem_queue.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H02_Hbmem--20f8f640ea355677/assets/images/90687b99865d14bcde0b2b1e.png",
+      "original_sha256": "b877fc8dbe0257c252a1aecc083aa8b59d4e6c0a882e01ee992a03a725bce4aa",
+      "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+    },
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/H03_Camera_Lidar_Sync.png",
+      "sha256": "7932c6aef892051248f2e033b89bc22e8a2fca16bc0837085f3a2e1a24131ccb",
+      "source_id": "H03_Current_Sync",
+      "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/07_Advanced_development/03_multimedia_development/02_S100/cam_sync/05_camera_sync_03.png",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/webpages/H03_Current_Sy--ccb05c49965cfca1/assets/images/fb7e90a01f0585e5d1697c7f.png",
+      "original_sha256": "7932c6aef892051248f2e033b89bc22e8a2fca16bc0837085f3a2e1a24131ccb",
+      "operation": "官方HTML原始图片复制，无裁剪；实际打开后用于正文"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "H02_Hbmem",
+      "location": "queue、pool",
+      "claim": "buffer寿命与共享",
+      "finding": "ION/队列/池机制及省略日志；不是资源恢复验收",
+      "quote": "fer、graphic buffer、graphic buffer group、queue、pool、share pool 的创建使用，多进程共享等。 软件架构说明​ 本 sample 基于 libhbmem API 实现，调用 libhbmem 提供的 API，实现不同 buffer 类型的内存申请和进程间共享。 代码位置及目录结构​ 1. 代码位置：/app/communication_demo/hbmem_demo/sample_hbmem2. 目录结构： ./ ├── Makefile ├── sample_alloc.c ├── sample.c ├── sample_common.c ├── sample_common.h ├── sample_pool.c ├── sample_queue.c ├── sample_share.c └── sample_share_pool.c API 流程说明​ libhbmem 库调用 ion 进行 buffer 分配 com buffer、graph buffer、graphic buffer group 分配流",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/S600_multimedia_application/hbmem_sample_guide"
+    },
+    {
+      "source_id": "H02_UCP_Flush_Content",
+      "location": "Clean + Invalidate",
+      "claim": "缓存正确性",
+      "finding": "CPU先CLEAN再所有权移交，设备完成后INVALIDATE；脏数据覆盖风险",
+      "quote": "可选值及作用：\n\nHB_SYS_MEM_CACHE_INVALIDATE 使用 Clean + Invalidate 组合操作，将缓存中修改的数据写回内存并使缓存无效。\n\nHB_SYS_MEM_CACHE_CLEAN 使用 Clean 操作，将缓存中修改的数据写回内存，但保留缓存副本。\n\n当CPU写完数据后，需要使用 HB_SYS_MEM_CACHE_CLEAN 将缓存中修改的数据同步到内存中，否则可能出现以下情况：\n\n该块内存被其他设备读取，读取到的数据是内存中的旧数据，而CPU新写的数据在缓存中。\n\n该块内存之后被其他设备写入新数据，写入后使用 HB_SYS_MEM_CACHE_INVALIDATE 同步数据时会将缓存中的数据同步至内存，其他设备写入的数据被修改。\n\n该块内存之后被其他设备写入新数据，写入过程中缓存中的数据同步至内存，导致内存中数据混乱。\n\n当其他设备写完数据后，需要使用 HB_SYS_MEM_CACHE_INVALIDATE 使缓存失效，否则CPU读取数据时可能读取到缓存中的旧数据。",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/80056.5ccac469.js"
+    },
+    {
+      "source_id": "H02_TROS_Zero",
+      "location": "有效期仅限回调函数",
+      "claim": "消息引用寿命",
+      "finding": "不能借用到任意异步推理；固定消息/同设备/QoS约束",
+      "quote": " 消息要先获取再赋值发送，且要判断是否获取成功 subscriber 收到的消息有效期仅限回调函数中，不能在回调函数之外使用 最后于 2026年10月29日 更新上一页4.9 智能盒子下一页5.2 模型推理功能背景前置条件任务内容1. 创建 package2. 创建自定义消息2.1 新建消息文件2.2 编译依赖2.3 编译脚本3. 创建消息发布节点3.1 新建消息发布节点文件3.2 编译依赖3.3 编译脚本4. 创建消息接收节点4.1 新建消息接收节点文件4.2 编译脚本5. 编译6. 运行使用限制友情链接古月居联系我们GitHubBilibiliCopyright © 2024-2026 D-Robotics.",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/tros_doc/tros_dev/zero_copy"
+    },
+    {
+      "source_id": "H03_Current_Sync",
+      "location": "S100总共有3个",
+      "claim": "时间同步SKU边界",
+      "finding": "S600页眉仍写S100正文；不套寄存器/偏移",
+      "quote": "用其他硬件可参考本文档中的配置使用方式自行适配。 硬件通路​ LPWM 模块​ S100总共有3个 LPWM chip，每个 LPWM chip 下面有4个 LPWM 通道，请根据实际的硬件连接使用配置。 S100的 Camera 同步功能的主体实现依赖 LPWM 模块，其支持 S100多种 trigger 信号源，并产生多通道的可配置 PWM 信号，输出给外部 Camera 使用(可经 SerDes 转发)，从而实现 trigger 源与 Camera 的同步及所有多 Camera 之间的同步。 使用 LPWM 时主要需注意的是： 实际硬件连接配置使用的通道。 LPWM 的同步触发源选择: 支持 MCU RTC/PPS0/PPS1/ETH PPS0/ETH PPS1/MCU ETH PPS 等。 LPWM 基于同步触发源的 offset 偏移配置: 需求根据帧率要求、PPS 周期、相位要求等适配。 LPWM 目标信号波形: period，duty_time 等参数。 LPWM 的扩展功能: 缓慢同步 threshold，adjust_step 配置。 关于 LPW",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/multimedia_development/multimedia_development/camerasync"
+    },
+    {
+      "source_id": "H02_IPC",
+      "location": "16字节对齐",
+      "claim": "控制IPC约束",
+      "finding": "只有两个MDMA发送通道，Instance分核；不推WCET",
+      "quote": "c_MDMA_SendMsg 接口发送数据时, 需要保证数据 buffer 地址16字节对齐。 发送功能通过轮询方式查看 dma 状态，因此使用发送功能前必须关闭 DMA 中断(释放的代码默认已关闭)；使用接收功能时，DMA 中断和 IPC 中断配置成相同的优先级，避免相互打断。 Ipc Mdma 发送通道只有两个，单核或多核多任务发送时，建议使用自旋锁或者关中断方式控制 DMA 资源抢占。 IPC 多核发送或接收基于 Instance 分配，不支持基于 Channel 分配。 IPC 初始化需要在 DMA 模块初始化后再调用。 MCU IPC 配置需要核对端 IPC 配置保持一致。包括 Instance 控制段与 data 段地址，Channel 的数量与 ID，Buffer 数据，Buffer 大小，两端配置不一致会导致 IPC 通信失败。 Instance cfg 中的 receive_coreid 配置，需要明确该 Instance 是工作在 MCU0还是 MCU1，工作在 MCU1即配置为 Ipc_Receive_Core1，该项配置错误会导致 IPC 通",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_ipc"
+    }
+  ],
+  "manual_review": {
+    "coverage": "当前维度覆盖与可复建验证详见正文；事实、厂商称、假设计算和未取得项区分",
+    "versions_and_measurements": "S6005.1.1与S1004.0.5、X5分开；编译/单算子/模型/机器人时延分开；未知条件未补造",
+    "maturity_and_licenses": "官方样例、合作计划、实机和商业运营分层；代码/权重/资产/商业SDK许可分别核对",
+    "figures_opened": "正文官方图逐张实际打开；支持的结论与版本限制见图注"
+  },
+  "archive_partial": [],
+  "dynamic_provenance": [
+    {
+      "name": "H02_UCP_Flush",
+      "source_id": "H02_UCP_Flush_Content",
+      "url": "https://developer.d-robotics.cc/oe_s_doc/guide/ucp/ucp_api_reference/ucp_api_function_interface/hbucpmemflush",
+      "root_source": "H02_OE_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_UCP_Flush_Cont--6af5f91666f418e1/original.response",
+      "content_js_sha256": "f46b973ada87d59f832d378ffe21067dae76a382ddb76804c21c7d48ae802f04",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_UCP_Flush.txt",
+      "text_sha256": "64b35a9cfafebfb61bc909485aab059df51ed9863d8c9ac304e7f3563a77e5ac",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_UCP_Flush.html",
+      "html_sha256": "885ea5e999da055b1c23369586afe3761b60fa237e24863171bdc2e46c86e590",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H02_OE_Deploy",
+      "source_id": "H02_OE_Deploy_Content",
+      "url": "https://developer.d-robotics.cc/oe_s_doc/guide/model_deployment_guidance/model_deployment_principle_process/boardside_deployment",
+      "root_source": "H02_OE_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_OE_Deploy_Cont--fc0c1298e7d37256/original.response",
+      "content_js_sha256": "57d520860d35497764859b1163b6ba54f73cbe379aa2a93fd2aa4df924e0b70d",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_OE_Deploy.txt",
+      "text_sha256": "6713431cf8dfe76c7c34c6cc0477d1426ce527025c39862ea046a59e4b51f14a",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_OE_Deploy.html",
+      "html_sha256": "48a11e5e3a7db796ec32de2394b92ede39d2044f3eb3c2d7cc06f7189d2b3e79",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H02_UCP_Submit",
+      "source_id": "H02_UCP_Submit_Content",
+      "url": "https://developer.d-robotics.cc/oe_s_doc/guide/ucp/ucp_api_reference/ucp_api_function_interface/hbucpsubmittask",
+      "root_source": "H02_OE_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_UCP_Submit_Con--1df8daceb6d44659/original.response",
+      "content_js_sha256": "0fe14862c5146d012f6adf1e48db41d54f628bc9c4cc70fd667c78d608fc7cc8",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_UCP_Submit.txt",
+      "text_sha256": "6ead993986cdd7506c9a2185ed1a888871c7a46f3ab3f7faf0d6c7d3fe0b706b",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_UCP_Submit.html",
+      "html_sha256": "13dbf73492f736aee0ad5e91dcf4c970477615bf891023ad995818236c1e69f4",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H02_OE_Dynamic",
+      "source_id": "H02_OE_Dynamic_Content",
+      "url": "https://developer.d-robotics.cc/oe_s_doc/guide/ucp/runtime/bpu_sdk_api/dynamic_input_introduction",
+      "root_source": "H02_OE_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_OE_Dynamic_Con--ab27c48f9fa3f22a/original.response",
+      "content_js_sha256": "b100c75c1e6f5c9b6d45bcce556711c7939f0ab2ec24d21166a0190a03bb1b83",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_OE_Dynamic.txt",
+      "text_sha256": "9e27024d6dccd348ad3dd31e9c9f72e8ebda18082b1779156e96e34763502429",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_OE_Dynamic.html",
+      "html_sha256": "35141c8309514759d3e93324b0c61491830069eac21c682dff623cc7642d8046",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H06_Types",
+      "source_id": "H06_Types_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_api/vla_types",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H06_Types_Content--01c9167b06b3a111/original.response",
+      "content_js_sha256": "33235066ea50c1db8c758b1f39f2e06bf808778c9de9d8136b96916bb1db84dd",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H06_Types.txt",
+      "text_sha256": "6804e52eea3e806243589e51ffa8e62ee719e7f1bfd574da3deb96f1f9606c31",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H06_Types.html",
+      "html_sha256": "44ddc2acd894d2874df0a3aed72ef68b99fa138d642723006ccea45b4e9b4f9b",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    }
+  ]
+}

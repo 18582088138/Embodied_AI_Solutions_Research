@@ -1,0 +1,18 @@
+{
+  "outcome": "pass",
+  "local_links_checked": 33,
+  "reports": [
+    "02_Software_Stack",
+    "02A_BSP_and_Lifecycle",
+    "02B_BPU_Compiler_and_Runtime",
+    "02C_HUCP_and_Multimedia",
+    "02D_MCU_and_Industrial_Communication",
+    "02E_TogetheROS_and_Robot_Pipeline"
+  ],
+  "errors": [],
+  "body_minimum": "exempt index; main overview and every topic checked separately",
+  "protection_baseline": "01_Compute_Chips/08_Horizon_Robotics/research_state/baselines/02_Topics_Index_before.json",
+  "authorized_sibling_changes": [
+    "02_Software_Stack.md"
+  ]
+}

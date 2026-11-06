@@ -1,0 +1,164 @@
+{
+  "source_ids": [
+    "Horizon_DRobotics_Funding_Relation",
+    "H09_Reports_Index",
+    "Horizon_JD_Journey6P_DesignIn",
+    "Horizon_RDK_S600",
+    "H02_LLM_Compile_Content",
+    "H04_Pi0_Content",
+    "H03_Current_Sync",
+    "H02_EtherCAT",
+    "H02_MCU_Code",
+    "H02_Miniboot",
+    "H07_Developer",
+    "Horizon_S600_Camera_Manual",
+    "H02_MCU_Info",
+    "H05_RoboTwin_Repo",
+    "Horizon_S600_Module_Brief",
+    "Horizon_S600_Waveshare_Quote",
+    "Horizon_S600_Downloads",
+    "H09_PIPL_CAC",
+    "H09_GenAI",
+    "H04_Openpi_License",
+    "H04_LeRobot_License",
+    "H05_Sim_Content",
+    "H02_TROS_Install"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/figures/S600_Module_V1P0_specs.png",
+      "sha256": "43198dd26a6e1cd4a2818e561f8b5c6a1302978919481ec39aae648efc319b2e",
+      "source_id": "Horizon_S600_Module_Brief",
+      "source_url": "https://archive.d-robotics.cc/downloads/hardware/rdk_s600/rdk_s600/brief/drobotics_rdk_s600_module_brief_v1p0_zh.pdf",
+      "original_file": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/documents/Horizon_S600_--9a0f74cb6cdbc9d5/document.pdf",
+      "original_sha256": "9d323040b49a705a9e277682c89413cd15a3155cbd5b3ac44b594ba0828f1e1e",
+      "operation": "Poppler渲染PDF物理第2页，最长边2100px，整页无裁剪"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "Horizon_DRobotics_Funding_Relation",
+      "location": "客户覆盖率已突破50%",
+      "claim": "市场口径",
+      "finding": "无分母；不推份额或S600出货",
+      "quote": "人（上海）公司、小雨智造等20余家头部客户采用。目前，地瓜机器人在具身智能领域的客户覆盖率已突破50%，旭日S600的合作覆盖人形机器人、工业轮式、3C柔性作业、具身大模型、全模态感知等多个领域，多数项目已迈入量产级出货阶段。随着具身智能在多元场景中加速落地，地瓜机器人正以软硬一体的基础设施，成为支撑行业前行的关键底座，赋能更多具身智能产品从技术验证走向规模化量产，与行业伙伴共同推动具身智能产业走向成熟。10大前沿赛道，数百款爆品，10万+开发者机器人创新生态进入收获期地瓜机器人全新升级的DGP地心引力计划，致力于打造机器人创新场景与爆款产品的孵化器，为机器人创业公司提供从产品研发、供应链选型、市场推广到融资路演的全链路支持。目前该计划已服务乐享科技、英汉思、求之科技、萝博派对、思博威视、朗极智能、擎羽、巡领科技、眺月科技、欧拉万象等创新企业，覆盖开源人形、AI运动教练、具身模型、AI影像、家庭陪伴等10大前沿赛道，多款产品成为细分品类代表性爆品并实现规模化量产出货，生态创新成果进入密集落地期。从产业实践出发，地瓜机器人构建了覆盖教育孵化、创客赋能、创新加速到行业先",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://www.horizon.auto/news/press/479"
+    },
+    {
+      "source_id": "Horizon_JD_Journey6P_DesignIn",
+      "location": "未来3至5年",
+      "claim": "商业成熟度",
+      "finding": "定点与未来预测，非交付",
+      "quote": "延展。我们非常荣幸与京东开展合作，推动旗舰级征程®6P芯片在无人物流车领域落地。未来3至5年，仅在这一合作场景中，无人物流车部署规模就有望达到百万辆，进而服务于全国多元物流场景，便利大众日常生活。”此次定点项目是征程®6P在无人物流领域的又一关键落地成果，标志着国产智驾算力正加速融入真实的无人配送产业场景，为无人物流规模化运营筑牢算力底座。征程®6P旗舰算力加持加速无人物流迈向规模化运营当前，无人物流行业正加速从试点验证迈向规模化商业落地。作为行业先行者，京东物流无人车已在城市末端配送、园区、校园乃至乡村道路等多元场景开展常态化运营，并持续向更广泛的真实道路场景拓展。随着应用场景不断丰富，无人配送车辆对大模型算力的需求持续提升，同时也对无人配送方案在复杂道路场景下的适配能力和综合成本管控能力提出了更高要求。作为本次项目的核心算力底座，征程®6P单颗芯片算力达到560TOPS，实现了新一代性能跃迁。依托地平线面向智能驾驶打造的BPU纳什架构，征程®6P可高效支撑Transformer、BEV等大参数模型的实时推理，为多模态感知、复杂环境理解和高阶决策提供充足算力支持。",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://www.horizon.auto/news/press/475"
+    },
+    {
+      "source_id": "Horizon_S600_Waveshare_Quote",
+      "location": "{{price.num}}",
+      "claim": "报价",
+      "finding": "动态占位，无金额",
+      "quote": "版本选择 32GB 64GB 价格参考 {{tax.tax_name}} 数量 {{price.num}}+ 价格 数量 - + 加入购物车 立即购买 收藏 7天无理由退换 产品详情 产品资料 配置清单 加入购物车 立即购买 首页 在线客服 购物车({{cart_count}}) 立即购买 {\"attr_ids\": [688], \"skus\": [{\"path_url\": \"/shop/RDK-S600-32G.htm\", \"sku_status_key\": \"normal\", \"attrs\": {\"688\": 1713}}, {\"path_url\": \"/shop/RDK-S600-64G.htm\", \"sku_status_key\": \"normal\", \"attrs\": {\"688\": 1714}}], \"current\": {\"688\": 1713}, \"current_path\": \"/shop/RDK-S600-32G.htm\"}",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://www.waveshare.net/shop/RDK-S600-32G.htm"
+    },
+    {
+      "source_id": "H09_PIPL_CAC",
+      "location": "第二十八条",
+      "claim": "数据处理",
+      "finding": "敏感个人信息及跨境框架，未完成配套审查",
+      "quote": "人权益有重大影响的，应当依照本法规定取得个人同意。第二节 敏感个人信息的处理规则第二十八条 敏感个人信息是一旦泄露或者非法使用，容易导致自然人的人格尊严受到侵害或者人身、财产安全受到危害的个人信息，包括生物识别、宗教信仰、特定身份、医疗健康、金融账户、行踪轨迹等信息，以及不满十四周岁未成年人的个人信息。只有在具有特定的目的和充分的必要性，并采取严格保护措施的情形下，个人信息处理者方可处理敏感个人信息。第二十九条 处理敏感个人信息应当取得个人的单独同意；法律、行政法规规定处理敏感个人信息应当取得书面同意的，从其规定。第三十条 个人信息处理者处理敏感个人信息的，除本法第十七条第一款规定的事项外，还应当向个人告知处理敏感个人信息的必要性以及对个人权益的影响；依照本法规定可以不向个人告知的除外。第三十一条 个人信息处理者处理不满十四周岁未成年人个人信息的，应当取得未成年人的父母或者其他监护人的同意。个人信息处理者处理不满十四周岁未成年人个人信息的，应当制定专门的个人信息处理规则。第三十二条 法律、行政法规对处理敏感个人信息规定应当取得相关行政许可或者作出其他限制的，从其规定",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm"
+    },
+    {
+      "source_id": "H09_GenAI",
+      "location": "第二条",
+      "claim": "公众服务范围",
+      "finding": "区分公众生成服务与内部研发",
+      "quote": "个人信息保护法》、《中华人民共和国科学技术进步法》等法律、行政法规，制定本办法。第二条 利用生成式人工智能技术向中华人民共和国境内公众提供生成文本、图片、音频、视频等内容的服务（以下称生成式人工智能服务），适用本办法。国家对利用生成式人工智能服务从事新闻出版、影视制作、文艺创作等活动另有规定的，从其规定。行业组织、企业、教育和科研机构、公共文化机构、有关专业机构等研发、应用生成式人工智能技术，未向境内公众提供生成式人工智能服务的，不适用本办法的规定。第三条 国家坚持发展和安全并重、促进创新和依法治理相结合的原则，采取有效措施鼓励生成式人工智能创新发展，对生成式人工智能服务实行包容审慎和分类分级监管。第四条 提供和使用生成式人工智能服务，应当遵守法律、行政法规，尊重社会公德和伦理道德，遵守以下规定：（一）坚持社会主义核心价值观，不得生成煽动颠覆国家政权、推翻社会主义制度，危害国家安全和利益、损害国家形象，煽动分裂国家、破坏国家统一和社会稳定，宣扬恐怖主义、极端主义，宣扬民族仇恨、民族歧视，暴力、淫秽色情，以及虚假有害信息等法律、行政法规禁止的内容；（二）在算法设计、训",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+    },
+    {
+      "source_id": "H09_Reports_Index",
+      "location": "业绩报告",
+      "claim": "财报检索边界",
+      "finding": "仅导航与官方嵌入入口；不作财务数字/业务规模证据",
+      "quote": "件 品牌活动 视频中心 关于我们 投资者关系 新闻及活动 企业管治 公告及通函 业绩报告 业绩报告 创新技术软硬结合智能计算开发者社区解决方案智能驾驶芯片舱驾融合芯片全场景辅助驾驶系统整车智能体操作系统量产应用市场表现量产车型生态赋能资讯动态企业新闻产品资讯合作动态品牌活动关于我们公司简介发展历程团队实力投资者关系联系地平线加入我们社会招聘校园招聘实习生招聘 关注我们 010-83452666 （周一到周五 10:00-17:00） Copyright © 2019-2026 Horizon Robotics 北京地平线信息技术有限公司. All rights reserved. 京ICP备2023006200号-3 京公网安备11010802044200 隐私政策 Cookies 政策 产品安全 网站地图 技术支持",
+      "evidence_type": "事实/分析，见finding",
+      "conditions": "2026-11-05公开资料快照；平台及版本见正文",
+      "source_url": "https://www.horizon.auto/investor-relations/report"
+    }
+  ],
+  "manual_review": {
+    "coverage": "当前维度覆盖与可复建验证详见正文；事实、厂商称、假设计算和未取得项区分",
+    "versions_and_measurements": "S6005.1.1与S1004.0.5、X5分开；编译/单算子/模型/机器人时延分开；未知条件未补造",
+    "maturity_and_licenses": "官方样例、合作计划、实机和商业运营分层；代码/权重/资产/商业SDK许可分别核对",
+    "figures_opened": "正文官方图逐张实际打开；支持的结论与版本限制见图注"
+  },
+  "archive_partial": [
+    {
+      "source_id": "Horizon_DRobotics_Funding_Relation",
+      "missing_presentation": 23,
+      "missing_all": 25
+    },
+    {
+      "source_id": "H09_Reports_Index",
+      "missing_presentation": 19,
+      "missing_all": 21
+    },
+    {
+      "source_id": "Horizon_JD_Journey6P_DesignIn",
+      "missing_presentation": 25,
+      "missing_all": 27
+    }
+  ],
+  "dynamic_provenance": [
+    {
+      "name": "H02_LLM_Compile",
+      "source_id": "H02_LLM_Compile_Content",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/llm_compression/detailed_function_specification/model_compilation",
+      "root_source": "H02_LLM_Manual",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H02_LLM_Compile_Co--cc21f8f5997a722f/original.response",
+      "content_js_sha256": "374437965ab9a1a72de103a49e533fbb4c0d4a6e94f4d8ba07434f62d0f273b3",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_Compile.txt",
+      "text_sha256": "462c8d7c68e8b20ca876dbd7bc136b36bb665d580353deeabdf24890e654bd4e",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H02_LLM_Compile.html",
+      "html_sha256": "4ca604c8459f08ba45c8f3200dfc3adb8d9e3ab6c77cc2b3a9b2c0cb47b134f7",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H04_Pi0",
+      "source_id": "H04_Pi0_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/vla_sample/pi0_pi05_demo",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H04_Pi0_Content--7fbbb66205a2a9ed/original.response",
+      "content_js_sha256": "6030e5f118e6a9ebb181d936c2fdd163819e9de5209fef3e6a9f272d9bc2bc61",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H04_Pi0.txt",
+      "text_sha256": "98e0cdcb97a30b0220a595d25c1cf155ef66ff1909e117a2d05f522017426fc3",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H04_Pi0.html",
+      "html_sha256": "e11e0c75256d4adcf78e2c9c4ab81363e0881474fc7af896f2d487c2bfa9b75b",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    },
+    {
+      "name": "H05_Sim",
+      "source_id": "H05_Sim_Content",
+      "root_source": "H02_LLM_Manual",
+      "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/vla/vla_deployment/sim_loop/overview",
+      "content_js_original": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/data/H05_Sim_Content--7a55bacca877cdcc/original.response",
+      "content_js_sha256": "bc28e38b1d19e38e03e09d20efe67e9bc4c5bb7c8fb6952fdda2f603225960f8",
+      "extracted_text": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_Sim.txt",
+      "text_sha256": "15e51cde2ad08ccfa48772c6b56a5fdfc0d1f71dd5bd02e0e73ba4c0dd18a92d",
+      "rendered_html": "01_Compute_Chips/08_Horizon_Robotics/reference_metrial/derived/dynamic/H05_Sim.html",
+      "html_sha256": "1110d92393d32936d305cc9c64b26d6c060701a60b1bdd94eebe61ed42b32611",
+      "method": "Playwright zh-CN; exclusively fulfills archived files; all unknown network requests aborted; scripts frozen and resource links localized"
+    }
+  ]
+}
