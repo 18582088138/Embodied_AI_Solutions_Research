@@ -1,0 +1,85 @@
+{
+  "source_ids": [
+    "HiSilicon_Hi3519DV500",
+    "HiSilicon_Hi3516DV500",
+    "HiSilicon_Hi3403V100",
+    "HiSilicon_Hi3519AV200",
+    "Huawei_Atlas200IA2_Product",
+    "HiSilicon_DV300_Media_PDF",
+    "HiSilicon_DV300_SVP_PDF",
+    "HiView_3403_VPSS",
+    "ACL_ModelProcess",
+    "ACL_Async_ModelProcess",
+    "Ultralytics_Ascend_Backend",
+    "Ascend_Robot_Arm_README",
+    "Ascend_Robot_Arm_Code",
+    "Ascend_Robot_Arm_Flow"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02C_media_flow.png",
+      "sha256": "9d4c32292cf28030fb70f4a8299b37b471f0cb2145942b663b1c879c07342d76",
+      "source_id": "HiSilicon_DV300_Media_PDF",
+      "source_url": "https://www.hisilicon.com/dam/asset/view/2a1c6e800feb43f4a8a31f8bcdcdc84a.pdf/download",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_DV3--35a27bc010e9b7ba/document.pdf",
+      "original_sha256": "9918b4adaa27a26d0ec6a2a90a6c4226c81f7ff23a039f6085979b2140d560a3",
+      "operation": "复用02C已打开的PDF物理第7页110dpi完整渲染"
+    },
+    {
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_F--1cf94bd983a08931/content.png",
+      "sha256": "aa673c4bd6e5d9a17c24a6637e8a6e35c866045c6470e5692564fc91a1086144",
+      "source_id": "Ascend_Robot_Arm_Flow",
+      "source_url": "https://images.gitee.com/uploads/images/2021/0310/112856_f44ecafd_5537256.png",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_F--1cf94bd983a08931/content.png",
+      "original_sha256": "aa673c4bd6e5d9a17c24a6637e8a6e35c866045c6470e5692564fc91a1086144",
+      "operation": "复用02D已逐图打开的华为README原图"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "4路YUV虚拟通道不等于4路RAWsensor",
+      "source_id": "HiSilicon_Hi3516DV500",
+      "location": "视频输入接口",
+      "quote": "MIPI虚拟通道1~4路YUV",
+      "evidence_type": "官方规格与分析",
+      "conditions": "本型号最高2路sensor/4lane",
+      "finding": "PHY与虚拟复用、ISP资源分开",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516dv500",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--ae8b7e0bde6a7d6d/original.response",
+      "retrieved_at_utc": "2026-11-04T15:56:01.654577+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "DPU最大分辨率/视差与性能条件分开",
+      "source_id": "HiSilicon_Hi3519DV500",
+      "location": "智能视频分析",
+      "quote": "2048 x 2048 / 224 / 720p@30fps",
+      "evidence_type": "官方规格",
+      "conditions": "三个分列最大指标",
+      "finding": "不能合并成2048平方30fps224视差并发保证",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519dv500",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--fb9339639d9cd3da/original.response",
+      "retrieved_at_utc": "2026-11-04T15:55:55.988547+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "D435空间对齐不是全系统同步",
+      "source_id": "Ascend_Robot_Arm_Code",
+      "location": "get_image_and_timestamp/open_pipeline",
+      "quote": "align.process(frames) / frames.get_timestamp()",
+      "evidence_type": "源码事实与分析",
+      "conditions": "旧200DK+PC网络例",
+      "finding": "未证明结果、深度、关节曝光时配对或PTP/硬触发",
+      "source_url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robotic_Arm_Object_Following/src/robotic_arm_object_following.py",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_C--ef719f51c5eefd5d/original.response",
+      "retrieved_at_utc": "2026-11-04T16:40:57.702368+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    }
+  ],
+  "manual_review": {
+    "coverage": "RGB/深度/热/ToF、其他传感器接口证据缺口、buffer、同步、带宽和并发验收覆盖",
+    "versions_and_measurements": "产品页快照、2021DV300及旧200DK分开；吞吐为假设下限；无实机数据",
+    "maturity_and_licenses": "具体旧D435示例与当前A2兼容未混同；未取得sensor SDK/新BSP完整许可；新RealSense候选取件失败不作支持判断",
+    "figures_opened": "复用本轮实际打开的2张官方流程图，完整清晰，版本限制正文注明"
+  }
+}

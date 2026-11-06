@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Ascend_Samples_README",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "Ascend_Samples_License",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "Ascend_Pytorch_README",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/README.zh.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "Ascend_Pytorch_License",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "MindSpore_README",
+    "url": "https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "MindSpore_License",
+    "url": "https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "VLLM_Ascend_FAQ",
+    "url": "https://raw.githubusercontent.com/vllm-project/vllm-ascend/4a29682d1d8fa89df63a45dc4df2a2a8068984ff/docs/source/faqs.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "VLLM_Ascend_License",
+    "url": "https://raw.githubusercontent.com/vllm-project/vllm-ascend/4a29682d1d8fa89df63a45dc4df2a2a8068984ff/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "Ultralytics_Ascend_Doc",
+    "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/docs/en/integrations/ascend.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "Ultralytics_License",
+    "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  }
+]

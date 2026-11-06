@@ -1,0 +1,4 @@
+[
+{"name":"RealSense_RepoAPI","url":"https://api.github.com/repos/realsenseai/librealsense","expected":"json","used_by":["03_Sensor_Integration"]},
+{"name":"RealSenseROS_RepoAPI","url":"https://api.github.com/repos/realsenseai/realsense-ros","expected":"json","used_by":["03_Sensor_Integration"]}
+]

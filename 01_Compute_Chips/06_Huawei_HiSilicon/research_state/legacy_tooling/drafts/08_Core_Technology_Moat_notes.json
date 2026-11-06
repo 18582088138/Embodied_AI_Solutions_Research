@@ -1,0 +1,61 @@
+{
+  "source_ids": [
+    "CloudRobo_ProductPDF",
+    "ACL_ModelProcess",
+    "HiSilicon_DV300_Media_PDF",
+    "HiSilicon_Hi3519AV200",
+    "CloudRobo_R2C_Protocol",
+    "RLinf_Ascend_Container",
+    "RLinf_Wan_Guide",
+    "NVIDIA_TensorRT_Objects",
+    "NVIDIA_CUDA_Memory",
+    "ACL_ResNet_README",
+    "ACL_SampleProcess",
+    "ACL_Async_ModelProcess",
+    "ACL_Dynamic_README",
+    "ACL_FirstApp_Figure",
+    "Ascend_Samples_License",
+    "TorchNPU_Compatibility",
+    "MindSpore_Lite_Context",
+    "Ultralytics_Ascend_Exporter",
+    "Ultralytics_Ascend_Backend",
+    "VLLM_Ascend_FAQ",
+    "HiSilicon_DV300_SDK_PDF",
+    "HiSilicon_DV300_SVP_PDF",
+    "HiSilicon_Hi3403V100",
+    "HiSilicon_Hi3519DV500",
+    "HiSilicon_Hi3516CV610",
+    "HiView_3403_VPSS",
+    "HiView_3403_YOLO",
+    "OH_Media_EULA",
+    "CloudRobo_MetaEngineAdapter",
+    "CloudRobo_SimEvaluation",
+    "CloudRobo_Pretrained",
+    "CloudRobo_VLN",
+    "CloudRobo_ResidualOverview",
+    "CloudRobo_ResidualDebug",
+    "RLinf_OpenPI_Guide",
+    "RLinf_StarVLA_Guide",
+    "RLinf_OSMesa_Setup",
+    "RLinf_License"
+  ],
+  "cloud_figure": true,
+  "claims": [
+    {
+      "claim": "技术优势要沿编译、媒体、数据/动作交接分别验收",
+      "source_id": "CloudRobo_ProductPDF",
+      "location": "产品架构与服务关系；本章综合分析"
+    },
+    {
+      "claim": "服务器910B训练路线不证明端侧310B",
+      "source_id": "RLinf_Ascend_Container",
+      "location": "CANN9.1.1 for 910B"
+    },
+    {
+      "claim": "专用HNR算力不属于开放通用资源",
+      "source_id": "HiSilicon_Hi3519AV200",
+      "location": "智能视频分析"
+    }
+  ],
+  "coverage": "技术地图和三专题交接、成立/失效条件、性能证据、对标、迁移、许可及复建验收覆盖；未获专利/工业安全/闭环性能证明不写排他护城河"
+}

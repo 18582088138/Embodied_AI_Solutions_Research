@@ -1,0 +1,77 @@
+{
+  "at_utc": "2026-11-04T17:37:33.296732+00:00",
+  "purpose": "Correct citation wording for moving branches and tags only; no change to01 or archived sources",
+  "changes": [
+    {
+      "report": "02E_CloudRobo_Development_Platform.md",
+      "moving_source_ids": [],
+      "tag_source_ids": [
+        "LeRobot_License_051"
+      ],
+      "baseline": "01_Compute_Chips/06_Huawei_HiSilicon/research_state/revisions/reference_versions/02E_CloudRobo_Development_Platform/before.json",
+      "sha256": "caeb15a7f5df4761b0ad663619ffa385922a7a7a5a4bb7293c35f878dba646af",
+      "quality": "pass",
+      "network_requests": 0
+    },
+    {
+      "report": "07_Ecosystem.md",
+      "moving_source_ids": [
+        "RLinf_README",
+        "RLinf_License",
+        "RLinf_OpenPI_Guide",
+        "RLinf_StarVLA_Guide",
+        "RLinf_Wan_Guide"
+      ],
+      "tag_source_ids": [
+        "LeRobot_License_051"
+      ],
+      "baseline": "01_Compute_Chips/06_Huawei_HiSilicon/research_state/revisions/reference_versions/07_Ecosystem/before.json",
+      "sha256": "cb1191b4533a95b14e0023b4332bfca7a741abfbb69478945b13510ba7aed25d",
+      "quality": "pass",
+      "network_requests": 0
+    },
+    {
+      "report": "08_Core_Technology_Moat.md",
+      "moving_source_ids": [
+        "RLinf_Ascend_Container",
+        "RLinf_Wan_Guide",
+        "RLinf_OpenPI_Guide",
+        "RLinf_StarVLA_Guide",
+        "RLinf_OSMesa_Setup",
+        "RLinf_License"
+      ],
+      "tag_source_ids": [],
+      "baseline": "01_Compute_Chips/06_Huawei_HiSilicon/research_state/revisions/reference_versions/08_Core_Technology_Moat/before.json",
+      "sha256": "9667091ee473909ba6ce3e32bf69c3fcad60499c87bdd563a89bb21bd76df4d2",
+      "quality": "pass",
+      "network_requests": 0
+    },
+    {
+      "report": "08C_CloudRobo_Action_Learning.md",
+      "moving_source_ids": [
+        "RLinf_OpenPI_Guide",
+        "RLinf_StarVLA_Guide",
+        "RLinf_Wan_Guide",
+        "RLinf_Ascend_Container",
+        "RLinf_OSMesa_Setup",
+        "RLinf_License"
+      ],
+      "tag_source_ids": [],
+      "baseline": "01_Compute_Chips/06_Huawei_HiSilicon/research_state/revisions/reference_versions/08C_CloudRobo_Action_Learning/before.json",
+      "sha256": "7a10b0a61a5daa9441049ed4cd815760452a8dc5de38e42b6c7aeb53c54bfbd0",
+      "quality": "pass",
+      "network_requests": 0
+    },
+    {
+      "report": "09_SWOT_Analysis.md",
+      "moving_source_ids": [
+        "RLinf_Ascend_Container"
+      ],
+      "tag_source_ids": [],
+      "baseline": "01_Compute_Chips/06_Huawei_HiSilicon/research_state/revisions/reference_versions/09_SWOT_Analysis/before.json",
+      "sha256": "e6ac9db0b744727a9b59798d5beecaf205480ef32fc5681c4d60984de61d6227",
+      "quality": "pass",
+      "network_requests": 0
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+[
+{"name":"Ascend_Robot_Arm_Code","url":"https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robotic_Arm_Object_Following/src/robotic_arm_object_following.py","expected":"any","used_by":["02D_Robot_Integration_Operations"]},
+{"name":"Ascend_Robot_Arm_Flow","url":"https://images.gitee.com/uploads/images/2021/0310/112856_f44ecafd_5537256.png","expected":"any","used_by":["02D_Robot_Integration_Operations"]}
+]

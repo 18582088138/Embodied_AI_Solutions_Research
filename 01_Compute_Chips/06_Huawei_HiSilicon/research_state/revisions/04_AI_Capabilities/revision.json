@@ -1,0 +1,7 @@
+{
+  "reason": "R2C stop condition minutes OR verified; RLinf910B world-model route added",
+  "after_sha256": "96519d0b08c424f8e2a64742536dca26ef0b72a0678fde3fbf79307df0193bdd",
+  "at_utc": "2026-11-04T17:35:26.573010+00:00",
+  "baseline": "01_Compute_Chips/06_Huawei_HiSilicon/research_state/revisions/04_AI_Capabilities/before.json",
+  "outcome": "pass"
+}

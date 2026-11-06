@@ -1,0 +1,178 @@
+[
+  {
+    "name": "HiSilicon_BuyChannels",
+    "url": "https://www.hisilicon.com/cn/WhereToBuy",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "HiSilicon_AcademyPDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/d8442760823b4f5e9fabb6c5bd684846.pdf",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "HiView_README",
+    "url": "https://raw.githubusercontent.com/openhisilicon/HIVIEW/395b53d4c28cf5e528c9e1ba3f7ec39ad8e852d4/README.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "HiView_ArchitectureImage",
+    "url": "https://raw.githubusercontent.com/openhisilicon/HIVIEW/395b53d4c28cf5e528c9e1ba3f7ec39ad8e852d4/res/diagram.jpg",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "HiView_3403_VPSS",
+    "url": "https://raw.githubusercontent.com/openhisilicon/HIVIEW/395b53d4c28cf5e528c9e1ba3f7ec39ad8e852d4/mod/svp/3403/vpss_capture.cpp",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "OH_HiSilicon_README",
+    "url": "https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/README.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "OH_Driver_License",
+    "url": "https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/hi3516dv300/sdk_linux/drv/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "OH_Media_EULA",
+    "url": "https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/hi3516dv300/sdk_linux/out/lib/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Ascend_Pytorch_README",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/README.zh.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "TorchNPU_Compatibility",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/COMPATIBILITY.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "MindSpore_Lite_README",
+    "url": "https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/mindspore/lite/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Ultralytics_Ascend_Doc",
+    "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/docs/en/integrations/ascend.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Ultralytics_License",
+    "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "CloudRobo_ProductPDF",
+    "url": "https://support.huaweicloud.com/productdesc-cloudrobo/CloudRobo%20%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D-pdf.pdf",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "CloudRobo_VLN",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0074.html",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "CloudRobo_ResidualDebug",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0027.html",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "LeRobot_License_051",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/v0.5.1/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "RLinf_README",
+    "url": "https://raw.githubusercontent.com/RLinf/RLinf/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "RLinf_License",
+    "url": "https://raw.githubusercontent.com/RLinf/RLinf/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "RLinf_OpenPI_Guide",
+    "url": "https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/pi0.rst",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "RLinf_StarVLA_Guide",
+    "url": "https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/starvla.rst",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "RLinf_Wan_Guide",
+    "url": "https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/wan.rst",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  }
+]

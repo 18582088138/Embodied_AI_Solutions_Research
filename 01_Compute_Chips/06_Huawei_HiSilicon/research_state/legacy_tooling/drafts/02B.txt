@@ -1,0 +1,70 @@
+# 02B｜RKNN-Toolkit2：图转换、量化与运行时的真实边界
+
+RKNN-Toolkit2 面向 SoC 内置 RKNPU，解决训练框架模型与专用加速器执行格式不一致的问题。此次 README 快照标为 v2.5.0，支持 RK3588、RK3576、RK3566/68、RK3562、RV1103/06、RV1103B/06B、RV1126B、RK2118；RV1126、RV1109、RK1808、RK3399Pro 转向旧 RKNN-Toolkit/RKNPU1，且官方明确两代 Toolkit 不兼容。RV1126 与 RV1126B 尤其不能依据相近名字替换模型产物。版本发布时间、移动分支精确 commit 本轮未完整取得，不将采集日当作发布日期。[[RK02_RKNN2_Readme]]
+
+## 1. 编译侧和目标侧承担不同职责
+
+FIGURE0
+
+官方框图从 PyTorch/ONNX/TensorFlow/TFLite/Caffe/Darknet 进入 Toolkit2，再由 RKNN API、RKNPU driver 和硬件执行。图说明工具链分层，未保证每种框架、所有 opset、动态形状和算子都可直接落到 NPU。PC 端 Toolkit2 提供转换、评估接口；板端 Lite2 是 Python 部署入口，Runtime 是 C/C++ 接口，内核驱动负责设备交互。源码或 ONNX 是迁移资产，`.rknn` 是针对目标编译的交付物，不能按“同为 ARM”跨 SoC 直接复制。[[RK02_RKNN2_Readme]]
+
+| 对象 | 输入和输出 | 关键依赖 | 验收边界 |
+| --- | --- | --- | --- |
+| Toolkit2 编译 | 训练导出模型、校准集 → .rknn | wheel/Python、框架/opset、target_platform | 编译成功、数值误差、算子执行后端 |
+| Runtime/Lite2 | .rknn 与输入tensor → 输出tensor | 模型编译版、用户态 runtime、RKNPU driver | SDK/driver查询、内存、并发和超时 |
+| Model Zoo | 模型优化、转换脚本、C/Python demo | Zoo2.5.0表要求RKNPU2 SDK≥2.5.0 | 该版本示例，不是所有BSP认证 |
+| 应用管线 | 相机图像 → 检测/分割结果消息 | RGA、时间戳、预后处理、ROS适配 | 输出坐标/数据年龄/故障处理 |
+
+README 所列 Python 3.6—3.12 是总体支持列表，不表示每个 v2.5.0 wheel 覆盖每个解释器和系统；应锁定实际 wheel 文件名、架构和依赖。Zoo 旧版表对 RKNPU1 有不同要求，最新 2.5.0 行的 RKNPU1 栏为短横线，不能把历史旧平台支持表直接归入当前最新部署组合。[[RK02_RKNN2_Readme]] [[RK02_Zoo_Readme]]
+
+## 2. 真实转换链：优化过的 YOLOv8 不等于原始导出
+
+官方 Zoo 的 YOLOv8 指向 `airockchip/ultralytics_yolov8`。指南明确说明提供的是优化模型，与原始模型不同。以 yolov8n 为例，原始输出 `[1,84,8400]` 被拆为三组多尺度输出；每组包括 box `[1,64,H,W]`、类别 `[1,80,H,W]` 和类别置信度汇总 `[1,1,H,W]`，H/W 对应 80、40、20。图修改将部分尾部子图移出编译图并增设 ReduceSum/Clip 分支，减少 NPU 图中的尾部处理，但把输出解释和后处理契约交给应用。不能使用原模型的通用后处理去解释这些张量。[[RK02_YOLO8_Guide]]
+
+FIGURE1
+
+FIGURE2
+
+以上两张官方图分别展示输出布局与子图改写，来源未单独标版本，按此次 main 快照使用。图中右侧 Sigmoid、ReduceSum、Clip 保留了特定置信度处理，不能把指南“去除尾部子图”的文字泛化成所有后处理完全移出。判断实际图应同时查看导出 ONNX 与配套 C 后处理。
+
+`convert.py` 的真实顺序是建立 `RKNN` 对象，`config(mean_values=[[0,0,0]],std_values=[[255,255,255]],target_platform=platform)`，`load_onnx`，`build(do_quantization=...,dataset=...)`，`export_rknn`，最后 release。默认量化，校准列表是 `datasets/COCO/coco_subset_20.txt`；参数 i8/u8 选择量化路径，fp 关闭量化，不代表对每个 SKU 随意选 dtype。用户可按指南执行 `python convert.py ../model/yolov8n.onnx rk3588 i8 ../model/yolov8.rknn`，但本轮没有实际下载权重、安装 Toolkit 或生成产物。[[RK02_YOLO8_Convert]] [[RK02_YOLO8_Guide]]
+
+校准的作用是估计激活范围及量化参数。根据 Runtime 暴露的 affine `scale/zp`，分析表达可写为 `x≈scale×(q-zp)`，量化近似对应 round 与可表示区间裁剪；具体量化算法、融合及每个算子精度以编译报告为准，不把这个表达当成编译器内部算法披露。机器人场景若包含夜间、反光、近距离遮挡和不同曝光，COCO20 只能说明官方入门例程的输入，不能作为任务代表性校准集或精度验收集。改变归一化、颜色顺序、resize/letterbox、模型图或 target 后应重新编译并保留配置及产物哈希。
+
+v2.3.2 的 changelog 增加自动混合精度，v2.3.0 将 W4A16 对称量化明确限定 RK3576；v2.5.0 增加 QAT sparse inference、某些 GPU/CPU 算子支持和 RV1126B/RK3562 mini-runtime。不能由此推导所有平台都支持同一种低比特或稀疏加速。稀疏结构要求、模型精度收益及 mini 模型与 full runtime 的兼容矩阵没有由简短发布说明闭合。[[RK02_RKNN2_Changes]]
+
+## 3. 运行时：查询属性，再决定拷贝和原生内存路径
+
+已读 `rknn_api.h` 的上下文、属性及内存接口。`rknn_init` 加载模型，`rknn_query` 查询输入输出数量、普通/native tensor 属性、SDK/driver 版本、内存和性能；`rknn_inputs_set` 提交逻辑输入，`rknn_run` 执行，`rknn_outputs_get` 获取输出，`rknn_outputs_release` 释放非预分配输出，最终销毁 context。输出结构中的 want_float 可以请求转为浮点，但转换本身有成本；释放后不能继续保留其裸地址。[[RK02_RKNN2_API]]
+
+官方 YOLO C 实现先读 `.rknn` 并查询每个 tensor 的 dims、fmt、type、qnt_type、zp、scale。预处理为 RGB888，letterbox 背景色114；输入以 UINT8/NHWC 提交，输出按量化状态选择浮点转换，再进行阈值/NMS和坐标回投。该实现每次 malloc 预处理目标图，再经 inputs_set/get/release，不能称为零拷贝相机路径。源码不同错误分支的资源清理也需要产品化审计；静态 demo 的正常路径不等于已覆盖故障恢复。[[RK02_YOLO8_Runtime]]
+
+原生内存路径由 `rknn_create_mem` 或 fd/物理地址导入接口、`rknn_set_io_mem` 等建立。需要区分 logical tensor 的大小与 `size_with_stride`、w_stride/h_stride、native NC1HWC2/NHWC 等布局。`pass_through=1` 表示不按调用者 type/fmt转换，要求调用者已经匹配模型输入节点，不能用于“绕过格式检查”。传感器输出 NV12、RGA 输出 RGB、模型逻辑输入 NCHW 与 runtime 原生布局可能不同，应选择明确转换或预处理直接写入兼容缓冲，而不是只传相同 fd。[[RK02_RKNN2_API]]
+
+API 的 cache flag 进一步说明零拷贝条件：关闭自动输入 flush 后调用者必须先完成 cache 同步；关闭输出 invalidate 后，CPU 访问 virt_addr 前必须 `rknn_mem_sync(...FROM_DEVICE)`。头文件明确限制这些 flag 不应与相应 inputs_set/outputs_get 路径混用。分析上，保留 DMA fd 能减少传输，但不能消除色彩/布局变换、CPU 后处理和跨设备同步的代价；RGA fence 到 RKNN 的具体接法还要按目标 SDK 校验。
+
+## 4. 图分区、多核、异步与动态形状
+
+v2.5.0 发布说明直接标出 GRU 的 NPU/GPU、GridSample 的 GPU、ReduceLogSumExp/Pow/TopK 的 CPU 等执行边界，历史版本也有 CPU/GPU 自定义算子。说明转换成功后可能含非 NPU 计算，但本轮未取得完整自动分区/fallback 规则，不能承诺“不支持算子总能自动回退”。应检查实际编译日志和 perf detail，并把 CPU/GPU 段、同步及中间 tensor 转换计入总时间。性能收集 flag 会降低帧率，不能拿启用诊断的数据当作无诊断部署的直接对照。[[RK02_RKNN2_Changes]] [[RK02_RKNN2_API]]
+
+多核平台提供 `rknn_set_core_mask` 与 batch/core 配置；它们回答使用哪些核心，不能保证单任务三核获得三倍速度。内存带宽、图分割和多模型并发都会影响收益。异步 flag 的头注释更重要：outputs_get 可直接取上一帧结果以提高单线程吞吐，代价是结果不属于当前帧；多线程无需开启此模式。必须使用 run/output extend 的 frame_id 建立输入结果关联，观察队列长度和观测年龄，而不是把 FPS 提高理解为控制响应更快。[[RK02_RKNN2_API]]
+
+当前头文件提供 dynamic range/current input/output 属性和设置输入 shape 的接口，历史 changelog 写过有限动态分辨率与后续改进。动态 shape 要以编译时允许范围及运行期接口为准，不能把静态 640×640 demo 任意改为相机原始尺寸。输出缓冲容量、stride 与下游布局也需随允许形状调整；缓存和外部内存复用失败应退回已验证固定形状，并保留错误码与恢复策略。
+
+NVIDIA TensorRT DLA 指南明确区分 DLA 层约束和 GPU fallback，包含静态尺寸与构建规则。相同痛点是专用引擎覆盖有限，需要整体查看分区和搬运；Rockchip 的部署接口与 `.rknn`、NVIDIA 的 engine、CUDA/DLA execution 接口不同，迁移需重新导出、编译及验证，不能迁移二进制。缺同条件模型/功耗测试，因此不输出平台加速排名。[[RK02_TensorRT_Compare]]
+
+## 5. 基准、许可与可复建放行
+
+| 官方 Zoo 数据 | shape/精度/核心 | 采集条件与计时范围 | 解释边界 |
+| --- | --- | --- | --- |
+| yolov8n：RK3588 76.3 FPS | [1,3,640,640]、INT8、single_core | 每个平台最高NPU频率；未特别说明时不含预后处理 | 模型推理吞吐，非相机闭环 |
+| yolov8n：RK3576 97.7 FPS | 同shape、INT8、single_core | 同表；具体板、功率、warmup/样本/P99未齐 | 原表数值，不能因超过RK3588就推广到所有任务 |
+| yolov8n：RV1126B 83.0 FPS | 同shape、INT8 | 原表未给该列single_core标记 | 不套用两款多核SoC的核心条件 |
+
+数字来自此次 Zoo main、发行说明2.5.0快照，模型优化方式见前述指南。没有对应模型哈希、固定 commit、驱动/温度/功率及统计，本文只保留原表口径。三核、流水线、更多线程的收益必须实测，FPS 的倒数也不是包含采集和动作的时延。[[RK02_Zoo_Readme]]
+
+许可不能合并成“RKNN开源”：Toolkit2 根 LICENSE 为 RKNN SDK License，授权限于兼容 Rockchip 产品的设计、开发和测试，并有反向工程限制及第三方软件独立条款；Model Zoo LICENSE 为 Apache-2.0；YOLO 源项目又有自身许可，预训练权重及训练数据也需要单独核对。本轮仅静态取得源码和文档，未安装 SDK；批量量产 runtime 再分发、转换器内部源码开放性和权重许可不能由公开仓库存在推出。[[RK02_RKNN2_License]] [[RK02_Zoo_License]] [[RK02_YOLO8_Source]]
+
+可复建步骤是锁定 Zoo/Toolkit commit、wheel/Runtime/driver、ONNX hash/opset、校准列表和图像hash，先跑 ONNX 参考和 FP 路线，再比较 INT8 的逐层/最终输出和业务误报漏报。执行指南的编译与 C demo 后，保存查询属性、核心配置、耗时分段和内存；随后替换固定图片为 02A 帧池，关联 timestamp/frame_id，测试负载与热稳定。最后发布检测结果消息，定义原图坐标、类别、置信度、frame、时间和有效期。相机和 ROS/动作桥接在本轮只得到接口分析，未找到该 YOLO demo 的完整机器人闭环，因此模型推理以后仍是未验证交接。
+
+完整 v2.5.0 用户手册与算子支持矩阵尚未取得：官方 doc 目录受 robots 限制，依据版本候选定位的 PDF 路径返回失败，不能据此说厂商没有手册。已有 changelog、转换代码和 API 足以追踪上述实际接口，但动态 shape、量化参数全集、mini/full产物兼容和加密密钥交付仍需官方SDK文档与目标机验收。

@@ -1,0 +1,146 @@
+[
+  {
+    "name": "CloudRobo_BillingPDF",
+    "url": "https://support.huaweicloud.com/price-cloudrobo/CloudRobo%20%E8%AE%A1%E8%B4%B9%E8%AF%B4%E6%98%8E-pdf.pdf",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CloudRobo_BillingPlatform",
+    "url": "https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0006.html",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CloudRobo_BillingCompute",
+    "url": "https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0007.html",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CloudRobo_BillingModels",
+    "url": "https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0018.html",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CloudRobo_BillingManagement",
+    "url": "https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0017.html",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CloudRobo_ProductPDF",
+    "url": "https://support.huaweicloud.com/productdesc-cloudrobo/CloudRobo%20%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D-pdf.pdf",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CloudRobo_AccessControl",
+    "url": "https://support.huaweicloud.com/productdesc-cloudrobo/cloudrobo_01_0006.html",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CloudRobo_SharedResponsibility",
+    "url": "https://support.huaweicloud.com/productdesc-cloudrobo/cloudrobo_01_0003.html",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CAC_CrossBorder_2024",
+    "url": "https://www.cac.gov.cn/2024-03/22/c_1712776611775634.htm",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CloudRobo_RealInference",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0002.html",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CloudRobo_ResidualDebug",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0027.html",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CloudRobo_VLN",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0074.html",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ACL_ModelProcess",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_imagenet_classification/src/model_process.cpp",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "HiSilicon_Hi3519AV200",
+    "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519av200",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "HiSilicon_Hi3516CV610",
+    "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516cv610",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "RLinf_Ascend_Container",
+    "url": "https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/_ascend_libero.rst",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "HiSilicon_BuyChannels",
+    "url": "https://www.hisilicon.com/cn/WhereToBuy",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Huawei_Atlas200IA2_Product",
+    "url": "https://www.hiascend.com/hardware/accelerator-module-A2",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  }
+]

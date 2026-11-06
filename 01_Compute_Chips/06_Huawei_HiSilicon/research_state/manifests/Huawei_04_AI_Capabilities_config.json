@@ -1,0 +1,106 @@
+{
+  "source_ids": [
+    "CloudRobo_ProductPDF",
+    "CloudRobo_Pretrained",
+    "CloudRobo_CustomModel",
+    "CloudRobo_NotebookModels",
+    "CloudRobo_TrainAlgorithm",
+    "CloudRobo_StarVLA",
+    "CloudRobo_ResidualOverview",
+    "CloudRobo_VLN",
+    "CloudRobo_BestPractice",
+    "OpenVLA_ModelCard",
+    "Qwen3VL_ModelCard",
+    "StarVLA_ModelCard",
+    "FAST_ModelCard",
+    "OpenPI_README",
+    "LeRobot_README_051",
+    "LeRobot_License_051",
+    "Ultralytics_Ascend_Doc",
+    "VLLM_Ascend_FAQ",
+    "HiSilicon_Hi3519DV500",
+    "HiSilicon_Hi3519AV200",
+    "CloudRobo_R2C_Protocol",
+    "RLinf_README",
+    "RLinf_Ascend_Container",
+    "RLinf_OSMesa_Setup",
+    "RLinf_OpenPI_Guide",
+    "RLinf_StarVLA_Guide",
+    "RLinf_Wan_Guide",
+    "RLinf_License"
+  ],
+  "claims": [
+    {
+      "claim": "StarVLA Action仓库仅是扩词表初始化，不是训练完成的机器人策略",
+      "source_id": "StarVLA_ModelCard",
+      "location": "Model and input contract / Training and evaluation",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益"
+    },
+    {
+      "claim": "PI05示例动作chunk为50×6",
+      "source_id": "CloudRobo_Pretrained",
+      "location": "r2c.json output_features",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益"
+    },
+    {
+      "claim": "CloudRobo预置模型有具体资产和训练方式",
+      "source_id": "CloudRobo_NotebookModels",
+      "location": "表1预置资产下载示例",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益"
+    },
+    {
+      "claim": "VLN输出8个二维路径点而非关节伺服",
+      "source_id": "CloudRobo_VLN",
+      "location": "前提条件 / Path字段映射",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益"
+    },
+    {
+      "claim": "R2C time limit in minutes; OR between max_iter_num and max_run_time",
+      "source_id": "CloudRobo_R2C_Protocol",
+      "location": "stop_condition table11",
+      "evidence_type": "protocol fact",
+      "conditions": "example60calls/5min; default100calls/10min",
+      "finding": "closes former unit unknown; does not prove hardware stop deadline"
+    },
+    {
+      "claim": "RLinf CANN9.1.1 supports specified 910B learning route",
+      "source_id": "RLinf_Ascend_Container",
+      "location": "Ascend container tag and CANN910B note",
+      "evidence_type": "third-party author documentation",
+      "conditions": "main collection snapshot; not310B",
+      "finding": "server learning route; no same-hardware benchmark or onboard support"
+    }
+  ],
+  "versions": {
+    "CloudRobo_ProductPDF": "文档01，2026-11-02；完整20页PDF",
+    "RLinf_README": "main采集快照，未锁提交SHA；版本范围见正文",
+    "RLinf_Ascend_Container": "main采集快照，未锁提交SHA；版本范围见正文",
+    "RLinf_OSMesa_Setup": "main采集快照，未锁提交SHA；版本范围见正文",
+    "RLinf_OpenPI_Guide": "main采集快照，未锁提交SHA；版本范围见正文",
+    "RLinf_StarVLA_Guide": "main采集快照，未锁提交SHA；版本范围见正文",
+    "RLinf_Wan_Guide": "main采集快照，未锁提交SHA；版本范围见正文",
+    "RLinf_License": "main采集快照，未锁提交SHA；版本范围见正文"
+  },
+  "figures": [
+    {
+      "source_id": "CloudRobo_ProductPDF",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/04_cloudrobo_architecture.png",
+      "caption": "CloudRobo官方产品架构（PDF物理第5页）",
+      "operation": "2026-11-02 PDF物理第5页110dpi完整渲染；已逐图打开检查，文字完整"
+    }
+  ],
+  "manual_review": {
+    "coverage": "原04范围加后续R2C单位和RLinf910B世界模型证据；revision保留原报告及核查",
+    "versions_and_measurements": "旧200DK/DV300、当前A2/海思产品与CloudRobo云侧严格分开；未运行硬件，未以功能界面代替benchmark",
+    "maturity_and_licenses": "代码、权重、数据、资产、本体SDK、商业云合同分别记录，未取得项不授予许可",
+    "figures_opened": "复用本轮已实际打开的官方CloudRobo完整架构页，或02/03已核验原图；不足以证明性能"
+  }
+}

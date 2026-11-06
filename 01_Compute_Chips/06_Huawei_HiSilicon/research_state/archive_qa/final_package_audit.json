@@ -1,0 +1,237 @@
+{
+  "platform": "Huawei_HiSilicon",
+  "data_cutoff": "2026-11-05",
+  "at_utc": "2026-11-04T17:41:08.233777+00:00",
+  "outcome": "pass",
+  "reports": {
+    "01_Hardware_Platform": {
+      "outcome": "pass",
+      "body_han_chars": 8039,
+      "sources": 13,
+      "figures": 2,
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: HiSilicon_BuyChannels（报告应披露）"
+      ]
+    },
+    "02_Software_Stack": {
+      "outcome": "pass",
+      "body_han_chars": 2537,
+      "sources": 61,
+      "figures": 1,
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: CloudRobo_Functions（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_AccessControl（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_RealInference（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_NotebookModels（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_TrainAlgorithm（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_Pretrained（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_CustomModel（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_R2C_Protocol（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_MetaEngineAdapter（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_SimEvaluation（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_BillingManagement（报告应披露）"
+      ]
+    },
+    "03_Sensor_Integration": {
+      "outcome": "pass",
+      "body_han_chars": 2468,
+      "sources": 14,
+      "figures": 2,
+      "errors": [],
+      "warnings": []
+    },
+    "04_AI_Capabilities": {
+      "outcome": "pass",
+      "body_han_chars": 2563,
+      "sources": 28,
+      "figures": 1,
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: CloudRobo_Pretrained（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_CustomModel（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_NotebookModels（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_TrainAlgorithm（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_StarVLA（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_ResidualOverview（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_VLN（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_BestPractice（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_R2C_Protocol（报告应披露）"
+      ]
+    },
+    "05_Simulation_Environment": {
+      "outcome": "pass",
+      "body_han_chars": 2324,
+      "sources": 14,
+      "figures": 1,
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: CloudRobo_SimOverview（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_SimConfig（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_SimImport（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_SimScene（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_SimTrajectory（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_SimEvaluation（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_BestPractice（报告应披露）"
+      ]
+    },
+    "06_Robot_Integration": {
+      "outcome": "pass",
+      "body_han_chars": 1995,
+      "sources": 15,
+      "figures": 1,
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: CloudRobo_RealInference（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_Pretrained（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_VLN（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_ResidualOverview（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_ResidualInstall（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_ResidualActivate（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_ResidualDebug（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_ResidualCreate（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_SimEvaluation（报告应披露）"
+      ]
+    },
+    "07_Ecosystem": {
+      "outcome": "pass",
+      "body_han_chars": 1900,
+      "sources": 22,
+      "figures": 1,
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: HiSilicon_BuyChannels（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_VLN（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_ResidualDebug（报告应披露）"
+      ]
+    },
+    "08_Core_Technology_Moat": {
+      "outcome": "pass",
+      "body_han_chars": 2080,
+      "sources": 38,
+      "figures": 1,
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: CloudRobo_R2C_Protocol（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_MetaEngineAdapter（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_SimEvaluation（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_Pretrained（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_VLN（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_ResidualOverview（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_ResidualDebug（报告应披露）"
+      ]
+    },
+    "09_SWOT_Analysis": {
+      "outcome": "pass",
+      "body_han_chars": 3005,
+      "sources": 18,
+      "figures": 1,
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: CloudRobo_BillingPlatform（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_BillingCompute（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_BillingModels（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_BillingManagement（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_AccessControl（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_SharedResponsibility（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_RealInference（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_ResidualDebug（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_VLN（报告应披露）",
+        "静态依赖部分缺失: HiSilicon_BuyChannels（报告应披露）"
+      ]
+    },
+    "02A_Ascend_CANN_Runtime": {
+      "outcome": "pass",
+      "body_han_chars": 2265,
+      "sources": 9,
+      "figures": 1,
+      "errors": [],
+      "warnings": []
+    },
+    "02B_Framework_Model_Deployment": {
+      "outcome": "pass",
+      "body_han_chars": 2363,
+      "sources": 18,
+      "figures": 1,
+      "errors": [],
+      "warnings": []
+    },
+    "02C_HiSilicon_BSP_MPP_NPU": {
+      "outcome": "pass",
+      "body_han_chars": 2229,
+      "sources": 16,
+      "figures": 3,
+      "errors": [],
+      "warnings": []
+    },
+    "02D_Robot_Integration_Operations": {
+      "outcome": "pass",
+      "body_han_chars": 2380,
+      "sources": 11,
+      "figures": 1,
+      "errors": [],
+      "warnings": []
+    },
+    "02E_CloudRobo_Development_Platform": {
+      "outcome": "pass",
+      "body_han_chars": 2772,
+      "sources": 15,
+      "figures": 1,
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: CloudRobo_Functions（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_AccessControl（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_RealInference（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_NotebookModels（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_TrainAlgorithm（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_Pretrained（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_CustomModel（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_R2C_Protocol（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_MetaEngineAdapter（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_SimEvaluation（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_BillingManagement（报告应披露）"
+      ]
+    },
+    "08A_Ascend_Execution_Compilation": {
+      "outcome": "pass",
+      "body_han_chars": 1817,
+      "sources": 13,
+      "figures": 1,
+      "errors": [],
+      "warnings": []
+    },
+    "08B_HiSilicon_Media_Memory": {
+      "outcome": "pass",
+      "body_han_chars": 1854,
+      "sources": 11,
+      "figures": 2,
+      "errors": [],
+      "warnings": []
+    },
+    "08C_CloudRobo_Action_Learning": {
+      "outcome": "pass",
+      "body_han_chars": 2116,
+      "sources": 14,
+      "figures": 1,
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: CloudRobo_R2C_Protocol（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_MetaEngineAdapter（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_SimEvaluation（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_Pretrained（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_VLN（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_ResidualOverview（报告应披露）",
+        "静态依赖部分缺失: CloudRobo_ResidualDebug（报告应披露）"
+      ]
+    }
+  },
+  "report_count": 17,
+  "total_effective_body_han_chars": 44707,
+  "union_effective_sources": 104,
+  "dedup_network_requests": 0,
+  "indexes_local_links": "all exist",
+  "01_unchanged_sha256": "b13be8dbee593fb8b4314e5688ecb2a76f2e104524ddc6fb4b71e55b5ae1744e",
+  "baseline": "01_Compute_Chips/06_Huawei_HiSilicon/research_state/baselines/final_package_frozen.json",
+  "limits": "结构、归档和人工核验记录；未开展模型/设备/仿真/机器人实测，未证明商业收益；静态依赖缺口已披露"
+}

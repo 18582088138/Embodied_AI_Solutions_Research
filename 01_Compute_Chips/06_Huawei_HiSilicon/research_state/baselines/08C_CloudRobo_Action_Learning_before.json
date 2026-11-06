@@ -1,0 +1,18 @@
+{
+  "01_Hardware_Platform.md": "b13be8dbee593fb8b4314e5688ecb2a76f2e104524ddc6fb4b71e55b5ae1744e",
+  "02A_Ascend_CANN_Runtime.md": "08d7a13a904ab8326a073297663adf02ca6e80ba09305566a6dfdb6004b64404",
+  "02B_Framework_Model_Deployment.md": "cd4d567bc3667855d334cbff3d598c9fce5357c58c564673713a591492b230e0",
+  "02C_HiSilicon_BSP_MPP_NPU.md": "53ff8300e6127cc372330f57dafc5272934edbe9df3a54d47b203b9253970402",
+  "02D_Robot_Integration_Operations.md": "7449f8686df429374f9ec73fd20fc7c746908ca35ec2623b3b93bbf7ea2bbd52",
+  "02_Software_Stack.md": "8842f2d8a306fff661655cba5ad17e185ea63e8b0f710b57899531aab241014d",
+  "02_Topics_Index.md": "219c0051a32ac7b16099d206e6544d76f4bd4b5f350ea4f2b7892e98a1fb276c",
+  "03_Sensor_Integration.md": "74137e101f6b7ff4d9c5bec02843665efc7dad57c5cc8cac51c6098304015372",
+  "04_AI_Capabilities.md": "6d178c62d2225d2e62f31543fb11d19ab4278298974542ece37a7203af3e7883",
+  "05_Simulation_Environment.md": "beb913265b7af005df19945eac16a0be7e9ad5511785d7530ce891d048aeddf6",
+  "06_Robot_Integration.md": "f905cbc24f642fe04c29af56bb86e327567651cca5f4e6f8c2241e281d2fb489",
+  "07_Ecosystem.md": "5d9944f16cb9ecea65dd656142678b56a3d039a2a1ac0e81b3fefbb10426647e",
+  "08A_Ascend_Execution_Compilation.md": "0a7a84a9aebce5ce80159d82179f61a67cb962aac3371b41f20ea6b473f306ad",
+  "08B_HiSilicon_Media_Memory.md": "8bc995f03ebf07d73b265243d99e4fba7c49ca5acb8198fb5ff610eb4221338c",
+  "08_Proprietary_Technologies.md": "b87e4722e427c5c33d4bb6f1bbbc6a79d4ff11b34cac2d2a6498df4678d166ca",
+  "09_SWOT_Analysis.md": "70890b37dee09775f4789d1038c47c165652ff1a95d2e55a3446d4640fdbcd4f"
+}

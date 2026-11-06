@@ -1,0 +1,1060 @@
+[
+  {
+    "name": "Huawei_Atlas200IA2_Product",
+    "url": "https://www.hiascend.com/hardware/accelerator-module-A2",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform",
+      "03_Sensor_Integration",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "HiSilicon_Hi3403V100",
+    "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3403v100",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform",
+      "02_Software_Stack",
+      "03_Sensor_Integration",
+      "08_Core_Technology_Moat",
+      "02C_HiSilicon_BSP_MPP_NPU",
+      "08B_HiSilicon_Media_Memory"
+    ]
+  },
+  {
+    "name": "HiSilicon_Hi3519AV200",
+    "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519av200",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform",
+      "02_Software_Stack",
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis",
+      "02C_HiSilicon_BSP_MPP_NPU",
+      "08B_HiSilicon_Media_Memory"
+    ]
+  },
+  {
+    "name": "HiSilicon_Hi3519DV500",
+    "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519dv500",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform",
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "08_Core_Technology_Moat",
+      "08B_HiSilicon_Media_Memory"
+    ]
+  },
+  {
+    "name": "HiSilicon_Hi3516DV500",
+    "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516dv500",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform",
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "HiSilicon_Hi3516CV610",
+    "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516cv610",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform",
+      "02_Software_Stack",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis",
+      "02C_HiSilicon_BSP_MPP_NPU",
+      "08B_HiSilicon_Media_Memory"
+    ]
+  },
+  {
+    "name": "HiSilicon_Hi3559AV100",
+    "url": "https://www.hisilicon.com/cn/products/smart-vision/public-security/IPC/Hi3559AV100.html",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "HiSilicon_MachineVision",
+    "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "HiSilicon_SmartVision",
+    "url": "https://www.hisilicon.com/cn/products/smart-vision",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Huawei_Ascend_Processors",
+    "url": "https://www.hiascend.com/hardware/processor",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Huawei_Atlas_Cards",
+    "url": "https://www.hiascend.com/hardware/accelerator-card",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "HiSilicon_BuyChannels",
+    "url": "https://www.hisilicon.com/cn/WhereToBuy",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform",
+      "07_Ecosystem",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "HiSilicon_AcademyPDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/d8442760823b4f5e9fabb6c5bd684846.pdf",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform",
+      "02_Software_Stack",
+      "07_Ecosystem",
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "ACL_ResNet_README",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_imagenet_classification/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "08_Core_Technology_Moat",
+      "02A_Ascend_CANN_Runtime",
+      "08A_Ascend_Execution_Compilation"
+    ]
+  },
+  {
+    "name": "ACL_ModelProcess",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_imagenet_classification/src/model_process.cpp",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "03_Sensor_Integration",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis",
+      "02A_Ascend_CANN_Runtime",
+      "08A_Ascend_Execution_Compilation"
+    ]
+  },
+  {
+    "name": "ACL_SampleProcess",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_imagenet_classification/src/sample_process.cpp",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "08_Core_Technology_Moat",
+      "02A_Ascend_CANN_Runtime",
+      "08A_Ascend_Execution_Compilation"
+    ]
+  },
+  {
+    "name": "ACL_Async_ModelProcess",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_async_imagenet_classification/src/model_process.cpp",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "03_Sensor_Integration",
+      "08_Core_Technology_Moat",
+      "02A_Ascend_CANN_Runtime",
+      "02D_Robot_Integration_Operations",
+      "08A_Ascend_Execution_Compilation"
+    ]
+  },
+  {
+    "name": "ACL_Dynamic_README",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_imagenet_dynamic_dims/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "08_Core_Technology_Moat",
+      "02A_Ascend_CANN_Runtime",
+      "08A_Ascend_Execution_Compilation"
+    ]
+  },
+  {
+    "name": "ACL_FirstApp_Figure",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_firstapp/README_fig.png",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "08_Core_Technology_Moat",
+      "02A_Ascend_CANN_Runtime",
+      "08A_Ascend_Execution_Compilation"
+    ]
+  },
+  {
+    "name": "Ascend_Samples_License",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "08_Core_Technology_Moat",
+      "02A_Ascend_CANN_Runtime",
+      "02D_Robot_Integration_Operations",
+      "08A_Ascend_Execution_Compilation"
+    ]
+  },
+  {
+    "name": "Ultralytics_Ascend_Exporter",
+    "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/ultralytics/utils/export/ascend.py",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "08_Core_Technology_Moat",
+      "02A_Ascend_CANN_Runtime",
+      "02B_Framework_Model_Deployment",
+      "08A_Ascend_Execution_Compilation"
+    ]
+  },
+  {
+    "name": "Ultralytics_Ascend_Backend",
+    "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/ultralytics/nn/backends/ascend.py",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "03_Sensor_Integration",
+      "08_Core_Technology_Moat",
+      "02A_Ascend_CANN_Runtime",
+      "02B_Framework_Model_Deployment",
+      "02D_Robot_Integration_Operations",
+      "08A_Ascend_Execution_Compilation"
+    ]
+  },
+  {
+    "name": "Ascend_Pytorch_README",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/README.zh.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "07_Ecosystem",
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "TorchNPU_Compatibility",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/COMPATIBILITY.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "07_Ecosystem",
+      "08_Core_Technology_Moat",
+      "02B_Framework_Model_Deployment",
+      "08A_Ascend_Execution_Compilation"
+    ]
+  },
+  {
+    "name": "TorchNPU_Support",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/SUPPORT.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "TorchNPU_Version",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/version.txt",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "TorchNPU_ArchitectureSVG",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/docs/zh/figures/architecture.svg",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "Ascend_Pytorch_License",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "TorchNPU_Docs_License",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/docs/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "MindSpore_Lite_README",
+    "url": "https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/mindspore/lite/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "07_Ecosystem",
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "MindSpore_Lite_Context",
+    "url": "https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/mindspore/lite/python/api/context.py",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "08_Core_Technology_Moat",
+      "02B_Framework_Model_Deployment",
+      "08A_Ascend_Execution_Compilation"
+    ]
+  },
+  {
+    "name": "MindSpore_Lite_Model",
+    "url": "https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/mindspore/lite/python/api/model.py",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "MindSpore_Lite_Converter",
+    "url": "https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/mindspore/lite/python/api/converter.py",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "MindSpore_License",
+    "url": "https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "Ultralytics_Ascend_Doc",
+    "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/docs/en/integrations/ascend.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "04_AI_Capabilities",
+      "07_Ecosystem",
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "Ultralytics_License",
+    "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "07_Ecosystem",
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "VLLM_Ascend_FAQ",
+    "url": "https://raw.githubusercontent.com/vllm-project/vllm-ascend/4a29682d1d8fa89df63a45dc4df2a2a8068984ff/docs/source/faqs.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "04_AI_Capabilities",
+      "08_Core_Technology_Moat",
+      "02B_Framework_Model_Deployment",
+      "02D_Robot_Integration_Operations",
+      "08A_Ascend_Execution_Compilation"
+    ]
+  },
+  {
+    "name": "VLLM_Ascend_License",
+    "url": "https://raw.githubusercontent.com/vllm-project/vllm-ascend/4a29682d1d8fa89df63a45dc4df2a2a8068984ff/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "HiSilicon_DV300_SDK_PDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/7c925d6a091b49b5b1d1b0dc28d6dc4b.pdf/download",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "08_Core_Technology_Moat",
+      "02C_HiSilicon_BSP_MPP_NPU",
+      "08B_HiSilicon_Media_Memory"
+    ]
+  },
+  {
+    "name": "HiSilicon_DV300_Media_PDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/2a1c6e800feb43f4a8a31f8bcdcdc84a.pdf/download",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "03_Sensor_Integration",
+      "08_Core_Technology_Moat",
+      "02C_HiSilicon_BSP_MPP_NPU",
+      "08B_HiSilicon_Media_Memory"
+    ]
+  },
+  {
+    "name": "HiSilicon_DV300_SVP_PDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/4ef2e012655a4aae8c80619b8cfd093f.pdf/download",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "03_Sensor_Integration",
+      "05_Simulation_Environment",
+      "08_Core_Technology_Moat",
+      "02C_HiSilicon_BSP_MPP_NPU",
+      "08B_HiSilicon_Media_Memory"
+    ]
+  },
+  {
+    "name": "HiSilicon_LiteOS_PDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/5103be8a8500426e8b60325acbfc9359.pdf/download",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "02C_HiSilicon_BSP_MPP_NPU",
+      "02D_Robot_Integration_Operations"
+    ]
+  },
+  {
+    "name": "OH_HiSilicon_README",
+    "url": "https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/README.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "07_Ecosystem",
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "OH_DV300_README",
+    "url": "https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/hi3516dv300/README_zh.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "OH_HiSilicon_License",
+    "url": "https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "OH_Driver_License",
+    "url": "https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/hi3516dv300/sdk_linux/drv/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "07_Ecosystem",
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "OH_Media_EULA",
+    "url": "https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/hi3516dv300/sdk_linux/out/lib/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "07_Ecosystem",
+      "08_Core_Technology_Moat",
+      "02C_HiSilicon_BSP_MPP_NPU",
+      "02D_Robot_Integration_Operations",
+      "08B_HiSilicon_Media_Memory"
+    ]
+  },
+  {
+    "name": "HiView_README",
+    "url": "https://raw.githubusercontent.com/openhisilicon/HIVIEW/395b53d4c28cf5e528c9e1ba3f7ec39ad8e852d4/README.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "07_Ecosystem",
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "HiView_3403_VPSS",
+    "url": "https://raw.githubusercontent.com/openhisilicon/HIVIEW/395b53d4c28cf5e528c9e1ba3f7ec39ad8e852d4/mod/svp/3403/vpss_capture.cpp",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "03_Sensor_Integration",
+      "07_Ecosystem",
+      "08_Core_Technology_Moat",
+      "02C_HiSilicon_BSP_MPP_NPU",
+      "08B_HiSilicon_Media_Memory"
+    ]
+  },
+  {
+    "name": "HiView_3403_YOLO",
+    "url": "https://raw.githubusercontent.com/openhisilicon/HIVIEW/395b53d4c28cf5e528c9e1ba3f7ec39ad8e852d4/mod/svp/3403/yolov8.cpp",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "08_Core_Technology_Moat",
+      "02C_HiSilicon_BSP_MPP_NPU",
+      "08B_HiSilicon_Media_Memory"
+    ]
+  },
+  {
+    "name": "Ascend_Robot_Arm_README",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robotic_Arm_Object_Following/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "03_Sensor_Integration",
+      "06_Robot_Integration",
+      "02D_Robot_Integration_Operations"
+    ]
+  },
+  {
+    "name": "Ascend_Robot_Arm_Code",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robotic_Arm_Object_Following/src/robotic_arm_object_following.py",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "03_Sensor_Integration",
+      "06_Robot_Integration",
+      "02D_Robot_Integration_Operations"
+    ]
+  },
+  {
+    "name": "Ascend_Robot_Arm_Flow",
+    "url": "https://images.gitee.com/uploads/images/2021/0310/112856_f44ecafd_5537256.png",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "03_Sensor_Integration",
+      "06_Robot_Integration",
+      "02D_Robot_Integration_Operations"
+    ]
+  },
+  {
+    "name": "Ascend_Robot_Chess_README",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robot_Play_Chess/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "06_Robot_Integration",
+      "02D_Robot_Integration_Operations"
+    ]
+  },
+  {
+    "name": "Ascend_Robot_Car_README",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/contrib/robots_car/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "06_Robot_Integration",
+      "02D_Robot_Integration_Operations"
+    ]
+  },
+  {
+    "name": "CloudRobo_ProductPDF",
+    "url": "https://support.huaweicloud.com/productdesc-cloudrobo/CloudRobo%20%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D-pdf.pdf",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis",
+      "02E_CloudRobo_Development_Platform",
+      "08C_CloudRobo_Action_Learning"
+    ]
+  },
+  {
+    "name": "CloudRobo_Functions",
+    "url": "https://support.huaweicloud.com/productdesc-cloudrobo/cloudrobo_01_0002.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_AccessControl",
+    "url": "https://support.huaweicloud.com/productdesc-cloudrobo/cloudrobo_01_0006.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "09_SWOT_Analysis",
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_RealInference",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0002.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "06_Robot_Integration",
+      "09_SWOT_Analysis",
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_NotebookModels",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0071.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "04_AI_Capabilities",
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_TrainAlgorithm",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0037.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "04_AI_Capabilities",
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_Pretrained",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0003.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "04_AI_Capabilities",
+      "06_Robot_Integration",
+      "08_Core_Technology_Moat",
+      "02E_CloudRobo_Development_Platform",
+      "08C_CloudRobo_Action_Learning"
+    ]
+  },
+  {
+    "name": "CloudRobo_CustomModel",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0063.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "04_AI_Capabilities",
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_R2C_Protocol",
+    "url": "https://support.huaweicloud.com/sdkreference-cloudrobo/cloudrobo_03_0005.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "04_AI_Capabilities",
+      "08_Core_Technology_Moat",
+      "02E_CloudRobo_Development_Platform",
+      "08C_CloudRobo_Action_Learning"
+    ]
+  },
+  {
+    "name": "CloudRobo_MetaEngineAdapter",
+    "url": "https://support.huaweicloud.com/sdkreference-cloudrobo/cloudrobo_03_0043.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "08_Core_Technology_Moat",
+      "02E_CloudRobo_Development_Platform",
+      "08C_CloudRobo_Action_Learning"
+    ]
+  },
+  {
+    "name": "CloudRobo_SimEvaluation",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0057.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "08_Core_Technology_Moat",
+      "02E_CloudRobo_Development_Platform",
+      "08C_CloudRobo_Action_Learning"
+    ]
+  },
+  {
+    "name": "O3DE_ROS2_Gem",
+    "url": "https://docs.o3de.org/docs/user-guide/gems/reference/robotics/ros2/",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "05_Simulation_Environment",
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "LeRobot_License_051",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/v0.5.1/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "04_AI_Capabilities",
+      "07_Ecosystem",
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_BillingPDF",
+    "url": "https://support.huaweicloud.com/price-cloudrobo/CloudRobo%20%E8%AE%A1%E8%B4%B9%E8%AF%B4%E6%98%8E-pdf.pdf",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "09_SWOT_Analysis",
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_BillingManagement",
+    "url": "https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0017.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "09_SWOT_Analysis",
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_StarVLA",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0072.html",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "CloudRobo_ResidualOverview",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0019.html",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities",
+      "06_Robot_Integration",
+      "08_Core_Technology_Moat",
+      "08C_CloudRobo_Action_Learning"
+    ]
+  },
+  {
+    "name": "CloudRobo_VLN",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0074.html",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis",
+      "08C_CloudRobo_Action_Learning"
+    ]
+  },
+  {
+    "name": "CloudRobo_BestPractice",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0001.html",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities",
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "OpenVLA_ModelCard",
+    "url": "https://huggingface.co/openvla/openvla-7b/raw/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "Qwen3VL_ModelCard",
+    "url": "https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct/raw/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "StarVLA_ModelCard",
+    "url": "https://huggingface.co/StarVLA/Qwen3-VL-4B-Instruct-Action/raw/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "FAST_ModelCard",
+    "url": "https://huggingface.co/physical-intelligence/fast/raw/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "OpenPI_README",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "LeRobot_README_051",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/v0.5.1/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "RLinf_README",
+    "url": "https://raw.githubusercontent.com/RLinf/RLinf/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "RLinf_Ascend_Container",
+    "url": "https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/_ascend_libero.rst",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis",
+      "08C_CloudRobo_Action_Learning"
+    ]
+  },
+  {
+    "name": "RLinf_OSMesa_Setup",
+    "url": "https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/_libero_osmesa.rst",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "08_Core_Technology_Moat",
+      "08C_CloudRobo_Action_Learning"
+    ]
+  },
+  {
+    "name": "RLinf_OpenPI_Guide",
+    "url": "https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/pi0.rst",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities",
+      "07_Ecosystem",
+      "08_Core_Technology_Moat",
+      "08C_CloudRobo_Action_Learning"
+    ]
+  },
+  {
+    "name": "RLinf_StarVLA_Guide",
+    "url": "https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/starvla.rst",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities",
+      "07_Ecosystem",
+      "08_Core_Technology_Moat",
+      "08C_CloudRobo_Action_Learning"
+    ]
+  },
+  {
+    "name": "RLinf_Wan_Guide",
+    "url": "https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/wan.rst",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "07_Ecosystem",
+      "08_Core_Technology_Moat",
+      "08C_CloudRobo_Action_Learning"
+    ]
+  },
+  {
+    "name": "RLinf_License",
+    "url": "https://raw.githubusercontent.com/RLinf/RLinf/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "07_Ecosystem",
+      "08_Core_Technology_Moat",
+      "08C_CloudRobo_Action_Learning"
+    ]
+  },
+  {
+    "name": "CloudRobo_SimOverview",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0056.html",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "CloudRobo_SimConfig",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0052.html",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "CloudRobo_SimImport",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0053.html",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "CloudRobo_SimScene",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0054.html",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "CloudRobo_SimTrajectory",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0055.html",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "CloudRobo_ResidualInstall",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0022.html",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "CloudRobo_ResidualActivate",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0024.html",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "CloudRobo_ResidualDebug",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0027.html",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis",
+      "08C_CloudRobo_Action_Learning"
+    ]
+  },
+  {
+    "name": "CloudRobo_ResidualCreate",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0030.html",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "HiView_ArchitectureImage",
+    "url": "https://raw.githubusercontent.com/openhisilicon/HIVIEW/395b53d4c28cf5e528c9e1ba3f7ec39ad8e852d4/res/diagram.jpg",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_TensorRT_Objects",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08A_Ascend_Execution_Compilation"
+    ]
+  },
+  {
+    "name": "NVIDIA_CUDA_Memory",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat",
+      "08B_HiSilicon_Media_Memory"
+    ]
+  },
+  {
+    "name": "CloudRobo_BillingPlatform",
+    "url": "https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0006.html",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CloudRobo_BillingCompute",
+    "url": "https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0007.html",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CloudRobo_BillingModels",
+    "url": "https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0018.html",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CloudRobo_SharedResponsibility",
+    "url": "https://support.huaweicloud.com/productdesc-cloudrobo/cloudrobo_01_0003.html",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CAC_CrossBorder_2024",
+    "url": "https://www.cac.gov.cn/2024-03/22/c_1712776611775634.htm",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/Atlas200IA2_official_module--c4b7ecd264c0.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/Atlas200IA2_official_module.png",
+    "sha256": "c4b7ecd264c003d14acd71954bb787bc7a35639c2cba9f3b3caa589400743c8d"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/Atlas200IA2_official_specs--6cabbc5a7d79.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/Atlas200IA2_official_specs.png",
+    "sha256": "6cabbc5a7d796ea737a5ce3c817eed53644f509f4e9e545468b7b7d47264753c"
+  },
+  {
+    "report": "02A_Ascend_CANN_Runtime.md",
+    "figure": "assets/figures/02A_firstapp_white--97ef6be184e2.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02A_firstapp_white.png",
+    "sha256": "97ef6be184e27af830a466a3e19380ec8fc8ab1da5bae2678eb8131c70d63b0d"
+  },
+  {
+    "report": "02B_Framework_Model_Deployment.md",
+    "figure": "assets/figures/02B_torchnpu--f6cebd5a8036.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02B_torchnpu.png",
+    "sha256": "f6cebd5a80364972d1b063f2d109c965778f30ee90e8e1631b0b621fcbc3dd33"
+  },
+  {
+    "report": "02C_HiSilicon_BSP_MPP_NPU.md",
+    "figure": "assets/figures/02C_dv300_stack--3b28f940e0d8.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02C_dv300_stack.png",
+    "sha256": "3b28f940e0d83a096e2bad12b3621e0b1c6aad7875dd9b78216c7f44611ce3c4"
+  },
+  {
+    "report": "02C_HiSilicon_BSP_MPP_NPU.md",
+    "figure": "assets/figures/02C_media_flow--9d4c32292cf2.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02C_media_flow.png",
+    "sha256": "9d4c32292cf28030fb70f4a8299b37b471f0cb2145942b663b1c879c07342d76"
+  },
+  {
+    "report": "02C_HiSilicon_BSP_MPP_NPU.md",
+    "figure": "assets/figures/02C_nnie_flow--96ed082a637e.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02C_nnie_flow.png",
+    "sha256": "96ed082a637ed527df8c1a5ce5d456ec5ec66e2f6855273dcc84abe576e2675c"
+  },
+  {
+    "report": "02D_Robot_Integration_Operations.md",
+    "figure": "assets/figures/content--aa673c4bd6e5.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_F--1cf94bd983a08931/content.png",
+    "sha256": "aa673c4bd6e5d9a17c24a6637e8a6e35c866045c6470e5692564fc91a1086144"
+  },
+  {
+    "report": "02E_CloudRobo_Development_Platform.md",
+    "figure": "assets/figures/04_cloudrobo_architecture--3fad872f7347.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/04_cloudrobo_architecture.png",
+    "sha256": "3fad872f73470405f0a6a619b21b43a0ad90363bf8e113c41b0b4c35f053ff41"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/04_cloudrobo_architecture--3fad872f7347.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/04_cloudrobo_architecture.png",
+    "sha256": "3fad872f73470405f0a6a619b21b43a0ad90363bf8e113c41b0b4c35f053ff41"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/02C_media_flow--9d4c32292cf2.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02C_media_flow.png",
+    "sha256": "9d4c32292cf28030fb70f4a8299b37b471f0cb2145942b663b1c879c07342d76"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/content--aa673c4bd6e5.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_F--1cf94bd983a08931/content.png",
+    "sha256": "aa673c4bd6e5d9a17c24a6637e8a6e35c866045c6470e5692564fc91a1086144"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/04_cloudrobo_architecture--3fad872f7347.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/04_cloudrobo_architecture.png",
+    "sha256": "3fad872f73470405f0a6a619b21b43a0ad90363bf8e113c41b0b4c35f053ff41"
+  },
+  {
+    "report": "05_Simulation_Environment.md",
+    "figure": "assets/figures/d52c4746aa32a851b5e0172a--e80711878e5c.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/_registry/assets/images/d52c4746aa32a851b5e0172a.png",
+    "sha256": "e80711878e5c0d2493f08eb2e34688a4ebb6df4098ecb8472c0be5b8ec79cd92"
+  },
+  {
+    "report": "06_Robot_Integration.md",
+    "figure": "assets/figures/content--aa673c4bd6e5.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_F--1cf94bd983a08931/content.png",
+    "sha256": "aa673c4bd6e5d9a17c24a6637e8a6e35c866045c6470e5692564fc91a1086144"
+  },
+  {
+    "report": "07_Ecosystem.md",
+    "figure": "assets/figures/content--30867500629e.jpg",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/HiView_Architectur--957af65c6dbe24f6/content.jpg",
+    "sha256": "30867500629e009dc216ac7fca2ab6e471ba309b8e846385b0198bcd270223df"
+  },
+  {
+    "report": "08A_Ascend_Execution_Compilation.md",
+    "figure": "assets/figures/02A_firstapp_white--97ef6be184e2.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02A_firstapp_white.png",
+    "sha256": "97ef6be184e27af830a466a3e19380ec8fc8ab1da5bae2678eb8131c70d63b0d"
+  },
+  {
+    "report": "08B_HiSilicon_Media_Memory.md",
+    "figure": "assets/figures/02C_media_flow--9d4c32292cf2.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02C_media_flow.png",
+    "sha256": "9d4c32292cf28030fb70f4a8299b37b471f0cb2145942b663b1c879c07342d76"
+  },
+  {
+    "report": "08B_HiSilicon_Media_Memory.md",
+    "figure": "assets/figures/02C_nnie_flow--96ed082a637e.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02C_nnie_flow.png",
+    "sha256": "96ed082a637ed527df8c1a5ce5d456ec5ec66e2f6855273dcc84abe576e2675c"
+  },
+  {
+    "report": "08C_CloudRobo_Action_Learning.md",
+    "figure": "assets/figures/04_cloudrobo_architecture--3fad872f7347.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/04_cloudrobo_architecture.png",
+    "sha256": "3fad872f73470405f0a6a619b21b43a0ad90363bf8e113c41b0b4c35f053ff41"
+  },
+  {
+    "report": "08_Core_Technology_Moat.md",
+    "figure": "assets/figures/04_cloudrobo_architecture--3fad872f7347.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/04_cloudrobo_architecture.png",
+    "sha256": "3fad872f73470405f0a6a619b21b43a0ad90363bf8e113c41b0b4c35f053ff41"
+  },
+  {
+    "report": "09_SWOT_Analysis.md",
+    "figure": "assets/figures/09_cloudrobo_billing--40fcc55564c6.png",
+    "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/09_cloudrobo_billing.png",
+    "sha256": "40fcc55564c6d9e8fe29531bca0465734d6c2d11a68199aa2bec89645e4e1c5c"
+  }
+]

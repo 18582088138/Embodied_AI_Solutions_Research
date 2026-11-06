@@ -1,0 +1,86 @@
+{
+  "source_ids": [
+    "CloudRobo_ProductPDF",
+    "CloudRobo_RealInference",
+    "CloudRobo_Pretrained",
+    "CloudRobo_VLN",
+    "CloudRobo_ResidualOverview",
+    "CloudRobo_ResidualInstall",
+    "CloudRobo_ResidualActivate",
+    "CloudRobo_ResidualDebug",
+    "CloudRobo_ResidualCreate",
+    "CloudRobo_SimEvaluation",
+    "Ascend_Robot_Arm_README",
+    "Ascend_Robot_Arm_Code",
+    "Ascend_Robot_Arm_Flow",
+    "Ascend_Robot_Chess_README",
+    "Ascend_Robot_Car_README"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_F--1cf94bd983a08931/content.png",
+      "sha256": "aa673c4bd6e5d9a17c24a6637e8a6e35c866045c6470e5692564fc91a1086144",
+      "source_id": "Ascend_Robot_Arm_Flow",
+      "source_url": "https://images.gitee.com/uploads/images/2021/0310/112856_f44ecafd_5537256.png",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_F--1cf94bd983a08931/content.png",
+      "original_sha256": "aa673c4bd6e5d9a17c24a6637e8a6e35c866045c6470e5692564fc91a1086144",
+      "operation": "复用02D/03本轮已实际打开的官方原图"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "SO101实践主控为PC并使用云推理，不证明昇腾端侧板卡搭载",
+      "source_id": "CloudRobo_RealInference",
+      "location": "主控设备/部署在线模型服务",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益",
+      "source_url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0002.html",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Real--dc1a9e483afe4193/original.response",
+      "retrieved_at_utc": "2026-11-04T16:51:56.983744+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "UR5e例frequency=1、jump_step=2，注释20不是当前设置",
+      "source_id": "CloudRobo_ResidualActivate",
+      "location": "config.yaml experiment",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益",
+      "source_url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0024.html",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--5eb9e21677b1e55c/original.response",
+      "retrieved_at_utc": "2026-11-04T17:05:45.727340+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "UR5e失败按N不保存会导致数据选择偏差",
+      "source_id": "CloudRobo_ResidualDebug",
+      "location": "人类干预/轨迹格式",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益",
+      "source_url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0027.html",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--2af60c241cd552d0/original.response",
+      "retrieved_at_utc": "2026-11-04T17:05:48.028639+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "Q25路径sin/cos航向到四元数需半角",
+      "source_id": "CloudRobo_VLN",
+      "location": "Path字段映射",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益",
+      "source_url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0074.html",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_VLN--8a29cdc042132589/original.response",
+      "retrieved_at_utc": "2026-11-04T16:52:51.987369+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    }
+  ],
+  "manual_review": {
+    "coverage": "对应章主题、机制及公开证据缺口详见正文",
+    "versions_and_measurements": "旧200DK/DV300、当前A2/海思产品与CloudRobo云侧严格分开；未运行硬件，未以功能界面代替benchmark",
+    "maturity_and_licenses": "代码、权重、数据、资产、本体SDK、商业云合同分别记录，未取得项不授予许可",
+    "figures_opened": "复用本轮已实际打开的官方CloudRobo完整架构页，或02/03已核验原图；不足以证明性能"
+  }
+}

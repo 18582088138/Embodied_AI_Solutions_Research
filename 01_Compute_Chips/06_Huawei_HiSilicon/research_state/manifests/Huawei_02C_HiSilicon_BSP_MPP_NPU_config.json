@@ -1,0 +1,82 @@
+{
+  "source_ids": [
+    "HiSilicon_DV300_SDK_PDF",
+    "HiSilicon_DV300_Media_PDF",
+    "HiSilicon_DV300_SVP_PDF",
+    "HiSilicon_LiteOS_PDF",
+    "OH_HiSilicon_README",
+    "OH_DV300_README",
+    "OH_HiSilicon_License",
+    "OH_Driver_License",
+    "OH_Media_EULA",
+    "HiView_README",
+    "HiView_3403_VPSS",
+    "HiView_3403_YOLO",
+    "HiSilicon_Hi3403V100",
+    "HiSilicon_Hi3519AV200",
+    "HiSilicon_Hi3516CV610",
+    "HiSilicon_AcademyPDF"
+  ],
+  "versions": {
+    "HiSilicon_DV300_SDK_PDF": "SDK V2.0.2.1；版权2021",
+    "HiSilicon_DV300_Media_PDF": "DV300/HiMPP4.0/SPC021；版权2021",
+    "HiSilicon_DV300_SVP_PDF": "DV300 NNIE/IVE旧教材；版权2021",
+    "HiSilicon_LiteOS_PDF": "未标明确版号/发布日期的旧IoT教材",
+    "OH_Media_EULA": "DV300子目录2021二进制许可"
+  },
+  "figures": [
+    {
+      "source_id": "HiSilicon_DV300_SDK_PDF",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02C_dv300_stack.png",
+      "caption": "DV300 SMP Linux官方软件栈",
+      "operation": "pdftoppm物理第4页110dpi完整渲染；逐图打开"
+    },
+    {
+      "source_id": "HiSilicon_DV300_Media_PDF",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02C_media_flow.png",
+      "caption": "DV300视频采集与编码官方流程",
+      "operation": "pdftoppm物理第7页110dpi完整渲染；逐图打开"
+    },
+    {
+      "source_id": "HiSilicon_DV300_SVP_PDF",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02C_nnie_flow.png",
+      "caption": "DV300 NNIE模型部署官方流程",
+      "operation": "pdftoppm物理第9页110dpi完整渲染；逐图打开"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "NNIE旧流程Caffe量化WK与CPU分段",
+      "source_id": "HiSilicon_DV300_SVP_PDF",
+      "location": "第9—18页",
+      "quote": "NNIE只支持Caffe1.0 / wk / 由用户自己用CPU去实现",
+      "evidence_type": "官方技术教材",
+      "conditions": "DV300版权2021；不是当前NPU",
+      "finding": "不外推新芯片框架与量化误差；分段增加交互"
+    },
+    {
+      "claim": "当前社区3403帧路径需stride和释放",
+      "source_id": "HiView_3403_VPSS",
+      "location": "颜色转换、VGS与release函数",
+      "quote": "hi_mpi_vpss_release_chn_frame / src.stride",
+      "evidence_type": "第三方源码事实",
+      "conditions": "HIVIEW固定提交，未取完整SDK",
+      "finding": "不能称官方认证、零拷贝或全分支正确"
+    },
+    {
+      "claim": "OpenHarmony公开库许可有二进制分发限制",
+      "source_id": "OH_Media_EULA",
+      "location": "Clause1",
+      "quote": "No right ... manufacture ... sell ... distribute any products",
+      "evidence_type": "许可原文",
+      "conditions": "DV300 sdk_linux/out/lib 2021EULA",
+      "finding": "开发与量产授权分离；不外推全部当前商业合同"
+    }
+  ],
+  "manual_review": {
+    "coverage": "BSP、媒体内存流、NNIE分段/量化/cache、多域、当前芯片及交付许可覆盖；新型号完整SDK未取得",
+    "versions_and_measurements": "2021DV300、2026固定提交与具体产品页分开；无实机测量",
+    "maturity_and_licenses": "OpenHarmony官方上游与HIVIEW第三方分开；GPL、顶层及子目录EULA分开；未知许可保留",
+    "figures_opened": "3张完整官方PDF页逐图打开，标题/流程/条件清晰；均明确DV300旧版"
+  }
+}

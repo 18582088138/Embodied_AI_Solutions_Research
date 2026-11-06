@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Ascend_Pytorch_README",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/README.zh.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "TorchNPU_Compatibility",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/COMPATIBILITY.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "TorchNPU_Support",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/SUPPORT.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "TorchNPU_Version",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/version.txt",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "TorchNPU_ArchitectureSVG",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/docs/zh/figures/architecture.svg",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "Ascend_Pytorch_License",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "TorchNPU_Docs_License",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/docs/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "MindSpore_Lite_README",
+    "url": "https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/mindspore/lite/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "MindSpore_Lite_Context",
+    "url": "https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/mindspore/lite/python/api/context.py",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "MindSpore_Lite_Model",
+    "url": "https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/mindspore/lite/python/api/model.py",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "MindSpore_Lite_Converter",
+    "url": "https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/mindspore/lite/python/api/converter.py",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "MindSpore_License",
+    "url": "https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "Ultralytics_Ascend_Doc",
+    "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/docs/en/integrations/ascend.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "Ultralytics_Ascend_Exporter",
+    "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/ultralytics/utils/export/ascend.py",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "Ultralytics_Ascend_Backend",
+    "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/ultralytics/nn/backends/ascend.py",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "Ultralytics_License",
+    "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "VLLM_Ascend_FAQ",
+    "url": "https://raw.githubusercontent.com/vllm-project/vllm-ascend/4a29682d1d8fa89df63a45dc4df2a2a8068984ff/docs/source/faqs.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  },
+  {
+    "name": "VLLM_Ascend_License",
+    "url": "https://raw.githubusercontent.com/vllm-project/vllm-ascend/4a29682d1d8fa89df63a45dc4df2a2a8068984ff/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02B_Framework_Model_Deployment"
+    ]
+  }
+]

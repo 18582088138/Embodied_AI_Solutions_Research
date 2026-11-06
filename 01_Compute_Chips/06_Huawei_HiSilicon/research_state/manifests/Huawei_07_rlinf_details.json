@@ -1,0 +1,5 @@
+[
+ {"name":"RLinf_OpenPI_Guide","url":"https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/pi0.rst","expected":"any"},
+ {"name":"RLinf_StarVLA_Guide","url":"https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/starvla.rst","expected":"any"},
+ {"name":"RLinf_Wan_Guide","url":"https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/wan.rst","expected":"any"}
+]

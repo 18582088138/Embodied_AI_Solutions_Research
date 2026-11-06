@@ -1,0 +1,34 @@
+[
+  {
+    "name": "HiSilicon_MaterialsCenter",
+    "url": "https://www.hisilicon.com/cn/chip-academy/materiallist",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "HiView_RepoAPI",
+    "url": "https://api.github.com/repos/openhisilicon/HIVIEW",
+    "expected": "json",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "OH_HiSilicon_RepoAPI",
+    "url": "https://api.github.com/repos/openharmony/device_soc_hisilicon",
+    "expected": "json",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "LiteOS_RepoAPI",
+    "url": "https://api.github.com/repos/LiteOS/LiteOS",
+    "expected": "json",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  }
+]

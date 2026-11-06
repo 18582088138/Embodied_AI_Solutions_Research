@@ -1,0 +1,122 @@
+[
+  {
+    "name": "CloudRobo_ProductPDF",
+    "url": "https://support.huaweicloud.com/productdesc-cloudrobo/CloudRobo%20%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D-pdf.pdf",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "CloudRobo_RealInference",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0002.html",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "CloudRobo_Pretrained",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0003.html",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "CloudRobo_VLN",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0074.html",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "CloudRobo_ResidualOverview",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0019.html",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "CloudRobo_ResidualInstall",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0022.html",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "CloudRobo_ResidualActivate",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0024.html",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "CloudRobo_ResidualDebug",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0027.html",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "CloudRobo_ResidualCreate",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0030.html",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "CloudRobo_SimEvaluation",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0057.html",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "Ascend_Robot_Arm_README",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robotic_Arm_Object_Following/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "Ascend_Robot_Arm_Code",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robotic_Arm_Object_Following/src/robotic_arm_object_following.py",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "Ascend_Robot_Arm_Flow",
+    "url": "https://images.gitee.com/uploads/images/2021/0310/112856_f44ecafd_5537256.png",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "Ascend_Robot_Chess_README",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robot_Play_Chess/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "Ascend_Robot_Car_README",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/contrib/robots_car/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  }
+]

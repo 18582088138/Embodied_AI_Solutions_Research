@@ -1,0 +1,9 @@
+[
+  {"name":"Huawei_Atlas200IA2_Product","url":"https://www.hiascend.com/hardware/accelerator-module-A2","expected":"html","used_by":["01_Hardware_Platform"]},
+  {"name":"Huawei_Atlas200IA2_Docs2410","url":"https://www.hiascend.com/document/detail/zh/Atlas%20200I%20A2/24.1.0/GrowthMap/index.html","expected":"html","used_by":["01_Hardware_Platform"]},
+  {"name":"Huawei_Atlas200IA2_WhitepaperEntry","url":"https://e.huawei.com/cn/material/enterprise/8bc139ce5b314db6885c3ccda8bac8cf","expected":"html","used_by":["01_Hardware_Platform"]},
+  {"name":"Huawei_Ascend_Processors","url":"https://www.hiascend.com/hardware/processor","expected":"html","used_by":["01_Hardware_Platform"]},
+  {"name":"Huawei_Atlas_Cards","url":"https://www.hiascend.com/hardware/accelerator-card","expected":"html","used_by":["01_Hardware_Platform"]},
+  {"name":"HiSilicon_HiSpark_Vision","url":"https://www.hisilicon.com/en/products/developer-platform/perceptual-computing","expected":"html","used_by":["01_Hardware_Platform"]},
+  {"name":"Huawei_A2_Support_Specs_Candidate","url":"https://support.huawei.com/enterprise/zh/doc/EDOC1100304819/e6e7e6d0","expected":"html","used_by":["01_Hardware_Platform"]}
+]

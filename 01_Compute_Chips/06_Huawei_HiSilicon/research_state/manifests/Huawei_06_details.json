@@ -1,0 +1,7 @@
+[
+ {"name":"Huawei_NationalCenter_Case","url":"https://e.huawei.com/cn/news/2026/industries/manufacturing/national-geographic-center","expected":"html"},
+ {"name":"CloudRobo_ResidualInstall","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0022.html","expected":"html"},
+ {"name":"CloudRobo_ResidualActivate","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0024.html","expected":"html"},
+ {"name":"CloudRobo_ResidualDebug","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0027.html","expected":"html"},
+ {"name":"CloudRobo_ResidualCreate","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0030.html","expected":"html"}
+]

@@ -1,0 +1,9 @@
+[
+{"name":"CloudRobo_RealInference","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0002.html","expected":"html","used_by":["04_AI_Capabilities"]},
+{"name":"CloudRobo_Pretrained","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0003.html","expected":"html","used_by":["04_AI_Capabilities"]},
+{"name":"CloudRobo_CustomModel","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0063.html","expected":"html","used_by":["04_AI_Capabilities"]},
+{"name":"CloudRobo_StarVLA","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0072.html","expected":"html","used_by":["04_AI_Capabilities"]},
+{"name":"CloudRobo_VLN","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0074.html","expected":"html","used_by":["04_AI_Capabilities"]},
+{"name":"CloudRobo_ResidualRL","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0018.html","expected":"html","used_by":["04_AI_Capabilities"]},
+{"name":"CloudRobo_ProductPDF","url":"https://support.huaweicloud.com/productdesc-cloudrobo/CloudRobo%20%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D-pdf.pdf","expected":"pdf","used_by":["04_AI_Capabilities"]}
+]

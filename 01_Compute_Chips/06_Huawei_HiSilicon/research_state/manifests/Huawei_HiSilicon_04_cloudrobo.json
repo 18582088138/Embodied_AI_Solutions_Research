@@ -1,0 +1,5 @@
+[
+{"name":"CloudRobo_Overview","url":"https://support.huaweicloud.com/productdesc-cloudrobo/cloudrobo_01_0001.html","expected":"html","used_by":["04_AI_Capabilities"]},
+{"name":"CloudRobo_Functions","url":"https://support.huaweicloud.com/productdesc-cloudrobo/cloudrobo_01_0002.html","expected":"html","used_by":["04_AI_Capabilities"]},
+{"name":"CloudRobo_BestPractice","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0001.html","expected":"html","used_by":["04_AI_Capabilities"]}
+]

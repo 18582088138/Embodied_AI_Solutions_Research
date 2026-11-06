@@ -1,0 +1,34 @@
+[
+  {
+    "name": "TorchNPU_Version",
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/version.txt",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "OH_HiSilicon_README",
+    "url": "https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/README.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "OH_DV300_README",
+    "url": "https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/hi3516dv300/README_zh.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "OH_Driver_License",
+    "url": "https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/hi3516dv300/sdk_linux/drv/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  }
+]

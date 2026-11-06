@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Ascend_Robot_Arm_README",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robotic_Arm_Object_Following/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Robot_Integration_Operations"
+    ]
+  },
+  {
+    "name": "Ascend_Robot_Arm_Code",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robotic_Arm_Object_Following/src/robotic_arm_object_following.py",
+    "expected": "any",
+    "used_by": [
+      "02D_Robot_Integration_Operations"
+    ]
+  },
+  {
+    "name": "Ascend_Robot_Arm_Flow",
+    "url": "https://images.gitee.com/uploads/images/2021/0310/112856_f44ecafd_5537256.png",
+    "expected": "any",
+    "used_by": [
+      "02D_Robot_Integration_Operations"
+    ]
+  },
+  {
+    "name": "Ascend_Robot_Chess_README",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robot_Play_Chess/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Robot_Integration_Operations"
+    ]
+  },
+  {
+    "name": "Ascend_Robot_Car_README",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/contrib/robots_car/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Robot_Integration_Operations"
+    ]
+  },
+  {
+    "name": "Ascend_Samples_License",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02D_Robot_Integration_Operations"
+    ]
+  },
+  {
+    "name": "ACL_Async_ModelProcess",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_async_imagenet_classification/src/model_process.cpp",
+    "expected": "any",
+    "used_by": [
+      "02D_Robot_Integration_Operations"
+    ]
+  },
+  {
+    "name": "Ultralytics_Ascend_Backend",
+    "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/ultralytics/nn/backends/ascend.py",
+    "expected": "any",
+    "used_by": [
+      "02D_Robot_Integration_Operations"
+    ]
+  },
+  {
+    "name": "VLLM_Ascend_FAQ",
+    "url": "https://raw.githubusercontent.com/vllm-project/vllm-ascend/4a29682d1d8fa89df63a45dc4df2a2a8068984ff/docs/source/faqs.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Robot_Integration_Operations"
+    ]
+  },
+  {
+    "name": "HiSilicon_LiteOS_PDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/5103be8a8500426e8b60325acbfc9359.pdf/download",
+    "expected": "any",
+    "used_by": [
+      "02D_Robot_Integration_Operations"
+    ]
+  },
+  {
+    "name": "OH_Media_EULA",
+    "url": "https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/hi3516dv300/sdk_linux/out/lib/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02D_Robot_Integration_Operations"
+    ]
+  }
+]

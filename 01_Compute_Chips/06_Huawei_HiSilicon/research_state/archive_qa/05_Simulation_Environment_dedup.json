@@ -1,0 +1,28 @@
+{
+  "time_utc": "2026-11-04T17:36:06.679644+00:00",
+  "summary": {
+    "complete_static": 7,
+    "partial_static": 7,
+    "failed": 0
+  },
+  "names": [
+    "CloudRobo_ProductPDF",
+    "CloudRobo_SimOverview",
+    "CloudRobo_SimConfig",
+    "CloudRobo_SimImport",
+    "CloudRobo_SimScene",
+    "CloudRobo_SimTrajectory",
+    "CloudRobo_SimEvaluation",
+    "CloudRobo_BestPractice",
+    "HiSilicon_DV300_SVP_PDF",
+    "O3DE_ROS2_Gem",
+    "RLinf_Ascend_Container",
+    "RLinf_OSMesa_Setup",
+    "RLinf_Wan_Guide",
+    "RLinf_License"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

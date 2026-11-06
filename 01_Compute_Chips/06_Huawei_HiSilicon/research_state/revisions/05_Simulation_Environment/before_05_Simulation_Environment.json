@@ -1,0 +1,80 @@
+{
+  "source_ids": [
+    "CloudRobo_ProductPDF",
+    "CloudRobo_SimOverview",
+    "CloudRobo_SimConfig",
+    "CloudRobo_SimImport",
+    "CloudRobo_SimScene",
+    "CloudRobo_SimTrajectory",
+    "CloudRobo_SimEvaluation",
+    "CloudRobo_BestPractice",
+    "HiSilicon_DV300_SVP_PDF"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/_registry/assets/images/d52c4746aa32a851b5e0172a.png",
+      "sha256": "e80711878e5c0d2493f08eb2e34688a4ebb6df4098ecb8472c0be5b8ec79cd92",
+      "source_id": "CloudRobo_SimOverview",
+      "source_url": "https://support.huaweicloud.com/bestpractice-cloudrobo/figure/zh-cn_image_0000002745181434.png",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimO--c41c4d38b76d89b5/assets/images/d52c4746aa32a851b5e0172a.png",
+      "original_sha256": "e80711878e5c0d2493f08eb2e34688a4ebb6df4098ecb8472c0be5b8ec79cd92",
+      "operation": "官方HTML关联PNG原图，已打开检查全部九步完整"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "仅固定底盘操作台pnp、自定义本体专属池",
+      "source_id": "CloudRobo_SimOverview",
+      "location": "方案概述/前提条件",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益",
+      "source_url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0056.html",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimO--c41c4d38b76d89b5/original.response",
+      "retrieved_at_utc": "2026-11-04T16:59:45.094397+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "ROS2 Camera示例640×480、10Hz",
+      "source_id": "CloudRobo_SimTrajectory",
+      "location": "添加腕部相机/外部相机",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益",
+      "source_url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0055.html",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimT--5b5e7f2ba9864e13/original.response",
+      "retrieved_at_utc": "2026-11-04T17:00:39.643474+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "夹爪1250缩放需与训练一致",
+      "source_id": "CloudRobo_SimEvaluation",
+      "location": "MyGripperFingersToStrokeTransformer",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益",
+      "source_url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0057.html",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimE--ed5202e058aafdf3/original.response",
+      "retrieved_at_utc": "2026-11-04T17:01:04.460075+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "MoveIt关节加速度5.0为默认需按本体调整",
+      "source_id": "CloudRobo_SimScene",
+      "location": "moveit包后处理",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益",
+      "source_url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0054.html",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimS--86a564346774003e/original.response",
+      "retrieved_at_utc": "2026-11-04T16:59:58.817931+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    }
+  ],
+  "manual_review": {
+    "coverage": "对应章主题、机制及公开证据缺口详见正文",
+    "versions_and_measurements": "旧200DK/DV300、当前A2/海思产品与CloudRobo云侧严格分开；未运行硬件，未以功能界面代替benchmark",
+    "maturity_and_licenses": "代码、权重、数据、资产、本体SDK、商业云合同分别记录，未取得项不授予许可",
+    "figures_opened": "复用本轮已实际打开的官方CloudRobo完整架构页，或02/03已核验原图；不足以证明性能"
+  }
+}

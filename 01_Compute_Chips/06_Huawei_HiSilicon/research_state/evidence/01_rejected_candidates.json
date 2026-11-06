@@ -1,0 +1,201 @@
+{
+  "reviewed_at_utc": "2026-11-04T16:15:41.761595+00:00",
+  "policy": "不修改registry原始状态；人工语义验收独立；仅accepted_source_ids进入有效清单",
+  "candidates": [
+    {
+      "source_id": "Huawei_Atlas200IA2_Docs2410",
+      "url": "https://www.hiascend.com/document/detail/zh/Atlas%20200I%20A2/24.1.0/GrowthMap/index.html",
+      "archive_status": "complete_static",
+      "status": 200,
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas20--fa2abd8434818329/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas20--fa2abd8434818329/original.response",
+      "error": null,
+      "robots": {
+        "https://www.hiascend.com": "retrieved"
+      },
+      "accepted_for_chapter": false,
+      "reason": "实际为HuaweiCloudWAF JavaScript/Cookie挑战页，HTTP200及complete_static不代表文档正文"
+    },
+    {
+      "source_id": "Huawei_A2_Thermal241RC1",
+      "url": "https://www.hiascend.com/document/detail/zh/Atlas%20200I%20A2/24.1.RC1/Har/3d/atlas3d_11_0003.html",
+      "archive_status": "complete_static",
+      "status": 200,
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_A2_Ther--30a39f98804601a0/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_A2_Ther--30a39f98804601a0/original.response",
+      "error": null,
+      "robots": {
+        "https://www.hiascend.com": "retrieved"
+      },
+      "accepted_for_chapter": false,
+      "reason": "实际WAF挑战页；浏览器线索未纳入有效热规范，不据其补写105℃或关断阈值"
+    },
+    {
+      "source_id": "Huawei_DKA2_Hardware230RC2",
+      "url": "https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/Hardware%20Interfaces/hiug/hiug_0001.html",
+      "archive_status": "complete_static",
+      "status": 200,
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_DKA2_Ha--259bc91fa7bdb5fc/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_DKA2_Ha--259bc91fa7bdb5fc/original.response",
+      "error": null,
+      "robots": {
+        "https://www.hiascend.com": "retrieved"
+      },
+      "accepted_for_chapter": false,
+      "reason": "实际WAF挑战页，未取得DK硬件接口原件"
+    },
+    {
+      "source_id": "Huawei_Atlas200IA2_WhitepaperEntry",
+      "url": "https://e.huawei.com/cn/material/enterprise/8bc139ce5b314db6885c3ccda8bac8cf",
+      "archive_status": "failed",
+      "status": null,
+      "file": null,
+      "original_file": null,
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "robots": {
+        "https://www.hiascend.com": "retrieved",
+        "https://e.huawei.com": "unavailable HTTP403; fail closed"
+      },
+      "accepted_for_chapter": false,
+      "reason": "robots检查阻止；浏览器可读不代替统一归档原件"
+    },
+    {
+      "source_id": "Huawei_Atlas200IA2_Whitepaper06",
+      "url": "https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/8bc139ce5b314db6885c3ccda8bac8cf/M3T1A669N1111946835344482450/Atlas%20200I%20A2%20%E5%8A%A0%E9%80%9F%E6%A8%A1%E5%9D%97%20%E6%8A%80%E6%9C%AF%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf",
+      "archive_status": "failed",
+      "status": null,
+      "file": null,
+      "original_file": null,
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "robots": {
+        "https://e-file.huawei.com": "unavailable HTTP403; fail closed"
+      },
+      "accepted_for_chapter": false,
+      "reason": "PDF原件robots不可核验，fail closed；未绕过"
+    },
+    {
+      "source_id": "Huawei_A2_Support_Specs_Candidate",
+      "url": "https://support.huawei.com/enterprise/zh/doc/EDOC1100304819/e6e7e6d0",
+      "archive_status": "failed",
+      "status": null,
+      "file": null,
+      "original_file": null,
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "robots": {
+        "https://www.hiascend.com": "retrieved",
+        "https://e.huawei.com": "unavailable HTTP403; fail closed",
+        "https://www.hisilicon.com": "retrieved",
+        "https://www.googletagmanager.com": "absent HTTP404",
+        "https://corp.hwp.huawei.com": "absent HTTP404",
+        "https://at.alicdn.com": "absent HTTP404",
+        "https://support.huawei.com": "unavailable HTTP403; fail closed"
+      },
+      "accepted_for_chapter": false,
+      "reason": "robots/访问限制导致原件未取得"
+    },
+    {
+      "source_id": "Huawei_Atlas300IDuo_Product",
+      "url": "https://www.hiascend.com/hardware/accelerator-card?tag=300I-duo",
+      "archive_status": "complete_static",
+      "status": 200,
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas30--a77b6fdaf1f42ecc/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas30--a77b6fdaf1f42ecc/original.response",
+      "error": null,
+      "robots": {
+        "https://www.hiascend.com": "retrieved"
+      },
+      "accepted_for_chapter": false,
+      "reason": "SSR正文实际Atlas350，query不形成目标型号有效证据"
+    },
+    {
+      "source_id": "Huawei_Atlas300IPro_Product",
+      "url": "https://www.hiascend.com/hardware/accelerator-card?tag=300I-Pro",
+      "archive_status": "complete_static",
+      "status": 200,
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas30--a6608511e8ae71b0/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas30--a6608511e8ae71b0/original.response",
+      "error": null,
+      "robots": {
+        "https://www.hiascend.com": "retrieved"
+      },
+      "accepted_for_chapter": false,
+      "reason": "SSR正文实际Atlas350，query不形成目标型号有效证据"
+    },
+    {
+      "source_id": "Huawei_Atlas500Pro_Product",
+      "url": "https://www.hiascend.com/hardware/ai-server?tag=500pro",
+      "archive_status": "complete_static",
+      "status": 200,
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas50--63a1b4a74c0e0b34/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas50--63a1b4a74c0e0b34/original.response",
+      "error": null,
+      "robots": {
+        "https://www.hiascend.com": "retrieved"
+      },
+      "accepted_for_chapter": false,
+      "reason": "SSR正文实际其他Atlas服务器，未匹配500Pro"
+    },
+    {
+      "source_id": "Huawei_ProductBulletins",
+      "url": "https://www.hiascend.com/productbulletins",
+      "archive_status": "complete_static",
+      "status": 200,
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Product--4945776c743cd6ec/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Product--4945776c743cd6ec/original.response",
+      "error": null,
+      "robots": {
+        "https://www.hiascend.com": "retrieved"
+      },
+      "accepted_for_chapter": false,
+      "reason": "导航入口未提供具体目标SKU生命周期公告正文"
+    },
+    {
+      "source_id": "HiSilicon_HiSpark_Vision",
+      "url": "https://www.hisilicon.com/en/products/developer-platform/perceptual-computing",
+      "archive_status": "partial_static",
+      "status": 200,
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_HiSp--3d32c10af716a660/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_HiSp--3d32c10af716a660/original.response",
+      "error": null,
+      "robots": {
+        "https://www.hiascend.com": "retrieved",
+        "https://e.huawei.com": "unavailable HTTP403; fail closed",
+        "https://www.hisilicon.com": "retrieved",
+        "https://www.googletagmanager.com": "absent HTTP404",
+        "https://corp.hwp.huawei.com": "absent HTTP404",
+        "https://at.alicdn.com": "absent HTTP404"
+      },
+      "accepted_for_chapter": false,
+      "reason": "旧入口动态/空壳内容未提供有效目标硬件正文，不据此判定退役"
+    },
+    {
+      "source_id": "HiSilicon_DevCenter",
+      "url": "https://developers.hisilicon.com/devCenter/index",
+      "archive_status": "partial_static",
+      "status": 200,
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_DevC--e02008a072daa600/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_DevC--e02008a072daa600/original.response",
+      "error": null,
+      "robots": {
+        "https://www.hisilicon.com": "retrieved",
+        "https://developers.hisilicon.com": "retrieved"
+      },
+      "accepted_for_chapter": false,
+      "reason": "开发中心壳页/导航不能支持目标SKU参数、完整BSP及许可"
+    },
+    {
+      "source_id": "Huawei_Ascend950_ArchitecturePDF",
+      "url": "https://public-download.obs.cn-east-2.myhuaweicloud.com/ascend/%E6%98%87%E8%85%BE950%20NPU%E6%9E%B6%E6%9E%84%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf",
+      "archive_status": "failed",
+      "status": null,
+      "file": null,
+      "original_file": null,
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked",
+      "robots": {
+        "https://public-download.obs.cn-east-2.myhuaweicloud.com": "unavailable HTTP403; fail closed"
+      },
+      "accepted_for_chapter": false,
+      "reason": "robots检查HTTP403 fail closed，未取得架构白皮书原件"
+    }
+  ]
+}

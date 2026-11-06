@@ -1,0 +1,28 @@
+{
+  "time_utc": "2026-11-04T17:37:30.431742+00:00",
+  "summary": {
+    "complete_static": 7,
+    "partial_static": 7,
+    "failed": 0
+  },
+  "names": [
+    "CloudRobo_ProductPDF",
+    "CloudRobo_R2C_Protocol",
+    "CloudRobo_MetaEngineAdapter",
+    "CloudRobo_SimEvaluation",
+    "CloudRobo_Pretrained",
+    "CloudRobo_VLN",
+    "CloudRobo_ResidualOverview",
+    "CloudRobo_ResidualDebug",
+    "RLinf_OpenPI_Guide",
+    "RLinf_StarVLA_Guide",
+    "RLinf_Wan_Guide",
+    "RLinf_Ascend_Container",
+    "RLinf_OSMesa_Setup",
+    "RLinf_License"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

@@ -1,0 +1,51 @@
+{
+  "source_ids": [
+    "HiSilicon_DV300_SDK_PDF",
+    "HiSilicon_DV300_Media_PDF",
+    "HiSilicon_DV300_SVP_PDF",
+    "HiSilicon_Hi3403V100",
+    "HiSilicon_Hi3519AV200",
+    "HiSilicon_Hi3519DV500",
+    "HiSilicon_Hi3516CV610",
+    "HiView_3403_VPSS",
+    "HiView_3403_YOLO",
+    "OH_Media_EULA",
+    "NVIDIA_CUDA_Memory"
+  ],
+  "figures": [
+    {
+      "source_id": "HiSilicon_DV300_Media_PDF",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02C_media_flow.png",
+      "caption": "DV300官方媒体输入—处理—输出分支",
+      "operation": "复用02C已打开的PDF物理第7页110dpi完整渲染"
+    },
+    {
+      "source_id": "HiSilicon_DV300_SVP_PDF",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02C_nnie_flow.png",
+      "caption": "DV300 NNIE模型转换与执行官方流程",
+      "operation": "复用02C已打开的PDF物理第9页完整渲染"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "媒体buffer生命周期与stride/MMZ一致性需要显式处理",
+      "source_id": "HiView_3403_VPSS",
+      "location": "hi_mpi_vpss frame / MMZ / release调用"
+    },
+    {
+      "claim": "旧NNIE自定义层CPU分段不能外推新NPU",
+      "source_id": "HiSilicon_DV300_SVP_PDF",
+      "location": "模型转换/自定义层/缓存与执行说明"
+    },
+    {
+      "claim": "8.1TOPS中开放2.5、HNR5.6保留",
+      "source_id": "HiSilicon_Hi3519AV200",
+      "location": "智能视频分析"
+    },
+    {
+      "claim": "CUDA统一地址/managed/mapped内存能力分开",
+      "source_id": "NVIDIA_CUDA_Memory",
+      "location": "Unified Virtual Address Space / Comparing Unified Memory and Mapped Memory"
+    }
+  ]
+}

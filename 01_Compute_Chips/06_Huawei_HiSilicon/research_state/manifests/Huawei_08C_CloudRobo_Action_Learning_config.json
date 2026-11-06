@@ -1,0 +1,77 @@
+{
+  "source_ids": [
+    "CloudRobo_ProductPDF",
+    "CloudRobo_R2C_Protocol",
+    "CloudRobo_MetaEngineAdapter",
+    "CloudRobo_SimEvaluation",
+    "CloudRobo_Pretrained",
+    "CloudRobo_VLN",
+    "CloudRobo_ResidualOverview",
+    "CloudRobo_ResidualDebug",
+    "RLinf_OpenPI_Guide",
+    "RLinf_StarVLA_Guide",
+    "RLinf_Wan_Guide",
+    "RLinf_Ascend_Container",
+    "RLinf_OSMesa_Setup",
+    "RLinf_License"
+  ],
+  "claims": [
+    {
+      "claim": "max_run_time单位分钟、与max_iter_num为或关系",
+      "source_id": "CloudRobo_R2C_Protocol",
+      "location": "表11/停止逻辑",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益"
+    },
+    {
+      "claim": "OBS配置在部署时获取，重启已部署服务不会更新",
+      "source_id": "CloudRobo_R2C_Protocol",
+      "location": "方法三",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益"
+    },
+    {
+      "claim": "MetaEngine数据通过ROS2/Zenoh双向映射",
+      "source_id": "CloudRobo_MetaEngineAdapter",
+      "location": "端到端数据流/runtime配置",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益"
+    },
+    {
+      "claim": "RLinf网络horizon与env执行chunk分开",
+      "source_id": "RLinf_OpenPI_Guide",
+      "location": "Model Key Parameter Configuration",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益"
+    },
+    {
+      "claim": "Wan基准不能标为Ascend实测，Ascend默认关闭仿真评估",
+      "source_id": "RLinf_Wan_Guide",
+      "location": "Visualization and Results/Huawei Ascend CANN",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益"
+    }
+  ],
+  "versions": {
+    "CloudRobo_ProductPDF": "文档01，2026-11-02；完整20页PDF"
+  },
+  "figures": [
+    {
+      "source_id": "CloudRobo_ProductPDF",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/04_cloudrobo_architecture.png",
+      "caption": "CloudRobo官方产品架构（PDF物理第5页）",
+      "operation": "2026-11-02 PDF物理第5页110dpi完整渲染；已逐图打开检查，文字完整"
+    }
+  ],
+  "manual_review": {
+    "coverage": "对应章主题、机制及公开证据缺口详见正文",
+    "versions_and_measurements": "旧200DK/DV300、当前A2/海思产品与CloudRobo云侧严格分开；未运行硬件，未以功能界面代替benchmark",
+    "maturity_and_licenses": "代码、权重、数据、资产、本体SDK、商业云合同分别记录，未取得项不授予许可",
+    "figures_opened": "复用本轮已实际打开的官方CloudRobo完整架构页，或02/03已核验原图；不足以证明性能"
+  }
+}

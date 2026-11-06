@@ -1,0 +1,18 @@
+[
+  {
+    "name": "HiView_TreeAPI",
+    "url": "https://api.github.com/repos/openhisilicon/HIVIEW/git/trees/master?recursive=1",
+    "expected": "json",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "OH_HiSilicon_TreeAPI",
+    "url": "https://api.github.com/repos/openharmony/device_soc_hisilicon/git/trees/master?recursive=1",
+    "expected": "json",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  }
+]

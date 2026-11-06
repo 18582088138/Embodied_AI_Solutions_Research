@@ -1,0 +1,25 @@
+{
+  "time_utc": "2026-11-04T16:43:05.167345+00:00",
+  "summary": {
+    "complete_static": 11,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "Ascend_Robot_Arm_README",
+    "Ascend_Robot_Arm_Code",
+    "Ascend_Robot_Arm_Flow",
+    "Ascend_Robot_Chess_README",
+    "Ascend_Robot_Car_README",
+    "Ascend_Samples_License",
+    "ACL_Async_ModelProcess",
+    "Ultralytics_Ascend_Backend",
+    "VLLM_Ascend_FAQ",
+    "HiSilicon_LiteOS_PDF",
+    "OH_Media_EULA"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

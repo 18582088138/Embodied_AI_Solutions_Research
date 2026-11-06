@@ -1,0 +1,42 @@
+[
+  {
+    "name": "HiSilicon_Taurus_PDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/fc2eadf9366b49058f5c8a91edcf1b13.pdf/download",
+    "expected": "pdf",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "HiSilicon_LiteOS_PDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/5103be8a8500426e8b60325acbfc9359.pdf/download",
+    "expected": "pdf",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "HiSilicon_DV300_SDK_PDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/7c925d6a091b49b5b1d1b0dc28d6dc4b.pdf/download",
+    "expected": "pdf",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "HiSilicon_DV300_Media_PDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/2a1c6e800feb43f4a8a31f8bcdcdc84a.pdf/download",
+    "expected": "pdf",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "HiSilicon_DV300_SVP_PDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/4ef2e012655a4aae8c80619b8cfd093f.pdf/download",
+    "expected": "pdf",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  }
+]

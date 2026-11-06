@@ -1,0 +1,114 @@
+[
+  {
+    "name": "HiSilicon_Hi3519DV500",
+    "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519dv500",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "HiSilicon_Hi3516DV500",
+    "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516dv500",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "HiSilicon_Hi3403V100",
+    "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3403v100",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "HiSilicon_Hi3519AV200",
+    "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519av200",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "Huawei_Atlas200IA2_Product",
+    "url": "https://www.hiascend.com/hardware/accelerator-module-A2",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "HiSilicon_DV300_Media_PDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/2a1c6e800feb43f4a8a31f8bcdcdc84a.pdf/download",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "HiSilicon_DV300_SVP_PDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/4ef2e012655a4aae8c80619b8cfd093f.pdf/download",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "HiView_3403_VPSS",
+    "url": "https://raw.githubusercontent.com/openhisilicon/HIVIEW/395b53d4c28cf5e528c9e1ba3f7ec39ad8e852d4/mod/svp/3403/vpss_capture.cpp",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "ACL_ModelProcess",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_imagenet_classification/src/model_process.cpp",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "ACL_Async_ModelProcess",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_async_imagenet_classification/src/model_process.cpp",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "Ultralytics_Ascend_Backend",
+    "url": "https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/ultralytics/nn/backends/ascend.py",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "Ascend_Robot_Arm_README",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robotic_Arm_Object_Following/README_CN.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "Ascend_Robot_Arm_Code",
+    "url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robotic_Arm_Object_Following/src/robotic_arm_object_following.py",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "Ascend_Robot_Arm_Flow",
+    "url": "https://images.gitee.com/uploads/images/2021/0310/112856_f44ecafd_5537256.png",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  }
+]

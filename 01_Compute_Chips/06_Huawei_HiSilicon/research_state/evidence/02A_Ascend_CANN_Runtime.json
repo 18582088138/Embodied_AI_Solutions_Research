@@ -1,0 +1,71 @@
+{
+  "source_ids": [
+    "ACL_ResNet_README",
+    "ACL_ModelProcess",
+    "ACL_SampleProcess",
+    "ACL_Async_ModelProcess",
+    "ACL_Dynamic_README",
+    "ACL_FirstApp_Figure",
+    "Ascend_Samples_License",
+    "Ultralytics_Ascend_Exporter",
+    "Ultralytics_Ascend_Backend"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02A_firstapp_white.png",
+      "sha256": "97ef6be184e27af830a466a3e19380ec8fc8ab1da5bae2678eb8131c70d63b0d",
+      "source_id": "ACL_FirstApp_Figure",
+      "source_url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_firstapp/README_fig.png",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_FirstApp_Figur--f1da2d06245dd3cc/content.png",
+      "original_sha256": "b719ed3798212eba2a961e7903b5196b9119db5fb3189283a575082555a00ff0",
+      "operation": "PIL alpha composite 铺白底，保持原尺寸；原图及衍生图均打开核验"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "模型工作区、权重区、dataset 与真实 buffer 分开管理",
+      "source_id": "ACL_ModelProcess",
+      "location": "LoadModel/CreateInput/DestroyInput/CreateOutput/DestroyOutput",
+      "quote": "aclmdlLoadFromFileWithMem / aclmdlExecute",
+      "evidence_type": "源码事实",
+      "conditions": "固定提交的单输入同步分类示例",
+      "finding": "输入内存由外层释放，输出内存由模型对象释放；不能外推所有封装",
+      "source_url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_imagenet_classification/src/model_process.cpp",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_ModelProcess--4773c545724ea61b/original.response",
+      "retrieved_at_utc": "2026-11-04T16:26:46.107974+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "异步任务必须保持 buffer 生命周期",
+      "source_id": "ACL_Async_ModelProcess",
+      "location": "ExecuteAsync/CallBackFunc/SynchronizeStream",
+      "quote": "aclmdlExecuteAsync / aclrtLaunchCallback / aclrtSynchronizeStream",
+      "evidence_type": "源码事实与分析",
+      "conditions": "旧 samples 异步用例",
+      "finding": "提交与消费分离；无实机性能或实时保证",
+      "source_url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_async_imagenet_classification/src/model_process.cpp",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_Async_ModelPro--9aab3388a79f9a2b/original.response",
+      "retrieved_at_utc": "2026-11-04T16:26:49.315372+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "YOLO 导出函数为静态 NCHW FP16 ATC 路线",
+      "source_id": "Ultralytics_Ascend_Exporter",
+      "location": "onnx2ascend cmd",
+      "quote": "--framework=5 --precision_mode=force_fp16",
+      "evidence_type": "源码事实",
+      "conditions": "固定提交，不代表通用 CANN 全能力",
+      "finding": "SoC 用户指定，无此函数 INT8 标定证据",
+      "source_url": "https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/ultralytics/utils/export/ascend.py",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ultralytics_Ascend--0826b6cee47ed307/original.response",
+      "retrieved_at_utc": "2026-11-04T16:26:59.797042+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    }
+  ],
+  "manual_review": {
+    "coverage": "编译、链接、模型生命周期、I/O、异步内存池、动态档位及性能验收已展开；当前发行包未取得",
+    "versions_and_measurements": "310旧示例与310B目标分离；没有模型或硬件运行",
+    "maturity_and_licenses": "samples Apache2；README非商业说明保留；CANN二进制与权重许可未核验；Ultralytics实现许可由02B补深",
+    "figures_opened": "原图及白底衍生图均逐图打开，文字和箭头可读；图非内部芯片架构或性能图"
+  }
+}

@@ -1,0 +1,10 @@
+[
+ {"name":"CloudRobo_SimOverview","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0056.html","expected":"html"},
+ {"name":"CloudRobo_SimConfig","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0052.html","expected":"html"},
+ {"name":"CloudRobo_SimImport","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0053.html","expected":"html"},
+ {"name":"CloudRobo_SimScene","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0054.html","expected":"html"},
+ {"name":"CloudRobo_SimTrajectory","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0055.html","expected":"html"},
+ {"name":"CloudRobo_SimEvaluation","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0057.html","expected":"html"},
+ {"name":"CloudRobo_SimAssets","url":"https://support.huaweicloud.com/usermanual-cloudrobo/cloudrobo_02_0053.html","expected":"html"},
+ {"name":"CloudRobo_DataProduction","url":"https://support.huaweicloud.com/usermanual-cloudrobo/cloudrobo_02_0059.html","expected":"html"}
+]

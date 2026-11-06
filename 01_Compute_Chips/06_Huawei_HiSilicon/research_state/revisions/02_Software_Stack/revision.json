@@ -1,0 +1,7 @@
+{
+  "reason": "02E cloud development evidence added; union61; existing reviewed01 preserved",
+  "after_sha256": "63835ae0033fcde749e941535b4494d22557a6093329f096cae53f16f6d6c2d9",
+  "at_utc": "2026-11-04T17:34:33.735423+00:00",
+  "baseline": "01_Compute_Chips/06_Huawei_HiSilicon/research_state/revisions/02_Software_Stack/before.json",
+  "outcome": "pass"
+}

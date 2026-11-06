@@ -1,0 +1,130 @@
+[
+  {
+    "name": "HiSilicon_DV300_SDK_PDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/7c925d6a091b49b5b1d1b0dc28d6dc4b.pdf/download",
+    "expected": "any",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "HiSilicon_DV300_Media_PDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/2a1c6e800feb43f4a8a31f8bcdcdc84a.pdf/download",
+    "expected": "any",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "HiSilicon_DV300_SVP_PDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/4ef2e012655a4aae8c80619b8cfd093f.pdf/download",
+    "expected": "any",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "HiSilicon_LiteOS_PDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/5103be8a8500426e8b60325acbfc9359.pdf/download",
+    "expected": "any",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "OH_HiSilicon_README",
+    "url": "https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/README.md",
+    "expected": "any",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "OH_DV300_README",
+    "url": "https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/hi3516dv300/README_zh.md",
+    "expected": "any",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "OH_HiSilicon_License",
+    "url": "https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "OH_Driver_License",
+    "url": "https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/hi3516dv300/sdk_linux/drv/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "OH_Media_EULA",
+    "url": "https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/hi3516dv300/sdk_linux/out/lib/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "HiView_README",
+    "url": "https://raw.githubusercontent.com/openhisilicon/HIVIEW/395b53d4c28cf5e528c9e1ba3f7ec39ad8e852d4/README.md",
+    "expected": "any",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "HiView_3403_VPSS",
+    "url": "https://raw.githubusercontent.com/openhisilicon/HIVIEW/395b53d4c28cf5e528c9e1ba3f7ec39ad8e852d4/mod/svp/3403/vpss_capture.cpp",
+    "expected": "any",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "HiView_3403_YOLO",
+    "url": "https://raw.githubusercontent.com/openhisilicon/HIVIEW/395b53d4c28cf5e528c9e1ba3f7ec39ad8e852d4/mod/svp/3403/yolov8.cpp",
+    "expected": "any",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "HiSilicon_Hi3403V100",
+    "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3403v100",
+    "expected": "any",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "HiSilicon_Hi3519AV200",
+    "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519av200",
+    "expected": "any",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "HiSilicon_Hi3516CV610",
+    "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516cv610",
+    "expected": "any",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  },
+  {
+    "name": "HiSilicon_AcademyPDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/d8442760823b4f5e9fabb6c5bd684846.pdf",
+    "expected": "any",
+    "used_by": [
+      "02C_HiSilicon_BSP_MPP_NPU"
+    ]
+  }
+]

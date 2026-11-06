@@ -1,0 +1,66 @@
+{
+  "source_ids": [
+    "CloudRobo_ProductPDF",
+    "CloudRobo_SimOverview",
+    "CloudRobo_SimConfig",
+    "CloudRobo_SimImport",
+    "CloudRobo_SimScene",
+    "CloudRobo_SimTrajectory",
+    "CloudRobo_SimEvaluation",
+    "CloudRobo_BestPractice",
+    "HiSilicon_DV300_SVP_PDF"
+  ],
+  "figures": [
+    {
+      "source_id": "CloudRobo_SimOverview",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/_registry/assets/images/d52c4746aa32a851b5e0172a.png",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimO--c41c4d38b76d89b5/assets/images/d52c4746aa32a851b5e0172a.png",
+      "source_url": "https://support.huaweicloud.com/bestpractice-cloudrobo/figure/zh-cn_image_0000002745181434.png",
+      "caption": "官方自定义机器人仿真开发流程",
+      "operation": "官方HTML关联PNG原图，已打开检查全部九步完整"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "仅固定底盘操作台pnp、自定义本体专属池",
+      "source_id": "CloudRobo_SimOverview",
+      "location": "方案概述/前提条件",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益"
+    },
+    {
+      "claim": "ROS2 Camera示例640×480、10Hz",
+      "source_id": "CloudRobo_SimTrajectory",
+      "location": "添加腕部相机/外部相机",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益"
+    },
+    {
+      "claim": "夹爪1250缩放需与训练一致",
+      "source_id": "CloudRobo_SimEvaluation",
+      "location": "MyGripperFingersToStrokeTransformer",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益"
+    },
+    {
+      "claim": "MoveIt关节加速度5.0为默认需按本体调整",
+      "source_id": "CloudRobo_SimScene",
+      "location": "moveit包后处理",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益"
+    }
+  ],
+  "versions": {
+    "CloudRobo_ProductPDF": "文档01，2026-11-02；完整20页PDF"
+  },
+  "manual_review": {
+    "coverage": "对应章主题、机制及公开证据缺口详见正文",
+    "versions_and_measurements": "旧200DK/DV300、当前A2/海思产品与CloudRobo云侧严格分开；未运行硬件，未以功能界面代替benchmark",
+    "maturity_and_licenses": "代码、权重、数据、资产、本体SDK、商业云合同分别记录，未取得项不授予许可",
+    "figures_opened": "复用本轮已实际打开的官方CloudRobo完整架构页，或02/03已核验原图；不足以证明性能"
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {"name":"CloudRobo_BillingOverview","url":"https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0001.html","expected":"html"},
+  {"name":"CloudRobo_BillingPDF","url":"https://support.huaweicloud.com/price-cloudrobo/CloudRobo%20%E8%AE%A1%E8%B4%B9%E8%AF%B4%E6%98%8E-pdf.pdf","expected":"pdf"},
+  {"name":"CloudRobo_BillingPlatform","url":"https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0006.html","expected":"html"},
+  {"name":"CloudRobo_BillingCompute","url":"https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0007.html","expected":"html"},
+  {"name":"CloudRobo_BillingModels","url":"https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0018.html","expected":"html"},
+  {"name":"CloudRobo_BillingManagement","url":"https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0017.html","expected":"html"},
+  {"name":"CloudRobo_AccessControl","url":"https://support.huaweicloud.com/productdesc-cloudrobo/cloudrobo_01_0006.html","expected":"html"},
+  {"name":"CloudRobo_SharedResponsibility","url":"https://support.huaweicloud.com/productdesc-cloudrobo/cloudrobo_01_0003.html","expected":"html"}
+]

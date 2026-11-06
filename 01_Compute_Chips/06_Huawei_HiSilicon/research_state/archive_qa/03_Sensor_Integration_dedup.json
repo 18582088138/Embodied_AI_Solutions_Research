@@ -1,0 +1,28 @@
+{
+  "time_utc": "2026-11-04T16:49:08.775540+00:00",
+  "summary": {
+    "complete_static": 14,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "HiSilicon_Hi3519DV500",
+    "HiSilicon_Hi3516DV500",
+    "HiSilicon_Hi3403V100",
+    "HiSilicon_Hi3519AV200",
+    "Huawei_Atlas200IA2_Product",
+    "HiSilicon_DV300_Media_PDF",
+    "HiSilicon_DV300_SVP_PDF",
+    "HiView_3403_VPSS",
+    "ACL_ModelProcess",
+    "ACL_Async_ModelProcess",
+    "Ultralytics_Ascend_Backend",
+    "Ascend_Robot_Arm_README",
+    "Ascend_Robot_Arm_Code",
+    "Ascend_Robot_Arm_Flow"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

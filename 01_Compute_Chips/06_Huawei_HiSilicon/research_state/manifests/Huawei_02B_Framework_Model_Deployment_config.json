@@ -1,0 +1,74 @@
+{
+  "source_ids": [
+    "Ascend_Pytorch_README",
+    "TorchNPU_Compatibility",
+    "TorchNPU_Support",
+    "TorchNPU_Version",
+    "TorchNPU_ArchitectureSVG",
+    "Ascend_Pytorch_License",
+    "TorchNPU_Docs_License",
+    "MindSpore_Lite_README",
+    "MindSpore_Lite_Context",
+    "MindSpore_Lite_Model",
+    "MindSpore_Lite_Converter",
+    "MindSpore_License",
+    "Ultralytics_Ascend_Doc",
+    "Ultralytics_Ascend_Exporter",
+    "Ultralytics_Ascend_Backend",
+    "Ultralytics_License",
+    "VLLM_Ascend_FAQ",
+    "VLLM_Ascend_License"
+  ],
+  "figures": [
+    {
+      "source_id": "TorchNPU_ArchitectureSVG",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02B_torchnpu.png",
+      "caption": "TorchNPU 官方软件分层架构",
+      "operation": "sharp/libvips density144 SVG转PNG，白底，1800×952；检查中文完整，无foreignObject"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "TorchNPU构建版本、包版本与维护状态分开",
+      "source_id": "TorchNPU_Version",
+      "location": "version.txt",
+      "quote": "2.16.0 / 2.15.0 / 2.14.0 / 2.13.0",
+      "evidence_type": "源码事实",
+      "conditions": "本提交master构建列表",
+      "finding": "不能把源树可构建与已发布混同；SUPPORT含未来计划"
+    },
+    {
+      "claim": "vLLM不支持Atlas200I A2",
+      "source_id": "VLLM_Ascend_FAQ",
+      "location": "General FAQ1",
+      "quote": "Atlas 200I A2 (Ascend-cann-kernels-310b) unplanned yet",
+      "evidence_type": "项目支持声明",
+      "conditions": "FAQ固定提交",
+      "finding": "服务器Atlas A2不能归因200I A2；量化与图模式不外推"
+    },
+    {
+      "claim": "Ultralytics后端存在CPU NumPy传递",
+      "source_id": "Ultralytics_Ascend_Backend",
+      "location": "AscendBackend.forward",
+      "quote": "self.model.infer([im.cpu().numpy()])",
+      "evidence_type": "源码事实",
+      "conditions": "BCHW归一化tensor；静态OM",
+      "finding": "不能称相机到NPU零拷贝，目录单OM与metadata需核对"
+    },
+    {
+      "claim": "Lite Ascend会加入CPU backup",
+      "source_id": "MindSpore_Lite_Context",
+      "location": "target setter及API注释",
+      "quote": "need_cpu_backup = True",
+      "evidence_type": "源码事实",
+      "conditions": "该提交API；Transpose示例",
+      "finding": "不保证任意缺失算子回退或全部A2动态功能"
+    }
+  ],
+  "manual_review": {
+    "coverage": "框架机制、版本冲突、目标编译、运行链路、推理服务排除和许可分别分析",
+    "versions_and_measurements": "固定SHA；兼容表与README例/构建表分开；无实机数据或模型benchmark",
+    "maturity_and_licenses": "官方框架与第三方Ultralytics/vLLM项目支持分开；代码BSD/Apache/AGPL、文档CCBY4；权重数据与传递依赖未核验",
+    "figures_opened": "官方SVG文本结构检查，sharp PNG逐图打开，中文完整，层次清晰；图不当逐SKU能力矩阵"
+  }
+}

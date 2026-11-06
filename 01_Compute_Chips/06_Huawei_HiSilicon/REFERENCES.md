@@ -1,0 +1,1935 @@
+# 参考来源清单
+
+[返回本分项](README.md)
+
+完整参考原件保留在本地 `reference_metrial/`，未上传 GitHub。下方提供官方 URL、原始采集记录、哈希与本地路径；本地路径以仓库根为基准。
+
+GitHub 可直接阅读报告及正文图表。需要核验 HTML/PDF 原件时，在拥有本地归档的工作目录打开原件；clone 本仓库不会自动得到完整原件。后续可在保持 SHA256 清单不变的情况下连接外部归档。
+
+- [机器可读完整清单](sources.json)
+- [本地归档管理方式](../../CONTRIBUTING.md)
+
+<a id="ref-1da1ca47d03b1cff"></a>
+
+## Ascend_Pytorch_RepoAPI
+
+- [官方/原始来源](https://api.github.com/repos/Ascend/pytorch)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:22:22.056752+00:00`
+- `sha256`：`2a376062a002722a90b4796920c2035a21a5a36c26d257394070c881380f197a`
+- `original_sha256`：`2a376062a002722a90b4796920c2035a21a5a36c26d257394070c881380f197a`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Pytorch_Rep--1da1ca47d03b1cff/content.json`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Pytorch_Rep--1da1ca47d03b1cff/original.response`
+
+<a id="ref-6a8a80f4f665571a"></a>
+
+## Ascend_Pytorch_TreeAPI
+
+- [官方/原始来源](https://api.github.com/repos/Ascend/pytorch/git/trees/master?recursive=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:23:23.191752+00:00`
+- `sha256`：`50ae62f32949e7a3c0fd84c602584f5bcb7190bf98c2309b2225e651114cf470`
+- `original_sha256`：`50ae62f32949e7a3c0fd84c602584f5bcb7190bf98c2309b2225e651114cf470`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Pytorch_Tre--6a8a80f4f665571a/content.json`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Pytorch_Tre--6a8a80f4f665571a/original.response`
+
+<a id="ref-dc19b081b9f8ef61"></a>
+
+## Ascend_Samples_RepoAPI
+
+- [官方/原始来源](https://api.github.com/repos/Ascend/samples)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:22:19.993964+00:00`
+- `sha256`：`35af70f42f1daa20428ee6cb70337611e6c772c7877b94aff916fc75f9f95e37`
+- `original_sha256`：`35af70f42f1daa20428ee6cb70337611e6c772c7877b94aff916fc75f9f95e37`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Samples_Rep--dc19b081b9f8ef61/content.json`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Samples_Rep--dc19b081b9f8ef61/original.response`
+
+<a id="ref-a24ecefb0c59fef7"></a>
+
+## Ascend_Samples_TreeAPI
+
+- [官方/原始来源](https://api.github.com/repos/Ascend/samples/git/trees/master?recursive=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:23:19.320711+00:00`
+- `sha256`：`a3202aeacd5773b8f237d0f0995aafc92afda080e9b3525ad3fe2e007c896347`
+- `original_sha256`：`a3202aeacd5773b8f237d0f0995aafc92afda080e9b3525ad3fe2e007c896347`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Samples_Tre--a24ecefb0c59fef7/content.json`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Samples_Tre--a24ecefb0c59fef7/original.response`
+
+<a id="ref-22f58aef1e441162"></a>
+
+## LiteOS_RepoAPI
+
+- [官方/原始来源](https://api.github.com/repos/LiteOS/LiteOS)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:25:36.990605+00:00`
+- `sha256`：`ca25e619801c1629e71b8ab70077905c25816b606a657ed82638461b29e7f12b`
+- `original_sha256`：`ca25e619801c1629e71b8ab70077905c25816b606a657ed82638461b29e7f12b`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/LiteOS_RepoAPI--22f58aef1e441162/content.json`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/LiteOS_RepoAPI--22f58aef1e441162/original.response`
+
+<a id="ref-dd82709bb5dd82f2"></a>
+
+## CloudRobo_SamplesTree
+
+- [官方/原始来源](https://api.github.com/repos/huaweicloud-samples/cloudrobo-samples/git/trees/main?recursive=1)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T17:01:34.997199+00:00`
+
+<a id="ref-981095803cc36178"></a>
+
+## MindSpore_RepoAPI
+
+- [官方/原始来源](https://api.github.com/repos/mindspore-ai/mindspore)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:22:23.126155+00:00`
+- `sha256`：`29db983fc737e05fc24d7fd3faaa86cc370c1320940be072ed2d0d4078cda59b`
+- `original_sha256`：`29db983fc737e05fc24d7fd3faaa86cc370c1320940be072ed2d0d4078cda59b`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/MindSpore_RepoAPI--981095803cc36178/content.json`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/MindSpore_RepoAPI--981095803cc36178/original.response`
+
+<a id="ref-aac3469e6a807ece"></a>
+
+## MindSpore_TreeAPI
+
+- [官方/原始来源](https://api.github.com/repos/mindspore-ai/mindspore/git/trees/master?recursive=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:23:25.965853+00:00`
+- `sha256`：`89015f9897835fe212b5010b36d15a8b0bd452721f12dd83d033b3e2483aab8d`
+- `original_sha256`：`89015f9897835fe212b5010b36d15a8b0bd452721f12dd83d033b3e2483aab8d`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/MindSpore_TreeAPI--aac3469e6a807ece/content.json`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/MindSpore_TreeAPI--aac3469e6a807ece/original.response`
+
+<a id="ref-71dfdc5d95a95393"></a>
+
+## OH_HiSilicon_RepoAPI
+
+- [官方/原始来源](https://api.github.com/repos/openharmony/device_soc_hisilicon)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:25:35.825383+00:00`
+- `sha256`：`8ac9c236442f6d55b316f6ff1056aa1cd258da2d4acdd1b08922fbd83b1e9e91`
+- `original_sha256`：`8ac9c236442f6d55b316f6ff1056aa1cd258da2d4acdd1b08922fbd83b1e9e91`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OH_HiSilicon_RepoA--71dfdc5d95a95393/content.json`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OH_HiSilicon_RepoA--71dfdc5d95a95393/original.response`
+
+<a id="ref-d374bd2c02c87387"></a>
+
+## OH_HiSilicon_TreeAPI
+
+- [官方/原始来源](https://api.github.com/repos/openharmony/device_soc_hisilicon/git/trees/master?recursive=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:33:01.083710+00:00`
+- `sha256`：`725679188343b04e78d1e814e59740d88cf1793b8471b0f0d488acf542c35afc`
+- `original_sha256`：`725679188343b04e78d1e814e59740d88cf1793b8471b0f0d488acf542c35afc`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OH_HiSilicon_TreeA--d374bd2c02c87387/content.json`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OH_HiSilicon_TreeA--d374bd2c02c87387/original.response`
+
+<a id="ref-8ddeb68866ae6fac"></a>
+
+## HiView_RepoAPI
+
+- [官方/原始来源](https://api.github.com/repos/openhisilicon/HIVIEW)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:25:33.841120+00:00`
+- `sha256`：`cfbb3b35d60d650148d86e6447be19796c0bb9605c10a7f19e66ab7563d3a67c`
+- `original_sha256`：`cfbb3b35d60d650148d86e6447be19796c0bb9605c10a7f19e66ab7563d3a67c`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/HiView_RepoAPI--8ddeb68866ae6fac/content.json`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/HiView_RepoAPI--8ddeb68866ae6fac/original.response`
+
+<a id="ref-3c9e98025b85d0d7"></a>
+
+## HiView_TreeAPI
+
+- [官方/原始来源](https://api.github.com/repos/openhisilicon/HIVIEW/git/trees/master?recursive=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:32:57.285394+00:00`
+- `sha256`：`ab4434d7cf8e9e91a54d3eb5305dfd689249b9b72811a340e685fea64f73d09e`
+- `original_sha256`：`ab4434d7cf8e9e91a54d3eb5305dfd689249b9b72811a340e685fea64f73d09e`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/HiView_TreeAPI--3c9e98025b85d0d7/content.json`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/HiView_TreeAPI--3c9e98025b85d0d7/original.response`
+
+<a id="ref-bf302f4107f3f9f9"></a>
+
+## RealSense_RepoAPI
+
+- [官方/原始来源](https://api.github.com/repos/realsenseai/librealsense)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T16:46:24.423710+00:00`
+
+<a id="ref-1336771ef02e8390"></a>
+
+## RealSenseROS_RepoAPI
+
+- [官方/原始来源](https://api.github.com/repos/realsenseai/realsense-ros)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T16:46:24.658840+00:00`
+
+<a id="ref-d85049c054ab7a69"></a>
+
+## Ultralytics_RepoAPI
+
+- [官方/原始来源](https://api.github.com/repos/ultralytics/ultralytics)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:22:25.307059+00:00`
+- `sha256`：`83ac07bf8336bcdc72613904311c6306ff156a91ef426ca0a35f77561c9babd8`
+- `original_sha256`：`83ac07bf8336bcdc72613904311c6306ff156a91ef426ca0a35f77561c9babd8`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ultralytics_RepoAP--d85049c054ab7a69/content.json`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ultralytics_RepoAP--d85049c054ab7a69/original.response`
+
+<a id="ref-c00bb0ff09ac0f9b"></a>
+
+## Ultralytics_TreeAPI
+
+- [官方/原始来源](https://api.github.com/repos/ultralytics/ultralytics/git/trees/main?recursive=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:23:33.124942+00:00`
+- `sha256`：`1d853e3e596b0353e9b2cac037f051887133aeb3ab2531f0db875c912b6036be`
+- `original_sha256`：`1d853e3e596b0353e9b2cac037f051887133aeb3ab2531f0db875c912b6036be`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ultralytics_TreeAP--c00bb0ff09ac0f9b/content.json`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ultralytics_TreeAP--c00bb0ff09ac0f9b/original.response`
+
+<a id="ref-19b2d2eaaa6b4bde"></a>
+
+## VLLM_Ascend_RepoAPI
+
+- [官方/原始来源](https://api.github.com/repos/vllm-project/vllm-ascend)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:22:24.262355+00:00`
+- `sha256`：`450d5fcea783d5157e01846ca6dbc02b1a7ff0ad3438776a84434a23c97fc5c8`
+- `original_sha256`：`450d5fcea783d5157e01846ca6dbc02b1a7ff0ad3438776a84434a23c97fc5c8`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/VLLM_Ascend_RepoAP--19b2d2eaaa6b4bde/content.json`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/VLLM_Ascend_RepoAP--19b2d2eaaa6b4bde/original.response`
+
+<a id="ref-a83bc76dcc8b12f4"></a>
+
+## VLLM_Ascend_TreeAPI
+
+- [官方/原始来源](https://api.github.com/repos/vllm-project/vllm-ascend/git/trees/main?recursive=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:23:30.420521+00:00`
+- `sha256`：`8e69ae64a7a0ff78d9226050cc0b1906ed3a24a8027a4695e14d2213e679d8f2`
+- `original_sha256`：`8e69ae64a7a0ff78d9226050cc0b1906ed3a24a8027a4695e14d2213e679d8f2`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/VLLM_Ascend_TreeAP--a83bc76dcc8b12f4/content.json`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/VLLM_Ascend_TreeAP--a83bc76dcc8b12f4/original.response`
+
+<a id="ref-e02008a072daa600"></a>
+
+## HiSilicon_DevCenter
+
+- [官方/原始来源](https://developers.hisilicon.com/devCenter/index)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T15:56:16.345708+00:00`
+- `sha256`：`a2bd2c1f2297a69adb5f465fafbd9fe2c0b96a0f126a4c83970f0137c63c1345`
+- `original_sha256`：`6736c10c1dc6d9de190670abb8c71f7a0d3456156846b53ff69b6288138e3de5`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_DevC--e02008a072daa600/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_DevC--e02008a072daa600/original.response`
+- 未取得依赖：22 项；详见本地 metadata。
+
+<a id="ref-453cf4bfa7cf193e"></a>
+
+## NVIDIA_CUDA_Memory
+
+- [官方/原始来源](https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T17:12:02.630266+00:00`
+- `sha256`：`48a4a43fb46cd91f562781801134666ba1ea2320bdbf072a6b0ad5bdba138160`
+- `original_sha256`：`d6229ab3c6907ad05f40a220c4e8f624db788ac73a18ddbd10cdc49852cac697`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CUDA_Memory--453cf4bfa7cf193e/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CUDA_Memory--453cf4bfa7cf193e/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-9df325c2c44e3de5"></a>
+
+## NVIDIA_TensorRT_Objects
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T17:11:38.355664+00:00`
+- `sha256`：`0b2c6b2c93691260edb6cde5752f66c60226f3def12e74e36f80d9aea96048c6`
+- `original_sha256`：`656cc637bc2983dcc18269d41cdb4c44aab96530e4b8213c775bc73321e71eea`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/TensorRT_Objec--9df325c2c44e3de5/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/TensorRT_Objec--9df325c2c44e3de5/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-dc8455e9dd28d51b"></a>
+
+## O3DE_ROS2_Gem
+
+- [官方/原始来源](https://docs.o3de.org/docs/user-guide/gems/reference/robotics/ros2/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T17:17:17.261242+00:00`
+- `sha256`：`5b96daeb43981dca9425d3ff7f22b830a7ee2b4fcbe483adee35369443104c0d`
+- `original_sha256`：`15ed2f137106bb616e852cb6a33c2f1e64796d7a2fd50d58c874648c37b6541d`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/O3DE_ROS2_Gem--dc8455e9dd28d51b/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/O3DE_ROS2_Gem--dc8455e9dd28d51b/original.response`
+- 未取得依赖：5 项；详见本地 metadata。
+
+<a id="ref-b50dbd349e252034"></a>
+
+## Huawei_Atlas200IA2_Whitepaper06
+
+- [官方/原始来源](https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/8bc139ce5b314db6885c3ccda8bac8cf/M3T1A669N1111946835344482450/Atlas%20200I%20A2%20%E5%8A%A0%E9%80%9F%E6%A8%A1%E5%9D%97%20%E6%8A%80%E6%9C%AF%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T15:59:21.835924+00:00`
+
+<a id="ref-be633b90d73f1f17"></a>
+
+## Huawei_Atlas200IA2_WhitepaperEntry
+
+- [官方/原始来源](https://e.huawei.com/cn/material/enterprise/8bc139ce5b314db6885c3ccda8bac8cf)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T15:52:02.348939+00:00`
+
+<a id="ref-6edbab67f410c02b"></a>
+
+## Huawei_NationalCenter_Case
+
+- [官方/原始来源](https://e.huawei.com/cn/news/2026/industries/manufacturing/national-geographic-center)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T17:05:37.709740+00:00`
+
+<a id="ref-353ba8bf7970d2bd"></a>
+
+## Qwen3VL_ModelCard
+
+- [官方/原始来源](https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct/raw/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:56:13.049130+00:00`
+- `sha256`：`a884e5e78f7d6f7bfe237f909dbc41a126542e259dc79d8ab33cc8980580ff79`
+- `original_sha256`：`a884e5e78f7d6f7bfe237f909dbc41a126542e259dc79d8ab33cc8980580ff79`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Qwen3VL_ModelCard--353ba8bf7970d2bd/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Qwen3VL_ModelCard--353ba8bf7970d2bd/original.response`
+
+<a id="ref-bd72b64742a52f43"></a>
+
+## StarVLA_ModelCard
+
+- [官方/原始来源](https://huggingface.co/StarVLA/Qwen3-VL-4B-Instruct-Action/raw/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:56:13.965975+00:00`
+- `sha256`：`467dd9c8eed14f5028267462f74246781c58aa263803361162c021222a15c7dc`
+- `original_sha256`：`467dd9c8eed14f5028267462f74246781c58aa263803361162c021222a15c7dc`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/StarVLA_ModelCard--bd72b64742a52f43/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/StarVLA_ModelCard--bd72b64742a52f43/original.response`
+
+<a id="ref-4cd08e83fb86afd1"></a>
+
+## OpenVLA_ModelCard
+
+- [官方/原始来源](https://huggingface.co/openvla/openvla-7b/raw/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:56:11.232382+00:00`
+- `sha256`：`16449c659127df8f4d0f43958be0d114be41e94317f5fc72740d84eab99c5624`
+- `original_sha256`：`16449c659127df8f4d0f43958be0d114be41e94317f5fc72740d84eab99c5624`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OpenVLA_ModelCard--4cd08e83fb86afd1/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OpenVLA_ModelCard--4cd08e83fb86afd1/original.response`
+
+<a id="ref-7b5f67fbd3b10ae3"></a>
+
+## FAST_ModelCard
+
+- [官方/原始来源](https://huggingface.co/physical-intelligence/fast/raw/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:56:14.855537+00:00`
+- `sha256`：`eeb548bbc962193940ee078225752c2cd8df91fda904467fc2206f641743038f`
+- `original_sha256`：`eeb548bbc962193940ee078225752c2cd8df91fda904467fc2206f641743038f`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/FAST_ModelCard--7b5f67fbd3b10ae3/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/FAST_ModelCard--7b5f67fbd3b10ae3/original.response`
+
+<a id="ref-1cf94bd983a08931"></a>
+
+## Ascend_Robot_Arm_Flow
+
+- [官方/原始来源](https://images.gitee.com/uploads/images/2021/0310/112856_f44ecafd_5537256.png)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:40:57.873781+00:00`
+- `sha256`：`aa673c4bd6e5d9a17c24a6637e8a6e35c866045c6470e5692564fc91a1086144`
+- `original_sha256`：`aa673c4bd6e5d9a17c24a6637e8a6e35c866045c6470e5692564fc91a1086144`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_F--1cf94bd983a08931/content.png`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_F--1cf94bd983a08931/original.response`
+
+<a id="ref-f9f8ccbfeb6ccabe"></a>
+
+## Huawei_Ascend950_ArchitecturePDF
+
+- [官方/原始来源](https://public-download.obs.cn-east-2.myhuaweicloud.com/ascend/%E6%98%87%E8%85%BE950%20NPU%E6%9E%B6%E6%9E%84%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T16:04:54.133349+00:00`
+
+<a id="ref-c8e8a0ecbae18c29"></a>
+
+## TorchNPU_Compatibility
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/COMPATIBILITY.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:26:54.042310+00:00`
+- `sha256`：`e0d977b4f8e3270eb6c68deff03cd8df10795e3974f9165cbb215db25962d9fd`
+- `original_sha256`：`e0d977b4f8e3270eb6c68deff03cd8df10795e3974f9165cbb215db25962d9fd`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/TorchNPU_Compatibi--c8e8a0ecbae18c29/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/TorchNPU_Compatibi--c8e8a0ecbae18c29/original.response`
+
+<a id="ref-fa776f961ff2c65d"></a>
+
+## Ascend_Pytorch_License
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:24:55.289209+00:00`
+- `sha256`：`99317d26c99c8037890c770fd67fa84cc78d210581ed563d3b1abe42976f47be`
+- `original_sha256`：`99317d26c99c8037890c770fd67fa84cc78d210581ed563d3b1abe42976f47be`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Pytorch_Lic--fa776f961ff2c65d/content.txt`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Pytorch_Lic--fa776f961ff2c65d/original.response`
+
+<a id="ref-631b32f5b2990a25"></a>
+
+## Ascend_Pytorch_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/README.zh.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:24:54.229189+00:00`
+- `sha256`：`a285974207c7643e648745c2680402c0096b411feadf5aeed86db4744ccedeaa`
+- `original_sha256`：`a285974207c7643e648745c2680402c0096b411feadf5aeed86db4744ccedeaa`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Pytorch_REA--631b32f5b2990a25/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Pytorch_REA--631b32f5b2990a25/original.response`
+
+<a id="ref-8ec3a493e5bb1fd0"></a>
+
+## TorchNPU_Support
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/SUPPORT.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:26:55.157282+00:00`
+- `sha256`：`cd6a1e4d320ce1752022e13cd035b6ddf06309233f9520c7f9b9003ef99c8ffc`
+- `original_sha256`：`cd6a1e4d320ce1752022e13cd035b6ddf06309233f9520c7f9b9003ef99c8ffc`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/TorchNPU_Support--8ec3a493e5bb1fd0/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/TorchNPU_Support--8ec3a493e5bb1fd0/original.response`
+
+<a id="ref-3f6a90da52e553c6"></a>
+
+## TorchNPU_Docs_License
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/docs/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:26:57.310513+00:00`
+- `sha256`：`9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94`
+- `original_sha256`：`9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/TorchNPU_Docs_Lice--3f6a90da52e553c6/content.txt`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/TorchNPU_Docs_Lice--3f6a90da52e553c6/original.response`
+
+<a id="ref-fd5f565a2196f526"></a>
+
+## TorchNPU_ArchitectureSVG
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/docs/zh/figures/architecture.svg)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:26:56.170242+00:00`
+- `sha256`：`8f2bb3f075e80db483aaf0632973fcf632320969e3fefbb235fa86c35095910c`
+- `original_sha256`：`8f2bb3f075e80db483aaf0632973fcf632320969e3fefbb235fa86c35095910c`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/TorchNPU_Architect--fd5f565a2196f526/content.svg`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/TorchNPU_Architect--fd5f565a2196f526/original.response`
+
+<a id="ref-ee788460702ca65c"></a>
+
+## TorchNPU_Version
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/pytorch/848b8e7271069d5a9947bf75fd02a162092b41a6/version.txt)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:34:23.085126+00:00`
+- `sha256`：`18f48103eaccfbdc4697e22e54bd7d5b0f0311c99ffd70ba71317111f83f3a55`
+- `original_sha256`：`18f48103eaccfbdc4697e22e54bd7d5b0f0311c99ffd70ba71317111f83f3a55`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/TorchNPU_Version--ee788460702ca65c/content.txt`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/TorchNPU_Version--ee788460702ca65c/original.response`
+
+<a id="ref-181037fb87140fdd"></a>
+
+## Ascend_Samples_License
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:24:52.524293+00:00`
+- `sha256`：`c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4`
+- `original_sha256`：`c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Samples_Lic--181037fb87140fdd/content.txt`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Samples_Lic--181037fb87140fdd/original.response`
+
+<a id="ref-f4ea38e541ad8b93"></a>
+
+## Ascend_Samples_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/README_CN.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:24:50.555624+00:00`
+- `sha256`：`1bf9fb69e768877ac78b59b6c9d5d8f22562653508bfe3b0a247c6db29bcce15`
+- `original_sha256`：`1bf9fb69e768877ac78b59b6c9d5d8f22562653508bfe3b0a247c6db29bcce15`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Samples_REA--f4ea38e541ad8b93/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Samples_REA--f4ea38e541ad8b93/original.response`
+
+<a id="ref-63de9339d4968942"></a>
+
+## Ascend_Robot_Car_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/contrib/robots_car/README_CN.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:26:53.014812+00:00`
+- `sha256`：`55f17de3cdb41a4d6fd3b0cae2da3443156025e1921b8b40e1ff5a8f92999466`
+- `original_sha256`：`55f17de3cdb41a4d6fd3b0cae2da3443156025e1921b8b40e1ff5a8f92999466`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Car_R--63de9339d4968942/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Car_R--63de9339d4968942/original.response`
+
+<a id="ref-9aab3388a79f9a2b"></a>
+
+## ACL_Async_ModelProcess
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_async_imagenet_classification/src/model_process.cpp)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:26:48.340011+00:00`
+- `sha256`：`3cee35551116761d5e1353cf7b3718d381f59be1dfc1cd3b67703ba63f34c429`
+- `original_sha256`：`3cee35551116761d5e1353cf7b3718d381f59be1dfc1cd3b67703ba63f34c429`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_Async_ModelPro--9aab3388a79f9a2b/content.cpp`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_Async_ModelPro--9aab3388a79f9a2b/original.response`
+
+<a id="ref-f1da2d06245dd3cc"></a>
+
+## ACL_FirstApp_Figure
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_firstapp/README_fig.png)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:26:49.452144+00:00`
+- `sha256`：`b719ed3798212eba2a961e7903b5196b9119db5fb3189283a575082555a00ff0`
+- `original_sha256`：`b719ed3798212eba2a961e7903b5196b9119db5fb3189283a575082555a00ff0`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_FirstApp_Figur--f1da2d06245dd3cc/content.png`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_FirstApp_Figur--f1da2d06245dd3cc/original.response`
+
+<a id="ref-7ee889c63c64edd5"></a>
+
+## ACL_ResNet_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_imagenet_classification/README_CN.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:26:43.120318+00:00`
+- `sha256`：`f510711208a2fc48b310711c2685964ae375fd311a889366df34ca0e79d1bd93`
+- `original_sha256`：`f510711208a2fc48b310711c2685964ae375fd311a889366df34ca0e79d1bd93`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_ResNet_README--7ee889c63c64edd5/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_ResNet_README--7ee889c63c64edd5/original.response`
+
+<a id="ref-4773c545724ea61b"></a>
+
+## ACL_ModelProcess
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_imagenet_classification/src/model_process.cpp)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:26:45.105906+00:00`
+- `sha256`：`06bccb968446f18fb69f28ec90d84b632ba5fe5e4fa9d91b11cf91c6f251fd1f`
+- `original_sha256`：`06bccb968446f18fb69f28ec90d84b632ba5fe5e4fa9d91b11cf91c6f251fd1f`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_ModelProcess--4773c545724ea61b/content.cpp`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_ModelProcess--4773c545724ea61b/original.response`
+
+<a id="ref-b1cece1042fbfdaa"></a>
+
+## ACL_SampleProcess
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_imagenet_classification/src/sample_process.cpp)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:26:46.270505+00:00`
+- `sha256`：`2d3fecaf8a9f5a3206396cae1e5f46dce64a2f804b0805a5227e8f6fd77a399d`
+- `original_sha256`：`2d3fecaf8a9f5a3206396cae1e5f46dce64a2f804b0805a5227e8f6fd77a399d`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_SampleProcess--b1cece1042fbfdaa/content.cpp`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_SampleProcess--b1cece1042fbfdaa/original.response`
+
+<a id="ref-0e7479d186c8d8e5"></a>
+
+## ACL_Dynamic_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_imagenet_dynamic_dims/README_CN.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:26:47.284345+00:00`
+- `sha256`：`ca028d736440011c3638cdf4b210dec31be2d2fbaa8e5e0908b7a4b6f1739c08`
+- `original_sha256`：`ca028d736440011c3638cdf4b210dec31be2d2fbaa8e5e0908b7a4b6f1739c08`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_Dynamic_README--0e7479d186c8d8e5/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_Dynamic_README--0e7479d186c8d8e5/original.response`
+
+<a id="ref-ff1625a4f4845e8f"></a>
+
+## Ascend_Robot_Chess_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robot_Play_Chess/README_CN.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:26:51.941428+00:00`
+- `sha256`：`295ff70a6369b29ee858dce75cca0484bd4d5d1f57d7719880e2e707161e4e99`
+- `original_sha256`：`295ff70a6369b29ee858dce75cca0484bd4d5d1f57d7719880e2e707161e4e99`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Chess--ff1625a4f4845e8f/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Chess--ff1625a4f4845e8f/original.response`
+
+<a id="ref-8f2874b95d479613"></a>
+
+## Ascend_Robot_Arm_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robotic_Arm_Object_Following/README_CN.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:26:50.835339+00:00`
+- `sha256`：`b2d71f704ae8a1a698b2dae6f01b38918b5030538f51d168b1c62b090c930d16`
+- `original_sha256`：`b2d71f704ae8a1a698b2dae6f01b38918b5030538f51d168b1c62b090c930d16`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_R--8f2874b95d479613/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_R--8f2874b95d479613/original.response`
+
+<a id="ref-ef719f51c5eefd5d"></a>
+
+## Ascend_Robot_Arm_Code
+
+- [官方/原始来源](https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robotic_Arm_Object_Following/src/robotic_arm_object_following.py)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:40:55.642416+00:00`
+- `sha256`：`08e79bc1b9202858d1eedddd29eff2c7fd5b8c8bd2a79f1172b25e65a6f509f4`
+- `original_sha256`：`08e79bc1b9202858d1eedddd29eff2c7fd5b8c8bd2a79f1172b25e65a6f509f4`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_C--ef719f51c5eefd5d/content.py`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_C--ef719f51c5eefd5d/original.response`
+
+<a id="ref-93ae0cec36eeb1cd"></a>
+
+## OpenPI_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:56:15.736533+00:00`
+- `sha256`：`567fc57766bd736664f50126cab8145af4071ca16cc5e238f2b11e369169c3b5`
+- `original_sha256`：`567fc57766bd736664f50126cab8145af4071ca16cc5e238f2b11e369169c3b5`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OpenPI_README--93ae0cec36eeb1cd/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OpenPI_README--93ae0cec36eeb1cd/original.response`
+
+<a id="ref-dca3f21b2135ad15"></a>
+
+## RLinf_License
+
+- [官方/原始来源](https://raw.githubusercontent.com/RLinf/RLinf/main/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T17:08:14.657939+00:00`
+- `sha256`：`a48a5e0eb7baa16390fb777b366c294f9840e74d2e6795502288f27cd5135834`
+- `original_sha256`：`a48a5e0eb7baa16390fb777b366c294f9840e74d2e6795502288f27cd5135834`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/RLinf_License--dca3f21b2135ad15/content.txt`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/RLinf_License--dca3f21b2135ad15/original.response`
+
+<a id="ref-acf2f895b8420d9f"></a>
+
+## RLinf_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/RLinf/RLinf/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T17:08:13.478145+00:00`
+- `sha256`：`9283f84e0d5782e246b511ed58670b803fe387d325447ff74053816efa1adb95`
+- `original_sha256`：`9283f84e0d5782e246b511ed58670b803fe387d325447ff74053816efa1adb95`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/RLinf_README--acf2f895b8420d9f/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/RLinf_README--acf2f895b8420d9f/original.response`
+
+<a id="ref-dc5d74c5151ec519"></a>
+
+## RLinf_Ascend_Container
+
+- [官方/原始来源](https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/_ascend_libero.rst)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T17:12:17.424589+00:00`
+- `sha256`：`5f6ca07e4a89aa6ed053234970a9d941dedd57859ab05a33704a127a623aca77`
+- `original_sha256`：`5f6ca07e4a89aa6ed053234970a9d941dedd57859ab05a33704a127a623aca77`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/RLinf_Ascend_Conta--dc5d74c5151ec519/content.rst`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/RLinf_Ascend_Conta--dc5d74c5151ec519/original.response`
+
+<a id="ref-c1983dc981b877a3"></a>
+
+## RLinf_OSMesa_Setup
+
+- [官方/原始来源](https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/_libero_osmesa.rst)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T17:12:19.114744+00:00`
+- `sha256`：`6ced182225a8e33c824a381bf0ac5240cdd9cd100c3a278cfe19d4e2b0750029`
+- `original_sha256`：`6ced182225a8e33c824a381bf0ac5240cdd9cd100c3a278cfe19d4e2b0750029`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/RLinf_OSMesa_Setup--c1983dc981b877a3/content.rst`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/RLinf_OSMesa_Setup--c1983dc981b877a3/original.response`
+
+<a id="ref-8e9c1b7c17ea131a"></a>
+
+## RLinf_OpenPI_Guide
+
+- [官方/原始来源](https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/pi0.rst)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T17:09:09.369462+00:00`
+- `sha256`：`1072cfb971504b8d63126836e766aacda632f04a48b4ca469277af97ec147b2c`
+- `original_sha256`：`1072cfb971504b8d63126836e766aacda632f04a48b4ca469277af97ec147b2c`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/RLinf_OpenPI_Guide--8e9c1b7c17ea131a/content.rst`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/RLinf_OpenPI_Guide--8e9c1b7c17ea131a/original.response`
+
+<a id="ref-09b731053f6e4f1a"></a>
+
+## RLinf_StarVLA_Guide
+
+- [官方/原始来源](https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/starvla.rst)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T17:09:11.295164+00:00`
+- `sha256`：`e84003023e7689329bdaecb4c7cc8a2c3b707a29ab55bd85b7f37d7a013709f2`
+- `original_sha256`：`e84003023e7689329bdaecb4c7cc8a2c3b707a29ab55bd85b7f37d7a013709f2`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/RLinf_StarVLA_Guid--09b731053f6e4f1a/content.rst`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/RLinf_StarVLA_Guid--09b731053f6e4f1a/original.response`
+
+<a id="ref-14ee3f4821f26eef"></a>
+
+## RLinf_Wan_Guide
+
+- [官方/原始来源](https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/wan.rst)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T17:09:12.234923+00:00`
+- `sha256`：`f6f1f0d9f805caef75273dccd61a016c152ef87b8d750519cf359ce68bbc656d`
+- `original_sha256`：`f6f1f0d9f805caef75273dccd61a016c152ef87b8d750519cf359ce68bbc656d`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/RLinf_Wan_Guide--14ee3f4821f26eef/content.rst`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/RLinf_Wan_Guide--14ee3f4821f26eef/original.response`
+
+<a id="ref-e62ae236f246ce5d"></a>
+
+## LeRobot_License_051
+
+- [官方/原始来源](https://raw.githubusercontent.com/huggingface/lerobot/v0.5.1/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:56:19.449544+00:00`
+- `sha256`：`0583375a0ec642ec79c447781f34322b0cfa66baff31258214d040f1f6d86d7c`
+- `original_sha256`：`0583375a0ec642ec79c447781f34322b0cfa66baff31258214d040f1f6d86d7c`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/LeRobot_License_05--e62ae236f246ce5d/content.txt`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/LeRobot_License_05--e62ae236f246ce5d/original.response`
+
+<a id="ref-166aefbe24a5fba2"></a>
+
+## LeRobot_README_051
+
+- [官方/原始来源](https://raw.githubusercontent.com/huggingface/lerobot/v0.5.1/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:56:18.525126+00:00`
+- `sha256`：`f12f321ba051cd79f9085bb98d282865f3e640a21a8e64ab2a64a45818563ae4`
+- `original_sha256`：`f12f321ba051cd79f9085bb98d282865f3e640a21a8e64ab2a64a45818563ae4`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/LeRobot_README_051--166aefbe24a5fba2/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/LeRobot_README_051--166aefbe24a5fba2/original.response`
+
+<a id="ref-6fd61b8704aab060"></a>
+
+## MindSpore_License
+
+- [官方/原始来源](https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:24:57.480325+00:00`
+- `sha256`：`c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4`
+- `original_sha256`：`c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/MindSpore_License--6fd61b8704aab060/content.txt`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/MindSpore_License--6fd61b8704aab060/original.response`
+
+<a id="ref-dfec06065feabd18"></a>
+
+## MindSpore_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/README_CN.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:24:56.412041+00:00`
+- `sha256`：`ffa7d767bb5e076fe3bf7e8556719693c3015a7f976d116f105ced44642ae0c7`
+- `original_sha256`：`ffa7d767bb5e076fe3bf7e8556719693c3015a7f976d116f105ced44642ae0c7`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/MindSpore_README--dfec06065feabd18/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/MindSpore_README--dfec06065feabd18/original.response`
+
+<a id="ref-d0f903468c5eec67"></a>
+
+## MindSpore_Lite_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/mindspore/lite/README_CN.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:27:01.128833+00:00`
+- `sha256`：`ad9cafe7df8e620671e0cffc2bcc375601fb50bb901d03850e7845f98e0e252b`
+- `original_sha256`：`ad9cafe7df8e620671e0cffc2bcc375601fb50bb901d03850e7845f98e0e252b`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/MindSpore_Lite_REA--d0f903468c5eec67/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/MindSpore_Lite_REA--d0f903468c5eec67/original.response`
+
+<a id="ref-05d6c61893baf702"></a>
+
+## MindSpore_Lite_Context
+
+- [官方/原始来源](https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/mindspore/lite/python/api/context.py)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:27:02.254649+00:00`
+- `sha256`：`8c2cc26b35a5ceaeaf92af3e78edbd146540ae0bf3f1b1339e3ebdaac42dda1d`
+- `original_sha256`：`8c2cc26b35a5ceaeaf92af3e78edbd146540ae0bf3f1b1339e3ebdaac42dda1d`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/MindSpore_Lite_Con--05d6c61893baf702/content.py`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/MindSpore_Lite_Con--05d6c61893baf702/original.response`
+
+<a id="ref-df5f2465b9cb0028"></a>
+
+## MindSpore_Lite_Converter
+
+- [官方/原始来源](https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/mindspore/lite/python/api/converter.py)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:27:05.192745+00:00`
+- `sha256`：`791d934b3d6541bb3dc10ca3ae29b6fba558fafcfc2b4d3259e9bcc88a691bbb`
+- `original_sha256`：`791d934b3d6541bb3dc10ca3ae29b6fba558fafcfc2b4d3259e9bcc88a691bbb`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/MindSpore_Lite_Con--df5f2465b9cb0028/content.py`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/MindSpore_Lite_Con--df5f2465b9cb0028/original.response`
+
+<a id="ref-cda426e70c7f20f7"></a>
+
+## MindSpore_Lite_Model
+
+- [官方/原始来源](https://raw.githubusercontent.com/mindspore-ai/mindspore/16873579685a1662f10ebd1df068bf512f211869/mindspore/lite/python/api/model.py)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:27:03.822109+00:00`
+- `sha256`：`b0db80447fc42abd9c9ca886aa893c7d15ade67f80e9d7dbc3f24a7c73f5df81`
+- `original_sha256`：`b0db80447fc42abd9c9ca886aa893c7d15ade67f80e9d7dbc3f24a7c73f5df81`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/MindSpore_Lite_Mod--cda426e70c7f20f7/content.py`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/MindSpore_Lite_Mod--cda426e70c7f20f7/original.response`
+
+<a id="ref-419f3efb06e078ac"></a>
+
+## OH_HiSilicon_License
+
+- [官方/原始来源](https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:33:38.883759+00:00`
+- `sha256`：`279d692a7cd9448350f511184b116db29ed2976d734baa690a6e790f38808f37`
+- `original_sha256`：`279d692a7cd9448350f511184b116db29ed2976d734baa690a6e790f38808f37`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OH_HiSilicon_Licen--419f3efb06e078ac/content.txt`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OH_HiSilicon_Licen--419f3efb06e078ac/original.response`
+
+<a id="ref-f3b4a2b9762761f5"></a>
+
+## OH_HiSilicon_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:34:25.199180+00:00`
+- `sha256`：`a7bef93f45c847829800c3018558f5485b34b3bcefc9540fb3144a333002d158`
+- `original_sha256`：`a7bef93f45c847829800c3018558f5485b34b3bcefc9540fb3144a333002d158`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OH_HiSilicon_READM--f3b4a2b9762761f5/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OH_HiSilicon_READM--f3b4a2b9762761f5/original.response`
+
+<a id="ref-27744d9b77642827"></a>
+
+## OH_DV300_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/hi3516dv300/README_zh.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:34:26.400439+00:00`
+- `sha256`：`512ea5fc89078da6033b718446372a7d725467e5a76985a3f6d0cdaff5339da6`
+- `original_sha256`：`512ea5fc89078da6033b718446372a7d725467e5a76985a3f6d0cdaff5339da6`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OH_DV300_README--27744d9b77642827/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OH_DV300_README--27744d9b77642827/original.response`
+
+<a id="ref-99677d79a1d3021c"></a>
+
+## OH_Driver_License
+
+- [官方/原始来源](https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/hi3516dv300/sdk_linux/drv/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:34:27.628133+00:00`
+- `sha256`：`11c4a8b414a534365f02da7dad9dc3e471d35b15ed31df9d4006fb2a144c4443`
+- `original_sha256`：`11c4a8b414a534365f02da7dad9dc3e471d35b15ed31df9d4006fb2a144c4443`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OH_Driver_License--99677d79a1d3021c/content.txt`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OH_Driver_License--99677d79a1d3021c/original.response`
+
+<a id="ref-d888125c58c7c3fd"></a>
+
+## OH_Media_EULA
+
+- [官方/原始来源](https://raw.githubusercontent.com/openharmony/device_soc_hisilicon/7c1e2d5b35c090009bbe195f09337701c60af032/hi3516dv300/sdk_linux/out/lib/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:38:03.511800+00:00`
+- `sha256`：`16bd112f32f2660c3bb4171124a5f67b5d891d6b5d586739d36db5ada7c8c1f9`
+- `original_sha256`：`16bd112f32f2660c3bb4171124a5f67b5d891d6b5d586739d36db5ada7c8c1f9`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OH_Media_EULA--d888125c58c7c3fd/content.txt`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/OH_Media_EULA--d888125c58c7c3fd/original.response`
+
+<a id="ref-c89786e45c3e552a"></a>
+
+## HiView_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/openhisilicon/HIVIEW/395b53d4c28cf5e528c9e1ba3f7ec39ad8e852d4/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:33:36.950727+00:00`
+- `sha256`：`38ab70c5fcaa46f3c40b697a040d6dcd5ec26d544e01c8e8d7df2f92a2a3cc95`
+- `original_sha256`：`38ab70c5fcaa46f3c40b697a040d6dcd5ec26d544e01c8e8d7df2f92a2a3cc95`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/HiView_README--c89786e45c3e552a/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/HiView_README--c89786e45c3e552a/original.response`
+
+<a id="ref-a9d8b367d7bb8b38"></a>
+
+## HiView_3403_SVP
+
+- [官方/原始来源](https://raw.githubusercontent.com/openhisilicon/HIVIEW/395b53d4c28cf5e528c9e1ba3f7ec39ad8e852d4/mod/svp/3403/svp.c)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:38:01.190292+00:00`
+- `sha256`：`1cf95b16bf0eed83035f5b24d927daeb04904d41729d57cef330cba074b17cb7`
+- `original_sha256`：`1cf95b16bf0eed83035f5b24d927daeb04904d41729d57cef330cba074b17cb7`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/HiView_3403_SVP--a9d8b367d7bb8b38/content.c`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/HiView_3403_SVP--a9d8b367d7bb8b38/original.response`
+
+<a id="ref-724494f823f91527"></a>
+
+## HiView_3403_VPSS
+
+- [官方/原始来源](https://raw.githubusercontent.com/openhisilicon/HIVIEW/395b53d4c28cf5e528c9e1ba3f7ec39ad8e852d4/mod/svp/3403/vpss_capture.cpp)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:37:59.246700+00:00`
+- `sha256`：`33b872ed6f0397b0b36c51758eaaf15d93c931d18f068ab9387bfed22a652acb`
+- `original_sha256`：`33b872ed6f0397b0b36c51758eaaf15d93c931d18f068ab9387bfed22a652acb`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/HiView_3403_VPSS--724494f823f91527/content.cpp`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/HiView_3403_VPSS--724494f823f91527/original.response`
+
+<a id="ref-b8c035537722bae0"></a>
+
+## HiView_3403_YOLO
+
+- [官方/原始来源](https://raw.githubusercontent.com/openhisilicon/HIVIEW/395b53d4c28cf5e528c9e1ba3f7ec39ad8e852d4/mod/svp/3403/yolov8.cpp)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:38:02.310512+00:00`
+- `sha256`：`2c7457a4a5f4f6ea9ff22cb49ac20f23bf3d25adf1ca712019d6d3220f1fb50b`
+- `original_sha256`：`2c7457a4a5f4f6ea9ff22cb49ac20f23bf3d25adf1ca712019d6d3220f1fb50b`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/HiView_3403_YOLO--b8c035537722bae0/content.cpp`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/HiView_3403_YOLO--b8c035537722bae0/original.response`
+
+<a id="ref-957af65c6dbe24f6"></a>
+
+## HiView_ArchitectureImage
+
+- [官方/原始来源](https://raw.githubusercontent.com/openhisilicon/HIVIEW/395b53d4c28cf5e528c9e1ba3f7ec39ad8e852d4/res/diagram.jpg)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T17:08:11.340176+00:00`
+- `sha256`：`30867500629e009dc216ac7fca2ab6e471ba309b8e846385b0198bcd270223df`
+- `original_sha256`：`30867500629e009dc216ac7fca2ab6e471ba309b8e846385b0198bcd270223df`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/HiView_Architectur--957af65c6dbe24f6/content.jpg`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/HiView_Architectur--957af65c6dbe24f6/original.response`
+
+<a id="ref-969a4c6853947b6b"></a>
+
+## Ultralytics_License
+
+- [官方/原始来源](https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:25:01.904420+00:00`
+- `sha256`：`0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0`
+- `original_sha256`：`0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ultralytics_Licens--969a4c6853947b6b/content.txt`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ultralytics_Licens--969a4c6853947b6b/original.response`
+
+<a id="ref-a1db7fce7f18dedb"></a>
+
+## Ultralytics_Ascend_Doc
+
+- [官方/原始来源](https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/docs/en/integrations/ascend.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:25:00.841498+00:00`
+- `sha256`：`abd536248e907d958d17033bd08b7fc844c33833bc37807b575340a0da55e81e`
+- `original_sha256`：`abd536248e907d958d17033bd08b7fc844c33833bc37807b575340a0da55e81e`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ultralytics_Ascend--a1db7fce7f18dedb/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ultralytics_Ascend--a1db7fce7f18dedb/original.response`
+
+<a id="ref-85889b8b8d60cc34"></a>
+
+## Ultralytics_Ascend_Backend
+
+- [官方/原始来源](https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/ultralytics/nn/backends/ascend.py)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:26:59.939712+00:00`
+- `sha256`：`19e371f132833ea7a8e3e100808d7ffc2d9b7dd051a35427db58e4ae685e26f5`
+- `original_sha256`：`19e371f132833ea7a8e3e100808d7ffc2d9b7dd051a35427db58e4ae685e26f5`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ultralytics_Ascend--85889b8b8d60cc34/content.py`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ultralytics_Ascend--85889b8b8d60cc34/original.response`
+
+<a id="ref-0826b6cee47ed307"></a>
+
+## Ultralytics_Ascend_Exporter
+
+- [官方/原始来源](https://raw.githubusercontent.com/ultralytics/ultralytics/c4e0ba9310ca5c567adb2b02f351f4d721557c71/ultralytics/utils/export/ascend.py)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:26:58.823760+00:00`
+- `sha256`：`991ca5cfae8a60b3c869d9c563a541037e4c4128d3b40968fad1fa2eee8c96d8`
+- `original_sha256`：`991ca5cfae8a60b3c869d9c563a541037e4c4128d3b40968fad1fa2eee8c96d8`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ultralytics_Ascend--0826b6cee47ed307/content.py`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ultralytics_Ascend--0826b6cee47ed307/original.response`
+
+<a id="ref-872f7eae47477360"></a>
+
+## VLLM_Ascend_License
+
+- [官方/原始来源](https://raw.githubusercontent.com/vllm-project/vllm-ascend/4a29682d1d8fa89df63a45dc4df2a2a8068984ff/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:24:59.767491+00:00`
+- `sha256`：`c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4`
+- `original_sha256`：`c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/VLLM_Ascend_Licens--872f7eae47477360/content.txt`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/VLLM_Ascend_Licens--872f7eae47477360/original.response`
+
+<a id="ref-f20d548af3f05045"></a>
+
+## VLLM_Ascend_FAQ
+
+- [官方/原始来源](https://raw.githubusercontent.com/vllm-project/vllm-ascend/4a29682d1d8fa89df63a45dc4df2a2a8068984ff/docs/source/faqs.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:24:58.552727+00:00`
+- `sha256`：`43a7895c13c8e4134744c1187d9cb67493a477368db5b502a01d0efa3829180f`
+- `original_sha256`：`43a7895c13c8e4134744c1187d9cb67493a477368db5b502a01d0efa3829180f`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/VLLM_Ascend_FAQ--f20d548af3f05045/content.md`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/VLLM_Ascend_FAQ--f20d548af3f05045/original.response`
+
+<a id="ref-fcfa8a892acabb43"></a>
+
+## Huawei_A2_Support_Specs_Candidate
+
+- [官方/原始来源](https://support.huawei.com/enterprise/zh/doc/EDOC1100304819/e6e7e6d0)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T15:53:41.213426+00:00`
+
+<a id="ref-7f69b03a474c3fe0"></a>
+
+## CloudRobo_BestPracticePDF
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/CloudRobo%20%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-pdf.pdf)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T16:56:02.961456+00:00`
+
+<a id="ref-c4fa57de5f73616b"></a>
+
+## CloudRobo_BestPractice
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0001.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:50:47.591906+00:00`
+- `sha256`：`953963d54f8561029c85168a46996df2b2b2b91c9673c5f62aaa066133323919`
+- `original_sha256`：`721cdbd7992791d195615b45fd142ef7b83493b7d5467f74caeb603ebe92f72d`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Best--c4fa57de5f73616b/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Best--c4fa57de5f73616b/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-dc1a9e483afe4193"></a>
+
+## CloudRobo_RealInference
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0002.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:51:53.420119+00:00`
+- `sha256`：`2c82ba21519267d22901470ef13350f61423303afc0d9dd9cf5068a513b088b5`
+- `original_sha256`：`17a094c7e8729310b5ca09ffdf96bd334eeb99f2f14a63856caba7bb0e6065dd`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Real--dc1a9e483afe4193/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Real--dc1a9e483afe4193/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-b5692b0c250db726"></a>
+
+## CloudRobo_Pretrained
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0003.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:52:09.950381+00:00`
+- `sha256`：`8ee0ade40ac7e194ec4eeb1c1b8e0852d26cf3c533c0bf3e387fa2e08ce86c8c`
+- `original_sha256`：`0b78baf32bd28f50b71abd888ea17905d6035dc109d9d9da69415ede66796bef`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Pret--b5692b0c250db726/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Pret--b5692b0c250db726/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-ef25aff9f782a4ab"></a>
+
+## CloudRobo_ResidualRL
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0018.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:52:59.278592+00:00`
+- `sha256`：`dfc90c5d5f66250e772287c64c801e5975235ed9bd0a1e7de644a8fa5e50d0b5`
+- `original_sha256`：`4c93112265706bc7397008e201082ad081b526ed79e5d92ee6e92180c86ccdd7`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--ef25aff9f782a4ab/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--ef25aff9f782a4ab/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-51dc4befe0b86566"></a>
+
+## CloudRobo_ResidualOverview
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0019.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:55:58.903911+00:00`
+- `sha256`：`7e01656815f8183dcdde9b6d203aa8ccf76a84d3aa3a3f2285f0accd49f977b6`
+- `original_sha256`：`2496028c9724f9f0f75d3f5ccff5040b6cfd0d41e033053ed5d71fc76ba229fa`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--51dc4befe0b86566/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--51dc4befe0b86566/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-0f2d6a82187c441f"></a>
+
+## CloudRobo_ResidualRobot
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0021.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:04:02.642518+00:00`
+- `sha256`：`cc17fa39f5e5eeada188f5f15e7426159a3544beabb9d6ccc7ed1e0e8394fa4e`
+- `original_sha256`：`ca12d7f6ac9f646f263e119b44d8f6187a65f3f5923261e1f768285999dd2157`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--0f2d6a82187c441f/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--0f2d6a82187c441f/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-404d4857ae7682bb"></a>
+
+## CloudRobo_ResidualInstall
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0022.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:05:38.821724+00:00`
+- `sha256`：`3130d97aa4983e0cfe18926882f4e44edd7f50ca830294498290eb34da8e36ac`
+- `original_sha256`：`3e7d29512dd404247c26f4af604a21b7a1c736658458be54bd2a7f8d092efd47`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--404d4857ae7682bb/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--404d4857ae7682bb/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-5eb9e21677b1e55c"></a>
+
+## CloudRobo_ResidualActivate
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0024.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:05:43.571662+00:00`
+- `sha256`：`beae4c945832964d29f0131378c4c0d3593a6e6d5eb8b8337db0bc784973e653`
+- `original_sha256`：`4d3f6659eb68cc3e00948f3ec10faabda440fe7de748f72d348ef296cfa332a1`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--5eb9e21677b1e55c/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--5eb9e21677b1e55c/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-86241401aaf08f45"></a>
+
+## CloudRobo_ResidualData
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0026.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:04:05.895383+00:00`
+- `sha256`：`951b4edf93ea6e896918807e4318104d60a2bb407abd517b7a5f2fcf30faba90`
+- `original_sha256`：`f3b68afaaf05b0add34dc61c5e501b4bb2d3f09250ebf57dc016e9918fa7a940`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--86241401aaf08f45/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--86241401aaf08f45/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-2af60c241cd552d0"></a>
+
+## CloudRobo_ResidualDebug
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0027.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:05:45.825164+00:00`
+- `sha256`：`7790065ff95ba196b654d0160ce9d410ca68b21ed041de703ad773c36945a499`
+- `original_sha256`：`0b6d87344ee49215c63dd5def7188bc1a8846a3de8f501ec5d8236b94825f669`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--2af60c241cd552d0/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--2af60c241cd552d0/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-d2081a33eefd8930"></a>
+
+## CloudRobo_ResidualOnline
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0029.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:04:07.949491+00:00`
+- `sha256`：`fbea108489ac06b47ac49c9f99bc4076b657f761f1c4e3bf1b7cff57149e8782`
+- `original_sha256`：`f48628e884dddce8b4f726ea8dfbd428646c1b4ab5a1e8195ef57b7c896ec24b`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--d2081a33eefd8930/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--d2081a33eefd8930/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-7d91f7e751450f52"></a>
+
+## CloudRobo_ResidualCreate
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0030.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:05:50.866432+00:00`
+- `sha256`：`bf32201a66d7c69d6e01b5f8d45211f95bbcd64f2ba239da77b75d9cecceb80b`
+- `original_sha256`：`1322447d0c98f6619ea529b70c23abc9d83bba737c5b3a72c783c6a157e9bf6f`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--7d91f7e751450f52/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--7d91f7e751450f52/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-c2b7764e371954d4"></a>
+
+## CloudRobo_NotebookOverview
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0033.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:58:47.459143+00:00`
+- `sha256`：`52e74faae48624316c3bf052eebedaeb99b7aa206103007bedafa9c663379c5e`
+- `original_sha256`：`66ef6f862b9f8a1b4fb4525405c0b9e0f9a5e9e9aed32776fca56864afddf040`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Note--c2b7764e371954d4/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Note--c2b7764e371954d4/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-0224f097e5474a8f"></a>
+
+## CloudRobo_TrainAlgorithm
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0037.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:55:56.679859+00:00`
+- `sha256`：`307af1734e7e813c9275576b7a55affa86f1c44dbb7d3f82146360b829436e21`
+- `original_sha256`：`85be12959513fcd49d2236ad50a60b51ba7523bbb52d1de15177005ff3643893`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Trai--0224f097e5474a8f/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Trai--0224f097e5474a8f/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-90d1e31c1d0016f8"></a>
+
+## CloudRobo_SimConfig
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0052.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:59:46.885431+00:00`
+- `sha256`：`adc3211cc6e2ec236921a8847e9df5a8459b2884acfe6e033d9c582ab00d49c7`
+- `original_sha256`：`0a7f880b64a514d7f06829a5da8d8a97921f932dadf9d3d5f1140bfc73ff4396`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimC--90d1e31c1d0016f8/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimC--90d1e31c1d0016f8/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-547c06d0d7c62063"></a>
+
+## CloudRobo_SimImport
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0053.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:59:52.005002+00:00`
+- `sha256`：`3d050301bbd422bb435911bbed914f9646a38b58caa9046a55dd3a26681d2218`
+- `original_sha256`：`3558dcab1b4bbaee209bb0dd5eff2e052dfb8f2aaa12a00a3e9f4cab55f530dc`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimI--547c06d0d7c62063/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimI--547c06d0d7c62063/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-86a564346774003e"></a>
+
+## CloudRobo_SimScene
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0054.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:59:56.791237+00:00`
+- `sha256`：`bc24d49db070c296b5179afbb358356748f818decfda72e4c888d49ca0f85e0c`
+- `original_sha256`：`9ada5fb6c8f042436630d5498d54b65842ea57d02c229319e03e6177313227b0`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimS--86a564346774003e/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimS--86a564346774003e/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-5b5e7f2ba9864e13"></a>
+
+## CloudRobo_SimTrajectory
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0055.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:00:37.447864+00:00`
+- `sha256`：`590c5d9a3def609dbb63cc336bb640337b60201690363a5a97751b224079c323`
+- `original_sha256`：`6a53d5b2cac45fbb2fdcf0e41e8794dd8893d0a5b11245345c76d85624c451ae`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimT--5b5e7f2ba9864e13/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimT--5b5e7f2ba9864e13/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-c41c4d38b76d89b5"></a>
+
+## CloudRobo_SimOverview
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0056.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:59:42.398941+00:00`
+- `sha256`：`6dacd1e56eac35ac3b13434574879636ecf1d0cd8d84bd34e322605a83513051`
+- `original_sha256`：`007aed94a05852b35c871f1c607db576ffaefce1fe9a7d193e340e191fe9e95d`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimO--c41c4d38b76d89b5/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimO--c41c4d38b76d89b5/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-ed5202e058aafdf3"></a>
+
+## CloudRobo_SimEvaluation
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0057.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:01:02.132934+00:00`
+- `sha256`：`92680a506792998b7d794e6cab9145c682da19e0514b4c83aae41eef893d070d`
+- `original_sha256`：`1cd976a03dd539f5146727da2008b57358a18760f12e23d48b2e11b9304ef119`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimE--ed5202e058aafdf3/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimE--ed5202e058aafdf3/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-5ae8198484173dda"></a>
+
+## CloudRobo_CustomModel
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0063.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:52:24.752256+00:00`
+- `sha256`：`0b8e7299428b1edb89eb43cd1c87ba262569eac0118092ed7ef0be9a60b792b6`
+- `original_sha256`：`34589676465ef068716a479f6e31abeaf293d55646cc859cb64e78fc301aa6dd`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Cust--5ae8198484173dda/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Cust--5ae8198484173dda/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-98c113a13752203d"></a>
+
+## CloudRobo_NotebookModels
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0071.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:55:49.972121+00:00`
+- `sha256`：`52aa7708efaec925eee066feed7ed2651523ce349ba68e4d447ff047987bc475`
+- `original_sha256`：`61d014b0f49a900958aeadb9003497520a87a95d9400d2ec6a243940bf48bd7c`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Note--98c113a13752203d/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Note--98c113a13752203d/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-8d9b312e2d5356a6"></a>
+
+## CloudRobo_StarVLA
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0072.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:52:45.763247+00:00`
+- `sha256`：`b8e8d821616b28d8e87aca20e0e20559bc97853e63a2d9a2b999f8d83e453286`
+- `original_sha256`：`7b9a46276161e2ed49d1632487d9c1b65e09290360e6124ec8746f3fb3dbdd56`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Star--8d9b312e2d5356a6/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Star--8d9b312e2d5356a6/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-8a29cdc042132589"></a>
+
+## CloudRobo_VLN
+
+- [官方/原始来源](https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0074.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:52:50.052916+00:00`
+- `sha256`：`e1d47d750e39c1434c6c7cd6cec517006699bd622fd38b8fc80e6b1f86fc9531`
+- `original_sha256`：`4ee4d34884e9674a091932544f4a96c9fd53eb6bb05266481baca0fda9924dac`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_VLN--8a29cdc042132589/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_VLN--8a29cdc042132589/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-8b711de4fe937ab4"></a>
+
+## CloudRobo_BillingPDF
+
+- [官方/原始来源](https://support.huaweicloud.com/price-cloudrobo/CloudRobo%20%E8%AE%A1%E8%B4%B9%E8%AF%B4%E6%98%8E-pdf.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T17:24:33.372516+00:00`
+- `sha256`：`c8deaee595a302e81deb517bde6f81a612eda2410c720c101fb229e962227912`
+- `original_sha256`：`c8deaee595a302e81deb517bde6f81a612eda2410c720c101fb229e962227912`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/CloudRobo_Bil--8b711de4fe937ab4/document.pdf`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/CloudRobo_Bil--8b711de4fe937ab4/original.response`
+
+<a id="ref-9c1b2418fd8dd1a3"></a>
+
+## CloudRobo_BillingOverview
+
+- [官方/原始来源](https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0001.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:24:30.705564+00:00`
+- `sha256`：`3b5f586f2f32ee6c6243a326e3ae366ed4bf4e95f0d15c80b0d90c53471709a6`
+- `original_sha256`：`64721fc82090baafda7572997e00a2cb87a30f8bf20723b31b03f7b9080e5fea`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Bill--9c1b2418fd8dd1a3/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Bill--9c1b2418fd8dd1a3/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-bbb3154c12d27f1b"></a>
+
+## CloudRobo_BillingPlatform
+
+- [官方/原始来源](https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0006.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:24:36.582093+00:00`
+- `sha256`：`725a9279ebc7c117bfb62a9a25f5fda720c0e760f37b02cc42ed2984598ccf96`
+- `original_sha256`：`b549d899135c6a907381d40a846e290cd560599c96dcce929257bb32300888db`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Bill--bbb3154c12d27f1b/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Bill--bbb3154c12d27f1b/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-1a1ca3af58f2934e"></a>
+
+## CloudRobo_BillingCompute
+
+- [官方/原始来源](https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0007.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:24:39.920576+00:00`
+- `sha256`：`f444c61f61902cffdfb3e5370e4ef30cbd80d1e6eb0e6cec6b4f69b3b29d5cde`
+- `original_sha256`：`c13fc8d95a39663812a5d22093b1486b2198ec8a1ed2720365e332218d27ff52`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Bill--1a1ca3af58f2934e/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Bill--1a1ca3af58f2934e/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-ad679c4948e75582"></a>
+
+## CloudRobo_BillingManagement
+
+- [官方/原始来源](https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0017.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:24:44.236422+00:00`
+- `sha256`：`67623c978fbd54c81be816d9199a04d82cb9965002723c188747b4c8c87a30d9`
+- `original_sha256`：`f13b04dcf3f9d47836eeb9f4b7cc86cc248570f7762b6d4d44452b145490b93a`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Bill--ad679c4948e75582/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Bill--ad679c4948e75582/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-8011caa51f9cdb08"></a>
+
+## CloudRobo_BillingModels
+
+- [官方/原始来源](https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0018.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:24:41.914174+00:00`
+- `sha256`：`aa8ffe717f5b7351dcb5b7664e431d46101cd800721e356195f202c10c1804d6`
+- `original_sha256`：`0b3d73b9aaaee73829d666b5ce5f5efdd956b18842afef774cb4bcf14295092e`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Bill--8011caa51f9cdb08/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Bill--8011caa51f9cdb08/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-522f065088effec2"></a>
+
+## CloudRobo_ProductPDF
+
+- [官方/原始来源](https://support.huaweicloud.com/productdesc-cloudrobo/CloudRobo%20%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D-pdf.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:53:01.302044+00:00`
+- `sha256`：`a0ba640c3d50606a0c2e1f6b76560bc21a5ad671a107486bc152b616825742f1`
+- `original_sha256`：`a0ba640c3d50606a0c2e1f6b76560bc21a5ad671a107486bc152b616825742f1`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/CloudRobo_Pro--522f065088effec2/document.pdf`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/CloudRobo_Pro--522f065088effec2/original.response`
+
+<a id="ref-47071cf5b11448fd"></a>
+
+## CloudRobo_Overview
+
+- [官方/原始来源](https://support.huaweicloud.com/productdesc-cloudrobo/cloudrobo_01_0001.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:50:33.444457+00:00`
+- `sha256`：`dd8f2b69081f996f709399ad2319d1ddaae8c968fd9009d9c65a13833bc5f84e`
+- `original_sha256`：`6ae9720412e0117de022c50c40063256f9d82296fa9cac6ff75616d2a7e63cf2`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Over--47071cf5b11448fd/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Over--47071cf5b11448fd/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-bd48039a66701d30"></a>
+
+## CloudRobo_Functions
+
+- [官方/原始来源](https://support.huaweicloud.com/productdesc-cloudrobo/cloudrobo_01_0002.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:50:44.658447+00:00`
+- `sha256`：`6eef63c15fa5b8c1fd535b4ccc5263be34da935854097e071304f075c453b5a7`
+- `original_sha256`：`08af19cc07133aff3963604fa92067e5ce3f0cadae7349c7b7bec71c55b8acf1`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Func--bd48039a66701d30/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Func--bd48039a66701d30/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-21bde8d60d9a5c8c"></a>
+
+## CloudRobo_SharedResponsibility
+
+- [官方/原始来源](https://support.huaweicloud.com/productdesc-cloudrobo/cloudrobo_01_0003.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:24:48.582668+00:00`
+- `sha256`：`e22bfc9cc541e6b3ce6e5bdcc4dc1225688eb547dac336d448edc5dee09df6db`
+- `original_sha256`：`d019cbde554ccb5d4b9061113becf8d1cd2edf9ae841e48c6a37898cad7a6153`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Shar--21bde8d60d9a5c8c/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Shar--21bde8d60d9a5c8c/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-dfb97688196115fb"></a>
+
+## CloudRobo_AccessControl
+
+- [官方/原始来源](https://support.huaweicloud.com/productdesc-cloudrobo/cloudrobo_01_0006.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:24:46.358349+00:00`
+- `sha256`：`da9f250ebfe3f8b199b055384c8e651c663aff4d9c1a3b3f6659ff77fae719cd`
+- `original_sha256`：`f3e8465a6a55620e7f63d95cc204db92b47a98d8537971b247550eaebf7947b7`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Acce--dfb97688196115fb/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Acce--dfb97688196115fb/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-2a14c17b6dd9ee57"></a>
+
+## CloudRobo_QuickStart
+
+- [官方/原始来源](https://support.huaweicloud.com/qs-cloudrobo/cloudrobo_07_0001.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:58:44.985760+00:00`
+- `sha256`：`2c167c04576d94cbc64bb227fa897a0dfc2efe32ff9cee995df50da8c7888e3e`
+- `original_sha256`：`bbbccb7efc2138caa3bec147ec5fffb1b424008fc72522607b5459ce4b43f3cc`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Quic--2a14c17b6dd9ee57/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Quic--2a14c17b6dd9ee57/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-0d6d7a9901ad30ed"></a>
+
+## CloudRobo_R2C_Protocol
+
+- [官方/原始来源](https://support.huaweicloud.com/sdkreference-cloudrobo/cloudrobo_03_0005.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:16:16.962191+00:00`
+- `sha256`：`c7c7ca639e52f6e5cd71f29e7860cf779a6890b7f97de1d474d64ca16b4e74ae`
+- `original_sha256`：`1eba30e0086407a6d3b241ea0ebe63d2c064fd81f5d6e24c7a64986465901fd8`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_R2C_--0d6d7a9901ad30ed/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_R2C_--0d6d7a9901ad30ed/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-ee80c57df6e65a65"></a>
+
+## CloudRobo_MetaEngineAdapter
+
+- [官方/原始来源](https://support.huaweicloud.com/sdkreference-cloudrobo/cloudrobo_03_0043.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:16:29.696856+00:00`
+- `sha256`：`b3a35496cb2e7dcab9290408cd0cf78ec7559f01366a8ccfc1b1fdf0311dd515`
+- `original_sha256`：`f215451ae1e310c430542d50f8dd7a64113d9a53a1caefc98706597f82e3bbf9`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Meta--ee80c57df6e65a65/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Meta--ee80c57df6e65a65/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-40ba03387ce0e871"></a>
+
+## CloudRobo_UserGuide
+
+- [官方/原始来源](https://support.huaweicloud.com/usermanual-cloudrobo/cloudrobo_02_0001.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:58:40.407254+00:00`
+- `sha256`：`621519e12b620cbfadcbdadece55667224c3003f854a361037bfac5e3654404b`
+- `original_sha256`：`4b8719210cd8bef7ef8193ec8a2528f4562ad36e2237e2297d5690b5c0d7b043`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_User--40ba03387ce0e871/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_User--40ba03387ce0e871/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-862e4719830f1430"></a>
+
+## CloudRobo_SimAssets
+
+- [官方/原始来源](https://support.huaweicloud.com/usermanual-cloudrobo/cloudrobo_02_0053.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:01:11.369720+00:00`
+- `sha256`：`24007f3dc56a3bc9540f6554d0e69701347cd0583fccb0a35a01b98dcffa6bfe`
+- `original_sha256`：`2361bcb1ebc738f206ea9f3beb5f88e4af70b2499b9a1085b1343d1d5be685b4`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimA--862e4719830f1430/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_SimA--862e4719830f1430/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-5f85eac34e2dd131"></a>
+
+## CloudRobo_DataProduction
+
+- [官方/原始来源](https://support.huaweicloud.com/usermanual-cloudrobo/cloudrobo_02_0059.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:01:13.290678+00:00`
+- `sha256`：`0eaf53bd74c5e8e18c8fe08dad590d34fba176225ba9b75c02742442cd21537e`
+- `original_sha256`：`484fb33206d6d95945c10dbcb4b977420bd6c0db835f990cfb7b41eed1ce728d`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Data--5f85eac34e2dd131/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Data--5f85eac34e2dd131/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-bb411b5e3af32e33"></a>
+
+## CloudRobo_RobotManagement
+
+- [官方/原始来源](https://support.huaweicloud.com/usermanual-cloudrobo/cloudrobo_02_0118.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T17:04:10.194263+00:00`
+- `sha256`：`0c114688fecf19f9d2ce3f955bfbc3b4a2790c0e5761d20f7a7d9708b6aaa65c`
+- `original_sha256`：`78418b56087bfec29aec3346d11808666e6115e9e61223887ed31223e4bf3653`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Robo--bb411b5e3af32e33/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Robo--bb411b5e3af32e33/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-45c93df732722343"></a>
+
+## CAC_CrossBorder_2024
+
+- [官方/原始来源](https://www.cac.gov.cn/2024-03/22/c_1712776611775634.htm)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T17:25:36.122385+00:00`
+- `sha256`：`da829d5ef77a79286a8d057cd668585601103b1b08693e5e91c6b718e8362d4c`
+- `original_sha256`：`d03e303a9e6c32694a0b9d64ba6bdb5fb63b55fc91469ee195ad3ecfb8f59238`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CAC_CrossBorde--45c93df732722343/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CAC_CrossBorde--45c93df732722343/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-c27cf76eada13fbb"></a>
+
+## Huawei_CANN_Current
+
+- [官方/原始来源](https://www.hiascend.com/cann)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T16:21:23.962067+00:00`
+- `sha256`：`8ad508d26a587d32d1dce56e887538bf39947874639474d768f7dcef2b380348`
+- `original_sha256`：`5d9cbf335f51f01c428095ef50ddfa8d0017e3b72bfd5061a8b8d7e29d57e53b`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_CANN_Cu--c27cf76eada13fbb/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_CANN_Cu--c27cf76eada13fbb/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-fa2abd8434818329"></a>
+
+## Huawei_Atlas200IA2_Docs2410
+
+- [官方/原始来源](https://www.hiascend.com/document/detail/zh/Atlas%20200I%20A2/24.1.0/GrowthMap/index.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:51:58.230445+00:00`
+- `sha256`：`f32d643c096d3b3a1cada6cdc9b27111773b090eb390844a88fede84b8567fc7`
+- `original_sha256`：`0f0606e1836cf3c4ca2515f2a7d29ddafd7feac34040d2db04b044911c0bd9be`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas20--fa2abd8434818329/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas20--fa2abd8434818329/original.response`
+
+<a id="ref-30a39f98804601a0"></a>
+
+## Huawei_A2_Thermal241RC1
+
+- [官方/原始来源](https://www.hiascend.com/document/detail/zh/Atlas%20200I%20A2/24.1.RC1/Har/3d/atlas3d_11_0003.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:57:32.478064+00:00`
+- `sha256`：`daa1c78cd2661a313b0f218a894517f7df32a95bed952ff765348f28b1b310a0`
+- `original_sha256`：`946f1ae713b7a88ab311798fb939692fc16af056b126f8d79ae88e4c973e6eb3`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_A2_Ther--30a39f98804601a0/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_A2_Ther--30a39f98804601a0/original.response`
+
+<a id="ref-259bc91fa7bdb5fc"></a>
+
+## Huawei_DKA2_Hardware230RC2
+
+- [官方/原始来源](https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/Hardware%20Interfaces/hiug/hiug_0001.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:57:39.497120+00:00`
+- `sha256`：`c408cf8088477dbb062162828eaad4302c95ea12605109272e3168b274085099`
+- `original_sha256`：`f620f118270ab1d4ff36a6af2915576306374334a5d97b64fda3cbc996be4ef9`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_DKA2_Ha--259bc91fa7bdb5fc/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_DKA2_Ha--259bc91fa7bdb5fc/original.response`
+
+<a id="ref-ef168f1e844b2b6d"></a>
+
+## Huawei_Atlas_Cards
+
+- [官方/原始来源](https://www.hiascend.com/hardware/accelerator-card)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:52:11.359362+00:00`
+- `sha256`：`bd2db13330cc37f0f3b69b5e07d302a1c1fb340a035dcfd6a9f6b628dacad1e3`
+- `original_sha256`：`28fcbed516428532ddb688b02dfc709b889be1c9aca26550d8e60c99d79a38b1`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas_C--ef168f1e844b2b6d/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas_C--ef168f1e844b2b6d/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-a6608511e8ae71b0"></a>
+
+## Huawei_Atlas300IPro_Product
+
+- [官方/原始来源](https://www.hiascend.com/hardware/accelerator-card?tag=300I-Pro)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:57:47.225836+00:00`
+- `sha256`：`096440e70eacf18a3e085d71b716d836044663d5fe01de978f7ecfd4f688d4fb`
+- `original_sha256`：`5ec31577bc2818dc3927dd5d4259516c3041075dfd38fb0c69a1ab0f692207b9`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas30--a6608511e8ae71b0/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas30--a6608511e8ae71b0/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-a77b6fdaf1f42ecc"></a>
+
+## Huawei_Atlas300IDuo_Product
+
+- [官方/原始来源](https://www.hiascend.com/hardware/accelerator-card?tag=300I-duo)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:57:41.240824+00:00`
+- `sha256`：`927390e5862c2ea262ba874987aedcc20b1c9255e90b2d191fade28ad424efd8`
+- `original_sha256`：`9706abd9902a9e5cb99a99c284beaef1159baa2a11f8c363094db2b2531e35ca`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas30--a77b6fdaf1f42ecc/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas30--a77b6fdaf1f42ecc/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-ccbe37b98431c440"></a>
+
+## Huawei_Atlas200IA2_Product
+
+- [官方/原始来源](https://www.hiascend.com/hardware/accelerator-module-A2)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:46:14.037340+00:00`
+- `sha256`：`fce025abce161285b884f0263427996ad5126f51b2d60a7d31e91844f8571991`
+- `original_sha256`：`a9a0c4632b5730d1be3617afbe4069524c41ed61978b7aa7f982f4c4fd5229c3`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas20--ccbe37b98431c440/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas20--ccbe37b98431c440/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-63a1b4a74c0e0b34"></a>
+
+## Huawei_Atlas500Pro_Product
+
+- [官方/原始来源](https://www.hiascend.com/hardware/ai-server?tag=500pro)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:57:52.408020+00:00`
+- `sha256`：`bbfd018ed1642a9f712cc645d58635fae6a08bde667d7f04643454ff722cfeaf`
+- `original_sha256`：`2556fd46e9eb266e77480ab0ed832c09b5cc9051269e9dda9e63075d0e2e6965`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas50--63a1b4a74c0e0b34/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas50--63a1b4a74c0e0b34/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-f76d3858c1e85150"></a>
+
+## Huawei_Ascend_Processors
+
+- [官方/原始来源](https://www.hiascend.com/hardware/processor)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:52:03.754042+00:00`
+- `sha256`：`4ab18f4378a57cd239cea0cd40c381b79991da273c1c6c5916a622bdb3456593`
+- `original_sha256`：`d496bb51c360c2be9acfb5200d4e1e96c8147135a8a26f7d00ca8c1a3a4bf7f2`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Ascend_--f76d3858c1e85150/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Ascend_--f76d3858c1e85150/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-4945776c743cd6ec"></a>
+
+## Huawei_ProductBulletins
+
+- [官方/原始来源](https://www.hiascend.com/productbulletins)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:58:14.902958+00:00`
+- `sha256`：`91d7e649d85fcfa8a158bde0853da984251d1ea5f0025abe816e2f17edafdd05`
+- `original_sha256`：`7d56cf9ff206ff15116be6e9e9eeae6d072abb0e30c8ada3b6315e3f4ef78d8a`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Product--4945776c743cd6ec/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Product--4945776c743cd6ec/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-005438a0844a956d"></a>
+
+## Huawei_CANN921_Release
+
+- [官方/原始来源](https://www.hiascend.com/productbulletins/detail/833)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:22:10.237618+00:00`
+- `sha256`：`812acdc010a968ef967429df37564f4adfb7f57f77de93397b7a6e32aed3990d`
+- `original_sha256`：`5e467004ff650c85c6d2afd9efd1996c45a523dfdb88864f963cf1d8921fb897`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_CANN921--005438a0844a956d/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_CANN921--005438a0844a956d/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-6742493defffa2a6"></a>
+
+## HiSilicon_BuyChannels
+
+- [官方/原始来源](https://www.hisilicon.com/cn/WhereToBuy)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T15:56:01.997352+00:00`
+- `sha256`：`63e9b096eccaf033c3e29ff3dc4ce7fee5a0733d4943babee1854193dc93ecc7`
+- `original_sha256`：`7b846e53987c402e98613ee21de99f4a2993a7e5f73ccb3680c9776bc379809b`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_BuyC--6742493defffa2a6/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_BuyC--6742493defffa2a6/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-8a48b08cff69bce9"></a>
+
+## HiSilicon_MaterialsCenter
+
+- [官方/原始来源](https://www.hisilicon.com/cn/chip-academy/materiallist)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:25:21.494986+00:00`
+- `sha256`：`c4ed0e040d3bc2bc0519b115be929c6d01521f98df9fb15cf0ff33fa9d64cbec`
+- `original_sha256`：`4a103df9a26a44fb9b17022f27cf33007eb28d20f3665ebab4c0db5b596bc3d2`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Mate--8a48b08cff69bce9/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Mate--8a48b08cff69bce9/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-54a700c24650a71a"></a>
+
+## HiSilicon_SmartVision
+
+- [官方/原始来源](https://www.hisilicon.com/cn/products/smart-vision)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:54:35.771837+00:00`
+- `sha256`：`df28ba8a22bd31843f6af5319f0d77fba12f3b307c5e19dd267c309d543b72e6`
+- `original_sha256`：`1e4141d2eee2767a5c72aacd4bc693f7a11de5d2e0e33936eabb8498906af51d`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Smar--54a700c24650a71a/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Smar--54a700c24650a71a/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-da859a14df869329"></a>
+
+## HiSilicon_MachineVision
+
+- [官方/原始来源](https://www.hisilicon.com/cn/products/smart-vision/machine-vision)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:54:48.135692+00:00`
+- `sha256`：`bb4c336c069e555484302a9c61d6b7d2bca08b21d3a5108a2386f440269ac5af`
+- `original_sha256`：`155cd5ee92007a162889d16e96dcd14007a92c66022c5ebd0939277ac053f08c`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Mach--da859a14df869329/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Mach--da859a14df869329/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-c2d6971a30360f9c"></a>
+
+## HiSilicon_Hi3403V100
+
+- [官方/原始来源](https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3403v100)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:55:32.223146+00:00`
+- `sha256`：`8deaf6bedbfa58eec1248b44b68cbe64f80c0a9ad8b0491e0c8055549b8b69f6`
+- `original_sha256`：`6fbac51b77a0c7fabe79fbd2d80e4b686bd8c4da0c9cd493a29b6e7351809d59`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi34--c2d6971a30360f9c/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi34--c2d6971a30360f9c/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-7e91d964fbc23ad4"></a>
+
+## HiSilicon_Hi3516CV610
+
+- [官方/原始来源](https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516cv610)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:54:54.682433+00:00`
+- `sha256`：`dc167de8fda10850f5b0e24d3dde93c2cd98c80b0a1871dfe668c981c1e4c34c`
+- `original_sha256`：`25c992f0d325518f74daadfccc2f10bddddf12d7f5b8b0c8845f3dd3e32b74cd`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--7e91d964fbc23ad4/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--7e91d964fbc23ad4/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-ae8b7e0bde6a7d6d"></a>
+
+## HiSilicon_Hi3516DV500
+
+- [官方/原始来源](https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516dv500)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:55:58.676011+00:00`
+- `sha256`：`942bf74a4835c87b24d7e7387b6eae4afc13748058422a485bc25cedab6a8433`
+- `original_sha256`：`13a7405c001ebe3751442ef42ab6d75189332c53f50f9cf470207bbe5c1a3990`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--ae8b7e0bde6a7d6d/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--ae8b7e0bde6a7d6d/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-387e661a1427ecf6"></a>
+
+## HiSilicon_Hi3519AV200
+
+- [官方/原始来源](https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519av200)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:55:48.248367+00:00`
+- `sha256`：`07a0e1a1d517a2d78cb7f786b25a67e5b108c15e6150e4c4e3b920ebcd49c18c`
+- `original_sha256`：`414e7a01dce578c925fced95d6be83b19db2a3ac310ed45abccfdc5dbedc37b3`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--387e661a1427ecf6/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--387e661a1427ecf6/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-fb9339639d9cd3da"></a>
+
+## HiSilicon_Hi3519DV500
+
+- [官方/原始来源](https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519dv500)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:55:52.662281+00:00`
+- `sha256`：`c53b42cd8f623989fb600f25fb4bc449d1a79811ccb347777247dcabfc6c5e5a`
+- `original_sha256`：`42f33ff48722564128d65ca29ce662138d11a010575ca407ae7b739734c447be`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--fb9339639d9cd3da/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--fb9339639d9cd3da/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-2e72d386388d43a7"></a>
+
+## HiSilicon_Hi3559AV100
+
+- [官方/原始来源](https://www.hisilicon.com/cn/products/smart-vision/public-security/IPC/Hi3559AV100.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:04:11.104796+00:00`
+- `sha256`：`0b8273be3b038e23caea2c4001d7dc981a6afca9b0c67175de72864507358c93`
+- `original_sha256`：`a6f8fc79d32a54459518eec8a7336da7089266c12cf8fbe85ea0b7dadd189cd0`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--2e72d386388d43a7/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--2e72d386388d43a7/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-35a27bc010e9b7ba"></a>
+
+## HiSilicon_DV300_Media_PDF
+
+- [官方/原始来源](https://www.hisilicon.com/dam/asset/view/2a1c6e800feb43f4a8a31f8bcdcdc84a.pdf/download)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:30:58.692301+00:00`
+- `sha256`：`9918b4adaa27a26d0ec6a2a90a6c4226c81f7ff23a039f6085979b2140d560a3`
+- `original_sha256`：`9918b4adaa27a26d0ec6a2a90a6c4226c81f7ff23a039f6085979b2140d560a3`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_DV3--35a27bc010e9b7ba/document.pdf`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_DV3--35a27bc010e9b7ba/original.response`
+
+<a id="ref-8b4b0448c818638c"></a>
+
+## HiSilicon_DV300_SVP_PDF
+
+- [官方/原始来源](https://www.hisilicon.com/dam/asset/view/4ef2e012655a4aae8c80619b8cfd093f.pdf/download)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:31:05.047504+00:00`
+- `sha256`：`267fb1a80ec0641d475e68e1e407633fdc1d5c71a9cb4746d2510ccdeb127e51`
+- `original_sha256`：`267fb1a80ec0641d475e68e1e407633fdc1d5c71a9cb4746d2510ccdeb127e51`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_DV3--8b4b0448c818638c/document.pdf`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_DV3--8b4b0448c818638c/original.response`
+
+<a id="ref-03c5df99d558fb36"></a>
+
+## HiSilicon_LiteOS_PDF
+
+- [官方/原始来源](https://www.hisilicon.com/dam/asset/view/5103be8a8500426e8b60325acbfc9359.pdf/download)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:30:51.031931+00:00`
+- `sha256`：`e7a8502efe1383487c378fbb628df56e70828445e2b257f8bfd1e72aa6d69d28`
+- `original_sha256`：`e7a8502efe1383487c378fbb628df56e70828445e2b257f8bfd1e72aa6d69d28`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_Lit--03c5df99d558fb36/document.pdf`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_Lit--03c5df99d558fb36/original.response`
+
+<a id="ref-7dcd59b2f2952de6"></a>
+
+## HiSilicon_DV300_SDK_PDF
+
+- [官方/原始来源](https://www.hisilicon.com/dam/asset/view/7c925d6a091b49b5b1d1b0dc28d6dc4b.pdf/download)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:30:55.490918+00:00`
+- `sha256`：`095a3e11b94acc73fc897b1ce510f7c1a80d144b9b491e58318990e9e534565e`
+- `original_sha256`：`095a3e11b94acc73fc897b1ce510f7c1a80d144b9b491e58318990e9e534565e`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_DV3--7dcd59b2f2952de6/document.pdf`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_DV3--7dcd59b2f2952de6/original.response`
+
+<a id="ref-00381035722b48d1"></a>
+
+## HiSilicon_AcademyPDF
+
+- [官方/原始来源](https://www.hisilicon.com/dam/asset/view/d8442760823b4f5e9fabb6c5bd684846.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T15:56:11.006931+00:00`
+- `sha256`：`251948717a8648f3fc20fb32156d5530585b20eb3b86c11289d5d70b7cf86989`
+- `original_sha256`：`251948717a8648f3fc20fb32156d5530585b20eb3b86c11289d5d70b7cf86989`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_Aca--00381035722b48d1/document.pdf`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_Aca--00381035722b48d1/original.response`
+
+<a id="ref-2d87211dd1a6a815"></a>
+
+## HiSilicon_Taurus_PDF
+
+- [官方/原始来源](https://www.hisilicon.com/dam/asset/view/fc2eadf9366b49058f5c8a91edcf1b13.pdf/download)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T16:30:44.000838+00:00`
+- `sha256`：`f3f870c9d4d33201ed59cd120662edaace46ba17956a98763ad61822297e4659`
+- `original_sha256`：`f3f870c9d4d33201ed59cd120662edaace46ba17956a98763ad61822297e4659`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_Tau--2d87211dd1a6a815/document.pdf`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_Tau--2d87211dd1a6a815/original.response`
+
+<a id="ref-3d32c10af716a660"></a>
+
+## HiSilicon_HiSpark_Vision
+
+- [官方/原始来源](https://www.hisilicon.com/en/products/developer-platform/perceptual-computing)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T15:52:32.617853+00:00`
+- `sha256`：`90345e90783c897d6d0ef744948a87584fe09b719a51bf5cd079b6b7868e6de7`
+- `original_sha256`：`58686dfa3b700dd45cceb4f7206b83fd46980c4a4ee07061524537491036010e`
+- `file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_HiSp--3d32c10af716a660/index.html`
+- `original_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_HiSp--3d32c10af716a660/original.response`
+- 未取得依赖：38 项；详见本地 metadata。
+
+<a id="legacy-50125edc4810d8b2"></a>
+
+## huawei-cann
+
+- [官方/原始来源](https://www.hiascend.com/software/cann)
+- `archive_status`：`200`
+- `local_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/legacy/huawei-cann.txt`
+
+<a id="legacy-a4a721ba59b280fc"></a>
+
+## huawei-cloudmodelarts
+
+- [官方/原始来源](https://support.huaweicloud.com/intl/en-us/productdesc-modelarts/modelarts_01_0001.html)
+- `archive_status`：`200`
+- `local_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/legacy/huawei-cloudmodelarts.txt`
+
+<a id="legacy-96c13acd960bccec"></a>
+
+## huawei-mindspore
+
+- [官方/原始来源](https://raw.githubusercontent.com/mindspore-ai/mindspore/master/README.md)
+- `archive_status`：`200`
+- `local_file`：`01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/legacy/huawei-mindspore.txt`

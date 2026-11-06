@@ -1,0 +1,122 @@
+[
+  {
+    "name": "CloudRobo_ProductPDF",
+    "url": "https://support.huaweicloud.com/productdesc-cloudrobo/CloudRobo%20%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D-pdf.pdf",
+    "expected": "any",
+    "used_by": [
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_Functions",
+    "url": "https://support.huaweicloud.com/productdesc-cloudrobo/cloudrobo_01_0002.html",
+    "expected": "any",
+    "used_by": [
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_AccessControl",
+    "url": "https://support.huaweicloud.com/productdesc-cloudrobo/cloudrobo_01_0006.html",
+    "expected": "any",
+    "used_by": [
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_RealInference",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0002.html",
+    "expected": "any",
+    "used_by": [
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_NotebookModels",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0071.html",
+    "expected": "any",
+    "used_by": [
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_TrainAlgorithm",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0037.html",
+    "expected": "any",
+    "used_by": [
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_Pretrained",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0003.html",
+    "expected": "any",
+    "used_by": [
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_CustomModel",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0063.html",
+    "expected": "any",
+    "used_by": [
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_R2C_Protocol",
+    "url": "https://support.huaweicloud.com/sdkreference-cloudrobo/cloudrobo_03_0005.html",
+    "expected": "any",
+    "used_by": [
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_MetaEngineAdapter",
+    "url": "https://support.huaweicloud.com/sdkreference-cloudrobo/cloudrobo_03_0043.html",
+    "expected": "any",
+    "used_by": [
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_SimEvaluation",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0057.html",
+    "expected": "any",
+    "used_by": [
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "O3DE_ROS2_Gem",
+    "url": "https://docs.o3de.org/docs/user-guide/gems/reference/robotics/ros2/",
+    "expected": "any",
+    "used_by": [
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "LeRobot_License_051",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/v0.5.1/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_BillingPDF",
+    "url": "https://support.huaweicloud.com/price-cloudrobo/CloudRobo%20%E8%AE%A1%E8%B4%B9%E8%AF%B4%E6%98%8E-pdf.pdf",
+    "expected": "any",
+    "used_by": [
+      "02E_CloudRobo_Development_Platform"
+    ]
+  },
+  {
+    "name": "CloudRobo_BillingManagement",
+    "url": "https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0017.html",
+    "expected": "any",
+    "used_by": [
+      "02E_CloudRobo_Development_Platform"
+    ]
+  }
+]

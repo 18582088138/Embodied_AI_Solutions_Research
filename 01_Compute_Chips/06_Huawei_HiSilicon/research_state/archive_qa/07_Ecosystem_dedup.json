@@ -1,0 +1,36 @@
+{
+  "time_utc": "2026-11-04T17:37:25.690902+00:00",
+  "summary": {
+    "complete_static": 19,
+    "partial_static": 3,
+    "failed": 0
+  },
+  "names": [
+    "HiSilicon_BuyChannels",
+    "HiSilicon_AcademyPDF",
+    "HiView_README",
+    "HiView_ArchitectureImage",
+    "HiView_3403_VPSS",
+    "OH_HiSilicon_README",
+    "OH_Driver_License",
+    "OH_Media_EULA",
+    "Ascend_Pytorch_README",
+    "TorchNPU_Compatibility",
+    "MindSpore_Lite_README",
+    "Ultralytics_Ascend_Doc",
+    "Ultralytics_License",
+    "CloudRobo_ProductPDF",
+    "CloudRobo_VLN",
+    "CloudRobo_ResidualDebug",
+    "LeRobot_License_051",
+    "RLinf_README",
+    "RLinf_License",
+    "RLinf_OpenPI_Guide",
+    "RLinf_StarVLA_Guide",
+    "RLinf_Wan_Guide"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

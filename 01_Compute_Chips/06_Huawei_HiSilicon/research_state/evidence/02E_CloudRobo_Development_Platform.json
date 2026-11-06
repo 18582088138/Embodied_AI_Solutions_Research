@@ -1,0 +1,110 @@
+{
+  "source_ids": [
+    "CloudRobo_ProductPDF",
+    "CloudRobo_Functions",
+    "CloudRobo_AccessControl",
+    "CloudRobo_RealInference",
+    "CloudRobo_NotebookModels",
+    "CloudRobo_TrainAlgorithm",
+    "CloudRobo_Pretrained",
+    "CloudRobo_CustomModel",
+    "CloudRobo_R2C_Protocol",
+    "CloudRobo_MetaEngineAdapter",
+    "CloudRobo_SimEvaluation",
+    "O3DE_ROS2_Gem",
+    "LeRobot_License_051",
+    "CloudRobo_BillingPDF",
+    "CloudRobo_BillingManagement"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/04_cloudrobo_architecture.png",
+      "sha256": "3fad872f73470405f0a6a619b21b43a0ad90363bf8e113c41b0b4c35f053ff41",
+      "source_id": "CloudRobo_ProductPDF",
+      "source_url": "https://support.huaweicloud.com/productdesc-cloudrobo/CloudRobo%20%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D-pdf.pdf",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/CloudRobo_Pro--522f065088effec2/document.pdf",
+      "original_sha256": "a0ba640c3d50606a0c2e1f6b76560bc21a5ad671a107486bc152b616825742f1",
+      "operation": "2026-11-02 PDF物理第5页110dpi完整渲染；已逐图打开检查，文字完整"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "OBS/SWR/CCE/ModelArts分别承担存储镜像评测训练",
+      "source_id": "CloudRobo_ProductPDF",
+      "location": "物理19—20页；物理18页配额表",
+      "finding": "配额非每任务可用量，云平台不等于端侧支持",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "source_url": "https://support.huaweicloud.com/productdesc-cloudrobo/CloudRobo%20%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D-pdf.pdf",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/CloudRobo_Pro--522f065088effec2/original.response",
+      "retrieved_at_utc": "2026-11-04T16:53:04.019493+00:00",
+      "material_version": "文档01，2026-11-02；完整20页PDF"
+    },
+    {
+      "claim": "R2C映射更新范围与终态读取不同",
+      "source_id": "CloudRobo_R2C_Protocol",
+      "location": "配置使用与更新规则、输入输出和停止条件",
+      "finding": "现存服务重启不读取OBS新配置；分钟和次数为或逻辑",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "source_url": "https://support.huaweicloud.com/sdkreference-cloudrobo/cloudrobo_03_0005.html",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_R2C_--0d6d7a9901ad30ed/original.response",
+      "retrieved_at_utc": "2026-11-04T17:16:19.243550+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "ROS2适配器队列与动作频率分层",
+      "source_id": "CloudRobo_MetaEngineAdapter",
+      "location": "runtime/subscriptions/init_joints配置表",
+      "finding": "10—30Hz建议非policy/servo；qos为queue depth；启动摆位需核验",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "source_url": "https://support.huaweicloud.com/sdkreference-cloudrobo/cloudrobo_03_0043.html",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Meta--ee80c57df6e65a65/original.response",
+      "retrieved_at_utc": "2026-11-04T17:16:33.063349+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "原生ROS2 Gem具有clock/tf/namespace机制",
+      "source_id": "O3DE_ROS2_Gem",
+      "location": "ROS 2 Gem features",
+      "finding": "引擎原生ROS2与R2C语义转换分开，未测端到端性能",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "source_url": "https://docs.o3de.org/docs/user-guide/gems/reference/robotics/ros2/",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/O3DE_ROS2_Gem--dc8455e9dd28d51b/original.response",
+      "retrieved_at_utc": "2026-11-04T17:17:20.064711+00:00",
+      "material_version": "无发行版本号；2026-11-05文档快照，文档CC BY4.0"
+    },
+    {
+      "claim": "LeRobot许可不授所有平台资产和SDK",
+      "source_id": "LeRobot_License_051",
+      "location": "Apache2.0正文及派生通知",
+      "conditions": "固定v0.5.1；SDK包/权重/数据未取",
+      "finding": "文档、代码、二进制、模型与本体许可分层",
+      "evidence_type": "官方事实与条件分析",
+      "source_url": "https://raw.githubusercontent.com/huggingface/lerobot/v0.5.1/LICENSE",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/LeRobot_License_05--e62ae236f246ce5d/original.response",
+      "retrieved_at_utc": "2026-11-04T16:56:20.670298+00:00",
+      "material_version": "v0.5.1固定tag，主体Apache2.0及派生通知"
+    },
+    {
+      "claim": "IAM细粒度策略需主动配置，后台使用委托临时凭据",
+      "source_id": "CloudRobo_AccessControl",
+      "location": "IAM权限控制与委托授权",
+      "finding": "按页内默认权限说明核对租户，工作空间不当物理独占",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "source_url": "https://support.huaweicloud.com/productdesc-cloudrobo/cloudrobo_01_0006.html",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Acce--dfb97688196115fb/original.response",
+      "retrieved_at_utc": "2026-11-04T17:24:48.434911+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    }
+  ],
+  "manual_review": {
+    "coverage": "云开发独立专题：对象与资源、IAM/委托/证书、模型源—训练—注册—部署—观测/动作链、JSON/YAML生效、ROS2同步/队列、版本/许可/预算/回退和复建",
+    "versions_and_measurements": "旧200DK/DV300、当前A2/海思产品与CloudRobo云侧严格分开；未运行硬件，未以功能界面代替benchmark",
+    "maturity_and_licenses": "代码、权重、数据、资产、本体SDK、商业云合同分别记录，未取得项不授予许可",
+    "figures_opened": "复用本轮已实际打开的官方CloudRobo完整架构页，或02/03已核验原图；不足以证明性能"
+  }
+}

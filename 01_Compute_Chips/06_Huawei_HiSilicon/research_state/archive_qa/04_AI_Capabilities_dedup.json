@@ -1,0 +1,42 @@
+{
+  "time_utc": "2026-11-04T17:34:47.406339+00:00",
+  "summary": {
+    "complete_static": 19,
+    "partial_static": 9,
+    "failed": 0
+  },
+  "names": [
+    "CloudRobo_ProductPDF",
+    "CloudRobo_Pretrained",
+    "CloudRobo_CustomModel",
+    "CloudRobo_NotebookModels",
+    "CloudRobo_TrainAlgorithm",
+    "CloudRobo_StarVLA",
+    "CloudRobo_ResidualOverview",
+    "CloudRobo_VLN",
+    "CloudRobo_BestPractice",
+    "OpenVLA_ModelCard",
+    "Qwen3VL_ModelCard",
+    "StarVLA_ModelCard",
+    "FAST_ModelCard",
+    "OpenPI_README",
+    "LeRobot_README_051",
+    "LeRobot_License_051",
+    "Ultralytics_Ascend_Doc",
+    "VLLM_Ascend_FAQ",
+    "HiSilicon_Hi3519DV500",
+    "HiSilicon_Hi3519AV200",
+    "CloudRobo_R2C_Protocol",
+    "RLinf_README",
+    "RLinf_Ascend_Container",
+    "RLinf_OSMesa_Setup",
+    "RLinf_OpenPI_Guide",
+    "RLinf_StarVLA_Guide",
+    "RLinf_Wan_Guide",
+    "RLinf_License"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

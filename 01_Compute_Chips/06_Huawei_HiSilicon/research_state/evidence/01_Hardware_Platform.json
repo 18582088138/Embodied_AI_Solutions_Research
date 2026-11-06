@@ -1,0 +1,604 @@
+{
+  "platform": "Huawei_HiSilicon",
+  "dimension": "01_Hardware_Platform",
+  "data_cutoff": "2026-11-05 Asia/Shanghai",
+  "reviewed_at_utc": "2026-11-04T16:15:41.761595+00:00",
+  "source_ids": [
+    "Huawei_Atlas200IA2_Product",
+    "HiSilicon_Hi3403V100",
+    "HiSilicon_Hi3519AV200",
+    "HiSilicon_Hi3519DV500",
+    "HiSilicon_Hi3516DV500",
+    "HiSilicon_Hi3516CV610",
+    "HiSilicon_Hi3559AV100",
+    "HiSilicon_MachineVision",
+    "HiSilicon_SmartVision",
+    "Huawei_Ascend_Processors",
+    "Huawei_Atlas_Cards",
+    "HiSilicon_BuyChannels",
+    "HiSilicon_AcademyPDF"
+  ],
+  "accepted_sources": [
+    {
+      "source_id": "Huawei_Atlas200IA2_Product",
+      "label": "Atlas 200I A2",
+      "url": "https://www.hiascend.com/hardware/accelerator-module-A2",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas20--ccbe37b98431c440/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas20--ccbe37b98431c440/original.response",
+      "original_sha256": "a9a0c4632b5730d1be3617afbe4069524c41ed61978b7aa7f982f4c4fd5229c3",
+      "sha256": "fce025abce161285b884f0263427996ad5126f51b2d60a7d31e91844f8571991",
+      "retrieved_at_utc": "2026-11-04T15:46:18.440423+00:00",
+      "archive_status": "complete_static",
+      "unavailable_assets": {
+        "https://res.hc-cdn.com/CDP-Jssdk/2.6.4/web/uga-cdp-jssdk.window.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "unavailable_presentation_assets": {},
+      "body_review": "已读目标产品/规格或资料路径正文；未用导航题名证明型号"
+    },
+    {
+      "source_id": "HiSilicon_Hi3403V100",
+      "label": "Hi3403V100",
+      "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3403v100",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi34--c2d6971a30360f9c/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi34--c2d6971a30360f9c/original.response",
+      "original_sha256": "6fbac51b77a0c7fabe79fbd2d80e4b686bd8c4da0c9cd493a29b6e7351809d59",
+      "sha256": "8deaf6bedbfa58eec1248b44b68cbe64f80c0a9ad8b0491e0c8055549b8b69f6",
+      "retrieved_at_utc": "2026-11-04T15:55:36.357424+00:00",
+      "archive_status": "complete_static",
+      "unavailable_assets": {
+        "https://www.hisilicon.com/-/media/htemplate-standard/feloader.js?sttl=1793615861706": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "unavailable_presentation_assets": {},
+      "body_review": "已读目标产品/规格或资料路径正文；未用导航题名证明型号"
+    },
+    {
+      "source_id": "HiSilicon_Hi3519AV200",
+      "label": "Hi3519AV200",
+      "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519av200",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--387e661a1427ecf6/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--387e661a1427ecf6/original.response",
+      "original_sha256": "414e7a01dce578c925fced95d6be83b19db2a3ac310ed45abccfdc5dbedc37b3",
+      "sha256": "07a0e1a1d517a2d78cb7f786b25a67e5b108c15e6150e4c4e3b920ebcd49c18c",
+      "retrieved_at_utc": "2026-11-04T15:55:51.885466+00:00",
+      "archive_status": "complete_static",
+      "unavailable_assets": {
+        "https://www.hisilicon.com/-/media/htemplate-standard/feloader.js?sttl=1793615862695": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "unavailable_presentation_assets": {},
+      "body_review": "已读目标产品/规格或资料路径正文；未用导航题名证明型号"
+    },
+    {
+      "source_id": "HiSilicon_Hi3519DV500",
+      "label": "Hi3519DV500",
+      "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519dv500",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--fb9339639d9cd3da/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--fb9339639d9cd3da/original.response",
+      "original_sha256": "42f33ff48722564128d65ca29ce662138d11a010575ca407ae7b739734c447be",
+      "sha256": "c53b42cd8f623989fb600f25fb4bc449d1a79811ccb347777247dcabfc6c5e5a",
+      "retrieved_at_utc": "2026-11-04T15:55:55.988547+00:00",
+      "archive_status": "complete_static",
+      "unavailable_assets": {
+        "https://www.hisilicon.com/-/media/htemplate-standard/feloader.js?sttl=1793615863012": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "unavailable_presentation_assets": {},
+      "body_review": "已读目标产品/规格或资料路径正文；未用导航题名证明型号"
+    },
+    {
+      "source_id": "HiSilicon_Hi3516DV500",
+      "label": "Hi3516DV500",
+      "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516dv500",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--ae8b7e0bde6a7d6d/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--ae8b7e0bde6a7d6d/original.response",
+      "original_sha256": "13a7405c001ebe3751442ef42ab6d75189332c53f50f9cf470207bbe5c1a3990",
+      "sha256": "942bf74a4835c87b24d7e7387b6eae4afc13748058422a485bc25cedab6a8433",
+      "retrieved_at_utc": "2026-11-04T15:56:01.654577+00:00",
+      "archive_status": "complete_static",
+      "unavailable_assets": {
+        "https://www.hisilicon.com/-/media/htemplate-standard/feloader.js?sttl=1793615861836": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "unavailable_presentation_assets": {},
+      "body_review": "已读目标产品/规格或资料路径正文；未用导航题名证明型号"
+    },
+    {
+      "source_id": "HiSilicon_Hi3516CV610",
+      "label": "Hi3516CV610",
+      "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516cv610",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--7e91d964fbc23ad4/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--7e91d964fbc23ad4/original.response",
+      "original_sha256": "25c992f0d325518f74daadfccc2f10bddddf12d7f5b8b0c8845f3dd3e32b74cd",
+      "sha256": "dc167de8fda10850f5b0e24d3dde93c2cd98c80b0a1871dfe668c981c1e4c34c",
+      "retrieved_at_utc": "2026-11-04T15:54:58.249797+00:00",
+      "archive_status": "complete_static",
+      "unavailable_assets": {
+        "https://www.hisilicon.com/-/media/htemplate-standard/feloader.js?sttl=1793615862582": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "unavailable_presentation_assets": {},
+      "body_review": "已读目标产品/规格或资料路径正文；未用导航题名证明型号"
+    },
+    {
+      "source_id": "HiSilicon_Hi3559AV100",
+      "label": "Hi3559AV100",
+      "url": "https://www.hisilicon.com/cn/products/smart-vision/public-security/IPC/Hi3559AV100.html",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--2e72d386388d43a7/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--2e72d386388d43a7/original.response",
+      "original_sha256": "a6f8fc79d32a54459518eec8a7336da7089266c12cf8fbe85ea0b7dadd189cd0",
+      "sha256": "0b8273be3b038e23caea2c4001d7dc981a6afca9b0c67175de72864507358c93",
+      "retrieved_at_utc": "2026-11-04T16:04:18.426310+00:00",
+      "archive_status": "complete_static",
+      "unavailable_assets": {
+        "https://www.hisilicon.com/-/media/htemplate-standard/feloader.js?sttl=1793615862769": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "unavailable_presentation_assets": {},
+      "body_review": "已读目标产品/规格或资料路径正文；未用导航题名证明型号"
+    },
+    {
+      "source_id": "HiSilicon_MachineVision",
+      "label": "机器视觉总览",
+      "url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Mach--da859a14df869329/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Mach--da859a14df869329/original.response",
+      "original_sha256": "155cd5ee92007a162889d16e96dcd14007a92c66022c5ebd0939277ac053f08c",
+      "sha256": "bb4c336c069e555484302a9c61d6b7d2bca08b21d3a5108a2386f440269ac5af",
+      "retrieved_at_utc": "2026-11-04T15:54:51.184829+00:00",
+      "archive_status": "complete_static",
+      "unavailable_assets": {
+        "https://www.hisilicon.com/-/media/htemplate-standard/feloader.js?sttl=1792121134963": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "unavailable_presentation_assets": {},
+      "body_review": "已读目标产品/规格或资料路径正文；未用导航题名证明型号"
+    },
+    {
+      "source_id": "HiSilicon_SmartVision",
+      "label": "智慧视觉总览",
+      "url": "https://www.hisilicon.com/cn/products/smart-vision",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Smar--54a700c24650a71a/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Smar--54a700c24650a71a/original.response",
+      "original_sha256": "1e4141d2eee2767a5c72aacd4bc693f7a11de5d2e0e33936eabb8498906af51d",
+      "sha256": "df28ba8a22bd31843f6af5319f0d77fba12f3b307c5e19dd267c309d543b72e6",
+      "retrieved_at_utc": "2026-11-04T15:54:40.824218+00:00",
+      "archive_status": "complete_static",
+      "unavailable_assets": {
+        "https://www.hisilicon.com/-/media/htemplate-standard/feloader.js?sttl=1793089324056": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "unavailable_presentation_assets": {},
+      "body_review": "已读目标产品/规格或资料路径正文；未用导航题名证明型号"
+    },
+    {
+      "source_id": "Huawei_Ascend_Processors",
+      "label": "Ascend 950PR",
+      "url": "https://www.hiascend.com/hardware/processor",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Ascend_--f76d3858c1e85150/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Ascend_--f76d3858c1e85150/original.response",
+      "original_sha256": "d496bb51c360c2be9acfb5200d4e1e96c8147135a8a26f7d00ca8c1a3a4bf7f2",
+      "sha256": "4ab18f4378a57cd239cea0cd40c381b79991da273c1c6c5916a622bdb3456593",
+      "retrieved_at_utc": "2026-11-04T15:52:06.436035+00:00",
+      "archive_status": "complete_static",
+      "unavailable_assets": {
+        "https://res.hc-cdn.com/CDP-Jssdk/2.6.4/web/uga-cdp-jssdk.window.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "unavailable_presentation_assets": {},
+      "body_review": "已读目标产品/规格或资料路径正文；未用导航题名证明型号"
+    },
+    {
+      "source_id": "Huawei_Atlas_Cards",
+      "label": "Atlas 350",
+      "url": "https://www.hiascend.com/hardware/accelerator-card",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas_C--ef168f1e844b2b6d/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas_C--ef168f1e844b2b6d/original.response",
+      "original_sha256": "28fcbed516428532ddb688b02dfc709b889be1c9aca26550d8e60c99d79a38b1",
+      "sha256": "bd2db13330cc37f0f3b69b5e07d302a1c1fb340a035dcfd6a9f6b628dacad1e3",
+      "retrieved_at_utc": "2026-11-04T15:52:13.429248+00:00",
+      "archive_status": "complete_static",
+      "unavailable_assets": {
+        "https://res.hc-cdn.com/CDP-Jssdk/2.6.4/web/uga-cdp-jssdk.window.js": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "unavailable_presentation_assets": {},
+      "body_review": "已读目标产品/规格或资料路径正文；未用导航题名证明型号"
+    },
+    {
+      "source_id": "HiSilicon_BuyChannels",
+      "label": "购买渠道",
+      "url": "https://www.hisilicon.com/cn/WhereToBuy",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_BuyC--6742493defffa2a6/index.html",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_BuyC--6742493defffa2a6/original.response",
+      "original_sha256": "7b846e53987c402e98613ee21de99f4a2993a7e5f73ccb3680c9776bc379809b",
+      "sha256": "63e9b096eccaf033c3e29ff3dc4ce7fee5a0733d4943babee1854193dc93ecc7",
+      "retrieved_at_utc": "2026-11-04T15:56:04.736234+00:00",
+      "archive_status": "partial_static",
+      "unavailable_assets": {
+        "https://www.hisilicon.com/Assets/HisiliconV4/images/WhereToBuy//load.png": "HTTPError: HTTP Error 404: Not Found",
+        "https://www.hisilicon.com/-/media/htemplate-standard/feloader.js?sttl=1793703217753": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      },
+      "unavailable_presentation_assets": {
+        "https://www.hisilicon.com/Assets/HisiliconV4/images/WhereToBuy//load.png": "HTTPError: HTTP Error 404: Not Found"
+      },
+      "body_review": "已读目标产品/规格或资料路径正文；未用导航题名证明型号"
+    },
+    {
+      "source_id": "HiSilicon_AcademyPDF",
+      "label": "上海海思学堂宣传材料",
+      "url": "https://www.hisilicon.com/dam/asset/view/d8442760823b4f5e9fabb6c5bd684846.pdf",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_Aca--00381035722b48d1/document.pdf",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_Aca--00381035722b48d1/original.response",
+      "original_sha256": "251948717a8648f3fc20fb32156d5530585b20eb3b86c11289d5d70b7cf86989",
+      "sha256": "251948717a8648f3fc20fb32156d5530585b20eb3b86c11289d5d70b7cf86989",
+      "retrieved_at_utc": "2026-11-04T15:56:16.261779+00:00",
+      "archive_status": "complete_static",
+      "unavailable_assets": {},
+      "unavailable_presentation_assets": {},
+      "body_review": "已读目标产品/规格或资料路径正文；未用导航题名证明型号"
+    }
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/Atlas200IA2_official_module.png",
+      "sha256": "c4b7ecd264c003d14acd71954bb787bc7a35639c2cba9f3b3caa589400743c8d",
+      "source_id": "Huawei_Atlas200IA2_Product",
+      "source_url": "https://www.hiascend.com/_static3/img-Atlas200IA2.BwE5FpyH.png",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas20--ccbe37b98431c440/assets/images/6a3edabcd5a25fadd2c77f6c.png",
+      "original_sha256": "c4b7ecd264c003d14acd71954bb787bc7a35639c2cba9f3b3caa589400743c8d",
+      "operation": "官方资产原件复制，未裁剪、未重绘；产品页声明图片仅供参考",
+      "visually_reviewed": true,
+      "review": "已实际打开：模块透视外观清晰，未用照片认定接口引脚、内存颗粒容量或散热能力"
+    },
+    {
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/Atlas200IA2_official_specs.png",
+      "sha256": "6cabbc5a7d796ea737a5ce3c817eed53644f509f4e9e545468b7b7d47264753c",
+      "source_id": "Huawei_Atlas200IA2_Product",
+      "source_url": "https://www.hiascend.com/hardware/accelerator-module-A2",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas20--ccbe37b98431c440/index.html",
+      "original_sha256": "fce025abce161285b884f0263427996ad5126f51b2d60a7d31e91844f8571991",
+      "operation": "以127.0.0.1临时只读服务渲染已归档index.html；cua浏览器fullPage截图1274×3301；Pillow裁剪框(60,1100,1210,2050)，保留标题、两规格列和全部行。未修改HTML/CSS。",
+      "intermediate_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/Atlas200IA2_local_fullpage.png",
+      "intermediate_sha256": "382376ddc8aab6258eec919b8eb5f3a743322e3b2695b8d7b76a3e0e6633ce98",
+      "visually_reviewed": true,
+      "review": "已实际打开最终裁图：标题、INT8/FP16、内存、编解码、接口、功耗、温度及尺寸完整可读；首次试裁切不完整的图片已被完整裁图替换"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "A2两规格列算力、CPU、容量、功耗分别对应",
+      "source_id": "Huawei_Atlas200IA2_Product",
+      "source_url": "https://www.hiascend.com/hardware/accelerator-module-A2",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas20--ccbe37b98431c440/original.response",
+      "location": "技术规格表",
+      "quote": "20 TOPS INT8， 10 TFLOPS FP16 / 8 TOPS INT8， 4 TFLOPS FP16",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:46:18.440423+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "模块规格列；未标稀疏与负载",
+      "finding": "不创造芯片后缀/料号；典型功耗不当最大功耗或模型能效"
+    },
+    {
+      "claim": "A2编码/解码不是模型吞吐",
+      "source_id": "Huawei_Atlas200IA2_Product",
+      "source_url": "https://www.hiascend.com/hardware/accelerator-module-A2",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas20--ccbe37b98431c440/original.response",
+      "location": "技术规格：编解码能力",
+      "quote": "40路 1080P 30FPS",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:46:18.440423+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "H264/H265硬件解码条目",
+      "finding": "不推导40路相机/识别/闭环30fps"
+    },
+    {
+      "claim": "A2高速接口是共享可配置lane池",
+      "source_id": "Huawei_Atlas200IA2_Product",
+      "source_url": "https://www.hiascend.com/hardware/accelerator-module-A2",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas20--ccbe37b98431c440/original.response",
+      "location": "技术规格：高速接口/低速接口",
+      "quote": "高速SerDes：8lane / UART * 5 / I2C * 4 / SPI * 2 / CAN * 4",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:46:18.440423+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "精确pinmux与板级配置未取得",
+      "finding": "不推出PCIe x8、全部接口并发或原生EtherCAT/CAN FD"
+    },
+    {
+      "claim": "A2温度原文需要交叉核验",
+      "source_id": "Huawei_Atlas200IA2_Product",
+      "source_url": "https://www.hiascend.com/hardware/accelerator-module-A2",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas20--ccbe37b98431c440/original.response",
+      "location": "技术规格：工作环境温度",
+      "quote": "-20℃～+103℃",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:46:18.440423+00:00",
+      "evidence_type": "官方原文与未解决口径",
+      "conditions": "页面将其标签为环境温度；热手册未有效归档",
+      "finding": "保留原文；不改成结温、不作环境验收规范"
+    },
+    {
+      "claim": "Hi3403V100双异构引擎及10.4/15.2口径",
+      "source_id": "HiSilicon_Hi3403V100",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3403v100",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi34--c2d6971a30360f9c/original.response",
+      "location": "关键特性：智能视频分析",
+      "quote": "引擎1 支持4.8Tops算力，支持INT4/INT8/FP16；引擎2 支持5.6Tops算力，支持INT8/INT16",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:55:36.357424+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "详细页10.4T INT8，15.2T INT4；简介10T",
+      "finding": "不作均质NPU、不假设单网络占满两引擎、不补算FP16"
+    },
+    {
+      "claim": "AV200开放计算仅2.5T",
+      "source_id": "HiSilicon_Hi3519AV200",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519av200",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--387e661a1427ecf6/original.response",
+      "location": "关键特性：智能视频分析",
+      "quote": "2.5T 开放，5.6T 为 HNR 使用未开放",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:55:51.885466+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "总8.1T INT8；HNR保留",
+      "finding": "开放占比30.9%、高估倍数3.24仅算术分析；不将HNR算VLA资源"
+    },
+    {
+      "claim": "DV500深度尺寸、视差和性能不能组合",
+      "source_id": "HiSilicon_Hi3519DV500",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519dv500",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--fb9339639d9cd3da/original.response",
+      "location": "智能视频分析",
+      "quote": "最大分辨率 2048 x 2048，最大视差 224，处理性能 720p@30fps",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:55:55.988547+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "没有同时成立测试条件",
+      "finding": "不宣称2048²@30fps/完整SLAM"
+    },
+    {
+      "claim": "DV500物理输入与虚拟通道独立",
+      "source_id": "HiSilicon_Hi3516DV500",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516dv500",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--ae8b7e0bde6a7d6d/original.response",
+      "location": "视频输入接口",
+      "quote": "最高支持 2 路 sensor 输入 / MIPI 虚拟通道输入 1~4 路 YUV",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:56:01.654577+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "RAW物理sensor与YUV VC条件不同",
+      "finding": "不增加物理相机数量"
+    },
+    {
+      "claim": "CV610内存为128MB",
+      "source_id": "HiSilicon_Hi3516CV610",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516cv610",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--7e91d964fbc23ad4/original.response",
+      "location": "外部存储器接口",
+      "quote": "内置 1Gb DDR3/3L，最高速率 2133Mbps",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:54:58.249797+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "位与字节换算；内存位宽未披露",
+      "finding": "不误写1GB，不反推带宽"
+    },
+    {
+      "claim": "CV610大模型宣传不足以证明通用VLA",
+      "source_id": "HiSilicon_Hi3516CV610",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516cv610",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--7e91d964fbc23ad4/original.response",
+      "location": "智能引擎/核心特性",
+      "quote": "支持Transformer特性加速，内置专属多模态大模型",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:54:58.249797+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "模型名称、量化、内存、工作区和时延未给",
+      "finding": "假设1亿INT8参数100MB只说明容量约束，非部署证据"
+    },
+    {
+      "claim": "CV6104K编码是20fps典型组合",
+      "source_id": "HiSilicon_Hi3516CV610",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516cv610",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--7e91d964fbc23ad4/original.response",
+      "location": "视频编码",
+      "quote": "3840×2160@20fps+1280×720@20fps",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:54:58.249797+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "与3200×1800@30+720p30分列",
+      "finding": "最大4K不自动等于4K30；未采纳20%/5GB日存储宣称"
+    },
+    {
+      "claim": "CV610更新日期不当上市日期",
+      "source_id": "HiSilicon_Hi3516CV610",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516cv610",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--7e91d964fbc23ad4/original.response",
+      "location": "技术文档/SDK/物理规格",
+      "quote": "2026-10-19；Linux5.10；OpenHarmony 4.1；工作温度：-20℃~70℃",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:54:58.249797+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "开发资源更新、支持OS方向、温度测点未明确",
+      "finding": "不称最新BSP，不推断芯片发布日或工业/结温等级"
+    },
+    {
+      "claim": "功耗保留负载条件",
+      "source_id": "HiSilicon_Hi3403V100",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3403v100",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi34--c2d6971a30360f9c/original.response",
+      "location": "芯片物理规格：功耗",
+      "quote": "5.2W典型功耗(4K30 + 4Tops)",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:55:36.357424+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "典型芯片条目；测量板级边界未充分提供",
+      "finding": "不配对更高峰值TOPS，不作整机功耗/跨芯片能效排名"
+    },
+    {
+      "claim": "功耗保留负载条件",
+      "source_id": "HiSilicon_Hi3519AV200",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519av200",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--387e661a1427ecf6/original.response",
+      "location": "芯片物理规格：功耗",
+      "quote": "4.9W典型功耗（4K30 + 2.5Tops）",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:55:51.885466+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "典型芯片条目；测量板级边界未充分提供",
+      "finding": "不配对更高峰值TOPS，不作整机功耗/跨芯片能效排名"
+    },
+    {
+      "claim": "功耗保留负载条件",
+      "source_id": "HiSilicon_Hi3519DV500",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519dv500",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--fb9339639d9cd3da/original.response",
+      "location": "芯片物理规格：功耗",
+      "quote": "2.5W典型功耗(编码4K30 + 2TOPS)",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:55:55.988547+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "典型芯片条目；测量板级边界未充分提供",
+      "finding": "不配对更高峰值TOPS，不作整机功耗/跨芯片能效排名"
+    },
+    {
+      "claim": "功耗保留负载条件",
+      "source_id": "HiSilicon_Hi3516DV500",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516dv500",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--ae8b7e0bde6a7d6d/original.response",
+      "location": "芯片物理规格：功耗",
+      "quote": "2W典型功耗(编码5M30 + 2TOPS)",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:56:01.654577+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "典型芯片条目；测量板级边界未充分提供",
+      "finding": "不配对更高峰值TOPS，不作整机功耗/跨芯片能效排名"
+    },
+    {
+      "claim": "外部DRAM带宽为条件推导",
+      "source_id": "HiSilicon_Hi3403V100",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3403v100",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi34--c2d6971a30360f9c/original.response",
+      "location": "外部存储器接口",
+      "quote": "原文位宽与最高Mbps见本地参数全文",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:55:36.357424+00:00",
+      "evidence_type": "基于官方输入的分析计算",
+      "conditions": "位宽/8×Mbps/1000，十进制GB/s；不再乘DDR2",
+      "finding": "理论接口上限，不是实测；不同方案不可叠加"
+    },
+    {
+      "claim": "外部DRAM带宽为条件推导",
+      "source_id": "HiSilicon_Hi3519AV200",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519av200",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--387e661a1427ecf6/original.response",
+      "location": "外部存储器接口",
+      "quote": "原文位宽与最高Mbps见本地参数全文",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:55:51.885466+00:00",
+      "evidence_type": "基于官方输入的分析计算",
+      "conditions": "位宽/8×Mbps/1000，十进制GB/s；不再乘DDR2",
+      "finding": "理论接口上限，不是实测；不同方案不可叠加"
+    },
+    {
+      "claim": "外部DRAM带宽为条件推导",
+      "source_id": "HiSilicon_Hi3519DV500",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519dv500",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--fb9339639d9cd3da/original.response",
+      "location": "外部存储器接口",
+      "quote": "原文位宽与最高Mbps见本地参数全文",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:55:55.988547+00:00",
+      "evidence_type": "基于官方输入的分析计算",
+      "conditions": "位宽/8×Mbps/1000，十进制GB/s；不再乘DDR2",
+      "finding": "理论接口上限，不是实测；不同方案不可叠加"
+    },
+    {
+      "claim": "外部DRAM带宽为条件推导",
+      "source_id": "HiSilicon_Hi3516DV500",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516dv500",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--ae8b7e0bde6a7d6d/original.response",
+      "location": "外部存储器接口",
+      "quote": "原文位宽与最高Mbps见本地参数全文",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:56:01.654577+00:00",
+      "evidence_type": "基于官方输入的分析计算",
+      "conditions": "位宽/8×Mbps/1000，十进制GB/s；不再乘DDR2",
+      "finding": "理论接口上限，不是实测；不同方案不可叠加"
+    },
+    {
+      "claim": "PCIe与USB共享配置需保留",
+      "source_id": "HiSilicon_Hi3403V100",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3403v100",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi34--c2d6971a30360f9c/original.response",
+      "location": "外围接口",
+      "quote": "可配置为2-Lane PCIe2.0；可配置为1-Lane PCIe2.0 + USB3.0",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:55:36.357424+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "最高控制器数不等于所有功能同时满速",
+      "finding": "需pinmux、PHY、载板与BSP，不推定现成插座数"
+    },
+    {
+      "claim": "旧代CPU/GPU/NNIE与新NPU路线有迁移差异",
+      "source_id": "HiSilicon_Hi3559AV100",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/public-security/IPC/Hi3559AV100.html",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--2e72d386388d43a7/original.response",
+      "location": "处理器内核/GPU/智能视频处理",
+      "quote": "双核A73；双核A53；单核A53；双核Mali G71；双核NNIE",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T16:04:18.426310+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "本页未标4TOPS精度；3W典型4K120条件",
+      "finding": "准确区分CPU组；不推定EOL或pin-compatible"
+    },
+    {
+      "claim": "950PR处理器最大配置不可移植模块/卡",
+      "source_id": "Huawei_Ascend_Processors",
+      "source_url": "https://www.hiascend.com/hardware/processor",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Ascend_--f76d3858c1e85150/original.response",
+      "location": "产品介绍/特性",
+      "quote": "最大配备128GB、1.6TB/s高速片上内存；最大支持1784TFLOPS",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:52:06.436035+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "简介峰值未标精度，架构PDF未取得",
+      "finding": "不填FP16、不当A2规格、不替代Atlas350112GB"
+    },
+    {
+      "claim": "Atlas350标卡按112GB/600W独立读",
+      "source_id": "Huawei_Atlas_Cards",
+      "source_url": "https://www.hiascend.com/hardware/accelerator-card",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_Atlas_C--ef168f1e844b2b6d/original.response",
+      "location": "技术规格",
+      "quote": "112 GB HBM，带宽1.4TB/s；最大功耗≤600W；工作环境温度5℃~35℃",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:52:13.429248+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "理论算力、双向互联、服务器被动卡",
+      "finding": "不将芯片最大128GB写到卡；不将被动散热理解自然对流"
+    },
+    {
+      "claim": "渠道不证明逐SKU现货/长期供应",
+      "source_id": "HiSilicon_BuyChannels",
+      "source_url": "https://www.hisilicon.com/cn/WhereToBuy",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_BuyC--6742493defffa2a6/original.response",
+      "location": "渠道列表",
+      "quote": "授权产品 智慧视觉；授权区域 中国大陆和中国香港特别行政区",
+      "material_version": "未标注页面版号/发布日期；按采集快照使用",
+      "retrieved_at_utc": "2026-11-04T15:56:04.736234+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "partial_static两资源缺失；动态筛选状态不作计数",
+      "finding": "只证渠道入口，不证价格、MOQ、交期、EOL"
+    },
+    {
+      "claim": "官方培训目录与权限路径",
+      "source_id": "HiSilicon_AcademyPDF",
+      "source_url": "https://www.hisilicon.com/dam/asset/view/d8442760823b4f5e9fabb6c5bd684846.pdf",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_Aca--00381035722b48d1/original.response",
+      "location": "PDF物理页5、8、9、13",
+      "quote": "HiSupport注册用户可直接访问；Hi3516CV610 SVP_NPU/BSP/MPP/硬件课程",
+      "material_version": "宣传材料1.0；版权2024；发布日期未注明",
+      "retrieved_at_utc": "2026-11-04T15:56:16.261779+00:00",
+      "evidence_type": "官方规格/厂商宣称",
+      "conditions": "宣传材料1.0、版权2024；未实际取得课程/BSP",
+      "finding": "不当开放SDK许可或2026即时开放状况"
+    }
+  ],
+  "manual_review": {
+    "coverage": "模块、6视觉SoC、必要旧架构、服务器参照、计算/内存/存储/I/O/功耗/热/形态/采购；正式手册、供应生命周期与实测明确缺口。未取得有效官方内部框图，用规格截图和非官方分析图解释。",
+    "versions_and_measurements": "详细SKU页优先；无发布日期不标最新。INT8/INT4/FP16、保留HNR、最高接口与并发、典型负载功耗、环境/芯片温度、理论与实测严格区分。",
+    "maturity_and_licenses": "页面存在不证明现货、真实本体集成或功能安全认证；培训目录不证明取得BSP；源码/固件/runtime/模型许可未取得完整包，交由02核验。",
+    "figures_opened": "已实际打开图1模块原件及最终复制图、图2完整裁图；首次截图裁切问题已修正；装饰性海思资产与失败试裁图未用于报告。"
+  }
+}

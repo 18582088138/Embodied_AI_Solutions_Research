@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Huawei_CANN_Current",
+    "url": "https://www.hiascend.com/cann",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "Huawei_CANN921_Release",
+    "url": "https://www.hiascend.com/productbulletins/detail/833",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "Ascend_Samples_RepoAPI",
+    "url": "https://api.github.com/repos/Ascend/samples",
+    "expected": "json",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "Ascend_Pytorch_RepoAPI",
+    "url": "https://api.github.com/repos/Ascend/pytorch",
+    "expected": "json",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "MindSpore_RepoAPI",
+    "url": "https://api.github.com/repos/mindspore-ai/mindspore",
+    "expected": "json",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "VLLM_Ascend_RepoAPI",
+    "url": "https://api.github.com/repos/vllm-project/vllm-ascend",
+    "expected": "json",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "Ultralytics_RepoAPI",
+    "url": "https://api.github.com/repos/ultralytics/ultralytics",
+    "expected": "json",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  }
+]

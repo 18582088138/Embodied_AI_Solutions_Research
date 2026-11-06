@@ -1,0 +1,45 @@
+{
+  "source_ids": [
+    "CloudRobo_ProductPDF",
+    "CloudRobo_SimOverview",
+    "CloudRobo_SimConfig",
+    "CloudRobo_SimImport",
+    "CloudRobo_SimScene",
+    "CloudRobo_SimTrajectory",
+    "CloudRobo_SimEvaluation",
+    "CloudRobo_BestPractice",
+    "HiSilicon_DV300_SVP_PDF"
+  ],
+  "figures": [
+    {
+      "source_id": "CloudRobo_SimOverview",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/_registry/assets/images/d52c4746aa32a851b5e0172a.png",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/_registry/assets/images/d52c4746aa32a851b5e0172a.png",
+      "source_url": "https://support.huaweicloud.com/bestpractice-cloudrobo/figure/zh-cn_image_0000002745181434.png",
+      "caption": "官方自定义机器人仿真开发流程",
+      "operation": "官方HTML关联PNG原图，已打开检查全部九步完整"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "仅固定底盘操作台pnp、自定义本体专属池",
+      "source_id": "CloudRobo_SimOverview",
+      "location": "方案概述/前提条件"
+    },
+    {
+      "claim": "ROS2 Camera示例640×480、10Hz",
+      "source_id": "CloudRobo_SimTrajectory",
+      "location": "添加腕部相机/外部相机"
+    },
+    {
+      "claim": "夹爪1250缩放需与训练一致",
+      "source_id": "CloudRobo_SimEvaluation",
+      "location": "MyGripperFingersToStrokeTransformer"
+    },
+    {
+      "claim": "MoveIt关节加速度5.0为默认需按本体调整",
+      "source_id": "CloudRobo_SimScene",
+      "location": "moveit包后处理"
+    }
+  ]
+}

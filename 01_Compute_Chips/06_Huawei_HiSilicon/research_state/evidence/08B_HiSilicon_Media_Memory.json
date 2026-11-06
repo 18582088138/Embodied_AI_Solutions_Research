@@ -1,0 +1,91 @@
+{
+  "source_ids": [
+    "HiSilicon_DV300_SDK_PDF",
+    "HiSilicon_DV300_Media_PDF",
+    "HiSilicon_DV300_SVP_PDF",
+    "HiSilicon_Hi3403V100",
+    "HiSilicon_Hi3519AV200",
+    "HiSilicon_Hi3519DV500",
+    "HiSilicon_Hi3516CV610",
+    "HiView_3403_VPSS",
+    "HiView_3403_YOLO",
+    "OH_Media_EULA",
+    "NVIDIA_CUDA_Memory"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02C_media_flow.png",
+      "sha256": "9d4c32292cf28030fb70f4a8299b37b471f0cb2145942b663b1c879c07342d76",
+      "source_id": "HiSilicon_DV300_Media_PDF",
+      "source_url": "https://www.hisilicon.com/dam/asset/view/2a1c6e800feb43f4a8a31f8bcdcdc84a.pdf/download",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_DV3--35a27bc010e9b7ba/document.pdf",
+      "original_sha256": "9918b4adaa27a26d0ec6a2a90a6c4226c81f7ff23a039f6085979b2140d560a3",
+      "operation": "复用02C已打开的PDF物理第7页110dpi完整渲染"
+    },
+    {
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02C_nnie_flow.png",
+      "sha256": "96ed082a637ed527df8c1a5ce5d456ec5ec66e2f6855273dcc84abe576e2675c",
+      "source_id": "HiSilicon_DV300_SVP_PDF",
+      "source_url": "https://www.hisilicon.com/dam/asset/view/4ef2e012655a4aae8c80619b8cfd093f.pdf/download",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_DV3--8b4b0448c818638c/document.pdf",
+      "original_sha256": "267fb1a80ec0641d475e68e1e407633fdc1d5c71a9cb4746d2510ccdeb127e51",
+      "operation": "复用02C已打开的PDF物理第9页完整渲染"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "媒体buffer生命周期与stride/MMZ一致性需要显式处理",
+      "source_id": "HiView_3403_VPSS",
+      "location": "hi_mpi_vpss frame / MMZ / release调用",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益",
+      "source_url": "https://raw.githubusercontent.com/openhisilicon/HIVIEW/395b53d4c28cf5e528c9e1ba3f7ec39ad8e852d4/mod/svp/3403/vpss_capture.cpp",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/HiView_3403_VPSS--724494f823f91527/original.response",
+      "retrieved_at_utc": "2026-11-04T16:38:01.012968+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "旧NNIE自定义层CPU分段不能外推新NPU",
+      "source_id": "HiSilicon_DV300_SVP_PDF",
+      "location": "模型转换/自定义层/缓存与执行说明",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益",
+      "source_url": "https://www.hisilicon.com/dam/asset/view/4ef2e012655a4aae8c80619b8cfd093f.pdf/download",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/HiSilicon_DV3--8b4b0448c818638c/original.response",
+      "retrieved_at_utc": "2026-11-04T16:31:10.189959+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "8.1TOPS中开放2.5、HNR5.6保留",
+      "source_id": "HiSilicon_Hi3519AV200",
+      "location": "智能视频分析",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益",
+      "source_url": "https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519av200",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Hi35--387e661a1427ecf6/original.response",
+      "retrieved_at_utc": "2026-11-04T15:55:51.885466+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "CUDA统一地址/managed/mapped内存能力分开",
+      "source_id": "NVIDIA_CUDA_Memory",
+      "location": "Unified Virtual Address Space / Comparing Unified Memory and Mapped Memory",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益",
+      "source_url": "https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CUDA_Memory--453cf4bfa7cf193e/original.response",
+      "retrieved_at_utc": "2026-11-04T17:12:04.011696+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    }
+  ],
+  "manual_review": {
+    "coverage": "对应章主题、机制及公开证据缺口详见正文",
+    "versions_and_measurements": "旧200DK/DV300、当前A2/海思产品与CloudRobo云侧严格分开；未运行硬件，未以功能界面代替benchmark",
+    "maturity_and_licenses": "代码、权重、数据、资产、本体SDK、商业云合同分别记录，未取得项不授予许可",
+    "figures_opened": "复用本轮已实际打开的官方CloudRobo完整架构页，或02/03已核验原图；不足以证明性能"
+  }
+}

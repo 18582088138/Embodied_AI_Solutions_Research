@@ -1,0 +1,25 @@
+{
+  "time_utc": "2026-11-04T17:16:02.822462+00:00",
+  "summary": {
+    "complete_static": 11,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "HiSilicon_DV300_SDK_PDF",
+    "HiSilicon_DV300_Media_PDF",
+    "HiSilicon_DV300_SVP_PDF",
+    "HiSilicon_Hi3403V100",
+    "HiSilicon_Hi3519AV200",
+    "HiSilicon_Hi3519DV500",
+    "HiSilicon_Hi3516CV610",
+    "HiView_3403_VPSS",
+    "HiView_3403_YOLO",
+    "OH_Media_EULA",
+    "NVIDIA_CUDA_Memory"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

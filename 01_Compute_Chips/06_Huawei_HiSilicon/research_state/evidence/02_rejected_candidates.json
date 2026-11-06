@@ -1,0 +1,23 @@
+[
+  {
+    "source_id": "Huawei_CANN_Current",
+    "url": "https://www.hiascend.com/cann",
+    "archive_status": "partial_static",
+    "reason": "本地HTML主体只有导航，动态CANN正文未归档",
+    "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_CANN_Cu--c27cf76eada13fbb/original.response"
+  },
+  {
+    "source_id": "Huawei_CANN921_Release",
+    "url": "https://www.hiascend.com/productbulletins/detail/833",
+    "archive_status": "complete_static",
+    "reason": "实际归档为产品公告正文占位，非发布内容",
+    "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/Huawei_CANN921--005438a0844a956d/original.response"
+  },
+  {
+    "source_id": "HiSilicon_MaterialsCenter",
+    "url": "https://www.hisilicon.com/cn/chip-academy/materiallist",
+    "archive_status": "complete_static",
+    "reason": "归档只有类别筛选；浏览器用于定位官方PDF，不引用列表正文",
+    "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/HiSilicon_Mate--8a48b08cff69bce9/original.response"
+  }
+]

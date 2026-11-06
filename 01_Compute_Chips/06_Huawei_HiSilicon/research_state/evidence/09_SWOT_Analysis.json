@@ -1,0 +1,101 @@
+{
+  "source_ids": [
+    "CloudRobo_BillingPDF",
+    "CloudRobo_BillingPlatform",
+    "CloudRobo_BillingCompute",
+    "CloudRobo_BillingModels",
+    "CloudRobo_BillingManagement",
+    "CloudRobo_ProductPDF",
+    "CloudRobo_AccessControl",
+    "CloudRobo_SharedResponsibility",
+    "CAC_CrossBorder_2024",
+    "CloudRobo_RealInference",
+    "CloudRobo_ResidualDebug",
+    "CloudRobo_VLN",
+    "ACL_ModelProcess",
+    "HiSilicon_Hi3519AV200",
+    "HiSilicon_Hi3516CV610",
+    "RLinf_Ascend_Container",
+    "HiSilicon_BuyChannels",
+    "Huawei_Atlas200IA2_Product"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/09_cloudrobo_billing.png",
+      "sha256": "40fcc55564c6d9e8fe29531bca0465734d6c2d11a68199aa2bec89645e4e1c5c",
+      "source_id": "CloudRobo_BillingPDF",
+      "source_url": "https://support.huaweicloud.com/price-cloudrobo/CloudRobo%20%E8%AE%A1%E8%B4%B9%E8%AF%B4%E6%98%8E-pdf.pdf",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/CloudRobo_Bil--8b711de4fe937ab4/document.pdf",
+      "original_sha256": "c8deaee595a302e81deb517bde6f81a612eda2410c720c101fb229e962227912",
+      "operation": "PDF物理第11页110dpi完整渲染，已打开核验表3-1、价格声明和页脚均完整"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "50000/10000元为教学计费示例，非现行报价",
+      "source_id": "CloudRobo_BillingPDF",
+      "location": "物理11—14页，表3-1至3-5及须知",
+      "conditions": "文档01，2026-11-02，人民币示例；实际价看各服务详情",
+      "finding": "开发平台、专业版专属仿真与模型前置条件分开；不合成确定配置报价",
+      "evidence_type": "官方事实与条件分析",
+      "source_url": "https://support.huaweicloud.com/price-cloudrobo/CloudRobo%20%E8%AE%A1%E8%B4%B9%E8%AF%B4%E6%98%8E-pdf.pdf",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/CloudRobo_Bil--8b711de4fe937ab4/original.response",
+      "retrieved_at_utc": "2026-11-04T17:24:36.474606+00:00",
+      "material_version": "文档01，2026-11-02，完整26页"
+    },
+    {
+      "claim": "ELB/EIP为独立按需资源费用",
+      "source_id": "CloudRobo_BillingManagement",
+      "location": "资源管理费用表1",
+      "finding": "CCE Standard纳管独享ELB；可用区数/时长/EIP单列",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "source_url": "https://support.huaweicloud.com/price-cloudrobo/cloudrobo_04_0017.html",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Bill--ad679c4948e75582/original.response",
+      "retrieved_at_utc": "2026-11-04T17:24:46.238677+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "数据出境豁免有数据类型和处理者等条件",
+      "source_id": "CAC_CrossBorder_2024",
+      "location": "第三、五、七、八、十、十一条",
+      "conditions": "国家网信办令16，2024-03-22；具体项目及现行法规仍需逐案确认",
+      "finding": "制造用途不自动豁免；出境制度豁免不免其余义务",
+      "evidence_type": "官方事实与条件分析",
+      "source_url": "https://www.cac.gov.cn/2024-03/22/c_1712776611775634.htm",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CAC_CrossBorde--45c93df732722343/original.response",
+      "retrieved_at_utc": "2026-11-04T17:25:40.124229+00:00",
+      "material_version": "国家网信办令16号；2024-03-22公布施行"
+    },
+    {
+      "claim": "保存成功示教数不能作任务成功率",
+      "source_id": "CloudRobo_ResidualDebug",
+      "location": "T成功保存、N失败不保存",
+      "evidence_type": "事实到分析",
+      "finding": "缺全部尝试分母和运营数据，不计算ROI",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "source_url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0027.html",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/CloudRobo_Resi--2af60c241cd552d0/original.response",
+      "retrieved_at_utc": "2026-11-04T17:05:48.028639+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "TCO模型只作可填输入框架",
+      "source_id": "CloudRobo_BillingPDF",
+      "location": "各计费项；本文公式",
+      "evidence_type": "分析",
+      "conditions": "未取得正式报价、工时、运行小时或成功任务数",
+      "finding": "运行小时成本非成功任务成本；不输出数值总额",
+      "source_url": "https://support.huaweicloud.com/price-cloudrobo/CloudRobo%20%E8%AE%A1%E8%B4%B9%E8%AF%B4%E6%98%8E-pdf.pdf",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/documents/CloudRobo_Bil--8b711de4fe937ab4/original.response",
+      "retrieved_at_utc": "2026-11-04T17:24:36.474606+00:00",
+      "material_version": "文档01，2026-11-02，完整26页"
+    }
+  ],
+  "manual_review": {
+    "coverage": "SWOT、市场数据缺口、本体商业成熟度、采购、合同、TCO输入、数据跨境原文、区域供应边界、分场景选型与放行",
+    "versions_and_measurements": "旧200DK/DV300、当前A2/海思产品与CloudRobo云侧严格分开；未运行硬件，未以功能界面代替benchmark",
+    "maturity_and_licenses": "代码、权重、数据、资产、本体SDK、商业云合同分别记录，未取得项不授予许可",
+    "figures_opened": "复用本轮已实际打开的官方CloudRobo完整架构页，或02/03已核验原图；不足以证明性能"
+  }
+}

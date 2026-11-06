@@ -1,0 +1,29 @@
+{
+  "time_utc": "2026-11-04T17:37:23.805820+00:00",
+  "summary": {
+    "complete_static": 4,
+    "partial_static": 11,
+    "failed": 0
+  },
+  "names": [
+    "CloudRobo_ProductPDF",
+    "CloudRobo_Functions",
+    "CloudRobo_AccessControl",
+    "CloudRobo_RealInference",
+    "CloudRobo_NotebookModels",
+    "CloudRobo_TrainAlgorithm",
+    "CloudRobo_Pretrained",
+    "CloudRobo_CustomModel",
+    "CloudRobo_R2C_Protocol",
+    "CloudRobo_MetaEngineAdapter",
+    "CloudRobo_SimEvaluation",
+    "O3DE_ROS2_Gem",
+    "LeRobot_License_051",
+    "CloudRobo_BillingPDF",
+    "CloudRobo_BillingManagement"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

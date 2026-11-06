@@ -1,0 +1,77 @@
+{
+  "data_cutoff": "2026-11-05",
+  "not_effective_sources": {
+    "Huawei_Atlas200IA2_WhitepaperEntry": {
+      "url": "https://e.huawei.com/cn/material/enterprise/8bc139ce5b314db6885c3ccda8bac8cf",
+      "status": "failed",
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "Huawei_A2_Support_Specs_Candidate": {
+      "url": "https://support.huawei.com/enterprise/zh/doc/EDOC1100304819/e6e7e6d0",
+      "status": "failed",
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "Huawei_Atlas200IA2_Whitepaper06": {
+      "url": "https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/8bc139ce5b314db6885c3ccda8bac8cf/M3T1A669N1111946835344482450/Atlas%20200I%20A2%20%E5%8A%A0%E9%80%9F%E6%A8%A1%E5%9D%97%20%E6%8A%80%E6%9C%AF%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf",
+      "status": "failed",
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "Huawei_Ascend950_ArchitecturePDF": {
+      "url": "https://public-download.obs.cn-east-2.myhuaweicloud.com/ascend/%E6%98%87%E8%85%BE950%20NPU%E6%9E%B6%E6%9E%84%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf",
+      "status": "failed",
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "RealSense_RepoAPI": {
+      "url": "https://api.github.com/repos/realsenseai/librealsense",
+      "status": "failed",
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "RealSenseROS_RepoAPI": {
+      "url": "https://api.github.com/repos/realsenseai/realsense-ros",
+      "status": "failed",
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "CloudRobo_BestPracticePDF": {
+      "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/CloudRobo%20%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-pdf.pdf",
+      "status": "failed",
+      "error": "ValueError: response exceeds --max-mb; no truncated file saved"
+    },
+    "CloudRobo_SamplesTree": {
+      "url": "https://api.github.com/repos/huaweicloud-samples/cloudrobo-samples/git/trees/main?recursive=1",
+      "status": "failed",
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "Huawei_NationalCenter_Case": {
+      "url": "https://e.huawei.com/cn/news/2026/industries/manufacturing/national-geographic-center",
+      "status": "failed",
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    }
+  },
+  "navigation_or_dynamic_only_excluded": [
+    "CloudRobo_ResidualRL",
+    "CloudRobo_ResidualRobot",
+    "CloudRobo_ResidualData",
+    "CloudRobo_ResidualOnline",
+    "CloudRobo_RobotManagement",
+    "CloudRobo_SimAssets",
+    "CloudRobo_DataProduction",
+    "HiSilicon_DevCenter"
+  ],
+  "browser_observation_only": {
+    "source_id": "Huawei_NationalCenter_Case",
+    "url": "https://e.huawei.com/cn/news/2026/industries/manufacturing/national-geographic-center",
+    "observed": "官方2026-07-20国地中心实训场公告；灵龙进入延锋完成实景采集/自主作业验证",
+    "status": "浏览器曾可见，归档robots不可检查/拒绝；未纳入有效引用",
+    "limits": "未取得台数、SKU、成功率、合同或ROI；观察记录不是归档原件"
+  },
+  "best_practice_pdf_limit": "CloudRobo_BestPracticePDF超过下载器大小限制，未保存截断件；使用已读具体网页子章节",
+  "remaining": [
+    "A2准确料号/板号及正式电气热/生命周期文档",
+    "当前海思SDK、算子/量化支持、二进制商业许可及工业/安全等级",
+    "R2C/本体SDK完整发行包与许可、模型权重/数据/资产revision",
+    "目标SKU多sensor/视频/模型并发热稳定、观测年龄与闭环P99/失效实测",
+    "正式报价、MOQ/交期、PCN/EOL/备件及云合同包含量",
+    "客户合同/交付/在岗规模、全部尝试/人工干预/暴露小时与可归因收益",
+    "带地区时期分母的市场份额及逐SKU/最终用途/目的地现行出口分类"
+  ]
+}

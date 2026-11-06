@@ -1,0 +1,6 @@
+[
+ {"name":"CloudRobo_ResidualRobot","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0021.html","expected":"html"},
+ {"name":"CloudRobo_ResidualData","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0026.html","expected":"html"},
+ {"name":"CloudRobo_ResidualOnline","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0029.html","expected":"html"},
+ {"name":"CloudRobo_RobotManagement","url":"https://support.huaweicloud.com/usermanual-cloudrobo/cloudrobo_02_0118.html","expected":"html"}
+]

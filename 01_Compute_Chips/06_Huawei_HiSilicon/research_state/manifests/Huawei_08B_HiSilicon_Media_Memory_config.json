@@ -1,0 +1,72 @@
+{
+  "source_ids": [
+    "HiSilicon_DV300_SDK_PDF",
+    "HiSilicon_DV300_Media_PDF",
+    "HiSilicon_DV300_SVP_PDF",
+    "HiSilicon_Hi3403V100",
+    "HiSilicon_Hi3519AV200",
+    "HiSilicon_Hi3519DV500",
+    "HiSilicon_Hi3516CV610",
+    "HiView_3403_VPSS",
+    "HiView_3403_YOLO",
+    "OH_Media_EULA",
+    "NVIDIA_CUDA_Memory"
+  ],
+  "figures": [
+    {
+      "source_id": "HiSilicon_DV300_Media_PDF",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02C_media_flow.png",
+      "caption": "DV300官方媒体输入—处理—输出分支",
+      "operation": "复用02C已打开的PDF物理第7页110dpi完整渲染"
+    },
+    {
+      "source_id": "HiSilicon_DV300_SVP_PDF",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02C_nnie_flow.png",
+      "caption": "DV300 NNIE模型转换与执行官方流程",
+      "operation": "复用02C已打开的PDF物理第9页完整渲染"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "媒体buffer生命周期与stride/MMZ一致性需要显式处理",
+      "source_id": "HiView_3403_VPSS",
+      "location": "hi_mpi_vpss frame / MMZ / release调用",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益"
+    },
+    {
+      "claim": "旧NNIE自定义层CPU分段不能外推新NPU",
+      "source_id": "HiSilicon_DV300_SVP_PDF",
+      "location": "模型转换/自定义层/缓存与执行说明",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益"
+    },
+    {
+      "claim": "8.1TOPS中开放2.5、HNR5.6保留",
+      "source_id": "HiSilicon_Hi3519AV200",
+      "location": "智能视频分析",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益"
+    },
+    {
+      "claim": "CUDA统一地址/managed/mapped内存能力分开",
+      "source_id": "NVIDIA_CUDA_Memory",
+      "location": "Unified Virtual Address Space / Comparing Unified Memory and Mapped Memory",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益"
+    }
+  ],
+  "versions": {
+    "CloudRobo_ProductPDF": "文档01，2026-11-02；完整20页PDF"
+  },
+  "manual_review": {
+    "coverage": "对应章主题、机制及公开证据缺口详见正文",
+    "versions_and_measurements": "旧200DK/DV300、当前A2/海思产品与CloudRobo云侧严格分开；未运行硬件，未以功能界面代替benchmark",
+    "maturity_and_licenses": "代码、权重、数据、资产、本体SDK、商业云合同分别记录，未取得项不授予许可",
+    "figures_opened": "复用本轮已实际打开的官方CloudRobo完整架构页，或02/03已核验原图；不足以证明性能"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "time_utc": "2026-11-04T17:37:33.272620+00:00",
+  "summary": {
+    "complete_static": 8,
+    "partial_static": 10,
+    "failed": 0
+  },
+  "names": [
+    "CloudRobo_BillingPDF",
+    "CloudRobo_BillingPlatform",
+    "CloudRobo_BillingCompute",
+    "CloudRobo_BillingModels",
+    "CloudRobo_BillingManagement",
+    "CloudRobo_ProductPDF",
+    "CloudRobo_AccessControl",
+    "CloudRobo_SharedResponsibility",
+    "CAC_CrossBorder_2024",
+    "CloudRobo_RealInference",
+    "CloudRobo_ResidualDebug",
+    "CloudRobo_VLN",
+    "ACL_ModelProcess",
+    "HiSilicon_Hi3519AV200",
+    "HiSilicon_Hi3516CV610",
+    "RLinf_Ascend_Container",
+    "HiSilicon_BuyChannels",
+    "Huawei_Atlas200IA2_Product"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

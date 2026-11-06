@@ -1,0 +1,5 @@
+[
+ {"name":"CloudRobo_UserGuide","url":"https://support.huaweicloud.com/usermanual-cloudrobo/cloudrobo_02_0001.html","expected":"html"},
+ {"name":"CloudRobo_QuickStart","url":"https://support.huaweicloud.com/qs-cloudrobo/cloudrobo_07_0001.html","expected":"html"},
+ {"name":"CloudRobo_NotebookOverview","url":"https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0033.html","expected":"html"}
+]

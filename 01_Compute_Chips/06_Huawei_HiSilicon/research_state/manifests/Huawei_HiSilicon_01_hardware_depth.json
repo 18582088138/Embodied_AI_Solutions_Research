@@ -1,0 +1,8 @@
+[
+  {"name":"Huawei_A2_Thermal241RC1","url":"https://www.hiascend.com/document/detail/zh/Atlas%20200I%20A2/24.1.RC1/Har/3d/atlas3d_11_0003.html","expected":"html"},
+  {"name":"Huawei_DKA2_Hardware230RC2","url":"https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/Hardware%20Interfaces/hiug/hiug_0001.html","expected":"html"},
+  {"name":"Huawei_Atlas300IDuo_Product","url":"https://www.hiascend.com/hardware/accelerator-card?tag=300I-duo","expected":"html"},
+  {"name":"Huawei_Atlas300IPro_Product","url":"https://www.hiascend.com/hardware/accelerator-card?tag=300I-Pro","expected":"html"},
+  {"name":"Huawei_Atlas500Pro_Product","url":"https://www.hiascend.com/hardware/ai-server?tag=500pro","expected":"html"},
+  {"name":"Huawei_ProductBulletins","url":"https://www.hiascend.com/productbulletins","expected":"html"}
+]

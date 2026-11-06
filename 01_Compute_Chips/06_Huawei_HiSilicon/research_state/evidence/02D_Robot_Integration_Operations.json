@@ -1,0 +1,73 @@
+{
+  "source_ids": [
+    "Ascend_Robot_Arm_README",
+    "Ascend_Robot_Arm_Code",
+    "Ascend_Robot_Arm_Flow",
+    "Ascend_Robot_Chess_README",
+    "Ascend_Robot_Car_README",
+    "Ascend_Samples_License",
+    "ACL_Async_ModelProcess",
+    "Ultralytics_Ascend_Backend",
+    "VLLM_Ascend_FAQ",
+    "HiSilicon_LiteOS_PDF",
+    "OH_Media_EULA"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_F--1cf94bd983a08931/content.png",
+      "sha256": "aa673c4bd6e5d9a17c24a6637e8a6e35c866045c6470e5692564fc91a1086144",
+      "source_id": "Ascend_Robot_Arm_Flow",
+      "source_url": "https://images.gitee.com/uploads/images/2021/0310/112856_f44ecafd_5537256.png",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_F--1cf94bd983a08931/content.png",
+      "original_sha256": "aa673c4bd6e5d9a17c24a6637e8a6e35c866045c6470e5692564fc91a1086144",
+      "operation": "华为README直接引用的外部官方示例图原件；逐图打开核验"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "每5帧触发不是5Hz控制",
+      "source_id": "Ascend_Robot_Arm_Code",
+      "location": "ROBOT_MOVE_FREQUENCY / handle_read",
+      "quote": "ROBOT_MOVE_FREQUENCY = 5",
+      "evidence_type": "源码事实与分析",
+      "conditions": "旧200DK教学代码，无时延实测",
+      "finding": "计数不能换算稳定频率；时间戳配对未证明完整",
+      "source_url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robotic_Arm_Object_Following/src/robotic_arm_object_following.py",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_C--ef719f51c5eefd5d/original.response",
+      "retrieved_at_utc": "2026-11-04T16:40:57.702368+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "README反投影总公式与原码不同",
+      "source_id": "Ascend_Robot_Arm_README",
+      "location": "图像坐标系到世界坐标系公式",
+      "quote": "R · K · [xp,yp,1] + T",
+      "evidence_type": "原文与分析纠正",
+      "conditions": "K定义为内参；代码乘深度、除焦距",
+      "finding": "不复用原公式；针孔分析Pc=zK逆p，Pw=RPc+t；实机标定仍未验证",
+      "source_url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/python/level3_multi_model/Robotic_Arm_Object_Following/README_CN.md",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Arm_R--8f2874b95d479613/original.response",
+      "retrieved_at_utc": "2026-11-04T16:26:51.818729+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "旧小车使用catkin而非已证实ROS2",
+      "source_id": "Ascend_Robot_Car_README",
+      "location": "样例部署",
+      "quote": "catkin_make",
+      "evidence_type": "旧官方仓contrib样例",
+      "conditions": "CANN≥5.0.4，Atlas200DK/Atlas300",
+      "finding": "未给ROS发行版/准确底盘/实时总线；不补写当前ROS2支持",
+      "source_url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/contrib/robots_car/README_CN.md",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/Ascend_Robot_Car_R--63de9339d4968942/original.response",
+      "retrieved_at_utc": "2026-11-04T16:26:53.914348+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    }
+  ],
+  "manual_review": {
+    "coverage": "实际示例、本体契约、坐标/时间、控制分层、运维OTA和许可展开",
+    "versions_and_measurements": "旧200DK与当前A2分开；无实机动作或性能验证；5帧与Hz分开",
+    "maturity_and_licenses": "教学/社区样例与产品交付分开；第三方SDK/模型许可未补假设",
+    "figures_opened": "原图逐图打开，RGB/结果网络流、RGBD主机和Dobot控制箭头清晰"
+  }
+}

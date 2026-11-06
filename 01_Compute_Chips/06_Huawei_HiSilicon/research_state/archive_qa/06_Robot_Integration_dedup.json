@@ -1,0 +1,29 @@
+{
+  "time_utc": "2026-11-04T17:07:51.650057+00:00",
+  "summary": {
+    "complete_static": 6,
+    "partial_static": 9,
+    "failed": 0
+  },
+  "names": [
+    "CloudRobo_ProductPDF",
+    "CloudRobo_RealInference",
+    "CloudRobo_Pretrained",
+    "CloudRobo_VLN",
+    "CloudRobo_ResidualOverview",
+    "CloudRobo_ResidualInstall",
+    "CloudRobo_ResidualActivate",
+    "CloudRobo_ResidualDebug",
+    "CloudRobo_ResidualCreate",
+    "CloudRobo_SimEvaluation",
+    "Ascend_Robot_Arm_README",
+    "Ascend_Robot_Arm_Code",
+    "Ascend_Robot_Arm_Flow",
+    "Ascend_Robot_Chess_README",
+    "Ascend_Robot_Car_README"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

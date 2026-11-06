@@ -1,0 +1,66 @@
+{
+  "source_ids": [
+    "HiSilicon_Hi3519DV500",
+    "HiSilicon_Hi3516DV500",
+    "HiSilicon_Hi3403V100",
+    "HiSilicon_Hi3519AV200",
+    "Huawei_Atlas200IA2_Product",
+    "HiSilicon_DV300_Media_PDF",
+    "HiSilicon_DV300_SVP_PDF",
+    "HiView_3403_VPSS",
+    "ACL_ModelProcess",
+    "ACL_Async_ModelProcess",
+    "Ultralytics_Ascend_Backend",
+    "Ascend_Robot_Arm_README",
+    "Ascend_Robot_Arm_Code",
+    "Ascend_Robot_Arm_Flow"
+  ],
+  "figures": [
+    {
+      "source_id": "HiSilicon_DV300_Media_PDF",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02C_media_flow.png",
+      "caption": "DV300官方媒体输入分支",
+      "operation": "复用02C已打开的PDF物理第7页110dpi完整渲染"
+    },
+    {
+      "source_id": "Ascend_Robot_Arm_Flow",
+      "caption": "旧200DK+D435主机网络数据流",
+      "operation": "复用02D已逐图打开的华为README原图"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "4路YUV虚拟通道不等于4路RAWsensor",
+      "source_id": "HiSilicon_Hi3516DV500",
+      "location": "视频输入接口",
+      "quote": "MIPI虚拟通道1~4路YUV",
+      "evidence_type": "官方规格与分析",
+      "conditions": "本型号最高2路sensor/4lane",
+      "finding": "PHY与虚拟复用、ISP资源分开"
+    },
+    {
+      "claim": "DPU最大分辨率/视差与性能条件分开",
+      "source_id": "HiSilicon_Hi3519DV500",
+      "location": "智能视频分析",
+      "quote": "2048 x 2048 / 224 / 720p@30fps",
+      "evidence_type": "官方规格",
+      "conditions": "三个分列最大指标",
+      "finding": "不能合并成2048平方30fps224视差并发保证"
+    },
+    {
+      "claim": "D435空间对齐不是全系统同步",
+      "source_id": "Ascend_Robot_Arm_Code",
+      "location": "get_image_and_timestamp/open_pipeline",
+      "quote": "align.process(frames) / frames.get_timestamp()",
+      "evidence_type": "源码事实与分析",
+      "conditions": "旧200DK+PC网络例",
+      "finding": "未证明结果、深度、关节曝光时配对或PTP/硬触发"
+    }
+  ],
+  "manual_review": {
+    "coverage": "RGB/深度/热/ToF、其他传感器接口证据缺口、buffer、同步、带宽和并发验收覆盖",
+    "versions_and_measurements": "产品页快照、2021DV300及旧200DK分开；吞吐为假设下限；无实机数据",
+    "maturity_and_licenses": "具体旧D435示例与当前A2兼容未混同；未取得sensor SDK/新BSP完整许可；新RealSense候选取件失败不作支持判断",
+    "figures_opened": "复用本轮实际打开的2张官方流程图，完整清晰，版本限制正文注明"
+  }
+}

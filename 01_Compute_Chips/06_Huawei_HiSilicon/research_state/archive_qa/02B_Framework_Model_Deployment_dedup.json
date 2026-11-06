@@ -1,0 +1,32 @@
+{
+  "time_utc": "2026-11-04T16:37:22.681435+00:00",
+  "summary": {
+    "complete_static": 18,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "Ascend_Pytorch_README",
+    "TorchNPU_Compatibility",
+    "TorchNPU_Support",
+    "TorchNPU_Version",
+    "TorchNPU_ArchitectureSVG",
+    "Ascend_Pytorch_License",
+    "TorchNPU_Docs_License",
+    "MindSpore_Lite_README",
+    "MindSpore_Lite_Context",
+    "MindSpore_Lite_Model",
+    "MindSpore_Lite_Converter",
+    "MindSpore_License",
+    "Ultralytics_Ascend_Doc",
+    "Ultralytics_Ascend_Exporter",
+    "Ultralytics_Ascend_Backend",
+    "Ultralytics_License",
+    "VLLM_Ascend_FAQ",
+    "VLLM_Ascend_License"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

@@ -1,0 +1,48 @@
+{
+  "report": "01_Compute_Chips/06_Huawei_HiSilicon/08C_CloudRobo_Action_Learning.md",
+  "body_han_chars": 2116,
+  "tables": 2,
+  "sources": 14,
+  "archive_status": {
+    "complete_static": 7,
+    "partial_static": 7
+  },
+  "figures": 1,
+  "file_hash_checks": 84,
+  "html_visible_text_equal": 7,
+  "page_local_dependencies_checked": 60,
+  "report_local_links": 36,
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02A_Ascend_CANN_Runtime.md": true,
+    "02B_Framework_Model_Deployment.md": true,
+    "02C_HiSilicon_BSP_MPP_NPU.md": true,
+    "02D_Robot_Integration_Operations.md": true,
+    "02E_CloudRobo_Development_Platform.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08A_Ascend_Execution_Compilation.md": true,
+    "08B_HiSilicon_Media_Memory.md": true,
+    "08_Core_Technology_Moat.md": true,
+    "08_Proprietary_Technologies.md": true,
+    "09_SWOT_Analysis.md": true,
+    "Research_Index.md": true
+  },
+  "errors": [],
+  "warnings": [
+    "静态依赖部分缺失: CloudRobo_R2C_Protocol（报告应披露）",
+    "静态依赖部分缺失: CloudRobo_MetaEngineAdapter（报告应披露）",
+    "静态依赖部分缺失: CloudRobo_SimEvaluation（报告应披露）",
+    "静态依赖部分缺失: CloudRobo_Pretrained（报告应披露）",
+    "静态依赖部分缺失: CloudRobo_VLN（报告应披露）",
+    "静态依赖部分缺失: CloudRobo_ResidualOverview（报告应披露）",
+    "静态依赖部分缺失: CloudRobo_ResidualDebug（报告应披露）"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

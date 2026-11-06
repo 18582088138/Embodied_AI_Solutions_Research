@@ -1,0 +1,84 @@
+{
+  "source_ids": [
+    "ACL_ResNet_README",
+    "ACL_ModelProcess",
+    "ACL_SampleProcess",
+    "ACL_Async_ModelProcess",
+    "ACL_Dynamic_README",
+    "ACL_FirstApp_Figure",
+    "Ascend_Samples_License",
+    "TorchNPU_Compatibility",
+    "MindSpore_Lite_Context",
+    "Ultralytics_Ascend_Exporter",
+    "Ultralytics_Ascend_Backend",
+    "VLLM_Ascend_FAQ",
+    "NVIDIA_TensorRT_Objects"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02A_firstapp_white.png",
+      "sha256": "97ef6be184e27af830a466a3e19380ec8fc8ab1da5bae2678eb8131c70d63b0d",
+      "source_id": "ACL_FirstApp_Figure",
+      "source_url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_firstapp/README_fig.png",
+      "original_file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_FirstApp_Figur--f1da2d06245dd3cc/content.png",
+      "original_sha256": "b719ed3798212eba2a961e7903b5196b9119db5fb3189283a575082555a00ff0",
+      "operation": "复用02A已打开原PNG并铺白背景的衍生图，结构未改"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "model内存和输入dataset生命周期分开",
+      "source_id": "ACL_ModelProcess",
+      "location": "CreateInput/DestroyInput/Unload",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益",
+      "source_url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_imagenet_classification/src/model_process.cpp",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_ModelProcess--4773c545724ea61b/original.response",
+      "retrieved_at_utc": "2026-11-04T16:26:46.107974+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "异步提交后callback释放资源需同步保障",
+      "source_id": "ACL_Async_ModelProcess",
+      "location": "ExecuteAsyncProcess/DestroyModelDesc",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益",
+      "source_url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_async_imagenet_classification/src/model_process.cpp",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_Async_ModelPro--9aab3388a79f9a2b/original.response",
+      "retrieved_at_utc": "2026-11-04T16:26:49.315372+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "动态dims示例预置集合不等于任意shape",
+      "source_id": "ACL_Dynamic_README",
+      "location": "环境要求/模型转换",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益",
+      "source_url": "https://raw.githubusercontent.com/Ascend/samples/fc2aea93e48be8f8cee51d0c6c1b13a08155f83a/cplusplus/level2_simple_inference/1_classification/resnet50_imagenet_dynamic_dims/README_CN.md",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/data/ACL_Dynamic_README--0e7479d186c8d8e5/original.response",
+      "retrieved_at_utc": "2026-11-04T16:26:48.201531+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    },
+    {
+      "claim": "TensorRT engine与context对象职责和兼容边界不同",
+      "source_id": "NVIDIA_TensorRT_Objects",
+      "location": "Object Lifetimes/Memory/Compatibility",
+      "evidence_type": "官方事实与条件分析",
+      "conditions": "按2026-11-05采集快照及正文限定版本",
+      "finding": "支持所述接口/流程，不证明跨SKU性能或商业收益",
+      "source_url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+      "local_original": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/webpages/TensorRT_Objec--9df325c2c44e3de5/original.response",
+      "retrieved_at_utc": "2026-11-04T17:11:40.683207+00:00",
+      "material_version": "固定提交或采集快照，见正文参考表"
+    }
+  ],
+  "manual_review": {
+    "coverage": "对应章主题、机制及公开证据缺口详见正文",
+    "versions_and_measurements": "旧200DK/DV300、当前A2/海思产品与CloudRobo云侧严格分开；未运行硬件，未以功能界面代替benchmark",
+    "maturity_and_licenses": "代码、权重、数据、资产、本体SDK、商业云合同分别记录，未取得项不授予许可",
+    "figures_opened": "复用本轮已实际打开的官方CloudRobo完整架构页，或02/03已核验原图；不足以证明性能"
+  }
+}

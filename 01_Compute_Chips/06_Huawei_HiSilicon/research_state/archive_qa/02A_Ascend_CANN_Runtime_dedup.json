@@ -1,0 +1,23 @@
+{
+  "time_utc": "2026-11-04T16:33:23.473812+00:00",
+  "summary": {
+    "complete_static": 9,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "ACL_ResNet_README",
+    "ACL_ModelProcess",
+    "ACL_SampleProcess",
+    "ACL_Async_ModelProcess",
+    "ACL_Dynamic_README",
+    "ACL_FirstApp_Figure",
+    "Ascend_Samples_License",
+    "Ultralytics_Ascend_Exporter",
+    "Ultralytics_Ascend_Backend"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

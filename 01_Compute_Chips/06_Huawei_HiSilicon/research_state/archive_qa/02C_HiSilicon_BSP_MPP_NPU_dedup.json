@@ -1,0 +1,30 @@
+{
+  "time_utc": "2026-11-04T16:40:17.867436+00:00",
+  "summary": {
+    "complete_static": 16,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "HiSilicon_DV300_SDK_PDF",
+    "HiSilicon_DV300_Media_PDF",
+    "HiSilicon_DV300_SVP_PDF",
+    "HiSilicon_LiteOS_PDF",
+    "OH_HiSilicon_README",
+    "OH_DV300_README",
+    "OH_HiSilicon_License",
+    "OH_Driver_License",
+    "OH_Media_EULA",
+    "HiView_README",
+    "HiView_3403_VPSS",
+    "HiView_3403_YOLO",
+    "HiSilicon_Hi3403V100",
+    "HiSilicon_Hi3519AV200",
+    "HiSilicon_Hi3516CV610",
+    "HiSilicon_AcademyPDF"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

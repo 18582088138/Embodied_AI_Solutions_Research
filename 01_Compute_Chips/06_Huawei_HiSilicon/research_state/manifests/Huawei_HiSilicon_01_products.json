@@ -1,0 +1,12 @@
+[
+  {"name":"HiSilicon_SmartVision","url":"https://www.hisilicon.com/cn/products/smart-vision","expected":"html"},
+  {"name":"HiSilicon_MachineVision","url":"https://www.hisilicon.com/cn/products/smart-vision/machine-vision","expected":"html"},
+  {"name":"HiSilicon_Hi3516CV610","url":"https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516cv610","expected":"html"},
+  {"name":"HiSilicon_Hi3403V100","url":"https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3403v100","expected":"html"},
+  {"name":"HiSilicon_Hi3519AV200","url":"https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519av200","expected":"html"},
+  {"name":"HiSilicon_Hi3519DV500","url":"https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3519dv500","expected":"html"},
+  {"name":"HiSilicon_Hi3516DV500","url":"https://www.hisilicon.com/cn/products/smart-vision/machine-vision/hi3516dv500","expected":"html"},
+  {"name":"HiSilicon_BuyChannels","url":"https://www.hisilicon.com/cn/WhereToBuy","expected":"html"},
+  {"name":"HiSilicon_AcademyPDF","url":"https://www.hisilicon.com/dam/asset/view/d8442760823b4f5e9fabb6c5bd684846.pdf","expected":"pdf"},
+  {"name":"HiSilicon_DevCenter","url":"https://developers.hisilicon.com/devCenter/index","expected":"html"}
+]

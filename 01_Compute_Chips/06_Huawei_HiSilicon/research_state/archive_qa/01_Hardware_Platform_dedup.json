@@ -1,0 +1,27 @@
+{
+  "time_utc": "2026-11-04T16:15:40.008783+00:00",
+  "summary": {
+    "complete_static": 12,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "Huawei_Atlas200IA2_Product",
+    "HiSilicon_Hi3403V100",
+    "HiSilicon_Hi3519AV200",
+    "HiSilicon_Hi3519DV500",
+    "HiSilicon_Hi3516DV500",
+    "HiSilicon_Hi3516CV610",
+    "HiSilicon_Hi3559AV100",
+    "HiSilicon_MachineVision",
+    "HiSilicon_SmartVision",
+    "Huawei_Ascend_Processors",
+    "Huawei_Atlas_Cards",
+    "HiSilicon_BuyChannels",
+    "HiSilicon_AcademyPDF"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

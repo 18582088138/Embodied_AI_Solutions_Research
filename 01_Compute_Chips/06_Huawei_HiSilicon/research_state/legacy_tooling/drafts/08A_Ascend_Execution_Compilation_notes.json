@@ -1,0 +1,47 @@
+{
+  "source_ids": [
+    "ACL_ResNet_README",
+    "ACL_ModelProcess",
+    "ACL_SampleProcess",
+    "ACL_Async_ModelProcess",
+    "ACL_Dynamic_README",
+    "ACL_FirstApp_Figure",
+    "Ascend_Samples_License",
+    "TorchNPU_Compatibility",
+    "MindSpore_Lite_Context",
+    "Ultralytics_Ascend_Exporter",
+    "Ultralytics_Ascend_Backend",
+    "VLLM_Ascend_FAQ",
+    "NVIDIA_TensorRT_Objects"
+  ],
+  "figures": [
+    {
+      "source_id": "ACL_FirstApp_Figure",
+      "file": "01_Compute_Chips/06_Huawei_HiSilicon/reference_metrial/derived/figures/02A_firstapp_white.png",
+      "caption": "华为官方ResNet50输入—推理—Top5流程",
+      "operation": "复用02A已打开原PNG并铺白背景的衍生图，结构未改"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "model内存和输入dataset生命周期分开",
+      "source_id": "ACL_ModelProcess",
+      "location": "CreateInput/DestroyInput/Unload"
+    },
+    {
+      "claim": "异步提交后callback释放资源需同步保障",
+      "source_id": "ACL_Async_ModelProcess",
+      "location": "ExecuteAsyncProcess/DestroyModelDesc"
+    },
+    {
+      "claim": "动态dims示例预置集合不等于任意shape",
+      "source_id": "ACL_Dynamic_README",
+      "location": "环境要求/模型转换"
+    },
+    {
+      "claim": "TensorRT engine与context对象职责和兼容边界不同",
+      "source_id": "NVIDIA_TensorRT_Objects",
+      "location": "Object Lifetimes/Memory/Compatibility"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "name": "CloudRobo_ProductPDF",
+    "url": "https://support.huaweicloud.com/productdesc-cloudrobo/CloudRobo%20%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D-pdf.pdf",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "CloudRobo_SimOverview",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0056.html",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "CloudRobo_SimConfig",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0052.html",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "CloudRobo_SimImport",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0053.html",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "CloudRobo_SimScene",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0054.html",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "CloudRobo_SimTrajectory",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0055.html",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "CloudRobo_SimEvaluation",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0057.html",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "CloudRobo_BestPractice",
+    "url": "https://support.huaweicloud.com/bestpractice-cloudrobo/cloudrobo_05_0001.html",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "HiSilicon_DV300_SVP_PDF",
+    "url": "https://www.hisilicon.com/dam/asset/view/4ef2e012655a4aae8c80619b8cfd093f.pdf/download",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "O3DE_ROS2_Gem",
+    "url": "https://docs.o3de.org/docs/user-guide/gems/reference/robotics/ros2/",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "RLinf_Ascend_Container",
+    "url": "https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/_ascend_libero.rst",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "RLinf_OSMesa_Setup",
+    "url": "https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/_libero_osmesa.rst",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "RLinf_Wan_Guide",
+    "url": "https://raw.githubusercontent.com/RLinf/RLinf/main/docs/source-en/rst_source/examples/embodied/wan.rst",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "RLinf_License",
+    "url": "https://raw.githubusercontent.com/RLinf/RLinf/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  }
+]
