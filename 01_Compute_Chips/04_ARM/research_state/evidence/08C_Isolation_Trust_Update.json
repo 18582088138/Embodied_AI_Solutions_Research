@@ -1,0 +1,112 @@
+{
+  "source_ids": [
+    "ARM_Zena_Blog",
+    "RAUC_Integration",
+    "RAUC_License",
+    "RAUC_Readme",
+    "TFA_CoT_Figure",
+    "TFA_Design",
+    "TFA_License",
+    "TFA_Trusted_Boot",
+    "Xen_ARM_Boot",
+    "Xen_ARM_Dom0less"
+  ],
+  "figures": [
+    {
+      "source_id": "TFA_CoT_Figure",
+      "label": "TF-A TBBR可信证书与镜像链",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/resources/diagrams/cot-tbbr.jpg",
+      "file": "01_Compute_Chips/04_ARM/reference_metrial/data/TFA_CoT_Figure--3fb109a69d7f5689/content.jpg",
+      "original_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TFA_CoT_Figure--3fb109a69d7f5689/content.jpg",
+      "operation": "官方原图未改，已实际打开核验",
+      "sha256": "088192539710d21b8421c002bf3bd4f0dda0c85cec985104678276a9b979df29",
+      "original_sha256": "088192539710d21b8421c002bf3bd4f0dda0c85cec985104678276a9b979df29"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "TFA_Trusted_Boot",
+      "claim": "可信锚",
+      "exact_quote": "Root of Trust Public Key",
+      "location": "Chain of Trust",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "生产key配置另核",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/design/trusted-board-boot.rst",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TFA_Trusted_Boot--2306aefffa749e17/content.rst",
+      "source_version": "master快照，实现TBBR Arm DEN0006D语境",
+      "collected_at_utc": "2026-11-04T17:05:28.077190+00:00"
+    },
+    {
+      "source_id": "TFA_Trusted_Boot",
+      "claim": "开发平台未实现边界",
+      "exact_quote": "unimplemented on the Arm development platforms",
+      "location": "Trusted Board Boot Sequence",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "非生产移植证明",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/design/trusted-board-boot.rst",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TFA_Trusted_Boot--2306aefffa749e17/content.rst",
+      "source_version": "master快照，实现TBBR Arm DEN0006D语境",
+      "collected_at_utc": "2026-11-04T17:05:28.077190+00:00"
+    },
+    {
+      "source_id": "TFA_Trusted_Boot",
+      "claim": "生成证书",
+      "exact_quote": "GENERATE_COT=1",
+      "location": "cert_create",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "DER+FIP",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/design/trusted-board-boot.rst",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TFA_Trusted_Boot--2306aefffa749e17/content.rst",
+      "source_version": "master快照，实现TBBR Arm DEN0006D语境",
+      "collected_at_utc": "2026-11-04T17:05:28.077190+00:00"
+    },
+    {
+      "source_id": "TFA_Trusted_Boot",
+      "claim": "双root供应责任",
+      "exact_quote": "2 separate signing",
+      "location": "Dualroot",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "可选配置",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/design/trusted-board-boot.rst",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TFA_Trusted_Boot--2306aefffa749e17/content.rst",
+      "source_version": "master快照，实现TBBR Arm DEN0006D语境",
+      "collected_at_utc": "2026-11-04T17:05:28.077190+00:00"
+    },
+    {
+      "source_id": "Xen_ARM_Dom0less",
+      "claim": "恢复限制",
+      "exact_quote": "whole platform should be rebooted",
+      "location": "Limitations",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "该快照与boot文档有版本差异",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/xen-project/xen/master/docs/features/dom0less.pandoc",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/Xen_ARM_Dom0less--a1448f3e26978f9d/content.pandoc",
+      "source_version": "master文字与booting部分配置存在差异，未建立release矩阵",
+      "collected_at_utc": "2026-11-04T17:05:40.977379+00:00"
+    },
+    {
+      "source_id": "Xen_ARM_Boot",
+      "claim": "静态内存限制",
+      "exact_quote": "Mixing",
+      "location": "Static Allocation",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "目标配置复建",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/xen-project/xen/master/docs/misc/arm/device-tree/booting.txt",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/Xen_ARM_Boot--b683d5b46bf0ed38/content.txt",
+      "source_version": "归档时间2026-11-04T15:58:48.103678+00:00",
+      "collected_at_utc": "2026-11-04T15:58:48.103678+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "执行域/故障与实时边界，Xen静态资源，CoT密钥/证书/镜像，更新恢复、防降级与许可缺口",
+    "versions_and_measurements": "各来源版本/采集时点及测试口径在正文保留；不跨SKU推导",
+    "maturity_and_licenses": "产品声明、演示、交付、商业运营分开；源码/权重/二进制许可分别核",
+    "figures_opened": "所列官方图已实际打开核验；衍生处理保留原件哈希"
+  }
+}

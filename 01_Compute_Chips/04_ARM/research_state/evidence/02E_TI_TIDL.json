@@ -1,0 +1,166 @@
+{
+  "source_ids": [
+    "TI_ROS_CNN",
+    "TI_ROS_Stack_Figure",
+    "TI_Robotics_10_01",
+    "TI_Robotics_Readme",
+    "TI_TIDL_Compile",
+    "TI_TIDL_EP",
+    "TI_TIDL_Figure",
+    "TI_TIDL_IO",
+    "TI_TIDL_Inference",
+    "TI_TIDL_License",
+    "TI_TIDL_Multicore",
+    "TI_TIDL_Native",
+    "TI_TIDL_Preemption",
+    "TI_TIDL_Quantization",
+    "TI_TIDL_Tools"
+  ],
+  "figures": [
+    {
+      "source_id": "TI_TIDL_Figure",
+      "label": "TI ONNX编译与执行流程",
+      "source_url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/assets/onnxrt-workflow.png",
+      "file": "01_Compute_Chips/04_ARM/reference_metrial/data/TI_TIDL_Figure--5c782054e2e47bf7/content.png",
+      "original_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TI_TIDL_Figure--5c782054e2e47bf7/content.png",
+      "operation": "原件已实际打开核验",
+      "sha256": "0100d8d570bd3d4d622ebd0acba8e2567042e36fe85b31f834583a8c94f9bcac",
+      "original_sha256": "0100d8d570bd3d4d622ebd0acba8e2567042e36fe85b31f834583a8c94f9bcac"
+    },
+    {
+      "source_id": "TI_ROS_Stack_Figure",
+      "label": "TI Robotics SDK软件栈",
+      "source_url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-robotics-sdk/master/docs/tiovx_ros_sw_stack.png",
+      "file": "01_Compute_Chips/04_ARM/reference_metrial/derived/figures/TI_ROS_Stack_White.png",
+      "original_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TI_ROS_Stack_Figure--9686b997ed52b774/content.png",
+      "operation": "透明PNG alpha合成白背景，未改内容，衍生图已实际打开核验；硬件示意非AM69A规格",
+      "sha256": "47250a6e626435262ed10dfb9ae01acc86b0241c4c59231dd666a2da7988b58e",
+      "original_sha256": "ece5de2a4f2b497aed4e399e094913ba5be23bcc273a1e60c141029cf30eca1c"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "TI_TIDL_Tools",
+      "claim": "TI EP分工",
+      "exact_quote": "TIDLCompilationProvider",
+      "location": "README",
+      "evidence_type": "事实",
+      "conditions": "必须TI fork",
+      "finding": "已读取官方文档；未运行板卡或编译器",
+      "source_url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/README.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TI_TIDL_Tools--fa69bb6df8c7c61b/content.md",
+      "source_version": "2026-11-05采集；tools master/11_02_04_00新结构；非固定commit",
+      "collected_at_utc": "2026-11-04T16:10:24.570047+00:00"
+    },
+    {
+      "source_id": "TI_TIDL_Compile",
+      "claim": "量化位宽",
+      "exact_quote": "tensor_bits",
+      "location": "编译参数",
+      "evidence_type": "事实",
+      "conditions": "8/16目标；需校准验证",
+      "finding": "已读取官方文档；未运行板卡或编译器",
+      "source_url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/model_compilation.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TI_TIDL_Compile--214caa703dcf79bf/content.md",
+      "source_version": "2026-11-05采集；tools master/11_02_04_00新结构；非固定commit",
+      "collected_at_utc": "2026-11-04T16:11:12.824443+00:00"
+    },
+    {
+      "source_id": "TI_TIDL_IO",
+      "claim": "IO元素大小",
+      "exact_quote": "Expected input buffer size (elements)",
+      "location": "IO descriptor",
+      "evidence_type": "事实",
+      "conditions": "padding计入分配",
+      "finding": "已读取官方文档；未运行板卡或编译器",
+      "source_url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/io_tensors.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TI_TIDL_IO--51fc8f23c19fe47a/content.md",
+      "source_version": "2026-11-05采集；tools master/11_02_04_00新结构；非固定commit",
+      "collected_at_utc": "2026-11-04T16:11:56.070091+00:00"
+    },
+    {
+      "source_id": "TI_TIDL_IO",
+      "claim": "OSRT复制限制",
+      "exact_quote": "one copy operation for inputs",
+      "location": "Unavoidable Buffer Copying",
+      "evidence_type": "事实",
+      "conditions": "所引实现边界",
+      "finding": "已读取官方文档；未运行板卡或编译器",
+      "source_url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/io_tensors.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TI_TIDL_IO--51fc8f23c19fe47a/content.md",
+      "source_version": "2026-11-05采集；tools master/11_02_04_00新结构；非固定commit",
+      "collected_at_utc": "2026-11-04T16:11:56.070091+00:00"
+    },
+    {
+      "source_id": "TI_TIDL_Native",
+      "claim": "统计口径",
+      "exact_quote": "TIDL_RT_DDR_STATS",
+      "location": "PerfStats",
+      "evidence_type": "事实",
+      "conditions": "全SoC流量",
+      "finding": "已读取官方文档；未运行板卡或编译器",
+      "source_url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/tidlrt.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TI_TIDL_Native--61c3fca6611d52f7/content.md",
+      "source_version": "2026-11-05采集；tools master/11_02_04_00新结构；非固定commit",
+      "collected_at_utc": "2026-11-04T16:11:15.738938+00:00"
+    },
+    {
+      "source_id": "TI_TIDL_Multicore",
+      "claim": "多核分工",
+      "exact_quote": "High Throughput",
+      "location": "多核模式",
+      "evidence_type": "事实",
+      "conditions": "吞吐和单帧时延不同",
+      "finding": "已读取官方文档；未运行板卡或编译器",
+      "source_url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/multi_c7x.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TI_TIDL_Multicore--19c7f8e3075ae748/content.md",
+      "source_version": "2026-11-05采集；tools master/11_02_04_00新结构；非固定commit",
+      "collected_at_utc": "2026-11-04T16:11:58.078381+00:00"
+    },
+    {
+      "source_id": "TI_TIDL_Preemption",
+      "claim": "优先级规则",
+      "exact_quote": "Lower numerical values indicate higher priority",
+      "location": "Priority-Based Execution",
+      "evidence_type": "事实",
+      "conditions": "当前层完成后切换",
+      "finding": "已读取官方文档；未运行板卡或编译器",
+      "source_url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/preemption.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TI_TIDL_Preemption--837491a4bac3ecc7/content.md",
+      "source_version": "2026-11-05采集；tools master/11_02_04_00新结构；非固定commit",
+      "collected_at_utc": "2026-11-04T16:11:59.453583+00:00"
+    },
+    {
+      "source_id": "TI_TIDL_Preemption",
+      "claim": "同priority串行",
+      "exact_quote": "round-robin",
+      "location": "Priority-Based Execution",
+      "evidence_type": "事实",
+      "conditions": "不是同时执行",
+      "finding": "已读取官方文档；未运行板卡或编译器",
+      "source_url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/preemption.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TI_TIDL_Preemption--837491a4bac3ecc7/content.md",
+      "source_version": "2026-11-05采集；tools master/11_02_04_00新结构；非固定commit",
+      "collected_at_utc": "2026-11-04T16:11:59.453583+00:00"
+    },
+    {
+      "source_id": "TI_TIDL_License",
+      "claim": "TI限制许可",
+      "exact_quote": "TI Devices",
+      "location": "LICENSE",
+      "evidence_type": "事实",
+      "conditions": "源码与二进制/权重分别核",
+      "finding": "已读取官方文档；未运行板卡或编译器",
+      "source_url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/LICENSE",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TI_TIDL_License--7ec7d53f062b7180/content.txt",
+      "source_version": "2026-11-05采集；tools master/11_02_04_00新结构；非固定commit",
+      "collected_at_utc": "2026-11-04T16:11:35.529889+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "编译/校准/子图卸载/IO/padding/复制/多核/抢占/ROS感知链",
+    "versions_and_measurements": "tools11.2与Robotics10.1不同基线；未编译或实测；DDR与时延口径分开",
+    "maturity_and_licenses": "TI受限许可已读，不等于上游ORT许可；AM69A不继承安全关键认证",
+    "figures_opened": "ONNX官方流程原图与ROS白底衍生图逐一实际打开；标签与边界可读"
+  }
+}

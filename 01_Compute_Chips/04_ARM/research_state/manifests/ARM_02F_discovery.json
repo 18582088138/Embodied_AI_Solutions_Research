@@ -1,0 +1,26 @@
+[
+  {
+    "name": "S100_Docs_Tree",
+    "url": "https://api.github.com/repos/D-Robotics/rdk_doc/git/trees/main?recursive=1",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  },
+  {
+    "name": "S100_Docs_Readme",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  },
+  {
+    "name": "S100_Docs_Sidebar",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/sidebars.ts",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  }
+]

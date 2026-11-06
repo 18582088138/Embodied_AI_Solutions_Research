@@ -1,0 +1,30 @@
+{
+  "time_utc": "2026-11-04T17:16:49.532907+00:00",
+  "summary": {
+    "complete_static": 8,
+    "partial_static": 8,
+    "failed": 0
+  },
+  "names": [
+    "ARM_AGIBOT_Case",
+    "ARM_AGI_Launch",
+    "ARM_KAI_Pack",
+    "ARM_PSYONIC_Case",
+    "ARM_Physical_AI_News",
+    "ARM_ROBOTIS_Case",
+    "ARM_SEC_CompanyFacts",
+    "ARM_SEC_Submissions",
+    "ARM_Zena_Blog",
+    "BIS_EAR",
+    "CoreCollective_SOAFEE",
+    "DepthAnything2_Readme",
+    "NVIDIA_Lifecycle",
+    "RAUC_Integration",
+    "S100_ACT_Control",
+    "S100_LeRobot"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

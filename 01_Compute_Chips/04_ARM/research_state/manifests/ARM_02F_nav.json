@@ -1,0 +1,26 @@
+[
+  {
+    "name": "S100_Docs_Nav",
+    "url": "https://github.com/D-Robotics/rdk_doc/tree/main/docs_s",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  },
+  {
+    "name": "S100_Docs_Config",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docusaurus.config.js",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  },
+  {
+    "name": "S100_Docs_Home",
+    "url": "https://d-robotics.github.io/rdk_doc/",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  }
+]

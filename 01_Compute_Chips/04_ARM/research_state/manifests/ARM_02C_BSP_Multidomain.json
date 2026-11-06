@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Linux_RPMsg",
+    "url": "https://docs.kernel.org/staging/rpmsg.html",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  },
+  {
+    "name": "Linux_RT",
+    "url": "https://docs.kernel.org/core-api/real-time/differences.html",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  },
+  {
+    "name": "Linux_Remoteproc",
+    "url": "https://docs.kernel.org/staging/remoteproc.html",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  },
+  {
+    "name": "MCUboot_Design",
+    "url": "https://raw.githubusercontent.com/mcu-tools/mcuboot/main/docs/design.md",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  },
+  {
+    "name": "OpenAMP_License",
+    "url": "https://raw.githubusercontent.com/OpenAMP/open-amp/main/LICENSE.md",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  },
+  {
+    "name": "OpenAMP_Readme",
+    "url": "https://raw.githubusercontent.com/OpenAMP/open-amp/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  },
+  {
+    "name": "SOAFEE_Home",
+    "url": "https://www.soafee.io/",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  },
+  {
+    "name": "TFA_Design",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/design/firmware-design.rst",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  },
+  {
+    "name": "TFA_License",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/license.rst",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  },
+  {
+    "name": "TFA_Service_Figure",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/resources/diagrams/rt-svc-descs-layout.png",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  },
+  {
+    "name": "Xen_ARM_Boot",
+    "url": "https://raw.githubusercontent.com/xen-project/xen/master/docs/misc/arm/device-tree/booting.txt",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Orbbec_Timestamp",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/docs/tutorial/timestamp.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "Orbbec_Lidar",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/LiDAR_README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "Orbbec_Overview_Figure",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/docs/resource/Overview.jpg",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "TI_GSCam",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-robotics-sdk/master/ros2/drivers/gscam2/README_TI.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  }
+]

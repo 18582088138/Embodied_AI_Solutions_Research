@@ -1,0 +1,74 @@
+[
+  {
+    "name": "ARM_KAI_Pack",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/kai/ukernels/matmul/pack/README.md",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  },
+  {
+    "name": "ARM_KAI_Example",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/examples/matmul_clamp_f32_qsi8d32p_qsi4c32p/README.md",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  },
+  {
+    "name": "ARM_KAI_Example_Code",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/examples/matmul_clamp_f32_qsi8d32p_qsi4c32p/matmul_clamp_f32_qsi8d32p_qsi4c32p.cpp",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  },
+  {
+    "name": "ARM_KAI_Apache",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/LICENSES/Apache-2.0.txt",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  },
+  {
+    "name": "ARM_KAI_BSD",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/LICENSES/BSD-3-Clause.txt",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  },
+  {
+    "name": "ARM_ACL_Current_Docs",
+    "url": "https://artificial-intelligence.sites.arm.com/computelibrary/latest/index.xhtml",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  },
+  {
+    "name": "ARM_ACL_Build",
+    "url": "https://artificial-intelligence.sites.arm.com/computelibrary/latest/how_to_build.xhtml",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  },
+  {
+    "name": "ARM_ACL_NEFunction",
+    "url": "https://raw.githubusercontent.com/ARM-software/ComputeLibrary/392d8863edeb45256887ae8bcf8de638dda23ad9/arm_compute/runtime/NEON/functions/NEGEMM.h",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  },
+  {
+    "name": "ARM_ACL_Example",
+    "url": "https://raw.githubusercontent.com/ARM-software/ComputeLibrary/392d8863edeb45256887ae8bcf8de638dda23ad9/examples/neon_cnn.cpp",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  }
+]

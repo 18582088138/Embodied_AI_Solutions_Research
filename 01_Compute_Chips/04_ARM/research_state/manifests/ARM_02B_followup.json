@@ -1,0 +1,58 @@
+[
+  {
+    "name": "TFLM_Memory_Current",
+    "url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/fd2a85dfb3bedac81920e8667565b1044c6b6a43/docs/memory_management.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "TFLM_Arm",
+    "url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/fd2a85dfb3bedac81920e8667565b1044c6b6a43/docs/arm.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "ARM_CMSIS_NN_API",
+    "url": "https://raw.githubusercontent.com/ARM-software/CMSIS-NN/9a88efea746b98f54d7674835b43b6c32e5a6f6b/Include/arm_nnfunctions.h",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "ARM_CMSIS_NN_Conv",
+    "url": "https://raw.githubusercontent.com/ARM-software/CMSIS-NN/9a88efea746b98f54d7674835b43b6c32e5a6f6b/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "ARM_U85_Direct",
+    "url": "https://raw.githubusercontent.com/ARM-software/ML-examples/main/ethos-u-corstone-1000/README.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "ARM_U55_Example",
+    "url": "https://raw.githubusercontent.com/ARM-software/ML-examples/main/ethos-u-corstone-300/README.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "ARM_U_Conformer",
+    "url": "https://raw.githubusercontent.com/ARM-software/ML-examples/main/pytorch-conformer-train-quantize/README.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  }
+]

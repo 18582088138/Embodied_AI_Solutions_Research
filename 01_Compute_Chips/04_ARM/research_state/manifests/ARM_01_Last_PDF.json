@@ -1,0 +1,10 @@
+[
+  {
+    "name": "ARM_Ethos_U85_Brief",
+    "url": "https://www.arm.com/-/media/files/pdf/datasheets/arm-ethos-u85-product-brief.pdf?rev=7577858dcbb948ea953a04041478e2f2&revision=7577858d-cbb9-48ea-953a-04041478e2f2&hash=390DBE8E810BD123E988D83667C2FFC4",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

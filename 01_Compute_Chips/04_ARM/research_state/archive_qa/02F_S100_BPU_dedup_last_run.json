@@ -1,0 +1,34 @@
+{
+  "time_utc": "2026-11-04T16:28:32.108781+00:00",
+  "summary": {
+    "complete_static": 20,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "S100_Center",
+    "S100_Compile_Figure",
+    "S100_Docs_Config",
+    "S100_MCU_Code",
+    "S100_MCU_IPC",
+    "S100_ModelZoo",
+    "S100_OE_Align",
+    "S100_OE_Compile",
+    "S100_OE_Infer",
+    "S100_OE_Load",
+    "S100_OE_Runtime",
+    "S100_OE_Tensor",
+    "S100_OE_Workflow",
+    "S100_Python_API",
+    "S100_TROS",
+    "S100_UCP_Guide",
+    "S100_Workflow_Figure",
+    "S100_Yolo_Readme",
+    "S100_Zoo_License",
+    "S100_Zoo_Readme"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

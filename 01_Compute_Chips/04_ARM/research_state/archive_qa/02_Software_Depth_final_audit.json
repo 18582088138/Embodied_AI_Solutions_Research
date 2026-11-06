@@ -1,0 +1,62 @@
+{
+  "outcome": "pass",
+  "protected_against_original_chapter_baseline": {
+    "01_Hardware_Platform.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08_Proprietary_Technologies.md": true,
+    "09_SWOT_Analysis.md": true
+  },
+  "authorized_updates": [
+    "02_Software_Stack.md",
+    "02A—02F专题与必要索引/README/资料/状态"
+  ],
+  "strict_body_han_excluding_references": {
+    "02_Software_Stack": 2365,
+    "02A_CPU_KleidiAI_ACL": 2024,
+    "02B_Ethos_Vela_CMSIS": 1758,
+    "02C_BSP_Multidomain": 1990,
+    "02D_Jetson_ROS_Deployment": 1787,
+    "02E_TI_TIDL": 1667,
+    "02F_S100_BPU": 2095
+  },
+  "checks": {
+    "02_Software_Stack": "pass",
+    "02A_CPU_KleidiAI_ACL": "pass",
+    "02B_Ethos_Vela_CMSIS": "pass",
+    "02C_BSP_Multidomain": "pass",
+    "02D_Jetson_ROS_Deployment": "pass",
+    "02E_TI_TIDL": "pass",
+    "02F_S100_BPU": "pass"
+  },
+  "source_union_count": 82,
+  "collection_matches_all_citations": true,
+  "distinct_official_figures_opened": 8,
+  "claim_records_including_overview_reuse": 78,
+  "local_links_checked_before_final_index_updates": 170,
+  "final_dedup_network_requests": 0,
+  "archive_status": {
+    "complete_static": 72,
+    "partial_static": 10,
+    "failed": 0
+  },
+  "final_md_hashes": {
+    "02A_CPU_KleidiAI_ACL.md": "0d21310f3f427ecae76e2a2c1676a9b796b003975e558f0931ce8b986eade3fc",
+    "02B_Ethos_Vela_CMSIS.md": "c45645ed7e43085805d3bf2b146ed2326097638b43dccfd396af41c9e2ba5f56",
+    "02C_BSP_Multidomain.md": "916fb2349a28a60ae4e6ff6ee17b94f7d1fb974710ec44e58268ad47660d010b",
+    "02D_Jetson_ROS_Deployment.md": "c6c859d72f7a897347de8dc888780ca676c724f1e1b3494565753261d395d00d",
+    "02E_TI_TIDL.md": "72ca0b3b4e525bdbc024a9998a4756fd418f2c459966a37656c74a0dcf9cae49",
+    "02F_S100_BPU.md": "471d173a57502ec6d629c1189544e329fd96c14b1e00bd03b74703efe7bab918",
+    "02_Software_Stack.md": "edaad76baaac28605d29ac6926b6f48adc337506f51ce9c14ef31fe938799637",
+    "02_Topics_Index.md": "36dcdc6a5f423e9685a02a1628efade3a56e16e195e70d1c387a72e1783dbe30"
+  },
+  "review_notes": [
+    "TI采集窗口文字最终纠正；初次带基线的质量记录保留为02E_TI_TIDL_initial_quality.json，修正后结构检查单独执行；全章原始基线在本审计统一保护01及03—09",
+    "README与专题索引更新是02交付的必要索引；未更写原始基线",
+    "OE页面外壳不计有效来源；实际动态正文模块单独归档与读取；query选择与静态头版本差异明确披露"
+  ],
+  "limits": "结构/归档及人工审阅记录，不能替代语义/法律审计；无SDK编译、FVP/模型/ROS执行、板卡或机器人实测"
+}

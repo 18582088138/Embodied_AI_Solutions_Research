@@ -1,0 +1,24 @@
+{
+  "time_utc": "2026-11-04T16:51:31.075296+00:00",
+  "summary": {
+    "complete_static": 6,
+    "partial_static": 4,
+    "failed": 0
+  },
+  "names": [
+    "ACT_Readme",
+    "ARM_U85_Direct",
+    "ARM_Zena_Blog",
+    "Gazebo_ROS2",
+    "Gazebo_Sensors",
+    "MuJoCo_Computation",
+    "MuJoCo_License",
+    "MuJoCo_MJX",
+    "MuJoCo_Overview",
+    "MuJoCo_Readme"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

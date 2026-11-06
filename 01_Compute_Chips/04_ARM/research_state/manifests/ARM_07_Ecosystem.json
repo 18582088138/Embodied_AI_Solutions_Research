@@ -1,0 +1,138 @@
+[
+  {
+    "name": "ARM_PSYONIC_Case",
+    "url": "https://www.arm.com/company/success-library/psyonic",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "ARM_Physical_AI_News",
+    "url": "https://newsroom.arm.com/news/arm-total-design-and-robotics-capability-framework-for-physical-ai",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "ARM_ROBOTIS_Case",
+    "url": "https://www.arm.com/company/success-library/made-possible/robotis",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "CoreCollective_Home",
+    "url": "https://corecollective.dev/",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "CoreCollective_SOAFEE",
+    "url": "https://corecollective.dev/blog/soafee-announcement/",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "LeRobot_Readme",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Lifecycle",
+    "url": "https://developer.nvidia.com/embedded/lifecycle",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Orbbec_SDK2",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "RAUC_Integration",
+    "url": "https://rauc.readthedocs.io/en/latest/integration.html",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "RAUC_License",
+    "url": "https://raw.githubusercontent.com/rauc/rauc/master/COPYING",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "RAUC_Readme",
+    "url": "https://raw.githubusercontent.com/rauc/rauc/master/README.rst",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "S100_LeRobot",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "S100_LeRobot_License",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "SOAFEE_Home",
+    "url": "https://www.soafee.io/",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "TI_ROS_Stack_Figure",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-robotics-sdk/master/docs/tiovx_ros_sw_stack.png",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "TI_Robotics_Readme",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-robotics-sdk/master/README.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "TI_TIDL_License",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  }
+]

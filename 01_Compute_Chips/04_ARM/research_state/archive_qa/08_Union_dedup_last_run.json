@@ -1,0 +1,43 @@
+{
+  "time_utc": "2026-11-04T17:11:07.073858+00:00",
+  "summary": {
+    "complete_static": 28,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "ARM_KAI_Apache",
+    "ARM_KAI_Example_Code",
+    "ARM_KAI_Pack",
+    "ARM_KAI_Packing_Figure",
+    "ARM_KleidiAI_Readme",
+    "ARM_TFLM_Ethos_Kernel",
+    "ARM_Zena_Blog",
+    "CoreCollective_SOAFEE",
+    "Linux_DMABUF",
+    "Linux_Ftrace",
+    "Linux_V4L2_Buffer",
+    "Orbbec_Timestamp",
+    "RAUC_Integration",
+    "RAUC_License",
+    "RAUC_Readme",
+    "ROS_Executor_Figure",
+    "ROS_Executors_Source",
+    "ROS_MessageFilters",
+    "S100_ACT_Control",
+    "S100_LeRobot",
+    "S100_LeRobot_License",
+    "TFA_CoT_Figure",
+    "TFA_Design",
+    "TFA_License",
+    "TFA_Trusted_Boot",
+    "TI_TIDL_License",
+    "TI_TIDL_Quantization",
+    "Xen_ARM_Boot",
+    "Xen_ARM_Dom0less"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

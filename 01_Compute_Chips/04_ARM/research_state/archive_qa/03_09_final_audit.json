@@ -1,0 +1,102 @@
+{
+  "outcome": "pass",
+  "reports": 10,
+  "report_checks": {
+    "03_Sensor_Integration": {
+      "body_han_chars": 2178,
+      "sources": 15,
+      "figures": 2,
+      "outcome": "pass"
+    },
+    "04_AI_Capabilities": {
+      "body_han_chars": 2269,
+      "sources": 18,
+      "figures": 2,
+      "outcome": "pass"
+    },
+    "05_Simulation_Environment": {
+      "body_han_chars": 2045,
+      "sources": 10,
+      "figures": 1,
+      "outcome": "pass"
+    },
+    "06_Robot_Integration": {
+      "body_han_chars": 2367,
+      "sources": 11,
+      "figures": 1,
+      "outcome": "pass"
+    },
+    "07_Ecosystem": {
+      "body_han_chars": 2219,
+      "sources": 17,
+      "figures": 1,
+      "outcome": "pass"
+    },
+    "08A_Compute_Asset_Portability": {
+      "body_han_chars": 2010,
+      "sources": 11,
+      "figures": 1,
+      "outcome": "pass"
+    },
+    "08B_Memory_Time_Observability": {
+      "body_han_chars": 2036,
+      "sources": 8,
+      "figures": 1,
+      "outcome": "pass"
+    },
+    "08C_Isolation_Trust_Update": {
+      "body_han_chars": 2254,
+      "sources": 10,
+      "figures": 1,
+      "outcome": "pass"
+    },
+    "08_Core_Technology_Moat": {
+      "body_han_chars": 2285,
+      "sources": 10,
+      "figures": 1,
+      "outcome": "pass"
+    },
+    "09_SWOT_Analysis": {
+      "body_han_chars": 3024,
+      "sources": 16,
+      "figures": 1,
+      "outcome": "pass"
+    }
+  },
+  "sources": 80,
+  "partial_static_sources": [
+    "ARM_AGIBOT_Case",
+    "ARM_AGI_Launch",
+    "ARM_PSYONIC_Case",
+    "ARM_Physical_AI_News",
+    "ARM_ROBOTIS_Case",
+    "ARM_Robotics",
+    "ARM_Zena_Blog",
+    "BIS_EAR",
+    "Isaac_Buffer",
+    "MuJoCo_Computation",
+    "MuJoCo_MJX",
+    "MuJoCo_Overview",
+    "NVIDIA_Lifecycle",
+    "ROBOTIS_Protocol2",
+    "ROBOTIS_Protocol2_Current",
+    "SOAFEE_Home"
+  ],
+  "distinct_figure_hashes": 11,
+  "protected": {
+    "01_Hardware_Platform.md": true,
+    "02A_CPU_KleidiAI_ACL.md": true,
+    "02B_Ethos_Vela_CMSIS.md": true,
+    "02C_BSP_Multidomain.md": true,
+    "02D_Jetson_ROS_Deployment.md": true,
+    "02E_TI_TIDL.md": true,
+    "02F_S100_BPU.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true,
+    "08_Proprietary_Technologies.md": true
+  },
+  "final_dedup_network_requests": 0,
+  "collection_02_sources": 82,
+  "collection_08_sources": 29,
+  "limitations": "结构/原件/图源与人工文献核验；无SDK/模型/本体实测；访问受限及空正文候选排除有效引用"
+}

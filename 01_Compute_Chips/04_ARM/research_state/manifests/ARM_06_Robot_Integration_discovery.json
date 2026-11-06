@@ -1,0 +1,42 @@
+[
+  {
+    "name": "ARM_PSYONIC_Case",
+    "url": "https://www.arm.com/company/success-library/psyonic",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "ARM_AGIBOT_Case",
+    "url": "https://www.arm.com/company/success-library/agibot-intelligent-robots",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "ARM_ROBOTIS_Case",
+    "url": "https://www.arm.com/company/success-library/made-possible/robotis",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "S100_ACT_Control",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/bpu_act_control_robot.py",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "S100_SO100_Figure",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/imgs/so100.png",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  }
+]

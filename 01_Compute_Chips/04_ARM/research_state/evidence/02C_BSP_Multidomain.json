@@ -1,0 +1,165 @@
+{
+  "source_ids": [
+    "Linux_RPMsg",
+    "Linux_RT",
+    "Linux_Remoteproc",
+    "MCUboot_Design",
+    "OpenAMP_License",
+    "OpenAMP_Readme",
+    "SOAFEE_Home",
+    "TFA_Design",
+    "TFA_License",
+    "TFA_Service_Figure",
+    "Xen_ARM_Boot"
+  ],
+  "figures": [
+    {
+      "label": "TF-A EL3 service索引",
+      "source_id": "TFA_Service_Figure",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/resources/diagrams/rt-svc-descs-layout.png",
+      "file": "01_Compute_Chips/04_ARM/reference_metrial/data/TFA_Service_Figure--f6485f6dac51a10c/content.png",
+      "original_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TFA_Service_Figure--f6485f6dac51a10c/content.png",
+      "operation": "官方PNG原件未改，已实际打开；索引/服务文字完整",
+      "sha256": "5293ea859d40bb7ee3c50ecaf40f64a871e776d9c33a4da1334d80b3061b70be",
+      "original_sha256": "5293ea859d40bb7ee3c50ecaf40f64a871e776d9c33a4da1334d80b3061b70be"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "Linux_Remoteproc",
+      "claim": "固件资源表",
+      "exact_quote": "RSC_CARVEOUT",
+      "location": "Binary Firmware Structure",
+      "evidence_type": "事实",
+      "conditions": "资源声明须与设备树/驱动匹配",
+      "finding": "已读原件；工程推论与平台限制分开",
+      "source_url": "https://docs.kernel.org/staging/remoteproc.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Linux_Remoteproc--c8e57b87341a5390/index.html",
+      "source_version": "Linux 7.4.0-rc1在线文档；非生产BSP绑定",
+      "collected_at_utc": "2026-11-04T15:57:12.896436+00:00"
+    },
+    {
+      "source_id": "Linux_Remoteproc",
+      "claim": "boot/shutdown引用配对",
+      "exact_quote": "Every call to rproc_boot",
+      "location": "User API",
+      "evidence_type": "事实",
+      "conditions": "shutdown不必立即物理停核",
+      "finding": "已读原件；工程推论与平台限制分开",
+      "source_url": "https://docs.kernel.org/staging/remoteproc.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Linux_Remoteproc--c8e57b87341a5390/index.html",
+      "source_version": "Linux 7.4.0-rc1在线文档；非生产BSP绑定",
+      "collected_at_utc": "2026-11-04T15:57:12.896436+00:00"
+    },
+    {
+      "source_id": "Linux_RPMsg",
+      "claim": "send阻塞/trysend立即返回",
+      "exact_quote": "15 seconds",
+      "location": "User API",
+      "evidence_type": "事实",
+      "conditions": "控制线程需显式失败/背压处理",
+      "finding": "已读原件；工程推论与平台限制分开",
+      "source_url": "https://docs.kernel.org/staging/rpmsg.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Linux_RPMsg--4d2d7c913df4a462/index.html",
+      "source_version": "Linux 7.4.0-rc1在线文档；非生产BSP绑定",
+      "collected_at_utc": "2026-11-04T15:57:31.139174+00:00"
+    },
+    {
+      "source_id": "Linux_RPMsg",
+      "claim": "可协商buffer尺寸",
+      "exact_quote": "VIRTIO_RPMSG_F_BUFSZ",
+      "location": "Configurable buffer sizes",
+      "evidence_type": "事实",
+      "conditions": "7.4rc文档；不能套所有BSP",
+      "finding": "已读原件；工程推论与平台限制分开",
+      "source_url": "https://docs.kernel.org/staging/rpmsg.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Linux_RPMsg--4d2d7c913df4a462/index.html",
+      "source_version": "Linux 7.4.0-rc1在线文档；非生产BSP绑定",
+      "collected_at_utc": "2026-11-04T15:57:31.139174+00:00"
+    },
+    {
+      "source_id": "OpenAMP_Readme",
+      "claim": "512与Linux host约束",
+      "exact_quote": "RPMSG_BUFFER_SIZE",
+      "location": "Compilation",
+      "evidence_type": "事实",
+      "conditions": "与新Linux能力分版本",
+      "finding": "已读原件；工程推论与平台限制分开",
+      "source_url": "https://raw.githubusercontent.com/OpenAMP/open-amp/main/README.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/OpenAMP_Readme--8a0e4078ea14861c/content.md",
+      "source_version": "2026-11-04采集快照",
+      "collected_at_utc": "2026-11-04T15:56:59.014002+00:00"
+    },
+    {
+      "source_id": "Linux_RT",
+      "claim": "raw spinlock保留语义",
+      "exact_quote": "raw_spinlock_t",
+      "location": "Locking",
+      "evidence_type": "事实",
+      "conditions": "RT并非WCET证明",
+      "finding": "已读原件；工程推论与平台限制分开",
+      "source_url": "https://docs.kernel.org/core-api/real-time/differences.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Linux_RT--74547944cdb4b513/index.html",
+      "source_version": "Linux 7.4.0-rc1在线文档；非生产BSP绑定",
+      "collected_at_utc": "2026-11-04T15:57:32.993782+00:00"
+    },
+    {
+      "source_id": "TFA_Design",
+      "claim": "EL3服务索引",
+      "exact_quote": "rt_svc_descs_indices",
+      "location": "Runtime service initialization",
+      "evidence_type": "事实",
+      "conditions": "描述符错误不全检测",
+      "finding": "已读原件；工程推论与平台限制分开",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/design/firmware-design.rst",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TFA_Design--067af44d752ca91c/content.rst",
+      "source_version": "2026-11-04采集快照",
+      "collected_at_utc": "2026-11-04T15:57:34.643841+00:00"
+    },
+    {
+      "source_id": "MCUboot_Design",
+      "claim": "试启动需确认",
+      "exact_quote": "test swap",
+      "location": "Image swapping",
+      "evidence_type": "事实",
+      "conditions": "签名有效不证明运行健康",
+      "finding": "已读原件；工程推论与平台限制分开",
+      "source_url": "https://raw.githubusercontent.com/mcu-tools/mcuboot/main/docs/design.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/MCUboot_Design--9f38724963631ae1/content.md",
+      "source_version": "2026-11-04采集快照",
+      "collected_at_utc": "2026-11-04T15:57:36.361319+00:00"
+    },
+    {
+      "source_id": "SOAFEE_Home",
+      "claim": "协作工作组定位",
+      "exact_quote": "CoreCollective",
+      "location": "What is SOAFEE",
+      "evidence_type": "事实",
+      "conditions": "汽车软件方法，不是机器人OS",
+      "finding": "已读原件；工程推论与平台限制分开",
+      "source_url": "https://www.soafee.io/",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/SOAFEE_Home--885a355c76bf9924/index.html",
+      "source_version": "2026-11-04采集快照",
+      "collected_at_utc": "2026-11-04T15:57:38.094626+00:00"
+    },
+    {
+      "source_id": "Xen_ARM_Boot",
+      "claim": "vCPU数量受GIC限制",
+      "exact_quote": "redistributor",
+      "location": "Creating Multiple Domains",
+      "evidence_type": "事实",
+      "conditions": "需目标SMMU/设备/中断映射",
+      "finding": "已读原件；工程推论与平台限制分开",
+      "source_url": "https://raw.githubusercontent.com/xen-project/xen/master/docs/misc/arm/device-tree/booting.txt",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/Xen_ARM_Boot--b683d5b46bf0ed38/content.txt",
+      "source_version": "2026-11-04采集快照",
+      "collected_at_utc": "2026-11-04T15:58:48.103678+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "BSP/固件资源表/RPMsg/cache/虚拟化/可信启动/RT/OTA",
+    "versions_and_measurements": "开发分支与生产BSP边界；OpenAMP与RPMsg新feature分开；未构建/实测",
+    "maturity_and_licenses": "TFA/OpenAMP BSD及MCUboot文档Apache；芯片二进制/安全包另核",
+    "figures_opened": "TF-A service索引官方图实际打开，完整可读；图不是安全认证或整机启动链"
+  }
+}

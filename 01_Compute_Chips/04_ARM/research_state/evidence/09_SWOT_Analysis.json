@@ -1,0 +1,118 @@
+{
+  "source_ids": [
+    "ARM_AGIBOT_Case",
+    "ARM_AGI_Launch",
+    "ARM_KAI_Pack",
+    "ARM_PSYONIC_Case",
+    "ARM_Physical_AI_News",
+    "ARM_ROBOTIS_Case",
+    "ARM_SEC_CompanyFacts",
+    "ARM_SEC_Submissions",
+    "ARM_Zena_Blog",
+    "BIS_EAR",
+    "CoreCollective_SOAFEE",
+    "DepthAnything2_Readme",
+    "NVIDIA_Lifecycle",
+    "RAUC_Integration",
+    "S100_ACT_Control",
+    "S100_LeRobot"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/ARM_Zena_Blog--b4187a50990d4cca/assets/images/6fd3b815e35983273103f19f.jpg",
+      "source_id": "ARM_Zena_Blog",
+      "source_url": "https://newsroom.arm.com/wp-content/uploads/2025/06/Arm_Zena_Infographic_v4-1.jpg",
+      "original_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/ARM_Zena_Blog--b4187a50990d4cca/assets/images/6fd3b815e35983273103f19f.jpg",
+      "operation": "复用官方原图，已本次实际打开；未修改，汽车口径非机器人ROI",
+      "visual_review": "已实际打开：完整标题/表头/图例及关键文本可读；非空白、无截断；边界在正文说明",
+      "sha256": "c670abbcc944529c556a8617c51476237ded879cd1392402ff185031677a0516",
+      "original_sha256": "c670abbcc944529c556a8617c51476237ded879cd1392402ff185031677a0516"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "ARM_SEC_CompanyFacts",
+      "claim": "公司整体合同收入",
+      "exact_quote": "4920000000",
+      "location": "facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "start2025-04-01/end2026-03-31/20-F/accn0001973239-26-000097，非机器人收入",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001973239.json",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_SEC_CompanyFacts--ab3de83a626d5b7c/content.json",
+      "source_version": "2026-11-05取得SEC XBRL API，年报accn2026-000097、FY2026日期字段",
+      "collected_at_utc": "2026-11-04T17:13:43.544698+00:00"
+    },
+    {
+      "source_id": "ARM_SEC_Submissions",
+      "claim": "年报提交日期",
+      "exact_quote": "2026-05-26",
+      "location": "filings/recent",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "report2026-03-31，未取得全文",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://data.sec.gov/submissions/CIK0001973239.json",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_SEC_Submissions--22bdde922de706ee/content.json",
+      "source_version": "2026-11-05取得，确认20-F提交记录",
+      "collected_at_utc": "2026-11-04T17:12:48.971618+00:00"
+    },
+    {
+      "source_id": "ARM_Physical_AI_News",
+      "claim": "市场机会为厂商估计",
+      "exact_quote": "Based on Arm estimates",
+      "location": "footnote1",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "2030s physical AI广口径非当前机器人份额",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://newsroom.arm.com/news/arm-total-design-and-robotics-capability-framework-for-physical-ai",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/ARM_Physical_AI_News--3c6e029813d18cf4/index.html",
+      "source_version": "归档时间2026-11-04T15:25:39.647573+00:00",
+      "collected_at_utc": "2026-11-04T15:25:39.647573+00:00"
+    },
+    {
+      "source_id": "BIS_EAR",
+      "claim": "政策入口范围",
+      "exact_quote": "15 CFR Parts 730-774",
+      "location": "EAR",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "未逐SKU判定",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://www.bis.gov/regulations/ear",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/BIS_EAR--eb1db390c7ea5ba9/index.html",
+      "source_version": "2026-11-05入口快照，非逐SKU法律适用",
+      "collected_at_utc": "2026-11-04T17:11:29.580724+00:00"
+    },
+    {
+      "source_id": "BIS_EAR",
+      "claim": "非正式法律版本",
+      "exact_quote": "not an official legal edition",
+      "location": "User notice",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "最终需正式法规",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://www.bis.gov/regulations/ear",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/BIS_EAR--eb1db390c7ea5ba9/index.html",
+      "source_version": "2026-11-05入口快照，非逐SKU法律适用",
+      "collected_at_utc": "2026-11-04T17:11:29.580724+00:00"
+    },
+    {
+      "source_id": "ARM_PSYONIC_Case",
+      "claim": "客户规模不同分母",
+      "exact_quote": "more than 90 robotics organizations",
+      "location": "Overview",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "非机队数量或ROI",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://www.arm.com/company/success-library/psyonic",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/ARM_PSYONIC_Case--d35285b5a0fa85e2/index.html",
+      "source_version": "归档时间2026-11-04T16:52:03.104756+00:00",
+      "collected_at_utc": "2026-11-04T16:52:03.104756+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "财务与市场分母、商业案例、条件SWOT/TCO、地区政策与许可、场景选型与放行证据",
+    "versions_and_measurements": "各来源版本/采集时点及测试口径在正文保留；不跨SKU推导",
+    "maturity_and_licenses": "产品声明、演示、交付、商业运营分开；源码/权重/二进制许可分别核",
+    "figures_opened": "所列官方图已实际打开核验；衍生处理保留原件哈希"
+  }
+}

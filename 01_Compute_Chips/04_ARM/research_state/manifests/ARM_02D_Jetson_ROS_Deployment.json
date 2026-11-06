@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Isaac_Buffer",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/index.html",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "Isaac_DNN_License",
+    "url": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_dnn_inference/release-5.0/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "Isaac_NITROS_Migration",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/nitros_migration.html",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "Isaac_ROS_Getting_Started",
+    "url": "https://nvidia-isaac-ros.github.io/getting_started/index.html",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "Isaac_TRT_Node_Code",
+    "url": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_dnn_inference/release-5.0/isaac_ros_tensor_rt/src/tensor_rt_node.cpp",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "Isaac_TRT_Package",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_dnn_inference/isaac_ros_tensor_rt/index.html",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "JetPack_Downloads",
+    "url": "https://developer.nvidia.com/embedded/jetpack/downloads",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "ROS_Executor_Figure",
+    "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Concepts/images/executors_scheduling_semantics.png",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "ROS_Executors_Source",
+    "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Concepts/Intermediate/About-Executors.rst",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "ROS_QoS_Source",
+    "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Concepts/Intermediate/About-Quality-of-Service-Settings.rst",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "TRT_Dynamic_Current",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/dynamic-shapes-basics.html",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "TRT_Runtime_API",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/python-api-docs.html",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "TRT_Support",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "source_ids": [
+    "ARM_PSYONIC_Case",
+    "ARM_Physical_AI_News",
+    "ARM_ROBOTIS_Case",
+    "CoreCollective_Home",
+    "CoreCollective_SOAFEE",
+    "LeRobot_Readme",
+    "NVIDIA_Lifecycle",
+    "Orbbec_SDK2",
+    "RAUC_Integration",
+    "RAUC_License",
+    "RAUC_Readme",
+    "S100_LeRobot",
+    "S100_LeRobot_License",
+    "SOAFEE_Home",
+    "TI_ROS_Stack_Figure",
+    "TI_Robotics_Readme",
+    "TI_TIDL_License"
+  ],
+  "figures": [
+    {
+      "source_id": "TI_ROS_Stack_Figure",
+      "label": "TDA4 ROS优化软件与异构硬件",
+      "source_url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-robotics-sdk/master/docs/tiovx_ros_sw_stack.png",
+      "file": "01_Compute_Chips/04_ARM/reference_metrial/data/TI_ROS_Stack_Figure--9686b997ed52b774/content.png",
+      "original_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TI_ROS_Stack_Figure--9686b997ed52b774/content.png",
+      "operation": "官方原图未改，已实际打开核验",
+      "sha256": "ece5de2a4f2b497aed4e399e094913ba5be23bcc273a1e60c141029cf30eca1c",
+      "original_sha256": "ece5de2a4f2b497aed4e399e094913ba5be23bcc273a1e60c141029cf30eca1c"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "CoreCollective_SOAFEE",
+      "claim": "SOAFEE治理现状",
+      "exact_quote": "July 21, 2026",
+      "location": "announcement",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "工作组非统一BSP",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://corecollective.dev/blog/soafee-announcement/",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/CoreCollective_SOAFEE--fc212ffdc999ed3b/index.html",
+      "source_version": "2026-07-21公告",
+      "collected_at_utc": "2026-11-04T16:58:43.232293+00:00"
+    },
+    {
+      "source_id": "CoreCollective_SOAFEE",
+      "claim": "组织规模声明",
+      "exact_quote": "more than 150 organizations",
+      "location": "next phase",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "非销量",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://corecollective.dev/blog/soafee-announcement/",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/CoreCollective_SOAFEE--fc212ffdc999ed3b/index.html",
+      "source_version": "2026-07-21公告",
+      "collected_at_utc": "2026-11-04T16:58:43.232293+00:00"
+    },
+    {
+      "source_id": "NVIDIA_Lifecycle",
+      "claim": "开发套件不承诺生命周期",
+      "exact_quote": "does not specify Lifecycle information for Jetson developer kits",
+      "location": "Developer Kits",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "模组另核",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://developer.nvidia.com/embedded/lifecycle",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Lifecycle--782c8ca091275c8c/index.html",
+      "source_version": "2026-11-04采集的具体模组规划",
+      "collected_at_utc": "2026-11-04T15:28:01.234094+00:00"
+    },
+    {
+      "source_id": "RAUC_Integration",
+      "claim": "更新涉及完整链",
+      "exact_quote": "The bootloader",
+      "location": "Integration",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "非独立按钮",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://rauc.readthedocs.io/en/latest/integration.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/RAUC_Integration--674732b55cafae79/index.html",
+      "source_version": "1.15.1.544-b852开发文档快照",
+      "collected_at_utc": "2026-11-04T16:57:23.659495+00:00"
+    },
+    {
+      "source_id": "RAUC_Readme",
+      "claim": "更新码许可",
+      "exact_quote": "either version 2.1 of the License",
+      "location": "License",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "含依赖义务",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/rauc/rauc/master/README.rst",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/RAUC_Readme--ce94073d8d95234e/content.rst",
+      "source_version": "归档时间2026-11-04T16:57:20.301990+00:00",
+      "collected_at_utc": "2026-11-04T16:57:20.301990+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "主要伙伴/资产分工、SOAFEE治理、量产产测PCN/EOL、RAUC具体更新接口与供应依赖",
+    "versions_and_measurements": "各来源版本/采集时点及测试口径在正文保留；不跨SKU推导",
+    "maturity_and_licenses": "产品声明、演示、交付、商业运营分开；源码/权重/二进制许可分别核",
+    "figures_opened": "所列官方图已实际打开核验；衍生处理保留原件哈希"
+  }
+}

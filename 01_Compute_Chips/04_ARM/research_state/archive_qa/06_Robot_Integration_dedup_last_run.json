@@ -1,0 +1,25 @@
+{
+  "time_utc": "2026-11-04T16:57:03.587363+00:00",
+  "summary": {
+    "complete_static": 4,
+    "partial_static": 7,
+    "failed": 0
+  },
+  "names": [
+    "ARM_AGIBOT_Case",
+    "ARM_PSYONIC_Case",
+    "ARM_Physical_AI_News",
+    "ARM_ROBOTIS_Case",
+    "ARM_Robotics",
+    "ROBOTIS_Protocol2",
+    "ROBOTIS_Protocol2_Current",
+    "S100_ACT_Control",
+    "S100_LeRobot",
+    "S100_LeRobot_License",
+    "S100_SO100_Figure"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

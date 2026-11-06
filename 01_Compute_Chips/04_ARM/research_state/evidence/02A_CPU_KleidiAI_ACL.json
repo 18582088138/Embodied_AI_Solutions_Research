@@ -1,0 +1,154 @@
+{
+  "source_ids": [
+    "ARM_ACL_Build",
+    "ARM_ACL_Commits",
+    "ARM_ACL_Current_Docs",
+    "ARM_ACL_Docs",
+    "ARM_ACL_NEFunction",
+    "ARM_ACL_Readme",
+    "ARM_KAI_Apache",
+    "ARM_KAI_BSD",
+    "ARM_KAI_Example_Code",
+    "ARM_KAI_Pack",
+    "ARM_KAI_Packing_Figure",
+    "ARM_KleidiAI_Readme"
+  ],
+  "figures": [
+    {
+      "label": "KleidiAI RHS packing",
+      "source_id": "ARM_KAI_Packing_Figure",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/docs/imgs/kai_rhs_packing_pattern_2.png",
+      "file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_KAI_Packing_Figure--49ce967ac4e8c6bd/content.png",
+      "original_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_KAI_Packing_Figure--49ce967ac4e8c6bd/content.png",
+      "operation": "官方PNG原件未修改，已逐图实际打开核验",
+      "visual_review": "scale/bias/weights文字完整，无截断",
+      "sha256": "8f7f3343bf8159971fce3e4f8db2ed4528ea87891e21817ad3cc837b4e2e321f",
+      "original_sha256": "8f7f3343bf8159971fce3e4f8db2ed4528ea87891e21817ad3cc837b4e2e321f"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "ARM_KleidiAI_Readme",
+      "claim": "微内核不管理内存和调度",
+      "exact_quote": "No scheduling",
+      "location": "Key features",
+      "evidence_type": "事实",
+      "conditions": "上层框架负责线程/内存；不是模型解析器",
+      "finding": "已核原文；边界见正文",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/kleidiai/main/README.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_KleidiAI_Readme--76cf9034d5f688ad/content.md",
+      "source_version": "2026-11-04采集快照",
+      "collected_at_utc": "2026-11-04T15:46:02.595359+00:00"
+    },
+    {
+      "source_id": "ARM_KleidiAI_Readme",
+      "claim": "SME ABI限制",
+      "exact_quote": "ZA register",
+      "location": "Supported instructions",
+      "evidence_type": "事实",
+      "conditions": "CPU/OS/编译器必须实际支持",
+      "finding": "已核原文；边界见正文",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/kleidiai/main/README.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_KleidiAI_Readme--76cf9034d5f688ad/content.md",
+      "source_version": "2026-11-04采集快照",
+      "collected_at_utc": "2026-11-04T15:46:02.595359+00:00"
+    },
+    {
+      "source_id": "ARM_KAI_Example_Code",
+      "claim": "示例固定shape及块长",
+      "exact_quote": "const size_t m = 71",
+      "location": "main",
+      "evidence_type": "事实",
+      "conditions": "M71 N63 K128 bl32随机输入；不是真实模型",
+      "finding": "已核原文；边界见正文",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/examples/matmul_clamp_f32_qsi8d32p_qsi4c32p/matmul_clamp_f32_qsi8d32p_qsi4c32p.cpp",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_KAI_Example_Code--36c503cbd9897c20/content.cpp",
+      "source_version": "同一固定KleidiAI commit",
+      "collected_at_utc": "2026-11-04T15:47:25.367769+00:00"
+    },
+    {
+      "source_id": "ARM_KAI_Example_Code",
+      "claim": "RHS可只在模型装载时重排",
+      "exact_quote": "packed only once",
+      "location": "RHS packing",
+      "evidence_type": "事实",
+      "conditions": "常量权重/布局不变条件；缓存失效是工程规则",
+      "finding": "已核原文；边界见正文",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/examples/matmul_clamp_f32_qsi8d32p_qsi4c32p/matmul_clamp_f32_qsi8d32p_qsi4c32p.cpp",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_KAI_Example_Code--36c503cbd9897c20/content.cpp",
+      "source_version": "同一固定KleidiAI commit",
+      "collected_at_utc": "2026-11-04T15:47:25.367769+00:00"
+    },
+    {
+      "source_id": "ARM_KAI_Example_Code",
+      "claim": "计时包含线程创建与LHS packing",
+      "exact_quote": "const auto time_s",
+      "location": "thread_worker及计时窗口",
+      "evidence_type": "事实",
+      "conditions": "没有P99/稳态数据，不当机器人benchmark",
+      "finding": "已核原文；边界见正文",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/examples/matmul_clamp_f32_qsi8d32p_qsi4c32p/matmul_clamp_f32_qsi8d32p_qsi4c32p.cpp",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_KAI_Example_Code--36c503cbd9897c20/content.cpp",
+      "source_version": "同一固定KleidiAI commit",
+      "collected_at_utc": "2026-11-04T15:47:25.367769+00:00"
+    },
+    {
+      "source_id": "ARM_ACL_NEFunction",
+      "claim": "配置验证及固定权重格式",
+      "exact_quote": "has_opt_impl",
+      "location": "NEGEMM API",
+      "evidence_type": "事实",
+      "conditions": "按TensorInfo验证；F16/F32/BFLOAT16不混用",
+      "finding": "已核原文；边界见正文",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/ComputeLibrary/392d8863edeb45256887ae8bcf8de638dda23ad9/arm_compute/runtime/NEON/functions/NEGEMM.h",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_ACL_NEFunction--b86b13162094677d/content.h",
+      "source_version": "固定commit 392d8863edeb45256887ae8bcf8de638dda23ad9",
+      "collected_at_utc": "2026-11-04T15:47:43.896472+00:00"
+    },
+    {
+      "source_id": "ARM_ACL_Current_Docs",
+      "claim": "现用文档53.2.0",
+      "exact_quote": "53.2.0",
+      "location": "页头",
+      "evidence_type": "事实",
+      "conditions": "与旧站24.07及main源码版本分开",
+      "finding": "已核原文；边界见正文",
+      "source_url": "https://artificial-intelligence.sites.arm.com/computelibrary/latest/index.xhtml",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/ARM_ACL_Current_Docs--14eff539cd98946f/index.html",
+      "source_version": "53.2.0；生成2026-06-30，非各段更新保证",
+      "collected_at_utc": "2026-11-04T15:47:29.372895+00:00"
+    },
+    {
+      "source_id": "ARM_ACL_Readme",
+      "claim": "静态库名2026变化",
+      "exact_quote": "libarm_compute.a",
+      "location": "Static Library Name Change",
+      "evidence_type": "事实",
+      "conditions": "旧文档命令须核实际包",
+      "finding": "已核原文；边界见正文",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/ComputeLibrary/main/README.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_ACL_Readme--599d29988b0cf58b/content.md",
+      "source_version": "2026-11-04采集快照",
+      "collected_at_utc": "2026-11-04T15:46:20.022966+00:00"
+    },
+    {
+      "source_id": "ARM_ACL_NEFunction",
+      "claim": "MIT许可",
+      "exact_quote": "SPDX-License-Identifier: MIT",
+      "location": "头文件许可",
+      "evidence_type": "事实",
+      "conditions": "不覆盖依赖/模型/固件许可",
+      "finding": "已核原文；边界见正文",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/ComputeLibrary/392d8863edeb45256887ae8bcf8de638dda23ad9/arm_compute/runtime/NEON/functions/NEGEMM.h",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_ACL_NEFunction--b86b13162094677d/content.h",
+      "source_version": "固定commit 392d8863edeb45256887ae8bcf8de638dda23ad9",
+      "collected_at_utc": "2026-11-04T15:47:43.896472+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "CPU微内核/packing/线程/ACL API/构建/完整模型接口缺口",
+    "versions_and_measurements": "固定源码与现用/旧文档分别处理；样例计时窗口已读；未实测",
+    "maturity_and_licenses": "KleidiAI Apache/BSD及ACL MIT/依赖分别核；非机器人交付认证",
+    "figures_opened": "官方packing PNG已实际打开，字/块/图例完整；图对应SME packing而非INT4逐字节格式"
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ARM_Zena_Blog",
+    "url": "https://newsroom.arm.com/blog/arm-zena-css-ai-defined-vehicle-compute-platform",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Ethos_U85_Current",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/ethos/ethos-u85",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_AGI_Brief",
+    "url": "https://www.arm.com/static/az/pdf/product-brief/arm-agi-cpu-product-brief.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_AGI_Launch",
+    "url": "https://newsroom.arm.com/news/arm-agi-cpu-launch",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Thor_Full_DS",
+    "url": "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Thor_Thermal",
+    "url": "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson_thor_thermal_dg_tdg12271001.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

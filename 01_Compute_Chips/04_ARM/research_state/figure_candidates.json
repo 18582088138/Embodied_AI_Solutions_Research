@@ -1,0 +1,52 @@
+{
+  "ARM_A78AE": {
+    "file": "01_Compute_Chips/04_ARM/reference_metrial/derived/figures/ARM_A78AE.png",
+    "sha256": "48a42f280cf49d59611003e3098d2aa87acc112e061d854d437aa4ddbbc97d13",
+    "source_id": "ARM_Cortex_A78AE_Brief",
+    "source_url": "https://www.arm.com/-/media/files/pdf/product-brief/arm-cortex-a78ae-product-brief.pdf?rev=6cbe383972644a8e9de2ae5b8f57d976&revision=6cbe3839-7264-4a8e-9de2-ae5b8f57d976",
+    "original_file": "01_Compute_Chips/04_ARM/reference_metrial/documents/ARM_Cortex_A78AE_Brief--aff3103bed2cc954/document.pdf",
+    "original_sha256": "ef2846f8937b8441e4132057c58439228173c66f2ad944a7f54c4be15a81d4c6",
+    "operation": "官方PDF第2页全页渲染，Poppler scale-to 2200，未裁剪",
+    "visual_review": "pending"
+  },
+  "TI_AM69A": {
+    "file": "01_Compute_Chips/04_ARM/reference_metrial/derived/figures/TI_AM69A.png",
+    "sha256": "ded4c1c9dd3b77de75a21a24fa0bc06438eaf078e067276714c07b99052b0815",
+    "source_id": "TI_AM69A_Datasheet",
+    "source_url": "https://www.ti.com/lit/gpn/AM69A",
+    "original_file": "01_Compute_Chips/04_ARM/reference_metrial/documents/TI_AM69A_Datasheet--dc203dc95f8fc979/document.pdf",
+    "original_sha256": "27ee408d5ed233807a73343b1b65114a322da5044714f9772c5b5b01595dcfbc",
+    "operation": "官方PDF第4页全页渲染，Poppler scale-to 2200，未裁剪",
+    "visual_review": "pending"
+  },
+  "ARM_R82AE": {
+    "file": "01_Compute_Chips/04_ARM/reference_metrial/derived/figures/ARM_R82AE.png",
+    "sha256": "435b32237ab78ef1f3c7e089579d479e35e23524704257549c28cb57407ca945",
+    "source_id": "ARM_Cortex_R82AE_Brief",
+    "source_url": "https://www.arm.com/-/media/files/pdf/product-brief/arm-cortex-r82ae-product-brief.pdf?rev=3eb84993564f454289203756ba61961f&revision=3eb84993-564f-4542-8920-3756ba61961f",
+    "original_file": "01_Compute_Chips/04_ARM/reference_metrial/documents/ARM_Cortex_R82AE_Brief--796a958188c27009/document.pdf",
+    "original_sha256": "7c061b3ba8406b7d2e0f1155452a6bd138f2dccc7b49dc14cccaf9f5b6223da6",
+    "operation": "官方PDF第5页全页渲染，Poppler scale-to 2200，未裁剪",
+    "visual_review": "pending"
+  },
+  "THOR_SOC": {
+    "file": "01_Compute_Chips/04_ARM/reference_metrial/derived/figures/THOR_SOC.png",
+    "sha256": "4fcafedced9b28989be1a7d9cdbc7590acedf12d281d7e91c8fd9d8069de9e12",
+    "source_id": "NVIDIA_Thor_Brief",
+    "source_url": "https://dam-cdn.nvd.orangelogic.com/AssetLink/v686u306w26ftuk863xjeimilimtx55e.pdf",
+    "original_file": "01_Compute_Chips/04_ARM/reference_metrial/documents/Thor_Brief--a741ad086dbfeef0/document.pdf",
+    "original_sha256": "02f0388346cac311ed1aa6be83d464c2dc0315fd7c211760413af106b1efe93d",
+    "operation": "官方PDF第12页全页渲染，Poppler scale-to 2200，未裁剪",
+    "visual_review": "pending"
+  },
+  "DROBOTICS_S100": {
+    "file": "01_Compute_Chips/04_ARM/reference_metrial/data/DROBOTICS_S100_Figure--f3a9074b0c428e82/content.png",
+    "sha256": "2e5b3588a31d0b5c9fea97b1fb1615f81dc5a2820c2a8816e4f564f8021db386",
+    "source_id": "DROBOTICS_S100_Figure",
+    "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/01_Quick_start/image/hardware_interface/image-rdk_s100_architecture_diagram.png",
+    "original_file": "01_Compute_Chips/04_ARM/reference_metrial/data/DROBOTICS_S100_Figure--f3a9074b0c428e82/content.png",
+    "original_sha256": "2e5b3588a31d0b5c9fea97b1fb1615f81dc5a2820c2a8816e4f564f8021db386",
+    "operation": "官方图片原件，未修改",
+    "visual_review": "pending"
+  }
+}

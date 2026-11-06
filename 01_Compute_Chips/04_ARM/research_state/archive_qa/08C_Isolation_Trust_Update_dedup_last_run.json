@@ -1,0 +1,24 @@
+{
+  "time_utc": "2026-11-04T17:08:25.481663+00:00",
+  "summary": {
+    "complete_static": 9,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "ARM_Zena_Blog",
+    "RAUC_Integration",
+    "RAUC_License",
+    "RAUC_Readme",
+    "TFA_CoT_Figure",
+    "TFA_Design",
+    "TFA_License",
+    "TFA_Trusted_Boot",
+    "Xen_ARM_Boot",
+    "Xen_ARM_Dom0less"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

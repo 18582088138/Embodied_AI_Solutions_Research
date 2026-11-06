@@ -1,0 +1,66 @@
+[
+  {
+    "name": "OpenAMP_Readme",
+    "url": "https://raw.githubusercontent.com/OpenAMP/open-amp/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  },
+  {
+    "name": "OpenAMP_Tree",
+    "url": "https://api.github.com/repos/OpenAMP/open-amp/git/trees/main?recursive=1",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  },
+  {
+    "name": "Linux_Remoteproc",
+    "url": "https://docs.kernel.org/staging/remoteproc.html",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  },
+  {
+    "name": "Linux_RPMsg",
+    "url": "https://docs.kernel.org/staging/rpmsg.html",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  },
+  {
+    "name": "Linux_RT",
+    "url": "https://docs.kernel.org/core-api/real-time/differences.html",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  },
+  {
+    "name": "TFA_Design",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/design/firmware-design.rst",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  },
+  {
+    "name": "MCUboot_Design",
+    "url": "https://raw.githubusercontent.com/mcu-tools/mcuboot/main/docs/design.md",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  },
+  {
+    "name": "SOAFEE_Home",
+    "url": "https://www.soafee.io/",
+    "expected": "any",
+    "used_by": [
+      "02C_BSP_Multidomain"
+    ]
+  }
+]

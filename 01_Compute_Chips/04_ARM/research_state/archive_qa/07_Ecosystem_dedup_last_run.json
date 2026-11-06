@@ -1,0 +1,31 @@
+{
+  "time_utc": "2026-11-04T17:00:33.285916+00:00",
+  "summary": {
+    "complete_static": 12,
+    "partial_static": 5,
+    "failed": 0
+  },
+  "names": [
+    "ARM_PSYONIC_Case",
+    "ARM_Physical_AI_News",
+    "ARM_ROBOTIS_Case",
+    "CoreCollective_Home",
+    "CoreCollective_SOAFEE",
+    "LeRobot_Readme",
+    "NVIDIA_Lifecycle",
+    "Orbbec_SDK2",
+    "RAUC_Integration",
+    "RAUC_License",
+    "RAUC_Readme",
+    "S100_LeRobot",
+    "S100_LeRobot_License",
+    "SOAFEE_Home",
+    "TI_ROS_Stack_Figure",
+    "TI_Robotics_Readme",
+    "TI_TIDL_License"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "name": "ARM_KAI_Apache",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/LICENSES/Apache-2.0.txt",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability"
+    ]
+  },
+  {
+    "name": "ARM_KAI_Example_Code",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/examples/matmul_clamp_f32_qsi8d32p_qsi4c32p/matmul_clamp_f32_qsi8d32p_qsi4c32p.cpp",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability"
+    ]
+  },
+  {
+    "name": "ARM_KAI_Pack",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/kai/ukernels/matmul/pack/README.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability"
+    ]
+  },
+  {
+    "name": "ARM_KAI_Packing_Figure",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/docs/imgs/kai_rhs_packing_pattern_2.png",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability"
+    ]
+  },
+  {
+    "name": "ARM_KleidiAI_Readme",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability"
+    ]
+  },
+  {
+    "name": "ARM_TFLM_Ethos_Kernel",
+    "url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/main/tensorflow/lite/micro/kernels/ethos_u/ethosu.cc",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability"
+    ]
+  },
+  {
+    "name": "S100_ACT_Control",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/bpu_act_control_robot.py",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability"
+    ]
+  },
+  {
+    "name": "S100_LeRobot",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability"
+    ]
+  },
+  {
+    "name": "S100_LeRobot_License",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability"
+    ]
+  },
+  {
+    "name": "TI_TIDL_License",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability"
+    ]
+  },
+  {
+    "name": "TI_TIDL_Quantization",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/quantization.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability"
+    ]
+  }
+]

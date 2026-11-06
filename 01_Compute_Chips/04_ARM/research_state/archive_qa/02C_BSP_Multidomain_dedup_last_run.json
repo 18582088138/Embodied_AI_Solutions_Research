@@ -1,0 +1,25 @@
+{
+  "time_utc": "2026-11-04T16:02:07.106704+00:00",
+  "summary": {
+    "complete_static": 10,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "Linux_RPMsg",
+    "Linux_RT",
+    "Linux_Remoteproc",
+    "MCUboot_Design",
+    "OpenAMP_License",
+    "OpenAMP_Readme",
+    "SOAFEE_Home",
+    "TFA_Design",
+    "TFA_License",
+    "TFA_Service_Figure",
+    "Xen_ARM_Boot"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

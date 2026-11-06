@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Linux_DMABUF",
+    "url": "https://www.kernel.org/doc/html/latest/driver-api/dma-buf.html",
+    "expected": "any",
+    "used_by": [
+      "08B_Memory_Time_Observability"
+    ]
+  },
+  {
+    "name": "Linux_Ftrace",
+    "url": "https://www.kernel.org/doc/html/latest/trace/ftrace.html",
+    "expected": "any",
+    "used_by": [
+      "08B_Memory_Time_Observability"
+    ]
+  },
+  {
+    "name": "Linux_V4L2_Buffer",
+    "url": "https://www.kernel.org/doc/html/latest/userspace-api/media/v4l/buffer.html",
+    "expected": "any",
+    "used_by": [
+      "08B_Memory_Time_Observability"
+    ]
+  },
+  {
+    "name": "Orbbec_Timestamp",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/docs/tutorial/timestamp.md",
+    "expected": "any",
+    "used_by": [
+      "08B_Memory_Time_Observability"
+    ]
+  },
+  {
+    "name": "ROS_Executor_Figure",
+    "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Concepts/images/executors_scheduling_semantics.png",
+    "expected": "any",
+    "used_by": [
+      "08B_Memory_Time_Observability"
+    ]
+  },
+  {
+    "name": "ROS_Executors_Source",
+    "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Concepts/Intermediate/About-Executors.rst",
+    "expected": "any",
+    "used_by": [
+      "08B_Memory_Time_Observability"
+    ]
+  },
+  {
+    "name": "ROS_MessageFilters",
+    "url": "https://raw.githubusercontent.com/ros2/message_filters/rolling/doc/index.rst",
+    "expected": "any",
+    "used_by": [
+      "08B_Memory_Time_Observability"
+    ]
+  },
+  {
+    "name": "S100_ACT_Control",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/bpu_act_control_robot.py",
+    "expected": "any",
+    "used_by": [
+      "08B_Memory_Time_Observability"
+    ]
+  }
+]

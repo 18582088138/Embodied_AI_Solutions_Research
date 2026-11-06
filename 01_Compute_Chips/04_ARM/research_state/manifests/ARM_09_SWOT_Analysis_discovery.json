@@ -1,0 +1,34 @@
+[
+  {
+    "name": "ARM_IR_Annual",
+    "url": "https://investors.arm.com/financials/annual-reports-and-proxies",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_IR_Quarterly",
+    "url": "https://investors.arm.com/financials/quarterly-results",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "EU_GDPR",
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "BIS_EAR",
+    "url": "https://www.bis.gov/regulations/ear",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  }
+]

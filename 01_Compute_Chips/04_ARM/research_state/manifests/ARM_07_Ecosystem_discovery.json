@@ -1,0 +1,34 @@
+[
+  {
+    "name": "RAUC_Readme",
+    "url": "https://raw.githubusercontent.com/rauc/rauc/master/README.rst",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "RAUC_License",
+    "url": "https://raw.githubusercontent.com/rauc/rauc/master/COPYING",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "RAUC_Integration",
+    "url": "https://rauc.readthedocs.io/en/latest/integration.html",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "ARM_CoreCollective",
+    "url": "https://www.arm.com/partners/core-collective",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  }
+]

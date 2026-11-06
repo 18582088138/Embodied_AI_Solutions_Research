@@ -1,0 +1,90 @@
+[
+  {
+    "name": "JetPack_Current",
+    "url": "https://developer.nvidia.com/embedded/jetpack",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "JetPack_7_Notes",
+    "url": "https://docs.nvidia.com/jetson/jetpack/7.0/release-notes/index.html",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "TRT_Dynamic",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/work-dynamic-shapes.html",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "TRT_Architecture",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/architecture-overview.html",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "TRT_Support",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "Isaac_ROS_TRT",
+    "url": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_tensor_rt/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "Isaac_NITROS",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/nitros/index.html",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "Isaac_ROS_Getting_Started",
+    "url": "https://nvidia-isaac-ros.github.io/getting_started/index.html",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "ROS_Jazzy_QoS",
+    "url": "https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Quality-of-Service-Settings.html",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "ROS_Jazzy_Executors",
+    "url": "https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Executors.html",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  },
+  {
+    "name": "Isaac_TRT_License",
+    "url": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_tensor_rt/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02D_Jetson_ROS_Deployment"
+    ]
+  }
+]

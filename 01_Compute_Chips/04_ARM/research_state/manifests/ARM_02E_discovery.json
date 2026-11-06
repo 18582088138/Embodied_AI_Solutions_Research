@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TI_TIDL_Tools",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/README.md",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_TIDL_Commits",
+    "url": "https://api.github.com/repos/TexasInstruments/edgeai-tidl-tools/commits/master",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_TIDL_Tree",
+    "url": "https://api.github.com/repos/TexasInstruments/edgeai-tidl-tools/git/trees/master?recursive=1",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_AM69A_SDK",
+    "url": "https://software-dl.ti.com/jacinto7/esd/processor-sdk-linux-am69a/latest/exports/docs/index.html",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_Robotics_Repo",
+    "url": "https://api.github.com/repos/TexasInstruments/edgeai-robotics-sdk",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_Robotics_Readme",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-robotics-sdk/master/README.md",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  }
+]

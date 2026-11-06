@@ -1,0 +1,117 @@
+{
+  "source_ids": [
+    "ACT_License",
+    "ACT_Policy_Code",
+    "ACT_Readme",
+    "ARM_KleidiAI_Readme",
+    "CosmosPredict2_Readme",
+    "DepthAnything2_Readme",
+    "Dreamer3_Readme",
+    "LeRobot_License",
+    "LeRobot_Readme",
+    "OpenPI_Config",
+    "OpenPI_License",
+    "OpenPI_Readme",
+    "Qwen25_Readme",
+    "S100_ACT_BPU_Figure",
+    "S100_ACT_Whole_Figure",
+    "S100_LeRobot",
+    "S100_LeRobot_License",
+    "S100_Zoo_Readme"
+  ],
+  "figures": [
+    {
+      "source_id": "S100_ACT_Whole_Figure",
+      "label": "S100 ACT采集到部署",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/imgs/Overview_of_the_whole_process.png",
+      "file": "01_Compute_Chips/04_ARM/reference_metrial/data/S100_ACT_Whole_Figure--5e173d77c7606ef5/content.png",
+      "original_file": "01_Compute_Chips/04_ARM/reference_metrial/data/S100_ACT_Whole_Figure--5e173d77c7606ef5/content.png",
+      "operation": "官方原图未改，已实际打开核验",
+      "sha256": "dd47aba72fd94445ddb97f557a2d0deb8eea19b4bb9a627cb95ed4301a599e02",
+      "original_sha256": "dd47aba72fd94445ddb97f557a2d0deb8eea19b4bb9a627cb95ed4301a599e02"
+    },
+    {
+      "source_id": "S100_ACT_BPU_Figure",
+      "label": "ACT CPU/BPU分区与shape",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/imgs/BPU_deploy_analysis.png",
+      "file": "01_Compute_Chips/04_ARM/reference_metrial/data/S100_ACT_BPU_Figure--b60f73ac22e0ab86/content.png",
+      "original_file": "01_Compute_Chips/04_ARM/reference_metrial/data/S100_ACT_BPU_Figure--b60f73ac22e0ab86/content.png",
+      "operation": "官方原图未改，已实际打开核验",
+      "sha256": "204ccbaa4a333aedd196dbd201f54fa4e412d365ff0bc2d9c1f2501602d24aa8",
+      "original_sha256": "204ccbaa4a333aedd196dbd201f54fa4e412d365ff0bc2d9c1f2501602d24aa8"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "OpenPI_Config",
+      "claim": "动作默认维度与horizon",
+      "exact_quote": "action_horizon: int = 50",
+      "location": "Pi0Config",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "默认非本体固定",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/src/openpi/models/pi0_config.py",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/OpenPI_Config--baf8f866abcf634f/content.py",
+      "source_version": "main快照，配置默认值",
+      "collected_at_utc": "2026-11-04T16:41:18.706718+00:00"
+    },
+    {
+      "source_id": "OpenPI_License",
+      "claim": "源码许可",
+      "exact_quote": "Apache License",
+      "location": "LICENSE",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "不覆盖全部第三方",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/LICENSE",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/OpenPI_License--e7710e649d1b8e41/content.txt",
+      "source_version": "归档时间2026-11-04T16:41:19.955760+00:00",
+      "collected_at_utc": "2026-11-04T16:41:19.955760+00:00"
+    },
+    {
+      "source_id": "S100_LeRobot_License",
+      "claim": "工具源码许可",
+      "exact_quote": "Apache License",
+      "location": "LICENSE",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "权重和数据分开",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/LICENSE",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/S100_LeRobot_License--37afc35370e19359/content.txt",
+      "source_version": "归档时间2026-11-04T16:45:04.407700+00:00",
+      "collected_at_utc": "2026-11-04T16:45:04.407700+00:00"
+    },
+    {
+      "source_id": "ACT_Policy_Code",
+      "claim": "padding掩码",
+      "exact_quote": "is_pad",
+      "location": "loss",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "训练损失非任务成功",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/tonyzhaozh/act/main/policy.py",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ACT_Policy_Code--23574ad40b7e29e1/content.py",
+      "source_version": "归档时间2026-11-04T16:41:17.209340+00:00",
+      "collected_at_utc": "2026-11-04T16:41:17.209340+00:00"
+    },
+    {
+      "source_id": "DepthAnything2_Readme",
+      "claim": "非商用权重",
+      "exact_quote": "CC-BY-NC-4.0",
+      "location": "License",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "Small另核",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/DepthAnything/Depth-Anything-V2/main/README.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/DepthAnything2_Readme--c1030fccd8827de2/content.md",
+      "source_version": "归档时间2026-11-04T16:40:38.119416+00:00",
+      "collected_at_utc": "2026-11-04T16:40:38.119416+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "任务地图、ACT和π模型深度、世界模型、训练/量化/许可/部署条件",
+    "versions_and_measurements": "各来源版本/采集时点及测试口径在正文保留；不跨SKU推导",
+    "maturity_and_licenses": "产品声明、演示、交付、商业运营分开；源码/权重/二进制许可分别核",
+    "figures_opened": "所列官方图已实际打开核验；衍生处理保留原件哈希"
+  }
+}

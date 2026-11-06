@@ -1,0 +1,166 @@
+{
+  "source_ids": [
+    "DROBOTICS_S100",
+    "DROBOTICS_S100_Figure",
+    "Isaac_Buffer",
+    "Linux_DMABUF",
+    "Linux_V4L2_Buffer",
+    "Orbbec_Lidar",
+    "Orbbec_Overview_Figure",
+    "Orbbec_SDK2",
+    "Orbbec_Timestamp",
+    "ROS_MessageFilters",
+    "ROS_QoS_Source",
+    "S100_Camera",
+    "S100_OE_Runtime",
+    "TI_ROS_CNN",
+    "TI_TIDL_IO"
+  ],
+  "figures": [
+    {
+      "source_id": "DROBOTICS_S100_Figure",
+      "label": "S100硬件拓扑",
+      "source_url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/01_Quick_start/image/hardware_interface/image-rdk_s100_architecture_diagram.png",
+      "file": "01_Compute_Chips/04_ARM/reference_metrial/data/DROBOTICS_S100_Figure--f3a9074b0c428e82/content.png",
+      "original_file": "01_Compute_Chips/04_ARM/reference_metrial/data/DROBOTICS_S100_Figure--f3a9074b0c428e82/content.png",
+      "operation": "官方原图未改，已实际打开核验",
+      "sha256": "2e5b3588a31d0b5c9fea97b1fb1615f81dc5a2820c2a8816e4f564f8021db386",
+      "original_sha256": "2e5b3588a31d0b5c9fea97b1fb1615f81dc5a2820c2a8816e4f564f8021db386"
+    },
+    {
+      "source_id": "Orbbec_Overview_Figure",
+      "label": "Orbbec SDK架构",
+      "source_url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/docs/resource/Overview.jpg",
+      "file": "01_Compute_Chips/04_ARM/reference_metrial/data/Orbbec_Overview_Figure--0c3171fa2989be6a/content.jpg",
+      "original_file": "01_Compute_Chips/04_ARM/reference_metrial/data/Orbbec_Overview_Figure--0c3171fa2989be6a/content.jpg",
+      "operation": "官方原图未改，已实际打开核验",
+      "sha256": "df50461784c81fb077398174c7fc9f2d362a0ed41d4ad63d5b859d3372796122",
+      "original_sha256": "df50461784c81fb077398174c7fc9f2d362a0ed41d4ad63d5b859d3372796122"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "Linux_V4L2_Buffer",
+      "claim": "载荷与分配大小",
+      "exact_quote": "bytesused-data_offset",
+      "location": "v4l2_plane",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "多plane有效载荷",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://www.kernel.org/doc/html/latest/userspace-api/media/v4l/buffer.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Linux_V4L2_Buffer--2c26e34b1c9ad3dc/index.html",
+      "source_version": "Linux latest在线文档快照，非目标BSP稳定版",
+      "collected_at_utc": "2026-11-04T16:36:38.080039+00:00"
+    },
+    {
+      "source_id": "Linux_V4L2_Buffer",
+      "claim": "时间事件起点",
+      "exact_quote": "Start Of Exposure",
+      "location": "flags",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "时钟标志另核",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://www.kernel.org/doc/html/latest/userspace-api/media/v4l/buffer.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Linux_V4L2_Buffer--2c26e34b1c9ad3dc/index.html",
+      "source_version": "Linux latest在线文档快照，非目标BSP稳定版",
+      "collected_at_utc": "2026-11-04T16:36:38.080039+00:00"
+    },
+    {
+      "source_id": "Linux_DMABUF",
+      "claim": "CPU缓存契约",
+      "exact_quote": "dma_buf_begin_cpu_access",
+      "location": "CPU Access",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "import与fence另核",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://www.kernel.org/doc/html/latest/driver-api/dma-buf.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Linux_DMABUF--36bb9f4e55cf47fb/index.html",
+      "source_version": "Linux latest driver API快照",
+      "collected_at_utc": "2026-11-04T16:36:57.320054+00:00"
+    },
+    {
+      "source_id": "Orbbec_SDK2",
+      "claim": "深度滤波绑定版本",
+      "exact_quote": "JetPack 6.2",
+      "location": "README",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "非新套件自动兼容",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/README.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/Orbbec_SDK2--96eb386e04fb724f/content.md",
+      "source_version": "main快照；LiDAR门槛2.6.2，滤波JetPack6.2",
+      "collected_at_utc": "2026-11-04T16:37:00.501861+00:00"
+    },
+    {
+      "source_id": "Orbbec_Timestamp",
+      "claim": "global曝光事件不变",
+      "exact_quote": "without changing the instant",
+      "location": "Timestamp Types",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "不是host接收",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/docs/tutorial/timestamp.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/Orbbec_Timestamp--6d698eb3dad5c80c/content.md",
+      "source_version": "归档时间2026-11-04T16:38:03.373708+00:00",
+      "collected_at_utc": "2026-11-04T16:38:03.373708+00:00"
+    },
+    {
+      "source_id": "Orbbec_Timestamp",
+      "claim": "RAW时钟边界",
+      "exact_quote": "CLOCK_MONOTONIC_RAW",
+      "location": "latency",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "同域相减",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/docs/tutorial/timestamp.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/Orbbec_Timestamp--6d698eb3dad5c80c/content.md",
+      "source_version": "归档时间2026-11-04T16:38:03.373708+00:00",
+      "collected_at_utc": "2026-11-04T16:38:03.373708+00:00"
+    },
+    {
+      "source_id": "ROS_MessageFilters",
+      "claim": "无header替代",
+      "exact_quote": "allow_headerless=True",
+      "location": "ApproximateTime",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "不是硬件stamp",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/ros2/message_filters/rolling/doc/index.rst",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ROS_MessageFilters--d6369762debb3218/content.rst",
+      "source_version": "归档时间2026-11-04T16:37:02.852740+00:00",
+      "collected_at_utc": "2026-11-04T16:37:02.852740+00:00"
+    },
+    {
+      "source_id": "Orbbec_Lidar",
+      "claim": "LiDAR版本",
+      "exact_quote": "v2.6.2",
+      "location": "Introduction",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "ME450/SL450",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/LiDAR_README.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/Orbbec_Lidar--dda18c83893abb5b/content.md",
+      "source_version": "归档时间2026-11-04T16:38:05.671626+00:00",
+      "collected_at_utc": "2026-11-04T16:38:05.671626+00:00"
+    },
+    {
+      "source_id": "S100_Camera",
+      "claim": "例程sensor范围",
+      "exact_quote": "IMX219, SC230AI",
+      "location": "环境准备",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "静态页头S600/5.1.1",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://developer.d-robotics.cc/rdk_s_doc/Basic_Application/Image/mipi_camera?v=4.0.5&p=RDK+S100",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/S100_Camera--32c165b12bc88e58/index.html",
+      "source_version": "2026-11-04更新；静态S600/5.1.1头，query非专属快照",
+      "collected_at_utc": "2026-11-04T16:37:05.350261+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "RGB/RGB-D/LiDAR/IMU及力触觉关节接口；DMA/时间源/配对/吞吐与异常",
+    "versions_and_measurements": "各来源版本/采集时点及测试口径在正文保留；不跨SKU推导",
+    "maturity_and_licenses": "产品声明、演示、交付、商业运营分开；源码/权重/二进制许可分别核",
+    "figures_opened": "所列官方图已实际打开核验；衍生处理保留原件哈希"
+  }
+}

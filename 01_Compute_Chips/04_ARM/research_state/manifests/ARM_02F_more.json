@@ -1,0 +1,34 @@
+[
+  {
+    "name": "S100_Zoo_Readme",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_model_zoo/rdk_s/README.md",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  },
+  {
+    "name": "S100_Zoo_License",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_model_zoo/rdk_s/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  },
+  {
+    "name": "S100_MCU_Code",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/code_release?v=4.0.5&p=RDK+S100",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  },
+  {
+    "name": "S100_MCU_IPC",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Advanced_development/mcu_development/mcu_ipc?v=4.0.5&p=RDK+S100",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "source_ids": [
+    "ARM_KAI_Pack",
+    "ARM_KleidiAI_Readme",
+    "ARM_Zena_Blog",
+    "CoreCollective_SOAFEE",
+    "Linux_DMABUF",
+    "Linux_V4L2_Buffer",
+    "RAUC_Integration",
+    "S100_ACT_Control",
+    "S100_LeRobot",
+    "TFA_Trusted_Boot"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/ARM_Zena_Blog--b4187a50990d4cca/assets/images/6fd3b815e35983273103f19f.jpg",
+      "source_id": "ARM_Zena_Blog",
+      "source_url": "https://newsroom.arm.com/wp-content/uploads/2025/06/Arm_Zena_Infographic_v4-1.jpg",
+      "original_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/ARM_Zena_Blog--b4187a50990d4cca/assets/images/6fd3b815e35983273103f19f.jpg",
+      "operation": "复用官方原始PNG/JPG，已本次实际打开核验；未修改",
+      "visual_review": "已实际打开：完整标题/表头/图例及关键文本可读；非空白、无截断；边界在正文说明",
+      "sha256": "c670abbcc944529c556a8617c51476237ded879cd1392402ff185031677a0516",
+      "original_sha256": "c670abbcc944529c556a8617c51476237ded879cd1392402ff185031677a0516"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "ARM_Zena_Blog",
+      "claim": "集成时间优势声明",
+      "exact_quote": "as much as 12 months",
+      "location": "integration",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "汽车CSS宣称非机器人保证",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://newsroom.arm.com/blog/arm-zena-css-ai-defined-vehicle-compute-platform",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/ARM_Zena_Blog--b4187a50990d4cca/index.html",
+      "source_version": "2025-06-04，汽车宣传条件，保留官网配置冲突",
+      "collected_at_utc": "2026-11-04T15:32:36.834463+00:00"
+    },
+    {
+      "source_id": "ARM_KAI_Pack",
+      "claim": "packing参数条件",
+      "exact_quote": "mr, nr and kr",
+      "location": "Packing",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "非通用权重文件",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/kai/ukernels/matmul/pack/README.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_KAI_Pack--b271d6fef76ced02/content.md",
+      "source_version": "归档时间2026-11-04T15:47:21.882054+00:00",
+      "collected_at_utc": "2026-11-04T15:47:21.882054+00:00"
+    },
+    {
+      "source_id": "S100_ACT_Control",
+      "claim": "动作队列",
+      "exact_quote": "_action_queue",
+      "location": "bpu_select_action",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "新观测不必刷新动作",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/bpu_act_control_robot.py",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/S100_ACT_Control--4b066331e7364227/content.py",
+      "source_version": "归档时间2026-11-04T16:52:35.486035+00:00",
+      "collected_at_utc": "2026-11-04T16:52:35.486035+00:00"
+    },
+    {
+      "source_id": "Linux_DMABUF",
+      "claim": "fence/CPU区分",
+      "exact_quote": "Cache flushing",
+      "location": "Implicit fences",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "非全链零拷贝",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://www.kernel.org/doc/html/latest/driver-api/dma-buf.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Linux_DMABUF--36bb9f4e55cf47fb/index.html",
+      "source_version": "归档时间2026-11-04T16:36:57.320054+00:00",
+      "collected_at_utc": "2026-11-04T16:36:57.320054+00:00"
+    },
+    {
+      "source_id": "TFA_Trusted_Boot",
+      "claim": "来源验证",
+      "exact_quote": "normal world bootloader",
+      "location": "TBB",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "非完整模型安全",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/design/trusted-board-boot.rst",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TFA_Trusted_Boot--2306aefffa749e17/content.rst",
+      "source_version": "归档时间2026-11-04T17:05:28.077190+00:00",
+      "collected_at_utc": "2026-11-04T17:05:28.077190+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "三专题护城河地图，Arm自有与开放/SoC资产区分，同一闭环系统与条件比较、采购和验证层次",
+    "versions_and_measurements": "各来源版本/采集时点及测试口径在正文保留；不跨SKU推导",
+    "maturity_and_licenses": "产品声明、演示、交付、商业运营分开；源码/权重/二进制许可分别核",
+    "figures_opened": "所列官方图已实际打开核验；衍生处理保留原件哈希"
+  }
+}

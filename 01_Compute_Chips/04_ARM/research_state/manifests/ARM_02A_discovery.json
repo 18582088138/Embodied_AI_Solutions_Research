@@ -1,0 +1,74 @@
+[
+  {
+    "name": "ARM_KleidiAI_Readme",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  },
+  {
+    "name": "ARM_KleidiAI_License",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  },
+  {
+    "name": "ARM_KleidiAI_Commits",
+    "url": "https://api.github.com/repos/ARM-software/kleidiai/commits/main",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  },
+  {
+    "name": "ARM_KleidiAI_Tree",
+    "url": "https://api.github.com/repos/ARM-software/kleidiai/git/trees/main?recursive=1",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  },
+  {
+    "name": "ARM_ACL_Readme",
+    "url": "https://raw.githubusercontent.com/ARM-software/ComputeLibrary/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  },
+  {
+    "name": "ARM_ACL_License",
+    "url": "https://raw.githubusercontent.com/ARM-software/ComputeLibrary/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  },
+  {
+    "name": "ARM_ACL_Commits",
+    "url": "https://api.github.com/repos/ARM-software/ComputeLibrary/commits/main",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  },
+  {
+    "name": "ARM_ACL_Docs",
+    "url": "https://arm-software.github.io/ComputeLibrary/latest/",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  },
+  {
+    "name": "ARM_Kleidi_Page",
+    "url": "https://www.arm.com/products/development-tools/kleidi",
+    "expected": "any",
+    "used_by": [
+      "02A_CPU_KleidiAI_ACL"
+    ]
+  }
+]

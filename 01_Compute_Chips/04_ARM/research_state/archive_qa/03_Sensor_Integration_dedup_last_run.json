@@ -1,0 +1,29 @@
+{
+  "time_utc": "2026-11-04T16:40:00.114100+00:00",
+  "summary": {
+    "complete_static": 14,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "DROBOTICS_S100",
+    "DROBOTICS_S100_Figure",
+    "Isaac_Buffer",
+    "Linux_DMABUF",
+    "Linux_V4L2_Buffer",
+    "Orbbec_Lidar",
+    "Orbbec_Overview_Figure",
+    "Orbbec_SDK2",
+    "Orbbec_Timestamp",
+    "ROS_MessageFilters",
+    "ROS_QoS_Source",
+    "S100_Camera",
+    "S100_OE_Runtime",
+    "TI_ROS_CNN",
+    "TI_TIDL_IO"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

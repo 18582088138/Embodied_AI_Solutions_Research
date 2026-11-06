@@ -1,0 +1,22 @@
+{
+  "time_utc": "2026-11-04T17:05:09.100760+00:00",
+  "summary": {
+    "complete_static": 8,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "Linux_DMABUF",
+    "Linux_Ftrace",
+    "Linux_V4L2_Buffer",
+    "Orbbec_Timestamp",
+    "ROS_Executor_Figure",
+    "ROS_Executors_Source",
+    "ROS_MessageFilters",
+    "S100_ACT_Control"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

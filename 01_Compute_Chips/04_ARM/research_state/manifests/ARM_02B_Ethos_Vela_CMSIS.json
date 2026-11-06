@@ -1,0 +1,90 @@
+[
+  {
+    "name": "ARM_CMSIS_NN",
+    "url": "https://raw.githubusercontent.com/ARM-software/CMSIS-NN/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "ARM_CMSIS_NN_License",
+    "url": "https://raw.githubusercontent.com/ARM-software/CMSIS-NN/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "ARM_TFLM_Ethos_Kernel",
+    "url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/main/tensorflow/lite/micro/kernels/ethos_u/ethosu.cc",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "ARM_U55_Example",
+    "url": "https://raw.githubusercontent.com/ARM-software/ML-examples/main/ethos-u-corstone-300/README.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "ARM_U85_Direct",
+    "url": "https://raw.githubusercontent.com/ARM-software/ML-examples/main/ethos-u-corstone-1000/README.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "ARM_U85_Model_Manifest",
+    "url": "https://raw.githubusercontent.com/ARM-software/ML-examples/main/ethos-u-corstone-1000/resources/model_manifest.json",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "ARM_U85_Requirements",
+    "url": "https://raw.githubusercontent.com/ARM-software/ML-examples/main/ethos-u-corstone-1000/scripts/py/requirements.txt",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "TFLM_Arm",
+    "url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/fd2a85dfb3bedac81920e8667565b1044c6b6a43/docs/arm.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "TFLM_Ethos_Readme",
+    "url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/main/tensorflow/lite/micro/kernels/ethos_u/README.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "TFLM_Memory_Current",
+    "url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/fd2a85dfb3bedac81920e8667565b1044c6b6a43/docs/memory_management.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "TFLM_Readme",
+    "url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  }
+]

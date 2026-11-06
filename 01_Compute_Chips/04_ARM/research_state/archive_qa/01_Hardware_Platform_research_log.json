@@ -1,0 +1,46 @@
+{
+  "network_diagnostics": [
+    "默认网络访问未成功取得robots，首轮下载已停止并核验进程退出后清理项目锁",
+    "采用项目既有代理，Arm robots出现CERTIFICATE_VERIFY_FAILED unable to get local issuer certificate",
+    "使用本机certifi CA包恢复验证，未关闭TLS校验；随后统一下载器按robots正常访问"
+  ],
+  "excluded_candidates": {
+    "ARM_Ethos_U85": {
+      "url": "https://www.arm.com/products/silicon-ip-npu/ethos-u85",
+      "error": "HTTP200的404正文，已人工排除"
+    },
+    "ARM_Mali_G78AE": {
+      "url": "https://www.arm.com/products/silicon-ip-multimedia/mali-gpus/mali-g78ae",
+      "error": "HTTP200的404正文，已人工排除"
+    },
+    "ARM_RD_Aspen": {
+      "url": "https://arm-auto-solutions.docs.arm.com/en/latest/rd-aspen/index.html",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "ARM_RD_Kronos": {
+      "url": "https://arm-auto-solutions.docs.arm.com/en/latest/rd-kronos/index.html",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "NXP_iMX95": {
+      "url": "https://www.nxp.com/products/i.MX95",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "ST_STM32N6": {
+      "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32n6-series.html",
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    },
+    "NXP_iMX95_Datasheet": {
+      "url": "https://www.nxp.com/docs/en/data-sheet/IMX95IEC.pdf",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "NXP_iMX95_EVK": {
+      "url": "https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-95-evaluation-kit:IMX95EVK",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    "ST_STM32N657": {
+      "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32n657x0.html",
+      "error": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    }
+  },
+  "limits": "没有使用失败/空壳资料支持事实；未绕过robots/登录/反爬；未取得资料不等于厂商未披露"
+}

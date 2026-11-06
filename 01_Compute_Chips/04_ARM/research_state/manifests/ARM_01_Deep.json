@@ -1,0 +1,154 @@
+[
+  {
+    "name": "ARM_Robotics",
+    "url": "https://www.arm.com/markets/robotics",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Cortex_A78AE",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/cortex-a/cortex-a78ae",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Neoverse_V3AE",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/neoverse/neoverse-v3ae",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Cortex_R52_Plus",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/cortex-r/cortex-r52-plus",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Cortex_R82AE",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/cortex-r/cortex-r82ae",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Cortex_M85",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/cortex-m/cortex-m85",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Ethos_U85",
+    "url": "https://www.arm.com/products/silicon-ip-npu/ethos-u85",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Mali_G78AE",
+    "url": "https://www.arm.com/products/silicon-ip-multimedia/mali-gpus/mali-g78ae",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Automotive",
+    "url": "https://www.arm.com/markets/automotive",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_RD_Aspen",
+    "url": "https://arm-auto-solutions.docs.arm.com/en/latest/rd-aspen/index.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_RD_Kronos",
+    "url": "https://arm-auto-solutions.docs.arm.com/en/latest/rd-kronos/index.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NXP_iMX95",
+    "url": "https://www.nxp.com/products/i.MX95",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ST_STM32N6",
+    "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32n6-series.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TI_AM69A_Datasheet",
+    "url": "https://www.ti.com/lit/gpn/AM69A",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TI_TDA4VM_Datasheet",
+    "url": "https://www.ti.com/lit/gpn/TDA4VM",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TI_SK_AM69",
+    "url": "https://www.ti.com/tool/SK-AM69",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NXP_iMX95_Datasheet",
+    "url": "https://www.nxp.com/docs/en/data-sheet/IMX95IEC.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NXP_iMX95_EVK",
+    "url": "https://www.nxp.com/design/design-center/development-boards-and-designs/i-mx-95-evaluation-kit:IMX95EVK",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ST_STM32N657",
+    "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32n657x0.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

@@ -1,0 +1,139 @@
+{
+  "source_ids": [
+    "ARM_CMSIS_NN",
+    "ARM_CMSIS_NN_License",
+    "ARM_TFLM_Ethos_Kernel",
+    "ARM_U55_Example",
+    "ARM_U85_Direct",
+    "ARM_U85_Model_Manifest",
+    "ARM_U85_Requirements",
+    "TFLM_Arm",
+    "TFLM_Ethos_Readme",
+    "TFLM_Memory_Current",
+    "TFLM_Readme"
+  ],
+  "figures": [
+    {
+      "label": "TFLM Ethos custom op原ASCII图",
+      "source_id": "TFLM_Ethos_Readme",
+      "source_url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/main/tensorflow/lite/micro/kernels/ethos_u/README.md",
+      "file": "01_Compute_Chips/04_ARM/reference_metrial/derived/figures/TFLM_Ethos_ASCII.png",
+      "original_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TFLM_Ethos_Readme--8a8b70f388d1bb14/content.md",
+      "operation": "官方README首个ASCII图，Pillow/Consolas原样排版；已实际打开核验完整",
+      "sha256": "038a97d7a3899511985769f5a8e4b58c489c2a3b96faccda472594e07bc3f9a3",
+      "original_sha256": "03578a5146f6072b8b3dd16463be04107ee70e22f7c58602eb098ed21a153fa2"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "TFLM_Ethos_Readme",
+      "claim": "Vela添加custom op",
+      "exact_quote": "custom op is added by a tool called Ethos-U Vela",
+      "location": "Ethos-U custom operator",
+      "evidence_type": "事实",
+      "conditions": "不能保证全图加速",
+      "finding": "已核成功归档原文；边界见正文",
+      "source_url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/main/tensorflow/lite/micro/kernels/ethos_u/README.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TFLM_Ethos_Readme--8a8b70f388d1bb14/content.md",
+      "source_version": "2026-11-04采集快照",
+      "collected_at_utc": "2026-11-04T15:53:27.131742+00:00"
+    },
+    {
+      "source_id": "ARM_TFLM_Ethos_Kernel",
+      "claim": "设备调用与arena地址限制",
+      "exact_quote": "not possible to point",
+      "location": "Eval注释",
+      "evidence_type": "事实",
+      "conditions": "本版本基地址≤8，输入输出不任意外置",
+      "finding": "已核成功归档原文；边界见正文",
+      "source_url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/main/tensorflow/lite/micro/kernels/ethos_u/ethosu.cc",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_TFLM_Ethos_Kernel--f453352ee1acb671/content.cc",
+      "source_version": "2026-11-04采集快照",
+      "collected_at_utc": "2026-11-04T15:52:07.663635+00:00"
+    },
+    {
+      "source_id": "TFLM_Memory_Current",
+      "claim": "arena分区与复用",
+      "exact_quote": "GreedyMemoryPlanner",
+      "location": "Tensor Arena",
+      "evidence_type": "事实",
+      "conditions": "文件大小不等于arena峰值",
+      "finding": "已核成功归档原文；边界见正文",
+      "source_url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/fd2a85dfb3bedac81920e8667565b1044c6b6a43/docs/memory_management.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TFLM_Memory_Current--2ef2ee40e2b2e2f7/content.md",
+      "source_version": "固定commit fd2a85dfb3bedac81920e8667565b1044c6b6a43",
+      "collected_at_utc": "2026-11-04T15:52:43.645278+00:00"
+    },
+    {
+      "source_id": "ARM_CMSIS_NN",
+      "claim": "INT4为权重且激活INT8",
+      "exact_quote": "int4 weights + int8 activations",
+      "location": "Operator support",
+      "evidence_type": "事实",
+      "conditions": "不得当全INT4",
+      "finding": "已核成功归档原文；边界见正文",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/CMSIS-NN/main/README.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_CMSIS_NN--036d2ea5a8151d46/content.md",
+      "source_version": "main快照；特性不能当厂商SDK稳定发行",
+      "collected_at_utc": "2026-11-04T15:51:23.532981+00:00"
+    },
+    {
+      "source_id": "ARM_CMSIS_NN",
+      "claim": "AOT开关影响布局",
+      "exact_quote": "AOT is disabled by default",
+      "location": "AOT preparation",
+      "evidence_type": "事实",
+      "conditions": "runtime/bindings/header开关一致",
+      "finding": "已核成功归档原文；边界见正文",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/CMSIS-NN/main/README.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_CMSIS_NN--036d2ea5a8151d46/content.md",
+      "source_version": "main快照；特性不能当厂商SDK稳定发行",
+      "collected_at_utc": "2026-11-04T15:51:23.532981+00:00"
+    },
+    {
+      "source_id": "ARM_U85_Direct",
+      "claim": "参考BSP绑定",
+      "exact_quote": "corstone1000-2025.12",
+      "location": "Prerequisites",
+      "evidence_type": "事实",
+      "conditions": "FVP而非硅上性能",
+      "finding": "已核成功归档原文；边界见正文",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/ML-examples/main/ethos-u-corstone-1000/README.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_U85_Direct--af97edcc6ae30f5d/content.md",
+      "source_version": "main参考实现，绑定2025.12 BSP/FVP",
+      "collected_at_utc": "2026-11-04T15:52:49.364824+00:00"
+    },
+    {
+      "source_id": "ARM_U85_Requirements",
+      "claim": "MLEK工具RC版",
+      "exact_quote": "26.06-rc1",
+      "location": "requirements",
+      "evidence_type": "事实",
+      "conditions": "依赖原件未取得",
+      "finding": "已核成功归档原文；边界见正文",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/ML-examples/main/ethos-u-corstone-1000/scripts/py/requirements.txt",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_U85_Requirements--0f52b29e2e3f674a/content.txt",
+      "source_version": "MLEK 26.06-rc1，kas4.4",
+      "collected_at_utc": "2026-11-04T15:53:41.199596+00:00"
+    },
+    {
+      "source_id": "ARM_U55_Example",
+      "claim": "旧例已弃用",
+      "exact_quote": "Deprecated example",
+      "location": "开头",
+      "evidence_type": "事实",
+      "conditions": "不作为生产支持保证",
+      "finding": "已核成功归档原文；边界见正文",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/ML-examples/main/ethos-u-corstone-300/README.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_U55_Example--182f0d7f97ff585c/content.md",
+      "source_version": "2026-11-04采集快照",
+      "collected_at_utc": "2026-11-04T15:52:50.482538+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "Vela产物/custom op/driver调用/arena/CMSIS-NN/AOT/U85直驱链；编译器和driver原件访问缺口",
+    "versions_and_measurements": "旧U55样例已deprecated；U85绑定BSP/FVP和RC工具；未运行/未benchmark",
+    "maturity_and_licenses": "CMSIS-NN/TFLM Apache；模型/driver/Vela许可不混同",
+    "figures_opened": "已实际打开：ASCII节点、tensor标签及连线完整，官方源码原样排版无增加节点"
+  }
+}

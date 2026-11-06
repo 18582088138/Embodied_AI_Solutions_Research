@@ -1,0 +1,27 @@
+{
+  "time_utc": "2026-11-04T16:09:45.470680+00:00",
+  "summary": {
+    "complete_static": 8,
+    "partial_static": 5,
+    "failed": 0
+  },
+  "names": [
+    "Isaac_Buffer",
+    "Isaac_DNN_License",
+    "Isaac_NITROS_Migration",
+    "Isaac_ROS_Getting_Started",
+    "Isaac_TRT_Node_Code",
+    "Isaac_TRT_Package",
+    "JetPack_Downloads",
+    "ROS_Executor_Figure",
+    "ROS_Executors_Source",
+    "ROS_QoS_Source",
+    "TRT_Dynamic_Current",
+    "TRT_Runtime_API",
+    "TRT_Support"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

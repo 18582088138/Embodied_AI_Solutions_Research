@@ -1,0 +1,82 @@
+[
+  {
+    "name": "ARM_Vela_Readme",
+    "url": "https://gitlab.arm.com/artificial-intelligence/ethos-u/ethos-u-vela/-/raw/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "ARM_Vela_Docs",
+    "url": "https://gitlab.arm.com/artificial-intelligence/ethos-u/ethos-u-vela/-/raw/main/docs/vela.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "ARM_Vela_PyPI",
+    "url": "https://pypi.org/pypi/ethos-u-vela/json",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "ARM_Ethos_Driver",
+    "url": "https://gitlab.arm.com/artificial-intelligence/ethos-u/ethos-u-core-driver/-/raw/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "ARM_CMSIS_NN",
+    "url": "https://raw.githubusercontent.com/ARM-software/CMSIS-NN/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "ARM_CMSIS_NN_License",
+    "url": "https://raw.githubusercontent.com/ARM-software/CMSIS-NN/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "ARM_CMSIS_NN_Commits",
+    "url": "https://api.github.com/repos/ARM-software/CMSIS-NN/commits/main",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "TFLM_Readme",
+    "url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "TFLM_Memory",
+    "url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/main/tensorflow/lite/micro/docs/memory_management.md",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  },
+  {
+    "name": "TFLM_Commits",
+    "url": "https://api.github.com/repos/tensorflow/tflite-micro/commits/main",
+    "expected": "any",
+    "used_by": [
+      "02B_Ethos_Vela_CMSIS"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "ARM_SEC_Submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001973239.json",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "EU_GDPR_CELEX",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  }
+]

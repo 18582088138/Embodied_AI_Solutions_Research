@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Qwen25_Readme",
+    "url": "https://raw.githubusercontent.com/QwenLM/Qwen2.5/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "ACT_Policy_Code",
+    "url": "https://raw.githubusercontent.com/tonyzhaozh/act/main/policy.py",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "OpenPI_Config",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/src/openpi/models/pi0_config.py",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "OpenPI_License",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "LeRobot_License",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "ACT_License",
+    "url": "https://raw.githubusercontent.com/tonyzhaozh/act/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  }
+]

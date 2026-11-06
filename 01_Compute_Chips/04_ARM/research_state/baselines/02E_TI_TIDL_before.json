@@ -1,0 +1,16 @@
+{
+  "01_Hardware_Platform.md": "39347cd202cb92723520134e6a643513d4021d823c8b325d1e658abaeb022321",
+  "02A_CPU_KleidiAI_ACL.md": "0d21310f3f427ecae76e2a2c1676a9b796b003975e558f0931ce8b986eade3fc",
+  "02B_Ethos_Vela_CMSIS.md": "c45645ed7e43085805d3bf2b146ed2326097638b43dccfd396af41c9e2ba5f56",
+  "02C_BSP_Multidomain.md": "916fb2349a28a60ae4e6ff6ee17b94f7d1fb974710ec44e58268ad47660d010b",
+  "02D_Jetson_ROS_Deployment.md": "c6c859d72f7a897347de8dc888780ca676c724f1e1b3494565753261d395d00d",
+  "02_Software_Stack.md": "a41fa15f47fe2f9b58bff4e4864f3cc948c3c1fcfd766d5d41260187ca15d089",
+  "03_Sensor_Integration.md": "9d85f299f2f5085dd67e8dd1d183a31849047ade6e161f9018ce83df79488c7d",
+  "04_AI_Capabilities.md": "961b7053f01cb2a1b2133a28ab95885aabbc0f12fafbe6af22d4efae84e2dbee",
+  "05_Simulation_Environment.md": "840afa64409e26f324d6fd7af96f262009abfc32a32a5301673e59d1a3752166",
+  "06_Robot_Integration.md": "c40e6ea0f2d68f49cddfec4b2e7f16dc5ba7839fa6a23cf8a0b1bc23d630ec07",
+  "07_Ecosystem.md": "190a4716caaf3359960404a4c846da29c80b50666a6d8c353709e1c5a1d432de",
+  "08_Proprietary_Technologies.md": "6deafbadc6fc8416b33c193177af8e142e6e32ae2a1d9890e146721c1c44bfce",
+  "09_SWOT_Analysis.md": "4b958bf38e465c0e12beb96b30de4fb9e6c3c3414cc74c6f2d6bb2c0dd24acb3",
+  "README.md": "1ff391afb7a1dcd12e2d26952fc0cfb635207a7108c7aa3049364741f0e2bdfb"
+}

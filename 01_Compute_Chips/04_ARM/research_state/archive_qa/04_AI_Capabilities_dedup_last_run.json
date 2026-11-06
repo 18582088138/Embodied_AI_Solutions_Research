@@ -1,0 +1,32 @@
+{
+  "time_utc": "2026-11-04T16:47:42.536355+00:00",
+  "summary": {
+    "complete_static": 18,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "ACT_License",
+    "ACT_Policy_Code",
+    "ACT_Readme",
+    "ARM_KleidiAI_Readme",
+    "CosmosPredict2_Readme",
+    "DepthAnything2_Readme",
+    "Dreamer3_Readme",
+    "LeRobot_License",
+    "LeRobot_Readme",
+    "OpenPI_Config",
+    "OpenPI_License",
+    "OpenPI_Readme",
+    "Qwen25_Readme",
+    "S100_ACT_BPU_Figure",
+    "S100_ACT_Whole_Figure",
+    "S100_LeRobot",
+    "S100_LeRobot_License",
+    "S100_Zoo_Readme"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/ARM_A78AE--48a42f280cf4.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/derived/figures/ARM_A78AE.png",
+    "sha256": "48a42f280cf49d59611003e3098d2aa87acc112e061d854d437aa4ddbbc97d13"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/ARM_R82AE--435b32237ab7.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/derived/figures/ARM_R82AE.png",
+    "sha256": "435b32237ab78ef1f3c7e089579d479e35e23524704257549c28cb57407ca945"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/6fd3b815e35983273103f19f--c670abbcc944.jpg",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/webpages/ARM_Zena_Blog--b4187a50990d4cca/assets/images/6fd3b815e35983273103f19f.jpg",
+    "sha256": "c670abbcc944529c556a8617c51476237ded879cd1392402ff185031677a0516"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/TI_AM69A_Variants--26d083a9f7ca.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/derived/figures/TI_AM69A_Variants.png",
+    "sha256": "26d083a9f7ca0c85d267ebf723b621acdfa85cd46d09571cc143c8761e390f9c"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/THOR_SOC--4fcafedced9b.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/derived/figures/THOR_SOC.png",
+    "sha256": "4fcafedced9b28989be1a7d9cdbc7590acedf12d281d7e91c8fd9d8069de9e12"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/content--2e5b3588a31d.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/data/DROBOTICS_S100_Figure--f3a9074b0c428e82/content.png",
+    "sha256": "2e5b3588a31d0b5c9fea97b1fb1615f81dc5a2820c2a8816e4f564f8021db386"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/TI_AM69A--ded4c1c9dd3b.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/derived/figures/TI_AM69A.png",
+    "sha256": "ded4c1c9dd3b77de75a21a24fa0bc06438eaf078e067276714c07b99052b0815"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/ARM_ETHOS--2b673d1c58cd.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/derived/figures/ARM_ETHOS.png",
+    "sha256": "2b673d1c58cd75b18ab66e1cb66145cc46568e22f9f67fdb266b6f5551f0f17c"
+  },
+  {
+    "report": "02A_CPU_KleidiAI_ACL.md",
+    "figure": "assets/figures/content--8f7f3343bf81.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_KAI_Packing_Figure--49ce967ac4e8c6bd/content.png",
+    "sha256": "8f7f3343bf8159971fce3e4f8db2ed4528ea87891e21817ad3cc837b4e2e321f"
+  },
+  {
+    "report": "02B_Ethos_Vela_CMSIS.md",
+    "figure": "assets/figures/TFLM_Ethos_ASCII--038a97d7a389.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/derived/figures/TFLM_Ethos_ASCII.png",
+    "sha256": "038a97d7a3899511985769f5a8e4b58c489c2a3b96faccda472594e07bc3f9a3"
+  },
+  {
+    "report": "02C_BSP_Multidomain.md",
+    "figure": "assets/figures/content--5293ea859d40.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/data/TFA_Service_Figure--f6485f6dac51a10c/content.png",
+    "sha256": "5293ea859d40bb7ee3c50ecaf40f64a871e776d9c33a4da1334d80b3061b70be"
+  },
+  {
+    "report": "02D_Jetson_ROS_Deployment.md",
+    "figure": "assets/figures/content--1befff65e558.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/data/ROS_Executor_Figure--ac52a46ce41c6428/content.png",
+    "sha256": "1befff65e55836d77c8350d6cce56bdc4ee96cdc86cad5e6de82cc1da3aa7470"
+  },
+  {
+    "report": "02E_TI_TIDL.md",
+    "figure": "assets/figures/content--0100d8d570bd.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/data/TI_TIDL_Figure--5c782054e2e47bf7/content.png",
+    "sha256": "0100d8d570bd3d4d622ebd0acba8e2567042e36fe85b31f834583a8c94f9bcac"
+  },
+  {
+    "report": "02E_TI_TIDL.md",
+    "figure": "assets/figures/TI_ROS_Stack_White--47250a6e6264.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/derived/figures/TI_ROS_Stack_White.png",
+    "sha256": "47250a6e626435262ed10dfb9ae01acc86b0241c4c59231dd666a2da7988b58e"
+  },
+  {
+    "report": "02F_S100_BPU.md",
+    "figure": "assets/figures/content--c87bbfd4e14c.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/data/S100_Compile_Figure--3a1f74b5cac2779e/content.png",
+    "sha256": "c87bbfd4e14c7995b06a415cc8004a6992590b3e2361957767ec28168e50d635"
+  },
+  {
+    "report": "02F_S100_BPU.md",
+    "figure": "assets/figures/S100_Workflow_White--86e06003b425.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/derived/figures/S100_Workflow_White.png",
+    "sha256": "86e06003b4251932f39c14778004bcb309f08d5b9dce38e02bc77f585836e1a0"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/content--8f7f3343bf81.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_KAI_Packing_Figure--49ce967ac4e8c6bd/content.png",
+    "sha256": "8f7f3343bf8159971fce3e4f8db2ed4528ea87891e21817ad3cc837b4e2e321f"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/content--5293ea859d40.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/data/TFA_Service_Figure--f6485f6dac51a10c/content.png",
+    "sha256": "5293ea859d40bb7ee3c50ecaf40f64a871e776d9c33a4da1334d80b3061b70be"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/content--2e5b3588a31d.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/data/DROBOTICS_S100_Figure--f3a9074b0c428e82/content.png",
+    "sha256": "2e5b3588a31d0b5c9fea97b1fb1615f81dc5a2820c2a8816e4f564f8021db386"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/content--df50461784c8.jpg",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/data/Orbbec_Overview_Figure--0c3171fa2989be6a/content.jpg",
+    "sha256": "df50461784c81fb077398174c7fc9f2d362a0ed41d4ad63d5b859d3372796122"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/content--dd47aba72fd9.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/data/S100_ACT_Whole_Figure--5e173d77c7606ef5/content.png",
+    "sha256": "dd47aba72fd94445ddb97f557a2d0deb8eea19b4bb9a627cb95ed4301a599e02"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/content--204ccbaa4a33.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/data/S100_ACT_BPU_Figure--b60f73ac22e0ab86/content.png",
+    "sha256": "204ccbaa4a333aedd196dbd201f54fa4e412d365ff0bc2d9c1f2501602d24aa8"
+  },
+  {
+    "report": "05_Simulation_Environment.md",
+    "figure": "assets/figures/99819c066db4861611a77f2a--15340e3d168c.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/webpages/MuJoCo_Computation--50bc861c2b70fd1e/assets/images/99819c066db4861611a77f2a.png",
+    "sha256": "15340e3d168c2d218311db34556402ae99f89367668a5091a282c1314b2b4f68"
+  },
+  {
+    "report": "06_Robot_Integration.md",
+    "figure": "assets/figures/content--caf17ed055cf.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/data/S100_SO100_Figure--e1f4260f5ccce918/content.png",
+    "sha256": "caf17ed055cf9a8e00dfbde3572742618cae6f98f9e3f0a2145de87c11978cec"
+  },
+  {
+    "report": "07_Ecosystem.md",
+    "figure": "assets/figures/content--ece5de2a4f2b.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/data/TI_ROS_Stack_Figure--9686b997ed52b774/content.png",
+    "sha256": "ece5de2a4f2b497aed4e399e094913ba5be23bcc273a1e60c141029cf30eca1c"
+  },
+  {
+    "report": "08A_Compute_Asset_Portability.md",
+    "figure": "assets/figures/content--8f7f3343bf81.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_KAI_Packing_Figure--49ce967ac4e8c6bd/content.png",
+    "sha256": "8f7f3343bf8159971fce3e4f8db2ed4528ea87891e21817ad3cc837b4e2e321f"
+  },
+  {
+    "report": "08B_Memory_Time_Observability.md",
+    "figure": "assets/figures/content--1befff65e558.png",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/data/ROS_Executor_Figure--ac52a46ce41c6428/content.png",
+    "sha256": "1befff65e55836d77c8350d6cce56bdc4ee96cdc86cad5e6de82cc1da3aa7470"
+  },
+  {
+    "report": "08C_Isolation_Trust_Update.md",
+    "figure": "assets/figures/content--088192539710.jpg",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/data/TFA_CoT_Figure--3fb109a69d7f5689/content.jpg",
+    "sha256": "088192539710d21b8421c002bf3bd4f0dda0c85cec985104678276a9b979df29"
+  },
+  {
+    "report": "08_Core_Technology_Moat.md",
+    "figure": "assets/figures/6fd3b815e35983273103f19f--c670abbcc944.jpg",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/webpages/ARM_Zena_Blog--b4187a50990d4cca/assets/images/6fd3b815e35983273103f19f.jpg",
+    "sha256": "c670abbcc944529c556a8617c51476237ded879cd1392402ff185031677a0516"
+  },
+  {
+    "report": "09_SWOT_Analysis.md",
+    "figure": "assets/figures/6fd3b815e35983273103f19f--c670abbcc944.jpg",
+    "local_original": "01_Compute_Chips/04_ARM/reference_metrial/webpages/ARM_Zena_Blog--b4187a50990d4cca/assets/images/6fd3b815e35983273103f19f.jpg",
+    "sha256": "c670abbcc944529c556a8617c51476237ded879cd1392402ff185031677a0516"
+  }
+]

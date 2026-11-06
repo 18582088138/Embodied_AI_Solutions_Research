@@ -1,0 +1,100 @@
+{
+  "source_ids": [
+    "ARM_KAI_Apache",
+    "ARM_KAI_Example_Code",
+    "ARM_KAI_Pack",
+    "ARM_KAI_Packing_Figure",
+    "ARM_KleidiAI_Readme",
+    "ARM_TFLM_Ethos_Kernel",
+    "S100_ACT_Control",
+    "S100_LeRobot",
+    "S100_LeRobot_License",
+    "TI_TIDL_License",
+    "TI_TIDL_Quantization"
+  ],
+  "figures": [
+    {
+      "source_id": "ARM_KAI_Packing_Figure",
+      "label": "SME量化packing补偿/权重/scale",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/docs/imgs/kai_rhs_packing_pattern_2.png",
+      "file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_KAI_Packing_Figure--49ce967ac4e8c6bd/content.png",
+      "original_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_KAI_Packing_Figure--49ce967ac4e8c6bd/content.png",
+      "operation": "官方原图未改，已实际打开核验",
+      "sha256": "8f7f3343bf8159971fce3e4f8db2ed4528ea87891e21817ad3cc837b4e2e321f",
+      "original_sha256": "8f7f3343bf8159971fce3e4f8db2ed4528ea87891e21817ad3cc837b4e2e321f"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "ARM_KAI_Pack",
+      "claim": "量化零点补偿",
+      "exact_quote": "Bias\\[n\\] - (lhs_zero_point * reduce_sum\\[n\\])",
+      "location": "SME RHS pack",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "nr/kr padding",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/kai/ukernels/matmul/pack/README.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_KAI_Pack--b271d6fef76ced02/content.md",
+      "source_version": "main原件快照，非稳定 ABI 承诺",
+      "collected_at_utc": "2026-11-04T15:47:21.882054+00:00"
+    },
+    {
+      "source_id": "ARM_KAI_Pack",
+      "claim": "int4顺序",
+      "exact_quote": "K-index + 16",
+      "location": "int4 pack",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "s16s0非s1s0",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/kai/ukernels/matmul/pack/README.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_KAI_Pack--b271d6fef76ced02/content.md",
+      "source_version": "main原件快照，非稳定 ABI 承诺",
+      "collected_at_utc": "2026-11-04T15:47:21.882054+00:00"
+    },
+    {
+      "source_id": "ARM_TFLM_Ethos_Kernel",
+      "claim": "命令流arena约束",
+      "exact_quote": "outside of the TFLM arena",
+      "location": "Eval comments",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "取得版本，非所有未来版本",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/main/tensorflow/lite/micro/kernels/ethos_u/ethosu.cc",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ARM_TFLM_Ethos_Kernel--f453352ee1acb671/content.cc",
+      "source_version": "TFLM取得的Ethos kernel实现",
+      "collected_at_utc": "2026-11-04T15:52:07.663635+00:00"
+    },
+    {
+      "source_id": "TI_TIDL_Quantization",
+      "claim": "混合精度预算",
+      "exact_quote": "T_MP / T_8",
+      "location": "Automated Mixed Precision",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "非本项目性能",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/quantization.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/TI_TIDL_Quantization--9d7eeb75fed5ef54/content.md",
+      "source_version": "11.2工具文档上下文，QAT仅J721E/TDA4VM",
+      "collected_at_utc": "2026-11-04T16:12:00.471501+00:00"
+    },
+    {
+      "source_id": "S100_ACT_Control",
+      "claim": "平台产物不同",
+      "exact_quote": "BPU_ACTPolicy_VisionEncoder.bin",
+      "location": "X5 path",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "S100为HBM",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/bpu_act_control_robot.py",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/S100_ACT_Control--4b066331e7364227/content.py",
+      "source_version": "归档时间2026-11-04T16:52:35.486035+00:00",
+      "collected_at_utc": "2026-11-04T16:52:35.486035+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "量化元数据/packing到设备图的资产层次，执行契约、机制比较、迁移验证与许可",
+    "versions_and_measurements": "各来源版本/采集时点及测试口径在正文保留；不跨SKU推导",
+    "maturity_and_licenses": "产品声明、演示、交付、商业运营分开；源码/权重/二进制许可分别核",
+    "figures_opened": "所列官方图已实际打开核验；衍生处理保留原件哈希"
+  }
+}

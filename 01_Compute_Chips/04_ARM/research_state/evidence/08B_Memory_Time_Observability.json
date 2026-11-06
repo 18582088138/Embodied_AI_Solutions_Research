@@ -1,0 +1,110 @@
+{
+  "source_ids": [
+    "Linux_DMABUF",
+    "Linux_Ftrace",
+    "Linux_V4L2_Buffer",
+    "Orbbec_Timestamp",
+    "ROS_Executor_Figure",
+    "ROS_Executors_Source",
+    "ROS_MessageFilters",
+    "S100_ACT_Control"
+  ],
+  "figures": [
+    {
+      "source_id": "ROS_Executor_Figure",
+      "label": "ROS wait-set与callback执行流程",
+      "source_url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Concepts/images/executors_scheduling_semantics.png",
+      "file": "01_Compute_Chips/04_ARM/reference_metrial/data/ROS_Executor_Figure--ac52a46ce41c6428/content.png",
+      "original_file": "01_Compute_Chips/04_ARM/reference_metrial/data/ROS_Executor_Figure--ac52a46ce41c6428/content.png",
+      "operation": "官方原图未改，已实际打开核验",
+      "sha256": "1befff65e55836d77c8350d6cce56bdc4ee96cdc86cad5e6de82cc1da3aa7470",
+      "original_sha256": "1befff65e55836d77c8350d6cce56bdc4ee96cdc86cad5e6de82cc1da3aa7470"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "Linux_DMABUF",
+      "claim": "fence不等缓存",
+      "exact_quote": "Cache flushing",
+      "location": "Implicit Fence Poll",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "CPU access另核",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://www.kernel.org/doc/html/latest/driver-api/dma-buf.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Linux_DMABUF--36bb9f4e55cf47fb/index.html",
+      "source_version": "归档时间2026-11-04T16:36:57.320054+00:00",
+      "collected_at_utc": "2026-11-04T16:36:57.320054+00:00"
+    },
+    {
+      "source_id": "Linux_DMABUF",
+      "claim": "deadline只是hint",
+      "exact_quote": "Or doing nothing at all",
+      "location": "Deadline Hints",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "非实时承诺",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://www.kernel.org/doc/html/latest/driver-api/dma-buf.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Linux_DMABUF--36bb9f4e55cf47fb/index.html",
+      "source_version": "归档时间2026-11-04T16:36:57.320054+00:00",
+      "collected_at_utc": "2026-11-04T16:36:57.320054+00:00"
+    },
+    {
+      "source_id": "Linux_Ftrace",
+      "claim": "trace local跨CPU",
+      "exact_quote": "may not be monotonic with respect to other CPUs",
+      "location": "trace_clock",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "采样前冻结",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://www.kernel.org/doc/html/latest/trace/ftrace.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Linux_Ftrace--85520aa69b9b5cc6/index.html",
+      "source_version": "Linux latest在线快照，非目标BSP稳定API矩阵",
+      "collected_at_utc": "2026-11-04T17:02:51.511262+00:00"
+    },
+    {
+      "source_id": "Linux_Ftrace",
+      "claim": "buffer口径",
+      "exact_quote": "size of the CPU buffer and not total size",
+      "location": "buffer_size_kb",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "每CPU",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://www.kernel.org/doc/html/latest/trace/ftrace.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Linux_Ftrace--85520aa69b9b5cc6/index.html",
+      "source_version": "Linux latest在线快照，非目标BSP稳定API矩阵",
+      "collected_at_utc": "2026-11-04T17:02:51.511262+00:00"
+    },
+    {
+      "source_id": "Linux_Ftrace",
+      "claim": "事件丢失",
+      "exact_quote": "overrun",
+      "location": "stats",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "不忽略丢事件",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://www.kernel.org/doc/html/latest/trace/ftrace.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Linux_Ftrace--85520aa69b9b5cc6/index.html",
+      "source_version": "Linux latest在线快照，非目标BSP稳定API矩阵",
+      "collected_at_utc": "2026-11-04T17:02:51.511262+00:00"
+    },
+    {
+      "source_id": "Linux_V4L2_Buffer",
+      "claim": "时钟与事件",
+      "exact_quote": "Start Of Exposure",
+      "location": "flags",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "与MONOTONIC独立",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://www.kernel.org/doc/html/latest/userspace-api/media/v4l/buffer.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Linux_V4L2_Buffer--2c26e34b1c9ad3dc/index.html",
+      "source_version": "归档时间2026-11-04T16:36:38.080039+00:00",
+      "collected_at_utc": "2026-11-04T16:36:38.080039+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "buffer生命周期/DMA/cache/fence、物理时间事件、ROS调度与ftrace可观测、条件比较与验证",
+    "versions_and_measurements": "各来源版本/采集时点及测试口径在正文保留；不跨SKU推导",
+    "maturity_and_licenses": "产品声明、演示、交付、商业运营分开；源码/权重/二进制许可分别核",
+    "figures_opened": "所列官方图已实际打开核验；衍生处理保留原件哈希"
+  }
+}

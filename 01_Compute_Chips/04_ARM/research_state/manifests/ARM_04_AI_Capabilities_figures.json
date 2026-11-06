@@ -1,0 +1,26 @@
+[
+  {
+    "name": "S100_ACT_Whole_Figure",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/imgs/Overview_of_the_whole_process.png",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "S100_ACT_BPU_Figure",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/imgs/BPU_deploy_analysis.png",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "S100_LeRobot_License",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  }
+]

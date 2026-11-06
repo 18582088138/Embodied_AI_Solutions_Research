@@ -1,0 +1,112 @@
+{
+  "source_ids": [
+    "ACT_Readme",
+    "ARM_U85_Direct",
+    "ARM_Zena_Blog",
+    "Gazebo_ROS2",
+    "Gazebo_Sensors",
+    "MuJoCo_Computation",
+    "MuJoCo_License",
+    "MuJoCo_MJX",
+    "MuJoCo_Overview",
+    "MuJoCo_Readme"
+  ],
+  "figures": [
+    {
+      "source_id": "MuJoCo_Computation",
+      "label": "软接触近似",
+      "file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/MuJoCo_Computation--50bc861c2b70fd1e/assets/images/99819c066db4861611a77f2a.png",
+      "original_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/MuJoCo_Computation--50bc861c2b70fd1e/assets/images/99819c066db4861611a77f2a.png",
+      "source_url": "https://mujoco.readthedocs.io/en/stable/_images/softcontact.png",
+      "operation": "官方文档静态PNG原件已实际打开，未修改",
+      "sha256": "15340e3d168c2d218311db34556402ae99f89367668a5091a282c1314b2b4f68",
+      "original_sha256": "15340e3d168c2d218311db34556402ae99f89367668a5091a282c1314b2b4f68"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "MuJoCo_Readme",
+      "claim": "AArch64预编译",
+      "exact_quote": "Linux (x86-64 and AArch64)",
+      "location": "Prebuilt binaries",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "非所有GPU驱动",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/google-deepmind/mujoco/main/README.md",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/MuJoCo_Readme--256fd316f8826a33/content.md",
+      "source_version": "归档时间2026-11-04T16:48:57.394652+00:00",
+      "collected_at_utc": "2026-11-04T16:48:57.394652+00:00"
+    },
+    {
+      "source_id": "MuJoCo_Overview",
+      "claim": "模型/状态分离",
+      "exact_quote": "mjData",
+      "location": "Separation of model and data",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "共享model独立状态",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://mujoco.readthedocs.io/en/stable/overview.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/MuJoCo_Overview--745c39f10cd62e88/index.html",
+      "source_version": "归档时间2026-11-04T16:47:57.217892+00:00",
+      "collected_at_utc": "2026-11-04T16:47:57.217892+00:00"
+    },
+    {
+      "source_id": "MuJoCo_Computation",
+      "claim": "分步积分边界",
+      "exact_quote": "does not support the Runge Kutta integrator",
+      "location": "pipeline",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "step1/step2",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://mujoco.readthedocs.io/en/stable/computation/index.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/MuJoCo_Computation--50bc861c2b70fd1e/index.html",
+      "source_version": "stable在线快照2026-11-05",
+      "collected_at_utc": "2026-11-04T16:48:41.405029+00:00"
+    },
+    {
+      "source_id": "MuJoCo_MJX",
+      "claim": "结构字段触发编译",
+      "exact_quote": "jnt_limited",
+      "location": "Structs",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "不是所有数组变化",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://mujoco.readthedocs.io/en/stable/mjx.html",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/MuJoCo_MJX--63a58dbcc0c84e67/index.html",
+      "source_version": "归档时间2026-11-04T16:48:45.645565+00:00",
+      "collected_at_utc": "2026-11-04T16:48:45.645565+00:00"
+    },
+    {
+      "source_id": "Gazebo_ROS2",
+      "claim": "桥类型覆盖有限",
+      "exact_quote": "limited to only certain message types",
+      "location": "ros_gz_bridge",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "逐类型匹配",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://gazebosim.org/docs/latest/ros2_integration/",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Gazebo_ROS2--73621aeeb998893f/index.html",
+      "source_version": "latest实际Jetty LTS",
+      "collected_at_utc": "2026-11-04T16:49:00.478221+00:00"
+    },
+    {
+      "source_id": "Gazebo_Sensors",
+      "claim": "教学传感器频率",
+      "exact_quote": "<update_rate>10</update_rate>",
+      "location": "Lidar sensor",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "非板端实测",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://gazebosim.org/docs/latest/sensors/",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/Gazebo_Sensors--809fd0e6cec9687c/index.html",
+      "source_version": "归档时间2026-11-04T16:49:21.527024+00:00",
+      "collected_at_utc": "2026-11-04T16:49:21.527024+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "虚拟硬件与第三方物理仿真、状态/接触/时间步、JIT/后端性能条件、ROS传感器和sim-to-real",
+    "versions_and_measurements": "各来源版本/采集时点及测试口径在正文保留；不跨SKU推导",
+    "maturity_and_licenses": "产品声明、演示、交付、商业运营分开；源码/权重/二进制许可分别核",
+    "figures_opened": "所列官方图已实际打开核验；衍生处理保留原件哈希"
+  }
+}

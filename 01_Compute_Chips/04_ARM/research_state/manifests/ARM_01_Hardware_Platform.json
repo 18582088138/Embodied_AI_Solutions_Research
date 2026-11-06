@@ -1,0 +1,290 @@
+[
+  {
+    "name": "ARM_AGI_Brief",
+    "url": "https://www.arm.com/static/az/pdf/product-brief/arm-agi-cpu-product-brief.pdf",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_AGI_CPU",
+    "url": "https://www.arm.com/products/cloud-datacenter/arm-agi-cpu",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_AGI_Launch",
+    "url": "https://newsroom.arm.com/news/arm-agi-cpu-launch",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Corstone_320",
+    "url": "https://www.arm.com/products/silicon-ip-subsystems/corstone-320",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Cortex_A520AE",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/cortex-a/cortex-a520ae",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Cortex_A720AE",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/cortex-a/cortex-a720ae",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Cortex_A78AE",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/cortex-a/cortex-a78ae",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Cortex_A78AE_Brief",
+    "url": "https://www.arm.com/-/media/files/pdf/product-brief/arm-cortex-a78ae-product-brief.pdf?rev=6cbe383972644a8e9de2ae5b8f57d976&revision=6cbe3839-7264-4a8e-9de2-ae5b8f57d976",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Cortex_M85",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/cortex-m/cortex-m85",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Cortex_R52_Plus",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/cortex-r/cortex-r52-plus",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Cortex_R82AE",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/cortex-r/cortex-r82ae",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Cortex_R82AE_Brief",
+    "url": "https://www.arm.com/-/media/files/pdf/product-brief/arm-cortex-r82ae-product-brief.pdf?rev=3eb84993564f454289203756ba61961f&revision=3eb84993-564f-4542-8920-3756ba61961f",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Ethos_U85_Brief",
+    "url": "https://www.arm.com/-/media/files/pdf/datasheets/arm-ethos-u85-product-brief.pdf?rev=7577858dcbb948ea953a04041478e2f2&revision=7577858d-cbb9-48ea-953a-04041478e2f2&hash=390DBE8E810BD123E988D83667C2FFC4",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Ethos_U85_Current",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/ethos/ethos-u85",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Mali_G78AE_Current",
+    "url": "https://www.arm.com/products/silicon-ip-multimedia/gpu/mali-g78ae",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Neoverse_V3AE",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/neoverse/neoverse-v3ae",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Physical_AI_News",
+    "url": "https://newsroom.arm.com/news/arm-total-design-and-robotics-capability-framework-for-physical-ai",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Robotics",
+    "url": "https://www.arm.com/markets/robotics",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Zena",
+    "url": "https://www.arm.com/products/autonomous-machines/zena-compute-subsystems",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Zena_Blog",
+    "url": "https://newsroom.arm.com/blog/arm-zena-css-ai-defined-vehicle-compute-platform",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Zena_Launch",
+    "url": "https://newsroom.arm.com/news/arm-unveils-zena-css",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "DROBOTICS_S100",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/01_Quick_start/01_hardware_introduction/01_rdk_s100.md",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "DROBOTICS_S100_Figure",
+    "url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/01_Quick_start/image/hardware_interface/image-rdk_s100_architecture_diagram.png",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_FAQ",
+    "url": "https://developer.nvidia.com/embedded/faq",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Lifecycle",
+    "url": "https://developer.nvidia.com/embedded/lifecycle",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Orin",
+    "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Thor",
+    "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Thor_Brief",
+    "url": "https://dam-cdn.nvd.orangelogic.com/AssetLink/v686u306w26ftuk863xjeimilimtx55e.pdf",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Thor_Datasheet",
+    "url": "https://dam-cdn.nvd.orangelogic.com/AssetLink/x20v2h2y15uh0ne54rpb73xh4x7s0m1s.pdf",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Thor_Full_DS",
+    "url": "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Thor_Thermal",
+    "url": "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson_thor_thermal_dg_tdg12271001.pdf",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TI_AM69A",
+    "url": "https://www.ti.com/product/AM69A",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TI_AM69A_Datasheet",
+    "url": "https://www.ti.com/lit/gpn/AM69A",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TI_SK_AM69",
+    "url": "https://www.ti.com/tool/SK-AM69",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TI_TDA4VM",
+    "url": "https://www.ti.com/product/TDA4VM",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TI_TDA4VM_Datasheet",
+    "url": "https://www.ti.com/lit/gpn/TDA4VM",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

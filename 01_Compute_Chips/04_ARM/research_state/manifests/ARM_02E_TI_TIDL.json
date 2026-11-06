@@ -1,0 +1,122 @@
+[
+  {
+    "name": "TI_ROS_CNN",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-robotics-sdk/master/ros2/nodes/ti_vision_cnn/README_objdet.md",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_ROS_Stack_Figure",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-robotics-sdk/master/docs/tiovx_ros_sw_stack.png",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_Robotics_10_01",
+    "url": "https://software-dl.ti.com/jacinto7/esd/robotics-sdk/10_01_00/AM69A/docs/index.html",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_Robotics_Readme",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-robotics-sdk/master/README.md",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_TIDL_Compile",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/model_compilation.md",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_TIDL_EP",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/onnxruntime/tidl-1.23/onnxruntime/core/providers/tidl/README.md",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_TIDL_Figure",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/assets/onnxrt-workflow.png",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_TIDL_IO",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/io_tensors.md",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_TIDL_Inference",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/model_inference.md",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_TIDL_License",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_TIDL_Multicore",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/multi_c7x.md",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_TIDL_Native",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/tidlrt.md",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_TIDL_Preemption",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/preemption.md",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_TIDL_Quantization",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/quantization.md",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  },
+  {
+    "name": "TI_TIDL_Tools",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/README.md",
+    "expected": "any",
+    "used_by": [
+      "02E_TI_TIDL"
+    ]
+  }
+]

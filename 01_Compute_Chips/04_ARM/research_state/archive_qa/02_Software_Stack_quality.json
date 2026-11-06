@@ -1,0 +1,32 @@
+{
+  "report": "01_Compute_Chips/04_ARM/02_Software_Stack.md",
+  "body_han_chars": 3487,
+  "tables": 3,
+  "sources": 35,
+  "archive_status": {
+    "complete_static": 34,
+    "partial_static": 1
+  },
+  "figures": 2,
+  "file_hash_checks": 301,
+  "html_visible_text_equal": 8,
+  "page_local_dependencies_checked": 272,
+  "report_local_links": 42,
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08_Proprietary_Technologies.md": true,
+    "09_SWOT_Analysis.md": true,
+    "README.md": true
+  },
+  "errors": [],
+  "warnings": [
+    "静态依赖部分缺失: Isaac_Buffer（报告应披露）"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

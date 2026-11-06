@@ -1,0 +1,42 @@
+[
+  {
+    "name": "S100_OE",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/guide/doc_introduction.html",
+    "expected": "html",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  },
+  {
+    "name": "S100_LLM",
+    "url": "https://developer.d-robotics.cc/oe_llm_doc/guide/sdk_introduction.html",
+    "expected": "html",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  },
+  {
+    "name": "S100_TROS",
+    "url": "https://developer.d-robotics.cc/tros_doc/tros?v=4.0.5&p=RDK+S100",
+    "expected": "html",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  },
+  {
+    "name": "S100_MCU",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/05_MCU_development?v=4.0.5&p=RDK+S100",
+    "expected": "html",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  },
+  {
+    "name": "S100_ModelZoo",
+    "url": "https://developer.d-robotics.cc/model_zoo_doc/model_zoo_intro?v=4.0.5&p=RDK+S100",
+    "expected": "html",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  }
+]

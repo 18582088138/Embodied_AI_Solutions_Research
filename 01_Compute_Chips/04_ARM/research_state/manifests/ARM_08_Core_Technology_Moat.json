@@ -1,0 +1,82 @@
+[
+  {
+    "name": "ARM_KAI_Pack",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/kai/ukernels/matmul/pack/README.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "ARM_KleidiAI_Readme",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "ARM_Zena_Blog",
+    "url": "https://newsroom.arm.com/blog/arm-zena-css-ai-defined-vehicle-compute-platform",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "CoreCollective_SOAFEE",
+    "url": "https://corecollective.dev/blog/soafee-announcement/",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "Linux_DMABUF",
+    "url": "https://www.kernel.org/doc/html/latest/driver-api/dma-buf.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "Linux_V4L2_Buffer",
+    "url": "https://www.kernel.org/doc/html/latest/userspace-api/media/v4l/buffer.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "RAUC_Integration",
+    "url": "https://rauc.readthedocs.io/en/latest/integration.html",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "S100_ACT_Control",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/bpu_act_control_robot.py",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "S100_LeRobot",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "TFA_Trusted_Boot",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/design/trusted-board-boot.rst",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  }
+]

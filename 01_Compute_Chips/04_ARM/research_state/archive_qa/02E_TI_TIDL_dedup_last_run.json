@@ -1,0 +1,29 @@
+{
+  "time_utc": "2026-11-04T16:17:04.463635+00:00",
+  "summary": {
+    "complete_static": 14,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "TI_ROS_CNN",
+    "TI_ROS_Stack_Figure",
+    "TI_Robotics_10_01",
+    "TI_Robotics_Readme",
+    "TI_TIDL_Compile",
+    "TI_TIDL_EP",
+    "TI_TIDL_Figure",
+    "TI_TIDL_IO",
+    "TI_TIDL_Inference",
+    "TI_TIDL_License",
+    "TI_TIDL_Multicore",
+    "TI_TIDL_Native",
+    "TI_TIDL_Preemption",
+    "TI_TIDL_Quantization",
+    "TI_TIDL_Tools"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

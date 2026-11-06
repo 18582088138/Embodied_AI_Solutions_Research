@@ -1,0 +1,26 @@
+[
+  {
+    "name": "TFA_Trusted_Boot",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/design/trusted-board-boot.rst",
+    "expected": "any",
+    "used_by": [
+      "08C_Isolation_Trust_Update"
+    ]
+  },
+  {
+    "name": "TFA_Firmware_Update",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/design/firmware-update.rst",
+    "expected": "any",
+    "used_by": [
+      "08C_Isolation_Trust_Update"
+    ]
+  },
+  {
+    "name": "Xen_ARM_Dom0less",
+    "url": "https://raw.githubusercontent.com/xen-project/xen/master/docs/features/dom0less.pandoc",
+    "expected": "any",
+    "used_by": [
+      "08C_Isolation_Trust_Update"
+    ]
+  }
+]

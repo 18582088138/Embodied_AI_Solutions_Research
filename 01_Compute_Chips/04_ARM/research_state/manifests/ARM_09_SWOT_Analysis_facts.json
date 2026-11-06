@@ -1,0 +1,10 @@
+[
+  {
+    "name": "ARM_SEC_CompanyFacts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001973239.json",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  }
+]

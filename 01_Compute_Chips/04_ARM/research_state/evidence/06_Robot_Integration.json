@@ -1,0 +1,126 @@
+{
+  "source_ids": [
+    "ARM_AGIBOT_Case",
+    "ARM_PSYONIC_Case",
+    "ARM_Physical_AI_News",
+    "ARM_ROBOTIS_Case",
+    "ARM_Robotics",
+    "ROBOTIS_Protocol2",
+    "ROBOTIS_Protocol2_Current",
+    "S100_ACT_Control",
+    "S100_LeRobot",
+    "S100_LeRobot_License",
+    "S100_SO100_Figure"
+  ],
+  "figures": [
+    {
+      "source_id": "S100_SO100_Figure",
+      "label": "SO100 leader/follower本体",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/imgs/so100.png",
+      "file": "01_Compute_Chips/04_ARM/reference_metrial/data/S100_SO100_Figure--e1f4260f5ccce918/content.png",
+      "original_file": "01_Compute_Chips/04_ARM/reference_metrial/data/S100_SO100_Figure--e1f4260f5ccce918/content.png",
+      "operation": "官方原图未改，已实际打开核验",
+      "sha256": "caf17ed055cf9a8e00dfbde3572742618cae6f98f9e3f0a2145de87c11978cec",
+      "original_sha256": "caf17ed055cf9a8e00dfbde3572742618cae6f98f9e3f0a2145de87c11978cec"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "S100_ACT_Control",
+      "claim": "空队列才推理",
+      "exact_quote": "if len(self._action_queue) == 0:",
+      "location": "bpu_select_action",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "期间采集不刷新策略",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/bpu_act_control_robot.py",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/S100_ACT_Control--4b066331e7364227/content.py",
+      "source_version": "main快照；默认fps30/n_action_steps50",
+      "collected_at_utc": "2026-11-04T16:52:35.486035+00:00"
+    },
+    {
+      "source_id": "S100_ACT_Control",
+      "claim": "循环默认频率",
+      "exact_quote": "default=30",
+      "location": "parser fps",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "非内部servo",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/bpu_act_control_robot.py",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/S100_ACT_Control--4b066331e7364227/content.py",
+      "source_version": "main快照；默认fps30/n_action_steps50",
+      "collected_at_utc": "2026-11-04T16:52:35.486035+00:00"
+    },
+    {
+      "source_id": "S100_ACT_Control",
+      "claim": "CPU拷贝",
+      "exact_quote": "numpy().copy()",
+      "location": "bpu_model_S100",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "非全链零拷贝",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/bpu_act_control_robot.py",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/data/S100_ACT_Control--4b066331e7364227/content.py",
+      "source_version": "main快照；默认fps30/n_action_steps50",
+      "collected_at_utc": "2026-11-04T16:52:35.486035+00:00"
+    },
+    {
+      "source_id": "ARM_PSYONIC_Case",
+      "claim": "客户使用规模",
+      "exact_quote": "more than 300 users",
+      "location": "Overview",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "客户声明非独立审计",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://www.arm.com/company/success-library/psyonic",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/ARM_PSYONIC_Case--d35285b5a0fa85e2/index.html",
+      "source_version": "未明示发布日期，2026-11-05取得客户页",
+      "collected_at_utc": "2026-11-04T16:52:03.104756+00:00"
+    },
+    {
+      "source_id": "ARM_PSYONIC_Case",
+      "claim": "手内处理器",
+      "exact_quote": "12 Arm-based processors per hand",
+      "location": "Impact",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "具体MCU未给",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://www.arm.com/company/success-library/psyonic",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/ARM_PSYONIC_Case--d35285b5a0fa85e2/index.html",
+      "source_version": "未明示发布日期，2026-11-05取得客户页",
+      "collected_at_utc": "2026-11-04T16:52:03.104756+00:00"
+    },
+    {
+      "source_id": "ARM_AGIBOT_Case",
+      "claim": "具体本体",
+      "exact_quote": "AGIBOT D1",
+      "location": "Result",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "SKU/BSP未给",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://www.arm.com/company/success-library/agibot-intelligent-robots",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/ARM_AGIBOT_Case--8f9bd644cb3469e4/index.html",
+      "source_version": "归档时间2026-11-04T16:52:13.313256+00:00",
+      "collected_at_utc": "2026-11-04T16:52:13.313256+00:00"
+    },
+    {
+      "source_id": "ROBOTIS_Protocol2",
+      "claim": "协议广播确认限制",
+      "exact_quote": "will only return Status Packets for Ping, Sync Read and Bulk Read commands",
+      "location": "Status Packet",
+      "evidence_type": "事实/官方声明；见正文区分",
+      "conditions": "历史原件；非Feetech",
+      "finding": "已读原文；无SDK/模型/机器人实测",
+      "source_url": "https://emanual.robotis.com/docs/en/dxl/protocol2/",
+      "local_file": "01_Compute_Chips/04_ARM/reference_metrial/webpages/ROBOTIS_Protocol2--0ecbf1f74b7c3d45/index.html",
+      "source_version": "e-Manual历史快照，提示迁移ROBOTIS Docs",
+      "collected_at_utc": "2026-11-04T16:53:14.105958+00:00"
+    }
+  ],
+  "manual_review": {
+    "coverage": "具体本体/客户/任务与成熟度，动作队列/频率/本体契约，业务收益与数据缺口",
+    "versions_and_measurements": "各来源版本/采集时点及测试口径在正文保留；不跨SKU推导",
+    "maturity_and_licenses": "产品声明、演示、交付、商业运营分开；源码/权重/二进制许可分别核",
+    "figures_opened": "所列官方图已实际打开核验；衍生处理保留原件哈希"
+  }
+}

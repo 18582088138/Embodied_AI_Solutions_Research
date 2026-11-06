@@ -1,0 +1,10 @@
+[
+  {
+    "name": "ROBOTIS_Protocol2",
+    "url": "https://emanual.robotis.com/docs/en/dxl/protocol2/",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  }
+]

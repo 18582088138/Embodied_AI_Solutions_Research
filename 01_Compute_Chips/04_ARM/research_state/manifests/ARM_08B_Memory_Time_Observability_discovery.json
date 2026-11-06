@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Linux_Ftrace",
+    "url": "https://www.kernel.org/doc/html/latest/trace/ftrace.html",
+    "expected": "any",
+    "used_by": [
+      "08B_Memory_Time_Observability"
+    ]
+  }
+]

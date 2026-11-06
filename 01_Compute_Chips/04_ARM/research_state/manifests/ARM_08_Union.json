@@ -1,0 +1,321 @@
+[
+  {
+    "name": "ARM_KAI_Apache",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/LICENSES/Apache-2.0.txt",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "ARM_KAI_Example_Code",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/examples/matmul_clamp_f32_qsi8d32p_qsi4c32p/matmul_clamp_f32_qsi8d32p_qsi4c32p.cpp",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "ARM_KAI_Pack",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/kai/ukernels/matmul/pack/README.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "ARM_KAI_Packing_Figure",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/docs/imgs/kai_rhs_packing_pattern_2.png",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "ARM_KleidiAI_Readme",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "ARM_TFLM_Ethos_Kernel",
+    "url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/main/tensorflow/lite/micro/kernels/ethos_u/ethosu.cc",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "ARM_Zena_Blog",
+    "url": "https://newsroom.arm.com/blog/arm-zena-css-ai-defined-vehicle-compute-platform",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "CoreCollective_SOAFEE",
+    "url": "https://corecollective.dev/blog/soafee-announcement/",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "Linux_DMABUF",
+    "url": "https://www.kernel.org/doc/html/latest/driver-api/dma-buf.html",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "Linux_Ftrace",
+    "url": "https://www.kernel.org/doc/html/latest/trace/ftrace.html",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "Linux_V4L2_Buffer",
+    "url": "https://www.kernel.org/doc/html/latest/userspace-api/media/v4l/buffer.html",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "Orbbec_Timestamp",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/docs/tutorial/timestamp.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "RAUC_Integration",
+    "url": "https://rauc.readthedocs.io/en/latest/integration.html",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "RAUC_License",
+    "url": "https://raw.githubusercontent.com/rauc/rauc/master/COPYING",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "RAUC_Readme",
+    "url": "https://raw.githubusercontent.com/rauc/rauc/master/README.rst",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "ROS_Executor_Figure",
+    "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Concepts/images/executors_scheduling_semantics.png",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "ROS_Executors_Source",
+    "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Concepts/Intermediate/About-Executors.rst",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "ROS_MessageFilters",
+    "url": "https://raw.githubusercontent.com/ros2/message_filters/rolling/doc/index.rst",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "S100_ACT_Control",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/bpu_act_control_robot.py",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "S100_LeRobot",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "S100_LeRobot_License",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "TFA_CoT_Figure",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/resources/diagrams/cot-tbbr.jpg",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "TFA_Design",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/design/firmware-design.rst",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "TFA_License",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/license.rst",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "TFA_Trusted_Boot",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/design/trusted-board-boot.rst",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "TI_TIDL_License",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "TI_TIDL_Quantization",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/quantization.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "Xen_ARM_Boot",
+    "url": "https://raw.githubusercontent.com/xen-project/xen/master/docs/misc/arm/device-tree/booting.txt",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "Xen_ARM_Dom0less",
+    "url": "https://raw.githubusercontent.com/xen-project/xen/master/docs/features/dom0less.pandoc",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat"
+    ]
+  }
+]

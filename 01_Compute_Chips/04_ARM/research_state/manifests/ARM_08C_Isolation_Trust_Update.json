@@ -1,0 +1,82 @@
+[
+  {
+    "name": "ARM_Zena_Blog",
+    "url": "https://newsroom.arm.com/blog/arm-zena-css-ai-defined-vehicle-compute-platform",
+    "expected": "any",
+    "used_by": [
+      "08C_Isolation_Trust_Update"
+    ]
+  },
+  {
+    "name": "RAUC_Integration",
+    "url": "https://rauc.readthedocs.io/en/latest/integration.html",
+    "expected": "any",
+    "used_by": [
+      "08C_Isolation_Trust_Update"
+    ]
+  },
+  {
+    "name": "RAUC_License",
+    "url": "https://raw.githubusercontent.com/rauc/rauc/master/COPYING",
+    "expected": "any",
+    "used_by": [
+      "08C_Isolation_Trust_Update"
+    ]
+  },
+  {
+    "name": "RAUC_Readme",
+    "url": "https://raw.githubusercontent.com/rauc/rauc/master/README.rst",
+    "expected": "any",
+    "used_by": [
+      "08C_Isolation_Trust_Update"
+    ]
+  },
+  {
+    "name": "TFA_CoT_Figure",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/resources/diagrams/cot-tbbr.jpg",
+    "expected": "any",
+    "used_by": [
+      "08C_Isolation_Trust_Update"
+    ]
+  },
+  {
+    "name": "TFA_Design",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/design/firmware-design.rst",
+    "expected": "any",
+    "used_by": [
+      "08C_Isolation_Trust_Update"
+    ]
+  },
+  {
+    "name": "TFA_License",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/license.rst",
+    "expected": "any",
+    "used_by": [
+      "08C_Isolation_Trust_Update"
+    ]
+  },
+  {
+    "name": "TFA_Trusted_Boot",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/design/trusted-board-boot.rst",
+    "expected": "any",
+    "used_by": [
+      "08C_Isolation_Trust_Update"
+    ]
+  },
+  {
+    "name": "Xen_ARM_Boot",
+    "url": "https://raw.githubusercontent.com/xen-project/xen/master/docs/misc/arm/device-tree/booting.txt",
+    "expected": "any",
+    "used_by": [
+      "08C_Isolation_Trust_Update"
+    ]
+  },
+  {
+    "name": "Xen_ARM_Dom0less",
+    "url": "https://raw.githubusercontent.com/xen-project/xen/master/docs/features/dom0less.pandoc",
+    "expected": "any",
+    "used_by": [
+      "08C_Isolation_Trust_Update"
+    ]
+  }
+]

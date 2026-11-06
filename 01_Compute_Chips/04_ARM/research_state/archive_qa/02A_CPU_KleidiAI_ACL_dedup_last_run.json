@@ -1,0 +1,26 @@
+{
+  "time_utc": "2026-11-04T15:50:28.213148+00:00",
+  "summary": {
+    "complete_static": 9,
+    "partial_static": 3,
+    "failed": 0
+  },
+  "names": [
+    "ARM_ACL_Build",
+    "ARM_ACL_Commits",
+    "ARM_ACL_Current_Docs",
+    "ARM_ACL_Docs",
+    "ARM_ACL_NEFunction",
+    "ARM_ACL_Readme",
+    "ARM_KAI_Apache",
+    "ARM_KAI_BSD",
+    "ARM_KAI_Example_Code",
+    "ARM_KAI_Pack",
+    "ARM_KAI_Packing_Figure",
+    "ARM_KleidiAI_Readme"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

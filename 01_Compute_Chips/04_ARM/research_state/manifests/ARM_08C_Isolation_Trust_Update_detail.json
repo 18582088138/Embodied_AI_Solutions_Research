@@ -1,0 +1,18 @@
+[
+  {
+    "name": "TFA_Design_Directory",
+    "url": "https://api.github.com/repos/ARM-software/arm-trusted-firmware/contents/docs/design?ref=master",
+    "expected": "any",
+    "used_by": [
+      "08C_Isolation_Trust_Update"
+    ]
+  },
+  {
+    "name": "TFA_CoT_Figure",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/resources/diagrams/cot-tbbr.jpg",
+    "expected": "any",
+    "used_by": [
+      "08C_Isolation_Trust_Update"
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "S100_Compile_Figure",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/image/hb_compile_introduction.a01638c5.png",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  },
+  {
+    "name": "S100_Workflow_Figure",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/image/workflow.bbdde513.png",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  },
+  {
+    "name": "S100_Python_API",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_model_zoo/rdk_s/docs/Python_API_User_Guide.md",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  },
+  {
+    "name": "S100_UCP_Guide",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_model_zoo/rdk_s/docs/UCP_User_Guide.md",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  },
+  {
+    "name": "S100_Yolo_Readme",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_model_zoo/rdk_s/samples/vision/yolov5/README.md",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  }
+]

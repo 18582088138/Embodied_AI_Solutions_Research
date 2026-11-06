@@ -1,0 +1,130 @@
+[
+  {
+    "name": "ARM_AGIBOT_Case",
+    "url": "https://www.arm.com/company/success-library/agibot-intelligent-robots",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_AGI_Launch",
+    "url": "https://newsroom.arm.com/news/arm-agi-cpu-launch",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_KAI_Pack",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/kai/ukernels/matmul/pack/README.md",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_PSYONIC_Case",
+    "url": "https://www.arm.com/company/success-library/psyonic",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_Physical_AI_News",
+    "url": "https://newsroom.arm.com/news/arm-total-design-and-robotics-capability-framework-for-physical-ai",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_ROBOTIS_Case",
+    "url": "https://www.arm.com/company/success-library/made-possible/robotis",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_SEC_CompanyFacts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001973239.json",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_SEC_Submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001973239.json",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_Zena_Blog",
+    "url": "https://newsroom.arm.com/blog/arm-zena-css-ai-defined-vehicle-compute-platform",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "BIS_EAR",
+    "url": "https://www.bis.gov/regulations/ear",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CoreCollective_SOAFEE",
+    "url": "https://corecollective.dev/blog/soafee-announcement/",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "DepthAnything2_Readme",
+    "url": "https://raw.githubusercontent.com/DepthAnything/Depth-Anything-V2/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_Lifecycle",
+    "url": "https://developer.nvidia.com/embedded/lifecycle",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "RAUC_Integration",
+    "url": "https://rauc.readthedocs.io/en/latest/integration.html",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "S100_ACT_Control",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/bpu_act_control_robot.py",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "S100_LeRobot",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  }
+]

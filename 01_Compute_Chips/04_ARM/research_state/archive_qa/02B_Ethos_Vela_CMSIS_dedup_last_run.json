@@ -1,0 +1,25 @@
+{
+  "time_utc": "2026-11-04T15:56:20.794232+00:00",
+  "summary": {
+    "complete_static": 11,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "ARM_CMSIS_NN",
+    "ARM_CMSIS_NN_License",
+    "ARM_TFLM_Ethos_Kernel",
+    "ARM_U55_Example",
+    "ARM_U85_Direct",
+    "ARM_U85_Model_Manifest",
+    "ARM_U85_Requirements",
+    "TFLM_Arm",
+    "TFLM_Ethos_Readme",
+    "TFLM_Memory_Current",
+    "TFLM_Readme"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

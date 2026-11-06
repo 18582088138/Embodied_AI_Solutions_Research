@@ -1,0 +1,225 @@
+{
+  "platform": "ARM",
+  "scope": "Arm具身智能01—09全套逐章深度研究",
+  "data_cutoff": "2026-11-05 Asia/Shanghai；归档UTC时间按registry逐项记录",
+  "authorization": "用户指示：继续后面全部内容的调研；授权按序完成03—09及必要08专题",
+  "review_status": "all_authorized_chapters_completed_pending_user_review",
+  "completed_dimensions": [
+    "01_Hardware_Platform",
+    "02_Software_Stack",
+    "03_Sensor_Integration",
+    "04_AI_Capabilities",
+    "05_Simulation_Environment",
+    "06_Robot_Integration",
+    "07_Ecosystem",
+    "08_Core_Technology_Moat",
+    "09_SWOT_Analysis"
+  ],
+  "current_dimension": null,
+  "pending_evidence": [
+    "Zena具体交付配置与安全/商业MCU包未取得",
+    "Vela/core driver和部分模型卡访问受限；候选不进入有效引用",
+    "没有同条件机器人并发/热/P99/WCET与闭环商业收益数据",
+    "没有地区批量报价、具体SKU分类与完整政策适用原件",
+    "SEC年报全文受限；公司整体收入只引用独立CompanyFacts，非机器人分项",
+    "静态依赖部分缺失按每章参考表披露；动态交互不承诺离线完整"
+  ],
+  "quality": {
+    "outcome": "pass",
+    "body_han_chars": 7849,
+    "sources": 36,
+    "figures_opened": 8,
+    "claim_review_records": 33,
+    "other_reports_unchanged": true,
+    "final_dedup_network_requests": 0,
+    "report": "reference_metrial/derived/qa/01_Hardware_Platform_quality.json",
+    "dedup_evidence": "reference_metrial/derived/qa/01_Hardware_Platform_dedup_last_run.json",
+    "limits": "结构/归档检查通过，不能替代语义核验或实机性能验证；未开展实机测试"
+  },
+  "next_step": "01—09及02/08必要专题全部完成；供用户审阅，不自动启动其他平台",
+  "user_approved_dimensions": [
+    "01_Hardware_Platform",
+    "02_Software_Stack"
+  ],
+  "software_depth_topics": {
+    "planned": [
+      "02A_CPU_KleidiAI_ACL",
+      "02B_Ethos_Vela_CMSIS",
+      "02C_BSP_Multidomain",
+      "02D_Jetson_ROS_Deployment",
+      "02E_TI_TIDL",
+      "02F_S100_BPU"
+    ],
+    "completed": [
+      "02A_CPU_KleidiAI_ACL",
+      "02B_Ethos_Vela_CMSIS",
+      "02C_BSP_Multidomain",
+      "02D_Jetson_ROS_Deployment",
+      "02E_TI_TIDL",
+      "02F_S100_BPU"
+    ],
+    "current": null,
+    "review_status": "accepted_to_continue",
+    "checks": {
+      "02_Software_Stack": "pass",
+      "02A_CPU_KleidiAI_ACL": "pass",
+      "02B_Ethos_Vela_CMSIS": "pass",
+      "02C_BSP_Multidomain": "pass",
+      "02D_Jetson_ROS_Deployment": "pass",
+      "02E_TI_TIDL": "pass",
+      "02F_S100_BPU": "pass"
+    },
+    "union_manifest": "toolkit/manifests/ARM_02_Software_Depth_Union.json",
+    "union_collection": "01_Compute_Chips/04_ARM/reference_metrial/02_software_depth/index.html",
+    "final_audit": "01_Compute_Chips/04_ARM/reference_metrial/derived/qa/02_Software_Depth_final_audit.json"
+  },
+  "quality_02": {
+    "outcome": "pass",
+    "sources": 82,
+    "distinct_figures_opened": 8,
+    "topics": 6,
+    "final_dedup_network_requests": 0,
+    "audit": "reference_metrial/derived/qa/02_Software_Depth_final_audit.json",
+    "limitations": [
+      "10份引用有部分静态呈现依赖缺失，正文及表格披露",
+      "Vela/core-driver原件取得受限；LLM动态正文未取得，未当已核能力",
+      "S100query与静态默认版本差异、Jetson/TRT与TI工具/机器人SDK版本差异保留",
+      "Zena交付包与商业MCU/安全材料未取得；无实机验收"
+    ]
+  },
+  "remaining_chapters_checks": {
+    "03_Sensor_Integration": "pass",
+    "04_AI_Capabilities": "pass",
+    "05_Simulation_Environment": "pass",
+    "06_Robot_Integration": "pass",
+    "07_Ecosystem": "pass",
+    "08A_Compute_Asset_Portability": "pass",
+    "08B_Memory_Time_Observability": "pass",
+    "08C_Isolation_Trust_Update": "pass",
+    "08_Core_Technology_Moat": "pass",
+    "09_SWOT_Analysis": "pass"
+  },
+  "core_technology_topics": {
+    "planned": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update"
+    ],
+    "completed": [
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update"
+    ],
+    "checks": {
+      "08A_Compute_Asset_Portability": "pass",
+      "08B_Memory_Time_Observability": "pass",
+      "08C_Isolation_Trust_Update": "pass",
+      "08_Core_Technology_Moat": "pass"
+    },
+    "union_sources": 29,
+    "union_manifest": "toolkit/manifests/ARM_08_Union.json",
+    "review_status": "completed_pending_user_review"
+  },
+  "quality_03_09": {
+    "outcome": "pass",
+    "reports": 10,
+    "report_checks": {
+      "03_Sensor_Integration": {
+        "body_han_chars": 2178,
+        "sources": 15,
+        "figures": 2,
+        "outcome": "pass"
+      },
+      "04_AI_Capabilities": {
+        "body_han_chars": 2269,
+        "sources": 18,
+        "figures": 2,
+        "outcome": "pass"
+      },
+      "05_Simulation_Environment": {
+        "body_han_chars": 2045,
+        "sources": 10,
+        "figures": 1,
+        "outcome": "pass"
+      },
+      "06_Robot_Integration": {
+        "body_han_chars": 2367,
+        "sources": 11,
+        "figures": 1,
+        "outcome": "pass"
+      },
+      "07_Ecosystem": {
+        "body_han_chars": 2219,
+        "sources": 17,
+        "figures": 1,
+        "outcome": "pass"
+      },
+      "08A_Compute_Asset_Portability": {
+        "body_han_chars": 2010,
+        "sources": 11,
+        "figures": 1,
+        "outcome": "pass"
+      },
+      "08B_Memory_Time_Observability": {
+        "body_han_chars": 2036,
+        "sources": 8,
+        "figures": 1,
+        "outcome": "pass"
+      },
+      "08C_Isolation_Trust_Update": {
+        "body_han_chars": 2254,
+        "sources": 10,
+        "figures": 1,
+        "outcome": "pass"
+      },
+      "08_Core_Technology_Moat": {
+        "body_han_chars": 2285,
+        "sources": 10,
+        "figures": 1,
+        "outcome": "pass"
+      },
+      "09_SWOT_Analysis": {
+        "body_han_chars": 3024,
+        "sources": 16,
+        "figures": 1,
+        "outcome": "pass"
+      }
+    },
+    "sources": 80,
+    "partial_static_sources": [
+      "ARM_AGIBOT_Case",
+      "ARM_AGI_Launch",
+      "ARM_PSYONIC_Case",
+      "ARM_Physical_AI_News",
+      "ARM_ROBOTIS_Case",
+      "ARM_Robotics",
+      "ARM_Zena_Blog",
+      "BIS_EAR",
+      "Isaac_Buffer",
+      "MuJoCo_Computation",
+      "MuJoCo_MJX",
+      "MuJoCo_Overview",
+      "NVIDIA_Lifecycle",
+      "ROBOTIS_Protocol2",
+      "ROBOTIS_Protocol2_Current",
+      "SOAFEE_Home"
+    ],
+    "distinct_figure_hashes": 11,
+    "protected": {
+      "01_Hardware_Platform.md": true,
+      "02A_CPU_KleidiAI_ACL.md": true,
+      "02B_Ethos_Vela_CMSIS.md": true,
+      "02C_BSP_Multidomain.md": true,
+      "02D_Jetson_ROS_Deployment.md": true,
+      "02E_TI_TIDL.md": true,
+      "02F_S100_BPU.md": true,
+      "02_Software_Stack.md": true,
+      "02_Topics_Index.md": true,
+      "08_Proprietary_Technologies.md": true
+    },
+    "final_dedup_network_requests": 0,
+    "collection_02_sources": 82,
+    "collection_08_sources": 29,
+    "limitations": "结构/原件/图源与人工文献核验；无SDK/模型/本体实测；访问受限及空正文候选排除有效引用"
+  }
+}

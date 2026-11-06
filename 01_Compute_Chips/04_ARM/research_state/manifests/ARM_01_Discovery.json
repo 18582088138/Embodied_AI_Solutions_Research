@@ -1,0 +1,146 @@
+[
+  {
+    "name": "ARM_Robotics",
+    "url": "https://www.arm.com/markets/robotics",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Cortex_A78AE",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/cortex-a/cortex-a78ae",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Neoverse_V3AE",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/neoverse/neoverse-v3ae",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Cortex_R52_Plus",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/cortex-r/cortex-r52-plus",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Cortex_R82AE",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/cortex-r/cortex-r82ae",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Cortex_M85",
+    "url": "https://www.arm.com/products/silicon-ip-cpu/cortex-m/cortex-m85",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Ethos_U85",
+    "url": "https://www.arm.com/products/silicon-ip-npu/ethos-u85",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Mali_G78AE",
+    "url": "https://www.arm.com/products/silicon-ip-multimedia/mali-gpus/mali-g78ae",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_Automotive",
+    "url": "https://www.arm.com/markets/automotive",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_RD_Aspen",
+    "url": "https://arm-auto-solutions.docs.arm.com/en/latest/rd-aspen/index.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ARM_RD_Kronos",
+    "url": "https://arm-auto-solutions.docs.arm.com/en/latest/rd-kronos/index.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NXP_iMX95",
+    "url": "https://www.nxp.com/products/i.MX95",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TI_TDA4VM",
+    "url": "https://www.ti.com/product/TDA4VM",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TI_AM69A",
+    "url": "https://www.ti.com/product/AM69A",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "ST_STM32N6",
+    "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32n6-series.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Orin",
+    "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Thor",
+    "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "DROBOTICS_S100",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/01_Quick_start/01_hardware_introduction/01_rdk_s100.md",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

@@ -1,0 +1,1362 @@
+[
+  {
+    "name": "ACT_License",
+    "url": "https://raw.githubusercontent.com/tonyzhaozh/act/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ACT_Policy_Code",
+    "url": "https://raw.githubusercontent.com/tonyzhaozh/act/main/policy.py",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ACT_Readme",
+    "url": "https://raw.githubusercontent.com/tonyzhaozh/act/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_AGIBOT_Case",
+    "url": "https://www.arm.com/company/success-library/agibot-intelligent-robots",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_AGI_Launch",
+    "url": "https://newsroom.arm.com/news/arm-agi-cpu-launch",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_KAI_Apache",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/LICENSES/Apache-2.0.txt",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_KAI_Example_Code",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/examples/matmul_clamp_f32_qsi8d32p_qsi4c32p/matmul_clamp_f32_qsi8d32p_qsi4c32p.cpp",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_KAI_Pack",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/kai/ukernels/matmul/pack/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_KAI_Packing_Figure",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/ebe33865eb77addae5f5ea8d277ca0656e1d1be7/docs/imgs/kai_rhs_packing_pattern_2.png",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_KleidiAI_Readme",
+    "url": "https://raw.githubusercontent.com/ARM-software/kleidiai/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_PSYONIC_Case",
+    "url": "https://www.arm.com/company/success-library/psyonic",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_Physical_AI_News",
+    "url": "https://newsroom.arm.com/news/arm-total-design-and-robotics-capability-framework-for-physical-ai",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_ROBOTIS_Case",
+    "url": "https://www.arm.com/company/success-library/made-possible/robotis",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_Robotics",
+    "url": "https://www.arm.com/markets/robotics",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_SEC_CompanyFacts",
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001973239.json",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_SEC_Submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001973239.json",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_TFLM_Ethos_Kernel",
+    "url": "https://raw.githubusercontent.com/tensorflow/tflite-micro/main/tensorflow/lite/micro/kernels/ethos_u/ethosu.cc",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_U85_Direct",
+    "url": "https://raw.githubusercontent.com/ARM-software/ML-examples/main/ethos-u-corstone-1000/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ARM_Zena_Blog",
+    "url": "https://newsroom.arm.com/blog/arm-zena-css-ai-defined-vehicle-compute-platform",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "BIS_EAR",
+    "url": "https://www.bis.gov/regulations/ear",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CoreCollective_Home",
+    "url": "https://corecollective.dev/",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CoreCollective_SOAFEE",
+    "url": "https://corecollective.dev/blog/soafee-announcement/",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "CosmosPredict2_Readme",
+    "url": "https://raw.githubusercontent.com/nvidia-cosmos/cosmos-predict2/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "DROBOTICS_S100",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/docs_s/01_Quick_start/01_hardware_introduction/01_rdk_s100.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "DROBOTICS_S100_Figure",
+    "url": "https://rdk-doc.oss-cn-beijing.aliyuncs.com/doc/img/01_Quick_start/image/hardware_interface/image-rdk_s100_architecture_diagram.png",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "DepthAnything2_Readme",
+    "url": "https://raw.githubusercontent.com/DepthAnything/Depth-Anything-V2/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Dreamer3_Readme",
+    "url": "https://raw.githubusercontent.com/danijar/dreamerv3/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Gazebo_ROS2",
+    "url": "https://gazebosim.org/docs/latest/ros2_integration/",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Gazebo_Sensors",
+    "url": "https://gazebosim.org/docs/latest/sensors/",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Isaac_Buffer",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/index.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "LeRobot_License",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "LeRobot_Readme",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Linux_DMABUF",
+    "url": "https://www.kernel.org/doc/html/latest/driver-api/dma-buf.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Linux_Ftrace",
+    "url": "https://www.kernel.org/doc/html/latest/trace/ftrace.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Linux_V4L2_Buffer",
+    "url": "https://www.kernel.org/doc/html/latest/userspace-api/media/v4l/buffer.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "MuJoCo_Computation",
+    "url": "https://mujoco.readthedocs.io/en/stable/computation/index.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "MuJoCo_License",
+    "url": "https://raw.githubusercontent.com/google-deepmind/mujoco/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "MuJoCo_MJX",
+    "url": "https://mujoco.readthedocs.io/en/stable/mjx.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "MuJoCo_Overview",
+    "url": "https://mujoco.readthedocs.io/en/stable/overview.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "MuJoCo_Readme",
+    "url": "https://raw.githubusercontent.com/google-deepmind/mujoco/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_Lifecycle",
+    "url": "https://developer.nvidia.com/embedded/lifecycle",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "OpenPI_Config",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/src/openpi/models/pi0_config.py",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "OpenPI_License",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "OpenPI_Readme",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Orbbec_Lidar",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/LiDAR_README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Orbbec_Overview_Figure",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/docs/resource/Overview.jpg",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Orbbec_SDK2",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Orbbec_Timestamp",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/docs/tutorial/timestamp.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Qwen25_Readme",
+    "url": "https://raw.githubusercontent.com/QwenLM/Qwen2.5/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "RAUC_Integration",
+    "url": "https://rauc.readthedocs.io/en/latest/integration.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "RAUC_License",
+    "url": "https://raw.githubusercontent.com/rauc/rauc/master/COPYING",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "RAUC_Readme",
+    "url": "https://raw.githubusercontent.com/rauc/rauc/master/README.rst",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ROBOTIS_Protocol2",
+    "url": "https://emanual.robotis.com/docs/en/dxl/protocol2/",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ROBOTIS_Protocol2_Current",
+    "url": "https://docs.robotis.com/docs/dxl/protocol/protocol2/",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ROS_Executor_Figure",
+    "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Concepts/images/executors_scheduling_semantics.png",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ROS_Executors_Source",
+    "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Concepts/Intermediate/About-Executors.rst",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ROS_MessageFilters",
+    "url": "https://raw.githubusercontent.com/ros2/message_filters/rolling/doc/index.rst",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ROS_QoS_Source",
+    "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Concepts/Intermediate/About-Quality-of-Service-Settings.rst",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "S100_ACT_BPU_Figure",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/imgs/BPU_deploy_analysis.png",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "S100_ACT_Control",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/bpu_act_control_robot.py",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "S100_ACT_Whole_Figure",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/imgs/Overview_of_the_whole_process.png",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "S100_Camera",
+    "url": "https://developer.d-robotics.cc/rdk_s_doc/Basic_Application/Image/mipi_camera?v=4.0.5&p=RDK+S100",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "S100_LeRobot",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "S100_LeRobot_License",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "S100_OE_Runtime",
+    "url": "https://developer.d-robotics.cc/oe_s_doc/static/js/async/48.8e0c898e.js",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "S100_SO100_Figure",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/imgs/so100.png",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "S100_Zoo_Readme",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_model_zoo/rdk_s/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "SOAFEE_Home",
+    "url": "https://www.soafee.io/",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "TFA_CoT_Figure",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/resources/diagrams/cot-tbbr.jpg",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "TFA_Design",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/design/firmware-design.rst",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "TFA_License",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/license.rst",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "TFA_Trusted_Boot",
+    "url": "https://raw.githubusercontent.com/ARM-software/arm-trusted-firmware/master/docs/design/trusted-board-boot.rst",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "TI_ROS_CNN",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-robotics-sdk/master/ros2/nodes/ti_vision_cnn/README_objdet.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "TI_ROS_Stack_Figure",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-robotics-sdk/master/docs/tiovx_ros_sw_stack.png",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "TI_Robotics_Readme",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-robotics-sdk/master/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "TI_TIDL_IO",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/io_tensors.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "TI_TIDL_License",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "TI_TIDL_Quantization",
+    "url": "https://raw.githubusercontent.com/TexasInstruments/edgeai-tidl-tools/master/docs/quantization.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Xen_ARM_Boot",
+    "url": "https://raw.githubusercontent.com/xen-project/xen/master/docs/misc/arm/device-tree/booting.txt",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "Xen_ARM_Dom0less",
+    "url": "https://raw.githubusercontent.com/xen-project/xen/master/docs/features/dom0less.pandoc",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "06_Robot_Integration",
+      "07_Ecosystem",
+      "08A_Compute_Asset_Portability",
+      "08B_Memory_Time_Observability",
+      "08C_Isolation_Trust_Update",
+      "08_Core_Technology_Moat",
+      "09_SWOT_Analysis"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "name": "ARM_SEC_20F_2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/arm-20260331.htm",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  }
+]

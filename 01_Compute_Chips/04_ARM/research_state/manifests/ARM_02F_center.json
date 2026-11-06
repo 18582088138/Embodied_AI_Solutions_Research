@@ -1,0 +1,26 @@
+[
+  {
+    "name": "S100_Center",
+    "url": "https://developer.d-robotics.cc/rdk_doc_center/",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  },
+  {
+    "name": "S100_Redirects",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/plugins/legacy-redirects.js",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  },
+  {
+    "name": "S100_Sidebar",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_doc/main/sidebars.js",
+    "expected": "any",
+    "used_by": [
+      "02F_S100_BPU"
+    ]
+  }
+]

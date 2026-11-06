@@ -1,0 +1,90 @@
+[
+  {
+    "name": "ARM_AGIBOT_Case",
+    "url": "https://www.arm.com/company/success-library/agibot-intelligent-robots",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "ARM_PSYONIC_Case",
+    "url": "https://www.arm.com/company/success-library/psyonic",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "ARM_Physical_AI_News",
+    "url": "https://newsroom.arm.com/news/arm-total-design-and-robotics-capability-framework-for-physical-ai",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "ARM_ROBOTIS_Case",
+    "url": "https://www.arm.com/company/success-library/made-possible/robotis",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "ARM_Robotics",
+    "url": "https://www.arm.com/markets/robotics",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "ROBOTIS_Protocol2",
+    "url": "https://emanual.robotis.com/docs/en/dxl/protocol2/",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "ROBOTIS_Protocol2_Current",
+    "url": "https://docs.robotis.com/docs/dxl/protocol/protocol2/",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "S100_ACT_Control",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/bpu_act_control_robot.py",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "S100_LeRobot",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "S100_LeRobot_License",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "S100_SO100_Figure",
+    "url": "https://raw.githubusercontent.com/D-Robotics/rdk_LeRobot_tools/main/imgs/so100.png",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "ACT_Readme",
+    "url": "https://raw.githubusercontent.com/tonyzhaozh/act/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "ARM_U85_Direct",
+    "url": "https://raw.githubusercontent.com/ARM-software/ML-examples/main/ethos-u-corstone-1000/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "ARM_Zena_Blog",
+    "url": "https://newsroom.arm.com/blog/arm-zena-css-ai-defined-vehicle-compute-platform",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "Gazebo_ROS2",
+    "url": "https://gazebosim.org/docs/latest/ros2_integration/",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "Gazebo_Sensors",
+    "url": "https://gazebosim.org/docs/latest/sensors/",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "MuJoCo_Computation",
+    "url": "https://mujoco.readthedocs.io/en/stable/computation/index.html",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "MuJoCo_License",
+    "url": "https://raw.githubusercontent.com/google-deepmind/mujoco/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "MuJoCo_MJX",
+    "url": "https://mujoco.readthedocs.io/en/stable/mjx.html",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "MuJoCo_Overview",
+    "url": "https://mujoco.readthedocs.io/en/stable/overview.html",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "MuJoCo_Readme",
+    "url": "https://raw.githubusercontent.com/google-deepmind/mujoco/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  }
+]

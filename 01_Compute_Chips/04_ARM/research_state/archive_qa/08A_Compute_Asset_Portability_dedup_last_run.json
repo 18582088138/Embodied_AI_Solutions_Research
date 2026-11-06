@@ -1,0 +1,25 @@
+{
+  "time_utc": "2026-11-04T17:02:31.796618+00:00",
+  "summary": {
+    "complete_static": 11,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "ARM_KAI_Apache",
+    "ARM_KAI_Example_Code",
+    "ARM_KAI_Pack",
+    "ARM_KAI_Packing_Figure",
+    "ARM_KleidiAI_Readme",
+    "ARM_TFLM_Ethos_Kernel",
+    "S100_ACT_Control",
+    "S100_LeRobot",
+    "S100_LeRobot_License",
+    "TI_TIDL_License",
+    "TI_TIDL_Quantization"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}
