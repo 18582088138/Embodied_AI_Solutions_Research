@@ -1,0 +1,209 @@
+{
+  "source_ids": [
+    "QC_QNN_API_MD",
+    "QC_QNN_HTP_MD",
+    "ORT_QNN_EP",
+    "HF_QC_Pi05",
+    "QC_Pi05_Demo",
+    "QC_IMSDK_Metadata_MD",
+    "QC_IMSDK_Converter_MD",
+    "Linux_DMA_Buf",
+    "QC_IQ10_RRD",
+    "QC_IQ10_Brief",
+    "QC_Linux_Architecture_MD",
+    "QC_Gunyah_Repo",
+    "Linux_PREEMPT_RT",
+    "NV_TensorRT_Architecture",
+    "NV_NITROS_Repo"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IMSDK_Metadata.png",
+      "sha256": "6976656e7b5e45a6bf4d3becb488ea8556aa389b8cfc893fe7b5f3106983d726",
+      "source_id": "QC_IMSDK_Metadata_MD",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/gst-ai-metadata-parser.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_IMSDK_Metadata_MD--429d624c92606ff7/content.md",
+      "original_sha256": "9c0a7be907a29a220e049415e115c78ceffcd663e0f5a83ddf89a6fbe1ea1686",
+      "operation": "原MD第一SVG，衍生HTML恢复viewBox大小写，1200px等比浏览器渲染，截图1200x350，保留图例"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "planned SIL compliance up to SIL3不是已完成认证",
+      "source_id": "QC_IQ10_Brief",
+      "location": "Rev B PDF第2页安全能力说明",
+      "evidence_type": "厂商计划",
+      "conditions": "IQ10 brief Rev B；未取得认证证书、安全手册及完整认证范围",
+      "finding": "不能作具体本体功能安全认证或WCET已证明结论",
+      "exact_excerpt": "planned SIL \ncompliance up to SIL3 \n• High-performance industrial interfaces, \nincluding PCIe Gen 5, USB 2.0 and 3.2 \n(Gen 2), and integrated 10G Ethernet \nwith TSN \n• Li",
+      "source_url": "https://docs.qualcomm.com/doc/87-A2811-1/87-A2811-1_REV_B_Qualcomm_Dragonwing_IQ10_Series_Platform_Product_Brief.pdf",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_IQ10_Brief--6e5c94a7707cae4b/document.pdf"
+    },
+    {
+      "claim": "护城河判断依赖可复建编译和量化组合",
+      "source_id": "QC_QNN_HTP_MD",
+      "location": "HTP optimization／context",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "backend、arch、版本及模型配置需绑定",
+      "finding": "不是任意模型通吃或独占IP结论",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/htp_backend.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_QNN_HTP_MD--6979e07b66066d46/content.md",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:13:21.371446+00:00",
+      "exact_excerpt": "ps://docs.qualcomm.com/doc/80-63442-10/topic/htp_backend.html#qnn-htp-analysis-summary-qhas)\n- [QNN Context Binary size](https://docs.qualcomm.com/doc/80-63442-10/topic/htp_backend.html#qnn-context-binary-size)\n- [Op Writing Guidelines](https://docs.qualcomm.com/doc/80-63442-10/topic/htp_backend.html#op-writing-guidelines)\n- [Recommendations for"
+    },
+    {
+      "claim": "共享缓冲减少复制需导入、同步和布局同时成立",
+      "source_id": "Linux_DMA_Buf",
+      "location": "DMA buffer sharing",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "多设备及用户态CPU访问",
+      "finding": "公开通用机制不能自动归为Qualcomm独占能力",
+      "source_url": "https://docs.kernel.org/driver-api/dma-buf.html",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/Linux_DMA_Buf--d9042c814da994ac/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T17:14:37.697050+00:00",
+      "exact_excerpt": "Buffer Sharing and Synchronization (dma-buf) — The Linux Kernel documentation The Linux Kernel 7.4.0-rc1 Quick search Contents Working with the development community Development process Submitting patches Code of conduct Maintainer handbook All development-process docs Inte"
+    },
+    {
+      "claim": "模型recipe与完整机器人验证之间仍有交接缺口",
+      "source_id": "QC_Pi05_Demo",
+      "location": "main／offline metrics",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "FP／CPU demo与设备模型卡分开",
+      "finding": "迁移资产包括动作schema／统计量，不能只保留binary",
+      "source_url": "https://github.com/qualcomm/ai-hub-models/blob/main/src/qai_hub_models/models/pi05/demo.py",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/QC_Pi05_Demo--eb8e342ec0fc4b6c/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:52:28.684019+00:00",
+      "exact_excerpt": "assert args.eval_mode == EvalMode.FP model_kwargs = get_model_kwargs(Model, vars(args)) model = Model.from_pretrained(**model_kwargs) # Always use CPU and load policy from the HF model id. device = \"cpu\" torch.manual_seed(1234) policy = PI05Policy.from_pretrained(HF_MODEL_ID).to(device).eval() batch, postprocessor, dataset = load_one_batch( dataset_repo_id=DATASET_REPO_ID, pi05_config=policy.config, batch_size=1, dev"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QNN_API_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QNN_HTP_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "ORT_QNN_EP",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "HF_QC_Pi05",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_Pi05_Demo",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露",
+      "exact_excerpt": "assert args.eval_mode == EvalMode.FP model_kwargs = get_model_kwargs(Model, vars(args)) model = Model.from_pretrained(**model_kwargs) # Always use CPU and load policy from the HF model id. device = \"cpu\" torch.manual_seed(1234) policy = PI05Policy.from_pretrained(HF_MODEL_ID).to(device).eval() batch, postprocessor, dataset = load_one_batch( dataset_repo_id=DATASET_REPO_ID, pi05_config=policy.config, batch_size=1, dev"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_IMSDK_Metadata_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_IMSDK_Converter_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "Linux_DMA_Buf",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_IQ10_RRD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_IQ10_Brief",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_Linux_Architecture_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_Gunyah_Repo",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "Linux_PREEMPT_RT",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "NV_TensorRT_Architecture",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "NV_NITROS_Repo",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    }
+  ],
+  "manual_review": {
+    "coverage": "依据对应dimensions条目核查；未取得的信息分项记录，不以理论兼容替代交付",
+    "versions_and_measurements": "核对原件中的版本和数字，未实施实机或模型测量",
+    "maturity_and_licenses": "区分计划、演示与交付；代码、权重、固件和本体分层核查",
+    "figures_opened": "实际打开本文图；图源和结论限制见正文"
+  }
+}

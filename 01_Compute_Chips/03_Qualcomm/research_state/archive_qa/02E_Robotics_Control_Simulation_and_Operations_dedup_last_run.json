@@ -1,0 +1,29 @@
+{
+  "time_utc": "2026-11-04T16:37:41.244727+00:00",
+  "summary": {
+    "complete_static": 15,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "QC_QIR_Release_MD",
+    "QC_QIR_Quickstart_MD",
+    "QC_QIR_Build_MD",
+    "QC_QIR_Upgrade_MD",
+    "QC_QIR_APIs_MD",
+    "QC_QIR_Sample_MD",
+    "QC_QIR_Development_MD",
+    "QC_QIR_Camera_MD",
+    "QC_QIR_Bridge_MD",
+    "QC_QIR_Pickplace_Simulation_MD",
+    "QC_QIR_AMR_Simulation_MD",
+    "QC_QIR_Follow_MD",
+    "QC_Linux_Architecture_MD",
+    "QC_Linux_Release_1_6_MD",
+    "QC_IQ10_RRD"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

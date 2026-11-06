@@ -1,0 +1,33 @@
+{
+  "time_utc": "2026-11-04T16:46:22.895751+00:00",
+  "summary": {
+    "complete_static": 17,
+    "partial_static": 2,
+    "failed": 0
+  },
+  "names": [
+    "QC_Linux_Release_1_6_MD",
+    "QC_QIR_Release_MD",
+    "QC_IMSDK_Release_MD",
+    "QC_QNN_API_MD",
+    "QC_QNN_HTP_MD",
+    "QC_IMSDK_Converter_MD",
+    "QC_IMSDK_QNN_MD",
+    "QC_IMSDK_Metadata_MD",
+    "QC_QIR_Bridge_MD",
+    "QC_QIR_Camera_MD",
+    "QC_QIR_Development_MD",
+    "QC_QIR_Pickplace_Simulation_MD",
+    "QC_QIR_AMR_Simulation_MD",
+    "QC_Genie_Dialog_Config_MD",
+    "QC_Genie_Engine_Config_MD",
+    "QC_AIHub_Models_Repo",
+    "QC_Linux_Architecture_MD",
+    "QC_IQ10_RRD",
+    "QC_CloudAI_Runtime"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

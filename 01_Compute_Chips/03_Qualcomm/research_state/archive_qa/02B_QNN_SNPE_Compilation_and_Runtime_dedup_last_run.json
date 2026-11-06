@@ -1,0 +1,20 @@
+{
+  "time_utc": "2026-11-04T16:16:26.155796+00:00",
+  "summary": {
+    "complete_static": 6,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "QC_QNN_API_MD",
+    "QC_QNN_HTP_MD",
+    "QC_QNN_Overview_MD",
+    "QC_QNN_Tools_MD",
+    "QC_SNPE_Overview_MD",
+    "QC_SNPE_Tools_MD"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

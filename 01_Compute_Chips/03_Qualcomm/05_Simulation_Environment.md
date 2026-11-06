@@ -1,0 +1,80 @@
+# 05 Qualcomm仿真环境与仿真到真实交接
+
+## 已有路线及厂商关系
+
+Qualcomm公开QIR不只有硬件宣传，还提供qrb_ros_simulation、AMR简单运动、people tracking和机械臂pick-and-place示例。仿真集成配置由Qualcomm ROS项目提供，物理环境使用第三方Gazebo，规划使用MoveIt2。不能据此称Qualcomm拥有独立高保真物理引擎，也不能由Ubuntu或ROS2支持推导Isaac Sim、MuJoCo或强化学习框架的目标板插件已交付。上游MuJoCo及世界模型可以作为离线研究路线，实际硬件、版本和移植证据必须另核。[QC_QRB_Simulation_Repo 原文](https://github.com/qualcomm-qrb-ros/qrb_ros_simulation)｜[本地原件](REFERENCES.md#ref-1c10ea4d28a57d3c) [QC_QIR_Sample_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qirp_sdk_sample.md)｜[本地原件](REFERENCES.md#ref-0c701ef0b2fa8a1b)
+
+| 路线 | 分工与交付证据 | 适合核验 | 不能直接证明 |
+|---|---|---|---|
+| QIR Gazebo AMR | Host物理与sensor、Device发Twist | ROS互通与简单动作 | 实机导航完成、避障保护 |
+| QIR MoveIt2机械臂 | Device规划、Host Gazebo/controllers | JointState与轨迹接口 | 接触精度、抓取成功、伺服保证 |
+| QIR simulated follow | Host图像深度、Device检测与控制 | 感知链加网络交接 | 真实光照/深度噪声泛化 |
+| MuJoCo | 第三方物理、CPU/API及其他后端 | 动力学/接触/训练研究 | Qualcomm集成或同等性能 |
+| LeRobot/LIBERO | 上游policy评估与数据工具 | 离线策略与动作契约 | 目标芯片完整闭环验收 |
+| Cosmos生成 | NVIDIA上游视频世界预测 | 离线数据增广对照 | 满足真实物理与实时性 |
+
+## 资产、节点和控制数据流
+
+qrb_ros_sim_description包含URDF、模型mesh等，qrb_ros_sim_gazebo提供world与robot启动、控制器及ros-gz桥接。当前main README有RML-63机械臂、Robot Base AMR、Mini和Mobile Manipulator四个预配置模型，默认world_model为warehouse。world首启动可能从Gazebo Fuel下载并缓存，mesh也有下载脚本，所以只归档代码页面并不等于资产包完整。需要保存准确world、mesh、纹理、物理参数和许可，不能把同名场景后续变化忽略。[QC_QRB_Simulation_Repo 原文](https://github.com/qualcomm-qrb-ros/qrb_ros_simulation)｜[本地原件](REFERENCES.md#ref-1c10ea4d28a57d3c)
+
+项目发布/clock、/tf、/tf_static、/joint_states、RGB/depth CameraInfo与Image、PointCloud2、LaserScan、Imu和Odometry；订阅cmd_vel并暴露FollowJointTrajectory。这里的JointState是仿真状态，CameraInfo是模拟相机配置，不代表实物标定。launch_config_file的YAML优先级高于命令行与默认值；若命令行写关闭某传感器而YAML覆盖，测量就可能包含意外工作负载。必须同时归档最后生效参数，而不是只记录launch命令。
+
+pick-and-place在Host启动gazebo_rml_63_gripper，use_sim_time true，按说明启动Play并另载controller manager；Device启动MoveIt move group及qrb_ros_arm_pick_place。URDF描述几何与运动链，SRDF描述规划语义，JointState和控制器状态返还规划链。文档链接还引用Humble MoveGroup教程，但本QIR宿主环境采用Jazzy，因此示例API与依赖必须用准确发行包核对。出现“You can start planning now”或看到动画仅证明节点和示例动作，不能证明接触、力矩或硬实时正确。[QC_QIR_Pickplace_Simulation_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/simulation_sample_pick_and_place.md)｜[本地原件](REFERENCES.md#ref-874c72ebd299c85f)
+
+![官方图：Device规划与Host物理仿真的分工](assets/figures/QC_QIR_Pickplace--e9d2017f63a8.png)
+
+官方图已打开核验，保留Device与Host docker边界、MoveIt2和模块图例。它支持分机协同的结论，不显示强化学习训练、真实伺服或安全切断。AMR简单运动另用/qrb_robot_base/cmd_vel和Twist；namespace改变时需核最终topic，不能把README的/cmd_vel与示例命名空间当成两个完全独立接口。[QC_QIR_AMR_Simulation_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/simulation_sample_amr_simple_motion.md)｜[本地原件](REFERENCES.md#ref-921d51d8b5cb0dcd)
+
+simulated follow示例把RGB/depth从Gazebo送入Device上的Follow me Tracker，Controller发布/cmd_vel到Host底盘。官方明确推荐开发板与宿主用有线Ethernet，避免传输降低性能；例子关闭laser与imu。这是具体测试配置，不是生产机器人无需LiDAR/IMU的建议。其跟随目标和网络输入模式不能直接套给真实Gemini335L驱动，因为模拟图像、时间戳和真实深度无效区不同。[QC_QIR_SimFollow_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/simulation_followme.md)｜[本地原件](REFERENCES.md#ref-091dc95d9f0c1667)
+
+## 时间步和物理机制
+
+应分别冻结physics timestep、controller update、render FPS、sensor update与policy调用频率。/clock和use_sim_time让ROS节点采用仿真时钟，但不能保证外部Device所有定时器都按同一时钟运行。暂停仿真时若Device墙钟仍推进，超时或重复动作可能与正常运行不同；accelerated simulation也可能向真实NPU发送超过实时处理能力的图像。测试需定义同步推进、丢帧和队列背压，记录真实墙钟耗时与模拟时间两种指标。
+
+SDFormat1.12根规范区分world、model、actor、sensor及插件，并提醒SDF规范版本不等于libsdformat库版本。本次静态页面只取得根树说明，未取得physics子树完整展开内容，故不从页面推断Gazebo当前后端及solver默认值。QIR公开README没有本篇取得的完整timestep与接触参数矩阵；这些是复建前要从准确SDF和插件配置确认的项。[Gazebo_Physics_SDF 原文](http://sdformat.org/spec?ver=1.12&elem=physics)｜[本地原件](REFERENCES.md#ref-5329247bbcbb9b63)
+
+MuJoCo计算文档提供机制对照：mjModel保存系统模型与选项，mjData保存状态和工作量，连续动力学在opt.timestep上积分；mj_step执行完整推进，mj_forward只计算到加速度，mj_step1/2允许控制器插在位置/速度已计算后，但不支持Runge Kutta分步路线。接触模型放宽严格互补条件，以软接触优化处理摩擦；接触参数、积分器与步长共同决定稳定和拟真程度。选用该路线要独立保存模型、solver选项、随机种子与运行库，不能由同一个URDF推出两个引擎轨迹一致。[MuJoCo_Computation 原文](https://mujoco.readthedocs.io/en/stable/computation/index.html)｜[本地原件](REFERENCES.md#ref-50bc861c2b70fd1e)
+
+## 渲染、传感器及真实误差
+
+有RGB、depth、scan和imu模拟topic只表示观测接口可用。真实相机要匹配曝光、rolling shutter、噪声、畸变、压缩与ISP色彩；深度需模拟反光、透明、遮挡和无效值；LiDAR需考虑扫描时间与材质回波，IMU需考虑bias、温漂与饱和。视觉纹理的高保真不自动决定Radar或LiDAR反射，接触摩擦也不从材质照片得出。现有QIR公开示例没有完整的这些误差模型验证报告，应把它们列为参数辨识与验收缺口。
+
+系统辨识先用真实轨迹估计质量/惯量、关节阻尼、执行器增益与延迟，再以独立轨迹验证。域随机化对摩擦、负载、光照、相机外参和延迟设范围，范围应来自真实分布及任务风险，而非任意扩大。随机化训练可能提高分布覆盖，却也可能引入不可实现物理，不能把场景数量当作泛化证据。合成数据每帧应记录相机、深度与标注来源、时刻和任务状态，避免训练时偷用未来真值。
+
+## 学习、部署与性能验证
+
+LeRobot支持仿真评估及真实Robot接口，上游openpi给LIBERO训练/服务路线，数据需先统一图像与state/action映射、normalization statistics和checkpoint。04查到的Qualcomm π0.5 demo只读取首episode并算MSE/RMSE/SQNR；这类回放核验可发现编译误差，但不能替代交互式任务，因为微小动作偏差会改变后续观测。部署到HTP还增加量化、固定shape、buffer和延迟，需在目标板闭环或硬件在环测量。[HF_LeRobot_Repo 原文](https://github.com/huggingface/lerobot)｜[本地原件](REFERENCES.md#ref-f41f68c5cf0cb6c7) [PI_Openpi_Repo 原文](https://github.com/Physical-Intelligence/openpi)｜[本地原件](REFERENCES.md#ref-0130878e2cb85cf3) [QC_Pi05_Demo 原文](https://github.com/qualcomm/ai-hub-models/blob/main/src/qai_hub_models/models/pi05/demo.py)｜[本地原件](REFERENCES.md#ref-eb8e342ec0fc4b6c)
+
+| 复建阶段 | 保留产物与条件 | 放行证据 |
+|---|---|---|
+| 宿主环境 | OS、ROS/Gazebo版本、container digest | 原场景和topic可重复启动 |
+| 资产与物理 | SDF/URDF/SRDF、mesh、惯量/摩擦/solver | 真实留出轨迹误差与稳定性 |
+| Sensor | 更新率、时戳、噪声与标定 | 与实物误差和数据年龄一致 |
+| 策略 | revision、输入/action schema、量化产物 | 数值、交互成功及失败分类 |
+| 目标板 | BSP、SDK、热负载、网络与并发 | P99、过龄、失联/重启恢复 |
+
+benchmark必须报告场景、机器人数量、物理步数、是否渲染、CPU/GPU/RAM/OS及墙钟时间。增加GPU可能仅加快渲染，physics、ROS序列化和目标NPU仍是串行瓶颈。本篇未取得QIR同条件吞吐与sim-to-real成功率，不能生成“快于某平台”的结论。Cosmos上游还明确物理交互与空间时序存在错误，视频预测可作离线样本候选，不能提供严格物理真值。[HF_CosmosPredict 原文](https://huggingface.co/nvidia/Cosmos-Predict2-2B-Video2World)｜[本地原件](REFERENCES.md#ref-ecb08884ca728209)
+
+QIR quickstart写git checkout -b后跟40位字符串，这会创建名为该串的分支，不能保证检出指定commit；复建者应另核HEAD是否等于文档值60f46e264429297eb1dcf9b757efaa735ac545a0。当前main README的noVNC环境也与旧SSH/X11流程不同，不能混成同一教程。本文未启动这些容器或设置系统权限，只核查资料。[QC_QIR_Quickstart_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/quick_start.md)｜[本地原件](REFERENCES.md#ref-991ac1f951fbb2aa)
+
+项目代码BSD-3-Clause不自动覆盖Fuel资产、mesh、Gazebo、训练数据或模型权重。上游引擎的许可与运行二进制依赖、策略checkpoint和示教数据须分别记录；MuJoCo本次只取得计算文档，未将其引擎许可核验当成已经完成。科研团队可先用QIR现有接口降低集成成本，真实工业或复杂操作仍需补物理、传感器、延迟和失效的留出证据。
+
+
+## 参考资料与归档边界
+
+采集截止：2026-11-05（Asia/Shanghai）。原件通过项目统一下载器登记；官方 Markdown 是厂商提供的原始正文，保留嵌入 SVG/图片数据。HTML 静态壳不作为正文证据。网页依赖缺失按 metadata 记录；不承诺离线交互或像素一致。未执行硬件刷写、模型推理或机器人测试。
+
+| 登记名称 | 版本／适用边界 | 原始资料 | 本地归档 |
+|---|---|---|---|
+| QC_QRB_Simulation_Repo | 正文版本及采集时点见本文；未认定为最新 | [原文](https://github.com/qualcomm-qrb-ros/qrb_ros_simulation) | [原件](REFERENCES.md#ref-1c10ea4d28a57d3c) |
+| QC_QIR_Sample_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qirp_sdk_sample.md) | [原件](REFERENCES.md#ref-0c701ef0b2fa8a1b) |
+| QC_QIR_Pickplace_Simulation_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/simulation_sample_pick_and_place.md) | [原件](REFERENCES.md#ref-874c72ebd299c85f) |
+| QC_QIR_AMR_Simulation_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/simulation_sample_amr_simple_motion.md) | [原件](REFERENCES.md#ref-921d51d8b5cb0dcd) |
+| QC_QIR_SimFollow_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/simulation_followme.md) | [原件](REFERENCES.md#ref-091dc95d9f0c1667) |
+| Gazebo_Physics_SDF | 正文版本及采集时点见本文；未认定为最新 | [原文](http://sdformat.org/spec?ver=1.12&elem=physics) | [原件](REFERENCES.md#ref-5329247bbcbb9b63) |
+| MuJoCo_Computation | 正文版本及采集时点见本文；未认定为最新 | [原文](https://mujoco.readthedocs.io/en/stable/computation/index.html) | [原件](REFERENCES.md#ref-50bc861c2b70fd1e) |
+| HF_LeRobot_Repo | 正文版本及采集时点见本文；未认定为最新 | [原文](https://github.com/huggingface/lerobot) | [原件](REFERENCES.md#ref-f41f68c5cf0cb6c7) |
+| PI_Openpi_Repo | 正文版本及采集时点见本文；未认定为最新 | [原文](https://github.com/Physical-Intelligence/openpi) | [原件](REFERENCES.md#ref-0130878e2cb85cf3) |
+| QC_Pi05_Demo | 正文版本及采集时点见本文；未认定为最新 | [原文](https://github.com/qualcomm/ai-hub-models/blob/main/src/qai_hub_models/models/pi05/demo.py) | [原件](REFERENCES.md#ref-eb8e342ec0fc4b6c) |
+| HF_CosmosPredict | 正文版本及采集时点见本文；未认定为最新 | [原文](https://huggingface.co/nvidia/Cosmos-Predict2-2B-Video2World) | [原件](REFERENCES.md#ref-ecb08884ca728209) |
+| QC_QIR_Quickstart_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/quick_start.md) | [原件](REFERENCES.md#ref-991ac1f951fbb2aa) |

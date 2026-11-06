@@ -1,0 +1,143 @@
+{
+  "data_cutoff": "2026-11-04 Asia/Shanghai",
+  "effective_sources": [
+    [
+      "QC_IQ10_Brief",
+      "IQ10 Series Platform，87-A2811-1 Rev. B；页脚0826B，PDF创建2026-10-20，创建时间不是发布日期"
+    ],
+    [
+      "QC_IQ10_RRD",
+      "IQ10 Robotics Reference Design，87-A0789-1 Rev. A；页脚0526A，PDF创建2026-05-28"
+    ],
+    [
+      "QC_IQ9_Brief",
+      "IQ9 Series Platform，正文87-83840-1 Rev. G、0626G；URL仍含REV_A，采用正文版本"
+    ],
+    [
+      "QC_IQ9075_Module",
+      "IQ-9075 Module，87-97354-1 Rev. C、0526C"
+    ],
+    [
+      "QC_IQ8_Brief",
+      "IQ8 Series Platform，正文87-83839-1 Rev. C、0626C；URL仍含REV_A，采用正文版本"
+    ],
+    [
+      "QC_Selector",
+      "Application Processors Selector Guide，87-PN002-1 Rev. E；PDF创建2023-11-17，历史资料"
+    ],
+    [
+      "QC_Quickref",
+      "IoT SoCs Quick Reference Guide，页脚1023A；PDF创建2023-10-17，历史资料"
+    ],
+    [
+      "TC_IRB10_Launch",
+      "Thundercomm IRB10 原型/参考设计发布公告，2026-03-10"
+    ],
+    [
+      "TC_IRB10_WAIC",
+      "Thundercomm IRB10 与星尘智能产品集成公告，2026-07-19"
+    ],
+    [
+      "TC_RB5_Kit",
+      "Thundercomm RB5 开发套件页，无页面发布日期；2026-11-04采集"
+    ],
+    [
+      "TC_RB6",
+      "Thundercomm RB6 平台页，无页面发布日期；2026-11-04采集"
+    ],
+    [
+      "TC_RB5Gen2",
+      "Thundercomm RB5 Gen 2 产品页，无页面发布日期；2026-11-04采集"
+    ],
+    [
+      "TC_RB3Gen2",
+      "Thundercomm RB3 Gen 2 产品页，无页面发布日期；2026-11-04采集"
+    ],
+    [
+      "Arduino_Ventuno",
+      "Arduino VENTUNO Q 官方产品页，无页面发布日期；2026-11-04采集"
+    ]
+  ],
+  "excluded_candidates": [
+    {
+      "name": "QC_IQ10_Product",
+      "url": "https://www.qualcomm.com/internet-of-things/products/iq10-series",
+      "archive_status": "partial_static",
+      "reason": "已归档仅SPA壳/无有效硬件正文，不能作事实证据"
+    },
+    {
+      "name": "QC_IQ10800",
+      "url": "https://www.qualcomm.com/internet-of-things/products/iq10-series/iq-10800",
+      "archive_status": "partial_static",
+      "reason": "已归档仅SPA壳/无有效硬件正文，不能作事实证据"
+    },
+    {
+      "name": "QC_IQ9",
+      "url": "https://www.qualcomm.com/internet-of-things/products/iq9-series",
+      "archive_status": "partial_static",
+      "reason": "已归档仅SPA壳/无有效硬件正文，不能作事实证据"
+    },
+    {
+      "name": "QC_IQ8",
+      "url": "https://www.qualcomm.com/internet-of-things/products/iq8-series",
+      "archive_status": "partial_static",
+      "reason": "已归档仅SPA壳/无有效硬件正文，不能作事实证据"
+    },
+    {
+      "name": "QC_Longevity",
+      "url": "https://www.qualcomm.com/internet-of-things/products/product-longevity-program",
+      "archive_status": "partial_static",
+      "reason": "已归档仅SPA壳/无有效硬件正文，不能作事实证据"
+    },
+    {
+      "name": "QC_Robotics",
+      "url": "https://www.qualcomm.com/internet-of-things/applications/robotics-processors",
+      "archive_status": "partial_static",
+      "reason": "已归档仅SPA壳/无有效硬件正文，不能作事实证据"
+    },
+    {
+      "name": "QC_IQ10_RRD_Blog",
+      "url": "https://www.qualcomm.com/news/onq/2026/06/dragonwing-iq10-robotics-reference-design",
+      "archive_status": "partial_static",
+      "reason": "已归档仅SPA壳/无有效硬件正文，不能作事实证据"
+    },
+    {
+      "name": "QC_Robotics_2026",
+      "url": "https://www.qualcomm.com/news/releases/2026/01/qualcomm-introduces-a-full-suite-of-robotics-technologies-power",
+      "archive_status": "partial_static",
+      "reason": "已归档仅SPA壳/无有效硬件正文，不能作事实证据"
+    },
+    {
+      "name": "QC_IQ9075_EVK",
+      "url": "https://www.qualcomm.com/developer/hardware/qualcomm-iq-9075-evaluation-kit-evk",
+      "archive_status": "partial_static",
+      "reason": "已归档仅SPA壳/无有效硬件正文，不能作事实证据"
+    },
+    {
+      "name": "SECO_IQ8_SOM",
+      "url": "https://edge.seco.com/en/som-smarc-dragonwing-iq8.html",
+      "archive_status": "failed",
+      "reason": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "QC_RB3Gen2",
+      "url": "https://www.qualcomm.com/developer/hardware/rb3-gen-2-development-kit",
+      "archive_status": "partial_static",
+      "reason": "已归档仅SPA壳/无有效硬件正文，不能作事实证据"
+    },
+    {
+      "name": "QC_RB5_HWGuide",
+      "url": "https://developer.qualcomm.com/qualcomm-robotics-rb5-kit/hardware-reference-guide",
+      "archive_status": "partial_static",
+      "reason": "已归档仅SPA壳/无有效硬件正文，不能作事实证据"
+    },
+    {
+      "name": "TC_RB5Gen2_Setup",
+      "url": "https://thundercomm.s3-accelerate.amazonaws.com/uploads/web/RB5GEN2/Setup-Guide-RB5-Gen-2-Dev-Kit-QCOM.pdf",
+      "archive_status": "failed",
+      "reason": "PermissionError: robots.txt does not permit this URL or could not be checked"
+    }
+  ],
+  "network_recovery": "初始直连robots检查超时；使用Windows系统自动代理GetSystemWebProxy实际解析代理后重试，未绕过访问规则",
+  "limits": "完整原文14份；partial_static缺失依赖逐metadata披露；无模型/硬件/本体测量"
+}

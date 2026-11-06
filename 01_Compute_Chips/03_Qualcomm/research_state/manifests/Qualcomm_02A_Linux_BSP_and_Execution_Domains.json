@@ -1,0 +1,66 @@
+[
+  {
+    "name": "QC_Linux_Architecture_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-252/topics/qualcomm-linux-sw-overview.md",
+    "expected": "any",
+    "used_by": [
+      "02A_Linux_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "QC_Linux_Release_1_6_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/RNO-251013063244/topics/ReleaseNote.md",
+    "expected": "any",
+    "used_by": [
+      "02A_Linux_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "QC_Linux_Home_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-115/topics/qualcomm-linux-docs-home.md",
+    "expected": "any",
+    "used_by": [
+      "02A_Linux_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "QC_Linux_Unregistered_Build_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-254/topics/github_workflow_unregistered_users.md",
+    "expected": "any",
+    "used_by": [
+      "02A_Linux_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "QC_Linux_Flash_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-254/topics/flash_images.md",
+    "expected": "any",
+    "used_by": [
+      "02A_Linux_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "QC_IQ10_RRD",
+    "url": "https://docs.qualcomm.com/doc/87-A0789-1/87-A0789-1_REV_A_Qualcomm_Dragonwing_IQ10_Robotics_Reference_Design_Product_Brief.pdf",
+    "expected": "any",
+    "used_by": [
+      "02A_Linux_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "QC_IQ10_Brief",
+    "url": "https://docs.qualcomm.com/doc/87-A2811-1/87-A2811-1_REV_B_Qualcomm_Dragonwing_IQ10_Series_Platform_Product_Brief.pdf",
+    "expected": "any",
+    "used_by": [
+      "02A_Linux_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "TC_RB5_Kit",
+    "url": "https://www.thundercomm.com/product/qualcomm-robotics-rb5-development-kit/",
+    "expected": "any",
+    "used_by": [
+      "02A_Linux_BSP_and_Execution_Domains"
+    ]
+  }
+]

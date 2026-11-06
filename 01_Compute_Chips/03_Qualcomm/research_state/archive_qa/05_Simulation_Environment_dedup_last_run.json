@@ -1,0 +1,26 @@
+{
+  "time_utc": "2026-11-04T16:58:45.054825+00:00",
+  "summary": {
+    "complete_static": 6,
+    "partial_static": 6,
+    "failed": 0
+  },
+  "names": [
+    "QC_QRB_Simulation_Repo",
+    "QC_QIR_Sample_MD",
+    "QC_QIR_Pickplace_Simulation_MD",
+    "QC_QIR_AMR_Simulation_MD",
+    "QC_QIR_SimFollow_MD",
+    "Gazebo_Physics_SDF",
+    "MuJoCo_Computation",
+    "HF_LeRobot_Repo",
+    "PI_Openpi_Repo",
+    "QC_Pi05_Demo",
+    "HF_CosmosPredict",
+    "QC_QIR_Quickstart_MD"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

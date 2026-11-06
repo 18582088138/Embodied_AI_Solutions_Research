@@ -1,0 +1,76 @@
+{
+  "sources": [
+    "QC_Linux_Architecture_MD",
+    "QC_Linux_Release_1_6_MD",
+    "QC_Linux_Home_MD",
+    "QC_Linux_Unregistered_Build_MD",
+    "QC_Linux_Flash_MD",
+    "QC_IQ10_RRD",
+    "QC_IQ10_Brief",
+    "TC_RB5_Kit"
+  ],
+  "versions": {
+    "QC_Linux_Architecture_MD": "80-70022-252 Rev.AA，2025-10-15",
+    "QC_Linux_Release_1_6_MD": "00107.0，Rev.3，2025-11-02；QLI1.6",
+    "QC_Linux_Home_MD": "QLI1.6公共文档入口",
+    "QC_Linux_Unregistered_Build_MD": "80-70022-254，QLI1.6示例，2025-10-15",
+    "QC_Linux_Flash_MD": "80-70022-254，QLI1.6相关指南",
+    "QC_IQ10_RRD": "87-A0789-1 Rev.A，0526A",
+    "QC_IQ10_Brief": "87-A2811-1 Rev.B，0826B",
+    "TC_RB5_Kit": "伙伴商品/BSP页，2026-11-04快照"
+  },
+  "figures": [
+    {
+      "name": "QC_Linux_Custom_architecture.png",
+      "source_id": "QC_Linux_Architecture_MD",
+      "caption": "Custom软件栈，QLI1.6",
+      "operation": "提取官方Markdown第一幅内嵌SVG，恢复HTML序列化的SVG大小写属性，1800×932完整本地浏览器渲染；未改图中文字与模块；已打开核查"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "QLI1.6内核和Yocto版本",
+      "source_id": "QC_Linux_Release_1_6_MD",
+      "location": "Introduction / Software version",
+      "evidence_type": "事实",
+      "conditions": "2025-11-02原件，不跨用IQ10",
+      "finding": "6.6.97 / Scarthgap5.0.11，全文与浏览器一致",
+      "exact_excerpt": "| Kernel | 6.6.97 |"
+    },
+    {
+      "claim": "RTSS应用可编程边界",
+      "source_id": "QC_Linux_Architecture_MD",
+      "location": "RTSS",
+      "evidence_type": "事实",
+      "conditions": "IQ8275/IQ9075，本发布",
+      "finding": "binary-only，限boot和clock/peripheral初始化，不能当完整控制SDK",
+      "exact_excerpt": "as a binary-only release with functionality limited to booting up the device and initializing clocks and peripherals"
+    },
+    {
+      "claim": "升级配套固件",
+      "source_id": "QC_Linux_Release_1_6_MD",
+      "location": "Upgrade Process",
+      "evidence_type": "事实",
+      "conditions": "GA1.6 HLOS",
+      "finding": "与older NonHLOS不兼容；eMMC还有OTA迁移限制",
+      "exact_excerpt": "older NonHLOS"
+    }
+  ],
+  "manual_review": {
+    "coverage": "Linux/BSP/kernel/firmware/boot/flash/hypervisor/RTSS/OTA逐项展开；IQ10版本矩阵和控制契约未取得",
+    "versions_and_measurements": "QLI1.6为本轮取得的历史公开基线；不称最新，无实机测量",
+    "maturity_and_licenses": "GA/Beta及公开HLOS/授权firmware source分别列；未知EULA不推定允许分发",
+    "figures_opened": "完整1800×932官方架构图已打开，模块/许可图例/脚注可读，未截断"
+  },
+  "final_figure_trace": [
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_Linux_Custom_architecture.png",
+      "sha256": "1eed9bf5a94daa72f6ab44b69de1aefa71b71389a16dcd01edea121589bd5308",
+      "source_id": "QC_Linux_Architecture_MD",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-252/topics/qualcomm-linux-sw-overview.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_Linux_Architecture_MD--592aca5269ff92a1/content.md",
+      "original_sha256": "51fbedfc8d0ade3738fb70c5539c0277a9d453caf7fc8146908031a5c2c780e1",
+      "operation": "提取官方Markdown第一幅内嵌SVG，恢复HTML序列化的SVG大小写属性，1800×932完整本地浏览器渲染；未改图中文字与模块；已打开核查"
+    }
+  ]
+}

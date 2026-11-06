@@ -1,0 +1,50 @@
+[
+  {
+    "name": "QC_QNN_API_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/api_overview.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation"
+    ]
+  },
+  {
+    "name": "QC_QNN_Overview_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/QNN_general_overview.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation"
+    ]
+  },
+  {
+    "name": "QC_QNN_HTP_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/htp_backend.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation"
+    ]
+  },
+  {
+    "name": "QC_QNN_Tools_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/general_tools.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation"
+    ]
+  },
+  {
+    "name": "ORT_QNN_EP",
+    "url": "https://onnxruntime.ai/docs/execution-providers/QNN-ExecutionProvider.html",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation"
+    ]
+  },
+  {
+    "name": "NV_TensorRT_Architecture",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/architecture-overview.html",
+    "expected": "any",
+    "used_by": [
+      "08A_Heterogeneous_Compilation"
+    ]
+  }
+]

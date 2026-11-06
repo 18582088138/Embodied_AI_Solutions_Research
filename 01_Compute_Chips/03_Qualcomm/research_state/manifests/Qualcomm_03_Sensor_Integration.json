@@ -1,0 +1,74 @@
+[
+  {
+    "name": "QC_IQ10_RRD",
+    "url": "https://docs.qualcomm.com/doc/87-A0789-1/87-A0789-1_REV_A_Qualcomm_Dragonwing_IQ10_Robotics_Reference_Design_Product_Brief.pdf",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_QMMF_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtiqmmfsrc.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_Converter_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtimlvconverter.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "QC_QIR_Camera_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qrb-ros-camera.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "QC_QIR_Sample_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qirp_sdk_sample.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "QC_QIR_Orbbec_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/orbbec-camera_5_2_8.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "QC_QIR_Lidar_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/rplidar-ros2_5_2_3.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "QC_QIR_APIs_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qir_sdk_api_list.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "QC_QIR_IMU_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qrb-ros-imu_5_2_4.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  }
+]

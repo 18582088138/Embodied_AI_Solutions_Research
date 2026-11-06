@@ -1,0 +1,211 @@
+{
+  "source_ids": [
+    "QC_AIHub_Models_Repo",
+    "QC_HF_Hand",
+    "HF_QC_Pi05",
+    "HF_OpenVLA",
+    "PI_Openpi_Repo",
+    "QC_Pi05_Demo",
+    "HF_GR00TN15",
+    "QC_GR00T_Recipe",
+    "QC_ACT_Recipe",
+    "QC_Pi05_Recipe",
+    "HF_Qwen25VL",
+    "HF_DepthAnythingV2",
+    "QC_QIR_APIs_MD",
+    "HF_CosmosPredict",
+    "HF_LeRobot_Repo"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/DepthAnything_Overview.jpg",
+      "sha256": "90c5300935f6082156884421f663f3190330281b0be6bd7cc78c9e2475a77f85",
+      "source_id": "HF_DepthAnythingV2",
+      "source_url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers/model_doc/depth_anything_overview.jpg",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/HF_DepthAnythingV2--1d6182f12b7e083a/assets/images/426f94c10a3eb8816dc4fa6b.jpg",
+      "original_sha256": "90c5300935f6082156884421f663f3190330281b0be6bd7cc78c9e2475a77f85",
+      "operation": "从该官方网页已归档image asset原样复制；无裁剪或缩放；已实际打开核验"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "Pi0.5的IQ9075组件测速不等于完整policy时延",
+      "source_id": "HF_QC_Pi05",
+      "location": "Performance／Inference Time table",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "三相机224×224；chunk50；w4a16／w8a16；QNN_CONTEXT_BINARY",
+      "finding": "377.948／39.759／25.737／3.939ms是分项，迭代、串并行与完整链计时不明",
+      "source_url": "https://huggingface.co/qualcomm/Pi0.5",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/HF_QC_Pi05--5f8734b971a4cbf3/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:52:37.233943+00:00",
+      "exact_excerpt": "mm® SA8255P 404.558 ms 1 - 9 MB NPU backbone QNN_CONTEXT_BINARY mixed Qualcomm® Dragonwing™ IQ-9075 377.948 ms 12 - 61 MB NPU backbone QNN_CONTEXT_BINARY mixed Qualcomm® Dragonwing™ IQ-X7181 423.242 ms 12 - 12 MB NPU backbone QNN_CONTEXT_BINARY mixed Qualcomm® Dragonwing™ Q-8750 255.903 ms 1 - 14 MB NPU token_emb PRECOMPILED_QNN_ONNX mixed Snapd"
+    },
+    {
+      "claim": "当前demo固定FP／CPU，仅比较离线轨迹",
+      "source_id": "QC_Pi05_Demo",
+      "location": "main；predict_action_chunk；compute_sequence_metrics",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "main分支网页快照，未锁定完整commit",
+      "finding": "存在ON_DEVICE parser不证明该main实际执行设备推理；MSE非任务成功",
+      "source_url": "https://github.com/qualcomm/ai-hub-models/blob/main/src/qai_hub_models/models/pi05/demo.py",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/QC_Pi05_Demo--eb8e342ec0fc4b6c/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:52:28.684019+00:00",
+      "exact_excerpt": "assert args.eval_mode == EvalMode.FP model_kwargs = get_model_kwargs(Model, vars(args)) model = Model.from_pretrained(**model_kwargs) # Always use CPU and load policy from the HF model id. device = \"cpu\" torch.manual_seed(1234) policy = PI05Policy.from_pretrained(HF_MODEL_ID).to(device).eval() batch, postprocessor, dataset = load_one_batch( dataset_repo_id=DATASET_REPO_ID, pi05_config=policy.config, batch_size=1, dev"
+    },
+    {
+      "claim": "unnorm_key和本体数据统计是动作部署契约",
+      "source_id": "HF_OpenVLA",
+      "location": "predict_action／unnorm_key",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "openvla-7b；BridgeV2示例",
+      "finding": "bridge_orig不能套到任意本体；模型MIT声明不替代全部数据许可",
+      "source_url": "https://huggingface.co/openvla/openvla-7b",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/HF_OpenVLA--5ca893085629869e/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:50:45.651952+00:00",
+      "exact_excerpt": "= processor(prompt, image).to(\"cuda:0\", dtype=torch.bfloat16) action = vla.predict_action(**inputs, unnorm_key=\"bridge_orig\", do_sample=False) # Execute... robot.act(action, ...) For more examples, including scripts for fine-tuning OpenVLA models on your own robot demonstration datasets, see our training repository. Citation BibTeX: @article{kim24o"
+    },
+    {
+      "claim": "单目深度Small-hf是上游模型证据",
+      "source_id": "HF_DepthAnythingV2",
+      "location": "Model architecture／license",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "Depth-Anything-V2-Small-hf",
+      "finding": "模型存在不证明准确QNN权重和端侧米制安全距离验收",
+      "source_url": "https://huggingface.co/depth-anything/Depth-Anything-V2-Small-hf",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/HF_DepthAnythingV2--1d6182f12b7e083a/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:50:53.189303+00:00",
+      "exact_excerpt": " repository. Online demo. Model description Depth Anything V2 leverages the DPT architecture with a DINOv2 backbone. The model is trained on ~600K synthetic labeled images and ~62 million real unlabeled images, obtaining state-of-the-art results for both relative and absolute depth estimation. Depth Anything overview. Taken from the original pa"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_AIHub_Models_Repo",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_HF_Hand",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "HF_QC_Pi05",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "HF_OpenVLA",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "PI_Openpi_Repo",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_Pi05_Demo",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露",
+      "exact_excerpt": "assert args.eval_mode == EvalMode.FP model_kwargs = get_model_kwargs(Model, vars(args)) model = Model.from_pretrained(**model_kwargs) # Always use CPU and load policy from the HF model id. device = \"cpu\" torch.manual_seed(1234) policy = PI05Policy.from_pretrained(HF_MODEL_ID).to(device).eval() batch, postprocessor, dataset = load_one_batch( dataset_repo_id=DATASET_REPO_ID, pi05_config=policy.config, batch_size=1, dev"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "HF_GR00TN15",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_GR00T_Recipe",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_ACT_Recipe",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_Pi05_Recipe",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "HF_Qwen25VL",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "HF_DepthAnythingV2",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QIR_APIs_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "HF_CosmosPredict",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "HF_LeRobot_Repo",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    }
+  ],
+  "manual_review": {
+    "coverage": "依据对应dimensions条目核查；未取得的信息分项记录，不以理论兼容替代交付",
+    "versions_and_measurements": "核对原件中的版本和数字，未实施实机或模型测量",
+    "maturity_and_licenses": "区分计划、演示与交付；代码、权重、固件和本体分层核查",
+    "figures_opened": "实际打开本文图；图源和结论限制见正文"
+  }
+}

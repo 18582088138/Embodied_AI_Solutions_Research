@@ -1,0 +1,32 @@
+{
+  "report": "01_Compute_Chips/03_Qualcomm/02_Software_Stack.md",
+  "body_han_chars": 2148,
+  "tables": 2,
+  "sources": 19,
+  "archive_status": {
+    "complete_static": 17,
+    "partial_static": 2
+  },
+  "figures": 1,
+  "file_hash_checks": 516,
+  "html_visible_text_equal": 2,
+  "page_local_dependencies_checked": 527,
+  "report_local_links": 41,
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08_Proprietary_Technologies.md": true,
+    "09_SWOT_Analysis.md": true
+  },
+  "errors": [],
+  "warnings": [
+    "静态依赖部分缺失: QC_AIHub_Models_Repo（报告应披露）",
+    "静态依赖部分缺失: QC_CloudAI_Runtime（报告应披露）"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

@@ -1,0 +1,79 @@
+# 02D Qualcomm IM SDK：感知、多媒体、tensor 与 ROS 交接
+
+## 软件定位及版本矩阵
+
+IM SDK 用上游及 Qualcomm GStreamer 插件作为 API，组织摄像头、解码、变换、模型推理、后处理和显示／编码管线。它解决“一个模型可运行，但视频格式、内存和时间轴仍没有对齐”的问题。不是所有计算都在 NPU 上：摄像头服务、GPU 预处理、DSP/HTP 推理、CPU 元数据解析和显示会形成共享内存与调度压力。2026-10-07 的环境概述及示例指南提供这一入口。[QC_IMSDK_Overview_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/overview.md)｜[本地原件](REFERENCES.md#ref-e94cb089092c4947)
+
+示例指南写开发主机 Ubuntu22.04，目标 Qualcomm Linux1.6 或 Ubuntu Server，AI 流程兼容 QAIRT2.38 与 LiteRT/TFLite2.16.1，并明确不适用于 IQ615；示例矩阵包括 QCS6490、IQ8275、IQ9075。IM SDK 1.6 发行说明另分 Qualcomm Linux 和 Ubuntu 两组内容，Ubuntu 记录 Noble24.04/kernel6.8.0。这些是不同主机／目标和发行分支，不能合并为一套版本。未取得 IQ10 的同级插件/BSP 支持矩阵。[QC_IMSDK_Examples_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/example-applications.md)｜[本地原件](REFERENCES.md#ref-a64494df94489720)
+
+| 版本证据 | 已确认值／条件 | 工程动作 |
+|---|---|---|
+| QLI 侧 IM SDK1.6 | Yocto5.0.11、kernel6.6.97 | 固定 BSP manifest 与目标机器 |
+| IM SDK release tag | QLI1.6-Ver1.2_qim-product-sdk-2.1.1 | 同步 recipes 与插件源码 |
+| 示例推理依赖 | QAIRT2.38、LiteRT2.16.1 | 不直接换成通用文档最新版 |
+| 示例源码路径 | 多数 imsdk.lnx.2.0.0.r2-rel；pose部分 r1-rel | 获取对应 commit，不能按统一标签猜测 |
+| Ubuntu 分支 | Noble24.04、kernel6.8.0 | 区分目标 Server 与开发主机 |
+
+发行说明 firmware 写 r1.0_00106.0、manifest Ver1.2，与 02A 的 QLI1.6 独立发行说明 r1.0_00108.0、Ver1.2.1 不同。这里保留两份原文，而不自行拼装固件与插件。应以目标 BSP 的正式兼容矩阵确认一整组版本；如果供应商声称向后兼容，要求给升级路径与回归范围。发行说明采集版本为 2026-10-13，不代表这个组合已经在目标载板完成认证。[QC_IMSDK_Release_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-52/topics/qim-sdk-release-1-6.md)｜[本地原件](REFERENCES.md#ref-6fcff00d2f12e95b) [QC_Linux_Release_1_6_MD 原文](https://docs.qualcomm.com/bundle/publicresource/RNO-251013063244/topics/ReleaseNote.md)｜[本地原件](REFERENCES.md#ref-3a9dba7e0f75e302)
+
+## 摄像头服务与 buffer 生命周期
+
+qtiqmmfsrc 的 GstQtiQmmfSrc 封装 QMMF recorder client，视频与图像使用独立 request pads。GstCaps 在创建时保存对应 stream 参数；NULL→READY 打开指定 camera ID，READY→PAUSED 翻译 pad 参数并创建服务 streams，进入 PLAYING 才启动 session。服务分配 buffer，插件包装为 GstBuffer 并进入 pad queue，下游不用后归还服务。image pad 需要 capture-image 信号，不能用 PLAYING 状态推断持续拍照。[QC_IMSDK_QMMF_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtiqmmfsrc.md)｜[本地原件](REFERENCES.md#ref-51a36f5ba117e6b1)
+
+分析：如果 ROS 回调持有 GstBuffer 直到另一个线程处理完，归还时间随队列深度增长，可能耗尽相机池。反过来，若先释放 sample 再发布其指针，会产生悬空访问。接入时应明确每个队列的所有权、引用计数、上限、丢弃策略与异常释放。pad caps 的 120fps 等范围是插件模板可描述的能力，不是特定传感器、载板和并行路数的性能保证；该文又将 video pad framerate 属性写 0–30，参数层次有差异，必须用实际 sensor mode 和驱动验证。qtiqmmfsrc 的 camera ID 也不是 GMSL serializer 地址或真实物理相机标定关系。
+
+## GPU 预处理与 QNN tensor 契约
+
+qtimlvconverter 使用 GPU、ION/DMA buffers、IB2C 库和 GstGlesVideoConverter 抽象，将输入视频转换／缩放到神经网络 tensor；GstMLBufferPool 通过内核 IOCTL 分配输出。浮点预处理公式明确是 `(channel-mean)×sigma`，不要把 sigma 名称理解成再除一次标准差。RGB/BGR 由 subpixel-layout 区分。误用公式可能不会引起运行错误，却改变整个量化分布与检测精度。文档列 fcv/gles engine，但注明 fcv 当前不支持，不将菜单选项当有效执行路径。[QC_IMSDK_Converter_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtimlvconverter.md)｜[本地原件](REFERENCES.md#ref-382fbcc3e4ba0663)
+
+qtimlqnn 加载绝对路径 model 与 backend library，模型加载后给出 tensor 数量、尺寸与类型；插件使用 QNN 与同类 buffer pool。其 sink/src caps 列 UINT8、INT32、FLOAT32，而 converter 输出还列 FLOAT16。故 HTP 后端支持某精度，不意味着该 GStreamer 插件当前 caps 支持同一外部 tensor。应先检查 caps negotiation，再检查 QNN 图输入 layout、量化 scale/offset 和 runtime 数值，不能在后端支持表与视频插件间直接画等号。[QC_IMSDK_QNN_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtimlqnn.md)｜[本地原件](REFERENCES.md#ref-03a3acf203032ea7)
+
+| 交接点 | 输入／输出 | 必须核对的契约 |
+|---|---|---|
+| 相机→GStreamer | NV12/NV21、Bayer、GstBuffer | sensor mode、stride、buffer pool、时间戳 |
+| converter→qtimlqnn | neural-network/tensors | 类型、shape、RGB顺序、mean/sigma |
+| qtimlqnn→postprocess | 模型输出 tensor | 编译产物、输出名、量化、检测模块 |
+| postprocess→appsink | text/x-raw 结果或视频 | 解析格式、坐标尺度、样本生命周期 |
+| 应用→ROS | 图像／检测／状态消息 | frame、采集时间、校准、QoS、过期策略 |
+
+分析：共享 DMA pool 是减少 CPU copy 的必要路径之一，但不是端到端零拷贝证明。GBM、ION、DMA-BUF 的分配与导入、UBWC 格式、GPU 与 HTP 可达性、fence 完成和缓存一致性都要匹配。IM SDK 发行说明的 Ubuntu 分支新增 NV12_Q08C 代替 compression=ubwc，并记录 V4L2 dmabuf/import；不能把这些语句移植为所有 QLI 插件的完整零拷贝承诺。ROS 中若序列化普通 Image，仍可能复制或转换。必须按每段实际 buffer tracing 检查，而不是计算峰值带宽后宣称管线无瓶颈。
+
+## 完整检测链与可读结果
+
+检测示例从 camera、file、USB 或 RTSP 输入，经预处理与 qtimlsnpe/qtimltflite/qtimlqnn 推理、qtimlpostprocess，再由 qtivcomposer 合成并显示、编码或网络输出。JSON 中 ml-framework、runtime、model、labels、yolo-model-type、threshold 是联合配置。文中阈值为 1–100 的整数，不能不经转换拿来当模型的 0–1 置信度参数。模型表、开头叙述和例子包含不同 YOLO 名称，本文只把它们当示范格式，不认定所有模型／runtime 组合都已经验收。[QC_IMSDK_Detection_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/gst-ai-object-detection.md)｜[本地原件](REFERENCES.md#ref-67207ff642514454)
+
+![官方图：元数据解析与可视化分支](assets/figures/QC_IMSDK_Metadata--6976656e7b5e.png)
+
+官方元数据图把推理结果分为视频 overlay 和 text/x-raw 两支，后者接 appsink。元数据示例通过第二个 postprocess 输出 bounding box 与 label 文本，由应用读取、解析、日志记录并统计每帧人数；这是接入应用决策更直接的入口。图从原文 SVG 渲染，恢复 viewBox 属性大小写后完整截图，保留 Qualcomm／Open source 图例，已打开核验。它未包含 ROS publisher，不能把图上的 appsink 当已交付 ROS bridge。[QC_IMSDK_Metadata_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/gst-ai-metadata-parser.md)｜[本地原件](REFERENCES.md#ref-429d624c92606ff7)
+
+Camera frame processing 示例展示 new-sample 信号后从 sample 提取 buffer，默认演示配置 1920×1080；该示例不提供实际处理时延或稳定帧率。构建桥接时，需要验证文本坐标对应原图还是模型 resize 图，关联 frame 序号和 capture timestamp，并选择发布检测结构或仅发布可视化图。人数日志没有轨迹 identity，不能当长期跟踪或动态障碍预测。[QC_IMSDK_Appsink_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/gst-appsink-example.md)｜[本地原件](REFERENCES.md#ref-86ed712cd6d753ab)
+
+## 背压、测量与失效边界
+
+分析：tee 分支让预览、编码和推理共享输入，慢支路在没有隔离队列时会影响上游；增加 queue 又会提高观测年龄。应分别记录相机采集、入队、GPU 转换、模型完成、后处理、ROS 发布／消费、动作提交的时间，测平均、P99 与最大观测年龄，持续记录队列长度和丢帧。对只需最新观测的控制路径可评估有界丢旧帧；记录训练数据的分支则需要保证数据完整性。GStreamer 的 qos 属性默认 false，不等同 ROS DDS QoS。
+
+官方 1.6 限制包括 qtioverlay 检测较多时丢帧（建议 qtivcomposer）、部分 GPU delegate 丢帧、IQ9075/IQ8275 multibatch 稳定性、长时间 camera ML 运行约30分钟后显示延迟，以及 DRC 视频 buffer 部分不能被 GPU 访问。文中 32 stream 的20–30fps 没有完整模型／硬件／分辨率条件，仅保留为发行问题记录，不能当 IQ10 benchmark，也不能宣称所有这些旧问题在当前仍未修复。选择动作是将实际并发、动态分辨率、启停、EOS 与长运行列入回归；不能只跑一次单图推理。
+
+## 对标、许可与可复建验证
+
+分析：与其他平台以多媒体管线包装推理插件的方案同类，IM SDK 的资产是 QMMF 服务、格式转换、DMA pool 和目标 QNN 的协作。源模型、标签、校准和任务数据可迁移；UBWC 格式、相机服务和专属 backend 配置需重建。没有相同条件数据，不比较品牌帧率。上游 GStreamer、qti-oss 插件源码、IB2C、摄像头 UMD、QNN/SNPE binaries、模型权重是不同许可对象。本章取得源码路径和公开 API 文档，没有取得全部源码 commit 与二进制许可，不能保证商用分发权。
+
+可复建方案先在固定 BSP 上检查插件版本与 caps，加载相同权重哈希的检测产物，用录像回放比较预处理后 tensor、输出和坐标；再替换真实相机并增加 ROS bridge，测试 sample 释放、队列过载、断流重连和时钟映射。最后与规划／控制接口一起检验过期观测拒绝、frame 不一致与回退。本文完成文献和 API 核验，尚未执行这些测试，也未取得官方全链路 ROS 零拷贝与时间同步实现；详细本体适配与传感器拓扑留给获授权的后续章节。
+
+
+## 参考资料与归档边界
+
+采集截止：2026-11-05（Asia/Shanghai）。原件通过项目统一下载器登记；官方 Markdown 是厂商提供的原始正文，保留嵌入 SVG/图片数据。HTML 静态壳不作为正文证据。网页依赖缺失按 metadata 记录；不承诺离线交互或像素一致。未执行硬件刷写、模型推理或机器人测试。
+
+| 登记名称 | 版本／适用边界 | 原始资料 | 本地归档 |
+|---|---|---|---|
+| QC_IMSDK_Overview_MD | 80-70022-50；2026-10-07 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/overview.md) | [原件](REFERENCES.md#ref-e94cb089092c4947) |
+| QC_IMSDK_Examples_MD | 80-70022-50；2026-10-07 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/example-applications.md) | [原件](REFERENCES.md#ref-a64494df94489720) |
+| QC_IMSDK_Release_MD | 80-70022-52；2026-10-13 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-52/topics/qim-sdk-release-1-6.md) | [原件](REFERENCES.md#ref-6fcff00d2f12e95b) |
+| QC_IMSDK_QMMF_MD | 80-70022-50；2026-10-07 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtiqmmfsrc.md) | [原件](REFERENCES.md#ref-51a36f5ba117e6b1) |
+| QC_IMSDK_Converter_MD | 80-70022-50；2026-10-07 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtimlvconverter.md) | [原件](REFERENCES.md#ref-382fbcc3e4ba0663) |
+| QC_IMSDK_QNN_MD | 80-70022-50；2026-10-07 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtimlqnn.md) | [原件](REFERENCES.md#ref-03a3acf203032ea7) |
+| QC_IMSDK_Detection_MD | 80-70022-50；2026-10-07 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/gst-ai-object-detection.md) | [原件](REFERENCES.md#ref-67207ff642514454) |
+| QC_IMSDK_Metadata_MD | 80-70022-50；2026-10-07 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/gst-ai-metadata-parser.md) | [原件](REFERENCES.md#ref-429d624c92606ff7) |
+| QC_IMSDK_Appsink_MD | 80-70022-50；2026-10-07 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/gst-appsink-example.md) | [原件](REFERENCES.md#ref-86ed712cd6d753ab) |
+| QC_Linux_Release_1_6_MD | QLI1.6发行说明 Rev3，2025-11-02 | [原文](https://docs.qualcomm.com/bundle/publicresource/RNO-251013063244/topics/ReleaseNote.md) | [原件](REFERENCES.md#ref-3a9dba7e0f75e302) |

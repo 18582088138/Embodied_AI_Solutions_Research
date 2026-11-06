@@ -1,0 +1,34 @@
+[
+  {
+    "name": "QC_IQ10_Product",
+    "url": "https://www.qualcomm.com/internet-of-things/products/iq10-series",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TC_IRB10_Launch",
+    "url": "https://www.thundercomm.com/turbox-irb10-launches-at-embedded-world-2026/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TC_IRB10_WAIC",
+    "url": "https://www.thundercomm.com/turbox-irb10-waic/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TC_RB5_Kit",
+    "url": "https://www.thundercomm.com/product/qualcomm-robotics-rb5-development-kit/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

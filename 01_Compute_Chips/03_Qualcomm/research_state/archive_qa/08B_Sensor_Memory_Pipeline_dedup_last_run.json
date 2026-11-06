@@ -1,0 +1,22 @@
+{
+  "time_utc": "2026-11-04T17:17:14.933561+00:00",
+  "summary": {
+    "complete_static": 7,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "QC_IMSDK_QMMF_MD",
+    "QC_IMSDK_Converter_MD",
+    "Linux_DMA_Buf",
+    "QC_QNN_API_MD",
+    "QC_QNN_HTP_MD",
+    "QC_IMSDK_Metadata_MD",
+    "QC_QIR_Bridge_MD",
+    "NV_NITROS_Repo"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

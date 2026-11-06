@@ -1,0 +1,72 @@
+{
+  "sources": [
+    "QC_QNN_API_MD",
+    "QC_QNN_HTP_MD",
+    "QC_QNN_Overview_MD",
+    "QC_QNN_Tools_MD",
+    "QC_SNPE_Overview_MD",
+    "QC_SNPE_Tools_MD"
+  ],
+  "versions": {
+    "QC_QNN_API_MD": "80-63442-10；2026-09-03；API2.39.0",
+    "QC_QNN_HTP_MD": "80-63442-10；2026-09-03；HTP API5.50.0",
+    "QC_QNN_Overview_MD": "80-63442-10；2026-09-03",
+    "QC_QNN_Tools_MD": "80-63442-10；2026-09-03",
+    "QC_SNPE_Overview_MD": "80-63442-10；2026-09-03",
+    "QC_SNPE_Tools_MD": "80-63442-10；2026-09-03"
+  },
+  "figures": [
+    {
+      "name": "QC_QNN_API_embedded_2.png",
+      "source_id": "QC_QNN_API_MD",
+      "caption": "QNN Context Caching Call flow",
+      "operation": "从官方Markdown第三幅嵌入base64 PNG解码，原图原尺寸，无裁剪；已打开查看"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "QNN源码兼容不保证ABI兼容",
+      "source_id": "QC_QNN_API_MD",
+      "location": "API overview首段",
+      "evidence_type": "事实",
+      "conditions": "公共文档API2.39.0",
+      "finding": "已核正文与原件，不能承诺目标库直接替换",
+      "exact_excerpt": "it is not guaranteed to be binary (ABI) backwards compatible"
+    },
+    {
+      "claim": "不同架构缓存风险",
+      "source_id": "QC_QNN_HTP_MD",
+      "location": "Usage Expectations",
+      "evidence_type": "事实",
+      "conditions": "HTP架构与缓存生成配置",
+      "finding": "存在indeterminate result警告，不跨V66/V68/V73套用缓存",
+      "exact_excerpt": "Loading a context binary generated for a different HTP arch may give indeterminate result."
+    },
+    {
+      "claim": "QNN不负责网络切分",
+      "source_id": "QC_QNN_Overview_MD",
+      "location": "Right level of abstraction",
+      "evidence_type": "事实",
+      "conditions": "低层QNN与高层框架分工",
+      "finding": "回退/切分应查上层框架，不从统一API推导",
+      "exact_excerpt": "model parsing and network partitioning to higher level frameworks"
+    }
+  ],
+  "manual_review": {
+    "coverage": "模型转换/量化、cpp/bin/DLC/context、API对象、共享内存、HTP/VTCM/RPC、缓存、异步、调度、profiling与许可独立展开",
+    "versions_and_measurements": "接口版本分别记录；没有IQ10支持包/实测，未引用跨SKU性能数字",
+    "maturity_and_licenses": "Beta功能和旧OpPackage重编代价明确；SDK二进制EULA本轮未取得，不推定自由分发",
+    "figures_opened": "缓存时序PNG实际打开，标题与API/缓冲区次序清晰；正文与图的context-create差异已披露"
+  },
+  "final_figure_trace": [
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_QNN_API_embedded_2.png",
+      "sha256": "e84d6d7296172d7e41a5fb605ad050de99db916630173dbf65667379bdcea021",
+      "source_id": "QC_QNN_API_MD",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/api_overview.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_QNN_API_MD--882106f8ffc3dd51/content.md",
+      "original_sha256": "ea54f2c44cce9cb1b8ad6ea279d787e614044546966df9845beb383ced058ec6",
+      "operation": "从官方Markdown第三幅嵌入base64 PNG解码，原图原尺寸，无裁剪；已打开查看"
+    }
+  ]
+}

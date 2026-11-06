@@ -1,0 +1,4 @@
+[
+ {"name":"QC_CloudAI_Prerequisites","url":"https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/Getting-Started/Installation/prerequisites.html","expected":"html","used_by":["02F_RB6_Cloud_AI_100_Stack"]},
+ {"name":"QC_CloudAI_Compiler","url":"https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/Getting-Started/SDK-Tools/network-compilation/qaic-compile/index.html","expected":"html","used_by":["02F_RB6_Cloud_AI_100_Stack"]}
+]

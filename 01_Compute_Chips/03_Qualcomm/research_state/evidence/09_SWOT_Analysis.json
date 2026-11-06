@@ -1,0 +1,241 @@
+{
+  "source_ids": [
+    "IFR_Industrial_2026",
+    "IFR_Service_2026",
+    "IFR_Installations_Figure_2026",
+    "QC_QNN_HTP_MD",
+    "ORT_QNN_EP",
+    "QC_IMSDK_Converter_MD",
+    "TC_IRB10_WAIC",
+    "TC_IRB10_Launch",
+    "NEURA_Qualcomm_Collaboration",
+    "NEURA_4NE1",
+    "TC_RB3Gen2",
+    "TC_RB6",
+    "TC_RB5_Kit",
+    "EC_Machinery",
+    "EC_CRA",
+    "EC_AI_Act"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/IFR_Industrial_Installations_2026.png",
+      "sha256": "2eb666011de5f7f361f255ea075ad17f6acb4f65ebe2f02f40bad855624a6cb0",
+      "source_id": "IFR_Installations_Figure_2026",
+      "source_url": "https://ifr.org/downloads/press_docs/Graphic_World_Robotics_2026_GLOBAL.png",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/IFR_Installations_Figure_2--f4b1d8f851a56e04/content.png",
+      "original_sha256": "2eb666011de5f7f361f255ea075ad17f6acb4f65ebe2f02f40bad855624a6cb0",
+      "operation": "统一下载器取得IFR原PNG后原样复制，完整图表、标题、坐标、单位与来源均保留；已实际打开核验"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "TCO变量未知不能填0；功耗敏感性不是实际收益",
+      "source_id": "TC_RB6",
+      "location": "本文TCO／敏感性分析；网页价格仅是一个采购输入",
+      "evidence_type": "分析",
+      "conditions": "100台×10W差×8h/day×300day/year×3year；¥1/kWh；200工程h×¥300/h",
+      "finding": "假设能源差7200kWh／¥7200；额外工程费¥60000；总TCO能耗用P，差额分析用ΔP",
+      "formula": "100*10/1000*8*300*3=7200; 200*300=60000"
+    },
+    {
+      "claim": "工业安装／存量分母不等于计算芯片份额",
+      "source_id": "IFR_Industrial_2026",
+      "location": "World Robotics 2026 announcement",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "2025 stock约500万；new超过60万；China354000",
+      "finding": "行业规模不能倒推Qualcomm装机份额，付费底表未取得",
+      "source_url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/IFR_Industrial_2026--bad3d5636979c1ec/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T17:23:50.471860+00:00",
+      "exact_excerpt": "rew by 20% year-on-year and now account for 59% of global deployments. The latest figures show that 354,000 industrial robots have been installed in 2025 – even exceeding last year's annual total record by almost 60,000 units. Chinese manufacturers have sold more than foreign suppliers in their home country. Their installations rose by 15%, "
+    },
+    {
+      "claim": "服务机器人销量口径与全尺寸人形约7000台分开",
+      "source_id": "IFR_Service_2026",
+      "location": "Professional service／humanoids",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "2025；>140cm；commercial／professional；排除研发娱乐",
+      "finding": "不推在岗自主运营或任务成功；117000标题与117500正文差异保留",
+      "source_url": "https://ifr.org/ifr-press-releases/news/global-sales-of-professional-service-robots-surge-24-percent",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/IFR_Service_2026--1e78f5fd4a5acdc8/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T17:24:10.475059+00:00",
+      "exact_excerpt": "professional service robots Transportation and logistics stays in the lead as top application, with 117,500 units sold in 2025. This was up 21%, and represents a market share of 47%. These robots are primarily used for transportation as well as for the automation of material flows and delivery processes.. Although traditional sales remained the "
+    },
+    {
+      "claim": "RB6 $2199为Standard70TOPS套件采集快照",
+      "source_id": "TC_RB6",
+      "location": "Price／package",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "未取得地区、税运、折扣、结算币种；不含扩展5G",
+      "finding": "不能当成200TOPS版本或整机BOM报价",
+      "source_url": "https://www.thundercomm.com/product/qualcomm-robotics-rb6-development-kit/",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/TC_RB6--8e3bca5fb376ca0e/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T15:47:51.043842+00:00",
+      "exact_excerpt": "Board. Package List: C5165N SOM &Interposer+Main IO+Nav Mezz+AI Mezz+AIC module (70 Tops). Stock:5 $2,199.00 Add to cart Qualcomm® Robotics RB6 Development Kit: Related products Select options Development Kits (Dev Kits) Qualcomm® Robotics RB5 Development Kit Automated Guided VehicleConsumption/Entertainment RobotIndustrial ControlIndustrial R"
+    },
+    {
+      "claim": "政策页面更新不能替代修订法规全文",
+      "source_id": "EC_AI_Act",
+      "location": "Timeline／AI Omnibus",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "2026-10-19页面快照；法规原始入口为空正文",
+      "finding": "时间仅作为核验入口，不作具体产品类别和法条适用裁定",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/EC_AI_Act--acc5ad4063972046/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T17:26:03.467106+00:00",
+      "exact_excerpt": "ystems embedded into regulated products (Annex I) have an extended transition period until 2 August 2028 and the rules for high-risk use cases in certain sensitive areas (Annex III) have been extended to 2 December 2027 as a result of the political agreement on the proposal to simplify the AI Act – 'AI Omnibus' How has the Commission simplifi"
+    },
+    {
+      "claim": "CRA报告和主要义务的适用日期分开",
+      "source_id": "EC_CRA",
+      "location": "Entry into force／application",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "页面2026-09-07更新；2026-09-11／2027-12-11",
+      "finding": "具体SKU、例外与角色需法规全文和产品分析",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/EC_CRA--4200a5f0d3908f20/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T17:26:00.242297+00:00",
+      "exact_excerpt": " entered into force on 10 December 2024. The main obligations introduced by the Act will apply from 11 December 2027, with reporting obligations to apply as of 11 September 2026. On 27 July 2026, the Commission published practical guidance to help manufacturers, developers, and businesses of all sizes meet their obligations under the Cyber Resilience Act"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "IFR_Industrial_2026",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "IFR_Service_2026",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "IFR_Installations_Figure_2026",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QNN_HTP_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "ORT_QNN_EP",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_IMSDK_Converter_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "TC_IRB10_WAIC",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "TC_IRB10_Launch",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "NEURA_Qualcomm_Collaboration",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "NEURA_4NE1",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "TC_RB3Gen2",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "TC_RB6",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "TC_RB5_Kit",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "EC_Machinery",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "EC_CRA",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "EC_AI_Act",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    }
+  ],
+  "manual_review": {
+    "coverage": "依据对应dimensions条目核查；未取得的信息分项记录，不以理论兼容替代交付",
+    "versions_and_measurements": "核对原件中的版本和数字，未实施实机或模型测量",
+    "maturity_and_licenses": "区分计划、演示与交付；代码、权重、固件和本体分层核查",
+    "figures_opened": "实际打开本文图；图源和结论限制见正文"
+  }
+}

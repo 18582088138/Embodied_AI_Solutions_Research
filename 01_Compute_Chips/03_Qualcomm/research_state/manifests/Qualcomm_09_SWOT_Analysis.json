@@ -1,0 +1,130 @@
+[
+  {
+    "name": "IFR_Industrial_2026",
+    "url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "IFR_Service_2026",
+    "url": "https://ifr.org/ifr-press-releases/news/global-sales-of-professional-service-robots-surge-24-percent",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "IFR_Installations_Figure_2026",
+    "url": "https://ifr.org/downloads/press_docs/Graphic_World_Robotics_2026_GLOBAL.png",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "QC_QNN_HTP_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/htp_backend.md",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "ORT_QNN_EP",
+    "url": "https://onnxruntime.ai/docs/execution-providers/QNN-ExecutionProvider.html",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_Converter_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtimlvconverter.md",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "TC_IRB10_WAIC",
+    "url": "https://www.thundercomm.com/turbox-irb10-waic/",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "TC_IRB10_Launch",
+    "url": "https://www.thundercomm.com/turbox-irb10-launches-at-embedded-world-2026/",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NEURA_Qualcomm_Collaboration",
+    "url": "https://neura-robotics.com/neura-qualcomm-collaboration/",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NEURA_4NE1",
+    "url": "https://neura-robotics.com/products/4ne1/",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "TC_RB3Gen2",
+    "url": "https://www.thundercomm.com/product/qualcomm-rb3-gen-2/",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "TC_RB6",
+    "url": "https://www.thundercomm.com/product/qualcomm-robotics-rb6-development-kit/",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "TC_RB5_Kit",
+    "url": "https://www.thundercomm.com/product/qualcomm-robotics-rb5-development-kit/",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "EC_Machinery",
+    "url": "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "EC_CRA",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "EC_AI_Act",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  }
+]

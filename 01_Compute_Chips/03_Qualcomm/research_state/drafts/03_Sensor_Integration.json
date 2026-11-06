@@ -1,0 +1,161 @@
+{
+  "sources": [
+    "QC_IQ10_RRD",
+    "QC_IMSDK_QMMF_MD",
+    "QC_IMSDK_Converter_MD",
+    "QC_QIR_Camera_MD",
+    "QC_QIR_Sample_MD",
+    "QC_QIR_Orbbec_MD",
+    "QC_QIR_Lidar_MD",
+    "QC_QIR_APIs_MD",
+    "QC_QIR_IMU_MD"
+  ],
+  "versions": {},
+  "figures": [
+    {
+      "name": "QC_QIR_Orbbec.png",
+      "source_id": "QC_QIR_Orbbec_MD",
+      "caption": "Gemini335L到ROS观测接口",
+      "operation": "从已归档官方原件复制或提取；逐图实际打开核验，见正文图说明"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "多相机净吞吐与额外copy成本是假设推导",
+      "source_id": "QC_IMSDK_QMMF_MD",
+      "location": "本文吞吐分析；原文NV12 caps仅支持格式依据",
+      "evidence_type": "分析",
+      "conditions": "12×1920×1080×30fps×1.5字节；不计padding／协议／缓存",
+      "finding": "净1,119,744,000B/s；额外copy理想读写2,239,488,000B/s；不是实机或12路并发验收",
+      "formula": "N*W*H*FPS*1.5; extra_copy_read_write=2*payload"
+    },
+    {
+      "claim": "RGB／深度示例关闭点云；空间配准和Wrapper同步不证明跨设备PTP",
+      "source_id": "QC_QIR_Orbbec_MD",
+      "location": "RGB and depth launch examples",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "Gemini335L及本文归档Wrapper示例",
+      "finding": "参数不是最大模式同时并发验收；depth_registration不是时钟同步",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/orbbec-camera_5_2_8.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_QIR_Orbbec_MD--0b8df5b0e3f41df5/content.md",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:47:29.457152+00:00",
+      "exact_excerpt": "ros2 launch orbbec_camera gemini_330_series.launch.py depth_registration:=false enable_depth:=false enable_point_cloud:=false color_width:=848 color_height:=480 color_fps:=30 color_qos:=default\n>         Copy to clipboard\n- To set up QIR SDK and ROS2 environment on the device and start the `orbbec_camera` ROS node with the `Depth` module enabled, start a n"
+    },
+    {
+      "claim": "IMU帧率不能自定义，不能由此补出采样数值或相机同步",
+      "source_id": "QC_QIR_IMU_MD",
+      "location": "qrb_ros_imu limitations",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "sensor-service和目标板硬件",
+      "finding": "已区分硬件限制、数据单位及重连后的有效性",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qrb-ros-imu_5_2_4.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_QIR_IMU_MD--5200f0c39eb0de33/content.md",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:47:32.133268+00:00",
+      "exact_excerpt": "docs.qualcomm.com/doc/80-70022-265/topic/qrb-ros-imu_5_2_4.html#case1-ros-imu).\n\n## Limitation\n\nThe frame rate can only be fixed values as it’s limited by hardware. Custom settings aren’t supported.\n\nLast Published: Nov 05, 2025\n\n[Previous Topic\nEnable basic RPLIDAR handling with](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/"
+    },
+    {
+      "claim": "QMMF会话状态与buffer归还是消费者生命周期契约",
+      "source_id": "QC_IMSDK_QMMF_MD",
+      "location": "GStreamer states and buffers",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "qtiqmmfsrc指定caps／目标相机",
+      "finding": "caps上限不代表全部SKU同时达标，未完成推理不能提前归还buffer",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtiqmmfsrc.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_IMSDK_QMMF_MD--51a36f5ba117e6b1/content.md",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:28:55.827703+00:00",
+      "exact_excerpt": "Array of GValues of type \"gint\"</li><br><br>                                </ul> |\n| 'video\\_%u' | extra-buffers | Number of extra buffers that are allocated.<ul class=\"ul\" id=\"qtiqmmfsrc__ul_ghj_1ym_myb\"><br>                                    <li class=\"li\">flags: readable, writable, changeable only in NULL or READY<br>                             "
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_IQ10_RRD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_IMSDK_QMMF_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_IMSDK_Converter_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QIR_Camera_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QIR_Sample_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QIR_Orbbec_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QIR_Lidar_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QIR_APIs_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QIR_IMU_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    }
+  ],
+  "manual_review": {
+    "coverage": "依据对应dimensions条目核查；未取得的信息分项记录，不以理论兼容替代交付",
+    "versions_and_measurements": "核对原件中的版本和数字，未实施实机或模型测量",
+    "maturity_and_licenses": "区分计划、演示与交付；代码、权重、固件和本体分层核查",
+    "figures_opened": "实际打开本文图；图源和结论限制见正文"
+  },
+  "final_figure_trace": [
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_QIR_Orbbec.png",
+      "sha256": "4fd3c957006ccc52a35a468cf5cf4e7d9e3fe7a91ae2c181a492489d47f41bc8",
+      "source_id": "QC_QIR_Orbbec_MD",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/orbbec-camera_5_2_8.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_QIR_Orbbec_MD--0b8df5b0e3f41df5/content.md",
+      "original_sha256": "9b31bf458922129d732255f56800ef366124cb2be8354503a1ff7886793b4b09",
+      "operation": "从官方Markdown节点图内嵌base64 PNG解码，完整原图；保留USB设备、Wrapper、六类topic及图例；已实际打开核验"
+    }
+  ]
+}

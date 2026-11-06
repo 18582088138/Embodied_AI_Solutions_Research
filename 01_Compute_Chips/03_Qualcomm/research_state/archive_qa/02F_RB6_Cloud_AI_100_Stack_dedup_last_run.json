@@ -1,0 +1,20 @@
+{
+  "time_utc": "2026-11-04T16:44:38.460378+00:00",
+  "summary": {
+    "complete_static": 0,
+    "partial_static": 6,
+    "failed": 0
+  },
+  "names": [
+    "TC_RB6",
+    "QC_CloudAI_Prerequisites",
+    "QC_CloudAI_Installation",
+    "QC_CloudAI_Quickstart",
+    "QC_CloudAI_Compiler",
+    "QC_CloudAI_Runtime"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

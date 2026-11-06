@@ -1,0 +1,58 @@
+[
+  {
+    "name": "QC_QNN_API_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/api_overview.md",
+    "expected": "any",
+    "used_by": [
+      "02B_QNN_SNPE_Compilation_and_Runtime"
+    ]
+  },
+  {
+    "name": "QC_QNN_HTP_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/htp_backend.md",
+    "expected": "any",
+    "used_by": [
+      "02B_QNN_SNPE_Compilation_and_Runtime"
+    ]
+  },
+  {
+    "name": "QC_QNN_Tools_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/general_tools.md",
+    "expected": "any",
+    "used_by": [
+      "02B_QNN_SNPE_Compilation_and_Runtime"
+    ]
+  },
+  {
+    "name": "QC_QNN_Overview_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/QNN_general_overview.md",
+    "expected": "any",
+    "used_by": [
+      "02B_QNN_SNPE_Compilation_and_Runtime"
+    ]
+  },
+  {
+    "name": "QC_SNPE_Overview_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/SNPE_general_overview.md",
+    "expected": "any",
+    "used_by": [
+      "02B_QNN_SNPE_Compilation_and_Runtime"
+    ]
+  },
+  {
+    "name": "QC_SNPE_API_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/SNPE_general_api.md",
+    "expected": "any",
+    "used_by": [
+      "02B_QNN_SNPE_Compilation_and_Runtime"
+    ]
+  },
+  {
+    "name": "QC_SNPE_Tools_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/SNPE_general_tools.md",
+    "expected": "any",
+    "used_by": [
+      "02B_QNN_SNPE_Compilation_and_Runtime"
+    ]
+  }
+]

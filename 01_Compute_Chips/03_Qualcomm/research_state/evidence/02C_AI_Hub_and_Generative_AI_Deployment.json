@@ -1,0 +1,63 @@
+{
+  "source_ids": [
+    "QC_AIHub_Models_Repo",
+    "QC_Genie_Introduction_MD",
+    "QC_Genie_Use_MD",
+    "QC_Genie_Dialog_Config_MD",
+    "QC_Genie_Engine_Config_MD",
+    "QC_Genie_Library_Example_MD",
+    "QC_Genie_Profile_Config_MD",
+    "QC_QNN_HTP_MD"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_QNN_native_KV.webp",
+      "sha256": "b595be8901f80c8b88bc5f6d7c078827b45322a3c7353f71de7fb0e2ac46a552",
+      "source_id": "QC_QNN_HTP_MD",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/htp_backend.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_QNN_HTP_MD--6979e07b66066d46/content.md",
+      "original_sha256": "b07b1e7e0a02f2ddad45f1147c5a62976b53c419be6165c12ea5b7eccea9630e",
+      "operation": "从MD nativekv_graph_pattern.png对应base64原样解码；实际WebP，无缩放或裁剪；view_image打开"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "本地demo不支持NPU",
+      "source_id": "QC_AIHub_Models_Repo",
+      "location": "Local Inference on CPU / GPU",
+      "evidence_type": "事实",
+      "conditions": "公开文档版本与采集快照；无实机验证",
+      "finding": "与云端on-device分开"
+    },
+    {
+      "claim": "batch必须匹配编译模型",
+      "source_id": "QC_Genie_Dialog_Config_MD",
+      "location": "QnnHtp::batch-size",
+      "evidence_type": "事实",
+      "conditions": "公开文档版本与采集快照；无实机验证",
+      "finding": "不当任意动态shape"
+    },
+    {
+      "claim": "nativeKV限制",
+      "source_id": "QC_QNN_HTP_MD",
+      "location": "LLM native KVcache",
+      "evidence_type": "事实",
+      "conditions": "公开文档版本与采集快照；无实机验证",
+      "finding": "uint8对称、布局一致、v68以下不支持"
+    },
+    {
+      "claim": "教程经QPM授权",
+      "source_id": "QC_Genie_Use_MD",
+      "location": "Part 2",
+      "evidence_type": "事实",
+      "conditions": "公开文档版本与采集快照；无实机验证",
+      "finding": "未下载授权包或接受协议"
+    }
+  ],
+  "manual_review": {
+    "coverage": "Workbench导出/云验证与本机路径、Genie配置/构建、KV机制和交接；云文档归档失败披露",
+    "versions_and_measurements": "未引用跨硬件性能；SDK路径示例与文档版本分开",
+    "maturity_and_licenses": "BSD代码与权重/SDK/服务许可分开，后者未取得",
+    "figures_opened": "QC_QNN_native_KV.webp 已打开，图中字与依赖完整"
+  }
+}

@@ -1,0 +1,992 @@
+{
+  "platform": "Qualcomm",
+  "scope": "Qualcomm 01—09按顺序逐章完成，02必要专题包含在授权内",
+  "data_cutoff": "2026-11-05 Asia/Shanghai",
+  "authorization": "用户：使用embodied-ai-platform-research按01—09顺序逐章调研Qualcomm，先完成01供审阅，通过后继续；2026-11-05用户“继续02”，准予进入02及其必要软件专题；用户追加“继续后面全部内容的调研”，授权完成02后连续03—09，无新增逐章批准门槛",
+  "review_status": "completed_pending_user_review",
+  "user_approved_dimensions": [
+    "01_Hardware_Platform"
+  ],
+  "completed_dimensions": [
+    "01_Hardware_Platform",
+    "02_Software_Stack",
+    "03_Sensor_Integration",
+    "04_AI_Capabilities",
+    "05_Simulation_Environment",
+    "06_Robot_Integration",
+    "07_Ecosystem",
+    "08_Core_Technology_Moat",
+    "09_SWOT_Analysis"
+  ],
+  "current_dimension": null,
+  "next_step": "等待用户审阅02—09及必要专题；按反馈修订，不代填批准",
+  "pending_evidence": [
+    "IQ10最终封装/装配/BOM及载板参考手册",
+    "IQ10完整功率模式、持续功耗和高温降频；各板卡热设计",
+    "逐SKU当前生命周期/PCN/EOL、现货交期与地区含税报价",
+    "IQ10相机20路、RRD12GMSL2、IRB10原型分项的最终拓扑及并发模式",
+    "实时域交互契约、锁步/安全认证附件与WCET",
+    "IQ8VPU命名、RB5Gen2蓝牙/PCIe及VENTUNO页面状态冲突",
+    "目标模型完整policy时延、热稳定与真实任务成功／接管分母",
+    "IRB10精确本体SKU、NEURA Gen4计算BOM、客户在岗与收益分母",
+    "欧盟修订法规全文、具体SKU地区／用途／分类及中国数据规则原文专项",
+    "精确BSP／固件／runtime／权重commit及许可再分发组合"
+  ],
+  "deliverables": {
+    "index": "00_Research_Index.md",
+    "reports": [
+      "01_Hardware_Platform.md",
+      "02_Software_Stack.md",
+      "03_Sensor_Integration.md",
+      "04_AI_Capabilities.md",
+      "05_Simulation_Environment.md",
+      "06_Robot_Integration.md",
+      "07_Ecosystem.md",
+      "08_Core_Technology_Moat.md",
+      "09_SWOT_Analysis.md",
+      "02A_Linux_BSP_and_Execution_Domains.md",
+      "02B_QNN_SNPE_Compilation_and_Runtime.md",
+      "02C_AI_Hub_and_Generative_AI_Deployment.md",
+      "02D_Perception_Multimedia_and_ROS.md",
+      "02E_Robotics_Control_Simulation_and_Operations.md",
+      "02F_RB6_Cloud_AI_100_Stack.md",
+      "08A_Heterogeneous_Compilation.md",
+      "08B_Sensor_Memory_Pipeline.md",
+      "08C_Real_Time_Safety_Domains.md"
+    ],
+    "software_topics_index": "02_Topics_Index.md",
+    "core_topics_index": "08_Topics_Index.md",
+    "final_review": "research_state/final_review.md",
+    "final_audit": "reference_metrial/derived/qa/final_audit.json",
+    "final_dedup": "reference_metrial/derived/qa/final_union_dedup_last_run.json"
+  },
+  "validation": {
+    "structural_check": "pass",
+    "manual_review": "complete; no hardware/model/robot measurement",
+    "effective_sources": 14,
+    "official_figures_opened": 8,
+    "tables": 8,
+    "body_han_chars_including_tables": 8724,
+    "prose_han_chars_excluding_tables_and_links": 6153,
+    "html_text_equal": 7,
+    "other_existing_reports_unchanged": 8,
+    "dedup_network_requests": 0,
+    "archive_limits": "7 PDF complete_static；7网页partial_static缺失依赖已披露；SPA/失败候选排除",
+    "report_sha256": "ddf3c0821762b07dd70894bb204af1779f6d69f4182d2c9129a36c80a2ff945e",
+    "quality_file": "reference_metrial/derived/qa/01_Hardware_Platform_quality.json"
+  },
+  "software_depth_topics": {
+    "planned": [
+      "02A_Linux_BSP_and_Execution_Domains",
+      "02B_QNN_SNPE_Compilation_and_Runtime",
+      "02C_AI_Hub_and_Generative_AI_Deployment",
+      "02D_Perception_Multimedia_and_ROS",
+      "02E_Robotics_Control_Simulation_and_Operations",
+      "02F_RB6_Cloud_AI_100_Stack"
+    ],
+    "completed": [
+      "02A_Linux_BSP_and_Execution_Domains",
+      "02B_QNN_SNPE_Compilation_and_Runtime",
+      "02C_AI_Hub_and_Generative_AI_Deployment",
+      "02D_Perception_Multimedia_and_ROS",
+      "02E_Robotics_Control_Simulation_and_Operations",
+      "02F_RB6_Cloud_AI_100_Stack"
+    ],
+    "current_topic": null,
+    "review_status": "completed_pending_user_review",
+    "checks": {
+      "02A_Linux_BSP_and_Execution_Domains": {
+        "report": "01_Compute_Chips/03_Qualcomm/02A_Linux_BSP_and_Execution_Domains.md",
+        "body_han_chars": 2238,
+        "tables": 2,
+        "sources": 8,
+        "archive_status": {
+          "complete_static": 7,
+          "partial_static": 1
+        },
+        "figures": 1,
+        "file_hash_checks": 82,
+        "html_visible_text_equal": 1,
+        "page_local_dependencies_checked": 73,
+        "report_local_links": 36,
+        "other_reports_unchanged": {
+          "01_Hardware_Platform.md": true,
+          "02_Software_Stack.md": true,
+          "03_Sensor_Integration.md": true,
+          "04_AI_Capabilities.md": true,
+          "05_Simulation_Environment.md": true,
+          "06_Robot_Integration.md": true,
+          "07_Ecosystem.md": true,
+          "08_Proprietary_Technologies.md": true,
+          "09_SWOT_Analysis.md": true
+        },
+        "errors": [],
+        "warnings": [
+          "静态依赖部分缺失: TC_RB5_Kit（报告应披露）"
+        ],
+        "outcome": "pass",
+        "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+      },
+      "02B_QNN_SNPE_Compilation_and_Runtime": {
+        "report": "01_Compute_Chips/03_Qualcomm/02B_QNN_SNPE_Compilation_and_Runtime.md",
+        "body_han_chars": 2616,
+        "tables": 2,
+        "sources": 6,
+        "archive_status": {
+          "complete_static": 6
+        },
+        "figures": 1,
+        "file_hash_checks": 13,
+        "html_visible_text_equal": 0,
+        "page_local_dependencies_checked": 0,
+        "report_local_links": 33,
+        "other_reports_unchanged": {
+          "01_Hardware_Platform.md": true,
+          "02A_Linux_BSP_and_Execution_Domains.md": true,
+          "02_Software_Stack.md": true,
+          "03_Sensor_Integration.md": true,
+          "04_AI_Capabilities.md": true,
+          "05_Simulation_Environment.md": true,
+          "06_Robot_Integration.md": true,
+          "07_Ecosystem.md": true,
+          "08_Proprietary_Technologies.md": true,
+          "09_SWOT_Analysis.md": true
+        },
+        "errors": [],
+        "warnings": [],
+        "outcome": "pass",
+        "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+      },
+      "02C_AI_Hub_and_Generative_AI_Deployment": {
+        "report": "01_Compute_Chips/03_Qualcomm/02C_AI_Hub_and_Generative_AI_Deployment.md",
+        "body_han_chars": 2209,
+        "tables": 2,
+        "sources": 8,
+        "archive_status": {
+          "partial_static": 1,
+          "complete_static": 7
+        },
+        "figures": 1,
+        "file_hash_checks": 200,
+        "html_visible_text_equal": 1,
+        "page_local_dependencies_checked": 230,
+        "report_local_links": 18,
+        "other_reports_unchanged": {
+          "01_Hardware_Platform.md": true,
+          "02A_Linux_BSP_and_Execution_Domains.md": true,
+          "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+          "02_Software_Stack.md": true,
+          "03_Sensor_Integration.md": true,
+          "04_AI_Capabilities.md": true,
+          "05_Simulation_Environment.md": true,
+          "06_Robot_Integration.md": true,
+          "07_Ecosystem.md": true,
+          "08_Proprietary_Technologies.md": true,
+          "09_SWOT_Analysis.md": true
+        },
+        "errors": [],
+        "warnings": [
+          "静态依赖部分缺失: QC_AIHub_Models_Repo（报告应披露）"
+        ],
+        "outcome": "pass",
+        "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+      },
+      "02D_Perception_Multimedia_and_ROS": {
+        "report": "01_Compute_Chips/03_Qualcomm/02D_Perception_Multimedia_and_ROS.md",
+        "body_han_chars": 2028,
+        "tables": 2,
+        "sources": 10,
+        "archive_status": {
+          "complete_static": 10
+        },
+        "figures": 1,
+        "file_hash_checks": 21,
+        "html_visible_text_equal": 0,
+        "page_local_dependencies_checked": 0,
+        "report_local_links": 21,
+        "other_reports_unchanged": {
+          "01_Hardware_Platform.md": true,
+          "02A_Linux_BSP_and_Execution_Domains.md": true,
+          "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+          "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+          "02_Software_Stack.md": true,
+          "03_Sensor_Integration.md": true,
+          "04_AI_Capabilities.md": true,
+          "05_Simulation_Environment.md": true,
+          "06_Robot_Integration.md": true,
+          "07_Ecosystem.md": true,
+          "08_Proprietary_Technologies.md": true,
+          "09_SWOT_Analysis.md": true
+        },
+        "errors": [],
+        "warnings": [],
+        "outcome": "pass",
+        "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+      },
+      "02E_Robotics_Control_Simulation_and_Operations": {
+        "report": "01_Compute_Chips/03_Qualcomm/02E_Robotics_Control_Simulation_and_Operations.md",
+        "body_han_chars": 2095,
+        "tables": 2,
+        "sources": 15,
+        "archive_status": {
+          "complete_static": 15
+        },
+        "figures": 1,
+        "file_hash_checks": 31,
+        "html_visible_text_equal": 0,
+        "page_local_dependencies_checked": 0,
+        "report_local_links": 31,
+        "other_reports_unchanged": {
+          "01_Hardware_Platform.md": true,
+          "02A_Linux_BSP_and_Execution_Domains.md": true,
+          "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+          "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+          "02D_Perception_Multimedia_and_ROS.md": true,
+          "02_Software_Stack.md": true,
+          "03_Sensor_Integration.md": true,
+          "04_AI_Capabilities.md": true,
+          "05_Simulation_Environment.md": true,
+          "06_Robot_Integration.md": true,
+          "07_Ecosystem.md": true,
+          "08_Proprietary_Technologies.md": true,
+          "09_SWOT_Analysis.md": true
+        },
+        "errors": [],
+        "warnings": [],
+        "outcome": "pass",
+        "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+      },
+      "02F_RB6_Cloud_AI_100_Stack": {
+        "report": "01_Compute_Chips/03_Qualcomm/02F_RB6_Cloud_AI_100_Stack.md",
+        "body_han_chars": 1875,
+        "tables": 2,
+        "sources": 6,
+        "archive_status": {
+          "partial_static": 6
+        },
+        "figures": 1,
+        "file_hash_checks": 1519,
+        "html_visible_text_equal": 6,
+        "page_local_dependencies_checked": 1528,
+        "report_local_links": 13,
+        "other_reports_unchanged": {
+          "01_Hardware_Platform.md": true,
+          "02A_Linux_BSP_and_Execution_Domains.md": true,
+          "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+          "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+          "02D_Perception_Multimedia_and_ROS.md": true,
+          "02E_Robotics_Control_Simulation_and_Operations.md": true,
+          "02_Software_Stack.md": true,
+          "03_Sensor_Integration.md": true,
+          "04_AI_Capabilities.md": true,
+          "05_Simulation_Environment.md": true,
+          "06_Robot_Integration.md": true,
+          "07_Ecosystem.md": true,
+          "08_Proprietary_Technologies.md": true,
+          "09_SWOT_Analysis.md": true
+        },
+        "errors": [],
+        "warnings": [
+          "静态依赖部分缺失: TC_RB6（报告应披露）",
+          "静态依赖部分缺失: QC_CloudAI_Prerequisites（报告应披露）",
+          "静态依赖部分缺失: QC_CloudAI_Installation（报告应披露）",
+          "静态依赖部分缺失: QC_CloudAI_Quickstart（报告应披露）",
+          "静态依赖部分缺失: QC_CloudAI_Compiler（报告应披露）",
+          "静态依赖部分缺失: QC_CloudAI_Runtime（报告应披露）"
+        ],
+        "outcome": "pass",
+        "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+      },
+      "02_Software_Stack": {
+        "report": "01_Compute_Chips/03_Qualcomm/02_Software_Stack.md",
+        "body_han_chars": 2148,
+        "tables": 2,
+        "sources": 19,
+        "archive_status": {
+          "complete_static": 17,
+          "partial_static": 2
+        },
+        "figures": 1,
+        "file_hash_checks": 516,
+        "html_visible_text_equal": 2,
+        "page_local_dependencies_checked": 527,
+        "report_local_links": 41,
+        "other_reports_unchanged": {
+          "01_Hardware_Platform.md": true,
+          "03_Sensor_Integration.md": true,
+          "04_AI_Capabilities.md": true,
+          "05_Simulation_Environment.md": true,
+          "06_Robot_Integration.md": true,
+          "07_Ecosystem.md": true,
+          "08_Proprietary_Technologies.md": true,
+          "09_SWOT_Analysis.md": true
+        },
+        "errors": [],
+        "warnings": [
+          "静态依赖部分缺失: QC_AIHub_Models_Repo（报告应披露）",
+          "静态依赖部分缺失: QC_CloudAI_Runtime（报告应披露）"
+        ],
+        "outcome": "pass",
+        "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+      }
+    },
+    "union_materials": 48
+  },
+  "chapter_checks": {
+    "03_Sensor_Integration": {
+      "report": "01_Compute_Chips/03_Qualcomm/03_Sensor_Integration.md",
+      "body_han_chars": 2031,
+      "tables": 2,
+      "sources": 9,
+      "archive_status": {
+        "complete_static": 9
+      },
+      "figures": 1,
+      "file_hash_checks": 19,
+      "html_visible_text_equal": 0,
+      "page_local_dependencies_checked": 0,
+      "report_local_links": 19,
+      "other_reports_unchanged": {
+        "01_Hardware_Platform.md": true,
+        "02A_Linux_BSP_and_Execution_Domains.md": true,
+        "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+        "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+        "02D_Perception_Multimedia_and_ROS.md": true,
+        "02E_Robotics_Control_Simulation_and_Operations.md": true,
+        "02F_RB6_Cloud_AI_100_Stack.md": true,
+        "02_Software_Stack.md": true,
+        "02_Topics_Index.md": true,
+        "04_AI_Capabilities.md": true,
+        "05_Simulation_Environment.md": true,
+        "06_Robot_Integration.md": true,
+        "07_Ecosystem.md": true,
+        "08_Proprietary_Technologies.md": true,
+        "09_SWOT_Analysis.md": true
+      },
+      "errors": [],
+      "warnings": [],
+      "outcome": "pass",
+      "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+    },
+    "04_AI_Capabilities": {
+      "report": "01_Compute_Chips/03_Qualcomm/04_AI_Capabilities.md",
+      "body_han_chars": 2202,
+      "tables": 2,
+      "sources": 15,
+      "archive_status": {
+        "partial_static": 14,
+        "complete_static": 1
+      },
+      "figures": 1,
+      "file_hash_checks": 2089,
+      "html_visible_text_equal": 14,
+      "page_local_dependencies_checked": 2424,
+      "report_local_links": 30,
+      "other_reports_unchanged": {
+        "01_Hardware_Platform.md": true,
+        "02A_Linux_BSP_and_Execution_Domains.md": true,
+        "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+        "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+        "02D_Perception_Multimedia_and_ROS.md": true,
+        "02E_Robotics_Control_Simulation_and_Operations.md": true,
+        "02F_RB6_Cloud_AI_100_Stack.md": true,
+        "02_Software_Stack.md": true,
+        "02_Topics_Index.md": true,
+        "03_Sensor_Integration.md": true,
+        "05_Simulation_Environment.md": true,
+        "06_Robot_Integration.md": true,
+        "07_Ecosystem.md": true,
+        "08_Proprietary_Technologies.md": true,
+        "09_SWOT_Analysis.md": true
+      },
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: QC_AIHub_Models_Repo（报告应披露）",
+        "静态依赖部分缺失: QC_HF_Hand（报告应披露）",
+        "静态依赖部分缺失: HF_QC_Pi05（报告应披露）",
+        "静态依赖部分缺失: HF_OpenVLA（报告应披露）",
+        "静态依赖部分缺失: PI_Openpi_Repo（报告应披露）",
+        "静态依赖部分缺失: QC_Pi05_Demo（报告应披露）",
+        "静态依赖部分缺失: HF_GR00TN15（报告应披露）",
+        "静态依赖部分缺失: QC_GR00T_Recipe（报告应披露）",
+        "静态依赖部分缺失: QC_ACT_Recipe（报告应披露）",
+        "静态依赖部分缺失: QC_Pi05_Recipe（报告应披露）",
+        "静态依赖部分缺失: HF_Qwen25VL（报告应披露）",
+        "静态依赖部分缺失: HF_DepthAnythingV2（报告应披露）",
+        "静态依赖部分缺失: HF_CosmosPredict（报告应披露）",
+        "静态依赖部分缺失: HF_LeRobot_Repo（报告应披露）"
+      ],
+      "outcome": "pass",
+      "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+    },
+    "05_Simulation_Environment": {
+      "report": "01_Compute_Chips/03_Qualcomm/05_Simulation_Environment.md",
+      "body_han_chars": 2089,
+      "tables": 2,
+      "sources": 12,
+      "archive_status": {
+        "partial_static": 6,
+        "complete_static": 6
+      },
+      "figures": 1,
+      "file_hash_checks": 962,
+      "html_visible_text_equal": 7,
+      "page_local_dependencies_checked": 1135,
+      "report_local_links": 26,
+      "other_reports_unchanged": {
+        "01_Hardware_Platform.md": true,
+        "02A_Linux_BSP_and_Execution_Domains.md": true,
+        "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+        "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+        "02D_Perception_Multimedia_and_ROS.md": true,
+        "02E_Robotics_Control_Simulation_and_Operations.md": true,
+        "02F_RB6_Cloud_AI_100_Stack.md": true,
+        "02_Software_Stack.md": true,
+        "02_Topics_Index.md": true,
+        "03_Sensor_Integration.md": true,
+        "04_AI_Capabilities.md": true,
+        "06_Robot_Integration.md": true,
+        "07_Ecosystem.md": true,
+        "08_Proprietary_Technologies.md": true,
+        "09_SWOT_Analysis.md": true
+      },
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: QC_QRB_Simulation_Repo（报告应披露）",
+        "静态依赖部分缺失: MuJoCo_Computation（报告应披露）",
+        "静态依赖部分缺失: HF_LeRobot_Repo（报告应披露）",
+        "静态依赖部分缺失: PI_Openpi_Repo（报告应披露）",
+        "静态依赖部分缺失: QC_Pi05_Demo（报告应披露）",
+        "静态依赖部分缺失: HF_CosmosPredict（报告应披露）"
+      ],
+      "outcome": "pass",
+      "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+    },
+    "06_Robot_Integration": {
+      "report": "01_Compute_Chips/03_Qualcomm/06_Robot_Integration.md",
+      "body_han_chars": 2204,
+      "tables": 2,
+      "sources": 8,
+      "archive_status": {
+        "partial_static": 3,
+        "complete_static": 5
+      },
+      "figures": 1,
+      "file_hash_checks": 608,
+      "html_visible_text_equal": 5,
+      "page_local_dependencies_checked": 1010,
+      "report_local_links": 17,
+      "other_reports_unchanged": {
+        "01_Hardware_Platform.md": true,
+        "02A_Linux_BSP_and_Execution_Domains.md": true,
+        "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+        "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+        "02D_Perception_Multimedia_and_ROS.md": true,
+        "02E_Robotics_Control_Simulation_and_Operations.md": true,
+        "02F_RB6_Cloud_AI_100_Stack.md": true,
+        "02_Software_Stack.md": true,
+        "02_Topics_Index.md": true,
+        "03_Sensor_Integration.md": true,
+        "04_AI_Capabilities.md": true,
+        "05_Simulation_Environment.md": true,
+        "07_Ecosystem.md": true,
+        "08_Proprietary_Technologies.md": true,
+        "09_SWOT_Analysis.md": true
+      },
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: TC_IRB10_Launch（报告应披露）",
+        "静态依赖部分缺失: TC_IRB10_WAIC（报告应披露）",
+        "静态依赖部分缺失: Arduino_Ventuno（报告应披露）"
+      ],
+      "outcome": "pass",
+      "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+    },
+    "07_Ecosystem": {
+      "report": "01_Compute_Chips/03_Qualcomm/07_Ecosystem.md",
+      "body_han_chars": 1987,
+      "tables": 2,
+      "sources": 12,
+      "archive_status": {
+        "partial_static": 8,
+        "complete_static": 4
+      },
+      "figures": 1,
+      "file_hash_checks": 1108,
+      "html_visible_text_equal": 9,
+      "page_local_dependencies_checked": 1488,
+      "report_local_links": 25,
+      "other_reports_unchanged": {
+        "01_Hardware_Platform.md": true,
+        "02A_Linux_BSP_and_Execution_Domains.md": true,
+        "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+        "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+        "02D_Perception_Multimedia_and_ROS.md": true,
+        "02E_Robotics_Control_Simulation_and_Operations.md": true,
+        "02F_RB6_Cloud_AI_100_Stack.md": true,
+        "02_Software_Stack.md": true,
+        "02_Topics_Index.md": true,
+        "03_Sensor_Integration.md": true,
+        "04_AI_Capabilities.md": true,
+        "05_Simulation_Environment.md": true,
+        "06_Robot_Integration.md": true,
+        "08_Proprietary_Technologies.md": true,
+        "09_SWOT_Analysis.md": true
+      },
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: TC_Robotics_Services（报告应披露）",
+        "静态依赖部分缺失: TC_IRB10_Launch（报告应披露）",
+        "静态依赖部分缺失: TC_IRB10_WAIC（报告应披露）",
+        "静态依赖部分缺失: TC_RB5_Kit（报告应披露）",
+        "静态依赖部分缺失: Arduino_Ventuno（报告应披露）",
+        "静态依赖部分缺失: QC_QRB_Simulation_Repo（报告应披露）",
+        "静态依赖部分缺失: QC_AIHub_Models_Repo（报告应披露）",
+        "静态依赖部分缺失: HF_LeRobot_Repo（报告应披露）"
+      ],
+      "outcome": "pass",
+      "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+    },
+    "08A_Heterogeneous_Compilation": {
+      "report": "01_Compute_Chips/03_Qualcomm/08A_Heterogeneous_Compilation.md",
+      "body_han_chars": 1995,
+      "tables": 1,
+      "sources": 6,
+      "archive_status": {
+        "complete_static": 6
+      },
+      "figures": 1,
+      "file_hash_checks": 77,
+      "html_visible_text_equal": 2,
+      "page_local_dependencies_checked": 73,
+      "report_local_links": 16,
+      "other_reports_unchanged": {
+        "01_Hardware_Platform.md": true,
+        "02A_Linux_BSP_and_Execution_Domains.md": true,
+        "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+        "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+        "02D_Perception_Multimedia_and_ROS.md": true,
+        "02E_Robotics_Control_Simulation_and_Operations.md": true,
+        "02F_RB6_Cloud_AI_100_Stack.md": true,
+        "02_Software_Stack.md": true,
+        "02_Topics_Index.md": true,
+        "03_Sensor_Integration.md": true,
+        "04_AI_Capabilities.md": true,
+        "05_Simulation_Environment.md": true,
+        "06_Robot_Integration.md": true,
+        "07_Ecosystem.md": true,
+        "08_Proprietary_Technologies.md": true,
+        "09_SWOT_Analysis.md": true
+      },
+      "errors": [],
+      "warnings": [],
+      "outcome": "pass",
+      "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+    },
+    "08B_Sensor_Memory_Pipeline": {
+      "report": "01_Compute_Chips/03_Qualcomm/08B_Sensor_Memory_Pipeline.md",
+      "body_han_chars": 2073,
+      "tables": 1,
+      "sources": 8,
+      "archive_status": {
+        "complete_static": 7,
+        "partial_static": 1
+      },
+      "figures": 1,
+      "file_hash_checks": 212,
+      "html_visible_text_equal": 2,
+      "page_local_dependencies_checked": 243,
+      "report_local_links": 17,
+      "other_reports_unchanged": {
+        "01_Hardware_Platform.md": true,
+        "02A_Linux_BSP_and_Execution_Domains.md": true,
+        "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+        "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+        "02D_Perception_Multimedia_and_ROS.md": true,
+        "02E_Robotics_Control_Simulation_and_Operations.md": true,
+        "02F_RB6_Cloud_AI_100_Stack.md": true,
+        "02_Software_Stack.md": true,
+        "02_Topics_Index.md": true,
+        "03_Sensor_Integration.md": true,
+        "04_AI_Capabilities.md": true,
+        "05_Simulation_Environment.md": true,
+        "06_Robot_Integration.md": true,
+        "07_Ecosystem.md": true,
+        "08A_Heterogeneous_Compilation.md": true,
+        "08_Proprietary_Technologies.md": true,
+        "09_SWOT_Analysis.md": true
+      },
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: NV_NITROS_Repo（报告应披露）"
+      ],
+      "outcome": "pass",
+      "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+    },
+    "08C_Real_Time_Safety_Domains": {
+      "report": "01_Compute_Chips/03_Qualcomm/08C_Real_Time_Safety_Domains.md",
+      "body_han_chars": 2009,
+      "tables": 1,
+      "sources": 11,
+      "archive_status": {
+        "complete_static": 9,
+        "partial_static": 2
+      },
+      "figures": 1,
+      "file_hash_checks": 366,
+      "html_visible_text_equal": 5,
+      "page_local_dependencies_checked": 421,
+      "report_local_links": 24,
+      "other_reports_unchanged": {
+        "01_Hardware_Platform.md": true,
+        "02A_Linux_BSP_and_Execution_Domains.md": true,
+        "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+        "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+        "02D_Perception_Multimedia_and_ROS.md": true,
+        "02E_Robotics_Control_Simulation_and_Operations.md": true,
+        "02F_RB6_Cloud_AI_100_Stack.md": true,
+        "02_Software_Stack.md": true,
+        "02_Topics_Index.md": true,
+        "03_Sensor_Integration.md": true,
+        "04_AI_Capabilities.md": true,
+        "05_Simulation_Environment.md": true,
+        "06_Robot_Integration.md": true,
+        "07_Ecosystem.md": true,
+        "08A_Heterogeneous_Compilation.md": true,
+        "08B_Sensor_Memory_Pipeline.md": true,
+        "08_Proprietary_Technologies.md": true,
+        "09_SWOT_Analysis.md": true
+      },
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: Arduino_Ventuno（报告应披露）",
+        "静态依赖部分缺失: QC_Gunyah_Repo（报告应披露）"
+      ],
+      "outcome": "pass",
+      "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+    },
+    "08_Core_Technology_Moat": {
+      "report": "01_Compute_Chips/03_Qualcomm/08_Core_Technology_Moat.md",
+      "body_han_chars": 2013,
+      "tables": 2,
+      "sources": 15,
+      "archive_status": {
+        "complete_static": 11,
+        "partial_static": 4
+      },
+      "figures": 1,
+      "file_hash_checks": 772,
+      "html_visible_text_equal": 8,
+      "page_local_dependencies_checked": 897,
+      "report_local_links": 31,
+      "other_reports_unchanged": {
+        "01_Hardware_Platform.md": true,
+        "02A_Linux_BSP_and_Execution_Domains.md": true,
+        "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+        "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+        "02D_Perception_Multimedia_and_ROS.md": true,
+        "02E_Robotics_Control_Simulation_and_Operations.md": true,
+        "02F_RB6_Cloud_AI_100_Stack.md": true,
+        "02_Software_Stack.md": true,
+        "02_Topics_Index.md": true,
+        "03_Sensor_Integration.md": true,
+        "04_AI_Capabilities.md": true,
+        "05_Simulation_Environment.md": true,
+        "06_Robot_Integration.md": true,
+        "07_Ecosystem.md": true,
+        "08A_Heterogeneous_Compilation.md": true,
+        "08B_Sensor_Memory_Pipeline.md": true,
+        "08C_Real_Time_Safety_Domains.md": true,
+        "08_Proprietary_Technologies.md": true,
+        "09_SWOT_Analysis.md": true
+      },
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: HF_QC_Pi05（报告应披露）",
+        "静态依赖部分缺失: QC_Pi05_Demo（报告应披露）",
+        "静态依赖部分缺失: QC_Gunyah_Repo（报告应披露）",
+        "静态依赖部分缺失: NV_NITROS_Repo（报告应披露）"
+      ],
+      "outcome": "pass",
+      "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+    },
+    "09_SWOT_Analysis": {
+      "report": "01_Compute_Chips/03_Qualcomm/09_SWOT_Analysis.md",
+      "body_han_chars": 2768,
+      "tables": 3,
+      "sources": 16,
+      "archive_status": {
+        "partial_static": 10,
+        "complete_static": 6
+      },
+      "figures": 1,
+      "file_hash_checks": 859,
+      "html_visible_text_equal": 13,
+      "page_local_dependencies_checked": 1265,
+      "report_local_links": 32,
+      "other_reports_unchanged": {
+        "01_Hardware_Platform.md": true,
+        "02A_Linux_BSP_and_Execution_Domains.md": true,
+        "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+        "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+        "02D_Perception_Multimedia_and_ROS.md": true,
+        "02E_Robotics_Control_Simulation_and_Operations.md": true,
+        "02F_RB6_Cloud_AI_100_Stack.md": true,
+        "02_Software_Stack.md": true,
+        "02_Topics_Index.md": true,
+        "03_Sensor_Integration.md": true,
+        "04_AI_Capabilities.md": true,
+        "05_Simulation_Environment.md": true,
+        "06_Robot_Integration.md": true,
+        "07_Ecosystem.md": true,
+        "08A_Heterogeneous_Compilation.md": true,
+        "08B_Sensor_Memory_Pipeline.md": true,
+        "08C_Real_Time_Safety_Domains.md": true,
+        "08_Core_Technology_Moat.md": true,
+        "08_Proprietary_Technologies.md": true,
+        "08_Topics_Index.md": true
+      },
+      "errors": [],
+      "warnings": [
+        "静态依赖部分缺失: IFR_Industrial_2026（报告应披露）",
+        "静态依赖部分缺失: IFR_Service_2026（报告应披露）",
+        "静态依赖部分缺失: TC_IRB10_WAIC（报告应披露）",
+        "静态依赖部分缺失: TC_IRB10_Launch（报告应披露）",
+        "静态依赖部分缺失: TC_RB3Gen2（报告应披露）",
+        "静态依赖部分缺失: TC_RB6（报告应披露）",
+        "静态依赖部分缺失: TC_RB5_Kit（报告应披露）",
+        "静态依赖部分缺失: EC_Machinery（报告应披露）",
+        "静态依赖部分缺失: EC_CRA（报告应披露）",
+        "静态依赖部分缺失: EC_AI_Act（报告应披露）"
+      ],
+      "outcome": "pass",
+      "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+    }
+  },
+  "core_technology_topics": {
+    "planned": [
+      "08A_Heterogeneous_Compilation",
+      "08B_Sensor_Memory_Pipeline",
+      "08C_Real_Time_Safety_Domains"
+    ],
+    "completed": [
+      "08A_Heterogeneous_Compilation",
+      "08B_Sensor_Memory_Pipeline",
+      "08C_Real_Time_Safety_Domains"
+    ],
+    "current_topic": null,
+    "review_status": "completed_pending_user_review",
+    "union_manifest": "toolkit/manifests/Qualcomm_08_union.json",
+    "checks": {
+      "08A_Heterogeneous_Compilation": {
+        "report": "01_Compute_Chips/03_Qualcomm/08A_Heterogeneous_Compilation.md",
+        "body_han_chars": 1995,
+        "tables": 1,
+        "sources": 6,
+        "archive_status": {
+          "complete_static": 6
+        },
+        "figures": 1,
+        "file_hash_checks": 77,
+        "html_visible_text_equal": 2,
+        "page_local_dependencies_checked": 73,
+        "report_local_links": 16,
+        "other_reports_unchanged": {
+          "01_Hardware_Platform.md": true,
+          "02A_Linux_BSP_and_Execution_Domains.md": true,
+          "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+          "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+          "02D_Perception_Multimedia_and_ROS.md": true,
+          "02E_Robotics_Control_Simulation_and_Operations.md": true,
+          "02F_RB6_Cloud_AI_100_Stack.md": true,
+          "02_Software_Stack.md": true,
+          "02_Topics_Index.md": true,
+          "03_Sensor_Integration.md": true,
+          "04_AI_Capabilities.md": true,
+          "05_Simulation_Environment.md": true,
+          "06_Robot_Integration.md": true,
+          "07_Ecosystem.md": true,
+          "08_Proprietary_Technologies.md": true,
+          "09_SWOT_Analysis.md": true
+        },
+        "errors": [],
+        "warnings": [],
+        "outcome": "pass",
+        "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+      },
+      "08B_Sensor_Memory_Pipeline": {
+        "report": "01_Compute_Chips/03_Qualcomm/08B_Sensor_Memory_Pipeline.md",
+        "body_han_chars": 2073,
+        "tables": 1,
+        "sources": 8,
+        "archive_status": {
+          "complete_static": 7,
+          "partial_static": 1
+        },
+        "figures": 1,
+        "file_hash_checks": 212,
+        "html_visible_text_equal": 2,
+        "page_local_dependencies_checked": 243,
+        "report_local_links": 17,
+        "other_reports_unchanged": {
+          "01_Hardware_Platform.md": true,
+          "02A_Linux_BSP_and_Execution_Domains.md": true,
+          "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+          "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+          "02D_Perception_Multimedia_and_ROS.md": true,
+          "02E_Robotics_Control_Simulation_and_Operations.md": true,
+          "02F_RB6_Cloud_AI_100_Stack.md": true,
+          "02_Software_Stack.md": true,
+          "02_Topics_Index.md": true,
+          "03_Sensor_Integration.md": true,
+          "04_AI_Capabilities.md": true,
+          "05_Simulation_Environment.md": true,
+          "06_Robot_Integration.md": true,
+          "07_Ecosystem.md": true,
+          "08A_Heterogeneous_Compilation.md": true,
+          "08_Proprietary_Technologies.md": true,
+          "09_SWOT_Analysis.md": true
+        },
+        "errors": [],
+        "warnings": [
+          "静态依赖部分缺失: NV_NITROS_Repo（报告应披露）"
+        ],
+        "outcome": "pass",
+        "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+      },
+      "08C_Real_Time_Safety_Domains": {
+        "report": "01_Compute_Chips/03_Qualcomm/08C_Real_Time_Safety_Domains.md",
+        "body_han_chars": 2009,
+        "tables": 1,
+        "sources": 11,
+        "archive_status": {
+          "complete_static": 9,
+          "partial_static": 2
+        },
+        "figures": 1,
+        "file_hash_checks": 366,
+        "html_visible_text_equal": 5,
+        "page_local_dependencies_checked": 421,
+        "report_local_links": 24,
+        "other_reports_unchanged": {
+          "01_Hardware_Platform.md": true,
+          "02A_Linux_BSP_and_Execution_Domains.md": true,
+          "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+          "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+          "02D_Perception_Multimedia_and_ROS.md": true,
+          "02E_Robotics_Control_Simulation_and_Operations.md": true,
+          "02F_RB6_Cloud_AI_100_Stack.md": true,
+          "02_Software_Stack.md": true,
+          "02_Topics_Index.md": true,
+          "03_Sensor_Integration.md": true,
+          "04_AI_Capabilities.md": true,
+          "05_Simulation_Environment.md": true,
+          "06_Robot_Integration.md": true,
+          "07_Ecosystem.md": true,
+          "08A_Heterogeneous_Compilation.md": true,
+          "08B_Sensor_Memory_Pipeline.md": true,
+          "08_Proprietary_Technologies.md": true,
+          "09_SWOT_Analysis.md": true
+        },
+        "errors": [],
+        "warnings": [
+          "静态依赖部分缺失: Arduino_Ventuno（报告应披露）",
+          "静态依赖部分缺失: QC_Gunyah_Repo（报告应披露）"
+        ],
+        "outcome": "pass",
+        "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+      },
+      "08_Core_Technology_Moat": {
+        "report": "01_Compute_Chips/03_Qualcomm/08_Core_Technology_Moat.md",
+        "body_han_chars": 2013,
+        "tables": 2,
+        "sources": 15,
+        "archive_status": {
+          "complete_static": 11,
+          "partial_static": 4
+        },
+        "figures": 1,
+        "file_hash_checks": 772,
+        "html_visible_text_equal": 8,
+        "page_local_dependencies_checked": 897,
+        "report_local_links": 31,
+        "other_reports_unchanged": {
+          "01_Hardware_Platform.md": true,
+          "02A_Linux_BSP_and_Execution_Domains.md": true,
+          "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+          "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+          "02D_Perception_Multimedia_and_ROS.md": true,
+          "02E_Robotics_Control_Simulation_and_Operations.md": true,
+          "02F_RB6_Cloud_AI_100_Stack.md": true,
+          "02_Software_Stack.md": true,
+          "02_Topics_Index.md": true,
+          "03_Sensor_Integration.md": true,
+          "04_AI_Capabilities.md": true,
+          "05_Simulation_Environment.md": true,
+          "06_Robot_Integration.md": true,
+          "07_Ecosystem.md": true,
+          "08A_Heterogeneous_Compilation.md": true,
+          "08B_Sensor_Memory_Pipeline.md": true,
+          "08C_Real_Time_Safety_Domains.md": true,
+          "08_Proprietary_Technologies.md": true,
+          "09_SWOT_Analysis.md": true
+        },
+        "errors": [],
+        "warnings": [
+          "静态依赖部分缺失: HF_QC_Pi05（报告应披露）",
+          "静态依赖部分缺失: QC_Pi05_Demo（报告应披露）",
+          "静态依赖部分缺失: QC_Gunyah_Repo（报告应披露）",
+          "静态依赖部分缺失: NV_NITROS_Repo（报告应披露）"
+        ],
+        "outcome": "pass",
+        "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+      }
+    }
+  },
+  "final_validation": {
+    "time_utc": "2026-11-04T17:37:24.437809+00:00",
+    "outcome": "pass",
+    "research_reports": 18,
+    "prose_han_excluding_tables_headings_links": {
+      "01_Hardware_Platform": 5905,
+      "02_Software_Stack": 1759,
+      "03_Sensor_Integration": 1679,
+      "04_AI_Capabilities": 1710,
+      "05_Simulation_Environment": 1658,
+      "06_Robot_Integration": 1783,
+      "07_Ecosystem": 1546,
+      "08_Core_Technology_Moat": 1563,
+      "09_SWOT_Analysis": 2058,
+      "02A_Linux_BSP_and_Execution_Domains": 1764,
+      "02B_QNN_SNPE_Compilation_and_Runtime": 2091,
+      "02C_AI_Hub_and_Generative_AI_Deployment": 1846,
+      "02D_Perception_Multimedia_and_ROS": 1732,
+      "02E_Robotics_Control_Simulation_and_Operations": 1742,
+      "02F_RB6_Cloud_AI_100_Stack": 1557,
+      "08A_Heterogeneous_Compilation": 1696,
+      "08B_Sensor_Memory_Pipeline": 1844,
+      "08C_Real_Time_Safety_Domains": 1712
+    },
+    "strict_min_prose_han": 1546,
+    "effective_source_names": 93,
+    "dedup_network_requests": 0,
+    "archive_summary": {
+      "complete_static": 57,
+      "partial_static": 36,
+      "failed": 0
+    },
+    "approved_01_sha256": "ddf3c0821762b07dd70894bb204af1779f6d69f4182d2c9129a36c80a2ff945e",
+    "approved_01_unchanged": true,
+    "index_link_errors": [],
+    "baseline": "01_Compute_Chips/03_Qualcomm/research_state/baselines/final_audit_snapshot.json",
+    "baseline_scope": "最终修改完成后的独立快照；不代替逐章开始基线",
+    "historical_qa_preserved": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/qa/historical_chapter_checks",
+    "amendments": [
+      "07补QLI架构／GA1.6直接引用，旧报告保留为07_Ecosystem_before_final_citation.md",
+      "09总TCO能耗用整机P；ΔP只用于两方案敏感性",
+      "图trace定位到原asset／准确PDF页；关键claim精化",
+      "08A早存基线在07修订前创建，premature旧基线保留；后续已重存并检查，最终用独立审计"
+    ],
+    "limits": "离线结构／归档核验＋人工资料审阅；未自动证明语义正确，未做实机测试"
+  }
+}

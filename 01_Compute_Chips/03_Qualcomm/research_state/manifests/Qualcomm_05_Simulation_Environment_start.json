@@ -1,0 +1,34 @@
+[
+  {
+    "name": "QC_QRB_Simulation_Repo",
+    "url": "https://github.com/qualcomm-qrb-ros/qrb_ros_simulation",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "QC_QIR_SimFollow_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/simulation_followme.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "MuJoCo_Computation",
+    "url": "https://mujoco.readthedocs.io/en/stable/computation/index.html",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "Gazebo_Physics_SDF",
+    "url": "http://sdformat.org/spec?ver=1.12&elem=physics",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  }
+]

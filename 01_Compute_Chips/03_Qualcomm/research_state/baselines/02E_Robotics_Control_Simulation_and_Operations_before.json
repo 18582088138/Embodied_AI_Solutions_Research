@@ -1,0 +1,15 @@
+{
+  "01_Hardware_Platform.md": "ddf3c0821762b07dd70894bb204af1779f6d69f4182d2c9129a36c80a2ff945e",
+  "02A_Linux_BSP_and_Execution_Domains.md": "1c57a9278e17777bc3a804efa2d0ff8d669ef8f7c0bace3c25c9e01a24455c38",
+  "02B_QNN_SNPE_Compilation_and_Runtime.md": "fd00dbcbc5ef5b9643d05535ad95ba7828c7c959d54e990fd367589966baaca3",
+  "02C_AI_Hub_and_Generative_AI_Deployment.md": "01def1e617d824efd005cada987d2f9ac62be65ec5d86c8179be93f5fb39d467",
+  "02D_Perception_Multimedia_and_ROS.md": "e159802017c0b35381e427595a2a0e861ef9ac4ec65f7262434c2ae8a3204e0d",
+  "02_Software_Stack.md": "03b6fa564cda26bbc1e15e9d0552f7b3d710698f4ceb2ed11be0504ec4a539b6",
+  "03_Sensor_Integration.md": "f2fbe35d36697cfc344b29f1f631081794d40164aeab752e09ae11c94a3a3e11",
+  "04_AI_Capabilities.md": "0dec3c9f5cc5131048d34347ae688b5d04099fff647a9df78546951e1ebb811d",
+  "05_Simulation_Environment.md": "565f08cd2ee0b259af823aa676f91846c14ec1c487f05a1443749f67634749a3",
+  "06_Robot_Integration.md": "abc05fbb3b64bcc674d704b6d5d0fb1c96fb583dd31a1a9a319ce79a84e3585a",
+  "07_Ecosystem.md": "4b4d74341dd267cb21fd74067af7a1248b53566d33faf70a3f6734bc7da94e50",
+  "08_Proprietary_Technologies.md": "ea1517efd2644cd8542a0de1433eff59cb25c201597f37b33e65b6b51989a332",
+  "09_SWOT_Analysis.md": "9dccb8ceee17ae9e72064df52046e299f13c151f288249fc820f5dc8f0054947"
+}

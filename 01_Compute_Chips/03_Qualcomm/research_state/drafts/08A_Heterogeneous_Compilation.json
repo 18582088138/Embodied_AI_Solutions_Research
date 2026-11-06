@@ -1,0 +1,151 @@
+{
+  "sources": [
+    "QC_QNN_API_MD",
+    "QC_QNN_Overview_MD",
+    "QC_QNN_HTP_MD",
+    "QC_QNN_Tools_MD",
+    "ORT_QNN_EP",
+    "NV_TensorRT_Architecture"
+  ],
+  "versions": {},
+  "figures": [
+    {
+      "name": "ORT_QNN_MixedPrecision.png",
+      "source_id": "ORT_QNN_EP",
+      "caption": "混合精度区域与QDQ边界",
+      "operation": "从已归档官方原件复制或提取；逐图实际打开核验，见正文图说明"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "WEIGHTS_PACKING Beta压缩存储不保证提速或4bit算术",
+      "source_id": "QC_QNN_HTP_MD",
+      "location": "WEIGHTS_PACKING optimization",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "将4bit范围内8bit权重打包到context",
+      "finding": "存储容量、数值算术和稳态性能必须分测",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/htp_backend.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_QNN_HTP_MD--6979e07b66066d46/content.md",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:13:21.371446+00:00",
+      "exact_excerpt": "nline prepare and qnn-context-binary-generator uses it during offline preparation\n                 \"weights_packing\": {\"type\": \"boolean\"},\n    \n                 // Specifies the number of cores the graph will use for execution [optional] [default: 1]\n                 // Used by qnn-context-binary-generator during offline preparation\n                 \"nu"
+    },
+    {
+      "claim": "weight sharing受V73起、同PD和context数量限制",
+      "source_id": "QC_QNN_HTP_MD",
+      "location": "Weight sharing",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "同SoC／VTCM条件；至多64 graphs/context；旧binary重生",
+      "finding": "不宣称跨SoC通用共享资产",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/htp_backend.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_QNN_HTP_MD--6979e07b66066d46/content.md",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:13:21.371446+00:00",
+      "exact_excerpt": "com/doc/80-63442-10/topic/htp_backend.html#qnn-htp-monolithic-lstm)\n- [Multi-SoC DLC with Reference Weight Sharing](https://docs.qualcomm.com/doc/80-63442-10/topic/htp_backend.html#multi-soc-dlc-with-reference-weight-sharing)\n\n## API Specializations\n\nThis section contains information related to API specialization for the HTP backend. All QNN HTP\nbacken"
+    },
+    {
+      "claim": "EP固定shape限制与底层有限variable batch不同",
+      "source_id": "ORT_QNN_EP",
+      "location": "Model requirements／limitations",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "归档QNN EP版本；Loop／If限制",
+      "finding": "底层能力不自动经EP暴露；禁CPU fallback检查分区",
+      "source_url": "https://onnxruntime.ai/docs/execution-providers/QNN-ExecutionProvider.html",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/ORT_QNN_EP--27112b5d3b433cdd/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T17:12:07.228291+00:00",
+      "exact_excerpt": "EP does not support models with dynamic shapes (e.g., a dynamic batch size). Dynamic shapes must be fixed to a specific value. Refer to the documentation for making dynamic input shapes fixed for more information. Additionally, QNN EP supports a subset of ONNX operators (e.g., Loops and Ifs are not supported). Refer to the list of supported ON"
+    },
+    {
+      "claim": "session创建可生成EP context缓存，无需推理",
+      "source_id": "ORT_QNN_EP",
+      "location": "Generate EP context binary cache",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "ep.context_enable选项和session初始化",
+      "finding": "缓存生成不是模型推理成功证明；SSR需重建session",
+      "source_url": "https://onnxruntime.ai/docs/execution-providers/QNN-ExecutionProvider.html",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/ORT_QNN_EP--27112b5d3b433cdd/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T17:12:07.228291+00:00",
+      "exact_excerpt": "include: session.disable_cpu_ep_fallback: Disables fallback of unsupported operators to the CPU EP. ep.context_enable: Enable QNN context cache feature to dump a cached version of the model in order to decrease session creation time. The above snippet only specifies the backend_path provider option. Refer to the Configuration options section for a list of"
+    },
+    {
+      "claim": "TensorRT plan与timing cache迁移边界分开",
+      "source_id": "NV_TensorRT_Architecture",
+      "location": "Architecture／compatibility",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "页面2026-10-28；导航11.4.1，不套全部Jetson",
+      "finding": "API semver不保证引擎跨硬件可移植；未给同条件加速排名",
+      "source_url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/architecture-overview.html",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/NV_TensorRT_Architectu--d4c513c2460d0b2a/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T17:12:14.327996+00:00",
+      "exact_excerpt": "rning Semantic versioning does not extend to serialized objects by default. To reuse plan files and timing caches, a version compatible engine must be used, otherwise version numbers must match across major, minor, patch, and build versions. Some exceptions exist for the safety runtime as detailed in the NVIDIA DriveOS Developer Guide. Calibration ca"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QNN_API_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QNN_Overview_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QNN_HTP_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QNN_Tools_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "ORT_QNN_EP",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "NV_TensorRT_Architecture",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    }
+  ],
+  "manual_review": {
+    "coverage": "依据对应dimensions条目核查；未取得的信息分项记录，不以理论兼容替代交付",
+    "versions_and_measurements": "核对原件中的版本和数字，未实施实机或模型测量",
+    "maturity_and_licenses": "区分计划、演示与交付；代码、权重、固件和本体分层核查",
+    "figures_opened": "实际打开本文图；图源和结论限制见正文"
+  },
+  "final_figure_trace": [
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/ORT_QNN_MixedPrecision.png",
+      "sha256": "c574b9fd679568f55bfb5a50969674a4b4a791e93099a0fcfcbf0b9ea43452e5",
+      "source_id": "ORT_QNN_EP",
+      "source_url": "https://onnxruntime.ai/images/quantization_mixed_precision_1.png",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/ORT_QNN_EP--27112b5d3b433cdd/assets/images/4dd532d21826764ec5600c69.png",
+      "original_sha256": "c574b9fd679568f55bfb5a50969674a4b4a791e93099a0fcfcbf0b9ea43452e5",
+      "operation": "从该官方网页已归档image asset原样复制；无裁剪或缩放；已实际打开核验"
+    }
+  ]
+}

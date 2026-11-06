@@ -1,0 +1,37 @@
+{
+  "report": "01_Compute_Chips/03_Qualcomm/01_Hardware_Platform.md",
+  "body_han_chars": 8724,
+  "tables": 8,
+  "sources": 14,
+  "archive_status": {
+    "complete_static": 7,
+    "partial_static": 7
+  },
+  "figures": 8,
+  "file_hash_checks": 491,
+  "html_visible_text_equal": 7,
+  "page_local_dependencies_checked": 525,
+  "report_local_links": 121,
+  "other_reports_unchanged": {
+    "02_Software_Stack.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08_Proprietary_Technologies.md": true,
+    "09_SWOT_Analysis.md": true
+  },
+  "errors": [],
+  "warnings": [
+    "静态依赖部分缺失: TC_IRB10_Launch（报告应披露）",
+    "静态依赖部分缺失: TC_IRB10_WAIC（报告应披露）",
+    "静态依赖部分缺失: TC_RB5_Kit（报告应披露）",
+    "静态依赖部分缺失: TC_RB6（报告应披露）",
+    "静态依赖部分缺失: TC_RB5Gen2（报告应披露）",
+    "静态依赖部分缺失: TC_RB3Gen2（报告应披露）",
+    "静态依赖部分缺失: Arduino_Ventuno（报告应披露）"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

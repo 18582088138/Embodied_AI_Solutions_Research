@@ -1,0 +1,51 @@
+# 08C｜实时、安全与多执行域：计算平台能提供哪些保护
+
+机器人同时运行感知、语言策略、日志、网络和电机控制，平均推理速度不足以保证动作及时或故障受控。Qualcomm的多域计算、安全岛、实时子系统及网络接口为分工提供硬件基础，但架构基础、软件可编程性和整机安全认证必须分别核验。本篇以IQ10资料、QLI实际交付边界和通用实时内核机制解释这种优势怎样成立，以及哪些环节仍需本体团队完成。
+
+## 一、不同域解决不同问题
+
+| 域／路线 | 官方可核作用 | 不可直接推导 | 放行证据 |
+|---|---|---|---|
+| IQ10应用计算 | CPU／GPU／NPU，RRD网络及存储 | 策略频率等于伺服频率 | 并发与热稳定实测 |
+| IQ10安全岛 | lockstep、SafeRTOS及planned SIL3 | 已认证整机或确定危险响应 | 安全手册、证书与系统验证 |
+| QLI RTSS | IQ8275／9075 FreeRTOS binary-only、初始化 | 用户可任意部署实时控制任务 | 对应开发包及API交付 |
+| Gunyah | Type1、VM内存与中断隔离 | 自动获得WCET或功能安全 | 资源／设备归属配置与审计 |
+| VENTUNO Q MCU | STM32H5F5＋RPC、Zephyr路线 | 全链低于1ms或零抖动 | MCU／RPC／执行器测量 |
+
+IQ10 brief的18个Oryon与6个MCU-like核心不应全部视为同一种通用Linux CPU；SafeRTOS lockstep及planned SIL3体现安全岛设计目标，材料没有提供已经完成SIL3认证的证明。RRD给主域以太网与SAIL域网络，提供物理和系统分段的可能，但是否真正限制危险动作还取决于端口权限、网络栈、看门狗及执行器响应。@QC_IQ10_Brief@ @QC_IQ10_RRD@
+
+@FIG:QC_IQ10_RRD_p2.png@
+
+官方RRD第二页完整打开核验，图中区分主域／SAIL网络、EtherCAT、native与外部CAN-FD，温度带use case条件。它支持接口与分工描述；没有给总线deadline、控制软件版本、诊断覆盖或危险停车时间，不能作为安全证书。700 TOPS的精度条件须回看brief，不能只引用本页裸数。
+
+QLI架构文档把RTSS描述为独立“system within system”，但当前交付说明明确IQ8275／9075 FreeRTOS仅binary-only，功能限于启动、时钟和外设初始化。这不是“没有实时硬件”，也不是“已经开放实时任务SDK”。相同平台的Arduino外部STM32路线是另一个软硬件组合，不能用它的Zephyr开发能力补齐SoC内部RTSS的开放性。@QC_Linux_Architecture_MD@ @Arduino_Ventuno@
+
+## 二、Gunyah的隔离机制与信任边界
+
+Gunyah公开仓库描述Type1架构，直接使用CPU虚拟化能力；AArch64默认EL2 VHE，Stage2 MMU隔离VM的EL1／EL0地址空间，GIC虚拟化及寄存器trap／emulation处理核心平台设备。线程调度映射VCPU到物理CPU，内存管理追踪所有权，中断路由到所属VM，跨VM通信承担设备半虚拟化。resource manager作为策略引擎是另一个仓库，公开核心并不等于包含所有平台策略。@QC_Gunyah_Repo@
+
+这种设计减少依赖低权限Linux核心的信任基，并允许按权限划分内存及设备，但共享RAM带宽、互连、缓存、DMA、供电和散热仍可能形成干扰。分析：VM隔离应分别检查CPU调度预算、Stage2映射、DMA／IOMMU配置、共享内存授权和中断所有权；不能只以“运行在不同VM”判断故障完全独立。仓库的QEMU参考平台、BSD3-clause代码许可与生产SoC的固件配置也有边界，未取得IQ10生产hypervisor策略及认证包，不宣称公开仓库能直接重建该配置。
+
+## 三、Linux实时调度如何改变延迟
+
+PREEMPT_RT的关键作用是把较长不可抢占路径移到可调度线程，包括forced-threaded IRQ和sleeping spinlock，让更高优先级线程更快运行。通用Linux文档说明raw_spinlock_t仍保留不可抢占／关中断语义；IRQF_NO_THREAD、PERCPU等路径有例外，不能概括为所有中断完全可抢占。spinlock_t在RT下不再隐含关抢占，用旧驱动的per-CPU保护假设可能不正确。@Linux_PREEMPT_RT@
+
+文档还解释高优先级线程自旋等待被它抢占的timer callback可能形成livelock，需要有优先级继承的握手；临界区内内存分配也涉及sleeping lock约束。因而打开一个内核配置不等于应用天然硬实时。该页面采集时为Linux7.4.0-rc1文档，机制解释可参考，准确接口与QLI6.6分支必须逐项核对；本文未确认目标生产镜像已启用PREEMPT_RT，也未测调度WCET。
+
+工程验证建议预分配控制buffer、固定线程及IRQ亲和性、检查优先级反转，并分别测周期唤醒抖动和完整命令链时延。单独cyclictest的尾部数据只描述测试条件下调度，不是网络、策略、RPC与电机动作的最坏时间。相机／编码、模型切换、日志写盘和无线活动均应进入并发负载；实时线程占用CPU越多，也可能使低优先级故障报告和恢复服务饥饿。
+
+## 四、安全启动、更新与运行安全
+
+QLI安全部分介绍TrustZone、TEE5.3、secure boot、QFPROM、secure storage与secure debugging。启动从secure ROM初始化并认证系统／子系统镜像，Gunyah提供另一层隔离。这些机制保护镜像来源、秘密和权限，不证明策略语义正确或机器人能安全停车。secure boot也不自动意味着现场已烧入生产密钥；密钥生命周期、撤销、调试锁定、更新授权和恢复模式权限均需正式交付。本文不实施熔丝、刷机或密钥操作。@QC_Linux_Architecture_MD@
+
+OSTree从QLI GA1.3支持，1.3→1.4迁移需要预先program partition layout，1.4→1.5条件不同。QLI1.6发行说明又明确不支持GA1.6 HLOS与旧NonHLOS组合，工厂刷写推荐匹配成套。因此容器更新、应用更新、内核／rootfs、DSP固件、MCU与模型不是一个可自由替换的版本层。启动签名正确仍可能发生新旧组件协议失配，回退也要恢复一组兼容资产。@QC_Linux_Release_1_6_MD@
+
+QIR SDK升级页给特定IM SDK与Neural Processing SDK2.38.0.250901测试组合，不能因为通用QNN API为2.39或AI Hub模型卡为2.50，就认为将最新包替换进去必然稳定。SDK升级还需要重编和版本确认；页面git checkout -b的写法创建分支，版本冻结必须进一步核HEAD，不能只相信分支名。@QC_QIR_Upgrade_MD@
+
+## 五、失效处理与同类机制比较
+
+HTP支持SSR连接恢复，ORT QNN EP在SSR时要求应用重建session；底层恢复计算服务不意味着机器人动作可以原样继续。应把模型结果和命令带上序号、源时间和有效期，断流时控制器主动处理过期；重新启动后先恢复标定、状态估计和当前任务，再按本体安全要求决定是否重启。上层超时、通信bus-off、MCU失联、内存损坏和供电跌落的处理权限需要覆盖到执行器。@QC_QNN_HTP_MD@ @ORT_QNN_EP@
+
+对标时，外部MCU、片内实时域、VM隔离和GPU资源分割解决的痛点不完全相同。VENTUNO Q的外部STM32便于独立部署控制逻辑，但增加RPC与板间故障契约；IQ10安全岛降低分立组件集成机会，却要核内部接口和认证范围。TensorRT官方架构文档区分MIG计算／内存切片与green contexts计算资源限制，后者不提供内存分割或严格隔离；这些机制不是机器人功能安全。不能将服务器GPU资源隔离外推到任意Jetson，亦不能用“独立域”比较安全等级。@NV_TensorRT_Architecture@
+
+正式选型应提交故障树、资源归属、安全停止链和兼容更新矩阵，验证计算故障不会使旧轨迹持续执行。只有在准确SKU、镜像、负载、温度、总线和本体组合下测量并审查安全资产后，才能把多域设计转成系统收益。本文未取得IQ10安全手册全文、危险响应WCET与客户认证范围；这一缺口限定了结论，不能用峰值算力或自然语言交互演示填补。

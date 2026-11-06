@@ -1,0 +1,152 @@
+[
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/QC_IQ10_Brief_p2--411dd4f9b92a.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IQ10_Brief_p2.png",
+    "sha256": "411dd4f9b92a6cd186f4a064cbe14fb52467eae8da9c0aa8ce28c69926894368"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/QC_IQ10_RRD_p2--28b80f5f75ed.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IQ10_RRD_p2.png",
+    "sha256": "28b80f5f75ed40698010c39231b7b5112dbd0a43971fe1e8a98fe6d0140ef916"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/QC_IQ9_Brief_p1--75657e54f93a.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IQ9_Brief_p1.png",
+    "sha256": "75657e54f93a29ecaf4a0016c65fd93fa5f018d2d28120245e35796ee81abf8c"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/QC_IQ9_Brief_p2--f520e3e88c2c.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IQ9_Brief_p2.png",
+    "sha256": "f520e3e88c2cbb714c698266de91931ece5b65ac00155235597769d009b5da0a"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/QC_IQ9075_Module_p1--b04c7ede366a.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IQ9075_Module_p1.png",
+    "sha256": "b04c7ede366a67e281a927b2bee2eb538396a8f77e51894807564398709fe717"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/QC_IQ8_Brief_p2--c9066d7826e2.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IQ8_Brief_p2.png",
+    "sha256": "c9066d7826e2e0f93ef7b6b9fe8d60b3ae1a1967272b22faefc6fc00c216ab95"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/QC_Selector_p5--4f14aacdb3fe.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_Selector_p5.png",
+    "sha256": "4f14aacdb3fe9dbe5a944798219ae7832cfd710d9962706335b3c1bdd6cd3249"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/TC_RB5Gen2_Block--0ad008a2210d.jpg",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/TC_RB5Gen2_Block.jpg",
+    "sha256": "0ad008a2210db4f79d3810e16dd25753c72fea3a45379b75fa1b67cff30fcdf5"
+  },
+  {
+    "report": "02A_Linux_BSP_and_Execution_Domains.md",
+    "figure": "assets/figures/QC_Linux_Custom_architecture--1eed9bf5a94d.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_Linux_Custom_architecture.png",
+    "sha256": "1eed9bf5a94daa72f6ab44b69de1aefa71b71389a16dcd01edea121589bd5308"
+  },
+  {
+    "report": "02B_QNN_SNPE_Compilation_and_Runtime.md",
+    "figure": "assets/figures/QC_QNN_API_embedded_2--e84d6d729617.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_QNN_API_embedded_2.png",
+    "sha256": "e84d6d7296172d7e41a5fb605ad050de99db916630173dbf65667379bdcea021"
+  },
+  {
+    "report": "02C_AI_Hub_and_Generative_AI_Deployment.md",
+    "figure": "assets/figures/QC_QNN_native_KV--b595be8901f8.webp",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_QNN_native_KV.webp",
+    "sha256": "b595be8901f80c8b88bc5f6d7c078827b45322a3c7353f71de7fb0e2ac46a552"
+  },
+  {
+    "report": "02D_Perception_Multimedia_and_ROS.md",
+    "figure": "assets/figures/QC_IMSDK_Metadata--6976656e7b5e.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IMSDK_Metadata.png",
+    "sha256": "6976656e7b5e45a6bf4d3becb488ea8556aa389b8cfc893fe7b5f3106983d726"
+  },
+  {
+    "report": "02E_Robotics_Control_Simulation_and_Operations.md",
+    "figure": "assets/figures/QC_QIR_Pickplace--e9d2017f63a8.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_QIR_Pickplace.png",
+    "sha256": "e9d2017f63a8aec72f3d166058c09fe9d2ee9e12fe3eb991a3fcd686c345cbc0"
+  },
+  {
+    "report": "02F_RB6_Cloud_AI_100_Stack.md",
+    "figure": "assets/figures/QC_CloudAI_InferenceSet--99ccfdbe60d4.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_CloudAI_InferenceSet.png",
+    "sha256": "99ccfdbe60d4eb4ff6e70faf9c41fe5ebc1e680b9ab236ac08eca5b3f7a663c2"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/QC_IMSDK_Metadata--6976656e7b5e.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IMSDK_Metadata.png",
+    "sha256": "6976656e7b5e45a6bf4d3becb488ea8556aa389b8cfc893fe7b5f3106983d726"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/QC_QIR_Orbbec--4fd3c957006c.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_QIR_Orbbec.png",
+    "sha256": "4fd3c957006ccc52a35a468cf5cf4e7d9e3fe7a91ae2c181a492489d47f41bc8"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/DepthAnything_Overview--90c5300935f6.jpg",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/DepthAnything_Overview.jpg",
+    "sha256": "90c5300935f6082156884421f663f3190330281b0be6bd7cc78c9e2475a77f85"
+  },
+  {
+    "report": "05_Simulation_Environment.md",
+    "figure": "assets/figures/QC_QIR_Pickplace--e9d2017f63a8.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_QIR_Pickplace.png",
+    "sha256": "e9d2017f63a8aec72f3d166058c09fe9d2ee9e12fe3eb991a3fcd686c345cbc0"
+  },
+  {
+    "report": "06_Robot_Integration.md",
+    "figure": "assets/figures/NEURA_Qualcomm_Collaboration--713eff71251c.jpg",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/NEURA_Qualcomm_Collaboration.jpg",
+    "sha256": "713eff71251c5a5fab57a5ff6080c3cf55a68bb922394bbe01b9f59f293fdd7c"
+  },
+  {
+    "report": "07_Ecosystem.md",
+    "figure": "assets/figures/QC_QIR_Orbbec--4fd3c957006c.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_QIR_Orbbec.png",
+    "sha256": "4fd3c957006ccc52a35a468cf5cf4e7d9e3fe7a91ae2c181a492489d47f41bc8"
+  },
+  {
+    "report": "08A_Heterogeneous_Compilation.md",
+    "figure": "assets/figures/ORT_QNN_MixedPrecision--c574b9fd6795.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/ORT_QNN_MixedPrecision.png",
+    "sha256": "c574b9fd679568f55bfb5a50969674a4b4a791e93099a0fcfcbf0b9ea43452e5"
+  },
+  {
+    "report": "08B_Sensor_Memory_Pipeline.md",
+    "figure": "assets/figures/QC_IMSDK_Metadata--6976656e7b5e.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IMSDK_Metadata.png",
+    "sha256": "6976656e7b5e45a6bf4d3becb488ea8556aa389b8cfc893fe7b5f3106983d726"
+  },
+  {
+    "report": "08C_Real_Time_Safety_Domains.md",
+    "figure": "assets/figures/QC_IQ10_RRD_p2--28b80f5f75ed.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IQ10_RRD_p2.png",
+    "sha256": "28b80f5f75ed40698010c39231b7b5112dbd0a43971fe1e8a98fe6d0140ef916"
+  },
+  {
+    "report": "08_Core_Technology_Moat.md",
+    "figure": "assets/figures/QC_IMSDK_Metadata--6976656e7b5e.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IMSDK_Metadata.png",
+    "sha256": "6976656e7b5e45a6bf4d3becb488ea8556aa389b8cfc893fe7b5f3106983d726"
+  },
+  {
+    "report": "09_SWOT_Analysis.md",
+    "figure": "assets/figures/IFR_Industrial_Installations_2026--2eb666011de5.png",
+    "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/IFR_Industrial_Installations_2026.png",
+    "sha256": "2eb666011de5f7f361f255ea075ad17f6acb4f65ebe2f02f40bad855624a6cb0"
+  }
+]

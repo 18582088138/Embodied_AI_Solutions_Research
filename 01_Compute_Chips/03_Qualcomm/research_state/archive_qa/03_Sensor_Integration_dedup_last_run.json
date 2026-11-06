@@ -1,0 +1,23 @@
+{
+  "time_utc": "2026-11-04T16:49:36.941938+00:00",
+  "summary": {
+    "complete_static": 9,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "QC_IQ10_RRD",
+    "QC_IMSDK_QMMF_MD",
+    "QC_IMSDK_Converter_MD",
+    "QC_QIR_Camera_MD",
+    "QC_QIR_Sample_MD",
+    "QC_QIR_Orbbec_MD",
+    "QC_QIR_Lidar_MD",
+    "QC_QIR_APIs_MD",
+    "QC_QIR_IMU_MD"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

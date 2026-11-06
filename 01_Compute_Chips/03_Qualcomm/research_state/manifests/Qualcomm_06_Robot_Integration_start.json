@@ -1,0 +1,18 @@
+[
+  {
+    "name": "QC_CES2026_Robotics",
+    "url": "https://www.qualcomm.com/news/releases/2026/01/qualcomm-introduces-a-full-suite-of-robotics-technologies-power",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NEURA_Qualcomm_Collaboration",
+    "url": "https://neura-robotics.com/neura-qualcomm-collaboration/",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  }
+]

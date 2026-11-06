@@ -1,0 +1,22 @@
+{
+  "time_utc": "2026-11-04T16:27:40.267669+00:00",
+  "summary": {
+    "complete_static": 7,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "QC_AIHub_Models_Repo",
+    "QC_Genie_Introduction_MD",
+    "QC_Genie_Use_MD",
+    "QC_Genie_Dialog_Config_MD",
+    "QC_Genie_Engine_Config_MD",
+    "QC_Genie_Library_Example_MD",
+    "QC_Genie_Profile_Config_MD",
+    "QC_QNN_HTP_MD"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

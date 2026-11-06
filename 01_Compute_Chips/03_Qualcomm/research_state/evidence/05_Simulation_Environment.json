@@ -1,0 +1,171 @@
+{
+  "source_ids": [
+    "QC_QRB_Simulation_Repo",
+    "QC_QIR_Sample_MD",
+    "QC_QIR_Pickplace_Simulation_MD",
+    "QC_QIR_AMR_Simulation_MD",
+    "QC_QIR_SimFollow_MD",
+    "Gazebo_Physics_SDF",
+    "MuJoCo_Computation",
+    "HF_LeRobot_Repo",
+    "PI_Openpi_Repo",
+    "QC_Pi05_Demo",
+    "HF_CosmosPredict",
+    "QC_QIR_Quickstart_MD"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_QIR_Pickplace.png",
+      "sha256": "e9d2017f63a8aec72f3d166058c09fe9d2ee9e12fe3eb991a3fcd686c345cbc0",
+      "source_id": "QC_QIR_Pickplace_Simulation_MD",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/simulation_sample_pick_and_place.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_QIR_Pickplace_Simulatio--874c72ebd299c85f/content.md",
+      "original_sha256": "7c9af245c1411fe1cfbfd46f040570b01abd4faa721a82093afb4d4354285f67",
+      "operation": "原MD管线SVG，恢复viewBox/foreignObject大小写，1200px等比本地浏览器渲染，截图1200x617，完整图与图例"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "launch_config_file的YAML优先于命令行",
+      "source_id": "QC_QRB_Simulation_Repo",
+      "location": "Launch configuration priority",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "main README归档快照",
+      "finding": "保存最终生效参数、Fuel和mesh资产；仓库页面不等于完整场景包",
+      "source_url": "https://github.com/qualcomm-qrb-ros/qrb_ros_simulation",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/QC_QRB_Simulation_Repo--1c10ea4d28a57d3c/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:55:16.593184+00:00",
+      "exact_excerpt": " Action interface for joint trajectory control 🔹 ROS parameters Name Type Description Default Value launch_config_file string Path to a YAML configuration file. Parameters defined in this file have HIGHEST PRIORITY and will override the command-line and default values '' world_model string Name of the Gazebo world model to load (without .sdf extension) 'wa"
+    },
+    {
+      "claim": "git checkout -b创建分支，不能保证检出所写commit",
+      "source_id": "QC_QIR_Quickstart_MD",
+      "location": "Host setup git command",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "文档40位60f46e264429297eb1dcf9b757efaa735ac545a0",
+      "finding": "需另验HEAD；本文没有运行容器",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/quick_start.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_QIR_Quickstart_MD--991ac1f951fbb2aa/content.md",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:32:29.453347+00:00",
+      "exact_excerpt": "://github.com/qualcomm-qrb-ros/qrb_ros_simulation.git\n>         cd qrb_ros_simulation\n>         git checkout -b 60f46e264429297eb1dcf9b757efaa735ac545a0\n>         Copy to clipboard\n2. Build the local docker image.\n\n> \n> \n> chmod +x scripts/docker_build.sh\n>         bash ./scripts/docker_build.sh\n>         Copy to clipboard\n> \n> \n> Note\n> \n> \n> If yo"
+    },
+    {
+      "claim": "mj_step1／2不支持Runge Kutta分步",
+      "source_id": "MuJoCo_Computation",
+      "location": "Simulation／split step",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "MuJoCo stable计算文档；非Qualcomm移植验收",
+      "finding": "物理步长、积分器和控制插入位置均需固定",
+      "source_url": "https://mujoco.readthedocs.io/en/stable/computation/index.html",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/MuJoCo_Computation--50bc861c2b70fd1e/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:55:31.794557+00:00",
+      "exact_excerpt": "our numerical integrators are available, three single-step integrators and the multi-step 4th order Runge-Kutta integrator. Before describing the integrators, we begin with a general description of single-step Euler integrators: explicit, semi-implicit and implicit-in-velocity. The explicit Euler method is not supported by MuJoCo but has pedagogical"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QRB_Simulation_Repo",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QIR_Sample_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QIR_Pickplace_Simulation_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QIR_AMR_Simulation_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QIR_SimFollow_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "Gazebo_Physics_SDF",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "MuJoCo_Computation",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "HF_LeRobot_Repo",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "PI_Openpi_Repo",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_Pi05_Demo",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露",
+      "exact_excerpt": "assert args.eval_mode == EvalMode.FP model_kwargs = get_model_kwargs(Model, vars(args)) model = Model.from_pretrained(**model_kwargs) # Always use CPU and load policy from the HF model id. device = \"cpu\" torch.manual_seed(1234) policy = PI05Policy.from_pretrained(HF_MODEL_ID).to(device).eval() batch, postprocessor, dataset = load_one_batch( dataset_repo_id=DATASET_REPO_ID, pi05_config=policy.config, batch_size=1, dev"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "HF_CosmosPredict",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QIR_Quickstart_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    }
+  ],
+  "manual_review": {
+    "coverage": "依据对应dimensions条目核查；未取得的信息分项记录，不以理论兼容替代交付",
+    "versions_and_measurements": "核对原件中的版本和数字，未实施实机或模型测量",
+    "maturity_and_licenses": "区分计划、演示与交付；代码、权重、固件和本体分层核查",
+    "figures_opened": "实际打开本文图；图源和结论限制见正文"
+  }
+}

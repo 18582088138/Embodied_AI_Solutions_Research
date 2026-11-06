@@ -1,0 +1,25 @@
+{
+  "time_utc": "2026-11-04T17:20:13.288065+00:00",
+  "summary": {
+    "complete_static": 9,
+    "partial_static": 2,
+    "failed": 0
+  },
+  "names": [
+    "QC_IQ10_Brief",
+    "QC_IQ10_RRD",
+    "QC_Linux_Architecture_MD",
+    "Arduino_Ventuno",
+    "QC_Gunyah_Repo",
+    "Linux_PREEMPT_RT",
+    "QC_Linux_Release_1_6_MD",
+    "QC_QIR_Upgrade_MD",
+    "QC_QNN_HTP_MD",
+    "ORT_QNN_EP",
+    "NV_TensorRT_Architecture"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "QC_Pi05_Demo",
+    "url": "https://github.com/qualcomm/ai-hub-models/blob/main/src/qai_hub_models/models/pi05/demo.py",
+    "expected": "any",
+    "used_by": [
+      "04_Model_Implementation"
+    ]
+  },
+  {
+    "name": "HF_GR00TN15",
+    "url": "https://huggingface.co/nvidia/GR00T-N1.5-3B",
+    "expected": "any",
+    "used_by": [
+      "04_Model_Implementation"
+    ]
+  },
+  {
+    "name": "HF_QC_Pi05",
+    "url": "https://huggingface.co/qualcomm/Pi0.5",
+    "expected": "any",
+    "used_by": [
+      "04_Model_Implementation"
+    ]
+  }
+]

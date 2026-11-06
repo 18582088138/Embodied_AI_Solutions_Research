@@ -1,0 +1,30 @@
+{
+  "time_utc": "2026-11-04T17:28:16.100408+00:00",
+  "summary": {
+    "complete_static": 6,
+    "partial_static": 10,
+    "failed": 0
+  },
+  "names": [
+    "IFR_Industrial_2026",
+    "IFR_Service_2026",
+    "IFR_Installations_Figure_2026",
+    "QC_QNN_HTP_MD",
+    "ORT_QNN_EP",
+    "QC_IMSDK_Converter_MD",
+    "TC_IRB10_WAIC",
+    "TC_IRB10_Launch",
+    "NEURA_Qualcomm_Collaboration",
+    "NEURA_4NE1",
+    "TC_RB3Gen2",
+    "TC_RB6",
+    "TC_RB5_Kit",
+    "EC_Machinery",
+    "EC_CRA",
+    "EC_AI_Act"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

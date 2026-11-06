@@ -1,0 +1,85 @@
+{
+  "sources": [
+    "QC_IMSDK_Overview_MD",
+    "QC_IMSDK_Examples_MD",
+    "QC_IMSDK_Release_MD",
+    "QC_IMSDK_QMMF_MD",
+    "QC_IMSDK_Converter_MD",
+    "QC_IMSDK_QNN_MD",
+    "QC_IMSDK_Detection_MD",
+    "QC_IMSDK_Metadata_MD",
+    "QC_IMSDK_Appsink_MD",
+    "QC_Linux_Release_1_6_MD"
+  ],
+  "versions": {
+    "QC_IMSDK_Overview_MD": "80-70022-50；2026-10-07",
+    "QC_IMSDK_Examples_MD": "80-70022-50；2026-10-07",
+    "QC_IMSDK_Release_MD": "80-70022-52；2026-10-13",
+    "QC_IMSDK_QMMF_MD": "80-70022-50；2026-10-07",
+    "QC_IMSDK_Converter_MD": "80-70022-50；2026-10-07",
+    "QC_IMSDK_QNN_MD": "80-70022-50；2026-10-07",
+    "QC_IMSDK_Detection_MD": "80-70022-50；2026-10-07",
+    "QC_IMSDK_Metadata_MD": "80-70022-50；2026-10-07",
+    "QC_IMSDK_Appsink_MD": "80-70022-50；2026-10-07",
+    "QC_Linux_Release_1_6_MD": "QLI1.6发行说明 Rev3，2025-11-02"
+  },
+  "figures": [
+    {
+      "name": "QC_IMSDK_Metadata.png",
+      "source_id": "QC_IMSDK_Metadata_MD",
+      "caption": "元数据解析与可视化分支",
+      "operation": "原MD第一SVG，衍生HTML恢复viewBox大小写，1200px等比浏览器渲染，截图1200x350，保留图例"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "QNN插件caps未列FLOAT16",
+      "source_id": "QC_IMSDK_QNN_MD",
+      "location": "Pad configuration",
+      "evidence_type": "事实",
+      "conditions": "对应版本插件文档；未实机",
+      "finding": "不与后端精度等同"
+    },
+    {
+      "claim": "归还QMMF buffer",
+      "source_id": "QC_IMSDK_QMMF_MD",
+      "location": "service buffer lifecycle",
+      "evidence_type": "事实",
+      "conditions": "对应版本插件文档；未实机",
+      "finding": "不能发布已释放buffer"
+    },
+    {
+      "claim": "浮点归一化公式",
+      "source_id": "QC_IMSDK_Converter_MD",
+      "location": "channel transformation",
+      "evidence_type": "事实",
+      "conditions": "对应版本插件文档；未实机",
+      "finding": "乘sigma，非再除"
+    },
+    {
+      "claim": "发行版固件差异",
+      "source_id": "QC_IMSDK_Release_MD",
+      "location": "Release tag version",
+      "evidence_type": "事实",
+      "conditions": "对应版本插件文档；未实机",
+      "finding": "与QLI独立发行说明不拼装"
+    }
+  ],
+  "manual_review": {
+    "coverage": "版本、摄像头服务、converter/QNN caps、元数据、ROS桥契约、背压与许可",
+    "versions_and_measurements": "20–30fps仅不完整问题记录；版本冲突明确，非IQ10支持证明",
+    "maturity_and_licenses": "插件菜单/Alpha/硬件支持与具体可用路径分开；源码与UMD许可未混用",
+    "figures_opened": "QC_IMSDK_Metadata.png完整打开，无截断与乱码"
+  },
+  "final_figure_trace": [
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IMSDK_Metadata.png",
+      "sha256": "6976656e7b5e45a6bf4d3becb488ea8556aa389b8cfc893fe7b5f3106983d726",
+      "source_id": "QC_IMSDK_Metadata_MD",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/gst-ai-metadata-parser.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_IMSDK_Metadata_MD--429d624c92606ff7/content.md",
+      "original_sha256": "9c0a7be907a29a220e049415e115c78ceffcd663e0f5a83ddf89a6fbe1ea1686",
+      "operation": "原MD第一SVG，衍生HTML恢复viewBox大小写，1200px等比浏览器渲染，截图1200x350，保留图例"
+    }
+  ]
+}

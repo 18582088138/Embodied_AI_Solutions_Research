@@ -1,0 +1,22 @@
+{
+  "time_utc": "2026-11-04T17:07:25.131636+00:00",
+  "summary": {
+    "complete_static": 5,
+    "partial_static": 3,
+    "failed": 0
+  },
+  "names": [
+    "TC_IRB10_Launch",
+    "TC_IRB10_WAIC",
+    "QC_IQ10_RRD",
+    "NEURA_Qualcomm_Collaboration",
+    "NEURA_4NE1",
+    "Arduino_Ventuno",
+    "QC_QIR_Follow_MD",
+    "QC_IQ10_Brief"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

@@ -1,0 +1,186 @@
+{
+  "source_ids": [
+    "QC_IQ10_Brief",
+    "QC_IQ10_RRD",
+    "QC_Linux_Architecture_MD",
+    "Arduino_Ventuno",
+    "QC_Gunyah_Repo",
+    "Linux_PREEMPT_RT",
+    "QC_Linux_Release_1_6_MD",
+    "QC_QIR_Upgrade_MD",
+    "QC_QNN_HTP_MD",
+    "ORT_QNN_EP",
+    "NV_TensorRT_Architecture"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IQ10_RRD_p2.png",
+      "sha256": "28b80f5f75ed40698010c39231b7b5112dbd0a43971fe1e8a98fe6d0140ef916",
+      "source_id": "QC_IQ10_RRD",
+      "source_url": "https://docs.qualcomm.com/doc/87-A0789-1/87-A0789-1_REV_A_Qualcomm_Dragonwing_IQ10_Robotics_Reference_Design_Product_Brief.pdf",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_IQ10_RRD--246d5ca4db6b9bc7/document.pdf",
+      "original_sha256": "49b02d0b59f3a5adc26795ef6de0f1736ef98669260e65b6bf7d8ea54b365a0e",
+      "operation": "Poppler pdftoppm 完整第2页，PNG，最长边1800像素；未裁剪、未改写官方内容"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "planned SIL compliance up to SIL3不是已完成认证",
+      "source_id": "QC_IQ10_Brief",
+      "location": "Rev B PDF第2页安全能力说明",
+      "evidence_type": "厂商计划",
+      "conditions": "IQ10 brief Rev B；未取得认证证书、安全手册及完整认证范围",
+      "finding": "不能作具体本体功能安全认证或WCET已证明结论",
+      "exact_excerpt": "planned SIL \ncompliance up to SIL3 \n• High-performance industrial interfaces, \nincluding PCIe Gen 5, USB 2.0 and 3.2 \n(Gen 2), and integrated 10G Ethernet \nwith TSN \n• Li",
+      "source_url": "https://docs.qualcomm.com/doc/87-A2811-1/87-A2811-1_REV_B_Qualcomm_Dragonwing_IQ10_Series_Platform_Product_Brief.pdf",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_IQ10_Brief--6e5c94a7707cae4b/document.pdf"
+    },
+    {
+      "claim": "RTSS当前为受限FreeRTOS二进制支持",
+      "source_id": "QC_Linux_Architecture_MD",
+      "location": "RTSS",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "IQ8275／IQ9075；boot／clocks／peripheral initialization",
+      "finding": "不推任意用户实时任务已可部署",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-252/topics/qualcomm-linux-sw-overview.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_Linux_Architecture_MD--592aca5269ff92a1/content.md",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:07:04.670504+00:00",
+      "exact_excerpt": " more. The RTSS operates as a separate subsystem and supports the [Free Real Time Operating System (FreeRTOS)](https://www.freertos.org/?). In the current release, FreeRTOS is enabled on IQ-8275 and IQ-9075 processors as a binary-only release with functionality limited to booting up the device and initializing clocks and peripherals in IoT applic"
+    },
+    {
+      "claim": "Gunyah机制不证明IQ10生产配置已采用",
+      "source_id": "QC_Gunyah_Repo",
+      "location": "README architecture",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "develop分支；Type1 EL2 VHE、Stage2、VCPU和资源管理",
+      "finding": "QEMU reference及BSD许可不是目标板安全认证",
+      "source_url": "https://github.com/quic/gunyah-hypervisor",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/QC_Gunyah_Repo--cb62fd0fb60b5b95/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T17:18:18.491535+00:00",
+      "exact_excerpt": "new feature via new modules. Features Threads and Scheduling: The scheduler schedules virtual CPUs (VCPUs) on physical CPUs and enables time-sharing of the CPUs. Memory Management: Gunyah tracks memory ownership and use of all memory under its control. Memory partitioning between VMs is a fundamental security feature. Interrupt Virtualization"
+    },
+    {
+      "claim": "PREEMPT_RT线程化中断仍有raw spinlock例外",
+      "source_id": "Linux_PREEMPT_RT",
+      "location": "Interrupts／locking／timers",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "页面Linux7.4.0-rc1，不认定QLI6.6启用",
+      "finding": "通用机制不能替代目标WCET和安全闭环验收",
+      "source_url": "https://docs.kernel.org/core-api/real-time/differences.html",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/Linux_PREEMPT_RT--74547944cdb4b513/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T17:17:33.573968+00:00",
+      "exact_excerpt": "l core components such as interrupt handling, the scheduler, or the timer subsystem the kernel uses raw_spinlock_t. This lock type preserves traditional semantics: it disables preemption and, when used with _irq() or _irqsave(), also disables interrupts. This ensures proper synchronization in critical sections that must remain non-preemptible or with i"
+    },
+    {
+      "claim": "新版HLOS不支持旧Non-HLOS组合",
+      "source_id": "QC_Linux_Release_1_6_MD",
+      "location": "Release 1.6",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "准确BSP／固件配对",
+      "finding": "不能将新版公共API直接放入旧板级SDK",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/RNO-251013063244/topics/ReleaseNote.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_Linux_Release_1_6_MD--3a9dba7e0f75e302/content.md",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:07:07.063382+00:00",
+      "exact_excerpt": "Support for GA 1.6 HLOS images with older NonHLOS images is not supported .   \n\nWhen upgrading images via factory flashing, Qualcomm recommends programing HLOS and its matching NonHLOS component.\n\n    **Note** : QCS6490/QCS5430 Customers migrating from GA 1.5 and use EMMC storage cannot migrate to GA 1.6 via OTA\n8. **## Prebuilt flashable images along with eSDK**  \n\n    Pre-built binaries along with eSDK of this rele"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_IQ10_Brief",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_IQ10_RRD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_Linux_Architecture_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "Arduino_Ventuno",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_Gunyah_Repo",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "Linux_PREEMPT_RT",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_Linux_Release_1_6_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露",
+      "exact_excerpt": "Support for GA 1.6 HLOS images with older NonHLOS images is not supported .   \n\nWhen upgrading images via factory flashing, Qualcomm recommends programing HLOS and its matching NonHLOS component.\n\n    **Note** : QCS6490/QCS5430 Customers migrating from GA 1.5 and use EMMC storage cannot migrate to GA 1.6 via OTA\n8. **## Prebuilt flashable images along with eSDK**  \n\n    Pre-built binaries along with eSDK of this rele"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QIR_Upgrade_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QNN_HTP_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "ORT_QNN_EP",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "NV_TensorRT_Architecture",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    }
+  ],
+  "manual_review": {
+    "coverage": "依据对应dimensions条目核查；未取得的信息分项记录，不以理论兼容替代交付",
+    "versions_and_measurements": "核对原件中的版本和数字，未实施实机或模型测量",
+    "maturity_and_licenses": "区分计划、演示与交付；代码、权重、固件和本体分层核查",
+    "figures_opened": "实际打开本文图；图源和结论限制见正文"
+  }
+}

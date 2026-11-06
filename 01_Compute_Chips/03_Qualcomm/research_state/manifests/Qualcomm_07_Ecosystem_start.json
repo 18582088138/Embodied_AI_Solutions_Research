@@ -1,0 +1,34 @@
+[
+  {
+    "name": "TD_Aquila_IQ8",
+    "url": "https://www.toradex.com/computer-on-modules/aquila-arm-family/iq-8275",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "TD_BSP_Support",
+    "url": "https://developer.toradex.com/software/toradex-embedded-software/toradex-embedded-linux-support-strategy/",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "TD_IQ8_Brief",
+    "url": "https://docs.toradex.com/119900-product-brief-aquila-iq8.pdf",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "TC_Robotics_Services",
+    "url": "https://www.thundercomm.com/solution/robotics/",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  }
+]

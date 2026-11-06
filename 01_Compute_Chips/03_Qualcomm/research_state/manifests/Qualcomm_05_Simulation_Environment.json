@@ -1,0 +1,98 @@
+[
+  {
+    "name": "QC_QRB_Simulation_Repo",
+    "url": "https://github.com/qualcomm-qrb-ros/qrb_ros_simulation",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "QC_QIR_Sample_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qirp_sdk_sample.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "QC_QIR_Pickplace_Simulation_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/simulation_sample_pick_and_place.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "QC_QIR_AMR_Simulation_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/simulation_sample_amr_simple_motion.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "QC_QIR_SimFollow_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/simulation_followme.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "Gazebo_Physics_SDF",
+    "url": "http://sdformat.org/spec?ver=1.12&elem=physics",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "MuJoCo_Computation",
+    "url": "https://mujoco.readthedocs.io/en/stable/computation/index.html",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "HF_LeRobot_Repo",
+    "url": "https://github.com/huggingface/lerobot",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "PI_Openpi_Repo",
+    "url": "https://github.com/Physical-Intelligence/openpi",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "QC_Pi05_Demo",
+    "url": "https://github.com/qualcomm/ai-hub-models/blob/main/src/qai_hub_models/models/pi05/demo.py",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "HF_CosmosPredict",
+    "url": "https://huggingface.co/nvidia/Cosmos-Predict2-2B-Video2World",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "QC_QIR_Quickstart_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/quick_start.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  }
+]

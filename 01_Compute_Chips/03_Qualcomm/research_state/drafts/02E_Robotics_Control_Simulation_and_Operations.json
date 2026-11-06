@@ -1,0 +1,95 @@
+{
+  "sources": [
+    "QC_QIR_Release_MD",
+    "QC_QIR_Quickstart_MD",
+    "QC_QIR_Build_MD",
+    "QC_QIR_Upgrade_MD",
+    "QC_QIR_APIs_MD",
+    "QC_QIR_Sample_MD",
+    "QC_QIR_Development_MD",
+    "QC_QIR_Camera_MD",
+    "QC_QIR_Bridge_MD",
+    "QC_QIR_Pickplace_Simulation_MD",
+    "QC_QIR_AMR_Simulation_MD",
+    "QC_QIR_Follow_MD",
+    "QC_Linux_Architecture_MD",
+    "QC_Linux_Release_1_6_MD",
+    "QC_IQ10_RRD"
+  ],
+  "versions": {
+    "QC_QIR_Release_MD": "80-70022-265；2025-11-05；QIR2.4分发范围",
+    "QC_QIR_Quickstart_MD": "80-70022-265；2025-11-05；QIR2.4分发范围",
+    "QC_QIR_Build_MD": "80-70022-265；2025-11-05；QIR2.4分发范围",
+    "QC_QIR_Upgrade_MD": "80-70022-265；2025-11-05；QIR2.4分发范围",
+    "QC_QIR_APIs_MD": "80-70022-265；2025-11-05；QIR2.4分发范围",
+    "QC_QIR_Sample_MD": "80-70022-265；2025-11-05；QIR2.4分发范围",
+    "QC_QIR_Development_MD": "80-70022-265；2025-11-05；QIR2.4分发范围",
+    "QC_QIR_Camera_MD": "80-70022-265；2025-11-05；QIR2.4分发范围",
+    "QC_QIR_Bridge_MD": "80-70022-265；2025-11-05；QIR2.4分发范围",
+    "QC_QIR_Pickplace_Simulation_MD": "80-70022-265；2025-11-05；QIR2.4分发范围",
+    "QC_QIR_AMR_Simulation_MD": "80-70022-265；2025-11-05；QIR2.4分发范围",
+    "QC_QIR_Follow_MD": "80-70022-265；2025-11-05；QIR2.4分发范围",
+    "QC_Linux_Architecture_MD": "原件版本与边界见正文；未认定最新",
+    "QC_Linux_Release_1_6_MD": "原件版本与边界见正文；未认定最新",
+    "QC_IQ10_RRD": "原件版本与边界见正文；未认定最新"
+  },
+  "figures": [
+    {
+      "name": "QC_QIR_Pickplace.png",
+      "source_id": "QC_QIR_Pickplace_Simulation_MD",
+      "caption": "Device/Host分工的抓放仿真管线",
+      "operation": "原MD管线SVG，恢复viewBox/foreignObject大小写，1200px等比本地浏览器渲染，截图1200x617，完整图与图例"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Jazzy预构建",
+      "source_id": "QC_QIR_Quickstart_MD",
+      "location": "os-release/host Docker",
+      "evidence_type": "事实",
+      "conditions": "QIR2.4/2025资料；无运行测量",
+      "finding": "与通用Humble示例分开"
+    },
+    {
+      "claim": "follow_me源码授权",
+      "source_id": "QC_QIR_Follow_MD",
+      "location": "Build and run",
+      "evidence_type": "事实",
+      "conditions": "QIR2.4/2025资料；无运行测量",
+      "finding": "未取得源码、非普遍开源"
+    },
+    {
+      "claim": "分进程零拷贝未知",
+      "source_id": "QC_QIR_Development_MD",
+      "location": "Launch source",
+      "evidence_type": "事实",
+      "conditions": "QIR2.4/2025资料；无运行测量",
+      "finding": "两个容器，标志不证明跨进程"
+    },
+    {
+      "claim": "仿真host与target分工",
+      "source_id": "QC_QIR_Pickplace_Simulation_MD",
+      "location": "pipeline/prerequisites",
+      "evidence_type": "事实",
+      "conditions": "QIR2.4/2025资料；无运行测量",
+      "finding": "规划目标执行，物理在host"
+    }
+  ],
+  "manual_review": {
+    "coverage": "QIR交付/ROS/API源码、bridge、仿真/运动、OTA运维/训练缺口，支持表冲突披露",
+    "versions_and_measurements": "Jazzy、SDK1.5文字冲突、固件不同；无频率/性能外推",
+    "maturity_and_licenses": "follow源码authorized、二进制/SDK与示例license分开",
+    "figures_opened": "QC_QIR_Pickplace.png完整打开，foreignObject文字正常"
+  },
+  "final_figure_trace": [
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_QIR_Pickplace.png",
+      "sha256": "e9d2017f63a8aec72f3d166058c09fe9d2ee9e12fe3eb991a3fcd686c345cbc0",
+      "source_id": "QC_QIR_Pickplace_Simulation_MD",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/simulation_sample_pick_and_place.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_QIR_Pickplace_Simulatio--874c72ebd299c85f/content.md",
+      "original_sha256": "7c9af245c1411fe1cfbfd46f040570b01abd4faa721a82093afb4d4354285f67",
+      "operation": "原MD管线SVG，恢复viewBox/foreignObject大小写，1200px等比本地浏览器渲染，截图1200x617，完整图与图例"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "QC_QIR_Orbbec_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/orbbec-camera_5_2_8.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "QC_QIR_IMU_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qrb-ros-imu_5_2_4.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "QC_QIR_Lidar_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/rplidar-ros2_5_2_3.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "time_utc": "2026-11-04T17:11:26.296215+00:00",
+  "summary": {
+    "complete_static": 4,
+    "partial_static": 8,
+    "failed": 0
+  },
+  "names": [
+    "TC_Robotics_Services",
+    "TC_IRB10_Launch",
+    "TC_IRB10_WAIC",
+    "TC_RB5_Kit",
+    "Arduino_Ventuno",
+    "QC_QIR_Orbbec_MD",
+    "QC_QIR_Bridge_MD",
+    "QC_QRB_Simulation_Repo",
+    "QC_AIHub_Models_Repo",
+    "HF_LeRobot_Repo",
+    "QC_QIR_Upgrade_MD",
+    "NEURA_Qualcomm_Collaboration"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "name": "QC_IQ10_Brief",
+    "url": "https://docs.qualcomm.com/doc/87-A2811-1/87-A2811-1_REV_B_Qualcomm_Dragonwing_IQ10_Series_Platform_Product_Brief.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "QC_IQ10_RRD",
+    "url": "https://docs.qualcomm.com/doc/87-A0789-1/87-A0789-1_REV_A_Qualcomm_Dragonwing_IQ10_Robotics_Reference_Design_Product_Brief.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "QC_IQ9_Brief",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/87-83840-1_REV_A_Qualcomm_IQ9_Series_Product_Brief.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "QC_IQ9075_Module",
+    "url": "https://docs.qualcomm.com/doc/87-97354-1/87-97354-1_REV_C_Qualcomm_Dragonwing_IQ-9075_Module_Product_Brief.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "QC_IQ8_Brief",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/87-83839-1_REV_A_Qualcomm_IQ8_Series_Product_Brief________.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "QC_Selector",
+    "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Qualcomm-Application-Processors-for-IoT-Selector-Guide.PDF",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "QC_Quickref",
+    "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Qualcomm-IoT-SoCs-Quick-Reference-Guide.PDF",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TC_IRB10_Launch",
+    "url": "https://www.thundercomm.com/turbox-irb10-launches-at-embedded-world-2026/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TC_IRB10_WAIC",
+    "url": "https://www.thundercomm.com/turbox-irb10-waic/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TC_RB5_Kit",
+    "url": "https://www.thundercomm.com/product/qualcomm-robotics-rb5-development-kit/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TC_RB6",
+    "url": "https://www.thundercomm.com/product/qualcomm-robotics-rb6-development-kit/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TC_RB5Gen2",
+    "url": "https://www.thundercomm.com/product/qualcomm-rb5-gen-2-development-kit/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "TC_RB3Gen2",
+    "url": "https://www.thundercomm.com/product/qualcomm-rb3-gen-2/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Arduino_Ventuno",
+    "url": "https://www.arduino.cc/product-ventuno-q",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

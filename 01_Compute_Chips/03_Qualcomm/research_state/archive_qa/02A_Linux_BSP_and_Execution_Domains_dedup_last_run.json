@@ -1,0 +1,22 @@
+{
+  "time_utc": "2026-11-04T16:11:23.386028+00:00",
+  "summary": {
+    "complete_static": 7,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "QC_Linux_Architecture_MD",
+    "QC_Linux_Release_1_6_MD",
+    "QC_Linux_Home_MD",
+    "QC_Linux_Unregistered_Build_MD",
+    "QC_Linux_Flash_MD",
+    "QC_IQ10_RRD",
+    "QC_IQ10_Brief",
+    "TC_RB5_Kit"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

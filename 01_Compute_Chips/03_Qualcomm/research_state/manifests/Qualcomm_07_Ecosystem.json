@@ -1,0 +1,114 @@
+[
+  {
+    "name": "TC_Robotics_Services",
+    "url": "https://www.thundercomm.com/solution/robotics/",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "TC_IRB10_Launch",
+    "url": "https://www.thundercomm.com/turbox-irb10-launches-at-embedded-world-2026/",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "TC_IRB10_WAIC",
+    "url": "https://www.thundercomm.com/turbox-irb10-waic/",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "TC_RB5_Kit",
+    "url": "https://www.thundercomm.com/product/qualcomm-robotics-rb5-development-kit/",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "Arduino_Ventuno",
+    "url": "https://www.arduino.cc/product-ventuno-q",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "QC_QIR_Orbbec_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/orbbec-camera_5_2_8.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "QC_QIR_Bridge_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/ros-gst-bridge.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "QC_QRB_Simulation_Repo",
+    "url": "https://github.com/qualcomm-qrb-ros/qrb_ros_simulation",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "QC_AIHub_Models_Repo",
+    "url": "https://github.com/qualcomm/ai-hub-models",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "HF_LeRobot_Repo",
+    "url": "https://github.com/huggingface/lerobot",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "QC_QIR_Upgrade_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/upgrade_individual_sdk.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NEURA_Qualcomm_Collaboration",
+    "url": "https://neura-robotics.com/neura-qualcomm-collaboration/",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "QC_Linux_Architecture_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-252/topics/qualcomm-linux-sw-overview.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "QC_Linux_Release_1_6_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/RNO-251013063244/topics/ReleaseNote.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  }
+]

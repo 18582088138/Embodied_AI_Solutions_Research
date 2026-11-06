@@ -1,0 +1,76 @@
+# 03 Qualcomm传感器接入、时间与数据路径
+
+## 从接口能力到可融合观测
+
+公开证据支持Qualcomm平台有多相机、深度相机、LiDAR及IMU接入路线，但每条路线的硬件与版本不同。IQ10 RRD规格给出最多12路GMSL2、解串器到CSI映射、主域与SAIL域以太网及8路CAN-FD，其中4路原生、4路经SPI外扩。这是参考设计能力；它没有给出每路最大分辨率同时开启的压力测试、硬触发引脚及同步误差分布。芯片接口、参考载板、量产整机和ROS样例四层必须分别核验。[QC_IQ10_RRD 原文](https://docs.qualcomm.com/doc/87-A0789-1/87-A0789-1_REV_A_Qualcomm_Dragonwing_IQ10_Robotics_Reference_Design_Product_Brief.pdf)｜[本地原件](REFERENCES.md#ref-246d5ca4db6b9bc7)
+
+| 观测类型 | 有效接入证据 | 软件输出 | 仍需核验 |
+|---|---|---|---|
+| GMSL2相机 | IQ10 RRD最多12输入 | 解串器到CSI、后续ISP路径 | 具体串解器、触发与并发组合 |
+| 板级相机 | QIR qrb_ros_camera、指定模组 | NV12 Image及CameraInfo | SKU支持、topic冲突、时间源 |
+| USB RGB-D | Gemini335L、Orbbec ROS2 Wrapper | RGB/depth/points/IMU | 固件、深度精度及多设备同步 |
+| 2D LiDAR | RPLIDAR A3M1 USB示例 | LaserScan /scan | 转速、时间增量、运动补偿 |
+| 板级IMU | qrb_ros_imu与sensor-service | Imu /imu | 固定采样值、协方差与时钟 |
+| Radar/ToF/力触觉/关节 | RRD方向与通用接口 | 无完整公开验收链 | 具体驱动、传感器和本体SDK |
+
+Radar或触觉设备有Ethernet、CAN、SPI或USB并不证明板上已有相应驱动，也不能由ToF名称推导出特定量程和误差。关节编码器通常由下层控制器汇聚，上层取得的是带本体契约的状态消息；本研究未取得IQ10完整关节与力矩采样SDK。对这些类别保留“未取得”，不写成“不支持”。
+
+## 相机服务与内存生命周期
+
+qtiqmmfsrc不是直接裸读CSI的通用节点，而是QMMF recorder client包装。NULL到READY打开并初始化指定camera；READY到PAUSED用GstCaps翻译参数并创建各pad流；PLAYING开始会话。视频buffer由服务分配，插件不再使用时归还；image pad需要capture-image信号。队列和引用计数因此属于正确性契约，不能在推理尚未完成时提前归还内存。[QC_IMSDK_QMMF_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtiqmmfsrc.md)｜[本地原件](REFERENCES.md#ref-51a36f5ba117e6b1)
+
+文档列video pad的NV12/NV16/YUY2和部分GBM caps，也有Bayer位深选项；pad caps范围是接口可表达的范围，不代表每颗SoC、相机模组都能实现4096尺寸与120fps。camera参数数值范围也不等于同时存在相同数量的物理端口。extra-buffers只能在NULL/READY设置；增加缓冲可能降低短时丢帧，却增加排队和观测年龄。crop仅对指定JPEG/YUY2格式适用，不应直接用于任意NV12链。
+
+qtimlvconverter将视频转成模型tensor，涉及GPU IB2C、ION/DMA池、颜色转换和归一化。所谓零拷贝成立需生产者、消费者都能导入同一分配、正确理解stride/平面offset、满足cache与fence同步，且中间没有格式转换重分配或DDS序列化。NV12是亮度与交错色度平面，不能按RGB三通道直接解释。UBWC压缩布局也不应当成线性字节数组交给不支持的消费者。[QC_IMSDK_Converter_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtimlvconverter.md)｜[本地原件](REFERENCES.md#ref-382fbcc3e4ba0663)
+
+qrb_ros_camera文档宣称从camera-server获得数据时实现零拷贝，但限制为NV12且不支持动态改变图像尺寸。正文列IQ9075的ov9282及两款LI-VENUS模组，而样例支持总表仅给RB3 Gen2标Y，存在表与正文范围不一致；topic表/image、/image_info与运行命令/cam0_stream1也有差异。工程上应读目标launch和运行时topic list、encoding，不把例子中的一个名称写死到量产系统。这里没有跨进程或网络端到端零拷贝的测量证据。[QC_QIR_Camera_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qrb-ros-camera.md)｜[本地原件](REFERENCES.md#ref-62649bd8184a874b) [QC_QIR_Sample_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qirp_sdk_sample.md)｜[本地原件](REFERENCES.md#ref-0c701ef0b2fa8a1b)
+
+## USB深度、LiDAR与IMU的具体配置
+
+Orbbec示例要求连接Gemini335L USB并安装udev规则，发布彩色与深度CameraInfo/Image、PointCloud2和gyro_accel/sample。RGB示例请求848×480、30fps并关闭depth及point cloud；深度示例开启depth_registration与enable_sync，请求color/depth30fps但仍关闭point cloud；IMU示例启用accel/gyro同步输出，彩色640×360。选项的存在支持SDK有这些模式，不能证明RGB、深度、点云、IMU最大速率全部同时满负载。[QC_QIR_Orbbec_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/orbbec-camera_5_2_8.md)｜[本地原件](REFERENCES.md#ref-0b8df5b0e3f41df5)
+
+![官方图：Gemini335L到ROS观测接口](assets/figures/QC_QIR_Orbbec--4fd3c957006c.png)
+
+官方节点图已实际打开核验，保留六类topic和图例。它说明一个Wrapper汇聚USB设备数据及标定消息，不给出跨相机硬件同步或真实精度。depth_registration是空间配准，enable_sync是该Wrapper相关同步选项；它们都不能单独证明IQ10相机、LiDAR和机器人关节处于同一PTP时钟域。深度图单位、无效值、对齐后内参及IMU坐标方向需从准确固件/Wrapper版本确认。
+
+RPLIDAR页提到A1/A2/A3/S1/S2/S3基本处理，但可复建操作明确接A3M1电源和USB，启动rplidar_a3_launch.py，输出LaserScan。它与QIR样例总表的“RGB/depth”描述冲突；API正文的LaserScan是本篇采用的依据。移动机器人一圈扫描发生在时间区间内，需核time_increment、scan_time及每束角度，再依据IMU/里程计运动补偿；单个header stamp不足以保证点全在同一姿态。未取得其他型号在该BSP的逐项验收。[QC_QIR_Lidar_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/rplidar-ros2_5_2_3.md)｜[本地原件](REFERENCES.md#ref-ccc54e891e52fa47) [QC_QIR_APIs_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qir_sdk_api_list.md)｜[本地原件](REFERENCES.md#ref-d217692d5a43ff07)
+
+qrb_ros_imu通过sensor-service发布Imu，文档提供client connect failed时重启服务的诊断步骤，并明确帧率受硬件限制、不能自定义。本研究未执行重启；真实机器人需先定义服务重连后的序号、时间连续性和状态失效。采样率固定并不说明数值为多少，也不证明与相机同步。必须核角速度/加速度单位、bias、温漂、饱和、协方差与重力方向，避免将非有效orientation字段当成姿态估计。[QC_QIR_IMU_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qrb-ros-imu_5_2_4.md)｜[本地原件](REFERENCES.md#ref-5200f0c39eb0de33)
+
+## 时钟、曝光与融合契约
+
+分析上应分别记录传感器曝光/采样时间、驱动接收、处理完成及ROS发布时刻。观测年龄等于决策时刻减采集时刻，不能以消息发布时戳替代采集时戳。rolling shutter的不同行曝光时间不同；即使两帧header相近，高速运动也可能造成视觉与IMU融合偏差。硬触发决定采样相位，PTP决定时钟关系，软件近似配对决定消息匹配；三个机制不能互相替代。
+
+IQ10 RRD“synchronized perception”“TSN-ready”支持设计方向，但公开brief没有提供PTP profile、grandmaster、硬件时间戳接口、触发拓扑及误差。验收需取得解串器配置、sensor exposure metadata与驱动timestamp实现，在共同可观测事件下测相位及漂移。标定应保存镜头/分辨率/温度条件、CameraInfo、相机到LiDAR/IMU/base外参、frame树及版本；换镜头、改变裁剪或深度配准应重新核对。多传感器融合算法的地图稳定与定位误差也需真实留出轨迹，不能由topic存在推导。
+
+## 吞吐和并发的可检验分析
+
+假设12路1920×1080、30fps、线性NV12且不计padding，每帧3,110,400字节，合计1,119,744,000字节/秒，约1.12GB/s或8.96Gb/s。若改成RGB888，净数据量翻倍至约2.24GB/s。这个算式仅为尺寸×帧率×路数×每像素字节，未计GMSL编码、CSI封包、DMA对齐、多次读写、推理tensor和日志，也不是官方12路实测。它用于发现以太网、DDR或CPU复制可能成为瓶颈，不用于保证运行余量。
+
+| 检查层 | 需保存的测量 | 异常及动作 |
+|---|---|---|
+| 采样 | 曝光时戳、序号、有效模式 | 缺帧、漂移、过曝及重新同步 |
+| 缓冲 | 分配器、stride、引用、fence | 池耗尽、错误导入及服务重建 |
+| ROS | QoS、深度、frame、消息年龄 | 背压、旧消息丢弃及状态降级 |
+| 融合 | 标定版本、误差和运动条件 | 外参失效、深度空洞和留出验证 |
+
+实时观测通常重视新鲜度，Reliable与大队列可能在消费者变慢时保留旧消息；Best Effort则可能丢包。选择应依据任务容错与重建需求，而非统一设成一个QoS。记录丢帧率需要分母与采集时长，队列平均等待不能替代P99或安全最坏界。力矩与关节反馈若承担保护，更不能与普通视觉队列共享未经证明的失效策略。
+
+最终放行需在目标板、准确BSP、传感器固件和模型并发下测试热稳定及重启恢复，分别给出采样频率、推理频率与控制频率。相机SDK、驱动二进制、标定数据和本体协议各核许可及维护责任。公开资料证明了若干具体接入路线，完整多模态同步、零拷贝和融合精度仍需要系统交付物与实机证据。
+
+
+## 参考资料与归档边界
+
+采集截止：2026-11-05（Asia/Shanghai）。原件通过项目统一下载器登记；官方 Markdown 是厂商提供的原始正文，保留嵌入 SVG/图片数据。HTML 静态壳不作为正文证据。网页依赖缺失按 metadata 记录；不承诺离线交互或像素一致。未执行硬件刷写、模型推理或机器人测试。
+
+| 登记名称 | 版本／适用边界 | 原始资料 | 本地归档 |
+|---|---|---|---|
+| QC_IQ10_RRD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/doc/87-A0789-1/87-A0789-1_REV_A_Qualcomm_Dragonwing_IQ10_Robotics_Reference_Design_Product_Brief.pdf) | [原件](REFERENCES.md#ref-246d5ca4db6b9bc7) |
+| QC_IMSDK_QMMF_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtiqmmfsrc.md) | [原件](REFERENCES.md#ref-51a36f5ba117e6b1) |
+| QC_IMSDK_Converter_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtimlvconverter.md) | [原件](REFERENCES.md#ref-382fbcc3e4ba0663) |
+| QC_QIR_Camera_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qrb-ros-camera.md) | [原件](REFERENCES.md#ref-62649bd8184a874b) |
+| QC_QIR_Sample_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qirp_sdk_sample.md) | [原件](REFERENCES.md#ref-0c701ef0b2fa8a1b) |
+| QC_QIR_Orbbec_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/orbbec-camera_5_2_8.md) | [原件](REFERENCES.md#ref-0b8df5b0e3f41df5) |
+| QC_QIR_Lidar_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/rplidar-ros2_5_2_3.md) | [原件](REFERENCES.md#ref-ccc54e891e52fa47) |
+| QC_QIR_APIs_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qir_sdk_api_list.md) | [原件](REFERENCES.md#ref-d217692d5a43ff07) |
+| QC_QIR_IMU_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qrb-ros-imu_5_2_4.md) | [原件](REFERENCES.md#ref-5200f0c39eb0de33) |

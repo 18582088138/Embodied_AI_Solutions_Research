@@ -1,0 +1,44 @@
+{
+  "report": "01_Compute_Chips/03_Qualcomm/02A_Linux_BSP_and_Execution_Domains.md",
+  "body_han_chars": 2238,
+  "tables": 2,
+  "sources": 8,
+  "archive_status": {
+    "complete_static": 7,
+    "partial_static": 1
+  },
+  "figures": 1,
+  "file_hash_checks": 82,
+  "html_visible_text_equal": 1,
+  "page_local_dependencies_checked": 73,
+  "report_local_links": 36,
+  "other_reports_unchanged": {
+    "00_Research_Index.md": true,
+    "01_Hardware_Platform.md": true,
+    "02B_QNN_SNPE_Compilation_and_Runtime.md": true,
+    "02C_AI_Hub_and_Generative_AI_Deployment.md": true,
+    "02D_Perception_Multimedia_and_ROS.md": true,
+    "02E_Robotics_Control_Simulation_and_Operations.md": true,
+    "02F_RB6_Cloud_AI_100_Stack.md": true,
+    "02_Software_Stack.md": true,
+    "02_Topics_Index.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08A_Heterogeneous_Compilation.md": true,
+    "08B_Sensor_Memory_Pipeline.md": true,
+    "08C_Real_Time_Safety_Domains.md": true,
+    "08_Core_Technology_Moat.md": true,
+    "08_Proprietary_Technologies.md": true,
+    "08_Topics_Index.md": true,
+    "09_SWOT_Analysis.md": true
+  },
+  "errors": [],
+  "warnings": [
+    "静态依赖部分缺失: TC_RB5_Kit（报告应披露）"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

@@ -1,0 +1,194 @@
+{
+  "sources": [
+    "TC_Robotics_Services",
+    "TC_IRB10_Launch",
+    "TC_IRB10_WAIC",
+    "TC_RB5_Kit",
+    "Arduino_Ventuno",
+    "QC_QIR_Orbbec_MD",
+    "QC_QIR_Bridge_MD",
+    "QC_QRB_Simulation_Repo",
+    "QC_AIHub_Models_Repo",
+    "HF_LeRobot_Repo",
+    "QC_QIR_Upgrade_MD",
+    "NEURA_Qualcomm_Collaboration",
+    "QC_Linux_Architecture_MD",
+    "QC_Linux_Release_1_6_MD"
+  ],
+  "versions": {},
+  "figures": [
+    {
+      "name": "QC_QIR_Orbbec.png",
+      "source_id": "QC_QIR_Orbbec_MD",
+      "caption": "Orbbec ROS示例输出",
+      "operation": "从已归档官方原件复制或提取；逐图实际打开核验，见正文图说明"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "RB5开发套件EOL不等于QRB5165芯片全面停产",
+      "source_id": "TC_RB5_Kit",
+      "location": "EOL notice",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "EOL June 2026指开发套件",
+      "finding": "需逐层核模组、芯片、BSP、备件支持合同",
+      "source_url": "https://www.thundercomm.com/product/qualcomm-robotics-rb5-development-kit/",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/TC_RB5_Kit--334f80d91fbbc8df/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T15:45:00.459898+00:00",
+      "exact_excerpt": "nterfaces and I/Os which can connect multiple sensors. RB5 Learning Resources > | RB5 Sample Apps > EOL: June 2026 Applications: Automated Guided VehicleConsumption/Entertainment RobotIndustrial ControlIndustrial RobotSelf-driving Vehicle for logisticsService Robot Enquiry Buy Now Subscribe Product OverviewSpecificationsDocumentsSDK ManagerG"
+    },
+    {
+      "claim": "伙伴提供OS／硬件／算法服务不等于任意SKU已验收",
+      "source_id": "TC_Robotics_Services",
+      "location": "Robotics services",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "Thundercomm机器人服务页；旧平台表",
+      "finding": "Android／Ubuntu／Embedded Linux服务范围不能套成IQ10最新BSP配置",
+      "source_url": "https://www.thundercomm.com/solution/robotics/",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/TC_Robotics_Services--058bea497f0ab588/index.html",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T17:08:26.361964+00:00",
+      "exact_excerpt": "ams to fast launch their robot products with featured middleware and tools. No matter it is Android、Ubuntu or Embedded Linux, Thundercomm can provide extreme OS tailoring, with the highest reliability and maximized performance. Design Service We are offering full cycle hardware design and consulting service, as well as hardware manufacturing se"
+    },
+    {
+      "claim": "GA1.6 HLOS与旧Non-HLOS组合存在限制",
+      "source_id": "QC_Linux_Release_1_6_MD",
+      "location": "Release 1.6 upgrade limitation",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "QLI GA1.6发行文档",
+      "finding": "生态章OTA约束补直接出处，FOTA品牌不证明原子回退",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/RNO-251013063244/topics/ReleaseNote.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_Linux_Release_1_6_MD--3a9dba7e0f75e302/content.md",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:07:07.063382+00:00",
+      "exact_excerpt": "Support for GA 1.6 HLOS images with older NonHLOS images is not supported .   \n\nWhen upgrading images via factory flashing, Qualcomm recommends programing HLOS and its matching NonHLOS component.\n\n    **Note** : QCS6490/QCS5430 Customers migrating from GA 1.5 and use EMMC storage cannot migrate to GA 1.6 via OTA\n8. **## Prebuilt flashable images along with eSDK**  \n\n    Pre-built binaries along with eSDK of this rele"
+    },
+    {
+      "claim": "OSTree升级具有分区版本约束",
+      "source_id": "QC_Linux_Architecture_MD",
+      "location": "OTA／OSTree",
+      "evidence_type": "事实／厂商陈述与分析边界",
+      "conditions": "1.3→1.4与1.4→1.5路径不同",
+      "finding": "需分别验断电回退及应用／MCU兼容",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-252/topics/qualcomm-linux-sw-overview.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_Linux_Architecture_MD--592aca5269ff92a1/content.md",
+      "material_version_or_date": "具体版本／时间见conditions及报告正文；采集时间不替代发布时间",
+      "retrieved_at_utc": "2026-11-04T16:07:04.670504+00:00",
+      "exact_excerpt": "tializing clocks and peripherals in IoT applications.\n\n## OTA\n\nOver-the-air (OTA) updates using the OSTree frameworks are supported from QLI GA 1.3. Customers must program the partition layout to ensure migration from QLI GA 1.3 to QLI GA 1.4 through OTA process. Partition layout programming isn’t needed if migrating from QLI GA 1.4 to 1.5.\n\n> "
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "TC_Robotics_Services",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "TC_IRB10_Launch",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "TC_IRB10_WAIC",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "TC_RB5_Kit",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "Arduino_Ventuno",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QIR_Orbbec_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QIR_Bridge_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QRB_Simulation_Repo",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_AIHub_Models_Repo",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "HF_LeRobot_Repo",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_QIR_Upgrade_MD",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "NEURA_Qualcomm_Collaboration",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    }
+  ],
+  "manual_review": {
+    "coverage": "依据对应dimensions条目核查；未取得的信息分项记录，不以理论兼容替代交付",
+    "versions_and_measurements": "核对原件中的版本和数字，未实施实机或模型测量",
+    "maturity_and_licenses": "区分计划、演示与交付；代码、权重、固件和本体分层核查",
+    "figures_opened": "实际打开本文图；图源和结论限制见正文"
+  },
+  "final_figure_trace": [
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_QIR_Orbbec.png",
+      "sha256": "4fd3c957006ccc52a35a468cf5cf4e7d9e3fe7a91ae2c181a492489d47f41bc8",
+      "source_id": "QC_QIR_Orbbec_MD",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/orbbec-camera_5_2_8.md",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/data/QC_QIR_Orbbec_MD--0b8df5b0e3f41df5/content.md",
+      "original_sha256": "9b31bf458922129d732255f56800ef366124cb2be8354503a1ff7886793b4b09",
+      "operation": "从官方Markdown节点图内嵌base64 PNG解码，完整原图；保留USB设备、Wrapper、六类topic及图例；已实际打开核验"
+    }
+  ]
+}

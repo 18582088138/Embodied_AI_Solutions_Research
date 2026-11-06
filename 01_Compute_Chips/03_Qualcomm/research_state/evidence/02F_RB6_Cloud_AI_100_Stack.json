@@ -1,0 +1,77 @@
+{
+  "source_ids": [
+    "TC_RB6",
+    "QC_CloudAI_Prerequisites",
+    "QC_CloudAI_Installation",
+    "QC_CloudAI_Quickstart",
+    "QC_CloudAI_Compiler",
+    "QC_CloudAI_Runtime"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_CloudAI_InferenceSet.png",
+      "sha256": "99ccfdbe60d4eb4ff6e70faf9c41fe5ebc1e680b9ab236ac08eca5b3f7a663c2",
+      "source_id": "QC_CloudAI_Runtime",
+      "source_url": "https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/_images/InferenceSetFlow.png",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/QC_CloudAI_Runtime--4a6796d69a449572/assets/images/4c73fc747a33fec6e451c1d6.png",
+      "original_sha256": "99ccfdbe60d4eb4ff6e70faf9c41fe5ebc1e680b9ab236ac08eca5b3f7a663c2",
+      "operation": "从该官方网页已归档image asset原样复制；无裁剪或缩放；已实际打开核验"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "TC_RB6",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_CloudAI_Prerequisites",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_CloudAI_Installation",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_CloudAI_Quickstart",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_CloudAI_Compiler",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    },
+    {
+      "claim": "正文引用的机制与适用边界",
+      "source_id": "QC_CloudAI_Runtime",
+      "location": "正文所述章节、API及表格；原件可核",
+      "evidence_type": "事实／宣称与分析在正文分开",
+      "conditions": "仅适用于本文所述版本、SKU及采集快照，不代表实机验证",
+      "finding": "已读取原件正文，适配冲突、许可与测量缺项在正文披露"
+    }
+  ],
+  "manual_review": {
+    "coverage": "依据对应dimensions条目核查；未取得的信息分项记录，不以理论兼容替代交付",
+    "versions_and_measurements": "核对原件中的版本和数字，未实施实机或模型测量",
+    "maturity_and_licenses": "区分计划、演示与交付；代码、权重、固件和本体分层核查",
+    "figures_opened": "实际打开本文图；图源和结论限制见正文"
+  }
+}

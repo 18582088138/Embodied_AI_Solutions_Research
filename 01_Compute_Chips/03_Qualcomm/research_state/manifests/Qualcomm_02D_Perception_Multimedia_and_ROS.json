@@ -1,0 +1,82 @@
+[
+  {
+    "name": "QC_IMSDK_Overview_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/overview.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_Examples_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/example-applications.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_Release_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-52/topics/qim-sdk-release-1-6.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_QMMF_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtiqmmfsrc.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_Converter_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtimlvconverter.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_QNN_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtimlqnn.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_Detection_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/gst-ai-object-detection.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_Metadata_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/gst-ai-metadata-parser.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_Appsink_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/gst-appsink-example.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS"
+    ]
+  },
+  {
+    "name": "QC_Linux_Release_1_6_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/RNO-251013063244/topics/ReleaseNote.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS"
+    ]
+  }
+]

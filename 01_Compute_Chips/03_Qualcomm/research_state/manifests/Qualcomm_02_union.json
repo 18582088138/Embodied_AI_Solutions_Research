@@ -1,0 +1,410 @@
+[
+  {
+    "name": "QC_Linux_Architecture_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-252/topics/qualcomm-linux-sw-overview.md",
+    "expected": "any",
+    "used_by": [
+      "02A_Linux_BSP_and_Execution_Domains",
+      "02E_Robotics_Control_Simulation_and_Operations",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_Linux_Release_1_6_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/RNO-251013063244/topics/ReleaseNote.md",
+    "expected": "any",
+    "used_by": [
+      "02A_Linux_BSP_and_Execution_Domains",
+      "02D_Perception_Multimedia_and_ROS",
+      "02E_Robotics_Control_Simulation_and_Operations",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_Linux_Home_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-115/topics/qualcomm-linux-docs-home.md",
+    "expected": "any",
+    "used_by": [
+      "02A_Linux_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "QC_Linux_Unregistered_Build_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-254/topics/github_workflow_unregistered_users.md",
+    "expected": "any",
+    "used_by": [
+      "02A_Linux_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "QC_Linux_Flash_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-254/topics/flash_images.md",
+    "expected": "any",
+    "used_by": [
+      "02A_Linux_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "QC_IQ10_RRD",
+    "url": "https://docs.qualcomm.com/doc/87-A0789-1/87-A0789-1_REV_A_Qualcomm_Dragonwing_IQ10_Robotics_Reference_Design_Product_Brief.pdf",
+    "expected": "any",
+    "used_by": [
+      "02A_Linux_BSP_and_Execution_Domains",
+      "02E_Robotics_Control_Simulation_and_Operations",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_IQ10_Brief",
+    "url": "https://docs.qualcomm.com/doc/87-A2811-1/87-A2811-1_REV_B_Qualcomm_Dragonwing_IQ10_Series_Platform_Product_Brief.pdf",
+    "expected": "any",
+    "used_by": [
+      "02A_Linux_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "TC_RB5_Kit",
+    "url": "https://www.thundercomm.com/product/qualcomm-robotics-rb5-development-kit/",
+    "expected": "any",
+    "used_by": [
+      "02A_Linux_BSP_and_Execution_Domains"
+    ]
+  },
+  {
+    "name": "QC_QNN_API_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/api_overview.md",
+    "expected": "any",
+    "used_by": [
+      "02B_QNN_SNPE_Compilation_and_Runtime",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_QNN_HTP_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/htp_backend.md",
+    "expected": "any",
+    "used_by": [
+      "02B_QNN_SNPE_Compilation_and_Runtime",
+      "02C_AI_Hub_and_Generative_AI_Deployment",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_QNN_Overview_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/QNN_general_overview.md",
+    "expected": "any",
+    "used_by": [
+      "02B_QNN_SNPE_Compilation_and_Runtime"
+    ]
+  },
+  {
+    "name": "QC_QNN_Tools_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/general_tools.md",
+    "expected": "any",
+    "used_by": [
+      "02B_QNN_SNPE_Compilation_and_Runtime"
+    ]
+  },
+  {
+    "name": "QC_SNPE_Overview_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/SNPE_general_overview.md",
+    "expected": "any",
+    "used_by": [
+      "02B_QNN_SNPE_Compilation_and_Runtime"
+    ]
+  },
+  {
+    "name": "QC_SNPE_Tools_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/SNPE_general_tools.md",
+    "expected": "any",
+    "used_by": [
+      "02B_QNN_SNPE_Compilation_and_Runtime"
+    ]
+  },
+  {
+    "name": "QC_AIHub_Models_Repo",
+    "url": "https://github.com/qualcomm/ai-hub-models",
+    "expected": "any",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_Genie_Introduction_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/introduction.md",
+    "expected": "any",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  },
+  {
+    "name": "QC_Genie_Use_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/how_to_use_genie.md",
+    "expected": "any",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  },
+  {
+    "name": "QC_Genie_Dialog_Config_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/dialog_json.md",
+    "expected": "any",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_Genie_Engine_Config_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/engine_json.md",
+    "expected": "any",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_Genie_Library_Example_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/source_code_examples_library.md",
+    "expected": "any",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  },
+  {
+    "name": "QC_Genie_Profile_Config_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/profile_json.md",
+    "expected": "any",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_Overview_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/overview.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_Examples_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/example-applications.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_Release_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-52/topics/qim-sdk-release-1-6.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_QMMF_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtiqmmfsrc.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_Converter_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtimlvconverter.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_QNN_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtimlqnn.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_Detection_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/gst-ai-object-detection.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_Metadata_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/gst-ai-metadata-parser.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_IMSDK_Appsink_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/gst-appsink-example.md",
+    "expected": "any",
+    "used_by": [
+      "02D_Perception_Multimedia_and_ROS"
+    ]
+  },
+  {
+    "name": "QC_QIR_Release_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-260/topics/robotics-sdk-sep-2025.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_QIR_Quickstart_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/quick_start.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_QIR_Build_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qirp_sdk_build.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_QIR_Upgrade_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/upgrade_individual_sdk.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_QIR_APIs_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qir_sdk_api_list.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_QIR_Sample_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qirp_sdk_sample.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_QIR_Development_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/develop_pipeline_application.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_QIR_Camera_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qrb-ros-camera.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_QIR_Bridge_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/ros-gst-bridge.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_QIR_Pickplace_Simulation_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/simulation_sample_pick_and_place.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_QIR_AMR_Simulation_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/simulation_sample_amr_simple_motion.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "QC_QIR_Follow_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/followme.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "TC_RB6",
+    "url": "https://www.thundercomm.com/product/qualcomm-robotics-rb6-development-kit/",
+    "expected": "any",
+    "used_by": [
+      "02F_RB6_Cloud_AI_100_Stack"
+    ]
+  },
+  {
+    "name": "QC_CloudAI_Prerequisites",
+    "url": "https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/Getting-Started/Installation/prerequisites.html",
+    "expected": "any",
+    "used_by": [
+      "02F_RB6_Cloud_AI_100_Stack"
+    ]
+  },
+  {
+    "name": "QC_CloudAI_Installation",
+    "url": "https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/Getting-Started/Installation/sdk-installation.html",
+    "expected": "any",
+    "used_by": [
+      "02F_RB6_Cloud_AI_100_Stack"
+    ]
+  },
+  {
+    "name": "QC_CloudAI_Quickstart",
+    "url": "https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/Getting-Started/Quick-Start-Guide/index.html",
+    "expected": "any",
+    "used_by": [
+      "02F_RB6_Cloud_AI_100_Stack"
+    ]
+  },
+  {
+    "name": "QC_CloudAI_Compiler",
+    "url": "https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/Getting-Started/SDK-Tools/network-compilation/qaic-compile/index.html",
+    "expected": "any",
+    "used_by": [
+      "02F_RB6_Cloud_AI_100_Stack"
+    ]
+  },
+  {
+    "name": "QC_CloudAI_Runtime",
+    "url": "https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/Cpp-API/runtime/index.html",
+    "expected": "any",
+    "used_by": [
+      "02F_RB6_Cloud_AI_100_Stack",
+      "02_Software_Stack"
+    ]
+  }
+]

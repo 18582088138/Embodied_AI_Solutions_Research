@@ -1,0 +1,29 @@
+{
+  "time_utc": "2026-11-04T16:54:55.032577+00:00",
+  "summary": {
+    "complete_static": 1,
+    "partial_static": 14,
+    "failed": 0
+  },
+  "names": [
+    "QC_AIHub_Models_Repo",
+    "QC_HF_Hand",
+    "HF_QC_Pi05",
+    "HF_OpenVLA",
+    "PI_Openpi_Repo",
+    "QC_Pi05_Demo",
+    "HF_GR00TN15",
+    "QC_GR00T_Recipe",
+    "QC_ACT_Recipe",
+    "QC_Pi05_Recipe",
+    "HF_Qwen25VL",
+    "HF_DepthAnythingV2",
+    "QC_QIR_APIs_MD",
+    "HF_CosmosPredict",
+    "HF_LeRobot_Repo"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

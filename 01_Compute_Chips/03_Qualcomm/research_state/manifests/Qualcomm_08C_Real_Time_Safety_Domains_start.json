@@ -1,0 +1,10 @@
+[
+  {
+    "name": "QC_Gunyah_Repo",
+    "url": "https://github.com/quic/gunyah-hypervisor",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Safety_Domains"
+    ]
+  }
+]

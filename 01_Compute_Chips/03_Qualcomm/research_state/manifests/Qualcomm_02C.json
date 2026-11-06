@@ -1,0 +1,50 @@
+[
+  {
+    "name": "QC_AIHub_Walkthrough",
+    "url": "https://workbench.aihub.qualcomm.com/docs/hub/walkthrough.html",
+    "expected": "html",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  },
+  {
+    "name": "QC_AIHub_Devices",
+    "url": "https://workbench.aihub.qualcomm.com/docs/hub/devices.html",
+    "expected": "html",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  },
+  {
+    "name": "QC_AIHub_Deployment",
+    "url": "https://workbench.aihub.qualcomm.com/docs/hub/deployment.html",
+    "expected": "html",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  },
+  {
+    "name": "QC_AIHub_Inference",
+    "url": "https://workbench.aihub.qualcomm.com/docs/hub/how-inference-jobs-work.html",
+    "expected": "html",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  },
+  {
+    "name": "QC_AIHub_Releases",
+    "url": "https://workbench.aihub.qualcomm.com/docs/hub/release_notes.html",
+    "expected": "html",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  },
+  {
+    "name": "QC_AIHub_FAQ",
+    "url": "https://workbench.aihub.qualcomm.com/docs/hub/faq.html",
+    "expected": "html",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  }
+]

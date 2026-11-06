@@ -1,0 +1,282 @@
+{
+  "source_ids": [
+    "QC_IQ10_Brief",
+    "QC_IQ10_RRD",
+    "QC_IQ9_Brief",
+    "QC_IQ9075_Module",
+    "QC_IQ8_Brief",
+    "QC_Selector",
+    "QC_Quickref",
+    "TC_IRB10_Launch",
+    "TC_IRB10_WAIC",
+    "TC_RB5_Kit",
+    "TC_RB6",
+    "TC_RB5Gen2",
+    "TC_RB3Gen2",
+    "Arduino_Ventuno"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IQ10_Brief_p2.png",
+      "sha256": "411dd4f9b92a6cd186f4a064cbe14fb52467eae8da9c0aa8ce28c69926894368",
+      "source_id": "QC_IQ10_Brief",
+      "source_url": "https://docs.qualcomm.com/doc/87-A2811-1/87-A2811-1_REV_B_Qualcomm_Dragonwing_IQ10_Series_Platform_Product_Brief.pdf",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_IQ10_Brief--6e5c94a7707cae4b/document.pdf",
+      "original_sha256": "978f2b25935a11b3de3bc448e44047caf2141a6a5df174a0b1547dc28c1bd69c",
+      "operation": "Poppler pdftoppm 完整第2页，PNG，最长边1800像素；未裁剪、未改写官方内容"
+    },
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IQ10_RRD_p2.png",
+      "sha256": "28b80f5f75ed40698010c39231b7b5112dbd0a43971fe1e8a98fe6d0140ef916",
+      "source_id": "QC_IQ10_RRD",
+      "source_url": "https://docs.qualcomm.com/doc/87-A0789-1/87-A0789-1_REV_A_Qualcomm_Dragonwing_IQ10_Robotics_Reference_Design_Product_Brief.pdf",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_IQ10_RRD--246d5ca4db6b9bc7/document.pdf",
+      "original_sha256": "49b02d0b59f3a5adc26795ef6de0f1736ef98669260e65b6bf7d8ea54b365a0e",
+      "operation": "Poppler pdftoppm 完整第2页，PNG，最长边1800像素；未裁剪、未改写官方内容"
+    },
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IQ9_Brief_p1.png",
+      "sha256": "75657e54f93a29ecaf4a0016c65fd93fa5f018d2d28120245e35796ee81abf8c",
+      "source_id": "QC_IQ9_Brief",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/87-83840-1_REV_A_Qualcomm_IQ9_Series_Product_Brief.pdf",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_IQ9_Brief--daea6771d503a523/document.pdf",
+      "original_sha256": "88f56312fb33fa931d61016efca8c655ab0d99a73eab80f9be1880ce1d43a5a8",
+      "operation": "Poppler pdftoppm 完整第1页，PNG，最长边1800像素；未裁剪、未改写官方内容"
+    },
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IQ9_Brief_p2.png",
+      "sha256": "f520e3e88c2cbb714c698266de91931ece5b65ac00155235597769d009b5da0a",
+      "source_id": "QC_IQ9_Brief",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/87-83840-1_REV_A_Qualcomm_IQ9_Series_Product_Brief.pdf",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_IQ9_Brief--daea6771d503a523/document.pdf",
+      "original_sha256": "88f56312fb33fa931d61016efca8c655ab0d99a73eab80f9be1880ce1d43a5a8",
+      "operation": "Poppler pdftoppm 完整第2页，PNG，最长边1800像素；未裁剪、未改写官方内容"
+    },
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IQ9075_Module_p1.png",
+      "sha256": "b04c7ede366a67e281a927b2bee2eb538396a8f77e51894807564398709fe717",
+      "source_id": "QC_IQ9075_Module",
+      "source_url": "https://docs.qualcomm.com/doc/87-97354-1/87-97354-1_REV_C_Qualcomm_Dragonwing_IQ-9075_Module_Product_Brief.pdf",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_IQ9075_Module--ef8804ab803f95ad/document.pdf",
+      "original_sha256": "23341b17975814755987dbb54fadc004552f1048e43ddeb634671a642be1d5ad",
+      "operation": "Poppler pdftoppm 完整第1页，PNG，最长边1800像素；未裁剪、未改写官方内容"
+    },
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_IQ8_Brief_p2.png",
+      "sha256": "c9066d7826e2e0f93ef7b6b9fe8d60b3ae1a1967272b22faefc6fc00c216ab95",
+      "source_id": "QC_IQ8_Brief",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/87-83839-1_REV_A_Qualcomm_IQ8_Series_Product_Brief________.pdf",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_IQ8_Brief--7d1bfbe24e063ca5/document.pdf",
+      "original_sha256": "849c81ab576485cd0f04a3fe32a6e17f84dbf8da5304035a6a1fd6e9fa30cf38",
+      "operation": "Poppler pdftoppm 完整第2页，PNG，最长边1800像素；未裁剪、未改写官方内容"
+    },
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/QC_Selector_p5.png",
+      "sha256": "4f14aacdb3fe9dbe5a944798219ae7832cfd710d9962706335b3c1bdd6cd3249",
+      "source_id": "QC_Selector",
+      "source_url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Qualcomm-Application-Processors-for-IoT-Selector-Guide.PDF",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_Selector--306d7493b50a2d30/document.pdf",
+      "original_sha256": "5ec82ad56f4a16a5dad41e6a876252f09ce73dddf7b163b40e7507655f86be45",
+      "operation": "Poppler pdftoppm 完整第5页，PNG，最长边1800像素；未裁剪、未改写官方内容"
+    },
+    {
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/figures/TC_RB5Gen2_Block.jpg",
+      "sha256": "0ad008a2210db4f79d3810e16dd25753c72fea3a45379b75fa1b67cff30fcdf5",
+      "source_id": "TC_RB5Gen2",
+      "source_url": "https://www.thundercomm.com/wp-content/uploads/2025/03/Qualcomm-RB5-Gen-2-Development-Kit-Block-Diagram.jpg",
+      "original_file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/TC_RB5Gen2--c79fbdd239f83e65/assets/images/bc280848c90937919375e769.jpg",
+      "original_sha256": "0ad008a2210db4f79d3810e16dd25753c72fea3a45379b75fa1b67cff30fcdf5",
+      "operation": "从归档网页asset复制厂商原图；无裁剪、无修改"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "700 TOPS",
+      "source_id": "QC_IQ10_Brief",
+      "location": "第1页Highlights及第2页规格",
+      "evidence_type": "厂商宣称",
+      "conditions": "IQ10专用NPU，INT8 sparse；未列功率/频率/稀疏规则",
+      "finding": "保留峰值口径，不换算dense，不推模型速度",
+      "source_url": "https://docs.qualcomm.com/doc/87-A2811-1/87-A2811-1_REV_B_Qualcomm_Dragonwing_IQ10_Series_Platform_Product_Brief.pdf",
+      "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_IQ10_Brief--6e5c94a7707cae4b/document.pdf",
+      "retrieved_at_utc": "2026-11-04T15:45:37.638961+00:00",
+      "exact_excerpt": "B Highlights Unlock Advanced Embodied AI Capabilities Up to 700 TOPS (INT8 sparse) on a dedicated multi-core Qualcomm® Hexagon™ NPU, complemented by a Qualcomm Oryon™ CPU, Qualcomm® Adreno™ GPU, and CV processing. Designed for concurrent AI inference, perception, planning, and control workloads on-device. Deliver Responsive, Real-Time Robot Intelligence Up to 18 Qualcomm Oryon CPU cores deliver a combination of high single-thread and multi-thread performance. The Dragonwing IQ10 is designed to provide more than 5x CPU performance compared to the Dragonwing IQ9. Enable Richer Perception and Environmental",
+      "excerpt_whitespace_normalized": true
+    },
+    {
+      "claim": "IQ10 AA64GB/AD32GB及128GB上限",
+      "source_id": "QC_IQ10_Brief",
+      "location": "第2页Memory及Package",
+      "evidence_type": "事实",
+      "conditions": "Rev.B、1747-ball BGM",
+      "finding": "分别记录订货配置与可寻址上限；封装内存集成仍待手册",
+      "source_url": "https://docs.qualcomm.com/doc/87-A2811-1/87-A2811-1_REV_B_Qualcomm_Dragonwing_IQ10_Series_Platform_Product_Brief.pdf",
+      "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_IQ10_Brief--6e5c94a7707cae4b/document.pdf",
+      "retrieved_at_utc": "2026-11-04T15:45:37.638961+00:00",
+      "exact_excerpt": "up to 1.1 GHz Memory 16 x 16-bit LPDDR5X, ECC, up to 128 GB 64 GB DDR (IQ-10800MD-AA) / 32 GB DDR (IQ-10800MD-AD) Display Support Adreno DPU TX: 4x DP MST4 v2.1 / RX: 2x 4-lane DP v1.4a Camera Qualcomm Spectra ISP 5x CSI2 4-lane (C/D-PHY) 24-bit; 3.9 billion pixels per second, 16 MP max resolution Up to 20 concurrent cameras Video Decode/Encode Decode: 4K@480 / Encode: 4K@240 I/O 1x USB 2.0 + 2x USB 3.2 Gen 2 4x PCIe Gen 5 – 1x16/1x8+1x4+2x2 lanes 2x 10GbE w/ TSN (2x USXGMII) OS Linux and Ubuntu Package FCBGA, 1747-ball BGM, 58.0 x 58.0 x 2.76 mm, 0.40 mm ball pitch Operating Temp. Range (Ambient) -40°C",
+      "excerpt_whitespace_normalized": true
+    },
+    {
+      "claim": "RRD12路GMSL2、64GB与8路CAN",
+      "source_id": "QC_IQ10_RRD",
+      "location": "第2页Sensor/Control/Memory",
+      "evidence_type": "事实",
+      "conditions": "Rev.A；4 native+4 external SPI",
+      "finding": "与SoC20相机、8CAN和IRB10原型分开",
+      "source_url": "https://docs.qualcomm.com/doc/87-A0789-1/87-A0789-1_REV_A_Qualcomm_Dragonwing_IQ10_Robotics_Reference_Design_Product_Brief.pdf",
+      "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_IQ10_RRD--246d5ca4db6b9bc7/document.pdf",
+      "retrieved_at_utc": "2026-11-04T15:45:40.148981+00:00",
+      "exact_excerpt": "- device • Sensor-rich, multi-camera architecture: Supports 12x GMSL2 cameras with native deserializer-to-CSI mapping for synchronized perception and sensor fusion • Deterministic control and robotics I/O: EtherCAT, CAN-FD (native + external), and TSN-ready Ethernet for predictable motion control and real-time system behavior • Multi-domain networking architecture: 2x 10G (main domain) + 2.5G (SAIL) built for network segmentation, network isolation, and reliable data/control paths • Safety-oriented system design: Safety island + domain separation supports functional safety architectures and controlled i",
+      "excerpt_whitespace_normalized": true
+    },
+    {
+      "claim": "IQ9 50/100 dense TOPS与3.8–20W",
+      "source_id": "QC_IQ9_Brief",
+      "location": "第2页SKU、AI、Power",
+      "evidence_type": "厂商宣称",
+      "conditions": "AC/AA分别50/100；SoC-only；位宽未列",
+      "finding": "不计算100/3.8能效；不把SoC功耗当模块功耗",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/87-83840-1_REV_A_Qualcomm_IQ9_Series_Product_Brief.pdf",
+      "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_IQ9_Brief--daea6771d503a523/document.pdf",
+      "retrieved_at_utc": "2026-11-04T15:46:25.222416+00:00",
+      "exact_excerpt": "e cores) AI Performance Hexagon Llama 2 7 Bn, 22 tokens/sec 50 dense TOPS 100 dense TOPS GPU Adreno 663 GPU 530 MHz 800 MHz Memory 6x16 LPDDR5 @ 3200 MHz Addressable Memory Up to 36 GB with inline ECC Audio DSP (LPASS) 1980 MPPS, 7x TDM/I2S 3x High-Speed I2S for Radio FE Display Support Max 48 Mpix and 12 displays with no superframe 5x 4K60, 3x 4K60 + 8x 1080p60, 2x DSI + 2x DP/eDP MST2 + 2x DP/eDP MST4 Video Decode 1x 8K60, 2x 8K30, 4x 4K60, 8x 4K30, 16x 1080p60, 32x 1080p30 Formats: AV1, H.264, H.265, VP9, MPEG2 Video Encode 2x 4K60, 4x 4K30, 8x 1080p60, 16x 1080p30 Formats: H.264, H.265, HEIF/ HEIC C",
+      "excerpt_whitespace_normalized": true
+    },
+    {
+      "claim": "IQ9结温与模块环境温度",
+      "source_id": "QC_IQ9075_Module",
+      "location": "第2页Temperature；与IQ9第2页交叉",
+      "evidence_type": "事实",
+      "conditions": "模块Ambient -40～85；SoC Tj -40～115",
+      "finding": "分别记录温度对象；AEC-Q100不当整机功能安全",
+      "source_url": "https://docs.qualcomm.com/doc/87-97354-1/87-97354-1_REV_C_Qualcomm_Dragonwing_IQ-9075_Module_Product_Brief.pdf",
+      "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_IQ9075_Module--ef8804ab803f95ad/document.pdf",
+      "retrieved_at_utc": "2026-11-04T15:46:27.339621+00:00",
+      "exact_excerpt": "C-Q100 Grade 3 OS Ubuntu, Upstream Linux with Yocto Support Temperature (Ambient) -40 to +85 °C Form Factor 1573 BGA Dimensions 65 x 65 x 4.55 mm / 1.27 mm pitch Weight 33 g Longevity 2038*",
+      "excerpt_whitespace_normalized": true
+    },
+    {
+      "claim": "IQ8 20–40 INT8 dense TOPS",
+      "source_id": "QC_IQ8_Brief",
+      "location": "第2页AI Performance",
+      "evidence_type": "厂商宣称",
+      "conditions": "Rev.C系列范围未逐SKU明确分配",
+      "finding": "不推AC固定20/AA固定40；VPU命名差异保留",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/87-83839-1_REV_A_Qualcomm_IQ8_Series_Product_Brief________.pdf",
+      "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_IQ8_Brief--7d1bfbe24e063ca5/document.pdf",
+      "retrieved_at_utc": "2026-11-04T15:46:30.398309+00:00",
+      "exact_excerpt": "gon V66, 1x Hexagon V73 Up to 8x I2S/PCM/TDM AI Performance Scales 20–40 INT8 TOPS (Dense) Display Support Up to 5 Typical 12 MP – 1x 4K + 2x 1920x1080 Display Interfaces Adreno DPU 1199 1x DSI (4-lane), 1x DP1.4 (MST4) Video Decode/ Encode 4K @ 135 Decode / 4K @ 85 Encode Camera 24b HDR safe ISP with RGB-IR CFA Max 8 MP sensor resolution Up to 12 cameras over 3x 4-lane CSI2 2.4 Gpix/s throughput Peripherals 2x PCIe Ports – 1x 2-lane + 1x 4-lane (Gen 4) 1x 2.5 GbE with TSN (SGMII) 1x QSPI I2C/SPI/UART USB Support 1x USB 3.1 Gen 1, 1x USB 2.0 Storage 1x UFS 3.1 Gen 4 2-lane, 1x 8-bit SDCC5, 1x eMMC 5.1 M",
+      "excerpt_whitespace_normalized": true
+    },
+    {
+      "claim": "RB5 EOL June2026",
+      "source_id": "TC_RB5_Kit",
+      "location": "产品简介EOL及Version/Accessories",
+      "evidence_type": "事实",
+      "conditions": "2026-11-04产品页",
+      "finding": "开发套件EOL与残余商品、SoC旧寿命规划分开",
+      "source_url": "https://www.thundercomm.com/product/qualcomm-robotics-rb5-development-kit/",
+      "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/TC_RB5_Kit--334f80d91fbbc8df/index.html",
+      "retrieved_at_utc": "2026-11-04T15:45:00.459898+00:00",
+      "exact_excerpt": "tiple sensors. RB5 Learning Resources > | RB5 Sample Apps > EOL: June 2026 Applications: Automated Guided VehicleConsumption/Entertainment RobotIndustrial ControlIndustrial RobotSelf-driving Vehicle for logisticsService Robot Enquiry Buy Now Subscribe Product OverviewSpecificationsDocumentsSDK ManagerGet SupportVersion / AccessoriesProduct Overview https://thundercomm.s3.ap-northeast-1.amazonaws.com/video/QUALCOMM_RB5.mp4 Qualcomm® Robotics RB5 Development Kit The world's first 5G and AI-enabled robotics platform https://thundercomm.s3.ap-northeast-1.amazonaws.com/video/RB5-Unboxing%20video.mp4 Qualcomm",
+      "excerpt_whitespace_normalized": true
+    },
+    {
+      "claim": "RB6外扩Cloud AI100",
+      "source_id": "TC_RB6",
+      "location": "Specifications Part/Card及Highlights",
+      "evidence_type": "事实",
+      "conditions": "QRB5165N+Cloud AI100；70–200 INT8 TOPS",
+      "finding": "Standard70TOPS具体商品含70TOPS AIC模块且无5G扩展板，标价2199美元；其他档位卡级规格未取得",
+      "source_url": "https://www.thundercomm.com/product/qualcomm-robotics-rb6-development-kit/",
+      "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/TC_RB6--8e3bca5fb376ca0e/index.html",
+      "retrieved_at_utc": "2026-11-04T15:47:51.043842+00:00",
+      "exact_excerpt": "es Data Types: INT8, INT16, FP16, FP32 Part Part Number(s): QRB5165N, Cloud AI 100 Card Card Types: Dual M.2, Dual M.2 (edge) for more information, please visit：Qualcomm® Robotics RB6 Platform Documents Type Category Document Name Update Date Public Documents Setup Guide Setup Guide - Hardware AIC100 schematics document(#80-PM720-50) - Private Documents Get the Private Documents > SDK Manager Everything You Need to Generate System Image RB6 SDK Manager provides an end-to-end image generation/downloading solution for developers to work with RB6 devices. SDK Manager Version 4.2.0 Qualcomm Robotics SDK Man",
+      "excerpt_whitespace_normalized": true
+    },
+    {
+      "claim": "RB5Gen2标价与实际内存",
+      "source_id": "TC_RB5Gen2",
+      "location": "Specifications及Version/Accessories",
+      "evidence_type": "事实",
+      "conditions": "12GB LPDDR5X+128GB UFS3.1；单套USD645/845",
+      "finding": "不当中国含税价；BT5.3/5.4和PCIe版本保留冲突",
+      "source_url": "https://www.thundercomm.com/product/qualcomm-rb5-gen-2-development-kit/",
+      "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/TC_RB5Gen2--c79fbdd239f83e65/index.html",
+      "retrieved_at_utc": "2026-11-04T15:49:06.912756+00:00",
+      "exact_excerpt": "for on-device and external ultra HD display support Storage 12GB LPDDR5x + 128 GB UFS3.1 Onboard Storage 1 x MicroSD Card Slot Ethernet 1 x 1GbE Ethernet 1 x 2.5GbE Ethernet 1 x 10GbE Ethernet Wireless Bluetooth 5.4 On-Board BT/GNSS Antennas USB 1 x USB 2.0 Micro B (Debug only) 1 x USB 3.0 Type C (ADB Mode, support DP out) 2 x USB 3.0 Type A (Host Mode Only) Display 1 x HDMI 1.4 (Type A - full) on Board Connector 1 x DP 1.4 (Type C - full) on Board Connector Audio 2 x Class-D on Board Speaker Amplifier, WSA8845 2 x speaker connector on Board 1 x on Board PDM MIC on Mainboard 4 x on Board PDM MIC on NAV ",
+      "excerpt_whitespace_normalized": true
+    },
+    {
+      "claim": "RB3Gen2缺货预计2027-01",
+      "source_id": "TC_RB3Gen2",
+      "location": "Version/Accessories Vision Kit",
+      "evidence_type": "厂商宣称",
+      "conditions": "2026-11-04页面、USD750单套Vision",
+      "finding": "预期交期不当已到货；非Lite配置",
+      "source_url": "https://www.thundercomm.com/product/qualcomm-rb3-gen-2/",
+      "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/TC_RB3Gen2--ee69a435194a74a0/index.html",
+      "retrieved_at_utc": "2026-11-04T15:49:46.149312+00:00",
+      "exact_excerpt": "ow-resolution CSI camera Lead Time: Currently out of stock, expected to arrive in January 2027. $750.00 Restocking Qualcomm® RB3 Gen 2 Development Kit: Industrial grade IX to RJ45 Adapter Stock:75 $69.00 Add to cart Optional OV9282 camera + flex Stock:16 $39.00 Add to cart IMX577 Camera Module 12MP Mipi camera module, FOV：120° （D）110°（H）75°（V） Package List: 1 x IMX 577 camera module, 1 x FPC Stock:14 $164.00 Add to cart Heatsink with fan thermal solution for high performance senarios Instructions for installing heatsink.pdf Stock:9914 $49.00 Add to cart Vision Mezz & Bracket assembly Stock:5 $299.00 Add",
+      "excerpt_whitespace_normalized": true
+    },
+    {
+      "claim": "VENTUNO资源与接口复用",
+      "source_id": "Arduino_Ventuno",
+      "location": "技术规格表、Dual brain及PRE-ORDER",
+      "evidence_type": "事实",
+      "conditions": "16GB LPDDR5/64GB eMMC+STM32H5F5；部分CAN noPHY",
+      "finding": "不继承32GBSoC上限、不推硬实时闭环；预售和FAQ冲突保留",
+      "source_url": "https://www.arduino.cc/product-ventuno-q",
+      "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/Arduino_Ventuno--4c389d446211ac9a/index.html",
+      "retrieved_at_utc": "2026-11-04T15:46:47.994827+00:00",
+      "exact_excerpt": "ce – with an outstanding 40 dense TOPS. The Action BrainThe STM32H5F5 microcontroller enables sub-millisecond response to guarantee stable, deterministic control for robotics, motion systems, and industrial interfaces. ENGINE SPECIFICATIONSUncompromising silicon & softwareAn integrated ecosystem mapping edge intelligence directly onto robust, physical actuation units. AI engine4040 dense TopsQualcomm®️ HEXAGON™Memory1616 GB LPDDR5 RAMShared by NPU, CPU, and GPUCPUx8Octa-coreQualcomM® Kryo™ up to 2.36 GHzReal-Time<1<1 msSTM32H5F5 at 250 MHzProcessorDragonwing IQ8MicrocontrollerSTM32H5GraphicsQualcomm® Ad",
+      "excerpt_whitespace_normalized": true
+    },
+    {
+      "claim": "IRB10集成星尘机器人",
+      "source_id": "TC_IRB10_WAIC",
+      "location": "2026-07-19公告正文",
+      "evidence_type": "厂商宣称",
+      "conditions": "WAIC展示/伙伴产品集成",
+      "finding": "不推量产台数/运营ROI",
+      "source_url": "https://www.thundercomm.com/turbox-irb10-waic/",
+      "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/TC_IRB10_WAIC--d87b3aecbca07fa5/index.html",
+      "retrieved_at_utc": "2026-11-04T15:44:45.699778+00:00",
+      "exact_excerpt": "rdust Intelligence’s humanoid robot, marking the platform’s first product-level deployment in the robotics industry. Built on the Qualcomm® Dragonwing™ IQ10 Series, TurboX IRB10 is designed to provide a high-performance computing foundation for humanoid robots, autonomous mobile robots (AMRs), and intelligent service robots. The platform delivers up to 700 TOPS of AI computing performance, combines automotive-grade reliability with powerful edge AI capabilities, and supports mainstream Vision-Language-Action (VLA) models to enable advanced perception, reasoning, decision-making, and motion control. With",
+      "excerpt_whitespace_normalized": true
+    },
+    {
+      "claim": "IQ10像素率约束",
+      "source_id": "QC_IQ10_Brief",
+      "location": "第2页Camera",
+      "evidence_type": "分析",
+      "conditions": "20×16MP×30fps=9.6Gpix/s，官方ISP3.9Gpix/s",
+      "finding": "明确是假设组合约束计算，不当测量",
+      "source_url": "https://docs.qualcomm.com/doc/87-A2811-1/87-A2811-1_REV_B_Qualcomm_Dragonwing_IQ10_Series_Platform_Product_Brief.pdf",
+      "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_IQ10_Brief--6e5c94a7707cae4b/document.pdf",
+      "retrieved_at_utc": "2026-11-04T15:45:37.638961+00:00",
+      "exact_excerpt": "amera Qualcomm Spectra ISP 5x CSI2 4-lane (C/D-PHY) 24-bit; 3.9 billion pixels per second, 16 MP max resolution Up to 20 concurrent cameras Video Decode/Encode Decode: 4K@480 / Encode: 4K@240 I/O 1x USB 2.0 + 2x USB 3.2 Gen 2 4x PCIe Gen 5 – 1x16/1x8+1x4+2x2 lanes 2x 10GbE w/ TSN (2x USXGMII) OS Linux and Ubuntu Package FCBGA, 1747-ball BGM, 58.0 x 58.0 x 2.76 mm, 0.40 mm ball pitch Operating Temp. Range (Ambient) -40°C to 85°C MCU-Like Subsystem 32-bit hexa-core CPU (1x 2.5GbE, 8x CAN-FD, UART/SPI/I2C) Longevity 10+ years** ©2026 Qualcomm Technologies, Inc. and/or its afﬁliated companies. All Rights Re",
+      "excerpt_whitespace_normalized": true
+    },
+    {
+      "claim": "IQ9/IQ8语言生成速度",
+      "source_id": "QC_IQ9_Brief",
+      "location": "第1页与IQ8/模块交叉",
+      "evidence_type": "厂商宣称",
+      "conditions": "Llama2 7B22tok/s，13B12/9tok/s；精度及功率缺失",
+      "finding": "不作同条件比率排名，不当policy-call或伺服频率",
+      "source_url": "https://docs.qualcomm.com/bundle/publicresource/87-83840-1_REV_A_Qualcomm_IQ9_Series_Product_Brief.pdf",
+      "local_original": "01_Compute_Chips/03_Qualcomm/reference_metrial/documents/QC_IQ9_Brief--daea6771d503a523/document.pdf",
+      "retrieved_at_utc": "2026-11-04T15:46:25.222416+00:00",
+      "exact_excerpt": "pporting Llama 2 7-billion-parameter models, and generating 22 tokens per second. Built-in ECC memory adds reliability alongside an MCU-like subsystem dedicated for added safety, while a rich set of wired peripherals and an enterprise-grade Wi-Fi 6E attach round out a flexible design. Materials are subject to change without notice. 87-83840-1 Rev. G Highlights On-Device AI Dragonwing IQ9 Series delivers unmatched AI performance of up to 100 dense TOPS, running Llama 2 13-billion-parameter models, and generating 12 tokens per second, powering many AI and generative AI industrial uses at the edge. Safety ",
+      "excerpt_whitespace_normalized": true
+    }
+  ],
+  "manual_review": {
+    "coverage": "覆盖当前IQ10/IQ9/IQ8、模块、RRD及RB5/RB6/RB5Gen2/RB3Gen2/VENTUNO；制程/功率/版本/量产状态未取得项明确；未扩展02—09",
+    "versions_and_measurements": "核对PDF正文Rev.B/G/C和页脚，URL旧版本不当正文版本；算力精度/稀疏、SKU、Tj/Ambient、电气额定/SoC功耗/整机负载分开；无实机测试",
+    "maturity_and_licenses": "原型、伙伴集成、预订、在售页面及EOL分开；寿命规划不当合同；硬件简报未证明开放设计许可，代码/runtime/权重许可留后续逐栈核验",
+    "figures_opened": "已逐图实际打开8张正文图，并额外查看IQ8架构页；IQ10原PDF自身框图局部遮挡已披露，以同页完整规格文字为准；RB5Gen2原图GB网络写法已披露。其余标题/单位/边界清晰"
+  }
+}

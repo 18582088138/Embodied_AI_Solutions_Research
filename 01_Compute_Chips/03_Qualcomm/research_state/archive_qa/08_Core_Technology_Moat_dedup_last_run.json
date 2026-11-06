@@ -1,0 +1,36 @@
+{
+  "time_utc": "2026-11-04T17:22:19.158294+00:00",
+  "summary": {
+    "complete_static": 17,
+    "partial_static": 5,
+    "failed": 0
+  },
+  "names": [
+    "QC_QNN_API_MD",
+    "QC_QNN_Overview_MD",
+    "QC_QNN_HTP_MD",
+    "QC_QNN_Tools_MD",
+    "ORT_QNN_EP",
+    "NV_TensorRT_Architecture",
+    "QC_IMSDK_QMMF_MD",
+    "QC_IMSDK_Converter_MD",
+    "Linux_DMA_Buf",
+    "QC_IMSDK_Metadata_MD",
+    "QC_QIR_Bridge_MD",
+    "NV_NITROS_Repo",
+    "QC_IQ10_Brief",
+    "QC_IQ10_RRD",
+    "QC_Linux_Architecture_MD",
+    "Arduino_Ventuno",
+    "QC_Gunyah_Repo",
+    "Linux_PREEMPT_RT",
+    "QC_Linux_Release_1_6_MD",
+    "QC_QIR_Upgrade_MD",
+    "HF_QC_Pi05",
+    "QC_Pi05_Demo"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

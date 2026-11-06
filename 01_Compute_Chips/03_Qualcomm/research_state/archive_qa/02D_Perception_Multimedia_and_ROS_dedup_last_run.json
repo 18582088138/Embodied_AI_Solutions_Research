@@ -1,0 +1,24 @@
+{
+  "time_utc": "2026-11-04T16:31:43.258280+00:00",
+  "summary": {
+    "complete_static": 10,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "QC_IMSDK_Overview_MD",
+    "QC_IMSDK_Examples_MD",
+    "QC_IMSDK_Release_MD",
+    "QC_IMSDK_QMMF_MD",
+    "QC_IMSDK_Converter_MD",
+    "QC_IMSDK_QNN_MD",
+    "QC_IMSDK_Detection_MD",
+    "QC_IMSDK_Metadata_MD",
+    "QC_IMSDK_Appsink_MD",
+    "QC_Linux_Release_1_6_MD"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

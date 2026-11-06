@@ -1,0 +1,34 @@
+[
+  {
+    "name": "EC_Machinery",
+    "url": "https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "EU_Machinery_Consolidated",
+    "url": "https://data.europa.eu/eli/reg/2023/1230/2023-06-29",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "EC_CRA",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "EC_AI_Act",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  }
+]

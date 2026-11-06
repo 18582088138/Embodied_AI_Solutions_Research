@@ -1,0 +1,10 @@
+[
+  {
+    "name": "NEURA_4NE1",
+    "url": "https://neura-robotics.com/products/4ne1/",
+    "expected": "any",
+    "used_by": [
+      "06_Product_Review"
+    ]
+  }
+]

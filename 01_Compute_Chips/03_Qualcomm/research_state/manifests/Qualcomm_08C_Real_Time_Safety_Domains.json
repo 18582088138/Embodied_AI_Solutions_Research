@@ -1,0 +1,90 @@
+[
+  {
+    "name": "QC_IQ10_Brief",
+    "url": "https://docs.qualcomm.com/doc/87-A2811-1/87-A2811-1_REV_B_Qualcomm_Dragonwing_IQ10_Series_Platform_Product_Brief.pdf",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Safety_Domains"
+    ]
+  },
+  {
+    "name": "QC_IQ10_RRD",
+    "url": "https://docs.qualcomm.com/doc/87-A0789-1/87-A0789-1_REV_A_Qualcomm_Dragonwing_IQ10_Robotics_Reference_Design_Product_Brief.pdf",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Safety_Domains"
+    ]
+  },
+  {
+    "name": "QC_Linux_Architecture_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-252/topics/qualcomm-linux-sw-overview.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Safety_Domains"
+    ]
+  },
+  {
+    "name": "Arduino_Ventuno",
+    "url": "https://www.arduino.cc/product-ventuno-q",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Safety_Domains"
+    ]
+  },
+  {
+    "name": "QC_Gunyah_Repo",
+    "url": "https://github.com/quic/gunyah-hypervisor",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Safety_Domains"
+    ]
+  },
+  {
+    "name": "Linux_PREEMPT_RT",
+    "url": "https://docs.kernel.org/core-api/real-time/differences.html",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Safety_Domains"
+    ]
+  },
+  {
+    "name": "QC_Linux_Release_1_6_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/RNO-251013063244/topics/ReleaseNote.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Safety_Domains"
+    ]
+  },
+  {
+    "name": "QC_QIR_Upgrade_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/upgrade_individual_sdk.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Safety_Domains"
+    ]
+  },
+  {
+    "name": "QC_QNN_HTP_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/htp_backend.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Safety_Domains"
+    ]
+  },
+  {
+    "name": "ORT_QNN_EP",
+    "url": "https://onnxruntime.ai/docs/execution-providers/QNN-ExecutionProvider.html",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Safety_Domains"
+    ]
+  },
+  {
+    "name": "NV_TensorRT_Architecture",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/architecture-overview.html",
+    "expected": "any",
+    "used_by": [
+      "08C_Real_Time_Safety_Domains"
+    ]
+  }
+]

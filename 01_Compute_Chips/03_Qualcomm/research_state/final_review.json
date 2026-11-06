@@ -1,0 +1,46 @@
+{
+  "time_utc": "2026-11-04T17:37:24.437809+00:00",
+  "outcome": "pass",
+  "research_reports": 18,
+  "prose_han_excluding_tables_headings_links": {
+    "01_Hardware_Platform": 5905,
+    "02_Software_Stack": 1759,
+    "03_Sensor_Integration": 1679,
+    "04_AI_Capabilities": 1710,
+    "05_Simulation_Environment": 1658,
+    "06_Robot_Integration": 1783,
+    "07_Ecosystem": 1546,
+    "08_Core_Technology_Moat": 1563,
+    "09_SWOT_Analysis": 2058,
+    "02A_Linux_BSP_and_Execution_Domains": 1764,
+    "02B_QNN_SNPE_Compilation_and_Runtime": 2091,
+    "02C_AI_Hub_and_Generative_AI_Deployment": 1846,
+    "02D_Perception_Multimedia_and_ROS": 1732,
+    "02E_Robotics_Control_Simulation_and_Operations": 1742,
+    "02F_RB6_Cloud_AI_100_Stack": 1557,
+    "08A_Heterogeneous_Compilation": 1696,
+    "08B_Sensor_Memory_Pipeline": 1844,
+    "08C_Real_Time_Safety_Domains": 1712
+  },
+  "strict_min_prose_han": 1546,
+  "effective_source_names": 93,
+  "dedup_network_requests": 0,
+  "archive_summary": {
+    "complete_static": 57,
+    "partial_static": 36,
+    "failed": 0
+  },
+  "approved_01_sha256": "ddf3c0821762b07dd70894bb204af1779f6d69f4182d2c9129a36c80a2ff945e",
+  "approved_01_unchanged": true,
+  "index_link_errors": [],
+  "baseline": "01_Compute_Chips/03_Qualcomm/research_state/baselines/final_audit_snapshot.json",
+  "baseline_scope": "最终修改完成后的独立快照；不代替逐章开始基线",
+  "historical_qa_preserved": "01_Compute_Chips/03_Qualcomm/reference_metrial/derived/qa/historical_chapter_checks",
+  "amendments": [
+    "07补QLI架构／GA1.6直接引用，旧报告保留为07_Ecosystem_before_final_citation.md",
+    "09总TCO能耗用整机P；ΔP只用于两方案敏感性",
+    "图trace定位到原asset／准确PDF页；关键claim精化",
+    "08A早存基线在07修订前创建，premature旧基线保留；后续已重存并检查，最终用独立审计"
+  ],
+  "limits": "离线结构／归档核验＋人工资料审阅；未自动证明语义正确，未做实机测试"
+}

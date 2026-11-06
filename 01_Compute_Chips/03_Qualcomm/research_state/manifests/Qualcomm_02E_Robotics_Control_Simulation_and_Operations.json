@@ -1,0 +1,122 @@
+[
+  {
+    "name": "QC_QIR_Release_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-260/topics/robotics-sdk-sep-2025.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_QIR_Quickstart_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/quick_start.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_QIR_Build_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qirp_sdk_build.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_QIR_Upgrade_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/upgrade_individual_sdk.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_QIR_APIs_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qir_sdk_api_list.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_QIR_Sample_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qirp_sdk_sample.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_QIR_Development_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/develop_pipeline_application.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_QIR_Camera_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/qrb-ros-camera.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_QIR_Bridge_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/ros-gst-bridge.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_QIR_Pickplace_Simulation_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/simulation_sample_pick_and_place.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_QIR_AMR_Simulation_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/simulation_sample_amr_simple_motion.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_QIR_Follow_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/followme.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_Linux_Architecture_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-252/topics/qualcomm-linux-sw-overview.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_Linux_Release_1_6_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/RNO-251013063244/topics/ReleaseNote.md",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  },
+  {
+    "name": "QC_IQ10_RRD",
+    "url": "https://docs.qualcomm.com/doc/87-A0789-1/87-A0789-1_REV_A_Qualcomm_Dragonwing_IQ10_Robotics_Reference_Design_Product_Brief.pdf",
+    "expected": "any",
+    "used_by": [
+      "02E_Robotics_Control_Simulation_and_Operations"
+    ]
+  }
+]

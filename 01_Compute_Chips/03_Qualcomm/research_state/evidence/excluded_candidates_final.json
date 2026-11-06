@@ -1,0 +1,58 @@
+{
+  "excluded_from_effective_citations": [
+    {
+      "source_id": "EU_Machinery_2023_1230",
+      "registry_status": "complete_static",
+      "reason": "正文为空／仅meta页面，HTTP200或下载器complete不能作为法规原文证据",
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/EU_Machinery_2023_1230--369566ef6c1a4885/index.html",
+      "bytes": 22
+    },
+    {
+      "source_id": "EU_CRA_2024_2847",
+      "registry_status": "complete_static",
+      "reason": "正文为空／仅meta页面，HTTP200或下载器complete不能作为法规原文证据",
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/EU_CRA_2024_2847--76b71f16d4d4f6b6/index.html",
+      "bytes": 22
+    },
+    {
+      "source_id": "EU_AI_Act_2024_1689",
+      "registry_status": "complete_static",
+      "reason": "正文为空／仅meta页面，HTTP200或下载器complete不能作为法规原文证据",
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/EU_AI_Act_2024_1689--74b46d9019c32b1e/index.html",
+      "bytes": 22
+    },
+    {
+      "source_id": "EU_Machinery_PDF",
+      "registry_status": "complete_static",
+      "reason": "正文为空／仅meta页面，HTTP200或下载器complete不能作为法规原文证据",
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/EU_Machinery_PDF--ffa825133a91438e/index.html",
+      "bytes": 22
+    },
+    {
+      "source_id": "EU_CRA_PDF",
+      "registry_status": "complete_static",
+      "reason": "正文为空／仅meta页面，HTTP200或下载器complete不能作为法规原文证据",
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/EU_CRA_PDF--f9e6b32cad99f142/index.html",
+      "bytes": 22
+    },
+    {
+      "source_id": "EU_AI_Act_PDF",
+      "registry_status": "complete_static",
+      "reason": "正文为空／仅meta页面，HTTP200或下载器complete不能作为法规原文证据",
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/EU_AI_Act_PDF--9e50b43da59ce0c1/index.html",
+      "bytes": 22
+    },
+    {
+      "source_id": "EU_Machinery_Consolidated",
+      "registry_status": "complete_static",
+      "reason": "正文为空／仅meta页面，HTTP200或下载器complete不能作为法规原文证据",
+      "file": "01_Compute_Chips/03_Qualcomm/reference_metrial/webpages/EU_Machinery_Consolida--edf3093923ebc0e0/index.html",
+      "bytes": 22
+    }
+  ],
+  "additional_access_gaps": [
+    "Toradex／SECO候选robots或正文取得失败，详见07及registry",
+    "ROS intra-process候选robots限制，未作有效引用"
+  ],
+  "limits": "不修改registry历史HTTP记录；有效引用由各报告trace清单界定"
+}

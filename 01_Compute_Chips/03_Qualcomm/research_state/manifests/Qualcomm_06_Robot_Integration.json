@@ -1,0 +1,66 @@
+[
+  {
+    "name": "TC_IRB10_Launch",
+    "url": "https://www.thundercomm.com/turbox-irb10-launches-at-embedded-world-2026/",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "TC_IRB10_WAIC",
+    "url": "https://www.thundercomm.com/turbox-irb10-waic/",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "QC_IQ10_RRD",
+    "url": "https://docs.qualcomm.com/doc/87-A0789-1/87-A0789-1_REV_A_Qualcomm_Dragonwing_IQ10_Robotics_Reference_Design_Product_Brief.pdf",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NEURA_Qualcomm_Collaboration",
+    "url": "https://neura-robotics.com/neura-qualcomm-collaboration/",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NEURA_4NE1",
+    "url": "https://neura-robotics.com/products/4ne1/",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "Arduino_Ventuno",
+    "url": "https://www.arduino.cc/product-ventuno-q",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "QC_QIR_Follow_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/followme.md",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "QC_IQ10_Brief",
+    "url": "https://docs.qualcomm.com/doc/87-A2811-1/87-A2811-1_REV_B_Qualcomm_Dragonwing_IQ10_Series_Platform_Product_Brief.pdf",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  }
+]

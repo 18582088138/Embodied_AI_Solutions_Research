@@ -1,0 +1,26 @@
+[
+  {
+    "name": "QC_Pi05_Recipe",
+    "url": "https://github.com/qualcomm/ai-hub-models/blob/main/src/qai_hub_models/models/pi05/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_Recipes"
+    ]
+  },
+  {
+    "name": "QC_GR00T_Recipe",
+    "url": "https://github.com/qualcomm/ai-hub-models/blob/main/src/qai_hub_models/models/grootn15/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_Recipes"
+    ]
+  },
+  {
+    "name": "QC_ACT_Recipe",
+    "url": "https://github.com/qualcomm/ai-hub-models/blob/main/src/qai_hub_models/models/act/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_Recipes"
+    ]
+  }
+]

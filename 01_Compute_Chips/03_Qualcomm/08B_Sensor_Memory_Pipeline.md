@@ -1,0 +1,66 @@
+# 08B｜传感器、共享内存与异构流水线：从局部优化到观测年龄
+
+机器人视觉输入的成本包含采集、ISP、颜色转换、resize、张量重排、推理、元数据关联和发布。Qualcomm把片上摄像头服务、GPU转换与推理插件结合，形成可配置流水线；这使应用有机会减少CPU复制并复用已有多媒体处理。优势是否成立要逐段检查物理内存、格式、完成同步和所有权，不能从某个模块支持DMA推出整机零拷贝。本篇聚焦机制和验证，部署命令及发行矩阵见02D，具体传感器模式见03。
+
+## 一、数据与buffer生命周期
+
+qtiqmmfsrc封装QMMF recorder client：NULL→READY打开相机，READY→PAUSED按pad caps创建流，PLAYING开始送帧。QMMF服务分配buffer，插件在收到帧后包装GstBuffer放入pad队列，直到下游不再使用才归还服务。停止、重配和异常处理中，如果某支路持续持有引用，采集pool可能无法回收；增加extra-buffers缓解短暂占用，却同时增加内存并可能允许更长积压。[QC_IMSDK_QMMF_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtiqmmfsrc.md)｜[本地原件](REFERENCES.md#ref-51a36f5ba117e6b1)
+
+这些状态限制也是热重配的边界。caps支持的宽高／帧率范围不证明每个SKU任意并发组合可用；某属性只允许NULL／READY修改，不能在PLAYING任意调整。线程之间传递GstBuffer引用与传递像素副本不同，业务代码若转成CPU数组、绘图或存盘，仍可能创建新buffer。正式集成应记录每个pool的分配器、容量、引用持有者及销毁顺序，不能只检查CPU利用率降低。
+
+qtimlvconverter把视频变成神经网络tensor，公开文档给GPU、ION／DMA分配、IB2C及GstGlesVideoConverter、GstMLBufferPool路径。它执行格式转换和resize，输出另一个tensor buffer是合理行为，不意味着数据没有发生转换或外存写入。FLOAT的归一化公式为(channel−mean)×sigma；属性表又把sigma称divisor，本文按明确公式说明，同时保留命名差异。实际输入应与训练预处理逐通道比对，不依据属性名自行改为除法。[QC_IMSDK_Converter_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtimlvconverter.md)｜[本地原件](REFERENCES.md#ref-382fbcc3e4ba0663)
+
+subpixel-layout决定RGB／BGR类次序，caps涉及UINT8、INT32、FLOAT16、FLOAT32。模型输入dtype与相机像素格式不是同一个概念；NV12不能直接作为RGB归一化tensor使用。engine表存在fcv／gles选项，但说明fcv当前不支持，因此不把“可选项存在”当成可用backend。文档为2026-10-07快照，不自动代表所有旧BSP带相同插件。
+
+## 二、共享内存的四份契约
+
+| 契约 | 需要检查 | 常见错误 | 结果 |
+|---|---|---|---|
+| 可达性 | exporter、importer、DMA映射及权限 | 任意CPU地址都交给设备 | 导入失败或非法访问 |
+| 格式 | plane、offset、stride、layout及量化 | FD相同就认定tensor相同 | 错误图像或输出 |
+| 同步 | producer完成、cache与设备依赖 | 通知发出即读结果 | 读旧数据或竞争 |
+| 所有权 | 引用、复用时机、释放顺序 | 异步提交后立即复用 | 帧混杂、pool耗尽 |
+
+Linux dma-buf提供跨设备共享框架，exporter负责分配和底层存储，importer通过dma_buf_attachment获取自身地址空间的映射。典型生命周期为export／fd→get→attach→map_attachment→DMA访问→unmap→detach→put。FD不是物理地址，也不是视频格式说明；需要额外元信息描述像素布局。此处引自当前kernel.org通用接口，不能把其所有功能及签名直接套到QLI6.6.97的驱动实现。[Linux_DMA_Buf 原文](https://docs.kernel.org/driver-api/dma-buf.html)｜[本地原件](REFERENCES.md#ref-d9042c814da994ac)
+
+dma-fence表示异步硬件操作完成，dma-resv管理buffer的依赖。poll可查看相应fence完成，但文档明确它不替代CPU访问前缓存处理。mmap后CPU访问须用DMA_BUF_IOCTL_SYNC的START／END包围，处理EAGAIN／EINTR重试；该ioctl只提供cache coherency，不阻止其他进程或设备并发访问。应用还要等producer就绪并在END后提交下一段设备工作。把共享、互斥和缓存同步混成一项会产生偶发错误，而这类错误可能在小负载demo中长期不出现。
+
+FD创建需原子设置CLOEXEC，避免多线程中单独fcntl窗口及继承泄漏。共享buffer也意味着授权边界：能读FD的进程可能读取相机内容，不能因数据留本地就认定访问权限安全。故障恢复需逐项清理map、attachment和引用，并确保异步设备已完成或取消，不能只close一个FD后继续复用内存。
+
+## 三、推理及ROS交接
+
+QNN的QnnMem可以注册外部分配内存，HTP共享buffer机制减少边界复制的机会，但后端可接受的分配器、对齐和布局仍需验证。converter输出与QNN输入可共享，不代表camera到converter没有转换；QNN完成回调后才能复用输入输出，而结果还需带源帧身份与时间戳。[QC_QNN_API_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/api_overview.md)｜[本地原件](REFERENCES.md#ref-882106f8ffc3dd51) [QC_QNN_HTP_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/htp_backend.md)｜[本地原件](REFERENCES.md#ref-6979e07b66066d46)
+
+IM SDK官方元数据示例把File、Camera、RTSP三条输入接入转换、推理、后处理、appsink或合成显示；同一应用框架可复用输入与后处理，优点是减少应用层拼接。不过File decode、Camera ISP、RTSP网络抖动有不同等待，不能用一个视频文件benchmark描述机器人相机到动作的P99。[QC_IMSDK_Metadata_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/gst-ai-metadata-parser.md)｜[本地原件](REFERENCES.md#ref-429d624c92606ff7)
+
+![官方图：三种输入与推理元数据流水线](assets/figures/QC_IMSDK_Metadata--6976656e7b5e.png)
+
+图已实际打开核验，包含三条输入和Qualcomm／开源模块图例。它支持插件分工，未标每段buffer是否复制，也不包含关节控制、安全链或多传感器PTP。本文不从线条直连推断零拷贝。
+
+QIR的ros-gst-bridge把GStreamer输出接到ROS topic，官方姿态例仅支持QCS6490，路径包括qtimlvconverter、TFLite外部QNN delegate、pose后处理、metamux／overlay，再rosimagesink。输出绘制图像与输出结构化姿态不是同一接口，应选择任务实际需要的数据，减少无用绘制与大图传输。ROS_DOMAIN_ID只划分发现域，不保证数据零复制或网络安全；两容器间连接也不因为某节点开intra_process而自动零拷贝。[QC_QIR_Bridge_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/ros-gst-bridge.md)｜[本地原件](REFERENCES.md#ref-1b03f7595198d6d4)
+
+## 四、对标与性能成立条件
+
+NVIDIA NITROS作为同类ROS加速交接路线另行定位，其官方文档入口本轮未能归档；官方仓库作为可读证据另存。main快照的Latest Update为2026-09-21，明确NITROS已deprecated，转向ROS 2 Lyrical的rosidl::Buffer与CUDA buffer backend；直接调用旧NITROS API的应用需要源码迁移，节点级兼容与API兼容不能混同。该仓库现主要包含预编译SDK的vendor包及剩余bridge，本文没有取得替代架构的完整接口文档。机制对比应看设备buffer交接与版本迁移，而非比较平台名。普通ROS图像序列化的广泛互通与平台buffer优化有不同代价：前者方便工具与跨机通信，后者要求生产者、消费者和部署环境共同满足格式及内存契约。本文不把未核验的NITROS实现细节当作既定性能，也不给Qualcomm与NVIDIA的带宽或尾延迟排名。[NV_NITROS_Repo 原文](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros)｜[本地原件](REFERENCES.md#ref-593e70f23cdc38f4)
+
+以理想12路1080p30 NV12输入分析，净像素数据为12×1920×1080×30×1.5=1.119744GB/s，不计stride、封包、缓存和写回。若其中一段额外完整复制一次，读写流量理想增加约2.239488GB/s；这只是访存预算，不是IQ10测量。转换为RGB、保存原帧、叠图或多支路后数据量还会变化。共享内存优势可能在输入吞吐占比较高时成立；若模型计算占主导、格式不兼容或跨机发送不可避免，减少一次copy可能对总时延影响有限。
+
+机器人更应看观测年龄：使用时刻减采集时刻。FIFO积压能让吞吐看似稳定但输出持续变旧；丢弃过期帧、限制queue和隔离慢支路可以改善时效，但会牺牲完整记录或某类任务精度。多相机配对又需容忍不同曝光和时间基准，DMA同步只保证设备数据访问顺序，不能同步相机曝光。验证应逐帧记录采集、转换完成、提交、完成、发布和消费，区分不同clock域，再与丢帧、pool占用、复制计数、内存带宽和持续热状态联合观察。
+
+正式放行还应注入相机拔出、推理超时、慢订阅者、buffer导入失败和进程重启。要求不发生use-after-free、引用泄漏或旧观测驱动动作，并验证降级和恢复顺序。本文完成官方数据流和通用同步机制核查，未运行这些测试；公开图与API不能代替整机结果，底层驱动、IB2C二进制和本体SDK许可也需单独取得。
+
+
+## 参考资料与归档边界
+
+采集截止：2026-11-05（Asia/Shanghai）。原件通过项目统一下载器登记；官方 Markdown 是厂商提供的原始正文，保留嵌入 SVG/图片数据。HTML 静态壳不作为正文证据。网页依赖缺失按 metadata 记录；不承诺离线交互或像素一致。未执行硬件刷写、模型推理或机器人测试。
+
+| 登记名称 | 版本／适用边界 | 原始资料 | 本地归档 |
+|---|---|---|---|
+| QC_IMSDK_QMMF_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtiqmmfsrc.md) | [原件](REFERENCES.md#ref-51a36f5ba117e6b1) |
+| QC_IMSDK_Converter_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/qtimlvconverter.md) | [原件](REFERENCES.md#ref-382fbcc3e4ba0663) |
+| Linux_DMA_Buf | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.kernel.org/driver-api/dma-buf.html) | [原件](REFERENCES.md#ref-d9042c814da994ac) |
+| QC_QNN_API_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/api_overview.md) | [原件](REFERENCES.md#ref-882106f8ffc3dd51) |
+| QC_QNN_HTP_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/htp_backend.md) | [原件](REFERENCES.md#ref-6979e07b66066d46) |
+| QC_IMSDK_Metadata_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-50/topics/gst-ai-metadata-parser.md) | [原件](REFERENCES.md#ref-429d624c92606ff7) |
+| QC_QIR_Bridge_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-70022-265/topics/ros-gst-bridge.md) | [原件](REFERENCES.md#ref-1b03f7595198d6d4) |
+| NV_NITROS_Repo | 正文版本及采集时点见本文；未认定为最新 | [原文](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros) | [原件](REFERENCES.md#ref-593e70f23cdc38f4) |

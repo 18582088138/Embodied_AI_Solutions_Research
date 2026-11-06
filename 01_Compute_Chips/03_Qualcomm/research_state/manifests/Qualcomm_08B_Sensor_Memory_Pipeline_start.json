@@ -1,0 +1,10 @@
+[
+  {
+    "name": "NV_NITROS_Repo",
+    "url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros",
+    "expected": "any",
+    "used_by": [
+      "08B_Sensor_Memory_Pipeline"
+    ]
+  }
+]

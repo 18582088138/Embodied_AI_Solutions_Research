@@ -1,0 +1,66 @@
+# 02F RB6与Cloud AI 100：独立加速器的软件交接
+
+## 定位与适用边界
+
+RB6把QRB5165N与双M.2形态的Cloud AI 100组合起来。Thundercomm开发套件页给出70 TOPS，平台介绍中的70—200 TOPS是平台范围，不能把上限填入具体套件，也不能将其与IQ10稀疏INT8或IQ8的dense口径直接相加。这里研究第二块加速器如何获得模型和输入、如何返还结果，以及这条链路与SoC感知链如何接合。套件存在并不证明最新Cloud AI SDK已在它的ARM内核与载板驱动组合上验收。[TC_RB6 原文](https://www.thundercomm.com/product/qualcomm-robotics-rb6-development-kit/)｜[本地原件](REFERENCES.md#ref-8e3bca5fb376ca0e)
+
+本篇采用官方文档固定路径1.21的采集快照。Prerequisites明确允许server-grade x86-64或AArch64，但列出的运行内存最低32GB、编译最低512GB、存储最低1TB是该服务器工作流要求；不能改写成RB6的板载配置，也不能由“AArch64”四个字推导任意ARM机器人支持。它同时要求Python3.10、Linux5.10以上，并列Ubuntu22.04/24.04等系统。这些信息支持构建宿主与机器人目标分离，不支持直接刷入通用发行版。页面的系统清单亦可能随文档维护变化，1.21路径并非完整的软件包哈希锁定。[QC_CloudAI_Prerequisites 原文](https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/Getting-Started/Installation/prerequisites.html)｜[本地原件](REFERENCES.md#ref-8b18e9132ad312e5)
+
+| 交付层 | 对象与输入 | 输出与责任 | 不能跨越的边界 |
+|---|---|---|---|
+| SoC AI | QNN图或DLC、HTP后端 | SoC内推理与感知处理 | 不加载Cloud AI QPC |
+| Apps SDK | ONNX/TF、形状、精度、核心数 | 编译器与QPC | 无需加速卡，不等于目标驱动 |
+| Platform SDK | QPC、驱动、固件、运行库 | 卡上执行与设备健康 | 必须核目标卡及主机组合 |
+| RB6系统集成 | SoC采集结果、主机缓冲 | PCIe传输、后处理、ROS消息 | 未取得本套件1.21验收矩阵 |
+
+## 编译产物是部署边界
+
+官方将Apps SDK和Platform SDK分开：前者提供qaic-compile与开发库，可在无卡的Linux构建机上编译；后者提供目标驱动、固件与运行库。文档说明Linux6.10以上已有内核驱动支持，在使用包含运行库的容器等条件下可不另装Platform SDK。这个限定不能套到QLI1.6的6.6内核，更不能据此删除板级固件。离线编译允许同一兼容QPC部署到多台推理主机，但兼容范围仍受硬件版本、运行库与资源约束。[QC_CloudAI_Installation 原文](https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/Getting-Started/Installation/sdk-installation.html)｜[本地原件](REFERENCES.md#ref-aac13983e5a368ce)
+
+Quickstart提供一条具体链：google/vit-base-patch16-224，PyTorch导出batch1、三通道224×224的ONNX，qaic-compile指定ai100、FP16、四个核心，生成programqpc.bin，qaic.Session读取产物，setup加载，run处理预处理后的numpy输入，再由主机解析分类logits。教程锁出onnx1.16.0、transformers4.46.3、CPU torch2.4.1与x86_64 wheel。这证明示例的接口顺序；它不是RB6相机闭环，更不是VLA执行。示例输出“Egyptian cat”不包含样本集准确率与延迟统计。[QC_CloudAI_Quickstart 原文](https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/Getting-Started/Quick-Start-Guide/index.html)｜[本地原件](REFERENCES.md#ref-628be3a44ce7ab2a)
+
+编译选项揭示性能取决于图的资源分配，而非TOPS标签。-onnx-define-symbol固定符号维度，network-specialization-config为多组形状定义特化；不能把存在dynamic-shape-input当成任意形状即时执行。-aic-num-cores、权重拆分mos、ols与vtcm-working-set-limit-ratio涉及并行与片上工作集；增加核心可能同时增加通信和占用，是否获益需实际profile。-custom-IO-list-file定义输入输出格式，external-quantization、channelwise、rowwise决定量化配置。源码图、权重、校准集、精度规则、形状与编译器SHA应共同形成产物身份。[QC_CloudAI_Compiler 原文](https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/Getting-Started/SDK-Tools/network-compilation/qaic-compile/index.html)｜[本地原件](REFERENCES.md#ref-b972763611e58b33)
+
+同页选项同时出现ai100/ai200、MX格式、多设备分区以及direct-api；尤其direct-api明确不支持Qualcomm AI100。不能因为同一页面出现新硬件选项就赋给RB6上的AI100。FP16转化也不等于量化INT8；需比较误差与任务指标，而不是把降低位宽的理论存储比例当成端到端加速。
+
+## 队列、缓冲和完成的生命周期
+
+Runtime首先创建Context，连接QPC、Program、ExecObj及Queue，并登记日志与严重错误回调。QpcProgramInfo提供核心数、batch、总内存及BufferMappings。每个BufferMapping包含名称、索引、方向、字节数和数据类型；isPartialBufferAllowed由I/O descriptor决定，不能随意给任意输入短缓冲。QBuffer区分heap与DMABUF：heap需要有效指针，DMA需要有效handle，offset和type。这个机制提供可传递的内存描述，但没有证明SoC相机的ION/GBM缓冲可直接映射到外部加速卡。跨设备DMA可达性、IOMMU、cache一致性与fence仍需板级验证。[QC_CloudAI_Runtime 原文](https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/Cpp-API/runtime/index.html)｜[本地原件](REFERENCES.md#ref-4a6796d69a449572)
+
+InferenceSet创建池化InferenceHandle。应用getAvailable取得空闲handle，设置输入输出buffer，submit提交；非阻塞提交后，应用可以用getCompletedId等待对应requestId，也可登记完成回调。读取输出之后必须putCompleted，把handle归还池。漏归还会耗尽availableList，使后续getAvailable阻塞。动作链如果只监控NPU忙碌度而忽视池耗尽，会把软件资源泄漏误诊为算力不足。
+
+![官方图：InferenceSet对象及完成归还时序](assets/figures/QC_CloudAI_InferenceSet--99ccfdbe60d4.png)
+
+官方时序图清楚展示每个activation有自己的Queue，setSize循环创建ExecObj和handle，并在读取输出后归还。已实际打开检查，图内文字和底部归还步骤完整。图支持对象生命周期与异步提交的结论，不包含真实PCIe时延、机器人消息时间戳或电机响应。
+
+NumActivations是设备网络实例数，SetSize是每实例可排队的I/O缓冲组数；文档建议SetSize在2—10间调优。增大它可隐藏传输和执行间隙，也可能提高观测等待时间。InferenceSetGroup把多个模型共享同组资源，同一时刻只允许一个InferenceSet在设备上运行，且每个NumActivations必须为1。它解决资源超订阅，不能解释成多个模型同时满速运行。版本与模型常量占用必须先确定，再决定任务间公平性与背压。
+
+| API／参数 | 明确机制 | 机器人集成动作 |
+|---|---|---|
+| getAvailable/putCompleted | 池获取与归还 | 跟踪占用、回调异常与泄漏 |
+| submit/requestId | 非阻塞提交与结果关联 | 保存采集时间、序号和模型版本 |
+| waitForCompletion | timeoutUs默认0等待完成 | 另建有界超时与动作失效契约 |
+| dataPathTimeoutMs/retries | 运行时等待与重试 | 检查重复请求、旧结果丢弃 |
+| InferenceSetGroup | 组内推理串行化 | 测量策略阻塞及优先级需求 |
+
+## 验证、运维与许可
+
+文档要求驱动最优性能使用32个MSI，单MSI也可工作但性能下降。应在目标上核PCIe枚举、MSI数量、内核驱动与固件版本，而不是抄服务器BIOS的VT-d操作到ARM板。当前未取得RB6 BSP包、平台驱动源码commit和厂商支持附件，因此保留实际绑定未知。官方Quickstart的BSD-3-Clause-Clear仅覆盖该示例代码；编译器、固件、驱动各自的许可与分发条件需检查安装包，ViT权重及图像数据也另核，不被教程许可覆盖。
+
+可复建验证先在授权构建机冻结compiler --version-extended、原ONNX哈希、配置和产物哈希，再在目标记录卡身份、driver/firmware、运行库及主机资源。固定同一图分别测单请求和不同SetSize，报告预处理、主机到卡传输、执行、后处理及输出年龄；加入热稳定、多模型争用、错误回调和池耗尽恢复。把结果送入ROS时需保持frame和原始采集时间，结果超龄时下游应拒收；停止上层提交不自动停止底盘。这套计划目前是分析提出的验证方法，没有在本研究中执行。
+
+与集成SoC HTP相比，外部卡路线允许不同内存与计算资源组合，却增加传输、独立驱动和生命周期管理。与其他外部推理卡的机制比较，应统一模型、精度、功率和PCIe条件；本篇没有同条件实测，因此不输出加速或能效排名。RB6能否值得采用，最终取决于目标并发任务的持续吞吐、观测年龄和完整维护成本。
+
+
+## 参考资料与归档边界
+
+采集截止：2026-11-05（Asia/Shanghai）。原件通过项目统一下载器登记；官方 Markdown 是厂商提供的原始正文，保留嵌入 SVG/图片数据。HTML 静态壳不作为正文证据。网页依赖缺失按 metadata 记录；不承诺离线交互或像素一致。未执行硬件刷写、模型推理或机器人测试。
+
+| 登记名称 | 版本／适用边界 | 原始资料 | 本地归档 |
+|---|---|---|---|
+| TC_RB6 | 正文版本及采集时点见本文；未认定为最新 | [原文](https://www.thundercomm.com/product/qualcomm-robotics-rb6-development-kit/) | [原件](REFERENCES.md#ref-8e3bca5fb376ca0e) |
+| QC_CloudAI_Prerequisites | 正文版本及采集时点见本文；未认定为最新 | [原文](https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/Getting-Started/Installation/prerequisites.html) | [原件](REFERENCES.md#ref-8b18e9132ad312e5) |
+| QC_CloudAI_Installation | 正文版本及采集时点见本文；未认定为最新 | [原文](https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/Getting-Started/Installation/sdk-installation.html) | [原件](REFERENCES.md#ref-aac13983e5a368ce) |
+| QC_CloudAI_Quickstart | 正文版本及采集时点见本文；未认定为最新 | [原文](https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/Getting-Started/Quick-Start-Guide/index.html) | [原件](REFERENCES.md#ref-628be3a44ce7ab2a) |
+| QC_CloudAI_Compiler | 正文版本及采集时点见本文；未认定为最新 | [原文](https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/Getting-Started/SDK-Tools/network-compilation/qaic-compile/index.html) | [原件](REFERENCES.md#ref-b972763611e58b33) |
+| QC_CloudAI_Runtime | 正文版本及采集时点见本文；未认定为最新 | [原文](https://qualcomm.github.io/cloud-ai-sdk-pages/1.21/Cpp-API/runtime/index.html) | [原件](REFERENCES.md#ref-4a6796d69a449572) |

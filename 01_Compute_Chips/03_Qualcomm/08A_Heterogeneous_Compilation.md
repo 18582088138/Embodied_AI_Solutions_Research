@@ -1,0 +1,63 @@
+# 08A｜异构编译与部署：数值、内存和缓存构成的工程优势
+
+Qualcomm的核心部署能力不只是Hexagon峰值算力，而是把训练图映射成目标backend可执行的图、量化编码、内存计划与序列化产物。它能减少CPU承担的密集计算和重复初始化，但优势取决于算子、shape、校准、硬件架构及并发工作负载。本篇在02B流程基础上深入具体优化的成立条件，并以ONNX Runtime QNN EP和TensorRT官方材料检查上层集成与迁移边界。
+
+## 一、执行图与优化的决策位置
+
+QNN低层以Backend、Device、Context、Graph和Tensor管理资源。模型经过converter生成图构建代码与权重，由backend在finalize时形成优化图，再序列化context。finalize之后不能任意加入节点；因此需要动态业务状态时，应用必须通过输入张量、受支持的图机制或预先构建的多个图表达。它不会自动理解机器人“本帧已经过期”，异步完成通知只表明计算结束，结果是否还可使用由上层决定。[QC_QNN_API_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/api_overview.md)｜[本地原件](REFERENCES.md#ref-882106f8ffc3dd51) [QC_QNN_Overview_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/QNN_general_overview.md)｜[本地原件](REFERENCES.md#ref-6c7fd9dcbcbda438)
+
+HTP使用HVX、HMX及局部VTCM等资源，重算、切片和数据搬运由图计划安排。官方文档解释，大算子为了适配VTCM可能分成很多小算子，prepared context还保存调度和DDR／VTCM换入换出信息，因此编译后的文件可能大于原始权重。文中的30到300000算子、1.2KB到12MB是机制举例，不是某个机器人模型实测。分析：编译产物大小、运行峰值内存和稳态时延分别测量，不能只以ONNX文件大小估计内存。[QC_QNN_HTP_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/htp_backend.md)｜[本地原件](REFERENCES.md#ref-6979e07b66066d46)
+
+## 二、量化不是统一降到最低位宽
+
+以线性仿射量化作分析示意，实数近似为scale×(q−zero_point)，量化会同时引入舍入与范围截断误差。误差取决于校准分布和算子位置，不能由INT8标签直接推算抓取成功率。QNN／SNPE转换器生成encoding，应用输入布局、归一化和encoding必须匹配；现场光照、相机曝光、物体材质与训练集偏离时，应检查校准覆盖和误差传播。[QC_QNN_Tools_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/general_tools.md)｜[本地原件](REFERENCES.md#ref-f27afc3534f09247)
+
+ORT的QNN EP文档提供qnn_preprocess_model、get_qnn_qdq_config与quantize流程，例子使用uint16激活和uint8权重。文档明确警告随机校准数据很可能产生不准确模型，因此该代码只说明API，不适合作为真实策略校准集。选择性升高精度可保留少数敏感区域的精度，但区域边界需要DQ→Q转换。init_overrides对特定tensor升为QUInt16时，工具还要修复分支的消费者类型；同一输出可被不同精度分支消费，不能只修改一个dtype字段。[ORT_QNN_EP 原文](https://onnxruntime.ai/docs/execution-providers/QNN-ExecutionProvider.html)｜[本地原件](REFERENCES.md#ref-27112b5d3b433cdd)
+
+![官方图：混合精度区域与QDQ边界](assets/figures/ORT_QNN_MixedPrecision--c574b9fd6795.png)
+
+官方图已实际打开核验。左侧为uint8／uint16激活区域，右侧解释边界的DQ、Q与浮点语义。图支持混合精度区域和编码转换的读法；图中的f32语义节点不证明目标HTP逐节点回CPU执行，也未给实测收益。应以最终分区和backend profile检查实际执行。
+
+HTP配置进一步揭示精度和融合的条件。默认卷积与ReLU折叠，如果ReLU输出量化参数不能准确反映范围，文档建议关闭折叠以保留encoding；短深度卷积的非对称权重可能需关闭HMX路径以保证准确性；高精度Sigmoid用FP16 HVX实现，可能增加延迟。这意味着优化开关不是越多越快，必须检查任务误差。WEIGHTS_PACKING把落在4bit范围的8bit权重压入context，标实验Beta且明确不保证性能提升；减少磁盘大小不等于4bit算术或四倍吞吐。[QC_QNN_HTP_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/htp_backend.md)｜[本地原件](REFERENCES.md#ref-6979e07b66066d46)
+
+## 三、共享权重、局部内存与并发的代价
+
+| 机制 | 痛点与收益 | 明确条件 | 失效／需要观测 |
+|---|---|---|---|
+| 离线context | 减少构图与优化时间 | backend、架构与包兼容 | 冷启动加载、版本失配 |
+| 混合精度 | 限定高精度区域成本 | QDQ与算子支持、有效校准 | 边界转换、任务误差 |
+| 权重共享 | 多图重复常量内存 | HTP文档V73起、同PD等 | 旧binary须重生、并发工作区 |
+| VTCM／线程配置 | 减少外存、保留资源 | 正确SoC能力与图计划 | spill-fill、排队、其他图干扰 |
+| 多线程／batch | 隐藏RPC、复用权重 | 可并行工作与buffer | batch等待、尾延迟和峰值RAM |
+
+HTP权重共享要求Hexagon V73及以后、同一process domain，不能跨PD、不同VTCM大小或SoC共享；每context同时共享图数还有64的限制。已生成binary不会自动获得共享收益，须重新生成。共享常量不消除每次执行的激活、工作区和输入输出，不能按图数等比例减少总RAM。文档中V81 Android的CONCURRENT_OPTIMIZATION共享spill-fill与VTCM backup，又是特定平台条件，不外推到所有Linux Dragonwing。[QC_QNN_HTP_MD 原文](https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/htp_backend.md)｜[本地原件](REFERENCES.md#ref-6979e07b66066d46)
+
+vtcm_mb、hvx_threads、图优化级别和性能模式改变准备与运行的资源需求。给某图更多线程可加速该图，也可能让另一条感知流等待；burst的短时延不代表机器人持续热稳定。HTP的graph switching／multi-graph switching仍标Beta，切换图不支持互相并发，内存压力可驱逐保留图。因此多模型部署应比较常驻和切换的启动抖动、资源等待、spill及观测年龄，而不是只找最高平均吞吐。
+
+## 四、上层EP：自动回退、shape与错误处理
+
+ORT QNN EP将ONNX图映射为QNN图，上层可以把不支持节点留在CPU EP；session.disable_cpu_ep_fallback=1用于检查是否全图支持。这个分区行为属于ORT，不能归因QNN低层本身。共享内存allocator默认关闭，启用需要libcdsprpc；offload_graph_io_quantization默认可把图I/O量化交给CPU，说明“NPU执行”标签仍可能包含CPU工作。[ORT_QNN_EP 原文](https://onnxruntime.ai/docs/execution-providers/QNN-ExecutionProvider.html)｜[本地原件](REFERENCES.md#ref-27112b5d3b433cdd)
+
+文档的Model requirements要求固定dynamic shapes，不支持Loops／Ifs；与此同时QNN底层的variable batch有整数倍等限制。低层具备某能力不代表EP暴露同能力。ORT页面还保留“HTP只支持量化模型”的教程段落，并列enable_htp_fp16_precision选项，说明页面有不同版本功能叙述；需锁定ORT commit、QAIRT包、backend、模型及目标SoC实际验证，不能泛称所有HTP只执行整数或任意FP32都可直接跑。其测试声明含QNN2.22.x与SC8280／SM8350／Snapdragon X，不足以承诺IQ10 Linux组合。
+
+缓存启用ep.context_enable时，session创建即可生成ctx.onnx，不要求完成推理；这不证明精度或目标设备运行成功。默认外部bin须与wrapper共同部署，修改文件名可能破坏引用；embed模式把内容纳入ONNX仍不解除架构绑定。HTP SSR时返回ENGINE_ERROR，上层需要重建session；机器人同时必须废弃旧动作并进入本体定义的降级状态，不能静默重试后继续用老观测。
+
+## 五、同类机制与可复建验证
+
+TensorRT同样通过ONNX入口和平台优化产物降低运行成本，支持矩阵仍要求逐算子及属性核验；Torch-TensorRT由Torch执行剩余子图，类似“高层分区”问题。其API语义版本兼容不默认延伸到plan／timing cache；可兼容engine有特定条件，否则序列化版本需匹配。QNN context也存在架构和配置绑定，因此迁移资产应是训练模型、预处理与校准集，以及任务契约，而不是缓存文件。没有相同模型、输入、精度和功率测量，本文不给两个平台加速排名。[NV_TensorRT_Architecture 原文](https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/architecture-overview.html)｜[本地原件](REFERENCES.md#ref-d4c513c2460d0b2a)
+
+验证建议分四步：锁定模型hash和真实校准／留出数据；检查导出算子、QDQ与分区；在目标板比对张量误差及任务指标；再将相机、ROS与其他模型并发加入，记录cold load、warmup、P50／P99、资源等待、峰值RAM和持续整机功率。optrace可观察搬运、同步和资源占用，版本要求QAIRT2.39及以后时须满足实际包组合。本文完成文献和API核查，未安装这些runtime、未测模型。QNN工具与二进制的再分发、OpPackage／QHPI维护、模型权重与训练数据许可仍需分别确认，不能以开源EP覆盖底层商业授权。
+
+
+## 参考资料与归档边界
+
+采集截止：2026-11-05（Asia/Shanghai）。原件通过项目统一下载器登记；官方 Markdown 是厂商提供的原始正文，保留嵌入 SVG/图片数据。HTML 静态壳不作为正文证据。网页依赖缺失按 metadata 记录；不承诺离线交互或像素一致。未执行硬件刷写、模型推理或机器人测试。
+
+| 登记名称 | 版本／适用边界 | 原始资料 | 本地归档 |
+|---|---|---|---|
+| QC_QNN_API_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/api_overview.md) | [原件](REFERENCES.md#ref-882106f8ffc3dd51) |
+| QC_QNN_Overview_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/QNN_general_overview.md) | [原件](REFERENCES.md#ref-6c7fd9dcbcbda438) |
+| QC_QNN_HTP_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/htp_backend.md) | [原件](REFERENCES.md#ref-6979e07b66066d46) |
+| QC_QNN_Tools_MD | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/general_tools.md) | [原件](REFERENCES.md#ref-f27afc3534f09247) |
+| ORT_QNN_EP | 正文版本及采集时点见本文；未认定为最新 | [原文](https://onnxruntime.ai/docs/execution-providers/QNN-ExecutionProvider.html) | [原件](REFERENCES.md#ref-27112b5d3b433cdd) |
+| NV_TensorRT_Architecture | 正文版本及采集时点见本文；未认定为最新 | [原文](https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/architecture-overview.html) | [原件](REFERENCES.md#ref-d4c513c2460d0b2a) |

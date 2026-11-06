@@ -1,0 +1,66 @@
+[
+  {
+    "name": "QC_AIHub_Models_Repo",
+    "url": "https://github.com/qualcomm/ai-hub-models",
+    "expected": "any",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  },
+  {
+    "name": "QC_Genie_Introduction_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/introduction.md",
+    "expected": "any",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  },
+  {
+    "name": "QC_Genie_Use_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/how_to_use_genie.md",
+    "expected": "any",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  },
+  {
+    "name": "QC_Genie_Dialog_Config_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/dialog_json.md",
+    "expected": "any",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  },
+  {
+    "name": "QC_Genie_Engine_Config_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/engine_json.md",
+    "expected": "any",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  },
+  {
+    "name": "QC_Genie_Library_Example_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/source_code_examples_library.md",
+    "expected": "any",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  },
+  {
+    "name": "QC_Genie_Profile_Config_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/profile_json.md",
+    "expected": "any",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  },
+  {
+    "name": "QC_QNN_HTP_MD",
+    "url": "https://docs.qualcomm.com/bundle/publicresource/80-63442-10/topics/htp_backend.md",
+    "expected": "any",
+    "used_by": [
+      "02C_AI_Hub_and_Generative_AI_Deployment"
+    ]
+  }
+]

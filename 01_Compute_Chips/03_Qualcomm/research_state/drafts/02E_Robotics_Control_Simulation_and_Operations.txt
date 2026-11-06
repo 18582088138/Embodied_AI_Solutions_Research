@@ -1,0 +1,60 @@
+# 02E QIR SDK、ROS 控制、仿真交接与运维
+
+## 交付组成与可复建版本
+
+QIR SDK 是 Qualcomm Linux 上的机器人应用集成层，提供预构建 robotics image、runtime／交叉编译 SDK、Yocto robotics eSDK 及样例。它把 ROS 节点、相机、推理和平台监测组织起来，降低从裸 BSP 创建应用的集成工作；不等于提供所有本体的运动驱动、学习训练和功能安全系统。QIR2.4.0 标题为2025年9月，Last Published 为2025-11-03；两者是版本发布与文档更新时间，不能混为当前最新包。@QC_QIR_Release_MD@
+
+发行清单绑定 QLI1.6-Ver1.2.1、robotics-sdk-1.2 manifest、extras r1.0_00107.0，并写 firmware r1.0_00106.0。Quickstart 的包名和 /etc/os-release 示例为 qcom-robotics-ros2-jazzy，host Docker 是 Ubuntu24.04/Jazzy；02A 通用构建页的 Humble distro 示例不能覆盖这一具体交付组合。固件标号又与 QLI 独立发行说明不同，应保留冲突并索取一套正式兼容清单。当前已取得的是公开开发说明，未下载大型预构建 image／SDK，也未确认目标机器实装版本。@QC_QIR_Quickstart_MD@
+
+| 交付／范围 | 已核验内容 | 不能推导 |
+|---|---|---|
+| Robotics image | QLI、ROS core 与 QIR 预装 | 全部载板和本体免适配 |
+| QIR SDK | runtime package 与交叉编译 toolchain | 完整源码和任意商用分发权 |
+| Robotics eSDK | 构建机器人 image 的 Yocto toolchain | 与其他 SDK 编译器自动兼容 |
+| RB3Gen2 Vision／IQ9075 | 2.4公开预构建入口 | IQ10相同包可直接运行 |
+| IQ8 Beta | 本版本无预构建；构建页给自行编译方向 | 样例矩阵 Y 就等于现成镜像 |
+
+源码同步有 QSC Launcher、QSC-CLI、GitHub workflow、Docker 四条路线，官方建议复杂修改时才重建 SDK。host 要求 x86四核、至少450GB可用磁盘、32GB swap、16GB RAM，这是开发主机需求，不是机器人计算模组规格。程序改动应保存 MACHINE、DISTRO、manifest、各 layer commit、交叉编译器、模型产物与 launch 参数。升级页只列特定 IM SDK tag 与 QAIRT2.38.0.250901，正文却写“QIR SDK1.5”，与2.4文档包有冲突，因此仅作为依赖提示，不认可自动兼容的完整证明。@QC_QIR_Build_MD@ @QC_QIR_Upgrade_MD@
+
+## API 与 pipeline 的真实连接
+
+QIR 的 API 表主要是 ROS topic／service 契约：/scan 是 LaserScan，/imu 是 Imu，系统 monitor 分别发布 CPU、memory、disk、swap、temperature、battery 和静态信息；AI 节点有图像可视化输出，也有 HRNet 的 PolygonStamped 关键点。图像上画出姿态与发布可计算关键点不是同一个接口；Depth map 的彩色可视化也不能直接当经过标定的米制距离。目录曾把雷达、IMU、monitor 描述为 RGB/depth，属于明显复制错误，本文采用独立 API 页和对应样例，不沿用这一叙述。@QC_QIR_APIs_MD@ @QC_QIR_Sample_MD@
+
+开发指南给出完整 NV12→RGB888 示例：camera 发 /cam0_stream1，conversion 订阅 /image_raw，launch 用 remapping 接起来，输出 /image。源码配置包括 camera_id、stream_size、分辨率与fps、camera_info_path，以及 conversion_type 和 latency_fps_test。它显示节点组合的价值，也证明“名字都存在”并不足够，topic、encoding、标定和参数必须匹配。源码示例为两个独立 ComposableNodeContainer，只在 converter 标 use_intra_process_comms=True；分析：该标志不能证明跨容器零拷贝，需检查 middleware/shared-memory 与实际分配路径。@QC_QIR_Development_MD@
+
+qrb_ros_camera 声称 camera-server 输出支持零拷贝，限制 NV12、不能动态修改图像尺寸；页面 topic表写 /image 和 /image_info，命令又 echo /cam0_stream1，开发示例给 stream 名映射。应以目标 launch 和 ros2 topic 实际输出锁定名称，不把通用 API 表当所有版本的固定命名。样例支持矩阵只在 RB3Gen2 Custom 标相机 Y，而具体页又列 IQ9075 摄像头，证据存在范围冲突；不能自行合并成两板统一支持。本文未取得零拷贝源码、时间戳映射和实测降低多少毫秒。@QC_QIR_Camera_MD@
+
+ROS/GStreamer bridge 采用第三方开源项目 BrettRD/ros-gst-bridge 的集成，厂商指南给 rosimagesink、rostextsrc/rostextsink 和可定制 topics。QCS6490 专属 pose 案例把 waylandsink 替换成 rosimagesink，使用 HRNet TFLite、QNN delegate HTP、1280×720@30的命令配置。这个“30”是请求帧率，不是端到端30Hz证明；命令中的旧 qtimlvpose/overlay 又与2026 IM SDK统一 postprocess 迁移不同，应按对应包更新。图像输出桥和结构化 detection bridge 也不能互相替代。@QC_QIR_Bridge_MD@
+
+## 仿真与运动控制的执行域
+
+@FIG:QC_QIR_Pickplace.png@
+
+官方图将 pick/place 节点、ARM MoveIt 配置与 MoveIt2 放在 Device，Gazebo 放在 Host Docker；这说明本样例是在目标板执行上层应用，在主机进行物理仿真，不支持“Gazebo全栈已在SoC上加速”的结论。图从含 foreignObject 的 SVG 渲染，保留模块图例，已实际打开核验。@QC_QIR_Pickplace_Simulation_MD@
+
+AMR simple_motion 在目标运行 Python 节点，向 /qrb_robot_base/cmd_vel 发布 geometry_msgs/Twist；Ubuntu24.04 host 运行 qrb_ros_sim_gazebo。两端需网络可达和一致 ROS_DOMAIN_ID。Quickstart 指向 qrb_ros_simulation commit60f46e264429297eb1dcf9b757efaa735ac545a0，却以 git checkout -b 后接哈希作示例；分析：该写法创建哈希名分支，不足以证明检出该commit，复建时必须验证 HEAD。仿真时间 use_sim_time、ROS discovery 和消息 delay 都会影响回放可重复性。@QC_QIR_AMR_Simulation_MD@
+
+Pick/place 使用 MoveIt2规划、Gazebo物理、host controller manager；目标启动 move_group和应用。契约包括 JointState、URDF/SRDF、手爪与机械臂 controller state。ROS controller 消息类型在页面存在拼写与版本疑点，不能据此生成可直接编译的接口代码，应以实际 ROS distro 的接口定义为准。真实本体适配需要关节顺序、单位、限位、反馈、轨迹执行与通信超时；样例出现“开始规划”的日志，不证明真实机械臂成功抓取，更不提供安全响应或 WCET。
+
+## 跟随案例的范围、许可与安全边界
+
+follow_me 使用 Orbbec RGB、depth和camera_info，计算跟踪与运动指令，真实样例仅支持人，目录要求 RB3Gen2 Custom、Gemini335L和自备移动本体。说明页对 Qualcomm robot_base／mini 给配置，第三方底盘必须自行适配。它不提供通用客户本体 SDK。源码构建明确只对 authorized 用户开放，不能因其他 QRB ROS 仓库公开就认定 follow_me 全部开源。@QC_QIR_Follow_MD@
+
+launch 参数包含深度注册、软件对齐、frame同步、host/device time domain及多种滤波，本文只把它们当可配置机制，未验证在目标摄像头上的同步精度。示例还允许未连接超声波时关闭 ultra_enable，属于演示接线条件，不是部署建议；本文没有执行。真实跟随需独立验证丢人、旧深度、网络中断和模型错误时的停止规则，Linux上的 /cmd_vel 发布频率不能替代MCU的伺服周期。外部安全控制器、停止链和认证需具体本体证据。
+
+## OTA、监测、数据与部署流程
+
+QIR样例用 colcon build、打包lib/share、scp并解压到/usr，这是开发部署步骤，不是原子更新／回退系统。构建和版本资产要同时保存模型、参数、标定、URDF/SRDF、地图与固件；回退只替换程序而保留不兼容参数会失败。系统monitor可作为资源采集入口，尚未取得统一机队调度、训练数据版本化、云数据闭环与机器人策略灰度控制的完整官方交付。不能把“支持ROS”推导成已经具备这些MLOps能力。
+
+QLI公开说明从GA1.3开始支持基于OSTree的OTA，1.3→1.4需要分区布局准备；1.6独立发行说明不支持新HLOS搭旧NonHLOS，部分6490/5430 eMMC从1.5→1.6没有OTA路径。这些旧版约束仅适用于其所述目标，不能直接套IQ10。IQ10参考设计宣称训练→仿真→部署DevOps，但本章未取得对应软件包、更新协议和回退报告，故标厂商能力方向。@QC_Linux_Architecture_MD@ @QC_Linux_Release_1_6_MD@ @QC_IQ10_RRD@
+
+分析：可复建测试从录像和关节状态回放开始，确认ROS输出数值、frame和时间年龄；再在主机仿真连接目标规划；最后替换真实底盘接口，核异常、重启、参数回退和持续热负荷。训练与仿真使用外部主机的资产可以迁移，camera-server、专有模型运行库和底盘控制插件需要平台适配。没有同条件测量，本章只比较“节点组合＋目标执行＋外部仿真”的机制，不输出比其他品牌开发效率高多少的结论。厂商文档中的BSD-3-Clause-Clear代码头仅覆盖该示例，创建包命令中的Apache-2.0标签也不能替整个SDK授权。
+
+| 放行对象 | 已有证据 | 仍需验证／交付 |
+|---|---|---|
+| 摄像头与ROS | API/launch/remap、NV12限制 | 时钟映射、跨进程buffer、标定 |
+| 上层运动 | Twist、MoveIt、URDF/SRDF、仿真样例 | 实体执行接口、单位、停止响应 |
+| SDK升级 | 指定tag、编译和部署步骤 | 整套兼容matrix、签名、回退 |
+| 运维与学习 | monitor、OSTree方向、DevOps宣称 | 机队策略／训练数据闭环与实测 |
+
+本文完成公开文档、配置源码和图的审阅，没有安装SDK、运行仿真、操作机器人或测量控制周期。IQ10最终ROS/RTOS版本、EtherCAT与MCU动作契约、训练与部署套件、二进制许可、真实任务成功率仍是需要取得的交付物。

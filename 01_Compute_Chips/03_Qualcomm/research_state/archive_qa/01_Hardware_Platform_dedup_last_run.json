@@ -1,0 +1,28 @@
+{
+  "time_utc": "2026-11-04T15:58:30.087223+00:00",
+  "summary": {
+    "complete_static": 7,
+    "partial_static": 7,
+    "failed": 0
+  },
+  "names": [
+    "QC_IQ10_Brief",
+    "QC_IQ10_RRD",
+    "QC_IQ9_Brief",
+    "QC_IQ9075_Module",
+    "QC_IQ8_Brief",
+    "QC_Selector",
+    "QC_Quickref",
+    "TC_IRB10_Launch",
+    "TC_IRB10_WAIC",
+    "TC_RB5_Kit",
+    "TC_RB6",
+    "TC_RB5Gen2",
+    "TC_RB3Gen2",
+    "Arduino_Ventuno"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}
