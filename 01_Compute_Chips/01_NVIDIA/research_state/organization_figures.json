@@ -1,0 +1,428 @@
+[
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/NVIDIA_Official_Figure_Thor_SoC--a042da817457.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/figures/NVIDIA_Official_Figure_Thor_SoC.png",
+    "sha256": "a042da81745741ed31465ac966a0050e45e119281b324f736fdcfd63db1de75b"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/NVIDIA_Official_Table_Thor_Compute--c32aa4127ea4.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/figures/NVIDIA_Official_Table_Thor_Compute.png",
+    "sha256": "c32aa4127ea4389282dfa786e8e5287249a02d09e0b89fb484fd0a80aa307353"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/280750f293d8a603f9bb3181--f563c7d7aefd.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/JetPack_Page--c9b618c904201b47/assets/images/280750f293d8a603f9bb3181.png",
+    "sha256": "f563c7d7aefdc237be9cc7e531647580b073cbbbb7432a2f371a2679482ed5b0"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/5e6268aa62a2b30f1b1cb6f2--49386753c3c9.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_MODEL--ff852ad994d3a602/assets/images/5e6268aa62a2b30f1b1cb6f2.png",
+    "sha256": "49386753c3c91923496d6857b56417d3a0702cecff6ecf9ea7879795ccf7fd64"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/914f5f07380822540b4732bf--56b86ffca426.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDNN_GRAPH--e8f79ff0d7d9f726/assets/images/914f5f07380822540b4732bf.png",
+    "sha256": "56b86ffca426826afd7028674830daef2bcaaa695ff85bd0eef45ae71e00205b"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/TRT_WORK_official--6923c240fc03.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/figures/software_stack/TRT_WORK_official.png",
+    "sha256": "6923c240fc03c4b601f8b3e96e5a18d9b0b8502ee0721403a2d68f619c870323"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/838ee079b220c6c164075196--9f3683dcc159.jpg",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_VPI_KLT--602ab2cc034ea771/assets/images/838ee079b220c6c164075196.jpg",
+    "sha256": "9f3683dcc15984068791e128b9eee9c329a6ac374fd4f7488c734ea86c35c81f"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/4d4f1900e2c24851434172a9--a6cb72b69a37.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_PVA_ARCH2--782050b23c55b756/assets/images/4d4f1900e2c24851434172a9.png",
+    "sha256": "a6cb72b69a37c061c29876c5580daf5dab20d3153c6d8c21b84232a56b94321e"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/ecd39f0b26fb9dc02076aeb2--b0fd8ebebb41.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_INTRO--2f382526ca7c9874/assets/images/ecd39f0b26fb9dc02076aeb2.png",
+    "sha256": "b0fd8ebebb41aec6110478b2ab691cd7f5490cc9df57ebdfd32c7375670c4e54"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/40db91f7ab798e44e72f4185--9c0d7c9b3786.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_COE--acc0a9a82b614a53/assets/images/40db91f7ab798e44e72f4185.png",
+    "sha256": "9c0d7c9b3786448da59c08c4ffc5f1e94d960dee1f4bd0468fc8d260511e4444"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/9b120af7a8566d169bf20b35--aebbf89cc43e.webp",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_DEEP_DOC--67e9bd6641c6aed0/assets/images/9b120af7a8566d169bf20b35.webp",
+    "sha256": "aebbf89cc43e45b64d6314e1b307f3ff223c774019b6085d2f0cdd6f3640f514"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/HOLO_CORE2_official--3768402aca74.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/figures/software_stack/HOLO_CORE2_official.png",
+    "sha256": "3768402aca749f650d95d1ee8210ef8a34430c5ed8df26444eef71f9c37699cc"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/content--bbf161c66daa.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_Architecture_Image--7717413c25d7a056/content.png",
+    "sha256": "bbf161c66daac88799b5bc7b5c110429f48d7f96ae315113e2b2e6d1f11c9e54"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/content--22e9bccd6ac2.jpg",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_TRITON_FIG--002e850121ce1d07/content.jpg",
+    "sha256": "22e9bccd6ac2edfdf524771f48d21f542fb129d106ea46e62cd24ba7f6e6c33f"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/753923f37673ba06f1a7bb48--c56f892fbee6.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NSIGHT_DOC--be8e5fe0447d1f1a/assets/images/753923f37673ba06f1a7bb48.png",
+    "sha256": "c56f892fbee65943ac5a1ad868a12c47e5aa23fe593892127b40017176bdf832"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/b80d3d8d9f7e8d0b8b27318a--8a988676e84d.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_TAO_DOC--b218d6fada6ed5c0/assets/images/b80d3d8d9f7e8d0b8b27318a.png",
+    "sha256": "8a988676e84dd536d8834fc639b34469d4f68fba04453bf1c802bb9ed1db8005"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/GMSL_VC_official--8bdd76a48fff.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/figures/sensor_integration/GMSL_VC_official.png",
+    "sha256": "8bdd76a48fff4e17142815d74c3877adba798780c9aac2844d58c297ca82a211"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/ecd39f0b26fb9dc02076aeb2--b0fd8ebebb41.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_INTRO--2f382526ca7c9874/assets/images/ecd39f0b26fb9dc02076aeb2.png",
+    "sha256": "b0fd8ebebb41aec6110478b2ab691cd7f5490cc9df57ebdfd32c7375670c4e54"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/40db91f7ab798e44e72f4185--9c0d7c9b3786.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_COE--acc0a9a82b614a53/assets/images/40db91f7ab798e44e72f4185.png",
+    "sha256": "9c0d7c9b3786448da59c08c4ffc5f1e94d960dee1f4bd0468fc8d260511e4444"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/df20703150cb68df2c50fc15--e05535205f9d.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_OUSTER_NVBLOX--b757a084266f692f/assets/images/df20703150cb68df2c50fc15.png",
+    "sha256": "e05535205f9dc259b38adefb04fa7a29bbe3299a144f41297d07ea00808c2fa1"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/SIPL_STEREO_official--8529fc06b001.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/figures/sensor_integration/SIPL_STEREO_official.png",
+    "sha256": "8529fc06b00192a9b5de2155f081efce1a2bf81e0c91109284de30440127eca8"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/23855f5e723e9e9158f2c787--7144eda4d76c.webp",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HSB_PTP_NOTE--523b5e075482c49f/assets/images/23855f5e723e9e9158f2c787.webp",
+    "sha256": "7144eda4d76c60f9c06ecb32fd8d3c00e7dbc87ca4074fec496aa911e5c23c74"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/2cbffcfe977e264809eb294d--50d15be30e39.webp",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HSB_PTP_NOTE--523b5e075482c49f/assets/images/2cbffcfe977e264809eb294d.webp",
+    "sha256": "50d15be30e393550840b5b6422ff408286a7cb2dfaa3ca6cdc3c15b1a91dcbe5"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/content--6f9c0fbb8d98.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/data/03_VSLAM_FIG--a552f3d2562f206c/content.png",
+    "sha256": "6f9c0fbb8d98652d42ff4ab5677af90c358f83c82abdbce8e932b7842b94ca02"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/98a00639901dbebc0f8430db--0dcddf04bfed.jpg",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_OUSTER_NVBLOX--b757a084266f692f/assets/images/98a00639901dbebc0f8430db.jpg",
+    "sha256": "0dcddf04bfedc873b3d25ddcc59988c35a08028c986e16874e26dd7c6e0e6080"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/content--bbf161c66daa.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_Architecture_Image--7717413c25d7a056/content.png",
+    "sha256": "bbf161c66daac88799b5bc7b5c110429f48d7f96ae315113e2b2e6d1f11c9e54"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/b80d3d8d9f7e8d0b8b27318a--8a988676e84d.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_TAO_DOC--b218d6fada6ed5c0/assets/images/b80d3d8d9f7e8d0b8b27318a.png",
+    "sha256": "8a988676e84dd536d8834fc639b34469d4f68fba04453bf1c802bb9ed1db8005"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/753923f37673ba06f1a7bb48--c56f892fbee6.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NSIGHT_DOC--be8e5fe0447d1f1a/assets/images/753923f37673ba06f1a7bb48.png",
+    "sha256": "c56f892fbee65943ac5a1ad868a12c47e5aa23fe593892127b40017176bdf832"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/content--22e9bccd6ac2.jpg",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_TRITON_FIG--002e850121ce1d07/content.jpg",
+    "sha256": "22e9bccd6ac2edfdf524771f48d21f542fb129d106ea46e62cd24ba7f6e6c33f"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/TAO_model_tree_reading--27a5980e7176.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/figures/TAO_model_tree_reading.png",
+    "sha256": "27a5980e71761baccece78391ff2e270d8beb669aa33c42c300ddafacb4e0861"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/7634defde7a1d454a805907e--a6f4fd28d772.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_DEEP_ACT_PROJECT--81cae9ec791ee3cb/assets/images/7634defde7a1d454a805907e.png",
+    "sha256": "a6f4fd28d77244ee0b6fb9b24abdab17a909cc3e3dabebd6adc8d0d25aed77e5"
+  },
+  {
+    "report": "05_Simulation_Environment.md",
+    "figure": "assets/figures/642c19119442c7bba801e0ff--5a746d0c3d89.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_SIM_ARCH--f74626edcba85090/assets/images/642c19119442c7bba801e0ff.png",
+    "sha256": "5a746d0c3d8926d94c52999471c1b76b021e2ae1657918b6bac5cf9dc1b63f34"
+  },
+  {
+    "report": "05_Simulation_Environment.md",
+    "figure": "assets/figures/59546e0f71dbf8bc4d9894e6--e9a72cbccf8c.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_HYDRO--ee558d6613a45451/assets/images/59546e0f71dbf8bc4d9894e6.png",
+    "sha256": "e9a72cbccf8cd0881ba7174ab89fcce7409ff14f241ea38e46cc05ce655ffa3b"
+  },
+  {
+    "report": "05_Simulation_Environment.md",
+    "figure": "assets/figures/d8cf6569fbb358858500aaa1--c40f9b248fa2.webp",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_SDG--b864aac3a5128760/assets/images/d8cf6569fbb358858500aaa1.webp",
+    "sha256": "c40f9b248fa22a059f8983eb49d5892ea1ae7b15ba4bb0806bb160dd6ac8897e"
+  },
+  {
+    "report": "05_Simulation_Environment.md",
+    "figure": "assets/figures/156c4d9e93436b9e9020d471--9780f19ab240.webp",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_SIM_COSMOS--a23e410695a197e2/assets/images/156c4d9e93436b9e9020d471.webp",
+    "sha256": "9780f19ab2409b546ab618c981951d0f6f587ee4f60753c17c18e707415222b2"
+  },
+  {
+    "report": "06_Robot_Integration.md",
+    "figure": "assets/figures/5c87aafddf4873398aca4c8b--21a7d8a87c29.jpg",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_DILIGENT--eff801ab5d597595/assets/images/5c87aafddf4873398aca4c8b.jpg",
+    "sha256": "21a7d8a87c29c749b7b21b37b8d74338e46500e94be43e80cb5622137cf36e7b"
+  },
+  {
+    "report": "06_Robot_Integration.md",
+    "figure": "assets/figures/8b33216a91eb3507b5137257--03dc078e76b0.webp",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_THOR_TECH--c17dd5eed35b00ec/assets/images/8b33216a91eb3507b5137257.webp",
+    "sha256": "03dc078e76b0086600f4d8e8f0f48f133613c3996e4dc46233d00b0e0e340cf1"
+  },
+  {
+    "report": "06_Robot_Integration.md",
+    "figure": "assets/figures/2a2dbae8c90fbf50e68fc1f3--1ca7ad8173d8.webp",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_THOR_TECH--c17dd5eed35b00ec/assets/images/2a2dbae8c90fbf50e68fc1f3.webp",
+    "sha256": "1ca7ad8173d8c6a4b93690a04199ca96b1f9c15ec76267badd24188f68f9df6c"
+  },
+  {
+    "report": "06_Robot_Integration.md",
+    "figure": "assets/figures/df20703150cb68df2c50fc15--e05535205f9d.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_OUSTER_NVBLOX--b757a084266f692f/assets/images/df20703150cb68df2c50fc15.png",
+    "sha256": "e05535205f9dc259b38adefb04fa7a29bbe3299a144f41297d07ea00808c2fa1"
+  },
+  {
+    "report": "07_Ecosystem.md",
+    "figure": "assets/figures/280750f293d8a603f9bb3181--f563c7d7aefd.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/JetPack_Page--c9b618c904201b47/assets/images/280750f293d8a603f9bb3181.png",
+    "sha256": "f563c7d7aefdc237be9cc7e531647580b073cbbbb7432a2f371a2679482ed5b0"
+  },
+  {
+    "report": "07_Ecosystem.md",
+    "figure": "assets/figures/c1c6b7bf43b859a02b6114db--daeeb9804c8c.webp",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_THOR_TECH--c17dd5eed35b00ec/assets/images/c1c6b7bf43b859a02b6114db.webp",
+    "sha256": "daeeb9804c8c18f5be0afe68820f647b46e547e8c43ab8f9eaec2c4ada28308e"
+  },
+  {
+    "report": "07_Ecosystem.md",
+    "figure": "assets/figures/24e7a1fef0348ad0d561d874--2a619ec14488.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_DEEP_LEOPARD--6258bd6ae1cfd1ed/assets/images/24e7a1fef0348ad0d561d874.png",
+    "sha256": "2a619ec14488f9ca8150502c995a598b5aa2d3a4350615786fb8f2450e287548"
+  },
+  {
+    "report": "07_Ecosystem.md",
+    "figure": "assets/figures/642c19119442c7bba801e0ff--5a746d0c3d89.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_SIM_ARCH--f74626edcba85090/assets/images/642c19119442c7bba801e0ff.png",
+    "sha256": "5a746d0c3d8926d94c52999471c1b76b021e2ae1657918b6bac5cf9dc1b63f34"
+  },
+  {
+    "report": "07_Ecosystem.md",
+    "figure": "assets/figures/content--a54f82e318e0.jpg",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/data/07_DEEP_LEROBOT_FIG--55182f0cb8551ce1/content.jpg",
+    "sha256": "a54f82e318e0a9c0c6bbd1ef099685518f001d5bf3a5f341d6d2090994e7cb43"
+  },
+  {
+    "report": "08A_Compute_and_Deployment.md",
+    "figure": "assets/figures/5086cfeb5f00b5d9fc5eabea--1b5aa66db7ca.webp",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/06_DEEP_THOR_TECH--c17dd5eed35b00ec/assets/images/5086cfeb5f00b5d9fc5eabea.webp",
+    "sha256": "1b5aa66db7ca0a21d70c7ac7a8af748b899b6c4501508190db001c2611c69f8c"
+  },
+  {
+    "report": "08A_Compute_and_Deployment.md",
+    "figure": "assets/figures/5e6268aa62a2b30f1b1cb6f2--49386753c3c9.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/02_CUDA_MODEL--ff852ad994d3a602/assets/images/5e6268aa62a2b30f1b1cb6f2.png",
+    "sha256": "49386753c3c91923496d6857b56417d3a0702cecff6ecf9ea7879795ccf7fd64"
+  },
+  {
+    "report": "08A_Compute_and_Deployment.md",
+    "figure": "assets/figures/TRT_WORK--6923c240fc03.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/figures/TRT_WORK.png",
+    "sha256": "6923c240fc03c4b601f8b3e96e5a18d9b0b8502ee0721403a2d68f619c870323"
+  },
+  {
+    "report": "08A_Compute_and_Deployment.md",
+    "figure": "assets/figures/D08_NVFP4_SCALE_FIG--97e87cacc40b.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/figures/D08_NVFP4_SCALE_FIG.png",
+    "sha256": "97e87cacc40b463a04d6a6011d5558d4992a2aed139f476cfebc782a8da22b1a"
+  },
+  {
+    "report": "08A_Compute_and_Deployment.md",
+    "figure": "assets/figures/964b6585151c6ff5acba5a52--19fb99a027ef.webp",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/08_DEEP_NVIDIA_NVFP4_BLOG--bdc20768416189cc/assets/images/964b6585151c6ff5acba5a52.webp",
+    "sha256": "19fb99a027ef013e85160c8a7b7d8bcdebb4f566eb5631ebe3aa51a06204db01"
+  },
+  {
+    "report": "08A_Compute_and_Deployment.md",
+    "figure": "assets/figures/816e0d8189eb444f26d5e9e6--a9a1a11bb659.webp",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/08_DEEP_NVIDIA_NVFP4_BLOG--bdc20768416189cc/assets/images/816e0d8189eb444f26d5e9e6.webp",
+    "sha256": "a9a1a11bb6593e4281130932b7495647e9ed32920cac76b0ea30608923e7828a"
+  },
+  {
+    "report": "08A_Compute_and_Deployment.md",
+    "figure": "assets/figures/f98eff2f440c25cc9d0550ae--e48732aa3bb3.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/08_DEEP_CUDA_TEGRA--e1e2a9f4bcacf89e/assets/images/f98eff2f440c25cc9d0550ae.png",
+    "sha256": "e48732aa3bb3bda720a1b30f16de77ea3747b8e89593c56c0361a66e8576ea54"
+  },
+  {
+    "report": "08A_Compute_and_Deployment.md",
+    "figure": "assets/figures/2064887c2a9d5b40a9aada46--a983834910a4.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/08_DEEP_CUDA_TEGRA--e1e2a9f4bcacf89e/assets/images/2064887c2a9d5b40a9aada46.png",
+    "sha256": "a983834910a48b2a40e29016df6b93cb7b761578eb983149eff9179759ca55c3"
+  },
+  {
+    "report": "08B_Sensing_and_Isolation.md",
+    "figure": "assets/figures/4d4f1900e2c24851434172a9--a6cb72b69a37.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/02_PVA_ARCH2--782050b23c55b756/assets/images/4d4f1900e2c24851434172a9.png",
+    "sha256": "a6cb72b69a37c061c29876c5580daf5dab20d3153c6d8c21b84232a56b94321e"
+  },
+  {
+    "report": "08B_Sensing_and_Isolation.md",
+    "figure": "assets/figures/40db91f7ab798e44e72f4185--9c0d7c9b3786.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/02_SIPL_COE--acc0a9a82b614a53/assets/images/40db91f7ab798e44e72f4185.png",
+    "sha256": "9c0d7c9b3786448da59c08c4ffc5f1e94d960dee1f4bd0468fc8d260511e4444"
+  },
+  {
+    "report": "08B_Sensing_and_Isolation.md",
+    "figure": "assets/figures/D08_OPTEE_ARCH_FIG--d8840e8cedb6.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/figures/D08_OPTEE_ARCH_FIG.png",
+    "sha256": "d8840e8cedb6f4561962f1567bbe0e782ba7aadaf3c7847b217ac756af993a15"
+  },
+  {
+    "report": "08B_Sensing_and_Isolation.md",
+    "figure": "assets/figures/D08_DISK_KEY_FIG--06e62440ed97.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/figures/D08_DISK_KEY_FIG.png",
+    "sha256": "06e62440ed973d1751285326d9bba3980c9cb43d89929b182342ed8b331b1ef1"
+  },
+  {
+    "report": "08B_Sensing_and_Isolation.md",
+    "figure": "assets/figures/D08_DISK_UNLOCK_FIG--f70357d38eb6.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/figures/D08_DISK_UNLOCK_FIG.png",
+    "sha256": "f70357d38eb6cad41d8477741cdfc8295debc4676f0c66ed76a098afe54c866f"
+  },
+  {
+    "report": "08C_Simulation_Control_and_Safety.md",
+    "figure": "assets/figures/59546e0f71dbf8bc4d9894e6--e9a72cbccf8c.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/05_HYDRO--ee558d6613a45451/assets/images/59546e0f71dbf8bc4d9894e6.png",
+    "sha256": "e9a72cbccf8cd0881ba7174ab89fcce7409ff14f241ea38e46cc05ce655ffa3b"
+  },
+  {
+    "report": "08C_Simulation_Control_and_Safety.md",
+    "figure": "assets/figures/content--bbf161c66daa.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/GR00T_Architecture_Image--7717413c25d7a056/content.png",
+    "sha256": "bbf161c66daac88799b5bc7b5c110429f48d7f96ae315113e2b2e6d1f11c9e54"
+  },
+  {
+    "report": "08C_Simulation_Control_and_Safety.md",
+    "figure": "assets/figures/D08_OSMO_FIG--1baa76a8d1bb.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/figures/D08_OSMO_FIG.png",
+    "sha256": "1baa76a8d1bb7ab665b421bdc70768b0ff1ef36911b4559073898310d270b10c"
+  },
+  {
+    "report": "08C_Simulation_Control_and_Safety.md",
+    "figure": "assets/figures/IGX_BRIEF--768ffd2ebe2b.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/figures/IGX_BRIEF.png",
+    "sha256": "768ffd2ebe2b00b49b83f623a4ffa6811a00543c8ecd9971f722dc2f372ea437"
+  },
+  {
+    "report": "08C_Simulation_Control_and_Safety.md",
+    "figure": "assets/figures/642c19119442c7bba801e0ff--5a746d0c3d89.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/05_SIM_ARCH--f74626edcba85090/assets/images/642c19119442c7bba801e0ff.png",
+    "sha256": "5a746d0c3d8926d94c52999471c1b76b021e2ae1657918b6bac5cf9dc1b63f34"
+  },
+  {
+    "report": "08C_Simulation_Control_and_Safety.md",
+    "figure": "assets/figures/2c621785a0c8b3307bb15cd5--60ab0781bd29.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/08_DEEP_RTX_MATERIAL--bee3c3e48db46d4d/assets/images/2c621785a0c8b3307bb15cd5.png",
+    "sha256": "60ab0781bd292be8143f17c6e45de9cebd5aeb8f09266e8aa2b13c0357808dd8"
+  },
+  {
+    "report": "08C_Simulation_Control_and_Safety.md",
+    "figure": "assets/figures/D08_CUROBO_PIPELINE_FIG--35ae6c6a44f8.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/figures/D08_CUROBO_PIPELINE_FIG.png",
+    "sha256": "35ae6c6a44f8061805c3b5d050aa26fd1a9d01d40939fcea9d521660a2b78fc8"
+  },
+  {
+    "report": "08C_Simulation_Control_and_Safety.md",
+    "figure": "assets/figures/D08_CUROBO_TIMING_FIG--50430a069e46.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/figures/D08_CUROBO_TIMING_FIG.png",
+    "sha256": "50430a069e461e2d30fabd9f32cf49110b76eb4cdee54455cb729014c2f2a5a3"
+  },
+  {
+    "report": "08C_Simulation_Control_and_Safety.md",
+    "figure": "assets/figures/D08_CUROBO_KERNELS_FIG--27d71f883523.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/figures/D08_CUROBO_KERNELS_FIG.png",
+    "sha256": "27d71f8835231e1ae455fa39cb7f8dd51d47c71fc4e9196406550a53a4622579"
+  },
+  {
+    "report": "09_SWOT_Analysis.md",
+    "figure": "assets/figures/280750f293d8a603f9bb3181--f563c7d7aefd.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/JetPack_Page--c9b618c904201b47/assets/images/280750f293d8a603f9bb3181.png",
+    "sha256": "f563c7d7aefdc237be9cc7e531647580b073cbbbb7432a2f371a2679482ed5b0"
+  },
+  {
+    "report": "09_SWOT_Analysis.md",
+    "figure": "assets/figures/content--2eb666011de5.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/data/09_DEEP_IFR_GLOBAL_FIG--f4b1d8f851a56e04/content.png",
+    "sha256": "2eb666011de5f7f361f255ea075ad17f6acb4f65ebe2f02f40bad855624a6cb0"
+  },
+  {
+    "report": "09_SWOT_Analysis.md",
+    "figure": "assets/figures/IFR_WR2026_page_28--ca9f8d97315c.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/figures/swot/IFR_WR2026_page_28.png",
+    "sha256": "ca9f8d97315cfbbc1e23d2f136c87f34310d79285eb45c7cc45f4ad17621623b"
+  },
+  {
+    "report": "09_SWOT_Analysis.md",
+    "figure": "assets/figures/content--b214242ea244.jpg",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/data/09_DEEP_IFR_SERVICE_FIG--c751c5304b28f479/content.jpg",
+    "sha256": "b214242ea244ff3febac41c6b32a167d88cd7c05eeebad511155b1cf3c0f0f48"
+  },
+  {
+    "report": "09_SWOT_Analysis.md",
+    "figure": "assets/figures/IFR_WR2026_page_32--2033be66efc3.png",
+    "local_original": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/figures/swot/IFR_WR2026_page_32.png",
+    "sha256": "2033be66efc3052d2a8571845d9b3dc32e27482e3058c18d3880fa706be4e3b8"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "completed": [
+    "02_Software_Stack"
+  ],
+  "next_direction": "03_Sensor_Integration",
+  "workflow": "Research, draft, source review, offline QA and individual delivery before starting the next direction.",
+  "facts_reviewed": [
+    "JetPack 7.2.1 download matrix vs Isaac ROS installation-page discrepancy",
+    "TensorRT 11.4.1 DLA condition is AGX Orin-specific and does not replace current JetPack packages",
+    "NITROS deprecation and rosidl::Buffer migration scope",
+    "GR00T exact checkpoint, two-camera workload, MAXN, latency scope and mixed NVFP4 distinction",
+    "SIPL/Argus current support versus roadmap",
+    "BSP 39.2.1 cross compiler and named known issues",
+    "Triton batching, model control and in-flight sequence limitations",
+    "Isaac ROS license and SafetyController default configuration boundaries"
+  ],
+  "preserved": [
+    "01_Hardware_Platform.md",
+    "03 through 09 reports",
+    "Other manufacturers"
+  ],
+  "reference_limits": "11 adopted materials have partial static presentation dependencies; all 17 HTML documents retain identical visible text. Source archives and limits are listed individually in the report."
+}

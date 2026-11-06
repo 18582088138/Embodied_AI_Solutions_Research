@@ -1,0 +1,130 @@
+[
+  {
+    "name": "NVIDIA_08_DEEP_HIP_MODEL",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/understand/programming_model.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_HIP_GRAPH",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/hipgraph.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_ROCM_PRECISION",
+    "url": "https://rocm.docs.amd.com/en/latest/reference/precision-support.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_OV_CONVERT",
+    "url": "https://docs.openvino.ai/2025/openvino-workflow/model-preparation.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_OV_HETERO",
+    "url": "https://docs.openvino.ai/2025/openvino-workflow/running-inference/inference-devices-and-modes/hetero-execution.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_OV_LATENCY",
+    "url": "https://docs.openvino.ai/2025/openvino-workflow/running-inference/optimize-inference/optimizing-latency.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_NXP_IMX95",
+    "url": "https://www.nxp.com/products/i.MX95",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_AMD_SRIOV",
+    "url": "https://instinct.docs.amd.com/projects/virt-drv/en/latest/",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_MUJOCO_MJX",
+    "url": "https://mujoco.readthedocs.io/en/stable/mjx.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_MUJOCO_COMPUTATION",
+    "url": "https://mujoco.readthedocs.io/en/stable/computation/index.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_ROS2_COMPOSITION",
+    "url": "https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Composition.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_ROS2_INTRAPROCESS",
+    "url": "https://docs.ros.org/en/jazzy/Tutorials/Demos/Intra-Process-Communication.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_ARGO_ARCH",
+    "url": "https://argo-workflows.readthedocs.io/en/latest/architecture/",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TE_PRECISION",
+    "url": "https://docs.nvidia.com/deeplearning/transformer-engine/user-guide/examples/fp8_primer.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_NITROS",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/nitros/index.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_BSP_SECURITY",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  }
+]

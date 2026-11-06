@@ -1,0 +1,34 @@
+{
+  "records": 114,
+  "unique_companies": 114,
+  "categories": {
+    "ODM / System Builder": 47,
+    "Design and Development Service": 62,
+    "AI Model, Application, and Dev Tool": 35,
+    "System Software": 35,
+    "Camera, LIDAR, and Sensors": 22,
+    "Distributor": 10,
+    "Distro and OS": 3,
+    "Connectivity": 3
+  },
+  "regions": {
+    "APAC": 70,
+    "EMEA": 61,
+    "NALA": 67,
+    "USA": 1,
+    "Japan": 1,
+    "China": 1
+  },
+  "products_supported": {
+    "Nano": 87,
+    "TX2": 80,
+    "Xavier NX": 98,
+    "AGX Xavier": 86,
+    "Orin NX": 69,
+    "Orin Nano": 53,
+    "AGX Orin": 79,
+    "AGX Thor": 33,
+    "TX2 NX": 1,
+    "Thor": 2
+  }
+}

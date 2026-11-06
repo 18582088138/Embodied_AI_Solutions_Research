@@ -1,0 +1,34 @@
+[
+  {
+    "name": "NVIDIA_08_DEEP_PVA_DATAFLOW_TUTORIAL",
+    "url": "https://docs.nvidia.com/pva/sdk/2.10.1/tutorial/vmem-buffers-dataflows.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_PVA_NVSCI_TUTORIAL",
+    "url": "https://docs.nvidia.com/pva/sdk/2.10.1/tutorial/nvsci-interop.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_PVA_VPU_TUTORIAL",
+    "url": "https://docs.nvidia.com/pva/sdk/2.10.1/tutorial/vpu-programming.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_VPI_PERF",
+    "url": "https://docs.nvidia.com/vpi/algo_performance.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "NVIDIA_04_EXP_NEMOTRON_PAGE",
+    "url": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_TAOZOO_LATEST",
+    "url": "https://docs.nvidia.com/tao/tao-toolkit/latest/text/model_zoo/overview.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_SONIC_README",
+    "url": "https://raw.githubusercontent.com/NVlabs/SONIC/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_ALPAMAYO_README",
+    "url": "https://raw.githubusercontent.com/NVlabs/alpamayo/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_OPENVLA_README",
+    "url": "https://raw.githubusercontent.com/openvla/openvla/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_OPENPI_README",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LEROBOT_README",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_FOUNDATIONPOSE_README",
+    "url": "https://raw.githubusercontent.com/NVlabs/FoundationPose/main/readme.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_FOUNDATIONSTEREO_README",
+    "url": "https://raw.githubusercontent.com/NVlabs/FoundationStereo/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_HF_GR00T_CARD",
+    "url": "https://huggingface.co/nvidia/GR00T-N1.7-3B",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  }
+]

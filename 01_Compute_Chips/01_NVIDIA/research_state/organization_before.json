@@ -1,0 +1,14 @@
+{
+  "01_Hardware_Platform.md": "1da08c85aed0bc79c80736c079496a6e281d0463e7d3ee226e6fe319d558c253",
+  "02_Software_Stack.md": "78a3a9fe4bc4ca60b9611be7860ebc86bba1eacffe06066eb07cea22d93de448",
+  "03_Sensor_Integration.md": "a0b9d737a70d6a7f5ba70cbb2fd56ae0ca697b0208a60b500eca0c131259839e",
+  "04_AI_Capabilities.md": "a339b8de6661c1e4bde52874207805e58bcb213ab14863c35b590cfc31d81281",
+  "05_Simulation_Environment.md": "5d415449596fc1fbb0efbd25b80a3a1cd8fd06711678c1a12041fec3ca107e26",
+  "06_Robot_Integration.md": "628444ca217aade93f273f660b4f87fedd3bec96a456454f8efd8a8d21cd8a79",
+  "07_Ecosystem.md": "82344cb31a0c5198c6711b72c48c928dc13630d723a4450d052676600b5c7206",
+  "08A_Compute_and_Deployment.md": "473ba24a68747f61a76a570032c418919a98b9c66a1e5e8f3ce974e8e3ee20de",
+  "08B_Sensing_and_Isolation.md": "0f4368a1298d53b808d05838f76eb6992260b4826736b26f849d180582c452fa",
+  "08C_Simulation_Control_and_Safety.md": "e8486fc445fc79714570897a8ea4eb7d6fe9a9bc49a171ee7bc664f23683978f",
+  "08_Core_Technology_Moat.md": "55af1ea8f10053e8bfbd99dc408a4f8f41aba786e6fd9d0b1943f051854337ca",
+  "09_SWOT_Analysis.md": "6ba5c60f5b3b3717aba827ec8c653b6d37c4549ea84d3ae1b0133d1c39a052f5"
+}

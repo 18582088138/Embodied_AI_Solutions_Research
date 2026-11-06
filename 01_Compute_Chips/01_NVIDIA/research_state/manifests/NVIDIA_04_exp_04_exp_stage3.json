@@ -1,0 +1,114 @@
+[
+  {
+    "name": "NVIDIA_04_EXP_SONIC_SEARCH",
+    "url": "https://api.github.com/search/repositories?q=SONIC+org%3ANVlabs",
+    "expected": "json",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_ALPAMAYO_RECIPES",
+    "url": "https://raw.githubusercontent.com/NVlabs/alpamayo-recipes/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_NANO30B",
+    "url": "https://www.jetson-ai-lab.com/models/nemotron-3-nano-30b-a3b",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_NANO9B",
+    "url": "https://www.jetson-ai-lab.com/models/nemotron-nano-9b-v2",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_NANOVL",
+    "url": "https://www.jetson-ai-lab.com/models/nemotron-nano-12b-vl",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_REASON2",
+    "url": "https://www.jetson-ai-lab.com/models/cosmos-reason2-8b",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_COSMOS3",
+    "url": "https://www.jetson-ai-lab.com/models/cosmos3-edge",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_QWENVL",
+    "url": "https://www.jetson-ai-lab.com/models/qwen3-vl-8b",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_QWEN35",
+    "url": "https://www.jetson-ai-lab.com/models/qwen3-5-4b",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_GEMMA4",
+    "url": "https://www.jetson-ai-lab.com/models/gemma4-e2b",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_LLAMA",
+    "url": "https://www.jetson-ai-lab.com/models/llama3-1-8b",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_FUNCTION",
+    "url": "https://www.jetson-ai-lab.com/models/functiongemma",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_FLUXACTION",
+    "url": "https://www.jetson-ai-lab.com/models/flux-3-action",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_BOLT",
+    "url": "https://www.jetson-ai-lab.com/models/Nemotron-3-5-Bolt-E4B-4GB",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  }
+]

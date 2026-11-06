@@ -1,0 +1,201 @@
+{
+  "title": "Jetson FAQ | NVIDIA Developer",
+  "headings": [
+    "Jetson FAQ",
+    "What is Jetson?",
+    "What is JetPack?",
+    "What version of JetPack should I use?",
+    "Does Jetson support running generative AI models? How can I get started?",
+    "Where can I buy Jetson products?",
+    "What is the difference between Jetson Developer Kits and Jetson modules?",
+    "What is the difference between the Jetson AGX Orin Developer Kit with 32GB vs. 64GB?",
+    "What is the Jetson Orin Nano Super Developer Kit, and how does the hardware differ from the original Jetson Orin Nano Developer Kit?",
+    "How can I enable Super Mode on my Jetson Orin? Will Jetson Orin Super Mode require new carrier board, thermal design and power solutions?",
+    "Can Jetson developer kits be used as production systems or as part of a product?",
+    "How do I port my application from a developer kit to a production module and production carrier board?"
+  ],
+  "readableTextChars": 22359,
+  "localStylesheets": [
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/assets/styles/e378e3461ed7c5f6aa4e0957.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/assets/styles/4928931379b4ccdc0dd191f2.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/assets/styles/b46b223703301b647767cad1.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/assets/styles/a99cdf8b8c9809f1c70992ae.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/assets/styles/e60058d3b8ecc0c2ba9b805a.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/assets/styles/689586e098967a2b7334acc0.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/assets/styles/5b143ecc83b4531445a8c568.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/assets/styles/a9e40e985043817f0afacd15.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/assets/styles/ac5427b1a5776085886118e2.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/assets/styles/c316a18b560f954d173d2b83.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/assets/styles/42f926cbfd6a0f58eaaa8c1b.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/assets/styles/172338cfd4f534db37d12a71.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/assets/styles/42f8821159926cb0096c60d9.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/assets/styles/8a090fb587de6056069eb16f.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/assets/styles/50fcf3985594d8e82a564fac.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    }
+  ],
+  "documentHeight": 15371
+}

@@ -1,0 +1,23 @@
+{
+  "report": "01_Compute_Chips/01_NVIDIA/03_Sensor_Integration.md",
+  "body_han_chars": 8711,
+  "tables": 14,
+  "report_local_links": 63,
+  "sources": 54,
+  "status_counts": {
+    "partial_static": 26,
+    "complete_static": 28
+  },
+  "html_visible_text_equal": 35,
+  "unique_asset_urls": 765,
+  "unavailable_presentation_urls": 193,
+  "file_hash_checks": 2908,
+  "page_local_dependencies_checked": 3498,
+  "changed_reports": [
+    "01_Compute_Chips/01_NVIDIA/02_Software_Stack.md",
+    "01_Compute_Chips/01_NVIDIA/03_Sensor_Integration.md"
+  ],
+  "errors": [],
+  "outcome": "pass",
+  "limits": "Offline archive and structure checks; facts manually reviewed; no hardware tests."
+}

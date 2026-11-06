@@ -1,0 +1,13 @@
+{
+  "reports": [
+    "08A_Compute_and_Deployment",
+    "08B_Sensing_and_Isolation",
+    "08C_Simulation_Control_and_Safety",
+    "08_Core_Technology_Moat"
+  ],
+  "materials": 120,
+  "collection_hash_checks": 7256,
+  "finalization_network_requests": 0,
+  "other_reports_unchanged": true,
+  "outcome": "pass"
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "NVIDIA_08_DEEP_USD_INTRO",
+    "url": "https://openusd.org/release/intro.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_CUROBO_PAPER",
+    "url": "https://arxiv.org/pdf/2310.17274",
+    "expected": "pdf",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_RTX_MATERIAL",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/sensors/isaacsim_sensors_rtx_materials.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_SENSOR_TIMING",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/sensors/isaacsim_sensors_multitick_rendering.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_SIM_BENCHMARKS",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/reference_material/benchmarks.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_SDG_RANDOM",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/replicator_tutorials/tutorial_replicator_isaac_randomizers.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_SIM_CAMERA",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/sensors/isaacsim_sensors_camera.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  }
+]

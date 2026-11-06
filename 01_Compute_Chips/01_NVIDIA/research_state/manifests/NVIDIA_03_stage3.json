@@ -1,0 +1,58 @@
+[
+  {
+    "name": "NVIDIA_03_AMR_EXTRINSICS",
+    "url": "https://nvidia-isaac-ros.github.io/getting_started/sensors/amr_extrinsic_calibration.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_CAM_INTRINSICS",
+    "url": "https://nvidia-isaac-ros.github.io/getting_started/sensors/camera_calibration.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HSB_HOST",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/getting-started/host-setup",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_SIPL_REPO_META",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_sipl_camera",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_SIPL_REPO_COMMIT",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_sipl_camera/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_SIPL_REPO_PAGE",
+    "url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_sipl_camera",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_SIPL_REPO_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_sipl_camera/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  }
+]

@@ -1,0 +1,1028 @@
+[
+  {
+    "name": "NVIDIA_Datasheet_Thor_Full_v1_5",
+    "url": "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08B_Sensing_and_Isolation",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEEP_THOR_TECH",
+    "url": "https://developer.nvidia.com/blog/introducing-nvidia-jetson-thor-the-ultimate-platform-for-physical-ai/",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_QUANT",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Deployment_Guide",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/scripts/deployment/README.md",
+    "expected": "any",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_TensorRT_Support_Matrix",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Page_Jetson_Thor",
+    "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_ROCM_PRECISION",
+    "url": "https://rocm.docs.amd.com/en/latest/reference/precision-support.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_MODEL",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/programming-model.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_ASYNC",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/asynchronous-execution.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_GRAPH",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/cuda-graphs.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_MOTION",
+    "url": "https://nvlabs.github.io/curobo/latest/getting-started/motion_planning.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_TRT_PERF",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/best-practices.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_HIP_MODEL",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/understand/programming_model.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_HIP_GRAPH",
+    "url": "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/hipgraph.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TRT_WORK",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08B_Sensing_and_Isolation",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_FUSION",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/fusion-catalog.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_OV_CONVERT",
+    "url": "https://docs.openvino.ai/2025/openvino-workflow/model-preparation.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_OV_HETERO",
+    "url": "https://docs.openvino.ai/2025/openvino-workflow/running-inference/inference-devices-and-modes/hetero-execution.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_OV_LATENCY",
+    "url": "https://docs.openvino.ai/2025/openvino-workflow/running-inference/optimize-inference/optimizing-latency.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_MEMORY",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_SIPL_COE",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08B_Sensing_and_Isolation",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HSB_ARCH",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08B_Sensing_and_Isolation",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_NVIDIA_NVFP4_BLOG",
+    "url": "https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_QUANT_SCHEMES",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-schemes.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_BLACKWELL_TUNING",
+    "url": "https://docs.nvidia.com/cuda/blackwell-tuning-guide/index.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_BENCHMARK",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/benchmarking.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_OPTIMIZATION",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/optimization.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_CUDA_TEGRA",
+    "url": "https://docs.nvidia.com/cuda/cuda-for-tegra-appnote/index.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_NSIGHT_SYSTEMS",
+    "url": "https://docs.nvidia.com/nsight-systems/UserGuide/index.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_PRECISION",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/precision-control.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_MEMORY",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_JetPack_Downloads",
+    "url": "https://developer.nvidia.com/embedded/jetpack/downloads",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_SHAPE_BASICS",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/dynamic-shapes-basics.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_DYNAMIC_CURRENT",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/work-with-dynamic-shapes.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_PLUGINS",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/extending-custom-layers.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Buffer_Migration",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/nitros_migration.html",
+    "expected": "html",
+    "used_by": [
+      "08A_Compute_and_Deployment",
+      "08B_Sensing_and_Isolation",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_PVA_ARCH2",
+    "url": "https://docs.nvidia.com/pva/sdk/2.10.1/architecture.html",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_VPI_ROOT",
+    "url": "https://docs.nvidia.com/vpi/index.html",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_VPI_CONCEPT",
+    "url": "https://docs.nvidia.com/vpi/basic_concepts.html",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TI_TDA4",
+    "url": "https://www.ti.com/lit/ds/symlink/tda4vm.pdf",
+    "expected": "any",
+    "used_by": [
+      "08B_Sensing_and_Isolation",
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_SENSOR_MATRIX",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/CameraDevelopmentSupportMatrix.html",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HSB_HOST",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/getting-started/host-setup",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HSB_LATENCY",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/latency",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation",
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HSB_PTP_NOTE",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/fpga-ip/ptp-application-note",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_ECON",
+    "url": "https://www.e-consystems.com/pr/ai-powered-vision-and-compute-solutions-accelerated-by-nvidia-jetson-thor.asp",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_BUFFER_DOC",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/index.html",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_BUFFER_CUDA",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/cuda_buffer_backend.html",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation",
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_ROS2_INTRAPROCESS_RAW",
+    "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Tutorials/Demos/Intra-Process-Communication.rst",
+    "expected": "any",
+    "used_by": [
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_MIG",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/MiG.html",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation",
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_MPS_DOC",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/gpu_partitioning/index.html",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_AMD_SRIOV",
+    "url": "https://instinct.docs.amd.com/projects/virt-drv/en/latest/",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_PVA_DATAFLOW_TUTORIAL",
+    "url": "https://docs.nvidia.com/pva/sdk/2.10.1/tutorial/vmem-buffers-dataflows.html",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_VPI_PERF",
+    "url": "https://docs.nvidia.com/vpi/algo_performance.html",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_EMBODIMENT",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/how_to_guides/bring_your_own_embodiment.html",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation",
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Brief_IGX_Thor_Safety",
+    "url": "https://developer.download.nvidia.com/assets/igx/robotics-product-brief-igx-thor-safety-4473375.pdf",
+    "expected": "any",
+    "used_by": [
+      "08B_Sensing_and_Isolation",
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_THOR_SECUREBOOT",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/SecureBoot/QuickStartThor.html",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_OPTEE_ARCH",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/OpTee/Architecture.html",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_DISK_ENCRYPT",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/DiskEncryption/Concepts.html",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_MEM_ENCRYPT",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/MemoryEncryption.html",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_PVA_AUTH",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/PVAAuthentication.html",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_ROLLBACK",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/RollbackProtection.html",
+    "expected": "html",
+    "used_by": [
+      "08B_Sensing_and_Isolation",
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_SIM_ARCH",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/introduction/reference_architecture.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_README",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacLab/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_LAB_EVENTS",
+    "url": "https://isaac-sim.github.io/IsaacLab/main/source/api/lab/isaaclab.managers.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_HYDRO",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/physics/hydroelastic_contact.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_MUJOCO_COMPUTATION",
+    "url": "https://mujoco.readthedocs.io/en/stable/computation/index.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_MUJOCO_MJX",
+    "url": "https://mujoco.readthedocs.io/en/stable/mjx.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_NEWTON_LICENSE",
+    "url": "https://raw.githubusercontent.com/newton-physics/newton/main/LICENSE.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_License",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacLab/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_CUROBO_CANONICAL",
+    "url": "https://nvlabs.github.io/curobo/latest/",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_REACTIVE",
+    "url": "https://nvlabs.github.io/curobo/latest/getting-started/reactive_control.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_MOVEIT_PLANNING",
+    "url": "https://moveit.picknik.ai/main/doc/concepts/motion_planning.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Deploy_Safety",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/concepts/safety.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_New_Embodiment",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/getting_started/finetune_new_embodiment.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_Cosmos_Page",
+    "url": "https://developer.nvidia.com/cosmos",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_SIM_COSMOS",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/replicator_tutorials/tutorial_replicator_cosmos.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_COSMOS3",
+    "url": "https://www.jetson-ai-lab.com/models/cosmos3-edge",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_OPENPI_README",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LEROBOT_README",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_License",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA/OSMO/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO",
+    "url": "https://developer.nvidia.com/osmo",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_ARGO_ARCH",
+    "url": "https://argo-workflows.readthedocs.io/en/latest/architecture/",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_Developer_Page_Jetson_FAQ",
+    "url": "https://developer.nvidia.com/embedded/faq",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_BSP_SECURITY",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Page_IGX",
+    "url": "https://www.nvidia.com/en-us/edge-computing/products/igx/",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Linux_39_2_1_License",
+    "url": "https://developer.nvidia.com/downloads/embedded/L4T/r39_Release_v2.1/release/Tegra_Software_License_Agreement-Tegra-Linux.txt",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Project_Page",
+    "url": "https://github.com/NVIDIA/Isaac-GR00T",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Repo_Metadata",
+    "url": "https://api.github.com/repos/NVIDIA/Isaac-GR00T",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Recent_Commit",
+    "url": "https://api.github.com/repos/NVIDIA/Isaac-GR00T/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_Page",
+    "url": "https://github.com/isaac-sim/IsaacSim",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_SIM_META",
+    "url": "https://api.github.com/repos/isaac-sim/IsaacSim",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_Commits_API",
+    "url": "https://api.github.com/repos/isaac-sim/IsaacSim/commits?sha=main&per_page=1",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_License",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacSim/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety",
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_Page",
+    "url": "https://github.com/isaac-sim/IsaacLab",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_LAB_META",
+    "url": "https://api.github.com/repos/isaac-sim/IsaacLab",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_Commits_API",
+    "url": "https://api.github.com/repos/isaac-sim/IsaacLab/commits?sha=main&per_page=1",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_Newton_Project_Page",
+    "url": "https://github.com/newton-physics/newton",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_Newton_Metadata",
+    "url": "https://api.github.com/repos/newton-physics/newton",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_Newton_Commit",
+    "url": "https://api.github.com/repos/newton-physics/newton/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_cuRobo_Project_Page",
+    "url": "https://github.com/NVlabs/curobo",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_cuRobo_Repo_Metadata",
+    "url": "https://api.github.com/repos/NVlabs/curobo",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_cuRobo_Recent_Commit",
+    "url": "https://api.github.com/repos/NVlabs/curobo/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_cuRobo_License",
+    "url": "https://raw.githubusercontent.com/NVlabs/curobo/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_PAGE",
+    "url": "https://github.com/NVIDIA/OSMO",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_META",
+    "url": "https://api.github.com/repos/NVIDIA/OSMO",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_COMMIT",
+    "url": "https://api.github.com/repos/NVIDIA/OSMO/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVIDIA/OSMO/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_USD_INTRO",
+    "url": "https://openusd.org/release/intro.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_RTX_MATERIAL",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/sensors/isaacsim_sensors_rtx_materials.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_SIM_CAMERA",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/sensors/isaacsim_sensors_camera.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_SENSOR_TIMING",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/sensors/isaacsim_sensors_multitick_rendering.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_SIM_BENCHMARKS",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/reference_material/benchmarks.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_CUROBO_PAPER",
+    "url": "https://arxiv.org/pdf/2310.17274",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_XRDF",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/manipulation/xrdf.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_SDG_RANDOM",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/replicator_tutorials/tutorial_replicator_isaac_randomizers.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_SDG",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/replicator_tutorials/tutorial_replicator_sdg_workflows.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_FR3",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_robots/franka_fr3_ros2_control/index.html",
+    "expected": "html",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Architecture_Image",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/media/model-architecture.png",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_OSMO_DIAGRAM",
+    "url": "https://media.githubusercontent.com/media/NVIDIA/OSMO/main/docs/user_guide/overview.svg",
+    "expected": "any",
+    "used_by": [
+      "08C_Simulation_Control_and_Safety"
+    ]
+  }
+]

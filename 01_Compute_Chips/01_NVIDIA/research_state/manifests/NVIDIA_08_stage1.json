@@ -1,0 +1,26 @@
+[
+  {
+    "name": "NVIDIA_08_OSMO",
+    "url": "https://developer.nvidia.com/osmo",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_CLOUD_NATIVE",
+    "url": "https://developer.nvidia.com/embedded/jetson-cloud-native",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_MIG",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/MiG.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  }
+]

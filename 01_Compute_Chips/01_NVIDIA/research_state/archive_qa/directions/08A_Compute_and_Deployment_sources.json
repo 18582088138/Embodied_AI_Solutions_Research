@@ -1,0 +1,122 @@
+{
+  "report": "01_Compute_Chips/01_NVIDIA/08A_Compute_and_Deployment.md",
+  "source_ids": [
+    "NVIDIA_Datasheet_Thor_Full_v1_5",
+    "NVIDIA_06_DEEP_THOR_TECH",
+    "NVIDIA_08_DEEP_TRT_QUANT",
+    "NVIDIA_GR00T_Deployment_Guide",
+    "NVIDIA_TensorRT_Support_Matrix",
+    "NVIDIA_Product_Page_Jetson_Thor",
+    "NVIDIA_08_DEEP_ROCM_PRECISION",
+    "NVIDIA_02_CUDA_MODEL",
+    "NVIDIA_02_CUDA_ASYNC",
+    "NVIDIA_02_CUDA_GRAPH",
+    "NVIDIA_06_MOTION",
+    "NVIDIA_04_TRT_PERF",
+    "NVIDIA_08_DEEP_HIP_MODEL",
+    "NVIDIA_08_DEEP_HIP_GRAPH",
+    "NVIDIA_02_TRT_WORK",
+    "NVIDIA_08_DEEP_TRT_FUSION",
+    "NVIDIA_08_DEEP_OV_CONVERT",
+    "NVIDIA_08_DEEP_OV_HETERO",
+    "NVIDIA_08_DEEP_OV_LATENCY",
+    "NVIDIA_02_CUDA_MEMORY",
+    "NVIDIA_02_SIPL_COE",
+    "NVIDIA_02_HSB_ARCH",
+    "NVIDIA_08_DEEP_NVIDIA_NVFP4_BLOG",
+    "NVIDIA_08_DEEP_TRT_QUANT_SCHEMES",
+    "NVIDIA_08_DEEP_BLACKWELL_TUNING",
+    "NVIDIA_08_DEEP_TRT_BENCHMARK",
+    "NVIDIA_08_DEEP_TRT_OPTIMIZATION",
+    "NVIDIA_08_DEEP_CUDA_TEGRA",
+    "NVIDIA_08_DEEP_NSIGHT_SYSTEMS",
+    "NVIDIA_08_DEEP_TRT_PRECISION",
+    "NVIDIA_08_DEEP_TRT_MEMORY",
+    "NVIDIA_JetPack_Downloads",
+    "NVIDIA_08_DEEP_TRT_SHAPE_BASICS",
+    "NVIDIA_08_DEEP_TRT_DYNAMIC_CURRENT",
+    "NVIDIA_08_DEEP_TRT_PLUGINS",
+    "NVIDIA_Isaac_ROS_Buffer_Migration"
+  ],
+  "source_urls": [
+    "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf",
+    "https://developer.nvidia.com/blog/introducing-nvidia-jetson-thor-the-ultimate-platform-for-physical-ai/",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html",
+    "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/scripts/deployment/README.md",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html",
+    "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+    "https://rocm.docs.amd.com/en/latest/reference/precision-support.html",
+    "https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/programming-model.html",
+    "https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/asynchronous-execution.html",
+    "https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/cuda-graphs.html",
+    "https://nvlabs.github.io/curobo/latest/getting-started/motion_planning.html",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/best-practices.html",
+    "https://rocm.docs.amd.com/projects/HIP/en/latest/understand/programming_model.html",
+    "https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/hipgraph.html",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/fusion-catalog.html",
+    "https://docs.openvino.ai/2025/openvino-workflow/model-preparation.html",
+    "https://docs.openvino.ai/2025/openvino-workflow/running-inference/inference-devices-and-modes/hetero-execution.html",
+    "https://docs.openvino.ai/2025/openvino-workflow/running-inference/optimize-inference/optimizing-latency.html",
+    "https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html",
+    "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html",
+    "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture",
+    "https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-schemes.html",
+    "https://docs.nvidia.com/cuda/blackwell-tuning-guide/index.html",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/benchmarking.html",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/optimization.html",
+    "https://docs.nvidia.com/cuda/cuda-for-tegra-appnote/index.html",
+    "https://docs.nvidia.com/nsight-systems/UserGuide/index.html",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/precision-control.html",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "https://developer.nvidia.com/embedded/jetpack/downloads",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/dynamic-shapes-basics.html",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/work-with-dynamic-shapes.html",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/extending-custom-layers.html",
+    "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/nitros_migration.html"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/06_DEEP_THOR_TECH--c17dd5eed35b00ec/assets/images/5086cfeb5f00b5d9fc5eabea.webp",
+      "source_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/08/nvidia-jetson-thor-module-components-png.webp",
+      "caption": "NVIDIA官方Thor模组计算、内存与接口组成图"
+    },
+    {
+      "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/02_CUDA_MODEL--ff852ad994d3a602/assets/images/5e6268aa62a2b30f1b1cb6f2.png",
+      "source_url": "https://docs.nvidia.com/cuda/cuda-programming-guide/_images/grid-of-thread-blocks.png",
+      "caption": "CUDA官方线程块与计算层级示意图"
+    },
+    {
+      "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/figures/TRT_WORK.png",
+      "source_url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/_images/trt-object-lifetimes.svg",
+      "caption": "TensorRT官方builder与runtime对象生命周期"
+    },
+    {
+      "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/figures/D08_NVFP4_SCALE_FIG.png",
+      "source_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/06/nvfp4-two-level-scaling.gif",
+      "caption": "NVFP4官方每块及每张量两级缩放结构"
+    },
+    {
+      "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/08_DEEP_NVIDIA_NVFP4_BLOG--bdc20768416189cc/assets/images/964b6585151c6ff5acba5a52.webp",
+      "source_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/06/quantization-precision-power-of-two-fractional-scaling-comparison-png.webp",
+      "caption": "官方二次幂与分数缩放的量化值对照"
+    },
+    {
+      "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/08_DEEP_NVIDIA_NVFP4_BLOG--bdc20768416189cc/assets/images/816e0d8189eb444f26d5e9e6.webp",
+      "source_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/06/nvfp4-model-accuracy-comparison-png.webp",
+      "caption": "NVIDIA官方DeepSeek-R1-0528在FP8与NVFP4下的任务准确率图"
+    },
+    {
+      "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/08_DEEP_CUDA_TEGRA--e1e2a9f4bcacf89e/assets/images/f98eff2f440c25cc9d0550ae.png",
+      "source_url": "https://docs.nvidia.com/cuda/cuda-for-tegra-appnote/_images/eglstream-pipeline.png",
+      "caption": "CUDA for Tegra官方EGLStream图像生产、消费与处理流水线"
+    },
+    {
+      "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/08_DEEP_CUDA_TEGRA--e1e2a9f4bcacf89e/assets/images/2064887c2a9d5b40a9aada46.png",
+      "source_url": "https://docs.nvidia.com/cuda/cuda-for-tegra-appnote/_images/cuDLA-execution-model.png",
+      "caption": "CUDA for Tegra官方cuDLA与GPU任务的执行关系"
+    }
+  ],
+  "body_han_chars": 8242
+}

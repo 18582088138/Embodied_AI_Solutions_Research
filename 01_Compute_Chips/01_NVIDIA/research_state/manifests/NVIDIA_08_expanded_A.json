@@ -1,0 +1,82 @@
+[
+  {
+    "name": "NVIDIA_08_DEEP_CUDA_TEGRA",
+    "url": "https://docs.nvidia.com/cuda/cuda-for-tegra-appnote/index.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_BLACKWELL_TUNING",
+    "url": "https://docs.nvidia.com/cuda/blackwell-tuning-guide/index.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TE_NUMERICS",
+    "url": "https://docs.nvidia.com/deeplearning/transformer-engine/user-guide/examples/fp8_primer.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_DYNAMIC",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/work-dynamic-shapes.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_MEMORY",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_BEST",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/best-practices.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_PLUGINS",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/extending-custom-layers.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_ADVANCED",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/advanced.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_NSIGHT_SYSTEMS",
+    "url": "https://docs.nvidia.com/nsight-systems/UserGuide/index.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_NVIDIA_NVFP4_BLOG",
+    "url": "https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+[
+ {"name":"NVIDIA_07_PARTNER_DATA","url":"https://developer.nvidia.com/search-data/jetson_ecosystem_partners.json","expected":"json","used_by":["07_Ecosystem"]},
+ {"name":"NVIDIA_07_SUPPORT","url":"https://developer.nvidia.com/embedded/support","expected":"html","used_by":["07_Ecosystem"]},
+ {"name":"NVIDIA_07_BRINGUP","url":"https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/HR/JetsonModuleAdaptationAndBringUp/JetsonThorAdaptationBringUp.html","expected":"html","used_by":["07_Ecosystem"]},
+ {"name":"NVIDIA_07_CHECKLIST","url":"https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/HR/JetsonModuleAdaptationAndBringUp/Checklists.html","expected":"html","used_by":["07_Ecosystem"]}
+]

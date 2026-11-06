@@ -1,0 +1,114 @@
+[
+  {
+    "name": "NVIDIA_03_CORRELATED_44",
+    "url": "https://nvidia-isaac-ros.github.io/v/release-4.4/repositories_and_packages/isaac_ros_nova/isaac_ros_correlated_timestamp_driver/index.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HESAI_44",
+    "url": "https://nvidia-isaac-ros.github.io/v/release-4.4/repositories_and_packages/isaac_ros_nova/isaac_ros_hesai/index.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_VALIDATION_44",
+    "url": "https://nvidia-isaac-ros.github.io/v/release-4.4/repositories_and_packages/isaac_ros_nova/isaac_ros_data_validation/index.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_RECORDER_44",
+    "url": "https://nvidia-isaac-ros.github.io/v/release-4.4/repositories_and_packages/isaac_ros_nova/isaac_ros_data_recorder/index.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_SIPL_ROS",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_sipl_camera/isaac_ros_sipl_camera/index.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_EXTRINSICS",
+    "url": "https://nvidia-isaac-ros.github.io/getting_started/sensors/extrinsic_calibration.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_OUSTER_NVBLOX",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/technical_details.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_REALSENSE_SETUP",
+    "url": "https://nvidia-isaac-ros.github.io/getting_started/sensors/realsense_setup.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_MULTI_RS_SYNC",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_nvblox/multi_realsense_emitter_synchronizer/index.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_VSLAM_META",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_VSLAM_COMMIT",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_VSLAM_PAGE",
+    "url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_VSLAM_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_ORBBEC_TRACKER",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/tools/timestamp_tracker/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  }
+]

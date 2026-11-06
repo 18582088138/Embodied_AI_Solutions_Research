@@ -1,0 +1,103 @@
+{
+  "report": "01_Compute_Chips/01_NVIDIA/08B_Sensing_and_Isolation.md",
+  "source_ids": [
+    "NVIDIA_02_PVA_ARCH2",
+    "NVIDIA_Datasheet_Thor_Full_v1_5",
+    "NVIDIA_02_VPI_ROOT",
+    "NVIDIA_02_VPI_CONCEPT",
+    "NVIDIA_08_DEEP_TI_TDA4",
+    "NVIDIA_02_SIPL_COE",
+    "NVIDIA_03_SENSOR_MATRIX",
+    "NVIDIA_02_HSB_ARCH",
+    "NVIDIA_03_HSB_HOST",
+    "NVIDIA_03_HSB_LATENCY",
+    "NVIDIA_03_HSB_PTP_NOTE",
+    "NVIDIA_07_DEEP_ECON",
+    "NVIDIA_Isaac_ROS_Buffer_Migration",
+    "NVIDIA_02_BUFFER_DOC",
+    "NVIDIA_08_DEEP_BUFFER_CUDA",
+    "NVIDIA_08_DEEP_ROS2_INTRAPROCESS_RAW",
+    "NVIDIA_08_MIG",
+    "NVIDIA_02_MPS_DOC",
+    "NVIDIA_02_TRT_WORK",
+    "NVIDIA_04_TRT_PERF",
+    "NVIDIA_08_DEEP_AMD_SRIOV",
+    "NVIDIA_08_DEEP_PVA_DATAFLOW_TUTORIAL",
+    "NVIDIA_08_DEEP_VPI_PERF",
+    "NVIDIA_08_DEEP_TRT_BENCHMARK",
+    "NVIDIA_06_EMBODIMENT",
+    "NVIDIA_08_DEEP_TRT_MEMORY",
+    "NVIDIA_Product_Brief_IGX_Thor_Safety",
+    "NVIDIA_08_DEEP_TRT_OPTIMIZATION",
+    "NVIDIA_08_DEEP_THOR_SECUREBOOT",
+    "NVIDIA_08_DEEP_OPTEE_ARCH",
+    "NVIDIA_08_DEEP_DISK_ENCRYPT",
+    "NVIDIA_08_DEEP_MEM_ENCRYPT",
+    "NVIDIA_08_DEEP_PVA_AUTH",
+    "NVIDIA_08_DEEP_ROLLBACK"
+  ],
+  "source_urls": [
+    "https://docs.nvidia.com/pva/sdk/2.10.1/architecture.html",
+    "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf",
+    "https://docs.nvidia.com/vpi/index.html",
+    "https://docs.nvidia.com/vpi/basic_concepts.html",
+    "https://www.ti.com/lit/ds/symlink/tda4vm.pdf",
+    "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html",
+    "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/CameraDevelopmentSupportMatrix.html",
+    "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture",
+    "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/getting-started/host-setup",
+    "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/latency",
+    "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/fpga-ip/ptp-application-note",
+    "https://www.e-consystems.com/pr/ai-powered-vision-and-compute-solutions-accelerated-by-nvidia-jetson-thor.asp",
+    "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/nitros_migration.html",
+    "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/index.html",
+    "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/cuda_buffer_backend.html",
+    "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Tutorials/Demos/Intra-Process-Communication.rst",
+    "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/MiG.html",
+    "https://nvidia-isaac-ros.github.io/concepts/gpu_partitioning/index.html",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/best-practices.html",
+    "https://instinct.docs.amd.com/projects/virt-drv/en/latest/",
+    "https://docs.nvidia.com/pva/sdk/2.10.1/tutorial/vmem-buffers-dataflows.html",
+    "https://docs.nvidia.com/vpi/algo_performance.html",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/benchmarking.html",
+    "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/how_to_guides/bring_your_own_embodiment.html",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "https://developer.download.nvidia.com/assets/igx/robotics-product-brief-igx-thor-safety-4473375.pdf",
+    "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/optimization.html",
+    "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/SecureBoot/QuickStartThor.html",
+    "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/OpTee/Architecture.html",
+    "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/DiskEncryption/Concepts.html",
+    "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/MemoryEncryption.html",
+    "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/PVAAuthentication.html",
+    "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/RollbackProtection.html"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/02_PVA_ARCH2--782050b23c55b756/assets/images/4d4f1900e2c24851434172a9.png",
+      "source_url": "https://docs.nvidia.com/pva/sdk/2.10.1/_images/pva-architecture.png",
+      "caption": "PVA SDK官方处理器及运行架构"
+    },
+    {
+      "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/02_SIPL_COE--acc0a9a82b614a53/assets/images/40db91f7ab798e44e72f4185.png",
+      "source_url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/_images/coe_gmsl_architecture.png",
+      "caption": "SIPL官方CoE与GMSL/MIPI相机路径"
+    },
+    {
+      "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/figures/D08_OPTEE_ARCH_FIG.png",
+      "source_url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/_images/Architecture.svg",
+      "caption": "Jetson官方normal world、secure world与Thor Hafnium分层"
+    },
+    {
+      "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/figures/D08_DISK_KEY_FIG.png",
+      "source_url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/_images/OpTeeLuksSrvWorkingModel.svg",
+      "caption": "官方LUKS服务与设备口令派生结构"
+    },
+    {
+      "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/08_core/figures/D08_DISK_UNLOCK_FIG.png",
+      "source_url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/_images/EncryptedDiskUnlockingProcess.svg",
+      "caption": "Jetson官方加密磁盘启动解锁流程"
+    }
+  ],
+  "body_han_chars": 7633
+}

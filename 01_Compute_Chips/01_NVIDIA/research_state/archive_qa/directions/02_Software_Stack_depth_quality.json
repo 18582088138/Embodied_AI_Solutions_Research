@@ -1,0 +1,190 @@
+{
+  "outcome": "pass",
+  "report_sha256": "78a3a9fe4bc4ca60b9611be7860ebc86bba1eacffe06066eb07cea22d93de448",
+  "standalone_component_chapters": [
+    {
+      "number": 2,
+      "title": "JetPack与Jetson Linux：发行套件、BSP和设备生命周期",
+      "han_chars": 1004,
+      "subsections": 3,
+      "official_citations": 13,
+      "tables": 1,
+      "images": 1,
+      "mermaid_diagrams": 0
+    },
+    {
+      "number": 3,
+      "title": "CUDA Toolkit：GPU执行、内存和编译基础",
+      "han_chars": 1180,
+      "subsections": 4,
+      "official_citations": 15,
+      "tables": 1,
+      "images": 1,
+      "mermaid_diagrams": 0
+    },
+    {
+      "number": 4,
+      "title": "cuDNN：深度学习算子、计算图和融合执行",
+      "han_chars": 1098,
+      "subsections": 4,
+      "official_citations": 23,
+      "tables": 1,
+      "images": 1,
+      "mermaid_diagrams": 0
+    },
+    {
+      "number": 5,
+      "title": "TensorRT：网络编译器与高性能推理运行时",
+      "han_chars": 1160,
+      "subsections": 4,
+      "official_citations": 16,
+      "tables": 1,
+      "images": 1,
+      "mermaid_diagrams": 0
+    },
+    {
+      "number": 6,
+      "title": "VPI：跨CPU、GPU和专用视觉引擎的算法接口",
+      "han_chars": 944,
+      "subsections": 3,
+      "official_citations": 11,
+      "tables": 1,
+      "images": 1,
+      "mermaid_diagrams": 0
+    },
+    {
+      "number": 7,
+      "title": "PVA SDK与cuPVA：自定义低功耗视觉处理",
+      "han_chars": 1080,
+      "subsections": 3,
+      "official_citations": 17,
+      "tables": 1,
+      "images": 1,
+      "mermaid_diagrams": 0
+    },
+    {
+      "number": 8,
+      "title": "Jetson Multimedia API、Argus与SIPL：相机和媒体处理基础",
+      "han_chars": 821,
+      "subsections": 3,
+      "official_citations": 15,
+      "tables": 1,
+      "images": 2,
+      "mermaid_diagrams": 0
+    },
+    {
+      "number": 9,
+      "title": "DeepStream：多路视频分析与GStreamer插件栈",
+      "han_chars": 1006,
+      "subsections": 3,
+      "official_citations": 10,
+      "tables": 1,
+      "images": 1,
+      "mermaid_diagrams": 0
+    },
+    {
+      "number": 10,
+      "title": "Holoscan SDK：传感器计算图、时序语义与运行时",
+      "han_chars": 1095,
+      "subsections": 4,
+      "official_citations": 17,
+      "tables": 2,
+      "images": 1,
+      "mermaid_diagrams": 0
+    },
+    {
+      "number": 11,
+      "title": "Holoscan Sensor Bridge：传感器控制面、数据面与GPU接收",
+      "han_chars": 796,
+      "subsections": 3,
+      "official_citations": 10,
+      "tables": 1,
+      "images": 0,
+      "mermaid_diagrams": 0
+    },
+    {
+      "number": 12,
+      "title": "Isaac ROS：加速节点、ROS数据通路与策略部署",
+      "han_chars": 1328,
+      "subsections": 4,
+      "official_citations": 18,
+      "tables": 2,
+      "images": 0,
+      "mermaid_diagrams": 0
+    },
+    {
+      "number": 13,
+      "title": "Isaac GR00T：VLA模型、后训练与端侧策略运行时",
+      "han_chars": 1295,
+      "subsections": 5,
+      "official_citations": 25,
+      "tables": 2,
+      "images": 1,
+      "mermaid_diagrams": 0
+    },
+    {
+      "number": 14,
+      "title": "Triton Inference Server：模型服务、调度与生命周期",
+      "han_chars": 1043,
+      "subsections": 4,
+      "official_citations": 14,
+      "tables": 2,
+      "images": 1,
+      "mermaid_diagrams": 0
+    },
+    {
+      "number": 15,
+      "title": "Nsight工具族：系统时间线、GPU算子与图形诊断",
+      "han_chars": 960,
+      "subsections": 4,
+      "official_citations": 13,
+      "tables": 1,
+      "images": 1,
+      "mermaid_diagrams": 0
+    },
+    {
+      "number": 16,
+      "title": "TAO Toolkit：视觉模型后训练与优化工作流",
+      "han_chars": 975,
+      "subsections": 4,
+      "official_citations": 10,
+      "tables": 1,
+      "images": 1,
+      "mermaid_diagrams": 0
+    },
+    {
+      "number": 17,
+      "title": "NIM：模型专用推理微服务与云边接口",
+      "han_chars": 1664,
+      "subsections": 4,
+      "official_citations": 17,
+      "tables": 2,
+      "images": 0,
+      "mermaid_diagrams": 1
+    },
+    {
+      "number": 18,
+      "title": "Isaac Sim与Isaac Lab：开发、训练和真实机器人软件对接",
+      "han_chars": 1038,
+      "subsections": 4,
+      "official_citations": 17,
+      "tables": 2,
+      "images": 0,
+      "mermaid_diagrams": 0
+    }
+  ],
+  "official_bitmap_figures": 14,
+  "official_mermaid_diagrams": 1,
+  "mermaid_exact_source_verified": true,
+  "visual_review": "Contact sheet inspected for 14 figures; TensorRT, Holoscan lifecycle and cuDNN graph inspected at full resolution. Original content and SVG source retained.",
+  "manual_review": [
+    "JetPack installed baseline separated from online latest cuDNN, PVA, TensorRT, DeepStream and Holoscan documentation.",
+    "NIM single-backend vLLM/SGLang container and removed 1.x backend chain reviewed; official diagram, health/readiness and profile/memory conditions checked.",
+    "cuDNN figure represents a specific Mha-fprop mode; its limits are not library-wide limits.",
+    "ROS NITROS deprecation, rosidl Buffer migration and MPS memory/isolation limits retained.",
+    "GR00T benchmark scope, power and precision conditions retained.",
+    "Isaac Sim code and additional Kit/assets licenses checked against archived LICENSE.",
+    "Isaac Lab installation redirect excluded and declared canonical installation page archived."
+  ],
+  "limits": "Document and evidence review only; no hardware installation, training or robot tests."
+}

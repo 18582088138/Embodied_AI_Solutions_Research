@@ -1,0 +1,10 @@
+[
+ {"name":"NVIDIA_05_SIM_ARCH","url":"https://docs.isaacsim.omniverse.nvidia.com/latest/introduction/reference_architecture.html","expected":"html","used_by":["05_Simulation_Environment"]},
+ {"name":"NVIDIA_05_PHYSICS","url":"https://docs.isaacsim.omniverse.nvidia.com/latest/physics/simulation_fundamentals.html","expected":"html","used_by":["05_Simulation_Environment"]},
+ {"name":"NVIDIA_05_HYDRO","url":"https://docs.isaacsim.omniverse.nvidia.com/latest/physics/hydroelastic_contact.html","expected":"html","used_by":["05_Simulation_Environment"]},
+ {"name":"NVIDIA_05_ACTUATOR","url":"https://docs.isaacsim.omniverse.nvidia.com/latest/newton_actuators_tutorials/newton_actuators_python.html","expected":"html","used_by":["05_Simulation_Environment"]},
+ {"name":"NVIDIA_05_SENSOR","url":"https://docs.isaacsim.omniverse.nvidia.com/latest/sensors/isaacsim_sensors_rtx.html","expected":"html","used_by":["05_Simulation_Environment"]},
+ {"name":"NVIDIA_05_SDG","url":"https://docs.isaacsim.omniverse.nvidia.com/latest/replicator_tutorials/tutorial_replicator_sdg_workflows.html","expected":"html","used_by":["05_Simulation_Environment"]},
+ {"name":"NVIDIA_05_SIM_COSMOS","url":"https://docs.isaacsim.omniverse.nvidia.com/latest/replicator_tutorials/tutorial_replicator_cosmos.html","expected":"html","used_by":["05_Simulation_Environment"]},
+ {"name":"NVIDIA_05_LAB_EVENTS","url":"https://isaac-sim.github.io/IsaacLab/main/source/api/lab/isaaclab.managers.html","expected":"html","used_by":["05_Simulation_Environment"]}
+]

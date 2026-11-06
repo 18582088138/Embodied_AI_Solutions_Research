@@ -1,0 +1,34 @@
+[
+  {
+    "name": "NVIDIA_06_DEEP_ORIN_TECH",
+    "url": "https://developer.nvidia.com/blog/nvidia-jetson-agx-orin-charts-new-path-for-edge-ai-and-robotics/",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEEP_UNITREE_H1",
+    "url": "https://www.unitree.com/h1",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEEP_DILIGENT",
+    "url": "https://www.diligentrobots.com/blog/moxi2-0",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEEP_NEO",
+    "url": "https://www.1x.tech/neo",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "name": "NVIDIA_02_CUDNN_FRONT",
+    "url": "https://docs.nvidia.com/deeplearning/cudnn/frontend/latest/index.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_GRAPH",
+    "url": "https://docs.nvidia.com/deeplearning/cudnn/backend/latest/developer/graph-api.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_OVERVIEW",
+    "url": "https://docs.nvidia.com/deeplearning/cudnn/backend/latest/developer/overview.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_VPI_CONCEPT",
+    "url": "https://docs.nvidia.com/vpi/basic_concepts.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_VPI_KLT",
+    "url": "https://docs.nvidia.com/vpi/algo_klt_tracker.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_PVA_ARCH2",
+    "url": "https://docs.nvidia.com/pva/sdk/2.10.1/architecture.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HOLO4_OVERVIEW",
+    "url": "https://docs.nvidia.com/holoscan/sdk-user-guide/4-4/introduction/overview",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_SIPL_INTRO",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/Introduction-to-SIPL.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_SIPL_GMSL",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/GMSL/GMSL-Architecture-Overview.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_SIPL_COE",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_MEDIA_API",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Multimedia/MultimediaApis.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NIM_PAGE",
+    "url": "https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices/",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NIM_ROOT",
+    "url": "https://docs.nvidia.com/nim/index.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NSIGHT_COMPUTE",
+    "url": "https://docs.nvidia.com/nsight-compute/ProfilingGuide/index.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_REPO_META",
+    "url": "https://api.github.com/repos/NVIDIA/cudnn-frontend",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_REPO_COMMIT",
+    "url": "https://api.github.com/repos/NVIDIA/cudnn-frontend/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_REPO_PAGE",
+    "url": "https://github.com/NVIDIA/cudnn-frontend",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_REPO_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVIDIA/cudnn-frontend/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TAO_REPO_META",
+    "url": "https://api.github.com/repos/NVIDIA/tao_pytorch_backend",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TAO_REPO_COMMIT",
+    "url": "https://api.github.com/repos/NVIDIA/tao_pytorch_backend/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TAO_REPO_PAGE",
+    "url": "https://github.com/NVIDIA/tao_pytorch_backend",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TAO_REPO_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVIDIA/tao_pytorch_backend/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  }
+]

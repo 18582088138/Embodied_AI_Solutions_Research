@@ -1,0 +1,58 @@
+[
+  {
+    "name": "NVIDIA_08_DEEP_PVA_DATAFLOW_TUTORIAL",
+    "url": "https://docs.nvidia.com/pva/sdk/2.10.1/tutorial/vmem-buffers-dataflows.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_THOR_SECUREBOOT",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/SecureBoot/QuickStartThor.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_OPTEE_ARCH",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/OpTee/Architecture.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_DISK_ENCRYPT",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/DiskEncryption/Concepts.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_MEM_ENCRYPT",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/MemoryEncryption.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_ROLLBACK",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/RollbackProtection.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_PVA_AUTH",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/PVAAuthentication.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "NVIDIA_09_DEEP_IR_ANNUAL",
+    "url": "https://investor.nvidia.com/financial-info/annual-reports-and-proxies/default.aspx",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_09_DEEP_IFR_PRESS",
+    "url": "https://ifr.org/ifr-press-releases",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_09_DEEP_GXO_DIGIT",
+    "url": "https://gxo.com/news_article/gxo-signs-industry-first-multi-year-agreement-with-agility-robotics/",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_09_DEEP_AGILITY_GXO",
+    "url": "https://www.agilityrobotics.com/content/gxo-signs-multi-year-agreement-with-agility-robotics",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_09_DEEP_OTTO_CASE",
+    "url": "https://www.nvidia.com/en-us/customer-stories/otto-motors/",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_09_DEEP_IDEALWORKS_CASE",
+    "url": "https://www.nvidia.com/en-us/customer-stories/idealworks/",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  }
+]

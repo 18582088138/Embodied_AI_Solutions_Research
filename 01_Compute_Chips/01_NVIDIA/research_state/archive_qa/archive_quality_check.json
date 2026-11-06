@@ -1,0 +1,14 @@
+{
+  "sources": 45,
+  "status_counts": {
+    "complete_static": 22,
+    "partial_static": 23
+  },
+  "html_sources": 24,
+  "static_html_text_equal": true,
+  "assets": 1321,
+  "unavailable_asset_references": 1051,
+  "unavailable_presentation_asset_references": 998,
+  "page_local_links_checked": 5818,
+  "errors": []
+}

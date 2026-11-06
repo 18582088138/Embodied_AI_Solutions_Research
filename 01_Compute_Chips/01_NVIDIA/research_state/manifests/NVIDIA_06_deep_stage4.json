@@ -1,0 +1,26 @@
+[
+  {
+    "name": "NVIDIA_06_DEEP_BD_COLLAB",
+    "url": "https://bostondynamics.com/news/boston-dynamics-expands-collaboration-with-nvidia/",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEEP_BD_RL",
+    "url": "https://bostondynamics.com/blog/starting-on-the-right-foot-with-reinforcement-learning/",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEEP_SPOT_COMPUTE",
+    "url": "https://bostondynamics.com/blog/doing-more-with-spot/",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  }
+]

@@ -1,0 +1,188 @@
+# NVIDIA：核心技术壁垒与特色软硬件方案
+
+## 1. 护城河由哪些可验证机制形成
+
+NVIDIA的具身智能技术壁垒不是单一TOPS数值，而是Blackwell计算、CUDA开发模型、TensorRT部署、板级BSP、传感器数据搬运与机器人训练工作流的组合。采用这些组件能复用大量优化与接口，但越深入使用GPU专用内核、PVA程序、序列化engine和专有驱动，替换平台时需要重新验证的资产越多。开放的机器人数据格式和代码框架则给客户留下部分可移植边界。[Datasheet Thor Full v1 5](https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf) [CUDA编程模型与线程层级](https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/programming-model.html) [TensorRT构建、运行与对象生命周期](https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html) [Jetson Linux 39 2 1 License](https://developer.nvidia.com/downloads/embedded/L4T/r39_Release_v2.1/release/Tegra_Software_License_Agreement-Tegra-Linux.txt)
+
+本报告用“架构特征、工程路径、许可约束、迁移成本”分析壁垒，不把所有NVIDIA参与的开源项目写成独占技术。[公开资料未披露] 本轮未取得能逐一对应Thor功能模块的专利清单、有效地域、剩余期限和竞争对手侵权比较，因此不以猜测专利数量证明护城河。结论基于11月3日已有官方快照及11月4日新增MIG、OSMO和云原生资料，未执行设备性能或安全认证测试。
+
+| 壁垒层 | 可确认的技术资产 | 为客户带来的价值 | 客户需要付出的迁移工作 |
+|---|---|---|---|
+| 芯片与内存 | Blackwell Tensor Core、PVA、LPDDR5X与MIG | 大模型、多传感器和并发算力基础 | 重新量化、内核优化及热验证 |
+| 计算编程 | CUDA线程层级、异步流、Graphs与内存API | 多阶段计算及调度优化 | 替换专用kernel、同步和内存语义 |
+| 推理部署 | TensorRT构建与runtime | 面向目标GPU选择执行实现 | 保留模型源，重建engine和插件 |
+| 数据入口 | SIPL/MGBE、HSB/ConnectX路径 | 降低采集与搬运的CPU开销 | 相机驱动、传输与时钟重新验证 |
+| 机器人开发 | 模型、仿真与编排工作流 | 连接数据生成、训练及评估 | 本体、动力学、资产及部署栈适配 |
+
+该表是基于[Datasheet Thor Full v1 5](https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf)、[PVA SDK 2.10.1处理器与编程架构](https://docs.nvidia.com/pva/sdk/2.10.1/architecture.html)、[CUDA Graphs官方文档](https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/cuda-graphs.html)、[TensorRT构建、运行与对象生命周期](https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html)、[Jetson SIPL Camera over Ethernet架构](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html)、[Holoscan Sensor Bridge 2.7架构与示例](https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture)和[NVIDIA OSMO官方平台](https://developer.nvidia.com/osmo)的分析归纳；没有声称竞争平台无法实现类似目标。
+
+## 2. Blackwell与低精度：算力成立的条件
+
+Thor v1.5 Datasheet给出T5000的3 GPC、10 TPC、2560 CUDA cores及第五代Tensor Cores，T4000为2 GPC、6 TPC、1536 CUDA cores。两款均为256-bit LPDDR5X、273GB/s，容量分别128GB和64GB。大容量有利于模型权重、KV cache和多任务常驻，但系统、图形、传感器buffer及runtime也消耗同一内存预算，不能将全部标称容量当作模型可用显存。[Datasheet Thor Full v1 5](https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf) [Jetson Thor官方规格](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/)
+
+| 原始官方精度口径 | T5000，MAXN上限 | T4000，MAXN上限 | 比较时的必要条件 |
+|---|---:|---:|---|
+| FP4 sparse | 2070 TFLOPS | 1200 TFLOPS | 模型和执行路径满足对应精度、稀疏条件 |
+| FP4 dense | 1035 TFLOPS | 600 TFLOPS | 不套用稀疏翻倍系数 |
+| FP8 sparse | 1035 TFLOPS | 600 TFLOPS | 采用FP8实际算子路径 |
+| FP8 dense | 517 TFLOPS | 300 TFLOPS | 相同精度与dense口径 |
+| FP32 CUDA core | 8.064 TFLOPS | 4.700 TFLOPS | 与Tensor Core矩阵峰值分开 |
+| 当前模组功耗范围 | 40—130W | 40—70W | 功耗模式、热稳态与频率固定 |
+
+来源：2026年6月DS-11945-001_v1.5，Overview性能表及当前[Jetson Thor官方规格](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/)。早期TB-12572-001白皮书表格写T4000为40—90W，本报告优先采用v1.5和产品页的40—70W；同时不沿用早期白皮书中GPU数量文字的内部矛盾。[Datasheet Thor Full v1 5](https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf) [Technical Brief Robotics Edge AI](https://dam-cdn.nvd.orangelogic.com/AssetLink/v686u306w26ftuk863xjeimilimtx55e.pdf)
+
+Transformer Engine结合软件与专用Tensor Core加速Transformer推理，FP8包括E4M3/E5M2编码，FP4为E2M1；选择低精度需要相应模型和量化实现。低精度峰值不能直接与Orin的INT8 TOPS相除得出机器人任务加速倍数。对于VLA，应检查末端动作误差与任务成功率；对于VLM，应检查视觉细节与长上下文；对于控制任务，关注观测到动作的时延尾部，而不仅是矩阵吞吐。[Datasheet Thor Full v1 5](https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf) [TensorRT官方性能与测量指南](https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/best-practices.html)
+
+GR00T部署说明确实给出Thor优化：cross-attention K/V缓存、projection fusion、CUDA Graphs及mixed NVFP4/FP8。其双相机、指定去噪与MAXN配置下35.6ms约等于28.1Hz动作块重规划；baseline完整TensorRT为76.8ms。此例说明硬件优势需要软件优化才能释放，也说明“实时VLA”不能脱离相机、本体、去噪步数和量化校准条件。详见04报告的完整基准表。[GR00T官方部署与基准](https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/scripts/deployment/README.md)
+
+## 3. CUDA与TensorRT：优化资产如何绑定目标平台
+
+CUDA的grid/block/thread层级、流与event同步、Graphs和内存管理为感知、推理与运动规划提供统一的GPU编程方式。性能收益来自减少launch开销、控制数据驻留和并行执行，而不是仅仅调用一个GPU函数。Graphs适合重复计算图，应用必须维持捕获所需的形状、地址和同步条件；动态场景仍要检查图更新和额外分配的代价。[CUDA编程模型与线程层级](https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/programming-model.html) [CUDA异步执行文档](https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/asynchronous-execution.html) [CUDA Graphs官方文档](https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/cuda-graphs.html)
+
+![TensorRT官方构建和运行对象生命周期](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/derived/figures/software_stack/TRT_WORK_official.png)
+
+**图1：TensorRT官方构建和运行对象生命周期。** 原图出处：[TensorRT构建、运行与对象生命周期](https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html)。
+
+图说明builder侧与runtime侧有不同对象及生命周期，engine是面向目标GPU选择kernel后的执行产物。客户应保存原始模型、量化数据、插件源码、构建参数与TensorRT/CUDA版本，不能只交付plan文件。TensorRT支持矩阵对engine的平台和GPU移植给出限制，version-compatible及hardware compatibility机制也有条件，不能概括为一份engine跨全部Jetson和服务器通用。[TensorRT构建、运行与对象生命周期](https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html) [TensorRT官方支持矩阵](https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html)
+
+共享物理DRAM、统一虚拟地址与CUDA Unified Memory是不同概念。CUDA文档明确不同OS、驱动、GPU与互连存在不同managed memory范式，可通过设备属性查询。Thor是SoC内存架构，不应把数据中心NVLink/ATS条件或独显HBM带宽复制到Thor。零拷贝还需要描述谁分配、谁持有buffer、何时完成DMA及同步；省掉显式memcpy并不等于没有缓存维护、排队和所有权成本。[CUDA内存模型文档](https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html) [Datasheet Thor Full v1 5](https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf)
+
+因此软件护城河体现在长期调优资产与开发经验，而不是应用代码完全不可迁移。模型源、标准张量接口和业务逻辑可以保留；CUDA kernel、PVA程序、专用插件、设备树和端到端验收通常需重做。BSP许可还对所覆盖驱动的软件用途和修改设置边界，工程可迁移性与法律可再分发性应分别评估。[Jetson Linux 39 2 1 License](https://developer.nvidia.com/downloads/embedded/L4T/r39_Release_v2.1/release/Tegra_Software_License_Agreement-Tegra-Linux.txt)
+
+## 4. Thor MIG与CUDA MPS：并发和隔离的区别
+
+Thor Datasheet描述按GPC分离GPU实例，T5000举例4 TPC与6 TPC两分区，T4000举例4 TPC与2 TPC。计算可在各分区使用，图形只在一个具备图形能力的分区运行；这与任意比例切分、任意实例数量不同。11月4日补采的R39.2.1指南进一步给出nvidia-smi配置流程，已不只是产品宣传。[Datasheet Thor Full v1 5](https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf) [Jetson R39.2.1官方MIG配置指南](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/MiG.html)
+
+| 机制 | 官方实际配置 | 资源边界 | 对机器人方案的含义 |
+|---|---|---|---|
+| Thor MIG | 停显示、启persistence/MIG、查询profile、创建实例 | GPU硬件级分区，按设备实际profile使用 | 可隔离高吞吐模型与另一GPU任务 |
+| R39.2.1 MIG示例 | profile83：2g.0gb+gfx，profile78：1g.0gb+me | 示例分别12/6 SM；图形在83 | 以UUID和实际枚举确认任务落在哪个实例 |
+| Isaac ROS CUDA MPS | chunks配置、nvidia-cuda-mps-control、进程环境变量 | 静态SM配额；不划分GPU内存、不完全隔离 | 减少计算资源争用，不能代替MIG |
+| 进程隔离与监管 | 每个服务有健康探针和重启机制 | CUDA sticky error常需进程重启 | 硬件分区仍需失效检测和恢复 |
+
+来源：[Jetson R39.2.1官方MIG配置指南](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/MiG.html) [Isaac ROS CUDA MPS静态GPU分区](https://nvidia-isaac-ros.github.io/concepts/gpu_partitioning/index.html) [TensorRT构建、运行与对象生命周期](https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html)。MPS文档要求控制程序版本13010及以上，具体chunk对应SM数由架构和驱动决定；不能写死成通用硬件比例。MIG示例profile显示0.00GiB/0gb，这是官方Jetson示例字段，不应套用数据中心MIG的HBM容量命名规则，也不能推断可分配内存为零。内存配额、带宽干扰与完整系统故障响应需要目标栈进一步验证。
+
+选择MIG要计入分区造成的单任务计算资源下降，图形与媒体资源profile约束，以及部署枚举变化。即使GPU故障域分开，相机、CPU、存储、供电和机器人执行器仍是系统的一部分。[公开资料未披露] 本轮没有两种机制在目标机器人上的P99、最坏时延和故障注入实测，故不声称任一种机制自动保证硬实时或整机安全等级。
+
+## 5. PVA：把规则视觉从GPU竞争中分离
+
+PVA v3为Thor的独立可编程视觉资源。PVA SDK 2.10.1提供CPU侧Host API和设备程序：分配buffer，创建Executable与CmdProgram，配置并编译dataflow，提交Stream，以Fence或同步接口等待结果。它适合可表达为规则视觉/数据流的任务，让GPU保留给推理；VPI则提供已有算法及backend选择，固定库算法与自定义PVA程序是不同使用方式。[PVA SDK 2.10.1处理器与编程架构](https://docs.nvidia.com/pva/sdk/2.10.1/architecture.html) [VPI 4.1算法与平台说明](https://docs.nvidia.com/vpi/index.html)
+
+![PVA SDK官方处理器与运行架构](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_PVA_ARCH2--782050b23c55b756/assets/images/4d4f1900e2c24851434172a9.png)
+
+**图2：PVA SDK官方处理器与运行架构。** 原图出处：[PVA SDK 2.10.1处理器与编程架构](https://docs.nvidia.com/pva/sdk/2.10.1/architecture.html)。
+
+图中CPU发起任务，数据与设备计算经PVA运行资源连接；这种独立引擎路径能减少对GPU计算的占用，但仍需正确的buffer与同步。当前文档还规定全系统Context数量上限为4，并区分同步错误与异步Context失效；默认隐式Context失效可能需要重启进程，显式Context可销毁重建。这些细节是生产恢复策略的一部分，不能只写“低功耗加速视觉”。[PVA SDK 2.10.1处理器与编程架构](https://docs.nvidia.com/pva/sdk/2.10.1/architecture.html)
+
+文档中的cuPVA安全build适用性关联特定DRIVE OS安全release及认证版本，不能外推为Jetson PVA应用默认获得ASIL-B。评估PVA迁移成本时，应核对算法支持、数据格式、代码工具链、驱动版本及恢复路径，再测能耗和闭环收益。[PVA SDK 2.10.1处理器与编程架构](https://docs.nvidia.com/pva/sdk/2.10.1/architecture.html)
+
+## 6. 两种高速传感器路径：SIPL CoE与HSB RDMA
+
+SIPL Camera over Ethernet以MGBE接收和分类以太网像素，由RCE固件管理DMA与帧事件，SIPL管理capture buffer和RAW/ISP输出。UDDF/HSL以标准驱动接口和硬件序列控制sensor、bridge、EEPROM及lens，I2C可以经Ethernet隧道到HSB。它把传感器控制、帧完成事件与相机pipeline连接，而不仅是从socket读图像。[Jetson SIPL Camera over Ethernet架构](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html)
+
+![SIPL官方以太网与GMSL相机传输架构](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_COE--acc0a9a82b614a53/assets/images/40db91f7ab798e44e72f4185.png)
+
+**图3：SIPL官方以太网与GMSL相机传输架构。** 原图出处：[Jetson SIPL Camera over Ethernet架构](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html)。
+
+图解释不同传输如何进入相机框架。SIPL CoE文档描述硬件zero-copy DMA到应用内存，但这不代表任意GigE Vision相机都能直接接入，也不等于所有路径使用ConnectX。必须核对传感器驱动、JSON配置、桥接协议、ISP格式与软件支持矩阵。[Jetson SIPL Camera over Ethernet架构](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html) [Jetson R39.2.1相机支持矩阵](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/CameraDevelopmentSupportMatrix.html)
+
+HSB 2.7应用架构则区分控制平面和数据平面：FPGA采集数据并发送RoCE v2 RDMA write及write-immediate，ConnectX把数据写入GPU或系统内存，metadata完成包触发主机通知；没有ConnectX时提供Linux sockets receiver，性能条件不同。SIPL/MGBE接收路径与HSB/ConnectX路径具有不同接收硬件与运行库，不能合并成一个通用“Ethernet直达GPU”结论。[Holoscan Sensor Bridge 2.7架构与示例](https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture) [HSB 2.7主机接收与PTP配置](https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/getting-started/host-setup)
+
+HSB PTP文档还要求核对主机和网卡支持、设备时钟、VSYNC与曝光关系。网络时间同步不等于所有传感器曝光已经一致。方案价值应通过sensor timestamp到推理输入再到动作发布的分段日志证明，记录包丢失、frame age和并发模型负载；20路相机或25GbE端口上限不能直接换算为目标任务帧率。[HSB 2.7 PTP支持说明](https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/fpga-ip/ptp) [HSB 2.7 PTP协议、VSYNC与性能应用说明](https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/fpga-ip/ptp-application-note) [Datasheet Thor Full v1 5](https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf)
+
+## 7. 工业可靠性与IGX安全架构
+
+AGX Orin Industrial的特色是针对环境与寿命的模组设计。FAQ给出TTP工作温度−40至85°C、运行冲击50G/11ms、运行振动5G及inline DRAM ECC，普通AGX Orin的TTP工作温度为−25至80°C。TTP是热传导板测点，并非环境温度或允许机箱内任意位置达到相同数值；整机风道、接口、接插件和机械安装仍需验证。[Jetson官方FAQ](https://developer.nvidia.com/embedded/faq)
+
+![IGX Safety Product Brief第1页官方安全软硬件分层](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/derived/qa/directions/08_pdf_preview/IGX_BRIEF_1.png)
+
+**图4：IGX Safety Product Brief第1页官方安全软硬件分层。** 原图出处：[Product Brief IGX Thor Safety](https://developer.download.nvidia.com/assets/igx/robotics-product-brief-igx-thor-safety-4473375.pdf)。
+
+原页中的底层把加速器、CPU complex、Functional Safety Island和载板安全MCU分开。FSI有独立电源轨、时钟和内存；sMCU位于载板，不在Jetson Thor SOM内。SEP负责安全扩展、错误汇集与传播；架构支持Linux配合FSI/sMCU RTOS，以及NV Hypervisor下Linux/QNX VM配合RTOS。这些是IGX产品路径，不能因共用Thor名称就认为普通Jetson套件具备全部SEP和载板资源。[Product Brief IGX Thor Safety](https://developer.download.nvidia.com/assets/igx/robotics-product-brief-igx-thor-safety-4473375.pdf)
+
+2026年2月Safety Product Brief将系统性失效开发流程与随机硬件完整性分开：SoC及SEP开发过程声明对应ISO26262最高ASIL D、IEC61508 SIL3/SC3；随机硬件完整性则说明Thor SoC为ASIL B、兼容SIL2，Safety Island为SIL3。该原文不是整机认证结论。产品页随后强调Halos OS；本报告不把不同软件release、开发过程等级和客户最终机器人证书合并为一个等级。[Product Brief IGX Thor Safety](https://developer.download.nvidia.com/assets/igx/robotics-product-brief-igx-thor-safety-4473375.pdf) [Product Page IGX](https://www.nvidia.com/en-us/edge-computing/products/igx/)
+
+IGX页面提供企业软件和最长十年支持定位；具体SKU、软件release、安全材料、认证范围和合同仍需采购确认。[公开资料未披露] 本轮没有取得客户目标系统的安全手册授权版本、FMEDA及完整认证证书，不能据页面证明最终PL/SIL或停止距离。通用Jetson驱动许可也明确as-delivered软件未获critical application认证。[Product Page IGX](https://www.nvidia.com/en-us/edge-computing/products/igx/) [Jetson Linux 39 2 1 License](https://developer.nvidia.com/downloads/embedded/L4T/r39_Release_v2.1/release/Tegra_Software_License_Agreement-Tegra-Linux.txt)
+
+## 8. 模型、数据和云端平台：开放入口与优化依赖
+
+GR00T与Cosmos把预训练、后训练和部署优化联系起来。Cosmos当前官方平台页列出Cosmos3 Super/Nano/Edge、数据集、Curator、Evaluator与训练部署框架，这里确认的是平台能力目录，没有取得所有新模型卡与统一基准，因此不推断其全部适合Thor实时运行。04报告已展开GR00T N1.7，05报告已展开物理仿真与生成增强的差异。生成视频可增加视觉分布，不替代真实接触动力学和机器人成功率验证。[Cosmos Page](https://developer.nvidia.com/cosmos) [GR00T N1.7官方README](https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/README.md) [Isaac官方Cosmos数据增强教程](https://docs.isaacsim.omniverse.nvidia.com/latest/replicator_tutorials/tutorial_replicator_cosmos.html)
+
+| 软件资产 | 代码快照 | 许可及可移植边界 |
+|---|---|---|
+| [NVIDIA Isaac GR00T官方仓库](https://github.com/NVIDIA/Isaac-GR00T) | 8307 Stars；默认分支提交2026-10-28T21:46:01Z，11月3日采集 | 代码Apache2；模型骨干、权重及数据单独核验 |
+| [GitHub IsaacSim Page](https://github.com/isaac-sim/IsaacSim) | 4425 Stars，11月4日；提交2026-09-10T02:15:24Z，11月3日 | 代码Apache2；Kit、纹理与资产另条款 |
+| [Newton Project Page](https://github.com/newton-physics/newton) | 5883 Stars；提交2026-11-03T04:25:34Z，11月3日 | 代码Apache2、文档CC-BY4；社区共同维护 |
+| [OSMO_PAGE官方资料](https://github.com/NVIDIA/OSMO) | 280 Stars；提交2026-10-28T18:47:25Z，11月4日 | Apache2；可部署云与本地，非独家云服务 |
+
+证据：[GR00T Repo Metadata](https://api.github.com/repos/NVIDIA/Isaac-GR00T) [GR00T Recent Commit](https://api.github.com/repos/NVIDIA/Isaac-GR00T/commits?per_page=1) [GR00T License](https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/LICENSE) [Isaac Sim仓库元数据](https://api.github.com/repos/isaac-sim/IsaacSim) [Isaac Sim提交快照](https://api.github.com/repos/isaac-sim/IsaacSim/commits?sha=main&per_page=1) [Isaac Sim官方代码及附加组件许可](https://raw.githubusercontent.com/isaac-sim/IsaacSim/main/LICENSE) [Newton Metadata](https://api.github.com/repos/newton-physics/newton) [Newton Commit](https://api.github.com/repos/newton-physics/newton/commits?per_page=1) [Newton代码许可](https://raw.githubusercontent.com/newton-physics/newton/main/LICENSE.md) [OSMO_META官方资料](https://api.github.com/repos/NVIDIA/OSMO) [OSMO_COMMIT官方资料](https://api.github.com/repos/NVIDIA/OSMO/commits?per_page=1) [OSMO_LICENSE官方资料](https://raw.githubusercontent.com/NVIDIA/OSMO/main/LICENSE)。Stars仅为快照，不能视为商用成熟度。11月4日GR00T/Cosmos相关Hugging Face模型卡下载因下载器无法确认robots规则停止，未独立核实权重许可；本报告不以代码Apache2覆盖所有模型和资产。
+
+OSMO用YAML描述依赖与多阶段任务，跨Kubernetes backend调度数据生成、训练、仿真和SIL/HIL，支持cloud/on-prem、x86/Arm和NVIDIA GPU，提供数据版本与lineage。官方FAQ明确它不直接部署生产机器人，也不内置完整实验看板、模型registry或完整MLOps功能。因此它的壁垒是物理AI工作流编排与生态接口，而不是强制购买一个唯一云端服务。平台基础设施仍需部署和维护，用户工作流抽象并不消除backend运维。[NVIDIA OSMO官方平台](https://developer.nvidia.com/osmo) [OSMO_README官方资料](https://raw.githubusercontent.com/NVIDIA/OSMO/main/README.md)
+
+Jetson云原生页面说明Container Runtime注入平台设备和库，容器可打包依赖并由Kubernetes管理；页面保留旧L4T镜像分类，实际部署应采用目标BSP的当前镜像与支持矩阵。容器不能脱离宿主驱动、架构和设备节点兼容性。NIM LLM/VLM 2.1.4提供单backend容器、proxy、profile及健康探针，部分public镜像可keyless获取，但旧版、Production Branch或gated artifact仍需认证；不是所有NIM都必须云端运行或都能在Jetson运行。[Jetson官方云原生开发路径](https://developer.nvidia.com/embedded/jetson-cloud-native) [NIM LLM/VLM容器架构](https://docs.nvidia.com/nim/large-language-models/latest/reference/architecture.html) [NIM LLM/VLM安装与镜像认证](https://docs.nvidia.com/nim/large-language-models/latest/get-started/installation.html) [NIM模型profile选择与显存条件](https://docs.nvidia.com/nim/large-language-models/latest/deployment/model-profiles-and-selection.html)
+
+## 9. 保留平台优势同时控制迁移成本
+
+推荐将业务状态、坐标系、模型源、观测/动作schema、标定数据和验证集作为客户自有交付物，把CUDA/PVA/kernel、TensorRT engine和设备树作为可替换实现层。每次升级重新验证数据所有权、量化精度、性能尾部、热稳态与故障恢复，避免一套演示容器成为无法复建的唯一交付。开放代码、标准格式和多云编排可降低部分绑定，但GPU内核、底层BSP和具体安全软件仍有技术及许可依赖。
+
+选择结论是：多模态并发、大模型和高速传感器应用最可能从Thor/CUDA/SIPL协同中受益；规则视觉先判断PVA/VPI是否真正匹配；工业环境按TTP与模组型号核验；认证安全按IGX完整硬件、SEP/OS与证据包评估。每条路线都应以真实机器人任务验收，不以峰值算力、开源标签或架构图代替结果。
+
+
+## 参考资料与本地原文
+
+本报告依据11月3日采集的快照及11月4日逐方向补充取得的官方网页、代码仓库、API和文档。资料由统一下载工具归档到本项目的reference_metrial；多个方向共享同一URL的已校验文件。网页保留HTML和依赖，部分资源受robots规则、失效链接或动态交互限制影响时，按metadata如实标明。采集时点、版本和原始响应哈希可在各资料目录内核对。
+
+| 官方资料 | 原始URL | 本地原文 | 归档情况 |
+|---|---|---|---|
+| NVIDIA_Datasheet_Thor_Full_v1_5 | [官方原文](https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf) | [document.pdf](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Datasheet_Thor_Full_v1_--e0ae09b175a34eac/document.pdf) | 原件已归档 |
+| NVIDIA_02_CUDA_MODEL | [官方原文](https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/programming-model.html) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_MODEL--ff852ad994d3a602/index.html) | 静态HTML依赖完整；动态功能另验 |
+| NVIDIA_02_TRT_WORK | [官方原文](https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_TRT_WORK--9df325c2c44e3de5/index.html) | 静态HTML依赖完整；动态功能另验 |
+| NVIDIA_Jetson_Linux_39_2_1_License | [官方原文](https://developer.nvidia.com/downloads/embedded/L4T/r39_Release_v2.1/release/Tegra_Software_License_Agreement-Tegra-Linux.txt) | [content.txt](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/data/Jetson_Linux_39_2_1_License--5394e70b58c257fd/content.txt) | 原件已归档 |
+| NVIDIA_02_PVA_ARCH2 | [官方原文](https://docs.nvidia.com/pva/sdk/2.10.1/architecture.html) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_PVA_ARCH2--782050b23c55b756/index.html) | 静态HTML依赖完整；动态功能另验 |
+| NVIDIA_02_CUDA_GRAPH | [官方原文](https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/cuda-graphs.html) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_GRAPH--64fc09301027cc35/index.html) | 静态HTML依赖完整；动态功能另验 |
+| NVIDIA_02_SIPL_COE | [官方原文](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_COE--acc0a9a82b614a53/index.html) | 静态HTML依赖完整；动态功能另验 |
+| NVIDIA_02_HSB_ARCH | [官方原文](https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_HSB_ARCH--766974539088b048/index.html) | 静态呈现依赖部分缺失；见metadata |
+| NVIDIA_08_OSMO | [官方原文](https://developer.nvidia.com/osmo) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_OSMO--759602171ae06e29/index.html) | 静态呈现依赖部分缺失；见metadata |
+| NVIDIA_Product_Page_Jetson_Thor | [官方原文](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_Jetson_Thor--91025a9bef10dc0b/index.html) | 静态呈现依赖部分缺失；见metadata |
+| NVIDIA_Technical_Brief_Robotics_Edge_AI | [官方原文](https://dam-cdn.nvd.orangelogic.com/AssetLink/v686u306w26ftuk863xjeimilimtx55e.pdf) | [document.pdf](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Technical_Brief_Robotic--a741ad086dbfeef0/document.pdf) | 原件已归档 |
+| NVIDIA_04_TRT_PERF | [官方原文](https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/best-practices.html) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_TRT_PERF--fac73fa8f8466577/index.html) | 静态HTML依赖完整；动态功能另验 |
+| NVIDIA_GR00T_Deployment_Guide | [官方原文](https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/scripts/deployment/README.md) | [content.md](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_Deployment_Guide--af6435cdb176784f/content.md) | 原件已归档 |
+| NVIDIA_02_CUDA_ASYNC | [官方原文](https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/asynchronous-execution.html) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_ASYNC--106fd52933b5f86f/index.html) | 静态HTML依赖完整；动态功能另验 |
+| NVIDIA_TensorRT_Support_Matrix | [官方原文](https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/TensorRT_Support_Matrix--3b68f26af8646cbc/index.html) | 静态HTML依赖完整；动态功能另验 |
+| NVIDIA_02_CUDA_MEMORY | [官方原文](https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_MEMORY--453cf4bfa7cf193e/index.html) | 静态HTML依赖完整；动态功能另验 |
+| NVIDIA_08_MIG | [官方原文](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/MiG.html) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_MIG--85895374c012ed38/index.html) | 静态HTML依赖完整；动态功能另验 |
+| NVIDIA_02_MPS_DOC | [官方原文](https://nvidia-isaac-ros.github.io/concepts/gpu_partitioning/index.html) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_MPS_DOC--1fd266641b8a8d14/index.html) | 静态呈现依赖部分缺失；见metadata |
+| NVIDIA_02_VPI_ROOT | [官方原文](https://docs.nvidia.com/vpi/index.html) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_VPI_ROOT--eaae6e470379dc47/index.html) | 静态呈现依赖部分缺失；见metadata |
+| NVIDIA_03_SENSOR_MATRIX | [官方原文](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/CameraDevelopmentSupportMatrix.html) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_SENSOR_MATRIX--e0e028686f7106c7/index.html) | 静态HTML依赖完整；动态功能另验 |
+| NVIDIA_03_HSB_HOST | [官方原文](https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/getting-started/host-setup) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HSB_HOST--aee361464dc08219/index.html) | 静态呈现依赖部分缺失；见metadata |
+| NVIDIA_03_HSB_PTP | [官方原文](https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/fpga-ip/ptp) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HSB_PTP--279220fb24627447/index.html) | 静态呈现依赖部分缺失；见metadata |
+| NVIDIA_03_HSB_PTP_NOTE | [官方原文](https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/fpga-ip/ptp-application-note) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HSB_PTP_NOTE--523b5e075482c49f/index.html) | 静态呈现依赖部分缺失；见metadata |
+| NVIDIA_Developer_Page_Jetson_FAQ | [官方原文](https://developer.nvidia.com/embedded/faq) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/index.html) | 静态呈现依赖部分缺失；见metadata |
+| NVIDIA_Product_Brief_IGX_Thor_Safety | [官方原文](https://developer.download.nvidia.com/assets/igx/robotics-product-brief-igx-thor-safety-4473375.pdf) | [document.pdf](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Product_Brief_IGX_Thor_--b71ae712d56c26cb/document.pdf) | 原件已归档 |
+| NVIDIA_Product_Page_IGX | [官方原文](https://www.nvidia.com/en-us/edge-computing/products/igx/) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_IGX--1bf36659d6ccb38d/index.html) | 静态呈现依赖部分缺失；见metadata |
+| NVIDIA_Cosmos_Page | [官方原文](https://developer.nvidia.com/cosmos) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Cosmos_Page--558f642be571ac1f/index.html) | 静态呈现依赖部分缺失；见metadata |
+| NVIDIA_GR00T_README | [官方原文](https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/README.md) | [content.md](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_README--5d29c835c8afd8af/content.md) | 原件已归档 |
+| NVIDIA_05_SIM_COSMOS | [官方原文](https://docs.isaacsim.omniverse.nvidia.com/latest/replicator_tutorials/tutorial_replicator_cosmos.html) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_SIM_COSMOS--a23e410695a197e2/index.html) | 静态HTML依赖完整；动态功能另验 |
+| NVIDIA_GR00T_Project_Page | [官方原文](https://github.com/NVIDIA/Isaac-GR00T) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/GR00T_Project_Page--6710c43ad408be3c/index.html) | 静态呈现依赖部分缺失；见metadata |
+| NVIDIA_GitHub_IsaacSim_Page | [官方原文](https://github.com/isaac-sim/IsaacSim) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/GitHub_IsaacSim_Page--e7af47084679a807/index.html) | 静态呈现依赖部分缺失；见metadata |
+| NVIDIA_Newton_Project_Page | [官方原文](https://github.com/newton-physics/newton) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Newton_Project_Page--2ca81acff58aff0c/index.html) | 静态呈现依赖部分缺失；见metadata |
+| NVIDIA_08_OSMO_PAGE | [官方原文](https://github.com/NVIDIA/OSMO) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_OSMO_PAGE--a5bc48eb9e590ca9/index.html) | 静态呈现依赖部分缺失；见metadata |
+| NVIDIA_GR00T_Repo_Metadata | [官方原文](https://api.github.com/repos/NVIDIA/Isaac-GR00T) | [content.json](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_Repo_Metadata--32f40fba80381d43/content.json) | 原件已归档 |
+| NVIDIA_GR00T_Recent_Commit | [官方原文](https://api.github.com/repos/NVIDIA/Isaac-GR00T/commits?per_page=1) | [content.json](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_Recent_Commit--c27df6a41be14701/content.json) | 原件已归档 |
+| NVIDIA_GR00T_License | [官方原文](https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/LICENSE) | [content.txt](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_License--9d9946c66ea15cdb/content.txt) | 原件已归档 |
+| NVIDIA_05_SIM_META | [官方原文](https://api.github.com/repos/isaac-sim/IsaacSim) | [content.json](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/data/05_SIM_META--a08737b32ee8066b/content.json) | 原件已归档 |
+| NVIDIA_GitHub_IsaacSim_Commits_API | [官方原文](https://api.github.com/repos/isaac-sim/IsaacSim/commits?sha=main&per_page=1) | [content.json](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/data/GitHub_IsaacSim_Commits_API--6169640d2c84df4a/content.json) | 原件已归档 |
+| NVIDIA_GitHub_IsaacSim_License | [官方原文](https://raw.githubusercontent.com/isaac-sim/IsaacSim/main/LICENSE) | [content.txt](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/data/GitHub_IsaacSim_License--1c21a8f4920bb953/content.txt) | 原件已归档 |
+| NVIDIA_Newton_Metadata | [官方原文](https://api.github.com/repos/newton-physics/newton) | [content.json](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/data/Newton_Metadata--68015a7f2f98ce00/content.json) | 原件已归档 |
+| NVIDIA_Newton_Commit | [官方原文](https://api.github.com/repos/newton-physics/newton/commits?per_page=1) | [content.json](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/data/Newton_Commit--7ccae7da3235b244/content.json) | 原件已归档 |
+| NVIDIA_05_NEWTON_LICENSE | [官方原文](https://raw.githubusercontent.com/newton-physics/newton/main/LICENSE.md) | [content.md](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/data/05_NEWTON_LICENSE--aac65d531df3ffee/content.md) | 原件已归档 |
+| NVIDIA_08_OSMO_META | [官方原文](https://api.github.com/repos/NVIDIA/OSMO) | [content.json](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_OSMO_META--141eff30bdd290bb/content.json) | 原件已归档 |
+| NVIDIA_08_OSMO_COMMIT | [官方原文](https://api.github.com/repos/NVIDIA/OSMO/commits?per_page=1) | [content.json](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_OSMO_COMMIT--5fd70bf10a09cf19/content.json) | 原件已归档 |
+| NVIDIA_08_OSMO_LICENSE | [官方原文](https://raw.githubusercontent.com/NVIDIA/OSMO/main/LICENSE) | [content.txt](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_OSMO_LICENSE--e5fb4d7b489ab402/content.txt) | 原件已归档 |
+| NVIDIA_08_OSMO_README | [官方原文](https://raw.githubusercontent.com/NVIDIA/OSMO/main/README.md) | [content.md](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_OSMO_README--594757da33ea4f5a/content.md) | 原件已归档 |
+| NVIDIA_08_CLOUD_NATIVE | [官方原文](https://developer.nvidia.com/embedded/jetson-cloud-native) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_CLOUD_NATIVE--0670302001cc4336/index.html) | 静态呈现依赖部分缺失；见metadata |
+| NVIDIA_02_NIM_ARCH | [官方原文](https://docs.nvidia.com/nim/large-language-models/latest/reference/architecture.html) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NIM_ARCH--fefc0f5c92c214a5/index.html) | 静态HTML依赖完整；动态功能另验 |
+| NVIDIA_02_NIM_INSTALL | [官方原文](https://docs.nvidia.com/nim/large-language-models/latest/get-started/installation.html) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NIM_INSTALL--f0ae8717cad66880/index.html) | 静态HTML依赖完整；动态功能另验 |
+| NVIDIA_02_NIM_PROFILE | [官方原文](https://docs.nvidia.com/nim/large-language-models/latest/deployment/model-profiles-and-selection.html) | [index.html](C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NIM_PROFILE--46669f77276cb8bf/index.html) | 静态HTML依赖完整；动态功能另验 |
+
+以上技术事实与官方测量保持条件和版本边界。本调研未执行设备安装、模型训练、机器人实机测试或客户验收；文中的集成路线和选型门槛属于分析建议。公开资料未披露的交期、报价、最坏情况时延与认证结果不作推断。

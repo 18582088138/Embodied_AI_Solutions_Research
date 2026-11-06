@@ -1,0 +1,95 @@
+{
+  "outcome": "pass",
+  "report_sha256": "a0b9d737a70d6a7f5ba70cbb2fd56ae0ca697b0208a60b500eca0c131259839e",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "接口全景与已经验证的组合",
+      "han_chars": 723,
+      "subsections": 3,
+      "citations": 20
+    },
+    {
+      "chapter": 2,
+      "title": "MIPI CSI与GMSL：物理链路、虚拟通道和驱动",
+      "han_chars": 849,
+      "subsections": 3,
+      "citations": 9
+    },
+    {
+      "chapter": 3,
+      "title": "SIPL与ISP：采集、标定及GPU数据交接",
+      "han_chars": 788,
+      "subsections": 3,
+      "citations": 16
+    },
+    {
+      "chapter": 4,
+      "title": "CoE与Holoscan Sensor Bridge：两条以太网接收路径",
+      "han_chars": 660,
+      "subsections": 3,
+      "citations": 16
+    },
+    {
+      "chapter": 5,
+      "title": "USB深度、RGB-D与主动光学传感器",
+      "han_chars": 822,
+      "subsections": 3,
+      "citations": 12
+    },
+    {
+      "chapter": 6,
+      "title": "LiDAR与点云：传输、逐点时间和运动补偿",
+      "han_chars": 555,
+      "subsections": 2,
+      "citations": 6
+    },
+    {
+      "chapter": 7,
+      "title": "IMU与HTE：中断采样、IIO buffer和时间基准",
+      "han_chars": 606,
+      "subsections": 3,
+      "citations": 6
+    },
+    {
+      "chapter": 8,
+      "title": "同步体系：触发、时钟、时间戳与消息配对",
+      "han_chars": 1138,
+      "subsections": 4,
+      "citations": 22
+    },
+    {
+      "chapter": 9,
+      "title": "多传感器融合：cuVSLAM、Nvblox与外参",
+      "han_chars": 952,
+      "subsections": 3,
+      "citations": 12
+    },
+    {
+      "chapter": 10,
+      "title": "延迟分解、采集验证与故障诊断",
+      "han_chars": 685,
+      "subsections": 3,
+      "citations": 7
+    },
+    {
+      "chapter": 11,
+      "title": "方案选择、许可与尚缺的证据",
+      "han_chars": 663,
+      "subsections": 3,
+      "citations": 22
+    }
+  ],
+  "official_figures": 9,
+  "other_reports_unchanged": true,
+  "manual_review": [
+    "MGBE/RCE CoE and ConnectX RoCE paths distinguished.",
+    "SIPL SOF is a transport boundary; use_hw_timestamp and Orbbec capture reference checked.",
+    "HSB PPS clock measurement, metadata clock correlation, SIPL frame threshold and cuVSLAM software matching window separated.",
+    "OS1 example explicitly rosbag-only; motion compensation is pose interpolation per point.",
+    "GTE to HTE deprecation and Orin-specific application retained.",
+    "Source conflicts on Thor VC counts, SIPL CoE/GMSL wording and NITROS terminology retained."
+  ],
+  "limits": "Document/evidence review only, no hardware or robot tests.",
+  "visual_review": "All 9 figures inspected in contact sheet; PTP message flow, DPLL, PPS measurement setup and oscilloscope figures separately reviewed for correct selection. GMSL diagram 80fps label conflict with 30fps body recorded. Nav2 figure is not claimed to contain an automatic multi-source fusion filter."
+}

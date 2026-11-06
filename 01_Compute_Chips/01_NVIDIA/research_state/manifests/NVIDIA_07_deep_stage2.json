@@ -1,0 +1,66 @@
+[
+  {
+    "name": "NVIDIA_07_DEEP_AETINA",
+    "url": "https://www.aetina.com/products-features.php?t=337",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_AAEON",
+    "url": "https://www.aaeon.com/en/product/list/aaeon-nvidia-ai-solutions",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_STEREOLABS",
+    "url": "https://www.stereolabs.com/developers/nvidia/",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_TIMESYS_BSP",
+    "url": "https://www.timesys.com/open-source-embedded/development-support/reference-bsp/processors/nvidia/",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_ANTMICRO",
+    "url": "https://antmicro.com/nvidia-jetson/",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_RIDGERUN",
+    "url": "https://www.ridgerun.com/nvidia",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_RIDGERUN_PDF",
+    "url": "https://developer.download.nvidia.com/embedded/partners/one-pager/RidgeRun-OnePage-Sumary.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_LEROBOT_FIG",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/media/readme/VLA_architecture.jpg",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  }
+]

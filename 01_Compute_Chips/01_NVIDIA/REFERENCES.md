@@ -1,0 +1,5708 @@
+# 参考来源清单
+
+[返回本分项](README.md)
+
+完整参考原件保留在本地 `reference_metrial/`，未上传 GitHub。下方提供官方 URL、原始采集记录、哈希与本地路径；本地路径以仓库根为基准。
+
+GitHub 可直接阅读报告及正文图表。需要核验 HTML/PDF 原件时，在拥有本地归档的工作目录打开原件；clone 本仓库不会自动得到完整原件。后续可在保持 SHA256 清单不变的情况下连接外部归档。
+
+- [机器可读完整清单](sources.json)
+- [本地归档管理方式](../../CONTRIBUTING.md)
+
+<a id="ref-b0ad92bb1a86f832"></a>
+
+## NVIDIA_07_DEEP_ANTMICRO
+
+- [官方/原始来源](https://antmicro.com/nvidia-jetson/)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:48:49.270480+00:00`
+
+<a id="ref-3dac294b35c70afc"></a>
+
+## NVIDIA_Isaac_Manipulator_Metadata
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_manipulator)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:19.504775+00:00`
+- `sha256`：`a1f607d2c49617197d6cdefca2dcd1f2010084bfa54962b42ed64f41a0451919`
+- `original_sha256`：`a1f607d2c49617197d6cdefca2dcd1f2010084bfa54962b42ed64f41a0451919`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_Manipulator_Metadata--3dac294b35c70afc/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_Manipulator_Metadata--3dac294b35c70afc/original.response`
+
+<a id="ref-6b185b0268d7dd59"></a>
+
+## NVIDIA_Isaac_Manipulator_Commit
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_manipulator/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:22.511018+00:00`
+- `sha256`：`23875c11d909d87a66b4f5eabfd7de68b436ff2f6e35dbde53d7d14b48cef45a`
+- `original_sha256`：`23875c11d909d87a66b4f5eabfd7de68b436ff2f6e35dbde53d7d14b48cef45a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_Manipulator_Commit--6b185b0268d7dd59/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_Manipulator_Commit--6b185b0268d7dd59/original.response`
+
+<a id="ref-743710982275e714"></a>
+
+## NVIDIA_Isaac_ROS_Repo_Metadata
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_common)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:42.468454+00:00`
+- `sha256`：`8ea2a50e1052d1d6eeabde44c33d34eba7ba32b8429f4ab5265cbad6b04b68ad`
+- `original_sha256`：`8ea2a50e1052d1d6eeabde44c33d34eba7ba32b8429f4ab5265cbad6b04b68ad`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Repo_Metadata--743710982275e714/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Repo_Metadata--743710982275e714/original.response`
+
+<a id="ref-d1dc669e2c09ba89"></a>
+
+## NVIDIA_Isaac_ROS_Recent_Commit
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_common/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:43.458039+00:00`
+- `sha256`：`ba84d730aa9732112c37957720c024b00e2ab26d5fce3b3c468233dd646420d1`
+- `original_sha256`：`ba84d730aa9732112c37957720c024b00e2ab26d5fce3b3c468233dd646420d1`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Recent_Commit--d1dc669e2c09ba89/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Recent_Commit--d1dc669e2c09ba89/original.response`
+
+<a id="ref-863bb2e9b26c26a9"></a>
+
+## NVIDIA_06_DEPLOY_META
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_deploy)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:36:37.985008+00:00`
+- `sha256`：`3e2a87dfeb59d2cd51b3011c12d6c820a8a00bea0510a58696c9935b9c351d38`
+- `original_sha256`：`3e2a87dfeb59d2cd51b3011c12d6c820a8a00bea0510a58696c9935b9c351d38`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/06_DEPLOY_META--863bb2e9b26c26a9/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/06_DEPLOY_META--863bb2e9b26c26a9/original.response`
+
+<a id="ref-82f9e63b9397d141"></a>
+
+## NVIDIA_06_DEPLOY_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_deploy/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:36:40.317561+00:00`
+- `sha256`：`687f9f06de85c8193981cfa0e67fef3efa6add7e432ea6272817533cc0255537`
+- `original_sha256`：`687f9f06de85c8193981cfa0e67fef3efa6add7e432ea6272817533cc0255537`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/06_DEPLOY_COMMIT--82f9e63b9397d141/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/06_DEPLOY_COMMIT--82f9e63b9397d141/original.response`
+
+<a id="ref-e25d86f324007cd6"></a>
+
+## NVIDIA_Isaac_ROS_Nova_Metadata
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_nova)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:02.632790+00:00`
+- `sha256`：`c00e5291897d9b455182dba0fbcc6227ac121b3ae62d7e7d9654067260aac02b`
+- `original_sha256`：`c00e5291897d9b455182dba0fbcc6227ac121b3ae62d7e7d9654067260aac02b`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Nova_Metadata--e25d86f324007cd6/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Nova_Metadata--e25d86f324007cd6/original.response`
+
+<a id="ref-6438b388965759c9"></a>
+
+## NVIDIA_Isaac_ROS_Nova_Commit
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_nova/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:13.916692+00:00`
+- `sha256`：`ccaa31f1844a1d1d5e94eeda9a4e78c568745f04261b76689311579d76706dae`
+- `original_sha256`：`ccaa31f1844a1d1d5e94eeda9a4e78c568745f04261b76689311579d76706dae`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Nova_Commit--6438b388965759c9/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Nova_Commit--6438b388965759c9/original.response`
+
+<a id="ref-e7a66a3256b0380d"></a>
+
+## NVIDIA_03_SIPL_REPO_META
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_sipl_camera)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T10:18:19.129888+00:00`
+- `sha256`：`9e5a598a049b8bfcf281eea46b9fc2fef3d3ced9e269bbf22eaf37f0c574f495`
+- `original_sha256`：`9e5a598a049b8bfcf281eea46b9fc2fef3d3ced9e269bbf22eaf37f0c574f495`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/03_SIPL_REPO_META--e7a66a3256b0380d/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/03_SIPL_REPO_META--e7a66a3256b0380d/original.response`
+
+<a id="ref-63913d2fb0fd9d1d"></a>
+
+## NVIDIA_03_SIPL_REPO_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_sipl_camera/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T10:18:30.705615+00:00`
+- `sha256`：`91e9266a6cf37d54291f65a484b33dd68a337a996fca6a0b347151a78c3d3d26`
+- `original_sha256`：`91e9266a6cf37d54291f65a484b33dd68a337a996fca6a0b347151a78c3d3d26`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/03_SIPL_REPO_COMMIT--63913d2fb0fd9d1d/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/03_SIPL_REPO_COMMIT--63913d2fb0fd9d1d/original.response`
+
+<a id="ref-ba2cfc6ea270f045"></a>
+
+## NVIDIA_Isaac_ROS_Visual_SLAM_Metadata
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:16.146474+00:00`
+- `sha256`：`cab09de67c5354b013dc5d27fcc926840a00ea2c0757eaa6ab6c188a1210c2a5`
+- `original_sha256`：`cab09de67c5354b013dc5d27fcc926840a00ea2c0757eaa6ab6c188a1210c2a5`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Visual_SLAM_Metada--ba2cfc6ea270f045/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Visual_SLAM_Metada--ba2cfc6ea270f045/original.response`
+
+<a id="ref-9fcfc0d5b68bbe92"></a>
+
+## NVIDIA_Isaac_ROS_Visual_SLAM_Commit
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:17.276997+00:00`
+- `sha256`：`08d1f7ae5f2e84b78cc82a76f4771975913ea65ab382ddae7b56650373853302`
+- `original_sha256`：`08d1f7ae5f2e84b78cc82a76f4771975913ea65ab382ddae7b56650373853302`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Visual_SLAM_Commit--9fcfc0d5b68bbe92/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Visual_SLAM_Commit--9fcfc0d5b68bbe92/original.response`
+
+<a id="ref-5659c3d02d8165dd"></a>
+
+## NVIDIA_PhysX_Metadata
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA-Omniverse/PhysX)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:33.232390+00:00`
+- `sha256`：`1419a94939a2bbfbc503d49d588b682e18bdc317e6f9eb7ece30033bd85c1d2c`
+- `original_sha256`：`1419a94939a2bbfbc503d49d588b682e18bdc317e6f9eb7ece30033bd85c1d2c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/PhysX_Metadata--5659c3d02d8165dd/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/PhysX_Metadata--5659c3d02d8165dd/original.response`
+
+<a id="ref-6131b21b9bcef1b9"></a>
+
+## NVIDIA_PhysX_Commit
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA-Omniverse/PhysX/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:34.419667+00:00`
+- `sha256`：`e2e411c041724508541ab2abb38087f4a9a24b1bae98c0a62d3abf41948b51cf`
+- `original_sha256`：`e2e411c041724508541ab2abb38087f4a9a24b1bae98c0a62d3abf41948b51cf`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/PhysX_Commit--6131b21b9bcef1b9/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/PhysX_Commit--6131b21b9bcef1b9/original.response`
+
+<a id="ref-32f40fba80381d43"></a>
+
+## NVIDIA_GR00T_Repo_Metadata
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA/Isaac-GR00T)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:28.298323+00:00`
+- `sha256`：`3f56888a7351dac5e956b59d78906859fb056447796a86bc7151dd49d25fc243`
+- `original_sha256`：`3f56888a7351dac5e956b59d78906859fb056447796a86bc7151dd49d25fc243`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_Repo_Metadata--32f40fba80381d43/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_Repo_Metadata--32f40fba80381d43/original.response`
+
+<a id="ref-c27df6a41be14701"></a>
+
+## NVIDIA_GR00T_Recent_Commit
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA/Isaac-GR00T/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:39.459628+00:00`
+- `sha256`：`72389c07395070d12a6efbccbb775090d2e60aaebc1ea9c1411f423efee7023a`
+- `original_sha256`：`72389c07395070d12a6efbccbb775090d2e60aaebc1ea9c1411f423efee7023a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_Recent_Commit--c27df6a41be14701/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_Recent_Commit--c27df6a41be14701/original.response`
+
+<a id="ref-141eff30bdd290bb"></a>
+
+## NVIDIA_08_OSMO_META
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA/OSMO)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:48:28.889323+00:00`
+- `sha256`：`6624b42d464cff1e546025f36a9ab425c38709b0ca35b1109081fb9bb59fd4aa`
+- `original_sha256`：`6624b42d464cff1e546025f36a9ab425c38709b0ca35b1109081fb9bb59fd4aa`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_OSMO_META--141eff30bdd290bb/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_OSMO_META--141eff30bdd290bb/original.response`
+
+<a id="ref-5fd70bf10a09cf19"></a>
+
+## NVIDIA_08_OSMO_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA/OSMO/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:48:40.978963+00:00`
+- `sha256`：`3dbd8335952f73e1bee60c50236429ac7401b45687b36e8c21f065ee436cd73c`
+- `original_sha256`：`3dbd8335952f73e1bee60c50236429ac7401b45687b36e8c21f065ee436cd73c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_OSMO_COMMIT--5fd70bf10a09cf19/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_OSMO_COMMIT--5fd70bf10a09cf19/original.response`
+
+<a id="ref-01f720feb6426cea"></a>
+
+## NVIDIA_02_CUDNN_REPO_META
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA/cudnn-frontend)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:11:10.704928+00:00`
+- `sha256`：`7c5c4d456b5ba06ec2dfc5be9839cb264bb6c3a55d9b385e4afe5952b67e5be1`
+- `original_sha256`：`7c5c4d456b5ba06ec2dfc5be9839cb264bb6c3a55d9b385e4afe5952b67e5be1`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_CUDNN_REPO_META--01f720feb6426cea/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_CUDNN_REPO_META--01f720feb6426cea/original.response`
+
+<a id="ref-4d40fd5b2dcb778d"></a>
+
+## NVIDIA_02_CUDNN_REPO_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA/cudnn-frontend/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:11:12.733347+00:00`
+- `sha256`：`d7298505ef8a45cd8e9964e800e552e6e015378f4f53219ab320888a0d147b2c`
+- `original_sha256`：`d7298505ef8a45cd8e9964e800e552e6e015378f4f53219ab320888a0d147b2c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_CUDNN_REPO_COMMIT--4d40fd5b2dcb778d/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_CUDNN_REPO_COMMIT--4d40fd5b2dcb778d/original.response`
+
+<a id="ref-e98dd1ffe1d8229e"></a>
+
+## NVIDIA_02_PVA_REPO_META
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA/pva-solutions)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:13:45.034776+00:00`
+- `sha256`：`d4176a9bc6ef97a7f0ea5c8ab3d3218abf95569842d8d5c0f5cab3537c0d2f95`
+- `original_sha256`：`d4176a9bc6ef97a7f0ea5c8ab3d3218abf95569842d8d5c0f5cab3537c0d2f95`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_PVA_REPO_META--e98dd1ffe1d8229e/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_PVA_REPO_META--e98dd1ffe1d8229e/original.response`
+
+<a id="ref-991400ac2671bab3"></a>
+
+## NVIDIA_02_PVA_REPO_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA/pva-solutions/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:13:56.604744+00:00`
+- `sha256`：`3fe38729be5bc9e01ca5cb620de32228a1c2813b368022e165444f65995c0084`
+- `original_sha256`：`3fe38729be5bc9e01ca5cb620de32228a1c2813b368022e165444f65995c0084`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_PVA_REPO_COMMIT--991400ac2671bab3/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_PVA_REPO_COMMIT--991400ac2671bab3/original.response`
+
+<a id="ref-84abbfbe563eb626"></a>
+
+## NVIDIA_02_TAO_REPO_META
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA/tao_pytorch_backend)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:11:31.640963+00:00`
+- `sha256`：`ca09a3d3eeec45a273908e22d3853069e64bd5676c5f06fe4e4e00cf55f1ac65`
+- `original_sha256`：`ca09a3d3eeec45a273908e22d3853069e64bd5676c5f06fe4e4e00cf55f1ac65`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_TAO_REPO_META--84abbfbe563eb626/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_TAO_REPO_META--84abbfbe563eb626/original.response`
+
+<a id="ref-7bc61a3f5ffd11f0"></a>
+
+## NVIDIA_02_TAO_REPO_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA/tao_pytorch_backend/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:11:33.629079+00:00`
+- `sha256`：`daeb0991f7c08c2b57187e561718f30aeb9bf56785998ea59037f5e79ecbe081`
+- `original_sha256`：`daeb0991f7c08c2b57187e561718f30aeb9bf56785998ea59037f5e79ecbe081`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_TAO_REPO_COMMIT--7bc61a3f5ffd11f0/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_TAO_REPO_COMMIT--7bc61a3f5ffd11f0/original.response`
+
+<a id="ref-5a40160095b9e332"></a>
+
+## NVIDIA_Warp_Metadata
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA/warp)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:25.795272+00:00`
+- `sha256`：`e4a1c1bd32834dc0872a48bbca435714b38839e1d43f85c251b03e56ed555ff6`
+- `original_sha256`：`e4a1c1bd32834dc0872a48bbca435714b38839e1d43f85c251b03e56ed555ff6`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Warp_Metadata--5a40160095b9e332/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Warp_Metadata--5a40160095b9e332/original.response`
+
+<a id="ref-f880f58e7af9f980"></a>
+
+## NVIDIA_Warp_Commit
+
+- [官方/原始来源](https://api.github.com/repos/NVIDIA/warp/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:26.972512+00:00`
+- `sha256`：`0c63cdd4049ae67b8190486d14631a459c2204a75d2354cc8716e44c45f25a76`
+- `original_sha256`：`0c63cdd4049ae67b8190486d14631a459c2204a75d2354cc8716e44c45f25a76`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Warp_Commit--f880f58e7af9f980/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Warp_Commit--f880f58e7af9f980/original.response`
+
+<a id="ref-884280366dff8bb2"></a>
+
+## NVIDIA_04_DEEP_POSE_META
+
+- [官方/原始来源](https://api.github.com/repos/NVlabs/FoundationPose)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:18:58.305842+00:00`
+- `sha256`：`e61b4414220c9c53e4cd070399ac1a5719b9f117534156d4adb17ea69e48a371`
+- `original_sha256`：`e61b4414220c9c53e4cd070399ac1a5719b9f117534156d4adb17ea69e48a371`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_POSE_META--884280366dff8bb2/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_POSE_META--884280366dff8bb2/original.response`
+
+<a id="ref-f09f1c4a9a912654"></a>
+
+## NVIDIA_04_DEEP_POSE_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/NVlabs/FoundationPose/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:19:00.750983+00:00`
+- `sha256`：`4bf65e7a9f24117609f7bfa98964a0bfa5ff85425014af26c004212359a396cf`
+- `original_sha256`：`4bf65e7a9f24117609f7bfa98964a0bfa5ff85425014af26c004212359a396cf`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_POSE_COMMIT--f09f1c4a9a912654/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_POSE_COMMIT--f09f1c4a9a912654/original.response`
+
+<a id="ref-e8b170742c73da74"></a>
+
+## NVIDIA_04_DEEP_ALPA_META
+
+- [官方/原始来源](https://api.github.com/repos/NVlabs/alpamayo-recipes)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:19:02.528698+00:00`
+- `sha256`：`5f6e2455802d77db05e509d87afe2ba0f304467f2b78099513ee1fca035b755b`
+- `original_sha256`：`5f6e2455802d77db05e509d87afe2ba0f304467f2b78099513ee1fca035b755b`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_ALPA_META--e8b170742c73da74/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_ALPA_META--e8b170742c73da74/original.response`
+
+<a id="ref-09612994921d01ee"></a>
+
+## NVIDIA_04_DEEP_ALPA_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/NVlabs/alpamayo-recipes/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:19:05.386375+00:00`
+- `sha256`：`53b36fdcafcc3afd62852a22fcc3dd3675f797bf6a9305a183e3816283002e7b`
+- `original_sha256`：`53b36fdcafcc3afd62852a22fcc3dd3675f797bf6a9305a183e3816283002e7b`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_ALPA_COMMIT--09612994921d01ee/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_ALPA_COMMIT--09612994921d01ee/original.response`
+
+<a id="ref-f10d39d86e7b6c7f"></a>
+
+## NVIDIA_cuRobo_Repo_Metadata
+
+- [官方/原始来源](https://api.github.com/repos/NVlabs/curobo)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:40.457725+00:00`
+- `sha256`：`03f99d6f63d7429d3ec1827c2df9dc87bbb3d07de912a2f0dbb820f0545b7d54`
+- `original_sha256`：`03f99d6f63d7429d3ec1827c2df9dc87bbb3d07de912a2f0dbb820f0545b7d54`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/cuRobo_Repo_Metadata--f10d39d86e7b6c7f/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/cuRobo_Repo_Metadata--f10d39d86e7b6c7f/original.response`
+
+<a id="ref-0141b60b9fafa1c0"></a>
+
+## NVIDIA_cuRobo_Recent_Commit
+
+- [官方/原始来源](https://api.github.com/repos/NVlabs/curobo/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:41.461165+00:00`
+- `sha256`：`4c95365394b37751f1bfb4fbb56d30e80ba05701bef935cdb1437f41b731edb7`
+- `original_sha256`：`4c95365394b37751f1bfb4fbb56d30e80ba05701bef935cdb1437f41b731edb7`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/cuRobo_Recent_Commit--0141b60b9fafa1c0/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/cuRobo_Recent_Commit--0141b60b9fafa1c0/original.response`
+
+<a id="ref-0d7382bd298a7b17"></a>
+
+## NVIDIA_04_DEEP_OPENPI_META
+
+- [官方/原始来源](https://api.github.com/repos/Physical-Intelligence/openpi)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:18:37.668459+00:00`
+- `sha256`：`29c25ff8e861b9a82fec8b553e92689d0f07c7a9719da9fc8ff5bd261cd65ddb`
+- `original_sha256`：`29c25ff8e861b9a82fec8b553e92689d0f07c7a9719da9fc8ff5bd261cd65ddb`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_OPENPI_META--0d7382bd298a7b17/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_OPENPI_META--0d7382bd298a7b17/original.response`
+
+<a id="ref-8cfff0caa9ac6c0f"></a>
+
+## NVIDIA_04_DEEP_OPENPI_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/Physical-Intelligence/openpi/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:18:39.826181+00:00`
+- `sha256`：`717c1506830435c29b871c77f192b0f50ac815f26eb1d87b1d171da20cb98e03`
+- `original_sha256`：`717c1506830435c29b871c77f192b0f50ac815f26eb1d87b1d171da20cb98e03`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_OPENPI_COMMIT--8cfff0caa9ac6c0f/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_OPENPI_COMMIT--8cfff0caa9ac6c0f/original.response`
+
+<a id="ref-161c4eb3f3e60bad"></a>
+
+## NVIDIA_08_DEEP_HIP_META
+
+- [官方/原始来源](https://api.github.com/repos/ROCm/HIP)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:00:46.957496+00:00`
+
+<a id="ref-bfb6885de93d49b7"></a>
+
+## NVIDIA_08_DEEP_HIP_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/ROCm/HIP/commits?per_page=1)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:01:00.205418+00:00`
+
+<a id="ref-bb862bbcb4d96ec2"></a>
+
+## NVIDIA_08_DEEP_ARGO_META
+
+- [官方/原始来源](https://api.github.com/repos/argoproj/argo-workflows)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:01:02.024044+00:00`
+
+<a id="ref-f2df60bbcf3a71b5"></a>
+
+## NVIDIA_08_DEEP_ARGO_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/argoproj/argo-workflows/commits?per_page=1)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:01:02.603137+00:00`
+
+<a id="ref-4cd809a40e85648e"></a>
+
+## NVIDIA_08_DEEP_MUJOCO_META
+
+- [官方/原始来源](https://api.github.com/repos/google-deepmind/mujoco)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:01:01.229027+00:00`
+
+<a id="ref-2679df7622f9cc60"></a>
+
+## NVIDIA_08_DEEP_MUJOCO_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/google-deepmind/mujoco/commits?per_page=1)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:01:01.566581+00:00`
+
+<a id="ref-387ba45dbd455404"></a>
+
+## NVIDIA_04_DEEP_LEROBOT_META
+
+- [官方/原始来源](https://api.github.com/repos/huggingface/lerobot)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:18:53.047047+00:00`
+- `sha256`：`4ad7b88d23da8e7689237e73e3052c6456095701e4769452d84f21ca3e70c6ed`
+- `original_sha256`：`4ad7b88d23da8e7689237e73e3052c6456095701e4769452d84f21ca3e70c6ed`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_LEROBOT_META--387ba45dbd455404/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_LEROBOT_META--387ba45dbd455404/original.response`
+
+<a id="ref-46ef9371547a31eb"></a>
+
+## NVIDIA_04_DEEP_LEROBOT_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/huggingface/lerobot/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:18:55.488954+00:00`
+- `sha256`：`47d633d5450fa6344130b66f5e9ce2c804f28b99fe525813ea2169a1bddd756e`
+- `original_sha256`：`47d633d5450fa6344130b66f5e9ce2c804f28b99fe525813ea2169a1bddd756e`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_LEROBOT_COMMIT--46ef9371547a31eb/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_LEROBOT_COMMIT--46ef9371547a31eb/original.response`
+
+<a id="ref-973084ee2d98f733"></a>
+
+## NVIDIA_04_EXP_LEROBOT_DOC_LIST
+
+- [官方/原始来源](https://api.github.com/repos/huggingface/lerobot/contents/docs/source)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:11:26.352404+00:00`
+
+<a id="ref-454a50d17a792302"></a>
+
+## NVIDIA_05_LAB_META
+
+- [官方/原始来源](https://api.github.com/repos/isaac-sim/IsaacLab)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:31:45.879344+00:00`
+- `sha256`：`51e0b87422ea6b86f99dcab747f480fca38bfa1f1392ffb582305722abca4833`
+- `original_sha256`：`51e0b87422ea6b86f99dcab747f480fca38bfa1f1392ffb582305722abca4833`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/05_LAB_META--454a50d17a792302/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/05_LAB_META--454a50d17a792302/original.response`
+
+<a id="ref-7ab71dffbb97e5c3"></a>
+
+## NVIDIA_GitHub_IsaacLab_Commits_API
+
+- [官方/原始来源](https://api.github.com/repos/isaac-sim/IsaacLab/commits?sha=main&per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:08:15.119040+00:00`
+- `sha256`：`047a40ac4bdd9a002020800974235600600b954d865d22544e71def278994732`
+- `original_sha256`：`047a40ac4bdd9a002020800974235600600b954d865d22544e71def278994732`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GitHub_IsaacLab_Commits_API--7ab71dffbb97e5c3/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GitHub_IsaacLab_Commits_API--7ab71dffbb97e5c3/original.response`
+
+<a id="ref-a08737b32ee8066b"></a>
+
+## NVIDIA_05_SIM_META
+
+- [官方/原始来源](https://api.github.com/repos/isaac-sim/IsaacSim)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:31:36.404625+00:00`
+- `sha256`：`71673fc6265d89cda175a641287227fc6d1c427e7a8446ef2fd10eb160141a19`
+- `original_sha256`：`71673fc6265d89cda175a641287227fc6d1c427e7a8446ef2fd10eb160141a19`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/05_SIM_META--a08737b32ee8066b/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/05_SIM_META--a08737b32ee8066b/original.response`
+
+<a id="ref-6169640d2c84df4a"></a>
+
+## NVIDIA_GitHub_IsaacSim_Commits_API
+
+- [官方/原始来源](https://api.github.com/repos/isaac-sim/IsaacSim/commits?sha=main&per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:08:27.670448+00:00`
+- `sha256`：`aa98f0b566a8238b977e79ed49a126415acad9cfade27b60ae1864b91c076747`
+- `original_sha256`：`aa98f0b566a8238b977e79ed49a126415acad9cfade27b60ae1864b91c076747`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GitHub_IsaacSim_Commits_API--6169640d2c84df4a/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GitHub_IsaacSim_Commits_API--6169640d2c84df4a/original.response`
+
+<a id="ref-a1f512b2c794b769"></a>
+
+## NVIDIA_08_DEEP_MOVEIT_META
+
+- [官方/原始来源](https://api.github.com/repos/moveit/moveit2)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:01:04.588672+00:00`
+
+<a id="ref-68b6ee16ec1637de"></a>
+
+## NVIDIA_08_DEEP_MOVEIT_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/moveit/moveit2/commits?per_page=1)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:01:05.640860+00:00`
+
+<a id="ref-68015a7f2f98ce00"></a>
+
+## NVIDIA_Newton_Metadata
+
+- [官方/原始来源](https://api.github.com/repos/newton-physics/newton)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:29.597111+00:00`
+- `sha256`：`171baeee8aaa60bdcee6beec34c84f0b6ad0f630f17a3478f70ea76be223fd0e`
+- `original_sha256`：`171baeee8aaa60bdcee6beec34c84f0b6ad0f630f17a3478f70ea76be223fd0e`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Newton_Metadata--68015a7f2f98ce00/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Newton_Metadata--68015a7f2f98ce00/original.response`
+
+<a id="ref-7ccae7da3235b244"></a>
+
+## NVIDIA_Newton_Commit
+
+- [官方/原始来源](https://api.github.com/repos/newton-physics/newton/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:31.076094+00:00`
+- `sha256`：`5b1a8d750abb212788cd4b99d0e9d3147d8345e3cccded4bc9e45b811ac4f3f9`
+- `original_sha256`：`5b1a8d750abb212788cd4b99d0e9d3147d8345e3cccded4bc9e45b811ac4f3f9`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Newton_Commit--7ccae7da3235b244/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Newton_Commit--7ccae7da3235b244/original.response`
+
+<a id="ref-83df88b19e98342b"></a>
+
+## NVIDIA_02_HOLO_META
+
+- [官方/原始来源](https://api.github.com/repos/nvidia-holoscan/holoscan-sdk)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:06:46.368938+00:00`
+- `sha256`：`6989cc80a0fb7bfdca4cb415fd86f3c1dd488882321be5fd44112212e1ab5ff6`
+- `original_sha256`：`6989cc80a0fb7bfdca4cb415fd86f3c1dd488882321be5fd44112212e1ab5ff6`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_HOLO_META--83df88b19e98342b/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_HOLO_META--83df88b19e98342b/original.response`
+
+<a id="ref-42a864a56b782146"></a>
+
+## NVIDIA_02_HOLO_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/nvidia-holoscan/holoscan-sdk/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:06:57.656257+00:00`
+- `sha256`：`4199a8fb34d758a55ce78fcab8218d9999f167a296b564465ba72ccbfecb8a4d`
+- `original_sha256`：`4199a8fb34d758a55ce78fcab8218d9999f167a296b564465ba72ccbfecb8a4d`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_HOLO_COMMIT--42a864a56b782146/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_HOLO_COMMIT--42a864a56b782146/original.response`
+
+<a id="ref-af81eafcba2067f9"></a>
+
+## NVIDIA_Holoscan_Bridge_Repo_Metadata
+
+- [官方/原始来源](https://api.github.com/repos/nvidia-holoscan/holoscan-sensor-bridge)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:44.607017+00:00`
+- `sha256`：`0473443ab5e8632a680c6aee003075de8d79e07f2cda7880733d902986761630`
+- `original_sha256`：`0473443ab5e8632a680c6aee003075de8d79e07f2cda7880733d902986761630`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Holoscan_Bridge_Repo_Metadat--af81eafcba2067f9/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Holoscan_Bridge_Repo_Metadat--af81eafcba2067f9/original.response`
+
+<a id="ref-5a55651853b14522"></a>
+
+## NVIDIA_Holoscan_Bridge_Recent_Commit
+
+- [官方/原始来源](https://api.github.com/repos/nvidia-holoscan/holoscan-sensor-bridge/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:45.649540+00:00`
+- `sha256`：`bba8f9e807ce7759b2551e1b1727fe8d709aa32b0e110d5208406972426aa941`
+- `original_sha256`：`bba8f9e807ce7759b2551e1b1727fe8d709aa32b0e110d5208406972426aa941`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Holoscan_Bridge_Recent_Commi--5a55651853b14522/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Holoscan_Bridge_Recent_Commi--5a55651853b14522/original.response`
+
+<a id="ref-2720aabf5d717c78"></a>
+
+## NVIDIA_08_DEEP_OPENVINO_META
+
+- [官方/原始来源](https://api.github.com/repos/openvinotoolkit/openvino)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:01:00.547806+00:00`
+
+<a id="ref-6a670c27958d0aba"></a>
+
+## NVIDIA_08_DEEP_OPENVINO_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/openvinotoolkit/openvino/commits?per_page=1)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:01:00.902496+00:00`
+
+<a id="ref-7f9e65e51bd6a573"></a>
+
+## NVIDIA_04_DEEP_OPENVLA_META
+
+- [官方/原始来源](https://api.github.com/repos/openvla/openvla)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:18:21.261331+00:00`
+- `sha256`：`94aefd27983f44768d07fcb5a440d0d745aa3866227162f56ca276d7b511a0a6`
+- `original_sha256`：`94aefd27983f44768d07fcb5a440d0d745aa3866227162f56ca276d7b511a0a6`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_OPENVLA_META--7f9e65e51bd6a573/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_OPENVLA_META--7f9e65e51bd6a573/original.response`
+
+<a id="ref-9785cd78446e497d"></a>
+
+## NVIDIA_04_DEEP_OPENVLA_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/openvla/openvla/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:18:35.282337+00:00`
+- `sha256`：`72444663476162d867f70949881df5dce6ee0c42b284dd433215acd86eec3ef3`
+- `original_sha256`：`72444663476162d867f70949881df5dce6ee0c42b284dd433215acd86eec3ef3`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_OPENVLA_COMMIT--9785cd78446e497d/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_OPENVLA_COMMIT--9785cd78446e497d/original.response`
+
+<a id="ref-92bc7b281fb94898"></a>
+
+## NVIDIA_Orbbec_SDK_Metadata
+
+- [官方/原始来源](https://api.github.com/repos/orbbec/OrbbecSDK_v2)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:42:22.409208+00:00`
+- `sha256`：`a662de66e26658ee33602753eea432ecedf2871ccfcfc0c1c3c7cbff57202881`
+- `original_sha256`：`a662de66e26658ee33602753eea432ecedf2871ccfcfc0c1c3c7cbff57202881`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Orbbec_SDK_Metadata--92bc7b281fb94898/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Orbbec_SDK_Metadata--92bc7b281fb94898/original.response`
+
+<a id="ref-8d60e26d53796e39"></a>
+
+## NVIDIA_Orbbec_SDK_Commit
+
+- [官方/原始来源](https://api.github.com/repos/orbbec/OrbbecSDK_v2/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:42:32.903005+00:00`
+- `sha256`：`92443849ead48eec041c40757a779fe05ccc1f33eb36be0a2b0fb32fe1ba9aae`
+- `original_sha256`：`92443849ead48eec041c40757a779fe05ccc1f33eb36be0a2b0fb32fe1ba9aae`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Orbbec_SDK_Commit--8d60e26d53796e39/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Orbbec_SDK_Commit--8d60e26d53796e39/original.response`
+
+<a id="ref-0e7a891d4957d982"></a>
+
+## NVIDIA_04_DEEP_DIFF_META
+
+- [官方/原始来源](https://api.github.com/repos/real-stanford/diffusion_policy)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:18:48.131128+00:00`
+- `sha256`：`13ef40106a3f4067bb67dcf5017f96137eed0fc778046b488fadbaa50d6ea009`
+- `original_sha256`：`13ef40106a3f4067bb67dcf5017f96137eed0fc778046b488fadbaa50d6ea009`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_DIFF_META--0e7a891d4957d982/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_DIFF_META--0e7a891d4957d982/original.response`
+
+<a id="ref-cda2142f2586c0bc"></a>
+
+## NVIDIA_04_DEEP_DIFF_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/real-stanford/diffusion_policy/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:18:50.611830+00:00`
+- `sha256`：`168d5ea08627b67979925b9005c8be314a765aea0b0d47793adb7dd73a5e08eb`
+- `original_sha256`：`168d5ea08627b67979925b9005c8be314a765aea0b0d47793adb7dd73a5e08eb`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_DIFF_COMMIT--cda2142f2586c0bc/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_DIFF_COMMIT--cda2142f2586c0bc/original.response`
+
+<a id="ref-da7209bfd945c7f8"></a>
+
+## NVIDIA_08_DEEP_RCLCPP_META
+
+- [官方/原始来源](https://api.github.com/repos/ros2/rclcpp)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:01:03.196332+00:00`
+
+<a id="ref-38988c2088d4407e"></a>
+
+## NVIDIA_08_DEEP_RCLCPP_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/ros2/rclcpp/commits?per_page=1)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:01:03.822386+00:00`
+
+<a id="ref-9457950c165e12f4"></a>
+
+## NVIDIA_04_DEEP_ACT_META
+
+- [官方/原始来源](https://api.github.com/repos/tonyzhaozh/act)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:18:42.409633+00:00`
+- `sha256`：`2c766be7d41b2bd1d441c626fe22d50d15a1cea0647e77da37b9342c673fafb0`
+- `original_sha256`：`2c766be7d41b2bd1d441c626fe22d50d15a1cea0647e77da37b9342c673fafb0`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_ACT_META--9457950c165e12f4/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_ACT_META--9457950c165e12f4/original.response`
+
+<a id="ref-e28f025326ddb25b"></a>
+
+## NVIDIA_04_DEEP_ACT_COMMIT
+
+- [官方/原始来源](https://api.github.com/repos/tonyzhaozh/act/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:18:44.780916+00:00`
+- `sha256`：`22900a757836748fe7a4dcee1a4a1384d8408a2a6c0a01916f18092ec349ee12`
+- `original_sha256`：`22900a757836748fe7a4dcee1a4a1384d8408a2a6c0a01916f18092ec349ee12`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_ACT_COMMIT--e28f025326ddb25b/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_ACT_COMMIT--e28f025326ddb25b/original.response`
+
+<a id="ref-9c26b3882332c0b5"></a>
+
+## NVIDIA_Triton_Repo_Metadata
+
+- [官方/原始来源](https://api.github.com/repos/triton-inference-server/server)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:46.722929+00:00`
+- `sha256`：`11e392ee3c06c207c4f19aa6afe6e5e5539194fc68d6954104d4dbe80d761710`
+- `original_sha256`：`11e392ee3c06c207c4f19aa6afe6e5e5539194fc68d6954104d4dbe80d761710`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Triton_Repo_Metadata--9c26b3882332c0b5/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Triton_Repo_Metadata--9c26b3882332c0b5/original.response`
+
+<a id="ref-ff0c2f24e6020822"></a>
+
+## NVIDIA_Triton_Recent_Commit
+
+- [官方/原始来源](https://api.github.com/repos/triton-inference-server/server/commits?per_page=1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:47.751927+00:00`
+- `sha256`：`e8d8700c2311c4fd8294a570873cc757a93b36cc4d8e9c3844b4c46101f50c7d`
+- `original_sha256`：`e8d8700c2311c4fd8294a570873cc757a93b36cc4d8e9c3844b4c46101f50c7d`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Triton_Recent_Commit--ff0c2f24e6020822/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Triton_Recent_Commit--ff0c2f24e6020822/original.response`
+
+<a id="ref-a1f416220b59d954"></a>
+
+## NVIDIA_04_EXP_SONIC_SEARCH
+
+- [官方/原始来源](https://api.github.com/search/repositories?q=SONIC+org%3ANVlabs)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:07:58.702583+00:00`
+
+<a id="ref-44e30ae8eb3205be"></a>
+
+## NVIDIA_08_DEEP_ARGO_ARCH
+
+- [官方/原始来源](https://argo-workflows.readthedocs.io/en/latest/architecture/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:58:16.167869+00:00`
+- `sha256`：`ddbd34b85d8a03cf86ea6ef8d50467cc04acfead75ea30359e1cdf874195e6c1`
+- `original_sha256`：`524a2c0ab99719184ae2438069bafb1cf7b4216c41bd9d26451447061bf12ae8`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_ARGO_ARCH--44e30ae8eb3205be/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_ARGO_ARCH--44e30ae8eb3205be/original.response`
+- 未取得依赖：10 项；详见本地 metadata。
+
+<a id="ref-d323f34db075b715"></a>
+
+## NVIDIA_cuRobo_Paper
+
+- [官方/原始来源](https://arxiv.org/pdf/2310.17274)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:35.501022+00:00`
+- `sha256`：`cffeaf2d4e7a396f0d0ae99b2213688f19a24f756cccb828bd16fca223abc561`
+- `original_sha256`：`cffeaf2d4e7a396f0d0ae99b2213688f19a24f756cccb828bd16fca223abc561`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/cuRobo_Paper--d323f34db075b715/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/cuRobo_Paper--d323f34db075b715/original.response`
+
+<a id="ref-8b0b7da9aeef1e84"></a>
+
+## NVIDIA_GR00T_N1_Paper
+
+- [官方/原始来源](https://arxiv.org/pdf/2503.14734)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:42.564633+00:00`
+- `sha256`：`76e38cf679637b816b16edf7170340883dd09175bf334aeeaed49392777731b9`
+- `original_sha256`：`76e38cf679637b816b16edf7170340883dd09175bf334aeeaed49392777731b9`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/GR00T_N1_Paper--8b0b7da9aeef1e84/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/GR00T_N1_Paper--8b0b7da9aeef1e84/original.response`
+
+<a id="ref-c1d0fbc63a0b707c"></a>
+
+## NVIDIA_04_DEEP_SMOL_PAPER
+
+- [官方/原始来源](https://arxiv.org/pdf/2506.01844)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:20:25.063249+00:00`
+- `sha256`：`cb1bb9a8f824187fcdc32af8c290214487c524f139a3c2def1c6d97adb1fa40c`
+- `original_sha256`：`cb1bb9a8f824187fcdc32af8c290214487c524f139a3c2def1c6d97adb1fa40c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/04_DEEP_SMOL_PAPER--c1d0fbc63a0b707c/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/04_DEEP_SMOL_PAPER--c1d0fbc63a0b707c/original.response`
+
+<a id="ref-3badb54e4e829521"></a>
+
+## NVIDIA_Isaac_Lab_Paper
+
+- [官方/原始来源](https://arxiv.org/pdf/2511.04831)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:45:50.826254+00:00`
+- `sha256`：`f5b454fe245cdb1c485fe48c302494d689d335d375cd730fe0344113772bc8fa`
+- `original_sha256`：`f5b454fe245cdb1c485fe48c302494d689d335d375cd730fe0344113772bc8fa`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Isaac_Lab_Paper--3badb54e4e829521/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Isaac_Lab_Paper--3badb54e4e829521/original.response`
+
+<a id="ref-27c15503b5578829"></a>
+
+## NVIDIA_cuRobo_V2_Paper
+
+- [官方/原始来源](https://arxiv.org/pdf/2603.05493)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:44:01.659080+00:00`
+- `sha256`：`2402fb08516e6fa4d82118f75d8338b26eae41f6e473cb3dc0826e67f0f46b2b`
+- `original_sha256`：`2402fb08516e6fa4d82118f75d8338b26eae41f6e473cb3dc0826e67f0f46b2b`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/cuRobo_V2_Paper--27c15503b5578829/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/cuRobo_V2_Paper--27c15503b5578829/original.response`
+
+<a id="ref-c1082fd98cf5bc04"></a>
+
+## NVIDIA_Blog_AGX_Orin_32GB_Availability
+
+- [官方/原始来源](https://blogs.nvidia.com/blog/2022/08/03/nvidia-jetson-agx-orin-32gb-production-modules/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:00:21.660300+00:00`
+- `sha256`：`b0fae21a1e7c38a7728aa41380faf83b70fb570dda728ececa059de54d4ff730`
+- `original_sha256`：`23f8e376f3e237551c7ebec2c8f65d986099cc199c0db39a120295ed930c5006`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Blog_AGX_Orin_32GB_Avail--c1082fd98cf5bc04/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Blog_AGX_Orin_32GB_Avail--c1082fd98cf5bc04/original.response`
+- 未取得依赖：5 项；详见本地 metadata。
+
+<a id="ref-02532b0d240230f7"></a>
+
+## NVIDIA_Blog_IGX_Thor
+
+- [官方/原始来源](https://blogs.nvidia.com/blog/igx-thor-processor-physical-ai-industrial-medical-edge/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:01:16.236158+00:00`
+- `sha256`：`ba0bdfa9f25a0ab5ed18b72c044333f78363ad0e40a7dc68d12fc5b76d24baa3`
+- `original_sha256`：`dcb5e5dd3b762c54b22d8a3c4e6fa7c93028f64fde11630dcfcb03006ef162d4`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Blog_IGX_Thor--02532b0d240230f7/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Blog_IGX_Thor--02532b0d240230f7/original.response`
+- 未取得依赖：5 项；详见本地 metadata。
+
+<a id="ref-8b7641fcd091cae8"></a>
+
+## NVIDIA_Blog_Orin_Nano_Super_Launch
+
+- [官方/原始来源](https://blogs.nvidia.com/blog/jetson-generative-ai-supercomputer/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:01:33.623923+00:00`
+- `sha256`：`43a43e9b0106d49611cd0a6a617a6a9fc80b0dc003f4e619e52096219852c6f4`
+- `original_sha256`：`54db1be91caa549a709bcc7b4c7d324826f6ee7e657c712e1590ae63c3ec25cb`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Blog_Orin_Nano_Super_Lau--8b7641fcd091cae8/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Blog_Orin_Nano_Super_Lau--8b7641fcd091cae8/original.response`
+- 未取得依赖：7 项；详见本地 metadata。
+
+<a id="ref-697d5e2aae5520ad"></a>
+
+## NVIDIA_Blog_Jetson_Thor_Physical_AI
+
+- [官方/原始来源](https://blogs.nvidia.com/blog/jetson-thor-physical-ai-edge/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:01:28.951320+00:00`
+- `sha256`：`9d4007b8f6ebe1b1a02cb072bfdfab0827b476cccfe8d4fbcb5afc60d2da246e`
+- `original_sha256`：`7537846ff547096fc0f0d054e8e23b5aa42ac1eef0e9fba8fd1686c70d1d0255`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Blog_Jetson_Thor_Physica--697d5e2aae5520ad/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Blog_Jetson_Thor_Physica--697d5e2aae5520ad/original.response`
+- 未取得依赖：5 项；详见本地 metadata。
+
+<a id="ref-95300e42c1581465"></a>
+
+## NVIDIA_Blog_Jetson_Thor_New_Modules
+
+- [官方/原始来源](https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:01:20.732012+00:00`
+- `sha256`：`31d9af4aa2e3abaeed6bd58d28c6764e4f160d31adb2091f2691fb66db32048e`
+- `original_sha256`：`6c5d65e20d3e9e8b8f4d7c0b10fa1da1b03d616fe0d96e8e51318f6dfada69a1`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Blog_Jetson_Thor_New_Mod--95300e42c1581465/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Blog_Jetson_Thor_New_Mod--95300e42c1581465/original.response`
+- 未取得依赖：5 项；详见本地 metadata。
+
+<a id="ref-19c20daac32447cb"></a>
+
+## NVIDIA_06_DEEP_NV_BLOG_SEARCH
+
+- [官方/原始来源](https://blogs.nvidia.com/wp-json/wp/v2/search?search=jetson%20robotics&per_page=30)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:28:00.031434+00:00`
+
+<a id="ref-fcde9816e6d4faca"></a>
+
+## NVIDIA_06_DEEP_BD_NEWS
+
+- [官方/原始来源](https://bostondynamics.com/blog/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:28:05.616819+00:00`
+- `sha256`：`b19a7dfe6172134a92edc1bc752e2a93768df1b07c6941687e1bf57d0e463b04`
+- `original_sha256`：`e954e939c63f0c650ac5a5c06b708a38b0a89e092302a9cbab74ec439a7cf9ec`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_BD_NEWS--fcde9816e6d4faca/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_BD_NEWS--fcde9816e6d4faca/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-5813dba036d5b6aa"></a>
+
+## NVIDIA_06_DEEP_SPOT_COMPUTE
+
+- [官方/原始来源](https://bostondynamics.com/blog/doing-more-with-spot/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:36:35.178938+00:00`
+- `sha256`：`745a542fd572419a13e927084eefc70c5eb1570cae24ea974d35973461daa4c7`
+- `original_sha256`：`f8239dc4a71895424b1dcad94ba542db8673dbb4dc407ebca9cb6c1273acda75`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_SPOT_COMPUTE--5813dba036d5b6aa/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_SPOT_COMPUTE--5813dba036d5b6aa/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-e25516b1addd8ab5"></a>
+
+## NVIDIA_06_DEEP_BD_RL
+
+- [官方/原始来源](https://bostondynamics.com/blog/starting-on-the-right-foot-with-reinforcement-learning/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:36:23.206055+00:00`
+- `sha256`：`2d24481392e71af13e75dd81a1582557475d4e7e3a91fb2052ae19bc4aba9e1f`
+- `original_sha256`：`0a3175a7a03c010b6566b3326e63ec9e101022671a1c0a56d54a569318558987`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_BD_RL--e25516b1addd8ab5/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_BD_RL--e25516b1addd8ab5/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-2e127e386e4da364"></a>
+
+## NVIDIA_06_DEEP_BD_COLLAB
+
+- [官方/原始来源](https://bostondynamics.com/news/boston-dynamics-expands-collaboration-with-nvidia/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:36:09.704372+00:00`
+- `sha256`：`c187cf86fed955f2b6b82cd8321ba8c9e2b4aea3719b96e346bb13b9f2714288`
+- `original_sha256`：`b499b60e08cb3e3f1db74f7b25cb680710792cc15ee46fdc7ce8333750f9fc2c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_BD_COLLAB--2e127e386e4da364/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_BD_COLLAB--2e127e386e4da364/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-98606bb32b6e131e"></a>
+
+## NVIDIA_06_DEEP_ATLAS
+
+- [官方/原始来源](https://bostondynamics.com/products/atlas/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:33:17.456852+00:00`
+- `sha256`：`70ca7b4cc05c0c43d0ab7b256cdb0f2f34b46df07c06ea0e325ad283848a5bb2`
+- `original_sha256`：`66e99db95bfc4698fb0984db48c421ea45955e4ec738217fc2a122efe1bb085b`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_ATLAS--98606bb32b6e131e/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_ATLAS--98606bb32b6e131e/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-1b482664646bbb0b"></a>
+
+## NVIDIA_06_DEEP_BD_SEARCH
+
+- [官方/原始来源](https://bostondynamics.com/wp-json/wp/v2/search?search=Jetson&per_page=20)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:33:45.470458+00:00`
+- `sha256`：`a4a76ed6d45e63865a0147ce8248c497d7a0d11d3b66569a89764fb823bda307`
+- `original_sha256`：`a4a76ed6d45e63865a0147ce8248c497d7a0d11d3b66569a89764fb823bda307`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/06_DEEP_BD_SEARCH--1b482664646bbb0b/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/06_DEEP_BD_SEARCH--1b482664646bbb0b/original.response`
+
+<a id="ref-d2238da5a7e3dc3a"></a>
+
+## NVIDIA_07_DEEP_CONNECTTECH
+
+- [官方/原始来源](https://connecttech.com/early-success-gauntlet-integrated-solutions-nvidia-new-jetson-thor-redefining-real-time-reasoning-robotics/)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:41:14.066825+00:00`
+
+<a id="ref-a221666c6d1ed81f"></a>
+
+## NVIDIA_Datasheet_Jetson_AGX_Thor_Developer_Kit
+
+- [官方/原始来源](https://dam-cdn.nvd.orangelogic.com/AssetLink/2gxa66a03084177dss0h1c168r7x2qcd.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:54:33.671979+00:00`
+- `sha256`：`6542628bd08e99fbb12d075bd85afd6591f4372025ddac8d117b656ac56afc04`
+- `original_sha256`：`6542628bd08e99fbb12d075bd85afd6591f4372025ddac8d117b656ac56afc04`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Datasheet_Jetson_AGX_Th--a221666c6d1ed81f/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Datasheet_Jetson_AGX_Th--a221666c6d1ed81f/original.response`
+
+<a id="ref-ae607abf18208492"></a>
+
+## NVIDIA_Datasheet_DGX_Spark
+
+- [官方/原始来源](https://dam-cdn.nvd.orangelogic.com/AssetLink/es6d60li4v5hybk461p65is6os33c48h.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:54:28.036408+00:00`
+- `sha256`：`22c7f1268c7a45f80245eb9c37ed3736a5022a69f062e1a52bba256a59bb8451`
+- `original_sha256`：`22c7f1268c7a45f80245eb9c37ed3736a5022a69f062e1a52bba256a59bb8451`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Datasheet_DGX_Spark--ae607abf18208492/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Datasheet_DGX_Spark--ae607abf18208492/original.response`
+
+<a id="ref-a741ad086dbfeef0"></a>
+
+## NVIDIA_Technical_Brief_Robotics_Edge_AI
+
+- [官方/原始来源](https://dam-cdn.nvd.orangelogic.com/AssetLink/v686u306w26ftuk863xjeimilimtx55e.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:55:27.500358+00:00`
+- `sha256`：`02f0388346cac311ed1aa6be83d464c2dc0315fd7c211760413af106b1efe93d`
+- `original_sha256`：`02f0388346cac311ed1aa6be83d464c2dc0315fd7c211760413af106b1efe93d`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Technical_Brief_Robotic--a741ad086dbfeef0/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Technical_Brief_Robotic--a741ad086dbfeef0/original.response`
+
+<a id="ref-1ef1c9aacccbd3ea"></a>
+
+## NVIDIA_Datasheet_Jetson_Thor_Modules
+
+- [官方/原始来源](https://dam-cdn.nvd.orangelogic.com/AssetLink/x20v2h2y15uh0ne54rpb73xh4x7s0m1s.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:54:35.444131+00:00`
+- `sha256`：`cd352958b77435d64977d5a6817d92f6d7cee19933fdf038a3e4f2f091ff1dcd`
+- `original_sha256`：`cd352958b77435d64977d5a6817d92f6d7cee19933fdf038a3e4f2f091ff1dcd`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Datasheet_Jetson_Thor_M--1ef1c9aacccbd3ea/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Datasheet_Jetson_Thor_M--1ef1c9aacccbd3ea/original.response`
+
+<a id="ref-b71ae712d56c26cb"></a>
+
+## NVIDIA_Product_Brief_IGX_Thor_Safety
+
+- [官方/原始来源](https://developer.download.nvidia.com/assets/igx/robotics-product-brief-igx-thor-safety-4473375.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:55:24.457160+00:00`
+- `sha256`：`ccaf49b4bc4bc68e9228d4fe2ec8e9be0f11b2fdb6562c36e0e61a70c9600826`
+- `original_sha256`：`ccaf49b4bc4bc68e9228d4fe2ec8e9be0f11b2fdb6562c36e0e61a70c9600826`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Product_Brief_IGX_Thor_--b71ae712d56c26cb/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Product_Brief_IGX_Thor_--b71ae712d56c26cb/original.response`
+
+<a id="ref-3ff1d17c6cecf02a"></a>
+
+## NVIDIA_07_DEEP_RIDGERUN_PDF
+
+- [官方/原始来源](https://developer.download.nvidia.com/embedded/partners/one-pager/RidgeRun-OnePage-Sumary.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:49:32.449901+00:00`
+- `sha256`：`4ddb1e94e781837318289b68fc606b1a564ad04bb565344b82daf42aca8898dd`
+- `original_sha256`：`4ddb1e94e781837318289b68fc606b1a564ad04bb565344b82daf42aca8898dd`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/07_DEEP_RIDGERUN_PDF--3ff1d17c6cecf02a/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/07_DEEP_RIDGERUN_PDF--3ff1d17c6cecf02a/original.response`
+
+<a id="ref-8b42540b561b82b9"></a>
+
+## NVIDIA_JetPack_7_2_Blog
+
+- [官方/原始来源](https://developer.nvidia.com/blog/deploy-agentic-ready-ai-at-the-edge-with-memory-efficiency-in-nvidia-jetpack-7-2/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:31:08.538908+00:00`
+- `sha256`：`1e95289fd3a910590d21c3dd4d0e93904223873793c8b355a6a67aedc1b7ab95`
+- `original_sha256`：`7bf3855fd8436b45fe4e2b67c084810547a74ccb5af9ca0344b3602815e2e88b`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/JetPack_7_2_Blog--8b42540b561b82b9/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/JetPack_7_2_Blog--8b42540b561b82b9/original.response`
+- 未取得依赖：191 项；详见本地 metadata。
+
+<a id="ref-bdc20768416189cc"></a>
+
+## NVIDIA_08_DEEP_NVIDIA_NVFP4_BLOG
+
+- [官方/原始来源](https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T03:20:32.040496+00:00`
+- `sha256`：`eb4c2b8305a27fca9e8216bfa92e0961a36bd1ada50a77caf58638b89019397a`
+- `original_sha256`：`9f0fc2bac295da2009b7475a8d6e78bcdaeb10e9c0b1116e7af9eace11edcddd`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_NVIDIA_NVFP4_BLO--bdc20768416189cc/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_NVIDIA_NVFP4_BLO--bdc20768416189cc/original.response`
+- 未取得依赖：21 项；详见本地 metadata。
+
+<a id="ref-c17dd5eed35b00ec"></a>
+
+## NVIDIA_06_DEEP_THOR_TECH
+
+- [官方/原始来源](https://developer.nvidia.com/blog/introducing-nvidia-jetson-thor-the-ultimate-platform-for-physical-ai/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:26:40.889503+00:00`
+- `sha256`：`37550f487a2688625aebb773303131cfc2b3324224de43010ae5fc0f541acf03`
+- `original_sha256`：`67dff2d2bb4a887dcec0960a3c76a0628cff8cdf8e0fed57f20b24766dbd1e9f`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_THOR_TECH--c17dd5eed35b00ec/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_THOR_TECH--c17dd5eed35b00ec/original.response`
+- 未取得依赖：23 项；详见本地 metadata。
+
+<a id="ref-2b612a452e929c72"></a>
+
+## NVIDIA_06_DEEP_ORIN_TECH
+
+- [官方/原始来源](https://developer.nvidia.com/blog/nvidia-jetson-agx-orin-charts-new-path-for-edge-ai-and-robotics/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:29:05.367622+00:00`
+- `sha256`：`2215d988a560c24a037777297e6660c24cbd7e17609d3e4d5f281e588380f607`
+- `original_sha256`：`04e0ca00079aaf1a2862e152878a474ecb7c4cde21aea16409e52a8654bf4310`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_ORIN_TECH--2b612a452e929c72/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_ORIN_TECH--2b612a452e929c72/original.response`
+- 未取得依赖：30 项；详见本地 metadata。
+
+<a id="ref-e6508771fcc48a39"></a>
+
+## NVIDIA_Developer_Blog_Orin_Nano_Super
+
+- [官方/原始来源](https://developer.nvidia.com/blog/nvidia-jetson-orin-nano-developer-kit-gets-a-super-boost/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:01:45.092972+00:00`
+- `sha256`：`ab8e4b3f90db98590eeca9fa49ca00d2d629e829dc9cec6cf688f25ed7a13eac`
+- `original_sha256`：`1066431d1936803b9ad13ec96fc0ebdd6b8703327a97f867de9441ab2750c512`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Blog_Orin_Nano--e6508771fcc48a39/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Blog_Orin_Nano--e6508771fcc48a39/original.response`
+- 未取得依赖：21 项；详见本地 metadata。
+
+<a id="ref-558f642be571ac1f"></a>
+
+## NVIDIA_Cosmos_Page
+
+- [官方/原始来源](https://developer.nvidia.com/cosmos)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:38:15.201230+00:00`
+- `sha256`：`7082fae6f36eafea6f1d9ac38df1f16d050cf84401e381234b3fdca638701504`
+- `original_sha256`：`a3e589b1f4597329dee1bef1db14d5b7097235ac182dc1068f3e1f99a4ac186f`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Cosmos_Page--558f642be571ac1f/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Cosmos_Page--558f642be571ac1f/original.response`
+- 未取得依赖：30 项；详见本地 metadata。
+
+<a id="ref-7625f316aa980e4e"></a>
+
+## NVIDIA_02_CUDNN_PAGE
+
+- [官方/原始来源](https://developer.nvidia.com/cudnn)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:05:09.184180+00:00`
+- `sha256`：`b19dab29677e6a8bf5d5308e00f71dafa6509c6df34ecf4204645d4ab3d2d8ef`
+- `original_sha256`：`11aeb24ca1be34adc2f5e089e6d00c76c80b2288bac07a7a9726092cd7194b3d`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDNN_PAGE--7625f316aa980e4e/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDNN_PAGE--7625f316aa980e4e/original.response`
+- 未取得依赖：85 项；详见本地 metadata。
+
+<a id="ref-cff851a2b8b263fe"></a>
+
+## NVIDIA_02_DEEP_PAGE
+
+- [官方/原始来源](https://developer.nvidia.com/deepstream-sdk)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:00:10.097816+00:00`
+- `sha256`：`55e37f7fd051b357b17d9064ff882a6e198b4e550f18104fc7b39f3a04e8cda7`
+- `original_sha256`：`4cd5b0fbc599241309092a14709edffc306652a8dd667036bdec3e8c7c7cee8f`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_DEEP_PAGE--cff851a2b8b263fe/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_DEEP_PAGE--cff851a2b8b263fe/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-e0ae09b175a34eac"></a>
+
+## NVIDIA_Datasheet_Thor_Full_v1_5
+
+- [官方/原始来源](https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:54:52.517346+00:00`
+- `sha256`：`1ae9fdaecef4165e77975d9806d53b3a0e2015e36579a6e904ed16e0d66180e4`
+- `original_sha256`：`1ae9fdaecef4165e77975d9806d53b3a0e2015e36579a6e904ed16e0d66180e4`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Datasheet_Thor_Full_v1_--e0ae09b175a34eac/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Datasheet_Thor_Full_v1_--e0ae09b175a34eac/original.response`
+
+<a id="ref-b908a3b7e6425904"></a>
+
+## NVIDIA_Thermal_Guide_Thor_v1_3
+
+- [官方/原始来源](https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson_thor_thermal_dg_tdg12271001.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:55:34.059087+00:00`
+- `sha256`：`086b1b9fa81e9d3d29def5f0ee9ad15e51eb4a0628e5c53d6a41597de2bdc179`
+- `original_sha256`：`086b1b9fa81e9d3d29def5f0ee9ad15e51eb4a0628e5c53d6a41597de2bdc179`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Thermal_Guide_Thor_v1_3--b908a3b7e6425904/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Thermal_Guide_Thor_v1_3--b908a3b7e6425904/original.response`
+
+<a id="ref-5394e70b58c257fd"></a>
+
+## NVIDIA_Jetson_Linux_39_2_1_License
+
+- [官方/原始来源](https://developer.nvidia.com/downloads/embedded/L4T/r39_Release_v2.1/release/Tegra_Software_License_Agreement-Tegra-Linux.txt)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:44:05.194176+00:00`
+- `sha256`：`828f46b4982622a4558a96f21f531dc5cf36d1d942255cd886be56bad3797aa4`
+- `original_sha256`：`828f46b4982622a4558a96f21f531dc5cf36d1d942255cd886be56bad3797aa4`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Jetson_Linux_39_2_1_License--5394e70b58c257fd/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Jetson_Linux_39_2_1_License--5394e70b58c257fd/original.response`
+
+<a id="ref-104be2a8e64528e0"></a>
+
+## NVIDIA_Datasheet_Orin_NX_v1_7
+
+- [官方/原始来源](https://developer.nvidia.com/downloads/jetson-orin-nx-module-series-data-sheet)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:54:37.301644+00:00`
+- `sha256`：`8ecf3d919cfc099ae6b150d1b3286c856ce39cf82e32f6bb2c10b8c23ca88c35`
+- `original_sha256`：`8ecf3d919cfc099ae6b150d1b3286c856ce39cf82e32f6bb2c10b8c23ca88c35`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Datasheet_Orin_NX_v1_7--104be2a8e64528e0/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Datasheet_Orin_NX_v1_7--104be2a8e64528e0/original.response`
+
+<a id="ref-871603eb473d6f2b"></a>
+
+## NVIDIA_Thermal_Guide_Orin_NX_Nano_v1_5
+
+- [官方/原始来源](https://developer.nvidia.com/downloads/jetson-orin-nx-orin-nano-series-thermal-design-guide)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:55:29.650554+00:00`
+- `sha256`：`1831a99c62ab40e03c9defbd5fda2c1ceb73d9d57507965d2dfa8a0c9446ba99`
+- `original_sha256`：`1831a99c62ab40e03c9defbd5fda2c1ceb73d9d57507965d2dfa8a0c9446ba99`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Thermal_Guide_Orin_NX_N--871603eb473d6f2b/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Thermal_Guide_Orin_NX_N--871603eb473d6f2b/original.response`
+
+<a id="ref-01f7ce54ba9bd4d1"></a>
+
+## NVIDIA_Design_Guide_Orin_NX_Nano_v1_5
+
+- [官方/原始来源](https://developer.nvidia.com/downloads/jetson-orin-nx-series-nano-series-design-guide)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:54:56.197916+00:00`
+- `sha256`：`e441774faf45de4c351bd991daadbe347610e4fde99939d03c5ea2adf6c0a2a9`
+- `original_sha256`：`e441774faf45de4c351bd991daadbe347610e4fde99939d03c5ea2adf6c0a2a9`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Design_Guide_Orin_NX_Na--01f7ce54ba9bd4d1/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Design_Guide_Orin_NX_Na--01f7ce54ba9bd4d1/original.response`
+
+<a id="ref-d211bd87106ef275"></a>
+
+## NVIDIA_Design_Guide_Thor_v1_5
+
+- [官方/原始来源](https://developer.nvidia.com/downloads/jetson/thor/docs/jetson-thor-series-modules-designguide-dg12084001.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:55:01.358312+00:00`
+- `sha256`：`c94189a300a6c3d3a49a9326a445e4a2f88893d6c0fffa71491c668bab6a1c07`
+- `original_sha256`：`c94189a300a6c3d3a49a9326a445e4a2f88893d6c0fffa71491c668bab6a1c07`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Design_Guide_Thor_v1_5--d211bd87106ef275/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Design_Guide_Thor_v1_5--d211bd87106ef275/original.response`
+
+<a id="ref-c9b6bbd44a0203b9"></a>
+
+## NVIDIA_Jetson_Partner_Ecosystem
+
+- [官方/原始来源](https://developer.nvidia.com/embedded/community/ecosystem)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:38:08.384247+00:00`
+- `sha256`：`2af6a5eea5fb1368ae11bf5cb13310906433ec0654430c18e4334fcd8bb62571`
+- `original_sha256`：`3eafd73c6bb53b3ba9a8f89849cfd2ce39be4d000d81ce48db041e0f5deacffd`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Jetson_Partner_Ecosystem--c9b6bbd44a0203b9/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Jetson_Partner_Ecosystem--c9b6bbd44a0203b9/original.response`
+- 未取得依赖：85 项；详见本地 metadata。
+
+<a id="ref-e53d8cd9fa380597"></a>
+
+## NVIDIA_Developer_Page_Jetson_Downloads
+
+- [官方/原始来源](https://developer.nvidia.com/embedded/downloads)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T06:57:24.103984+00:00`
+- `sha256`：`bf49143c888664efb8fb86368c975a56cc3989f54561dc22e652a9fd256400d8`
+- `original_sha256`：`afdb9b03b30142ec31f4cc373967d376b8822607c133ad31992edaddbf152a74`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_Do--e53d8cd9fa380597/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_Do--e53d8cd9fa380597/original.response`
+- 未取得依赖：129 项；详见本地 metadata。
+
+<a id="ref-8dee99988df8a65a"></a>
+
+## NVIDIA_Official_Download_Catalog
+
+- [官方/原始来源](https://developer.nvidia.com/embedded/downloads.json)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:55:20.406970+00:00`
+- `sha256`：`b62fad0d1cb176cb46cbe30f33b8df1a513c111717b085dd2415b316b7246e2b`
+- `original_sha256`：`b62fad0d1cb176cb46cbe30f33b8df1a513c111717b085dd2415b316b7246e2b`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Official_Download_Catalog--8dee99988df8a65a/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Official_Download_Catalog--8dee99988df8a65a/original.response`
+
+<a id="ref-7c29d52f2f676227"></a>
+
+## NVIDIA_Developer_Page_Jetson_FAQ
+
+- [官方/原始来源](https://developer.nvidia.com/embedded/faq)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T06:57:43.756854+00:00`
+- `sha256`：`088d6e4fda3e220e1f03909dca3f718a294f2460b5dcb0965279eb68c3c2fc61`
+- `original_sha256`：`680c7f9ed265fd33326590d2090b1971bce2a94a0f51a91e6a185ba379635eba`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_FA--7c29d52f2f676227/original.response`
+- 未取得依赖：142 项；详见本地 metadata。
+
+<a id="ref-c9b618c904201b47"></a>
+
+## NVIDIA_JetPack_Page
+
+- [官方/原始来源](https://developer.nvidia.com/embedded/jetpack)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:26:37.325502+00:00`
+- `sha256`：`6fea14b86ef25770191b1df8978a550c356a6d59914da22763d4e955a528aef8`
+- `original_sha256`：`a0b5eb5b461ccfa94a4a84aed606fc5c9372b0f5c16335176a00f86ff259a6ea`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/JetPack_Page--c9b618c904201b47/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/JetPack_Page--c9b618c904201b47/original.response`
+- 未取得依赖：85 项；详见本地 metadata。
+
+<a id="ref-a226cd46c59f27f9"></a>
+
+## NVIDIA_JetPack_Downloads
+
+- [官方/原始来源](https://developer.nvidia.com/embedded/jetpack/downloads)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:30:31.847902+00:00`
+- `sha256`：`b08f906fb700a5ef1970da9e346973eef917b4477230cba61ccb9357bb980c1a`
+- `original_sha256`：`51122b383c2954cf49540bada8f09ef7b199fa57d8dc1702f11a761248bb5572`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/JetPack_Downloads--a226cd46c59f27f9/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/JetPack_Downloads--a226cd46c59f27f9/original.response`
+- 未取得依赖：85 项；详见本地 metadata。
+
+<a id="ref-0670302001cc4336"></a>
+
+## NVIDIA_08_CLOUD_NATIVE
+
+- [官方/原始来源](https://developer.nvidia.com/embedded/jetson-cloud-native)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T01:47:32.654929+00:00`
+- `sha256`：`f96c03593b80721c843d5cba69993a0c58525555baf33d3cccc6d1b02897aea4`
+- `original_sha256`：`4e5065623c769e7c01dbfbc9a8e562c3d4393bac488a5d6181eab77dd7dd9c4a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_CLOUD_NATIVE--0670302001cc4336/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_CLOUD_NATIVE--0670302001cc4336/original.response`
+- 未取得依赖：143 项；详见本地 metadata。
+
+<a id="ref-957e7f65fddc9f80"></a>
+
+## NVIDIA_Developer_Page_Jetson_Modules
+
+- [官方/原始来源](https://developer.nvidia.com/embedded/jetson-modules)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T06:58:04.302872+00:00`
+- `sha256`：`1f68154605258687f963ae68aab2db5a1996b06dc62fc0b71a6bd695e525ea91`
+- `original_sha256`：`07329aba00646631ce6d0e650cf3b9b2017fa129f20346f1eb90299c5f802a5b`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_Mo--957e7f65fddc9f80/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_Mo--957e7f65fddc9f80/original.response`
+- 未取得依赖：92 项；详见本地 metadata。
+
+<a id="ref-782c8ca091275c8c"></a>
+
+## NVIDIA_Developer_Page_Jetson_Lifecycle
+
+- [官方/原始来源](https://developer.nvidia.com/embedded/lifecycle)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T06:58:01.549452+00:00`
+- `sha256`：`0f1da3980757c13c609a204ada1c6117ae4ac5ac5a3ad10096b2d0de70338554`
+- `original_sha256`：`a8a0414b0f7238858cb7495625bd5d397605ea1d8b29602fcf24a20880b5ddab`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_Li--782c8ca091275c8c/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Jetson_Li--782c8ca091275c8c/original.response`
+- 未取得依赖：142 项；详见本地 metadata。
+
+<a id="ref-3b984e4088803392"></a>
+
+## NVIDIA_02_PVA_PAGE
+
+- [官方/原始来源](https://developer.nvidia.com/embedded/pva)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:59:43.938312+00:00`
+- `sha256`：`a0100129b89bfa5d786b36f0257ea2305586c04cdc813fd2f82bdcc30fc0977a`
+- `original_sha256`：`f5839f231af06c720819e275ec2cbf84a0ec3934878693d60a0d81bf0a50a742`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_PVA_PAGE--3b984e4088803392/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_PVA_PAGE--3b984e4088803392/original.response`
+- 未取得依赖：85 项；详见本地 metadata。
+
+<a id="ref-aedf333904b70e30"></a>
+
+## NVIDIA_07_SUPPORT
+
+- [官方/原始来源](https://developer.nvidia.com/embedded/support)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T01:41:45.951769+00:00`
+- `sha256`：`e074cc394e6c6c5d2db680f96fbf2bb8d025f5ecff9160bd8089d86d6cd4389e`
+- `original_sha256`：`bd09410bc09f31a7bd8be88b63cdaaf10e4c371439de15acb85606b0b7381b74`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_SUPPORT--aedf333904b70e30/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_SUPPORT--aedf333904b70e30/original.response`
+- 未取得依赖：85 项；详见本地 metadata。
+
+<a id="ref-0ccbf7dfe3bce3f2"></a>
+
+## NVIDIA_02_HOLO_PAGE
+
+- [官方/原始来源](https://developer.nvidia.com/holoscan-sdk)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:00:28.353106+00:00`
+- `sha256`：`3428b408550f02242035ef0c18784ac069431c374cc667eff5f3915e05c62bb9`
+- `original_sha256`：`03a680efaeed84d98e0aa1a96fc686ae8ad5997eb9afefc2080c876c386d67c9`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_HOLO_PAGE--0ccbf7dfe3bce3f2/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_HOLO_PAGE--0ccbf7dfe3bce3f2/original.response`
+- 未取得依赖：85 项；详见本地 metadata。
+
+<a id="ref-b29cabdf6e545bc9"></a>
+
+## NVIDIA_Isaac_Lab_Page
+
+- [官方/原始来源](https://developer.nvidia.com/isaac/lab)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:37:33.032836+00:00`
+- `sha256`：`e0b951a65730d095a8592067eae0fa29d11412be1030c1d90514ccf30e0c958d`
+- `original_sha256`：`8f5632aa24d6c472bfad07e37aadb590313067acbda2274f2a70193aa843d715`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Lab_Page--b29cabdf6e545bc9/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Lab_Page--b29cabdf6e545bc9/original.response`
+- 未取得依赖：85 项；详见本地 metadata。
+
+<a id="ref-e5f580acd3dbc056"></a>
+
+## NVIDIA_Isaac_Manipulator_Page
+
+- [官方/原始来源](https://developer.nvidia.com/isaac/manipulator)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:38:00.339300+00:00`
+- `sha256`：`c99f47bedbcda440d6e9f7f105741961426ecfdfb396f7fe6d25a42c86ff07ae`
+- `original_sha256`：`9a676ea0ff50e5100c2aa3c253b2f1cb55e3ba4af2fc47aceed100dd6a3920bc`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Manipulator_Page--e5f580acd3dbc056/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Manipulator_Page--e5f580acd3dbc056/original.response`
+- 未取得依赖：85 项；详见本地 metadata。
+
+<a id="ref-30baafced0a760fc"></a>
+
+## NVIDIA_Isaac_Perceptor_Page
+
+- [官方/原始来源](https://developer.nvidia.com/isaac/perceptor)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:37:47.704319+00:00`
+- `sha256`：`44440b58a3fae0cbcec0b76506e6839837fd2682a62aa3d82812d4dfd0c2d5d6`
+- `original_sha256`：`eaba6ab48102b97b4b92256bea97448b791c251047b0d38b2bf6a486949d49ea`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Perceptor_Page--30baafced0a760fc/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Perceptor_Page--30baafced0a760fc/original.response`
+- 未取得依赖：85 项；详见本地 metadata。
+
+<a id="ref-f8d1ffe2c26c7317"></a>
+
+## NVIDIA_Developer_Page_Isaac_Sim
+
+- [官方/原始来源](https://developer.nvidia.com/isaac/sim)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T06:55:41.754970+00:00`
+- `sha256`：`7c9e6594cbd42a13f481888e99fa2d4df557fca2fe8c7b82cf07537cf35549eb`
+- `original_sha256`：`66ef5474a10064e4cbb80d1a25f494fbfc2d5cae15d76e0ab050556b6c7fe3a5`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Isaac_Sim--f8d1ffe2c26c7317/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Developer_Page_Isaac_Sim--f8d1ffe2c26c7317/original.response`
+- 未取得依赖：85 项；详见本地 metadata。
+
+<a id="ref-bd245abe1194ffee"></a>
+
+## NVIDIA_02_NSIGHT_GRAPHICS
+
+- [官方/原始来源](https://developer.nvidia.com/nsight-graphics)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:13:33.577293+00:00`
+- `sha256`：`c7c222ca1f573f082439f053c4b7ab998259890aa6f419dc0bd6e47be2d6e34d`
+- `original_sha256`：`4063648c03d85d913b0c8853729f555950d9339027b87a63b9f438e7fa07ed2e`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NSIGHT_GRAPHICS--bd245abe1194ffee/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NSIGHT_GRAPHICS--bd245abe1194ffee/original.response`
+- 未取得依赖：96 项；详见本地 metadata。
+
+<a id="ref-8235cd17eb584a06"></a>
+
+## NVIDIA_02_NSIGHT_PAGE
+
+- [官方/原始来源](https://developer.nvidia.com/nsight-systems)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:02:28.808524+00:00`
+- `sha256`：`5d1f887c87268a8faaeae9b40085a603cf0a466a63c27d45e6f26180d7dbb548`
+- `original_sha256`：`6ab658e3e0450cab9849096c570b4e3aa37b9a5710ee5d1391fbe923c1afb2a8`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NSIGHT_PAGE--8235cd17eb584a06/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NSIGHT_PAGE--8235cd17eb584a06/original.response`
+- 未取得依赖：99 项；详见本地 metadata。
+
+<a id="ref-759602171ae06e29"></a>
+
+## NVIDIA_08_OSMO
+
+- [官方/原始来源](https://developer.nvidia.com/osmo)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T01:47:17.062409+00:00`
+- `sha256`：`78d94cd9ef24e8927b3267875636f75603dc694edd4e06c551b11b9bd9c32909`
+- `original_sha256`：`5e9e6b584990886604fd49fd1307ad7bb26b0b19190c6d6d40f3b43e5563d372`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_OSMO--759602171ae06e29/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_OSMO--759602171ae06e29/original.response`
+- 未取得依赖：85 项；详见本地 metadata。
+
+<a id="ref-447a3a34ae20f22d"></a>
+
+## NVIDIA_07_PARTNER_DATA
+
+- [官方/原始来源](https://developer.nvidia.com/search-data/jetson_ecosystem_partners.json)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:41:38.811212+00:00`
+- `sha256`：`20fa6e33917f235e008c558cb036086c9daacd268b1c5de3ab8b028994997867`
+- `original_sha256`：`20fa6e33917f235e008c558cb036086c9daacd268b1c5de3ab8b028994997867`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/07_PARTNER_DATA--447a3a34ae20f22d/content.json`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/07_PARTNER_DATA--447a3a34ae20f22d/original.response`
+
+<a id="ref-f885a065432cf7fa"></a>
+
+## NVIDIA_04_DEEP_DIFF_PROJECT
+
+- [官方/原始来源](https://diffusion-policy.cs.columbia.edu/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:16:42.042104+00:00`
+- `sha256`：`886b5200902b6c9f335cbdd15055f366d05b3d39f4855e068147b6c4771c4eeb`
+- `original_sha256`：`361b244003e973cefe369dc0b448a8ef7c5c2892f1a7567b8ddc603954bb584a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_DEEP_DIFF_PROJECT--f885a065432cf7fa/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_DEEP_DIFF_PROJECT--f885a065432cf7fa/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-f52db1c47c90954b"></a>
+
+## NVIDIA_Isaac_Sim_Docs_Index
+
+- [官方/原始来源](https://docs.isaacsim.omniverse.nvidia.com/latest/index.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:44:50.587831+00:00`
+- `sha256`：`a1bd1687fbe5f552c306f7e722f0f55bdd2f82c589e7acfd4a176a734a88c59f`
+- `original_sha256`：`0f66d869b749f920071d5a79d00e92e350ee4a3d3cbd5111a23d4de89488b5d3`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Sim_Docs_Index--f52db1c47c90954b/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Sim_Docs_Index--f52db1c47c90954b/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-d77cc67f2e43f0b3"></a>
+
+## NVIDIA_Documentation_IsaacSim_Requirements
+
+- [官方/原始来源](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/requirements.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:08:58.203025+00:00`
+- `sha256`：`98316fcb1e0fe89b4a95e76833c0986ced96b8708fb7020b1dfb11e9671c851e`
+- `original_sha256`：`75f91a96cf6c05db67206bb1ddfc0a240240c9796467301dee3f020c0cddf43b`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Documentation_IsaacSim_R--d77cc67f2e43f0b3/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Documentation_IsaacSim_R--d77cc67f2e43f0b3/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-f74626edcba85090"></a>
+
+## NVIDIA_05_SIM_ARCH
+
+- [官方/原始来源](https://docs.isaacsim.omniverse.nvidia.com/latest/introduction/reference_architecture.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:29:58.052859+00:00`
+- `sha256`：`04a9105a9b08a395f89bde2a37c0021f9af5e950f20495fab93e4ec0aefaf2c4`
+- `original_sha256`：`33cef4d05be862ec819f86d63a8a2cf75778f692c78c5d554860029f192a1ead`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_SIM_ARCH--f74626edcba85090/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_SIM_ARCH--f74626edcba85090/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-99c545c1f1062ec0"></a>
+
+## NVIDIA_05_ACTUATOR
+
+- [官方/原始来源](https://docs.isaacsim.omniverse.nvidia.com/latest/newton_actuators_tutorials/newton_actuators_python.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:30:21.406146+00:00`
+- `sha256`：`a8f57bb31068debc703e6d3e9ab336ec717038d967adfa3d6266045193fd9962`
+- `original_sha256`：`159f512786b43fabacb3feb13fe6c37c5c91e10c01add6154d794cbe93d9b9a3`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_ACTUATOR--99c545c1f1062ec0/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_ACTUATOR--99c545c1f1062ec0/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-05d1d91224b20a0e"></a>
+
+## NVIDIA_Isaac_Sim_Overview
+
+- [官方/原始来源](https://docs.isaacsim.omniverse.nvidia.com/latest/overview/overview.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:37:25.321003+00:00`
+- `sha256`：`37fb5c6a07aca4c744a933d3d85445093dae21619fd554f697d5d19e432a6b73`
+- `original_sha256`：`dedfdfbbbbd523a95fdb486fc2b7483e5e914ace6f029882be62a85cef90e23f`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Sim_Overview--05d1d91224b20a0e/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Sim_Overview--05d1d91224b20a0e/original.response`
+
+<a id="ref-ee558d6613a45451"></a>
+
+## NVIDIA_05_HYDRO
+
+- [官方/原始来源](https://docs.isaacsim.omniverse.nvidia.com/latest/physics/hydroelastic_contact.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:30:15.447193+00:00`
+- `sha256`：`4ece683b95d3789e851c591b98dae4b474d04f590eefa3383c8e13af3cfcaa14`
+- `original_sha256`：`8a2a064d7bb9484abc50473ec3ca512c8920e75e9153f2a4a47d7f1c3be17ee3`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_HYDRO--ee558d6613a45451/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_HYDRO--ee558d6613a45451/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-24508cffad8754f0"></a>
+
+## NVIDIA_05_PHYSICS
+
+- [官方/原始来源](https://docs.isaacsim.omniverse.nvidia.com/latest/physics/simulation_fundamentals.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:30:06.798421+00:00`
+- `sha256`：`806b5d530d0e7bf9cd5e683db368413f37d88c0b4c8788b6895f76443dc4d9cf`
+- `original_sha256`：`e59d57358253a2982ff0084704caf823be5c43b03d9892c136e1782188e64a9d`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_PHYSICS--24508cffad8754f0/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_PHYSICS--24508cffad8754f0/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-b07ba7136a8df329"></a>
+
+## NVIDIA_08_DEEP_SIM_BENCHMARKS
+
+- [官方/原始来源](https://docs.isaacsim.omniverse.nvidia.com/latest/reference_material/benchmarks.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:36:49.555967+00:00`
+- `sha256`：`c44f5c2ed6ede96a3853a027d7ab4999d7f65e91baa73154b7c05882926bdc7e`
+- `original_sha256`：`56aef008f40100ca487779c02b4d440193c5e0eba2ef1579aa19cf84a3a7f5f1`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_SIM_BENCHMARKS--b07ba7136a8df329/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_SIM_BENCHMARKS--b07ba7136a8df329/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-a23e410695a197e2"></a>
+
+## NVIDIA_05_SIM_COSMOS
+
+- [官方/原始来源](https://docs.isaacsim.omniverse.nvidia.com/latest/replicator_tutorials/tutorial_replicator_cosmos.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:30:35.877484+00:00`
+- `sha256`：`c150089192ee042783732ccbd22b09e372ab90f1290002b8f2855e77a73fba8e`
+- `original_sha256`：`063449b32db167cb0202217c6833a4ebcc907d3271866769b940d58d52212def`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_SIM_COSMOS--a23e410695a197e2/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_SIM_COSMOS--a23e410695a197e2/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-664edd10a2de8b71"></a>
+
+## NVIDIA_08_DEEP_SDG_RANDOM
+
+- [官方/原始来源](https://docs.isaacsim.omniverse.nvidia.com/latest/replicator_tutorials/tutorial_replicator_isaac_randomizers.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:36:51.624056+00:00`
+- `sha256`：`ab8ee55f2da2f58eb8980e60e103c8ab4c003a25e6b2afd91beef0479341b457`
+- `original_sha256`：`63b1b361b9ec84ace2e450bb7e682d271d312e25580ba28cbdf9390b0aa081c0`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_SDG_RANDOM--664edd10a2de8b71/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_SDG_RANDOM--664edd10a2de8b71/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-b864aac3a5128760"></a>
+
+## NVIDIA_05_SDG
+
+- [官方/原始来源](https://docs.isaacsim.omniverse.nvidia.com/latest/replicator_tutorials/tutorial_replicator_sdg_workflows.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:30:29.445081+00:00`
+- `sha256`：`32cacf2b63d25e1c97bbafb5c61e14e4c78d848ffd025ee7626ba5c68a1a2754`
+- `original_sha256`：`eba5b6baddd792fa2f5919d0f6ad689a6f3dafd51d0fed434bade46f592bcf46`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_SDG--b864aac3a5128760/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_SDG--b864aac3a5128760/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-a537c0a95b145a1a"></a>
+
+## NVIDIA_Isaac_Sim_ROS2_Bridge
+
+- [官方/原始来源](https://docs.isaacsim.omniverse.nvidia.com/latest/ros2_tutorials/index.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:37:27.892914+00:00`
+- `sha256`：`a93e6217d98d51a4f2366ee4c02d0b53d35f6645f93afe79efae5d804c23953d`
+- `original_sha256`：`a0da28a90c4f12b73a848586e1428c530fd5be23c5f39baaaf3b2515d037ea89`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Sim_ROS2_Bridge--a537c0a95b145a1a/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Sim_ROS2_Bridge--a537c0a95b145a1a/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-5268ace777a03b5f"></a>
+
+## NVIDIA_08_DEEP_SIM_CAMERA
+
+- [官方/原始来源](https://docs.isaacsim.omniverse.nvidia.com/latest/sensors/isaacsim_sensors_camera.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:37:01.206252+00:00`
+- `sha256`：`899d2c2c482382f99af31675fea4c5c317e55cb862e3c2f6f95e702f3078405d`
+- `original_sha256`：`0abcfb3862ad080ef85bf0f0c543bc501ac13208b1cf69c0e0a4dead84f90dc8`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_SIM_CAMERA--5268ace777a03b5f/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_SIM_CAMERA--5268ace777a03b5f/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-88a025fbe5a5be1b"></a>
+
+## NVIDIA_08_DEEP_SENSOR_TIMING
+
+- [官方/原始来源](https://docs.isaacsim.omniverse.nvidia.com/latest/sensors/isaacsim_sensors_multitick_rendering.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:36:46.830829+00:00`
+- `sha256`：`6db63923671a391cc03fb9d6bd525cbd077c4546713614f31444988ffc730255`
+- `original_sha256`：`1ba04af23f07cc9acf6220a83112a5e00cd586e4b6adb2f1c1f25fa5a224ef1c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_SENSOR_TIMING--88a025fbe5a5be1b/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_SENSOR_TIMING--88a025fbe5a5be1b/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-07af8d2eeb12326c"></a>
+
+## NVIDIA_05_SENSOR
+
+- [官方/原始来源](https://docs.isaacsim.omniverse.nvidia.com/latest/sensors/isaacsim_sensors_rtx.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:30:26.080077+00:00`
+- `sha256`：`402fb8b878a7d3270b103ba97cae4f681171d7e24988675e48fc47ad4538b2c6`
+- `original_sha256`：`05b0e03b893db5f3d92917a96fde4049d5e8b2a3ecef6afefe177480f9591e13`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_SENSOR--07af8d2eeb12326c/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_SENSOR--07af8d2eeb12326c/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-bee3c3e48db46d4d"></a>
+
+## NVIDIA_08_DEEP_RTX_MATERIAL
+
+- [官方/原始来源](https://docs.isaacsim.omniverse.nvidia.com/latest/sensors/isaacsim_sensors_rtx_materials.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:36:40.421029+00:00`
+- `sha256`：`8692e9888839f4636dca9134ceece8910b7b2a7ef9515929793e5e665a8857c2`
+- `original_sha256`：`27c8dd594856f0514545c8e7f191e7395374130cd80087cab63efe0c1dd9ce7e`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_RTX_MATERIAL--bee3c3e48db46d4d/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_RTX_MATERIAL--bee3c3e48db46d4d/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-acdd447e44f0ad9d"></a>
+
+## NVIDIA_Isaac_Sim_Replicator
+
+- [官方/原始来源](https://docs.isaacsim.omniverse.nvidia.com/latest/synthetic_data_generation/index.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:44:42.105297+00:00`
+- `sha256`：`90b01c7fed557305fb7f50de459a93a9aa1827d7d26b1a37e13a9bf61e71d76d`
+- `original_sha256`：`61e4c74ce558f07c234ee6bd7f5b20a83653a4121a353416bc44223ef25718a7`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Sim_Replicator--acdd447e44f0ad9d/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Sim_Replicator--acdd447e44f0ad9d/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-4202bcd69bf0729f"></a>
+
+## NVIDIA_08_DEEP_BLACKWELL_TUNING
+
+- [官方/原始来源](https://docs.nvidia.com/cuda/blackwell-tuning-guide/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T03:20:15.499218+00:00`
+- `sha256`：`07fb6faa32d5acb67a49bb4df90588170620cbd47b4e7b350d98b23d429afcd9`
+- `original_sha256`：`320829e71146ccdbaf8c6c39b84c1b568aa90b19441c0e3905d7cb4251d9a401`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_BLACKWELL_TUNING--4202bcd69bf0729f/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_BLACKWELL_TUNING--4202bcd69bf0729f/original.response`
+- 未取得依赖：5 项；详见本地 metadata。
+
+<a id="ref-7eeb08d065fc6ce9"></a>
+
+## NVIDIA_02_CUDA_DOC
+
+- [官方/原始来源](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:57:55.205783+00:00`
+- `sha256`：`25f50fc43cad0330ef4107c1a793adb7deed9fefdd9f3cb715a6cd4644f41bc4`
+- `original_sha256`：`f074631926914f45437419332503be8a1504587483eb186f4eea0810872e309a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_DOC--7eeb08d065fc6ce9/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_DOC--7eeb08d065fc6ce9/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-e1e2a9f4bcacf89e"></a>
+
+## NVIDIA_08_DEEP_CUDA_TEGRA
+
+- [官方/原始来源](https://docs.nvidia.com/cuda/cuda-for-tegra-appnote/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T03:19:32.714370+00:00`
+- `sha256`：`fbaafab103b9c736245ae397a74f3b30fb9af6607644e5ed60da623ce5d6e275`
+- `original_sha256`：`433c0577ee233bb7a236fb8e3d407c6a3be49e1d12ffd263a95ff5f2f57310a0`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_CUDA_TEGRA--e1e2a9f4bcacf89e/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_CUDA_TEGRA--e1e2a9f4bcacf89e/original.response`
+- 未取得依赖：5 项；详见本地 metadata。
+
+<a id="ref-ff852ad994d3a602"></a>
+
+## NVIDIA_02_CUDA_MODEL
+
+- [官方/原始来源](https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/programming-model.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:04:12.818775+00:00`
+- `sha256`：`5b80c39aa41df0ab0e382383627315693345d37f9cdb4d5852c94bf1de15d2d4`
+- `original_sha256`：`b273d2799a014cf3e74363388d4fbba05f46c4e271bed30e0f1240e84d283c05`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_MODEL--ff852ad994d3a602/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_MODEL--ff852ad994d3a602/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-106fd52933b5f86f"></a>
+
+## NVIDIA_02_CUDA_ASYNC
+
+- [官方/原始来源](https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/asynchronous-execution.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:04:21.196549+00:00`
+- `sha256`：`9508903e5d49f1dd2da123ec15368ab8ec9ab1706f3ab15271eef373a10fbbee`
+- `original_sha256`：`125cf5383ce3c2af399bbd2296661cd681c2d3d9fa6df362e6a37db5a819220f`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_ASYNC--106fd52933b5f86f/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_ASYNC--106fd52933b5f86f/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-2f7a1c7ecbe30210"></a>
+
+## NVIDIA_02_CUDA_NVCC
+
+- [官方/原始来源](https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/nvcc.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:04:31.096720+00:00`
+- `sha256`：`738c246b52039817236155e92aa1c5ffb90e0fba92649fbdc6cf7c17cd23115c`
+- `original_sha256`：`9688c4e7ba13efcbf6553b2b2f5948aa599d9e57abe85150ed8854933f902492`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_NVCC--2f7a1c7ecbe30210/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_NVCC--2f7a1c7ecbe30210/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-453cf4bfa7cf193e"></a>
+
+## NVIDIA_02_CUDA_MEMORY
+
+- [官方/原始来源](https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:04:26.613840+00:00`
+- `sha256`：`29daa3dcecf2c307876aa4002cb7e923166efb19ed29e615e7f8cf2164c62b39`
+- `original_sha256`：`b7bb02c593ffad85440f0bfe8cb52da8a53a7d1dd54b7263f34bb2d0a2f4f4b7`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_MEMORY--453cf4bfa7cf193e/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_MEMORY--453cf4bfa7cf193e/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-64fc09301027cc35"></a>
+
+## NVIDIA_02_CUDA_GRAPH
+
+- [官方/原始来源](https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/cuda-graphs.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:04:36.398075+00:00`
+- `sha256`：`ed46d24bc29ebbbb59399671a7da2ea40713371cabc160f357b11eee816702c4`
+- `original_sha256`：`fa9b608c57d4841474487148cd601e9eb58db05d3f6f8db56a57f3cd8be2a157`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_GRAPH--64fc09301027cc35/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_GRAPH--64fc09301027cc35/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-1a61af1ce592884e"></a>
+
+## NVIDIA_02_CUDA_PDF
+
+- [官方/原始来源](https://docs.nvidia.com/cuda/cuda-programming-guide/pdf/cuda-programming-guide.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:04:46.176448+00:00`
+- `sha256`：`0d7cfaec2a6480fb449ef064d9c30a902b3ed322f1f5ecfac6de25f74923132f`
+- `original_sha256`：`0d7cfaec2a6480fb449ef064d9c30a902b3ed322f1f5ecfac6de25f74923132f`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/02_CUDA_PDF--1a61af1ce592884e/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/02_CUDA_PDF--1a61af1ce592884e/original.response`
+
+<a id="ref-a45deeff0b5286bd"></a>
+
+## NVIDIA_04_EXP_CUOPT
+
+- [官方/原始来源](https://docs.nvidia.com/cuopt/user-guide/latest/introduction.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:12:06.927431+00:00`
+- `sha256`：`37c4bdadd502dda3b97cf50a9c4d22151730253fa27df448c1e4e6f5405759ee`
+- `original_sha256`：`fb077cbe7079bdc87d8369830540adc734103fc12b3cb1d1f4e8b4c402a9c628`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_CUOPT--a45deeff0b5286bd/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_CUOPT--a45deeff0b5286bd/original.response`
+
+<a id="ref-e8f79ff0d7d9f726"></a>
+
+## NVIDIA_02_CUDNN_GRAPH
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/cudnn/backend/latest/developer/graph-api.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:08:36.361457+00:00`
+- `sha256`：`85d4ae1dd9aed196e414abe65c979182ad5290280e575454aee213975ec83270`
+- `original_sha256`：`e7e7a932d7e94bff0ef054d86d710e1d1d9039622b76dc121de8ad8da602484e`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDNN_GRAPH--e8f79ff0d7d9f726/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDNN_GRAPH--e8f79ff0d7d9f726/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-bd9ad2eb6ef1d8a4"></a>
+
+## NVIDIA_02_CUDNN_OVERVIEW
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/cudnn/backend/latest/developer/overview.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:08:42.778109+00:00`
+- `sha256`：`d79e75f38f8adc4fc6ca47f007100fa8b34bdac40842d0f94e32f2858cd1161a`
+- `original_sha256`：`0109e091ffe7eedae3ea6d22cb5827515533420b0b9ae9340743099181292e7c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDNN_OVERVIEW--bd9ad2eb6ef1d8a4/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDNN_OVERVIEW--bd9ad2eb6ef1d8a4/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-c78062cc8790e7e5"></a>
+
+## NVIDIA_02_CUDNN_ROOT
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/cudnn/backend/latest/index.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:04:51.631015+00:00`
+- `sha256`：`c9f1ed4d1d1e18bf016e0bff9d5445d268dac5d4d57a9624af31eab942b42131`
+- `original_sha256`：`45f0b8ab6e162b9754af3eac0a035b9470a51e1b88ae95132ce698752895cc0e`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDNN_ROOT--c78062cc8790e7e5/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDNN_ROOT--c78062cc8790e7e5/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-b5e8ff8286a4f438"></a>
+
+## NVIDIA_02_CUDNN_DOC
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/cudnn/backend/latest/overview.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T07:59:33.070216+00:00`
+
+<a id="ref-7a341bb6802befa9"></a>
+
+## NVIDIA_02_CUDNN_FRONT
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/cudnn/frontend/latest/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:08:24.844875+00:00`
+- `sha256`：`23f497b100a594d86f270c29044db707339a178ca806566f8a1b9634fa6dfeba`
+- `original_sha256`：`9d8d0bd901d684f60fbaad4fc6912e00853f7cbafefce2d4a99b54a2e79d794a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDNN_FRONT--7a341bb6802befa9/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDNN_FRONT--7a341bb6802befa9/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-d4c513c2460d0b2a"></a>
+
+## NVIDIA_02_TRT_ARCH
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/architecture-overview.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:59:35.616147+00:00`
+- `sha256`：`832d50b641df44d6d052cfade3ddd1bb2bc4280a516d0104552356b4d51279a6`
+- `original_sha256`：`bdd4fa543dc81cf99a3d8acf45abd5c1d57bf7918713dee162abb8c3150a4fd9`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_TRT_ARCH--d4c513c2460d0b2a/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_TRT_ARCH--d4c513c2460d0b2a/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-9df325c2c44e3de5"></a>
+
+## NVIDIA_02_TRT_WORK
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:59:37.444788+00:00`
+- `sha256`：`0b2c6b2c93691260edb6cde5752f66c60226f3def12e74e36f80d9aea96048c6`
+- `original_sha256`：`656cc637bc2983dcc18269d41cdb4c44aab96530e4b8213c775bc73321e71eea`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_TRT_WORK--9df325c2c44e3de5/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_TRT_WORK--9df325c2c44e3de5/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-3b68f26af8646cbc"></a>
+
+## NVIDIA_TensorRT_Support_Matrix
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:27:51.073810+00:00`
+- `sha256`：`4ed06ef41c105ae9431592a58c5eae6841529f73355628e6490c47881dfb2e92`
+- `original_sha256`：`36bb070629b1ebee69a2ad7d479f6d3ceb388ad3aaa698790e09b8646b5d8fb8`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/TensorRT_Support_Matrix--3b68f26af8646cbc/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/TensorRT_Support_Matrix--3b68f26af8646cbc/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-d199114971675bf5"></a>
+
+## NVIDIA_08_DEEP_TRT_ADVANCED
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/advanced.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:20:28.325091+00:00`
+- `sha256`：`0850098b09d5fc524d0b8372bf8d26d520f26c8aaabe70527d2b44c05315dda6`
+- `original_sha256`：`d2d2262144e297c4a4be78ca0edd99fdb22bccda016fc9aa0cf7bd3f3a7efd27`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_ADVANCED--d199114971675bf5/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_ADVANCED--d199114971675bf5/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-a3672262cfb447b8"></a>
+
+## NVIDIA_08_DEEP_TRT_SHAPE_BASICS
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/dynamic-shapes-basics.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:22:21.995288+00:00`
+- `sha256`：`c6d894f4417ce903d2b2edcbc85f02f716b5a97ec4d012a2ed9b1863ffae7f8b`
+- `original_sha256`：`039c9db46c6018880cb6aed30986670b3623d39e208b949f5b2cee5f18383e59`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_SHAPE_BASICS--a3672262cfb447b8/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_SHAPE_BASICS--a3672262cfb447b8/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-cd62d0597ecdd970"></a>
+
+## NVIDIA_08_DEEP_TRT_PLUGINS
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/extending-custom-layers.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:20:25.558426+00:00`
+- `sha256`：`07128eb212f544ed88ca14cc4eb3267d04a713b3e1f8f2dd72754e8d8c63a3ff`
+- `original_sha256`：`95030f7986867d8d00ab487eb9e8ac597d8864392f508c5bb0a7e9254a3e2251`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_PLUGINS--cd62d0597ecdd970/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_PLUGINS--cd62d0597ecdd970/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-45eb9eb6044ad3d6"></a>
+
+## NVIDIA_08_DEEP_TRT_PRECISION
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/precision-control.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:22:28.864118+00:00`
+- `sha256`：`14eefe249e89544eb777dbf3ecf02f4abcf36e0531249a69a62fbbf82b5b2d59`
+- `original_sha256`：`6cf16ce910b3ab46577e7fb7e24984357ea8786fdb8527d73a7668eeef20ca86`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_PRECISION--45eb9eb6044ad3d6/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_PRECISION--45eb9eb6044ad3d6/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-f47c2746e3737567"></a>
+
+## NVIDIA_08_DEEP_TRT_QUANT
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:01:36.966379+00:00`
+- `sha256`：`3c38adc7f087812ff7f333f0b30b473c595306faa7d803bed7c0509b203909c6`
+- `original_sha256`：`9b157024a8efa589c2ddc51d21cd3c28581e45b418968091765a53e8ca4ed920`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_QUANT--f47c2746e3737567/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_QUANT--f47c2746e3737567/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-0b0309c0e6253c0a"></a>
+
+## NVIDIA_08_DEEP_TRT_QUANT_SCHEMES
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-schemes.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:22:25.674602+00:00`
+- `sha256`：`ea310bbcd257e23703f4886ff27cd80b8f41aa2fdc6514ad1e852d25548c6bed`
+- `original_sha256`：`ea49641380316e0c9df1be6012057234be4fc14aa6239459aaecbcbec1ead977`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_QUANT_SCHEME--0b0309c0e6253c0a/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_QUANT_SCHEME--0b0309c0e6253c0a/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-6720e24d21c644bc"></a>
+
+## NVIDIA_08_DEEP_TRT_DYNAMIC
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/work-dynamic-shapes.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:20:20.286235+00:00`
+
+<a id="ref-d4687ea524938508"></a>
+
+## NVIDIA_TensorRT_DLA_Guide
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/work-with-dla.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:28:10.711083+00:00`
+- `sha256`：`08980effc5f1b189d544eb8a11463cc07b1cc23e05b630f8eb19dbdc61987e8a`
+- `original_sha256`：`18779536de2b1c67ca00a4cb93fe29ae6d23e673a92e58f496aec84511eee3e0`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/TensorRT_DLA_Guide--d4687ea524938508/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/TensorRT_DLA_Guide--d4687ea524938508/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-9314668c2216f3fd"></a>
+
+## NVIDIA_08_DEEP_TRT_DYNAMIC_CURRENT
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/work-with-dynamic-shapes.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:22:17.133641+00:00`
+- `sha256`：`b751d06216a209d611b3b3651f451b61d08602aabd5a6b430796fb8f79935868`
+- `original_sha256`：`942e7354c5eb721a9ee0d98fdf47c7c011bb40b15b766ea6d38d8bd498d00743`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_DYNAMIC_CURR--9314668c2216f3fd/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_DYNAMIC_CURR--9314668c2216f3fd/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-93c559c64be1b36b"></a>
+
+## NVIDIA_08_DEEP_TRT_BENCHMARK
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/benchmarking.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:22:39.224894+00:00`
+- `sha256`：`8dd21ae2712dba6b04e9764060bd48d25c8c2bfb5854c6679c3c18932df7c8e6`
+- `original_sha256`：`71a913bea830bde2c4697bcb40f2a88747bd32b0117dced6691f1d37b32d3e30`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_BENCHMARK--93c559c64be1b36b/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_BENCHMARK--93c559c64be1b36b/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-fac73fa8f8466577"></a>
+
+## NVIDIA_04_TRT_PERF
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/best-practices.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:25:56.439421+00:00`
+- `sha256`：`4c13cd547009d75932b59d1e613f3d5d351c0a0162bff620b86d4ad00e51f607`
+- `original_sha256`：`41a2eca606ae18ef11e7cf166af9dd9197d3e625d0498f63dd25a858ccb4920c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_TRT_PERF--fac73fa8f8466577/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_TRT_PERF--fac73fa8f8466577/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-936530ce5896e85e"></a>
+
+## NVIDIA_08_DEEP_TRT_FUSION
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/fusion-catalog.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:01:32.732505+00:00`
+- `sha256`：`45b89c7664b2b567b8df9bd6601042de39640a4332f4e1e9d834a4dd231d4710`
+- `original_sha256`：`21175dd4e1d1690fa9c0095c1feaa58865a41ed9c4ef68b17ce34dc858f5ea8b`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_FUSION--936530ce5896e85e/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_FUSION--936530ce5896e85e/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-cd21e064a83f1d04"></a>
+
+## NVIDIA_08_DEEP_TRT_OPTIMIZATION
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/optimization.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:22:33.362625+00:00`
+- `sha256`：`b1d277c15d13d305526305e37af48be02d3ed7d0468f6a426ab3ed1c535087d8`
+- `original_sha256`：`c305d30fe5d897e57b13dc94b5442c7e7b158552bd3022be6bd12c46ef8b4410`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_OPTIMIZATION--cd21e064a83f1d04/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_OPTIMIZATION--cd21e064a83f1d04/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-34562e438fff4b6e"></a>
+
+## NVIDIA_08_DEEP_TRT_TUNING
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/tuning.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:22:44.810443+00:00`
+- `sha256`：`5c95638990749f81f1d4d2f4ac4578f4c21e1c32cd1bf7cbf9fa2c064d7a379e`
+- `original_sha256`：`55596fdce3a0bc04a7b0f65bdd0824650723377a7c3bee5bc11f2e826eba5621`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_TUNING--34562e438fff4b6e/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_TRT_TUNING--34562e438fff4b6e/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-7ddef8aef04a4c91"></a>
+
+## NVIDIA_TensorRT_Developer_Guide_PDF
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/tensorrt/pdf/TensorRT-Developer-Guide.pdf)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T07:35:53.115239+00:00`
+
+<a id="ref-9b0a576ad5cf3974"></a>
+
+## NVIDIA_08_DEEP_TE_PRECISION
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/transformer-engine/user-guide/examples/fp8_primer.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:20:17.679297+00:00`
+
+<a id="ref-fdbaeaf36e598920"></a>
+
+## NVIDIA_04_TRITON_METRICS
+
+- [官方/原始来源](https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/metrics.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:26:00.810923+00:00`
+- `sha256`：`05ad4496e05c34d57432ab7719d6c43298ebc38922b97d6072fd4633c756e346`
+- `original_sha256`：`6f3eae739ccda0c056aaa3d6b124c9d67c296931c4ffaeee5fee86f7355383b9`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_TRITON_METRICS--fdbaeaf36e598920/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_TRITON_METRICS--fdbaeaf36e598920/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-8b53e06a0ddd6014"></a>
+
+## NVIDIA_02_HOLO_CORE
+
+- [官方/原始来源](https://docs.nvidia.com/holoscan/sdk-user-guide/4-4-latest/using-the-sdk/holoscan-core)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T08:00:26.102273+00:00`
+
+<a id="ref-aa022f9792ee3578"></a>
+
+## NVIDIA_02_HOLO4_OVERVIEW
+
+- [官方/原始来源](https://docs.nvidia.com/holoscan/sdk-user-guide/4-4/introduction/overview)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:09:12.258867+00:00`
+- `sha256`：`925f3eb89e1119b183feb25008fcdb73665ab9c00e6e2163b7a8b6f0c2689981`
+- `original_sha256`：`27fd192c17b90b4797ce6094203c677197771df1df6b38f03dbd1f1f5a5229ac`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_HOLO4_OVERVIEW--aa022f9792ee3578/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_HOLO4_OVERVIEW--aa022f9792ee3578/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-ddb5a3e25ad9990f"></a>
+
+## NVIDIA_02_HOLO_CORE2
+
+- [官方/原始来源](https://docs.nvidia.com/holoscan/sdk-user-guide/holoscan_core.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:06:23.594580+00:00`
+- `sha256`：`f22e2f12a731a36e69f420329a9eb4ec590fbbbf085f77a7ea53945bf09c2931`
+- `original_sha256`：`f2d5ca4947f9b20c4796aba227b532095818d52e7768eb53edea226d1254199a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_HOLO_CORE2--ddb5a3e25ad9990f/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_HOLO_CORE2--ddb5a3e25ad9990f/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-7e4643ecc971487d"></a>
+
+## NVIDIA_02_HOLO_ROOT
+
+- [官方/原始来源](https://docs.nvidia.com/holoscan/sdk-user-guide/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:06:01.026481+00:00`
+- `sha256`：`0b56526cb4576d2ba5c57573fc2d5a18aeecfca02615c976fdb56d778cc17f96`
+- `original_sha256`：`15e0fd4ee921208c273bc50e63fe87163eb419433c85cbd9c90894b8e4caa600`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_HOLO_ROOT--7e4643ecc971487d/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_HOLO_ROOT--7e4643ecc971487d/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-766974539088b048"></a>
+
+## NVIDIA_02_HSB_ARCH
+
+- [官方/原始来源](https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:00:34.830187+00:00`
+- `sha256`：`5ff7a1892ff8c1b9e8467d2d445b45ab36df3543a6fea06bbfab968ec3b73096`
+- `original_sha256`：`d070d3505bbfcd7c3051a5bb509e8afd00d0ae15ae0948706e35c75dca8d5bf9`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_HSB_ARCH--766974539088b048/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_HSB_ARCH--766974539088b048/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-66135574a9b2eb3d"></a>
+
+## NVIDIA_03_HSB_LATENCY
+
+- [官方/原始来源](https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/latency)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T10:15:05.636573+00:00`
+- `sha256`：`c58cbb19af82b207592e8b45c815c2f96b8b5b7652234e9d07a06dc9a1ca349b`
+- `original_sha256`：`3501f4c4db2b9481a2c9300650b7979d8b5b1317d0e8b67f0b2921bdad982605`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HSB_LATENCY--66135574a9b2eb3d/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HSB_LATENCY--66135574a9b2eb3d/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-279220fb24627447"></a>
+
+## NVIDIA_03_HSB_PTP
+
+- [官方/原始来源](https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/fpga-ip/ptp)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T10:15:08.006537+00:00`
+- `sha256`：`4f971e794357fe7d69f20087f7cc3bb7436141dabcfdf98d2294b8e395897265`
+- `original_sha256`：`c2ca77aad59111ecde3915519db4ceaa90280b7de2b4d77ba47a13831f1f3e27`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HSB_PTP--279220fb24627447/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HSB_PTP--279220fb24627447/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-523b5e075482c49f"></a>
+
+## NVIDIA_03_HSB_PTP_NOTE
+
+- [官方/原始来源](https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/fpga-ip/ptp-application-note)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T10:15:10.479554+00:00`
+- `sha256`：`d7621029a34faefde88ac03ecf084adf3a6455078d9fd709172b01357dd40f19`
+- `original_sha256`：`217bed4f762c7282f158f9612cdb1a37dd0d03e51323ff14de6de2815cefc385`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HSB_PTP_NOTE--523b5e075482c49f/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HSB_PTP_NOTE--523b5e075482c49f/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-aee361464dc08219"></a>
+
+## NVIDIA_03_HSB_HOST
+
+- [官方/原始来源](https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/getting-started/host-setup)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T10:18:15.685238+00:00`
+- `sha256`：`51af930f2c385aa105540511f8bf87469c3c9999b36a66b918602f1ffa297db7`
+- `original_sha256`：`5649d10742c5d7030697a766c7930ecaaca8d11bd1c0b518fc239f87285d6c29`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HSB_HOST--aee361464dc08219/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HSB_HOST--aee361464dc08219/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-fdb0db44e147be8d"></a>
+
+## NVIDIA_Holoscan_Bridge_Documentation
+
+- [官方/原始来源](https://docs.nvidia.com/holoscan/sensor-bridge/latest/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:36:37.610963+00:00`
+- `sha256`：`cc60271e32aaa1ec37c8760cfd4af20e28c5850488995f75a78f6363ccd56b73`
+- `original_sha256`：`5f582acd1462e12671fbbd85eb5a0c40926f6d894fd906d398bbbb2c0d09a0c8`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Holoscan_Bridge_Document--fdb0db44e147be8d/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Holoscan_Bridge_Document--fdb0db44e147be8d/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-d11d494efea30673"></a>
+
+## NVIDIA_Jetson_CAN_R38_2
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r38.2/DeveloperGuide/HR/ControllerAreaNetworkCan.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:36:30.935819+00:00`
+- `sha256`：`cf0a3c17b40eaae8fbe5b885cd9c27685aad342db7a2e5818aa04fa93a38b377`
+- `original_sha256`：`bd8d3020028e8ac07bc2824b6850f4e57900e801825dd394c46b0ef5edf8947c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Jetson_CAN_R38_2--d11d494efea30673/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Jetson_CAN_R38_2--d11d494efea30673/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-d3312d06f73227d2"></a>
+
+## NVIDIA_Jetson_Camera_Guide_R38_2
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r38.2/DeveloperGuide/SD/CameraDevelopment.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T07:36:02.424125+00:00`
+
+<a id="ref-4f7d74882e07d4d8"></a>
+
+## NVIDIA_Jetson_Real_Time_R38_2
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r38.2/DeveloperGuide/SD/Kernel/RealTimeKernel.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:36:35.216069+00:00`
+- `sha256`：`c8d50903ed15e2dcf7ef34edee9bcad723ed9f54aa0af3b463978cbecfbecc93`
+- `original_sha256`：`5450e2acf11570ef0dfa3337ca015439c918d668543452ea2b0af3b779a61132`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Jetson_Real_Time_R38_2--4f7d74882e07d4d8/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Jetson_Real_Time_R38_2--4f7d74882e07d4d8/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-7c7fe013bc4a60ba"></a>
+
+## NVIDIA_Jetson_Linux_Developer_Guide
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r38.2/DeveloperGuide/index.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:27:24.142805+00:00`
+- `sha256`：`7638bf75404a4cf62cb6dc57728a10207b161a30f67966bcaa620fca9a81129a`
+- `original_sha256`：`6bf585cbb1993528f4e1ca40a7b584f80a0ece4d08b1cb5b94108891a614e647`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Jetson_Linux_Developer_G--7c7fe013bc4a60ba/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Jetson_Linux_Developer_G--7c7fe013bc4a60ba/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-a211d76fdfabf28d"></a>
+
+## NVIDIA_Jetson_Linux_39_2_1_Guide
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:44:13.996913+00:00`
+- `sha256`：`45e1d264669728e4c9e481e70738488d1f56350d9a8e1cccc0af10039bfd2d35`
+- `original_sha256`：`4e0ff9b8defdad5c0ab881886a0853dbf3600c7297a922e720cfa946a2573f2f`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Jetson_Linux_39_2_1_Guid--a211d76fdfabf28d/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Jetson_Linux_39_2_1_Guid--a211d76fdfabf28d/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-9cff7f37c7ae1cdf"></a>
+
+## NVIDIA_07_CHECKLIST
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/HR/JetsonModuleAdaptationAndBringUp/Checklists.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:42:03.785870+00:00`
+- `sha256`：`a1d84b34bc50e7145b0071b9c75004a2e21008b9b7a3e0f3d74541dbb3763da1`
+- `original_sha256`：`e408f748fa590bade9afdedaeffb8e8c21fd3cf5b11615c4695b6ca12ea29048`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_CHECKLIST--9cff7f37c7ae1cdf/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_CHECKLIST--9cff7f37c7ae1cdf/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-dd9372d4369304e9"></a>
+
+## NVIDIA_07_BRINGUP
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/HR/JetsonModuleAdaptationAndBringUp/JetsonThorAdaptationBringUp.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:41:49.522382+00:00`
+- `sha256`：`1e2e9f05e8588ad0193f14eeddf2480f8b6abee169d0e3df04a0cb2de0f42452`
+- `original_sha256`：`c2ed228d0906f79fae35eb0d171ec72c48e0392c3f8c4f1fd0e8ef4a4fd71383`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_BRINGUP--dd9372d4369304e9/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_BRINGUP--dd9372d4369304e9/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-13c18032443e1bc6"></a>
+
+## NVIDIA_Jetson_Camera_39_2_1
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:44:29.677274+00:00`
+- `sha256`：`3a13f1d1bc5cc07e69c6ebf0fe6395bfcb7524fe8b9f19dce5930f812101e320`
+- `original_sha256`：`670d9d4763d5c7a0e99c096da322dc3f09c84f46e1f1b663a5cf8d4193d34d84`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Jetson_Camera_39_2_1--13c18032443e1bc6/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Jetson_Camera_39_2_1--13c18032443e1bc6/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-4f38765007089c08"></a>
+
+## NVIDIA_03_GMSL_VC
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/ArgusFramework/JetsonVirtualChannelWithGmslCameraFramework.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T10:14:58.264478+00:00`
+- `sha256`：`36fabf022fb2a5aed5dbf05334ead574d28beab334ccafe00ad8818b84f44251`
+- `original_sha256`：`dcf96770fd8c0528f90bf3aa1fb09f5ec7f86bdab84371a1617cf08de5e84266`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_GMSL_VC--4f38765007089c08/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_GMSL_VC--4f38765007089c08/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-e0e028686f7106c7"></a>
+
+## NVIDIA_03_SENSOR_MATRIX
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/CameraDevelopmentSupportMatrix.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T10:14:55.133391+00:00`
+- `sha256`：`caf0d7330d2ebdc5008bd5b361904be6c031d2284ea79adf8768ec96370ba22c`
+- `original_sha256`：`1c22b6221556031b6a6433ebd4ba1fa301b6d76d38d727c6bd321b4ecc4ce618`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_SENSOR_MATRIX--e0e028686f7106c7/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_SENSOR_MATRIX--e0e028686f7106c7/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-757683e3cfd2ef8f"></a>
+
+## NVIDIA_02_SIPL_DOC
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T08:03:04.786490+00:00`
+
+<a id="ref-2f382526ca7c9874"></a>
+
+## NVIDIA_02_SIPL_INTRO
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/Introduction-to-SIPL.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:09:18.866706+00:00`
+- `sha256`：`e8a5e71260de3c5afa2707fa0bbbde33057871d20ed7d15b69aa2eee1e2f2a8c`
+- `original_sha256`：`99b984d36fae82a3b99956c67cf25e1a3d1d4e03c7766ec05091058c95497ea3`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_INTRO--2f382526ca7c9874/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_INTRO--2f382526ca7c9874/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-acc0a9a82b614a53"></a>
+
+## NVIDIA_02_SIPL_COE
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:09:27.791675+00:00`
+- `sha256`：`a0938d04a2a09bbe7b99bd9bffdbec333517421e178701a65a5bdadfc3108852`
+- `original_sha256`：`98b4deca8e8ef5412d87c385075e9c23b5dcde36e043ec68577ab94eeec09890`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_COE--acc0a9a82b614a53/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_COE--acc0a9a82b614a53/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-80e532a3b27ad850"></a>
+
+## NVIDIA_02_SIPL_GMSL
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/GMSL/GMSL-Architecture-Overview.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:09:23.362786+00:00`
+- `sha256`：`0bd3fa4707a666d4851eb36d5b05e2b30f9531ea75d192183064fc739c79ac70`
+- `original_sha256`：`393d12ac3d5a356335967d21c4075324baedcc987b6a50a735721d79b483cee5`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_GMSL--80e532a3b27ad850/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_GMSL--80e532a3b27ad850/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-b23c115e2f157870"></a>
+
+## NVIDIA_03_SIPL_STEREO
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/SIPL-Stereo-Pipeline.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T10:15:03.145270+00:00`
+- `sha256`：`ed63c47140814423dc4a7d3086327114ce8e06fe6aa59c3f73c6e40affab6093`
+- `original_sha256`：`e407050365c6c5928b7e43b371fe36386bfd2035c7509077faeaae06d5e346f1`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_SIPL_STEREO--b23c115e2f157870/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_SIPL_STEREO--b23c115e2f157870/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-d397407e3be6ab19"></a>
+
+## NVIDIA_03_IMU39
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Kernel/Bmi088ImuIioDriver.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T10:14:57.399948+00:00`
+- `sha256`：`9c7497e9165ce187bf3790a651dd3ee933e7c70d0934767ba648e11f279edf01`
+- `original_sha256`：`e9029710dc7d9a3c8d238c1403ae1eae9acd46ec5b269cc8e69fcfcdeed2db32`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_IMU39--d397407e3be6ab19/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_IMU39--d397407e3be6ab19/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-3582943dce76c9fa"></a>
+
+## NVIDIA_03_GTE39
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Kernel/GenericTimestampEngine.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T10:14:56.674621+00:00`
+- `sha256`：`30a4d24789074fabbdbf4f4404943fff683b12a0b0ecd9758abd834b736973f1`
+- `original_sha256`：`a955f4f2d65efa7f09415c5fc16c4560f5dd8f8ec352fd77dc86b1f95075e2fd`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_GTE39--3582943dce76c9fa/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_GTE39--3582943dce76c9fa/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-85895374c012ed38"></a>
+
+## NVIDIA_08_MIG
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/MiG.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:47:39.124290+00:00`
+- `sha256`：`f41280a0c7817d758dfc90eded7b2567812a4fca58d708274a399c7fa86345fc`
+- `original_sha256`：`53e80c1700fdd35715c6703f8589b0baa6c4d0af85df4a76eb1eef1386eaa58a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_MIG--85895374c012ed38/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_MIG--85895374c012ed38/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-9fff2d0a0e856f14"></a>
+
+## NVIDIA_02_MEDIA_DOC
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Multimedia.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:03:02.118416+00:00`
+- `sha256`：`4acc401340b400f918ec29de56d0ffb8577b8b14f972b0a32fdc60f8de8450ea`
+- `original_sha256`：`68f2ec88375ffb45111e26cb9d357afb1ffa830ff8a27f83ffcc280e7401a83a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_MEDIA_DOC--9fff2d0a0e856f14/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_MEDIA_DOC--9fff2d0a0e856f14/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-e50854c0a2744931"></a>
+
+## NVIDIA_02_MEDIA_API
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Multimedia/MultimediaApis.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:09:32.822840+00:00`
+- `sha256`：`e810a49146e6a345852b6f4e397f60a9ff5c9acafc46614fa9738bdd97526137`
+- `original_sha256`：`9006521489f8b5e6549d3a075d6ef384451a568b87cfe9c41a5643259c7e12de`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_MEDIA_API--e50854c0a2744931/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_MEDIA_API--e50854c0a2744931/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-c29276b3e83c2f5f"></a>
+
+## NVIDIA_08_DEEP_BSP_SECURITY
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:58:33.272846+00:00`
+- `sha256`：`c15df513edcffb956ae3420b542012b19de6462b2bcf57cfd960597c6081b668`
+- `original_sha256`：`c182032180ae69ace616c5030868b751cdca4f129012db10b399c1458192c8d7`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_BSP_SECURITY--c29276b3e83c2f5f/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_BSP_SECURITY--c29276b3e83c2f5f/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-77fc9f47d572a6b3"></a>
+
+## NVIDIA_08_DEEP_DISK_ENCRYPT
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/DiskEncryption/Concepts.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:31:39.309318+00:00`
+- `sha256`：`22fe408be81f7bd4130046020496875b74bf65c0bd5f83f9510752beae3d860b`
+- `original_sha256`：`a6b78b98af31b4b85c7967baea5b61772ed3f5770614f7acdfd27e41bf92cecc`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_DISK_ENCRYPT--77fc9f47d572a6b3/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_DISK_ENCRYPT--77fc9f47d572a6b3/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-98374b8d5e19c9dd"></a>
+
+## NVIDIA_08_DEEP_MEM_ENCRYPT
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/MemoryEncryption.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:31:43.915189+00:00`
+- `sha256`：`2162652b38ee380246504b37b5154e9a449f2d67612bb7f290ecfa489068cc1e`
+- `original_sha256`：`4268e6633b246fbd91a18dc7c1183cc903450e1f11aff0de2c764711e5dc51ec`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_MEM_ENCRYPT--98374b8d5e19c9dd/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_MEM_ENCRYPT--98374b8d5e19c9dd/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-3c2aa5405a06a367"></a>
+
+## NVIDIA_08_DEEP_OPTEE_ARCH
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/OpTee/Architecture.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:31:36.442233+00:00`
+- `sha256`：`e9cddef6c0e479355cd32e74c645a475bf92972a17852ea9dff41d8b3adb186e`
+- `original_sha256`：`e2adb60d4369a4d2bd380fff4bca811ab08b2aefa848d1502b03bb0f872105c3`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_OPTEE_ARCH--3c2aa5405a06a367/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_OPTEE_ARCH--3c2aa5405a06a367/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-b1cdbc1dbbf7aa3e"></a>
+
+## NVIDIA_08_DEEP_PVA_AUTH
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/PVAAuthentication.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:31:49.660828+00:00`
+- `sha256`：`df88860c3f796df84511c3808011b58ada63f9998311482711791ab6d2210d29`
+- `original_sha256`：`2ff76595646fc5cc5d6a513bc17c92d8b4760dd92971a9fcc0d58eca41508920`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_PVA_AUTH--b1cdbc1dbbf7aa3e/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_PVA_AUTH--b1cdbc1dbbf7aa3e/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-eee4b47b5ce46428"></a>
+
+## NVIDIA_08_DEEP_ROLLBACK
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/RollbackProtection.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:31:47.052753+00:00`
+- `sha256`：`a963c3990399762407ac58364283f46559044e96e04bf25e4500f92da3b14304`
+- `original_sha256`：`9913b94f5118ee8b95fe5a1103c9e287acedd7e50085abc76937960cec45e048`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_ROLLBACK--eee4b47b5ce46428/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_ROLLBACK--eee4b47b5ce46428/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-7413bba87204cc0e"></a>
+
+## NVIDIA_08_DEEP_THOR_SECUREBOOT
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Security/SecureBoot/QuickStartThor.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:31:34.373290+00:00`
+- `sha256`：`1e6f53f43626226ae17d1334f8d401b13a372be19224eb1c041635d50102acb3`
+- `original_sha256`：`f815b094dfa7e5e54c313ad164a1e6e2a99ff302a533065102cfe2bae470ea5b`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_THOR_SECUREBOOT--7413bba87204cc0e/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_THOR_SECUREBOOT--7413bba87204cc0e/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-fe91dd3e519be888"></a>
+
+## NVIDIA_02_BSP_UPDATE
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/SoftwarePackagesAndTheUpdateMechanism.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:03:07.204021+00:00`
+- `sha256`：`7488794b2ebc29c398578f07ba44fc7eb4ae6446af9f453375499da7cf55b37c`
+- `original_sha256`：`43ac977be5940b78e4699358a0798a3165b5334f2c089f88d62af3f4b98adf94`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_BSP_UPDATE--fe91dd3e519be888/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_BSP_UPDATE--fe91dd3e519be888/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-d5e88c873a53986f"></a>
+
+## NVIDIA_Jetson_Linux_39_2_1_Release_PDF
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/archives/r39.2.1/ReleaseNotes/Jetson_Linux_Release_Notes_r39.2.1.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:43:57.256945+00:00`
+- `sha256`：`3570afa72b426a914ea5946451ed4e8739760a01492d08afac99a6eac521e944`
+- `original_sha256`：`3570afa72b426a914ea5946451ed4e8739760a01492d08afac99a6eac521e944`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Jetson_Linux_39_2_1_Rel--d5e88c873a53986f/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Jetson_Linux_39_2_1_Rel--d5e88c873a53986f/original.response`
+
+<a id="ref-f5175eac6bc8c035"></a>
+
+## NVIDIA_JetPack_7_Release_Notes
+
+- [官方/原始来源](https://docs.nvidia.com/jetson/jetpack/release-notes/index.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:27:02.654609+00:00`
+- `sha256`：`bf2936a17845b86d9e54ae6d4ec9d9a7b3eea779309be37103e59bb396908a75`
+- `original_sha256`：`3ef7a27756ac1f450eb2943658dd6228702b335752221950dac87edf2230b806`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/JetPack_7_Release_Notes--f5175eac6bc8c035/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/JetPack_7_Release_Notes--f5175eac6bc8c035/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-67e9bd6641c6aed0"></a>
+
+## NVIDIA_02_DEEP_DOC
+
+- [官方/原始来源](https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_Overview.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:59:58.275456+00:00`
+- `sha256`：`7407704bac622c1dc9b226f1083f61bf7b3656b7fc66db539cc36592241d4d98`
+- `original_sha256`：`105339cab4f2026e49176b2194981e2c0c75a4e21b698197cbab2266c329eb41`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_DEEP_DOC--67e9bd6641c6aed0/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_DEEP_DOC--67e9bd6641c6aed0/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-9e0c05fca037f472"></a>
+
+## NVIDIA_04_DEEP_ASR_DOC
+
+- [官方/原始来源](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/models.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:17:41.056053+00:00`
+- `sha256`：`4efd6d6c898fcf703f20eda438bacc9b40066c843dd5db04710b7da738e37a00`
+- `original_sha256`：`97391856c25d7bfdb975431c34196095498eb0d02d528bce6291d10bcca02157`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_DEEP_ASR_DOC--9e0c05fca037f472/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_DEEP_ASR_DOC--9e0c05fca037f472/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-dfe791a70eb5d689"></a>
+
+## NVIDIA_04_DEEP_TTS_DOC
+
+- [官方/原始来源](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/tts/models.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:18:09.802840+00:00`
+- `sha256`：`4457dd7b1a2a322e4e9efd6200714ab6ddeb859cc7a47675e2cf836b79c389af`
+- `original_sha256`：`4efc820c5acf480a06253bd4868cfe4991a025f76ca0560e569607ce54842bbf`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_DEEP_TTS_DOC--dfe791a70eb5d689/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_DEEP_TTS_DOC--dfe791a70eb5d689/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-f9a88249221a90a8"></a>
+
+## NVIDIA_02_NIM_ROOT
+
+- [官方/原始来源](https://docs.nvidia.com/nim/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:09:57.540871+00:00`
+- `sha256`：`5955d94950e6fe2989688a9f8acad0fe17b0f6816a90d9d2399d03ed5b1f73d8`
+- `original_sha256`：`6df9e4d0c2903789f1f72adc0c4f00bbfc31ff2c3e1029722567424977c2a697`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NIM_ROOT--f9a88249221a90a8/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NIM_ROOT--f9a88249221a90a8/original.response`
+- 未取得依赖：11 项；详见本地 metadata。
+
+<a id="ref-46669f77276cb8bf"></a>
+
+## NVIDIA_02_NIM_PROFILE
+
+- [官方/原始来源](https://docs.nvidia.com/nim/large-language-models/latest/deployment/model-profiles-and-selection.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:19:13.379979+00:00`
+- `sha256`：`20fbb7993c4ee1f209a5199d801fb83f11b1f6e02977bab2e40868fb7eecb6e3`
+- `original_sha256`：`5eba59e7b7445571c352a7cd9d6b9a61d0d367012546d5bce19dd98c71e9b3be`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NIM_PROFILE--46669f77276cb8bf/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NIM_PROFILE--46669f77276cb8bf/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-409acbdaa6ddab82"></a>
+
+## NVIDIA_02_NIM_LLM_CURRENT
+
+- [官方/原始来源](https://docs.nvidia.com/nim/large-language-models/latest/get-started/index.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:16:22.974044+00:00`
+- `sha256`：`df6a346d551a18d82fb7a6b12e3b13622ddc32ba2542946617867b6dc65cfa5b`
+- `original_sha256`：`1a1fcf272b995a2aa5e8e106c9a768a03008a3065559e2fdcf9fdacf3fa07796`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NIM_LLM_CURRENT--409acbdaa6ddab82/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NIM_LLM_CURRENT--409acbdaa6ddab82/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-f0ae8717cad66880"></a>
+
+## NVIDIA_02_NIM_INSTALL
+
+- [官方/原始来源](https://docs.nvidia.com/nim/large-language-models/latest/get-started/installation.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:19:10.397357+00:00`
+- `sha256`：`05ebaa9b3232647ceeac61ebf31b8022b95955f86dc5f649d081dfdb3004e9dd`
+- `original_sha256`：`163f3f3fc2f8f758ad88d533b80476e54e0847fc5f688ff51b30970d1d1688db`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NIM_INSTALL--f0ae8717cad66880/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NIM_INSTALL--f0ae8717cad66880/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-e93e2c020b04a5e8"></a>
+
+## NVIDIA_02_NIM_LLM
+
+- [官方/原始来源](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:13:30.398221+00:00`
+- `sha256`：`5dbab19e655c0dcc808f255794f1a6895055e25e5471f9f5f6ab72956b24f643`
+- `original_sha256`：`d9eb2736005aa066a5293331ea517712295f6f61d52b97f032f513db93ddd904`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NIM_LLM--e93e2c020b04a5e8/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NIM_LLM--e93e2c020b04a5e8/original.response`
+
+<a id="ref-fefc0f5c92c214a5"></a>
+
+## NVIDIA_02_NIM_ARCH
+
+- [官方/原始来源](https://docs.nvidia.com/nim/large-language-models/latest/reference/architecture.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:18:53.402002+00:00`
+- `sha256`：`62d1f8d07b1a3aa462110e8fc823503a095635457caf90ed39bd237f5f2df586`
+- `original_sha256`：`9d9e0550d2fe75ea93d55174fdeeeaa467e288c1d531cc0d04afcdd245f76c60`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NIM_ARCH--fefc0f5c92c214a5/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NIM_ARCH--fefc0f5c92c214a5/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-8bded1e84a5a474b"></a>
+
+## NVIDIA_02_NIM_DOC
+
+- [官方/原始来源](https://docs.nvidia.com/nim/overview.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T08:02:59.371142+00:00`
+
+<a id="ref-42c7027826cfd6e0"></a>
+
+## NVIDIA_02_NSIGHT_COMPUTE
+
+- [官方/原始来源](https://docs.nvidia.com/nsight-compute/ProfilingGuide/index.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:10:42.868738+00:00`
+- `sha256`：`e5f3e77d40cc81d51b49198465612396fd8d1dbcd17da39c82128f900b189d3d`
+- `original_sha256`：`6a84b367be4dd99a9df44a2ad5a0e2c58a1ba499562e939da8363b57889dc15f`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NSIGHT_COMPUTE--42c7027826cfd6e0/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NSIGHT_COMPUTE--42c7027826cfd6e0/original.response`
+
+<a id="ref-be8e5fe0447d1f1a"></a>
+
+## NVIDIA_02_NSIGHT_DOC
+
+- [官方/原始来源](https://docs.nvidia.com/nsight-systems/UserGuide/index.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:00:56.486538+00:00`
+- `sha256`：`f13d706497fbcb65eb21120dbfcc270efbfa41be4dc00194ffacd5e96afd2e1c`
+- `original_sha256`：`a1a39c40a403c28633fd164222d38a74afaeacd869f3234ad151ffd1559545f4`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NSIGHT_DOC--be8e5fe0447d1f1a/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NSIGHT_DOC--be8e5fe0447d1f1a/original.response`
+
+<a id="ref-782050b23c55b756"></a>
+
+## NVIDIA_02_PVA_ARCH2
+
+- [官方/原始来源](https://docs.nvidia.com/pva/sdk/2.10.1/architecture.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:08:53.479886+00:00`
+- `sha256`：`ada395397f2b7d95169f58dcfe71d3dd3661b8f350a267564326eb2c1a9e55fd`
+- `original_sha256`：`f0ebfabf1f2772763f27bdd52bb67903bf1d89a5614582080c4242f56bf6322a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_PVA_ARCH2--782050b23c55b756/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_PVA_ARCH2--782050b23c55b756/original.response`
+
+<a id="ref-357e5333b304bb1a"></a>
+
+## NVIDIA_08_DEEP_PVA_NVSCI_TUTORIAL
+
+- [官方/原始来源](https://docs.nvidia.com/pva/sdk/2.10.1/tutorial/nvsci-interop.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:30:06.192584+00:00`
+- `sha256`：`1cdee8ade326d9b7b4048380fc33fada00974d2acc8cc81d1989474f2b7c92b0`
+- `original_sha256`：`a1da2eca38ec64fb2758c81ea95460e2933f30387e3375d394d4b3e63f81b13d`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_PVA_NVSCI_TUTORI--357e5333b304bb1a/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_PVA_NVSCI_TUTORI--357e5333b304bb1a/original.response`
+
+<a id="ref-9cc74b3ba04b9d8e"></a>
+
+## NVIDIA_08_DEEP_PVA_DATAFLOW_TUTORIAL
+
+- [官方/原始来源](https://docs.nvidia.com/pva/sdk/2.10.1/tutorial/vmem-buffers-dataflows.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:31:30.538672+00:00`
+- `sha256`：`db7760bef246cd9a6ef407ed201dd5f362f3b284f95e12fa11e2b1c29fef2c6b`
+- `original_sha256`：`b98635d81bdc243e6cef61e645a4659c647963790bc6fc85369fbbc0ecb73fcb`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_PVA_DATAFLOW_TUT--9cc74b3ba04b9d8e/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_PVA_DATAFLOW_TUT--9cc74b3ba04b9d8e/original.response`
+
+<a id="ref-118f657afec7e92f"></a>
+
+## NVIDIA_08_DEEP_PVA_VPU_TUTORIAL
+
+- [官方/原始来源](https://docs.nvidia.com/pva/sdk/2.10.1/tutorial/vpu-programming.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:30:10.888268+00:00`
+- `sha256`：`dca1748a6fe8b2a2ceab24076273cf647323c3adda327300e3655526eab572c1`
+- `original_sha256`：`395b048b67fc81d0a6d911af543bd3210b1c916bed692307e177a50bad9e1e44`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_PVA_VPU_TUTORIAL--118f657afec7e92f/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_PVA_VPU_TUTORIAL--118f657afec7e92f/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-a41bc45a3677e415"></a>
+
+## NVIDIA_02_PVA_ARCH
+
+- [官方/原始来源](https://docs.nvidia.com/pva/sdk/architecture.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:05:59.049715+00:00`
+- `sha256`：`833d64991f1da286a7677ca897d499498a670c54ef0d2512c14191c9080f0f69`
+- `original_sha256`：`ea22d151b3edb07e10842791d6231d8e84a2cb0275aab188600c1d564a374c61`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_PVA_ARCH--a41bc45a3677e415/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_PVA_ARCH--a41bc45a3677e415/original.response`
+
+<a id="ref-e4d97fb4d174393d"></a>
+
+## NVIDIA_04_EXP_TAOZOO_LATEST
+
+- [官方/原始来源](https://docs.nvidia.com/tao/tao-toolkit/latest/text/model_zoo/overview.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:04:56.121065+00:00`
+- `sha256`：`b06d720894b990675359a43c914c63c98b0cbd53c2efe2b2a738f09644355c65`
+- `original_sha256`：`3ab02c50ebbba9eb3662fd084f4121f50d056ea6d7ecdb69e3fcceab66c39024`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_TAOZOO_LATEST--e4d97fb4d174393d/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_TAOZOO_LATEST--e4d97fb4d174393d/original.response`
+
+<a id="ref-1dd69c606e6e5959"></a>
+
+## NVIDIA_04_EXP_TAOZOO
+
+- [官方/原始来源](https://docs.nvidia.com/tao/tao-toolkit/text/model_zoo/overview.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:03:49.069496+00:00`
+- `sha256`：`b06d720894b990675359a43c914c63c98b0cbd53c2efe2b2a738f09644355c65`
+- `original_sha256`：`3ab02c50ebbba9eb3662fd084f4121f50d056ea6d7ecdb69e3fcceab66c39024`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_TAOZOO--1dd69c606e6e5959/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_TAOZOO--1dd69c606e6e5959/original.response`
+
+<a id="ref-b218d6fada6ed5c0"></a>
+
+## NVIDIA_02_TAO_DOC
+
+- [官方/原始来源](https://docs.nvidia.com/tao/tao-toolkit/text/overview.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:02:39.022738+00:00`
+- `sha256`：`145c2a546642e7e016308191b737fa9cc13546ab025412eaee9f2c4cafc019fd`
+- `original_sha256`：`c217137c5aea9c8e880f8baad5d530d80dc159f5aec884cc9f5bc6dffd8e9025`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_TAO_DOC--b218d6fada6ed5c0/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_TAO_DOC--b218d6fada6ed5c0/original.response`
+
+<a id="ref-602ab2cc034ea771"></a>
+
+## NVIDIA_02_VPI_KLT
+
+- [官方/原始来源](https://docs.nvidia.com/vpi/algo_klt_tracker.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:08:47.167633+00:00`
+- `sha256`：`0a8346720e9b53b803cb6163063af25315e2ba4131e3f7b1eeb91b1737aa9c6a`
+- `original_sha256`：`5e5c633cbcddb3e252c236da79996945998541244681b48cba1f9add74a30406`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_VPI_KLT--602ab2cc034ea771/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_VPI_KLT--602ab2cc034ea771/original.response`
+- 未取得依赖：16 项；详见本地 metadata。
+
+<a id="ref-0ad58187dddda198"></a>
+
+## NVIDIA_08_DEEP_VPI_PERF
+
+- [官方/原始来源](https://docs.nvidia.com/vpi/algo_performance.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T03:30:13.190152+00:00`
+- `sha256`：`62fad1ecc71a4539b8b50955859653cc5cb2040044bfdd326b35b17fa8b08c26`
+- `original_sha256`：`9f0394f9d88f175c5352ca6110b6b0244d72c5162078620152da0519dff619ae`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_VPI_PERF--0ad58187dddda198/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_VPI_PERF--0ad58187dddda198/original.response`
+- 未取得依赖：16 项；详见本地 metadata。
+
+<a id="ref-72830911d3af4db9"></a>
+
+## NVIDIA_02_VPI_CONCEPT
+
+- [官方/原始来源](https://docs.nvidia.com/vpi/basic_concepts.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:08:45.117377+00:00`
+- `sha256`：`8e400a1b4272c9bcadf82316f7760c2462f76345d353ab0a79c1d90f352eaa67`
+- `original_sha256`：`c5fe4852cb8921e6e6590e5b4149b38cad6dbb6fe8bb731da1916fbd5fdb4598`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_VPI_CONCEPT--72830911d3af4db9/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_VPI_CONCEPT--72830911d3af4db9/original.response`
+- 未取得依赖：16 项；详见本地 metadata。
+
+<a id="ref-eaae6e470379dc47"></a>
+
+## NVIDIA_02_VPI_ROOT
+
+- [官方/原始来源](https://docs.nvidia.com/vpi/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:05:20.798375+00:00`
+- `sha256`：`8b99db17560ffe8efbce1c11a02159c7441033c2c1f2f0b362c4047c8e4e13d0`
+- `original_sha256`：`778ee91353bec7456747f5b56938c3776525e959769077bfbb942361e279bd6d`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_VPI_ROOT--eaae6e470379dc47/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_VPI_ROOT--eaae6e470379dc47/original.response`
+- 未取得依赖：16 项；详见本地 metadata。
+
+<a id="ref-eb28bc1dfc7dfedd"></a>
+
+## NVIDIA_02_VPI_DOC
+
+- [官方/原始来源](https://docs.nvidia.com/vpi/overview.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T07:59:41.528404+00:00`
+
+<a id="ref-4b9a319845340bd7"></a>
+
+## NVIDIA_08_DEEP_OV_CONVERT
+
+- [官方/原始来源](https://docs.openvino.ai/2025/openvino-workflow/model-preparation.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:54:27.155273+00:00`
+- `sha256`：`6f75985dc118777b79ea0074cad5b33f03f67bb7c3b255119816b252bc2133e8`
+- `original_sha256`：`4ea2aad4e7ac28c4d622546497c4e93ad8358bc1f888e1369dd367a9227dc9a8`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_OV_CONVERT--4b9a319845340bd7/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_OV_CONVERT--4b9a319845340bd7/original.response`
+- 未取得依赖：10 项；详见本地 metadata。
+
+<a id="ref-c57744c4f30d3ed2"></a>
+
+## NVIDIA_08_DEEP_OV_HETERO
+
+- [官方/原始来源](https://docs.openvino.ai/2025/openvino-workflow/running-inference/inference-devices-and-modes/hetero-execution.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:56:11.568208+00:00`
+- `sha256`：`1116bd165f20612bc99ba6781fa1f2b2414c8950aa1e970f1598613829b9e382`
+- `original_sha256`：`3071f85a1158247bd5e0ab8a344445a1fae7d4b92ba5d478a75fd89c89f0ee93`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_OV_HETERO--c57744c4f30d3ed2/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_OV_HETERO--c57744c4f30d3ed2/original.response`
+- 未取得依赖：10 项；详见本地 metadata。
+
+<a id="ref-cda8b2245cddb568"></a>
+
+## NVIDIA_08_DEEP_OV_LATENCY
+
+- [官方/原始来源](https://docs.openvino.ai/2025/openvino-workflow/running-inference/optimize-inference/optimizing-latency.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:56:20.827780+00:00`
+- `sha256`：`3557c182a70070de0fd57f266a7fc0060dd442c3cc808809a3bd41d4806572d6`
+- `original_sha256`：`273e5e828560b65566a62a96f2f03bb71a4b5a58e5aa2efdc911736ef98d39e6`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_OV_LATENCY--cda8b2245cddb568/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_OV_LATENCY--cda8b2245cddb568/original.response`
+- 未取得依赖：10 项；详见本地 metadata。
+
+<a id="ref-6d4d8bdaabb80294"></a>
+
+## NVIDIA_08_DEEP_ROS2_COMPOSITION
+
+- [官方/原始来源](https://docs.ros.org/en/jazzy/Concepts/Intermediate/About-Composition.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:58:11.369385+00:00`
+
+<a id="ref-6f25b315fe45b4df"></a>
+
+## NVIDIA_08_DEEP_ROS2_INTRAPROCESS
+
+- [官方/原始来源](https://docs.ros.org/en/jazzy/Tutorials/Demos/Intra-Process-Communication.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:18:22.014338+00:00`
+- `original_sha256`：`1a2c3dd50708937b6e6d288d9cb3439ea3a35b3a8375411ada1947babde9bd84`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_ROS2_INTRAPROCES--6f25b315fe45b4df/original.response`
+
+<a id="ref-c664468eaf2f70cf"></a>
+
+## NVIDIA_08_DEEP_BUFFER_UPSTREAM
+
+- [官方/原始来源](https://docs.ros.org/en/lyrical/Concepts/Intermediate/About-Buffer-Backends.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:18:22.674353+00:00`
+- `original_sha256`：`b7fe083f47bdf5d4d9b38ed58eb460a22060b09c61db206ff57167638e810afe`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_BUFFER_UPSTREAM--c664468eaf2f70cf/original.response`
+
+<a id="ref-f48dd619bb3ed73e"></a>
+
+## NVIDIA_Isaac_ROS_Common_Project_Page
+
+- [官方/原始来源](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:46:34.637091+00:00`
+- `sha256`：`fc269bf5420c290992043fa725eda492b5224692b69153913531c8d0c79e0ebb`
+- `original_sha256`：`156179fbddc1e73a44cb1f644e707350cf8cb6d1faae3a938951c3d41bb4f7a9`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_ROS_Common_Project--f48dd619bb3ed73e/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_ROS_Common_Project--f48dd619bb3ed73e/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-165a72fdcf44b02f"></a>
+
+## NVIDIA_06_DEPLOY_PAGE
+
+- [官方/原始来源](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_deploy)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T01:36:44.155469+00:00`
+- `sha256`：`9b407322193e0da938a646cf18872957a1d49fcf6f4a96ba9ac47b29acdf83e2`
+- `original_sha256`：`04431a08383df44f0d67e1f4f1e4b1e1dd6f533dbac6f3e23030b2f834d0ccc1`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEPLOY_PAGE--165a72fdcf44b02f/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEPLOY_PAGE--165a72fdcf44b02f/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-924e017386a71ca3"></a>
+
+## NVIDIA_03_SIPL_REPO_PAGE
+
+- [官方/原始来源](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_sipl_camera)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T10:18:32.069825+00:00`
+- `sha256`：`2f80006c33647dfafd64234abef91d8d08c9044bac2c560330694b729fe34aeb`
+- `original_sha256`：`2d967b5dd3048ad3362b89c5dddbd4ea4a11090d7d6561d69124ea7566be0190`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_SIPL_REPO_PAGE--924e017386a71ca3/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_SIPL_REPO_PAGE--924e017386a71ca3/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-b39fc7adc1d5b027"></a>
+
+## NVIDIA_03_VSLAM_PAGE
+
+- [官方/原始来源](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T10:16:51.148166+00:00`
+- `sha256`：`c5414065d084224d4cc8611f8d0fc57f2340df1c9b6557958f09c1fb827acd95`
+- `original_sha256`：`4d64e73c6b1752345389d4caa016720bc2404101f8974b6a71a8bf843edb479b`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_VSLAM_PAGE--b39fc7adc1d5b027/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_VSLAM_PAGE--b39fc7adc1d5b027/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-e0703b192cf0af91"></a>
+
+## NVIDIA_PhysX_Project_Page
+
+- [官方/原始来源](https://github.com/NVIDIA-Omniverse/PhysX)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:48:06.318439+00:00`
+- `sha256`：`c8d71d810572facb53d2c301b9069b68d967c91747f157ad253c7f4514e6ba71`
+- `original_sha256`：`48228222b5a5c7160e4de6952decff1addefab38c3fb4e105ced4327f848cae5`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/PhysX_Project_Page--e0703b192cf0af91/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/PhysX_Project_Page--e0703b192cf0af91/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-6710c43ad408be3c"></a>
+
+## NVIDIA_GR00T_Project_Page
+
+- [官方/原始来源](https://github.com/NVIDIA/Isaac-GR00T)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:46:00.100155+00:00`
+- `sha256`：`f7d101765b76b3091dd42deb8c69c6e91b440f9fc38ce52d2a17ef5bf3a17491`
+- `original_sha256`：`0ad1e91cbd5367950bec9c238be1a0b187b6184587de7fd8bd10b2fdbda29ffb`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/GR00T_Project_Page--6710c43ad408be3c/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/GR00T_Project_Page--6710c43ad408be3c/original.response`
+- 未取得依赖：6 项；详见本地 metadata。
+
+<a id="ref-a5bc48eb9e590ca9"></a>
+
+## NVIDIA_08_OSMO_PAGE
+
+- [官方/原始来源](https://github.com/NVIDIA/OSMO)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T01:48:55.595840+00:00`
+- `sha256`：`6b3c22f4a016c0d460772f058fe55ac14ac6ce2f4aa132d7e5b823d7576c7347`
+- `original_sha256`：`ffc3727626408428523370e17c75c06bb2c1fa77f8ccdbd8e9ee5fff21813d18`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_OSMO_PAGE--a5bc48eb9e590ca9/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_OSMO_PAGE--a5bc48eb9e590ca9/original.response`
+- 未取得依赖：5 项；详见本地 metadata。
+
+<a id="ref-a0e3a8b3f89d5c03"></a>
+
+## NVIDIA_02_CUDNN_REPO_PAGE
+
+- [官方/原始来源](https://github.com/NVIDIA/cudnn-frontend)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:11:13.992989+00:00`
+- `sha256`：`f64c1974a6cdde44fd240bce48f46d74c4b6f7751efa3ae330b594732a9d8aea`
+- `original_sha256`：`1c9770ea49ccb74cc22f0500c1963552f280ee5d2ee2eed523e6301dadf7b2a5`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDNN_REPO_PAGE--a0e3a8b3f89d5c03/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDNN_REPO_PAGE--a0e3a8b3f89d5c03/original.response`
+- 未取得依赖：8 项；详见本地 metadata。
+
+<a id="ref-9809be08f7688b89"></a>
+
+## NVIDIA_02_PVA_REPO_PAGE
+
+- [官方/原始来源](https://github.com/NVIDIA/pva-solutions)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:13:57.762620+00:00`
+- `sha256`：`dc68e92f402c7ed68d7574ae2a86e5b9051ceb3cdf01fa6418b10f29900a24f4`
+- `original_sha256`：`67c43d8ce1d4186db6bcd94a8bf3571b68fe57c27b82f42d7ffe597e1e4d5a07`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_PVA_REPO_PAGE--9809be08f7688b89/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_PVA_REPO_PAGE--9809be08f7688b89/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-a88e9e6662094b58"></a>
+
+## NVIDIA_02_TAO_REPO_PAGE
+
+- [官方/原始来源](https://github.com/NVIDIA/tao_pytorch_backend)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:11:35.854290+00:00`
+- `sha256`：`72d5d6af0d40c88939653ebf1c5077dda91d6577f2e3a9329301056ac8c06805`
+- `original_sha256`：`b9e2197f2a40a82027e20b6451026b7e7fbcf8649c9df28ecb64aa3576dd0a3e`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_TAO_REPO_PAGE--a88e9e6662094b58/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_TAO_REPO_PAGE--a88e9e6662094b58/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-bec68bd795809b5e"></a>
+
+## NVIDIA_Warp_Project_Page
+
+- [官方/原始来源](https://github.com/NVIDIA/warp)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:47:08.611608+00:00`
+- `sha256`：`9a750d3249cabe7dc66ab00fe4221ffd243702a26d0bd86d072ef3703d18ed34`
+- `original_sha256`：`8ef09e3e7225e540177c6c0b3952d46ba511e46df4eb09aae76c8bf7d46146d3`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Warp_Project_Page--bec68bd795809b5e/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Warp_Project_Page--bec68bd795809b5e/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-a7dbc8a7744670e3"></a>
+
+## NVIDIA_04_EXP_SONIC
+
+- [官方/原始来源](https://github.com/NVlabs/SONIC)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:03:59.667121+00:00`
+
+<a id="ref-907550c1fd54df56"></a>
+
+## NVIDIA_04_EXP_ALPAMAYO
+
+- [官方/原始来源](https://github.com/NVlabs/alpamayo)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:04:12.636140+00:00`
+- `sha256`：`403147e54f36a3e1a0c38443614653acced6879ebab7c3d3bd96d1309d5de1a7`
+- `original_sha256`：`0685646e8449cdb8efe8f1bc16d490be4eb71b0d00850db16b94f56a7eeaf67d`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_ALPAMAYO--907550c1fd54df56/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_ALPAMAYO--907550c1fd54df56/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-3a15d654beec1e8d"></a>
+
+## NVIDIA_cuRobo_Project_Page
+
+- [官方/原始来源](https://github.com/NVlabs/curobo)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:46:29.547660+00:00`
+- `sha256`：`57edb979420311c6588e51bf6eb167474ef0ca5f4183731a8d8d92c54f4d488b`
+- `original_sha256`：`833b9eacb5e937a85595db37b77a8927c1f3bc7479504048d9844e92d66c1396`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/cuRobo_Project_Page--3a15d654beec1e8d/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/cuRobo_Project_Page--3a15d654beec1e8d/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-00204ffe01e0db3d"></a>
+
+## NVIDIA_GitHub_IsaacLab_Page
+
+- [官方/原始来源](https://github.com/isaac-sim/IsaacLab)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:03:26.638252+00:00`
+- `sha256`：`2364bbea0934bb52f8509418e4dc4c120800799b0cbe83e92f763c2141d6b658`
+- `original_sha256`：`a44a39f1ea4daa9e627af709f980cdad340db824de9cfe5e8355b2af76ba6d70`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/GitHub_IsaacLab_Page--00204ffe01e0db3d/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/GitHub_IsaacLab_Page--00204ffe01e0db3d/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-e7af47084679a807"></a>
+
+## NVIDIA_GitHub_IsaacSim_Page
+
+- [官方/原始来源](https://github.com/isaac-sim/IsaacSim)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:04:52.112919+00:00`
+- `sha256`：`3a41b7b668fe8c240de000fad524483726d403894d0f7b70015c67f7ba6ca3ce`
+- `original_sha256`：`9a67676a78f43fc8693770fc799a827c840c7a6afb0e3e4f73b324d5aa39e228`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/GitHub_IsaacSim_Page--e7af47084679a807/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/GitHub_IsaacSim_Page--e7af47084679a807/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-2ca81acff58aff0c"></a>
+
+## NVIDIA_Newton_Project_Page
+
+- [官方/原始来源](https://github.com/newton-physics/newton)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:47:24.199268+00:00`
+- `sha256`：`3c821a6a8b1f1512161474905aab9971a7ddf694a5414ef51e40ff25977b80bf`
+- `original_sha256`：`db756165037c812dd4b7fa8f5d2103a3b52c5fa316696b9b2e0f8ce83e3b2a12`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Newton_Project_Page--2ca81acff58aff0c/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Newton_Project_Page--2ca81acff58aff0c/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-665940ea12ae5ce0"></a>
+
+## NVIDIA_02_HOLO_REPO
+
+- [官方/原始来源](https://github.com/nvidia-holoscan/holoscan-sdk)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:06:59.898517+00:00`
+- `sha256`：`9d362d7c59f80210359da57218d0269b9fc6cda3c48b19bbd9964bfb9564f5d7`
+- `original_sha256`：`e436db4956bd502ab87d7d524b02279b958becca390cda0e7bfb16c39126ca54`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_HOLO_REPO--665940ea12ae5ce0/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_HOLO_REPO--665940ea12ae5ce0/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-515abb6e30e693e2"></a>
+
+## NVIDIA_Holoscan_Bridge_Project_Page
+
+- [官方/原始来源](https://github.com/nvidia-holoscan/holoscan-sensor-bridge)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:46:50.462402+00:00`
+- `sha256`：`df850552217eb4bcadeeb45022ee6958e0baca00a780d3c272714ba81e05b41a`
+- `original_sha256`：`405445f16a92b18ad9c6d31b1e7748bb903fd5f098d0b9ae88e9ab05de847d9e`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Holoscan_Bridge_Project_--515abb6e30e693e2/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Holoscan_Bridge_Project_--515abb6e30e693e2/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-c1adfaea00f3e388"></a>
+
+## NVIDIA_Orbbec_Project_Page
+
+- [官方/原始来源](https://github.com/orbbec/OrbbecSDK_v2)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:48:10.013922+00:00`
+- `sha256`：`46b890a27813a61b684f2cabf0f984b6bbce1bf1451fe9819f8ca5e689cdfcc0`
+- `original_sha256`：`0c74199f92ec60fe61fec9066ce9db547cd854561ccda9e853db0e514fc83091`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Orbbec_Project_Page--c1adfaea00f3e388/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Orbbec_Project_Page--c1adfaea00f3e388/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-15ea9623387014d4"></a>
+
+## NVIDIA_Triton_Project_Page
+
+- [官方/原始来源](https://github.com/triton-inference-server/server)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:46:53.813955+00:00`
+- `sha256`：`4877c9e221dd28ac99a1c9334ea8cfb21fe05d58e0941a8842658407cce73582`
+- `original_sha256`：`59ef5e250dffda5f4580c564cf9d72513eff8df938554ac041f7eafc2ddd1931`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Triton_Project_Page--15ea9623387014d4/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Triton_Project_Page--15ea9623387014d4/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-15d742b446e6cb9a"></a>
+
+## NVIDIA_09_DEEP_GXO_DIGIT
+
+- [官方/原始来源](https://gxo.com/news_article/gxo-signs-industry-first-multi-year-agreement-with-agility-robotics/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:17:36.598406+00:00`
+- `sha256`：`8cf7cc3ce5ceda470731b73ace1aec5944c897fc4542686fbc0bd85b86fce429`
+- `original_sha256`：`66200ecd8d37eb97b51a8bc7f2e443a25dd8eb35f9d5657d8c89f81f00cd33a4`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/09_DEEP_GXO_DIGIT--15d742b446e6cb9a/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/09_DEEP_GXO_DIGIT--15d742b446e6cb9a/original.response`
+
+<a id="ref-ebef661d360ccd29"></a>
+
+## NVIDIA_04_COSMOS_REASON_CARD
+
+- [官方/原始来源](https://huggingface.co/nvidia/Cosmos-Reason2-2B/raw/main/README.md)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T01:25:56.054856+00:00`
+
+<a id="ref-326686ca4f7191c9"></a>
+
+## NVIDIA_04_EXP_HF_GR00T_CARD
+
+- [官方/原始来源](https://huggingface.co/nvidia/GR00T-N1.7-3B)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:06:16.855317+00:00`
+
+<a id="ref-d6181b3a021e37ef"></a>
+
+## NVIDIA_04_GR00T_CARD
+
+- [官方/原始来源](https://huggingface.co/nvidia/GR00T-N1.7-3B/raw/main/README.md)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T01:25:55.024799+00:00`
+
+<a id="ref-cb20589402d8a5a3"></a>
+
+## NVIDIA_04_EXP_TTS_CARD
+
+- [官方/原始来源](https://huggingface.co/nvidia/magpie_tts_multilingual_357m)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:12:06.446711+00:00`
+
+<a id="ref-af3d1c21355b7cdb"></a>
+
+## NVIDIA_04_EXP_ASR_CARD
+
+- [官方/原始来源](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:11:55.867758+00:00`
+
+<a id="ref-c751c5304b28f479"></a>
+
+## NVIDIA_09_DEEP_IFR_SERVICE_FIG
+
+- [官方/原始来源](https://ifr.org/downloads/press_docs/Graph_Service_Robots_share_2025_1600x900.jpg)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:45:46.929203+00:00`
+- `sha256`：`b214242ea244ff3febac41c6b32a167d88cd7c05eeebad511155b1cf3c0f0f48`
+- `original_sha256`：`b214242ea244ff3febac41c6b32a167d88cd7c05eeebad511155b1cf3c0f0f48`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/09_DEEP_IFR_SERVICE_FIG--c751c5304b28f479/content.jpg`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/09_DEEP_IFR_SERVICE_FIG--c751c5304b28f479/original.response`
+
+<a id="ref-f4b1d8f851a56e04"></a>
+
+## NVIDIA_09_DEEP_IFR_GLOBAL_FIG
+
+- [官方/原始来源](https://ifr.org/downloads/press_docs/Graphic_World_Robotics_2026_GLOBAL.png)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:45:45.785536+00:00`
+- `sha256`：`2eb666011de5f7f361f255ea075ad17f6acb4f65ebe2f02f40bad855624a6cb0`
+- `original_sha256`：`2eb666011de5f7f361f255ea075ad17f6acb4f65ebe2f02f40bad855624a6cb0`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/09_DEEP_IFR_GLOBAL_FIG--f4b1d8f851a56e04/content.png`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/09_DEEP_IFR_GLOBAL_FIG--f4b1d8f851a56e04/original.response`
+
+<a id="ref-59cd5f63c28daab5"></a>
+
+## NVIDIA_09_DEEP_IFR_PRESENTATION
+
+- [官方/原始来源](https://ifr.org/downloads/press_docs/Market_Presentation_WR_Press_Conference_2026.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:45:42.775738+00:00`
+- `sha256`：`b2b287bdafada3c888a8d1814165a190da04b53096b61444e38f1db41742791a`
+- `original_sha256`：`b2b287bdafada3c888a8d1814165a190da04b53096b61444e38f1db41742791a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/09_DEEP_IFR_PRESENTATIO--59cd5f63c28daab5/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/09_DEEP_IFR_PRESENTATIO--59cd5f63c28daab5/original.response`
+
+<a id="ref-2898efa2dfe8955b"></a>
+
+## NVIDIA_09_DEEP_IFR_PRESS
+
+- [官方/原始来源](https://ifr.org/ifr-press-releases)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T03:16:00.607864+00:00`
+- `sha256`：`8a115a5536b7f647b344d019d5f847e260e29a2f67bce70c0affdd8750c48109`
+- `original_sha256`：`a5a133e8d26c9918d0d1a55de520461cdbb033997d9f44b29527ff143e9c33f7`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/09_DEEP_IFR_PRESS--2898efa2dfe8955b/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/09_DEEP_IFR_PRESS--2898efa2dfe8955b/original.response`
+- 未取得依赖：7 项；详见本地 metadata。
+
+<a id="ref-bad3d5636979c1ec"></a>
+
+## NVIDIA_09_DEEP_IFR_INDUSTRIAL
+
+- [官方/原始来源](https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T03:44:09.375668+00:00`
+- `sha256`：`559664eecef6846970cfe877c034bfc3d9d01dbd2d63bb3c232e453cb4934de5`
+- `original_sha256`：`f3c0a2425539b176446714e1c1a6cfcad6ae066d2b371d067669452885f344af`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/09_DEEP_IFR_INDUSTRIAL--bad3d5636979c1ec/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/09_DEEP_IFR_INDUSTRIAL--bad3d5636979c1ec/original.response`
+- 未取得依赖：6 项；详见本地 metadata。
+
+<a id="ref-1e78f5fd4a5acdc8"></a>
+
+## NVIDIA_09_DEEP_IFR_SERVICE
+
+- [官方/原始来源](https://ifr.org/ifr-press-releases/news/global-sales-of-professional-service-robots-surge-24-percent)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T03:44:14.758911+00:00`
+- `sha256`：`6512b29fad3c0eb4def52d6af10fe51e4e06174a788f17aa693ce134079b0505`
+- `original_sha256`：`4e49dc7408662994b53ec752dafd669503513bdffefeec4e998b375397ee552d`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/09_DEEP_IFR_SERVICE--1e78f5fd4a5acdc8/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/09_DEEP_IFR_SERVICE--1e78f5fd4a5acdc8/original.response`
+- 未取得依赖：6 项；详见本地 metadata。
+
+<a id="ref-b3d33688c0d4d78e"></a>
+
+## NVIDIA_08_DEEP_AMD_SRIOV
+
+- [官方/原始来源](https://instinct.docs.amd.com/projects/virt-drv/en/latest/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:56:30.864558+00:00`
+- `sha256`：`2bdda2512913a8fb360cd17a6bd56e2f77582a780516dbccdbf2dcc8f23f2f17`
+- `original_sha256`：`9c4cb2bd6c7b46cff474af7938e8e6354efa102374a4827a9571c2fafe56ef23`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_AMD_SRIOV--b3d33688c0d4d78e/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_AMD_SRIOV--b3d33688c0d4d78e/original.response`
+
+<a id="ref-11695db9dec0aaa4"></a>
+
+## NVIDIA_09_DEEP_IR_ANNUAL
+
+- [官方/原始来源](https://investor.nvidia.com/financial-info/annual-reports-and-proxies/default.aspx)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T03:15:29.365294+00:00`
+- `sha256`：`afc9ef69a2fc4dcf97e7eef1ddf1ffabe4a19a886f2d8e85073b0e7d530db28f`
+- `original_sha256`：`d45789aff4970e40dae204d96abf38f572ce1adfec8a7ff1aa88c28bf771b490`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/09_DEEP_IR_ANNUAL--11695db9dec0aaa4/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/09_DEEP_IR_ANNUAL--11695db9dec0aaa4/original.response`
+- 未取得依赖：50 项；详见本地 metadata。
+
+<a id="ref-443d94782c2e3075"></a>
+
+## NVIDIA_09_DEEP_IR_QUARTER
+
+- [官方/原始来源](https://investor.nvidia.com/financial-info/financial-reports-and-sec-filings/default.aspx)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T03:18:27.526302+00:00`
+- `sha256`：`d04e7db4d4e2ddeeaf5757238b6db382d4e9242fbd2ee9636ea0ec90b7cb9470`
+- `original_sha256`：`5ce8ce3644f1778635f39247a766c9e952fd1da861f5aa2b48a0302bddd0830f`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/09_DEEP_IR_QUARTER--443d94782c2e3075/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/09_DEEP_IR_QUARTER--443d94782c2e3075/original.response`
+- 未取得依赖：21 项；详见本地 metadata。
+
+<a id="ref-c979dddca903573d"></a>
+
+## NVIDIA_Isaac_Lab_Docs_Index
+
+- [官方/原始来源](https://isaac-sim.github.io/IsaacLab/main/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:44:58.009757+00:00`
+- `sha256`：`bf598f931d58c4b22a97cb53b3ad48b969b18de6e0abc5328d5cf19188a5df20`
+- `original_sha256`：`f420dace7e9121dd88debe0f6d7c3701d8cfba14b1192371dbe9751c5a364a6a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Lab_Docs_Index--c979dddca903573d/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Lab_Docs_Index--c979dddca903573d/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-befa55326ba2b236"></a>
+
+## NVIDIA_05_LAB_EVENTS
+
+- [官方/原始来源](https://isaac-sim.github.io/IsaacLab/main/source/api/lab/isaaclab.managers.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T01:30:41.520991+00:00`
+- `sha256`：`23e9a1c90719b9a52bdfcc2cb8d5c1150aaf137866bfa8f5c766b5b1d93bdd45`
+- `original_sha256`：`83812e80b65a7f918d1f4110f11c2e73fa8b7159ffdd4f2d560deb06d749118d`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_LAB_EVENTS--befa55326ba2b236/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/05_LAB_EVENTS--befa55326ba2b236/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-23585b6abe28124f"></a>
+
+## NVIDIA_Isaac_Lab_Domain_Randomization
+
+- [官方/原始来源](https://isaac-sim.github.io/IsaacLab/main/source/features/domain_randomization.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T07:44:40.565784+00:00`
+
+<a id="ref-80fe4c913dbac380"></a>
+
+## NVIDIA_02_LAB_INSTALL_CURRENT
+
+- [官方/原始来源](https://isaac-sim.github.io/IsaacLab/main/source/isaaclab/installation.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:26:29.739890+00:00`
+- `sha256`：`298e6c01e68fabbc9c7391690ba6edc8910709e3875c6e5b798b097eeea444db`
+- `original_sha256`：`33e521319a4429e6c93d04e765f586c644d377f02186727fe56025e015a989e1`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_LAB_INSTALL_CURRENT--80fe4c913dbac380/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_LAB_INSTALL_CURRENT--80fe4c913dbac380/original.response`
+- 未取得依赖：7 项；详见本地 metadata。
+
+<a id="ref-03bdb021b98d7f13"></a>
+
+## NVIDIA_Isaac_Lab_Overview
+
+- [官方/原始来源](https://isaac-sim.github.io/IsaacLab/main/source/overview/core-concepts/simulation.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T07:37:29.799229+00:00`
+
+<a id="ref-3ab3034d7bdd3593"></a>
+
+## NVIDIA_Isaac_Lab_Install
+
+- [官方/原始来源](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/index.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:45:46.892538+00:00`
+- `sha256`：`59e6da7e6a1b7be6835f32762919dd21c059924432f39a0be4e59c3bdf16a0d7`
+- `original_sha256`：`733224a24bc9c6e9aa1434e1a215eea3939bd2fb08533846b464f2646e71bb81`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Lab_Install--3ab3034d7bdd3593/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_Lab_Install--3ab3034d7bdd3593/original.response`
+
+<a id="ref-6258bd6ae1cfd1ed"></a>
+
+## NVIDIA_07_DEEP_LEOPARD
+
+- [官方/原始来源](https://leopardimaging.com/leopard-imaging-launches-full-vision-solution-suite-for-nvidia-jetson-thor-powering-the-next-generation-of-physical-ai/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:41:18.839767+00:00`
+- `sha256`：`3b93a4ce679f2984ee5d52a8d34e369d8702d808e81713f6f6c3813f2888d59b`
+- `original_sha256`：`4bda6cf7efbc11fd36bc8cfe8c8ca2a84ad47990cfde166f349143a2dc94c3dc`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_DEEP_LEOPARD--6258bd6ae1cfd1ed/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_DEEP_LEOPARD--6258bd6ae1cfd1ed/original.response`
+- 未取得依赖：6 项；详见本地 metadata。
+
+<a id="ref-a552f3d2562f206c"></a>
+
+## NVIDIA_03_VSLAM_FIG
+
+- [官方/原始来源](https://media.githubusercontent.com/media/NVIDIA-ISAAC-ROS/.github/release-5.0/resources/isaac_ros_docs/repositories_and_packages/isaac_ros_visual_slam/vslam_odometry_nav2_diagram.png)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T10:19:33.722429+00:00`
+- `sha256`：`6f9c0fbb8d98652d42ff4ab5677af90c358f83c82abdbce8e932b7842b94ca02`
+- `original_sha256`：`6f9c0fbb8d98652d42ff4ab5677af90c358f83c82abdbce8e932b7842b94ca02`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/03_VSLAM_FIG--a552f3d2562f206c/content.png`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/03_VSLAM_FIG--a552f3d2562f206c/original.response`
+
+<a id="ref-c679d21fb41da9e9"></a>
+
+## NVIDIA_08_DEEP_OSMO_DIAGRAM
+
+- [官方/原始来源](https://media.githubusercontent.com/media/NVIDIA/OSMO/main/docs/user_guide/overview.svg)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:10:27.831397+00:00`
+- `sha256`：`e3612d40fcbdcf7079947f492a0f7bb85d8dc9705d00b88ac6d2dba5cf4bac45`
+- `original_sha256`：`e3612d40fcbdcf7079947f492a0f7bb85d8dc9705d00b88ac6d2dba5cf4bac45`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_DEEP_OSMO_DIAGRAM--c679d21fb41da9e9/content.svg`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_DEEP_OSMO_DIAGRAM--c679d21fb41da9e9/original.response`
+
+<a id="ref-151b94198154c1f6"></a>
+
+## NVIDIA_08_DEEP_MOVEIT_PLANNING
+
+- [官方/原始来源](https://moveit.picknik.ai/main/doc/concepts/motion_planning.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:01:19.217568+00:00`
+- `sha256`：`269bc34b0841baeac005fd1838a15a92bc4548de18d33e26b81ff57bc6e0a953`
+- `original_sha256`：`a3432bbbd920067a8bd47e4db9aa5bfbdf7fdcfbf3832d803092c5186a4009cf`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_MOVEIT_PLANNING--151b94198154c1f6/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_MOVEIT_PLANNING--151b94198154c1f6/original.response`
+
+<a id="ref-50bc861c2b70fd1e"></a>
+
+## NVIDIA_08_DEEP_MUJOCO_COMPUTATION
+
+- [官方/原始来源](https://mujoco.readthedocs.io/en/stable/computation/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:58:03.173369+00:00`
+- `sha256`：`7f7cc095087b5da216e49f7ea73f6702ab19b0a921e423d0c38736d540c1542e`
+- `original_sha256`：`d0de3b83098ad6da53968420ff1fff6b40026c69d6b61ed375b3956195649ade`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_MUJOCO_COMPUTATI--50bc861c2b70fd1e/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_MUJOCO_COMPUTATI--50bc861c2b70fd1e/original.response`
+- 未取得依赖：10 项；详见本地 metadata。
+
+<a id="ref-63a58dbcc0c84e67"></a>
+
+## NVIDIA_08_DEEP_MUJOCO_MJX
+
+- [官方/原始来源](https://mujoco.readthedocs.io/en/stable/mjx.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:57:16.841547+00:00`
+- `sha256`：`e8e1601c320ac1ae68b69db1c14ba22ab63c71fe4feabc3202b440b0fa873494`
+- `original_sha256`：`cf262f7b90455325ea10e6de0df15e559d7338ee2e6303531615e46ebadcd4ec`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_MUJOCO_MJX--63a58dbcc0c84e67/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_MUJOCO_MJX--63a58dbcc0c84e67/original.response`
+- 未取得依赖：11 项；详见本地 metadata。
+
+<a id="ref-1fd266641b8a8d14"></a>
+
+## NVIDIA_02_MPS_DOC
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/concepts/gpu_partitioning/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:00:43.352895+00:00`
+- `sha256`：`21c73e7efeb351dee78e0165f589f1ab48fa1b16a0a34357f0c642767c1899be`
+- `original_sha256`：`c1692da48df01190504e28347d0b6869f0529b4715a7f6273456a474bd30f0e5`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_MPS_DOC--1fd266641b8a8d14/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_MPS_DOC--1fd266641b8a8d14/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-f64a95c0a4c6b7ae"></a>
+
+## NVIDIA_06_CUSTOM_ARM
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/concepts/manipulation/cumotion_moveit/tutorial_custom_manipulator.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T01:36:30.692439+00:00`
+- `sha256`：`5a5fd406d987d015b2611e994d2ddb08deed0e7ab2c2d92617b9a05b73e9472e`
+- `original_sha256`：`d3fe9ecf77bd0186699dd173c70f47ada9766e2ddfabbcb35581e59f26c42408`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_CUSTOM_ARM--f64a95c0a4c6b7ae/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_CUSTOM_ARM--f64a95c0a4c6b7ae/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-a0af12f7d5ef24f5"></a>
+
+## NVIDIA_06_XRDF
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/concepts/manipulation/xrdf.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T01:36:27.761738+00:00`
+- `sha256`：`f5edc6208ae8291f56f887568717ba9c17cce7dc96632147cc41263ac4cef5df`
+- `original_sha256`：`9f1d558c49c708b1aead226e51378106602001b3bf7de1200953b893d05f96a8`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_XRDF--a0af12f7d5ef24f5/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_XRDF--a0af12f7d5ef24f5/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-dd3038ff446431b9"></a>
+
+## NVIDIA_08_DEEP_NITROS
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/concepts/nitros/index.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:58:30.000583+00:00`
+
+<a id="ref-cc587411e9c9d2c8"></a>
+
+## NVIDIA_08_DEEP_BUFFER_CUDA
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/cuda_buffer_backend.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T03:02:27.341152+00:00`
+- `sha256`：`8f372ce72c1dc90a5708450cb3632b10c7115d58c95c39452d6c4895b8266715`
+- `original_sha256`：`cfe5736d6f309a8a25f4d420e067ebc4c8e17db7adb7b40833110a315bc3ed7c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_BUFFER_CUDA--cc587411e9c9d2c8/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_BUFFER_CUDA--cc587411e9c9d2c8/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-e9167f78686d3ef7"></a>
+
+## NVIDIA_02_BUFFER_DOC
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:00:39.629036+00:00`
+- `sha256`：`ec9961cd0053ad5a5c14199f3fba5ad8e0a8ced38cb3c56487a9dafd76143a7a`
+- `original_sha256`：`7e5e49c12fae9c8a694f726046893e28053f929bf181c57ad5dc433745904a73`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_BUFFER_DOC--e9167f78686d3ef7/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_BUFFER_DOC--e9167f78686d3ef7/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-a74b452c91c23559"></a>
+
+## NVIDIA_Isaac_ROS_Buffer_Migration
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/nitros_migration.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:44:32.210843+00:00`
+- `sha256`：`7871bd97b8cf1c919b25b985092305227752bdc5cf966935bddc75df88269635`
+- `original_sha256`：`5e162620b5c2b55b02b973065f8909ec0077a585a733fbc831a0c28f9bca28aa`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_ROS_Buffer_Migrati--a74b452c91c23559/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_ROS_Buffer_Migrati--a74b452c91c23559/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-b757a084266f692f"></a>
+
+## NVIDIA_03_OUSTER_NVBLOX
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/technical_details.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T10:16:43.871471+00:00`
+- `sha256`：`4cf52b230694eeec38c8199e4b7f4fb4a4fcd742db526bb354f7944bae71728d`
+- `original_sha256`：`8952e255b042556e14dda075d1f1f202f83a8ecb34e8fe20d0bc8eb2b48ea191`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_OUSTER_NVBLOX--b757a084266f692f/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_OUSTER_NVBLOX--b757a084266f692f/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-7b54109f3d3aeaa8"></a>
+
+## NVIDIA_03_OS1_EXAMPLE
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_os1.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T10:19:27.362374+00:00`
+- `sha256`：`288804155fd0574d474c37c86e44495e9bee97273c8706fdf06dfb814e07eb80`
+- `original_sha256`：`249b04f11cf1f7795c9cd6f83f4ffccc05fcd9659e42c33116ff78e06a369d92`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_OS1_EXAMPLE--7b54109f3d3aeaa8/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_OS1_EXAMPLE--7b54109f3d3aeaa8/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-c092d317bfdef4e3"></a>
+
+## NVIDIA_Isaac_ROS_Getting_Started
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/getting_started/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:28:14.942749+00:00`
+- `sha256`：`c42060906496b7a3adc7c5fc440093b935f09caadfcd0e39ceb093fd42a23941`
+- `original_sha256`：`3d634ee4f36d746219051696687272db81d3ba9190da34fbb9c40c242c7e9071`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_ROS_Getting_Starte--c092d317bfdef4e3/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_ROS_Getting_Starte--c092d317bfdef4e3/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-ab13584a2b9d3b66"></a>
+
+## NVIDIA_03_AMR_EXTRINSICS
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/getting_started/sensors/amr_extrinsic_calibration.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T10:18:13.090089+00:00`
+- `sha256`：`5098b4540b6be581722645126211eed8ef63a79ba559dd2e12f8a1d014466329`
+- `original_sha256`：`c227ec7beeb1ae377d6633a4facd10ace241f5b7901569dee9b28e4463aae2ee`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_AMR_EXTRINSICS--ab13584a2b9d3b66/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_AMR_EXTRINSICS--ab13584a2b9d3b66/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-3ae3ae5f7dff7520"></a>
+
+## NVIDIA_03_CAM_INTRINSICS
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/getting_started/sensors/camera_calibration.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T10:18:14.587626+00:00`
+- `sha256`：`7fd88b3c0fd7ab52172c513de455fce3d66a7b96f487cc481a582cf8cea36f48`
+- `original_sha256`：`96a5c97188ecd6fcd075faf4334c5c87ac416884c9abb24b7f8923657fd6050e`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_CAM_INTRINSICS--3ae3ae5f7dff7520/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_CAM_INTRINSICS--3ae3ae5f7dff7520/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-0f99a95272c04c2c"></a>
+
+## NVIDIA_03_EAGLE_SETUP
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/getting_started/sensors/eagle_setup.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T10:15:15.805540+00:00`
+- `sha256`：`06e2b17b1129b9c5e6c66f51e54ec3bd350b997676b97192b9dbc385ea7d701d`
+- `original_sha256`：`b744792b655fe229f404bcc864a76227f4fb2780de20d7324b6d38f0f09f0d56`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_EAGLE_SETUP--0f99a95272c04c2c/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_EAGLE_SETUP--0f99a95272c04c2c/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-c773777c01995826"></a>
+
+## NVIDIA_03_EXTRINSICS
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/getting_started/sensors/extrinsic_calibration.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T10:16:43.089219+00:00`
+
+<a id="ref-b5e36d46f98b3cb6"></a>
+
+## NVIDIA_03_HAWK_SETUP
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/getting_started/sensors/hawk_setup.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T10:15:13.742386+00:00`
+- `sha256`：`a370b14354186a47d2ebd1c6a30675b6dfa627a7b5594c1e55de9a1dd9ef131f`
+- `original_sha256`：`ceea222dfb9f827bbcf7bc5b6c7e34d8de61ec9d1b1b7c6197088c7cd64e1e91`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HAWK_SETUP--b5e36d46f98b3cb6/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HAWK_SETUP--b5e36d46f98b3cb6/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-b958a17eee38adfc"></a>
+
+## NVIDIA_03_REALSENSE_SETUP
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/getting_started/sensors/realsense_setup.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T10:16:46.825744+00:00`
+- `sha256`：`33c0d9b8c467f3ea6373f32388992c0b51d73c4e08664510c5ef5c83026fef06`
+- `original_sha256`：`c82a0caa142c8388413288dde6a04df3648ecde5508a760e6ae6fba05e9f06e2`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_REALSENSE_SETUP--b958a17eee38adfc/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_REALSENSE_SETUP--b958a17eee38adfc/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-6bea41cc64a92fb1"></a>
+
+## NVIDIA_Isaac_Manipulation_Workflow
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/reference_workflows/isaac_for_manipulation/index.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T07:45:47.800182+00:00`
+
+<a id="ref-7544bdc8cbb0474f"></a>
+
+## NVIDIA_06_MOBILITY
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/reference_workflows/isaac_for_mobility/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T01:36:32.047259+00:00`
+- `sha256`：`58758edb0e6f2535b42329bac880a80ed12f1c964873cec7188e2925601402fb`
+- `original_sha256`：`e244bae3f338b86fff074ba984ca7fcef2b50c07725915926bdc54fc859b724b`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_MOBILITY--7544bdc8cbb0474f/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_MOBILITY--7544bdc8cbb0474f/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-d5ea3ee4bf4f18d3"></a>
+
+## NVIDIA_Isaac_ROS_Repositories
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/repositories_and_packages/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:29:06.004661+00:00`
+- `sha256`：`03eb6d19164ae49f975538ff839e2e60cdaedae0378d5b20404e43ec61b99ce1`
+- `original_sha256`：`86a34591beb937b63d48026b1255bb071beae4cbe390ecf40aa1ce1cd92e9a58`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_ROS_Repositories--d5ea3ee4bf4f18d3/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_ROS_Repositories--d5ea3ee4bf4f18d3/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-f7e4424718ae7692"></a>
+
+## NVIDIA_Isaac_ROS_GPU_Partitioning
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_common/isaac_ros_gpu_partitioning/index.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T07:44:34.281268+00:00`
+
+<a id="ref-2bd37918badf2162"></a>
+
+## NVIDIA_06_CONVERTERS
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/concepts/converters.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T01:36:34.712133+00:00`
+- `sha256`：`ecbe97dc4afb143b19b212aaf0150cd31ca26b5d16df68250184d80275f86cc2`
+- `original_sha256`：`45b712290923ce5bcf309c85a490eec668ed3d67212a1ea5fe8a312005fd1897`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_CONVERTERS--2bd37918badf2162/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_CONVERTERS--2bd37918badf2162/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-48a6c8b0b3bbace0"></a>
+
+## NVIDIA_Isaac_ROS_Deploy_Concept
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/concepts/how_it_works.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:44:36.621231+00:00`
+- `sha256`：`0bb15c5c359981925bdf61c073e4049667dda61169a8e2a60f95a787e7c010c4`
+- `original_sha256`：`82d2a0fed074651e243f54165164bd91c6889913522fc7d96726fa01832c4fba`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_ROS_Deploy_Concept--48a6c8b0b3bbace0/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_ROS_Deploy_Concept--48a6c8b0b3bbace0/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-029d4bca29febcf3"></a>
+
+## NVIDIA_Isaac_ROS_Deploy_Safety
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/concepts/safety.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:44:35.086714+00:00`
+- `sha256`：`0d153b7bf3778025c95cd64282443a7d6776be9228654a73ba297f9cbccee208`
+- `original_sha256`：`b9bfda37299a040bcb11dde6e7e323ba4646d68ed3e072c2024fb9885420bb9f`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_ROS_Deploy_Safety--029d4bca29febcf3/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_ROS_Deploy_Safety--029d4bca29febcf3/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-07b01900ce1e8a74"></a>
+
+## NVIDIA_06_EMBODIMENT
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/how_to_guides/bring_your_own_embodiment.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T01:36:33.463876+00:00`
+- `sha256`：`7b291a167c92d780ad57d2eb5cd0c04225afa3383e5a1d50d433bd62382d34e6`
+- `original_sha256`：`6b8844ebb6d3787c28da5e39b475111808f488d68e890d89b0b5da5f7757efaa`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_EMBODIMENT--07b01900ce1e8a74/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_EMBODIMENT--07b01900ce1e8a74/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-20e0a19d75669952"></a>
+
+## NVIDIA_Isaac_ROS_Deploy_AGILE
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/tutorials/deploy_agile.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:44:37.921270+00:00`
+- `sha256`：`04e80bb75870b9f0ef6350a38beb8002eadf63846b00dac8ea129d5ce46b5aff`
+- `original_sha256`：`28f674e7e395415317ea01a78c9e7acdbe9b2c3b8f116bbd1e07669f3c87b0f8`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_ROS_Deploy_AGILE--20e0a19d75669952/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Isaac_ROS_Deploy_AGILE--20e0a19d75669952/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-7b776091c45983d1"></a>
+
+## NVIDIA_03_CORRELATED_TS
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_nova/isaac_ros_correlated_timestamp_driver/index.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T10:15:16.891227+00:00`
+
+<a id="ref-0e0edac825007329"></a>
+
+## NVIDIA_03_SENSOR_RECORDER
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_nova/isaac_ros_data_recorder/index.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T10:15:42.622544+00:00`
+
+<a id="ref-f0ab16b54125d4f2"></a>
+
+## NVIDIA_03_SENSOR_VALIDATION
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_nova/isaac_ros_data_validation/index.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T10:15:18.472287+00:00`
+
+<a id="ref-a573005a2fa14007"></a>
+
+## NVIDIA_03_HESAI_DRIVER
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_nova/isaac_ros_hesai/index.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T10:15:17.666204+00:00`
+
+<a id="ref-465be6f9dadedd58"></a>
+
+## NVIDIA_03_MULTI_RS_SYNC
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_nvblox/multi_realsense_emitter_synchronizer/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T10:16:49.596708+00:00`
+- `sha256`：`b2213a22638760d079ad117289aad76ac567ab3ede45f93036792204ecef4fea`
+- `original_sha256`：`d385e26814b2fcaef09964f92fe4ba1950b366848ffca11185e124e4bc376771`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_MULTI_RS_SYNC--465be6f9dadedd58/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_MULTI_RS_SYNC--465be6f9dadedd58/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-1ae555454a02185b"></a>
+
+## NVIDIA_04_EXP_POSE_BENCH
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_pose_estimation/isaac_ros_foundationpose/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:11:35.663650+00:00`
+- `sha256`：`290ccce43c00e36d8cff4bca28f45883526193f5dd671b26b055adf8efc17894`
+- `original_sha256`：`4b66f2f24a2d4630066de3f92789ec394d8f00021b233ade016b06d3b1e1ea16`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_POSE_BENCH--1ae555454a02185b/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_POSE_BENCH--1ae555454a02185b/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-7a32cc45a78631e0"></a>
+
+## NVIDIA_06_FR3
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_robots/franka_fr3_ros2_control/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T01:36:36.271322+00:00`
+- `sha256`：`976b129f6ef5da31e748a88e7afe9f77e973a8cbe36af24ceb0eb8da084d72d1`
+- `original_sha256`：`7af4ec2e6719b9bd07878aae9c1fce3cf2f98037ad7ede67bceb25eeea4cc72d`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_FR3--7a32cc45a78631e0/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_FR3--7a32cc45a78631e0/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-d2334842797ac92c"></a>
+
+## NVIDIA_03_SIPL_ROS
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_sipl_camera/isaac_ros_sipl_camera/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T10:16:39.134304+00:00`
+- `sha256`：`22a93bbd1d4f2db6b3c6815e493a9ef4ded20065b08f94c97dfc49ca1f9087f1`
+- `original_sha256`：`39ab804790596d0fd39874186f42b0e9e4f5f36380f53e4a8997d4cedb762536`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_SIPL_ROS--d2334842797ac92c/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_SIPL_ROS--d2334842797ac92c/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-4d9c66620e10ab82"></a>
+
+## NVIDIA_03_CUVSLAM_DOC
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_visual_slam/isaac_ros_cuvslam/index.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T10:15:19.287787+00:00`
+- `sha256`：`a823df6066953f3806cb2b67334aa0ffe67ebd4954a2d6a7eac84bf746fe8dfd`
+- `original_sha256`：`6844cfd32489480b16efc33d6857dc8ad826e698c92218483cabdbe78b5656fd`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_CUVSLAM_DOC--4d9c66620e10ab82/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_CUVSLAM_DOC--4d9c66620e10ab82/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-67feff4b733eeaa8"></a>
+
+## NVIDIA_Isaac_ROS_Nova_Carter
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/robots/nova_carter/index.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T07:38:06.245796+00:00`
+
+<a id="ref-51804178abe48153"></a>
+
+## NVIDIA_03_CORRELATED_44
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/v/release-4.4/repositories_and_packages/isaac_ros_nova/isaac_ros_correlated_timestamp_driver/index.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T10:16:35.698853+00:00`
+
+<a id="ref-de0840272d7cff96"></a>
+
+## NVIDIA_03_RECORDER_44
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/v/release-4.4/repositories_and_packages/isaac_ros_nova/isaac_ros_data_recorder/index.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T10:16:38.390973+00:00`
+
+<a id="ref-639a7a4adc23847d"></a>
+
+## NVIDIA_03_VALIDATION_44
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/v/release-4.4/repositories_and_packages/isaac_ros_nova/isaac_ros_data_validation/index.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T10:16:37.613859+00:00`
+
+<a id="ref-1f56c65d0770867f"></a>
+
+## NVIDIA_03_HESAI_44
+
+- [官方/原始来源](https://nvidia-isaac-ros.github.io/v/release-4.4/repositories_and_packages/isaac_ros_nova/isaac_ros_hesai/index.html)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T10:16:36.845662+00:00`
+
+<a id="ref-9bc4950664f1773d"></a>
+
+## NVIDIA_09_DEEP_Q2FY2027
+
+- [官方/原始来源](https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T03:45:33.163721+00:00`
+- `sha256`：`9e4c1198682d63957540fcd98d7b5b79b5cf7a184372c519a659873cdad7083f`
+- `original_sha256`：`a8247969d0f004fe4e95ccf1fc59cb10d14d68ccf1d37b8b755b8a22aad5b422`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/09_DEEP_Q2FY2027--9bc4950664f1773d/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/09_DEEP_Q2FY2027--9bc4950664f1773d/original.response`
+- 未取得依赖：118 项；详见本地 metadata。
+
+<a id="ref-f1d5f7a3d06ef525"></a>
+
+## NVIDIA_Announcement_Orin_Nano_2
+
+- [官方/原始来源](https://nvidianews.nvidia.com/news/nvidia-announces-jetson-orin-nano-2-robotics-computer-to-redefine-entry-level-edge-ai)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T06:58:36.071765+00:00`
+- `sha256`：`573fed001023d537830504a8fa814cd75a7bdd9bbb8f9f224a4965cadf0b983d`
+- `original_sha256`：`4d586aaf306a0c60a23ba621074590b9bff0cfbcd76736b14f2c86be52a0de96`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Announcement_Orin_Nano_2--f1d5f7a3d06ef525/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Announcement_Orin_Nano_2--f1d5f7a3d06ef525/original.response`
+- 未取得依赖：118 项；详见本地 metadata。
+
+<a id="ref-a7546f919af2dbd8"></a>
+
+## NVIDIA_Announcement_Orin_Nano_2022
+
+- [官方/原始来源](https://nvidianews.nvidia.com/news/nvidia-jetson-orin-nano-sets-new-standard-for-entry-level-edge-ai-and-robotics-with-80x-performance-leap)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:00:13.766165+00:00`
+- `sha256`：`bd9b0744488c7749e78b28db724c703803548fadb505e565466828378bca5a12`
+- `original_sha256`：`e43270d81280f3381e3d229181ce94a216885f9fabfb44fac180cda7a85ab44f`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Announcement_Orin_Nano_2--a7546f919af2dbd8/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Announcement_Orin_Nano_2--a7546f919af2dbd8/original.response`
+- 未取得依赖：118 项；详见本地 metadata。
+
+<a id="ref-75263741be55b6ec"></a>
+
+## NVIDIA_cuRobo_V2_Documentation
+
+- [官方/原始来源](https://nvlabs.github.io/curobo/)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:44:45.302433+00:00`
+- `sha256`：`6ab3bb05ca9148d67ff8549196778e80df29913f5053933fd97ee614d34f4df9`
+- `original_sha256`：`ff74d17314320fafcc7703fd0268b6624af2f7c673718c8315459659b61306e3`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/cuRobo_V2_Documentation--75263741be55b6ec/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/cuRobo_V2_Documentation--75263741be55b6ec/original.response`
+
+<a id="ref-b199312ad68d0e8e"></a>
+
+## NVIDIA_06_CUROBO_CANONICAL
+
+- [官方/原始来源](https://nvlabs.github.io/curobo/latest/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T01:36:18.185025+00:00`
+- `sha256`：`43816209c98d1d2975d6bee41c5e5b190bda8f3ad5f3d7a51d13921c2cddefc6`
+- `original_sha256`：`aa076a563615eb370a921b31ab54734c632668e23b6461c6d2c3681c2f14e8f0`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_CUROBO_CANONICAL--b199312ad68d0e8e/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_CUROBO_CANONICAL--b199312ad68d0e8e/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-30778176661e121f"></a>
+
+## NVIDIA_06_RETARGET
+
+- [官方/原始来源](https://nvlabs.github.io/curobo/latest/getting-started/humanoid_retargeting.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T01:37:40.110524+00:00`
+- `sha256`：`6c1a439dbb7728f0ddbae5d8ac605ae01ee84929233a09c4e7d3b12f795f192d`
+- `original_sha256`：`5f64e3662fb1827d09322ad95a4a47f0f9c2c1475ce17877c4f44055c8d91568`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_RETARGET--30778176661e121f/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_RETARGET--30778176661e121f/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-174f05f5e8477c6a"></a>
+
+## NVIDIA_06_MOTION
+
+- [官方/原始来源](https://nvlabs.github.io/curobo/latest/getting-started/motion_planning.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T01:37:33.296948+00:00`
+- `sha256`：`3a76eb5c974e542e0583f959aa99c9da5dcbf009ef735c095719572df432ecfe`
+- `original_sha256`：`8ba98f5c5705544e48480a3ebd33e8e03d1fefb4427aee1518184a3f2e82801a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_MOTION--174f05f5e8477c6a/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_MOTION--174f05f5e8477c6a/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-3021d836689af1c1"></a>
+
+## NVIDIA_06_REACTIVE
+
+- [官方/原始来源](https://nvlabs.github.io/curobo/latest/getting-started/reactive_control.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T01:37:36.792661+00:00`
+- `sha256`：`dce598e04059a1ac6743f0e87cf0403aeeccc6bf82c9369ae5538b36d22bd0f8`
+- `original_sha256`：`e2a2db9ac66c80def0ccace42faf3164fda2d2da9a508d39eaf90e53a043f01c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_REACTIVE--3021d836689af1c1/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_REACTIVE--3021d836689af1c1/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-7de15b45ad852750"></a>
+
+## NVIDIA_08_DEEP_USD_INTRO
+
+- [官方/原始来源](https://openusd.org/release/intro.html)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:36:25.206722+00:00`
+- `sha256`：`003ef441ea44aebefbd4d888b201312a1ec97fc1bcc8c9158ac8a16412a21c0a`
+- `original_sha256`：`d5ba77ce9c119a3cbd59ae3b08904a423881a45ef695b1d47a8374de91c5f54c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_USD_INTRO--7de15b45ad852750/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_USD_INTRO--7de15b45ad852750/original.response`
+
+<a id="ref-638fecb90a100fca"></a>
+
+## NVIDIA_Isaac_Manipulator_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_manipulator/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:18.452918+00:00`
+- `sha256`：`59a33916e5e09f5da3583be727fcd4c49929e631b522fb7866d46f20c7293330`
+- `original_sha256`：`59a33916e5e09f5da3583be727fcd4c49929e631b522fb7866d46f20c7293330`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_Manipulator_README--638fecb90a100fca/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_Manipulator_README--638fecb90a100fca/original.response`
+
+<a id="ref-0353d0b67009c6aa"></a>
+
+## NVIDIA_Isaac_ROS_Common_License
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_common/main/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:21.254540+00:00`
+- `sha256`：`d3ae3fd96db12c049c7a2293d8da8f5acf762790c5b07b4f0a5345e60b84098d`
+- `original_sha256`：`d3ae3fd96db12c049c7a2293d8da8f5acf762790c5b07b4f0a5345e60b84098d`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Common_License--0353d0b67009c6aa/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Common_License--0353d0b67009c6aa/original.response`
+
+<a id="ref-db847f8cd96b74e7"></a>
+
+## NVIDIA_Isaac_ROS_Common_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_common/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:20.328679+00:00`
+- `sha256`：`539f726bf5743a5ab819f1e55ddba1026776e3c7d6398fe9a6ba38bad4921858`
+- `original_sha256`：`539f726bf5743a5ab819f1e55ddba1026776e3c7d6398fe9a6ba38bad4921858`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Common_README--db847f8cd96b74e7/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Common_README--db847f8cd96b74e7/original.response`
+
+<a id="ref-8c1b7de6386cb6b9"></a>
+
+## NVIDIA_06_DEPLOY_LICENSE
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_deploy/release-5.0/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:36:41.861009+00:00`
+- `sha256`：`4f321b887d0350e672e06c8a8bc85cff17ee2d1f3c360617079041ceee324c81`
+- `original_sha256`：`4f321b887d0350e672e06c8a8bc85cff17ee2d1f3c360617079041ceee324c81`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/06_DEPLOY_LICENSE--8c1b7de6386cb6b9/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/06_DEPLOY_LICENSE--8c1b7de6386cb6b9/original.response`
+
+<a id="ref-58df54a94df70912"></a>
+
+## NVIDIA_Isaac_ROS_Nova_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_nova/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:31:51.049996+00:00`
+- `sha256`：`2a96349f38324f2aec031ac33333e16baeba3754f55f078eb26f31490cf63626`
+- `original_sha256`：`2a96349f38324f2aec031ac33333e16baeba3754f55f078eb26f31490cf63626`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Nova_README--58df54a94df70912/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Nova_README--58df54a94df70912/original.response`
+
+<a id="ref-c2aed428570c1011"></a>
+
+## NVIDIA_03_SIPL_REPO_LICENSE
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_sipl_camera/main/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T10:18:39.412729+00:00`
+- `sha256`：`ce83cbfd19cafbfe118f6fc52007d1d263a4839046e4aed7031004ecc7caafa8`
+- `original_sha256`：`ce83cbfd19cafbfe118f6fc52007d1d263a4839046e4aed7031004ecc7caafa8`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/03_SIPL_REPO_LICENSE--c2aed428570c1011/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/03_SIPL_REPO_LICENSE--c2aed428570c1011/original.response`
+
+<a id="ref-25909596da71a031"></a>
+
+## NVIDIA_03_VSLAM_LICENSE
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam/main/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T10:17:07.297283+00:00`
+- `sha256`：`58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd`
+- `original_sha256`：`58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/03_VSLAM_LICENSE--25909596da71a031/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/03_VSLAM_LICENSE--25909596da71a031/original.response`
+
+<a id="ref-2ebdac189b552d90"></a>
+
+## NVIDIA_Isaac_ROS_Visual_SLAM_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:15.098761+00:00`
+- `sha256`：`35ed7952153c9db3a6a8a20b2aafaebcc51369d26bbafe2f3a1a56aa70c658b8`
+- `original_sha256`：`35ed7952153c9db3a6a8a20b2aafaebcc51369d26bbafe2f3a1a56aa70c658b8`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Visual_SLAM_README--2ebdac189b552d90/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Isaac_ROS_Visual_SLAM_README--2ebdac189b552d90/original.response`
+
+<a id="ref-2c95343eaa037b11"></a>
+
+## NVIDIA_PhysX_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA-Omniverse/PhysX/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:32.180460+00:00`
+- `sha256`：`af32e07810117e00790d741ce1ce8a5b775e972e2cacf97b170134f3ba0f52e8`
+- `original_sha256`：`af32e07810117e00790d741ce1ce8a5b775e972e2cacf97b170134f3ba0f52e8`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/PhysX_README--2c95343eaa037b11/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/PhysX_README--2c95343eaa037b11/original.response`
+
+<a id="ref-9d9946c66ea15cdb"></a>
+
+## NVIDIA_GR00T_License
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:19.260028+00:00`
+- `sha256`：`93363510f62ce25ad1a47605b0b06ab335edd82f1a444531c58dd30b6e5a5a0c`
+- `original_sha256`：`93363510f62ce25ad1a47605b0b06ab335edd82f1a444531c58dd30b6e5a5a0c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_License--9d9946c66ea15cdb/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_License--9d9946c66ea15cdb/original.response`
+
+<a id="ref-5d29c835c8afd8af"></a>
+
+## NVIDIA_GR00T_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:18.157896+00:00`
+- `sha256`：`eaf44fef44fe63e02403d1d81aab8175debbcc4a8e7f36bbd574475e836eaeac`
+- `original_sha256`：`eaf44fef44fe63e02403d1d81aab8175debbcc4a8e7f36bbd574475e836eaeac`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_README--5d29c835c8afd8af/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_README--5d29c835c8afd8af/original.response`
+
+<a id="ref-ac8632ec897dadd4"></a>
+
+## NVIDIA_GR00T_New_Embodiment
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/getting_started/finetune_new_embodiment.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:43:53.293857+00:00`
+- `sha256`：`0866df58044a77b4581590c44f05bad3fb3e8947a1e6cd16e1b62e4030f97c26`
+- `original_sha256`：`0866df58044a77b4581590c44f05bad3fb3e8947a1e6cd16e1b62e4030f97c26`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_New_Embodiment--ac8632ec897dadd4/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_New_Embodiment--ac8632ec897dadd4/original.response`
+
+<a id="ref-162330cafc692010"></a>
+
+## NVIDIA_GR00T_Hardware_Guide
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/getting_started/hardware_recommendation.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:43:52.147735+00:00`
+- `sha256`：`2b92de088a3c1c7d0094d703d8a07dd9cafe91eab9dedb8e8dc13197385ed52a`
+- `original_sha256`：`2b92de088a3c1c7d0094d703d8a07dd9cafe91eab9dedb8e8dc13197385ed52a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_Hardware_Guide--162330cafc692010/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_Hardware_Guide--162330cafc692010/original.response`
+
+<a id="ref-7717413c25d7a056"></a>
+
+## NVIDIA_GR00T_Architecture_Image
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/media/model-architecture.png)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:43:54.479209+00:00`
+- `sha256`：`bbf161c66daac88799b5bc7b5c110429f48d7f96ae315113e2b2e6d1f11c9e54`
+- `original_sha256`：`bbf161c66daac88799b5bc7b5c110429f48d7f96ae315113e2b2e6d1f11c9e54`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_Architecture_Image--7717413c25d7a056/content.png`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_Architecture_Image--7717413c25d7a056/original.response`
+
+<a id="ref-af6435cdb176784f"></a>
+
+## NVIDIA_GR00T_Deployment_Guide
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/scripts/deployment/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:43:49.947080+00:00`
+- `sha256`：`a2657a360c8752e71896686fb0873721330b555dbed24a023971ca7732605751`
+- `original_sha256`：`a2657a360c8752e71896686fb0873721330b555dbed24a023971ca7732605751`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_Deployment_Guide--af6435cdb176784f/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GR00T_Deployment_Guide--af6435cdb176784f/original.response`
+
+<a id="ref-e5fb4d7b489ab402"></a>
+
+## NVIDIA_08_OSMO_LICENSE
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/OSMO/main/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:48:53.988245+00:00`
+- `sha256`：`c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4`
+- `original_sha256`：`c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_OSMO_LICENSE--e5fb4d7b489ab402/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_OSMO_LICENSE--e5fb4d7b489ab402/original.response`
+
+<a id="ref-594757da33ea4f5a"></a>
+
+## NVIDIA_08_OSMO_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/OSMO/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:48:42.488300+00:00`
+- `sha256`：`08cfea3f0dd5cce59d9231fb713cc0881037dec5b968c68341ba46638861a56a`
+- `original_sha256`：`08cfea3f0dd5cce59d9231fb713cc0881037dec5b968c68341ba46638861a56a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_OSMO_README--594757da33ea4f5a/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_OSMO_README--594757da33ea4f5a/original.response`
+
+<a id="ref-02417d0b63682054"></a>
+
+## NVIDIA_08_DEEP_OSMO_FIG
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/OSMO/main/docs/user_guide/overview.svg)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:01:06.579767+00:00`
+- `sha256`：`305f3fd0782ad0416cb56728c1fc554c90cdd72c4064b98f74d71eaf16f226b6`
+- `original_sha256`：`305f3fd0782ad0416cb56728c1fc554c90cdd72c4064b98f74d71eaf16f226b6`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_DEEP_OSMO_FIG--02417d0b63682054/content.svg`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_DEEP_OSMO_FIG--02417d0b63682054/original.response`
+
+<a id="ref-32e5217c69e21b3e"></a>
+
+## NVIDIA_02_CUDNN_LICENSE_MIT
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/cudnn-frontend/develop/LICENSE-MIT.txt)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:13:28.216824+00:00`
+- `sha256`：`6a1e5992580aadeeea1023b2594d415a87457a4af12162c4eb7e5e1168fd92af`
+- `original_sha256`：`6a1e5992580aadeeea1023b2594d415a87457a4af12162c4eb7e5e1168fd92af`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_CUDNN_LICENSE_MIT--32e5217c69e21b3e/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_CUDNN_LICENSE_MIT--32e5217c69e21b3e/original.response`
+
+<a id="ref-605a4792fe4a04ce"></a>
+
+## NVIDIA_02_CUDNN_LICENSE2
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/cudnn-frontend/develop/LICENSE.txt)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:16:20.326840+00:00`
+- `sha256`：`a58e7a5653d57f4907c73b6ed3bde05119cd9fb96a985bc944b4239a22d8f7ea`
+- `original_sha256`：`a58e7a5653d57f4907c73b6ed3bde05119cd9fb96a985bc944b4239a22d8f7ea`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_CUDNN_LICENSE2--605a4792fe4a04ce/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_CUDNN_LICENSE2--605a4792fe4a04ce/original.response`
+
+<a id="ref-7f592dcd10398b0a"></a>
+
+## NVIDIA_02_CUDNN_LICENSING
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/cudnn-frontend/develop/LICENSING.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:19:16.148343+00:00`
+- `sha256`：`b92fa883c22441f4c2d2149035e4ef7b795892eefaa088c81b30f9cc55023dcb`
+- `original_sha256`：`b92fa883c22441f4c2d2149035e4ef7b795892eefaa088c81b30f9cc55023dcb`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_CUDNN_LICENSING--7f592dcd10398b0a/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_CUDNN_LICENSING--7f592dcd10398b0a/original.response`
+
+<a id="ref-8f4155d91fce8318"></a>
+
+## NVIDIA_02_CUDNN_LICENSE_THIRD
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/cudnn-frontend/develop/THIRD_PARTY_LICENSES.txt)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:13:29.260874+00:00`
+- `sha256`：`a97db19e0fa174f1f31611e6d8a232b0fef43411a7d0e52c9314927839525d8e`
+- `original_sha256`：`a97db19e0fa174f1f31611e6d8a232b0fef43411a7d0e52c9314927839525d8e`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_CUDNN_LICENSE_THIRD--8f4155d91fce8318/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_CUDNN_LICENSE_THIRD--8f4155d91fce8318/original.response`
+
+<a id="ref-cd538ced92e7a1f1"></a>
+
+## NVIDIA_02_CUDNN_REPO_LICENSE
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/cudnn-frontend/main/LICENSE)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T08:11:29.778725+00:00`
+
+<a id="ref-78d42f8f27b4b50d"></a>
+
+## NVIDIA_02_PVA_REPO_LICENSE
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/pva-solutions/main/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:14:10.462320+00:00`
+- `sha256`：`2bf6b727d1dfdf076c38ff31e8aef592bf3a772b6d1404fa75a9bfe2ace15b84`
+- `original_sha256`：`2bf6b727d1dfdf076c38ff31e8aef592bf3a772b6d1404fa75a9bfe2ace15b84`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_PVA_REPO_LICENSE--78d42f8f27b4b50d/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_PVA_REPO_LICENSE--78d42f8f27b4b50d/original.response`
+
+<a id="ref-9ad164d27c050af9"></a>
+
+## NVIDIA_02_TAO_REPO_LICENSE
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/tao_pytorch_backend/main/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:11:50.221687+00:00`
+- `sha256`：`4f321b887d0350e672e06c8a8bc85cff17ee2d1f3c360617079041ceee324c81`
+- `original_sha256`：`4f321b887d0350e672e06c8a8bc85cff17ee2d1f3c360617079041ceee324c81`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_TAO_REPO_LICENSE--9ad164d27c050af9/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_TAO_REPO_LICENSE--9ad164d27c050af9/original.response`
+
+<a id="ref-fd135a80dfebcca5"></a>
+
+## NVIDIA_05_WARP_LICENSE
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/warp/main/LICENSE.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:31:58.728479+00:00`
+- `sha256`：`47107323a174bfffeaffdc5b778152c3f9bdf66b2ecec4229542480d5937bcf9`
+- `original_sha256`：`47107323a174bfffeaffdc5b778152c3f9bdf66b2ecec4229542480d5937bcf9`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/05_WARP_LICENSE--fd135a80dfebcca5/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/05_WARP_LICENSE--fd135a80dfebcca5/original.response`
+
+<a id="ref-fff590e11a0d39f6"></a>
+
+## NVIDIA_Warp_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVIDIA/warp/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:24.601128+00:00`
+- `sha256`：`b526fce30a1b14c28eb706a702e2998afeed383b2b0b9d2262bbe1c49a70bc85`
+- `original_sha256`：`b526fce30a1b14c28eb706a702e2998afeed383b2b0b9d2262bbe1c49a70bc85`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Warp_README--fff590e11a0d39f6/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Warp_README--fff590e11a0d39f6/original.response`
+
+<a id="ref-cc1af296092e857e"></a>
+
+## NVIDIA_04_DEEP_POSE_LICENSE
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVlabs/FoundationPose/main/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:20:29.495735+00:00`
+- `sha256`：`0de51abc6b73e24724858239efc42cfeada5d9e7c911cf7eff077bd9a23dec62`
+- `original_sha256`：`0de51abc6b73e24724858239efc42cfeada5d9e7c911cf7eff077bd9a23dec62`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_POSE_LICENSE--cc1af296092e857e/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_POSE_LICENSE--cc1af296092e857e/original.response`
+
+<a id="ref-fa171cfaeb35cb89"></a>
+
+## NVIDIA_04_EXP_FOUNDATIONPOSE_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVlabs/FoundationPose/main/readme.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:05:36.972489+00:00`
+- `sha256`：`77dff29225aa2e53b48b7444afa5e25a1573f22a1eef497c61da212511dc086f`
+- `original_sha256`：`77dff29225aa2e53b48b7444afa5e25a1573f22a1eef497c61da212511dc086f`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_FOUNDATIONPOSE_README--fa171cfaeb35cb89/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_FOUNDATIONPOSE_README--fa171cfaeb35cb89/original.response`
+
+<a id="ref-df5a33e53e5996fd"></a>
+
+## NVIDIA_04_EXP_FOUNDATIONSTEREO_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVlabs/FoundationStereo/main/README.md)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:05:39.531556+00:00`
+
+<a id="ref-b589eed79153b13f"></a>
+
+## NVIDIA_04_EXP_FOUNDATIONSTEREO_README2
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVlabs/FoundationStereo/master/README.md)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:11:33.083249+00:00`
+
+<a id="ref-313401c825f5ceb4"></a>
+
+## NVIDIA_04_DEEP_SONIC_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVlabs/GEAR-SONIC/main/README.md)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:13:26.643499+00:00`
+
+<a id="ref-8966f6994a2f9a55"></a>
+
+## NVIDIA_04_EXP_SONIC_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVlabs/SONIC/main/README.md)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:05:00.334442+00:00`
+
+<a id="ref-137f2f833cf56982"></a>
+
+## NVIDIA_04_EXP_ALPAMAYO_RECIPES
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVlabs/alpamayo-recipes/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:08:10.877628+00:00`
+- `sha256`：`7f6e53275ba68d3efbb06df708aef385e4999e5bd8ab726a158670130381bd33`
+- `original_sha256`：`7f6e53275ba68d3efbb06df708aef385e4999e5bd8ab726a158670130381bd33`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_ALPAMAYO_RECIPES--137f2f833cf56982/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_ALPAMAYO_RECIPES--137f2f833cf56982/original.response`
+
+<a id="ref-70c20cd5adf272b8"></a>
+
+## NVIDIA_04_EXP_ALPAMAYO_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVlabs/alpamayo/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:05:19.073988+00:00`
+- `sha256`：`f1e4e490ac6d2628592db39e3154a41a919cad656120859bfa99d0a093348a47`
+- `original_sha256`：`f1e4e490ac6d2628592db39e3154a41a919cad656120859bfa99d0a093348a47`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_ALPAMAYO_README--70c20cd5adf272b8/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_ALPAMAYO_README--70c20cd5adf272b8/original.response`
+
+<a id="ref-e7935c7951d05964"></a>
+
+## NVIDIA_cuRobo_License
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVlabs/curobo/main/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:24.253449+00:00`
+- `sha256`：`f39b6dc8b687586fe57a7d6dd6df4d241575e9dea459dbc4c2c080452397b45c`
+- `original_sha256`：`f39b6dc8b687586fe57a7d6dd6df4d241575e9dea459dbc4c2c080452397b45c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/cuRobo_License--e7935c7951d05964/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/cuRobo_License--e7935c7951d05964/original.response`
+
+<a id="ref-fc9de61d84b3320d"></a>
+
+## NVIDIA_cuRobo_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/NVlabs/curobo/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:22.347459+00:00`
+- `sha256`：`d759e37ab4847e61c68e3e33bb4d805feb8a1c5610660d58776bf9e179e980cd`
+- `original_sha256`：`d759e37ab4847e61c68e3e33bb4d805feb8a1c5610660d58776bf9e179e980cd`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/cuRobo_README--fc9de61d84b3320d/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/cuRobo_README--fc9de61d84b3320d/original.response`
+
+<a id="ref-93ae0cec36eeb1cd"></a>
+
+## NVIDIA_04_EXP_OPENPI_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:05:31.360388+00:00`
+- `sha256`：`567fc57766bd736664f50126cab8145af4071ca16cc5e238f2b11e369169c3b5`
+- `original_sha256`：`567fc57766bd736664f50126cab8145af4071ca16cc5e238f2b11e369169c3b5`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_OPENPI_README--93ae0cec36eeb1cd/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_OPENPI_README--93ae0cec36eeb1cd/original.response`
+
+<a id="ref-e0c2cad03f683ff0"></a>
+
+## NVIDIA_04_EXP_OPENPI_LIBERO
+
+- [官方/原始来源](https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/examples/libero/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:11:14.964957+00:00`
+- `sha256`：`a2caaf5459c4b01837b73aa93a6f69e8cdf10385b39c34eba36afa85f83fafe9`
+- `original_sha256`：`a2caaf5459c4b01837b73aa93a6f69e8cdf10385b39c34eba36afa85f83fafe9`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_OPENPI_LIBERO--e0c2cad03f683ff0/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_OPENPI_LIBERO--e0c2cad03f683ff0/original.response`
+
+<a id="ref-ff1eedfea7364372"></a>
+
+## NVIDIA_04_EXP_LEROBOT_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/huggingface/lerobot/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:05:33.943097+00:00`
+- `sha256`：`19f89b043842b99c1a1be12e918f37821a98077db95e048c199e715419c3e155`
+- `original_sha256`：`19f89b043842b99c1a1be12e918f37821a98077db95e048c199e715419c3e155`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_LEROBOT_README--ff1eedfea7364372/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_LEROBOT_README--ff1eedfea7364372/original.response`
+
+<a id="ref-b6ce85c046ee972b"></a>
+
+## NVIDIA_04_DEEP_SMOL_DOC
+
+- [官方/原始来源](https://raw.githubusercontent.com/huggingface/lerobot/main/docs/source/en/smolvla.mdx)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:13:39.103484+00:00`
+
+<a id="ref-1f4d00470e7e7396"></a>
+
+## NVIDIA_04_DEEP_SMOL_VERIFIED
+
+- [官方/原始来源](https://raw.githubusercontent.com/huggingface/lerobot/main/docs/source/policy_smolvla_README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:19:51.181238+00:00`
+- `sha256`：`518995d5cb706f7e70e8aa606b71c53279f6d6cf6ed8a988c15bb903cc5af16c`
+- `original_sha256`：`518995d5cb706f7e70e8aa606b71c53279f6d6cf6ed8a988c15bb903cc5af16c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_SMOL_VERIFIED--1f4d00470e7e7396/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_DEEP_SMOL_VERIFIED--1f4d00470e7e7396/original.response`
+
+<a id="ref-55182f0cb8551ce1"></a>
+
+## NVIDIA_07_DEEP_LEROBOT_FIG
+
+- [官方/原始来源](https://raw.githubusercontent.com/huggingface/lerobot/main/media/readme/VLA_architecture.jpg)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:49:38.976850+00:00`
+- `sha256`：`a54f82e318e0a9c0c6bbd1ef099685518f001d5bf3a5f341d6d2090994e7cb43`
+- `original_sha256`：`a54f82e318e0a9c0c6bbd1ef099685518f001d5bf3a5f341d6d2090994e7cb43`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/07_DEEP_LEROBOT_FIG--55182f0cb8551ce1/content.jpg`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/07_DEEP_LEROBOT_FIG--55182f0cb8551ce1/original.response`
+
+<a id="ref-8d3916d73175f044"></a>
+
+## NVIDIA_GitHub_IsaacLab_License
+
+- [官方/原始来源](https://raw.githubusercontent.com/isaac-sim/IsaacLab/main/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:55:06.268859+00:00`
+- `sha256`：`932e8d7120d38062d68754314b8be64380bc8236eb012626f9c6c1353d6dc9df`
+- `original_sha256`：`932e8d7120d38062d68754314b8be64380bc8236eb012626f9c6c1353d6dc9df`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GitHub_IsaacLab_License--8d3916d73175f044/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GitHub_IsaacLab_License--8d3916d73175f044/original.response`
+
+<a id="ref-5af037b6c4754936"></a>
+
+## NVIDIA_GitHub_IsaacLab_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/isaac-sim/IsaacLab/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:55:17.690249+00:00`
+- `sha256`：`56c2bc1d672de3a037d442402a7680f986f7186761da202dee08150aed1a3094`
+- `original_sha256`：`56c2bc1d672de3a037d442402a7680f986f7186761da202dee08150aed1a3094`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GitHub_IsaacLab_README--5af037b6c4754936/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GitHub_IsaacLab_README--5af037b6c4754936/original.response`
+
+<a id="ref-1c21a8f4920bb953"></a>
+
+## NVIDIA_GitHub_IsaacSim_License
+
+- [官方/原始来源](https://raw.githubusercontent.com/isaac-sim/IsaacSim/main/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:55:18.563746+00:00`
+- `sha256`：`99a1d647e8751407fd965af6733624d96abfc1f2a7e767d09ed528ef414c603e`
+- `original_sha256`：`99a1d647e8751407fd965af6733624d96abfc1f2a7e767d09ed528ef414c603e`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GitHub_IsaacSim_License--1c21a8f4920bb953/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GitHub_IsaacSim_License--1c21a8f4920bb953/original.response`
+
+<a id="ref-f83a41d58eaa5fc9"></a>
+
+## NVIDIA_GitHub_IsaacSim_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/isaac-sim/IsaacSim/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:55:19.498060+00:00`
+- `sha256`：`13b6ce1cc0b151ea4d2b4d670a4455e00e23dbadbad7ef801852f0f568c879e4`
+- `original_sha256`：`13b6ce1cc0b151ea4d2b4d670a4455e00e23dbadbad7ef801852f0f568c879e4`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GitHub_IsaacSim_README--f83a41d58eaa5fc9/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/GitHub_IsaacSim_README--f83a41d58eaa5fc9/original.response`
+
+<a id="ref-aac65d531df3ffee"></a>
+
+## NVIDIA_05_NEWTON_LICENSE
+
+- [官方/原始来源](https://raw.githubusercontent.com/newton-physics/newton/main/LICENSE.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T01:31:47.175463+00:00`
+- `sha256`：`a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9`
+- `original_sha256`：`a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/05_NEWTON_LICENSE--aac65d531df3ffee/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/05_NEWTON_LICENSE--aac65d531df3ffee/original.response`
+
+<a id="ref-38ed19edf0ff48b3"></a>
+
+## NVIDIA_Newton_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/newton-physics/newton/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:32:28.148475+00:00`
+- `sha256`：`4ea44632951f23016705ac3dd464fe0af4f2466be62c71c215f3fcabd5f642b5`
+- `original_sha256`：`4ea44632951f23016705ac3dd464fe0af4f2466be62c71c215f3fcabd5f642b5`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Newton_README--38ed19edf0ff48b3/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Newton_README--38ed19edf0ff48b3/original.response`
+
+<a id="ref-58765625b3ab6946"></a>
+
+## NVIDIA_02_HOLO_LICENSE
+
+- [官方/原始来源](https://raw.githubusercontent.com/nvidia-holoscan/holoscan-sdk/main/LICENSE.txt)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:06:58.770598+00:00`
+- `sha256`：`4f321b887d0350e672e06c8a8bc85cff17ee2d1f3c360617079041ceee324c81`
+- `original_sha256`：`4f321b887d0350e672e06c8a8bc85cff17ee2d1f3c360617079041ceee324c81`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_HOLO_LICENSE--58765625b3ab6946/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_HOLO_LICENSE--58765625b3ab6946/original.response`
+
+<a id="ref-3d0745b7083598e8"></a>
+
+## NVIDIA_Holoscan_Sensor_Bridge_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/nvidia-holoscan/holoscan-sensor-bridge/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:07.153004+00:00`
+- `sha256`：`ea1445205edcd7052e33568bffd94138effa5e5ee8cbc2c08d9dbfd051d1484a`
+- `original_sha256`：`ea1445205edcd7052e33568bffd94138effa5e5ee8cbc2c08d9dbfd051d1484a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Holoscan_Sensor_Bridge_READM--3d0745b7083598e8/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Holoscan_Sensor_Bridge_READM--3d0745b7083598e8/original.response`
+
+<a id="ref-4a932803c0397a9f"></a>
+
+## NVIDIA_04_EXP_OPENVLA_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/openvla/openvla/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:05:27.139793+00:00`
+- `sha256`：`ba8e9a2884e38a8000dafc98af4116512e37b0e143dad2f940100482bfd6b75c`
+- `original_sha256`：`ba8e9a2884e38a8000dafc98af4116512e37b0e143dad2f940100482bfd6b75c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_OPENVLA_README--4a932803c0397a9f/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_OPENVLA_README--4a932803c0397a9f/original.response`
+
+<a id="ref-0dd883e74976f105"></a>
+
+## NVIDIA_Orbbec_SDK_License
+
+- [官方/原始来源](https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/LICENSE)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-03T07:45:48.586161+00:00`
+
+<a id="ref-3a2178a5d6e6d650"></a>
+
+## NVIDIA_03_ORBBEC_LICENSE
+
+- [官方/原始来源](https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/LICENSE.txt)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T10:20:19.391729+00:00`
+- `sha256`：`010b2381c54551d1928784124282a7ff8cf6786f01846179bde3f810b7cd6b30`
+- `original_sha256`：`010b2381c54551d1928784124282a7ff8cf6786f01846179bde3f810b7cd6b30`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/03_ORBBEC_LICENSE--3a2178a5d6e6d650/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/03_ORBBEC_LICENSE--3a2178a5d6e6d650/original.response`
+
+<a id="ref-96eb386e04fb724f"></a>
+
+## NVIDIA_Orbbec_SDK_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:42:10.815330+00:00`
+- `sha256`：`a75945a339de75f683fc2a3668a4bc3e625487d3c305de90b5e0fd320790c68a`
+- `original_sha256`：`a75945a339de75f683fc2a3668a4bc3e625487d3c305de90b5e0fd320790c68a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Orbbec_SDK_README--96eb386e04fb724f/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Orbbec_SDK_README--96eb386e04fb724f/original.response`
+
+<a id="ref-6d698eb3dad5c80c"></a>
+
+## NVIDIA_Orbbec_Timestamps
+
+- [官方/原始来源](https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/docs/tutorial/timestamp.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:42:21.248993+00:00`
+- `sha256`：`bd880b648a36aadeff129e5bdb9145f0d59886fc5979a6e197537cd24e1ebf32`
+- `original_sha256`：`bd880b648a36aadeff129e5bdb9145f0d59886fc5979a6e197537cd24e1ebf32`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Orbbec_Timestamps--6d698eb3dad5c80c/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Orbbec_Timestamps--6d698eb3dad5c80c/original.response`
+
+<a id="ref-1a453e5885df6e5b"></a>
+
+## NVIDIA_03_ORBBEC_TRACKER
+
+- [官方/原始来源](https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/tools/timestamp_tracker/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T10:17:19.059293+00:00`
+- `sha256`：`e2990d5c2d95d612eb1076719de768c5473a93cc7a2ed153488986b66dba4cd2`
+- `original_sha256`：`e2990d5c2d95d612eb1076719de768c5473a93cc7a2ed153488986b66dba4cd2`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/03_ORBBEC_TRACKER--1a453e5885df6e5b/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/03_ORBBEC_TRACKER--1a453e5885df6e5b/original.response`
+
+<a id="ref-ede4a40dcadbce0c"></a>
+
+## NVIDIA_04_EXP_DIFFUSION_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/real-stanford/diffusion_policy/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:11:30.527418+00:00`
+- `sha256`：`51b6717d694a4ea4b476cf07c64651dc58643402beb0a27cda38a87cc58334b0`
+- `original_sha256`：`51b6717d694a4ea4b476cf07c64651dc58643402beb0a27cda38a87cc58334b0`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_DIFFUSION_README--ede4a40dcadbce0c/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_DIFFUSION_README--ede4a40dcadbce0c/original.response`
+
+<a id="ref-3273578c57c520b7"></a>
+
+## NVIDIA_08_DEEP_ROS2_INTRAPROCESS_RAW
+
+- [官方/原始来源](https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Tutorials/Demos/Intra-Process-Communication.rst)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:04:01.766553+00:00`
+- `sha256`：`b6cce91cb8a19b448e4d0347975af3a7fc4721eae91e5148ad3630b8267181e0`
+- `original_sha256`：`b6cce91cb8a19b448e4d0347975af3a7fc4721eae91e5148ad3630b8267181e0`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_DEEP_ROS2_INTRAPROCESS_RA--3273578c57c520b7/content.rst`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/08_DEEP_ROS2_INTRAPROCESS_RA--3273578c57c520b7/original.response`
+
+<a id="ref-444c7a990246b2f2"></a>
+
+## NVIDIA_08_DEEP_BUFFER_UPSTREAM_RAW
+
+- [官方/原始来源](https://raw.githubusercontent.com/ros2/ros2_documentation/rolling/source/Concepts/Intermediate/About-Buffer-Backends.rst)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:04:05.229250+00:00`
+
+<a id="ref-1b21ddbac18a2bb3"></a>
+
+## NVIDIA_04_EXP_ACT_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/tonyzhaozh/act/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T02:11:28.695541+00:00`
+- `sha256`：`5059f601c1f0409556fd467150b99e93208de5d5594e9049f87ca92b24a5e7a2`
+- `original_sha256`：`5059f601c1f0409556fd467150b99e93208de5d5594e9049f87ca92b24a5e7a2`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_ACT_README--1b21ddbac18a2bb3/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/04_EXP_ACT_README--1b21ddbac18a2bb3/original.response`
+
+<a id="ref-eae927c4b685e115"></a>
+
+## NVIDIA_Triton_License
+
+- [官方/原始来源](https://raw.githubusercontent.com/triton-inference-server/server/main/LICENSE)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:27.030210+00:00`
+- `sha256`：`179f37347fde9030609578b02539af12bc66b39c291de1c30d8525c6cd390036`
+- `original_sha256`：`179f37347fde9030609578b02539af12bc66b39c291de1c30d8525c6cd390036`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Triton_License--eae927c4b685e115/content.txt`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Triton_License--eae927c4b685e115/original.response`
+
+<a id="ref-75f0dc62c9a209fd"></a>
+
+## NVIDIA_Triton_README
+
+- [官方/原始来源](https://raw.githubusercontent.com/triton-inference-server/server/main/README.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:29:25.790052+00:00`
+- `sha256`：`90251fb00c1b06fbb425e00a115913e53a23d46ee840606093bcd5fccee71356`
+- `original_sha256`：`90251fb00c1b06fbb425e00a115913e53a23d46ee840606093bcd5fccee71356`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Triton_README--75f0dc62c9a209fd/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Triton_README--75f0dc62c9a209fd/original.response`
+
+<a id="ref-f54b53199df65acb"></a>
+
+## NVIDIA_02_TRITON_ARCH
+
+- [官方/原始来源](https://raw.githubusercontent.com/triton-inference-server/server/main/docs/user_guide/architecture.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:00:44.713451+00:00`
+- `sha256`：`d455186ddf500296926ce7ba35fdd8aef085234b3b1dc72bb090a4736027e257`
+- `original_sha256`：`d455186ddf500296926ce7ba35fdd8aef085234b3b1dc72bb090a4736027e257`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_TRITON_ARCH--f54b53199df65acb/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_TRITON_ARCH--f54b53199df65acb/original.response`
+
+<a id="ref-de549fd37788912e"></a>
+
+## NVIDIA_Triton_Batching
+
+- [官方/原始来源](https://raw.githubusercontent.com/triton-inference-server/server/main/docs/user_guide/batcher.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:44:48.338028+00:00`
+- `sha256`：`577e45c86b65a73e42aca1bb406d48a5edf25540e9312de904388ae69c1f9505`
+- `original_sha256`：`577e45c86b65a73e42aca1bb406d48a5edf25540e9312de904388ae69c1f9505`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Triton_Batching--de549fd37788912e/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Triton_Batching--de549fd37788912e/original.response`
+
+<a id="ref-002e850121ce1d07"></a>
+
+## NVIDIA_02_TRITON_FIG
+
+- [官方/原始来源](https://raw.githubusercontent.com/triton-inference-server/server/main/docs/user_guide/images/arch.jpg)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T08:06:34.755742+00:00`
+- `sha256`：`22e9bccd6ac2edfdf524771f48d21f542fb129d106ea46e62cd24ba7f6e6c33f`
+- `original_sha256`：`22e9bccd6ac2edfdf524771f48d21f542fb129d106ea46e62cd24ba7f6e6c33f`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_TRITON_FIG--002e850121ce1d07/content.jpg`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/02_TRITON_FIG--002e850121ce1d07/original.response`
+
+<a id="ref-c537a4e0db6e70b8"></a>
+
+## NVIDIA_Triton_Model_Management
+
+- [官方/原始来源](https://raw.githubusercontent.com/triton-inference-server/server/main/docs/user_guide/model_management.md)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:44:49.449837+00:00`
+- `sha256`：`cb590384d693eb221da0e2a764aca13cd3990270eca84e6d45d66389cd15f276`
+- `original_sha256`：`cb590384d693eb221da0e2a764aca13cd3990270eca84e6d45d66389cd15f276`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Triton_Model_Management--c537a4e0db6e70b8/content.md`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/data/Triton_Model_Management--c537a4e0db6e70b8/original.response`
+
+<a id="ref-8eeb988bc5c698d6"></a>
+
+## NVIDIA_07_DEEP_REALSENSE
+
+- [官方/原始来源](https://realsenseai.com/news-insights/news/RealSense-and-NVIDIA-Collaborate-to-Usher-in-the-Age-of-Physical-AI)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:43:33.235024+00:00`
+- `sha256`：`0ddce50dcf6caf84fb67506305ef8c7262286d6d31ee7b3ff71862a94dd5915a`
+- `original_sha256`：`7e9cc0f3fe15069549729a6154fd3e9970fe59fbcac32a1ef41a44dca9b165e5`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_DEEP_REALSENSE--8eeb988bc5c698d6/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_DEEP_REALSENSE--8eeb988bc5c698d6/original.response`
+- 未取得依赖：6 项；详见本地 metadata。
+
+<a id="ref-a7f14d8cfd9297f5"></a>
+
+## NVIDIA_08_DEEP_ROCM_PRECISION
+
+- [官方/原始来源](https://rocm.docs.amd.com/en/latest/reference/precision-support.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:53:40.355072+00:00`
+- `sha256`：`b5ef8c242d11aa59418a77b0867537e6c7a43f4d15ff25e6de8fad287931ec9a`
+- `original_sha256`：`1b6c76118c0c04666597e6f2d30512a993a97733958f7b8a290319db6083d73d`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_ROCM_PRECISION--a7f14d8cfd9297f5/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_ROCM_PRECISION--a7f14d8cfd9297f5/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-0077a3438456f5e6"></a>
+
+## NVIDIA_08_DEEP_HIP_GRAPH
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_runtime_api/hipgraph.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:53:35.204811+00:00`
+- `sha256`：`1f6615898bdcc6b57a430ec17492140db6fbb7b9fddb6e05594cbf2a61d60554`
+- `original_sha256`：`48da0d25b95a878fb05bdfb5e56f99cdd9caab7f94bd713dbf63b14805503967`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_HIP_GRAPH--0077a3438456f5e6/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_HIP_GRAPH--0077a3438456f5e6/original.response`
+- 未取得依赖：1 项；详见本地 metadata。
+
+<a id="ref-b375803d7ee408be"></a>
+
+## NVIDIA_08_DEEP_HIP_MODEL
+
+- [官方/原始来源](https://rocm.docs.amd.com/projects/HIP/en/latest/understand/programming_model.html)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:52:40.489535+00:00`
+- `sha256`：`b8eaa1be900938cb9807010e22d4f8eba444b55821e63eff3381a48ceda99bc8`
+- `original_sha256`：`641fd775d71f1f6499fe2c9000117822c5194566d0632ee9f3138e008dc899bb`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_HIP_MODEL--b375803d7ee408be/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/08_DEEP_HIP_MODEL--b375803d7ee408be/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-033b31f46d2f8b0a"></a>
+
+## NVIDIA_09_DEEP_FY2026
+
+- [官方/原始来源](https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:18:24.909548+00:00`
+
+<a id="ref-81cae9ec791ee3cb"></a>
+
+## NVIDIA_04_DEEP_ACT_PROJECT
+
+- [官方/原始来源](https://tonyzhaozh.github.io/aloha/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:13:41.160471+00:00`
+- `sha256`：`eef495104f47586a2b48ff6c4d6dacb05ca69a458abbdb742f5ad57c67b4ae9c`
+- `original_sha256`：`61caeeef121e9a5d114a9b22cfe382452c8d9b0eac9afaf7ab4cf447c3d74eec`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_DEEP_ACT_PROJECT--81cae9ec791ee3cb/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_DEEP_ACT_PROJECT--81cae9ec791ee3cb/original.response`
+- 未取得依赖：6 项；详见本地 metadata。
+
+<a id="ref-724fbd7f6f247026"></a>
+
+## NVIDIA_06_DEEP_NEO
+
+- [官方/原始来源](https://www.1x.tech/neo)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:31:12.451005+00:00`
+- `sha256`：`9f5cca9c7ed9efc2e71401d7a399a052a9765952a15cbf5b68199b60a2714b1f`
+- `original_sha256`：`721f1a7a63b54c93edd857bb89638f745d1c0a9cac98c0deca4c5e3164e7c551`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_NEO--724fbd7f6f247026/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_NEO--724fbd7f6f247026/original.response`
+- 未取得依赖：5 项；详见本地 metadata。
+
+<a id="ref-2d0d7c42f06bd6d6"></a>
+
+## NVIDIA_07_DEEP_AAEON
+
+- [官方/原始来源](https://www.aaeon.com/en/product/list/aaeon-nvidia-ai-solutions)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:47:25.103974+00:00`
+- `sha256`：`dfdc11fa158ea74c0ae2b471e1acd78a307ffe8d7e0b6a4788034d7fb853427a`
+- `original_sha256`：`c80b4db481765399b539f7c5ed2a5f978f0c4fc8f2999d4b3de646cbd41dd1ab`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_DEEP_AAEON--2d0d7c42f06bd6d6/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_DEEP_AAEON--2d0d7c42f06bd6d6/original.response`
+- 未取得依赖：49 项；详见本地 metadata。
+
+<a id="ref-798e0ba32d02b4d9"></a>
+
+## NVIDIA_07_DEEP_ADVANTECH
+
+- [官方/原始来源](https://www.advantech.com/en-us/resources/news/advantech-announces-next-gen-robotics-development-kit-with-nvidia-jetson-thor-with-holoscan-built-in)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:39:39.846207+00:00`
+- `sha256`：`331af713303f38f2d7fcca3cabd050df9d68fc470f0c771c895c08b2ba8b09ae`
+- `original_sha256`：`7efc0ed3f02131a110fb6f8c5e3f85193685b16b4b11f0ac8f06a54e0400220a`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_DEEP_ADVANTECH--798e0ba32d02b4d9/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_DEEP_ADVANTECH--798e0ba32d02b4d9/original.response`
+- 未取得依赖：4 项；详见本地 metadata。
+
+<a id="ref-d6cfe98b2c978c0c"></a>
+
+## NVIDIA_07_DEEP_AETINA
+
+- [官方/原始来源](https://www.aetina.com/products-features.php?t=337)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:46:22.630030+00:00`
+- `sha256`：`f2c84739a693b68c82da0188ce7b7f823930e365b99e768afd714942ee2116fb`
+- `original_sha256`：`050114a93ebb8f3afe2543b160dc4fe4eb0c893a0d938090b0506b322a9ba107`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_DEEP_AETINA--d6cfe98b2c978c0c/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_DEEP_AETINA--d6cfe98b2c978c0c/original.response`
+- 未取得依赖：38 项；详见本地 metadata。
+
+<a id="ref-9a45a9d4062d6f68"></a>
+
+## NVIDIA_06_DEEP_AGILITY_THOR
+
+- [官方/原始来源](https://www.agilityrobotics.com/content/agility-robotics-powering-the-future-of-robotics-with-nvidia-jetson-thor)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:26:02.534649+00:00`
+- `sha256`：`663c0bd01d3c4db4c9aead7353d366805db44bbf6eebff26b737167ccd5399ce`
+- `original_sha256`：`762f8e57b468aa26ce62770bc3fad5561c3653882b210dfe001691c3e856bf7d`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_AGILITY_THOR--9a45a9d4062d6f68/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_AGILITY_THOR--9a45a9d4062d6f68/original.response`
+- 未取得依赖：31 项；详见本地 metadata。
+
+<a id="ref-4183bf0e35b3d128"></a>
+
+## NVIDIA_09_DEEP_AGILITY_GXO
+
+- [官方/原始来源](https://www.agilityrobotics.com/content/gxo-signs-multi-year-agreement-with-agility-robotics)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:17:48.618159+00:00`
+
+<a id="ref-bc9d123d4638dc14"></a>
+
+## NVIDIA_06_DEEP_SEARCH_THOR
+
+- [官方/原始来源](https://www.bing.com/search?q=NVIDIA+Jetson+Thor+robot+Atlas+Digit+manufacturer+performance)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:25:16.978896+00:00`
+
+<a id="ref-c8af8a464a600bce"></a>
+
+## NVIDIA_06_DEEP_SEARCH_AGILITY
+
+- [官方/原始来源](https://www.bing.com/search?q=site%3Aagilityrobotics.com+Digit+Jetson+Thor)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:25:29.187239+00:00`
+
+<a id="ref-8b9efbc39168f332"></a>
+
+## NVIDIA_06_DEEP_SEARCH_ORIN
+
+- [官方/原始来源](https://www.bing.com/search?q=site%3Ablogs.nvidia.com+robot+Jetson+Orin+performance+robotics)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:25:27.529234+00:00`
+
+<a id="ref-c34e1f727f5b707d"></a>
+
+## NVIDIA_06_DEEP_SEARCH_BOSTON
+
+- [官方/原始来源](https://www.bing.com/search?q=site%3Abostondynamics.com+Atlas+Jetson+Thor)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:25:28.384992+00:00`
+
+<a id="ref-3c9154b3d850699b"></a>
+
+## NVIDIA_09_DEEP_BIS_REGULATIONS
+
+- [官方/原始来源](https://www.bis.gov/regulations)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:45:48.287436+00:00`
+
+<a id="ref-eff801ab5d597595"></a>
+
+## NVIDIA_06_DEEP_DILIGENT
+
+- [官方/原始来源](https://www.diligentrobots.com/blog/moxi2-0)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:30:11.265669+00:00`
+- `sha256`：`c7ea524ae7a5ad1b8d6386f573547a027b61dc0d5e34d7ea10420950e3a6521a`
+- `original_sha256`：`df0cb4e4ad725cb8cccab8cca842c42601893fd262e262cc2e078c2156b9ae2b`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_DILIGENT--eff801ab5d597595/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_DILIGENT--eff801ab5d597595/original.response`
+- 未取得依赖：42 项；详见本地 metadata。
+
+<a id="ref-6cf415f5a3283e6a"></a>
+
+## NVIDIA_07_DEEP_ECON
+
+- [官方/原始来源](https://www.e-consystems.com/pr/ai-powered-vision-and-compute-solutions-accelerated-by-nvidia-jetson-thor.asp)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:42:24.539729+00:00`
+- `sha256`：`aef529488c9dba9c43d7305af4868fdc945a06827264735dc78d0356a43ec5b3`
+- `original_sha256`：`3adbc67eac5b9ece2d6c61cbfec02071528588a192784bafaf9c5fcb281eb38e`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_DEEP_ECON--6cf415f5a3283e6a/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_DEEP_ECON--6cf415f5a3283e6a/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-b4f66e9a55276d27"></a>
+
+## NVIDIA_09_DEEP_EAR_738
+
+- [官方/原始来源](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-738)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:44:16.964943+00:00`
+
+<a id="ref-35f083a2be9e7d4f"></a>
+
+## NVIDIA_09_DEEP_EAR_744
+
+- [官方/原始来源](https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-744)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:44:21.511291+00:00`
+
+<a id="ref-debeb722c13fb2d0"></a>
+
+## NVIDIA_04_EXP_LABMODELS
+
+- [官方/原始来源](https://www.jetson-ai-lab.com/models/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:02:27.753437+00:00`
+- `sha256`：`697ae986681c983d381b9db8bf67fd36338bc956ac1c2af240ebfa88448d5d1c`
+- `original_sha256`：`8dffcbfa012e6df392d099687c12eacf233a6768cd5e91f8dd271b29961077c8`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LABMODELS--debeb722c13fb2d0/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LABMODELS--debeb722c13fb2d0/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-ff8d7782ec398aac"></a>
+
+## NVIDIA_04_EXP_LAB_BOLT
+
+- [官方/原始来源](https://www.jetson-ai-lab.com/models/Nemotron-3-5-Bolt-E4B-4GB)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:08:57.431884+00:00`
+- `sha256`：`127353c8cd54a5a70684a9e5d91027c236d17030ac839c2de7296018326d1d2e`
+- `original_sha256`：`bb19a250e65e6e75427a15d7efaa56effe47a9b914007b5e297da4b828bdab90`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_BOLT--ff8d7782ec398aac/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_BOLT--ff8d7782ec398aac/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-197fb6dca6d01d03"></a>
+
+## NVIDIA_04_EXP_LAB_REASON2
+
+- [官方/原始来源](https://www.jetson-ai-lab.com/models/cosmos-reason2-8b)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:08:27.421917+00:00`
+- `sha256`：`a9b3bb6d5c18abc0ac027172e3ea2dff872d04c589076572446a480294562c2f`
+- `original_sha256`：`95dce999be016def0a4c1d16fae6e0a02afc65ccc2a1ccfdb578e00ee71b660c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_REASON2--197fb6dca6d01d03/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_REASON2--197fb6dca6d01d03/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-ba46873b27b2d9de"></a>
+
+## NVIDIA_04_EXP_LAB_COSMOS3
+
+- [官方/原始来源](https://www.jetson-ai-lab.com/models/cosmos3-edge)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:08:30.682002+00:00`
+- `sha256`：`58370aeaadf8f9351cca8569b73f0e9b92d3b3eb5046d6b6463aa11f2ee7563c`
+- `original_sha256`：`5fffde2fce73e18447a2a026c9b93a3713211818a020a3bfadd5945e0aaa40b2`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_COSMOS3--ba46873b27b2d9de/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_COSMOS3--ba46873b27b2d9de/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-a774f23eab8b8e05"></a>
+
+## NVIDIA_04_EXP_LAB_FLUXACTION
+
+- [官方/原始来源](https://www.jetson-ai-lab.com/models/flux-3-action)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:08:51.892349+00:00`
+- `sha256`：`630a6a05148679acc826318d72b19172600dabea27c6959b29249fe37308da0c`
+- `original_sha256`：`e57d2b160d165b2118ddede5bf01d604d4becd39ccb2f8bae797e129568dfeb5`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_FLUXACTION--a774f23eab8b8e05/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_FLUXACTION--a774f23eab8b8e05/original.response`
+- 未取得依赖：2 项；详见本地 metadata。
+
+<a id="ref-78f2895340fb5e00"></a>
+
+## NVIDIA_04_EXP_LAB_FUNCTION
+
+- [官方/原始来源](https://www.jetson-ai-lab.com/models/functiongemma)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:08:48.771970+00:00`
+- `sha256`：`37ebb38b0e2872c7a4ddb5c167f35ee45e04a3d0833bf1e10c2606ac1c61f629`
+- `original_sha256`：`8675b15b21236dbf5c5c0f0f009c7707ee67a62867487ed4b47ee35e43e927a3`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_FUNCTION--78f2895340fb5e00/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_FUNCTION--78f2895340fb5e00/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-93157972fa84e54d"></a>
+
+## NVIDIA_04_EXP_LAB_GEMMA4
+
+- [官方/原始来源](https://www.jetson-ai-lab.com/models/gemma4-e2b)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:08:41.347874+00:00`
+- `sha256`：`298959d131d849725d552bc68be1f3f05937d5f8d2de3708dfa8c412bd7617cf`
+- `original_sha256`：`37d3a79bba4db36a35ad4cc4967e6ccd50a3f26890424a5056c9427a700f3e2e`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_GEMMA4--93157972fa84e54d/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_GEMMA4--93157972fa84e54d/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-5dca8b199aeaa5bb"></a>
+
+## NVIDIA_04_EXP_LAB_LLAMA
+
+- [官方/原始来源](https://www.jetson-ai-lab.com/models/llama3-1-8b)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:08:45.405829+00:00`
+- `sha256`：`7185c8e26a406cdb93448fa299a4822204551bc64cdbc32b20073a0c14eba4a3`
+- `original_sha256`：`c37fde2180d251c434092e708d5fefcbb3c7ec02905e149eaa244dd9dcad708d`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_LLAMA--5dca8b199aeaa5bb/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_LLAMA--5dca8b199aeaa5bb/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-c30e44c7dd8d35f2"></a>
+
+## NVIDIA_04_EXP_LAB_NANO30B
+
+- [官方/原始来源](https://www.jetson-ai-lab.com/models/nemotron-3-nano-30b-a3b)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:08:15.036269+00:00`
+- `sha256`：`7663044032776ccf05b7dfd6ec57bbf86e4834abafe60aa38f716650135e6c99`
+- `original_sha256`：`da6f1969d4bd4cc03fbde66c2d0a3e94e28b1d1a89f8ccaf181205c21a27e801`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_NANO30B--c30e44c7dd8d35f2/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_NANO30B--c30e44c7dd8d35f2/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-62e2071dfa9f3a95"></a>
+
+## NVIDIA_04_EXP_LAB_NANOVL
+
+- [官方/原始来源](https://www.jetson-ai-lab.com/models/nemotron-nano-12b-vl)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:08:25.318484+00:00`
+- `sha256`：`ccba9ce46fb5138d0f66c0ec844218ffc9d27f27da066aad430e9d8d45b32a6f`
+- `original_sha256`：`611ef06a517bd60b45f73d5917b5e31491f1291c35b9b71541620bd2b1639006`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_NANOVL--62e2071dfa9f3a95/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_NANOVL--62e2071dfa9f3a95/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-bfd218c0835e8001"></a>
+
+## NVIDIA_04_EXP_LAB_NANO9B
+
+- [官方/原始来源](https://www.jetson-ai-lab.com/models/nemotron-nano-9b-v2)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:08:22.936602+00:00`
+- `sha256`：`a547461fb12c3af78f329060818254aaece20656121e0d71c5469632a32881ab`
+- `original_sha256`：`cde7ebc35ffcd2422862dc8871f76c844dc56d91a1bd0206228581005e882cc0`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_NANO9B--bfd218c0835e8001/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_NANO9B--bfd218c0835e8001/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-612286d6b8cbb0f7"></a>
+
+## NVIDIA_04_EXP_LAB_QWEN35
+
+- [官方/原始来源](https://www.jetson-ai-lab.com/models/qwen3-5-4b)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:08:37.397334+00:00`
+- `sha256`：`44f6b35bbc692bed24aea15f8fcd6a0669eb592cfd4c4a375274abecfa1f0641`
+- `original_sha256`：`17c5b993e613671a2896284daad73957281dac2a3519bd07fb94a7f78b974a75`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_QWEN35--612286d6b8cbb0f7/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_QWEN35--612286d6b8cbb0f7/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-47a6cd0fd10edbf9"></a>
+
+## NVIDIA_04_EXP_LAB_QWENVL
+
+- [官方/原始来源](https://www.jetson-ai-lab.com/models/qwen3-vl-8b)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:08:34.304234+00:00`
+- `sha256`：`003865e851f30fcdba9b4210dabd305591a88fb020a797909a4a7958b0c85657`
+- `original_sha256`：`82102b704f91b1495013491572418c3b28e82797c67d4f223025861a970f2f90`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_QWENVL--47a6cd0fd10edbf9/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_LAB_QWENVL--47a6cd0fd10edbf9/original.response`
+- 未取得依赖：3 项；详见本地 metadata。
+
+<a id="ref-32ba0f6fa1c4463d"></a>
+
+## NVIDIA_06_DEEP_NEUREALM_MEMORY
+
+- [官方/原始来源](https://www.neurealm.com/blogs/big-ai-small-hardware-running-vlm-pipelines-on-low-memory-nvidia-jetson-skus/)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:33:47.421196+00:00`
+
+<a id="ref-6fb0ba9a318084b1"></a>
+
+## NVIDIA_Datasheet_RTX_PRO_6000_Workstation
+
+- [官方/原始来源](https://www.nvidia.com/content/dam/en-zz/Solutions/data-center/rtx-pro-6000-blackwell-workstation-edition/workstation-blackwell-rtx-pro-6000-workstation-edition-nvidia-us-3519208-web.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:54:50.270891+00:00`
+- `sha256`：`a19daec7b413bcbc2abc3893de5b97d4cfefef59cf1cb0f6121c3414037a9ddf`
+- `original_sha256`：`a19daec7b413bcbc2abc3893de5b97d4cfefef59cf1cb0f6121c3414037a9ddf`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Datasheet_RTX_PRO_6000_--6fb0ba9a318084b1/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Datasheet_RTX_PRO_6000_--6fb0ba9a318084b1/original.response`
+
+<a id="ref-047ceac2c4c7b18f"></a>
+
+## NVIDIA_Whitepaper_GB10_Superchip
+
+- [官方/原始来源](https://www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/nvidia-gb10-superchip-whitepaper.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:55:38.145924+00:00`
+- `sha256`：`241fb42e4206dd99cdbe1ee2e1267d009af1eb70219cacdf0fbe500d555782b9`
+- `original_sha256`：`241fb42e4206dd99cdbe1ee2e1267d009af1eb70219cacdf0fbe500d555782b9`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Whitepaper_GB10_Superch--047ceac2c4c7b18f/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Whitepaper_GB10_Superch--047ceac2c4c7b18f/original.response`
+
+<a id="ref-3e20a91eba0b2d9b"></a>
+
+## NVIDIA_Datasheet_RTX_PRO_6000_MaxQ
+
+- [官方/原始来源](https://www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-desktop-gpus/rtx-pro-6000-max-q/workstation-datasheet-blackwell-rtx-pro-6000-max-q-nvidia-us-5349650-web.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T06:54:46.478535+00:00`
+- `sha256`：`97e43a5d00bccc8b62395075170021746a958233b342bb0052ea272a46fa30d0`
+- `original_sha256`：`97e43a5d00bccc8b62395075170021746a958233b342bb0052ea272a46fa30d0`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Datasheet_RTX_PRO_6000_--3e20a91eba0b2d9b/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/Datasheet_RTX_PRO_6000_--3e20a91eba0b2d9b/original.response`
+
+<a id="ref-e5d1fd3b6351b807"></a>
+
+## NVIDIA_04_EXP_NEMOTRON_PAGE
+
+- [官方/原始来源](https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:04:43.757979+00:00`
+- `sha256`：`a1ecd7fe7ca4fb1b448a9aa6d61d3294f12fd20753f16aedf944917fa3d5be70`
+- `original_sha256`：`759cac57d2c06319ac91d423db07e788f7bd666b7b11dea375bb4567755c6fba`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_NEMOTRON_PAGE--e5d1fd3b6351b807/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_NEMOTRON_PAGE--e5d1fd3b6351b807/original.response`
+- 未取得依赖：10 项；详见本地 metadata。
+
+<a id="ref-1e574a397837bec3"></a>
+
+## NVIDIA_02_NIM_PAGE
+
+- [官方/原始来源](https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T08:09:35.279646+00:00`
+- `sha256`：`c13d9b2f514b6cc22a9ffbea60769c965e5b5dcc14086263bc518aab340a96e6`
+- `original_sha256`：`e43d0d7683c6c3e55cb89bb032ab81961efcc53c368cbd17118ed9a980ac58c0`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NIM_PAGE--1e574a397837bec3/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NIM_PAGE--1e574a397837bec3/original.response`
+- 未取得依赖：11 项；详见本地 metadata。
+
+<a id="ref-c8919b98e999cee1"></a>
+
+## NVIDIA_04_EXP_NEMOTRON
+
+- [官方/原始来源](https://www.nvidia.com/en-us/ai/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:03:29.598078+00:00`
+- `sha256`：`90e03460675fdf5aff379611900435c0b0dff15e319177b562f4a4bc154aa2dd`
+- `original_sha256`：`66caaf93f287c0312d0f75594c672822ee3401cf1cce00a97e3618c4a43e2470`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_NEMOTRON--c8919b98e999cee1/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/04_EXP_NEMOTRON--c8919b98e999cee1/original.response`
+- 未取得依赖：12 项；详见本地 metadata。
+
+<a id="ref-822deacef0f6253c"></a>
+
+## NVIDIA_Product_Page_Jetson_Orin
+
+- [官方/原始来源](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:06:53.355156+00:00`
+- `sha256`：`4e777d0ec7cc2ed73c75bd2feb53f619a23b123854cc2a93a0d39b491b953be0`
+- `original_sha256`：`d16160a165021a545881547e22dcd21214e7582739dd726b01f8de8d3b934d18`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_Jetson_Orin--822deacef0f6253c/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_Jetson_Orin--822deacef0f6253c/original.response`
+- 未取得依赖：36 项；详见本地 metadata。
+
+<a id="ref-b48be8d6e61d9873"></a>
+
+## NVIDIA_Product_Page_Orin_Nano_Super
+
+- [官方/原始来源](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:07:22.500598+00:00`
+- `sha256`：`8bdeab67478f2cccc6538abe8a41a6513a401ed1546397d356063ea89f91bc36`
+- `original_sha256`：`bea441992cfeff7325b36715b46e2602381d1c86fdea402d131873cb1b4b694b`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_Orin_Nano_S--b48be8d6e61d9873/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_Orin_Nano_S--b48be8d6e61d9873/original.response`
+- 未取得依赖：9 项；详见本地 metadata。
+
+<a id="ref-91025a9bef10dc0b"></a>
+
+## NVIDIA_Product_Page_Jetson_Thor
+
+- [官方/原始来源](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:07:16.100745+00:00`
+- `sha256`：`7d4aa7aec9d6473a6c564a0a1fe11c81a0de232cc653dad29373be990ca933da`
+- `original_sha256`：`74d4c440b7162381d5a60ea767d00e4c8773bd5646f02474113de93392f7e5a3`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_Jetson_Thor--91025a9bef10dc0b/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_Jetson_Thor--91025a9bef10dc0b/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-49aafa7c4ddee2c1"></a>
+
+## NVIDIA_09_DEEP_IDEALWORKS_CASE
+
+- [官方/原始来源](https://www.nvidia.com/en-us/customer-stories/idealworks/)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:17:56.937923+00:00`
+
+<a id="ref-bc033ea621b8074b"></a>
+
+## NVIDIA_09_DEEP_OTTO_CASE
+
+- [官方/原始来源](https://www.nvidia.com/en-us/customer-stories/otto-motors/)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:17:52.014098+00:00`
+
+<a id="ref-1bf36659d6ccb38d"></a>
+
+## NVIDIA_Product_Page_IGX
+
+- [官方/原始来源](https://www.nvidia.com/en-us/edge-computing/products/igx/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:06:29.605457+00:00`
+- `sha256`：`45a215026a9e55aa44ae1dda4cfc4e1ee2483234325bc6e71c7f68e4fdd80bc6`
+- `original_sha256`：`05fdfed0e990e124eee86314432c207b89c9534b3cc4d6c3e90b325218cb26be`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_IGX--1bf36659d6ccb38d/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_IGX--1bf36659d6ccb38d/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-c83432178f2104df"></a>
+
+## NVIDIA_Product_Page_DGX_Spark
+
+- [官方/原始来源](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:04:59.758322+00:00`
+- `sha256`：`eea2c1ca3d7da8f0313c011f46c70c300304051033368e61ecf7223cd173e47e`
+- `original_sha256`：`093b3f2fdffdd3a692733353da4adce6ec53721c32ac5c6cf031b03fcd1c1568`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_DGX_Spark--c83432178f2104df/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_DGX_Spark--c83432178f2104df/original.response`
+- 未取得依赖：33 项；详见本地 metadata。
+
+<a id="ref-4ca25e2a61fb7356"></a>
+
+## NVIDIA_Product_Page_Professional_GPUs
+
+- [官方/原始来源](https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:07:35.942262+00:00`
+- `sha256`：`ddb061fab981b4ee441bdcdf26bda28feeb42ecfde6b0c3874c25cacbae46d0c`
+- `original_sha256`：`fda6ca7a03df197b59ec6bf3366f2ba9120b2434fdade90f4304d6c604dfc3c2`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_Professiona--4ca25e2a61fb7356/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_Professiona--4ca25e2a61fb7356/original.response`
+- 未取得依赖：9 项；详见本地 metadata。
+
+<a id="ref-6a7855865a097146"></a>
+
+## NVIDIA_Product_Page_RTX_PRO_6000_MaxQ
+
+- [官方/原始来源](https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000-max-q/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:07:44.000551+00:00`
+- `sha256`：`49445f6705dfe5642bc31fb788060bede1c72bc0fa39c8f20800a5a24f2b4564`
+- `original_sha256`：`7492dc288314eb93fc96ced157b211758c9aa413253c7cbf450ff66c4e97bc8f`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_RTX_PRO_600--6a7855865a097146/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_RTX_PRO_600--6a7855865a097146/original.response`
+- 未取得依赖：9 项；详见本地 metadata。
+
+<a id="ref-a4ce66b7cede5ee7"></a>
+
+## NVIDIA_Product_Page_RTX_PRO_6000_Workstation
+
+- [官方/原始来源](https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-03T07:09:03.609433+00:00`
+- `sha256`：`1f0a020fdbf063d1e7ea0cc8ca7cc318ef8cbc0c44b2d637e664f2b94462befe`
+- `original_sha256`：`db4308d47e5985149362341c2cc5bd3ade08bc0d06649c158bfae97fc75e5bc6`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_RTX_PRO_600--a4ce66b7cede5ee7/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_RTX_PRO_600--a4ce66b7cede5ee7/original.response`
+- 未取得依赖：9 项；详见本地 metadata。
+
+<a id="ref-c14709a956aa9d6f"></a>
+
+## NVIDIA_08_DEEP_NXP_FACT
+
+- [官方/原始来源](https://www.nxp.com/docs/en/fact-sheet/IMX95FS.pdf)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T03:01:46.624854+00:00`
+
+<a id="ref-5439cefeefd60294"></a>
+
+## NVIDIA_08_DEEP_NXP_IMX95
+
+- [官方/原始来源](https://www.nxp.com/products/i.MX95)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:56:28.118034+00:00`
+
+<a id="ref-a36bd8c73fd0130e"></a>
+
+## NVIDIA_07_DEEP_RIDGERUN
+
+- [官方/原始来源](https://www.ridgerun.com/nvidia)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:49:00.147612+00:00`
+- `sha256`：`f6ba9903bb384d80a421a4232cafe6c0fa7a8f9714dd2aaba2dfb8516b1d5393`
+- `original_sha256`：`0a4542d5d8f7c8b4a7c0dc32b4738514f4114a27c9aa62bddfeee54866dff9b5`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_DEEP_RIDGERUN--a36bd8c73fd0130e/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_DEEP_RIDGERUN--a36bd8c73fd0130e/original.response`
+- 未取得依赖：42 项；详见本地 metadata。
+
+<a id="ref-e73664484fd4298c"></a>
+
+## NVIDIA_07_DEEP_SEEED
+
+- [官方/原始来源](https://www.seeedstudio.com/blog/2026/07/15/seeed-studio-announces-supports-for-nvidias-next-generation-jetson-t2000-t3000-modules-for-scalable-edge-ai-and-robotics/)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:41:15.923656+00:00`
+
+<a id="ref-90acec108c92f781"></a>
+
+## NVIDIA_06_DEEP_SOLOMON_THOR
+
+- [官方/原始来源](https://www.solomon-3d.com/news-events/press-releases/solomon-humanoid-robot-nvidia-jetson-thor-automation-taipei-2025/)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:27:43.400793+00:00`
+
+<a id="ref-51cfe630d44f78de"></a>
+
+## NVIDIA_07_DEEP_STEREOLABS
+
+- [官方/原始来源](https://www.stereolabs.com/developers/nvidia/)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:47:31.763104+00:00`
+
+<a id="ref-3e2afc59421db651"></a>
+
+## NVIDIA_08_DEEP_TI_TDA4
+
+- [官方/原始来源](https://www.ti.com/lit/ds/symlink/tda4vm.pdf)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-04T03:02:34.737450+00:00`
+- `sha256`：`7d65b2e5effdf89a9bc919777e88ca0a15795020d68585c9bd8e67a54d596ade`
+- `original_sha256`：`7d65b2e5effdf89a9bc919777e88ca0a15795020d68585c9bd8e67a54d596ade`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/08_DEEP_TI_TDA4--3e2afc59421db651/document.pdf`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/documents/08_DEEP_TI_TDA4--3e2afc59421db651/original.response`
+
+<a id="ref-915567c13a805ad1"></a>
+
+## NVIDIA_07_DEEP_TIMESYS_BSP
+
+- [官方/原始来源](https://www.timesys.com/open-source-embedded/development-support/reference-bsp/processors/nvidia/)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:47:35.436456+00:00`
+- `sha256`：`7f07dbadb13f29502d3ec4583ea81fade54c43f45ee999d6a0263a8886d0b345`
+- `original_sha256`：`980ba1165e0506a8209c28cfa6303dac0635deb61cc1359f3bfeb1a1990c6d8f`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_DEEP_TIMESYS_BSP--915567c13a805ad1/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/07_DEEP_TIMESYS_BSP--915567c13a805ad1/original.response`
+- 未取得依赖：12 项；详见本地 metadata。
+
+<a id="ref-9070d360eafc6b9b"></a>
+
+## NVIDIA_07_DEEP_TIMESYS
+
+- [官方/原始来源](https://www.timesys.com/solutions/nvidia-jetson/)
+- `archive_status`：`failed`
+- `archived_at_utc`：`2026-11-04T02:44:41.747476+00:00`
+
+<a id="ref-a282d0da081c21da"></a>
+
+## NVIDIA_Unitree_G1_Page
+
+- [官方/原始来源](https://www.unitree.com/g1)
+- `archive_status`：`complete_static`
+- `archived_at_utc`：`2026-11-03T07:39:47.730347+00:00`
+- `sha256`：`70d5934e4b6a5ff78809a4aabe6f02b92f2594b1b2608beafb042fd7e5f260cb`
+- `original_sha256`：`3059a71ef6d1292312369b87dd467aac281eb2c50bc027f34d7652bf7304ba2c`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Unitree_G1_Page--a282d0da081c21da/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Unitree_G1_Page--a282d0da081c21da/original.response`
+
+<a id="ref-8678fa60c6865ccc"></a>
+
+## NVIDIA_06_DEEP_UNITREE_H1
+
+- [官方/原始来源](https://www.unitree.com/h1)
+- `archive_status`：`partial_static`
+- `archived_at_utc`：`2026-11-04T02:29:30.106782+00:00`
+- `sha256`：`633870e97b47acb82cb058db39599c1192fffd9feec75a7ddfe9f23a641e476e`
+- `original_sha256`：`b6fc6228055ef9b0dfc85354a7d0b6e0acfd349be72449e45170fb5b90a35bd0`
+- `file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_UNITREE_H1--8678fa60c6865ccc/index.html`
+- `original_file`：`01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/06_DEEP_UNITREE_H1--8678fa60c6865ccc/original.response`
+- 未取得依赖：3 项；详见本地 metadata。

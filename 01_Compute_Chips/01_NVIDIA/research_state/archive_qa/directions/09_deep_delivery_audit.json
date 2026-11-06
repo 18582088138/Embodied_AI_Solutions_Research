@@ -1,0 +1,19 @@
+{
+  "other_reports_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02_Software_Stack.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08A_Compute_and_Deployment.md": true,
+    "08B_Sensing_and_Isolation.md": true,
+    "08C_Simulation_Control_and_Safety.md": true,
+    "08_Core_Technology_Moat.md": true
+  },
+  "quality": "pass",
+  "sources": 71,
+  "body_han_chars": 10615,
+  "finalization_network_requests": 0
+}

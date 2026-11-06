@@ -1,0 +1,161 @@
+{
+  "completed_at_utc": "2026-11-04T03:55:35.002618+00:00",
+  "research_order": [
+    "04_AI_Capabilities",
+    "05_Simulation_Environment",
+    "06_Robot_Integration",
+    "07_Ecosystem",
+    "08_Core_Technology_Moat",
+    "08A_Compute_and_Deployment",
+    "08B_Sensing_and_Isolation",
+    "08C_Simulation_Control_and_Safety",
+    "09_SWOT_Analysis"
+  ],
+  "reports": [
+    {
+      "stem": "04_AI_Capabilities",
+      "sha256": "a339b8de6661c1e4bde52874207805e58bcb213ab14863c35b590cfc31d81281",
+      "body_han_chars": 11022,
+      "tables_including_reference_table": 14,
+      "official_image_occurrences": 6,
+      "sources": 95,
+      "archive_status": {
+        "complete_static": 63,
+        "partial_static": 32
+      },
+      "quality": "pass",
+      "finalization_network_requests": 0,
+      "dedup_evidence": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/qa/directions/04_AI_Capabilities_dedup_run.json"
+    },
+    {
+      "stem": "05_Simulation_Environment",
+      "sha256": "5d415449596fc1fbb0efbd25b80a3a1cd8fd06711678c1a12041fec3ca107e26",
+      "body_han_chars": 4734,
+      "tables_including_reference_table": 8,
+      "official_image_occurrences": 4,
+      "sources": 36,
+      "archive_status": {
+        "complete_static": 28,
+        "partial_static": 8
+      },
+      "quality": "pass",
+      "finalization_network_requests": 0,
+      "dedup_evidence": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/qa/directions/05_Simulation_Environment_dedup_run.json"
+    },
+    {
+      "stem": "06_Robot_Integration",
+      "sha256": "628444ca217aade93f273f660b4f87fedd3bec96a456454f8efd8a8d21cd8a79",
+      "body_han_chars": 8277,
+      "tables_including_reference_table": 11,
+      "official_image_occurrences": 4,
+      "sources": 40,
+      "archive_status": {
+        "partial_static": 29,
+        "complete_static": 11
+      },
+      "quality": "pass",
+      "finalization_network_requests": 0,
+      "dedup_evidence": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/qa/directions/06_Robot_Integration_dedup_run.json"
+    },
+    {
+      "stem": "07_Ecosystem",
+      "sha256": "82344cb31a0c5198c6711b72c48c928dc13630d723a4450d052676600b5c7206",
+      "body_han_chars": 7721,
+      "tables_including_reference_table": 10,
+      "official_image_occurrences": 5,
+      "sources": 60,
+      "archive_status": {
+        "partial_static": 27,
+        "complete_static": 33
+      },
+      "quality": "pass",
+      "finalization_network_requests": 0,
+      "dedup_evidence": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/qa/directions/07_Ecosystem_dedup_run.json"
+    },
+    {
+      "stem": "08_Core_Technology_Moat",
+      "sha256": "55af1ea8f10053e8bfbd99dc408a4f8f41aba786e6fd9d0b1943f051854337ca",
+      "body_han_chars": 2275,
+      "tables_including_reference_table": 3,
+      "official_image_occurrences": 0,
+      "sources": 45,
+      "archive_status": {
+        "complete_static": 25,
+        "partial_static": 20
+      },
+      "quality": "pass",
+      "finalization_network_requests": 0,
+      "dedup_evidence": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/qa/directions/08_Core_Technology_Moat_dedup_run.json"
+    },
+    {
+      "stem": "08A_Compute_and_Deployment",
+      "sha256": "473ba24a68747f61a76a570032c418919a98b9c66a1e5e8f3ce974e8e3ee20de",
+      "body_han_chars": 8242,
+      "tables_including_reference_table": 7,
+      "official_image_occurrences": 8,
+      "sources": 36,
+      "archive_status": {
+        "complete_static": 21,
+        "partial_static": 15
+      },
+      "quality": "pass",
+      "finalization_network_requests": 0,
+      "dedup_evidence": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/qa/directions/08A_Compute_and_Deployment_dedup_run.json"
+    },
+    {
+      "stem": "08B_Sensing_and_Isolation",
+      "sha256": "0f4368a1298d53b808d05838f76eb6992260b4826736b26f849d180582c452fa",
+      "body_han_chars": 7633,
+      "tables_including_reference_table": 7,
+      "official_image_occurrences": 5,
+      "sources": 34,
+      "archive_status": {
+        "complete_static": 21,
+        "partial_static": 13
+      },
+      "quality": "pass",
+      "finalization_network_requests": 0,
+      "dedup_evidence": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/qa/directions/08B_Sensing_and_Isolation_dedup_run.json"
+    },
+    {
+      "stem": "08C_Simulation_Control_and_Safety",
+      "sha256": "e8486fc445fc79714570897a8ea4eb7d6fe9a9bc49a171ee7bc664f23683978f",
+      "body_han_chars": 7962,
+      "tables_including_reference_table": 8,
+      "official_image_occurrences": 9,
+      "sources": 69,
+      "archive_status": {
+        "complete_static": 45,
+        "partial_static": 24
+      },
+      "quality": "pass",
+      "finalization_network_requests": 0,
+      "dedup_evidence": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/qa/directions/08C_Simulation_Control_and_Safety_dedup_run.json"
+    },
+    {
+      "stem": "09_SWOT_Analysis",
+      "sha256": "6ba5c60f5b3b3717aba827ec8c653b6d37c4549ea84d3ae1b0133d1c39a052f5",
+      "body_han_chars": 10615,
+      "tables_including_reference_table": 12,
+      "official_image_occurrences": 5,
+      "sources": 71,
+      "archive_status": {
+        "partial_static": 34,
+        "complete_static": 37
+      },
+      "quality": "pass",
+      "finalization_network_requests": 0,
+      "dedup_evidence": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/qa/directions/09_SWOT_Analysis_dedup_run.json"
+    }
+  ],
+  "limits": "Static archive, structure and source review; no hardware/robot tests. Partial presentation dependencies are recorded in metadata.",
+  "01_03_unchanged": {
+    "01_Hardware_Platform.md": true,
+    "02_Software_Stack.md": true,
+    "03_Sensor_Integration.md": true
+  },
+  "unique_source_urls": 259,
+  "unique_source_record_ids": 261,
+  "official_image_occurrences": 46,
+  "image_review_sheet": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/qa/directions/04_09_official_images_contact_sheet.jpg"
+}

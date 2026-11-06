@@ -1,0 +1,362 @@
+[
+  {
+    "name": "NVIDIA_Datasheet_DGX_Spark",
+    "url": "https://dam-cdn.nvd.orangelogic.com/AssetLink/es6d60li4v5hybk461p65is6os33c48h.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Datasheet_Jetson_AGX_Thor_Developer_Kit",
+    "url": "https://dam-cdn.nvd.orangelogic.com/AssetLink/2gxa66a03084177dss0h1c168r7x2qcd.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Datasheet_Jetson_Thor_Modules",
+    "url": "https://dam-cdn.nvd.orangelogic.com/AssetLink/x20v2h2y15uh0ne54rpb73xh4x7s0m1s.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Datasheet_Orin_NX_v1_7",
+    "url": "https://developer.nvidia.com/downloads/jetson-orin-nx-module-series-data-sheet",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Datasheet_RTX_PRO_6000_MaxQ",
+    "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-desktop-gpus/rtx-pro-6000-max-q/workstation-datasheet-blackwell-rtx-pro-6000-max-q-nvidia-us-5349650-web.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Datasheet_RTX_PRO_6000_Workstation",
+    "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/data-center/rtx-pro-6000-blackwell-workstation-edition/workstation-blackwell-rtx-pro-6000-workstation-edition-nvidia-us-3519208-web.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Datasheet_Thor_Full_v1_5",
+    "url": "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Design_Guide_Orin_NX_Nano_v1_5",
+    "url": "https://developer.nvidia.com/downloads/jetson-orin-nx-series-nano-series-design-guide",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Design_Guide_Thor_v1_5",
+    "url": "https://developer.nvidia.com/downloads/jetson/thor/docs/jetson-thor-series-modules-designguide-dg12084001.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_License",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacLab/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_README",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacLab/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_License",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacSim/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_README",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacSim/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Official_Download_Catalog",
+    "url": "https://developer.nvidia.com/embedded/downloads.json",
+    "expected": "json",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Brief_IGX_Thor_Safety",
+    "url": "https://developer.download.nvidia.com/assets/igx/robotics-product-brief-igx-thor-safety-4473375.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Technical_Brief_Robotics_Edge_AI",
+    "url": "https://dam-cdn.nvd.orangelogic.com/AssetLink/v686u306w26ftuk863xjeimilimtx55e.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Thermal_Guide_Orin_NX_Nano_v1_5",
+    "url": "https://developer.nvidia.com/downloads/jetson-orin-nx-orin-nano-series-thermal-design-guide",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Thermal_Guide_Thor_v1_3",
+    "url": "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson_thor_thermal_dg_tdg12271001.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Whitepaper_GB10_Superchip",
+    "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/nvidia-gb10-superchip-whitepaper.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Developer_Page_Isaac_Sim",
+    "url": "https://developer.nvidia.com/isaac/sim",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Developer_Page_Jetson_Downloads",
+    "url": "https://developer.nvidia.com/embedded/downloads",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Developer_Page_Jetson_FAQ",
+    "url": "https://developer.nvidia.com/embedded/faq",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Developer_Page_Jetson_Lifecycle",
+    "url": "https://developer.nvidia.com/embedded/lifecycle",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Developer_Page_Jetson_Modules",
+    "url": "https://developer.nvidia.com/embedded/jetson-modules",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Documentation_IsaacSim_Requirements",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/installation/requirements.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Announcement_Orin_Nano_2",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-jetson-orin-nano-2-robotics-computer-to-redefine-entry-level-edge-ai",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Announcement_Orin_Nano_2022",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-jetson-orin-nano-sets-new-standard-for-entry-level-edge-ai-and-robotics-with-80x-performance-leap",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Blog_AGX_Orin_32GB_Availability",
+    "url": "https://blogs.nvidia.com/blog/2022/08/03/nvidia-jetson-agx-orin-32gb-production-modules/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Blog_IGX_Thor",
+    "url": "https://blogs.nvidia.com/blog/igx-thor-processor-physical-ai-industrial-medical-edge/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Blog_Jetson_Thor_New_Modules",
+    "url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Blog_Jetson_Thor_Physical_AI",
+    "url": "https://blogs.nvidia.com/blog/jetson-thor-physical-ai-edge/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Blog_Orin_Nano_Super_Launch",
+    "url": "https://blogs.nvidia.com/blog/jetson-generative-ai-supercomputer/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Developer_Blog_Orin_Nano_Super",
+    "url": "https://developer.nvidia.com/blog/nvidia-jetson-orin-nano-developer-kit-gets-a-super-boost/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_Commits_API",
+    "url": "https://api.github.com/repos/isaac-sim/IsaacLab/commits?sha=main&per_page=1",
+    "expected": "json",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_Page",
+    "url": "https://github.com/isaac-sim/IsaacLab",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_Commits_API",
+    "url": "https://api.github.com/repos/isaac-sim/IsaacSim/commits?sha=main&per_page=1",
+    "expected": "json",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_Page",
+    "url": "https://github.com/isaac-sim/IsaacSim",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Page_DGX_Spark",
+    "url": "https://www.nvidia.com/en-us/products/workstations/dgx-spark/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Page_IGX",
+    "url": "https://www.nvidia.com/en-us/edge-computing/products/igx/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Page_Jetson_Orin",
+    "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Page_Jetson_Thor",
+    "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Page_Orin_Nano_Super",
+    "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Page_Professional_GPUs",
+    "url": "https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Page_RTX_PRO_6000_MaxQ",
+    "url": "https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000-max-q/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Page_RTX_PRO_6000_Workstation",
+    "url": "https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

@@ -1,0 +1,762 @@
+[
+  {
+    "name": "NVIDIA_GR00T_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NIM_ARCH",
+    "url": "https://docs.nvidia.com/nim/large-language-models/latest/reference/architecture.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TAO_DOC",
+    "url": "https://docs.nvidia.com/tao/tao-toolkit/text/overview.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_DEEP_DOC",
+    "url": "https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_Overview.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_README",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacLab/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_MPS_DOC",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/gpu_partitioning/index.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_BSP_UPDATE",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/SoftwarePackagesAndTheUpdateMechanism.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_JetPack_Downloads",
+    "url": "https://developer.nvidia.com/embedded/jetpack/downloads",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_TensorRT_Support_Matrix",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Deployment_Guide",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/scripts/deployment/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_New_Embodiment",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/getting_started/finetune_new_embodiment.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Hardware_Guide",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/getting_started/hardware_recommendation.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TRT_WORK",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_TRT_PERF",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/best-practices.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NIM_PROFILE",
+    "url": "https://docs.nvidia.com/nim/large-language-models/latest/deployment/model-profiles-and-selection.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_BUFFER_DOC",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/index.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_LAB_INSTALL_CURRENT",
+    "url": "https://isaac-sim.github.io/IsaacLab/main/source/isaaclab/installation.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Deploy_Concept",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/concepts/how_it_works.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_MODEL",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/programming-model.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Page_Jetson_Orin",
+    "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_PVA_ARCH2",
+    "url": "https://docs.nvidia.com/pva/sdk/2.10.1/architecture.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_VPI_ROOT",
+    "url": "https://docs.nvidia.com/vpi/index.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Real_Time_R38_2",
+    "url": "https://docs.nvidia.com/jetson/archives/r38.2/DeveloperGuide/SD/Kernel/RealTimeKernel.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NSIGHT_DOC",
+    "url": "https://docs.nvidia.com/nsight-systems/UserGuide/index.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_Triton_Model_Management",
+    "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/docs/user_guide/model_management.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_Triton_Batching",
+    "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/docs/user_guide/batcher.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TRITON_ARCH",
+    "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/docs/user_guide/architecture.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_TRITON_METRICS",
+    "url": "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/metrics.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Project_Page",
+    "url": "https://github.com/NVIDIA/Isaac-GR00T",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_License",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Repo_Metadata",
+    "url": "https://api.github.com/repos/NVIDIA/Isaac-GR00T",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Recent_Commit",
+    "url": "https://api.github.com/repos/NVIDIA/Isaac-GR00T/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_Triton_Project_Page",
+    "url": "https://github.com/triton-inference-server/server",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_Triton_License",
+    "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_Triton_Repo_Metadata",
+    "url": "https://api.github.com/repos/triton-inference-server/server",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_Triton_Recent_Commit",
+    "url": "https://api.github.com/repos/triton-inference-server/server/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TAO_REPO_PAGE",
+    "url": "https://github.com/NVIDIA/tao_pytorch_backend",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TAO_REPO_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVIDIA/tao_pytorch_backend/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TAO_REPO_META",
+    "url": "https://api.github.com/repos/NVIDIA/tao_pytorch_backend",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TAO_REPO_COMMIT",
+    "url": "https://api.github.com/repos/NVIDIA/tao_pytorch_backend/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LABMODELS",
+    "url": "https://www.jetson-ai-lab.com/models/",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LEROBOT_README",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_OPENVLA_README",
+    "url": "https://raw.githubusercontent.com/openvla/openvla/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_OPENPI_README",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_OPENPI_LIBERO",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/examples/libero/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_FLUXACTION",
+    "url": "https://www.jetson-ai-lab.com/models/flux-3-action",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_COSMOS3",
+    "url": "https://www.jetson-ai-lab.com/models/cosmos3-edge",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_REASON2",
+    "url": "https://www.jetson-ai-lab.com/models/cosmos-reason2-8b",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_NANO30B",
+    "url": "https://www.jetson-ai-lab.com/models/nemotron-3-nano-30b-a3b",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_NANO9B",
+    "url": "https://www.jetson-ai-lab.com/models/nemotron-nano-9b-v2",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_BOLT",
+    "url": "https://www.jetson-ai-lab.com/models/Nemotron-3-5-Bolt-E4B-4GB",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_NANOVL",
+    "url": "https://www.jetson-ai-lab.com/models/nemotron-nano-12b-vl",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_QWENVL",
+    "url": "https://www.jetson-ai-lab.com/models/qwen3-vl-8b",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_QWEN35",
+    "url": "https://www.jetson-ai-lab.com/models/qwen3-5-4b",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_GEMMA4",
+    "url": "https://www.jetson-ai-lab.com/models/gemma4-e2b",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_LLAMA",
+    "url": "https://www.jetson-ai-lab.com/models/llama3-1-8b",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LAB_FUNCTION",
+    "url": "https://www.jetson-ai-lab.com/models/functiongemma",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_TAOZOO_LATEST",
+    "url": "https://docs.nvidia.com/tao/tao-toolkit/latest/text/model_zoo/overview.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_TAOZOO",
+    "url": "https://docs.nvidia.com/tao/tao-toolkit/text/model_zoo/overview.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_FOUNDATIONPOSE_README",
+    "url": "https://raw.githubusercontent.com/NVlabs/FoundationPose/main/readme.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_POSE_BENCH",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_pose_estimation/isaac_ros_foundationpose/index.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_ACT_README",
+    "url": "https://raw.githubusercontent.com/tonyzhaozh/act/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_DIFFUSION_README",
+    "url": "https://raw.githubusercontent.com/real-stanford/diffusion_policy/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Deploy_AGILE",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/tutorials/deploy_agile.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_ALPAMAYO_RECIPES",
+    "url": "https://raw.githubusercontent.com/NVlabs/alpamayo-recipes/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_NEMOTRON_PAGE",
+    "url": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_ACT_PROJECT",
+    "url": "https://tonyzhaozh.github.io/aloha/",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_SMOL_PAPER",
+    "url": "https://arxiv.org/pdf/2506.01844",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_SMOL_VERIFIED",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/docs/source/policy_smolvla_README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_CUROBO_CANONICAL",
+    "url": "https://nvlabs.github.io/curobo/latest/",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_RETARGET",
+    "url": "https://nvlabs.github.io/curobo/latest/getting-started/humanoid_retargeting.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_FR3",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_robots/franka_fr3_ros2_control/index.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_CUOPT",
+    "url": "https://docs.nvidia.com/cuopt/user-guide/latest/introduction.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA/OSMO/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_ASR_DOC",
+    "url": "https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/models.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_TTS_DOC",
+    "url": "https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/tts/models.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_ALPAMAYO_README",
+    "url": "https://raw.githubusercontent.com/NVlabs/alpamayo/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_OPENVLA_META",
+    "url": "https://api.github.com/repos/openvla/openvla",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_OPENVLA_COMMIT",
+    "url": "https://api.github.com/repos/openvla/openvla/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_OPENPI_META",
+    "url": "https://api.github.com/repos/Physical-Intelligence/openpi",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_OPENPI_COMMIT",
+    "url": "https://api.github.com/repos/Physical-Intelligence/openpi/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_ACT_META",
+    "url": "https://api.github.com/repos/tonyzhaozh/act",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_ACT_COMMIT",
+    "url": "https://api.github.com/repos/tonyzhaozh/act/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_DIFF_META",
+    "url": "https://api.github.com/repos/real-stanford/diffusion_policy",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_DIFF_COMMIT",
+    "url": "https://api.github.com/repos/real-stanford/diffusion_policy/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_LEROBOT_META",
+    "url": "https://api.github.com/repos/huggingface/lerobot",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_LEROBOT_COMMIT",
+    "url": "https://api.github.com/repos/huggingface/lerobot/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_POSE_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVlabs/FoundationPose/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_POSE_META",
+    "url": "https://api.github.com/repos/NVlabs/FoundationPose",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_POSE_COMMIT",
+    "url": "https://api.github.com/repos/NVlabs/FoundationPose/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_ALPA_META",
+    "url": "https://api.github.com/repos/NVlabs/alpamayo-recipes",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_ALPA_COMMIT",
+    "url": "https://api.github.com/repos/NVlabs/alpamayo-recipes/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_DIFF_PROJECT",
+    "url": "https://diffusion-policy.cs.columbia.edu/",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Architecture_Image",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/media/model-architecture.png",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TRITON_FIG",
+    "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/docs/user_guide/images/arch.jpg",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  }
+]

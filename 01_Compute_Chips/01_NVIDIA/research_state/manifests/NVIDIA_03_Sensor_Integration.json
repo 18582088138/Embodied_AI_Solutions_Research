@@ -1,0 +1,434 @@
+[
+  {
+    "name": "NVIDIA_Product_Page_Jetson_Orin",
+    "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Datasheet_Orin_NX_v1_7",
+    "url": "https://developer.nvidia.com/downloads/jetson-orin-nx-module-series-data-sheet",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Datasheet_Thor_Full_v1_5",
+    "url": "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Page_Jetson_Thor",
+    "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Developer_Page_Jetson_FAQ",
+    "url": "https://developer.nvidia.com/embedded/faq",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_SENSOR_MATRIX",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/CameraDevelopmentSupportMatrix.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HAWK_SETUP",
+    "url": "https://nvidia-isaac-ros.github.io/getting_started/sensors/hawk_setup.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_EAGLE_SETUP",
+    "url": "https://nvidia-isaac-ros.github.io/getting_started/sensors/eagle_setup.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_REALSENSE_SETUP",
+    "url": "https://nvidia-isaac-ros.github.io/getting_started/sensors/realsense_setup.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Orbbec_SDK_README",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_JetPack_Downloads",
+    "url": "https://developer.nvidia.com/embedded/jetpack/downloads",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Camera_39_2_1",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_GMSL_VC",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/ArgusFramework/JetsonVirtualChannelWithGmslCameraFramework.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_SIPL_GMSL",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/GMSL/GMSL-Architecture-Overview.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_SIPL_STEREO",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/SIPL-Stereo-Pipeline.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_SIPL_INTRO",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/Introduction-to-SIPL.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_SIPL_COE",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_SIPL_ROS",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_sipl_camera/isaac_ros_sipl_camera/index.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_AMR_EXTRINSICS",
+    "url": "https://nvidia-isaac-ros.github.io/getting_started/sensors/amr_extrinsic_calibration.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_VPI_ROOT",
+    "url": "https://docs.nvidia.com/vpi/index.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Buffer_Migration",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/nitros_migration.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_BUFFER_DOC",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/index.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HSB_HOST",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/getting-started/host-setup",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HSB_ARCH",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Orbbec_Timestamps",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/docs/tutorial/timestamp.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_OUSTER_NVBLOX",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/technical_details.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_MULTI_RS_SYNC",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_nvblox/multi_realsense_emitter_synchronizer/index.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_ORBBEC_TRACKER",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/tools/timestamp_tracker/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_OS1_EXAMPLE",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/tutorials/tutorial_os1.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_IMU39",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Kernel/Bmi088ImuIioDriver.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_GTE39",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Kernel/GenericTimestampEngine.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_CUVSLAM_DOC",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_visual_slam/isaac_ros_cuvslam/index.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HSB_PTP_NOTE",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/fpga-ip/ptp-application-note",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HSB_PTP",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/fpga-ip/ptp",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HSB_LATENCY",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/latency",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Visual_SLAM_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_CAM_INTRINSICS",
+    "url": "https://nvidia-isaac-ros.github.io/getting_started/sensors/camera_calibration.html",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_SIPL_REPO_PAGE",
+    "url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_sipl_camera",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_SIPL_REPO_META",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_sipl_camera",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_SIPL_REPO_COMMIT",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_sipl_camera/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_SIPL_REPO_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_sipl_camera/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_VSLAM_PAGE",
+    "url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_VSLAM_META",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_VSLAM_COMMIT",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_VSLAM_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Orbbec_Project_Page",
+    "url": "https://github.com/orbbec/OrbbecSDK_v2",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Orbbec_SDK_Metadata",
+    "url": "https://api.github.com/repos/orbbec/OrbbecSDK_v2",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Orbbec_SDK_Commit",
+    "url": "https://api.github.com/repos/orbbec/OrbbecSDK_v2/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_ORBBEC_LICENSE",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/LICENSE.txt",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Holoscan_Bridge_Project_Page",
+    "url": "https://github.com/nvidia-holoscan/holoscan-sensor-bridge",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Holoscan_Bridge_Repo_Metadata",
+    "url": "https://api.github.com/repos/nvidia-holoscan/holoscan-sensor-bridge",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Holoscan_Bridge_Recent_Commit",
+    "url": "https://api.github.com/repos/nvidia-holoscan/holoscan-sensor-bridge/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Holoscan_Sensor_Bridge_README",
+    "url": "https://raw.githubusercontent.com/nvidia-holoscan/holoscan-sensor-bridge/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_VSLAM_FIG",
+    "url": "https://media.githubusercontent.com/media/NVIDIA-ISAAC-ROS/.github/release-5.0/resources/isaac_ros_docs/repositories_and_packages/isaac_ros_visual_slam/vslam_odometry_nav2_diagram.png",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  }
+]

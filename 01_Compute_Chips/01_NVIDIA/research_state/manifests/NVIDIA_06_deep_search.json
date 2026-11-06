@@ -1,0 +1,34 @@
+[
+  {
+    "name": "NVIDIA_06_DEEP_SEARCH_THOR",
+    "url": "https://www.bing.com/search?q=NVIDIA+Jetson+Thor+robot+Atlas+Digit+manufacturer+performance",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEEP_SEARCH_ORIN",
+    "url": "https://www.bing.com/search?q=site%3Ablogs.nvidia.com+robot+Jetson+Orin+performance+robotics",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEEP_SEARCH_BOSTON",
+    "url": "https://www.bing.com/search?q=site%3Abostondynamics.com+Atlas+Jetson+Thor",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEEP_SEARCH_AGILITY",
+    "url": "https://www.bing.com/search?q=site%3Aagilityrobotics.com+Digit+Jetson+Thor",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  }
+]

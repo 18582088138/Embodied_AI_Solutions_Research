@@ -1,0 +1,930 @@
+[
+  {
+    "name": "NVIDIA_JetPack_Downloads",
+    "url": "https://developer.nvidia.com/embedded/jetpack/downloads",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_JetPack_6_2_1_Release_Notes",
+    "url": "https://docs.nvidia.com/jetson/jetpack/release-notes/index.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Getting_Started",
+    "url": "https://nvidia-isaac-ros.github.io/getting_started/index.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_TensorRT_Support_Matrix",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_TensorRT_DLA_Guide",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/work-with-dla.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Linux_39_2_1_Guide",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_JetPack_Page",
+    "url": "https://developer.nvidia.com/embedded/jetpack",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_BSP_UPDATE",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/SoftwarePackagesAndTheUpdateMechanism.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Linux_39_2_1_Release_PDF",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/ReleaseNotes/Jetson_Linux_Release_Notes_r39.2.1.pdf",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Linux_39_2_1_License",
+    "url": "https://developer.nvidia.com/downloads/embedded/L4T/r39_Release_v2.1/release/Tegra_Software_License_Agreement-Tegra-Linux.txt",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_DOC",
+    "url": "https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_MODEL",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/programming-model.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_ASYNC",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/asynchronous-execution.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_GRAPH",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/cuda-graphs.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_MEMORY",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_NVCC",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/nvcc.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_PDF",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/pdf/cuda-programming-guide.pdf",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_PAGE",
+    "url": "https://developer.nvidia.com/cudnn",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_GRAPH",
+    "url": "https://docs.nvidia.com/deeplearning/cudnn/backend/latest/developer/graph-api.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_ROOT",
+    "url": "https://docs.nvidia.com/deeplearning/cudnn/backend/latest/index.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_FRONT",
+    "url": "https://docs.nvidia.com/deeplearning/cudnn/frontend/latest/index.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_OVERVIEW",
+    "url": "https://docs.nvidia.com/deeplearning/cudnn/backend/latest/developer/overview.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_REPO_PAGE",
+    "url": "https://github.com/NVIDIA/cudnn-frontend",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_REPO_META",
+    "url": "https://api.github.com/repos/NVIDIA/cudnn-frontend",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_REPO_COMMIT",
+    "url": "https://api.github.com/repos/NVIDIA/cudnn-frontend/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_LICENSE2",
+    "url": "https://raw.githubusercontent.com/NVIDIA/cudnn-frontend/develop/LICENSE.txt",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_LICENSE_MIT",
+    "url": "https://raw.githubusercontent.com/NVIDIA/cudnn-frontend/develop/LICENSE-MIT.txt",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_LICENSE_THIRD",
+    "url": "https://raw.githubusercontent.com/NVIDIA/cudnn-frontend/develop/THIRD_PARTY_LICENSES.txt",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_LICENSING",
+    "url": "https://raw.githubusercontent.com/NVIDIA/cudnn-frontend/develop/LICENSING.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TRT_WORK",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TRT_ARCH",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/architecture-overview.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Deployment_Guide",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/scripts/deployment/README.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Page_Jetson_Orin",
+    "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_VPI_ROOT",
+    "url": "https://docs.nvidia.com/vpi/index.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_VPI_KLT",
+    "url": "https://docs.nvidia.com/vpi/algo_klt_tracker.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_VPI_CONCEPT",
+    "url": "https://docs.nvidia.com/vpi/basic_concepts.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_PVA_PAGE",
+    "url": "https://developer.nvidia.com/embedded/pva",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_PVA_ARCH2",
+    "url": "https://docs.nvidia.com/pva/sdk/2.10.1/architecture.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_PVA_REPO_PAGE",
+    "url": "https://github.com/NVIDIA/pva-solutions",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_PVA_REPO_META",
+    "url": "https://api.github.com/repos/NVIDIA/pva-solutions",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_PVA_REPO_COMMIT",
+    "url": "https://api.github.com/repos/NVIDIA/pva-solutions/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_PVA_REPO_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVIDIA/pva-solutions/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_MEDIA_DOC",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Multimedia.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_MEDIA_API",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Multimedia/MultimediaApis.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Camera_39_2_1",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_SIPL_INTRO",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/Introduction-to-SIPL.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_SIPL_GMSL",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/GMSL/GMSL-Architecture-Overview.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_SIPL_COE",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_DEEP_DOC",
+    "url": "https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_Overview.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Page_Jetson_Thor",
+    "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HOLO_ROOT",
+    "url": "https://docs.nvidia.com/holoscan/sdk-user-guide/index.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HOLO4_OVERVIEW",
+    "url": "https://docs.nvidia.com/holoscan/sdk-user-guide/4-4/introduction/overview",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HOLO_CORE2",
+    "url": "https://docs.nvidia.com/holoscan/sdk-user-guide/holoscan_core.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HOLO_REPO",
+    "url": "https://github.com/nvidia-holoscan/holoscan-sdk",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HOLO_META",
+    "url": "https://api.github.com/repos/nvidia-holoscan/holoscan-sdk",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HOLO_COMMIT",
+    "url": "https://api.github.com/repos/nvidia-holoscan/holoscan-sdk/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HOLO_LICENSE",
+    "url": "https://raw.githubusercontent.com/nvidia-holoscan/holoscan-sdk/main/LICENSE.txt",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HSB_ARCH",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Holoscan_Sensor_Bridge_README",
+    "url": "https://raw.githubusercontent.com/nvidia-holoscan/holoscan-sensor-bridge/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Holoscan_Bridge_Documentation",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/latest/index.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Holoscan_Bridge_Project_Page",
+    "url": "https://github.com/nvidia-holoscan/holoscan-sensor-bridge",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Holoscan_Bridge_Repo_Metadata",
+    "url": "https://api.github.com/repos/nvidia-holoscan/holoscan-sensor-bridge",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Holoscan_Bridge_Recent_Commit",
+    "url": "https://api.github.com/repos/nvidia-holoscan/holoscan-sensor-bridge/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Repositories",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/index.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Deploy_Concept",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/concepts/how_it_works.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Buffer_Migration",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/nitros_migration.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_BUFFER_DOC",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/index.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Common_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_common/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_MPS_DOC",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/gpu_partitioning/index.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Deploy_Safety",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/concepts/safety.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Common_Project_Page",
+    "url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Common_License",
+    "url": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_common/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Repo_Metadata",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_common",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Recent_Commit",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_common/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_New_Embodiment",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/getting_started/finetune_new_embodiment.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Hardware_Guide",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/getting_started/hardware_recommendation.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Project_Page",
+    "url": "https://github.com/NVIDIA/Isaac-GR00T",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Repo_Metadata",
+    "url": "https://api.github.com/repos/NVIDIA/Isaac-GR00T",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Recent_Commit",
+    "url": "https://api.github.com/repos/NVIDIA/Isaac-GR00T/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_License",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Triton_README",
+    "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TRITON_ARCH",
+    "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/docs/user_guide/architecture.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Triton_Batching",
+    "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/docs/user_guide/batcher.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Triton_Model_Management",
+    "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/docs/user_guide/model_management.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Triton_Project_Page",
+    "url": "https://github.com/triton-inference-server/server",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Triton_License",
+    "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Triton_Repo_Metadata",
+    "url": "https://api.github.com/repos/triton-inference-server/server",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Triton_Recent_Commit",
+    "url": "https://api.github.com/repos/triton-inference-server/server/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NSIGHT_DOC",
+    "url": "https://docs.nvidia.com/nsight-systems/UserGuide/index.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NSIGHT_COMPUTE",
+    "url": "https://docs.nvidia.com/nsight-compute/ProfilingGuide/index.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NSIGHT_GRAPHICS",
+    "url": "https://developer.nvidia.com/nsight-graphics",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TAO_DOC",
+    "url": "https://docs.nvidia.com/tao/tao-toolkit/text/overview.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TAO_REPO_PAGE",
+    "url": "https://github.com/NVIDIA/tao_pytorch_backend",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TAO_REPO_META",
+    "url": "https://api.github.com/repos/NVIDIA/tao_pytorch_backend",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TAO_REPO_COMMIT",
+    "url": "https://api.github.com/repos/NVIDIA/tao_pytorch_backend/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TAO_REPO_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVIDIA/tao_pytorch_backend/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NIM_ROOT",
+    "url": "https://docs.nvidia.com/nim/index.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NIM_PAGE",
+    "url": "https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices/",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NIM_ARCH",
+    "url": "https://docs.nvidia.com/nim/large-language-models/latest/reference/architecture.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NIM_PROFILE",
+    "url": "https://docs.nvidia.com/nim/large-language-models/latest/deployment/model-profiles-and-selection.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NIM_LLM_CURRENT",
+    "url": "https://docs.nvidia.com/nim/large-language-models/latest/get-started/index.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NIM_INSTALL",
+    "url": "https://docs.nvidia.com/nim/large-language-models/latest/get-started/installation.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Sim_Docs_Index",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/index.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_README",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacLab/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Sim_ROS2_Bridge",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/ros2_tutorials/index.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_LAB_INSTALL_CURRENT",
+    "url": "https://isaac-sim.github.io/IsaacLab/main/source/isaaclab/installation.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_Page",
+    "url": "https://github.com/isaac-sim/IsaacLab",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_Page",
+    "url": "https://github.com/isaac-sim/IsaacSim",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_License",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacLab/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_License",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacSim/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_README",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacSim/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_CAN_R38_2",
+    "url": "https://docs.nvidia.com/jetson/archives/r38.2/DeveloperGuide/HR/ControllerAreaNetworkCan.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Real_Time_R38_2",
+    "url": "https://docs.nvidia.com/jetson/archives/r38.2/DeveloperGuide/SD/Kernel/RealTimeKernel.html",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Architecture_Image",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/media/model-architecture.png",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TRITON_FIG",
+    "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/docs/user_guide/images/arch.jpg",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  }
+]

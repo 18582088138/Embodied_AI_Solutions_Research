@@ -1,0 +1,5 @@
+[
+ {"name":"NVIDIA_06_MOTION","url":"https://nvlabs.github.io/curobo/latest/getting-started/motion_planning.html","expected":"html","used_by":["06_Robot_Integration"]},
+ {"name":"NVIDIA_06_REACTIVE","url":"https://nvlabs.github.io/curobo/latest/getting-started/reactive_control.html","expected":"html","used_by":["06_Robot_Integration"]},
+ {"name":"NVIDIA_06_RETARGET","url":"https://nvlabs.github.io/curobo/latest/getting-started/humanoid_retargeting.html","expected":"html","used_by":["06_Robot_Integration"]}
+]

@@ -1,0 +1,28 @@
+{
+  "report": "01_Compute_Chips/01_NVIDIA/08_Proprietary_Technologies.md",
+  "body_han_chars": 4093,
+  "tables": 4,
+  "report_local_links": 54,
+  "sources": 50,
+  "status_counts": {
+    "complete_static": 34,
+    "partial_static": 16
+  },
+  "html_visible_text_equal": 31,
+  "unique_asset_urls": 1234,
+  "unavailable_presentation_urls": 218,
+  "file_hash_checks": 3156,
+  "page_local_dependencies_checked": 3833,
+  "changed_reports": [
+    "01_Compute_Chips/01_NVIDIA/02_Software_Stack.md",
+    "01_Compute_Chips/01_NVIDIA/03_Sensor_Integration.md",
+    "01_Compute_Chips/01_NVIDIA/04_AI_Capabilities.md",
+    "01_Compute_Chips/01_NVIDIA/05_Simulation_Environment.md",
+    "01_Compute_Chips/01_NVIDIA/06_Robot_Integration.md",
+    "01_Compute_Chips/01_NVIDIA/07_Ecosystem.md",
+    "01_Compute_Chips/01_NVIDIA/08_Proprietary_Technologies.md"
+  ],
+  "errors": [],
+  "outcome": "pass",
+  "limits": "Offline archive and structure checks; facts manually reviewed; no hardware tests."
+}

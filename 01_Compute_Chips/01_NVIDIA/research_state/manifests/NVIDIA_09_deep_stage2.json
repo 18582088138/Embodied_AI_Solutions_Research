@@ -1,0 +1,18 @@
+[
+  {
+    "name": "NVIDIA_09_DEEP_FY2026",
+    "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/ar/2026-Annual-Report-Web.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_09_DEEP_IR_QUARTER",
+    "url": "https://investor.nvidia.com/financial-info/financial-reports-and-sec-filings/default.aspx",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  }
+]

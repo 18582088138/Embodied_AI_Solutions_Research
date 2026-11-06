@@ -1,0 +1,10 @@
+[
+  {
+    "name": "NVIDIA_02_LAB_INSTALL_CURRENT",
+    "url": "https://isaac-sim.github.io/IsaacLab/main/source/isaaclab/installation.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  }
+]

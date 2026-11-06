@@ -1,0 +1,6 @@
+[
+ {"name":"NVIDIA_04_GR00T_CARD","url":"https://huggingface.co/nvidia/GR00T-N1.7-3B/raw/main/README.md","expected":"any","used_by":["04_AI_Capabilities"]},
+ {"name":"NVIDIA_04_COSMOS_REASON_CARD","url":"https://huggingface.co/nvidia/Cosmos-Reason2-2B/raw/main/README.md","expected":"any","used_by":["04_AI_Capabilities"]},
+ {"name":"NVIDIA_04_TRT_PERF","url":"https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/best-practices.html","expected":"html","used_by":["04_AI_Capabilities"]},
+ {"name":"NVIDIA_04_TRITON_METRICS","url":"https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/metrics.html","expected":"html","used_by":["04_AI_Capabilities"]}
+]

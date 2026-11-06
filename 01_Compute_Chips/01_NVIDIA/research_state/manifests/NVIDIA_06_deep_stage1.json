@@ -1,0 +1,42 @@
+[
+  {
+    "name": "NVIDIA_06_DEEP_AGILITY_THOR",
+    "url": "https://www.agilityrobotics.com/content/agility-robotics-powering-the-future-of-robotics-with-nvidia-jetson-thor",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEEP_THOR_TECH",
+    "url": "https://developer.nvidia.com/blog/introducing-nvidia-jetson-thor-the-ultimate-platform-for-physical-ai/",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEEP_SOLOMON_THOR",
+    "url": "https://www.solomon-3d.com/news-events/press-releases/solomon-humanoid-robot-nvidia-jetson-thor-automation-taipei-2025/",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEEP_NV_BLOG_SEARCH",
+    "url": "https://blogs.nvidia.com/wp-json/wp/v2/search?search=jetson%20robotics&per_page=30",
+    "expected": "json",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEEP_BD_NEWS",
+    "url": "https://bostondynamics.com/blog/",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  }
+]

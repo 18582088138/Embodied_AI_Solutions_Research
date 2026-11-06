@@ -1,0 +1,42 @@
+[
+  {
+    "name": "NVIDIA_04_EXP_LABMODELS",
+    "url": "https://www.jetson-ai-lab.com/models/",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_NEMOTRON",
+    "url": "https://www.nvidia.com/en-us/ai/",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_TAOZOO",
+    "url": "https://docs.nvidia.com/tao/tao-toolkit/text/model_zoo/overview.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_SONIC",
+    "url": "https://github.com/NVlabs/SONIC",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_ALPAMAYO",
+    "url": "https://github.com/NVlabs/alpamayo",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  }
+]

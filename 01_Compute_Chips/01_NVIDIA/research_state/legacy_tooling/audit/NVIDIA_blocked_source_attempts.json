@@ -1,0 +1,99 @@
+{
+  "NVIDIA_GitHub_IsaacLab_Commits": {
+    "id": "NVIDIA_GitHub_IsaacLab_Commits",
+    "url": "https://github.com/isaac-sim/IsaacLab/commits/main/",
+    "archived_at_utc": "2026-11-03T07:03:15.482662+00:00",
+    "tool": "toolkit/download_materials.py",
+    "script_policy": "disable",
+    "aliases": [
+      "NVIDIA_GitHub_IsaacLab_Commits"
+    ],
+    "used_by": [
+      "01_Hardware_Platform"
+    ],
+    "archive_status": "failed",
+    "error": "PermissionError: robots.txt does not permit this URL or could not be checked",
+    "assets": [],
+    "unavailable_assets": {},
+    "notes": [],
+    "robots": {
+      "https://dam-cdn.nvd.orangelogic.com": "absent HTTP404",
+      "https://developer.nvidia.com": "retrieved",
+      "https://developer.download.nvidia.com": "retrieved",
+      "https://developer.download.nvidia.cn": "retrieved",
+      "https://www.nvidia.com": "retrieved",
+      "https://raw.githubusercontent.com": "absent HTTP404",
+      "https://cdn.cookielaw.org": "unavailable HTTP400; fail closed",
+      "https://assets.adobedtm.com": "absent HTTP404",
+      "https://cdnjs.cloudflare.com": "unavailable HTTP522; fail closed",
+      "https://images.nvidia.com": "retrieved",
+      "https://images.nvidia.cn": "retrieved",
+      "https://www.datadoghq-browser-agent.com": "unavailable URLError; fail closed",
+      "https://api-prod.nvidia.com": "absent HTTP404",
+      "https://d29g4g2dyqv443.cloudfront.net": "unavailable HTTP403; fail closed",
+      "https://docs.isaacsim.omniverse.nvidia.com": "absent HTTP404",
+      "https://www.googletagmanager.com": "unavailable HTTP504; fail closed",
+      "https://nvidianews.nvidia.com": "retrieved",
+      "https://iprsoftwaremedia.com": "retrieved",
+      "https://ml.globenewswire.com": "retrieved",
+      "https://blogs.nvidia.com": "retrieved",
+      "https://info.nvidia.com": "retrieved",
+      "https://nvidiablog.disqus.com": "unavailable URLError; fail closed",
+      "https://developer-blogs.nvidia.com": "retrieved",
+      "https://app-sj14.marketo.com": "retrieved",
+      "https://pro.fontawesome.com": "unavailable HTTP403; fail closed",
+      "https://secure.gravatar.com": "retrieved",
+      "https://github.com": "retrieved"
+    }
+  },
+  "NVIDIA_GitHub_IsaacSim_Commits": {
+    "id": "NVIDIA_GitHub_IsaacSim_Commits",
+    "url": "https://github.com/isaac-sim/IsaacSim/commits/main/",
+    "archived_at_utc": "2026-11-03T07:04:52.063955+00:00",
+    "tool": "toolkit/download_materials.py",
+    "script_policy": "disable",
+    "aliases": [
+      "NVIDIA_GitHub_IsaacSim_Commits"
+    ],
+    "used_by": [
+      "01_Hardware_Platform"
+    ],
+    "archive_status": "failed",
+    "error": "PermissionError: robots.txt does not permit this URL or could not be checked",
+    "assets": [],
+    "unavailable_assets": {},
+    "notes": [],
+    "robots": {
+      "https://dam-cdn.nvd.orangelogic.com": "absent HTTP404",
+      "https://developer.nvidia.com": "retrieved",
+      "https://developer.download.nvidia.com": "retrieved",
+      "https://developer.download.nvidia.cn": "retrieved",
+      "https://www.nvidia.com": "retrieved",
+      "https://raw.githubusercontent.com": "absent HTTP404",
+      "https://cdn.cookielaw.org": "unavailable HTTP400; fail closed",
+      "https://assets.adobedtm.com": "absent HTTP404",
+      "https://cdnjs.cloudflare.com": "unavailable HTTP522; fail closed",
+      "https://images.nvidia.com": "retrieved",
+      "https://images.nvidia.cn": "retrieved",
+      "https://www.datadoghq-browser-agent.com": "unavailable URLError; fail closed",
+      "https://api-prod.nvidia.com": "absent HTTP404",
+      "https://d29g4g2dyqv443.cloudfront.net": "unavailable HTTP403; fail closed",
+      "https://docs.isaacsim.omniverse.nvidia.com": "absent HTTP404",
+      "https://www.googletagmanager.com": "unavailable HTTP504; fail closed",
+      "https://nvidianews.nvidia.com": "retrieved",
+      "https://iprsoftwaremedia.com": "retrieved",
+      "https://ml.globenewswire.com": "retrieved",
+      "https://blogs.nvidia.com": "retrieved",
+      "https://info.nvidia.com": "retrieved",
+      "https://nvidiablog.disqus.com": "unavailable URLError; fail closed",
+      "https://developer-blogs.nvidia.com": "retrieved",
+      "https://app-sj14.marketo.com": "retrieved",
+      "https://pro.fontawesome.com": "unavailable HTTP403; fail closed",
+      "https://secure.gravatar.com": "retrieved",
+      "https://github.com": "retrieved",
+      "https://github.githubassets.com": "retrieved",
+      "https://avatars.githubusercontent.com": "retrieved",
+      "https://camo.githubusercontent.com": "absent HTTP404"
+    }
+  }
+}

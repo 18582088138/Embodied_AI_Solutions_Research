@@ -1,0 +1,10 @@
+[
+  {
+    "name": "NVIDIA_03_ORBBEC_LICENSE",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/LICENSE.txt",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  }
+]

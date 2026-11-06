@@ -1,0 +1,58 @@
+[
+  {
+    "name": "NVIDIA_08_DEEP_TRT_DYNAMIC_CURRENT",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/work-with-dynamic-shapes.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_SHAPE_BASICS",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/dynamic-shapes-basics.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_QUANT_SCHEMES",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-schemes.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_PRECISION",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/precision-control.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_OPTIMIZATION",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/optimization.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_BENCHMARK",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/benchmarking.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_TUNING",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/tuning.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  }
+]

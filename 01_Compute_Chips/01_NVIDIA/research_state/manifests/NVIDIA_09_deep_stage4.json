@@ -1,0 +1,42 @@
+[
+  {
+    "name": "NVIDIA_09_DEEP_Q2FY2027",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_09_DEEP_IFR_PRESENTATION",
+    "url": "https://ifr.org/downloads/press_docs/Market_Presentation_WR_Press_Conference_2026.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_09_DEEP_IFR_GLOBAL_FIG",
+    "url": "https://ifr.org/downloads/press_docs/Graphic_World_Robotics_2026_GLOBAL.png",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_09_DEEP_IFR_SERVICE_FIG",
+    "url": "https://ifr.org/downloads/press_docs/Graph_Service_Robots_share_2025_1600x900.jpg",
+    "expected": "any",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_09_DEEP_BIS_REGULATIONS",
+    "url": "https://www.bis.gov/regulations",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  }
+]

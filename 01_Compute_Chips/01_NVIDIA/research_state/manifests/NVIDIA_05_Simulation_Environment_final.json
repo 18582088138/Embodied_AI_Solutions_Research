@@ -1,0 +1,290 @@
+[
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_README",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacSim/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_README",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacLab/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Newton_README",
+    "url": "https://raw.githubusercontent.com/newton-physics/newton/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Warp_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA/warp/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_PhysX_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA-Omniverse/PhysX/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_SDG",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/replicator_tutorials/tutorial_replicator_sdg_workflows.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_SIM_COSMOS",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/replicator_tutorials/tutorial_replicator_cosmos.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_LAB_INSTALL_CURRENT",
+    "url": "https://isaac-sim.github.io/IsaacLab/main/source/isaaclab/installation.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_SIM_ARCH",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/introduction/reference_architecture.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_PHYSICS",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/physics/simulation_fundamentals.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Documentation_IsaacSim_Requirements",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/installation/requirements.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_HYDRO",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/physics/hydroelastic_contact.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_ACTUATOR",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/newton_actuators_tutorials/newton_actuators_python.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_SENSOR",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/sensors/isaacsim_sensors_rtx.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_LAB_EVENTS",
+    "url": "https://isaac-sim.github.io/IsaacLab/main/source/api/lab/isaaclab.managers.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Cosmos_Page",
+    "url": "https://developer.nvidia.com/cosmos",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Sim_ROS2_Bridge",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/ros2_tutorials/index.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_Page",
+    "url": "https://github.com/isaac-sim/IsaacSim",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_License",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacSim/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_SIM_META",
+    "url": "https://api.github.com/repos/isaac-sim/IsaacSim",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_Commits_API",
+    "url": "https://api.github.com/repos/isaac-sim/IsaacSim/commits?sha=main&per_page=1",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_Page",
+    "url": "https://github.com/isaac-sim/IsaacLab",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_License",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacLab/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_LAB_META",
+    "url": "https://api.github.com/repos/isaac-sim/IsaacLab",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_Commits_API",
+    "url": "https://api.github.com/repos/isaac-sim/IsaacLab/commits?sha=main&per_page=1",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Newton_Project_Page",
+    "url": "https://github.com/newton-physics/newton",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_NEWTON_LICENSE",
+    "url": "https://raw.githubusercontent.com/newton-physics/newton/main/LICENSE.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Newton_Metadata",
+    "url": "https://api.github.com/repos/newton-physics/newton",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Newton_Commit",
+    "url": "https://api.github.com/repos/newton-physics/newton/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Warp_Project_Page",
+    "url": "https://github.com/NVIDIA/warp",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_WARP_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVIDIA/warp/main/LICENSE.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Warp_Metadata",
+    "url": "https://api.github.com/repos/NVIDIA/warp",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Warp_Commit",
+    "url": "https://api.github.com/repos/NVIDIA/warp/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_PhysX_Project_Page",
+    "url": "https://github.com/NVIDIA-Omniverse/PhysX",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_PhysX_Metadata",
+    "url": "https://api.github.com/repos/NVIDIA-Omniverse/PhysX",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_PhysX_Commit",
+    "url": "https://api.github.com/repos/NVIDIA-Omniverse/PhysX/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  }
+]

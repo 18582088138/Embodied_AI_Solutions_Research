@@ -1,0 +1,57 @@
+[
+  {
+    "key": "X_SONIC",
+    "url": "https://github.com/NVlabs/SONIC",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "key": "X_SONIC_README",
+    "url": "https://raw.githubusercontent.com/NVlabs/SONIC/main/README.md",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "key": "X_FOUNDATIONSTEREO_README",
+    "url": "https://raw.githubusercontent.com/NVlabs/FoundationStereo/main/README.md",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "key": "X_HF_GR00T_CARD",
+    "url": "https://huggingface.co/nvidia/GR00T-N1.7-3B",
+    "error": "PermissionError: robots.txt does not permit this URL or could not be checked"
+  },
+  {
+    "key": "X_SONIC_SEARCH",
+    "url": "https://api.github.com/search/repositories?q=SONIC+org%3ANVlabs",
+    "error": "PermissionError: robots.txt does not permit this URL or could not be checked"
+  },
+  {
+    "key": "X_LEROBOT_DOC_LIST",
+    "url": "https://api.github.com/repos/huggingface/lerobot/contents/docs/source",
+    "error": "PermissionError: robots.txt does not permit this URL or could not be checked"
+  },
+  {
+    "key": "X_FOUNDATIONSTEREO_README2",
+    "url": "https://raw.githubusercontent.com/NVlabs/FoundationStereo/master/README.md",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "key": "X_ASR_CARD",
+    "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
+    "error": "PermissionError: robots.txt does not permit this URL or could not be checked"
+  },
+  {
+    "key": "X_TTS_CARD",
+    "url": "https://huggingface.co/nvidia/magpie_tts_multilingual_357m",
+    "error": "PermissionError: robots.txt does not permit this URL or could not be checked"
+  },
+  {
+    "key": "D04_SONIC_README",
+    "url": "https://raw.githubusercontent.com/NVlabs/GEAR-SONIC/main/README.md",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "key": "D04_SMOL_DOC",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/docs/source/en/smolvla.mdx",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  }
+]

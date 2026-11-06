@@ -1,0 +1,74 @@
+[
+  {
+    "name": "NVIDIA_04_EXP_OPENPI_LIBERO",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/examples/libero/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LEROBOT_DOC_LIST",
+    "url": "https://api.github.com/repos/huggingface/lerobot/contents/docs/source",
+    "expected": "json",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_ACT_README",
+    "url": "https://raw.githubusercontent.com/tonyzhaozh/act/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_DIFFUSION_README",
+    "url": "https://raw.githubusercontent.com/real-stanford/diffusion_policy/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_FOUNDATIONSTEREO_README2",
+    "url": "https://raw.githubusercontent.com/NVlabs/FoundationStereo/master/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_POSE_BENCH",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_pose_estimation/isaac_ros_foundationpose/index.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_ASR_CARD",
+    "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_TTS_CARD",
+    "url": "https://huggingface.co/nvidia/magpie_tts_multilingual_357m",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_CUOPT",
+    "url": "https://docs.nvidia.com/cuopt/user-guide/latest/introduction.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  }
+]

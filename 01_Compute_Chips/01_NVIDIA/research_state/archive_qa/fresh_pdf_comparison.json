@@ -1,0 +1,72 @@
+[
+  {
+    "name": "NVIDIA_Datasheet_DGX_Spark",
+    "fresh_downloaded_at_utc": "2026-11-03T06:54:33.658213+00:00",
+    "unchanged_pdf_bytes": true
+  },
+  {
+    "name": "NVIDIA_Datasheet_Jetson_AGX_Thor_Developer_Kit",
+    "fresh_downloaded_at_utc": "2026-11-03T06:54:35.433122+00:00",
+    "unchanged_pdf_bytes": true
+  },
+  {
+    "name": "NVIDIA_Datasheet_Jetson_Thor_Modules",
+    "fresh_downloaded_at_utc": "2026-11-03T06:54:37.286645+00:00",
+    "unchanged_pdf_bytes": true
+  },
+  {
+    "name": "NVIDIA_Datasheet_Orin_NX_v1_7",
+    "fresh_downloaded_at_utc": "2026-11-03T06:54:46.467270+00:00",
+    "unchanged_pdf_bytes": true
+  },
+  {
+    "name": "NVIDIA_Datasheet_RTX_PRO_6000_MaxQ",
+    "fresh_downloaded_at_utc": "2026-11-03T06:54:50.262229+00:00",
+    "unchanged_pdf_bytes": true
+  },
+  {
+    "name": "NVIDIA_Datasheet_RTX_PRO_6000_Workstation",
+    "fresh_downloaded_at_utc": "2026-11-03T06:54:52.501759+00:00",
+    "unchanged_pdf_bytes": true
+  },
+  {
+    "name": "NVIDIA_Datasheet_Thor_Full_v1_5",
+    "fresh_downloaded_at_utc": "2026-11-03T06:54:56.181524+00:00",
+    "unchanged_pdf_bytes": true
+  },
+  {
+    "name": "NVIDIA_Design_Guide_Orin_NX_Nano_v1_5",
+    "fresh_downloaded_at_utc": "2026-11-03T06:55:01.341390+00:00",
+    "unchanged_pdf_bytes": true
+  },
+  {
+    "name": "NVIDIA_Design_Guide_Thor_v1_5",
+    "fresh_downloaded_at_utc": "2026-11-03T06:55:06.248777+00:00",
+    "unchanged_pdf_bytes": true
+  },
+  {
+    "name": "NVIDIA_Product_Brief_IGX_Thor_Safety",
+    "fresh_downloaded_at_utc": "2026-11-03T06:55:27.489353+00:00",
+    "unchanged_pdf_bytes": true
+  },
+  {
+    "name": "NVIDIA_Technical_Brief_Robotics_Edge_AI",
+    "fresh_downloaded_at_utc": "2026-11-03T06:55:29.632691+00:00",
+    "unchanged_pdf_bytes": true
+  },
+  {
+    "name": "NVIDIA_Thermal_Guide_Orin_NX_Nano_v1_5",
+    "fresh_downloaded_at_utc": "2026-11-03T06:55:34.036154+00:00",
+    "unchanged_pdf_bytes": true
+  },
+  {
+    "name": "NVIDIA_Thermal_Guide_Thor_v1_3",
+    "fresh_downloaded_at_utc": "2026-11-03T06:55:38.128338+00:00",
+    "unchanged_pdf_bytes": true
+  },
+  {
+    "name": "NVIDIA_Whitepaper_GB10_Superchip",
+    "fresh_downloaded_at_utc": "2026-11-03T06:55:41.738075+00:00",
+    "unchanged_pdf_bytes": true
+  }
+]

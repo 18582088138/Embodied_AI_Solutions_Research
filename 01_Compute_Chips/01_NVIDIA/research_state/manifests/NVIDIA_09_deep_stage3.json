@@ -1,0 +1,34 @@
+[
+  {
+    "name": "NVIDIA_09_DEEP_IFR_INDUSTRIAL",
+    "url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_09_DEEP_IFR_SERVICE",
+    "url": "https://ifr.org/ifr-press-releases/news/global-sales-of-professional-service-robots-surge-24-percent",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_09_DEEP_EAR_738",
+    "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-738",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_09_DEEP_EAR_744",
+    "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-744",
+    "expected": "html",
+    "used_by": [
+      "09_SWOT_Analysis"
+    ]
+  }
+]

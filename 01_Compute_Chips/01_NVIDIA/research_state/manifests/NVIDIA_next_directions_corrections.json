@@ -1,0 +1,51 @@
+[
+  {
+    "name": "NVIDIA_Isaac_Sim_Docs_Index",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/index.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Lab_Docs_Index",
+    "url": "https://isaac-sim.github.io/IsaacLab/main/index.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Lab_Install",
+    "url": "https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/index.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Manipulation_Workflow",
+    "url": "https://nvidia-isaac-ros.github.io/reference_workflows/isaac_for_manipulation/index.html",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Orbbec_SDK_License",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Lab_Paper",
+    "url": "https://arxiv.org/pdf/2511.04831",
+    "expected": "pdf",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  }
+]

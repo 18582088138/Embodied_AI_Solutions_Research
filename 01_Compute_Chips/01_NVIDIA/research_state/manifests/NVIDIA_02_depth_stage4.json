@@ -1,0 +1,74 @@
+[
+  {
+    "name": "NVIDIA_02_CUDNN_LICENSE2",
+    "url": "https://raw.githubusercontent.com/NVIDIA/cudnn-frontend/develop/LICENSE.txt",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_LICENSE_MIT",
+    "url": "https://raw.githubusercontent.com/NVIDIA/cudnn-frontend/develop/LICENSE-MIT.txt",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_LICENSE_THIRD",
+    "url": "https://raw.githubusercontent.com/NVIDIA/cudnn-frontend/develop/THIRD_PARTY_LICENSES.txt",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NIM_LLM",
+    "url": "https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NSIGHT_GRAPHICS",
+    "url": "https://developer.nvidia.com/nsight-graphics",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_PVA_REPO_META",
+    "url": "https://api.github.com/repos/NVIDIA/pva-solutions",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_PVA_REPO_COMMIT",
+    "url": "https://api.github.com/repos/NVIDIA/pva-solutions/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_PVA_REPO_PAGE",
+    "url": "https://github.com/NVIDIA/pva-solutions",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_PVA_REPO_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVIDIA/pva-solutions/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  }
+]

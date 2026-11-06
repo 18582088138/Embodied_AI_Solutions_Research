@@ -1,0 +1,43 @@
+{
+  "checked_at_utc": "2026-11-03T07:09:17.336595+00:00",
+  "report": "01_Compute_Chips/01_NVIDIA/01_Hardware_Platform.md",
+  "report_sha256": "1da08c85aed0bc79c80736c079496a6e281d0463e7d3ee226e6fe319d558c253",
+  "body_han_chars_excluding_reference_section": 7247,
+  "body_chars_excluding_reference_section": 34536,
+  "markdown_tables": 14,
+  "max_table_columns": 7,
+  "table_format_errors": [],
+  "invalid_local_or_relative_links": [],
+  "anchor_links_present": false,
+  "empty_headings": [],
+  "placeholder_terms_found": [],
+  "referenced_official_urls": 45,
+  "source_archive_or_hash_errors": [],
+  "downloaded_pdf_references": 14,
+  "local_referenced_files": 48,
+  "embedded_official_pdf_page_images": 2,
+  "baseline_report_count": 136,
+  "changed_reports": [
+    "01_Compute_Chips/01_NVIDIA/01_Hardware_Platform.md"
+  ],
+  "other_reports_unchanged": true,
+  "manual_review": [
+    "Jetson model rows reviewed against official product tables; Thor and NX against full datasheets.",
+    "Sparse/dense and MAXN/default power values separated; model latency and energy were not invented.",
+    "T4000 TMP90W reconciled as engineering constraint while preserving 40–70W marketing range.",
+    "Orin32GB241/200TOPS, NX8GB20/25W, prices and Xavier lifecycle source differences remain explicit.",
+    "New product supply plans are not represented as generally available.",
+    "Official Thor SoC diagram and full-datasheet table rendered and visually inspected.",
+    "Isaac Lab and Isaac Sim Stars, default-branch commit times and mixed licensing reviewed.",
+    "Lifecycle-page facts preserved rather than incorrectly labeling all pre-2025 hardware EOL.",
+    "No performance benchmark, BOM quote, or final customer acceptance claimed."
+  ],
+  "limits_and_exclusions": [
+    "HTTP200 alone was not accepted as proof: guessed Orin2022 announcement returned unrelated content and is excluded.",
+    "AGX thermal guide endpoint returned HTML; not treated as a downloaded thermal PDF.",
+    "404 RTXPRO URL and rate-limited GitHub API were excluded as sources.",
+    "Some exact SKU release dates, manufacturing nodes, new SKU electrical specs and commercial quotes remain unverified in the report.",
+    "User review and acceptance is pending; no later reports were researched or modified in this rewrite."
+  ],
+  "structural_checks_passed": true
+}

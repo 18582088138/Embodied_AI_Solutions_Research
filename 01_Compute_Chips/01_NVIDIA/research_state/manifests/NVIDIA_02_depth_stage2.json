@@ -1,0 +1,138 @@
+[
+  {
+    "name": "NVIDIA_02_CUDA_MODEL",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/programming-model.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_ASYNC",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/asynchronous-execution.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_MEMORY",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_NVCC",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/nvcc.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_GRAPH",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/cuda-graphs.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_PDF",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/pdf/cuda-programming-guide.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_ROOT",
+    "url": "https://docs.nvidia.com/deeplearning/cudnn/backend/latest/index.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_PAGE",
+    "url": "https://developer.nvidia.com/cudnn",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_VPI_ROOT",
+    "url": "https://docs.nvidia.com/vpi/index.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_PVA_ARCH",
+    "url": "https://docs.nvidia.com/pva/sdk/architecture.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HOLO_ROOT",
+    "url": "https://docs.nvidia.com/holoscan/sdk-user-guide/index.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HOLO_CORE2",
+    "url": "https://docs.nvidia.com/holoscan/sdk-user-guide/holoscan_core.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TRITON_FIG",
+    "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/docs/user_guide/images/arch.jpg",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HOLO_META",
+    "url": "https://api.github.com/repos/nvidia-holoscan/holoscan-sdk",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HOLO_COMMIT",
+    "url": "https://api.github.com/repos/nvidia-holoscan/holoscan-sdk/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HOLO_LICENSE",
+    "url": "https://raw.githubusercontent.com/nvidia-holoscan/holoscan-sdk/main/LICENSE.txt",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HOLO_REPO",
+    "url": "https://github.com/nvidia-holoscan/holoscan-sdk",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  }
+]

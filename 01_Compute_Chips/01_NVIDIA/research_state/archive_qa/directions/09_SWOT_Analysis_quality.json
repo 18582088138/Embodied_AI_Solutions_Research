@@ -1,0 +1,29 @@
+{
+  "report": "01_Compute_Chips/01_NVIDIA/09_SWOT_Analysis.md",
+  "body_han_chars": 10615,
+  "tables": 12,
+  "report_local_links": 76,
+  "sources": 71,
+  "status_counts": {
+    "partial_static": 34,
+    "complete_static": 37
+  },
+  "html_visible_text_equal": 47,
+  "unique_asset_urls": 1910,
+  "unavailable_presentation_urls": 399,
+  "file_hash_checks": 4672,
+  "page_local_dependencies_checked": 6022,
+  "changed_reports": [
+    "01_Compute_Chips/01_NVIDIA/02_Software_Stack.md",
+    "01_Compute_Chips/01_NVIDIA/03_Sensor_Integration.md",
+    "01_Compute_Chips/01_NVIDIA/04_AI_Capabilities.md",
+    "01_Compute_Chips/01_NVIDIA/05_Simulation_Environment.md",
+    "01_Compute_Chips/01_NVIDIA/06_Robot_Integration.md",
+    "01_Compute_Chips/01_NVIDIA/07_Ecosystem.md",
+    "01_Compute_Chips/01_NVIDIA/08_Proprietary_Technologies.md",
+    "01_Compute_Chips/01_NVIDIA/09_SWOT_Analysis.md"
+  ],
+  "errors": [],
+  "outcome": "pass",
+  "limits": "Offline archive and structure checks; facts manually reviewed; no hardware tests."
+}

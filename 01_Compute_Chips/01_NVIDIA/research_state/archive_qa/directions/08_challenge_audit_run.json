@@ -1,0 +1,16 @@
+{
+  "time_utc": "2026-11-04T03:18:23.397779+00:00",
+  "summary": {
+    "complete_static": 0,
+    "partial_static": 0,
+    "failed": 2
+  },
+  "names": [
+    "NVIDIA_08_DEEP_ROS2_INTRAPROCESS",
+    "NVIDIA_08_DEEP_BUFFER_UPSTREAM"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

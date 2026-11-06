@@ -1,0 +1,99 @@
+{
+  "JP_HOME": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/JetPack_Page--c9b618c904201b47/assets/images/280750f293d8a603f9bb3181.png",
+    "sha256": "f563c7d7aefdc237be9cc7e531647580b073cbbbb7432a2f371a2679482ed5b0",
+    "source_url": "https://developer.download.nvidia.com/images/jetson/robotics-diagram-update-jetpack7.2-cptx26.png",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/JetPack_Page--c9b618c904201b47/assets/images/280750f293d8a603f9bb3181.png",
+    "original_sha256": "f563c7d7aefdc237be9cc7e531647580b073cbbbb7432a2f371a2679482ed5b0",
+    "operation": "Unmodified official image"
+  },
+  "CUDA_MODEL": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_MODEL--ff852ad994d3a602/assets/images/5e6268aa62a2b30f1b1cb6f2.png",
+    "sha256": "49386753c3c91923496d6857b56417d3a0702cecff6ecf9ea7879795ccf7fd64",
+    "source_url": "https://docs.nvidia.com/cuda/cuda-programming-guide/_images/grid-of-thread-blocks.png",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDA_MODEL--ff852ad994d3a602/assets/images/5e6268aa62a2b30f1b1cb6f2.png",
+    "original_sha256": "49386753c3c91923496d6857b56417d3a0702cecff6ecf9ea7879795ccf7fd64",
+    "operation": "Unmodified official image"
+  },
+  "CUDNN_GRAPH": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDNN_GRAPH--e8f79ff0d7d9f726/assets/images/914f5f07380822540b4732bf.png",
+    "sha256": "56b86ffca426826afd7028674830daef2bcaaa695ff85bd0eef45ae71e00205b",
+    "source_url": "https://docs.nvidia.com/deeplearning/cudnn/backend/latest/_images/mha-fprop.png",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_CUDNN_GRAPH--e8f79ff0d7d9f726/assets/images/914f5f07380822540b4732bf.png",
+    "original_sha256": "56b86ffca426826afd7028674830daef2bcaaa695ff85bd0eef45ae71e00205b",
+    "operation": "Unmodified official image"
+  },
+  "TRT_WORK": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/figures/software_stack/TRT_WORK_official.png",
+    "sha256": "6923c240fc03c4b601f8b3e96e5a18d9b0b8502ee0721403a2d68f619c870323",
+    "source_url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/_images/trt-object-lifetimes.svg",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_TRT_WORK--9df325c2c44e3de5/assets/images/248eb388f7cb1c3e46a6ab7e.svg",
+    "original_sha256": "e41500991a72493d1fbf847d57b6aa7b3b227835116bec40bdd12b64863007a5",
+    "operation": "Official SVG rendered to PNG"
+  },
+  "VPI_KLT": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_VPI_KLT--602ab2cc034ea771/assets/images/838ee079b220c6c164075196.jpg",
+    "sha256": "9f3683dcc15984068791e128b9eee9c329a6ac374fd4f7488c734ea86c35c81f",
+    "source_url": "https://docs.nvidia.com/vpi/klt.jpg",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_VPI_KLT--602ab2cc034ea771/assets/images/838ee079b220c6c164075196.jpg",
+    "original_sha256": "9f3683dcc15984068791e128b9eee9c329a6ac374fd4f7488c734ea86c35c81f",
+    "operation": "Unmodified official image"
+  },
+  "PVA_ARCH2": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_PVA_ARCH2--782050b23c55b756/assets/images/4d4f1900e2c24851434172a9.png",
+    "sha256": "a6cb72b69a37c061c29876c5580daf5dab20d3153c6d8c21b84232a56b94321e",
+    "source_url": "https://docs.nvidia.com/pva/sdk/2.10.1/_images/pva-architecture.png",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_PVA_ARCH2--782050b23c55b756/assets/images/4d4f1900e2c24851434172a9.png",
+    "original_sha256": "a6cb72b69a37c061c29876c5580daf5dab20d3153c6d8c21b84232a56b94321e",
+    "operation": "Unmodified official image"
+  },
+  "SIPL_INTRO": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_INTRO--2f382526ca7c9874/assets/images/ecd39f0b26fb9dc02076aeb2.png",
+    "sha256": "b0fd8ebebb41aec6110478b2ab691cd7f5490cc9df57ebdfd32c7375670c4e54",
+    "source_url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/_images/SIPL-arch1.png",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_INTRO--2f382526ca7c9874/assets/images/ecd39f0b26fb9dc02076aeb2.png",
+    "original_sha256": "b0fd8ebebb41aec6110478b2ab691cd7f5490cc9df57ebdfd32c7375670c4e54",
+    "operation": "Unmodified official image"
+  },
+  "SIPL_COE": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_COE--acc0a9a82b614a53/assets/images/40db91f7ab798e44e72f4185.png",
+    "sha256": "9c0d7c9b3786448da59c08c4ffc5f1e94d960dee1f4bd0468fc8d260511e4444",
+    "source_url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/_images/coe_gmsl_architecture.png",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_COE--acc0a9a82b614a53/assets/images/40db91f7ab798e44e72f4185.png",
+    "original_sha256": "9c0d7c9b3786448da59c08c4ffc5f1e94d960dee1f4bd0468fc8d260511e4444",
+    "operation": "Unmodified official image"
+  },
+  "DEEP_DOC": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_DEEP_DOC--67e9bd6641c6aed0/assets/images/9b120af7a8566d169bf20b35.webp",
+    "sha256": "aebbf89cc43e45b64d6314e1b307f3ff223c774019b6085d2f0cdd6f3640f514",
+    "source_url": "https://docs.nvidia.com/deepstream/_fern-files/_img/53ce1d544731dc560607e5146c7ec5a72a32346dbceed61e9ab6688aa3f6fc70.webp",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_DEEP_DOC--67e9bd6641c6aed0/assets/images/9b120af7a8566d169bf20b35.webp",
+    "original_sha256": "aebbf89cc43e45b64d6314e1b307f3ff223c774019b6085d2f0cdd6f3640f514",
+    "operation": "Unmodified official image"
+  },
+  "NSIGHT_DOC": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NSIGHT_DOC--be8e5fe0447d1f1a/assets/images/753923f37673ba06f1a7bb48.png",
+    "sha256": "c56f892fbee65943ac5a1ad868a12c47e5aa23fe593892127b40017176bdf832",
+    "source_url": "https://docs.nvidia.com/nsight-systems/_images/gpu-metrics-timeline.png",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_NSIGHT_DOC--be8e5fe0447d1f1a/assets/images/753923f37673ba06f1a7bb48.png",
+    "original_sha256": "c56f892fbee65943ac5a1ad868a12c47e5aa23fe593892127b40017176bdf832",
+    "operation": "Unmodified official image"
+  },
+  "TAO_DOC": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_TAO_DOC--b218d6fada6ed5c0/assets/images/b80d3d8d9f7e8d0b8b27318a.png",
+    "sha256": "8a988676e84dd536d8834fc639b34469d4f68fba04453bf1c802bb9ed1db8005",
+    "source_url": "https://docs.nvidia.com/tao/tao-toolkit/latest/_images/tao_stack.png",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_TAO_DOC--b218d6fada6ed5c0/assets/images/b80d3d8d9f7e8d0b8b27318a.png",
+    "original_sha256": "8a988676e84dd536d8834fc639b34469d4f68fba04453bf1c802bb9ed1db8005",
+    "operation": "Unmodified official image"
+  },
+  "HOLO_CORE2": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/figures/software_stack/HOLO_CORE2_official.png",
+    "sha256": "3768402aca749f650d95d1ee8210ef8a34430c5ed8df26444eef71f9c37699cc",
+    "source_url": "https://docs.nvidia.com/holoscan/sdk-user-guide/holoscan_core.html",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/figures/software_stack/HOLO_CORE2_official_inline.svg",
+    "original_sha256": "8997959530e4069acbcc3e5084f99888543958526edbe632557acf9691097aed",
+    "source_html_sha256": "f22e2f12a731a36e69f420329a9eb4ec590fbbbf085f77a7ea53945bf09c2931",
+    "operation": "Exact official inline SVG extracted from archived HTML and rendered to PNG"
+  }
+}

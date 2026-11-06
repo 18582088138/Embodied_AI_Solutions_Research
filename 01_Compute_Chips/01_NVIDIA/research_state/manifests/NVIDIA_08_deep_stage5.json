@@ -1,0 +1,10 @@
+[
+  {
+    "name": "NVIDIA_08_DEEP_OSMO_DIAGRAM",
+    "url": "https://media.githubusercontent.com/media/NVIDIA/OSMO/main/docs/user_guide/overview.svg",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  }
+]

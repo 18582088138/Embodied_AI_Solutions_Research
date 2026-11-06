@@ -1,0 +1,122 @@
+[
+  {
+    "name": "NVIDIA_03_SENSOR_MATRIX",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/CameraDevelopmentSupportMatrix.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_GTE39",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Kernel/GenericTimestampEngine.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_IMU39",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Kernel/Bmi088ImuIioDriver.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_GMSL_VC",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/ArgusFramework/JetsonVirtualChannelWithGmslCameraFramework.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_SIPL_STEREO",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/SIPL-Stereo-Pipeline.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HSB_LATENCY",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/latency",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HSB_PTP",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/fpga-ip/ptp",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HSB_PTP_NOTE",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/fpga-ip/ptp-application-note",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HAWK_SETUP",
+    "url": "https://nvidia-isaac-ros.github.io/getting_started/sensors/hawk_setup.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_EAGLE_SETUP",
+    "url": "https://nvidia-isaac-ros.github.io/getting_started/sensors/eagle_setup.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_CORRELATED_TS",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_nova/isaac_ros_correlated_timestamp_driver/index.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HESAI_DRIVER",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_nova/isaac_ros_hesai/index.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_SENSOR_VALIDATION",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_nova/isaac_ros_data_validation/index.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_CUVSLAM_DOC",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_visual_slam/isaac_ros_cuvslam/index.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_SENSOR_RECORDER",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_nova/isaac_ros_data_recorder/index.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  }
+]

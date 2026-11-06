@@ -1,0 +1,58 @@
+[
+  {
+    "name": "NVIDIA_07_DEEP_ADVANTECH",
+    "url": "https://www.advantech.com/en-us/resources/news/advantech-announces-next-gen-robotics-development-kit-with-nvidia-jetson-thor-with-holoscan-built-in",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_CONNECTTECH",
+    "url": "https://connecttech.com/early-success-gauntlet-integrated-solutions-nvidia-new-jetson-thor-redefining-real-time-reasoning-robotics/",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_SEEED",
+    "url": "https://www.seeedstudio.com/blog/2026/07/15/seeed-studio-announces-supports-for-nvidias-next-generation-jetson-t2000-t3000-modules-for-scalable-edge-ai-and-robotics/",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_LEOPARD",
+    "url": "https://leopardimaging.com/leopard-imaging-launches-full-vision-solution-suite-for-nvidia-jetson-thor-powering-the-next-generation-of-physical-ai/",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_ECON",
+    "url": "https://www.e-consystems.com/pr/ai-powered-vision-and-compute-solutions-accelerated-by-nvidia-jetson-thor.asp",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_REALSENSE",
+    "url": "https://realsenseai.com/news-insights/news/RealSense-and-NVIDIA-Collaborate-to-Usher-in-the-Age-of-Physical-AI",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_TIMESYS",
+    "url": "https://www.timesys.com/solutions/nvidia-jetson/",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  }
+]

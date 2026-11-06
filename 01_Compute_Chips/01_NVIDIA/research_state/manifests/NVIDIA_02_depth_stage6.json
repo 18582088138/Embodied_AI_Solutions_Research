@@ -1,0 +1,34 @@
+[
+  {
+    "name": "NVIDIA_02_NIM_ARCH",
+    "url": "https://docs.nvidia.com/nim/large-language-models/latest/reference/architecture.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NIM_INSTALL",
+    "url": "https://docs.nvidia.com/nim/large-language-models/latest/get-started/installation.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NIM_PROFILE",
+    "url": "https://docs.nvidia.com/nim/large-language-models/latest/deployment/model-profiles-and-selection.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_LICENSING",
+    "url": "https://raw.githubusercontent.com/NVIDIA/cudnn-frontend/develop/LICENSING.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  }
+]

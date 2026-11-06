@@ -1,0 +1,66 @@
+{
+  "GMSL_VC": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/figures/sensor_integration/GMSL_VC_official.png",
+    "sha256": "8bdd76a48fff4e17142815d74c3877adba798780c9aac2844d58c297ca82a211",
+    "source_url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/_images/GmslCamera.svg",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_GMSL_VC--4f38765007089c08/assets/images/3925628b8a06af7159e36cb8.svg",
+    "original_sha256": "787f64182933696742dd8dfeeff4c5c65869cbf3cac22c78771cdcd531953ac6",
+    "operation": "Official SVG rendered to PNG"
+  },
+  "SIPL_STEREO": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/derived/figures/sensor_integration/SIPL_STEREO_official.png",
+    "sha256": "8529fc06b00192a9b5de2155f081efce1a2bf81e0c91109284de30440127eca8",
+    "source_url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/_images/stereo_fsync_chain.svg",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_SIPL_STEREO--b23c115e2f157870/assets/images/e9ad9c074a7a4df25fd1184e.svg",
+    "original_sha256": "81105d68d5d1e06a0e270c2102f1cd9d235a605a2c083dbf2524f96b20b2ed87",
+    "operation": "Official SVG rendered to PNG"
+  },
+  "HSB_PTP_NOTE": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HSB_PTP_NOTE--523b5e075482c49f/assets/images/23855f5e723e9e9158f2c787.webp",
+    "sha256": "7144eda4d76c60f9c06ecb32fd8d3c00e7dbc87ca4074fec496aa911e5c23c74",
+    "source_url": "https://docs.nvidia.com/holoscan/sensor-bridge/_fern-files/_img/727477919015c555e99f35afc016e6c910bcadc5ec5be19ee21f05f843d75542.webp",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HSB_PTP_NOTE--523b5e075482c49f/assets/images/23855f5e723e9e9158f2c787.webp",
+    "original_sha256": "7144eda4d76c60f9c06ecb32fd8d3c00e7dbc87ca4074fec496aa911e5c23c74",
+    "operation": "Unmodified official image"
+  },
+  "HSB_PPS_FIG": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HSB_PTP_NOTE--523b5e075482c49f/assets/images/2cbffcfe977e264809eb294d.webp",
+    "sha256": "50d15be30e393550840b5b6422ff408286a7cb2dfaa3ca6cdc3c15b1a91dcbe5",
+    "source_url": "https://docs.nvidia.com/holoscan/sensor-bridge/_fern-files/_img/f4f08cf1f2812c316b435307b774036282eab76f1ff8ffa8cf09bc4f44a2a9e3.webp",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_HSB_PTP_NOTE--523b5e075482c49f/assets/images/2cbffcfe977e264809eb294d.webp",
+    "original_sha256": "50d15be30e393550840b5b6422ff408286a7cb2dfaa3ca6cdc3c15b1a91dcbe5",
+    "operation": "Unmodified official image"
+  },
+  "OUSTER_NVBLOX": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_OUSTER_NVBLOX--b757a084266f692f/assets/images/98a00639901dbebc0f8430db.jpg",
+    "sha256": "0dcddf04bfedc873b3d25ddcc59988c35a08028c986e16874e26dd7c6e0e6080",
+    "source_url": "https://media.githubusercontent.com/media/NVIDIA-ISAAC-ROS/.github/release-5.0/resources/isaac_ros_docs/repositories_and_packages/isaac_ros_nvblox/system_diagram_technical_details.jpg/",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_OUSTER_NVBLOX--b757a084266f692f/assets/images/98a00639901dbebc0f8430db.jpg",
+    "original_sha256": "0dcddf04bfedc873b3d25ddcc59988c35a08028c986e16874e26dd7c6e0e6080",
+    "operation": "Unmodified official image"
+  },
+  "RS_INTERLEAVE_FIG": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_OUSTER_NVBLOX--b757a084266f692f/assets/images/df20703150cb68df2c50fc15.png",
+    "sha256": "e05535205f9dc259b38adefb04fa7a29bbe3299a144f41297d07ea00808c2fa1",
+    "source_url": "https://media.githubusercontent.com/media/NVIDIA-ISAAC-ROS/.github/release-5.0/resources/isaac_ros_docs/repositories_and_packages/isaac_ros_nvblox/nvblox_realsense_example_diagram.png/",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/03_OUSTER_NVBLOX--b757a084266f692f/assets/images/df20703150cb68df2c50fc15.png",
+    "original_sha256": "e05535205f9dc259b38adefb04fa7a29bbe3299a144f41297d07ea00808c2fa1",
+    "operation": "Unmodified official image"
+  },
+  "SIPL_INTRO": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_INTRO--2f382526ca7c9874/assets/images/ecd39f0b26fb9dc02076aeb2.png",
+    "sha256": "b0fd8ebebb41aec6110478b2ab691cd7f5490cc9df57ebdfd32c7375670c4e54",
+    "source_url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/_images/SIPL-arch1.png",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_INTRO--2f382526ca7c9874/assets/images/ecd39f0b26fb9dc02076aeb2.png",
+    "original_sha256": "b0fd8ebebb41aec6110478b2ab691cd7f5490cc9df57ebdfd32c7375670c4e54",
+    "operation": "Unmodified official image"
+  },
+  "SIPL_COE": {
+    "file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_COE--acc0a9a82b614a53/assets/images/40db91f7ab798e44e72f4185.png",
+    "sha256": "9c0d7c9b3786448da59c08c4ffc5f1e94d960dee1f4bd0468fc8d260511e4444",
+    "source_url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/_images/coe_gmsl_architecture.png",
+    "original_file": "01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/02_SIPL_COE--acc0a9a82b614a53/assets/images/40db91f7ab798e44e72f4185.png",
+    "original_sha256": "9c0d7c9b3786448da59c08c4ffc5f1e94d960dee1f4bd0468fc8d260511e4444",
+    "operation": "Unmodified official image"
+  }
+}

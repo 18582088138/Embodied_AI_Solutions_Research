@@ -1,0 +1,162 @@
+[
+  {
+    "name": "NVIDIA_04_DEEP_SONIC_README",
+    "url": "https://raw.githubusercontent.com/NVlabs/GEAR-SONIC/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_SMOL_DOC",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/docs/source/en/smolvla.mdx",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_ACT_PROJECT",
+    "url": "https://tonyzhaozh.github.io/aloha/",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_DIFF_PROJECT",
+    "url": "https://diffusion-policy.cs.columbia.edu/",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_ASR_DOC",
+    "url": "https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/models.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_TTS_DOC",
+    "url": "https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/tts/models.html",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_OPENVLA_META",
+    "url": "https://api.github.com/repos/openvla/openvla",
+    "expected": "json",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_OPENVLA_COMMIT",
+    "url": "https://api.github.com/repos/openvla/openvla/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_OPENPI_META",
+    "url": "https://api.github.com/repos/Physical-Intelligence/openpi",
+    "expected": "json",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_OPENPI_COMMIT",
+    "url": "https://api.github.com/repos/Physical-Intelligence/openpi/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_ACT_META",
+    "url": "https://api.github.com/repos/tonyzhaozh/act",
+    "expected": "json",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_ACT_COMMIT",
+    "url": "https://api.github.com/repos/tonyzhaozh/act/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_DIFF_META",
+    "url": "https://api.github.com/repos/real-stanford/diffusion_policy",
+    "expected": "json",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_DIFF_COMMIT",
+    "url": "https://api.github.com/repos/real-stanford/diffusion_policy/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_LEROBOT_META",
+    "url": "https://api.github.com/repos/huggingface/lerobot",
+    "expected": "json",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_LEROBOT_COMMIT",
+    "url": "https://api.github.com/repos/huggingface/lerobot/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_POSE_META",
+    "url": "https://api.github.com/repos/NVlabs/FoundationPose",
+    "expected": "json",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_POSE_COMMIT",
+    "url": "https://api.github.com/repos/NVlabs/FoundationPose/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_ALPA_META",
+    "url": "https://api.github.com/repos/NVlabs/alpamayo-recipes",
+    "expected": "json",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_ALPA_COMMIT",
+    "url": "https://api.github.com/repos/NVlabs/alpamayo-recipes/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "04_AI_Capabilities"
+    ]
+  }
+]

@@ -1,0 +1,393 @@
+[
+  {
+    "name": "NVIDIA_JetPack_Downloads",
+    "url": "https://developer.nvidia.com/embedded/jetpack/downloads",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_JetPack_7_2_Blog",
+    "url": "https://developer.nvidia.com/blog/deploy-agentic-ready-ai-at-the-edge-with-memory-efficiency-in-nvidia-jetpack-7-2/",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack",
+      "04_AI_Capabilities",
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_JetPack_6_2_1_Release_Notes",
+    "url": "https://docs.nvidia.com/jetson/jetpack/release-notes/index.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Nova_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_nova/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Nova_Metadata",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_nova",
+    "expected": "json",
+    "used_by": [
+      "03_Sensor_Integration",
+      "06_Robot_Integration",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Nova_Commit",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_nova/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "03_Sensor_Integration",
+      "06_Robot_Integration",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Visual_SLAM_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Visual_SLAM_Metadata",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam",
+    "expected": "json",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Visual_SLAM_Commit",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "03_Sensor_Integration",
+      "04_AI_Capabilities",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Manipulator_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_manipulator/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "06_Robot_Integration",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Manipulator_Metadata",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_manipulator",
+    "expected": "json",
+    "used_by": [
+      "06_Robot_Integration",
+      "02_Software_Stack",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Manipulator_Commit",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_manipulator/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "06_Robot_Integration",
+      "02_Software_Stack",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Warp_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA/warp/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment",
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Warp_Metadata",
+    "url": "https://api.github.com/repos/NVIDIA/warp",
+    "expected": "json",
+    "used_by": [
+      "05_Simulation_Environment",
+      "08_Proprietary_Technologies",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Warp_Commit",
+    "url": "https://api.github.com/repos/NVIDIA/warp/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "05_Simulation_Environment",
+      "08_Proprietary_Technologies",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Newton_README",
+    "url": "https://raw.githubusercontent.com/newton-physics/newton/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment",
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Newton_Metadata",
+    "url": "https://api.github.com/repos/newton-physics/newton",
+    "expected": "json",
+    "used_by": [
+      "05_Simulation_Environment",
+      "08_Proprietary_Technologies",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Newton_Commit",
+    "url": "https://api.github.com/repos/newton-physics/newton/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "05_Simulation_Environment",
+      "08_Proprietary_Technologies",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_PhysX_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA-Omniverse/PhysX/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "05_Simulation_Environment",
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_PhysX_Metadata",
+    "url": "https://api.github.com/repos/NVIDIA-Omniverse/PhysX",
+    "expected": "json",
+    "used_by": [
+      "05_Simulation_Environment",
+      "08_Proprietary_Technologies",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_PhysX_Commit",
+    "url": "https://api.github.com/repos/NVIDIA-Omniverse/PhysX/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "05_Simulation_Environment",
+      "08_Proprietary_Technologies",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_cuRobo_Paper",
+    "url": "https://arxiv.org/pdf/2310.17274",
+    "expected": "pdf",
+    "used_by": [
+      "04_AI_Capabilities",
+      "06_Robot_Integration",
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_N1_Paper",
+    "url": "https://arxiv.org/pdf/2503.14734",
+    "expected": "pdf",
+    "used_by": [
+      "04_AI_Capabilities",
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_TensorRT_Developer_Guide_PDF",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/pdf/TensorRT-Developer-Guide.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "02_Software_Stack",
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Camera_Guide_R38_2",
+    "url": "https://docs.nvidia.com/jetson/archives/r38.2/DeveloperGuide/SD/CameraDevelopment.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_CAN_R38_2",
+    "url": "https://docs.nvidia.com/jetson/archives/r38.2/DeveloperGuide/HR/ControllerAreaNetworkCan.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Real_Time_R38_2",
+    "url": "https://docs.nvidia.com/jetson/archives/r38.2/DeveloperGuide/SD/Kernel/RealTimeKernel.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack",
+      "06_Robot_Integration",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_Holoscan_Bridge_Documentation",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/latest/index.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration",
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Sim_Overview",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/overview/overview.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment",
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Sim_ROS2_Bridge",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/ros2_tutorials/index.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment",
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Lab_Overview",
+    "url": "https://isaac-sim.github.io/IsaacLab/main/source/overview/core-concepts/simulation.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Lab_Page",
+    "url": "https://developer.nvidia.com/isaac/lab",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Perceptor_Page",
+    "url": "https://developer.nvidia.com/isaac/perceptor",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration",
+      "06_Robot_Integration",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Manipulator_Page",
+    "url": "https://developer.nvidia.com/isaac/manipulator",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Nova_Carter",
+    "url": "https://nvidia-isaac-ros.github.io/robots/nova_carter/index.html",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration",
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Partner_Ecosystem",
+    "url": "https://developer.nvidia.com/embedded/community/ecosystem",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_Cosmos_Page",
+    "url": "https://developer.nvidia.com/cosmos",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities",
+      "05_Simulation_Environment",
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Unitree_G1_Page",
+    "url": "https://www.unitree.com/g1",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Orbbec_SDK_README",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Orbbec_Timestamps",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/docs/tutorial/timestamp.md",
+    "expected": "any",
+    "used_by": [
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Orbbec_SDK_Metadata",
+    "url": "https://api.github.com/repos/orbbec/OrbbecSDK_v2",
+    "expected": "json",
+    "used_by": [
+      "03_Sensor_Integration",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Orbbec_SDK_Commit",
+    "url": "https://api.github.com/repos/orbbec/OrbbecSDK_v2/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "03_Sensor_Integration",
+      "07_Ecosystem"
+    ]
+  }
+]

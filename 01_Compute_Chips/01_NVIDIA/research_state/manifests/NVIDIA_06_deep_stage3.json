@@ -1,0 +1,26 @@
+[
+  {
+    "name": "NVIDIA_06_DEEP_ATLAS",
+    "url": "https://bostondynamics.com/products/atlas/",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEEP_BD_SEARCH",
+    "url": "https://bostondynamics.com/wp-json/wp/v2/search?search=Jetson&per_page=20",
+    "expected": "json",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEEP_NEUREALM_MEMORY",
+    "url": "https://www.neurealm.com/blogs/big-ai-small-hardware-running-vlm-pipelines-on-low-memory-nvidia-jetson-skus/",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration"
+    ]
+  }
+]

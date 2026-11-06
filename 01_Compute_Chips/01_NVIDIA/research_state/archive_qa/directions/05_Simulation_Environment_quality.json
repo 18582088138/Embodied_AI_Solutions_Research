@@ -1,0 +1,25 @@
+{
+  "report": "01_Compute_Chips/01_NVIDIA/05_Simulation_Environment.md",
+  "body_han_chars": 4734,
+  "tables": 8,
+  "report_local_links": 40,
+  "sources": 36,
+  "status_counts": {
+    "complete_static": 28,
+    "partial_static": 8
+  },
+  "html_visible_text_equal": 17,
+  "unique_asset_urls": 654,
+  "unavailable_presentation_urls": 38,
+  "file_hash_checks": 1930,
+  "page_local_dependencies_checked": 2224,
+  "changed_reports": [
+    "01_Compute_Chips/01_NVIDIA/02_Software_Stack.md",
+    "01_Compute_Chips/01_NVIDIA/03_Sensor_Integration.md",
+    "01_Compute_Chips/01_NVIDIA/04_AI_Capabilities.md",
+    "01_Compute_Chips/01_NVIDIA/05_Simulation_Environment.md"
+  ],
+  "errors": [],
+  "outcome": "pass",
+  "limits": "Offline archive and structure checks; facts manually reviewed; no hardware tests."
+}

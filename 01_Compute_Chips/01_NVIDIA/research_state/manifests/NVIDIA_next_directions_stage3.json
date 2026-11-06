@@ -1,0 +1,276 @@
+[
+  {
+    "name": "NVIDIA_GR00T_Deployment_Guide",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/scripts/deployment/README.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "04_AI_Capabilities",
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Hardware_Guide",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/getting_started/hardware_recommendation.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities",
+      "06_Robot_Integration",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_New_Embodiment",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/getting_started/finetune_new_embodiment.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities",
+      "06_Robot_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Architecture_Image",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/media/model-architecture.png",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities",
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Linux_39_2_1_Release_PDF",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/ReleaseNotes/Jetson_Linux_Release_Notes_r39.2.1.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "02_Software_Stack",
+      "03_Sensor_Integration",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_cuRobo_V2_Paper",
+    "url": "https://arxiv.org/pdf/2603.05493",
+    "expected": "pdf",
+    "used_by": [
+      "06_Robot_Integration",
+      "04_AI_Capabilities",
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Linux_39_2_1_License",
+    "url": "https://developer.nvidia.com/downloads/embedded/L4T/r39_Release_v2.1/release/Tegra_Software_License_Agreement-Tegra-Linux.txt",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack",
+      "07_Ecosystem",
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Linux_39_2_1_Guide",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack",
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Camera_39_2_1",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack",
+      "03_Sensor_Integration"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Buffer_Migration",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/nitros_migration.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack",
+      "03_Sensor_Integration",
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_GPU_Partitioning",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_common/isaac_ros_gpu_partitioning/index.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack",
+      "04_AI_Capabilities",
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Deploy_Safety",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/concepts/safety.html",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration",
+      "09_SWOT_Analysis"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Deploy_Concept",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/concepts/how_it_works.html",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration",
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Deploy_AGILE",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/tutorials/deploy_agile.html",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration",
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Holoscan_Bridge_Guide",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/index.html",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration",
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Lab_Domain_Randomization",
+    "url": "https://isaac-sim.github.io/IsaacLab/main/source/features/domain_randomization.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_Sim_Replicator",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/synthetic_data_generation/index.html",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment",
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_cuRobo_V2_Documentation",
+    "url": "https://nvlabs.github.io/curobo/",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration",
+      "04_AI_Capabilities"
+    ]
+  },
+  {
+    "name": "NVIDIA_Triton_Batching",
+    "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/docs/user_guide/batcher.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_Triton_Model_Management",
+    "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/docs/user_guide/model_management.md",
+    "expected": "any",
+    "used_by": [
+      "04_AI_Capabilities",
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Project_Page",
+    "url": "https://github.com/NVIDIA/Isaac-GR00T",
+    "expected": "html",
+    "used_by": [
+      "04_AI_Capabilities",
+      "06_Robot_Integration",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_cuRobo_Project_Page",
+    "url": "https://github.com/NVlabs/curobo",
+    "expected": "html",
+    "used_by": [
+      "06_Robot_Integration",
+      "08_Proprietary_Technologies",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Common_Project_Page",
+    "url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Holoscan_Bridge_Project_Page",
+    "url": "https://github.com/nvidia-holoscan/holoscan-sensor-bridge",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration",
+      "08_Proprietary_Technologies",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Triton_Project_Page",
+    "url": "https://github.com/triton-inference-server/server",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack",
+      "04_AI_Capabilities",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Warp_Project_Page",
+    "url": "https://github.com/NVIDIA/warp",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment",
+      "08_Proprietary_Technologies",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Newton_Project_Page",
+    "url": "https://github.com/newton-physics/newton",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment",
+      "08_Proprietary_Technologies",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_PhysX_Project_Page",
+    "url": "https://github.com/NVIDIA-Omniverse/PhysX",
+    "expected": "html",
+    "used_by": [
+      "05_Simulation_Environment",
+      "08_Proprietary_Technologies",
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Orbbec_Project_Page",
+    "url": "https://github.com/orbbec/OrbbecSDK_v2",
+    "expected": "html",
+    "used_by": [
+      "03_Sensor_Integration",
+      "07_Ecosystem"
+    ]
+  }
+]

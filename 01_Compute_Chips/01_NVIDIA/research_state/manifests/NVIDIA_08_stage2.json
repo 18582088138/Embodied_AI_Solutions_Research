@@ -1,0 +1,42 @@
+[
+  {
+    "name": "NVIDIA_08_OSMO_META",
+    "url": "https://api.github.com/repos/NVIDIA/OSMO",
+    "expected": "json",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_COMMIT",
+    "url": "https://api.github.com/repos/NVIDIA/OSMO/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA/OSMO/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVIDIA/OSMO/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_PAGE",
+    "url": "https://github.com/NVIDIA/OSMO",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  }
+]

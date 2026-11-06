@@ -1,0 +1,402 @@
+[
+  {
+    "name": "NVIDIA_Datasheet_Thor_Full_v1_5",
+    "url": "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_MODEL",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/programming-model.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TRT_WORK",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Linux_39_2_1_License",
+    "url": "https://developer.nvidia.com/downloads/embedded/L4T/r39_Release_v2.1/release/Tegra_Software_License_Agreement-Tegra-Linux.txt",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_PVA_ARCH2",
+    "url": "https://docs.nvidia.com/pva/sdk/2.10.1/architecture.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_GRAPH",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/cuda-graphs.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_SIPL_COE",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework/SIPL-for-L4T/CoE/CoE-Solution-Overview.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HSB_ARCH",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO",
+    "url": "https://developer.nvidia.com/osmo",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Page_Jetson_Thor",
+    "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Technical_Brief_Robotics_Edge_AI",
+    "url": "https://dam-cdn.nvd.orangelogic.com/AssetLink/v686u306w26ftuk863xjeimilimtx55e.pdf",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_TRT_PERF",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/best-practices.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Deployment_Guide",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/scripts/deployment/README.md",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_ASYNC",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/asynchronous-execution.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_TensorRT_Support_Matrix",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/getting-started/support-matrix.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDA_MEMORY",
+    "url": "https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_MIG",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/MiG.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_MPS_DOC",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/gpu_partitioning/index.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_VPI_ROOT",
+    "url": "https://docs.nvidia.com/vpi/index.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_SENSOR_MATRIX",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/CameraDevelopmentSupportMatrix.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HSB_HOST",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/getting-started/host-setup",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HSB_PTP",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/fpga-ip/ptp",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_HSB_PTP_NOTE",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/fpga-ip/ptp-application-note",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Developer_Page_Jetson_FAQ",
+    "url": "https://developer.nvidia.com/embedded/faq",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Brief_IGX_Thor_Safety",
+    "url": "https://developer.download.nvidia.com/assets/igx/robotics-product-brief-igx-thor-safety-4473375.pdf",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Product_Page_IGX",
+    "url": "https://www.nvidia.com/en-us/edge-computing/products/igx/",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Cosmos_Page",
+    "url": "https://developer.nvidia.com/cosmos",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_SIM_COSMOS",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/replicator_tutorials/tutorial_replicator_cosmos.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Project_Page",
+    "url": "https://github.com/NVIDIA/Isaac-GR00T",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_Page",
+    "url": "https://github.com/isaac-sim/IsaacSim",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Newton_Project_Page",
+    "url": "https://github.com/newton-physics/newton",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_PAGE",
+    "url": "https://github.com/NVIDIA/OSMO",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Repo_Metadata",
+    "url": "https://api.github.com/repos/NVIDIA/Isaac-GR00T",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_Recent_Commit",
+    "url": "https://api.github.com/repos/NVIDIA/Isaac-GR00T/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_GR00T_License",
+    "url": "https://raw.githubusercontent.com/NVIDIA/Isaac-GR00T/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_SIM_META",
+    "url": "https://api.github.com/repos/isaac-sim/IsaacSim",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_Commits_API",
+    "url": "https://api.github.com/repos/isaac-sim/IsaacSim/commits?sha=main&per_page=1",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_License",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacSim/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Newton_Metadata",
+    "url": "https://api.github.com/repos/newton-physics/newton",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_Newton_Commit",
+    "url": "https://api.github.com/repos/newton-physics/newton/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_NEWTON_LICENSE",
+    "url": "https://raw.githubusercontent.com/newton-physics/newton/main/LICENSE.md",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_META",
+    "url": "https://api.github.com/repos/NVIDIA/OSMO",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_COMMIT",
+    "url": "https://api.github.com/repos/NVIDIA/OSMO/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVIDIA/OSMO/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA/OSMO/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_CLOUD_NATIVE",
+    "url": "https://developer.nvidia.com/embedded/jetson-cloud-native",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NIM_ARCH",
+    "url": "https://docs.nvidia.com/nim/large-language-models/latest/reference/architecture.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NIM_INSTALL",
+    "url": "https://docs.nvidia.com/nim/large-language-models/latest/get-started/installation.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NIM_PROFILE",
+    "url": "https://docs.nvidia.com/nim/large-language-models/latest/deployment/model-profiles-and-selection.html",
+    "expected": "html",
+    "used_by": [
+      "08_Proprietary_Technologies"
+    ]
+  }
+]

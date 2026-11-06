@@ -1,0 +1,18 @@
+[
+  {
+    "name": "NVIDIA_08_DEEP_ROS2_INTRAPROCESS_RAW",
+    "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/jazzy/source/Tutorials/Demos/Intra-Process-Communication.rst",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_BUFFER_UPSTREAM_RAW",
+    "url": "https://raw.githubusercontent.com/ros2/ros2_documentation/rolling/source/Concepts/Intermediate/About-Buffer-Backends.rst",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  }
+]

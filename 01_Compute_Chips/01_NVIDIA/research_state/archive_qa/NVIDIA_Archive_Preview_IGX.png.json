@@ -1,0 +1,198 @@
+{
+  "title": "IGX | Industrial-Grade Edge AI platform | NVIDIA",
+  "headings": [
+    "NVIDIA IGX Thor",
+    "Introducing NVIDIA IGX Thor",
+    "The Fastest Way to Develop and Deploy Enterprise-Grade Physical AI Solutions at the Edge",
+    "Full-Stack Platform for Enterprise Edge AI",
+    "NVIDIA IGX Product Family",
+    "Get Your NVIDIA IGX Developer Kit",
+    "NVIDIA IGX OEM Partners",
+    "Specifications",
+    "Unleash Edge AI Across Industries",
+    "Software and Documentation",
+    "See What Our Partners Are Saying",
+    "Contact us for additional information on NVIDIA IGX Orin™ and NVIDIA AI Enterprise IGX Orin™"
+  ],
+  "readableTextChars": 11485,
+  "localStylesheets": [
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_IGX--1bf36659d6ccb38d/assets/styles/5ca52a63f10eda3dae2187c3.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_IGX--1bf36659d6ccb38d/assets/styles/10582c070f3d19cbca2232b6.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_IGX--1bf36659d6ccb38d/assets/styles/9bb960db7e84570711ef5d31.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_IGX--1bf36659d6ccb38d/assets/styles/756cc71a120111a8d0b98c28.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "https://webassets.nvidia.com/kaizen-ui-foundations/1.8.2/base-for-aem-only.css",
+      "local": false,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": null,
+      "loaded": null
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_IGX--1bf36659d6ccb38d/assets/styles/50f3f5e6f464d74d0b9127d0.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_IGX--1bf36659d6ccb38d/assets/styles/ba0aebad71303428368046f3.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_IGX--1bf36659d6ccb38d/assets/styles/68b0fde6da7d3b598b4fd0c3.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_IGX--1bf36659d6ccb38d/assets/styles/cb6fb15e1b1917e58e7f05b3.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_IGX--1bf36659d6ccb38d/assets/styles/5faf53bf538fc64a69c6601c.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_IGX--1bf36659d6ccb38d/assets/styles/4c0653826747029c298eda64.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_IGX--1bf36659d6ccb38d/assets/styles/c59a86a30e37babcd0e2ff1a.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_IGX--1bf36659d6ccb38d/assets/styles/09a8fdeb69ebc74b629e326f.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_IGX--1bf36659d6ccb38d/assets/styles/dadfac13853d4829b3da8b00.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    },
+    {
+      "href": "file:///C:/Users/kundaxu/Downloads/xkd/Company_Project/Research/robotic-ai-suite/Embodied_AI_Solutions_Research/01_Compute_Chips/01_NVIDIA/reference_metrial/webpages/Product_Page_IGX--1bf36659d6ccb38d/assets/styles/cc070d7bbcf4030b817717f8.css",
+      "local": true,
+      "ruleCount": null,
+      "sheetPresent": true,
+      "cssomRestricted": true,
+      "response": {
+        "status": 200,
+        "ok": true
+      },
+      "loaded": true
+    }
+  ],
+  "documentHeight": 7698
+}

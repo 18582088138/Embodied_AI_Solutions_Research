@@ -1,0 +1,482 @@
+[
+  {
+    "name": "NVIDIA_07_SUPPORT",
+    "url": "https://developer.nvidia.com/embedded/support",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Developer_Page_Jetson_FAQ",
+    "url": "https://developer.nvidia.com/embedded/faq",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_PARTNER_DATA",
+    "url": "https://developer.nvidia.com/search-data/jetson_ecosystem_partners.json",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_JetPack_Page",
+    "url": "https://developer.nvidia.com/embedded/jetpack",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Getting_Started",
+    "url": "https://nvidia-isaac-ros.github.io/getting_started/index.html",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_BRINGUP",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/HR/JetsonModuleAdaptationAndBringUp/JetsonThorAdaptationBringUp.html",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_CHECKLIST",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/HR/JetsonModuleAdaptationAndBringUp/Checklists.html",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_BSP_UPDATE",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/SoftwarePackagesAndTheUpdateMechanism.html",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Common_Project_Page",
+    "url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Repo_Metadata",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_common",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Recent_Commit",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_common/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_VSLAM_PAGE",
+    "url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_VSLAM_META",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_VSLAM_COMMIT",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Common_License",
+    "url": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_common/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_VSLAM_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Linux_39_2_1_License",
+    "url": "https://developer.nvidia.com/downloads/embedded/L4T/r39_Release_v2.1/release/Tegra_Software_License_Agreement-Tegra-Linux.txt",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Jetson_Partner_Ecosystem",
+    "url": "https://developer.nvidia.com/embedded/community/ecosystem",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_ADVANTECH",
+    "url": "https://www.advantech.com/en-us/resources/news/advantech-announces-next-gen-robotics-development-kit-with-nvidia-jetson-thor-with-holoscan-built-in",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Datasheet_Thor_Full_v1_5",
+    "url": "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/thor/docs/jetson-thor-series-modules-datasheet_ds-11945-001.pdf",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_AETINA",
+    "url": "https://www.aetina.com/products-features.php?t=337",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_AAEON",
+    "url": "https://www.aaeon.com/en/product/list/aaeon-nvidia-ai-solutions",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_EXP_LEROBOT_README",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEEP_THOR_TECH",
+    "url": "https://developer.nvidia.com/blog/introducing-nvidia-jetson-thor-the-ultimate-platform-for-physical-ai/",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_LEOPARD",
+    "url": "https://leopardimaging.com/leopard-imaging-launches-full-vision-solution-suite-for-nvidia-jetson-thor-powering-the-next-generation-of-physical-ai/",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_ECON",
+    "url": "https://www.e-consystems.com/pr/ai-powered-vision-and-compute-solutions-accelerated-by-nvidia-jetson-thor.asp",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_REALSENSE",
+    "url": "https://realsenseai.com/news-insights/news/RealSense-and-NVIDIA-Collaborate-to-Usher-in-the-Age-of-Physical-AI",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_03_OUSTER_NVBLOX",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/scene_reconstruction/nvblox/technical_details.html",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HSB_ARCH",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_SIM_ARCH",
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/introduction/reference_architecture.html",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_README",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacLab/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_LAB_EVENTS",
+    "url": "https://isaac-sim.github.io/IsaacLab/main/source/api/lab/isaaclab.managers.html",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_License",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacLab/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacSim_License",
+    "url": "https://raw.githubusercontent.com/isaac-sim/IsaacSim/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_CUROBO_CANONICAL",
+    "url": "https://nvlabs.github.io/curobo/latest/",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_EMBODIMENT",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/how_to_guides/bring_your_own_embodiment.html",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Isaac_ROS_Deploy_Safety",
+    "url": "https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_deploy/concepts/safety.html",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEPLOY_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVIDIA-ISAAC-ROS/isaac_ros_deploy/release-5.0/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_cuRobo_License",
+    "url": "https://raw.githubusercontent.com/NVlabs/curobo/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_README",
+    "url": "https://raw.githubusercontent.com/NVIDIA/OSMO/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO",
+    "url": "https://developer.nvidia.com/osmo",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_Page",
+    "url": "https://github.com/isaac-sim/IsaacLab",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_05_LAB_META",
+    "url": "https://api.github.com/repos/isaac-sim/IsaacLab",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_GitHub_IsaacLab_Commits_API",
+    "url": "https://api.github.com/repos/isaac-sim/IsaacLab/commits?sha=main&per_page=1",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_cuRobo_Project_Page",
+    "url": "https://github.com/NVlabs/curobo",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_cuRobo_Repo_Metadata",
+    "url": "https://api.github.com/repos/NVlabs/curobo",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_cuRobo_Recent_Commit",
+    "url": "https://api.github.com/repos/NVlabs/curobo/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEPLOY_PAGE",
+    "url": "https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_deploy",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEPLOY_META",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_deploy",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_06_DEPLOY_COMMIT",
+    "url": "https://api.github.com/repos/NVIDIA-ISAAC-ROS/isaac_ros_deploy/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_PAGE",
+    "url": "https://github.com/NVIDIA/OSMO",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_META",
+    "url": "https://api.github.com/repos/NVIDIA/OSMO",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_COMMIT",
+    "url": "https://api.github.com/repos/NVIDIA/OSMO/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_OSMO_LICENSE",
+    "url": "https://raw.githubusercontent.com/NVIDIA/OSMO/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_LEROBOT_META",
+    "url": "https://api.github.com/repos/huggingface/lerobot",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_04_DEEP_LEROBOT_COMMIT",
+    "url": "https://api.github.com/repos/huggingface/lerobot/commits?per_page=1",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_TIMESYS_BSP",
+    "url": "https://www.timesys.com/open-source-embedded/development-support/reference-bsp/processors/nvidia/",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_RIDGERUN_PDF",
+    "url": "https://developer.download.nvidia.com/embedded/partners/one-pager/RidgeRun-OnePage-Sumary.pdf",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_Developer_Page_Jetson_Lifecycle",
+    "url": "https://developer.nvidia.com/embedded/lifecycle",
+    "expected": "html",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  },
+  {
+    "name": "NVIDIA_07_DEEP_LEROBOT_FIG",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/media/readme/VLA_architecture.jpg",
+    "expected": "any",
+    "used_by": [
+      "07_Ecosystem"
+    ]
+  }
+]

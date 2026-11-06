@@ -1,0 +1,170 @@
+[
+  {
+    "name": "NVIDIA_02_CUDA_DOC",
+    "url": "https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_CUDNN_DOC",
+    "url": "https://docs.nvidia.com/deeplearning/cudnn/backend/latest/overview.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TRT_ARCH",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/architecture-overview.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TRT_WORK",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/architecture/how-trt-works.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_VPI_DOC",
+    "url": "https://docs.nvidia.com/vpi/overview.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_PVA_PAGE",
+    "url": "https://developer.nvidia.com/embedded/pva",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_DEEP_DOC",
+    "url": "https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_Overview.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_DEEP_PAGE",
+    "url": "https://developer.nvidia.com/deepstream-sdk",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HOLO_CORE",
+    "url": "https://docs.nvidia.com/holoscan/sdk-user-guide/4-4-latest/using-the-sdk/holoscan-core",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HOLO_PAGE",
+    "url": "https://developer.nvidia.com/holoscan-sdk",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_HSB_ARCH",
+    "url": "https://docs.nvidia.com/holoscan/sensor-bridge/2-7-latest/applications/architecture",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_BUFFER_DOC",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/index.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_MPS_DOC",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/gpu_partitioning/index.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TRITON_ARCH",
+    "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/docs/user_guide/architecture.md",
+    "expected": "any",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NSIGHT_DOC",
+    "url": "https://docs.nvidia.com/nsight-systems/UserGuide/index.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NSIGHT_PAGE",
+    "url": "https://developer.nvidia.com/nsight-systems",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_TAO_DOC",
+    "url": "https://docs.nvidia.com/tao/tao-toolkit/text/overview.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_NIM_DOC",
+    "url": "https://docs.nvidia.com/nim/overview.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_MEDIA_DOC",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/Multimedia.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_SIPL_DOC",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/CameraDevelopment/SIPLFramework.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  },
+  {
+    "name": "NVIDIA_02_BSP_UPDATE",
+    "url": "https://docs.nvidia.com/jetson/archives/r39.2.1/DeveloperGuide/SD/SoftwarePackagesAndTheUpdateMechanism.html",
+    "expected": "html",
+    "used_by": [
+      "02_Software_Stack"
+    ]
+  }
+]

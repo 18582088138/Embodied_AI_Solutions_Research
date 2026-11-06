@@ -1,0 +1,6 @@
+[
+ {"name":"NVIDIA_05_SIM_META","url":"https://api.github.com/repos/isaac-sim/IsaacSim","expected":"json","used_by":["05_Simulation_Environment"]},
+ {"name":"NVIDIA_05_LAB_META","url":"https://api.github.com/repos/isaac-sim/IsaacLab","expected":"json","used_by":["05_Simulation_Environment"]},
+ {"name":"NVIDIA_05_NEWTON_LICENSE","url":"https://raw.githubusercontent.com/newton-physics/newton/main/LICENSE.md","expected":"any","used_by":["05_Simulation_Environment"]},
+ {"name":"NVIDIA_05_WARP_LICENSE","url":"https://raw.githubusercontent.com/NVIDIA/warp/main/LICENSE.md","expected":"any","used_by":["05_Simulation_Environment"]}
+]

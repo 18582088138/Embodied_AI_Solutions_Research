@@ -1,0 +1,26 @@
+[
+  {
+    "name": "NVIDIA_08_DEEP_BUFFER_CUDA",
+    "url": "https://nvidia-isaac-ros.github.io/concepts/rosidl_buffer/cuda_buffer_backend.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_BUFFER_UPSTREAM",
+    "url": "https://docs.ros.org/en/lyrical/Concepts/Intermediate/About-Buffer-Backends.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TI_TDA4",
+    "url": "https://www.ti.com/lit/ds/symlink/tda4vm.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  }
+]

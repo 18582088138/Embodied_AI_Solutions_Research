@@ -1,0 +1,138 @@
+[
+  {
+    "name": "NVIDIA_08_DEEP_HIP_META",
+    "url": "https://api.github.com/repos/ROCm/HIP",
+    "expected": "json",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_HIP_COMMIT",
+    "url": "https://api.github.com/repos/ROCm/HIP/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_OPENVINO_META",
+    "url": "https://api.github.com/repos/openvinotoolkit/openvino",
+    "expected": "json",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_OPENVINO_COMMIT",
+    "url": "https://api.github.com/repos/openvinotoolkit/openvino/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_MUJOCO_META",
+    "url": "https://api.github.com/repos/google-deepmind/mujoco",
+    "expected": "json",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_MUJOCO_COMMIT",
+    "url": "https://api.github.com/repos/google-deepmind/mujoco/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_ARGO_META",
+    "url": "https://api.github.com/repos/argoproj/argo-workflows",
+    "expected": "json",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_ARGO_COMMIT",
+    "url": "https://api.github.com/repos/argoproj/argo-workflows/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_RCLCPP_META",
+    "url": "https://api.github.com/repos/ros2/rclcpp",
+    "expected": "json",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_RCLCPP_COMMIT",
+    "url": "https://api.github.com/repos/ros2/rclcpp/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_MOVEIT_META",
+    "url": "https://api.github.com/repos/moveit/moveit2",
+    "expected": "json",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_MOVEIT_COMMIT",
+    "url": "https://api.github.com/repos/moveit/moveit2/commits?per_page=1",
+    "expected": "json",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_OSMO_FIG",
+    "url": "https://raw.githubusercontent.com/NVIDIA/OSMO/main/docs/user_guide/overview.svg",
+    "expected": "any",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_MOVEIT_PLANNING",
+    "url": "https://moveit.picknik.ai/main/doc/concepts/motion_planning.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_FUSION",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/fusion-catalog.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_TRT_QUANT",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html",
+    "expected": "html",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  },
+  {
+    "name": "NVIDIA_08_DEEP_NXP_FACT",
+    "url": "https://www.nxp.com/docs/en/fact-sheet/IMX95FS.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "08_Core_Technology_Moat"
+    ]
+  }
+]
