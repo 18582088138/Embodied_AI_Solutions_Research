@@ -1,0 +1,6 @@
+from rk02_report import *
+body=(root/'toolkit/drafts/02C.txt').read_text(encoding='utf-8');r=json.loads((a/'_registry/materials.json').read_text(encoding='utf-8'))
+ids=list(dict.fromkeys(re.findall(r'\[\[([\w]+)\]\]',body)))+['RK02_RKLLM_Figure']
+fig=figure('RK02_RKLLM_Figure',r['RK02_RKLLM_Figure']['file'],'官方JPG原件，实际打开核对，无裁剪','Rockchip RKLLM 官方框架')
+claims=[claim('RK02_RKLLM_Convert','build','demo optimization_level=1','W8A8/RK3588/3cores/maxcontext4096','与benchmark level0不同'),claim('RK02_RKLLM_MMConvert','savepath/build','--savepath未用于输出路径','main脚本快照','部署检查实际产物；normal算法不泛化'),claim('RK02_RKLLM_API','RKLLMInput/callback/cache/perf','输入union/缓存/输出状态与VmHWM','API快照','同步/异步生命周期；VmHWM不当权重大小'),claim('RK02_RKLLM_MMRuntime','image encoder before loop','图像一次编码后进入交互','文件图像/keep_history0','不是实时相机/机器人闭环'),claim('RK02_RKLLM_Bench','RK3588/RK3576/Multimodal','TTFT/TPS/视觉分段','最大CPU/NPU freq，level0，图FP16全核','未测P99/功率/真实任务'),claim('RK02_RKLLM_License','License and thirdparty appendix','再分发条款与MIT组件','源码/二进制声明要求','SDK下载包/模型/数据仍独立授权')]
+write('02C_RKLLM',body,ids,claims,[fig],coverage='编译脚本/模型校准、Runtime缓存callback、视觉/音频到语言实际特征链、基准分段/差异/许可；完整手册与模型卡取得缺口明确。',licenses='根LICENSE已读再分发条款及ggml/llamaMIT；权重模型卡访问失败，不能宣称权重许可核验完成。')

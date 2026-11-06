@@ -1,0 +1,42 @@
+[
+  {
+    "name": "RK02_RT",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/RT-Linux/rtlinux-preface-overview",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_AMP",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/AMP/amp-overview",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_EtherCAT",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/EtherCAT/ethercat-overview-2",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_ROS",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/ROS2/ros2-install-opengl",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_OTA",
+    "url": "https://community.t-firefly.com/en/docs/software/other/OTA/ota-overview",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_SecureBoot",
+    "url": "https://community.t-firefly.com/en/docs/software/other/SecureBoot/secureboot-overview",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKNN3_ZooReadme",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-model-zoo/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKNN3_ZooLicense",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-model-zoo/main/LICENSE",
+    "expected": "any"
+  }
+]

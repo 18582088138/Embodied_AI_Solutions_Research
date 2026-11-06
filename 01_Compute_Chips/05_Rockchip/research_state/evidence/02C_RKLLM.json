@@ -1,0 +1,83 @@
+{
+  "source_ids": [
+    "RK02_RKLLM_Readme",
+    "RK02_RKLLM_Changes",
+    "RK02_RKLLM_DemoGuide",
+    "RK02_RKLLM_MMGuide",
+    "RK02_RKLLM_Convert",
+    "RK02_RKLLM_MMConvert",
+    "RK02_RKLLM_Bench",
+    "RK02_RKLLM_API",
+    "RK02_RKLLM_MMRuntime",
+    "RK02_llamacpp_Compare",
+    "RK02_RKLLM_License",
+    "RK02_RKLLM_Figure"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/data/RK02_RKLLM_Figure--26dc58025b150e1f/content.jpg",
+      "sha256": "06ce64c88a7edf77758422103d40551214de430485fbd8cecb9775eefddf208e",
+      "source_id": "RK02_RKLLM_Figure",
+      "source_url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/res/framework.jpg",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/data/RK02_RKLLM_Figure--26dc58025b150e1f/content.jpg",
+      "original_sha256": "06ce64c88a7edf77758422103d40551214de430485fbd8cecb9775eefddf208e",
+      "operation": "官方JPG原件，实际打开核对，无裁剪"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "RK02_RKLLM_Convert",
+      "location": "build",
+      "claim": "demo optimization_level=1",
+      "conditions": "W8A8/RK3588/3cores/maxcontext4096",
+      "finding": "与benchmark level0不同",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_RKLLM_MMConvert",
+      "location": "savepath/build",
+      "claim": "--savepath未用于输出路径",
+      "conditions": "main脚本快照",
+      "finding": "部署检查实际产物；normal算法不泛化",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_RKLLM_API",
+      "location": "RKLLMInput/callback/cache/perf",
+      "claim": "输入union/缓存/输出状态与VmHWM",
+      "conditions": "API快照",
+      "finding": "同步/异步生命周期；VmHWM不当权重大小",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_RKLLM_MMRuntime",
+      "location": "image encoder before loop",
+      "claim": "图像一次编码后进入交互",
+      "conditions": "文件图像/keep_history0",
+      "finding": "不是实时相机/机器人闭环",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_RKLLM_Bench",
+      "location": "RK3588/RK3576/Multimodal",
+      "claim": "TTFT/TPS/视觉分段",
+      "conditions": "最大CPU/NPU freq，level0，图FP16全核",
+      "finding": "未测P99/功率/真实任务",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_RKLLM_License",
+      "location": "License and thirdparty appendix",
+      "claim": "再分发条款与MIT组件",
+      "conditions": "源码/二进制声明要求",
+      "finding": "SDK下载包/模型/数据仍独立授权",
+      "evidence_type": "事实/分析"
+    }
+  ],
+  "manual_review": {
+    "coverage": "编译脚本/模型校准、Runtime缓存callback、视觉/音频到语言实际特征链、基准分段/差异/许可；完整手册与模型卡取得缺口明确。",
+    "versions_and_measurements": "核对原文版本、对象、参数和测量边界；源码仅静态阅读，未安装或实测。移动分支commit未取得时明确限制。",
+    "maturity_and_licenses": "根LICENSE已读再分发条款及ggml/llamaMIT；权重模型卡访问失败，不能宣称权重许可核验完成。",
+    "figures_opened": "图像逐张实际打开并核对说明；无图专题在正文解释来源检索及取得缺口。"
+  }
+}

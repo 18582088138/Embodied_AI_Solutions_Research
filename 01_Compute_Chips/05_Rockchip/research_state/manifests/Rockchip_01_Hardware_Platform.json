@@ -1,0 +1,234 @@
+[
+  {
+    "name": "Rockchip_Home",
+    "url": "https://www.rock-chips.com/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Rockchip_RK3506",
+    "url": "https://www.rock-chips.com/a/en/products/RK35_Series/2025/1208/2126.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Rockchip_Products",
+    "url": "https://www.rock-chips.com/a/en/products/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Rockchip_Multicard_2026",
+    "url": "https://www.rock-chips.com/a/cn/news/rockchip/2026/0922/2181.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Rockchip_RK3588",
+    "url": "https://www.rock-chips.com/a/en/products/RK35_Series/2022/0926/1660.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Radxa_CM5",
+    "url": "https://docs.radxa.com/en/som/cm/cm5",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Firefly_ROC_RK3588S_PDF",
+    "url": "https://download.t-firefly.com/Spec/Mainboards/ROC-RK3588S-PC_Specification_EN.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Radxa_ROCK5T_Product",
+    "url": "https://docs.radxa.com/en/rock5/rock5t/getting-started/introduction",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Rockchip_RK3576",
+    "url": "https://www.rock-chips.com/a/cn/product/RK35xilie/2024/1015/2016.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Radxa_ROCK4D",
+    "url": "https://docs.radxa.com/en/rock4/rock4d",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Rockchip_RV1126B",
+    "url": "https://www.rock-chips.com/a/cn/product/RV11xilie/2025/1208/2117.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Rockchip_RK3568",
+    "url": "https://www.rock-chips.com/a/en/products/RK35_Series/2021/0113/1276.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Rockchip_RK3568J",
+    "url": "https://www.rock-chips.com/a/en/products/RK35_Series/2022/0209/1502.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Rockchip_RK182X",
+    "url": "https://www.rock-chips.com/a/cn/product/RK18xilie/2025/1114/2113.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Firefly_RK182X_Kit_PDF",
+    "url": "https://download.t-firefly.com/Spec/Suite/RK182X-Development-Kit_Specifications_EN.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Radxa_CM5_Schematic_v221",
+    "url": "https://dl.radxa.com/cm5/v2210/radxa_cm5_v2210_schematic.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Radxa_CM5IO_Schematic_v220",
+    "url": "https://dl.radxa.com/cm5/v2200/radxa_cm5_io_v2200_schematic.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Radxa_ROCK5B_Intro",
+    "url": "https://docs.radxa.com/en/rock5/rock5b/getting-started/introduction",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Radxa_ROCK5T_Download",
+    "url": "https://docs.radxa.com/en/rock5/rock5t/download",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Radxa_ROCK5B_Power",
+    "url": "https://docs.radxa.com/en/rock5/rock5b/getting-started/power-supply",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Radxa_ROCK5B_Interface",
+    "url": "https://docs.radxa.com/en/rock5/rock5b/hardware-design/hardware-interface",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Radxa_ROCK5T_Power",
+    "url": "https://docs.radxa.com/en/rock5/rock5t/getting-started/power-supply",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Firefly_RK182X_Kit",
+    "url": "https://www.t-firefly.com/products/rk182x-3d-ram-stacking-development-kit",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Radxa_ROCK5T_Industrial_Schematic_v201",
+    "url": "https://dl.radxa.com/rock5/5t/docs/hw/radxa_rock5t_Industrial_schematic_v2.01.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Radxa_ROCK5B_Download",
+    "url": "https://docs.radxa.com/en/rock5/rock5b/download",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Radxa_ROCK5BPlus_Schematic_v121",
+    "url": "https://dl.radxa.com/rock5/5b%2B/docs/hw/radxa_rock_5b%2B_schematic_v1.21.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Radxa_ROCK5B_Schematic_v220",
+    "url": "https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_schematic_v2.20.pdf",
+    "expected": "pdf",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Firefly_ROC_RK3588S",
+    "url": "https://www.t-firefly.com/products/roc-rk3588s-pc-8-core-8k-ai-mainboard",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Firefly_Home",
+    "url": "https://www.t-firefly.com/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

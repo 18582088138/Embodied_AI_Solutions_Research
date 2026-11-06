@@ -1,0 +1,5 @@
+[
+ {"name":"RK02_RKNN2_Guide250","url":"https://raw.githubusercontent.com/airockchip/rknn-toolkit2/master/doc/Rockchip_User_Guide_RKNN_Toolkit2_CN-2.5.0.pdf","expected":"pdf"},
+ {"name":"RK02_YOLO8_OutputFigure","url":"https://raw.githubusercontent.com/airockchip/rknn_model_zoo/main/examples/yolov8/model_comparison/yolov8_output_comparison.jpg","expected":"any"},
+ {"name":"RK02_YOLO8_GraphFigure","url":"https://raw.githubusercontent.com/airockchip/rknn_model_zoo/main/examples/yolov8/model_comparison/yolov8_graph_comparison.jpg","expected":"any"}
+]

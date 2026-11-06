@@ -1,0 +1,43 @@
+{
+  "time_utc": "2026-11-04T16:00:13.828392+00:00",
+  "summary": {
+    "complete_static": 8,
+    "partial_static": 21,
+    "failed": 0
+  },
+  "names": [
+    "Rockchip_Home",
+    "Rockchip_RK3506",
+    "Rockchip_Products",
+    "Rockchip_Multicard_2026",
+    "Rockchip_RK3588",
+    "Radxa_CM5",
+    "Firefly_ROC_RK3588S_PDF",
+    "Radxa_ROCK5T_Product",
+    "Rockchip_RK3576",
+    "Radxa_ROCK4D",
+    "Rockchip_RV1126B",
+    "Rockchip_RK3568",
+    "Rockchip_RK3568J",
+    "Rockchip_RK182X",
+    "Firefly_RK182X_Kit_PDF",
+    "Radxa_CM5_Schematic_v221",
+    "Radxa_CM5IO_Schematic_v220",
+    "Radxa_ROCK5B_Intro",
+    "Radxa_ROCK5T_Download",
+    "Radxa_ROCK5B_Power",
+    "Radxa_ROCK5B_Interface",
+    "Radxa_ROCK5T_Power",
+    "Firefly_RK182X_Kit",
+    "Radxa_ROCK5T_Industrial_Schematic_v201",
+    "Radxa_ROCK5B_Download",
+    "Radxa_ROCK5BPlus_Schematic_v121",
+    "Radxa_ROCK5B_Schematic_v220",
+    "Firefly_ROC_RK3588S",
+    "Firefly_Home"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

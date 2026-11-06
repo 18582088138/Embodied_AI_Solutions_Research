@@ -1,0 +1,11 @@
+[
+ {"name":"RK02_MPP_Repo","url":"https://github.com/rockchip-linux/mpp/tree/develop","expected":"html"},
+ {"name":"RK02_MPP_API","url":"https://raw.githubusercontent.com/rockchip-linux/mpp/develop/inc/rk_mpi.h","expected":"any"},
+ {"name":"RK02_MPP_Buffer","url":"https://raw.githubusercontent.com/rockchip-linux/mpp/develop/inc/mpp_buffer.h","expected":"any"},
+ {"name":"RK02_MPP_Decode","url":"https://raw.githubusercontent.com/rockchip-linux/mpp/develop/test/mpi_dec_test.c","expected":"any"},
+ {"name":"RK02_RGA_Guide","url":"https://raw.githubusercontent.com/airockchip/librga/main/docs/Rockchip_Developer_Guide_RGA_CN.md","expected":"any"},
+ {"name":"RK02_RGA_FAQ","url":"https://raw.githubusercontent.com/airockchip/librga/main/docs/Rockchip_FAQ_RGA_CN.md","expected":"any"},
+ {"name":"RK02_RGA_Repo","url":"https://github.com/airockchip/librga","expected":"html"},
+ {"name":"RK02_FFMedia_Architecture","url":"https://community.t-firefly.com/en/docs/software/multimedia/FFMedia/ffmedia-architecture","expected":"html"},
+ {"name":"RK02_Radxa_GPU","url":"https://docs.radxa.com/en/rock5/rock5b/radxa-os/mali-gpu","expected":"html"}
+]

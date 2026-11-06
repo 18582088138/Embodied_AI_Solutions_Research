@@ -1,0 +1,6 @@
+[
+ {"name":"RK02_RGA_Copying","url":"https://raw.githubusercontent.com/airockchip/librga/main/COPYING","expected":"any"},
+ {"name":"RK02_MPP_Root","url":"https://github.com/rockchip-linux/mpp","expected":"html"},
+ {"name":"RK02_FFMedia_Repo","url":"https://github.com/Firefly-rk-linux-utils/ffmedia_release","expected":"html"},
+ {"name":"RK02_JetPack_Compare","url":"https://developer.nvidia.com/embedded/jetpack/downloads","expected":"html"}
+]

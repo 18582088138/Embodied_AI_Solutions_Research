@@ -1,0 +1,26 @@
+{
+  "time_utc": "2026-11-04T16:28:54.890299+00:00",
+  "summary": {
+    "complete_static": 12,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "RK02_RKLLM_Readme",
+    "RK02_RKLLM_Changes",
+    "RK02_RKLLM_DemoGuide",
+    "RK02_RKLLM_MMGuide",
+    "RK02_RKLLM_Convert",
+    "RK02_RKLLM_MMConvert",
+    "RK02_RKLLM_Bench",
+    "RK02_RKLLM_API",
+    "RK02_RKLLM_MMRuntime",
+    "RK02_llamacpp_Compare",
+    "RK02_RKLLM_License",
+    "RK02_RKLLM_Figure"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

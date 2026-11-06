@@ -1,0 +1,9 @@
+[
+ {"name":"Firefly_RK182X_Kit_PDF","url":"https://download.t-firefly.com/Spec/Suite/RK182X-Development-Kit_Specifications_EN.pdf","expected":"pdf"},
+ {"name":"Firefly_ROC_RK3588S_PDF","url":"https://download.t-firefly.com/Spec/Mainboards/ROC-RK3588S-PC_Specification_EN.pdf","expected":"pdf"},
+ {"name":"Radxa_CM5_Schematic_v221","url":"https://dl.radxa.com/cm5/v2210/radxa_cm5_v2210_schematic.pdf","expected":"pdf"},
+ {"name":"Radxa_CM5IO_Schematic_v220","url":"https://dl.radxa.com/cm5/v2200/radxa_cm5_io_v2200_schematic.pdf","expected":"pdf"},
+ {"name":"Radxa_ROCK5T_Industrial_Schematic_v201","url":"https://dl.radxa.com/rock5/5t/docs/hw/radxa_rock5t_Industrial_schematic_v2.01.pdf","expected":"pdf"},
+ {"name":"Radxa_ROCK5T_Product","url":"https://docs.radxa.com/en/rock5/rock5t/getting-started/introduction","expected":"html"},
+ {"name":"Radxa_ROCK5T_Power","url":"https://docs.radxa.com/en/rock5/rock5t/getting-started/power-supply","expected":"html"}
+]

@@ -1,0 +1,103 @@
+{
+  "source_ids": [
+    "Rockchip_Robotics_2026",
+    "Rockchip_Multicard_2026",
+    "RK04_PiConfig",
+    "RK02_EtherCAT_Preparation",
+    "RK06_Controller",
+    "RK06_ControllerBoard",
+    "RK02_AMP_Prereq",
+    "RK02_OTA_Linux"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/webpages/Rockchip_Robotics_2026--7e32246384c451c6/assets/images/bf185dcceff2b1217ee02786.jpg",
+      "sha256": "b4cdaf4c91012f2f05c395825db1f252aabe44d839d237567c7404decac151b9",
+      "source_id": "Rockchip_Robotics_2026",
+      "source_url": "https://www.rock-chips.com/uploads/allimg/260827/095204_3348.jpg",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/webpages/Rockchip_Robotics_2026--7e32246384c451c6/assets/images/bf185dcceff2b1217ee02786.jpg",
+      "original_sha256": "b4cdaf4c91012f2f05c395825db1f252aabe44d839d237567c7404decac151b9",
+      "operation": "官方展会原图，实际打开核对产品及展牌"
+    },
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/AlphaMini2_placard.png",
+      "sha256": "7de350367988644f48fd049b010cedea7afaae9cb1854a6e327f0bdccb2ef3f6",
+      "source_id": "Rockchip_Robotics_2026",
+      "source_url": "https://www.rock-chips.com/uploads/allimg/260827/095204_3348.jpg",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/webpages/Rockchip_Robotics_2026--7e32246384c451c6/assets/images/bf185dcceff2b1217ee02786.jpg",
+      "original_sha256": "b4cdaf4c91012f2f05c395825db1f252aabe44d839d237567c7404decac151b9",
+      "operation": "原图crop(420,420,900,675)放大至1440×765；实际打开核对，保留原图"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "Rockchip_Robotics_2026",
+      "location": "末组产品原图右上展牌",
+      "claim": "优必选 悟空AlphaMini2；芯片RK3566",
+      "conditions": "2026活动原图；已打开全图和放大局部",
+      "finding": "芯片厂商展牌绑定；未取得OEM BOM或全部代际适配",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "优必选 悟空AlphaMini2；芯片RK3566"
+    },
+    {
+      "source_id": "Rockchip_Robotics_2026",
+      "location": "末组产品原图左上展牌",
+      "claim": "卧安 KATA Friends；芯片RK3576",
+      "conditions": "芯片厂商原图，未补读模糊细字",
+      "finding": "展示对象，非独立客户验收/量产统计",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "卧安 KATA Friends；芯片RK3576"
+    },
+    {
+      "source_id": "Rockchip_Robotics_2026",
+      "location": "多形态产品 / 数据结构光视觉",
+      "claim": "Lumistar TERO PRO小型网球发球机；松延动力轻量化人形",
+      "conditions": "正文未给精确芯片/人形SKU",
+      "finding": "不补齐具体BOM/步态/控制归因",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "Lumistar TERO PRO小型网球发球机；松延动力轻量化人形"
+    },
+    {
+      "source_id": "Rockchip_Robotics_2026",
+      "location": "数据、结构光、视觉",
+      "claim": "RK3588+RV1126B；Wi-Fi TSF；RK3572双目深度25fps",
+      "conditions": "厂商方案宣称；无同步误差/shape/成功率",
+      "finding": "非相机同步曝光或所有透明材质鲁棒性",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "RK3588+RV1126B；Wi-Fi TSF；RK3572双目深度25fps"
+    },
+    {
+      "source_id": "Rockchip_Multicard_2026",
+      "location": "02 VLA方案",
+      "claim": "RK3588搭配RK1828 ... 轨迹规划、关节控制和结果校验",
+      "conditions": "展会demo与应用探索",
+      "finding": "本体/模型/测量/商业收益未取得",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "RK3588搭配RK1828 ... 轨迹规划、关节控制和结果校验"
+    },
+    {
+      "source_id": "RK06_Controller",
+      "location": "Introduction",
+      "claim": "powered by ... RK3588",
+      "conditions": "EC-R3588RT产品文档",
+      "finding": "与关联载板页RK3588S叙述冲突，待BOM确认",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "powered by ... RK3588"
+    },
+    {
+      "source_id": "RK06_ControllerBoard",
+      "location": "Introduction",
+      "claim": "RK3588S",
+      "conditions": "ROC-RK3588-RT页静态快照",
+      "finding": "RT名字不等于RT内核或WCET",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "RK3588S"
+    }
+  ],
+  "manual_review": {
+    "coverage": "已核验关键主张并记录精确API/章节/页码及原文片段；正文列出未取得交付物和分析边界。",
+    "versions_and_measurements": "核对原文版本、对象、参数和测量边界；源码仅静态阅读，未安装或实测。移动分支commit未取得时明确限制。",
+    "maturity_and_licenses": "代码/权重/数据/二进制/固件/本体资产分别核对；不以公开仓库推导全部开源或商业授权。",
+    "figures_opened": "图像逐张实际打开并核对说明；无图专题在正文解释来源检索及取得缺口。"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "RK03_Camera",
+    "url": "https://community.t-firefly.com/en/docs/products/motherboard/AIO-3588JD4/usage-camera",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_OrbbecTime",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/docs/tutorial/timestamp.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_OrbbecLicenseText",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/LICENSE.txt",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_RPLIDARCode",
+    "url": "https://raw.githubusercontent.com/Slamtec/rplidar_ros/ros2/src/rplidar_node.cpp",
+    "expected": "any"
+  }
+]

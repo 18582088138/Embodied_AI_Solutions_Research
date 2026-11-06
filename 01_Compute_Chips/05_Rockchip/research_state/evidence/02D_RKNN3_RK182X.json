@@ -1,0 +1,63 @@
+{
+  "source_ids": [
+    "RK02_RKNN3_Readme",
+    "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "RK02_RK182X_Started",
+    "RK02_05_RKNN3_Runtime_C_API_Reference_V1.2.0",
+    "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+    "RK02_06_RKLLM3_Server_User_Guide_V1.2.0",
+    "RK02_RKNN3_License",
+    "RK02_RKNN3_ZooLicense"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/RKNN3_architecture.png",
+      "sha256": "8451c24ecadc7e529caf664bc7a5daab48dd18ce0ccc65459ce0efa77e15a0fc",
+      "source_id": "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+      "source_url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/02_RKNN3_SDK_Development_Guide_V1.2.0.pdf",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/documents/RK02_02_RKNN3_SDK_Dev--9d498a30029e5731/document.pdf",
+      "original_sha256": "50e56dd1e54deeec8584b0ce8a17286ba11e86898687e1826f77d7c8b6a39556",
+      "operation": "Development Guide V1.2.0第9页Poppler1600px完整渲染，实际打开核对"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+      "location": "p56,p100-105,p124-131,p144-150",
+      "claim": "对象/多卡/分页/语法/插件",
+      "conditions": "V1.2.0按目标区分",
+      "finding": "单context串行/request_num1/MatMul目标边界",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+      "location": "p12-17",
+      "claim": "基准条件",
+      "conditions": "RK3588性能模式PCIe/NPU1GHz",
+      "finding": "视觉语言分测，不当闭环",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_RK182X_Started",
+      "location": "installer/service",
+      "claim": "BSP交付与版本",
+      "conditions": "供应商1.1样例",
+      "finding": "不等于上游1.2安装验证",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_RKNN3_License",
+      "location": "1-3",
+      "claim": "许可",
+      "conditions": "SDK专用协议",
+      "finding": "非全栈开源",
+      "evidence_type": "事实/分析"
+    }
+  ],
+  "manual_review": {
+    "coverage": "编译/GRQ/对象/传输/插件/多卡/缓存/服务/语法/基准/许可",
+    "versions_and_measurements": "核对原文版本、对象、参数和测量边界；源码仅静态阅读，未安装或实测。移动分支commit未取得时明确限制。",
+    "maturity_and_licenses": "SDK和Zoo独立许可；模型固件另核",
+    "figures_opened": "图像逐张实际打开并核对说明；无图专题在正文解释来源检索及取得缺口。"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "source_ids": [
+    "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+    "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "RK02_RKNN2_Readme",
+    "RK02_RKLLM_Readme",
+    "RK02_RKNN3_Readme",
+    "RK02_07_RKNN3_Supported_Operators_and_Constraints_Reference_V1.2.0",
+    "RK08_TRT_Explicit",
+    "RK08_TRT_Quant",
+    "RK02_llamacpp_Compare",
+    "RK02_RKNN3_License"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/RKNN3_Accuracy_Flow_p152.png",
+      "sha256": "c603a49e559a7cc6874375a070c373629c262c6b393e8f4bf050bcc169a424ef",
+      "source_id": "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+      "source_url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/02_RKNN3_SDK_Development_Guide_V1.2.0.pdf",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/documents/RK02_02_RKNN3_SDK_Dev--9d498a30029e5731/document.pdf",
+      "original_sha256": "50e56dd1e54deeec8584b0ce8a17286ba11e86898687e1826f77d7c8b6a39556",
+      "operation": "Poppler完整渲染PDF第152页，scale-to1600；未裁剪；已打开"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+      "location": "p17量化定义",
+      "claim": "4-bit asymmetric quantization",
+      "conditions": "W4A16 G32，input channel每32权重一组",
+      "finding": "不把KV/全部运算说成4bit",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "4-bit asymmetric quantization"
+    },
+    {
+      "source_id": "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+      "location": "p42—44 GRQ/calibration",
+      "claim": "minimizes the mean squared error between the outputs of each block",
+      "conditions": "GRQ反向传播GPU/CUDA；multimodal hook args/kwargs",
+      "finding": "Normal无校准；GRQ不保证机器人任务无损",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "minimizes the mean squared error between the outputs of each block"
+    },
+    {
+      "source_id": "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+      "location": "p47 mixed precision",
+      "claim": "layer_quant_config and auto_hybrid_rate must not be used together",
+      "conditions": "export_op_quantized_dtype同一ONNX映射JSON",
+      "finding": "不能复用修改后旧图映射",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "layer_quant_config and auto_hybrid_rate must not be used together"
+    },
+    {
+      "source_id": "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+      "location": "p147—149 CPU plugin",
+      "claim": "Pure C only",
+      "conditions": "c908v/RISC-V编译；model_init后加载，输出重新query",
+      "finding": "补齐图节点不等于NPUkernel或免费fallback",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "Pure C only"
+    },
+    {
+      "source_id": "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+      "location": "p16 VLM准确率",
+      "claim": "InternVL3-2B MMbench(cn) 77.23 72.77",
+      "conditions": "浮点与W4A16G32官方表",
+      "finding": "下降4.46个百分点，非机器人成功率",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "InternVL3-2B MMbench(cn) 77.23 72.77"
+    },
+    {
+      "source_id": "RK08_TRT_Explicit",
+      "location": "Weight-Only Quantization / Q/DQ",
+      "claim": "WoQ is available only for INT4 block quantization with GEMM layers",
+      "conditions": "TensorRT11.4.1文档快照",
+      "finding": "机制比较，无同条件速度排名",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "WoQ is available only for INT4 block quantization with GEMM layers"
+    }
+  ],
+  "manual_review": {
+    "coverage": "逐关键主张核对API/手册页码/条款/原文片段；性能与商业宣称、分析、未取得内容明确分开。",
+    "versions_and_measurements": "核对原文版本、对象、参数和测量边界；源码仅静态阅读，未安装或实测。移动分支commit未取得时明确限制。",
+    "maturity_and_licenses": "代码/权重/数据/二进制/固件/本体资产分别核对；不以公开仓库推导全部开源或商业授权。",
+    "figures_opened": "图像逐张实际打开并核对说明；无图专题在正文解释来源检索及取得缺口。"
+  }
+}

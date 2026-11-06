@@ -1,0 +1,17 @@
+[
+  {
+    "name": "RK09_Q3_2026",
+    "url": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-10-27/603893_20261027_UO55.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK09_H1_2026",
+    "url": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-08-18/603893_20260818_0XAH.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK09_2025_Summary",
+    "url": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-15/603893_20260415_U4KG.pdf",
+    "expected": "any"
+  }
+]

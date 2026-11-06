@@ -1,0 +1,7 @@
+[
+  {
+    "name": "RK08_TRT_WeightStream",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/weight-streaming.html",
+    "expected": "any"
+  }
+]

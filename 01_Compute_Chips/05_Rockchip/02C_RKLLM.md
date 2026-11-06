@@ -1,0 +1,87 @@
+# 02C｜RKLLM：语言推理、多模态分段与会话缓存
+
+RKLLM 针对端侧 LLM 量化、编译和目标运行提供专用路径。此次 README/CHANGELOG 为 v1.3.1 快照，支持 RK3588、RK3576、RK3562、RV1126B，未将 RK1820/1828 列入同一目标矩阵。因此 SoC 的 `.rkllm` 不能因“同属瑞芯微”自动当成 RK182X 的 RKNN3 产物。精确 release 发布时间和本次移动分支 commit 尚未完整取得，按归档时点及文件哈希追溯。[RK02_RKLLM_Readme](https://raw.githubusercontent.com/airockchip/rknn-llm/main/README.md)（[本地原件](REFERENCES.md#ref-5b6e59180a191ea7)) [RK02_RKLLM_Changes](https://raw.githubusercontent.com/airockchip/rknn-llm/main/CHANGELOG.md)（[本地原件](REFERENCES.md#ref-e1017b96baae1716))
+
+## 1. 解决模型容量与专用执行的问题
+
+![Rockchip RKLLM 官方框架](assets/figures/content--06ce64c88a7e.jpg)
+
+官方图将 Hugging Face 模型、RKLLM Toolkit、目标 Runtime、RKNPU driver 和硬件分开；图中列举 Llama/Phi2/Qwen2 等是框架示意，不能代替新版模型支持清单。转换侧加载权重、选择量化、目标平台和编译参数，输出 `.rkllm`；目标侧使用 C/C++ 接口初始化、输入、生成和管理缓存。量化减少权重/带宽需求，但激活、缓存、CPU 预处理、tokenizer 与中间 buffer 仍需内存，模型文件小于 DRAM 容量不是可稳定运行的充分条件。[RK02_RKLLM_Readme](https://raw.githubusercontent.com/airockchip/rknn-llm/main/README.md)（[本地原件](REFERENCES.md#ref-5b6e59180a191ea7))
+
+| 层级 | 官方交付路径 | 契约 | 不能推导的能力 |
+| --- | --- | --- | --- |
+| Toolkit | Hugging Face/GGUF → 量化/编译 → .rkllm | target、dtype、算法、上下文、NPU核心 | 任意Transformer结构无需适配 |
+| Runtime | C API、callback、cache与采样配置 | handle、输入类型、输出状态、内存寿命 | 生成文本直接可执行动作 |
+| 多模态 | RKNN视觉/音频塔 + RKLLM语言塔 | embedding维度、tokens、模板和位置编码 | 动态视频/多相机闭环已完成 |
+| 服务示例 | 官方README列server/API demo | 请求队列、会话、超时需具体实现核验 | 接口格式兼容等于吞吐和安全保证 |
+
+编译器、Runtime 与 RKNPU driver 是成组依赖。API demo 文档要求 toolkit/runtime≥1.3.0，却列 Python≥3.9，而总体 README 当前列表为3.10/3.11/3.12；本项目选实际发行 wheel 与安装要求，不把较宽旧下限视为全部当前包支持。多模态示例只列 Toolkit2≥2.3.2 与 RKLLM≥1.3.0；这也不是某个板卡 BSP 的认证矩阵。[RK02_RKLLM_DemoGuide](https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/rkllm_api_demo/README.md)（[本地原件](REFERENCES.md#ref-f56f66b10c0ec847)) [RK02_RKLLM_MMGuide](https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/multimodal_model_demo/README.md)（[本地原件](REFERENCES.md#ref-1d2b50e989d6349e))
+
+## 2. 转换参数是数值与性能复现的组成部分
+
+API demo 使用 DeepSeek-R1-Distill-Qwen-1.5B。文档先用 FP16 模型生成结果制作 `data_quant.json`，再执行 export 脚本。实际 `export_rkllm.py` 调用 `load_huggingface(device='cuda',dtype='float32')`，随后 build 指定 W8A8、normal 算法、RK3588、三 NPU 核、optimization_level=1、max_context=4096，最后导出带 dtype/target 名的 `.rkllm`。CUDA 在这里属于转换主机依赖，并不说明 RK3588 在运行 NVIDIA CUDA。脚本还提示可选择 CPU/CUDA、不同载入dtype以权衡主机内存与数值；变更后需要重新验收。[RK02_RKLLM_DemoGuide](https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/rkllm_api_demo/README.md)（[本地原件](REFERENCES.md#ref-f56f66b10c0ec847)) [RK02_RKLLM_Convert](https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/rkllm_api_demo/export/export_rkllm.py)（[本地原件](REFERENCES.md#ref-337d2eb2db539c23))
+
+量化校准数据的 prompt/target 模板与目标任务分布会影响结果。示例采用模型生成文本不是机器人指令正确性验证；应加入实际短指令、否定句、对象指代、结构化任务输出、多语言及长上下文留出集。changelog 提到 GRQ Int4、group-wise、mixed/hybrid、GPTQ 和部分 GGUF 转换，不是所有文件格式/量化都可自由混用。脚本注释建议 w8a8 用 normal、w4a16 用 grq，多模态脚本却固定 normal；这应当作为参数审计点，不能用示例中的一种默认设置覆盖所有目标。[RK02_RKLLM_Changes](https://raw.githubusercontent.com/airockchip/rknn-llm/main/CHANGELOG.md)（[本地原件](REFERENCES.md#ref-e1017b96baae1716)) [RK02_RKLLM_Convert](https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/rkllm_api_demo/export/export_rkllm.py)（[本地原件](REFERENCES.md#ref-337d2eb2db539c23)) [RK02_RKLLM_MMConvert](https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/multimodal_model_demo/export/export_rkllm.py)（[本地原件](REFERENCES.md#ref-1e1cf742342ecf0b))
+
+基准说明要求所有模型 optimization_level=0，而当前单模态与多模态脚本都写1。两者是可核验差异：复现性能必须显式切换到基准规定配置，并检查该版本手册和编译日志；不能拿未经修改的 demo 宣称复现 benchmark。多模态脚本还解析 `--savepath`，但实际构造输出到 `./rkllm/<model>_<dtype>_<target>.rkllm`，没有使用该参数值。部署自动化应检查实际产物路径和哈希，而非仅按命令行参数推测文件已生成。[RK02_RKLLM_Bench](https://raw.githubusercontent.com/airockchip/rknn-llm/main/benchmark.md)（[本地原件](REFERENCES.md#ref-fe6bb21a237c6059)) [RK02_RKLLM_MMConvert](https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/multimodal_model_demo/export/export_rkllm.py)（[本地原件](REFERENCES.md#ref-1e1cf742342ecf0b))
+
+## 3. 运行时对象与缓存不是透明黑盒
+
+`rkllm_createDefaultParam` 创建默认配置，`RKLLMParam` 固定 model_path、max_context_len/max_new_tokens、采样与重复惩罚等参数，extend 提供 CPU mask、n_batch、embed_flash、cross attention 等选项。`rkllm_init` 接收 handle、param 和 callback 结构；输入通过 union 区分 prompt、token、embedding、multimodal，必须与 input_type 对应。纯文本、token IDs 和浮点embedding有不同准备成本与所有权，不能将字符串地址作为 embedding。[RK02_RKLLM_API](https://raw.githubusercontent.com/airockchip/rknn-llm/main/rkllm-runtime/Linux/librkllm_api/include/rkllm.h)（[本地原件](REFERENCES.md#ref-9956ef32915239a5))
+
+运行可用同步 `rkllm_run` 或异步 `rkllm_run_async`，callback 区分 NORMAL、WAITING（等待完整UTF8字符）、FINISH、ERROR；输出可能是 text、token、hidden states、logits 或性能统计。callback 返回0继续、1暂停供更新内容、2释放当前输出buffer，说明应用必须按状态处理内存和消费节奏。保存裸结果地址以后继续使用不能自行认为有效；异步请求应持有输入及userdata直到完成/中止，保证销毁 handle 前结束工作。吞吐优化还需要队列上限与取消流程，本轮没有做多实例压力测试。[RK02_RKLLM_API](https://raw.githubusercontent.com/airockchip/rknn-llm/main/rkllm-runtime/Linux/librkllm_api/include/rkllm.h)（[本地原件](REFERENCES.md#ref-9956ef32915239a5))
+
+KV/prompt cache 可通过 load/save、history配置及 `rkllm_clear_kv_cache` 管理，查询 cache size 需要按 n_batch 分配结果数组。清除范围、保留system prompt和暂停状态有各自接口约束。缓存复用通过省掉相同前缀重复计算降低首响应成本，但模型权重、adapter、模板、tokenizer、量化产物或位置编码变化都应视为待验证失效条件；不能把另一型号/用户的缓存直接复用。v1.3.1 增加 linear attention cache reuse，不能用标准 KV 的容量公式解释所有模型缓存；传统attention可用层数×KV头×head_dim×tokens×两个K/V×每元素字节作分析估算，具体布局与压缩仍按目标运行统计。[RK02_RKLLM_API](https://raw.githubusercontent.com/airockchip/rknn-llm/main/rkllm-runtime/Linux/librkllm_api/include/rkllm.h)（[本地原件](REFERENCES.md#ref-9956ef32915239a5)) [RK02_RKLLM_Changes](https://raw.githubusercontent.com/airockchip/rknn-llm/main/CHANGELOG.md)（[本地原件](REFERENCES.md#ref-e1017b96baae1716))
+
+API 的 performance struct 分别提供 prefill_time/tokens、generate_time/tokens 与 VmHWM resident memory。VmHWM 是进程驻留高水位口径，不是模型权重文件大小，也不必等于整机唯一内存占用。批处理与多实例可能提高吞吐，却增加某一请求的排队时间和内存；机器人指令应优先约束观测年龄、请求过期和最迟可接受任务时间。
+
+## 4. 多模态链：实际连接已存在，但只是文件问答示例
+
+官方多模态示例把 Vision+Projector 和音频塔输出为 `.rknn`，语言部分输出为 `.rkllm`。Qwen2-VL 视觉导出分两步生成 cu_seqlens/rotary_pos_emb 再导出 ONNX；示例 batch1、392×392，改变 batch/height/width 必须重新生成。文档“RKNN当前只支持float32”应放在这个权重/ONNX导出段理解，不能反驳目标 RKNN FP16 编码器的运行表。语言量化先用20组 MMBench 图文生成 input_embeds；这不是机器人真实图像泛化证明。[RK02_RKLLM_MMGuide](https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/multimodal_model_demo/README.md)（[本地原件](REFERENCES.md#ref-1d2b50e989d6349e))
+
+C 示例先从文件用 OpenCV 读 BGR转RGB，填充方形并resize，运行 imgenc 到浮点embedding，再构造 RKLLM multimodal input；音频读入mono16kHz float32，生成mel/mask，并按RKNN模型输入要求真实转换成FP16字节。源码特别提醒：声明FLOAT16却传FLOAT32字节会被误读。RKLLM 图像embedding按 n_image×n_image_tokens×embedding_dim×sizeof(float32)准备，image_start/end/content和图像宽高需要匹配模型配置；这些tag不是可以任意替换的UI标签。[RK02_RKLLM_MMRuntime](https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/multimodal_model_demo/deploy/src/main.cpp)（[本地原件](REFERENCES.md#ref-9021068f56956d85)) [RK02_RKLLM_API](https://raw.githubusercontent.com/airockchip/rknn-llm/main/rkllm-runtime/Linux/librkllm_api/include/rkllm.h)（[本地原件](REFERENCES.md#ref-9956ef32915239a5))
+
+当前 main.cpp 在问答循环前编码一次图像/音频，keep_history=0，然后交互生成回答。它证实了两个工具链之间的特征交接，未证实每次请求刷新相机、连续视频缓存、多视角融合、ROS消息和动作执行。量产机器人如果重复使用旧embedding必须保留其采集时刻；不能把“本地推理数据不离设备”的宣传当成部署服务、日志或更新系统永不联网的整体保证。[RK02_RKLLM_MMRuntime](https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/multimodal_model_demo/deploy/src/main.cpp)（[本地原件](REFERENCES.md#ref-9021068f56956d85)) [RK02_RKLLM_Readme](https://raw.githubusercontent.com/airockchip/rknn-llm/main/README.md)（[本地原件](REFERENCES.md#ref-5b6e59180a191ea7))
+
+## 5. 官方速度数据应分段读
+
+| 数据条目 | 格式与输入 | TTFT/Prefill | Decode | 内存/条件 |
+| --- | --- | --- | --- | --- |
+| RK3588 Qwen2-0.5B | w8a8、Seqlen128、输出64 | TTFT145.90ms | 41.58tokens/s | 669.56MB；最高CPU/NPU频率 |
+| RK3576 Qwen2-0.5B | w4a16、同长度 | TTFT342.37ms | 32.56tokens/s | 443.44MB；同基准配置要求 |
+| RK3576 Qwen2-0.5B | w8a8、同长度 | TTFT344.27ms | 21.73tokens/s | 678.43MB；精度路线不同 |
+| RK3588 Qwen2-VL-2B | 图392×392、编码FP16全核；语言w8a8 | 视觉3.28s；Prefill196为632.6ms | 16.6tokens/s | 多模态表未给总内存/功耗 |
+
+来自此次 benchmark 快照；模型版本/commit、板卡、散热、迭代统计、batch与TTFT准确计时边界未全部披露。多模态图像塔的FP16全核不能被标题RK3588(w8a8)覆盖。对RK3576同模型不同精度可观察原表内存与速度变化，但尚无对应质量分数，不断言总体更优。将图像编码、prefill、排队、token生成、后处理分别记录，比把tokens/s解释成“机器人每秒决策次数”更有用。[RK02_RKLLM_Bench](https://raw.githubusercontent.com/airockchip/rknn-llm/main/benchmark.md)（[本地原件](REFERENCES.md#ref-fe6bb21a237c6059))
+
+llama.cpp 的公开机制是GGUF和CPU/GPU多后端、量化及CPU+GPU混合执行；RKLLM以专用NPU编译产物部署。二者都面对容量、上下文和解码带宽问题，迁移资产是原权重、tokenizer、模板与测试集，`.rkllm`不能当GGUF直接运行。RKLLM LICENSE 还列出其修改过的ggml/llama.cpp及MIT条款；这种软件来源不等于RKLLM可使用上游全部后端或上游版本自动兼容。没有同模型同功率实测，不给性能排名。[RK02_llamacpp_Compare](https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md)（[本地原件](REFERENCES.md#ref-fbdd980ae105c4a6)) [RK02_RKLLM_License](https://raw.githubusercontent.com/airockchip/rknn-llm/main/LICENSE)（[本地原件](REFERENCES.md#ref-c90b415e30fa8614))
+
+## 6. 许可、部署与任务交接
+
+RKLLM 根LICENSE允许源码与二进制再分发但要求保留声明、在二进制文档中复现条款，不得借厂商名背书，并要求遵循内含开源软件许可；附录ggml/llama.cpp为MIT。不能把这些条款覆盖所有下载SDK包附带协议、模型权重、数据集或固件。DeepSeek模型卡入口本轮访问失败，权重许可没有完成核验；完整模型能力地图留待04，本专题不据支持勾选声称全部模型已验证可商用。[RK02_RKLLM_License](https://raw.githubusercontent.com/airockchip/rknn-llm/main/LICENSE)（[本地原件](REFERENCES.md#ref-c90b415e30fa8614))
+
+可复建验证应先锁定两个编译器/runtime、目标driver、模型revision、tokenizer/chat_template、图像/音频预处理和输出产物hash。比较FP参考与量化在固定prompt、长短上下文和结构化输出集的差异，再跑冷/热cache、清缓存、取消、多请求、重复init/destroy与温度稳定性。v1.3.1修复多实例初始化失败Use-After-Free，说明失败路径同样重要，旧ABI样例不应只换新.so后直接发布。记录visual/audio、prefill、decode、首完整UTF8输出、请求总耗时与VmHWM。上述验证尚未实机执行。[RK02_RKLLM_Changes](https://raw.githubusercontent.com/airockchip/rknn-llm/main/CHANGELOG.md)（[本地原件](REFERENCES.md#ref-e1017b96baae1716))
+
+交给ROS/任务层的应是受约束的任务描述、对象/frame、观测时间、有效期及拒绝/错误状态；LLM函数调用或文本动作不能直接成为电机命令。rkllm_abort只是中止生成，不证明下游已撤销动作。手册参数全集、实际BSP绑定版本、缓存文件兼容规则与目标闭环成功率仍待供应商资料和实机验证。
+
+
+## 参考资料与本地原文
+
+采集时间逐项列出；移动分支及无版本网页仅代表此次快照。HTML 保留正文与可取得静态依赖，动态交互、视频及缺失依赖不保证完整。未进行目标板安装或实机性能验证。
+
+| 来源 | 原 URL | 本地原件 | 采集 UTC | 归档状态 |
+| --- | --- | --- | --- | --- |
+| RK02_RKLLM_Readme | [原文](https://raw.githubusercontent.com/airockchip/rknn-llm/main/README.md) | [归档](REFERENCES.md#ref-5b6e59180a191ea7) | 2026-11-04T16:10:05.951168+00:00 | complete_static；缺失依赖 0 |
+| RK02_RKLLM_Changes | [原文](https://raw.githubusercontent.com/airockchip/rknn-llm/main/CHANGELOG.md) | [归档](REFERENCES.md#ref-e1017b96baae1716) | 2026-11-04T16:24:58.609201+00:00 | complete_static；缺失依赖 0 |
+| RK02_RKLLM_DemoGuide | [原文](https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/rkllm_api_demo/README.md) | [归档](REFERENCES.md#ref-f56f66b10c0ec847) | 2026-11-04T16:25:16.962334+00:00 | complete_static；缺失依赖 0 |
+| RK02_RKLLM_MMGuide | [原文](https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/multimodal_model_demo/README.md) | [归档](REFERENCES.md#ref-1d2b50e989d6349e) | 2026-11-04T16:25:18.278689+00:00 | complete_static；缺失依赖 0 |
+| RK02_RKLLM_Convert | [原文](https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/rkllm_api_demo/export/export_rkllm.py) | [归档](REFERENCES.md#ref-337d2eb2db539c23) | 2026-11-04T16:26:02.915057+00:00 | complete_static；缺失依赖 0 |
+| RK02_RKLLM_MMConvert | [原文](https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/multimodal_model_demo/export/export_rkllm.py) | [归档](REFERENCES.md#ref-1e1cf742342ecf0b) | 2026-11-04T16:26:05.124020+00:00 | complete_static；缺失依赖 0 |
+| RK02_RKLLM_Bench | [原文](https://raw.githubusercontent.com/airockchip/rknn-llm/main/benchmark.md) | [归档](REFERENCES.md#ref-fe6bb21a237c6059) | 2026-11-04T16:25:09.914458+00:00 | complete_static；缺失依赖 0 |
+| RK02_RKLLM_API | [原文](https://raw.githubusercontent.com/airockchip/rknn-llm/main/rkllm-runtime/Linux/librkllm_api/include/rkllm.h) | [归档](REFERENCES.md#ref-9956ef32915239a5) | 2026-11-04T16:25:15.525039+00:00 | complete_static；缺失依赖 0 |
+| RK02_RKLLM_MMRuntime | [原文](https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/multimodal_model_demo/deploy/src/main.cpp) | [归档](REFERENCES.md#ref-9021068f56956d85) | 2026-11-04T16:26:06.276144+00:00 | complete_static；缺失依赖 0 |
+| RK02_llamacpp_Compare | [原文](https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md) | [归档](REFERENCES.md#ref-fbdd980ae105c4a6) | 2026-11-04T16:26:19.013745+00:00 | complete_static；缺失依赖 0 |
+| RK02_RKLLM_License | [原文](https://raw.githubusercontent.com/airockchip/rknn-llm/main/LICENSE) | [归档](REFERENCES.md#ref-c90b415e30fa8614) | 2026-11-04T16:25:13.581430+00:00 | complete_static；缺失依赖 0 |
+| RK02_RKLLM_Figure | [原文](https://raw.githubusercontent.com/airockchip/rknn-llm/main/res/framework.jpg) | [归档](REFERENCES.md#ref-26dc58025b150e1f) | 2026-11-04T16:25:11.124574+00:00 | complete_static；缺失依赖 0 |
+
+[证据记录](research_state/evidence/02C_RKLLM.json)；[本章开始前哈希基线](research_state/baselines/02C_RKLLM_before.json)。检查和去重记录由专题索引汇总。

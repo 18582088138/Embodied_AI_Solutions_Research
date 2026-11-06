@@ -1,0 +1,33 @@
+{
+  "time_utc": "2026-11-04T16:18:27.140103+00:00",
+  "summary": {
+    "complete_static": 11,
+    "partial_static": 8,
+    "failed": 0
+  },
+  "names": [
+    "RK02_Radxa_OS",
+    "RK02_Firefly_Buildroot",
+    "RK02_Firefly_GPU",
+    "RK02_Radxa_GPU",
+    "RK02_JetPack_Compare",
+    "RK02_MPP_Readme",
+    "RK02_MPP_API",
+    "RK02_MPP_Decode",
+    "RK02_MPP_Buffer",
+    "RK02_RGA_Readme",
+    "RK02_RGA_Guide",
+    "RK02_RGA_FAQ",
+    "RK02_FFMedia_Architecture",
+    "RK02_FFMedia_API",
+    "RK02_Firefly_FFMedia",
+    "RK02_FFMedia_ABI",
+    "RK02_RGA_Copying",
+    "RK02_FFMedia_Repo",
+    "RK02_FFMedia_Figure"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

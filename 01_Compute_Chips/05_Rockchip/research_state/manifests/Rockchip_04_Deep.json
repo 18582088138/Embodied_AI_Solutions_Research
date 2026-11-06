@@ -1,0 +1,22 @@
+[
+  {
+    "name": "RK04_PiConfig",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/src/openpi/models/pi0_config.py",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_PiModel",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/src/openpi/models/pi0.py",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_DroidPolicy",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/src/openpi/policies/droid_policy.py",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_Remote",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/docs/remote_inference.md",
+    "expected": "any"
+  }
+]

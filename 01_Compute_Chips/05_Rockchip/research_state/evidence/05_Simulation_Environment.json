@@ -1,0 +1,96 @@
+{
+  "source_ids": [
+    "RK05_GazeboInstall",
+    "RK02_ROS",
+    "RK05_Mujoco",
+    "RK05_MujocoCompute",
+    "RK05_GazeboSensor",
+    "RK05_GazeboROS",
+    "RK05_LIBERO",
+    "RK05_OpenpiLibero",
+    "Rockchip_Multicard_2026",
+    "RK05_MujocoLicense"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/webpages/RK05_MujocoCompute--50bc861c2b70fd1e/assets/images/99819c066db4861611a77f2a.png",
+      "sha256": "15340e3d168c2d218311db34556402ae99f89367668a5091a282c1314b2b4f68",
+      "source_id": "RK05_MujocoCompute",
+      "source_url": "https://mujoco.readthedocs.io/en/stable/_images/softcontact.png",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/webpages/RK05_MujocoCompute--50bc861c2b70fd1e/assets/images/99819c066db4861611a77f2a.png",
+      "original_sha256": "15340e3d168c2d218311db34556402ae99f89367668a5091a282c1314b2b4f68",
+      "operation": "官方Soft contact图原件；实际打开核对"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "RK05_GazeboInstall",
+      "location": "Binary Installation / page banner",
+      "claim": "Harmonic binaries are provided for Ubuntu Jammy (22.04) and Ubuntu Noble (24.04)",
+      "conditions": "Harmonic为较旧仍支持LTS；2023-09至2029-05",
+      "finding": "未验证Rockchip ARM/Mali/BSP或Humble组合",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "Harmonic binaries are provided for Ubuntu Jammy (22.04) and Ubuntu Noble (24.04)"
+    },
+    {
+      "source_id": "RK05_GazeboROS",
+      "location": "ros_gz_bridge / Launch manually",
+      "claim": "support is limited to only certain message types",
+      "conditions": "方向@/[/]，队列、lazy、消息类型",
+      "finding": "网络桥非零拷贝/闭环保证",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "support is limited to only certain message types"
+    },
+    {
+      "source_id": "RK05_GazeboSensor",
+      "location": "Preliminaries / IMU",
+      "claim": "When adding a plugin ... default plugins are not loaded",
+      "conditions": "SDF1.9；example IMU update_rate1",
+      "finding": "教学设置，非真实传感器同步/安全",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "When adding a plugin ... default plugins are not loaded"
+    },
+    {
+      "source_id": "RK05_Mujoco",
+      "location": "Model instances / Options",
+      "claim": "MJB ... version-specific",
+      "conditions": "mjSpec/mjModel/mjData；CPU C与GPU后端分开",
+      "finding": "保留源资产，不能推出RK NPU物理加速",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "MJB ... version-specific"
+    },
+    {
+      "source_id": "RK05_MujocoCompute",
+      "location": "General framework / Numerical integration / Soft contact",
+      "claim": "M dv/dt + c = tau + J^T f",
+      "conditions": "timestep、执行器、积分、接触求解依赖模型",
+      "finding": "视觉真实不等于动力学/真实泛化",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "M dv/dt + c = tau + J^T f"
+    },
+    {
+      "source_id": "RK05_OpenpiLibero",
+      "location": "Results",
+      "claim": "π0.5 @ 30k ... Average 96.85",
+      "conditions": "作者pi05_libero仿真checkpoint",
+      "finding": "非RK1828优化模型真实成功率",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "π0.5 @ 30k ... Average 96.85"
+    },
+    {
+      "source_id": "RK05_LIBERO",
+      "location": "Datasets / Task / License",
+      "claim": "130 tasks; Codebase MIT; Datasets CC BY4.0",
+      "conditions": "固定初始状态/sparse reward；旧CUDA依赖",
+      "finding": "不同任务/依赖/数据许可分开",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "130 tasks; Codebase MIT; Datasets CC BY4.0"
+    }
+  ],
+  "manual_review": {
+    "coverage": "已核验关键主张并记录精确API/章节/页码及原文片段；正文列出未取得交付物和分析边界。",
+    "versions_and_measurements": "核对原文版本、对象、参数和测量边界；源码仅静态阅读，未安装或实测。移动分支commit未取得时明确限制。",
+    "maturity_and_licenses": "代码/权重/数据/二进制/固件/本体资产分别核对；不以公开仓库推导全部开源或商业授权。",
+    "figures_opened": "图像逐张实际打开并核对说明；无图专题在正文解释来源检索及取得缺口。"
+  }
+}

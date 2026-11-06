@@ -1,0 +1,30 @@
+{
+  "time_utc": "2026-11-04T17:23:20.778583+00:00",
+  "summary": {
+    "complete_static": 8,
+    "partial_static": 8,
+    "failed": 0
+  },
+  "names": [
+    "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+    "Rockchip_RK182X",
+    "RK03_Camera",
+    "RK02_AMP_Prereq",
+    "RK03_V4L2_Buffer",
+    "Rockchip_Multicard_2026",
+    "RK08_TRT_Explicit",
+    "RK08_TRT_WeightStream",
+    "RK02_llamacpp_Compare",
+    "RK02_RKNN2_Readme",
+    "Rockchip_RV1126B",
+    "RK02_SecureBoot",
+    "RK02_EtherCAT_Preparation",
+    "RK02_RKNN3_License",
+    "RK02_RK182X_Started"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

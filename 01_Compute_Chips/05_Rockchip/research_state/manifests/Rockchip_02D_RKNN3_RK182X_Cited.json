@@ -1,0 +1,42 @@
+[
+  {
+    "name": "RK02_RKNN3_Readme",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/02_RKNN3_SDK_Development_Guide_V1.2.0.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RK182X_Started",
+    "url": "https://community.t-firefly.com/en/docs/products/accessories/RK182x/started",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_05_RKNN3_Runtime_C_API_Reference_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/05_RKNN3_Runtime_C_API_Reference_V1.2.0.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/00_RKNN3_SDK_Release_Notes_V1.2.0.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_06_RKLLM3_Server_User_Guide_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/06_RKLLM3_Server_User_Guide_V1.2.0.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKNN3_License",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/LICENSE",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKNN3_ZooLicense",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-model-zoo/main/LICENSE",
+    "expected": "any"
+  }
+]

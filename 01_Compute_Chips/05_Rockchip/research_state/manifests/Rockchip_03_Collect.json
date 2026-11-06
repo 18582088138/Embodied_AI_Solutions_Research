@@ -1,0 +1,37 @@
+[
+  {
+    "name": "RK03_ITX",
+    "url": "https://community.t-firefly.com/en/docs/products/motherboard/ITX-3588J/started",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_IMX415",
+    "url": "https://community.t-firefly.com/en/docs/products/accessories/IMX415/started",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_RPLIDAR",
+    "url": "https://community.t-firefly.com/en/docs/products/accessories/RPLIDAR-C1/started",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_Orbbec",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_OrbbecLicense",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/LICENSE",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_V4L2_Buffer",
+    "url": "https://docs.kernel.org/userspace-api/media/v4l/buffer.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_ROS_QoS",
+    "url": "https://docs.ros.org/en/humble/Concepts/Intermediate/About-Quality-of-Service-Settings.html",
+    "expected": "any"
+  }
+]

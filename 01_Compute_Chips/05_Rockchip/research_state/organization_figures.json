@@ -1,0 +1,152 @@
+[
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/RK3588S_Chip_Block_Radxa--d82f9f6d1189.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/RK3588S_Chip_Block_Radxa.png",
+    "sha256": "d82f9f6d1189b75297fa610345286e02a72b142c199d14d21e638323b6a14362"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/CM5_System_Block_Radxa--11c8aced42d6.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/CM5_System_Block_Radxa.png",
+    "sha256": "11c8aced42d601b727a2a25e3dfae81b1678234188525059d9cbd72267308471"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/ROCK4D_v112_Interface_Radxa--d869a4f68213.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/ROCK4D_v112_Interface_Radxa.png",
+    "sha256": "d869a4f6821320fd140b10ef3d07eee49d1d96849c47f6fbbfb1d36f982668f2"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/Firefly_RK182X_DualM2_Overview--ced7f3aaf4a1.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/Firefly_RK182X_DualM2_Overview.png",
+    "sha256": "ced7f3aaf4a1f1aba017b55c890a1e481242096932c083f20fbd092b1c419c88"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/Firefly_RK182X_DualM2_Spec--3de6cc116f61.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/Firefly_RK182X_DualM2_Spec.png",
+    "sha256": "3de6cc116f611230c65ee5b5abb0243777269a21ffcf43a9867e9b3a5cfe4077"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/Firefly_RK182X_Model_Benchmark--40c48914925a.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/Firefly_RK182X_Model_Benchmark.png",
+    "sha256": "40c48914925a4f3be1f4387fd158981510bfec9125656904529baed1e8e4bff9"
+  },
+  {
+    "report": "01_Hardware_Platform.md",
+    "figure": "assets/figures/ROCK5BPlus_v121_Block--868bb21a585e.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/ROCK5BPlus_v121_Block.png",
+    "sha256": "868bb21a585efa5cc54e72ad21502ece04c47bbd0bd38720ef6da5c54c60d951"
+  },
+  {
+    "report": "02A_BSP_Multimedia.md",
+    "figure": "assets/figures/content--0e5042cc723d.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/data/RK02_FFMedia_Figure--59ab2fb2a9df0d76/content.png",
+    "sha256": "0e5042cc723d6f367e28b1f5222562ac60877bdc566fa36a230840e0aa094dde"
+  },
+  {
+    "report": "02B_RKNN2_Compiler_Runtime.md",
+    "figure": "assets/figures/content--19c077c7e843.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/data/RK02_RKNN2_Figure--ac384aec3a2b0f53/content.png",
+    "sha256": "19c077c7e8431a4860f5308e3cfdf17b6427aa0a7b4f89613e8f9b91d510b78b"
+  },
+  {
+    "report": "02B_RKNN2_Compiler_Runtime.md",
+    "figure": "assets/figures/content--840b6ef537be.jpg",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/data/RK02_YOLO8_OutputFigure--614e73755b2d5f63/content.jpg",
+    "sha256": "840b6ef537be1b9a9d554e657a875331e1fd2c1f5f6951e636eae261a88b5002"
+  },
+  {
+    "report": "02B_RKNN2_Compiler_Runtime.md",
+    "figure": "assets/figures/content--635030a71aaf.jpg",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/data/RK02_YOLO8_GraphFigure--4f61831c8e580def/content.jpg",
+    "sha256": "635030a71aaf620610ea723bc038f40b036718e544da73f61530cdb4d136561b"
+  },
+  {
+    "report": "02C_RKLLM.md",
+    "figure": "assets/figures/content--06ce64c88a7e.jpg",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/data/RK02_RKLLM_Figure--26dc58025b150e1f/content.jpg",
+    "sha256": "06ce64c88a7edf77758422103d40551214de430485fbd8cecb9775eefddf208e"
+  },
+  {
+    "report": "02D_RKNN3_RK182X.md",
+    "figure": "assets/figures/RKNN3_architecture--8451c24ecadc.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/RKNN3_architecture.png",
+    "sha256": "8451c24ecadc7e529caf664bc7a5daab48dd18ce0ccc65459ce0efa77e15a0fc"
+  },
+  {
+    "report": "02_Software_Stack.md",
+    "figure": "assets/figures/RKNN3_architecture--8451c24ecadc.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/RKNN3_architecture.png",
+    "sha256": "8451c24ecadc7e529caf664bc7a5daab48dd18ce0ccc65459ce0efa77e15a0fc"
+  },
+  {
+    "report": "03_Sensor_Integration.md",
+    "figure": "assets/figures/abf6ea390432cd20ccea3c2f--568c7e565c33.jpg",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/webpages/RK03_IMX415--28260a573e3fe2e8/assets/images/abf6ea390432cd20ccea3c2f.jpg",
+    "sha256": "568c7e565c339c7dcad7909d961429b0d6dbe86f559a559fab7d4189b177eee3"
+  },
+  {
+    "report": "04_AI_Capabilities.md",
+    "figure": "assets/figures/RKNN3_accuracy--345eddbd1d5a.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/RKNN3_accuracy.png",
+    "sha256": "345eddbd1d5a648fd68a5826e36035d893ba4d0d93ca85c95bdd6683b52d6b37"
+  },
+  {
+    "report": "05_Simulation_Environment.md",
+    "figure": "assets/figures/99819c066db4861611a77f2a--15340e3d168c.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/webpages/RK05_MujocoCompute--50bc861c2b70fd1e/assets/images/99819c066db4861611a77f2a.png",
+    "sha256": "15340e3d168c2d218311db34556402ae99f89367668a5091a282c1314b2b4f68"
+  },
+  {
+    "report": "06_Robot_Integration.md",
+    "figure": "assets/figures/bf185dcceff2b1217ee02786--b4cdaf4c9101.jpg",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/webpages/Rockchip_Robotics_2026--7e32246384c451c6/assets/images/bf185dcceff2b1217ee02786.jpg",
+    "sha256": "b4cdaf4c91012f2f05c395825db1f252aabe44d839d237567c7404decac151b9"
+  },
+  {
+    "report": "06_Robot_Integration.md",
+    "figure": "assets/figures/AlphaMini2_placard--7de350367988.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/AlphaMini2_placard.png",
+    "sha256": "7de350367988644f48fd049b010cedea7afaae9cb1854a6e327f0bdccb2ef3f6"
+  },
+  {
+    "report": "07_Ecosystem.md",
+    "figure": "assets/figures/CM5_System_Block_Radxa--11c8aced42d6.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/CM5_System_Block_Radxa.png",
+    "sha256": "11c8aced42d601b727a2a25e3dfae81b1678234188525059d9cbd72267308471"
+  },
+  {
+    "report": "08A_Quantization_Compiler.md",
+    "figure": "assets/figures/RKNN3_Accuracy_Flow_p152--c603a49e559a.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/RKNN3_Accuracy_Flow_p152.png",
+    "sha256": "c603a49e559a7cc6874375a070c373629c262c6b393e8f4bf050bcc169a424ef"
+  },
+  {
+    "report": "08B_Memory_Coprocessor_Multicard.md",
+    "figure": "assets/figures/RKNN3_Multicard_p101--a754f177015c.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/RKNN3_Multicard_p101.png",
+    "sha256": "a754f177015cd8ea2ff33e83f4fb7aeba28cc57d678146d83944fbb9febaea63"
+  },
+  {
+    "report": "08C_Perception_RealTime_Trust.md",
+    "figure": "assets/figures/RKNN3_Encryption_p150--38fa157d6609.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/RKNN3_Encryption_p150.png",
+    "sha256": "38fa157d6609106c95332a76cef310b4cfc2b127d95c158a4dfdb591796df97c"
+  },
+  {
+    "report": "08_Core_Technology_Moat.md",
+    "figure": "assets/figures/RKNN3_Multicard_p101--a754f177015c.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/RKNN3_Multicard_p101.png",
+    "sha256": "a754f177015cd8ea2ff33e83f4fb7aeba28cc57d678146d83944fbb9febaea63"
+  },
+  {
+    "report": "09_SWOT_Analysis.md",
+    "figure": "assets/figures/Firefly_RK182X_DualM2_Spec--3de6cc116f61.png",
+    "local_original": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/Firefly_RK182X_DualM2_Spec.png",
+    "sha256": "3de6cc116f611230c65ee5b5abb0243777269a21ffcf43a9867e9b3a5cfe4077"
+  }
+]

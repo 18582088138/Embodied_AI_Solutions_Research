@@ -1,0 +1,6 @@
+[
+ {"name":"RK02_RK182X_Preface","url":"https://community.t-firefly.com/en/docs/products/development-kits/RK182X-Development-Kit/preface","expected":"html"},
+ {"name":"RK02_RK182X_Started","url":"https://community.t-firefly.com/en/docs/products/accessories/RK182x/started","expected":"html"},
+ {"name":"RK02_RK182X_SoC","url":"https://community.t-firefly.com/en/docs/soc/rockchip/RK182X/rk182x","expected":"html"},
+ {"name":"RK02_Firefly_RKNN","url":"https://community.t-firefly.com/en/docs/ai/dev-toolchain/RKNN/index","expected":"html"}
+]

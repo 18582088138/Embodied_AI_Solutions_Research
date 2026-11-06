@@ -1,0 +1,32 @@
+[
+  {
+    "name": "RK02_RT_Preempt",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/RT-Linux/rtlinux-preempt-rt",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_AMP_Structure",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/AMP/amp-sdk-structure",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_EtherCAT_Preparation",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/EtherCAT/ethercat-preparation",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_ROS_Verify",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/ROS2/ros2-verify-installation",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_OTA_Android",
+    "url": "https://community.t-firefly.com/en/docs/software/other/OTA/ota-android",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_Secure_Config",
+    "url": "https://community.t-firefly.com/en/docs/software/other/SecureBoot/secureboot-config",
+    "expected": "any"
+  }
+]

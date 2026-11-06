@@ -1,0 +1,24 @@
+{
+  "time_utc": "2026-11-04T17:17:07.950022+00:00",
+  "summary": {
+    "complete_static": 10,
+    "partial_static": 0,
+    "failed": 0
+  },
+  "names": [
+    "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+    "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "RK02_RKNN2_Readme",
+    "RK02_RKLLM_Readme",
+    "RK02_RKNN3_Readme",
+    "RK02_07_RKNN3_Supported_Operators_and_Constraints_Reference_V1.2.0",
+    "RK08_TRT_Explicit",
+    "RK08_TRT_Quant",
+    "RK02_llamacpp_Compare",
+    "RK02_RKNN3_License"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

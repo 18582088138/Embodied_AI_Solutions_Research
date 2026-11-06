@@ -1,0 +1,92 @@
+{
+  "source_ids": [
+    "Radxa_CM5",
+    "Radxa_ROCK5T_Product",
+    "Firefly_RK182X_Kit_PDF",
+    "RK03_Orbbec",
+    "RK03_RPLIDAR",
+    "Rockchip_Robotics_2026",
+    "Radxa_CM5_Schematic_v221",
+    "Radxa_ROCK5T_Industrial_Schematic_v201",
+    "RK02_Radxa_OS",
+    "RK02_RK182X_Started",
+    "Rockchip_Multicard_2026",
+    "RK07_Production",
+    "RK02_OTA_Linux",
+    "RK02_OTA_Android",
+    "RK02_Secure_Config",
+    "Firefly_Home",
+    "RK07_Return",
+    "RK07_Shipping",
+    "Rockchip_RK3588",
+    "RK02_RKNN3_License",
+    "RK02_Zoo_License",
+    "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "RK03_OrbbecLicenseText",
+    "RK04_OpenpiLicense"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/CM5_System_Block_Radxa.png",
+      "sha256": "11c8aced42d601b727a2a25e3dfae81b1678234188525059d9cbd72267308471",
+      "source_id": "Radxa_CM5",
+      "source_url": "https://docs.radxa.com/en/assets/images/cm5-block-diagram-642d9e88e9ad281619aa848c507ce48f.webp",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/webpages/Radxa_CM5--403039acbce6cd64/assets/images/9c386045db2bf571e7afbb2e.webp",
+      "original_sha256": "b9b21a8e84edd0d980868c40c501f3728028df18c16a815583f875cda5818411",
+      "operation": "原始WebP完整转为PNG，透明区域合成白底，未裁剪"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "RK07_Production",
+      "location": "Preparation / Writing Configuration / Notes",
+      "claim": "writes SN, WIFI MAC, LAN MAC, BT MAC",
+      "conditions": "VendorStorage；2026-07-08；Windows一次一设备",
+      "finding": "身份写入不等于密钥、标定、集中追溯",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "writes SN, WIFI MAC, LAN MAC, BT MAC"
+    },
+    {
+      "source_id": "RK07_Return",
+      "location": "HOW TO INITIATE / WARRANTY",
+      "claim": "12-month warranty",
+      "conditions": "不含accessories；30 natural days退换；特定商店条款",
+      "finding": "非ODM/工业现场SLA",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "12-month warranty"
+    },
+    {
+      "source_id": "Firefly_Home",
+      "location": "Customization",
+      "claim": "Long-term supply, 10-year life cycle and certification support",
+      "conditions": "通用服务；没有逐料号PCN/EOL",
+      "finding": "不写所有芯片十年供货",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "Long-term supply, 10-year life cycle and certification support"
+    },
+    {
+      "source_id": "RK02_RK182X_Started",
+      "location": "Download the SDK Package",
+      "claim": "Please contact sales@t-firefly.com",
+      "conditions": "x86_64 Ubuntu20.04/22.04 cross-compilation",
+      "finding": "公开入口非已取得完整BSP",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "Please contact sales@t-firefly.com"
+    },
+    {
+      "source_id": "Rockchip_Multicard_2026",
+      "location": "03多卡",
+      "claim": "Firefly AIBOX Pro采用RK3588+RK1828*2",
+      "conditions": "2026-09-22芯片厂商报道",
+      "finding": "产品组合不是4倍机器人性能",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "Firefly AIBOX Pro采用RK3588+RK1828*2"
+    }
+  ],
+  "manual_review": {
+    "coverage": "逐关键主张核对API/手册页码/条款/原文片段；性能与商业宣称、分析、未取得内容明确分开。",
+    "versions_and_measurements": "核对原文版本、对象、参数和测量边界；源码仅静态阅读，未安装或实测。移动分支commit未取得时明确限制。",
+    "maturity_and_licenses": "代码/权重/数据/二进制/固件/本体资产分别核对；不以公开仓库推导全部开源或商业授权。",
+    "figures_opened": "图像逐张实际打开并核对说明；无图专题在正文解释来源检索及取得缺口。"
+  }
+}

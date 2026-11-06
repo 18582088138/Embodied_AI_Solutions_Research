@@ -1,0 +1,51 @@
+{
+  "report": "01_Compute_Chips/05_Rockchip/01_Hardware_Platform.md",
+  "body_han_chars": 7727,
+  "tables": 11,
+  "sources": 29,
+  "archive_status": {
+    "complete_static": 8,
+    "partial_static": 21
+  },
+  "figures": 7,
+  "file_hash_checks": 2247,
+  "html_visible_text_equal": 22,
+  "page_local_dependencies_checked": 3153,
+  "report_local_links": 141,
+  "other_reports_unchanged": {
+    "02_Software_Stack.md": true,
+    "03_Sensor_Integration.md": true,
+    "04_AI_Capabilities.md": true,
+    "05_Simulation_Environment.md": true,
+    "06_Robot_Integration.md": true,
+    "07_Ecosystem.md": true,
+    "08_Proprietary_Technologies.md": true,
+    "09_SWOT_Analysis.md": true
+  },
+  "errors": [],
+  "warnings": [
+    "静态依赖部分缺失: Rockchip_RK3506（报告应披露）",
+    "静态依赖部分缺失: Rockchip_Products（报告应披露）",
+    "静态依赖部分缺失: Rockchip_Multicard_2026（报告应披露）",
+    "静态依赖部分缺失: Rockchip_RK3588（报告应披露）",
+    "静态依赖部分缺失: Radxa_CM5（报告应披露）",
+    "静态依赖部分缺失: Radxa_ROCK5T_Product（报告应披露）",
+    "静态依赖部分缺失: Rockchip_RK3576（报告应披露）",
+    "静态依赖部分缺失: Radxa_ROCK4D（报告应披露）",
+    "静态依赖部分缺失: Rockchip_RV1126B（报告应披露）",
+    "静态依赖部分缺失: Rockchip_RK3568（报告应披露）",
+    "静态依赖部分缺失: Rockchip_RK3568J（报告应披露）",
+    "静态依赖部分缺失: Rockchip_RK182X（报告应披露）",
+    "静态依赖部分缺失: Radxa_ROCK5B_Intro（报告应披露）",
+    "静态依赖部分缺失: Radxa_ROCK5T_Download（报告应披露）",
+    "静态依赖部分缺失: Radxa_ROCK5B_Power（报告应披露）",
+    "静态依赖部分缺失: Radxa_ROCK5B_Interface（报告应披露）",
+    "静态依赖部分缺失: Radxa_ROCK5T_Power（报告应披露）",
+    "静态依赖部分缺失: Firefly_RK182X_Kit（报告应披露）",
+    "静态依赖部分缺失: Radxa_ROCK5B_Download（报告应披露）",
+    "静态依赖部分缺失: Firefly_ROC_RK3588S（报告应披露）",
+    "静态依赖部分缺失: Firefly_Home（报告应披露）"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

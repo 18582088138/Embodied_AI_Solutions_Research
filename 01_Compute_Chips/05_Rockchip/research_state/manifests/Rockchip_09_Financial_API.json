@@ -1,0 +1,12 @@
+[
+  {
+    "name": "RK09_FinancialAPI",
+    "url": "https://www.rock-chips.com/plus/tzzgxApi.php?type=1&page=1",
+    "expected": "any"
+  },
+  {
+    "name": "RK09_AnnounceAPI",
+    "url": "https://www.rock-chips.com/plus/tzzgxApi.php?type=2&page=1",
+    "expected": "any"
+  }
+]

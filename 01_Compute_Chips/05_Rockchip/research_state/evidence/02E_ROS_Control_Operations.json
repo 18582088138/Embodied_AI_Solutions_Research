@@ -1,0 +1,148 @@
+{
+  "source_ids": [
+    "RK02_ROS",
+    "RK02_ROS_Verify",
+    "RK02_ROS_Comm",
+    "RK02_RT_Preempt",
+    "RK02_AMP",
+    "RK02_AMP_Structure",
+    "RK02_AMP_Prereq",
+    "RK02_EtherCAT",
+    "RK02_EtherCAT_Build",
+    "RK02_EtherCAT_Preparation",
+    "RK02_OTA_Linux",
+    "RK02_OTA",
+    "RK02_OTA_Android",
+    "RK02_SecureBoot",
+    "RK02_Secure_Config"
+  ],
+  "figures": [],
+  "claim_review": [
+    {
+      "source_id": "RK02_ROS",
+      "location": "正文对应小节；原文与本地快照",
+      "claim": "正文引用内容与机制边界",
+      "conditions": "截至2026-11-05；具体SKU/版本/条件见正文",
+      "finding": "人工静态阅读核对；未运行硬件；缺口和分析明确标注",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_ROS_Verify",
+      "location": "正文对应小节；原文与本地快照",
+      "claim": "正文引用内容与机制边界",
+      "conditions": "截至2026-11-05；具体SKU/版本/条件见正文",
+      "finding": "人工静态阅读核对；未运行硬件；缺口和分析明确标注",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_ROS_Comm",
+      "location": "正文对应小节；原文与本地快照",
+      "claim": "正文引用内容与机制边界",
+      "conditions": "截至2026-11-05；具体SKU/版本/条件见正文",
+      "finding": "人工静态阅读核对；未运行硬件；缺口和分析明确标注",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_RT_Preempt",
+      "location": "正文对应小节；原文与本地快照",
+      "claim": "正文引用内容与机制边界",
+      "conditions": "截至2026-11-05；具体SKU/版本/条件见正文",
+      "finding": "人工静态阅读核对；未运行硬件；缺口和分析明确标注",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_AMP",
+      "location": "正文对应小节；原文与本地快照",
+      "claim": "正文引用内容与机制边界",
+      "conditions": "截至2026-11-05；具体SKU/版本/条件见正文",
+      "finding": "人工静态阅读核对；未运行硬件；缺口和分析明确标注",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_AMP_Structure",
+      "location": "正文对应小节；原文与本地快照",
+      "claim": "正文引用内容与机制边界",
+      "conditions": "截至2026-11-05；具体SKU/版本/条件见正文",
+      "finding": "人工静态阅读核对；未运行硬件；缺口和分析明确标注",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_AMP_Prereq",
+      "location": "正文对应小节；原文与本地快照",
+      "claim": "正文引用内容与机制边界",
+      "conditions": "截至2026-11-05；具体SKU/版本/条件见正文",
+      "finding": "人工静态阅读核对；未运行硬件；缺口和分析明确标注",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_EtherCAT",
+      "location": "正文对应小节；原文与本地快照",
+      "claim": "正文引用内容与机制边界",
+      "conditions": "截至2026-11-05；具体SKU/版本/条件见正文",
+      "finding": "人工静态阅读核对；未运行硬件；缺口和分析明确标注",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_EtherCAT_Build",
+      "location": "正文对应小节；原文与本地快照",
+      "claim": "正文引用内容与机制边界",
+      "conditions": "截至2026-11-05；具体SKU/版本/条件见正文",
+      "finding": "人工静态阅读核对；未运行硬件；缺口和分析明确标注",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_EtherCAT_Preparation",
+      "location": "正文对应小节；原文与本地快照",
+      "claim": "正文引用内容与机制边界",
+      "conditions": "截至2026-11-05；具体SKU/版本/条件见正文",
+      "finding": "人工静态阅读核对；未运行硬件；缺口和分析明确标注",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_OTA_Linux",
+      "location": "正文对应小节；原文与本地快照",
+      "claim": "正文引用内容与机制边界",
+      "conditions": "截至2026-11-05；具体SKU/版本/条件见正文",
+      "finding": "人工静态阅读核对；未运行硬件；缺口和分析明确标注",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_OTA",
+      "location": "正文对应小节；原文与本地快照",
+      "claim": "正文引用内容与机制边界",
+      "conditions": "截至2026-11-05；具体SKU/版本/条件见正文",
+      "finding": "人工静态阅读核对；未运行硬件；缺口和分析明确标注",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_OTA_Android",
+      "location": "正文对应小节；原文与本地快照",
+      "claim": "正文引用内容与机制边界",
+      "conditions": "截至2026-11-05；具体SKU/版本/条件见正文",
+      "finding": "人工静态阅读核对；未运行硬件；缺口和分析明确标注",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_SecureBoot",
+      "location": "正文对应小节；原文与本地快照",
+      "claim": "正文引用内容与机制边界",
+      "conditions": "截至2026-11-05；具体SKU/版本/条件见正文",
+      "finding": "人工静态阅读核对；未运行硬件；缺口和分析明确标注",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_Secure_Config",
+      "location": "正文对应小节；原文与本地快照",
+      "claim": "正文引用内容与机制边界",
+      "conditions": "截至2026-11-05；具体SKU/版本/条件见正文",
+      "finding": "人工静态阅读核对；未运行硬件；缺口和分析明确标注",
+      "evidence_type": "事实/分析"
+    }
+  ],
+  "manual_review": {
+    "coverage": "本维度按正文逐项覆盖机制、目标/版本、测量边界和可复建验证；未取得资料明确记录。",
+    "versions_and_measurements": "核对原文版本、对象、参数和测量边界；源码仅静态阅读，未安装或实测。移动分支commit未取得时明确限制。",
+    "maturity_and_licenses": "代码/权重/数据/二进制/固件/本体资产分别核对；不以公开仓库推导全部开源或商业授权。",
+    "figures_opened": "图像逐张实际打开并核对说明；无图专题在正文解释来源检索及取得缺口。"
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "RK02_RKNN2_Readme",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-toolkit2/master/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKLLM_Readme",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKNN3_Readme",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RK182X_Started",
+    "url": "https://community.t-firefly.com/en/docs/products/accessories/RK182x/started",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_YOLO8_Guide",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn_model_zoo/main/examples/yolov8/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKLLM_MMRuntime",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/multimodal_model_demo/deploy/src/main.cpp",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/02_RKNN3_SDK_Development_Guide_V1.2.0.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_06_RKLLM3_Server_User_Guide_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/06_RKLLM3_Server_User_Guide_V1.2.0.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RT_Preempt",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/RT-Linux/rtlinux-preempt-rt",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_AMP_Prereq",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/AMP/amp-prerequisites",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_EtherCAT",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/EtherCAT/ethercat-overview-2",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKNN3_License",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/LICENSE",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_SecureBoot",
+    "url": "https://community.t-firefly.com/en/docs/software/other/SecureBoot/secureboot-overview",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_OTA_Linux",
+    "url": "https://community.t-firefly.com/en/docs/software/other/OTA/ota-linux",
+    "expected": "any"
+  }
+]

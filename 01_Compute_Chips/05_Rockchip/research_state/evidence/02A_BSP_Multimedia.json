@@ -1,0 +1,106 @@
+{
+  "source_ids": [
+    "RK02_Radxa_OS",
+    "RK02_Firefly_Buildroot",
+    "RK02_Firefly_GPU",
+    "RK02_Radxa_GPU",
+    "RK02_JetPack_Compare",
+    "RK02_MPP_Readme",
+    "RK02_MPP_API",
+    "RK02_MPP_Decode",
+    "RK02_MPP_Buffer",
+    "RK02_RGA_Readme",
+    "RK02_RGA_Guide",
+    "RK02_RGA_FAQ",
+    "RK02_FFMedia_Architecture",
+    "RK02_FFMedia_API",
+    "RK02_Firefly_FFMedia",
+    "RK02_FFMedia_ABI",
+    "RK02_RGA_Copying",
+    "RK02_FFMedia_Repo",
+    "RK02_FFMedia_Figure"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/data/RK02_FFMedia_Figure--59ab2fb2a9df0d76/content.png",
+      "sha256": "0e5042cc723d6f367e28b1f5222562ac60877bdc566fa36a230840e0aa094dde",
+      "source_id": "RK02_FFMedia_Figure",
+      "source_url": "https://raw.githubusercontent.com/Firefly-rk-linux-utils/ffmedia_release/master/docs/img/p1.png",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/data/RK02_FFMedia_Figure--59ab2fb2a9df0d76/content.png",
+      "original_sha256": "0e5042cc723d6f367e28b1f5222562ac60877bdc566fa36a230840e0aa094dde",
+      "operation": "官方PNG原件，无裁剪；实际打开核验"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "RK02_Radxa_GPU",
+      "location": "driver table / packages",
+      "claim": "GPU能力绑定具体发行组合",
+      "conditions": "Bookworm、GPU overlay、libmali及xserver包",
+      "finding": "与Firefly Kernel6.1/Mesa25.0.7不能泛化互套",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_MPP_Decode",
+      "location": "decode_simple/info_change",
+      "claim": "解码器分辨率变化要重配置buffer",
+      "conditions": "develop snapshot；未取得commit",
+      "finding": "读取实际stride/buf_size并响应READY；源码注释时延不算基准",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_RGA_Readme",
+      "location": "版本说明",
+      "claim": "API1.10.6及驱动适配",
+      "conditions": "multicore最低1.2.4推荐1.3.13+",
+      "finding": "文档V2.2.10与库版本独立",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_RGA_FAQ",
+      "location": "Q1.9/Q4.5",
+      "claim": "部分RGA2低4GB物理地址约束",
+      "conditions": "引擎/IOMMU/driver组合",
+      "finding": "不等于系统总内存上限",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_RGA_FAQ",
+      "location": "Q1.1",
+      "claim": "RK3566空载拷贝4420us",
+      "conditions": "Android11/300MHz/Drm cache/1920x1080",
+      "finding": "不得套RK3588并发",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_FFMedia_Repo",
+      "location": "低延迟显示测试",
+      "claim": "19ms与29ms",
+      "conditions": "双RK3588；屏幕10ms估算；缺shape/采样/SDK",
+      "finding": "伙伴宣称平均值，不是P99控制时延",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_FFMedia_API",
+      "location": "Buffer生命周期",
+      "claim": "shared_ptr保护池对象",
+      "conditions": "最终引用释放回收",
+      "finding": "裸地址或fd不延长寿命",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_FFMedia_ABI",
+      "location": "版本轴/C++工具链约束",
+      "claim": "SDK版本与ModuleABI独立",
+      "conditions": "C++17/AArch64/libstdc++",
+      "finding": "公开接口范围明确，核心水平许可证未取得",
+      "evidence_type": "事实/分析"
+    }
+  ],
+  "manual_review": {
+    "coverage": "BSP版本组合、GPU双路线、MPP异步及buffer、RGA地址/布局/fence/cache、FFMedia ABI与生命周期、测试口径和交接。缺完整目标板源码manifest/固件许可。",
+    "versions_and_measurements": "核对原文版本、对象、参数和测量边界；源码仅静态阅读，未安装或实测。移动分支commit未取得时明确限制。",
+    "maturity_and_licenses": "已读MPP Apache头与librga COPYING Apache2；RGA文档版权单独列出；Mali/固件/FFMedia核心二进制授权未取得。",
+    "figures_opened": "图像逐张实际打开并核对说明；无图专题在正文解释来源检索及取得缺口。"
+  }
+}

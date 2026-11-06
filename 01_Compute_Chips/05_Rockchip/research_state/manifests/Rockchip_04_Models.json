@@ -1,0 +1,47 @@
+[
+  {
+    "name": "RK04_Openpi",
+    "url": "https://github.com/Physical-Intelligence/openpi",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_OpenpiReadme",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_OpenpiLicense",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/LICENSE",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_Diffusion",
+    "url": "https://diffusion-policy.cs.columbia.edu/",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_GR00TCard",
+    "url": "https://huggingface.co/nvidia/GR00T-N1.6-3B",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_QwenCard",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_RobotManipCard",
+    "url": "https://huggingface.co/openbmb/MiniCPM-RobotManip",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_RAFT",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-model-zoo/main/examples/RAFT-Stereo/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_Qwen3VL",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-model-zoo/main/examples/Qwen3_VL/README.md",
+    "expected": "any"
+  }
+]

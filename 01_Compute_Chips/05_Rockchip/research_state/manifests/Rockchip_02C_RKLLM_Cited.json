@@ -1,0 +1,62 @@
+[
+  {
+    "name": "RK02_RKLLM_Readme",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKLLM_Changes",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/CHANGELOG.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKLLM_DemoGuide",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/rkllm_api_demo/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKLLM_MMGuide",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/multimodal_model_demo/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKLLM_Convert",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/rkllm_api_demo/export/export_rkllm.py",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKLLM_MMConvert",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/multimodal_model_demo/export/export_rkllm.py",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKLLM_Bench",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/benchmark.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKLLM_API",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/rkllm-runtime/Linux/librkllm_api/include/rkllm.h",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKLLM_MMRuntime",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/multimodal_model_demo/deploy/src/main.cpp",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_llamacpp_Compare",
+    "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKLLM_License",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/LICENSE",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKLLM_Figure",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/res/framework.jpg",
+    "expected": "any"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "time_utc": "2026-11-04T16:44:10.678885+00:00",
+  "summary": {
+    "complete_static": 0,
+    "partial_static": 15,
+    "failed": 0
+  },
+  "names": [
+    "RK02_ROS",
+    "RK02_ROS_Verify",
+    "RK02_ROS_Comm",
+    "RK02_RT_Preempt",
+    "RK02_AMP",
+    "RK02_AMP_Structure",
+    "RK02_AMP_Prereq",
+    "RK02_EtherCAT",
+    "RK02_EtherCAT_Build",
+    "RK02_EtherCAT_Preparation",
+    "RK02_OTA_Linux",
+    "RK02_OTA",
+    "RK02_OTA_Android",
+    "RK02_SecureBoot",
+    "RK02_Secure_Config"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

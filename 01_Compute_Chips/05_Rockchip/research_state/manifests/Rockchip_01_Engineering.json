@@ -1,0 +1,13 @@
+[
+ {"name":"Rockchip_RK3568","url":"https://www.rock-chips.com/a/en/products/RK35_Series/2021/0113/1276.html","expected":"html"},
+ {"name":"Rockchip_RK3568J","url":"https://www.rock-chips.com/a/en/products/RK35_Series/2022/0209/1502.html","expected":"html"},
+ {"name":"Rockchip_RK3506","url":"https://www.rock-chips.com/a/en/products/RK35_Series/2025/1208/2126.html","expected":"html"},
+ {"name":"Radxa_ROCK5T_Intro","url":"https://docs.radxa.com/en/rock5/rock5t/getting-started","expected":"html"},
+ {"name":"Radxa_ROCK5T_Download","url":"https://docs.radxa.com/en/rock5/rock5t/download","expected":"html"},
+ {"name":"Radxa_CM5_Download","url":"https://docs.radxa.com/en/som/cm/cm5/download","expected":"html"},
+ {"name":"Radxa_ROCK5B_Interface","url":"https://docs.radxa.com/en/rock5/rock5b/hardware-design/hardware-interface","expected":"html"},
+ {"name":"Radxa_ROCK5B_Schematic_v220","url":"https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_schematic_v2.20.pdf","expected":"pdf"},
+ {"name":"Radxa_ROCK5BPlus_Schematic_v121","url":"https://dl.radxa.com/rock5/5b%2B/docs/hw/radxa_rock_5b%2B_schematic_v1.21.pdf","expected":"pdf"},
+ {"name":"Radxa_ROCK5B_Intro","url":"https://docs.radxa.com/en/rock5/rock5b/getting-started/introduction","expected":"html"},
+ {"name":"Radxa_ROCK5B_Power","url":"https://docs.radxa.com/en/rock5/rock5b/getting-started/power-supply","expected":"html"}
+]

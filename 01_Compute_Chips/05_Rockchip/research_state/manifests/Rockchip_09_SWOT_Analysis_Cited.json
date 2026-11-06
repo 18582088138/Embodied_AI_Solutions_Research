@@ -1,0 +1,127 @@
+[
+  {
+    "name": "RK09_FinancialAPI",
+    "url": "https://www.rock-chips.com/plus/tzzgxApi.php?type=1&page=1",
+    "expected": "any"
+  },
+  {
+    "name": "RK09_FinancialAPI2",
+    "url": "https://www.rock-chips.com/plus/tzzgxApi.php?type=1&page=2",
+    "expected": "any"
+  },
+  {
+    "name": "Rockchip_Robotics_2026",
+    "url": "https://www.rock-chips.com/a/cn/news/rockchip/2026/0827/2177.html",
+    "expected": "any"
+  },
+  {
+    "name": "Rockchip_Multicard_2026",
+    "url": "https://www.rock-chips.com/a/cn/news/rockchip/2026/0922/2181.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK06_TerraMow",
+    "url": "https://www.terramow.com/",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_Camera",
+    "url": "https://community.t-firefly.com/en/docs/products/motherboard/AIO-3588JD4/usage-camera",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_MPP_Readme",
+    "url": "https://raw.githubusercontent.com/rockchip-linux/mpp/develop/readme.txt",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RGA_Guide",
+    "url": "https://raw.githubusercontent.com/airockchip/librga/main/docs/Rockchip_Developer_Guide_RGA_CN.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/02_RKNN3_SDK_Development_Guide_V1.2.0.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "Firefly_Home",
+    "url": "https://www.t-firefly.com/",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RK182X_Started",
+    "url": "https://community.t-firefly.com/en/docs/products/accessories/RK182x/started",
+    "expected": "any"
+  },
+  {
+    "name": "RK07_Production",
+    "url": "https://community.t-firefly.com/en/docs/tools/production-tool/Device-Info-Write-Tool/rkdev-info-write-tool",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKNN2_Readme",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-toolkit2/master/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKLLM_Readme",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_OpenpiReadme",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_SecureBoot",
+    "url": "https://community.t-firefly.com/en/docs/software/other/SecureBoot/secureboot-overview",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_AMP_Prereq",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/AMP/amp-prerequisites",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_EtherCAT_Preparation",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/EtherCAT/ethercat-preparation",
+    "expected": "any"
+  },
+  {
+    "name": "Rockchip_RK3588",
+    "url": "https://www.rock-chips.com/a/en/products/RK35_Series/2022/0926/1660.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKNN3_License",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/LICENSE",
+    "expected": "any"
+  },
+  {
+    "name": "Firefly_RK182X_Kit",
+    "url": "https://www.t-firefly.com/products/rk182x-3d-ram-stacking-development-kit",
+    "expected": "any"
+  },
+  {
+    "name": "RK07_Shipping",
+    "url": "https://www.t-firefly.com/policies/shipping-policy",
+    "expected": "any"
+  },
+  {
+    "name": "RK07_Return",
+    "url": "https://www.t-firefly.com/policies/refund-policy",
+    "expected": "any"
+  },
+  {
+    "name": "Firefly_RK182X_Kit_PDF",
+    "url": "https://download.t-firefly.com/Spec/Suite/RK182X-Development-Kit_Specifications_EN.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK09_GenAI",
+    "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+    "expected": "any"
+  }
+]

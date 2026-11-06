@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Rockchip_RK3588",
+    "url": "https://www.rock-chips.com/a/en/products/RK35_Series/2022/0926/1660.html",
+    "expected": "any"
+  },
+  {
+    "name": "Radxa_ROCK5B_Schematic_v220",
+    "url": "https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_schematic_v2.20.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_IMX415",
+    "url": "https://community.t-firefly.com/en/docs/products/accessories/IMX415/started",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_Camera",
+    "url": "https://community.t-firefly.com/en/docs/products/motherboard/AIO-3588JD4/usage-camera",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_V4L2_Buffer",
+    "url": "https://docs.kernel.org/userspace-api/media/v4l/buffer.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKNN2_API",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-toolkit2/master/rknpu2/runtime/Linux/librknn_api/include/rknn_api.h",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RGA_Guide",
+    "url": "https://raw.githubusercontent.com/airockchip/librga/main/docs/Rockchip_Developer_Guide_RGA_CN.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_OrbbecTime",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/docs/tutorial/timestamp.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_Orbbec",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_OrbbecLicenseText",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/LICENSE.txt",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_RPLIDAR",
+    "url": "https://community.t-firefly.com/en/docs/products/accessories/RPLIDAR-C1/started",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_RPLIDARCode",
+    "url": "https://raw.githubusercontent.com/Slamtec/rplidar_ros/ros2/src/rplidar_node.cpp",
+    "expected": "any"
+  }
+]

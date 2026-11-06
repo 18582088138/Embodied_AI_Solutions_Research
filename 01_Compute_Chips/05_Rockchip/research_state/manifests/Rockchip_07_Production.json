@@ -1,0 +1,17 @@
+[
+  {
+    "name": "RK07_Production",
+    "url": "https://community.t-firefly.com/en/docs/tools/production-tool/Device-Info-Write-Tool/rkdev-info-write-tool",
+    "expected": "any"
+  },
+  {
+    "name": "RK07_Shipping",
+    "url": "https://www.t-firefly.com/policies/shipping-policy",
+    "expected": "any"
+  },
+  {
+    "name": "RK07_Return",
+    "url": "https://www.t-firefly.com/policies/refund-policy",
+    "expected": "any"
+  }
+]

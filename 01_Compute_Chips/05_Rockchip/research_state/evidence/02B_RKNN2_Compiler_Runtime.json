@@ -1,0 +1,111 @@
+{
+  "source_ids": [
+    "RK02_RKNN2_Readme",
+    "RK02_Zoo_Readme",
+    "RK02_YOLO8_Guide",
+    "RK02_YOLO8_Convert",
+    "RK02_RKNN2_Changes",
+    "RK02_RKNN2_API",
+    "RK02_YOLO8_Runtime",
+    "RK02_TensorRT_Compare",
+    "RK02_RKNN2_License",
+    "RK02_Zoo_License",
+    "RK02_YOLO8_Source",
+    "RK02_RKNN2_Figure",
+    "RK02_YOLO8_OutputFigure",
+    "RK02_YOLO8_GraphFigure"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/data/RK02_RKNN2_Figure--ac384aec3a2b0f53/content.png",
+      "sha256": "19c077c7e8431a4860f5308e3cfdf17b6427aa0a7b4f89613e8f9b91d510b78b",
+      "source_id": "RK02_RKNN2_Figure",
+      "source_url": "https://raw.githubusercontent.com/airockchip/rknn-toolkit2/master/res/framework.png",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/data/RK02_RKNN2_Figure--ac384aec3a2b0f53/content.png",
+      "original_sha256": "19c077c7e8431a4860f5308e3cfdf17b6427aa0a7b4f89613e8f9b91d510b78b",
+      "operation": "官方图片原件，实际逐图打开，无裁剪"
+    },
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/data/RK02_YOLO8_OutputFigure--614e73755b2d5f63/content.jpg",
+      "sha256": "840b6ef537be1b9a9d554e657a875331e1fd2c1f5f6951e636eae261a88b5002",
+      "source_id": "RK02_YOLO8_OutputFigure",
+      "source_url": "https://raw.githubusercontent.com/airockchip/rknn_model_zoo/main/examples/yolov8/model_comparison/yolov8_output_comparison.jpg",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/data/RK02_YOLO8_OutputFigure--614e73755b2d5f63/content.jpg",
+      "original_sha256": "840b6ef537be1b9a9d554e657a875331e1fd2c1f5f6951e636eae261a88b5002",
+      "operation": "官方图片原件，实际逐图打开，无裁剪"
+    },
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/data/RK02_YOLO8_GraphFigure--4f61831c8e580def/content.jpg",
+      "sha256": "635030a71aaf620610ea723bc038f40b036718e544da73f61530cdb4d136561b",
+      "source_id": "RK02_YOLO8_GraphFigure",
+      "source_url": "https://raw.githubusercontent.com/airockchip/rknn_model_zoo/main/examples/yolov8/model_comparison/yolov8_graph_comparison.jpg",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/data/RK02_YOLO8_GraphFigure--4f61831c8e580def/content.jpg",
+      "original_sha256": "635030a71aaf620610ea723bc038f40b036718e544da73f61530cdb4d136561b",
+      "operation": "官方图片原件，实际逐图打开，无裁剪"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "RK02_RKNN2_Readme",
+      "location": "support/notes",
+      "claim": "Toolkit2 v2.5.0与旧Toolkit不兼容",
+      "conditions": "master快照；未取得精确commit/发布日期",
+      "finding": "RV1126/B代际区分",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_YOLO8_Guide",
+      "location": "Pretrained Model",
+      "claim": "YOLOv8优化输出契约",
+      "conditions": "三尺度box/classes/sum",
+      "finding": "原始后处理不可直接套用",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_YOLO8_Convert",
+      "location": "main",
+      "claim": "均值0/std255与COCO20校准",
+      "conditions": "i8/u8/fp条件",
+      "finding": "未执行转换；校准不是任务精度证据",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_RKNN2_API",
+      "location": "native attr/cache/async",
+      "claim": "原生内存与上一帧异步语义",
+      "conditions": "size_with_stride/pass_through/frame_id",
+      "finding": "zero-copy有格式同步条件，FPS不当闭环时延",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_RKNN2_Changes",
+      "location": "v2.5.0/v2.3.0",
+      "claim": "CPU/GPU算子与RK3576W4A16",
+      "conditions": "具体版本/平台",
+      "finding": "不推导全图NPU或所有SKU低比特",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_Zoo_Readme",
+      "location": "Model performance benchmark",
+      "claim": "76.3/97.7/83.0FPS",
+      "conditions": "yolov8nINT8/640/最大NPU频率；单核按表列",
+      "finding": "不含预后处理；缺功率与统计",
+      "evidence_type": "事实/分析"
+    },
+    {
+      "source_id": "RK02_RKNN2_License",
+      "location": "1.1/2",
+      "claim": "RKNN SDK专有条款",
+      "conditions": "设计开发测试/Rockchip产品",
+      "finding": "不称全部Apache开源或已许可量产再分发",
+      "evidence_type": "事实/分析"
+    }
+  ],
+  "manual_review": {
+    "coverage": "真实YOLO导出/量化/目标runtime源码链；buffer/布局/cache/async/shape/多核；非NPU后端及基准。完整新版手册和算子矩阵未取得。",
+    "versions_and_measurements": "核对原文版本、对象、参数和测量边界；源码仅静态阅读，未安装或实测。移动分支commit未取得时明确限制。",
+    "maturity_and_licenses": "SDK自有协议、Zoo Apache、YOLO源与权重/数据独立。未安装SDK与权重，量产再分发范围需核实。",
+    "figures_opened": "图像逐张实际打开并核对说明；无图专题在正文解释来源检索及取得缺口。"
+  }
+}

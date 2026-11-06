@@ -1,0 +1,9 @@
+[
+ {"name":"RK02_RKNN2_Repo","url":"https://github.com/airockchip/rknn-toolkit2","expected":"html"},
+ {"name":"RK02_RKNN2_Changes","url":"https://raw.githubusercontent.com/airockchip/rknn-toolkit2/master/CHANGELOG.md","expected":"any"},
+ {"name":"RK02_RKNN2_API","url":"https://raw.githubusercontent.com/airockchip/rknn-toolkit2/master/rknpu2/runtime/Linux/librknn_api/include/rknn_api.h","expected":"any"},
+ {"name":"RK02_RKNN2_Figure","url":"https://raw.githubusercontent.com/airockchip/rknn-toolkit2/master/res/framework.png","expected":"any"},
+ {"name":"RK02_Zoo_Readme","url":"https://raw.githubusercontent.com/airockchip/rknn_model_zoo/main/README.md","expected":"any"},
+ {"name":"RK02_Zoo_Repo","url":"https://github.com/airockchip/rknn_model_zoo","expected":"html"},
+ {"name":"RK02_TensorRT_Compare","url":"https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/work-with-dla.html","expected":"html"}
+]

@@ -1,0 +1,66 @@
+{
+  "source_ids": [
+    "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+    "Rockchip_RK182X",
+    "RK03_Camera",
+    "RK02_AMP_Prereq",
+    "RK03_V4L2_Buffer",
+    "Rockchip_Multicard_2026",
+    "RK08_TRT_Explicit",
+    "RK08_TRT_WeightStream",
+    "RK02_llamacpp_Compare",
+    "RK02_RKNN2_Readme",
+    "Rockchip_RV1126B",
+    "RK02_SecureBoot",
+    "RK02_EtherCAT_Preparation",
+    "RK02_RKNN3_License",
+    "RK02_RK182X_Started"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/RKNN3_Multicard_p101.png",
+      "sha256": "a754f177015cd8ea2ff33e83f4fb7aeba28cc57d678146d83944fbb9febaea63",
+      "source_id": "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+      "source_url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/02_RKNN3_SDK_Development_Guide_V1.2.0.pdf",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/documents/RK02_02_RKNN3_SDK_Dev--9d498a30029e5731/document.pdf",
+      "original_sha256": "50e56dd1e54deeec8584b0ce8a17286ba11e86898687e1826f77d7c8b6a39556",
+      "operation": "复用已打开的PDF第101页完整渲染图；见08B"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+      "location": "p101拓扑/p125KV/p150加密",
+      "claim": "host-side hidden-state forwarding",
+      "conditions": "V1.2.0具体边界已在08A/B/C展开",
+      "finding": "总览连接机制到放行，不证明已实测收益",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "host-side hidden-state forwarding"
+    },
+    {
+      "source_id": "Rockchip_Multicard_2026",
+      "location": "02/03 VLA与未来产品",
+      "claim": "计划推出RK1860",
+      "conditions": "2026-09-22计划措辞",
+      "finding": "非当前可供货SKU",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "计划推出RK1860"
+    },
+    {
+      "source_id": "RK02_SecureBoot",
+      "location": "overview",
+      "claim": "Rollback-index rollback settings are not supported",
+      "conditions": "本文08总览安全边界",
+      "finding": "不将技术组合当整机安全认证",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "Rollback-index rollback settings are not supported"
+    }
+  ],
+  "manual_review": {
+    "coverage": "逐关键主张核对API/手册页码/条款/原文片段；性能与商业宣称、分析、未取得内容明确分开。",
+    "versions_and_measurements": "核对原文版本、对象、参数和测量边界；源码仅静态阅读，未安装或实测。移动分支commit未取得时明确限制。",
+    "maturity_and_licenses": "代码/权重/数据/二进制/固件/本体资产分别核对；不以公开仓库推导全部开源或商业授权。",
+    "figures_opened": "图像逐张实际打开并核对说明；无图专题在正文解释来源检索及取得缺口。"
+  }
+}

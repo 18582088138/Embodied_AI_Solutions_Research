@@ -1,0 +1,4 @@
+[
+ {"name":"RK02_RKNN3_ToolkitRepo","url":"https://github.com/airockchip/rknn3-toolkit","expected":"html"},
+ {"name":"RK02_RKNN3_ZooRepo","url":"https://github.com/airockchip/rknn3-model-zoo","expected":"html"}
+]

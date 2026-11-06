@@ -1,0 +1,77 @@
+# 06 机器人本体适配：产品证据、闭环接口与成熟度
+
+截止2026-11-05。本章扩大到官方展会公告、展牌原图、伙伴整机/载板文档和控制API。现有资料证明多种具体产品展示与端侧方案存在，但多数缺整机厂BOM、交付台数/在岗小时、任务成功率和正式维护合同。公开展示、参考设计、试点、合同、交付和持续运营分别记录，不把品牌/照片等同全部代际采用。本次未进行机器人测试或客户访谈。
+
+## 一、案例证据与成熟度
+
+| 对象/时间 | 芯片证据 | 任务/位置 | 当前成熟度证据 | 尚缺 |
+| --- | --- | --- | --- | --- |
+| 优必选悟空AlphaMini2，2026机器人博览会 | Rockchip官方展牌写RK3566 | 儿童教育/家庭娱乐/陪伴 | 产品名＋芯片展牌；芯片厂商展示 | OEM BOM/revision、SDK、出货/运营 |
+| 卧安KATA Friends，同一展会 | 官方展牌写RK3576 | AI陪伴 | 原图展示；非全品牌采用名单 | 型号变体、模型/功耗、交付/反馈 |
+| 松延动力轻量化人形，同一公告 | 正文未给精确芯片/机器人SKU | 轻量化人形交互 | 展示对象；未补成步态/全身控制采用 | 准确代际、主控/协处理器与控制域 |
+| Lumistar TERO PRO，同一公告 | 未写具体芯片 | 小型网球发球机/运动娱乐 | 产品名与应用展示 | 控制接口、任务/安全、交付收益 |
+| RK3588＋RK1828 π0.5，2026云栖 | 正文明确双芯方案 | 工件识别/分拣、装配/上下料探索 | 厂商公开动作demo，称优化后>5FPS | 本体品牌/SKU、完整计时、成功率 |
+| RK3588＋RV1126B数据采集，2026机器人博览会 | 正文明确双芯 | 多传感器采集/编码/清洗 | 自研方案展示；简智设备呼应 | 可交付SDK、同步误差/丢帧、数据格式 |
+| Firefly EC-R3588RT/ROC-RK3588-RT | 两篇文档SKU叙述有冲突 | 网络/工业视觉控制器 | 伙伴产品与开发文档，非完整机器人 | SoC BOM、实时驱动/周期、功能安全 |
+
+主依据分别为2026-08-27机器人博览会公告（活动8月19—23日）与2026-09-22云栖公告。公告发布时间、活动时间、网页图片上传时间和此次采集时间不同，不能把上传目录日期当产品发布日期。[Rockchip_Robotics_2026](https://www.rock-chips.com/a/cn/news/rockchip/2026/0827/2177.html)（[本地原件](REFERENCES.md#ref-7e32246384c451c6)) [Rockchip_Multicard_2026](https://www.rock-chips.com/a/cn/news/rockchip/2026/0922/2181.html)（[本地原件](REFERENCES.md#ref-ed5b70feb4b4688c))
+
+## 二、AlphaMini2与KATA Friends：具体采用的证据边界
+
+官方原图能读到AlphaMini2与RK3566，旁边KATA Friends为RK3576。它比只出现“优必选/卧安”品牌更具体，因此作为芯片厂商展示资料中的产品绑定；没有OEM独立BOM/采购和代际说明，不将悟空其他代际或卧安全产品线归因该芯片。原图其他文字较小，不把难以辨认的功能/性能扩写成确证。[Rockchip_Robotics_2026](https://www.rock-chips.com/a/cn/news/rockchip/2026/0827/2177.html)（[本地原件](REFERENCES.md#ref-7e32246384c451c6))
+
+![Rockchip官方展会产品图：KATA Friends、AlphaMini2及庭院设备](assets/figures/bf185dcceff2b1217ee02786--b4cdaf4c9101.jpg)
+
+![官方AlphaMini2展牌局部，非新增信息](assets/figures/AlphaMini2_placard--7de350367988.png)
+
+第二图仅放大第一图右上展牌，保留原图与裁剪坐标；可确认产品名、应用场景和芯片字段，不能根据照片推出大模型版本/本地全流程、关节伺服或已交付数量。可见机器人或营销描述的自然语言交互不证明完整离线语音、复杂操作或者安全能力。
+
+分析上，陪伴平台需要声学前端/唤醒/语音、视觉事件、状态机和动作表情接口，主控的价值可能是多媒体/交互整合，而非高频关节控制。验收应分开语音识别时延、对话首字/完整回答、动作响应与实际终止；儿童/家庭场景还需内容策略、权限、数据删除/升级、音量与执行保护。当前材料没有披露这些指标，也没有证明RK3566部署了RK1828所用模型。可把准确产品/芯片字段交给供应商确认，但不能根据展牌计算TCO/ROI或台数份额。
+
+## 三、人形与运动娱乐：避免把交互扩展成运动控制
+
+松延动力在公告中体现轻量化人形交互能力，未给产品代际和芯片/模组；不能从机器人形态推断RK35xx负责步态、全身控制或电机环。人形需要姿态估计、关节状态、接触、惯量/限位、全身规划、总线与保护链，公开交互展示只覆盖其中一部分。必须取得本体SDK关节顺序/单位、frame、控制周期、模式切换、跌倒/失联保护与控制域拓扑，才能说明SoC处在哪个环节。
+
+Lumistar TERO PRO是正文唯一给出清楚产品名的运动娱乐案例之一，任务为小型网球发球机。智能控制可能涉及发球姿态、轮速/供球和交互，但公告没有披露执行器、协议、芯片型号或闭环计时，本文不自行补齐。适配要核对发球距离/速度与准确性定义、危险区域、球料卡滞/急停、传感器丢失与恢复。测试应有尝试次数、目标分布、误差/人工干预与持续运行时长；公告不能证明比旧系统更省电、更准或成本下降。[Rockchip_Robotics_2026](https://www.rock-chips.com/a/cn/news/rockchip/2026/0827/2177.html)（[本地原件](REFERENCES.md#ref-7e32246384c451c6))
+
+这些对象可形成进一步核验清单，但当前不能进入“确定量产整机平台”统计。未取得客户合同或运营数据，不将展会“服务全品类”翻译成全部本体支持和大量商业部署。
+
+## 四、π0.5机械臂参考闭环：计算、动作与执行分层
+
+云栖公告明确RK3588＋RK1828，在工件识别、空间定位、语言解析与动作输出之间加入轨迹规划、关节控制和结果校验，面向分拣/装配/上下料探索。优化π0.5>5FPS是厂商宣称；本体品牌、自由度、checkpoint、相机/状态、chunk/denoise、量化与完整时延未披露。不能把04作者源码默认50步、32维padding套进展示，不把模型倒数变伺服频率。[Rockchip_Multicard_2026](https://www.rock-chips.com/a/cn/news/rockchip/2026/0922/2181.html)（[本地原件](REFERENCES.md#ref-ed5b70feb4b4688c)) [RK04_PiConfig](https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/src/openpi/models/pi0_config.py)（[本地原件](REFERENCES.md#ref-baf8f866abcf634f))
+
+完整动作适配至少要有相机内外参、base/tool坐标、时间戳、关节顺序/单位、绝对或delta、horizon与采样间隔。policy可按chunk低频调用，controller按自己的周期做插值/追踪，总线周期和驱动器电流/位置伺服另有频率。规划器需碰撞模型、可达性、速度/加速度/力矩限幅；语言/结构化JSON结果还需根据当前世界状态校验。只验证动作数组shape，不足以证明轨迹可执行或工件不会被压坏。
+
+在接触任务中，要独立测力控/夹爪反馈、保护和异常释放；有VLA或柔顺算法不自动获得安全认证。上层停止发布可能使下层保留旧动作chunk，应定义过期拒收、轨迹取消、驱动watchdog、受控停止和硬件急停。官方EtherCAT文档要求断链/退出/错误态安全控制字，并强调正常通信不等于电机安全，仍需要准确从站行为确认。[RK02_EtherCAT_Preparation](https://community.t-firefly.com/en/docs/software/industry-robot/EtherCAT/ethercat-preparation)（[本地原件](REFERENCES.md#ref-8c42f6b3ba4f0541))
+
+## 五、数据采集与深度前端：收益需测量定义
+
+机器人博览会公布RK3588＋RV1126B采集、同步、图像处理、编码传输和端侧清洗，称通过Wi-Fi TSF实现高精度低时延时间戳同步；没有误差数值、网络/设备拓扑、触发/曝光事件、漂移与丢帧分布。TSF时钟一致不自动表示相机同步曝光或所有传感器拥有硬件时间戳，03的数据年龄/时钟域要求仍成立。简智数采产品与方案“呼应”是公告用语，不足以证明所有产品BOM或同步效果。[Rockchip_Robotics_2026](https://www.rock-chips.com/a/cn/news/rockchip/2026/0827/2177.html)（[本地原件](REFERENCES.md#ref-7e32246384c451c6))
+
+同文列RK3572双目结构光与RK自研AI双目深度算法，深度帧率“可达25fps”，照片展示透明/不同反射率物体对比。该值没有shape、baseline、距离/光照、精度阈值、功耗和平均/P99，不能称固定25Hz可靠距离反馈，更不能把单张深度可视化当所有透明材质鲁棒性。应测有效深度率、绝对误差、边缘噪声、运动曝光延迟和真实障碍漏检，再评估导航/抓取改善；算法量产包、许可和目标固件本次未取得。
+
+## 六、控制器伙伴路径与正式交付
+
+EC-R3588RT入门页称RK3588、1×2.5G＋2×1G网口、工业相机/视觉控制器；关联ROC-RK3588-RT板页却写RK3588S。名称RT也不能证明PREEMPT_RT/Xenomai已开启。必须用具体BOM/revision、产品datasheet和交付镜像解决型号冲突，不能选择更高规格补齐。多网口/巨帧可能减少图像传输开销，却不证明实时主站网卡驱动或WCET；专用工业总线网口与相机/管理网络应按配置划分。[RK06_Controller](https://community.t-firefly.com/en/docs/products/computers/EC-R3588RT/started)（[本地原件](REFERENCES.md#ref-cd1395c98a7ce663)) [RK06_ControllerBoard](https://community.t-firefly.com/en/docs/products/motherboard/ROC-RK3588-RT/started)（[本地原件](REFERENCES.md#ref-32201e9e4f891682))
+
+BSP→驱动→NPU/视觉→ROS→控制器/执行的正式交接应含源码/许可、构建锁、产物哈希、标定和参数、刷机恢复、产测/OTA、watchdog和故障降级。AMP分核还需内存/IRQ/外设/时钟划分，不能仅绑核；模型/系统更新要保持动作参数和标定版本事务一致。当前案例没有正式安全证书、整机接口合同或维护期限，不能作安全应用放行依据。[RK02_AMP_Prereq](https://community.t-firefly.com/en/docs/software/industry-robot/AMP/amp-prerequisites)（[本地原件](REFERENCES.md#ref-7859770da31383a7)) [RK02_OTA_Linux](https://community.t-firefly.com/en/docs/software/other/OTA/ota-linux)（[本地原件](REFERENCES.md#ref-ccf3f3086d29b250))
+
+商业评估应要求客户/地点/任务、准确代际和平台、台数、尝试分母/暴露小时、成功率与人工介入、停机/维修、电力和维护费用。对上述案例，这些多未取得；无新旧同任务条件就不能声称算力提升改善续航/生产节拍。本文可确定公开方案和若干展牌产品绑定，选型动作是先索取OEM交付物及闭环任务验收，再做并发热稳定/失效/升级验证；该步骤尚未完成，不能把研究完成称本体适配验收完成。
+
+
+## 参考资料与本地原文
+
+采集时间逐项列出；移动分支及无版本网页仅代表此次快照。HTML 保留正文与可取得静态依赖，动态交互、视频及缺失依赖不保证完整。未进行目标板安装或实机性能验证。
+
+| 来源 | 原 URL | 本地原件 | 采集 UTC | 归档状态 |
+| --- | --- | --- | --- | --- |
+| Rockchip_Robotics_2026 | [原文](https://www.rock-chips.com/a/cn/news/rockchip/2026/0827/2177.html) | [归档](REFERENCES.md#ref-7e32246384c451c6) | 2026-11-04T17:02:24.334402+00:00 | partial_static；缺失依赖 4 |
+| Rockchip_Multicard_2026 | [原文](https://www.rock-chips.com/a/cn/news/rockchip/2026/0922/2181.html) | [归档](REFERENCES.md#ref-ed5b70feb4b4688c) | 2026-11-04T15:46:57.771231+00:00 | partial_static；缺失依赖 3 |
+| RK04_PiConfig | [原文](https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/src/openpi/models/pi0_config.py) | [归档](REFERENCES.md#ref-baf8f866abcf634f) | 2026-11-04T16:54:13.751029+00:00 | complete_static；缺失依赖 0 |
+| RK02_EtherCAT_Preparation | [原文](https://community.t-firefly.com/en/docs/software/industry-robot/EtherCAT/ethercat-preparation) | [归档](REFERENCES.md#ref-8c42f6b3ba4f0541) | 2026-11-04T16:40:27.995472+00:00 | partial_static；缺失依赖 2 |
+| RK06_Controller | [原文](https://community.t-firefly.com/en/docs/products/computers/EC-R3588RT/started) | [归档](REFERENCES.md#ref-cd1395c98a7ce663) | 2026-11-04T17:02:27.507872+00:00 | partial_static；缺失依赖 2 |
+| RK06_ControllerBoard | [原文](https://community.t-firefly.com/en/docs/products/motherboard/ROC-RK3588-RT/started) | [归档](REFERENCES.md#ref-32201e9e4f891682) | 2026-11-04T17:02:30.750322+00:00 | partial_static；缺失依赖 2 |
+| RK02_AMP_Prereq | [原文](https://community.t-firefly.com/en/docs/software/industry-robot/AMP/amp-prerequisites) | [归档](REFERENCES.md#ref-7859770da31383a7) | 2026-11-04T16:41:47.418007+00:00 | partial_static；缺失依赖 2 |
+| RK02_OTA_Linux | [原文](https://community.t-firefly.com/en/docs/software/other/OTA/ota-linux) | [归档](REFERENCES.md#ref-ccf3f3086d29b250) | 2026-11-04T16:41:38.657971+00:00 | partial_static；缺失依赖 2 |
+
+[证据记录](research_state/evidence/06_Robot_Integration.json)；[本章开始前哈希基线](research_state/baselines/06_Robot_Integration_before.json)。检查和去重记录由专题索引汇总。

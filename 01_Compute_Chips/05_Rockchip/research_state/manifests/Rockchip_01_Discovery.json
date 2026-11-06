@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Rockchip_Home",
+    "url": "https://www.rock-chips.com/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Rockchip_RK3588",
+    "url": "https://www.rock-chips.com/a/en/products/RK35_Series/2022/0926/1660.html",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Radxa_ROCK5B",
+    "url": "https://docs.radxa.com/en/rock5/rock5b",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Firefly_Home",
+    "url": "https://www.t-firefly.com/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  },
+  {
+    "name": "Rockchip_Products",
+    "url": "https://www.rock-chips.com/a/en/products/",
+    "expected": "html",
+    "used_by": [
+      "01_Hardware_Platform"
+    ]
+  }
+]

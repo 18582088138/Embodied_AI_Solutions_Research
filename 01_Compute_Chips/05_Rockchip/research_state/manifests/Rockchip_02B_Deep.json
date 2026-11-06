@@ -1,0 +1,9 @@
+[
+ {"name":"RK02_RKNN2_DocDir","url":"https://github.com/airockchip/rknn-toolkit2/tree/master/doc","expected":"html"},
+ {"name":"RK02_RKNN2_License","url":"https://raw.githubusercontent.com/airockchip/rknn-toolkit2/master/LICENSE","expected":"any"},
+ {"name":"RK02_YOLO8_Guide","url":"https://raw.githubusercontent.com/airockchip/rknn_model_zoo/main/examples/yolov8/README.md","expected":"any"},
+ {"name":"RK02_YOLO8_Convert","url":"https://raw.githubusercontent.com/airockchip/rknn_model_zoo/main/examples/yolov8/python/convert.py","expected":"any"},
+ {"name":"RK02_YOLO8_Runtime","url":"https://raw.githubusercontent.com/airockchip/rknn_model_zoo/main/examples/yolov8/cpp/rknpu2/yolov8.cc","expected":"any"},
+ {"name":"RK02_Zoo_License","url":"https://raw.githubusercontent.com/airockchip/rknn_model_zoo/main/LICENSE","expected":"any"},
+ {"name":"RK02_YOLO8_Source","url":"https://github.com/airockchip/ultralytics_yolov8","expected":"html"}
+]

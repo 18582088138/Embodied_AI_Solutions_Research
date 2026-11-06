@@ -1,0 +1,34 @@
+{
+  "RK09_Q3_2026": {
+    "url": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-10-27/603893_20261027_UO55.pdf",
+    "status": 200,
+    "archive_status": "failed",
+    "error": "ValueError: challenge page; not accepted as reference content",
+    "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/webpages/RK09_Q3_2026--8d83fdcd6aab3a2d/original.response",
+    "original_sha256": "66ed16bb8feda8a73d30c9b74957f0a631ef7f0ab8c8c485b0ff95f211ce6dd9"
+  },
+  "RK09_H1_2026": {
+    "url": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-08-18/603893_20260818_0XAH.pdf",
+    "status": 200,
+    "archive_status": "failed",
+    "error": "ValueError: challenge page; not accepted as reference content",
+    "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/webpages/RK09_H1_2026--a85e5ea5b8a628c4/original.response",
+    "original_sha256": "5fd1947d1223f42b6828f352e41f158b0e9c7463bf732a4a25ad55784e6b8cf3"
+  },
+  "RK09_2025_Summary": {
+    "url": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-15/603893_20260415_U4KG.pdf",
+    "status": 200,
+    "archive_status": "failed",
+    "error": "ValueError: challenge page; not accepted as reference content",
+    "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/webpages/RK09_2025_Summary--8cb0b3e4c203aee8/original.response",
+    "original_sha256": "5fd1947d1223f42b6828f352e41f158b0e9c7463bf732a4a25ad55784e6b8cf3"
+  },
+  "RK09_PIPL": {
+    "url": "https://www.gov.cn/xinwen/2021-08/20/content_5632486.htm",
+    "status": null,
+    "archive_status": "failed",
+    "error": "HTTPError: HTTP Error 404: Not Found",
+    "original_file": null,
+    "original_sha256": null
+  }
+}

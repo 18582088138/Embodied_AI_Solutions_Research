@@ -1,0 +1,98 @@
+{
+  "source_ids": [
+    "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+    "RK02_RKNN3_ZooReadme",
+    "RK02_RKLLM_Readme",
+    "RK04_OpenpiReadme",
+    "RK04_PiConfig",
+    "RK04_PiModel",
+    "RK04_DroidPolicy",
+    "RK04_Remote",
+    "Rockchip_Multicard_2026",
+    "RK04_Qwen3VL",
+    "RK04_RAFT",
+    "RK04_Diffusion"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/RKNN3_accuracy.png",
+      "sha256": "345eddbd1d5a648fd68a5826e36035d893ba4d0d93ca85c95bdd6683b52d6b37",
+      "source_id": "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+      "source_url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/00_RKNN3_SDK_Release_Notes_V1.2.0.pdf",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/documents/RK02_00_RKNN3_SDK_Rel--f422f7a4bad78537/document.pdf",
+      "original_sha256": "fa4f1c4a169087ef7bb3da4609d621338c4faad957dd1577edaa03f5cc6ad27c",
+      "operation": "V1.2.0 Release Notes第16页，1600px完整渲染，实际打开核对"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "RK04_PiConfig",
+      "location": "Pi0Config",
+      "claim": "action_dim: int = 32; action_horizon: int = 50",
+      "conditions": "作者通用默认；pi05离散state与adaRMSNorm",
+      "finding": "不替代Rockchip优化模型配置",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "action_dim: int = 32; action_horizon: int = 50"
+    },
+    {
+      "source_id": "RK04_PiModel",
+      "location": "embed_prefix / sample_actions",
+      "claim": "num_steps = 10; dt = -1.0 / num_steps",
+      "conditions": "JAX作者实现，prefix KV然后flow迭代",
+      "finding": "非RK1828编译源码/实测",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "num_steps = 10; dt = -1.0 / num_steps"
+    },
+    {
+      "source_id": "RK04_DroidPolicy",
+      "location": "DroidInputs / DroidOutputs",
+      "claim": "Only return the first 8 dims",
+      "conditions": "DROID两图+7关节+夹爪；padding/mask",
+      "finding": "不等于机器人32DOF或通用8维命令",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "Only return the first 8 dims"
+    },
+    {
+      "source_id": "Rockchip_Multicard_2026",
+      "location": "02 VLA不止于高算力",
+      "claim": "π0.5 VLA模型已可在RK1828平台上实现5 FPS以上",
+      "conditions": "针对性优化，未披露模型配置/统计/功耗",
+      "finding": "厂商宣称；不能推导闭环/P99/伺服/成功率",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "π0.5 VLA模型已可在RK1828平台上实现5 FPS以上"
+    },
+    {
+      "source_id": "RK04_RAFT",
+      "location": "简介 / 1.7 / 3.2",
+      "claim": "commit ID:6068c1a26f84f8132de10f60b2bc0ce61568e085",
+      "conditions": "160×240，iters循环与5D转4D补丁；文档示例616.32ms",
+      "finding": "非统计基准；视差需标定转深度",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "commit ID:6068c1a26f84f8132de10f60b2bc0ce61568e085"
+    },
+    {
+      "source_id": "RK04_Qwen3VL",
+      "location": "2模型裁剪 / 4分辨率 / 6常见问题",
+      "claim": "prune_mode默认关闭；KV Int4精度可能下降",
+      "conditions": "shape32倍数；ONNX external data；重建仅特定配置",
+      "finding": "不泛化SpeedUP或全模型免精度损失",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "prune_mode默认关闭；KV Int4精度可能下降"
+    },
+    {
+      "source_id": "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+      "location": "p12-17",
+      "claim": "Vision latency and LLM were tested independently",
+      "conditions": "RK3588性能模式PCIe/RK182X NPU1GHz；W4A16G32精度表",
+      "finding": "模型精度/阶段基准不当机器人任务",
+      "evidence_type": "事实/厂商宣称/分析；具体分类见正文",
+      "original_excerpt": "Vision latency and LLM were tested independently"
+    }
+  ],
+  "manual_review": {
+    "coverage": "已核验关键主张并记录精确API/章节/页码及原文片段；正文列出未取得交付物和分析边界。",
+    "versions_and_measurements": "核对原文版本、对象、参数和测量边界；源码仅静态阅读，未安装或实测。移动分支commit未取得时明确限制。",
+    "maturity_and_licenses": "代码/权重/数据/二进制/固件/本体资产分别核对；不以公开仓库推导全部开源或商业授权。",
+    "figures_opened": "图像逐张实际打开并核对说明；无图专题在正文解释来源检索及取得缺口。"
+  }
+}

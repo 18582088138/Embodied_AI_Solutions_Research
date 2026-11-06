@@ -1,0 +1,22 @@
+{
+  "time_utc": "2026-11-04T17:12:03.109027+00:00",
+  "summary": {
+    "complete_static": 1,
+    "partial_static": 7,
+    "failed": 0
+  },
+  "names": [
+    "Rockchip_Robotics_2026",
+    "Rockchip_Multicard_2026",
+    "RK04_PiConfig",
+    "RK02_EtherCAT_Preparation",
+    "RK06_Controller",
+    "RK06_ControllerBoard",
+    "RK02_AMP_Prereq",
+    "RK02_OTA_Linux"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

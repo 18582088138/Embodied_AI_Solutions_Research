@@ -1,0 +1,24 @@
+{
+  "time_utc": "2026-11-04T17:19:11.009541+00:00",
+  "summary": {
+    "complete_static": 9,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "Rockchip_RK182X",
+    "Firefly_RK182X_Kit_PDF",
+    "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "RK02_RGA_Guide",
+    "RK02_RGA_FAQ",
+    "RK02_06_RKLLM3_Server_User_Guide_V1.2.0",
+    "RK08_TRT_WeightStream",
+    "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+    "RK02_llamacpp_Compare",
+    "RK02_RKNN3_License"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

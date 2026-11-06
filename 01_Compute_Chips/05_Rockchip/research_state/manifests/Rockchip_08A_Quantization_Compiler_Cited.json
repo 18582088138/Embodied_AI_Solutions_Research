@@ -1,0 +1,52 @@
+[
+  {
+    "name": "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/00_RKNN3_SDK_Release_Notes_V1.2.0.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/02_RKNN3_SDK_Development_Guide_V1.2.0.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKNN2_Readme",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-toolkit2/master/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKLLM_Readme",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKNN3_Readme",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_07_RKNN3_Supported_Operators_and_Constraints_Reference_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/07_RKNN3_Supported_Operators_and_Constraints_Reference_V1.2.0.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK08_TRT_Explicit",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK08_TRT_Quant",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/work-with-quantized-types.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_llamacpp_Compare",
+    "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKNN3_License",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/LICENSE",
+    "expected": "any"
+  }
+]

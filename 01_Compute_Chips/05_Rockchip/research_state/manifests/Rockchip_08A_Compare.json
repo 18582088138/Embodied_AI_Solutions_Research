@@ -1,0 +1,12 @@
+[
+  {
+    "name": "RK08_TRT_Quant",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/work-with-quantized-types.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK08_TRT_Explicit",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html",
+    "expected": "any"
+  }
+]

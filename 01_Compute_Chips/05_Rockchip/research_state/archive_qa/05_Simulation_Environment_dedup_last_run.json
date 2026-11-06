@@ -1,0 +1,24 @@
+{
+  "time_utc": "2026-11-04T17:00:32.770521+00:00",
+  "summary": {
+    "complete_static": 6,
+    "partial_static": 4,
+    "failed": 0
+  },
+  "names": [
+    "RK05_GazeboInstall",
+    "RK02_ROS",
+    "RK05_Mujoco",
+    "RK05_MujocoCompute",
+    "RK05_GazeboSensor",
+    "RK05_GazeboROS",
+    "RK05_LIBERO",
+    "RK05_OpenpiLibero",
+    "Rockchip_Multicard_2026",
+    "RK05_MujocoLicense"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

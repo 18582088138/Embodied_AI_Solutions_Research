@@ -1,0 +1,12 @@
+[
+  {
+    "name": "RK06_UBTECH",
+    "url": "https://www.ubtrobot.com/",
+    "expected": "any"
+  },
+  {
+    "name": "RK06_TerraMow",
+    "url": "https://www.terramow.com/",
+    "expected": "any"
+  }
+]

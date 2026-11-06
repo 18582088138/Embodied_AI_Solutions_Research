@@ -1,0 +1,22 @@
+{
+  "time_utc": "2026-11-04T16:40:09.589152+00:00",
+  "summary": {
+    "complete_static": 7,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "RK02_RKNN3_Readme",
+    "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "RK02_RK182X_Started",
+    "RK02_05_RKNN3_Runtime_C_API_Reference_V1.2.0",
+    "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+    "RK02_06_RKLLM3_Server_User_Guide_V1.2.0",
+    "RK02_RKNN3_License",
+    "RK02_RKNN3_ZooLicense"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

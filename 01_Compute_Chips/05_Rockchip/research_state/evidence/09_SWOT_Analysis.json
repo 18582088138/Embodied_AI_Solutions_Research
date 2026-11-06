@@ -1,0 +1,111 @@
+{
+  "source_ids": [
+    "RK09_FinancialAPI",
+    "RK09_FinancialAPI2",
+    "Rockchip_Robotics_2026",
+    "Rockchip_Multicard_2026",
+    "RK06_TerraMow",
+    "RK03_Camera",
+    "RK02_MPP_Readme",
+    "RK02_RGA_Guide",
+    "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "Firefly_Home",
+    "RK02_RK182X_Started",
+    "RK07_Production",
+    "RK02_RKNN2_Readme",
+    "RK02_RKLLM_Readme",
+    "RK04_OpenpiReadme",
+    "RK02_SecureBoot",
+    "RK02_AMP_Prereq",
+    "RK02_EtherCAT_Preparation",
+    "Rockchip_RK3588",
+    "RK02_RKNN3_License",
+    "Firefly_RK182X_Kit",
+    "RK07_Shipping",
+    "RK07_Return",
+    "Firefly_RK182X_Kit_PDF",
+    "RK09_GenAI"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/Firefly_RK182X_DualM2_Spec.png",
+      "sha256": "3de6cc116f611230c65ee5b5abb0243777269a21ffcf43a9867e9b3a5cfe4077",
+      "source_id": "Firefly_RK182X_Kit_PDF",
+      "source_url": "https://download.t-firefly.com/Spec/Suite/RK182X-Development-Kit_Specifications_EN.pdf",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/documents/Firefly_RK182X_Kit_PD--9d86adab08bd1a92/document.pdf",
+      "original_sha256": "ed80c56b3b6c079048da102453f35d6083dc9b31c95df9d194a8e6e354e7cc0f",
+      "operation": "Poppler pdftoppm渲染PDF第4页，110dpi完整页，未裁剪"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "RK09_FinancialAPI",
+      "location": "data.content[0:3]",
+      "claim": "2026年第三季度报告；2026年半年度报告",
+      "conditions": "官网API仅报告标题/date/URL；SSE原件是challenge已拒收",
+      "finding": "不引用收入/利润或以总收入推机器人收入",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "2026年第三季度报告；2026年半年度报告"
+    },
+    {
+      "source_id": "RK09_FinancialAPI2",
+      "location": "data.content[0]",
+      "claim": "2025年年度报告",
+      "conditions": "发布日期2026-04-15，正文未取得",
+      "finding": "访问缺口非公司未披露；无市占率分母",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "2025年年度报告"
+    },
+    {
+      "source_id": "Rockchip_Multicard_2026",
+      "location": "01办公智能体",
+      "claim": "目前已在部分省份部署",
+      "conditions": "瑞芯微与亿次网联、RK1828；厂商宣称",
+      "finding": "无客户/台数/在岗/ROI；非机器人运营",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "目前已在部分省份部署"
+    },
+    {
+      "source_id": "Firefly_RK182X_Kit",
+      "location": "default selected variant",
+      "claim": "RK3588S (8G+64G) + RK1820 ... $959.00",
+      "conditions": "商店单件页面未结算税/地区/库存",
+      "finding": "不是双RK1828正式报价",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "RK3588S (8G+64G) + RK1820 ... $959.00"
+    },
+    {
+      "source_id": "Firefly_RK182X_Kit_PDF",
+      "location": "p4 Power consumption",
+      "claim": "RK3588 + 2 × RK1828 ... Max: 42W",
+      "conditions": "整板12V、测试負载/环境未列",
+      "finding": "非单芯TDP或全年平均功率",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "RK3588 + 2 × RK1828 ... Max: 42W"
+    },
+    {
+      "source_id": "RK07_Shipping",
+      "location": "Shipping Time / NOTE",
+      "claim": "Order preparation time: 3-7 business days",
+      "conditions": "参考运输/备货分开；customs duties客户",
+      "finding": "不保证逐配置库存/交期",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "Order preparation time: 3-7 business days"
+    },
+    {
+      "source_id": "RK09_GenAI",
+      "location": "第二、七、十一、十七条",
+      "claim": "未向境内公众提供生成式人工智能服务的，不适用本办法的规定",
+      "conditions": "2023-07-13公布/08-15施行；有限检索范围",
+      "finding": "不推导其他法律豁免；不覆盖全部新规/出海辖区",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "未向境内公众提供生成式人工智能服务的，不适用本办法的规定"
+    }
+  ],
+  "manual_review": {
+    "coverage": "逐关键主张核对API/手册页码/条款/原文片段；性能与商业宣称、分析、未取得内容明确分开。",
+    "versions_and_measurements": "核对原文版本、对象、参数和测量边界；源码仅静态阅读，未安装或实测。移动分支commit未取得时明确限制。",
+    "maturity_and_licenses": "代码/权重/数据/二进制/固件/本体资产分别核对；不以公开仓库推导全部开源或商业授权。",
+    "figures_opened": "图像逐张实际打开并核对说明；无图专题在正文解释来源检索及取得缺口。"
+  }
+}

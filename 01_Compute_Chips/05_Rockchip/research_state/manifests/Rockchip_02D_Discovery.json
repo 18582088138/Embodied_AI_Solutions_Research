@@ -1,0 +1,4 @@
+[
+ {"name":"RK02_RK182X_Wiki","url":"https://wiki.t-firefly.com/en/AIO-GS1N2-RK182X/index.html","expected":"html"},
+ {"name":"RK02_AIRockchip_Org","url":"https://github.com/airockchip","expected":"html"}
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "RK02_RKNN3_Readme",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKNN3_License",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/LICENSE",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_09_RKNN3_MCP_QuickStart_V0.1.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/09_RKNN3_MCP_QuickStart_V0.1.0.pdf",
+    "expected": "pdf"
+  },
+  {
+    "name": "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/00_RKNN3_SDK_Release_Notes_V1.2.0.pdf",
+    "expected": "pdf"
+  },
+  {
+    "name": "RK02_01_RKNN3_SDK_QuickStart_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/01_RKNN3_SDK_QuickStart_V1.2.0.pdf",
+    "expected": "pdf"
+  },
+  {
+    "name": "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/02_RKNN3_SDK_Development_Guide_V1.2.0.pdf",
+    "expected": "pdf"
+  },
+  {
+    "name": "RK02_03_RKNN3_Toolkit_Python_API_Reference_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/03_RKNN3_Toolkit_Python_API_Reference_V1.2.0.pdf",
+    "expected": "pdf"
+  },
+  {
+    "name": "RK02_04_RKNN3_Toolkit_Lite_Python_API_Reference_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/04_RKNN3_Toolkit_Lite_Python_API_Reference_V1.2.0.pdf",
+    "expected": "pdf"
+  },
+  {
+    "name": "RK02_05_RKNN3_Runtime_C_API_Reference_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/05_RKNN3_Runtime_C_API_Reference_V1.2.0.pdf",
+    "expected": "pdf"
+  },
+  {
+    "name": "RK02_06_RKLLM3_Server_User_Guide_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/06_RKLLM3_Server_User_Guide_V1.2.0.pdf",
+    "expected": "pdf"
+  },
+  {
+    "name": "RK02_07_RKNN3_Supported_Operators_and_Constraints_Reference_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/07_RKNN3_Supported_Operators_and_Constraints_Reference_V1.2.0.pdf",
+    "expected": "pdf"
+  },
+  {
+    "name": "RK02_08_RKNN3_MoE_ONNX_Export_And_Conversion_Guide_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/08_RKNN3_MoE_ONNX_Export_And_Conversion_Guide_V1.2.0.pdf",
+    "expected": "pdf"
+  }
+]

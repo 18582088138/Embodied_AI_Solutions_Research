@@ -1,0 +1,329 @@
+{
+  "notes": {
+    "Rockchip_RK3588": {
+      "url": "https://www.rock-chips.com/a/en/products/RK35_Series/2022/0926/1660.html",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.rock-chips.com/templets/new_2014_9/images/banner_products.jpg": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+        "https://www.rock-chips.com/templets/new_2014_9/images/mobile-img/banner_psirt_ph.jpg": "HTTPError: HTTP Error 404: Not Found"
+      }
+    },
+    "Radxa_ROCK5B": {
+      "url": "https://docs.radxa.com/en/rock5/rock5b",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.googletagmanager.com/gtag/js?id=G-2V3W91WFXP": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" x=\\\"0px\\\" y=\\\"0px\\\" viewBox=\\\"0 0 256 256\\\"><g><g><polygon points=\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" x=\\\\\"0px\\\\\" y=\\\\\"0px\\\\\" viewBox=\\\\\"0 0 256 256\\\\\"><g><g><polygon points=\\\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" width=\\\"16px\\\" height=\\\"16px\\\" viewBox=\\\"0 0 24 24\\\"><path fill=\\\"rgba(0,0,0,0.5": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" width=\\\\\"16px\\\\\" height=\\\\\"16px\\\\\" viewBox=\\\\\"0 0 24 24\\\\\"><path fill=\\\\\"rgba(0,0,0,0.5' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\"currentColor\\\" xmlns=\\\"http:/www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\" height=\\\"16px\\\" width=\\\"16px\\\"><path d=\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\" /></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\\\"currentColor\\\\\" xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" viewBox=\\\\\"0 0 16 16\\\\\" height=\\\\\"16px\\\\\" width=\\\\\"16px\\\\\"><path d=\\\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\\\" /></svg>\"' (found at least ' ')",
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      }
+    },
+    "Firefly_Home": {
+      "url": "https://www.t-firefly.com/",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.t-firefly.com/checkouts/internal/preloads.js?locale=en-US": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://shop.app/checkouts/internal/preloads.js?locale=en-US&shop_id=77907329164": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://s3.amazonaws.com/me.judge.public-static-assets/general/video-placeholder-640x480.jpeg": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://cdn.shopify.com/videos/c/vp/15894a71d97a4636b4168cdd4958171a/15894a71d97a4636b4168cdd4958171a.HD-1080p-7.2Mbps-94966727.mp4": "ValueError: response exceeds --max-mb; no truncated file saved",
+        "https://anythingllm.t-firefly.com/embed/anythingllm-chat-widget.firefly.css": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      }
+    },
+    "Rockchip_Products": {
+      "url": "https://www.rock-chips.com/a/en/products/",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.rock-chips.com/templets/new_2014_9/images/banner_products.jpg": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+        "https://www.rock-chips.com/templets/new_2014_9/images/mobile-img/banner_psirt_ph.jpg": "HTTPError: HTTP Error 404: Not Found"
+      }
+    },
+    "Rockchip_CN_Products": {
+      "url": "https://www.rock-chips.com/a/cn/product/index.html",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.rock-chips.com/templets/new_2014_9/images/banner_products.jpg": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+        "https://www.rock-chips.com/templets/new_2014_9/images/mobile-img/banner_psirt_ph.jpg": "HTTPError: HTTP Error 404: Not Found"
+      }
+    },
+    "Rockchip_RK3576": {
+      "url": "https://www.rock-chips.com/a/cn/product/RK35xilie/2024/1015/2016.html",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.rock-chips.com/templets/new_2014_9/images/banner_products.jpg": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+        "https://www.rock-chips.com/templets/new_2014_9/images/mobile-img/banner_psirt_ph.jpg": "HTTPError: HTTP Error 404: Not Found"
+      }
+    },
+    "Rockchip_RK182X": {
+      "url": "https://www.rock-chips.com/a/cn/product/RK18xilie/2025/1114/2113.html",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.rock-chips.com/templets/new_2014_9/images/banner_products.jpg": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+        "https://www.rock-chips.com/templets/new_2014_9/images/mobile-img/banner_psirt_ph.jpg": "HTTPError: HTTP Error 404: Not Found"
+      }
+    },
+    "Rockchip_RV1126B": {
+      "url": "https://www.rock-chips.com/a/cn/product/RV11xilie/2025/1208/2117.html",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.rock-chips.com/templets/new_2014_9/images/banner_products.jpg": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+        "https://www.rock-chips.com/templets/new_2014_9/images/mobile-img/banner_psirt_ph.jpg": "HTTPError: HTTP Error 404: Not Found"
+      }
+    },
+    "Rockchip_Robotics_2026": {
+      "url": "https://www.rock-chips.com/a/cn/news/rockchip/2026/0827/2177.html",
+      "archive_status": "failed",
+      "error": "ValueError: only anonymous public HTTP(S) URLs are supported",
+      "unavailable_assets": {
+        "https://www.rock-chips.com/templets/new_2014_9/images/banner_products.jpg": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+        "https://www.rock-chips.com/templets/new_2014_9/images/mobile-img/banner_psirt_ph.jpg": "HTTPError: HTTP Error 404: Not Found"
+      }
+    },
+    "Rockchip_Inspection_2026": {
+      "url": "https://www.rock-chips.com/a/cn/news/rockchip/2026/0828/2178.html",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.rock-chips.com/templets/new_2014_9/images/banner_products.jpg": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+        "https://www.rock-chips.com/templets/new_2014_9/images/mobile-img/banner_psirt_ph.jpg": "HTTPError: HTTP Error 404: Not Found"
+      }
+    },
+    "Rockchip_Multicard_2026": {
+      "url": "https://www.rock-chips.com/a/cn/news/rockchip/2026/0922/2181.html",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.rock-chips.com/templets/new_2014_9/images/banner_products.jpg": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+        "https://www.rock-chips.com/templets/new_2014_9/images/mobile-img/banner_psirt_ph.jpg": "HTTPError: HTTP Error 404: Not Found",
+        "https://www.rock-chips.com/a/cn/news/rockchip/2026/0922/<img src=\"/uploads/allimg/260827/095005_1107.png\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\">": "InvalidURL: URL can't contain control characters. '/a/cn/news/rockchip/2026/0922/<img src=\"/uploads/allimg/260827/095005_1107.png\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\">' (found at least ' ')"
+      }
+    },
+    "Rockchip_Download": {
+      "url": "https://www.rock-chips.com/a/cn/downloadcenter/index.html",
+      "archive_status": "complete_static",
+      "error": null,
+      "unavailable_assets": {}
+    },
+    "Radxa_CM5": {
+      "url": "https://docs.radxa.com/en/som/cm/cm5",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.googletagmanager.com/gtag/js?id=G-2V3W91WFXP": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" x=\\\"0px\\\" y=\\\"0px\\\" viewBox=\\\"0 0 256 256\\\"><g><g><polygon points=\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" x=\\\\\"0px\\\\\" y=\\\\\"0px\\\\\" viewBox=\\\\\"0 0 256 256\\\\\"><g><g><polygon points=\\\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" width=\\\"16px\\\" height=\\\"16px\\\" viewBox=\\\"0 0 24 24\\\"><path fill=\\\"rgba(0,0,0,0.5": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" width=\\\\\"16px\\\\\" height=\\\\\"16px\\\\\" viewBox=\\\\\"0 0 24 24\\\\\"><path fill=\\\\\"rgba(0,0,0,0.5' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\"currentColor\\\" xmlns=\\\"http:/www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\" height=\\\"16px\\\" width=\\\"16px\\\"><path d=\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\" /></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\\\"currentColor\\\\\" xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" viewBox=\\\\\"0 0 16 16\\\\\" height=\\\\\"16px\\\\\" width=\\\\\"16px\\\\\"><path d=\\\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\\\" /></svg>\"' (found at least ' ')",
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      }
+    },
+    "Radxa_ROCK5T": {
+      "url": "https://docs.radxa.com/en/rock5/rock5t",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.googletagmanager.com/gtag/js?id=G-2V3W91WFXP": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" x=\\\"0px\\\" y=\\\"0px\\\" viewBox=\\\"0 0 256 256\\\"><g><g><polygon points=\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" x=\\\\\"0px\\\\\" y=\\\\\"0px\\\\\" viewBox=\\\\\"0 0 256 256\\\\\"><g><g><polygon points=\\\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" width=\\\"16px\\\" height=\\\"16px\\\" viewBox=\\\"0 0 24 24\\\"><path fill=\\\"rgba(0,0,0,0.5": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" width=\\\\\"16px\\\\\" height=\\\\\"16px\\\\\" viewBox=\\\\\"0 0 24 24\\\\\"><path fill=\\\\\"rgba(0,0,0,0.5' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\"currentColor\\\" xmlns=\\\"http:/www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\" height=\\\"16px\\\" width=\\\"16px\\\"><path d=\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\" /></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\\\"currentColor\\\\\" xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" viewBox=\\\\\"0 0 16 16\\\\\" height=\\\\\"16px\\\\\" width=\\\\\"16px\\\\\"><path d=\\\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\\\" /></svg>\"' (found at least ' ')",
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      }
+    },
+    "Radxa_ROCK4D": {
+      "url": "https://docs.radxa.com/en/rock4/rock4d",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.googletagmanager.com/gtag/js?id=G-2V3W91WFXP": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" x=\\\"0px\\\" y=\\\"0px\\\" viewBox=\\\"0 0 256 256\\\"><g><g><polygon points=\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" x=\\\\\"0px\\\\\" y=\\\\\"0px\\\\\" viewBox=\\\\\"0 0 256 256\\\\\"><g><g><polygon points=\\\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" width=\\\"16px\\\" height=\\\"16px\\\" viewBox=\\\"0 0 24 24\\\"><path fill=\\\"rgba(0,0,0,0.5": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" width=\\\\\"16px\\\\\" height=\\\\\"16px\\\\\" viewBox=\\\\\"0 0 24 24\\\\\"><path fill=\\\\\"rgba(0,0,0,0.5' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\"currentColor\\\" xmlns=\\\"http:/www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\" height=\\\"16px\\\" width=\\\"16px\\\"><path d=\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\" /></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\\\"currentColor\\\\\" xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" viewBox=\\\\\"0 0 16 16\\\\\" height=\\\\\"16px\\\\\" width=\\\\\"16px\\\\\"><path d=\\\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\\\" /></svg>\"' (found at least ' ')",
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      }
+    },
+    "Radxa_ROCK5B_Start": {
+      "url": "https://docs.radxa.com/en/rock5/rock5b/getting-started",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.googletagmanager.com/gtag/js?id=G-2V3W91WFXP": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" x=\\\"0px\\\" y=\\\"0px\\\" viewBox=\\\"0 0 256 256\\\"><g><g><polygon points=\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" x=\\\\\"0px\\\\\" y=\\\\\"0px\\\\\" viewBox=\\\\\"0 0 256 256\\\\\"><g><g><polygon points=\\\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" width=\\\"16px\\\" height=\\\"16px\\\" viewBox=\\\"0 0 24 24\\\"><path fill=\\\"rgba(0,0,0,0.5": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" width=\\\\\"16px\\\\\" height=\\\\\"16px\\\\\" viewBox=\\\\\"0 0 24 24\\\\\"><path fill=\\\\\"rgba(0,0,0,0.5' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\"currentColor\\\" xmlns=\\\"http:/www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\" height=\\\"16px\\\" width=\\\"16px\\\"><path d=\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\" /></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\\\"currentColor\\\\\" xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" viewBox=\\\\\"0 0 16 16\\\\\" height=\\\\\"16px\\\\\" width=\\\\\"16px\\\\\"><path d=\\\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\\\" /></svg>\"' (found at least ' ')",
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      }
+    },
+    "Radxa_ROCK5B_Download": {
+      "url": "https://docs.radxa.com/en/rock5/rock5b/download",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.googletagmanager.com/gtag/js?id=G-2V3W91WFXP": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" x=\\\"0px\\\" y=\\\"0px\\\" viewBox=\\\"0 0 256 256\\\"><g><g><polygon points=\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" x=\\\\\"0px\\\\\" y=\\\\\"0px\\\\\" viewBox=\\\\\"0 0 256 256\\\\\"><g><g><polygon points=\\\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" width=\\\"16px\\\" height=\\\"16px\\\" viewBox=\\\"0 0 24 24\\\"><path fill=\\\"rgba(0,0,0,0.5": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" width=\\\\\"16px\\\\\" height=\\\\\"16px\\\\\" viewBox=\\\\\"0 0 24 24\\\\\"><path fill=\\\\\"rgba(0,0,0,0.5' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\"currentColor\\\" xmlns=\\\"http:/www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\" height=\\\"16px\\\" width=\\\"16px\\\"><path d=\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\" /></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\\\"currentColor\\\\\" xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" viewBox=\\\\\"0 0 16 16\\\\\" height=\\\\\"16px\\\\\" width=\\\\\"16px\\\\\"><path d=\\\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\\\" /></svg>\"' (found at least ' ')",
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      }
+    },
+    "Firefly_RK182X_Kit": {
+      "url": "https://www.t-firefly.com/products/rk182x-3d-ram-stacking-development-kit",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.t-firefly.com/checkouts/internal/preloads.js?locale=en-US": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://shop.app/checkouts/internal/preloads.js?locale=en-US&shop_id=77907329164": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://s3.amazonaws.com/me.judge.public-static-assets/general/video-placeholder-640x480.jpeg": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://cdn.shopify.com/s/files/1/0779/0732/9164/files/3_bdc47e43-24b5-4f3a-87d0-8cd49963abbc.jpg?v=1782728144&width=3840": "HTTPError: HTTP Error 504: Gateway Timeout",
+        "https://anythingllm.t-firefly.com/embed/anythingllm-chat-widget.firefly.css": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      }
+    },
+    "Firefly_ROC_RK3588S": {
+      "url": "https://www.t-firefly.com/products/roc-rk3588s-pc-8-core-8k-ai-mainboard",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.t-firefly.com/checkouts/internal/preloads.js?locale=en-US": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://shop.app/checkouts/internal/preloads.js?locale=en-US&shop_id=77907329164": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://s3.amazonaws.com/me.judge.public-static-assets/general/video-placeholder-640x480.jpeg": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://anythingllm.t-firefly.com/embed/anythingllm-chat-widget.firefly.css": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      }
+    },
+    "Rockchip_RK3568": {
+      "url": "https://www.rock-chips.com/a/en/products/RK35_Series/2021/0113/1276.html",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.rock-chips.com/templets/new_2014_9/images/banner_products.jpg": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+        "https://www.rock-chips.com/templets/new_2014_9/images/mobile-img/banner_psirt_ph.jpg": "HTTPError: HTTP Error 404: Not Found"
+      }
+    },
+    "Rockchip_RK3568J": {
+      "url": "https://www.rock-chips.com/a/en/products/RK35_Series/2022/0209/1502.html",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.rock-chips.com/templets/new_2014_9/images/banner_products.jpg": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+        "https://www.rock-chips.com/templets/new_2014_9/images/mobile-img/banner_psirt_ph.jpg": "HTTPError: HTTP Error 404: Not Found"
+      }
+    },
+    "Rockchip_RK3506": {
+      "url": "https://www.rock-chips.com/a/en/products/RK35_Series/2025/1208/2126.html",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.rock-chips.com/templets/new_2014_9/images/banner_products.jpg": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+        "https://www.rock-chips.com/templets/new_2014_9/images/mobile-img/banner_psirt_ph.jpg": "HTTPError: HTTP Error 404: Not Found"
+      }
+    },
+    "Radxa_ROCK5T_Intro": {
+      "url": "https://docs.radxa.com/en/rock5/rock5t/getting-started",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.googletagmanager.com/gtag/js?id=G-2V3W91WFXP": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" x=\\\"0px\\\" y=\\\"0px\\\" viewBox=\\\"0 0 256 256\\\"><g><g><polygon points=\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" x=\\\\\"0px\\\\\" y=\\\\\"0px\\\\\" viewBox=\\\\\"0 0 256 256\\\\\"><g><g><polygon points=\\\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" width=\\\"16px\\\" height=\\\"16px\\\" viewBox=\\\"0 0 24 24\\\"><path fill=\\\"rgba(0,0,0,0.5": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" width=\\\\\"16px\\\\\" height=\\\\\"16px\\\\\" viewBox=\\\\\"0 0 24 24\\\\\"><path fill=\\\\\"rgba(0,0,0,0.5' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\"currentColor\\\" xmlns=\\\"http:/www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\" height=\\\"16px\\\" width=\\\"16px\\\"><path d=\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\" /></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\\\"currentColor\\\\\" xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" viewBox=\\\\\"0 0 16 16\\\\\" height=\\\\\"16px\\\\\" width=\\\\\"16px\\\\\"><path d=\\\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\\\" /></svg>\"' (found at least ' ')",
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      }
+    },
+    "Radxa_ROCK5T_Download": {
+      "url": "https://docs.radxa.com/en/rock5/rock5t/download",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.googletagmanager.com/gtag/js?id=G-2V3W91WFXP": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" x=\\\"0px\\\" y=\\\"0px\\\" viewBox=\\\"0 0 256 256\\\"><g><g><polygon points=\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" x=\\\\\"0px\\\\\" y=\\\\\"0px\\\\\" viewBox=\\\\\"0 0 256 256\\\\\"><g><g><polygon points=\\\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" width=\\\"16px\\\" height=\\\"16px\\\" viewBox=\\\"0 0 24 24\\\"><path fill=\\\"rgba(0,0,0,0.5": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" width=\\\\\"16px\\\\\" height=\\\\\"16px\\\\\" viewBox=\\\\\"0 0 24 24\\\\\"><path fill=\\\\\"rgba(0,0,0,0.5' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\"currentColor\\\" xmlns=\\\"http:/www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\" height=\\\"16px\\\" width=\\\"16px\\\"><path d=\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\" /></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\\\"currentColor\\\\\" xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" viewBox=\\\\\"0 0 16 16\\\\\" height=\\\\\"16px\\\\\" width=\\\\\"16px\\\\\"><path d=\\\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\\\" /></svg>\"' (found at least ' ')",
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      }
+    },
+    "Radxa_CM5_Download": {
+      "url": "https://docs.radxa.com/en/som/cm/cm5/download",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.googletagmanager.com/gtag/js?id=G-2V3W91WFXP": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" x=\\\"0px\\\" y=\\\"0px\\\" viewBox=\\\"0 0 256 256\\\"><g><g><polygon points=\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" x=\\\\\"0px\\\\\" y=\\\\\"0px\\\\\" viewBox=\\\\\"0 0 256 256\\\\\"><g><g><polygon points=\\\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" width=\\\"16px\\\" height=\\\"16px\\\" viewBox=\\\"0 0 24 24\\\"><path fill=\\\"rgba(0,0,0,0.5": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" width=\\\\\"16px\\\\\" height=\\\\\"16px\\\\\" viewBox=\\\\\"0 0 24 24\\\\\"><path fill=\\\\\"rgba(0,0,0,0.5' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\"currentColor\\\" xmlns=\\\"http:/www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\" height=\\\"16px\\\" width=\\\"16px\\\"><path d=\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\" /></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\\\"currentColor\\\\\" xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" viewBox=\\\\\"0 0 16 16\\\\\" height=\\\\\"16px\\\\\" width=\\\\\"16px\\\\\"><path d=\\\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\\\" /></svg>\"' (found at least ' ')",
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      }
+    },
+    "Radxa_ROCK5B_Interface": {
+      "url": "https://docs.radxa.com/en/rock5/rock5b/hardware-design/hardware-interface",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.googletagmanager.com/gtag/js?id=G-2V3W91WFXP": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" x=\\\"0px\\\" y=\\\"0px\\\" viewBox=\\\"0 0 256 256\\\"><g><g><polygon points=\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" x=\\\\\"0px\\\\\" y=\\\\\"0px\\\\\" viewBox=\\\\\"0 0 256 256\\\\\"><g><g><polygon points=\\\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" width=\\\"16px\\\" height=\\\"16px\\\" viewBox=\\\"0 0 24 24\\\"><path fill=\\\"rgba(0,0,0,0.5": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" width=\\\\\"16px\\\\\" height=\\\\\"16px\\\\\" viewBox=\\\\\"0 0 24 24\\\\\"><path fill=\\\\\"rgba(0,0,0,0.5' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\"currentColor\\\" xmlns=\\\"http:/www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\" height=\\\"16px\\\" width=\\\"16px\\\"><path d=\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\" /></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\\\"currentColor\\\\\" xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" viewBox=\\\\\"0 0 16 16\\\\\" height=\\\\\"16px\\\\\" width=\\\\\"16px\\\\\"><path d=\\\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\\\" /></svg>\"' (found at least ' ')",
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      }
+    },
+    "Radxa_ROCK5B_Intro": {
+      "url": "https://docs.radxa.com/en/rock5/rock5b/getting-started/introduction",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.googletagmanager.com/gtag/js?id=G-2V3W91WFXP": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" x=\\\"0px\\\" y=\\\"0px\\\" viewBox=\\\"0 0 256 256\\\"><g><g><polygon points=\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" x=\\\\\"0px\\\\\" y=\\\\\"0px\\\\\" viewBox=\\\\\"0 0 256 256\\\\\"><g><g><polygon points=\\\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" width=\\\"16px\\\" height=\\\"16px\\\" viewBox=\\\"0 0 24 24\\\"><path fill=\\\"rgba(0,0,0,0.5": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" width=\\\\\"16px\\\\\" height=\\\\\"16px\\\\\" viewBox=\\\\\"0 0 24 24\\\\\"><path fill=\\\\\"rgba(0,0,0,0.5' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\"currentColor\\\" xmlns=\\\"http:/www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\" height=\\\"16px\\\" width=\\\"16px\\\"><path d=\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\" /></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\\\"currentColor\\\\\" xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" viewBox=\\\\\"0 0 16 16\\\\\" height=\\\\\"16px\\\\\" width=\\\\\"16px\\\\\"><path d=\\\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\\\" /></svg>\"' (found at least ' ')",
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      }
+    },
+    "Radxa_ROCK5B_Power": {
+      "url": "https://docs.radxa.com/en/rock5/rock5b/getting-started/power-supply",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.googletagmanager.com/gtag/js?id=G-2V3W91WFXP": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" x=\\\"0px\\\" y=\\\"0px\\\" viewBox=\\\"0 0 256 256\\\"><g><g><polygon points=\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" x=\\\\\"0px\\\\\" y=\\\\\"0px\\\\\" viewBox=\\\\\"0 0 256 256\\\\\"><g><g><polygon points=\\\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" width=\\\"16px\\\" height=\\\"16px\\\" viewBox=\\\"0 0 24 24\\\"><path fill=\\\"rgba(0,0,0,0.5": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" width=\\\\\"16px\\\\\" height=\\\\\"16px\\\\\" viewBox=\\\\\"0 0 24 24\\\\\"><path fill=\\\\\"rgba(0,0,0,0.5' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\"currentColor\\\" xmlns=\\\"http:/www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\" height=\\\"16px\\\" width=\\\"16px\\\"><path d=\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\" /></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\\\"currentColor\\\\\" xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" viewBox=\\\\\"0 0 16 16\\\\\" height=\\\\\"16px\\\\\" width=\\\\\"16px\\\\\"><path d=\\\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\\\" /></svg>\"' (found at least ' ')",
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      }
+    },
+    "Radxa_ROCK5T_Product": {
+      "url": "https://docs.radxa.com/en/rock5/rock5t/getting-started/introduction",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.googletagmanager.com/gtag/js?id=G-2V3W91WFXP": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" x=\\\"0px\\\" y=\\\"0px\\\" viewBox=\\\"0 0 256 256\\\"><g><g><polygon points=\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" x=\\\\\"0px\\\\\" y=\\\\\"0px\\\\\" viewBox=\\\\\"0 0 256 256\\\\\"><g><g><polygon points=\\\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" width=\\\"16px\\\" height=\\\"16px\\\" viewBox=\\\"0 0 24 24\\\"><path fill=\\\"rgba(0,0,0,0.5": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" width=\\\\\"16px\\\\\" height=\\\\\"16px\\\\\" viewBox=\\\\\"0 0 24 24\\\\\"><path fill=\\\\\"rgba(0,0,0,0.5' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\"currentColor\\\" xmlns=\\\"http:/www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\" height=\\\"16px\\\" width=\\\"16px\\\"><path d=\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\" /></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\\\"currentColor\\\\\" xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" viewBox=\\\\\"0 0 16 16\\\\\" height=\\\\\"16px\\\\\" width=\\\\\"16px\\\\\"><path d=\\\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\\\" /></svg>\"' (found at least ' ')",
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      }
+    },
+    "Radxa_ROCK5T_Power": {
+      "url": "https://docs.radxa.com/en/rock5/rock5t/getting-started/power-supply",
+      "archive_status": "partial_static",
+      "error": null,
+      "unavailable_assets": {
+        "https://www.googletagmanager.com/gtag/js?id=G-2V3W91WFXP": "PermissionError: robots.txt does not permit this URL or could not be checked",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" x=\\\"0px\\\" y=\\\"0px\\\" viewBox=\\\"0 0 256 256\\\"><g><g><polygon points=\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" x=\\\\\"0px\\\\\" y=\\\\\"0px\\\\\" viewBox=\\\\\"0 0 256 256\\\\\"><g><g><polygon points=\\\\\"79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128\\\\\"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>\"' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\"http:/www.w3.org/2000/svg\\\" width=\\\"16px\\\" height=\\\"16px\\\" viewBox=\\\"0 0 24 24\\\"><path fill=\\\"rgba(0,0,0,0.5": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" width=\\\\\"16px\\\\\" height=\\\\\"16px\\\\\" viewBox=\\\\\"0 0 24 24\\\\\"><path fill=\\\\\"rgba(0,0,0,0.5' (found at least ' ')",
+        "https://docs.radxa.com/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\"currentColor\\\" xmlns=\\\"http:/www.w3.org/2000/svg\\\" viewBox=\\\"0 0 16 16\\\" height=\\\"16px\\\" width=\\\"16px\\\"><path d=\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\" /></svg>\"": "InvalidURL: URL can't contain control characters. '/en/assets/css/\"data:image/svg+xml;utf8,<svg fill=\\\\\"currentColor\\\\\" xmlns=\\\\\"http:/www.w3.org/2000/svg\\\\\" viewBox=\\\\\"0 0 16 16\\\\\" height=\\\\\"16px\\\\\" width=\\\\\"16px\\\\\"><path d=\\\\\"M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z\\\\\" /></svg>\"' (found at least ' ')",
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092": "PermissionError: robots.txt does not permit this URL or could not be checked"
+      }
+    }
+  },
+  "excluded_sources": [
+    "Rockchip_Download:空正文",
+    "Rockchip_Robotics_2026:异常资源URL导致失败",
+    "Rockchip_Inspection_2026:仅抽取到标题，未引用正文"
+  ],
+  "tool_tests": "15 tests passed",
+  "limits": "未绕过robots或正文访问限制；未取得完整芯片TRM、热阈值、逐SKU生命周期"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/00_RKNN3_SDK_Release_Notes_V1.2.0.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKNN3_ZooReadme",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-model-zoo/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKLLM_Readme",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_OpenpiReadme",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_PiConfig",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/src/openpi/models/pi0_config.py",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_PiModel",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/src/openpi/models/pi0.py",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_DroidPolicy",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/src/openpi/policies/droid_policy.py",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_Remote",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/docs/remote_inference.md",
+    "expected": "any"
+  },
+  {
+    "name": "Rockchip_Multicard_2026",
+    "url": "https://www.rock-chips.com/a/cn/news/rockchip/2026/0922/2181.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_Qwen3VL",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-model-zoo/main/examples/Qwen3_VL/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_RAFT",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-model-zoo/main/examples/RAFT-Stereo/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_Diffusion",
+    "url": "https://diffusion-policy.cs.columbia.edu/",
+    "expected": "any"
+  }
+]

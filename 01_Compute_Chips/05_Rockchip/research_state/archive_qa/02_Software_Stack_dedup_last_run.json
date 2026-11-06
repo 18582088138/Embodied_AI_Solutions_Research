@@ -1,0 +1,28 @@
+{
+  "time_utc": "2026-11-04T16:45:49.131776+00:00",
+  "summary": {
+    "complete_static": 8,
+    "partial_static": 6,
+    "failed": 0
+  },
+  "names": [
+    "RK02_RKNN2_Readme",
+    "RK02_RKLLM_Readme",
+    "RK02_RKNN3_Readme",
+    "RK02_RK182X_Started",
+    "RK02_YOLO8_Guide",
+    "RK02_RKLLM_MMRuntime",
+    "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "RK02_06_RKLLM3_Server_User_Guide_V1.2.0",
+    "RK02_RT_Preempt",
+    "RK02_AMP_Prereq",
+    "RK02_EtherCAT",
+    "RK02_RKNN3_License",
+    "RK02_SecureBoot",
+    "RK02_OTA_Linux"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

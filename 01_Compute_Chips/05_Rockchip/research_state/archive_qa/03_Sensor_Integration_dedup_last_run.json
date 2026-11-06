@@ -1,0 +1,26 @@
+{
+  "time_utc": "2026-11-04T16:51:02.949873+00:00",
+  "summary": {
+    "complete_static": 8,
+    "partial_static": 4,
+    "failed": 0
+  },
+  "names": [
+    "Rockchip_RK3588",
+    "Radxa_ROCK5B_Schematic_v220",
+    "RK03_IMX415",
+    "RK03_Camera",
+    "RK03_V4L2_Buffer",
+    "RK02_RKNN2_API",
+    "RK02_RGA_Guide",
+    "RK03_OrbbecTime",
+    "RK03_Orbbec",
+    "RK03_OrbbecLicenseText",
+    "RK03_RPLIDAR",
+    "RK03_RPLIDARCode"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

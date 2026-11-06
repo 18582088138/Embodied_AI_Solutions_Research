@@ -1,0 +1,9 @@
+from rk02_report import *
+body=(root/'toolkit/drafts/02A.txt').read_text(encoding='utf-8')
+body=body.replace('发布包的 ABI 政策需要与公共头和外部模块一起固定。','ABI 政策要求 C++17、AArch64 ELF、匹配 libstdc++ C++11 ABI，并分别维护 SDK 语义版本与 Module ABI/SONAME；修改类布局或虚函数等必须递增 Module ABI。二者需要与公共头和外部模块一起固定。')
+body=body.replace('它支持 Producer/Consumer 模块化连接的解释，','图中处理模块还画有 doProduce 的内部阶段，图的独立版本未标明；扩展实现以此次 module_media 文档的 doConsume/output 契约为准。它支持 Producer/Consumer 模块化连接的解释，')
+r=json.loads((a/'_registry/materials.json').read_text(encoding='utf-8'))
+ids=list(dict.fromkeys(re.findall(r'\[\[([\w]+)\]\]',body)))+['RK02_FFMedia_Figure']
+claims=[claim('RK02_Radxa_GPU','driver table / packages','GPU能力绑定具体发行组合','Bookworm、GPU overlay、libmali及xserver包','与Firefly Kernel6.1/Mesa25.0.7不能泛化互套'),claim('RK02_MPP_Decode','decode_simple/info_change','解码器分辨率变化要重配置buffer','develop snapshot；未取得commit','读取实际stride/buf_size并响应READY；源码注释时延不算基准'),claim('RK02_RGA_Readme','版本说明','API1.10.6及驱动适配','multicore最低1.2.4推荐1.3.13+','文档V2.2.10与库版本独立'),claim('RK02_RGA_FAQ','Q1.9/Q4.5','部分RGA2低4GB物理地址约束','引擎/IOMMU/driver组合','不等于系统总内存上限'),claim('RK02_RGA_FAQ','Q1.1','RK3566空载拷贝4420us','Android11/300MHz/Drm cache/1920x1080','不得套RK3588并发'),claim('RK02_FFMedia_Repo','低延迟显示测试','19ms与29ms','双RK3588；屏幕10ms估算；缺shape/采样/SDK','伙伴宣称平均值，不是P99控制时延'),claim('RK02_FFMedia_API','Buffer生命周期','shared_ptr保护池对象','最终引用释放回收','裸地址或fd不延长寿命'),claim('RK02_FFMedia_ABI','版本轴/C++工具链约束','SDK版本与ModuleABI独立','C++17/AArch64/libstdc++','公开接口范围明确，核心水平许可证未取得')]
+fig=figure('RK02_FFMedia_Figure',r['RK02_FFMedia_Figure']['file'],'官方PNG原件，无裁剪；实际打开核验','Firefly FFMedia 官方Producer/Consumer软件框架')
+write('02A_BSP_Multimedia',body,ids,claims,[fig],coverage='BSP版本组合、GPU双路线、MPP异步及buffer、RGA地址/布局/fence/cache、FFMedia ABI与生命周期、测试口径和交接。缺完整目标板源码manifest/固件许可。',licenses='已读MPP Apache头与librga COPYING Apache2；RGA文档版权单独列出；Mali/固件/FFMedia核心二进制授权未取得。')

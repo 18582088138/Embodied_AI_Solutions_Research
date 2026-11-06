@@ -1,0 +1,38 @@
+{
+  "time_utc": "2026-11-04T17:15:05.910982+00:00",
+  "summary": {
+    "complete_static": 9,
+    "partial_static": 15,
+    "failed": 0
+  },
+  "names": [
+    "Radxa_CM5",
+    "Radxa_ROCK5T_Product",
+    "Firefly_RK182X_Kit_PDF",
+    "RK03_Orbbec",
+    "RK03_RPLIDAR",
+    "Rockchip_Robotics_2026",
+    "Radxa_CM5_Schematic_v221",
+    "Radxa_ROCK5T_Industrial_Schematic_v201",
+    "RK02_Radxa_OS",
+    "RK02_RK182X_Started",
+    "Rockchip_Multicard_2026",
+    "RK07_Production",
+    "RK02_OTA_Linux",
+    "RK02_OTA_Android",
+    "RK02_Secure_Config",
+    "Firefly_Home",
+    "RK07_Return",
+    "RK07_Shipping",
+    "Rockchip_RK3588",
+    "RK02_RKNN3_License",
+    "RK02_Zoo_License",
+    "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "RK03_OrbbecLicenseText",
+    "RK04_OpenpiLicense"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

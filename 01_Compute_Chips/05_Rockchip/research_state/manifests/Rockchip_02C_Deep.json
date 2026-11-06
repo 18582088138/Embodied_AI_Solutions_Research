@@ -1,0 +1,8 @@
+[
+ {"name":"RK02_RKLLM_Convert","url":"https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/rkllm_api_demo/export/export_rkllm.py","expected":"any"},
+ {"name":"RK02_RKLLM_MMConvert","url":"https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/multimodal_model_demo/export/export_rkllm.py","expected":"any"},
+ {"name":"RK02_RKLLM_MMRuntime","url":"https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/multimodal_model_demo/deploy/src/main.cpp","expected":"any"},
+ {"name":"RK02_RKLLM_DriverReadme","url":"https://raw.githubusercontent.com/airockchip/rknn-llm/main/rknpu-driver/README.md","expected":"any"},
+ {"name":"RK02_DeepSeek_ModelCard","url":"https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B/raw/main/README.md","expected":"any"},
+ {"name":"RK02_llamacpp_Compare","url":"https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md","expected":"any"}
+]

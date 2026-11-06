@@ -1,0 +1,12 @@
+[
+  {
+    "name": "RK08_Linux_Locks",
+    "url": "https://docs.kernel.org/locking/locktypes.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK08_Jetson_Secure",
+    "url": "https://docs.nvidia.com/jetson/archives/r36.4.4/DeveloperGuide/SD/Security/SecureBoot.html",
+    "expected": "any"
+  }
+]

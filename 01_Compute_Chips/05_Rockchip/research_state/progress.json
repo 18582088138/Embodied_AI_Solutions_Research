@@ -1,0 +1,208 @@
+{
+  "platform": "Rockchip 瑞芯微",
+  "scope": "Rockchip 01—09完整具身智能平台调研",
+  "data_cutoff": "2026-11-05 Asia/Shanghai；逐原件以archived_at_utc为准",
+  "source_collection_utc_range": [
+    "2026-11-04T15:42:54.026932+00:00",
+    "2026-11-04T17:26:49.737346+00:00"
+  ],
+  "authorization": "用户明确：继续后面全部内容的调研；授权完成02及03—09，逐章自检后连续推进",
+  "review_status": "01 approved; 02—09 research complete, awaiting user review; no hardware acceptance",
+  "completed_dimensions": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+  ],
+  "current_dimension": "complete",
+  "pending_evidence": [
+    "完整SoC datasheet/TRM与热设计/结温阈值",
+    "逐SKU持续DDR带宽和准确NPU功率/稀疏口径",
+    "VLA模型commit/量化/输入/动作chunk/完整计时和真实成功率",
+    "ROCK5T工业温度测试及功能安全资料",
+    "板卡改版PCN/EOL、逐料号供货与SDK维护",
+    "各配置正式含税报价/库存/交期",
+    "网页部分静态依赖缺失、视频/动态交互未完整归档",
+    "上交所财报原件浏览器校验；本次无收入/利润/市场份额数字",
+    "模型权重/HF部分资料未取得及许可待核",
+    "完整目标BSP、关键芯片TRM和逐SKU软件/供货合同",
+    "完整当期政策与出海SKU/用途判定不在已取得有限证据内"
+  ],
+  "next_step": "01—09及全部02/08专题研究交付；用户可通过Research_Index.md审阅；无自动实机/采购步骤",
+  "figures_reviewed": 21,
+  "source_count": 139,
+  "dedup": {
+    "network_requests": 0,
+    "record": "reference_metrial/derived/qa/01_09_Union_dedup_last_run.json"
+  },
+  "completion_note": "公开文献/原件研究完成，不代表实机、采购或功能安全验收。",
+  "software_depth_topics": {
+    "planned": [
+      "02A_BSP_Multimedia",
+      "02B_RKNN2_Compiler_Runtime",
+      "02C_RKLLM",
+      "02D_RKNN3_RK182X",
+      "02E_ROS_Control_Operations"
+    ],
+    "completed": [
+      "02A_BSP_Multimedia",
+      "02B_RKNN2_Compiler_Runtime",
+      "02C_RKLLM",
+      "02D_RKNN3_RK182X",
+      "02E_ROS_Control_Operations"
+    ],
+    "current_topic": "complete",
+    "checks": {
+      "02A_BSP_Multimedia": {
+        "outcome": "pass",
+        "body_han_chars": 2927,
+        "sources": 19,
+        "network_requests": 0,
+        "quality": "reference_metrial/derived/qa/02A_BSP_Multimedia_quality.json",
+        "dedup": "reference_metrial/derived/qa/02A_BSP_Multimedia_dedup_last_run.json"
+      },
+      "02B_RKNN2_Compiler_Runtime": {
+        "outcome": "pass",
+        "body_han_chars": 2549,
+        "sources": 14,
+        "network_requests": 0,
+        "quality": "reference_metrial/derived/qa/02B_RKNN2_Compiler_Runtime_quality.json",
+        "dedup": "reference_metrial/derived/qa/02B_RKNN2_Compiler_Runtime_dedup_last_run.json"
+      },
+      "02C_RKLLM": {
+        "outcome": "pass",
+        "body_han_chars": 2419,
+        "sources": 12,
+        "network_requests": 0,
+        "quality": "reference_metrial/derived/qa/02C_RKLLM_quality.json",
+        "dedup": "reference_metrial/derived/qa/02C_RKLLM_dedup_last_run.json"
+      },
+      "02D_RKNN3_RK182X": {
+        "outcome": "pass",
+        "body_han_chars": 1985,
+        "sources": 8,
+        "network_requests": 0,
+        "quality": "reference_metrial/derived/qa/02D_RKNN3_RK182X_quality.json",
+        "dedup": "reference_metrial/derived/qa/02D_RKNN3_RK182X_dedup_last_run.json"
+      },
+      "02E_ROS_Control_Operations": {
+        "outcome": "pass",
+        "body_han_chars": 2024,
+        "sources": 15,
+        "network_requests": 0,
+        "quality": "reference_metrial/derived/qa/02E_ROS_Control_Operations_quality.json",
+        "dedup": "reference_metrial/derived/qa/02E_ROS_Control_Operations_dedup_last_run.json"
+      }
+    },
+    "review_status": "complete; user authorized all remaining chapters"
+  },
+  "chapter_checks": {
+    "02": {
+      "report": "02_Software_Stack.md",
+      "quality": "reference_metrial/derived/qa/02_Software_Stack_quality.json",
+      "dedup": "reference_metrial/derived/qa/02_Software_Stack_dedup_last_run.json",
+      "review": "研究完成，非用户批准/实机验收"
+    },
+    "03": {
+      "report": "03_Sensor_Integration.md",
+      "quality": "reference_metrial/derived/qa/03_Sensor_Integration_quality.json",
+      "dedup": "reference_metrial/derived/qa/03_Sensor_Integration_dedup_last_run.json",
+      "review": "研究完成，非用户批准/实机验收"
+    },
+    "04": {
+      "report": "04_AI_Capabilities.md",
+      "quality": "reference_metrial/derived/qa/04_AI_Capabilities_quality.json",
+      "dedup": "reference_metrial/derived/qa/04_AI_Capabilities_dedup_last_run.json",
+      "review": "研究完成，非用户批准/实机验收"
+    },
+    "05": {
+      "report": "05_Simulation_Environment.md",
+      "quality": "reference_metrial/derived/qa/05_Simulation_Environment_quality.json",
+      "dedup": "reference_metrial/derived/qa/05_Simulation_Environment_dedup_last_run.json",
+      "review": "研究完成，非用户批准/实机验收"
+    },
+    "06": {
+      "report": "06_Robot_Integration.md",
+      "quality": "reference_metrial/derived/qa/06_Robot_Integration_quality.json",
+      "dedup": "reference_metrial/derived/qa/06_Robot_Integration_dedup_last_run.json",
+      "review": "研究完成，非用户批准/实机验收"
+    },
+    "07": {
+      "report": "07_Ecosystem.md",
+      "quality": "reference_metrial/derived/qa/07_Ecosystem_quality.json",
+      "dedup": "reference_metrial/derived/qa/07_Ecosystem_dedup_last_run.json",
+      "review": "研究完成，非用户批准/实机验收"
+    },
+    "08": {
+      "report": "08_Core_Technology_Moat.md",
+      "quality": "reference_metrial/derived/qa/08_Core_Technology_Moat_quality.json",
+      "dedup": "reference_metrial/derived/qa/08_Core_Technology_Moat_dedup_last_run.json",
+      "review": "研究完成，非用户批准/实机验收"
+    },
+    "09": {
+      "report": "09_SWOT_Analysis.md",
+      "quality": "reference_metrial/derived/qa/09_SWOT_Analysis_quality.json",
+      "dedup": "reference_metrial/derived/qa/09_SWOT_Analysis_dedup_last_run.json",
+      "review": "研究完成，非用户批准/实机验收"
+    }
+  },
+  "core_technology_topics": {
+    "planned": [
+      "08A_Quantization_Compiler",
+      "08B_Memory_Coprocessor_Multicard",
+      "08C_Perception_RealTime_Trust"
+    ],
+    "completed": [
+      "08A_Quantization_Compiler",
+      "08B_Memory_Coprocessor_Multicard",
+      "08C_Perception_RealTime_Trust"
+    ],
+    "current_topic": "complete",
+    "review_status": "研究完成；用户授权连续调研，未代用户批准",
+    "checks": {
+      "08_Core_Technology_Moat": "pass",
+      "08A_Quantization_Compiler": "pass",
+      "08B_Memory_Coprocessor_Multicard": "pass",
+      "08C_Perception_RealTime_Trust": "pass"
+    },
+    "union_manifest": "toolkit/manifests/Rockchip_08_Union.json",
+    "collection": "reference_metrial/08_core/index.html"
+  },
+  "final_delivery": {
+    "index": "Research_Index.md",
+    "audit": "reference_metrial/derived/qa/Final_Research_Audit.json",
+    "reports": 17,
+    "cited_source_names": 139,
+    "network_requests": 0,
+    "method": "public literature/API/source static research; no SDK/model/board/robot testing"
+  },
+  "sample_chapter_01_validation": {
+    "outcome": "pass",
+    "body_han_chars": 7727,
+    "tables": 11,
+    "file_hash_checks": 2247,
+    "html_visible_text_equal": 22,
+    "other_reports_unchanged": {
+      "02_Software_Stack.md": true,
+      "03_Sensor_Integration.md": true,
+      "04_AI_Capabilities.md": true,
+      "05_Simulation_Environment.md": true,
+      "06_Robot_Integration.md": true,
+      "07_Ecosystem.md": true,
+      "08_Proprietary_Technologies.md": true,
+      "09_SWOT_Analysis.md": true
+    },
+    "static_dependency_warning_count": 21,
+    "semantic_review": "人工核对关键规格/版本/测量条件及7张官方图；未进行实机验证"
+  },
+  "validation": {
+    "outcome": "pass",
+    "record": "reference_metrial/derived/qa/Final_Research_Audit.json",
+    "scope": "17篇公开研究正文、原件/图源、正文基线、总索引；未实机测试"
+  }
+}

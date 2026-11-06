@@ -1,0 +1,298 @@
+{
+  "source_ids": [
+    "Rockchip_Home",
+    "Rockchip_RK3506",
+    "Rockchip_Products",
+    "Rockchip_Multicard_2026",
+    "Rockchip_RK3588",
+    "Radxa_CM5",
+    "Firefly_ROC_RK3588S_PDF",
+    "Radxa_ROCK5T_Product",
+    "Rockchip_RK3576",
+    "Radxa_ROCK4D",
+    "Rockchip_RV1126B",
+    "Rockchip_RK3568",
+    "Rockchip_RK3568J",
+    "Rockchip_RK182X",
+    "Firefly_RK182X_Kit_PDF",
+    "Radxa_CM5_Schematic_v221",
+    "Radxa_CM5IO_Schematic_v220",
+    "Radxa_ROCK5B_Intro",
+    "Radxa_ROCK5T_Download",
+    "Radxa_ROCK5B_Power",
+    "Radxa_ROCK5B_Interface",
+    "Radxa_ROCK5T_Power",
+    "Firefly_RK182X_Kit",
+    "Radxa_ROCK5T_Industrial_Schematic_v201",
+    "Radxa_ROCK5B_Download",
+    "Radxa_ROCK5BPlus_Schematic_v121",
+    "Radxa_ROCK5B_Schematic_v220",
+    "Firefly_ROC_RK3588S",
+    "Firefly_Home"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/RK3588S_Chip_Block_Radxa.png",
+      "sha256": "d82f9f6d1189b75297fa610345286e02a72b142c199d14d21e638323b6a14362",
+      "source_id": "Radxa_CM5",
+      "source_url": "https://docs.radxa.com/en/assets/images/rk3588s-block-diagram-4f28050acb9bc6671fda1d99373065b0.webp",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/webpages/Radxa_CM5--403039acbce6cd64/assets/images/ad6033fdb03efb0ee20599e5.webp",
+      "original_sha256": "12aaf1201a7ef014e5777dc51dd5bfb3b2133df840921b88adb6feee046473ea",
+      "operation": "原始WebP完整转为PNG，透明区域合成白底，未裁剪"
+    },
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/CM5_System_Block_Radxa.png",
+      "sha256": "11c8aced42d601b727a2a25e3dfae81b1678234188525059d9cbd72267308471",
+      "source_id": "Radxa_CM5",
+      "source_url": "https://docs.radxa.com/en/assets/images/cm5-block-diagram-642d9e88e9ad281619aa848c507ce48f.webp",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/webpages/Radxa_CM5--403039acbce6cd64/assets/images/9c386045db2bf571e7afbb2e.webp",
+      "original_sha256": "b9b21a8e84edd0d980868c40c501f3728028df18c16a815583f875cda5818411",
+      "operation": "原始WebP完整转为PNG，透明区域合成白底，未裁剪"
+    },
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/ROCK4D_v112_Interface_Radxa.png",
+      "sha256": "d869a4f6821320fd140b10ef3d07eee49d1d96849c47f6fbbfb1d36f982668f2",
+      "source_id": "Radxa_ROCK4D",
+      "source_url": "https://docs.radxa.com/en/img/rock4/4d/rock4d-v1.12-interface.webp",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/webpages/Radxa_ROCK4D--46a364b2127824d9/assets/images/c5fa8a2fbd8f1db239ecce2a.webp",
+      "original_sha256": "e5274f521de4dc83bab966f84f47b026e1e213349b42c58773f49252236bd54b",
+      "operation": "原始WebP完整转为PNG，透明区域合成白底，未裁剪"
+    },
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/Firefly_RK182X_DualM2_Overview.png",
+      "sha256": "ced7f3aaf4a1f1aba017b55c890a1e481242096932c083f20fbd092b1c419c88",
+      "source_id": "Firefly_RK182X_Kit_PDF",
+      "source_url": "https://download.t-firefly.com/Spec/Suite/RK182X-Development-Kit_Specifications_EN.pdf",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/documents/Firefly_RK182X_Kit_PD--9d86adab08bd1a92/document.pdf",
+      "original_sha256": "ed80c56b3b6c079048da102453f35d6083dc9b31c95df9d194a8e6e354e7cc0f",
+      "operation": "Poppler pdftoppm渲染PDF第3页，110dpi完整页，未裁剪"
+    },
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/Firefly_RK182X_DualM2_Spec.png",
+      "sha256": "3de6cc116f611230c65ee5b5abb0243777269a21ffcf43a9867e9b3a5cfe4077",
+      "source_id": "Firefly_RK182X_Kit_PDF",
+      "source_url": "https://download.t-firefly.com/Spec/Suite/RK182X-Development-Kit_Specifications_EN.pdf",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/documents/Firefly_RK182X_Kit_PD--9d86adab08bd1a92/document.pdf",
+      "original_sha256": "ed80c56b3b6c079048da102453f35d6083dc9b31c95df9d194a8e6e354e7cc0f",
+      "operation": "Poppler pdftoppm渲染PDF第4页，110dpi完整页，未裁剪"
+    },
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/Firefly_RK182X_Model_Benchmark.png",
+      "sha256": "40c48914925a4f3be1f4387fd158981510bfec9125656904529baed1e8e4bff9",
+      "source_id": "Firefly_RK182X_Kit_PDF",
+      "source_url": "https://download.t-firefly.com/Spec/Suite/RK182X-Development-Kit_Specifications_EN.pdf",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/documents/Firefly_RK182X_Kit_PD--9d86adab08bd1a92/document.pdf",
+      "original_sha256": "ed80c56b3b6c079048da102453f35d6083dc9b31c95df9d194a8e6e354e7cc0f",
+      "operation": "Poppler pdftoppm渲染PDF第24页，110dpi完整页，未裁剪"
+    },
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/ROCK5BPlus_v121_Block.png",
+      "sha256": "868bb21a585efa5cc54e72ad21502ece04c47bbd0bd38720ef6da5c54c60d951",
+      "source_id": "Radxa_ROCK5BPlus_Schematic_v121",
+      "source_url": "https://dl.radxa.com/rock5/5b%2B/docs/hw/radxa_rock_5b%2B_schematic_v1.21.pdf",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/documents/Radxa_ROCK5BPlus_Sche--f60956b1cb7e7968/document.pdf",
+      "original_sha256": "b864ce613a2f782efeed3840ae59e57d0f65e7119e321b1656fdc5cdf958028f",
+      "operation": "Poppler pdftoppm渲染PDF第3页，110dpi完整页，未裁剪"
+    }
+  ],
+  "claim_review": [
+    {
+      "claim": "RK3588三核6TOPS及8nm",
+      "source_id": "Rockchip_RK3588",
+      "location": "Key features / SPECIFICATION",
+      "evidence_type": "厂商规格",
+      "conditions": "RK3588；峰值精度、稀疏性和功率未完整限定",
+      "finding": "不推广至S/S2/J所有接口或模型实测"
+    },
+    {
+      "claim": "RK3576内存32bit及Combo PHY",
+      "source_id": "Rockchip_RK3576",
+      "location": "详细参数：内存、Camera、接口",
+      "evidence_type": "事实",
+      "conditions": "RK3576当前网页；6TOPS星号缺说明",
+      "finding": "不能同时累加Combo全资源"
+    },
+    {
+      "claim": "RK1820/1828 2.5/5GB及20TOPS INT8",
+      "source_id": "Firefly_RK182X_Kit_PDF",
+      "location": "第23页；第4页RK1828",
+      "evidence_type": "厂商规格",
+      "conditions": "2026-08-17；dense/sparse和功率未列",
+      "finding": "系列官网不逐型号映射；由板商逐型号规格补核"
+    },
+    {
+      "claim": "RK182X高带宽DRAM及互联",
+      "source_id": "Rockchip_RK182X",
+      "location": "详细参数CPU/NPU/存储/接口",
+      "evidence_type": "事实",
+      "conditions": "系列页：USB3、2xPCIe2x1、RGMII",
+      "finding": "未取得GB/s与存内计算物理机制；不称HBM"
+    },
+    {
+      "claim": "RV1126B AI-ISP及五相机",
+      "source_id": "Rockchip_RV1126B",
+      "location": "主要特性及详细参数",
+      "evidence_type": "厂商规格",
+      "conditions": "12M30 ISP、8M30 AI-ISP、3TOPS",
+      "finding": "不证明五路各12M30并发/同步/P99"
+    },
+    {
+      "claim": "RK3568 ECC与RK3568J 512MAC",
+      "source_id": "Rockchip_RK3568J",
+      "location": "Key features / SPECIFICATIONS",
+      "evidence_type": "事实",
+      "conditions": "工业J产品页写512MAC；普通3568写1TOPS",
+      "finding": "不将普通峰值套J；ECC板级启用未核"
+    },
+    {
+      "claim": "RK3506变体及双CAN",
+      "source_id": "Rockchip_RK3506",
+      "location": "Detail SPEC",
+      "evidence_type": "事实",
+      "conditions": "B/J外接DDR；G1 64MB/G2 128MB",
+      "finding": "无NPU或WCET/安全认证证据"
+    },
+    {
+      "claim": "CM5准确SoC与版本冲突",
+      "source_id": "Radxa_CM5_Schematic_v221",
+      "location": "封面/第2—3页",
+      "evidence_type": "事实",
+      "conditions": "封面V2.21；内页V2.2、2024-03-25；RK3588S2",
+      "finding": "沿用S2规格，未虚构PCN"
+    },
+    {
+      "claim": "CM5供电",
+      "source_id": "Radxa_CM5",
+      "location": "Power Supply",
+      "evidence_type": "厂商规格",
+      "conditions": "3.6—5.2V，推荐4V3A，典型2A未给负载",
+      "finding": "12W为供电能力，不为TDP"
+    },
+    {
+      "claim": "ROCK5B与5B+内存和PCIe",
+      "source_id": "Radxa_ROCK5B_Intro",
+      "location": "Parameter Configuration",
+      "evidence_type": "厂商规格",
+      "conditions": "5B LPDDR4X/x4；Plus LPDDR5/双x2",
+      "finding": "容量不跨板SKU；eMMC配置独立"
+    },
+    {
+      "claim": "ROCK5B+框图旧标注",
+      "source_id": "Radxa_ROCK5BPlus_Schematic_v121",
+      "location": "第3、14、22—24页",
+      "evidence_type": "事实",
+      "conditions": "V1.21 2026-10-28",
+      "finding": "原图保留EKEY/LPDDR4，当前接口和具体电路页优先"
+    },
+    {
+      "claim": "40pin无PWRON/wake",
+      "source_id": "Radxa_ROCK5B_Interface",
+      "location": "No power-on / wake-up signal",
+      "evidence_type": "事实",
+      "conditions": "ROCK5B/5B+",
+      "finding": "上电管理不能假设GPIO唤醒"
+    },
+    {
+      "claim": "ROCK4D工业温度",
+      "source_id": "Radxa_ROCK4D",
+      "location": "Specifications/Temperature",
+      "evidence_type": "厂商规格",
+      "conditions": "商业0—60、工业-40—85°C",
+      "finding": "缺满载/散热/测量位置；不推广5T"
+    },
+    {
+      "claim": "ROCK5T Industrial频率",
+      "source_id": "Radxa_ROCK5T_Product",
+      "location": "Parameter Configuration",
+      "evidence_type": "厂商规格",
+      "conditions": "RK3588J；A76 1.6GHz/A55 1.29GHz",
+      "finding": "不套普通2.4/1.8GHz；温度本轮未取得"
+    },
+    {
+      "claim": "ROCK5T Industrial资源内部版本冲突",
+      "source_id": "Radxa_ROCK5T_Industrial_Schematic_v201",
+      "location": "下载页资源名/所取PDF第1—2页",
+      "evidence_type": "事实",
+      "conditions": "链接工业v2.01；PDF内页ROCK5T 1.2/2025-06-25",
+      "finding": "资源名不证明实际工业电路；工业芯片/频率依产品页，电路版本待板商确认"
+    },
+    {
+      "claim": "DualM2与Dual260P不同",
+      "source_id": "Firefly_RK182X_Kit_PDF",
+      "location": "第1/4/23/27页",
+      "evidence_type": "事实",
+      "conditions": "2026-08-17，两种载板",
+      "finding": "尺寸/网络/CAN/功耗分开；10个千兆口非10GbE"
+    },
+    {
+      "claim": "双芯整板功耗",
+      "source_id": "Firefly_RK182X_Kit_PDF",
+      "location": "第4页Power consumption",
+      "evidence_type": "厂商宣称",
+      "conditions": "1卡28.8W、2卡42W、RK3576+1卡28.8W Max，12V输入",
+      "finding": "未给负载/温度/统计；不作为单芯TDP"
+    },
+    {
+      "claim": "ROC板功耗与规格冲突",
+      "source_id": "Firefly_ROC_RK3588S_PDF",
+      "location": "第4—6页及网站宣传段",
+      "evidence_type": "厂商规格",
+      "conditions": "v1.2 2025-03-11；12W Max、4屏、PCIe2/SATA",
+      "finding": "网页7屏/Gen3/RX不作为板级能力；48MP不套普通RK3588"
+    },
+    {
+      "claim": "RK1828 Qwen2.5-7B测试",
+      "source_id": "Firefly_RK182X_Kit_PDF",
+      "location": "第24页LLM/VLM性能表",
+      "evidence_type": "厂商宣称",
+      "conditions": "RKNN3、w4a16、LLM输入128；161ms/59.09TPS",
+      "finding": "SDK版本、host、batch、时钟/功率、统计及完整链路缺失"
+    },
+    {
+      "claim": "π0.5超过5FPS",
+      "source_id": "Rockchip_Multicard_2026",
+      "location": "02 VLA端侧部署",
+      "evidence_type": "厂商宣称",
+      "conditions": "2026-09-22 RK3588+RK1828演示",
+      "finding": "无commit/量化/输入/chunk/任务成功率；非伺服频率"
+    },
+    {
+      "claim": "RK1860计划",
+      "source_id": "Rockchip_Multicard_2026",
+      "location": "03多卡级联：面向后续演进",
+      "evidence_type": "计划",
+      "conditions": "2026-09-22使用计划推出",
+      "finding": "不列当前可采购SKU"
+    },
+    {
+      "claim": "默认套件959USD",
+      "source_id": "Firefly_RK182X_Kit",
+      "location": "默认产品选项/价格",
+      "evidence_type": "事实",
+      "conditions": "RK3588S 8G64G+RK1820；数量1页面；未结算",
+      "finding": "非双M2双卡价格，税费/库存/地区未确定"
+    },
+    {
+      "claim": "10年生命周期服务主张",
+      "source_id": "Firefly_Home",
+      "location": "Customization服务段",
+      "evidence_type": "厂商宣称",
+      "conditions": "板商通用服务说明",
+      "finding": "非Rockchip逐SKU供货承诺，未取得PCN/EOL合同"
+    },
+    {
+      "claim": "内存容量与PCIe上限计算",
+      "source_id": "Rockchip_RK182X",
+      "location": "本文4.1、5.2",
+      "evidence_type": "分析",
+      "conditions": "7B*4bit/8=3.5GB裸权重；5GT/s*8/10/8=500MB/s",
+      "finding": "不代表完整模型可部署、实测带宽或透明多卡内存"
+    }
+  ],
+  "manual_review": {
+    "coverage": "01覆盖通用/视觉/控制SoC、协处理器、SOM、SBC、工业款、两种双芯载板、内存/接口/功率/热/安全/性能/价格/供应；完整芯片TRM与逐SKU生命周期未取得。",
+    "versions_and_measurements": "逐数字核对产品页、PDF第4/23/24页和电路目录；保留RK3568J 512MAC、ROCK5B+旧框图、CM5/ROC/SKU冲突；厂商峰值与实机闭环指标分开。",
+    "maturity_and_licenses": "只记产品文档、销售入口和公开演示；未做硬件/模型运行、下单或安全认证；文档CC BY4.0不推导完整平台许可，软件专题待02授权。",
+    "figures_opened": "7图已逐张打开：S2芯片图、CM5系统图、4D v1.12接口、Firefly PDF第3/4/24页、5B+ v1.21第3页。文字/标题/单位完整；5B+旧标注明确保留和解释。4D透明背景合成白底后复核。"
+  }
+}

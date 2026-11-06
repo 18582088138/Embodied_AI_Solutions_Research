@@ -1,0 +1,17 @@
+[
+ {"name":"Rockchip_CN_Products","url":"https://www.rock-chips.com/a/cn/product/index.html","expected":"html"},
+ {"name":"Rockchip_RK3576","url":"https://www.rock-chips.com/a/cn/product/RK35xilie/2024/1015/2016.html","expected":"html"},
+ {"name":"Rockchip_RK182X","url":"https://www.rock-chips.com/a/cn/product/RK18xilie/2025/1114/2113.html","expected":"html"},
+ {"name":"Rockchip_RV1126B","url":"https://www.rock-chips.com/a/cn/product/RV11xilie/2025/1208/2117.html","expected":"html"},
+ {"name":"Rockchip_Robotics_2026","url":"https://www.rock-chips.com/a/cn/news/rockchip/2026/0827/2177.html","expected":"html"},
+ {"name":"Rockchip_Inspection_2026","url":"https://www.rock-chips.com/a/cn/news/rockchip/2026/0828/2178.html","expected":"html"},
+ {"name":"Rockchip_Multicard_2026","url":"https://www.rock-chips.com/a/cn/news/rockchip/2026/0922/2181.html","expected":"html"},
+ {"name":"Rockchip_Download","url":"https://www.rock-chips.com/a/cn/downloadcenter/index.html","expected":"html"},
+ {"name":"Radxa_CM5","url":"https://docs.radxa.com/en/som/cm/cm5","expected":"html"},
+ {"name":"Radxa_ROCK5T","url":"https://docs.radxa.com/en/rock5/rock5t","expected":"html"},
+ {"name":"Radxa_ROCK4D","url":"https://docs.radxa.com/en/rock4/rock4d","expected":"html"},
+ {"name":"Radxa_ROCK5B_Start","url":"https://docs.radxa.com/en/rock5/rock5b/getting-started","expected":"html"},
+ {"name":"Radxa_ROCK5B_Download","url":"https://docs.radxa.com/en/rock5/rock5b/download","expected":"html"},
+ {"name":"Firefly_RK182X_Kit","url":"https://www.t-firefly.com/products/rk182x-3d-ram-stacking-development-kit","expected":"html"},
+ {"name":"Firefly_ROC_RK3588S","url":"https://www.t-firefly.com/products/roc-rk3588s-pc-8-core-8k-ai-mainboard","expected":"html"}
+]

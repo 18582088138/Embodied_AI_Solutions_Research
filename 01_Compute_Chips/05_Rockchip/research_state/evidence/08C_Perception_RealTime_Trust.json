@@ -1,0 +1,93 @@
+{
+  "source_ids": [
+    "Rockchip_RV1126B",
+    "RK03_Camera",
+    "RK03_V4L2_Buffer",
+    "RK03_OrbbecTime",
+    "Rockchip_Robotics_2026",
+    "RK02_RT_Preempt",
+    "RK08_Linux_Locks",
+    "RK02_AMP_Structure",
+    "RK02_AMP_Prereq",
+    "RK02_EtherCAT_Preparation",
+    "RK02_EtherCAT_Build",
+    "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "RK02_Secure_Config",
+    "RK02_SecureBoot",
+    "RK08_Jetson_Secure",
+    "RK02_RKNN3_License"
+  ],
+  "figures": [
+    {
+      "file": "01_Compute_Chips/05_Rockchip/reference_metrial/derived/figures/RKNN3_Encryption_p150.png",
+      "sha256": "38fa157d6609106c95332a76cef310b4cfc2b127d95c158a4dfdb591796df97c",
+      "source_id": "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+      "source_url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/02_RKNN3_SDK_Development_Guide_V1.2.0.pdf",
+      "original_file": "01_Compute_Chips/05_Rockchip/reference_metrial/documents/RK02_02_RKNN3_SDK_Dev--9d498a30029e5731/document.pdf",
+      "original_sha256": "50e56dd1e54deeec8584b0ce8a17286ba11e86898687e1826f77d7c8b6a39556",
+      "operation": "Poppler完整渲染PDF第150页scale-to1600，已打开，未裁剪"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "RK03_Camera",
+      "location": "IQ Files",
+      "claim": "isp20 xml configuration are not suitable for isp3x even after transfer",
+      "conditions": "kernel5.10示例；ISP3xJSON",
+      "finding": "sensor/IQ代际必须绑定",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "isp20 xml configuration are not suitable for isp3x even after transfer"
+    },
+    {
+      "source_id": "RK08_Linux_Locks",
+      "location": "rtmutex / semaphore / PREEMPT_RT",
+      "claim": "counting semaphores have no concept of owners",
+      "conditions": "官方锁语义，raw_spinlock与spinlock不同",
+      "finding": "优先级继承不消除所有不可抢占区",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "counting semaphores have no concept of owners"
+    },
+    {
+      "source_id": "RK02_AMP_Prereq",
+      "location": "4.2 Plan resources",
+      "claim": "DTS reserved-memory, ITS load/size, and the linker script must agree",
+      "conditions": "private/shared memory、外设/IRQ/IOMUX/clock",
+      "finding": "分核非完全隔离共享DRAM/电源",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "DTS reserved-memory, ITS load/size, and the linker script must agree"
+    },
+    {
+      "source_id": "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+      "location": "p150—151 Encrypted Model",
+      "claim": "AES-256-CTR ... RSA-OAEP",
+      "conditions": "用户AESkey与RKkey；init后load前解密key",
+      "finding": "密文传输为官方宣称；不推导完整篡改/安全认证",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "AES-256-CTR ... RSA-OAEP"
+    },
+    {
+      "source_id": "RK02_SecureBoot",
+      "location": "overview Notes",
+      "claim": "Rollback-index rollback settings are not supported",
+      "conditions": "特定Firefly Linux SDK文档",
+      "finding": "镜像认证非抗回滚或动作保护",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "Rollback-index rollback settings are not supported"
+    },
+    {
+      "source_id": "RK08_Jetson_Secure",
+      "location": "Secure Boot / Fuses and Security",
+      "claim": "Once a fuse bit is set to 1, you cannot change its value back to 0",
+      "conditions": "R36.4.4、BootROM/PKC/UEFI",
+      "finding": "机制比较，非安全性排名",
+      "evidence_type": "事实/厂商宣称/分析；正文分别标注",
+      "original_excerpt": "Once a fuse bit is set to 1, you cannot change its value back to 0"
+    }
+  ],
+  "manual_review": {
+    "coverage": "逐关键主张核对API/手册页码/条款/原文片段；性能与商业宣称、分析、未取得内容明确分开。",
+    "versions_and_measurements": "核对原文版本、对象、参数和测量边界；源码仅静态阅读，未安装或实测。移动分支commit未取得时明确限制。",
+    "maturity_and_licenses": "代码/权重/数据/二进制/固件/本体资产分别核对；不以公开仓库推导全部开源或商业授权。",
+    "figures_opened": "图像逐张实际打开并核对说明；无图专题在正文解释来源检索及取得缺口。"
+  }
+}

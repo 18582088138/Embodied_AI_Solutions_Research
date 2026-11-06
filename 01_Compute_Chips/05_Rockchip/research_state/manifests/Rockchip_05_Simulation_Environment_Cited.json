@@ -1,0 +1,52 @@
+[
+  {
+    "name": "RK05_GazeboInstall",
+    "url": "https://gazebosim.org/docs/harmonic/install_ubuntu/",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_ROS",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/ROS2/ros2-install-opengl",
+    "expected": "any"
+  },
+  {
+    "name": "RK05_Mujoco",
+    "url": "https://mujoco.readthedocs.io/en/stable/overview.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK05_MujocoCompute",
+    "url": "https://mujoco.readthedocs.io/en/stable/computation/index.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK05_GazeboSensor",
+    "url": "https://gazebosim.org/docs/harmonic/sensors/",
+    "expected": "any"
+  },
+  {
+    "name": "RK05_GazeboROS",
+    "url": "https://gazebosim.org/docs/harmonic/ros2_integration/",
+    "expected": "any"
+  },
+  {
+    "name": "RK05_LIBERO",
+    "url": "https://raw.githubusercontent.com/Lifelong-Robot-Learning/LIBERO/master/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK05_OpenpiLibero",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/examples/libero/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "Rockchip_Multicard_2026",
+    "url": "https://www.rock-chips.com/a/cn/news/rockchip/2026/0922/2181.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK05_MujocoLicense",
+    "url": "https://raw.githubusercontent.com/google-deepmind/mujoco/main/LICENSE",
+    "expected": "any"
+  }
+]

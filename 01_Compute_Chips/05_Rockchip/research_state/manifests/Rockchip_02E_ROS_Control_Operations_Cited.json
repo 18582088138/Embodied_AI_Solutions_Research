@@ -1,0 +1,77 @@
+[
+  {
+    "name": "RK02_ROS",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/ROS2/ros2-install-opengl",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_ROS_Verify",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/ROS2/ros2-verify-installation",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_ROS_Comm",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/ROS2/ros2-test-communication",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RT_Preempt",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/RT-Linux/rtlinux-preempt-rt",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_AMP",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/AMP/amp-overview",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_AMP_Structure",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/AMP/amp-sdk-structure",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_AMP_Prereq",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/AMP/amp-prerequisites",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_EtherCAT",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/EtherCAT/ethercat-overview-2",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_EtherCAT_Build",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/EtherCAT/ethercat-build-install",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_EtherCAT_Preparation",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/EtherCAT/ethercat-preparation",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_OTA_Linux",
+    "url": "https://community.t-firefly.com/en/docs/software/other/OTA/ota-linux",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_OTA",
+    "url": "https://community.t-firefly.com/en/docs/software/other/OTA/ota-overview",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_OTA_Android",
+    "url": "https://community.t-firefly.com/en/docs/software/other/OTA/ota-android",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_SecureBoot",
+    "url": "https://community.t-firefly.com/en/docs/software/other/SecureBoot/secureboot-overview",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_Secure_Config",
+    "url": "https://community.t-firefly.com/en/docs/software/other/SecureBoot/secureboot-config",
+    "expected": "any"
+  }
+]

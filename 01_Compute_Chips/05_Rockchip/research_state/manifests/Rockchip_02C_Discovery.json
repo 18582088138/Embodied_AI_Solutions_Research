@@ -1,0 +1,10 @@
+[
+ {"name":"RK02_RKLLM_Repo","url":"https://github.com/airockchip/rknn-llm","expected":"html"},
+ {"name":"RK02_RKLLM_Changes","url":"https://raw.githubusercontent.com/airockchip/rknn-llm/main/CHANGELOG.md","expected":"any"},
+ {"name":"RK02_RKLLM_Bench","url":"https://raw.githubusercontent.com/airockchip/rknn-llm/main/benchmark.md","expected":"any"},
+ {"name":"RK02_RKLLM_Figure","url":"https://raw.githubusercontent.com/airockchip/rknn-llm/main/res/framework.jpg","expected":"any"},
+ {"name":"RK02_RKLLM_License","url":"https://raw.githubusercontent.com/airockchip/rknn-llm/main/LICENSE","expected":"any"},
+ {"name":"RK02_RKLLM_API","url":"https://raw.githubusercontent.com/airockchip/rknn-llm/main/rkllm-runtime/Linux/librkllm_api/include/rkllm.h","expected":"any"},
+ {"name":"RK02_RKLLM_DemoGuide","url":"https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/rkllm_api_demo/README.md","expected":"any"},
+ {"name":"RK02_RKLLM_MMGuide","url":"https://raw.githubusercontent.com/airockchip/rknn-llm/main/examples/multimodal_model_demo/README.md","expected":"any"}
+]

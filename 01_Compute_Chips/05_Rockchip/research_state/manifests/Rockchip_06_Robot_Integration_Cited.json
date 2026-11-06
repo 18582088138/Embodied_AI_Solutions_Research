@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Rockchip_Robotics_2026",
+    "url": "https://www.rock-chips.com/a/cn/news/rockchip/2026/0827/2177.html",
+    "expected": "any"
+  },
+  {
+    "name": "Rockchip_Multicard_2026",
+    "url": "https://www.rock-chips.com/a/cn/news/rockchip/2026/0922/2181.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK04_PiConfig",
+    "url": "https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/src/openpi/models/pi0_config.py",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_EtherCAT_Preparation",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/EtherCAT/ethercat-preparation",
+    "expected": "any"
+  },
+  {
+    "name": "RK06_Controller",
+    "url": "https://community.t-firefly.com/en/docs/products/computers/EC-R3588RT/started",
+    "expected": "any"
+  },
+  {
+    "name": "RK06_ControllerBoard",
+    "url": "https://community.t-firefly.com/en/docs/products/motherboard/ROC-RK3588-RT/started",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_AMP_Prereq",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/AMP/amp-prerequisites",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_OTA_Linux",
+    "url": "https://community.t-firefly.com/en/docs/software/other/OTA/ota-linux",
+    "expected": "any"
+  }
+]

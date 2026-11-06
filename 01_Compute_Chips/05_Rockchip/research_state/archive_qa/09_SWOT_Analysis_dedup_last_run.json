@@ -1,0 +1,39 @@
+{
+  "time_utc": "2026-11-04T17:30:36.952888+00:00",
+  "summary": {
+    "complete_static": 11,
+    "partial_static": 14,
+    "failed": 0
+  },
+  "names": [
+    "RK09_FinancialAPI",
+    "RK09_FinancialAPI2",
+    "Rockchip_Robotics_2026",
+    "Rockchip_Multicard_2026",
+    "RK06_TerraMow",
+    "RK03_Camera",
+    "RK02_MPP_Readme",
+    "RK02_RGA_Guide",
+    "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "Firefly_Home",
+    "RK02_RK182X_Started",
+    "RK07_Production",
+    "RK02_RKNN2_Readme",
+    "RK02_RKLLM_Readme",
+    "RK04_OpenpiReadme",
+    "RK02_SecureBoot",
+    "RK02_AMP_Prereq",
+    "RK02_EtherCAT_Preparation",
+    "Rockchip_RK3588",
+    "RK02_RKNN3_License",
+    "Firefly_RK182X_Kit",
+    "RK07_Shipping",
+    "RK07_Return",
+    "Firefly_RK182X_Kit_PDF",
+    "RK09_GenAI"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

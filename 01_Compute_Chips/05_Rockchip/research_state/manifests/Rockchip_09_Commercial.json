@@ -1,0 +1,22 @@
+[
+  {
+    "name": "RK09_IRNews",
+    "url": "https://www.rock-chips.com/a/cn/tzzgx/news/index.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK09_IRService",
+    "url": "https://www.rock-chips.com/a/cn/tzzgx/tzzfw/index.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK09_GenAI",
+    "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+    "expected": "any"
+  },
+  {
+    "name": "RK09_PIPL",
+    "url": "https://www.gov.cn/xinwen/2021-08/20/content_5632486.htm",
+    "expected": "any"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "name": "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/02_RKNN3_SDK_Development_Guide_V1.2.0.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/00_RKNN3_SDK_Release_Notes_V1.2.0.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "Rockchip_RK182X",
+    "url": "https://www.rock-chips.com/a/cn/product/RK18xilie/2025/1114/2113.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_Camera",
+    "url": "https://community.t-firefly.com/en/docs/products/motherboard/AIO-3588JD4/usage-camera",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_AMP_Prereq",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/AMP/amp-prerequisites",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_V4L2_Buffer",
+    "url": "https://docs.kernel.org/userspace-api/media/v4l/buffer.html",
+    "expected": "any"
+  },
+  {
+    "name": "Rockchip_Multicard_2026",
+    "url": "https://www.rock-chips.com/a/cn/news/rockchip/2026/0922/2181.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK08_TRT_Explicit",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/quantized-types-explicit-quantization.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK08_TRT_WeightStream",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/weight-streaming.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_llamacpp_Compare",
+    "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKNN2_Readme",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-toolkit2/master/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "Rockchip_RV1126B",
+    "url": "https://www.rock-chips.com/a/cn/product/RV11xilie/2025/1208/2117.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_SecureBoot",
+    "url": "https://community.t-firefly.com/en/docs/software/other/SecureBoot/secureboot-overview",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_EtherCAT_Preparation",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/EtherCAT/ethercat-preparation",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKNN3_License",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/LICENSE",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RK182X_Started",
+    "url": "https://community.t-firefly.com/en/docs/products/accessories/RK182x/started",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKLLM_Readme",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn-llm/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RKNN3_Readme",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/README.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_07_RKNN3_Supported_Operators_and_Constraints_Reference_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/07_RKNN3_Supported_Operators_and_Constraints_Reference_V1.2.0.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK08_TRT_Quant",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/work-with-quantized-types.html",
+    "expected": "any"
+  },
+  {
+    "name": "Firefly_RK182X_Kit_PDF",
+    "url": "https://download.t-firefly.com/Spec/Suite/RK182X-Development-Kit_Specifications_EN.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RGA_Guide",
+    "url": "https://raw.githubusercontent.com/airockchip/librga/main/docs/Rockchip_Developer_Guide_RGA_CN.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RGA_FAQ",
+    "url": "https://raw.githubusercontent.com/airockchip/librga/main/docs/Rockchip_FAQ_RGA_CN.md",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_06_RKLLM3_Server_User_Guide_V1.2.0",
+    "url": "https://raw.githubusercontent.com/airockchip/rknn3-toolkit/main/doc/EN/06_RKLLM3_Server_User_Guide_V1.2.0.pdf",
+    "expected": "any"
+  },
+  {
+    "name": "RK03_OrbbecTime",
+    "url": "https://raw.githubusercontent.com/orbbec/OrbbecSDK_v2/main/docs/tutorial/timestamp.md",
+    "expected": "any"
+  },
+  {
+    "name": "Rockchip_Robotics_2026",
+    "url": "https://www.rock-chips.com/a/cn/news/rockchip/2026/0827/2177.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_RT_Preempt",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/RT-Linux/rtlinux-preempt-rt",
+    "expected": "any"
+  },
+  {
+    "name": "RK08_Linux_Locks",
+    "url": "https://docs.kernel.org/locking/locktypes.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_AMP_Structure",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/AMP/amp-sdk-structure",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_EtherCAT_Build",
+    "url": "https://community.t-firefly.com/en/docs/software/industry-robot/EtherCAT/ethercat-build-install",
+    "expected": "any"
+  },
+  {
+    "name": "RK02_Secure_Config",
+    "url": "https://community.t-firefly.com/en/docs/software/other/SecureBoot/secureboot-config",
+    "expected": "any"
+  },
+  {
+    "name": "RK08_Jetson_Secure",
+    "url": "https://docs.nvidia.com/jetson/archives/r36.4.4/DeveloperGuide/SD/Security/SecureBoot.html",
+    "expected": "any"
+  }
+]

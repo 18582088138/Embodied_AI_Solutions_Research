@@ -1,0 +1,28 @@
+{
+  "time_utc": "2026-11-04T16:24:07.976822+00:00",
+  "summary": {
+    "complete_static": 13,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "RK02_RKNN2_Readme",
+    "RK02_Zoo_Readme",
+    "RK02_YOLO8_Guide",
+    "RK02_YOLO8_Convert",
+    "RK02_RKNN2_Changes",
+    "RK02_RKNN2_API",
+    "RK02_YOLO8_Runtime",
+    "RK02_TensorRT_Compare",
+    "RK02_RKNN2_License",
+    "RK02_Zoo_License",
+    "RK02_YOLO8_Source",
+    "RK02_RKNN2_Figure",
+    "RK02_YOLO8_OutputFigure",
+    "RK02_YOLO8_GraphFigure"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

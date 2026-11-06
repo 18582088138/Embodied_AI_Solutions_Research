@@ -1,0 +1,23 @@
+{
+  "01_Hardware_Platform.md": "11057c73a4161ea06d9d4ecdc31b84cb2849bc0d5ea24c24e1c6672a0c74f164",
+  "02A_BSP_Multimedia.md": "170873af3c74eecee4425424905c49842cc1ad1bb062eefe07383c34f96d1406",
+  "02B_RKNN2_Compiler_Runtime.md": "e7bc7261e157690b49db65c01ba78793a105f7057d0dbd70035f5f9cf5767fe0",
+  "02C_RKLLM.md": "043f9507aa881fd24e03bcaf03bfa16afe5c46a19dbff5dc2d0d2c96987f2083",
+  "02D_RKNN3_RK182X.md": "2d2a81c07ffb881e8d74d527683570c6fca1b613002036306b4967e5a14d5b3f",
+  "02E_ROS_Control_Operations.md": "d3a49851e72fa83690c5d60fe559bc69c5b6a87b873ade87921987847280e528",
+  "02_Software_Stack.md": "995a71b30ff38df3d6d235c458aac50fb9b5f2420abcddc19a3570d7c657d3aa",
+  "02_Topics_Index.md": "1e135597b57cb5cf16a87af54f8ead0bf9d693d1d6f2a58041c7694a153feeea",
+  "03_Sensor_Integration.md": "52a51bed49274f760eb9fb6e29adece29ee6ca82150fd24af357c7401a152a25",
+  "04_AI_Capabilities.md": "f9c845d026522792a4c5330d0ffcf977e063bfe5cd29de1fd853a8eed908d0b2",
+  "05_Simulation_Environment.md": "9ce58c7deb6992abeabd70ba85dc616a6606c966d454093467d06824ea201122",
+  "06_Robot_Integration.md": "7f7cb9499e1737f3d8d89a440b4ca8299b5fb3004cda53e6c4b9792f3d2cd6f7",
+  "07_Ecosystem.md": "88bba093aebf536f36202e475613b4ed35b20263779f0516119375d4723bfc30",
+  "08A_Quantization_Compiler.md": "b6778f6b96d270f663634d86fdf7f02e6dbd8e0747e1468b1c59ab193a279d2a",
+  "08B_Memory_Coprocessor_Multicard.md": "fa2f8e05bdd7a71459f30adcc3734574011e474d27a82582c3135c17daa811b9",
+  "08C_Perception_RealTime_Trust.md": "25d49efdbf376b07a8484eb1b8670a696adece1724d77aab0e314cc5e0c581e3",
+  "08_Core_Technology_Moat.md": "8089328bbc801b9d90b8cbd55406d730e5402b244fb7802871881a9ba4bf6350",
+  "08_Proprietary_Technologies.md": "2d3243fd6015c982067aaf17d42be94716adcf173113807c27045308e8efe735",
+  "08_Topics_Index.md": "63a43d358272fe487d2310baba64049d8f9895a114552a8d970045d20da9ad2a",
+  "09_SWOT_Analysis.md": "866f7ffdb4297365ccc3b04af813ace8536efebe151be8bf8fe5ec41b7f8fdae",
+  "Research_Index.md": "a71ba8cf605d9d20280a593e58c4e182199d78b885a285181f1852253866f557"
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "RK09_FinancialIndex",
+    "url": "https://www.rock-chips.com/a/cn/tzzgx/news/cwbg/index.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK09_Announcement",
+    "url": "https://www.rock-chips.com/a/cn/tzzgx/news/zxgg/index.html",
+    "expected": "any"
+  }
+]

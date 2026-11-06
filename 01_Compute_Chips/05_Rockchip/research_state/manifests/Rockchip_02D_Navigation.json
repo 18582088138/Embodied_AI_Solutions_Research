@@ -1,0 +1,4 @@
+[
+ {"name":"RK02_Firefly_Docs","url":"https://community.t-firefly.com/en/docs","expected":"html"},
+ {"name":"RK02_AIRockchip_Repos","url":"https://github.com/airockchip?tab=repositories","expected":"html"}
+]

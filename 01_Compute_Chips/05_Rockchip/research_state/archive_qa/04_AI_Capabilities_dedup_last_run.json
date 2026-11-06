@@ -1,0 +1,26 @@
+{
+  "time_utc": "2026-11-04T16:56:30.337847+00:00",
+  "summary": {
+    "complete_static": 10,
+    "partial_static": 2,
+    "failed": 0
+  },
+  "names": [
+    "RK02_00_RKNN3_SDK_Release_Notes_V1.2.0",
+    "RK02_RKNN3_ZooReadme",
+    "RK02_RKLLM_Readme",
+    "RK04_OpenpiReadme",
+    "RK04_PiConfig",
+    "RK04_PiModel",
+    "RK04_DroidPolicy",
+    "RK04_Remote",
+    "Rockchip_Multicard_2026",
+    "RK04_Qwen3VL",
+    "RK04_RAFT",
+    "RK04_Diffusion"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

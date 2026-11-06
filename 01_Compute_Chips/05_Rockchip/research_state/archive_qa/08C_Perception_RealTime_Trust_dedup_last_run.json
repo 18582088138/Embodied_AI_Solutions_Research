@@ -1,0 +1,30 @@
+{
+  "time_utc": "2026-11-04T17:21:57.293763+00:00",
+  "summary": {
+    "complete_static": 6,
+    "partial_static": 10,
+    "failed": 0
+  },
+  "names": [
+    "Rockchip_RV1126B",
+    "RK03_Camera",
+    "RK03_V4L2_Buffer",
+    "RK03_OrbbecTime",
+    "Rockchip_Robotics_2026",
+    "RK02_RT_Preempt",
+    "RK08_Linux_Locks",
+    "RK02_AMP_Structure",
+    "RK02_AMP_Prereq",
+    "RK02_EtherCAT_Preparation",
+    "RK02_EtherCAT_Build",
+    "RK02_02_RKNN3_SDK_Development_Guide_V1.2.0",
+    "RK02_Secure_Config",
+    "RK02_SecureBoot",
+    "RK08_Jetson_Secure",
+    "RK02_RKNN3_License"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

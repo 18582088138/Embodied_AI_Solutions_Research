@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Rockchip_Robotics_2026",
+    "url": "https://www.rock-chips.com/a/cn/news/rockchip/2026/0827/2177.html",
+    "expected": "any"
+  },
+  {
+    "name": "RK06_Controller",
+    "url": "https://community.t-firefly.com/en/docs/products/computers/EC-R3588RT/started",
+    "expected": "any"
+  },
+  {
+    "name": "RK06_ControllerBoard",
+    "url": "https://community.t-firefly.com/en/docs/products/motherboard/ROC-RK3588-RT/started",
+    "expected": "any"
+  }
+]

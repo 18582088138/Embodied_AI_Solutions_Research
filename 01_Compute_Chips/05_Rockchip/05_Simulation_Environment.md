@@ -1,0 +1,69 @@
+# 05 仿真环境：第三方路线、板端执行与sim-to-real
+
+截止2026-11-05。已检索Rockchip产品/模型SDK与Firefly软件目录，并查阅Gazebo、MuJoCo、LIBERO及openpi官方/作者文档；本轮未取得Rockchip自研机器人仿真引擎、完整场景资产库或已验证的NPU训练平台。这不是“没有仿真路线”：可采用第三方仿真与外部GPU训练，再让Rockchip执行端策略。但兼容性与量产维护由具体依赖/BSP/任务决定，本文未在RK板卡安装或跑benchmark。
+
+## 一、三种路线及责任分界
+
+| 路线 | 运行域/职责 | 已核验材料 | 尚需实测 |
+| --- | --- | --- | --- |
+| Gazebo＋ROS | 第三方仿真、消息/传感器与导航联调 | Harmonic安装、sensor插件、ros_gz bridge | ARM64包/图形后端、BSP与ROS版本组合 |
+| MuJoCo C/Python | 动力学、接触、控制回归 | mjModel/mjData与计算pipeline | RK目标构建/数值一致性/步进吞吐 |
+| 外部仿真/训练＋板端策略 | 仿真/学习留工作站，RK推理真实或仿真观测 | openpi WebSocket客户端、LIBERO评估 | RPC/板端转换、数据年龄与超时 |
+| 大规模GPU学习 | MJX/JAX或MuJoCo Warp等第三方后端 | MuJoCo官方后端说明 | 不能从Mali或NPU推出CUDA/Warp支持 |
+| 厂商独立仿真资产/编排 | 本轮未取得 | RKNN3为编译/运行，非物理引擎 | 供应商明确交付物、版本和资产许可 |
+
+Gazebo Harmonic页面明确是“较旧但仍支持”，LTS为2023-09至2029-05，二进制说明Ubuntu22.04/24.04；不是截至采集日的最新版本。它不逐一证明Rockchip ARM64/Mali/FireflyBSP组合，不能据安装命令里的dpkg架构替代实测。Humble与Harmonic的具体桥接组合还需冻结ROS/Gazebo分支及包版本；Firefly的Humble安装支持不自动证明Harmonic一键可用。[RK05_GazeboInstall](https://gazebosim.org/docs/harmonic/install_ubuntu/)（[本地原件](REFERENCES.md#ref-fa5f1533cd4b520b)) [RK02_ROS](https://community.t-firefly.com/en/docs/software/industry-robot/ROS2/ros2-install-opengl)（[本地原件](REFERENCES.md#ref-74cead783219a4cf))
+
+## 二、资产、接触与时间步：从画面到动力学
+
+MuJoCo资产路径是MJCF/URDF→parser→mjSpec→compiler→mjModel，运行状态在mjData，MJB是版本相关二进制，应保留源XML/MJZ而不能只交付缓存。mjModel包含机械参数/选项，mjData包含qpos/qvel、ctrl、接触/约束和传感器状态；多个rollout可共享只读模型并各自持有状态，具体线程/后端支持仍要按版本验。模型默认由geom推惯量时用了均匀密度假设，不能把CAD外观当实测惯量。[RK05_Mujoco](https://mujoco.readthedocs.io/en/stable/overview.html)（[本地原件](REFERENCES.md#ref-745c39f10cd62e88))
+
+计算遵循 M·dv/dt+c=τ+Jᵀf：运动学、惯性/偏置力、碰撞与约束、执行器、积分相互关联。控制输入ctrl经transmission/activation/gain/bias成力，位置/速度目标不是直接改变真实关节；阻尼/滤波、饱和与delay会改变策略表现。物理更新用opt.timestep和所选积分器；文档说明半隐式Euler/implicitfast/RK4等有不同稳定性/成本，不能把渲染FPS当动力学步数。filterexact与Euler积分的稳定条件也不同，时间常数小于步长时简单Euler滤波可能发散。[RK05_MujocoCompute](https://mujoco.readthedocs.io/en/stable/computation/index.html)（[本地原件](REFERENCES.md#ref-50bc861c2b70fd1e))
+
+![MuJoCo官方软接触模型示意，非Rockchip性能图](assets/figures/99819c066db4861611a77f2a--15340e3d168c.png)
+
+图来自官方计算文档的soft-contact讨论，说明不同摩擦/软约束参数下模型曲线关系；不是平台速度图。MuJoCo放宽严格接触互补条件，以凸优化的代价处理软接触，便于求解与参数辨识；仍是现实近似，不能凭可优化或视觉穿透小就判定接触真实。必须标定接触刚度/阻尼、摩擦、夹爪顺应性和物体惯量，验证滑动、挤压与释放行为。发动机/求解器升级与容差变化会改变轨迹，不能把stable网页的当前算法能力套旧LIBERO依赖。
+
+分析示例：物理dt=0.002s为500Hz仿真步，控制每10tick为50Hz，相机每约16—17tick为30Hz，策略5Hz每次可跨多个控制步；这是一组假设调度，没有Rockchip性能测量。render、sensor、controller和policy频率独立；相机不整除物理步时需定义时间对齐/插值或周期分布。若real-time factor<1，仿真“时间”慢于真实墙钟，硬件执行端若按墙钟deadline会出现不同反馈，必须明确lock-step或异步模式。
+
+## 三、传感器与ROS桥接的实际对象
+
+Gazebo教程用SDF1.9、Physics/SceneBroadcaster、Imu/Contact/TouchPlugin与gpu_lidar等插件。加入一个plugin后默认plugin不再自动加载，漏Physics会使场景有模型却无正确动态。IMU例子update_rate1Hz只是教学设置，不能用于真实运动融合；update_rate定义生成频率，always_on和topic决定运行/发布。Contact示例碰墙后停，是仿真功能演示，不是驱动器急停或安全认证。[RK05_GazeboSensor](https://gazebosim.org/docs/harmonic/sensors/)（[本地原件](REFERENCES.md#ref-88ad3a901e3c8187))
+
+ros_gz_bridge只支持特定消息类型，topic映射包含ROS/Gazebo类型、方向、subscriber/publisher queue、lazy；@双向、[Gazebo→ROS、]ROS→Gazebo。可桥接LaserScan、joint/TF等，但要核对坐标/单位、时间源、QoS及消息类型版本，不能把网络桥称零拷贝。使用lazy后无人订阅可能不生成内部订阅，录像/评估时需要确认是否改变采样。ROS与仿真时钟应统一use_sim_time与clock映射，并避免双向环路；当前官方教程展示桥接与RViz轨迹，未测RK端队列/拷贝时延。[RK05_GazeboROS](https://gazebosim.org/docs/harmonic/ros2_integration/)（[本地原件](REFERENCES.md#ref-a3cce413441e10e6))
+
+在外部仿真＋RK执行的硬件在环路线，仿真发送与真实相机同语义的RGB/深度/IMU和关节状态，板端执行转换后的策略，回传动作给模拟执行器。优点是保留板端runtime、队列和RPC代价，失效条件是仿真观测布局/标定/采集时间与真实相机不同。应分别测锁步性能（单次推理反馈）与实时运行（过期、丢帧、积压），不要将离线批量仿真吞吐当真实闭环速度。该路线是基于已取得接口的分析建议，本轮未取得Rockchip官方完整硬件在环工程。
+
+## 四、学习评估与sim-to-real证据
+
+LIBERO作者提供130任务：Spatial/Object/Goal与LIBERO100，后者90预训练/10测试；任务带BDDL描述与语言，OffScreenRenderEnv示例128×128，固定初始状态，env.step返回obs/reward/done/info。当前README示例仅稀疏成功奖励，重点终身模仿学习，不能称已实现所有强化学习训练算法。作者安装依赖含Python3.8.13/PyTorch1.11 CUDA11.3，明显不同于openpi现代环境，应隔离仿真与policy环境，不能把两个requirements简单合并。[RK05_LIBERO](https://raw.githubusercontent.com/Lifelong-Robot-Learning/LIBERO/master/README.md)（[本地原件](REFERENCES.md#ref-69c657d453ca6e88))
+
+openpi LIBERO示例用独立policy server、Docker或分开环境，渲染可选EGL/GLX；客户端执行动作chunk。π0.5@30k微调在Spatial98.8/Object98.2/Goal98.0/Libero10 92.4，平均96.85，来自作者pi05_libero checkpoint与仿真任务。它不是RK1828优化π0.5的结果，不能与厂商5FPS联合推导96.85%真实成功。批次数、seed、初始状态、最大步数和成功定义要随复现工程冻结，仿真成功不包含驱动器/物体误差和现场人工干预。[RK05_OpenpiLibero](https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/examples/libero/README.md)（[本地原件](REFERENCES.md#ref-e0c2cad03f683ff0)) [Rockchip_Multicard_2026](https://www.rock-chips.com/a/cn/news/rockchip/2026/0922/2181.html)（[本地原件](REFERENCES.md#ref-ed5b70feb4b4688c))
+
+域随机化可扰动光照、材质、相机位置、物体尺寸/惯量、摩擦、关节阻尼、延迟/噪声，但参数范围必须来自测量或明确假设。视觉纹理影响RGB，不自动决定LiDAR/Radar反射；需要对应传感器模型。真实留出集应含新物体/背景、遮挡/反射、标定变化、不同速度与温度，记录成功/尝试、人工介入和异常。系统辨识先核对执行器响应、关节摩擦与相机延迟，再评估随机化是否提高真实表现，不因视频逼真就宣称sim-to-real通过。
+
+## 五、性能与许可的交付要求
+
+本轮没有Gazebo/MuJoCo在RK3588、RK3576、RK3572或RK182X的同条件benchmark，故不给仿真并行数量、FPS或加速排名。MuJoCo核心C engine、图形OpenGL、MJX/JAX与Warp后端要分别测试，不能把GPU可显示、RKNN可推理等同物理求解加速。性能日志需场景/机器人数量、碰撞复杂度、物理dt/ticks、相机分辨率/频率、render开关、CPU/GPU/RAM、kernel/驱动、warmup、样本、real-time factor和总链路时间；仿真变快也可能瓶颈转移到ROS/策略。
+
+MuJoCo根LICENSE为Apache2.0，LIBERO README列代码MIT、数据CC BY4.0；Gazebo网页默认CC BY4.0，但引擎各组件、第三方插件、Fuel场景、模型mesh/纹理许可应逐资产核对。openpi代码许可不自动覆盖checkpoint和所有数据。正式交付需源资产/版本/哈希、坐标和惯量、校准/噪声模型、环境锁、训练配置、随机seed与评估脚本，以及真实留出报告；当前研究完成机制与路线核验，未证明板端仿真、NPU训练或真实泛化已经验收。[RK05_MujocoLicense](https://raw.githubusercontent.com/google-deepmind/mujoco/main/LICENSE)（[本地原件](REFERENCES.md#ref-cee9684c68f37452)) [RK05_LIBERO](https://raw.githubusercontent.com/Lifelong-Robot-Learning/LIBERO/master/README.md)（[本地原件](REFERENCES.md#ref-69c657d453ca6e88))
+
+
+## 参考资料与本地原文
+
+采集时间逐项列出；移动分支及无版本网页仅代表此次快照。HTML 保留正文与可取得静态依赖，动态交互、视频及缺失依赖不保证完整。未进行目标板安装或实机性能验证。
+
+| 来源 | 原 URL | 本地原件 | 采集 UTC | 归档状态 |
+| --- | --- | --- | --- | --- |
+| RK05_GazeboInstall | [原文](https://gazebosim.org/docs/harmonic/install_ubuntu/) | [归档](REFERENCES.md#ref-fa5f1533cd4b520b) | 2026-11-04T16:56:55.236367+00:00 | complete_static；缺失依赖 1 |
+| RK02_ROS | [原文](https://community.t-firefly.com/en/docs/software/industry-robot/ROS2/ros2-install-opengl) | [归档](REFERENCES.md#ref-74cead783219a4cf) | 2026-11-04T16:37:46.890138+00:00 | partial_static；缺失依赖 2 |
+| RK05_Mujoco | [原文](https://mujoco.readthedocs.io/en/stable/overview.html) | [归档](REFERENCES.md#ref-745c39f10cd62e88) | 2026-11-04T16:57:20.117784+00:00 | partial_static；缺失依赖 1 |
+| RK05_MujocoCompute | [原文](https://mujoco.readthedocs.io/en/stable/computation/index.html) | [归档](REFERENCES.md#ref-50bc861c2b70fd1e) | 2026-11-04T16:57:38.511246+00:00 | partial_static；缺失依赖 1 |
+| RK05_GazeboSensor | [原文](https://gazebosim.org/docs/harmonic/sensors/) | [归档](REFERENCES.md#ref-88ad3a901e3c8187) | 2026-11-04T16:57:17.980190+00:00 | complete_static；缺失依赖 1 |
+| RK05_GazeboROS | [原文](https://gazebosim.org/docs/harmonic/ros2_integration/) | [归档](REFERENCES.md#ref-a3cce413441e10e6) | 2026-11-04T16:57:15.319087+00:00 | complete_static；缺失依赖 1 |
+| RK05_LIBERO | [原文](https://raw.githubusercontent.com/Lifelong-Robot-Learning/LIBERO/master/README.md) | [归档](REFERENCES.md#ref-69c657d453ca6e88) | 2026-11-04T16:57:44.588728+00:00 | complete_static；缺失依赖 0 |
+| RK05_OpenpiLibero | [原文](https://raw.githubusercontent.com/Physical-Intelligence/openpi/main/examples/libero/README.md) | [归档](REFERENCES.md#ref-e0c2cad03f683ff0) | 2026-11-04T16:57:45.689311+00:00 | complete_static；缺失依赖 0 |
+| Rockchip_Multicard_2026 | [原文](https://www.rock-chips.com/a/cn/news/rockchip/2026/0922/2181.html) | [归档](REFERENCES.md#ref-ed5b70feb4b4688c) | 2026-11-04T15:46:57.771231+00:00 | partial_static；缺失依赖 3 |
+| RK05_MujocoLicense | [原文](https://raw.githubusercontent.com/google-deepmind/mujoco/main/LICENSE) | [归档](REFERENCES.md#ref-cee9684c68f37452) | 2026-11-04T16:57:42.566537+00:00 | complete_static；缺失依赖 0 |
+
+[证据记录](research_state/evidence/05_Simulation_Environment.json)；[本章开始前哈希基线](research_state/baselines/05_Simulation_Environment_before.json)。检查和去重记录由专题索引汇总。

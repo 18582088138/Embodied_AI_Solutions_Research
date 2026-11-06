@@ -1,0 +1,16 @@
+[
+ {"name":"RK02_Radxa_OS","url":"https://docs.radxa.com/en/rock5/rock5b/radxa-os","expected":"html"},
+ {"name":"RK02_Firefly_Buildroot","url":"https://community.t-firefly.com/en/docs/software/os-guide/Buildroot/buildroot-desktop","expected":"html"},
+ {"name":"RK02_Firefly_GPU","url":"https://community.t-firefly.com/en/docs/software/graphics/GPU/gpu-driver","expected":"html"},
+ {"name":"RK02_Firefly_FFMedia","url":"https://community.t-firefly.com/en/docs/software/multimedia/FFMedia/ffmedia-core","expected":"html"},
+ {"name":"RK02_Firefly_GStreamer","url":"https://community.t-firefly.com/en/docs/software/multimedia/GStreamer/gstreamer-introduction","expected":"html"},
+ {"name":"RK02_MPP_Readme","url":"https://raw.githubusercontent.com/rockchip-linux/mpp/develop/readme.txt","expected":"any"},
+ {"name":"RK02_MPP_Tree","url":"https://api.github.com/repos/rockchip-linux/mpp/git/trees/develop?recursive=1","expected":"json"},
+ {"name":"RK02_RGA_Readme","url":"https://raw.githubusercontent.com/airockchip/librga/main/README.md","expected":"any"},
+ {"name":"RK02_RGA_Tree","url":"https://api.github.com/repos/airockchip/librga/git/trees/main?recursive=1","expected":"json"},
+ {"name":"RK02_RKNN2_Readme","url":"https://raw.githubusercontent.com/airockchip/rknn-toolkit2/master/README.md","expected":"any"},
+ {"name":"RK02_RKNN2_Tree","url":"https://api.github.com/repos/airockchip/rknn-toolkit2/git/trees/master?recursive=1","expected":"json"},
+ {"name":"RK02_RKLLM_Readme","url":"https://raw.githubusercontent.com/airockchip/rknn-llm/main/README.md","expected":"any"},
+ {"name":"RK02_RKLLM_Tree","url":"https://api.github.com/repos/airockchip/rknn-llm/git/trees/main?recursive=1","expected":"json"},
+ {"name":"RK02_RKNN3_Repo","url":"https://github.com/airockchip/rknn3","expected":"html"}
+]
