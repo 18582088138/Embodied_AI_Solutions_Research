@@ -1,0 +1,18 @@
+[
+  {
+    "name": "OpenLoong_Control_License_Actual",
+    "url": "https://raw.githubusercontent.com/loongOpen/OpenLoong-Dyn-Control/main/license",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "OpenLoong_Hardware_License_Actual",
+    "url": "https://raw.githubusercontent.com/loongOpen/OpenLoong-Hardware/main/license",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

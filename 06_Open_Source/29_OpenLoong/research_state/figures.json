@@ -1,0 +1,13 @@
+[
+  {
+    "file": "06_Open_Source/29_OpenLoong/assets/figures/01_official.png",
+    "sha256": "9cc3563751599b98ffef3e2d03664286e9c83ab63906b6f2637abbc42b0093e0",
+    "source_id": "OpenLoong_RealRobot_Gif",
+    "source_url": "https://raw.githubusercontent.com/loongOpen/OpenLoong-Dyn-Control/main/assets/%E8%A1%8C%E8%B5%B0.gif",
+    "original_file": "06_Open_Source/29_OpenLoong/reference_metrial/data/OpenLoong_RealRobot_Gif--348a05d128e6a3f3/content.gif",
+    "original_sha256": "42fd7f5ad6171ab168c98969f99e6908be719f011570f7c2cfa3e48090167219",
+    "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; animation frame 300 (0-based).",
+    "label": "Qinglong physical prototype walking",
+    "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+  }
+]

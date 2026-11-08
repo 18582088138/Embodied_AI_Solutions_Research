@@ -1,0 +1,34 @@
+[
+  {
+    "name": "OpenLoong_Web",
+    "url": "https://www.openloong.org.cn/",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "OpenLoong_Hardware",
+    "url": "https://raw.githubusercontent.com/loongOpen/OpenLoong-Hardware/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "OpenLoong_Control",
+    "url": "https://raw.githubusercontent.com/loongOpen/OpenLoong-Dyn-Control/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "OpenLoong_LICENSE",
+    "url": "https://raw.githubusercontent.com/loongOpen/OpenLoong-Dyn-Control/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

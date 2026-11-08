@@ -1,0 +1,10 @@
+[
+  {
+    "name": "OpenLoong_Hardware_PDF",
+    "url": "https://raw.githubusercontent.com/loongOpen/OpenLoong-Hardware/main/%E9%9D%92%E9%BE%99%E5%85%A8%E5%B0%BA%E5%AF%B8%E9%80%9A%E7%94%A8%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%A1%AC%E4%BB%B6%E5%BC%80%E6%BA%90%E5%86%85%E5%AE%B9.pdf",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

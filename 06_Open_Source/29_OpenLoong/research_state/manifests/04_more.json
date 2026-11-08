@@ -1,0 +1,42 @@
+[
+  {
+    "name": "OpenLoong_Contents",
+    "url": "https://api.github.com/repos/loongOpen/OpenLoong-Dyn-Control/contents/",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "OpenLoong_Hardware_Contents",
+    "url": "https://api.github.com/repos/loongOpen/OpenLoong-Hardware/contents/",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "OpenLoong_Hardware_CN",
+    "url": "https://raw.githubusercontent.com/loongOpen/OpenLoong-Hardware/main/README-zh.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "OpenLoong_Tutorial",
+    "url": "https://raw.githubusercontent.com/loongOpen/OpenLoong-Dyn-Control/main/Tutorial.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "OpenLoong_RealRobot_Gif",
+    "url": "https://raw.githubusercontent.com/loongOpen/OpenLoong-Dyn-Control/main/assets/%E8%A1%8C%E8%B5%B0.gif",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]
