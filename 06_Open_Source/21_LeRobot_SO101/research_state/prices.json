@@ -1,0 +1,43 @@
+[
+  {
+    "sku": "SO101 follower BOM",
+    "amount": 682.23,
+    "currency": "CNY",
+    "type": "official_reference_bom",
+    "source_id": "SO101_Hardware",
+    "included": "单执行臂列示零件",
+    "excluded": "打印件、相机、电脑、人工/运税",
+    "collected_on": "2026-11-08 Asia/Shanghai",
+    "not_a_transaction": true
+  },
+  {
+    "sku": "SO101 leader+follower BOM",
+    "amount": 1343.16,
+    "recomputed_amount": 1354.76,
+    "currency": "CNY",
+    "type": "official_reference_bom_with_arithmetic_difference",
+    "source_id": "SO101_Hardware",
+    "collected_on": "2026-11-08 Asia/Shanghai",
+    "not_a_transaction": true
+  },
+  {
+    "sku": "WowRobo Package2",
+    "amount": 259,
+    "currency": "USD",
+    "type": "vendor_list_price",
+    "source_id": "SO101_WowRobo_Price",
+    "included": "未装配双臂+1相机",
+    "collected_on": "2026-11-08 Asia/Shanghai",
+    "not_a_transaction": true
+  },
+  {
+    "sku": "WowRobo Package3",
+    "amount": 299,
+    "currency": "USD",
+    "type": "vendor_list_price",
+    "source_id": "SO101_WowRobo_Price",
+    "included": "已装配双臂+1相机",
+    "collected_on": "2026-11-08 Asia/Shanghai",
+    "not_a_transaction": true
+  }
+]

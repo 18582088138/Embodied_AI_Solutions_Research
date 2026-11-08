@@ -1,0 +1,24 @@
+[
+  {
+    "file": "06_Open_Source/21_LeRobot_SO101/assets/figures/01_official.png",
+    "sha256": "0fec8b153b895b842ca6bd98c93f180a5282142334ca17b0e7071c3d0a9a3351",
+    "source_id": "SO101_Follower_Image",
+    "source_url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/media/SO101_Follower.webp",
+    "original_file": "06_Open_Source/21_LeRobot_SO101/reference_metrial/data/SO101_Follower_Image--bc60a7f8d3a6b4c0/content.webp",
+    "original_sha256": "855809851ecf2ac5a28b2f0050b4baca3adc5a18c5175908399f9c6a52dd6877",
+    "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop.",
+    "label": "SO-101 follower",
+    "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+  },
+  {
+    "file": "06_Open_Source/21_LeRobot_SO101/assets/figures/02_official.png",
+    "sha256": "7e9e483f8cebd0acc0b9ab17aa90e9cf55c65ceb0fcb6391c0c20448c9ad726f",
+    "source_id": "SO101_Leader_Image",
+    "source_url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/media/SO101_Leader.webp",
+    "original_file": "06_Open_Source/21_LeRobot_SO101/reference_metrial/data/SO101_Leader_Image--dfb5c485da500e38/content.webp",
+    "original_sha256": "5f60d1c14a0d322d077c5a239bf9ee3599a1488e7234706eed35f6986366961b",
+    "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop.",
+    "label": "SO-101 leader",
+    "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+  }
+]

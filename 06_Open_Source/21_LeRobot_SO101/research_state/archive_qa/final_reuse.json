@@ -1,0 +1,23 @@
+{
+  "time_utc": "2026-11-08T07:18:19.326060+00:00",
+  "summary": {
+    "complete_static": 6,
+    "partial_static": 3,
+    "failed": 0
+  },
+  "names": [
+    "SO101_Hardware",
+    "SO101_Docs",
+    "LeRobot_README",
+    "SO101_WowRobo_Price",
+    "SO101_Seeed_Price",
+    "LeRobot_LICENSE",
+    "SO101_LICENSE",
+    "SO101_Follower_Image",
+    "SO101_Leader_Image"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

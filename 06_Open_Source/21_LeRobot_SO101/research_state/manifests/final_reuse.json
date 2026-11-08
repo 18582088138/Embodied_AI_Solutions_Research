@@ -1,0 +1,74 @@
+[
+  {
+    "name": "SO101_Hardware",
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "SO101_Docs",
+    "url": "https://huggingface.co/docs/lerobot/so101",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "LeRobot_README",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "SO101_WowRobo_Price",
+    "url": "https://shop.wowrobo.com/products/so-arm101-diy-kit-assembled-version-1",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "SO101_Seeed_Price",
+    "url": "https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit.html",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "LeRobot_LICENSE",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "SO101_LICENSE",
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "SO101_Follower_Image",
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/media/SO101_Follower.webp",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "SO101_Leader_Image",
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/media/SO101_Leader.webp",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

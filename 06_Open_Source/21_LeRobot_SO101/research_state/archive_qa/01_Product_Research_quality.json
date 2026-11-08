@@ -1,0 +1,24 @@
+{
+  "report": "06_Open_Source/21_LeRobot_SO101/01_Product_Research.md",
+  "body_han_chars": 1891,
+  "tables": 1,
+  "sources": 9,
+  "archive_status": {
+    "complete_static": 6,
+    "partial_static": 3
+  },
+  "figures": 2,
+  "file_hash_checks": 63,
+  "html_visible_text_equal": 3,
+  "page_local_dependencies_checked": 44,
+  "report_local_links": 8,
+  "other_reports_unchanged": {},
+  "errors": [],
+  "warnings": [
+    "静态依赖部分缺失: SO101_Docs（报告应披露）",
+    "静态依赖部分缺失: SO101_WowRobo_Price（报告应披露）",
+    "静态依赖部分缺失: SO101_Seeed_Price（报告应披露）"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

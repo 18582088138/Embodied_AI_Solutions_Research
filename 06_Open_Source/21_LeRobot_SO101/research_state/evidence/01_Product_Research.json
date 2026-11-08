@@ -1,0 +1,77 @@
+{
+  "source_ids": [
+    "SO101_Hardware",
+    "SO101_Docs",
+    "LeRobot_README",
+    "SO101_WowRobo_Price",
+    "SO101_Seeed_Price",
+    "LeRobot_LICENSE",
+    "SO101_LICENSE",
+    "SO101_Follower_Image",
+    "SO101_Leader_Image"
+  ],
+  "figures": [
+    {
+      "file": "06_Open_Source/21_LeRobot_SO101/assets/figures/01_official.png",
+      "sha256": "0fec8b153b895b842ca6bd98c93f180a5282142334ca17b0e7071c3d0a9a3351",
+      "source_id": "SO101_Follower_Image",
+      "source_url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/media/SO101_Follower.webp",
+      "original_file": "06_Open_Source/21_LeRobot_SO101/reference_metrial/data/SO101_Follower_Image--bc60a7f8d3a6b4c0/content.webp",
+      "original_sha256": "855809851ecf2ac5a28b2f0050b4baca3adc5a18c5175908399f9c6a52dd6877",
+      "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop.",
+      "label": "SO-101 follower",
+      "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+    },
+    {
+      "file": "06_Open_Source/21_LeRobot_SO101/assets/figures/02_official.png",
+      "sha256": "7e9e483f8cebd0acc0b9ab17aa90e9cf55c65ceb0fcb6391c0c20448c9ad726f",
+      "source_id": "SO101_Leader_Image",
+      "source_url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/media/SO101_Leader.webp",
+      "original_file": "06_Open_Source/21_LeRobot_SO101/reference_metrial/data/SO101_Leader_Image--dfb5c485da500e38/content.webp",
+      "original_sha256": "5f60d1c14a0d322d077c5a239bf9ee3599a1488e7234706eed35f6986366961b",
+      "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop.",
+      "label": "SO-101 leader",
+      "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "SO101_Hardware",
+      "claim": "单臂与双臂 BOM、多区域价格、人民币合计差异",
+      "location": "Parts for Two Arms / Single Arm",
+      "conditions": "2026-11-08 main 原件；只比较同表物料",
+      "finding": "保留原表数字，并明确双臂人民币按明细复算为1354.76；不混入打印/相机。",
+      "evidence_type": "事实"
+    },
+    {
+      "source_id": "SO101_WowRobo_Price",
+      "claim": "Package1/2/3分别199/259/299美元",
+      "location": "页面内产品 variants JSON",
+      "conditions": "同页 package 与颜色；供应商列价",
+      "finding": "已核对包含项；库存和成交价未确认。",
+      "evidence_type": "事实"
+    },
+    {
+      "source_id": "SO101_Seeed_Price",
+      "claim": "历史购买链接实际对应SO-ARM100旧套件",
+      "location": "页面产品名称/SKU/状态",
+      "conditions": "SKU114993608，非SO101装配整机",
+      "finding": "不将旧SKU价格迁移至SO101。",
+      "evidence_type": "事实"
+    },
+    {
+      "source_id": "LeRobot_LICENSE",
+      "claim": "代码许可Apache2.0",
+      "location": "LICENSE",
+      "conditions": "只覆盖库本身",
+      "finding": "与硬件/权重/数据分开。",
+      "evidence_type": "事实"
+    }
+  ],
+  "manual_review": {
+    "coverage": "已逐项审阅市场定位、价格口径、国内/海外获取、软硬件及数据链路、分层许可、优劣势、条件选型和验证步骤。",
+    "versions_and_measurements": "以2026-11-08归档为可追溯快照；论文/BOM/供应商报价分开；未将展示、峰值或仿真替换为实机验收。",
+    "maturity_and_licenses": "代码和硬件许可分别核对，权重/数据/外部依赖按正文列出未取得部分；没有用仓库可见性代替商用授权。",
+    "figures_opened": "正文全部图片已逐张通过view_image打开核查；图源、版本和衍生操作保留在figures.json。"
+  }
+}

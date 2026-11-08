@@ -1,0 +1,34 @@
+[
+  {
+    "name": "LeRobot_README",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "LeRobot_LICENSE",
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "SO101_Hardware",
+    "url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "SO101_Docs",
+    "url": "https://huggingface.co/docs/lerobot/so101",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]
