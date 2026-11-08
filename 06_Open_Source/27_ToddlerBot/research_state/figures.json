@@ -1,0 +1,13 @@
+[
+  {
+    "file": "06_Open_Source/27_ToddlerBot/assets/figures/01_official.png",
+    "sha256": "27b56e9eee92762040c306c19ee452cb70544a739289d4110ad9f13618f0cd34",
+    "source_id": "ToddlerBot_Web",
+    "source_url": "https://toddlerbot.github.io/static/images/design.png",
+    "original_file": "06_Open_Source/27_ToddlerBot/reference_metrial/webpages/ToddlerBot_Web--7fdb59a80e3adfe7/assets/images/05c7002325f5f9599023e703.png",
+    "original_sha256": "e6ec529653b32eca6a18aaea62764bb2dc1a69955993ec9836de0c599025cb81",
+    "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop.",
+    "label": "ToddlerBot mechatronic design",
+    "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+  }
+]

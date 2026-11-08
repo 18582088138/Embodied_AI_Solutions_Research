@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ToddlerBot_Code",
+    "url": "https://raw.githubusercontent.com/hshi74/toddlerbot/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "ToddlerBot_Code_LICENSE",
+    "url": "https://raw.githubusercontent.com/hshi74/toddlerbot/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "ToddlerBot_Paper",
+    "url": "https://arxiv.org/pdf/2502.00893",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

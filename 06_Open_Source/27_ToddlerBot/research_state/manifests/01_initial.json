@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ToddlerBot_Web",
+    "url": "https://toddlerbot.github.io/",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "ToddlerBot_README",
+    "url": "https://raw.githubusercontent.com/stanfordtoddlerbot/toddlerbot/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "ToddlerBot_LICENSE",
+    "url": "https://raw.githubusercontent.com/stanfordtoddlerbot/toddlerbot/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

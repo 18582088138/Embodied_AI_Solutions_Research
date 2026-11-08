@@ -1,0 +1,133 @@
+[
+  {
+    "id": "ToddlerBot_Paper",
+    "aliases": [
+      "ToddlerBot_Paper"
+    ],
+    "url": "https://arxiv.org/pdf/2502.00893",
+    "final_url": "https://arxiv.org/pdf/2502.00893",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:50:32.915776+00:00",
+    "retrieved_at_utc": "2026-11-08T06:50:40.073842+00:00",
+    "status": 200,
+    "content_type": "",
+    "sha256": "4525a90e6e3d311cd13f15c3b89622c244123165086808f450e2db6a11cd3cf0",
+    "original_sha256": "4525a90e6e3d311cd13f15c3b89622c244123165086808f450e2db6a11cd3cf0",
+    "file": "06_Open_Source/27_ToddlerBot/reference_metrial/documents/ToddlerBot_Paper--6d8ef12cfcdb9b5b/document.pdf",
+    "original_file": "06_Open_Source/27_ToddlerBot/reference_metrial/documents/ToddlerBot_Paper--6d8ef12cfcdb9b5b/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-6d8ef12cfcdb9b5b",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "ToddlerBot_Code_LICENSE",
+    "aliases": [
+      "ToddlerBot_Code_LICENSE"
+    ],
+    "url": "https://raw.githubusercontent.com/hshi74/toddlerbot/main/LICENSE",
+    "final_url": "https://raw.githubusercontent.com/hshi74/toddlerbot/main/LICENSE",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:50:31.129315+00:00",
+    "retrieved_at_utc": "2026-11-08T06:50:32.861482+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "ea8a3a2b13c83dc0274d2fcaa12812f12254ee4003c644b272e1341ea1ec25f4",
+    "original_sha256": "ea8a3a2b13c83dc0274d2fcaa12812f12254ee4003c644b272e1341ea1ec25f4",
+    "file": "06_Open_Source/27_ToddlerBot/reference_metrial/data/ToddlerBot_Code_LICENSE--6291c65ccb42eb77/content.txt",
+    "original_file": "06_Open_Source/27_ToddlerBot/reference_metrial/data/ToddlerBot_Code_LICENSE--6291c65ccb42eb77/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-6291c65ccb42eb77",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "ToddlerBot_Code",
+    "aliases": [
+      "ToddlerBot_Code"
+    ],
+    "url": "https://raw.githubusercontent.com/hshi74/toddlerbot/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/hshi74/toddlerbot/main/README.md",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:50:29.407131+00:00",
+    "retrieved_at_utc": "2026-11-08T06:50:31.081828+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "816f99af569f5a242a432454df58c86258102e857bf08a6520b338cfe47e4acc",
+    "original_sha256": "816f99af569f5a242a432454df58c86258102e857bf08a6520b338cfe47e4acc",
+    "file": "06_Open_Source/27_ToddlerBot/reference_metrial/data/ToddlerBot_Code--52c7eaf87957502b/content.md",
+    "original_file": "06_Open_Source/27_ToddlerBot/reference_metrial/data/ToddlerBot_Code--52c7eaf87957502b/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-52c7eaf87957502b",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "ToddlerBot_LICENSE",
+    "aliases": [
+      "ToddlerBot_LICENSE"
+    ],
+    "url": "https://raw.githubusercontent.com/stanfordtoddlerbot/toddlerbot/main/LICENSE",
+    "archive_status": "failed",
+    "archived_at_utc": "2026-11-08T06:49:02.930822+00:00",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "error": "HTTPError: HTTP Error 404: Not Found",
+    "catalog_anchor": "ref-62db1658eddd9864",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "ToddlerBot_README",
+    "aliases": [
+      "ToddlerBot_README"
+    ],
+    "url": "https://raw.githubusercontent.com/stanfordtoddlerbot/toddlerbot/main/README.md",
+    "archive_status": "failed",
+    "archived_at_utc": "2026-11-08T06:49:01.285573+00:00",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "error": "HTTPError: HTTP Error 404: Not Found",
+    "catalog_anchor": "ref-7750d3115d074318",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "ToddlerBot_Web",
+    "aliases": [
+      "ToddlerBot_Web"
+    ],
+    "url": "https://toddlerbot.github.io/",
+    "final_url": "https://toddlerbot.github.io/",
+    "archive_status": "partial_static",
+    "archived_at_utc": "2026-11-08T06:48:32.735697+00:00",
+    "retrieved_at_utc": "2026-11-08T06:48:35.441997+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "ad829ea09317afd4e860360691c5aeff9c16638d5863cd8e45469540f358e95f",
+    "original_sha256": "9fd0f12e35b80b7ddbb1754de9b0da4a9531555530e3be07c606536146bf97d0",
+    "file": "06_Open_Source/27_ToddlerBot/reference_metrial/webpages/ToddlerBot_Web--7fdb59a80e3adfe7/index.html",
+    "original_file": "06_Open_Source/27_ToddlerBot/reference_metrial/webpages/ToddlerBot_Web--7fdb59a80e3adfe7/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "visible_text_unchanged": true,
+    "catalog_anchor": "ref-7fdb59a80e3adfe7",
+    "assets_count": 28,
+    "unavailable_assets_count": 25,
+    "unavailable_presentation_assets_count": 25
+  }
+]
