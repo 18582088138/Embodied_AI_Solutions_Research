@@ -4,7 +4,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PREFIXES = ('01_Compute_Chips/', '02_Core_Components/', '03_Robot_Manufacturers/',
-            '04_AI_Models/', '05_Software_and_OS/', 'toolkit/', '_Evidence/', '.agents/')
+            '04_AI_Models/', '05_Software_and_OS/', '06_Open_Source/',
+            'toolkit/', '_Evidence/', '.agents/')
 
 
 def map_values(value, transform):

@@ -1,0 +1,13 @@
+{
+  "28_AgiBot_X1": {
+    "X1_Product": "https://www.agibot.com/products/X1",
+    "X1_Infer_License_Actual": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_infer/main/LICENSE.txt",
+    "X1_Hardware_Tree": "https://api.github.com/repos/AgibotTech/agibot_x1_hardware/git/trees/main?recursive=1"
+  },
+  "30_XLeRobot": {
+    "XLeRobot_Store_Photo": "https://shop.wowrobo.com/cdn/shop/files/en-01.jpg?v=1757607447"
+  },
+  "23_ALOHA_Mobile_ALOHA": {
+    "ALOHA_Trossen_Store": "https://www.trossenrobotics.com/aloha.aspx"
+  }
+}

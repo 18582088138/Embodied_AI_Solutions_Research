@@ -1524,5 +1524,26 @@
     "title": "全栈开发与云：华为云、Microsoft Azure — SWOT 分析",
     "status": "首轮资料；待后续深度调研",
     "sha256": "5c56fb9f8bd8361a4091b794af36e9c5c914ed237ff17953a48b703637c8a65e"
+  },
+  {
+    "path": "06_Open_Source/21_LeRobot_SO101/01_Product_Research.md",
+    "project": "06_Open_Source/21_LeRobot_SO101",
+    "title": "LeRobot + SO-101：低成本桌面具身学习方案",
+    "status": "产品级首轮调研已交付；待用户审阅和实机验证",
+    "sha256": "7ee0b2cc621321d1f71194cb3d5a6f8e56bac918e787217ee0f74a26b8353ad0"
+  },
+  {
+    "path": "06_Open_Source/22_OpenArm/01_Product_Research.md",
+    "project": "06_Open_Source/22_OpenArm",
+    "title": "OpenArm：开放硬件的接触操作与双臂科研平台",
+    "status": "产品级首轮调研已交付；待用户审阅和实机验证",
+    "sha256": "0c78a621dbf913bb74686ba440c95b5cea0eeb2698f525ccda79fb26a034744a"
+  },
+  {
+    "path": "06_Open_Source/23_ALOHA_Mobile_ALOHA/01_Product_Research.md",
+    "project": "06_Open_Source/23_ALOHA_Mobile_ALOHA",
+    "title": "ALOHA / Mobile ALOHA：双臂模仿学习与移动操作方案",
+    "status": "产品级首轮调研已交付；待用户审阅和实机验证",
+    "sha256": "a268d80b6372b0dcb4d0bed47a002075c0c4dc4a171d1bf4944910205d17eb56"
   }
 ]

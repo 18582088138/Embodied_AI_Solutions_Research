@@ -1,0 +1,16 @@
+{
+  "26_Berkeley_Humanoid_Lite": {
+    "BHL_Actual_LICENSE": "https://raw.githubusercontent.com/HybridRobotics/berkeley-humanoid-lite/main/LICENCE"
+  },
+  "29_OpenLoong": {
+    "OpenLoong_Contents": "https://api.github.com/repos/loongOpen/OpenLoong-Dyn-Control/contents/",
+    "OpenLoong_Hardware_Contents": "https://api.github.com/repos/loongOpen/OpenLoong-Hardware/contents/",
+    "OpenLoong_Hardware_CN": "https://raw.githubusercontent.com/loongOpen/OpenLoong-Hardware/main/README-zh.md",
+    "OpenLoong_Tutorial": "https://raw.githubusercontent.com/loongOpen/OpenLoong-Dyn-Control/main/Tutorial.md",
+    "OpenLoong_RealRobot_Gif": "https://raw.githubusercontent.com/loongOpen/OpenLoong-Dyn-Control/main/assets/%E8%A1%8C%E8%B5%B0.gif"
+  },
+  "30_XLeRobot": {
+    "XLeRobot_README": "https://raw.githubusercontent.com/Vector-Wangel/XLeRobot/main/README.md",
+    "XLeRobot_LICENSE": "https://raw.githubusercontent.com/Vector-Wangel/XLeRobot/main/LICENSE"
+  }
+}

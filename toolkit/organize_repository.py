@@ -15,6 +15,7 @@ CATEGORIES = {
     '03_Robot_Manufacturers': '机器人厂商与场景',
     '04_AI_Models': 'AI 模型',
     '05_Software_and_OS': '软件与操作系统',
+    '06_Open_Source': '开源具身智能方案',
 }
 
 
@@ -24,7 +25,48 @@ def write_json(path, value):
 
 
 def projects():
-    return [p for cat in CATEGORIES if (ROOT / cat).is_dir() for p in sorted((ROOT / cat).iterdir()) if p.is_dir()]
+    return [p for cat in CATEGORIES if (ROOT / cat).is_dir() for p in category_projects(cat)]
+
+
+def category_projects(category):
+    return [p for p in sorted((ROOT / category).iterdir())
+            if p.is_dir() and re.match(r'^\d\d_', p.name)]
+
+
+def product_summary(state):
+    return ('产品级首轮调研已交付；待用户审阅和实机验证'
+            if '01_Product_Research' in state.get('completed_dimensions', [])
+            else '候选资料已归档；产品报告待编写')
+
+
+def build_selected_indexes(category):
+    """Register one category without rewriting unrelated reports or their indexes."""
+    from prepare_git_sources import prepare
+    index_path = ROOT / 'research-index.json'
+    index = json.loads(index_path.read_text(encoding='utf-8-sig'))
+    index = [item for item in index if not item['project'].startswith(category + '/')]
+    lines = [f'## [{category} · {CATEGORIES[category]}]({category}/README.md)', '',
+             '新增日期：2026-11-08。首轮报告与候选资料分别标记；调研计划和当前核验记录见类别入口。', '']
+    for project in category_projects(category):
+        prepare(project)
+        state_path = project / 'research_state/progress.json'
+        state = json.loads(state_path.read_text(encoding='utf-8-sig')) if state_path.exists() else {}
+        reports = [p for p in sorted(project.glob('*.md')) if re.match(r'^\d\d[A-Z]?_', p.name) and 'Index' not in p.name]
+        lines.append(f'- [{project.name}]({category}/{project.name}/README.md) — {product_summary(state)}；{len(reports)} 份报告。')
+        for report in reports:
+            title = next((x.lstrip('# ').strip() for x in report.read_text(encoding='utf-8-sig').splitlines() if x.startswith('# ')), report.stem)
+            index.append(dict(path=report.relative_to(ROOT).as_posix(), project=project.relative_to(ROOT).as_posix(),
+                              title=title, status=product_summary(state), sha256=hashlib.sha256(report.read_bytes()).hexdigest()))
+    section = '\n'.join(lines) + '\n\n'
+    readme = ROOT / 'README.md'
+    text = readme.read_text(encoding='utf-8-sig')
+    pattern = rf'^## \[{re.escape(category)} · .*?(?=^## |\Z)'
+    if re.search(pattern, text, re.M | re.S):
+        text = re.sub(pattern, lambda _: section, text, flags=re.M | re.S)
+    else:
+        text = text.replace('## 下载与复用', section + '## 下载与复用', 1)
+    readme.write_text(text, encoding='utf-8')
+    write_json(index_path, index)
 
 
 def normalize():
@@ -88,6 +130,8 @@ def normalize():
 
 
 def status_for(project, report, state):
+    if state.get('research_type') == 'product_multidimensional':
+        return product_summary(state)
     if project.name == '01_NVIDIA':
         return '既有深度报告；保留原核验记录'
     done = state.get('completed_dimensions', [])
@@ -98,7 +142,10 @@ def status_for(project, report, state):
     return '首轮资料；待后续深度调研'
 
 
-def build_indexes():
+def build_indexes(category=None):
+    if category:
+        build_selected_indexes(category)
+        return
     from prepare_git_sources import prepare
     index = []
     root_lines = ['# 具身智能解决方案研究', '',
@@ -119,16 +166,15 @@ def build_indexes():
         lines = [f'# {cat} · {title}', '', '[返回研究首页](../README.md)', '']
         root_lines.append(f'## [{cat} · {title}]({cat}/README.md)')
         root_lines.append('')
-        for project in sorted((ROOT / cat).iterdir()):
-            if not project.is_dir():
-                continue
+        for project in category_projects(cat):
             prepare(project)
             state_path = project / 'research_state/progress.json'
             state = json.loads(state_path.read_text(encoding='utf-8-sig')) if state_path.exists() else {}
             reports = [p for p in sorted(project.glob('*.md')) if re.match(r'^\d\d[A-Z]?_', p.name)
                        and 'Index' not in p.name]
             completed = len(state.get('completed_dimensions', []))
-            summary = ('既有 01—09 深度报告' if project.name == '01_NVIDIA' else
+            summary = (product_summary(state) if state.get('research_type') == 'product_multidimensional' else
+                       '既有 01—09 深度报告' if project.name == '01_NVIDIA' else
                        '01—02 深度调研；03—09 为首轮简报' if project.name == '07_Cambricon' else
                        '01—09 深度调研已交付，审阅状态见分项记录' if completed >= 9 else
                        '首轮资料，待深度调研')
@@ -163,8 +209,10 @@ def build_indexes():
                 dest = project / 'research_state/revisions/README_before_organization.md'
                 dest.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(previous, dest)
-            previous.write_text('\n'.join(readme), encoding='utf-8')
-        (ROOT / cat / 'README.md').write_text('\n'.join(lines) + '\n', encoding='utf-8')
+            if state.get('research_type') != 'product_multidimensional':
+                previous.write_text('\n'.join(readme), encoding='utf-8')
+        if not (ROOT / cat / 'RESEARCH_PLAN.md').exists():
+            (ROOT / cat / 'README.md').write_text('\n'.join(lines) + '\n', encoding='utf-8')
         root_lines.append('')
     root_lines.extend(['## 下载与复用', '',
                        'GitHub 主仓库保存报告、正文图表、来源清单、skill、工具与核验记录。完整 HTML/PDF 原件、网页依赖和媒体保留本地，不纳入 Git 或 LFS；clone 不会自动取得这些原件。', '',
@@ -174,12 +222,17 @@ def build_indexes():
     write_json(ROOT / 'research-index.json', index)
 
 
-def check():
+def check(category=None):
     errors = []
     count = 0
     report_count = 0
-    for project in projects():
-        for report in project.glob('*.md'):
+    selected = category_projects(category) if category else projects()
+    navigation = [ROOT / 'README.md']
+    navigation += list((ROOT / category).glob('*.md')) if category else [ROOT / cat / 'README.md' for cat in CATEGORIES if (ROOT / cat).is_dir()]
+    for folder in selected:
+        navigation.extend(folder.glob('*.md'))
+    for report in navigation:
+        if report.is_file():
             report_count += 1
             for value in re.findall(r'\]\(([^)]+)\)', report.read_text(encoding='utf-8-sig')):
                 value = unquote(value.strip('<>'))
@@ -189,11 +242,11 @@ def check():
                 target = (report.parent / value.split('#')[0]).resolve()
                 if not target.exists() or not target.is_relative_to(ROOT):
                     errors.append({'report': report.relative_to(ROOT).as_posix(), 'link': value})
-    result = {'organized_on': '2026-11-06 Asia/Shanghai', 'projects': len(projects()),
+    result = {'organized_on': '2026-11-08 Asia/Shanghai' if category else '2026-11-06 Asia/Shanghai', 'projects': len(selected),
               'markdown_files_checked': report_count, 'local_links_checked': count,
               'errors': errors, 'outcome': 'pass' if not errors else 'fail',
               'scope': 'Current project Markdown local links and navigation; original research checks remain historical. No new semantic or hardware validation.'}
-    write_json(ROOT / 'validation.json', result)
+    write_json(ROOT / category / 'research_state/navigation_quality.json' if category else ROOT / 'validation.json', result)
     print(json.dumps(result, ensure_ascii=False), flush=True)
     return bool(errors)
 
@@ -202,9 +255,10 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--normalize', action='store_true', help='One-time absolute-path migration; preserves original response bytes')
     parser.add_argument('--build-indexes', action='store_true')
+    parser.add_argument('--category', choices=list(CATEGORIES), help='Update only this category and its root navigation/index entries')
     args = parser.parse_args()
     if args.normalize:
         write_json(ROOT / 'docs/organization/path_changes.json', normalize())
     if args.build_indexes:
-        build_indexes()
-    raise SystemExit(check())
+        build_indexes(args.category)
+    raise SystemExit(check(args.category))

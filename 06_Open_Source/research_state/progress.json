@@ -1,0 +1,37 @@
+{
+  "project": "开源具身智能方案",
+  "category": "06_Open_Source",
+  "initiated_on": "2026-11-08 Asia/Shanghai",
+  "authorization": "在Embodied_AI_Solutions_Research中增加一个“开源具身智能方案”的子项目的调研工作",
+  "project_registered": true,
+  "phase": "first_round_reports_and_candidate_registration",
+  "planned_products": [
+    "21_LeRobot_SO101",
+    "22_OpenArm",
+    "23_ALOHA_Mobile_ALOHA",
+    "24_Reachy2",
+    "25_Reachy_Mini",
+    "26_Berkeley_Humanoid_Lite",
+    "27_ToddlerBot",
+    "28_AgiBot_X1",
+    "29_OpenLoong",
+    "30_XLeRobot"
+  ],
+  "completed_first_round_products": [
+    "21_LeRobot_SO101",
+    "22_OpenArm",
+    "23_ALOHA_Mobile_ALOHA"
+  ],
+  "pending_products": [
+    "24_Reachy2",
+    "25_Reachy_Mini",
+    "26_Berkeley_Humanoid_Lite",
+    "27_ToddlerBot",
+    "28_AgiBot_X1",
+    "29_OpenLoong",
+    "30_XLeRobot"
+  ],
+  "user_review_status": "未取得用户审阅",
+  "hardware_validation_status": "未开展实机测试",
+  "next_step": "Reachy 2为下一份产品报告，按研究计划逐项继续；已交付三篇按各自缺口补深。"
+}

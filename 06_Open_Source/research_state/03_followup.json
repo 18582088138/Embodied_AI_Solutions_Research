@@ -1,0 +1,26 @@
+{
+  "24_Reachy2": {
+    "Reachy2_Description": "https://raw.githubusercontent.com/pollen-robotics/reachy2_description/main/README.md",
+    "Reachy2_Description_LICENSE": "https://raw.githubusercontent.com/pollen-robotics/reachy2_description/main/LICENSE"
+  },
+  "25_Reachy_Mini": {
+    "ReachyMini_Official": "https://www.pollen-robotics.com/reachy-mini/"
+  },
+  "23_ALOHA_Mobile_ALOHA": {
+    "Mobile_ALOHA_Paper": "https://arxiv.org/pdf/2401.02117",
+    "Mobile_ALOHA_Preview": "https://mobile-aloha.github.io/static/images/preview.gif"
+  },
+  "26_Berkeley_Humanoid_Lite": {
+    "BHL_Paper": "https://lite.berkeley-humanoid.org/static/paper/demonstrating-berkeley-humanoid-lite.pdf",
+    "BHL_Repo_Contents": "https://api.github.com/repos/HybridRobotics/Berkeley-Humanoid-Lite/contents/"
+  },
+  "27_ToddlerBot": {
+    "ToddlerBot_Code": "https://raw.githubusercontent.com/hshi74/toddlerbot/main/README.md",
+    "ToddlerBot_Code_LICENSE": "https://raw.githubusercontent.com/hshi74/toddlerbot/main/LICENSE",
+    "ToddlerBot_Paper": "https://arxiv.org/pdf/2502.00893"
+  },
+  "28_AgiBot_X1": {
+    "X1_Repo_Search": "https://api.github.com/search/repositories?q=agibot_x1",
+    "X1_Official": "https://www.agibot.com/"
+  }
+}

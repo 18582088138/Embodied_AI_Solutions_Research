@@ -1,0 +1,16 @@
+{
+  "21_LeRobot_SO101": {
+    "SO101_Follower_Image": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/media/SO101_Follower.webp",
+    "SO101_Leader_Image": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/media/SO101_Leader.webp",
+    "SO101_LICENSE": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/LICENSE",
+    "SO101_Seeed_Price": "https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit.html",
+    "SO101_WowRobo_Price": "https://shop.wowrobo.com/products/so-arm101-diy-kit-assembled-version-1"
+  },
+  "22_OpenArm": {
+    "OpenArm_Purchase": "https://docs.openarm.dev/purchase",
+    "OpenArm_Hardware_README": "https://raw.githubusercontent.com/enactic/openarm_hardware/main/README.md",
+    "OpenArm_Hardware_LICENSE": "https://raw.githubusercontent.com/enactic/openarm_hardware/main/LICENSE.txt",
+    "OpenArm_ROS2": "https://raw.githubusercontent.com/enactic/openarm_ros2/main/README.md",
+    "OpenArm_ROS2_LICENSE": "https://raw.githubusercontent.com/enactic/openarm_ros2/main/LICENSE"
+  }
+}

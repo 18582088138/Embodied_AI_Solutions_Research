@@ -21,6 +21,12 @@ class PortablePathsTest(unittest.TestCase):
             root = Path(folder)
             self.assertEqual(restore(obj, root)['file'], (root / obj['file']).as_posix())
 
+    def test_open_source_evidence_is_restored_after_clone(self):
+        obj = {'file': '06_Open_Source/21_LeRobot_SO101/reference_metrial/data/content.md'}
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            self.assertEqual(restore(obj, root)['file'], (root / obj['file']).as_posix())
+
 
 if __name__ == '__main__':
     unittest.main()

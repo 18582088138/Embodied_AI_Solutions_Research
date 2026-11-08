@@ -1,0 +1,11 @@
+{
+  "22_OpenArm": {
+    "OpenArm_Cell_Photo": "https://raw.githubusercontent.com/enactic/openarm/main/website/static/img/hardware/openarm_and_cell.png"
+  },
+  "28_AgiBot_X1": {
+    "X1_BOM": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_hardware/main/%E6%99%BA%E5%85%83%E7%81%B5%E7%8A%80X1_20250307/%E6%99%BA%E5%85%83%E7%81%B5%E7%8A%80X1%E6%80%BBBOM.xlsx"
+  },
+  "29_OpenLoong": {
+    "OpenLoong_Hardware_PDF": "https://raw.githubusercontent.com/loongOpen/OpenLoong-Hardware/main/%E9%9D%92%E9%BE%99%E5%85%A8%E5%B0%BA%E5%AF%B8%E9%80%9A%E7%94%A8%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%A1%AC%E4%BB%B6%E5%BC%80%E6%BA%90%E5%86%85%E5%AE%B9.pdf"
+  }
+}

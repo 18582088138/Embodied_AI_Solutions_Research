@@ -50,6 +50,21 @@
 - [19_Simulation_Training_Platforms](05_Software_and_OS/19_Simulation_Training_Platforms/README.md) — 首轮资料，待深度调研；5 份章节/专题。
 - [20_Full_Stack_Cloud_Platforms](05_Software_and_OS/20_Full_Stack_Cloud_Platforms/README.md) — 首轮资料，待深度调研；5 份章节/专题。
 
+## [06_Open_Source · 开源具身智能方案](06_Open_Source/README.md)
+
+新增日期：2026-11-08。首轮报告与候选资料分别标记；调研计划和当前核验记录见类别入口。
+
+- [21_LeRobot_SO101](06_Open_Source/21_LeRobot_SO101/README.md) — 产品级首轮调研已交付；待用户审阅和实机验证；1 份报告。
+- [22_OpenArm](06_Open_Source/22_OpenArm/README.md) — 产品级首轮调研已交付；待用户审阅和实机验证；1 份报告。
+- [23_ALOHA_Mobile_ALOHA](06_Open_Source/23_ALOHA_Mobile_ALOHA/README.md) — 产品级首轮调研已交付；待用户审阅和实机验证；1 份报告。
+- [24_Reachy2](06_Open_Source/24_Reachy2/README.md) — 候选资料已归档；产品报告待编写；0 份报告。
+- [25_Reachy_Mini](06_Open_Source/25_Reachy_Mini/README.md) — 候选资料已归档；产品报告待编写；0 份报告。
+- [26_Berkeley_Humanoid_Lite](06_Open_Source/26_Berkeley_Humanoid_Lite/README.md) — 候选资料已归档；产品报告待编写；0 份报告。
+- [27_ToddlerBot](06_Open_Source/27_ToddlerBot/README.md) — 候选资料已归档；产品报告待编写；0 份报告。
+- [28_AgiBot_X1](06_Open_Source/28_AgiBot_X1/README.md) — 候选资料已归档；产品报告待编写；0 份报告。
+- [29_OpenLoong](06_Open_Source/29_OpenLoong/README.md) — 候选资料已归档；产品报告待编写；0 份报告。
+- [30_XLeRobot](06_Open_Source/30_XLeRobot/README.md) — 候选资料已归档；产品报告待编写；0 份报告。
+
 ## 下载与复用
 
 GitHub 主仓库保存报告、正文图表、来源清单、skill、工具与核验记录。完整 HTML/PDF 原件、网页依赖和媒体保留本地，不纳入 Git 或 LFS；clone 不会自动取得这些原件。

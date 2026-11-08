@@ -1,0 +1,14 @@
+{
+  "28_AgiBot_X1": {
+    "X1_Hardware_Correct": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_hardware/main/README.md",
+    "X1_Infer_Correct": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_infer/main/README.md",
+    "X1_Train_Correct": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_train/main/README.md",
+    "X1_Hardware_LICENSE": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_hardware/main/LICENSE",
+    "X1_Infer_LICENSE": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_infer/main/LICENSE",
+    "X1_Train_LICENSE": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_train/main/LICENSE"
+  },
+  "29_OpenLoong": {
+    "OpenLoong_Control_License_Actual": "https://raw.githubusercontent.com/loongOpen/OpenLoong-Dyn-Control/main/license",
+    "OpenLoong_Hardware_License_Actual": "https://raw.githubusercontent.com/loongOpen/OpenLoong-Hardware/main/license"
+  }
+}

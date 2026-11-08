@@ -6,6 +6,7 @@ Python 3.10+，仅依赖标准库。新增调研先读仓库 `.agents/skills/emb
 - `check_report.py`：逐篇报告结构、引用/图源、字节哈希、HTML 文本与历史基线检查。
 - `archive_paths.py`：JSON 路径存为仓库根相对路径，加载时基于本工具位置解析，支持 clone 到新目录。
 - `organize_repository.py --build-indexes`：重建根/类别/分项 README 和当前索引，检查报告链接。仅一次性旧资料导入使用 `--normalize`；它会记录迁移前哈希并改变 authored links，不编辑原始响应或依赖。
+  新增开源方案类别可用 `--build-indexes --category 06_Open_Source`，仅更新该类别的来源清单及根导航/索引条目，保留其他类别和手写产品导航；类别检查保存在 `06_Open_Source/research_state/navigation_quality.json`。`research_state` 等支持目录不作为产品目录。
 - `verify_repository.py`：离线核查已成功归档正文、原始响应和依赖的 SHA256；保留失败候选。
 - `prepare_git_sources.py`：生成来源目录与机器清单，将报告引用图表复制到 assets/figures，原件链接转为来源清单链接。
 - `test_*.py`：本地 HTTP fixture、去重和路径可移植测试。
