@@ -1,0 +1,134 @@
+[
+  {
+    "id": "Reachy2_Docs",
+    "aliases": [
+      "Reachy2_Docs"
+    ],
+    "url": "https://docs.pollen-robotics.com/",
+    "final_url": "https://docs.pollen-robotics.com/",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:47:51.526587+00:00",
+    "retrieved_at_utc": "2026-11-08T06:47:53.377187+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "b13f8386788b25b4cca6f53ed22eef6a596bdf40c47410b391b13cd379f6c665",
+    "original_sha256": "018ee18771a8490b938961909e30391672389379a3928d5d2672cf9da8d353fd",
+    "file": "06_Open_Source/24_Reachy2/reference_metrial/webpages/Reachy2_Docs--65fe52241d959ea1/index.html",
+    "original_file": "06_Open_Source/24_Reachy2/reference_metrial/webpages/Reachy2_Docs--65fe52241d959ea1/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "visible_text_unchanged": true,
+    "catalog_anchor": "ref-65fe52241d959ea1",
+    "assets_count": 22,
+    "unavailable_assets_count": 2,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "Reachy2_SDK_LICENSE",
+    "aliases": [
+      "Reachy2_SDK_LICENSE"
+    ],
+    "url": "https://raw.githubusercontent.com/pollen-robotics/reachy2-sdk/main/LICENSE",
+    "final_url": "https://raw.githubusercontent.com/pollen-robotics/reachy2-sdk/main/LICENSE",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:47:50.079211+00:00",
+    "retrieved_at_utc": "2026-11-08T06:47:51.483486+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "6e82c1c7acf04e67544228844083a21a5bffb8d4a76b9d5066d3cf2c9a917e4b",
+    "original_sha256": "6e82c1c7acf04e67544228844083a21a5bffb8d4a76b9d5066d3cf2c9a917e4b",
+    "file": "06_Open_Source/24_Reachy2/reference_metrial/data/Reachy2_SDK_LICENSE--acb4d7175d73231b/content.txt",
+    "original_file": "06_Open_Source/24_Reachy2/reference_metrial/data/Reachy2_SDK_LICENSE--acb4d7175d73231b/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-acb4d7175d73231b",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "Reachy2_SDK",
+    "aliases": [
+      "Reachy2_SDK"
+    ],
+    "url": "https://raw.githubusercontent.com/pollen-robotics/reachy2-sdk/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/pollen-robotics/reachy2-sdk/main/README.md",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:47:48.263031+00:00",
+    "retrieved_at_utc": "2026-11-08T06:47:50.052489+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "fdcecf3c007b7f089ba5bc89a297f8c92e017b7332a735b7e85331f7aaef30bf",
+    "original_sha256": "fdcecf3c007b7f089ba5bc89a297f8c92e017b7332a735b7e85331f7aaef30bf",
+    "file": "06_Open_Source/24_Reachy2/reference_metrial/data/Reachy2_SDK--6b1cacf2b6e4d461/content.md",
+    "original_file": "06_Open_Source/24_Reachy2/reference_metrial/data/Reachy2_SDK--6b1cacf2b6e4d461/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-6b1cacf2b6e4d461",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "Reachy2_Description_LICENSE",
+    "aliases": [
+      "Reachy2_Description_LICENSE"
+    ],
+    "url": "https://raw.githubusercontent.com/pollen-robotics/reachy2_description/main/LICENSE",
+    "archive_status": "failed",
+    "archived_at_utc": "2026-11-08T06:49:54.106527+00:00",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "error": "HTTPError: HTTP Error 404: Not Found",
+    "catalog_anchor": "ref-d608b10a7706008c",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "Reachy2_Description",
+    "aliases": [
+      "Reachy2_Description"
+    ],
+    "url": "https://raw.githubusercontent.com/pollen-robotics/reachy2_description/main/README.md",
+    "archive_status": "failed",
+    "archived_at_utc": "2026-11-08T06:49:52.521892+00:00",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "error": "HTTPError: HTTP Error 404: Not Found",
+    "catalog_anchor": "ref-bad137accf65c261",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "Reachy_Web",
+    "aliases": [
+      "Reachy_Web"
+    ],
+    "url": "https://www.pollen-robotics.com/reachy/",
+    "final_url": "https://pollen-robotics.com/reachy-2/",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:45:47.245642+00:00",
+    "retrieved_at_utc": "2026-11-08T06:45:52.550098+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "49527c8512e036b1d590b67f71931fac5053c3546eb0fa9be6ec51620f9d29e4",
+    "original_sha256": "b56df1e2d4eaf2a87dbe5895f0c1a0e6e28f701356b9f0a80c8c7a743887a730",
+    "file": "06_Open_Source/24_Reachy2/reference_metrial/webpages/Reachy--cdb3972f3b539d83/index.html",
+    "original_file": "06_Open_Source/24_Reachy2/reference_metrial/webpages/Reachy--cdb3972f3b539d83/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "visible_text_unchanged": true,
+    "catalog_anchor": "ref-cdb3972f3b539d83",
+    "assets_count": 32,
+    "unavailable_assets_count": 1,
+    "unavailable_presentation_assets_count": 0
+  }
+]

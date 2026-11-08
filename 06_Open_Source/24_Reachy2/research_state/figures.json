@@ -1,0 +1,13 @@
+[
+  {
+    "file": "06_Open_Source/24_Reachy2/assets/figures/01_official.png",
+    "sha256": "eed2aabc255b6421ec6bea734f58734ddb6e2acbca1a2ef58dfd7b8258b5a625",
+    "source_id": "Reachy_Web",
+    "source_url": "https://pollen-robotics.com/assets/reachy2/vr-teleop.webp",
+    "original_file": "06_Open_Source/24_Reachy2/reference_metrial/webpages/Reachy--cdb3972f3b539d83/assets/images/99935bb77343d617f46195d5.webp",
+    "original_sha256": "a7b0ae955e86cd50adacb9e812629682a14284daba4e5fd1ae20f46f7601363a",
+    "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop.",
+    "label": "Reachy 2 VR teleoperation",
+    "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Reachy2_Description",
+    "url": "https://raw.githubusercontent.com/pollen-robotics/reachy2_description/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "Reachy2_Description_LICENSE",
+    "url": "https://raw.githubusercontent.com/pollen-robotics/reachy2_description/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]
