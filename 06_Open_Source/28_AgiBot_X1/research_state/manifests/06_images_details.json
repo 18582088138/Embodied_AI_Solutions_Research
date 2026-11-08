@@ -1,0 +1,42 @@
+[
+  {
+    "name": "X1_Hardware_Contents",
+    "url": "https://api.github.com/repos/AgibotTech/agibot_x1_hardware/contents/",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "X1_Infer_Contents",
+    "url": "https://api.github.com/repos/AgibotTech/agibot_x1_infer/contents/",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "X1_Train_Contents",
+    "url": "https://api.github.com/repos/AgibotTech/agibot_x1_train/contents/",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "X1_Photo",
+    "url": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_infer/main/doc/x1.jpg",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "X1_Architecture",
+    "url": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_infer/main/doc/sw_arch.png",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "X1_Hardware",
+    "url": "https://raw.githubusercontent.com/agibot-tech/agibot_x1_hardware/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "X1_Infer",
+    "url": "https://raw.githubusercontent.com/agibot-tech/agibot_x1_infer/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "X1_Train",
+    "url": "https://raw.githubusercontent.com/agibot-tech/agibot_x1_train/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

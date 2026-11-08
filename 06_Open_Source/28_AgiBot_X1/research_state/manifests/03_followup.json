@@ -1,0 +1,18 @@
+[
+  {
+    "name": "X1_Repo_Search",
+    "url": "https://api.github.com/search/repositories?q=agibot_x1",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "X1_Official",
+    "url": "https://www.agibot.com/",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

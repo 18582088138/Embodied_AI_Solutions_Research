@@ -1,0 +1,50 @@
+[
+  {
+    "name": "X1_Hardware_Correct",
+    "url": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_hardware/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "X1_Infer_Correct",
+    "url": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_infer/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "X1_Train_Correct",
+    "url": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_train/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "X1_Hardware_LICENSE",
+    "url": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_hardware/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "X1_Infer_LICENSE",
+    "url": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_infer/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "X1_Train_LICENSE",
+    "url": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_train/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

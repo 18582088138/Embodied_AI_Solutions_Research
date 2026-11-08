@@ -1,0 +1,26 @@
+[
+  {
+    "name": "X1_Product",
+    "url": "https://www.agibot.com/products/X1",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "X1_Infer_License_Actual",
+    "url": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_infer/main/LICENSE.txt",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "X1_Hardware_Tree",
+    "url": "https://api.github.com/repos/AgibotTech/agibot_x1_hardware/git/trees/main?recursive=1",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

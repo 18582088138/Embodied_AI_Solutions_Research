@@ -1,0 +1,10 @@
+[
+  {
+    "name": "X1_BOM",
+    "url": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_hardware/main/%E6%99%BA%E5%85%83%E7%81%B5%E7%8A%80X1_20250307/%E6%99%BA%E5%85%83%E7%81%B5%E7%8A%80X1%E6%80%BBBOM.xlsx",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

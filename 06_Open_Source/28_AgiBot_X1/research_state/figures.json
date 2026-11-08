@@ -1,0 +1,24 @@
+[
+  {
+    "file": "06_Open_Source/28_AgiBot_X1/assets/figures/01_official.png",
+    "sha256": "b5df07aa02f551bac0391ad0ec71c8826ee30458233db763d5c3d6a442584dcd",
+    "source_id": "X1_Photo",
+    "source_url": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_infer/main/doc/x1.jpg",
+    "original_file": "06_Open_Source/28_AgiBot_X1/reference_metrial/data/X1_Photo--d10530abcdcba6e3/content.jpg",
+    "original_sha256": "1cd7fc9b0c046d3888bf16ec7768119b0720f67e60fe03159cfeb99285c15833",
+    "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop.",
+    "label": "AgiBot X1",
+    "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+  },
+  {
+    "file": "06_Open_Source/28_AgiBot_X1/assets/figures/02_official.png",
+    "sha256": "a08c90c1fc4728b7f2b2eb1c17f7a1b703286cbe31f3d00973a82d72ad5adfdc",
+    "source_id": "X1_Architecture",
+    "source_url": "https://raw.githubusercontent.com/AgibotTech/agibot_x1_infer/main/doc/sw_arch.png",
+    "original_file": "06_Open_Source/28_AgiBot_X1/reference_metrial/data/X1_Architecture--752b3a697f1d350f/content.png",
+    "original_sha256": "ed769fc04063fcc61e71c4569aecd7be7f34e4b0bfe778f632a41756b0dcdbcc",
+    "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop.",
+    "label": "AgiBot X1 software architecture",
+    "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+  }
+]
