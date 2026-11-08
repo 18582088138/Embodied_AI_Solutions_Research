@@ -1,0 +1,34 @@
+[
+  {
+    "name": "ReachyMini_README",
+    "url": "https://raw.githubusercontent.com/pollen-robotics/reachy_mini/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "ReachyMini_LICENSE",
+    "url": "https://raw.githubusercontent.com/pollen-robotics/reachy_mini/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "ReachyMini_Hardware",
+    "url": "https://raw.githubusercontent.com/pollen-robotics/reachy_mini_hardware/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "ReachyMini_Web",
+    "url": "https://huggingface.co/spaces/pollen-robotics/Reachy_Mini",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

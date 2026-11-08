@@ -1,0 +1,117 @@
+[
+  {
+    "id": "ReachyMini_Web",
+    "aliases": [
+      "ReachyMini_Web"
+    ],
+    "url": "https://huggingface.co/spaces/pollen-robotics/Reachy_Mini",
+    "final_url": "https://huggingface.co/spaces/pollen-robotics/Reachy_Mini",
+    "archive_status": "partial_static",
+    "archived_at_utc": "2026-11-08T06:48:02.931176+00:00",
+    "retrieved_at_utc": "2026-11-08T06:48:04.838201+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "f618457a914f5267f342de1571a4b962ee39c8299e584228ba2cd821f88295f0",
+    "original_sha256": "80caf64073c852d2d0004fc966aaae691a475e0ba9efd97dc108fd4e094eff25",
+    "file": "06_Open_Source/25_Reachy_Mini/reference_metrial/webpages/ReachyMini_Web--cb3c4113b991c471/index.html",
+    "original_file": "06_Open_Source/25_Reachy_Mini/reference_metrial/webpages/ReachyMini_Web--cb3c4113b991c471/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "visible_text_unchanged": true,
+    "catalog_anchor": "ref-cb3c4113b991c471",
+    "assets_count": 41,
+    "unavailable_assets_count": 20,
+    "unavailable_presentation_assets_count": 18
+  },
+  {
+    "id": "ReachyMini_LICENSE",
+    "aliases": [
+      "ReachyMini_LICENSE"
+    ],
+    "url": "https://raw.githubusercontent.com/pollen-robotics/reachy_mini/main/LICENSE",
+    "final_url": "https://raw.githubusercontent.com/pollen-robotics/reachy_mini/main/LICENSE",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:48:00.916681+00:00",
+    "retrieved_at_utc": "2026-11-08T06:48:02.073824+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "1cd66cd7ef50bb247f43d247f7c2a3259a600d951170e778d75c9278e5680f03",
+    "original_sha256": "1cd66cd7ef50bb247f43d247f7c2a3259a600d951170e778d75c9278e5680f03",
+    "file": "06_Open_Source/25_Reachy_Mini/reference_metrial/data/ReachyMini_LICENSE--f0f779c6dae6c92f/content.txt",
+    "original_file": "06_Open_Source/25_Reachy_Mini/reference_metrial/data/ReachyMini_LICENSE--f0f779c6dae6c92f/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-f0f779c6dae6c92f",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "ReachyMini_README",
+    "aliases": [
+      "ReachyMini_README"
+    ],
+    "url": "https://raw.githubusercontent.com/pollen-robotics/reachy_mini/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/pollen-robotics/reachy_mini/main/README.md",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:47:59.227415+00:00",
+    "retrieved_at_utc": "2026-11-08T06:48:00.888834+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "0fa0c5bdb607b509aae6c50eaed0307e36a6a5a60cb87aee7874321c90713aec",
+    "original_sha256": "0fa0c5bdb607b509aae6c50eaed0307e36a6a5a60cb87aee7874321c90713aec",
+    "file": "06_Open_Source/25_Reachy_Mini/reference_metrial/data/ReachyMini_README--bce39df272082206/content.md",
+    "original_file": "06_Open_Source/25_Reachy_Mini/reference_metrial/data/ReachyMini_README--bce39df272082206/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-bce39df272082206",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "ReachyMini_Hardware",
+    "aliases": [
+      "ReachyMini_Hardware"
+    ],
+    "url": "https://raw.githubusercontent.com/pollen-robotics/reachy_mini_hardware/main/README.md",
+    "archive_status": "failed",
+    "archived_at_utc": "2026-11-08T06:48:02.105754+00:00",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "error": "HTTPError: HTTP Error 404: Not Found",
+    "catalog_anchor": "ref-f00de28eaecb9200",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "ReachyMini_Official",
+    "aliases": [
+      "ReachyMini_Official"
+    ],
+    "url": "https://www.pollen-robotics.com/reachy-mini/",
+    "final_url": "https://pollen-robotics.com/reachy-mini/",
+    "archive_status": "partial_static",
+    "archived_at_utc": "2026-11-08T06:49:55.138443+00:00",
+    "retrieved_at_utc": "2026-11-08T06:50:00.197851+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "86acf17b1526cafc118d267b0a263ff983a0643b48c51ef5314d7fd7783f66d9",
+    "original_sha256": "774ce55b797f33255f6e5a6879cbad409961104d7b368cce1cd90c56624c92c4",
+    "file": "06_Open_Source/25_Reachy_Mini/reference_metrial/webpages/ReachyMini_Official--36ef1244077eff58/index.html",
+    "original_file": "06_Open_Source/25_Reachy_Mini/reference_metrial/webpages/ReachyMini_Official--36ef1244077eff58/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "visible_text_unchanged": true,
+    "catalog_anchor": "ref-36ef1244077eff58",
+    "assets_count": 45,
+    "unavailable_assets_count": 46,
+    "unavailable_presentation_assets_count": 45
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "platform": "Reachy Mini",
+  "scope": "桌面交互、应用开发与开放边界",
+  "research_type": "product_multidimensional",
+  "authorization": "用户要求增加开源具身智能方案子项目；当前登记候选资料与后续研究范围。",
+  "completed_dimensions": [],
+  "current_dimension": "source_review_and_scope",
+  "review_status": "候选资料已归档；尚无产品报告、用户审阅或实机验收",
+  "data_cutoff": "2026-11-08 Asia/Shanghai",
+  "pending_evidence": "候选来源的事实、分层许可、价格/配置与复现条件待逐项深入核验。",
+  "next_step": "按RESEARCH_PLAN.md顺序核验来源并撰写01_Product_Research.md。"
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "file": "06_Open_Source/25_Reachy_Mini/assets/figures/01_official.png",
+    "sha256": "5d751c49b38537a66f8ce8895f5989176fa04d115e7e348fa439fe018204cdc6",
+    "source_id": "ReachyMini_Official",
+    "source_url": "https://pollen-robotics.com/assets/talk/reachy-3d-still.webp",
+    "original_file": "06_Open_Source/25_Reachy_Mini/reference_metrial/webpages/ReachyMini_Official--36ef1244077eff58/assets/images/f9d97f8439cb46a40bd35f0f.webp",
+    "original_sha256": "ad0d81d71170a41bd23dd75b5f778729f5d33875c5726a6ef0f07b4b654e2419",
+    "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop.",
+    "label": "Reachy Mini assembled robot",
+    "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+  },
+  {
+    "file": "06_Open_Source/25_Reachy_Mini/assets/figures/02_official.png",
+    "sha256": "1b8103994facf429cec8d3a2a8ae21a55ee5e18d249a5caee2d46ac231ef2285",
+    "source_id": "ReachyMini_Official",
+    "source_url": "https://pollen-robotics.com/assets/build/reachy-mini-plate.webp",
+    "original_file": "06_Open_Source/25_Reachy_Mini/reference_metrial/webpages/ReachyMini_Official--36ef1244077eff58/assets/images/9e43604d610ae247a646d944.webp",
+    "original_sha256": "ba58519e0e4ef2f21a33cdf7197897c8f9e3dba19d29bbf134c029c5a9313d08",
+    "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop.",
+    "label": "Reachy Mini exploded kit",
+    "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+  }
+]

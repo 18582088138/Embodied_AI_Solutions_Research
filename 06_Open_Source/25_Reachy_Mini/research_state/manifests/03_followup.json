@@ -1,0 +1,10 @@
+[
+  {
+    "name": "ReachyMini_Official",
+    "url": "https://www.pollen-robotics.com/reachy-mini/",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]
