@@ -1,0 +1,10 @@
+[
+  {
+    "name": "ALOHA_Trossen_Store",
+    "url": "https://www.trossenrobotics.com/aloha.aspx",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

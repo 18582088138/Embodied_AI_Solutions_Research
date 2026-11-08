@@ -1,0 +1,32 @@
+[
+  {
+    "sku": "Original ALOHA prototype",
+    "amount": 20000,
+    "currency": "USD",
+    "type": "historical_research_budget",
+    "source_id": "ALOHA_Web",
+    "source_year": 2023,
+    "collected_on": "2026-11-08 Asia/Shanghai",
+    "not_a_transaction": true
+  },
+  {
+    "sku": "Original Mobile ALOHA prototype",
+    "amount": 32000,
+    "currency": "USD",
+    "type": "historical_research_budget",
+    "source_id": "Mobile_ALOHA_Paper",
+    "source_year": 2024,
+    "included": "onboard power and compute",
+    "collected_on": "2026-11-08 Asia/Shanghai",
+    "not_a_transaction": true
+  },
+  {
+    "sku": "Current Trossen equivalent system",
+    "amount": null,
+    "currency": null,
+    "type": "current_quote_not_obtained",
+    "source_id": "ALOHA_Trossen_Store",
+    "collected_on": "2026-11-08 Asia/Shanghai",
+    "not_a_transaction": true
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "source_ids": [
+    "ALOHA_Web",
+    "Mobile_ALOHA_Web",
+    "ALOHA_README",
+    "Mobile_ALOHA_Paper",
+    "ALOHA_Trossen_Store",
+    "ALOHA_LICENSE",
+    "Mobile_ALOHA_README",
+    "Mobile_ALOHA_Preview"
+  ],
+  "figures": [
+    {
+      "file": "06_Open_Source/23_ALOHA_Mobile_ALOHA/assets/figures/01_official.png",
+      "sha256": "5f8d59879ea7247b9d5d52447dc4c75d455d394401aec117278f29fe92c9fc0e",
+      "source_id": "Mobile_ALOHA_Preview",
+      "source_url": "https://mobile-aloha.github.io/static/images/preview.gif",
+      "original_file": "06_Open_Source/23_ALOHA_Mobile_ALOHA/reference_metrial/data/Mobile_ALOHA_Previ--66726bd4240ee2ae/content.gif",
+      "original_sha256": "6b88bd08ce0a32f416f17898f726d96e1c1c991ef825c0b3037c021984189677",
+      "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; animation frame 17 (0-based).",
+      "label": "Mobile ALOHA",
+      "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+    },
+    {
+      "file": "06_Open_Source/23_ALOHA_Mobile_ALOHA/assets/figures/02_official.png",
+      "sha256": "ac136f2c0e83dab15b4ee3e8575a4ed40b01cd6e0736f7b41d86a4ce0ce71a4f",
+      "source_id": "ALOHA_Web",
+      "source_url": "https://tonyzhaozh.github.io/aloha/resources/algo.png",
+      "original_file": "06_Open_Source/23_ALOHA_Mobile_ALOHA/reference_metrial/webpages/ALOHA_Web--81cae9ec791ee3cb/assets/images/7634defde7a1d454a805907e.png",
+      "original_sha256": "a6f4fd28d77244ee0b6fb9b24abdab17a909cc3e3dabebd6adc8d0d25aed77e5",
+      "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop.",
+      "label": "ACT architecture",
+      "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "Mobile_ALOHA_Paper",
+      "claim": "32k美元成本包含机载电源与计算",
+      "location": "PDF第1页Figure1；第4页硬件段",
+      "conditions": "2024原型，不是2026报价",
+      "finding": "不重复加底盘成本；对论文给定对象的负载/空间保留条件。",
+      "evidence_type": "事实"
+    },
+    {
+      "source_id": "ALOHA_Trossen_Store",
+      "claim": "原采购链接转为Trossen AI产品线",
+      "location": "页面ALOHA IS NOW TROSSEN AI",
+      "conditions": "本轮实际取得页面",
+      "finding": "未把旧论文预算写成现售整机价。",
+      "evidence_type": "事实"
+    },
+    {
+      "source_id": "ALOHA_README",
+      "claim": "关电机力矩后机械臂可能倒塌",
+      "location": "Hardware installation警告",
+      "conditions": "原型电机/机械结构",
+      "finding": "据此提出支撑、制动与复位检查。",
+      "evidence_type": "事实"
+    }
+  ],
+  "manual_review": {
+    "coverage": "已逐项审阅市场定位、价格口径、国内/海外获取、软硬件及数据链路、分层许可、优劣势、条件选型和验证步骤。",
+    "versions_and_measurements": "以2026-11-08归档为可追溯快照；论文/BOM/供应商报价分开；未将展示、峰值或仿真替换为实机验收。",
+    "maturity_and_licenses": "代码和硬件许可分别核对，权重/数据/外部依赖按正文列出未取得部分；没有用仓库可见性代替商用授权。",
+    "figures_opened": "正文全部图片已逐张通过view_image打开核查；图源、版本和衍生操作保留在figures.json。"
+  }
+}

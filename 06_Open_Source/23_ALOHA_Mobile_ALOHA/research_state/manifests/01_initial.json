@@ -1,0 +1,42 @@
+[
+  {
+    "name": "ALOHA_Web",
+    "url": "https://tonyzhaozh.github.io/aloha/",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "ALOHA_README",
+    "url": "https://raw.githubusercontent.com/tonyzhaozh/aloha/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "Mobile_ALOHA_Web",
+    "url": "https://mobile-aloha.github.io/",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "Mobile_ALOHA_README",
+    "url": "https://raw.githubusercontent.com/MarkFzp/mobile-aloha/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "ALOHA_LICENSE",
+    "url": "https://raw.githubusercontent.com/tonyzhaozh/aloha/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

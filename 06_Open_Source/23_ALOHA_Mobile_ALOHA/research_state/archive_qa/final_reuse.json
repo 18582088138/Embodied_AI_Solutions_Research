@@ -1,0 +1,22 @@
+{
+  "time_utc": "2026-11-08T07:18:20.896297+00:00",
+  "summary": {
+    "complete_static": 5,
+    "partial_static": 3,
+    "failed": 0
+  },
+  "names": [
+    "ALOHA_Web",
+    "Mobile_ALOHA_Web",
+    "ALOHA_README",
+    "Mobile_ALOHA_Paper",
+    "ALOHA_Trossen_Store",
+    "ALOHA_LICENSE",
+    "Mobile_ALOHA_README",
+    "Mobile_ALOHA_Preview"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}

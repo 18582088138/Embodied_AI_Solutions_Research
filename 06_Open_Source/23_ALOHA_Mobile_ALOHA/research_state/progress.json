@@ -1,0 +1,16 @@
+{
+  "platform": "ALOHA / Mobile ALOHA：双臂模仿学习与移动操作方案",
+  "scope": "产品级综合专题：定位、软硬件、开源边界、价位、国内外、优劣势与PoC",
+  "data_cutoff": "2026-11-08 Asia/Shanghai",
+  "authorization": "用户要求在研究库增加开源具身智能方案子项目；当前续接已有产品级首轮报告并完成核验。",
+  "review_status": "首轮报告已完成来源、图片与结构/归档复核；尚未取得用户审阅或实机验收",
+  "research_type": "product_multidimensional",
+  "completed_dimensions": [
+    "01_Product_Research"
+  ],
+  "current_dimension": null,
+  "pending_evidence": "官方网页部分视频/静态依赖未取得；论文原件完整保存。未确认后续商业整机的当前报价，也未完成各数据集、权重和商业硬件的全项许可与实机验收。",
+  "next_step": "按正文证据缺口补深；采购询价、完整许可审计和实机验证另记。",
+  "report_depth": "first_round_product_research",
+  "validation_on": "2026-11-08 Asia/Shanghai"
+}
