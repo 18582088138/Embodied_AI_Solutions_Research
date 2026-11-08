@@ -21,4 +21,6 @@
 
 ## 资料与使用
 
+[三页正文汇总PPT](presentations/output/开源具身智能方案_3页正文_2026-11-08.pptx)：方案全景、代表项目的能力与成本、按任务选型及验证重点。[来源与交付记录](presentations/summary_manifest.json)。
+
 每个产品独立保存报告、来源清单与研究状态；HTML/PDF原件和依赖留在其本地reference_metrial/，不上传Git。清单保留真实采集时间、URL、SHA256、失败候选和依赖缺失。首轮报告可用于研究导航与PoC候选筛选；报价、完整许可和实机性能按报告中的缺口继续核验。

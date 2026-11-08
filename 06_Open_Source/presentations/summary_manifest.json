@@ -1,0 +1,72 @@
+{
+  "created_on": "2026-11-08 Asia/Shanghai",
+  "request": "关于开源具身智能方案，写2~3页正文汇总PPT",
+  "content_slide_count": 3,
+  "cover_slide_count": 0,
+  "slide_titles": [
+    "开源具身智能方案全景",
+    "代表方案的能力与成本",
+    "任务、许可与工程投入决定选型"
+  ],
+  "source_report_sha256": {
+    "06_Open_Source/21_LeRobot_SO101/01_Product_Research.md": "7ee0b2cc621321d1f71194cb3d5a6f8e56bac918e787217ee0f74a26b8353ad0",
+    "06_Open_Source/22_OpenArm/01_Product_Research.md": "0c78a621dbf913bb74686ba440c95b5cea0eeb2698f525ccda79fb26a034744a",
+    "06_Open_Source/23_ALOHA_Mobile_ALOHA/01_Product_Research.md": "a268d80b6372b0dcb4d0bed47a002075c0c4dc4a171d1bf4944910205d17eb56",
+    "06_Open_Source/RESEARCH_PLAN.md": "5bf83c8960fb32d5a904ecd2257c37b960a5de0ecbcb0fe4b8bd2ec91b66b8cf"
+  },
+  "figures": [
+    {
+      "file": "06_Open_Source/26_Berkeley_Humanoid_Lite/assets/figures/01_official.png",
+      "sha256": "4d963534ab26c2150ef79f3755f5b431bb37cb6ed5ac521814566ad07bed702a",
+      "source_url": "https://lite.berkeley-humanoid.org/static/berkeley-humaonid-lite-cover.png",
+      "slide_crop": {
+        "left": 0.02,
+        "top": 0.04,
+        "right": 0.6,
+        "bottom": 0.03
+      },
+      "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop."
+    },
+    {
+      "file": "06_Open_Source/21_LeRobot_SO101/assets/figures/01_official.png",
+      "sha256": "0fec8b153b895b842ca6bd98c93f180a5282142334ca17b0e7071c3d0a9a3351",
+      "source_url": "https://raw.githubusercontent.com/TheRobotStudio/SO-ARM100/main/media/SO101_Follower.webp",
+      "slide_crop": null,
+      "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop."
+    },
+    {
+      "file": "06_Open_Source/22_OpenArm/assets/figures/01_official.png",
+      "sha256": "d0633bdbf56edd09892384c6e6d61376af52a018980c084a09d03169084477d5",
+      "source_url": "https://raw.githubusercontent.com/enactic/openarm/main/website/static/img/hardware/openarm_and_cell.png",
+      "slide_crop": null,
+      "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop."
+    },
+    {
+      "file": "06_Open_Source/23_ALOHA_Mobile_ALOHA/assets/figures/01_official.png",
+      "sha256": "5f8d59879ea7247b9d5d52447dc4c75d455d394401aec117278f29fe92c9fc0e",
+      "source_url": "https://mobile-aloha.github.io/static/images/preview.gif",
+      "slide_crop": null,
+      "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; animation frame 17 (0-based)."
+    }
+  ],
+  "output": "06_Open_Source/presentations/output/开源具身智能方案_3页正文_2026-11-08.pptx",
+  "output_sha256": "92193eb283deed2dc90d70f31f76179478ce6db7b63c5a8dd08742465ff6ddbc",
+  "output_bytes": 3764857,
+  "font_policy": {
+    "basis": "design",
+    "families": [
+      "Microsoft YaHei"
+    ]
+  },
+  "validation": {
+    "native_tables": 3,
+    "embedded_images": 4,
+    "speaker_note_parts": 3,
+    "all_slides_visually_reviewed": true,
+    "package_integrity": "pass",
+    "layout_findings": 0,
+    "layout_warnings": 0,
+    "checked_in_powerpoint": false
+  },
+  "evidence_boundary": "三项首轮产品报告及七项候选资料。价格区分套件列价、目录参考价和历史论文预算。尚未做实机验收。"
+}

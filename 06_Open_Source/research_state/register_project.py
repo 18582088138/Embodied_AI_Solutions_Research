@@ -72,7 +72,11 @@ def register():
     for name, title, focus, done in rows:
         status = '首轮产品报告已核验，待用户审阅' if done else '候选资料已归档，产品报告待编写'
         readme += f'- [{title}]({name}/README.md) — {focus}；{status}。\n'
-    readme += '\n## 资料与使用\n\n每个产品独立保存报告、来源清单与研究状态；HTML/PDF原件和依赖留在其本地reference_metrial/，不上传Git。清单保留真实采集时间、URL、SHA256、失败候选和依赖缺失。首轮报告可用于研究导航与PoC候选筛选；报价、完整许可和实机性能按报告中的缺口继续核验。\n'
+    readme += '\n## 资料与使用\n\n'
+    summary = 'presentations/output/开源具身智能方案_3页正文_2026-11-08.pptx'
+    if (CAT / summary).exists():
+        readme += f'[三页正文汇总PPT]({summary})：方案全景、代表项目的能力与成本、按任务选型及验证重点。[来源与交付记录](presentations/summary_manifest.json)。\n\n'
+    readme += '每个产品独立保存报告、来源清单与研究状态；HTML/PDF原件和依赖留在其本地reference_metrial/，不上传Git。清单保留真实采集时间、URL、SHA256、失败候选和依赖缺失。首轮报告可用于研究导航与PoC候选筛选；报价、完整许可和实机性能按报告中的缺口继续核验。\n'
     (CAT / 'README.md').write_text(readme, encoding='utf-8')
     completed = [name for name, _, _, done in rows if done]
     dump(CAT / 'research_state/progress.json', dict(project='开源具身智能方案', category='06_Open_Source',
