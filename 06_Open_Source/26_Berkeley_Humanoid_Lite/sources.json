@@ -1,0 +1,140 @@
+[
+  {
+    "id": "BHL_Repo_Contents",
+    "aliases": [
+      "BHL_Repo_Contents"
+    ],
+    "url": "https://api.github.com/repos/HybridRobotics/Berkeley-Humanoid-Lite/contents/",
+    "final_url": "https://api.github.com/repos/HybridRobotics/Berkeley-Humanoid-Lite/contents/",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:50:27.254359+00:00",
+    "retrieved_at_utc": "2026-11-08T06:50:28.986622+00:00",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "8c61b26691088f8050bc3f65e3b81190a493570802bf6c4210fe2fd633850c01",
+    "original_sha256": "8c61b26691088f8050bc3f65e3b81190a493570802bf6c4210fe2fd633850c01",
+    "file": "06_Open_Source/26_Berkeley_Humanoid_Lite/reference_metrial/data/BHL_Repo_Conte--be25c4cd889e0a4b/content.json",
+    "original_file": "06_Open_Source/26_Berkeley_Humanoid_Lite/reference_metrial/data/BHL_Repo_Conte--be25c4cd889e0a4b/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-be25c4cd889e0a4b",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "BHL_Web",
+    "aliases": [
+      "BHL_Web"
+    ],
+    "url": "https://lite.berkeley-humanoid.org/",
+    "final_url": "https://lite.berkeley-humanoid.org/",
+    "archive_status": "partial_static",
+    "archived_at_utc": "2026-11-08T06:48:16.658440+00:00",
+    "retrieved_at_utc": "2026-11-08T06:48:19.259140+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "7229b152d12e4245e6c60845d9303eb765342ddfc213d88e08a053792acc9e38",
+    "original_sha256": "9b97089d3b29302a4dbcdca66bea52138460ecc0fc00d94bfa62dbe51cab712e",
+    "file": "06_Open_Source/26_Berkeley_Humanoid_Lite/reference_metrial/webpages/BHL_Web--af029c1eb4611d25/index.html",
+    "original_file": "06_Open_Source/26_Berkeley_Humanoid_Lite/reference_metrial/webpages/BHL_Web--af029c1eb4611d25/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "visible_text_unchanged": true,
+    "catalog_anchor": "ref-af029c1eb4611d25",
+    "assets_count": 10,
+    "unavailable_assets_count": 6,
+    "unavailable_presentation_assets_count": 3
+  },
+  {
+    "id": "BHL_Paper",
+    "aliases": [
+      "BHL_Paper"
+    ],
+    "url": "https://lite.berkeley-humanoid.org/static/paper/demonstrating-berkeley-humanoid-lite.pdf",
+    "final_url": "https://lite.berkeley-humanoid.org/static/paper/demonstrating-berkeley-humanoid-lite.pdf",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:50:22.050146+00:00",
+    "retrieved_at_utc": "2026-11-08T06:50:26.570002+00:00",
+    "status": 200,
+    "content_type": "application/pdf",
+    "sha256": "2bb0f6907beb88a17a1c6b24ad604065f1ee61ba9c086250bf19c360735fb931",
+    "original_sha256": "2bb0f6907beb88a17a1c6b24ad604065f1ee61ba9c086250bf19c360735fb931",
+    "file": "06_Open_Source/26_Berkeley_Humanoid_Lite/reference_metrial/documents/BHL_Paper--e6428fbe70a2d541/document.pdf",
+    "original_file": "06_Open_Source/26_Berkeley_Humanoid_Lite/reference_metrial/documents/BHL_Paper--e6428fbe70a2d541/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-e6428fbe70a2d541",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "BHL_LICENSE",
+    "aliases": [
+      "BHL_LICENSE"
+    ],
+    "url": "https://raw.githubusercontent.com/HybridRobotics/Berkeley-Humanoid-Lite/main/LICENSE",
+    "archive_status": "failed",
+    "archived_at_utc": "2026-11-08T06:48:31.675998+00:00",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "error": "HTTPError: HTTP Error 404: Not Found",
+    "catalog_anchor": "ref-32227aec1cda09be",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "BHL_README",
+    "aliases": [
+      "BHL_README"
+    ],
+    "url": "https://raw.githubusercontent.com/HybridRobotics/Berkeley-Humanoid-Lite/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/HybridRobotics/Berkeley-Humanoid-Lite/main/README.md",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:48:29.929114+00:00",
+    "retrieved_at_utc": "2026-11-08T06:48:31.645730+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "33d70c69bbb9ccbdaa70d027b868031d4a260cb0a92d40e625f08de80bbf4f74",
+    "original_sha256": "33d70c69bbb9ccbdaa70d027b868031d4a260cb0a92d40e625f08de80bbf4f74",
+    "file": "06_Open_Source/26_Berkeley_Humanoid_Lite/reference_metrial/data/BHL_README--3b6672a6333558e4/content.md",
+    "original_file": "06_Open_Source/26_Berkeley_Humanoid_Lite/reference_metrial/data/BHL_README--3b6672a6333558e4/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-3b6672a6333558e4",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "BHL_Actual_LICENSE",
+    "aliases": [
+      "BHL_Actual_LICENSE"
+    ],
+    "url": "https://raw.githubusercontent.com/HybridRobotics/berkeley-humanoid-lite/main/LICENCE",
+    "final_url": "https://raw.githubusercontent.com/HybridRobotics/berkeley-humanoid-lite/main/LICENCE",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:51:26.971436+00:00",
+    "retrieved_at_utc": "2026-11-08T06:51:28.865041+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "172b35ba01580294ebbbc9fc27bd3f768313c5c0095e3640b96c17a82faec9c7",
+    "original_sha256": "172b35ba01580294ebbbc9fc27bd3f768313c5c0095e3640b96c17a82faec9c7",
+    "file": "06_Open_Source/26_Berkeley_Humanoid_Lite/reference_metrial/data/BHL_Actual_LIC--110a8068b3946d0d/content.txt",
+    "original_file": "06_Open_Source/26_Berkeley_Humanoid_Lite/reference_metrial/data/BHL_Actual_LIC--110a8068b3946d0d/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-110a8068b3946d0d",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  }
+]

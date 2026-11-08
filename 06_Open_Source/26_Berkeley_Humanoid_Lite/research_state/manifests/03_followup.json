@@ -1,0 +1,18 @@
+[
+  {
+    "name": "BHL_Paper",
+    "url": "https://lite.berkeley-humanoid.org/static/paper/demonstrating-berkeley-humanoid-lite.pdf",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "BHL_Repo_Contents",
+    "url": "https://api.github.com/repos/HybridRobotics/Berkeley-Humanoid-Lite/contents/",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

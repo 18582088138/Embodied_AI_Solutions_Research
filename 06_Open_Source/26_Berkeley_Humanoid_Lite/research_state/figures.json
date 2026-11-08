@@ -1,0 +1,24 @@
+[
+  {
+    "file": "06_Open_Source/26_Berkeley_Humanoid_Lite/assets/figures/01_official.png",
+    "sha256": "4d963534ab26c2150ef79f3755f5b431bb37cb6ed5ac521814566ad07bed702a",
+    "source_id": "BHL_Web",
+    "source_url": "https://lite.berkeley-humanoid.org/static/berkeley-humaonid-lite-cover.png",
+    "original_file": "06_Open_Source/26_Berkeley_Humanoid_Lite/reference_metrial/webpages/BHL_Web--af029c1eb4611d25/assets/images/ac9c488afb1a499cb4b7a3b7.png",
+    "original_sha256": "9c9f03c2017158bcee9771813c4c45010abdc396eec2fffb1e586ff9e95b9379",
+    "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop.",
+    "label": "Berkeley Humanoid Lite",
+    "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+  },
+  {
+    "file": "06_Open_Source/26_Berkeley_Humanoid_Lite/assets/figures/03_official_bom.png",
+    "sha256": "4e4748b3dc2391fa5868f0412059bdd3f810ed065dcd8c9689ec262a9b75bec8",
+    "source_id": "BHL_Paper",
+    "source_url": "https://lite.berkeley-humanoid.org/static/paper/demonstrating-berkeley-humanoid-lite.pdf",
+    "original_file": "06_Open_Source/26_Berkeley_Humanoid_Lite/reference_metrial/documents/BHL_Paper--e6428fbe70a2d541/document.pdf",
+    "original_sha256": "2bb0f6907beb88a17a1c6b24ad604065f1ee61ba9c086250bf19c360735fb931",
+    "operation": "Poppler pdftoppm: complete PDF page 5, scale-to 1800, PNG; no crop.",
+    "label": "BHL paper BOM: US and China sourcing costs",
+    "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+  }
+]

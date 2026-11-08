@@ -1,0 +1,10 @@
+[
+  {
+    "name": "BHL_Actual_LICENSE",
+    "url": "https://raw.githubusercontent.com/HybridRobotics/berkeley-humanoid-lite/main/LICENCE",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

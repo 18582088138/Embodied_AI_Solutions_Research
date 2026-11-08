@@ -1,0 +1,26 @@
+[
+  {
+    "name": "BHL_Web",
+    "url": "https://lite.berkeley-humanoid.org/",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "BHL_README",
+    "url": "https://raw.githubusercontent.com/HybridRobotics/Berkeley-Humanoid-Lite/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "BHL_LICENSE",
+    "url": "https://raw.githubusercontent.com/HybridRobotics/Berkeley-Humanoid-Lite/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]
