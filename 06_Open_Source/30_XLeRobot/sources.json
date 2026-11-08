@@ -1,0 +1,158 @@
+[
+  {
+    "id": "XLeRobot_Photo",
+    "aliases": [
+      "XLeRobot_Photo"
+    ],
+    "url": "https://github.com/user-attachments/assets/f9c454ee-2c46-42b4-a5d7-88834a1c95ab",
+    "archive_status": "failed",
+    "archived_at_utc": "2026-11-08T06:53:27.215854+00:00",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "error": "PermissionError: redirect destination disallowed; not requested",
+    "catalog_anchor": "ref-37ba369ac0a0f3ae",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "XLeRobot_LICENSE",
+    "aliases": [
+      "XLeRobot_LICENSE"
+    ],
+    "url": "https://raw.githubusercontent.com/Vector-Wangel/XLeRobot/main/LICENSE",
+    "final_url": "https://raw.githubusercontent.com/Vector-Wangel/XLeRobot/main/LICENSE",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:51:47.605610+00:00",
+    "retrieved_at_utc": "2026-11-08T06:51:49.169924+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "original_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "file": "06_Open_Source/30_XLeRobot/reference_metrial/data/XLeRobot_LICENSE--c6ab9a3b2b9d5a0c/content.txt",
+    "original_file": "06_Open_Source/30_XLeRobot/reference_metrial/data/XLeRobot_LICENSE--c6ab9a3b2b9d5a0c/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-c6ab9a3b2b9d5a0c",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "XLeRobot_README",
+    "aliases": [
+      "XLeRobot_README"
+    ],
+    "url": "https://raw.githubusercontent.com/Vector-Wangel/XLeRobot/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/Vector-Wangel/XLeRobot/main/README.md",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:51:45.775468+00:00",
+    "retrieved_at_utc": "2026-11-08T06:51:47.514764+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "d08b8dc992042bc225862527b8835c75c98a740b032964f414c39c5aba74d217",
+    "original_sha256": "d08b8dc992042bc225862527b8835c75c98a740b032964f414c39c5aba74d217",
+    "file": "06_Open_Source/30_XLeRobot/reference_metrial/data/XLeRobot_README--0fc53d343a6dad50/content.md",
+    "original_file": "06_Open_Source/30_XLeRobot/reference_metrial/data/XLeRobot_README--0fc53d343a6dad50/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-0fc53d343a6dad50",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "XLeRobot_Store_Photo",
+    "aliases": [
+      "XLeRobot_Store_Photo"
+    ],
+    "url": "https://shop.wowrobo.com/cdn/shop/files/en-01.jpg?v=1757607447",
+    "final_url": "https://shop.wowrobo.com/cdn/shop/files/en-01.jpg?v=1757607447",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:55:21.648019+00:00",
+    "retrieved_at_utc": "2026-11-08T06:55:24.160413+00:00",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "sha256": "a7fd64b37d29aaf7cce77f7eee476e1a12c1765b81d16b32576b68fd70db5902",
+    "original_sha256": "a7fd64b37d29aaf7cce77f7eee476e1a12c1765b81d16b32576b68fd70db5902",
+    "file": "06_Open_Source/30_XLeRobot/reference_metrial/data/XLeRobot_Store_Photo--dbab3495780f5d48/content.jpg",
+    "original_file": "06_Open_Source/30_XLeRobot/reference_metrial/data/XLeRobot_Store_Photo--dbab3495780f5d48/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-dbab3495780f5d48",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "XLeRobot_Store",
+    "aliases": [
+      "XLeRobot_Store"
+    ],
+    "url": "https://shop.wowrobo.com/products/xlerobot-dual-arm-mobile-household-robot-kit?variant=47297659961561",
+    "final_url": "https://shop.wowrobo.com/products/xlerobot-dual-arm-mobile-household-robot-kit?variant=47297659961561",
+    "archive_status": "partial_static",
+    "archived_at_utc": "2026-11-08T06:53:31.245978+00:00",
+    "retrieved_at_utc": "2026-11-08T06:53:34.834258+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "bc6ac43c15be8e88585c67367a1b9d06c0cabb266ae24183b623f6d22c7b5a79",
+    "original_sha256": "bc0a2312b14dccf9565dfc17ed192592f77a8866eb4709274cb5f68ccd483d50",
+    "file": "06_Open_Source/30_XLeRobot/reference_metrial/webpages/XLeRobot_Store--7aa82b10777502dc/index.html",
+    "original_file": "06_Open_Source/30_XLeRobot/reference_metrial/webpages/XLeRobot_Store--7aa82b10777502dc/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "visible_text_unchanged": true,
+    "catalog_anchor": "ref-7aa82b10777502dc",
+    "assets_count": 43,
+    "unavailable_assets_count": 71,
+    "unavailable_presentation_assets_count": 60
+  },
+  {
+    "id": "XLeRobot_Material",
+    "aliases": [
+      "XLeRobot_Material"
+    ],
+    "url": "https://xlerobot.readthedocs.io/en/latest/hardware/getting_started/material.html",
+    "final_url": "https://xlerobot.readthedocs.io/en/latest/hardware/getting_started/material.html",
+    "archive_status": "partial_static",
+    "archived_at_utc": "2026-11-08T06:53:47.296946+00:00",
+    "retrieved_at_utc": "2026-11-08T06:53:49.329638+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "fd2155e1322b75e1ef5b3960a3be9429d2a034e1df1a2f5ff351119bc3b7bbcc",
+    "original_sha256": "132950755570b4c8936bc191edd57cc30a1bef95c27bd5bb8aa152d9e62985b9",
+    "file": "06_Open_Source/30_XLeRobot/reference_metrial/webpages/XLeRobot_Material--e8f85c022595bc7e/index.html",
+    "original_file": "06_Open_Source/30_XLeRobot/reference_metrial/webpages/XLeRobot_Material--e8f85c022595bc7e/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "visible_text_unchanged": true,
+    "catalog_anchor": "ref-e8f85c022595bc7e",
+    "assets_count": 0,
+    "unavailable_assets_count": 29,
+    "unavailable_presentation_assets_count": 16
+  },
+  {
+    "id": "XLeRobot_VLA",
+    "aliases": [
+      "XLeRobot_VLA"
+    ],
+    "url": "https://xlerobot.readthedocs.io/en/latest/software/getting_started/RL_VLA.html",
+    "archive_status": "failed",
+    "archived_at_utc": "2026-11-08T06:53:49.698886+00:00",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "error": "HTTPError: HTTP Error 404: Not Found",
+    "catalog_anchor": "ref-f5688037795678c6",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "file": "06_Open_Source/30_XLeRobot/assets/figures/01_official.png",
+    "sha256": "6d7c5330e09814c74249326bb137cd4babb348b8cb0ae0e88e802437e45ff1b3",
+    "source_id": "XLeRobot_Store_Photo",
+    "source_url": "https://shop.wowrobo.com/cdn/shop/files/en-01.jpg?v=1757607447",
+    "original_file": "06_Open_Source/30_XLeRobot/reference_metrial/data/XLeRobot_Store_Photo--dbab3495780f5d48/content.jpg",
+    "original_sha256": "a7fd64b37d29aaf7cce77f7eee476e1a12c1765b81d16b32576b68fd70db5902",
+    "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop.",
+    "label": "XLeRobot supplier product and kit contents",
+    "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+  }
+]

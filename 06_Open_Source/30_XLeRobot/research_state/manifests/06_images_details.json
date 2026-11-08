@@ -1,0 +1,34 @@
+[
+  {
+    "name": "XLeRobot_Photo",
+    "url": "https://github.com/user-attachments/assets/f9c454ee-2c46-42b4-a5d7-88834a1c95ab",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "XLeRobot_Store",
+    "url": "https://shop.wowrobo.com/products/xlerobot-dual-arm-mobile-household-robot-kit?variant=47297659961561",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "XLeRobot_Material",
+    "url": "https://xlerobot.readthedocs.io/en/latest/hardware/getting_started/material.html",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "XLeRobot_VLA",
+    "url": "https://xlerobot.readthedocs.io/en/latest/software/getting_started/RL_VLA.html",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]
