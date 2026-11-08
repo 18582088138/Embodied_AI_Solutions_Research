@@ -1,0 +1,32 @@
+[
+  {
+    "sku": "WowRobo OpenArm V2",
+    "amount": 6500,
+    "currency": "USD",
+    "type": "official_vendor_directory_list",
+    "source_id": "OpenArm_Purchase",
+    "source_published_on": "2026-11-02",
+    "excluded": "需核对Cell/KER/相机/主机/税运",
+    "collected_on": "2026-11-08 Asia/Shanghai",
+    "not_a_transaction": true
+  },
+  {
+    "sku": "Soma OpenArm目录单位",
+    "amount": 45800,
+    "currency": "CNY",
+    "type": "official_vendor_directory_list",
+    "source_id": "OpenArm_Purchase",
+    "source_published_on": "2026-11-02",
+    "collected_on": "2026-11-08 Asia/Shanghai",
+    "not_a_transaction": true
+  },
+  {
+    "sku": "Cereboto V2 with camera",
+    "amount": 7080,
+    "currency": "USD",
+    "type": "official_vendor_directory_list",
+    "source_id": "OpenArm_Purchase",
+    "collected_on": "2026-11-08 Asia/Shanghai",
+    "not_a_transaction": true
+  }
+]

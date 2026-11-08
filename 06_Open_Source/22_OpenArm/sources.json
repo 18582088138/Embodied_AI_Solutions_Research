@@ -1,0 +1,220 @@
+[
+  {
+    "id": "OpenArm_Purchase",
+    "aliases": [
+      "OpenArm_Purchase"
+    ],
+    "url": "https://docs.openarm.dev/purchase",
+    "final_url": "https://docs.openarm.dev/purchase/",
+    "archive_status": "partial_static",
+    "archived_at_utc": "2026-11-08T06:48:31.797162+00:00",
+    "retrieved_at_utc": "2026-11-08T06:48:34.602455+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "b99d45c8d2cd737bcfb6b47269cf1472e4bc34ee9cac07c0523b78e09f9d1259",
+    "original_sha256": "52b2dce788f1eb116a4d7b08b85f7c3cf7c0c4399dd5d8f2792fc18eb08325a8",
+    "file": "06_Open_Source/22_OpenArm/reference_metrial/webpages/OpenArm_Purchase--341cded9a32feaa5/index.html",
+    "original_file": "06_Open_Source/22_OpenArm/reference_metrial/webpages/OpenArm_Purchase--341cded9a32feaa5/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "visible_text_unchanged": true,
+    "catalog_anchor": "ref-341cded9a32feaa5",
+    "assets_count": 9,
+    "unavailable_assets_count": 3,
+    "unavailable_presentation_assets_count": 3
+  },
+  {
+    "id": "OpenArm_Web",
+    "aliases": [
+      "OpenArm_Web"
+    ],
+    "url": "https://openarm.dev/",
+    "final_url": "https://openarm.dev/",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:45:13.888336+00:00",
+    "retrieved_at_utc": "2026-11-08T06:45:16.624424+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "12093d206aa298ddafa13e98323e878427648adedba7cec0934ca2e75b02ad7e",
+    "original_sha256": "850c3ff4b405492d2880eb686e4e368289279af38998b6e37738faa077ecafb1",
+    "file": "06_Open_Source/22_OpenArm/reference_metrial/webpages/OpenAr--bb6f7ad72c971345/index.html",
+    "original_file": "06_Open_Source/22_OpenArm/reference_metrial/webpages/OpenAr--bb6f7ad72c971345/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "visible_text_unchanged": true,
+    "catalog_anchor": "ref-bb6f7ad72c971345",
+    "assets_count": 33,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "OpenArm_LICENSE",
+    "aliases": [
+      "OpenArm_LICENSE"
+    ],
+    "url": "https://raw.githubusercontent.com/enactic/openarm/main/LICENSE",
+    "final_url": "https://raw.githubusercontent.com/enactic/openarm/main/LICENSE",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:45:34.659898+00:00",
+    "retrieved_at_utc": "2026-11-08T06:45:35.854946+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "original_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "file": "06_Open_Source/22_OpenArm/reference_metrial/data/OpenArm_LI--1f2eb7da6f29867c/content.txt",
+    "original_file": "06_Open_Source/22_OpenArm/reference_metrial/data/OpenArm_LI--1f2eb7da6f29867c/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-1f2eb7da6f29867c",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "OpenArm_Hardware",
+    "aliases": [
+      "OpenArm_Hardware"
+    ],
+    "url": "https://raw.githubusercontent.com/enactic/openarm/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/enactic/openarm/main/README.md",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:45:33.006102+00:00",
+    "retrieved_at_utc": "2026-11-08T06:45:34.631762+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "5c8117f65aab2ddb63718c0c9b083fa0205d0172e2c8c5b3e32f304960ddf54d",
+    "original_sha256": "5c8117f65aab2ddb63718c0c9b083fa0205d0172e2c8c5b3e32f304960ddf54d",
+    "file": "06_Open_Source/22_OpenArm/reference_metrial/data/OpenArm_Ha--6a2e75357ba7019c/content.md",
+    "original_file": "06_Open_Source/22_OpenArm/reference_metrial/data/OpenArm_Ha--6a2e75357ba7019c/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-6a2e75357ba7019c",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "OpenArm_Cell_Photo",
+    "aliases": [
+      "OpenArm_Cell_Photo"
+    ],
+    "url": "https://raw.githubusercontent.com/enactic/openarm/main/website/static/img/hardware/openarm_and_cell.png",
+    "final_url": "https://raw.githubusercontent.com/enactic/openarm/main/website/static/img/hardware/openarm_and_cell.png",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:56:50.040411+00:00",
+    "retrieved_at_utc": "2026-11-08T06:56:53.261803+00:00",
+    "status": 200,
+    "content_type": "image/png",
+    "sha256": "6616eeb3837e06ddd18af8e3a665bdf0daea17ed88c1e0af09da6b91afe3825a",
+    "original_sha256": "6616eeb3837e06ddd18af8e3a665bdf0daea17ed88c1e0af09da6b91afe3825a",
+    "file": "06_Open_Source/22_OpenArm/reference_metrial/data/OpenArm_Cell_Photo--3c0a1b1171841c70/content.png",
+    "original_file": "06_Open_Source/22_OpenArm/reference_metrial/data/OpenArm_Cell_Photo--3c0a1b1171841c70/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-3c0a1b1171841c70",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "OpenArm_Hardware_LICENSE",
+    "aliases": [
+      "OpenArm_Hardware_LICENSE"
+    ],
+    "url": "https://raw.githubusercontent.com/enactic/openarm_hardware/main/LICENSE.txt",
+    "final_url": "https://raw.githubusercontent.com/enactic/openarm_hardware/main/LICENSE.txt",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:48:39.207612+00:00",
+    "retrieved_at_utc": "2026-11-08T06:48:40.080153+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "253ad3f89603e728abfa60c36fbcaf8225cf55c1eab12725f19fb3d74d647f3a",
+    "original_sha256": "253ad3f89603e728abfa60c36fbcaf8225cf55c1eab12725f19fb3d74d647f3a",
+    "file": "06_Open_Source/22_OpenArm/reference_metrial/data/OpenArm_Hardware_LICENSE--6b26d3a2f8ee34dc/content.txt",
+    "original_file": "06_Open_Source/22_OpenArm/reference_metrial/data/OpenArm_Hardware_LICENSE--6b26d3a2f8ee34dc/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-6b26d3a2f8ee34dc",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "OpenArm_Hardware_README",
+    "aliases": [
+      "OpenArm_Hardware_README"
+    ],
+    "url": "https://raw.githubusercontent.com/enactic/openarm_hardware/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/enactic/openarm_hardware/main/README.md",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:48:37.573549+00:00",
+    "retrieved_at_utc": "2026-11-08T06:48:39.161094+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "987ef42a6f28422970c870fed12c9b1c2908850dabd773c10da14bc7679e8ec3",
+    "original_sha256": "987ef42a6f28422970c870fed12c9b1c2908850dabd773c10da14bc7679e8ec3",
+    "file": "06_Open_Source/22_OpenArm/reference_metrial/data/OpenArm_Hardware_README--38393ce4074bfdfb/content.md",
+    "original_file": "06_Open_Source/22_OpenArm/reference_metrial/data/OpenArm_Hardware_README--38393ce4074bfdfb/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-38393ce4074bfdfb",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "OpenArm_ROS2_LICENSE",
+    "aliases": [
+      "OpenArm_ROS2_LICENSE"
+    ],
+    "url": "https://raw.githubusercontent.com/enactic/openarm_ros2/main/LICENSE",
+    "final_url": "https://raw.githubusercontent.com/enactic/openarm_ros2/main/LICENSE",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:48:40.970898+00:00",
+    "retrieved_at_utc": "2026-11-08T06:48:42.348687+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "original_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "file": "06_Open_Source/22_OpenArm/reference_metrial/data/OpenArm_ROS2_LICENSE--27f99f15fe4c2ebc/content.txt",
+    "original_file": "06_Open_Source/22_OpenArm/reference_metrial/data/OpenArm_ROS2_LICENSE--27f99f15fe4c2ebc/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-27f99f15fe4c2ebc",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  },
+  {
+    "id": "OpenArm_ROS2",
+    "aliases": [
+      "OpenArm_ROS2"
+    ],
+    "url": "https://raw.githubusercontent.com/enactic/openarm_ros2/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/enactic/openarm_ros2/main/README.md",
+    "archive_status": "complete_static",
+    "archived_at_utc": "2026-11-08T06:48:40.147626+00:00",
+    "retrieved_at_utc": "2026-11-08T06:48:40.925367+00:00",
+    "status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "8219a0a7c525da66ccc1dba3a127b84db919985f364e69d5e4dd7ca0c6d5720a",
+    "original_sha256": "8219a0a7c525da66ccc1dba3a127b84db919985f364e69d5e4dd7ca0c6d5720a",
+    "file": "06_Open_Source/22_OpenArm/reference_metrial/data/OpenArm_ROS2--fa70bac5819056b7/content.md",
+    "original_file": "06_Open_Source/22_OpenArm/reference_metrial/data/OpenArm_ROS2--fa70bac5819056b7/original.response",
+    "used_by": [
+      "01_Product_Research"
+    ],
+    "catalog_anchor": "ref-fa70bac5819056b7",
+    "assets_count": 0,
+    "unavailable_assets_count": 0,
+    "unavailable_presentation_assets_count": 0
+  }
+]

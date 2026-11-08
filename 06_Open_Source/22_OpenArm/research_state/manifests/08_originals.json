@@ -1,0 +1,10 @@
+[
+  {
+    "name": "OpenArm_Cell_Photo",
+    "url": "https://raw.githubusercontent.com/enactic/openarm/main/website/static/img/hardware/openarm_and_cell.png",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

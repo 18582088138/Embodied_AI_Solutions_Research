@@ -1,0 +1,22 @@
+{
+  "report": "06_Open_Source/22_OpenArm/01_Product_Research.md",
+  "body_han_chars": 1829,
+  "tables": 1,
+  "sources": 8,
+  "archive_status": {
+    "complete_static": 7,
+    "partial_static": 1
+  },
+  "figures": 1,
+  "file_hash_checks": 60,
+  "html_visible_text_equal": 2,
+  "page_local_dependencies_checked": 55,
+  "report_local_links": 7,
+  "other_reports_unchanged": {},
+  "errors": [],
+  "warnings": [
+    "静态依赖部分缺失: OpenArm_Purchase（报告应披露）"
+  ],
+  "outcome": "pass",
+  "limits": "结构、归档与审阅记录检查；未自动证明事实正确或开展实机测试"
+}

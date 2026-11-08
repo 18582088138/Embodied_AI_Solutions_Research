@@ -1,0 +1,13 @@
+[
+  {
+    "file": "06_Open_Source/22_OpenArm/assets/figures/01_official.png",
+    "sha256": "d0633bdbf56edd09892384c6e6d61376af52a018980c084a09d03169084477d5",
+    "source_id": "OpenArm_Cell_Photo",
+    "source_url": "https://raw.githubusercontent.com/enactic/openarm/main/website/static/img/hardware/openarm_and_cell.png",
+    "original_file": "06_Open_Source/22_OpenArm/reference_metrial/data/OpenArm_Cell_Photo--3c0a1b1171841c70/content.png",
+    "original_sha256": "6616eeb3837e06ddd18af8e3a665bdf0daea17ed88c1e0af09da6b91afe3825a",
+    "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop.",
+    "label": "OpenArm and evaluation Cell",
+    "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+  }
+]

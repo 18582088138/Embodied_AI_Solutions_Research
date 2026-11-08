@@ -1,0 +1,42 @@
+[
+  {
+    "name": "OpenArm_Purchase",
+    "url": "https://docs.openarm.dev/purchase",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "OpenArm_Hardware_README",
+    "url": "https://raw.githubusercontent.com/enactic/openarm_hardware/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "OpenArm_Hardware_LICENSE",
+    "url": "https://raw.githubusercontent.com/enactic/openarm_hardware/main/LICENSE.txt",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "OpenArm_ROS2",
+    "url": "https://raw.githubusercontent.com/enactic/openarm_ros2/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "OpenArm_ROS2_LICENSE",
+    "url": "https://raw.githubusercontent.com/enactic/openarm_ros2/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "source_ids": [
+    "OpenArm_Web",
+    "OpenArm_Hardware",
+    "OpenArm_ROS2",
+    "OpenArm_Purchase",
+    "OpenArm_Hardware_README",
+    "OpenArm_Hardware_LICENSE",
+    "OpenArm_ROS2_LICENSE",
+    "OpenArm_Cell_Photo"
+  ],
+  "figures": [
+    {
+      "file": "06_Open_Source/22_OpenArm/assets/figures/01_official.png",
+      "sha256": "d0633bdbf56edd09892384c6e6d61376af52a018980c084a09d03169084477d5",
+      "source_id": "OpenArm_Cell_Photo",
+      "source_url": "https://raw.githubusercontent.com/enactic/openarm/main/website/static/img/hardware/openarm_and_cell.png",
+      "original_file": "06_Open_Source/22_OpenArm/reference_metrial/data/OpenArm_Cell_Photo--3c0a1b1171841c70/content.png",
+      "original_sha256": "6616eeb3837e06ddd18af8e3a665bdf0daea17ed88c1e0af09da6b91afe3825a",
+      "operation": "Decoded original image to PNG; aspect ratio preserved, maximum 1900 px; no content crop.",
+      "label": "OpenArm and evaluation Cell",
+      "visual_review": "已通过view_image逐张打开：产品/架构/成本图内容匹配，比例保持，无空白/截断；动画取样帧不代表完整动作质量。"
+    }
+  ],
+  "claim_review": [
+    {
+      "source_id": "OpenArm_Purchase",
+      "claim": "采购目录价格、版本、地域和供应商评价",
+      "location": "All Manufacturers，last updated Nov2,2026",
+      "conditions": "目录列价，非正式成交；不同配置",
+      "finding": "逐行保留版本和评价，不构成等配置最低价排名。",
+      "evidence_type": "事实"
+    },
+    {
+      "source_id": "OpenArm_Hardware",
+      "claim": "1.0/2.0兼容矩阵与七自由度定位",
+      "location": "Repositories表、简介",
+      "conditions": "main归档，不等于全部功能实机可用",
+      "finding": "Isaac Lab/teleop等2.0状态单列。",
+      "evidence_type": "事实"
+    },
+    {
+      "source_id": "OpenArm_Hardware_LICENSE",
+      "claim": "硬件采用CERN-OHL-S v2",
+      "location": "LICENSE.txt",
+      "conditions": "硬件完整源与发行义务",
+      "finding": "不与Apache软件许可混用。",
+      "evidence_type": "事实"
+    }
+  ],
+  "manual_review": {
+    "coverage": "已逐项审阅市场定位、价格口径、国内/海外获取、软硬件及数据链路、分层许可、优劣势、条件选型和验证步骤。",
+    "versions_and_measurements": "以2026-11-08归档为可追溯快照；论文/BOM/供应商报价分开；未将展示、峰值或仿真替换为实机验收。",
+    "maturity_and_licenses": "代码和硬件许可分别核对，权重/数据/外部依赖按正文列出未取得部分；没有用仓库可见性代替商用授权。",
+    "figures_opened": "正文全部图片已逐张通过view_image打开核查；图源、版本和衍生操作保留在figures.json。"
+  }
+}

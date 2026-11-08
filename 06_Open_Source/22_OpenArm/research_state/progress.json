@@ -1,0 +1,16 @@
+{
+  "platform": "OpenArm：开放硬件的接触操作与双臂科研平台",
+  "scope": "产品级综合专题：定位、软硬件、开源边界、价位、国内外、优劣势与PoC",
+  "data_cutoff": "2026-11-08 Asia/Shanghai",
+  "authorization": "用户要求在研究库增加开源具身智能方案子项目；当前续接已有产品级首轮报告并完成核验。",
+  "review_status": "首轮报告已完成来源、图片与结构/归档复核；尚未取得用户审阅或实机验收",
+  "research_type": "product_multidimensional",
+  "completed_dimensions": [
+    "01_Product_Research"
+  ],
+  "current_dimension": null,
+  "pending_evidence": "官网动态统计初始值为0，未作为规格；部分静态依赖缺失。CAD主包、硬件实测、所有权重/数据许可及供应商实际交付状态未完整验收。",
+  "next_step": "按正文证据缺口补深；采购询价、完整许可审计和实机验证另记。",
+  "report_depth": "first_round_product_research",
+  "validation_on": "2026-11-08 Asia/Shanghai"
+}

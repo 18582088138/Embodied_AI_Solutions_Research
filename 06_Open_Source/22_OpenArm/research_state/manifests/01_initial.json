@@ -1,0 +1,26 @@
+[
+  {
+    "name": "OpenArm_Web",
+    "url": "https://openarm.dev/",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "OpenArm_Hardware",
+    "url": "https://raw.githubusercontent.com/enactic/openarm/main/README.md",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  },
+  {
+    "name": "OpenArm_LICENSE",
+    "url": "https://raw.githubusercontent.com/enactic/openarm/main/LICENSE",
+    "expected": "any",
+    "used_by": [
+      "01_Product_Research"
+    ]
+  }
+]

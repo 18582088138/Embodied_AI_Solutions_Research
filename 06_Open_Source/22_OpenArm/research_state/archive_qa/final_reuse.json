@@ -1,0 +1,22 @@
+{
+  "time_utc": "2026-11-08T07:18:20.042086+00:00",
+  "summary": {
+    "complete_static": 7,
+    "partial_static": 1,
+    "failed": 0
+  },
+  "names": [
+    "OpenArm_Web",
+    "OpenArm_Hardware",
+    "OpenArm_ROS2",
+    "OpenArm_Purchase",
+    "OpenArm_Hardware_README",
+    "OpenArm_Hardware_LICENSE",
+    "OpenArm_ROS2_LICENSE",
+    "OpenArm_Cell_Photo"
+  ],
+  "network_requests_including_robots": 0,
+  "new_assets": 0,
+  "asset_attempts": 0,
+  "tool": "toolkit/download_materials.py"
+}
